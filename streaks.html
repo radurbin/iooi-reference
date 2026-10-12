@@ -44,6 +44,31 @@ page("Streaks & Milestones", async (main) => {
   const who = (m) => (m.kind === "player" ? pLink(m.key, m.name) : m.kind === "manager" ? mLink(m.key) : fLink(m.key, m.name));
   const kinds = { franchise: "Franchise", manager: "Manager", player: "Player" };
   const m = s.milestones;
+  // Best stretches: one set of tables, redrawn for the chosen number of weeks.
+  const st = s.stretches;
+  const stretchBox = h("div");
+  const spanOf = (r) => `Weeks ${r.from.week}-${r.to.week}`;
+  const stretchCols = (who) => [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    ...who,
+    { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, cls: "win", title: "Points over the stretch" },
+    { label: "Avg", value: (r) => r.avg, render: (r) => fmt.pts(r.avg), num: true },
+    { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) },
+    { label: "Span", value: (r) => r.from.week, render: (r) => spanOf(r) },
+    { label: "From", value: (r) => r.from.game, render: (r) => gLink(r.from.game, `wk ${r.from.week}`), title: "First game of the stretch" },
+    { label: "To", value: (r) => r.to.game, render: (r) => gLink(r.to.game, `wk ${r.to.week}`), title: "Last game of the stretch" },
+  ];
+  const teamCol = { label: "Team", value: (r) => r.teams.join(", "), render: (r) => tsLink(r.season, r.franchise, r.teams.at(-1)), title: "Team name that season" };
+  const drawStretch = (n) => {
+    stretchBox.replaceChildren(
+      h("p", {}, h("b", {}, "Consecutive weeks: "), st.spans.flatMap((x, i) => [i ? " · " : "", x === n ? h("b", {}, x) : h("a", { href: "#", onclick: (e) => { e.preventDefault(); drawStretch(x); } }, x)])),
+      h("h3", {}, `Franchises: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.franchises[n]), columns: stretchCols([{ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }, teamCol]) }),
+      h("h3", {}, `Managers: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.managers[n]), columns: stretchCols([{ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }, teamCol]) }),
+      h("h3", {}, `Players: Most Points in ${n} Straight Starts`), statTable({ rows: rank(st.players[n]), columns: stretchCols([
+        { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" }, { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Team(s)", value: (r) => r.teams.join(", "), title: "Teams he started for during the stretch" }]) }));
+  };
+  drawStretch(5);
   main.append(
     h("h1", {}, "Dynasty iooi Streaks & Milestones"),
     h("p", { class: "note" }, "Team streaks and milestones count regular-season and Dynasty Playoff games. Toilet Bowl games are left out, as in the Elo ratings."),
@@ -55,6 +80,7 @@ page("Streaks & Milestones", async (main) => {
     section("Consecutive Starts", h("p", { class: "note" }, "Games in a row in an iooi starting lineup, in any lineup slot and for any franchise. An NFL bye week is skipped: it neither adds to the streak nor ends it. A week on the bench, or off every iooi roster, ends it."),
       statTable({ rows: rank(s.players.starts), columns: playerCols("starts") })),
     section(`Consecutive ${s.players.big_game}-Point Starts`, statTable({ rows: rank(s.players.big_games), columns: playerCols("starts") })),
+    section("Best Stretches", h("p", { class: "note" }, "The most points over a run of consecutive weeks within one season, playoffs and Toilet Bowl included. A team or player appears more than once only for stretches that do not overlap. For players the weeks must all be starts; an NFL bye is skipped, and a week on the bench ends the run."), stretchBox),
     section("Playoff Runs and Droughts", statTable({
       rows: s.postseason,
       columns: [

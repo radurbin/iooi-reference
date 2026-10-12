@@ -62,7 +62,7 @@ page("Constitution", async (main) => {
     section("Contents",
       h("p", {}, h("b", {}, "Articles: "), doc.articles.flatMap((a, i) => [i ? " · " : "", h("a", { href: `#article-${roman[a.number]}` }, `${a.number}. ${a.title}`)])),
       h("p", {}, h("b", {}, "Amendments: "), doc.bills.flatMap((b) => b.amendments).flatMap((am, i) => [i ? " · " : "", h("a", { href: `#amendment-${am.number}` }, `${am.number}. ${am.name}`)])),
-      h("p", { class: "note" }, "Transcribed from the original with spelling corrected. Article names in the contents are descriptive and are not part of the document.")),
+      h("p", { class: "note" }, "Article names in the contents are descriptive and are not part of the document.")),
     sheet);
   return "Constitution";
 });

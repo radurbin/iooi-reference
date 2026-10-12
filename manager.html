@@ -21,6 +21,21 @@
 page("Manager", async (main) => {
   const m = await load(`managers/${param("id") || L.commissioner}`);
   const t = m.totals;
+  const slotName = (slot) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex" })[slot] ?? slot;
+  const leaderCols = [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name) },
+    { label: "Pos", value: (r) => r.pos, cls: "c" },
+    { label: "Years", value: (r) => r.years, cls: "c" },
+    { label: "G", value: (r) => r.g, num: true },
+    { label: "GS", value: (r) => r.gs, num: true },
+    { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+    { label: "Pts/GS", value: (r) => r.pts / r.gs, render: (r) => fmt.pts(r.pts / r.gs), num: true },
+    { label: "Best", value: (r) => r.best, render: (r) => fmt.pts(r.best), num: true },
+    { label: "VOR", value: (r) => r.vor, render: (r) => fmt.pts1(r.vor), num: true },
+    { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true },
+    { label: "W", value: (r) => r.wins, num: true, title: "Team wins in games he started" },
+  ];
   main.append(
     h("div", { class: "crumbs" }, h("a", { href: "index.html#managers" }, "Managers"), ` › ${m.name}`),
     bio({
@@ -57,6 +72,34 @@ page("Manager", async (main) => {
         { label: "Notes", render: (r) => (r.partial_season ? "Partial season" : ""), cls: "dim" },
       ],
     })),
+    m.leaders.overall.length ? [
+      section("All-Time Leaders", statTable({ rows: rank(m.leaders.overall), columns: leaderCols }),
+        h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(m.leaders.by_pos).flatMap((rows) => rank(rows)), columns: leaderCols }),
+        h("p", { class: "note" }, `Games started and points for a franchise while ${m.name} held a stake in it.`)),
+      section("All-Time Team", statTable({
+        sortable: false, rows: m.all_time_team,
+        columns: [
+          { label: "Slot", render: (r) => slotName(r.slot), cls: "win" },
+          { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
+          { label: "Pos", render: (r) => r.pos, cls: "c" },
+          { label: "Years", render: (r) => r.years, cls: "c" },
+          { label: "GS", render: (r) => r.gs, num: true },
+          { label: "Pts", render: (r) => fmt.pts(r.pts), num: true },
+          { label: "WAR", render: (r) => fmt.pts(r.war), num: true },
+        ],
+      }), h("p", { class: "note" }, `The best lineup from everyone who has started for ${m.name}, by starter points under this manager.`)),
+      section("Best Single Games", statTable({
+        rows: rank(m.best_games),
+        columns: [
+          { label: "Rk", value: (r) => r.rk, num: true },
+          { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name) },
+          { label: "Pos", value: (r) => r.pos, cls: "c" },
+          { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+          { label: "Team", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) },
+          { label: "Game", value: (r) => r.game, render: (r) => gLink(r.game, `${r.season} wk ${r.week}`) },
+        ],
+      })),
+    ] : null,
     section("Franchise Stakes", statTable({
       sortable: false, rows: m.stints,
       columns: [

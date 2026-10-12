@@ -500,7 +500,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
         for a in rows:
             groups[(a["season"], a["franchise"])].append(a)
         career = []
-        for (season, fid), group in sorted(groups.items()):
+        for (season, fid), group in sorted(groups.items(), key=lambda kv: (kv[0][0], min(a["week"] for a in kv[1]))):
             starts = [a for a in group if a["started"]]
             career.append({"season": season, "franchise": fid, "team": group[-1]["team"], "g": len(group), "gs": len(starts),
                            "pts": r2(sum(a["pts"] for a in starts)), "bench_pts": r2(sum(a["pts"] for a in group if not a["started"] and a["game"])),
@@ -729,7 +729,18 @@ def waiver_report(all_moves, appearances, people, name_on, absorbed_ids, players
     ranked = sorted(pickups, key=lambda p: -p["pts"])
     best = [p for p in ranked if skill(p)]
     seasons_seen = sorted({p["season"] for p in pickups})
+    by_season = {}
+    for season in seasons_seen:
+        rows = []
+        for fid in sorted({p["franchise"] for p in pickups} | {d["franchise"] for d in drops}):
+            mine = [p for p in pickups if p["season"] == season and p["franchise"] == fid]
+            rows.append({"franchise": fid, "claims": sum(1 for p in mine if p["type"] == "claim"), "signings": sum(1 for p in mine if p["type"] == "signing"), "adds": len(mine),
+                         "releases": sum(1 for d in drops if d["season"] == season and d["franchise"] == fid),
+                         "gs": sum(p["gs"] for p in mine), "pts": r2(sum(p["pts"] for p in mine)), "pts_per_add": r2(sum(p["pts"] for p in mine) / len(mine)) if mine else None})
+        by_season[season] = sorted(rows, key=lambda r: -r["pts"])
     return {
+        "log": {"pickups": pickups, "drops": drops},
+        "by_season": by_season,
         "counts": {"pickups": len(pickups), "claims": sum(1 for p in pickups if p["type"] == "claim"), "releases": len(drops)},
         "best": best[:50], "best_kdef": [p for p in ranked if not skill(p)][:25], "best_by_season": {s: [p for p in best if p["season"] == s][:10] for s in seasons_seen},
         # If a team released the same player more than once, only the final release cost them what followed.
@@ -1120,6 +1131,8 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
         out.append(entry)
         if complete:
             honors[mine[0]["player"]].append(f"{season} iooi MVP")
+            if entry["rookie"]:
+                honors[entry["rookie"][0]["player"]].append(f"{season} Rookie of the Year")
             for squad in teams:
                 for pick in squad["picks"]:
                     honors[pick["player"]].append(f"{season} All-iooi {squad['label']}")
@@ -1290,8 +1303,10 @@ def main():
                        key=lambda m: m["created"])
     franchise_moves = defaultdict(lambda: {"transactions": 0, "trades": 0})
     manager_moves = defaultdict(lambda: {"transactions": 0, "trades": 0})
+    # A correction the commissioner filed as its own trade belongs to the trade it corrected, and is not counted twice.
+    folded = {child for adj in load(MANUAL / "trade_adjustments.json")["trades"].values() for child in adj.get("absorb", [])}
     for move in all_moves:
-        if move["status"] != "complete" or move["type"] not in ("trade", "waiver", "free_agent"):
+        if move["status"] != "complete" or move["type"] not in ("trade", "waiver", "free_agent") or move["transaction_id"] in folded:
             continue
         for roster_id in move["roster_ids"]:
             targets = [franchise_moves[(move["season"], roster_id)]] + [manager_moves[(slug, move["season"], roster_id)] for slug in people.owners_on(roster_id, move["day"])]
@@ -1586,7 +1601,9 @@ def main():
     current = seasons[latest]
     on_roster = {fid: set(current["sides"].get((current["last_week"], fid), {"players": []})["players"]) for fid in range(1, 13)}
     dump(SITE / "draft_analysis.json", draft_analysis(all_picks, on_roster, latest))
-    dump(SITE / "waivers.json", waiver_report(all_moves, appearances, people, name_on, {c for a in adjustments.values() for c in a.get("absorb", [])}, players))
+    waivers = waiver_report(all_moves, appearances, people, name_on, {c for a in adjustments.values() for c in a.get("absorb", [])}, players)
+    dump(SITE / "waiver_log.json", waivers.pop("log"))   # every pickup and release; the team-season pages draw on it
+    dump(SITE / "waivers.json", waivers)
     dump(SITE / "trade_records.json", trade_records(trades, people))
     dump(SITE / "head_to_head.json", head_to_head(game_log))
     dump(SITE / "trades.json", trades)

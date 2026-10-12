@@ -67,7 +67,7 @@ const GLOSSARY = {
   "Trans": "Completed trades, waiver claims and free-agent moves", "Trades": "Completed trades",
   "Seed": "Playoff seeding position at the end of the regular season", "Finish": "Final place after the playoffs and Toilet Bowl",
   "Playoffs": "Dynasty Playoff result", "Plyf": "Playoff appearances", "Plyf W-L": "Record in Dynasty Playoff games",
-  "Titles": "League championships", "Active": "Seasons with a stake in a franchise", "Years": "Seasons with the franchise",
+  "Titles": "League championships", "Active": "Seasons with a stake in a franchise", "Years": "Seasons in which he started for the team or manager",
   "Season": "League season", "Week": "Week of the NFL season", "Date": "Date, US Central time", "When": "Date, US Central time",
   "Franchise": "Franchise, under its name at the time", "Franchise(s)": "Franchises managed", "Team": "Franchise, under its name at the time",
   "Team(s)": "Franchises he played for that season", "Manager": "Manager with a stake in the franchise at the time",
@@ -86,7 +86,9 @@ const GLOSSARY = {
   "Ult. Loser": "Loser of the Toilet Bowl final", "Ultimate Loser": "Loser of the Toilet Bowl final", "Top seed": "Best regular-season record",
   "Most points": "Most regular-season points", "Scoring title": "Most regular-season points", "Best lineup efficiency": "Highest share of Max PF actually scored",
   "Luckiest": "Most wins above expected", "Unluckiest": "Most wins below expected", "Winner": "Winning team", "Loser": "Losing team",
-  "Status": "Whether he is still on an iooi roster", 
+  "Status": "Where he stands today: on an iooi roster, a free agent with an NFL team, or without an NFL team",
+  "Claims": "Players added by waiver claim", "FA Adds": "Players signed as free agents", "Span": "Weeks the stretch covers", "Avg": "Points per week over the stretch",
+  
   "Opponent": "Opposing team", "Opp Pts": "Opponent's points", "Result": "Final score", "Stage": "Regular season, playoffs or Toilet Bowl", "Game": "Link to the box score",
   "Term": "Stat or term", "Abbr": "Column heading as it appears in tables", "Meaning": "What it means",
   "Elo": "Elo rating: 1500 is average; it rises with wins and falls with losses, by more for big margins and upsets",
@@ -198,6 +200,22 @@ function leaderBoxes(boards, linkOf) {
     h("ol", {}, b.rows.map((r) => h("li", {}, h("span", {}, linkOf(r)), h("b", {}, r.value.toFixed(b.digits))))))));
 }
 
+// What each side of a trade received, one line per side. players is players.json.
+function tradeTerms(t, players) {
+  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${ordinal(a.round)}-round pick${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : ""}`);
+  return t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a)]) : "nothing"));
+}
+const tradeStatus = { label: "Status", value: (t) => t.status, render: (t) => ({ complete: "", vetoed: "Vetoed", cancelled: "Withdrawn" })[t.status] ?? t.status, cls: "c", title: "Blank for a completed trade; otherwise vetoed by league vote or withdrawn during review" };
+
+// A player's standing today, from players.json: on an iooi roster, a free agent, or without an NFL team.
+const statusOrder = { rostered: 0, free_agent: 1, out: 2 };
+function statusText(st, linked = true) {
+  if (!st) return "";
+  if (st.code === "rostered") return linked ? fLink(st.franchise) : franchiseName(st.franchise);
+  if (st.code === "free_agent") return "Free agent";
+  return st.last_nfl ? `No NFL team (last played ${st.last_nfl})` : "No NFL team";
+}
+
 const section = (title, ...kids) => [h("h2", { id: title.toLowerCase().replace(/[^a-z0-9]+/g, "-") }, title), ...kids];
 const meta = (pairs) => h("ul", { class: "meta" }, pairs.filter((p) => p && p[1] != null && p[1] !== "").map(([k, v]) => h("li", {}, h("b", {}, `${k}: `), v)));
 const rank = (list) => list.map((row, i) => ({ ...row, rk: i + 1 }));
@@ -252,8 +270,9 @@ function siteMenus() {
     ["Managers", L.managers.map((m) => link(`manager.html?id=${m.id}`, m.name))],
     ["Players", [link("players.html", "Player Register"), link("leaders.html", "Career & Season Leaders"), link("awards.html", "MVP & All-iooi Teams"), link("alltime.html", "All-Time Teams"), link("hof.html", "Hall of Fame Monitor"),
       link("journeys.html", "Player Journeys"), link("aging.html", "Aging Curves & Rookie Classes"), link("nicknames.html", "Nickname Register")]],
-    ["Drafts", [...[...L.drafts].reverse().map((d) => link(`draft.html?y=${d.season}`, `${d.season} ${d.kind === "startup" ? "Startup" : "Rookie"} Draft`)),
-      link("split_draft.html", "2024 Split Draft"), link("drafts.html", "Draft Analysis"), link("picks.html", "Draft Pick Ledger"), link("lottery.html", "Draft Order & Lottery"), link("tankathon/", "Tankathon: Live Draft Order")]],
+    // The 2024 split draft sits in date order: after the 2024 rookie draft, before the 2023 startup draft.
+    ["Drafts", [...[...L.drafts].reverse().flatMap((d) => [d.kind === "startup" ? link("split_draft.html", "2024 Split Draft") : null, link(`draft.html?y=${d.season}`, `${d.season} ${d.kind === "startup" ? "Startup" : "Rookie"} Draft`)]).filter(Boolean),
+      link("drafts.html", "Draft Analysis"), link("picks.html", "Draft Pick Ledger"), link("lottery.html", "Draft Order & Lottery"), link("tankathon/", "Tankathon: Live Draft Order")]],
     ["Trades", [link("trades.html", "Trade Register"), link("trade_records.html", "Trade Records")]],
     ["Transactions", [link("waivers.html", "Waiver Wire"), ...years.map((s) => link(`transactions.html?y=${s.season}`, `${s.season} Transactions`))]],
     ["Leaders", [link("leaders.html", "Player Leaders"), link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("ratings.html", "Elo Ratings"), link("glossary.html", "Glossary")]],

@@ -20,7 +20,9 @@
 <script>
 page("Team Season", async (main) => {
   const y = param("y") || L.current_season, id = Number(param("id") || 1);
-  const t = await load(`teams/${y}-${id}`);
+  const [t, allTrades, players] = await Promise.all([load(`teams/${y}-${id}`), load("trades"), load("players")]);
+  const trades = allTrades.filter((x) => x.season === y && x.sides.some((s) => Number(s.franchise) === Number(id)));
+  const pName = (r) => players[r.player]?.name ?? r.player;
   const r = t.row, k = t.ranks;
   const name = (pid) => t.players[pid] ?? pid;
   const years = L.seasons.map((s) => s.season);
@@ -106,15 +108,45 @@ page("Team Season", async (main) => {
         { label: "Pts", render: (p) => fmt.pts(p.pts_team), num: true, title: "Career starter points for this franchise" },
       ],
     }), h("p", { class: "note" }, ["See the full ", h("a", { href: `draft.html?y=${y}` }, `${y} draft`), "."])) : null,
-    t.trades.length ? section("Trades", statTable({
-      sortable: false, rows: t.trades,
+    section("Trades", trades.length ? statTable({
+      rows: trades,
       columns: [
         { label: "Date", value: (x) => x.date },
-        { label: "With", render: (x) => x.with.flatMap((w, i) => [i ? ", " : "", tsLink(y, w.franchise, w.team)]), title: "Trade partner(s)" },
-        { label: "Got", value: (x) => x.got, num: true, title: "Players and picks received" },
+        { label: "When", value: (x) => x.week ?? 0, render: (x) => (x.week ? `Week ${x.week}` : "Offseason") },
+        { label: "Terms", render: (x) => tradeTerms(x, players) },
+        tradeStatus,
         { label: "", render: (x) => tLink(x.id, "details") },
       ],
-    })) : null,
+    }) : h("p", { class: "note" }, `No trades in the ${y} league year.`)),
+    section("Waiver Wire",
+      meta([["Waiver claims", t.pickups.filter((p) => p.type === "claim").length], ["Free-agent adds", t.pickups.filter((p) => p.type !== "claim").length], ["Releases", t.drops.length],
+        ["Starter points from pickups", fmt.pts(t.pickups.reduce((sum, p) => sum + p.pts, 0))]]),
+      h("h3", {}, "Pickups"), t.pickups.length ? statTable({
+        rows: t.pickups,
+        columns: [
+          { label: "Added", value: (r) => r.date },
+          { label: "Player", value: pName, render: (r) => pLink(r.player, pName(r)) },
+          { label: "Pos", value: (r) => players[r.player]?.pos, cls: "c" },
+          { label: "How", value: (r) => (r.type === "claim" ? "Waiver claim" : "Free agent") },
+          { label: "Until", value: (r) => r.until ?? "9999", render: (r) => r.until ?? "still there" },
+          { label: "G", value: (r) => r.g, num: true, title: "Weeks on this team's roster during the stint" },
+          { label: "GS", value: (r) => r.gs, num: true, title: "Starts for this team during the stint" },
+          { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, title: "Starter points for this team during the stint" },
+          { label: "Best", value: (r) => r.best, render: (r) => fmt.pts(r.best), num: true },
+        ],
+      }) : h("p", { class: "note" }, "None."),
+      h("h3", {}, "Releases"), t.drops.length ? statTable({
+        rows: t.drops,
+        columns: [
+          { label: "Released", value: (r) => r.date },
+          { label: "Player", value: pName, render: (r) => pLink(r.player, pName(r)) },
+          { label: "Pos", value: (r) => players[r.player]?.pos, cls: "c" },
+          { label: "GS since", value: (r) => r.gs, num: true },
+          { label: "Pts since", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+          { label: "Next started for", value: (r) => r.next_team ?? "", render: (r) => (r.next ? fLink(r.next, r.next_team) : "") },
+        ],
+      }) : h("p", { class: "note" }, "None."),
+      h("p", { class: "note" }, "A pickup is credited with what the player did as a starter for this team from the day he was added until he left it, in this season or later. Releases show what the player went on to do as a starter for other iooi teams. Click a column to sort.")),
     t.similar.length ? section("Similar Seasons", statTable({
       sortable: false, rows: t.similar,
       columns: [

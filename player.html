@@ -89,7 +89,8 @@ page("Player", async (main) => {
       tiles: stints.map((x) => h("a", { href: `franchise.html?id=${x.franchise}`, "data-tip": `${x.team}, ${x.seasons.join(", ")}` }, initials(x.team), h("small", {}, span(x.seasons)))),
       lines: [
         nicks.length ? [null, `(${nicks.join(", ")})`] : null,
-        [["Position", p.pos], ["NFL team", p.nfl_team ?? (p.pos === "DEF" ? null : "Free agent")]],
+        [["Position", p.pos], ["NFL team", p.nfl_team ?? (p.pos === "DEF" ? null : "None")]],
+        ["iooi Status", p.status && (p.status.code === "rostered" ? (last && last.season === L.current_season ? null : ["On the roster of ", fLink(p.status.franchise)]) : p.status.code === "free_agent" ? "Free agent" : `Not on an iooi roster and without an NFL team${p.status.last_nfl ? `; last played in the NFL in ${p.status.last_nfl}` : ""}`)],
         [null, height && p.weight ? `${height}, ${p.weight}lb` : null],
         ["Born", p.birth_date && `${p.birth_date}${age ? ` (Age: ${age})` : ""}`],
         ["College", p.college],

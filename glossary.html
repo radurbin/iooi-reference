@@ -44,6 +44,7 @@ page("Glossary", async (main) => {
       ["Bench Points", "Bench Pts", "Points scored in weeks spent on a roster but out of the lineup."],
       ["Dynasty Playoffs", "", "The six-team championship bracket, weeks 15 to 17. Seeds 1 and 2 have a first-round bye."],
       ["Toilet Bowl", "", "The bracket for seeds 7 to 12, in which the loser of each game advances. The loser of the final is the Ultimate Loser. Toilet Bowl games count in player stats and head-to-head records but not in Elo ratings, team streaks or team milestones."],
+      ["Player Status", "Status", "Where a player stands today. On an iooi roster: the team is named. Free agent: on no iooi roster but with an NFL team. No NFL team: on no iooi roster and unsigned in the NFL, with the last season he played. Sleeper does not record retirements, so a retired player and an unsigned one look the same."],
       ["Team name", "", "A franchise is shown under the name it used at the time of the game, trade or pick."],
     ])),
 
@@ -94,7 +95,7 @@ page("Glossary", async (main) => {
         ["Value", "", `${w.war} points per career WAR. A career below replacement level counts as zero.`],
         ["Service", "", `${w.start} of a point per start.`],
         ["Black Ink (Monitor)", "", "The player's Black Ink score, point for point."],
-        ["Honors", "", `MVP ${w.mvp}, All-iooi First Team ${w.first_team}, Second Team ${w.second_team}, Young Sexy Award ${w.young_sexy}. A championship is worth ${w.champion} to a player who started the title game and ${w.champion_regular} to one on the title roster who started at least half the team's games that season but not the final. A bench player on a title team gets nothing.`],
+        ["Honors", "", `MVP ${w.mvp}, All-iooi First Team ${w.first_team}, Second Team ${w.second_team}, Young Sexy Award ${w.young_sexy}, Rookie of the Year ${w.rookie_of_year}. A championship is worth ${w.champion} to a player who started the title game and ${w.champion_regular} to one on the title roster who started at least half the team's games that season but not the final. A bench player on a title team gets nothing.`],
       ])),
 
     section("Awards", terms([
@@ -129,6 +130,7 @@ page("Glossary", async (main) => {
     section("Streaks and Milestones", terms([
       ["Team Streak", "", "Consecutive wins or losses in regular-season and Dynasty Playoff games. Toilet Bowl games are skipped."],
       ["Player Streak", "", "Consecutive games in an iooi starting lineup, in any lineup slot and for any franchise. His NFL team's bye week is skipped: it neither adds to the streak nor ends it. A week on the bench, or off every iooi roster, ends it."],
+      ["Best Stretch", "", "The most points over 2 to 10 consecutive weeks within one season, for a franchise, a manager or a player. Stretches for the same team or player never overlap. A player's weeks must all be starts; an NFL bye is skipped."],
       ["Milestone", "", "A round number of starts, points or wins, with the date it was reached and those closest to the next one."],
     ])),
 

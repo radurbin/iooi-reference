@@ -20,7 +20,8 @@
 <script>
 page("Season", async (main) => {
   const y = param("y") || L.current_season;
-  const season = await load(`seasons/${y}`);
+  const [season, allTrades, waivers, players] = await Promise.all([load(`seasons/${y}`), load("trades"), load("waivers"), load("players")]);
+  const trades = allTrades.filter((t) => t.season === y);
   const info = L.seasons.find((s) => s.season === y);
   const name = (id) => fLink(id, info.teams[id]);
   const complete = season.status === "complete";
@@ -89,6 +90,46 @@ page("Season", async (main) => {
         })))),
         h("p", { class: "note" }, "Each row is a team's record had it played another team's regular-season schedule with its own weekly scores. The shaded cell is the actual record; green is better than actual, red worse. Column numbers follow the row order.")];
     })()),
+    section("Trades", trades.length ? statTable({
+      rows: trades,
+      columns: [
+        { label: "Date", value: (t) => t.date },
+        { label: "When", value: (t) => t.week ?? 0, render: (t) => (t.week ? `Week ${t.week}` : "Offseason") },
+        { label: "Terms", render: (t) => tradeTerms(t, players) },
+        tradeStatus,
+        { label: "", render: (t) => tLink(t.id, "details") },
+      ],
+    }) : h("p", { class: "note" }, "No trades yet."),
+      h("p", { class: "note" }, [`${trades.filter((t) => t.status === "complete").length} completed trades in the ${y} league year, which runs from the end of the previous season. All seasons are in the `, h("a", { href: "trades.html" }, "trade register"), "."])),
+    section("Waiver Wire", waivers.by_season[y] ? [statTable({
+      rows: waivers.by_season[y],
+      foot: { total: true, ...Object.fromEntries(["claims", "signings", "adds", "releases", "gs", "pts"].map((k) => [k, waivers.by_season[y].reduce((sum, r) => sum + r[k], 0)])) },
+      columns: [
+        { label: "Team", value: (r) => (r.total ? "" : info.teams[r.franchise]), render: (r) => (r.total ? "League" : tsLink(y, r.franchise)) },
+        { label: "Claims", value: (r) => r.claims, num: true },
+        { label: "FA Adds", value: (r) => r.signings, num: true },
+        { label: "Adds", value: (r) => r.adds, num: true, title: "Waiver claims plus free-agent signings" },
+        { label: "Releases", value: (r) => r.releases, num: true },
+        { label: "GS", value: (r) => r.gs, num: true, title: "Starts made for the team by these pickups, in any season" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, title: "Starter points for the team from these pickups, in any season" },
+        { label: "Pts/Add", value: (r) => (r.adds ? r.pts / r.adds : null), render: (r) => (r.adds ? fmt.pts(r.pts / r.adds) : ""), num: true },
+      ],
+    }),
+    h("h3", {}, `Best Pickups of ${y}`), statTable({
+      rows: rank(waivers.best_by_season[y] ?? []),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Player", value: (r) => players[r.player]?.name, render: (r) => pLink(r.player, players[r.player]?.name) },
+        { label: "Pos", value: (r) => players[r.player]?.pos, cls: "c" },
+        { label: "Added", value: (r) => r.date },
+        { label: "How", value: (r) => (r.type === "claim" ? "Waiver claim" : "Free agent") },
+        { label: "Team", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) },
+        { label: "Until", value: (r) => r.until, render: (r) => r.until ?? "still there" },
+        { label: "GS", value: (r) => r.gs, num: true },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+      ],
+    }),
+    h("p", { class: "note" }, ["A pickup is credited with what the player did as a starter for that team from the day he was added until he left it, in this season or later. Kickers and defenses are left off the best pickups list. Every move is in the ", h("a", { href: `transactions.html?y=${y}` }, `${y} transaction log`), "; all-time lists are on the ", h("a", { href: "waivers.html" }, "waiver wire page"), "."])] : h("p", { class: "note" }, "No waiver activity yet.")),
     section("Schedule and Results", statTable({
       sortable: false,
       rows: season.games.filter((g) => g.kind === "regular"),
