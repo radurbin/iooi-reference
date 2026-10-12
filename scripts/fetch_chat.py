@@ -89,7 +89,7 @@ def fetch_polls(messages, polls):
             continue
         for item in attachment.get("data") or []:
             poll_id, trade_id = item.get("poll_id"), item.get("transaction_id")
-            if not poll_id or polls.get(trade_id, {}).get("status") in ("complete", "vetoed"):
+            if not poll_id or polls.get(trade_id, {}).get("status") in ("complete", "vetoed", "cancelled"):
                 continue
             poll = graphql(f'query get_poll {{ get_poll(poll_id: "{poll_id}") {{ choices votes metadata }} }}', "get_poll")
             if poll:

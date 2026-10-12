@@ -1,0 +1,65 @@
+name: Refresh data
+
+on:
+  schedule:
+    # 10:00 UTC: 5 AM Central in daylight time, 4 AM in standard time. GitHub may start it up to half an hour late.
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.13"
+
+      # Weekly NFL stat downloads are large and not committed; keep them between runs.
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: data/cache
+          key: nfl-cache-${{ github.run_id }}
+          restore-keys: nfl-cache-
+
+      # --players also refreshes the NFL player list (teams, ages); Sleeper asks that it be pulled at most once a day.
+      - name: Fetch league data from Sleeper
+        run: python3 scripts/fetch.py --players
+
+      - name: Sync league-office events, vote tallies and official scores
+        id: chat
+        continue-on-error: true
+        env:
+          SLEEPER_TOKEN: ${{ secrets.SLEEPER_TOKEN }}
+        run: python3 scripts/sync_chat.py
+
+      - name: Build site data
+        run: python3 scripts/build.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Refresh data $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      # The site is already updated with everything public. Failing here sends the repository owner an email.
+      - name: Report a refused or missing Sleeper token
+        if: steps.chat.outcome == 'failure'
+        run: |
+          echo "::error::The Sleeper token was missing or refused. Scores, lineups, trades and waivers were refreshed; league-office events, vote tallies and official scores were not. Replace the SLEEPER_TOKEN secret; the next run will catch up on everything missed."
+          exit 1

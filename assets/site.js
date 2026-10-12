@@ -205,7 +205,7 @@ function tradeTerms(t, players) {
   const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${ordinal(a.round)}-round pick${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : ""}`);
   return t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a)]) : "nothing"));
 }
-const tradeStatus = { label: "Status", value: (t) => t.status, render: (t) => ({ complete: "", vetoed: "Vetoed", cancelled: "Withdrawn" })[t.status] ?? t.status, cls: "c", title: "Blank for a completed trade; otherwise vetoed by league vote or withdrawn during review" };
+const tradeStatus = { label: "Status", value: (t) => t.status, render: (t) => ({ complete: "", vetoed: "Vetoed", cancelled: "Withdrawn", pending: "Under review" })[t.status] ?? t.status, cls: "c", title: "Blank for a completed trade; otherwise under review, vetoed by league vote, or withdrawn during review" };
 
 // A player's standing today, from players.json: on an iooi roster, a free agent, or without an NFL team.
 const statusOrder = { rostered: 0, free_agent: 1, out: 2 };

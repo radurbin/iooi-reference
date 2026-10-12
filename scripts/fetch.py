@@ -113,7 +113,9 @@ def main():
             print(f"{season}: fetching ({league['status']})")
             fetch_season(league)
         if league["status"] == "complete":
-            fetch_nfl_weeks(season, NFL_WEEKS[-1], NFL_WEEKS[-1] + 1, args.force)
+            # Once a finished season's trimmed copy is in data/nfl/, its 36 large weekly files are not needed again.
+            if args.force or not frozen or not (RAW.parent / "nfl" / f"{season}.json").exists():
+                fetch_nfl_weeks(season, NFL_WEEKS[-1], NFL_WEEKS[-1] + 1, args.force)
         elif season == nfl_state["season"]:
             # Re-pull last week too, to pick up stat corrections.
             week = min(nfl_state["week"], NFL_WEEKS[-1])

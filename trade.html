@@ -106,7 +106,7 @@ page("Trade", async (main) => {
         same ? "." : [`; ${s.tree_total.gs} starts and ${fmt.pts(s.tree_total.pts)} points counting later package deals`, dagger(), "."]));
   };
   const heading = t.sides.map((s) => s.team).join(" / ");
-  const status = { complete: "Completed", vetoed: "Vetoed by league vote", cancelled: "Withdrawn during review" }[t.status];
+  const status = { complete: "Completed", vetoed: "Vetoed by league vote", cancelled: "Withdrawn during review", pending: "Under review by the league" }[t.status];
   main.append(
     h("div", { class: "crumbs" }, h("a", { href: "trades.html" }, "Trades"), ` › ${t.date}`),
     h("h1", {}, `Trade: ${heading}`),
@@ -114,7 +114,8 @@ page("Trade", async (main) => {
       ["Status", status],
       ["Agreed", `${t.date} (${t.week ? `week ${t.week} of the ${t.season} season` : `${t.season} offseason`})`],
       [complete ? "Processed" : "Closed", t.processed],
-      ["Review vote", t.votes ? `${t.votes.pass ?? 0} to pass, ${t.votes.veto ?? 0} to veto` : null],
+      ["Review", t.status === "pending" ? `Open to a league vote. The two-day review runs to ${t.review_ends} at the earliest; the trade goes through unless six managers vote to veto it.` : null],
+      [t.status === "pending" ? "Vote so far" : "Review vote", t.votes ? `${t.votes.pass ?? 0} to pass, ${t.votes.veto ?? 0} to veto${t.status === "pending" ? `, as of ${stamp(L.updated)}` : ""}` : null],
       ["Ledger leader", complete && t.leader ? [fLink(t.leader, t.sides.find((s) => s.franchise === t.leader).team), " (more points from acquired starters)"] : null],
     ]),
     t.notes.map((note) => h("p", {}, h("b", {}, "Note: "), rich(note))),

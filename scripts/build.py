@@ -325,6 +325,19 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                 status = "vetoed" if "vetoed" in event["text"] else "cancelled"
                 out.append(describe(item["transaction_id"], season, day_of(datetime.fromisoformat(offer["created"]).timestamp() * 1000), status, received,
                                     day_of(datetime.fromisoformat(event["created"]).timestamp() * 1000)))
+        # Still under review: posted for the league vote, with no result yet in the chat or in Sleeper's transactions.
+        settled = {t["id"] for t in out}
+        for trade_id, offer in pending.items():
+            posted = datetime.fromisoformat(offer["created"])
+            if trade_id in settled or datetime.now(timezone.utc) - posted > timedelta(days=REVIEW_DAYS + 2):
+                continue
+            received = {}
+            for fid, part in offer["data"][0]["transactions_by_roster"].items():
+                received[int(fid)] = {
+                    "players": [{"player": p["player_id"]} for p in part.get("adds") or []],
+                    "picks": [{"season": p["season"], "round": p["round"], "original": p["roster_id"], "from": p.get("previous_owner_id")} for p in part.get("added_picks") or []]}
+            out.append(describe(trade_id, season, day_of(posted.timestamp() * 1000), "pending", received))
+            out[-1]["review_ends"] = day_of((posted + timedelta(days=REVIEW_DAYS)).timestamp() * 1000)
     # Where each acquired asset went next, if the acquiring team later traded it on.
     done = sorted((t for t in out if t["status"] == "complete"), key=lambda t: (t["date"], t["id"]))
     key_of = lambda a: ("player", a["player"]) if a["type"] == "player" else ("pick", a["season"], a["round"], a["original"])
@@ -903,6 +916,7 @@ def franchise_leaders(fid, appearances, players):
     return {"overall": rows[:20], "by_pos": {pos: [r for r in rows if r["pos"] == pos][:3] for pos in REPLACEMENT_RANK}}
 
 
+REVIEW_DAYS = 2   # a trade is open to a league vote for two days before it is processed
 ELO_START, ELO_K, ELO_CARRY = 1500, 24, 2 / 3
 
 

@@ -25,16 +25,23 @@ Sleeper API ──fetch.py──▶ data/raw/ ──build.py──▶ data/site/
 
 ## Refreshing the data
 
-Needs a recent Python 3 (developed on 3.14). No packages to install.
+A GitHub Actions job (`.github/workflows/refresh.yml`) runs every day at 10:00 UTC, and on demand from the Actions tab. It fetches from Sleeper, rebuilds `data/site/`, and commits the result; GitHub Pages then redeploys.
+
+To run the same steps by hand (a recent Python 3, no packages to install):
 
 ```
-python3 scripts/fetch.py     # pull the current season from Sleeper (read-only GET requests)
-python3 scripts/build.py     # rebuild data/site/
+python3 scripts/fetch.py --players   # league data and the NFL player list (read-only GET requests)
+python3 scripts/sync_chat.py         # needs SLEEPER_TOKEN, see below
+python3 scripts/build.py             # rebuild data/site/
 ```
 
-Completed seasons are fetched once and then left alone. `fetch.py --players` also refreshes the NFL player list.
+Completed seasons are fetched once and then left alone.
 
-Two things need a logged-in Sleeper token and are run by hand (see the docstring in `scripts/fetch_chat.py`): trade vote tallies, and the chat export that `scripts/extract_chat.py` turns into `data/chat_events/`. The raw chat is never stored in this repository.
+### The Sleeper token
+
+Three things come only from Sleeper's private endpoint and need a logged-in user's token: league-office events posted in the league chat (team renames, nickname changes, scoring changes, trades under review, vetoes), the vote tally on each trade, and the official weekly scores. `scripts/sync_chat.py` reads only the chat messages posted since its last run, keeps the system events with profile details removed, and discards everything else. The chat itself is never stored here.
+
+The token is held as the repository secret `SLEEPER_TOKEN`. It lasts one year. When it expires, the daily job still publishes everything public and then fails, which sends an email. To replace it: log in at sleeper.com, copy the `authorization` header from any `graphql` request in the browser's network tab, and save it as the secret (Settings, Secrets and variables, Actions). The next run catches up on everything missed.
 
 ## Viewing locally
 

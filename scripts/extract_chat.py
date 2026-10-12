@@ -35,26 +35,29 @@ def is_trade_status(attachment):
     return attachment.get("type") == "transactions" and bool(data) and data[0].get("type") == "trade"
 
 
+def event_from(message):
+    """The league-office event in a chat message, stripped for publication, or None for anything else."""
+    attachment = message.get("attachment")
+    if not isinstance(attachment, dict):
+        return None
+    kind = attachment.get("type")
+    if kind not in KEEP and not is_trade_status(attachment):
+        return None
+    created = datetime.fromtimestamp(message["created"] / 1000, tz=timezone.utc)
+    return {
+        "message_id": message["message_id"],
+        "created": created.isoformat(timespec="seconds"),
+        "type": "trade_status" if kind == "transactions" else kind,
+        # Trade posts say only "pending", "vetoed" and so on; the others name a user, so their text is dropped.
+        "text": html.unescape(message.get("text") or "") if kind == "transactions" else "",
+        "data": scrub(attachment.get("data")),
+    }
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for chat_file in sorted(CHAT.glob("*.json")):
-        events = []
-        for message in json.loads(chat_file.read_text()):
-            attachment = message.get("attachment")
-            if not isinstance(attachment, dict):
-                continue
-            kind = attachment.get("type")
-            if kind not in KEEP and not is_trade_status(attachment):
-                continue
-            created = datetime.fromtimestamp(message["created"] / 1000, tz=timezone.utc)
-            events.append({
-                "message_id": message["message_id"],
-                "created": created.isoformat(timespec="seconds"),
-                "type": "trade_status" if kind == "transactions" else kind,
-                # Trade posts say only "pending", "vetoed" and so on; the others name a user, so their text is dropped.
-                "text": html.unescape(message.get("text") or "") if kind == "transactions" else "",
-                "data": scrub(attachment.get("data")),
-            })
+        events = [event for message in json.loads(chat_file.read_text()) if (event := event_from(message))]
         (OUT / chat_file.name).write_text(json.dumps(events, ensure_ascii=False, separators=(",", ":")))
         print(f"{chat_file.stem}: {len(events)} events")
 

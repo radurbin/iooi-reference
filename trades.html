@@ -35,15 +35,18 @@ page("Trades", async (main) => {
     ],
   });
   const done = trades.filter((t) => t.status === "complete");
-  const blocked = trades.filter((t) => t.status !== "complete");
+  const review = trades.filter((t) => t.status === "pending");
+  const blocked = trades.filter((t) => t.status !== "complete" && t.status !== "pending");
   main.append(
     h("h1", {}, "Dynasty iooi Trade Register"),
     meta([
       ["Completed trades", done.length],
+      ["Under review", review.length || null],
       ["Vetoed", blocked.filter((t) => t.status === "vetoed").length],
       ["Withdrawn during review", blocked.filter((t) => t.status === "cancelled").length],
       ["By season", L.seasons.map((s) => `${s.season}: ${done.filter((t) => t.season === s.season).length}`).join(", ")],
     ]),
+    review.length ? section("Under Review", table(review), h("p", { class: "note" }, `Agreed and open to a league vote for two days. A trade goes through unless six managers vote to veto it. Votes are as of ${stamp(L.updated)}. These do not count in any total until they are processed.`)) : null,
     section("Vetoed and Withdrawn Trades", table(blocked), h("p", { class: "note" }, "A trade is vetoed when six managers vote against it during the two-day review. Vote counts are available from 2024.")),
     section("Completed Trades", table(done), h("p", { class: "note" }, "A pick that has since been used shows its draft slot and the player taken. Trades are filed under the league year they were made in.")));
   const style = document.createElement("style");
