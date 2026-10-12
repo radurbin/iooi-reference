@@ -1,0 +1,321 @@
+// Shared helpers for every iooi Reference page: data loading, links, sortable stat tables, page chrome.
+const DATA = "data/site/";
+const cache = {};
+
+function load(name) {
+  cache[name] ??= fetch(`${DATA}${name}.json`, { cache: "no-cache" }).then((r) => {
+    if (!r.ok) throw new Error(`Could not load ${name}.json`);
+    return r.json();
+  });
+  return cache[name];
+}
+
+const param = (key) => new URLSearchParams(location.search).get(key);
+
+function h(tag, attrs = {}, ...kids) {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") node.className = v;
+    else if (k.startsWith("on")) node.addEventListener(k.slice(2), v);
+    else node.setAttribute(k, v);
+  }
+  for (const kid of kids.flat(Infinity)) {
+    if (kid == null || kid === false) continue;
+    node.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+  }
+  return node;
+}
+
+const fmt = {
+  pts: (v) => (v == null ? "" : v.toFixed(2)),
+  pts1: (v) => (v == null ? "" : v.toFixed(1)),
+  pct: (v) => (v == null ? "" : v.toFixed(3).replace(/^0/, "")),
+  eff: (v) => (v == null ? "" : `${(v * 100).toFixed(1)}%`),
+  signed: (v) => (v == null ? "" : `${v > 0 ? "+" : ""}${v.toFixed(2)}`),
+  date: (v) => v || "",
+};
+
+// League-wide lookups, filled in by page() before a page renders.
+let L = null;
+const franchiseName = (id) => L.franchises.find((f) => f.id === Number(id))?.name ?? `Franchise ${id}`;
+const managerName = (slug) => L.managers.find((m) => m.id === slug)?.name ?? slug;
+const seasonTeam = (season, id) => L.seasons.find((s) => s.season === String(season))?.teams[id] ?? franchiseName(id);
+
+const fLink = (id, text) => h("a", { href: `franchise.html?id=${id}` }, text ?? franchiseName(id));
+const mLink = (slug) => h("a", { href: `manager.html?id=${slug}` }, managerName(slug));
+const mLinks = (slugs) => (slugs || []).flatMap((s, i) => (i ? [", ", mLink(s)] : [mLink(s)]));
+const sLink = (season, text) => h("a", { href: `season.html?y=${season}` }, text ?? season);
+const pLink = (id, name) => h("a", { href: `player.html?id=${id}` }, name ?? id);
+const tLink = (id, text) => h("a", { href: `trade.html?id=${id}` }, text ?? "trade");
+const ordinal = (n) => `${n}${["th", "st", "nd", "rd"][n % 100 > 10 && n % 100 < 14 ? 0 : Math.min(n % 10, 4) % 4]}`;
+const tsLink = (season, id, text) => h("a", { href: `team.html?y=${season}&id=${id}` }, text ?? seasonTeam(season, id));
+const rLink = (kind, a, b, text) => h("a", { href: `rivalry.html?${kind}=${[a, b].sort((x, y) => (String(x) < String(y) ? -1 : 1)).join("~")}` }, text ?? "rivalry");
+const gLink = (id, text) => h("a", { href: `game.html?id=${id}` }, text ?? "box");
+const record = (r, w = "w", l = "l", t = "t") => `${r[w]}-${r[l]}${r[t] ? `-${r[t]}` : ""}`;
+
+// Hover text for column headings that do not set their own.
+const GLOSSARY = {
+  "": "Link to the full details", "Rk": "Rank", "Black Ink": "League-leading seasons, weighted by category; see the Black Ink section of the leaders page",
+  "Opp": "Opponent", "Score": "Final score, this team first", "Rec": "Regular-season record after the game", "Top scorer": "The team's highest-scoring starter that week",
+  "Sim": "Similarity score: 1000 is identical; lower means further apart across the compared stats", "Split": "Group of games", "Low": "Lowest single game",
+  "vs Proj": "Average points above or below Sleeper's projection", "Team W-L": "Team record in those games", "Streak": "Consecutive games", "From": "First game of the streak", "To": "Last game of the streak", "W": "Wins", "L": "Losses", "W-L%": "Win-loss percentage: wins divided by games, ties counting as half a win",
+  "PF": "Points for: points scored by the starting lineup", "PA": "Points against: points scored by opponents", "PF/G": "Points for per game",
+  "Max PF": "Points from the best possible lineup each week", "Eff": "Lineup efficiency: points for as a share of Max PF",
+  "All-Play": "Record if the team had played every other team every week",
+  "xW": "Expected wins: all-play winning percentage times games played", "Luck": "Actual wins minus expected wins",
+  "Trans": "Completed trades, waiver claims and free-agent moves", "Trades": "Completed trades",
+  "Seed": "Playoff seeding position at the end of the regular season", "Finish": "Final place after the playoffs and Toilet Bowl",
+  "Playoffs": "Dynasty Playoff result", "Plyf": "Playoff appearances", "Plyf W-L": "Record in Dynasty Playoff games",
+  "Titles": "League championships", "Active": "Seasons with a stake in a franchise", "Years": "Seasons with the franchise",
+  "Season": "League season", "Week": "Week of the NFL season", "Date": "Date, US Central time", "When": "Date, US Central time",
+  "Franchise": "Franchise, under its name at the time", "Franchise(s)": "Franchises managed", "Team": "Franchise, under its name at the time",
+  "Team(s)": "Franchises he played for that season", "Manager": "Manager with a stake in the franchise at the time",
+  "Manager(s)": "Managers with a stake in the franchise at the time", "By": "Manager who made the move",
+  "Acquired stake": "Date the manager took a stake in the franchise", "Sold stake": "Date the manager gave up the stake; blank if still held",
+  "Notes": "Notes on the stake", "Renamed to": "New team name", "Old name": "Team name before the change", "New name": "Team name after the change",
+  "Player": "Player; click for his iooi page", "Pos": "Position", "NFL": "Current NFL team", "Slot": "Lineup slot", "Role": "Starter, bench, or no game that week",
+  "G": "Games", "GS": "Games in a starting lineup", "Pts": "Points", "Pts/GS": "Points per start", "Pts/G": "Points per game",
+  "Best": "Best single game", "Bench Pts": "Points scored while on the bench", "Proj": "Sleeper's projection before kickoff",
+  "PAA": "Points above the average iooi starter at his position that week", "VOR": "Value over a replacement-level player at his position",
+  "WAR": "Wins above replacement: VOR converted to wins", "Team result": "Result for his team that week",
+  "Rd": "Round", "Round": "Round", "Pick": "Pick within the round", "Ovr": "Overall pick number", "Draft": "Draft year", "Class": "Draft class",
+  "Picks": "Picks made", "Hit%": "Share of picks that became hits", "Pts/Pick": "Starter points per pick",
+  "Record": "Regular-season record", "Odds": "Chance at the first pick under the lottery rules", "Moved": "Places gained or lost in the draft order",
+  "Champion": "Winner of the Dynasty Championship", "Runner-up": "Loser of the Dynasty Championship", "Third place": "Winner of the third-place game",
+  "Ult. Loser": "Loser of the Toilet Bowl final", "Ultimate Loser": "Loser of the Toilet Bowl final", "Top seed": "Best regular-season record",
+  "Most points": "Most regular-season points", "Scoring title": "Most regular-season points", "Best lineup efficiency": "Highest share of Max PF actually scored",
+  "Luckiest": "Most wins above expected", "Unluckiest": "Most wins below expected", "Winner": "Winning team", "Loser": "Losing team",
+  "Status": "Whether he is still on an iooi roster", 
+  "Opponent": "Opposing team", "Opp Pts": "Opponent's points", "Result": "Final score", "Stage": "Regular season, playoffs or Toilet Bowl", "Game": "Link to the box score",
+  "Term": "Stat or term", "Abbr": "Column heading as it appears in tables", "Meaning": "What it means",
+  "Elo": "Elo rating: 1500 is average; it rises with wins and falls with losses, by more for big margins and upsets",
+  "Peak": "Highest Elo rating reached", "Peak set": "Week the peak was reached", "Low": "Lowest Elo rating reached", "Low set": "Week the low was reached",
+  "Win chance": "Winner's chance of winning before kickoff, from the two Elo ratings",
+  "Matchup": "The two sides", "Series": "All-time record, first side listed", "Avg score": "Average score, first side listed first",
+  "Avg margin": "Average margin of victory for the first side listed", "Last": "Most recent meeting",
+  "Terms": "What each side received", "Asset": "Player or pick received", "Became": "Player the pick was used on", "Note": "Notes on the asset",
+  "Net": "Points in minus points out", "Margin": "Difference in starter points between the two sides", "Ahead": "Side ahead in starter points since the trade",
+  "Behind": "Side behind in starter points since the trade",
+  "Adds": "Players added from waivers or free agency", "Releases": "Players released", "Pts/Add": "Starter points per player added",
+  "Added": "Date added", "Released": "Date released", "Until": "Date he left the franchise; blank if still there", "How": "Waiver claim or free-agent signing",
+  "GS since": "Games started for anyone after the release", "Pts since": "Starter points for anyone after the release", "Next started for": "First franchise to start him afterward",
+};
+const tipFor = (col) => col.title ?? GLOSSARY[col.label];
+
+// One floating box for all hover text, so it is instant and never clipped by a scrolling table.
+function tooltips() {
+  const tip = h("div", { id: "tip", hidden: true });
+  document.body.append(tip);
+  const show = (el) => {
+    tip.textContent = el.dataset.tip;
+    tip.hidden = false;
+    const box = el.getBoundingClientRect();
+    const left = Math.max(6, Math.min(box.left + box.width / 2 - tip.offsetWidth / 2, document.documentElement.clientWidth - tip.offsetWidth - 6));
+    const above = box.top - tip.offsetHeight - 6;
+    tip.style.left = `${left}px`;
+    tip.style.top = `${above < 4 ? box.bottom + 6 : above}px`;
+  };
+  document.addEventListener("mouseover", (e) => { const el = e.target.closest?.("[data-tip]"); if (el) show(el); else tip.hidden = true; });
+  document.addEventListener("focusin", (e) => { const el = e.target.closest?.("[data-tip]"); if (el) show(el); });
+  document.addEventListener("scroll", () => { tip.hidden = true; }, true);
+  // Phones have no hover: a tap on a heading shows its text, a tap anywhere else clears it.
+  document.addEventListener("touchstart", (e) => { const el = e.target.closest?.("[data-tip]"); if (el) show(el); else tip.hidden = true; }, { passive: true });
+}
+
+// columns: [{ label, title, value(row), render(row), num, cls }]. value() drives sorting; render() the cell.
+function statTable({ columns, rows, foot, rowClass, sortable = true }) {
+  const table = h("table", { class: "stats" });
+  const tbody = h("tbody");
+  let sorted = { index: -1, asc: false };
+  const cell = (col, row, tag = "td") => {
+    const shown = col.render ? col.render(row) : col.value(row);
+    const cls = [col.num ? "num" : "", typeof col.cls === "function" ? col.cls(row) : col.cls].filter(Boolean).join(" ");
+    return h(tag, { class: cls || null }, shown ?? "");
+  };
+  const draw = (list) => tbody.replaceChildren(...list.map((row) => h("tr", { class: rowClass?.(row) }, columns.map((c) => cell(c, row)))));
+  const heads = columns.map((col, index) =>
+    h("th", {
+      class: [col.num ? "num" : "", sortable && col.value ? "sortable" : ""].join(" ").trim() || null,
+      "data-tip": tipFor(col),
+      onclick: !sortable || !col.value ? null : () => {
+        const asc = sorted.index === index ? !sorted.asc : !col.num;
+        sorted = { index, asc };
+        heads.forEach((th, i) => { th.classList.toggle("sorted", i === index); th.classList.toggle("asc", i === index && asc); });
+        const key = (row) => col.value(row);
+        draw([...rows].sort((a, b) => {
+          const [x, y] = [key(a), key(b)];
+          if (x == null) return 1;
+          if (y == null) return -1;
+          return (typeof x === "number" && typeof y === "number" ? x - y : String(x).localeCompare(String(y))) * (asc ? 1 : -1);
+        }));
+      },
+    }, col.label));
+  table.append(h("thead", {}, h("tr", {}, heads)), tbody);
+  if (foot) table.append(h("tfoot", {}, h("tr", {}, columns.map((c) => cell(c, foot)))));
+  draw(rows);
+  return h("div", { class: "scroll" }, table);
+}
+
+// Timeline text carries references like [[f:3]], [[m:dan]], [[g:2025-17-7-8]] or [[f:3|Old Name]]; turn them into links.
+function rich(text) {
+  const make = {
+    f: (id, label) => fLink(id, label), m: (id) => mLink(id), p: (id, label) => pLink(id, label), g: (id) => gLink(id, "box score"),
+    t: (id) => tLink(id, "details"), s: (id) => sLink(id), d: (id) => h("a", { href: `draft.html?y=${id}` }, "board"),
+    c: (id) => h("a", { href: `constitution.html#${id}` }, "text"), x: (href, label) => h("a", { href }, label),
+  };
+  return text.split(/(\[\[[^\]]+\]\])/).map((part) => {
+    const m = part.match(/^\[\[(\w):([^|\]]+)(?:\|([^\]]+))?\]\]$/);
+    return m && make[m[1]] ? make[m[1]](m[2], m[3]) : part;
+  });
+}
+
+// Page header in the reference-site manner: picture, name and bold-label lines on the left, award badges on the right.
+// awards: [[label, season, class]]. Repeats collapse to "3x Label"; a single award shows its season.
+function bling(awards) {
+  const groups = new Map();
+  for (const [label, season, cls] of awards) groups.set(label, { cls, seasons: [...(groups.get(label)?.seasons ?? []), season] });
+  return [...groups].map(([label, { cls, seasons }]) => h("li", { class: cls, "data-tip": `${label}: ${seasons.join(", ")}` }, seasons.length > 1 ? `${seasons.length}x ${label}` : `${seasons[0]} ${label}`));
+}
+function bio({ name, photo, logo, lines, awards = [], tiles = [] }) {
+  const img = photo && h("img", { class: logo ? "photo logo" : "photo", src: photo, alt: "" });
+  img?.addEventListener("error", () => img.remove());
+  const dot = () => h("span", { class: "sep" }, " ▪ ");
+  return h("div", { id: "bio" }, img,
+    h("div", { class: "info" }, h("h1", {}, name),
+      lines.filter(Boolean).map((line) => {
+        if (!Array.isArray(line[0])) line = [line];
+        const parts = line.filter((part) => part && part[1] != null && part[1] !== "" && part[1] !== false);
+        return parts.length ? h("p", {}, parts.flatMap(([label, value], i) => [i ? dot() : null, label ? h("b", {}, `${label}: `) : null, value])) : null;
+      })),
+    awards.length || tiles.length ? h("div", { class: "side" }, awards.length ? h("ul", { class: "bling" }, bling(awards)) : null, tiles.length ? h("div", { class: "tiles" }, tiles) : null) : null);
+}
+
+// Small top-five boxes, as at the head of a season page.
+function leaderBoxes(boards, linkOf) {
+  return h("div", { class: "leaders" }, boards.filter((b) => b.rows.length).map((b) => h("div", { class: "lbox" },
+    h("h4", { "data-tip": b.tip }, b.title),
+    h("ol", {}, b.rows.map((r) => h("li", {}, h("span", {}, linkOf(r)), h("b", {}, r.value.toFixed(b.digits))))))));
+}
+
+const section = (title, ...kids) => [h("h2", { id: title.toLowerCase().replace(/[^a-z0-9]+/g, "-") }, title), ...kids];
+const meta = (pairs) => h("ul", { class: "meta" }, pairs.filter((p) => p && p[1] != null && p[1] !== "").map(([k, v]) => h("li", {}, h("b", {}, `${k}: `), v)));
+const rank = (list) => list.map((row, i) => ({ ...row, rk: i + 1 }));
+
+// Header search over players, franchises and managers, in the manner of the big reference sites.
+function searchBox() {
+  const hits = h("div", { class: "hits", hidden: true });
+  let index = null;
+  const input = h("input", { type: "search", placeholder: "Search players, teams, managers", "aria-label": "Search" });
+  input.addEventListener("input", async () => {
+    const q = input.value.trim().toLowerCase();
+    if (q.length < 2) { hits.hidden = true; return; }
+    if (!index) {
+      const players = await load("players");
+      index = [
+        ...L.franchises.map((f) => ({ name: f.name, kind: "Franchise", href: `franchise.html?id=${f.id}`, rank: 3 })),
+        ...L.managers.map((m) => ({ name: m.name, kind: "Manager", href: `manager.html?id=${m.id}`, rank: 2 })),
+        ...Object.entries(players).map(([id, p]) => ({ name: p.name, kind: p.pos ?? "Player", href: `player.html?id=${id}`, rank: 1, pts: p.pts ?? 0, also: p.nicknames?.join(" | ").toLowerCase() })),
+      ];
+    }
+    const found = index.filter((x) => x.name.toLowerCase().includes(q) || x.also?.includes(q)).sort((a, b) => b.rank - a.rank || (b.pts ?? 0) - (a.pts ?? 0)).slice(0, 12);
+    hits.replaceChildren(...(found.length ? found.map((x) => h("a", { href: x.href }, h("span", {}, x.name), h("small", {}, x.kind))) : [h("a", {}, "No matches")]));
+    hits.hidden = false;
+  });
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter" && hits.querySelector("a[href]")) location.href = hits.querySelector("a[href]").href; });
+  document.addEventListener("click", (e) => { if (!e.target.closest("#search")) hits.hidden = true; });
+  return h("div", { id: "search" }, input, hits);
+}
+
+// Jump to a page chosen at random: mostly players, with team seasons, franchises, managers and drafts mixed in.
+async function randomPage() {
+  const pick = (list) => list[Math.floor(Math.random() * list.length)];
+  const roll = Math.random();
+  if (roll < 0.6) {
+    const players = await load("players");
+    location.href = `player.html?id=${pick(Object.keys(players).filter((id) => players[id].gs > 0))}`;
+  } else if (roll < 0.8) location.href = `team.html?y=${pick(L.seasons).season}&id=${pick(L.franchises).id}`;
+  else if (roll < 0.87) location.href = `franchise.html?id=${pick(L.franchises).id}`;
+  else if (roll < 0.94) location.href = `manager.html?id=${pick(L.managers).id}`;
+  else location.href = pick([...L.drafts.map((d) => `draft.html?y=${d.season}`), ...L.seasons.map((x) => `season.html?y=${x.season}`), "split_draft.html", "nicknames.html", "streaks.html"]);
+}
+
+function siteMenus() {
+  const years = [...L.seasons].reverse();
+  const link = (href, text) => h("a", { href }, text);
+  return [
+    ["League", [link("index.html", "League Index"), link("history.html", "History & Timeline"), link("constitution.html", "Constitution"), link("awards.html", "Awards & Honors"), link("alltime.html", "All-Time Teams"),
+      link("hof.html", "Hall of Fame"),
+      link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("h2h.html", "Head-to-Head & Rivalries"), link("ratings.html", "Elo Ratings"), link("glossary.html", "Glossary")]],
+    ["Seasons", [link("week.html", "This Week"), ...years.map((s) => link(`season.html?y=${s.season}`, `${s.season} Season`))]],
+    ["Franchises", L.franchises.map((f) => link(`franchise.html?id=${f.id}`, f.name))],
+    ["Managers", L.managers.map((m) => link(`manager.html?id=${m.id}`, m.name))],
+    ["Players", [link("players.html", "Player Register"), link("leaders.html", "Career & Season Leaders"), link("awards.html", "MVP & All-iooi Teams"), link("alltime.html", "All-Time Teams"), link("hof.html", "Hall of Fame Monitor"),
+      link("journeys.html", "Player Journeys"), link("aging.html", "Aging Curves & Rookie Classes"), link("nicknames.html", "Nickname Register")]],
+    ["Drafts", [...[...L.drafts].reverse().map((d) => link(`draft.html?y=${d.season}`, `${d.season} ${d.kind === "startup" ? "Startup" : "Rookie"} Draft`)),
+      link("split_draft.html", "2024 Split Draft"), link("drafts.html", "Draft Analysis"), link("picks.html", "Draft Pick Ledger"), link("lottery.html", "Draft Order & Lottery"), link("tankathon/", "Tankathon: Live Draft Order")]],
+    ["Trades", [link("trades.html", "Trade Register"), link("trade_records.html", "Trade Records")]],
+    ["Transactions", [link("waivers.html", "Waiver Wire"), ...years.map((s) => link(`transactions.html?y=${s.season}`, `${s.season} Transactions`))]],
+    ["Leaders", [link("leaders.html", "Player Leaders"), link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("ratings.html", "Elo Ratings"), link("glossary.html", "Glossary")]],
+  ];
+}
+
+// Hover opens a menu on a desktop. On a phone or tablet a tap opens it and a second tap closes it.
+const TOUCH = "(max-width: 760px), (hover: none)";
+function tapMenu(e) {
+  if (!matchMedia(TOUCH).matches) return;
+  const item = e.currentTarget.parentNode;
+  for (const other of item.parentNode.children) if (other !== item) other.classList.remove("open");
+  item.classList.toggle("open");
+}
+
+// "Sat, Oct 10, 2026, 1:42 PM CT" from the build's UTC stamp.
+const stamp = (iso) => `${new Date(iso).toLocaleString("en-US", { timeZone: "America/Chicago", weekday: "short", month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" })} CT`;
+
+async function page(title, render) {
+  const main = h("main");
+  // Pages build content as nested arrays (section() returns several nodes); flatten on the way in.
+  main.append = (...kids) => Element.prototype.append.call(main, ...kids.flat(Infinity).filter((k) => k != null && k !== false));
+  document.body.append(main);
+  if (!document.querySelector("link[rel=icon]")) document.head.append(h("link", { rel: "icon", href: "assets/favicon.png" }));
+  let menus = [];
+  tooltips();
+  try {
+    L = await load("league");
+    // Franchises and managers are listed by name everywhere, not by franchise number.
+    const byName = (x, y) => x.name.localeCompare(y.name, undefined, { sensitivity: "base" });
+    L.franchises.sort(byName);
+    L.managers.sort(byName);
+    menus = siteMenus();
+    document.body.prepend(
+      h("div", { id: "srbar" }, h("b", {}, "iooi Reference"), h("span", {}, `Dynasty iooi, est. ${L.founded}`),
+        h("a", { href: "week.html" }, "This Week"), h("a", { href: "constitution.html" }, "Constitution"), h("a", { href: "glossary.html" }, "Glossary"), h("a", { href: "tankathon/" }, "Tankathon")),
+      h("div", { id: "masthead" },
+        h("a", { href: "index.html" }, h("img", { src: "assets/logo.png", alt: "Dynasty iooi" })),
+        h("a", { class: "wordmark", href: "index.html" }, "iooi ", h("span", {}, "Reference"),
+          h("span", { class: "tag" }, `Dynasty iooi stats, history and records since ${L.founded}`)),
+        searchBox()),
+      h("div", { id: "nav" },
+        h("button", { id: "navtoggle", type: "button", "aria-label": "Menu", onclick: (e) => e.currentTarget.parentNode.classList.toggle("open") }, "☰ Menu"),
+        h("ul", {}, menus.map(([label, links]) => h("li", {}, h("span", { tabindex: "0", onclick: tapMenu }, label), h("div", { class: "menu" }, links))),
+        h("li", { class: "random" }, h("a", { href: "#", "data-tip": "Open a page chosen at random", onclick: (e) => { e.preventDefault(); randomPage(); } }, "Random Page")))));
+    const name = typeof title === "function" ? null : title;
+    const built = await render(main);
+    document.title = `${built ?? name} | iooi Reference`;
+    // In-page menu of sections, placed above the first section bar.
+    const heads = [...main.querySelectorAll("h2[id]")].filter((x) => !x.closest(".parchment"));
+    if (heads.length >= 3) {
+      heads[0].before(h("div", { id: "inner_nav" }, h("b", {}, "On this page:"), heads.map((x) => h("a", { href: `#${x.id}` }, x.textContent))));
+    }
+  } catch (err) {
+    main.append(h("p", { class: "error" }, err.message));
+    console.error(err);
+  }
+  document.body.append(h("footer", {},
+    h("div", { class: "index" }, menus.filter(([label]) => !["Franchises", "Managers"].includes(label)).map(([label, links]) => h("div", {}, h("b", {}, label), links.map((a) => a.cloneNode(true))))),
+    L?.updated ? h("p", { class: "updated" }, h("b", {}, "Data last updated: "), stamp(L.updated), L.seasons.at(-1).status === "complete" ? "." : `, during week ${L.current_week} of the ${L.current_season} season.`) : null,
+    h("p", {}, "iooi Reference is a fan-made parody built for one fantasy football league. It is not affiliated with Sports Reference LLC or Sleeper. League data via Sleeper."),
+    h("p", {}, ["All stats count games in iooi starting lineups unless a table says otherwise. Scoring rules have changed by amendment; see the league history for dates. Every stat is explained in the ", h("a", { href: "glossary.html" }, "glossary"), "."])));
+  document.addEventListener("click", (e) => { if (!e.target.closest("#nav")) document.querySelectorAll("#nav .open, #nav.open").forEach((x) => x.classList.remove("open")); });
+  if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
+}

@@ -1,0 +1,92 @@
+{
+  "_comment": "Corrections to how Sleeper logged trades, confirmed by Riley on 2026-10-10. Each entry is keyed by the Sleeper transaction_id of the main trade. absorb = other logged transactions that are really part of it. add_picks = picks that were part of the deal but moved later by the commissioner because the app could not hold them yet. draft_credit = draft picks to credit to a different franchise than the one that clicked the pick. conditional_swap = picks whose final owner depends on where they land. notes are shown on the trade page.",
+  "trades": {
+    "1020071849377533952": {
+      "absorb": [
+        "1020091493773606912"
+      ],
+      "notes": [
+        "Jameson Williams was left out when the trade was submitted and was sent in a follow-up 78 minutes later."
+      ]
+    },
+    "1185777259519488000": {
+      "add_picks": [
+        {
+          "season": "2028",
+          "round": 1,
+          "original": 3,
+          "from": 3,
+          "to": 8,
+          "moved_on": "2025-08-17"
+        },
+        {
+          "season": "2029",
+          "round": 1,
+          "original": 3,
+          "from": 3,
+          "to": 8,
+          "moved_on": "2026-08-16"
+        }
+      ],
+      "notes": [
+        "The 2028 and 2029 first-round picks were part of the deal from the start. Sleeper could not hold picks that far out, so the commissioner assigned each when its draft year opened."
+      ]
+    },
+    "1245294645240414208": {
+      "add_picks": [
+        {
+          "season": "2028",
+          "round": 4,
+          "original": 9,
+          "from": 9,
+          "to": 7,
+          "moved_on": "2025-08-17"
+        }
+      ],
+      "notes": [
+        "[[f:9]]'s 2028 fourth-round pick was part of the deal. Sleeper could not hold a pick that far out, so the commissioner assigned it on 2025-08-17."
+      ]
+    },
+    "1256299011371966464": {
+      "notes": [
+        "Condition: [[f:9]] could not trade the 1.02 pick or use it on a quarterback."
+      ]
+    },
+    "1262821721816186880": {
+      "absorb": [
+        "1262824269205745664",
+        "1262834073378766848"
+      ],
+      "draft_credit": [
+        {
+          "season": "2025",
+          "pick_no": 3,
+          "franchise": 9
+        },
+        {
+          "season": "2025",
+          "pick_no": 8,
+          "franchise": 7
+        }
+      ],
+      "notes": [
+        "Agreed before the 2025 rookie draft and executed as it began. [[f:9]] received pick 1.03 (Omarion Hampton); [[f:7]] received pick 1.08 (Quinshon Judkins), Jaylen Warren and a 2027 first. Sleeper had already locked the draft board, so each team made the other's pick and the commissioner swapped the two players afterwards."
+      ]
+    },
+    "1392887892799410176": {
+      "conditional_swap": {
+        "season": "2027",
+        "round": 2,
+        "originals": [
+          4,
+          2
+        ],
+        "better_to": 3,
+        "worse_to": 6
+      },
+      "notes": [
+        "Conditional pick swap: of the 2027 second-round picks originally belonging to [[f:4]] and [[f:2]], the better goes to [[f:3]] and the worse to [[f:6]]."
+      ]
+    }
+  }
+}

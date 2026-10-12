@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rivalry | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Rivalry", async (main) => {
+  const kind = param("m") ? "m" : "f";
+  const key = param(kind) || "1~2";
+  const data = await load("rivalries");
+  const [a, b] = key.split("~");
+  const pair = (kind === "m" ? data.managers : data.franchises)[key] ?? { games: [], trades: [] };
+  const label = kind === "m" ? managerName : franchiseName;
+  const link = (x) => (kind === "m" ? mLink(x) : fLink(x));
+  const title = `${label(a)} vs ${label(b)}`;
+  const games = pair.games;
+  const aw = games.filter((g) => g.a_pts > g.b_pts).length, bw = games.length - aw;
+  const lead = (x, y) => (x === y ? `Tied ${x}-${y}` : `${label(x > y ? a : b)} leads ${Math.max(x, y)}-${Math.min(x, y)}`);
+  const po = games.filter((g) => g.kind === "winners"), tb = games.filter((g) => g.kind === "toilet");
+  const sum = (f) => games.reduce((s, g) => s + f(g), 0);
+  const show = (g) => g && [gLink(g.id, `${g.season} week ${g.week}`), `: ${g.a_team} ${fmt.pts(g.a_pts)}, ${g.b_team} ${fmt.pts(g.b_pts)}`];
+  const top = (f) => games.length ? games.reduce((best, g) => (f(g) > f(best) ? g : best)) : null;
+  // Longest run of wins by either side, and the run still going.
+  let run = { who: null, n: 0 }, best = { who: null, n: 0 };
+  for (const g of games) {
+    const who = g.a_pts > g.b_pts ? a : b;
+    run = run.who === who ? { who, n: run.n + 1, to: g } : { who, n: 1, to: g };
+    if (run.n > best.n) best = { ...run };
+  }
+  const others = (kind === "m" ? L.managers.map((m) => m.id) : L.franchises.map((f) => String(f.id)));
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "h2h.html" }, "Head-to-Head"), ` › ${title}`),
+    bio({
+      name: title,
+      lines: games.length ? [
+        [["Series", lead(aw, bw)], ["Games", games.length]],
+        [["Dynasty Playoffs", po.length ? lead(po.filter((g) => g.a_pts > g.b_pts).length, po.filter((g) => g.a_pts < g.b_pts).length) : null],
+          ["Toilet Bowl", tb.length ? lead(tb.filter((g) => g.a_pts > g.b_pts).length, tb.filter((g) => g.a_pts < g.b_pts).length) : null]],
+        ["Total Points", `${label(a)} ${fmt.pts(sum((g) => g.a_pts))}, ${label(b)} ${fmt.pts(sum((g) => g.b_pts))}`],
+        ["Average Score", `${fmt.pts1(sum((g) => g.a_pts) / games.length)} - ${fmt.pts1(sum((g) => g.b_pts) / games.length)}`],
+        ["Current Streak", `${label(run.who)}, ${run.n} ${run.n === 1 ? "win" : "wins"}`],
+        ["Longest Streak", `${label(best.who)}, ${best.n} ${best.n === 1 ? "win" : "wins"} (through ${best.to.season} week ${best.to.week})`],
+        ["Biggest Blowout", show(top((g) => Math.abs(g.a_pts - g.b_pts)))],
+        ["Closest Game", show(top((g) => -Math.abs(g.a_pts - g.b_pts)))],
+        ["Highest Scoring", show(top((g) => g.a_pts + g.b_pts))],
+        ["Trades Between Them", pair.trades.length],
+      ] : [[null, "These two have not met."], ["Trades Between Them", pair.trades.length]],
+    }),
+    games.length ? section("Every Meeting", statTable({
+      rows: [...games].reverse(),
+      columns: [
+        { label: "Season", value: (g) => g.season, render: (g) => sLink(g.season) },
+        { label: "Week", value: (g) => g.week, num: true },
+        { label: "Stage", value: (g) => g.label },
+        { label: label(a), value: (g) => g.a_team, render: (g) => tsLink(g.season, g.a_fid, g.a_team), cls: (g) => (g.a_pts > g.b_pts ? "win" : null), title: `${label(a)}'s team at the time` },
+        { label: "Pts", value: (g) => g.a_pts, render: (g) => fmt.pts(g.a_pts), num: true, cls: (g) => (g.a_pts > g.b_pts ? "win" : null) },
+        { label: label(b), value: (g) => g.b_team, render: (g) => tsLink(g.season, g.b_fid, g.b_team), cls: (g) => (g.b_pts > g.a_pts ? "win" : null), title: `${label(b)}'s team at the time` },
+        { label: "Pts", value: (g) => g.b_pts, render: (g) => fmt.pts(g.b_pts), num: true, cls: (g) => (g.b_pts > g.a_pts ? "win" : null) },
+        { label: "Margin", value: (g) => Math.abs(g.a_pts - g.b_pts), render: (g) => fmt.pts(Math.abs(g.a_pts - g.b_pts)), num: true, title: "Winning margin" },
+        { label: "Winner", value: (g) => (g.a_pts > g.b_pts ? label(a) : label(b)), title: "Winner of the game" },
+        { label: "", render: (g) => gLink(g.id, "box score") },
+      ],
+    })) : null,
+    section("Trades Between Them", pair.trades.length ? statTable({
+      rows: [...pair.trades].reverse(),
+      columns: [
+        { label: "Date", value: (t) => t.date },
+        { label: `${label(a)} got`, value: (t) => t.a_assets, render: (t) => `${t.a_assets} ${t.a_assets === 1 ? "asset" : "assets"}`, title: `Players and picks received by ${label(a)}'s team` },
+        { label: "Pts", value: (t) => t.a_pts, render: (t) => fmt.pts(t.a_pts), num: true, cls: (t) => (t.a_pts > t.b_pts ? "win" : null), title: "Starter points from those assets since the trade" },
+        { label: `${label(b)} got`, value: (t) => t.b_assets, render: (t) => `${t.b_assets} ${t.b_assets === 1 ? "asset" : "assets"}`, title: `Players and picks received by ${label(b)}'s team` },
+        { label: "Pts", value: (t) => t.b_pts, render: (t) => fmt.pts(t.b_pts), num: true, cls: (t) => (t.b_pts > t.a_pts ? "win" : null), title: "Starter points from those assets since the trade" },
+        { label: "Teams", value: (t) => t.teams, num: true, title: "Number of teams in the trade" },
+        { label: "", render: (t) => tLink(t.id, "details") },
+      ],
+    }) : h("p", { class: "note" }, "None on record.")),
+    section("Other Rivalries", h("p", {}, [link(a), " vs: ", others.filter((x) => x !== a && x !== b).flatMap((x, i) => [i ? ", " : "", rLink(kind, a, x, label(x))])]),
+      h("p", {}, [link(b), " vs: ", others.filter((x) => x !== a && x !== b).flatMap((x, i) => [i ? ", " : "", rLink(kind, b, x, label(x))])])));
+  return title;
+});
+</script>
+</body>
+</html>

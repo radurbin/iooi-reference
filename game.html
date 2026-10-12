@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Box Score | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Box Score", async (main) => {
+  const id = param("id");
+  const season = id.split("-")[0];
+  const [games, players] = await Promise.all([load(`games/${season}`), load("players")]);
+  const g = games[id];
+  if (!g) throw new Error(`No game ${id}`);
+  const who = (line) => players[line.player]?.name ?? line.player;
+  const lines = (rows, slotted) => statTable({
+    sortable: false, rows,
+    columns: [
+      slotted && { label: "Slot", value: (r) => r.slot.replace("SUPER_FLEX", "SFLX") },
+      { label: "Player", value: who, render: (r) => pLink(r.player, who(r)) },
+      { label: "Pos", value: (r) => players[r.player]?.pos ?? "", cls: "c" },
+      { label: "Proj", render: (r) => (r.proj == null ? "" : fmt.pts(r.proj)), num: true, cls: "dim" },
+      { label: "Pts", render: (r) => fmt.pts(r.pts), num: true, cls: "win" },
+    ].filter(Boolean),
+  });
+  const title = g.teams.map((t) => t.team).join(" vs. ");
+  main.append(
+    h("div", { class: "crumbs" }, sLink(season, `${season} Season`), ` › Week ${g.week}`),
+    h("h1", {}, `${title} Box Score`),
+    h("div", { class: "scoreline" }, g.teams.flatMap((t, i) => [i ? ", " : "", h("span", { class: t.franchise === g.winner ? "w" : "" }, fLink(t.franchise, t.team), ` ${fmt.pts(t.points)}`)])),
+    meta([["Game", `${g.label}, week ${g.week} of ${season}`], ["Week opened", g.date]]),
+    h("div", { class: "box" }, g.teams.map((t) => h("div", {},
+      h("h2", {}, t.team),
+      meta([
+        ["Managed by", mLinks(t.managers)],
+        ["Score", fmt.pts(t.points)],
+        ["Projected", fmt.pts(t.proj)],
+        ["Max PF", `${fmt.pts(t.max_points)} (${fmt.eff(t.points / t.max_points)} efficiency)`],
+      ]),
+      h("h3", {}, "Starters"), lines(t.starters, true),
+      h("h3", {}, "Bench"), lines(t.bench)))),
+    h("p", { class: "note" }, "Points are as scored under the rules in force that week. Bench includes taxi squad and injured reserve players; Sleeper does not record those slots week by week."));
+  return `${title}, ${season} Week ${g.week}`;
+});
+</script>
+</body>
+</html>

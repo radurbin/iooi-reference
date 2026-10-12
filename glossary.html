@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Glossary | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Glossary", async (main) => {
+  const [lead, elo, ink, hof, drafts] = await Promise.all([load("leaders"), load("elo"), load("black_ink"), load("hall_of_fame"), load("draft_analysis")]);
+  const v = lead.value, w = hof.weights;
+  const slug = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const a = (href, text) => h("a", { href }, text);
+  // rows: [term, abbreviation, meaning]. Each term can be linked to by its own anchor.
+  const terms = (rows) => h("div", { class: "scroll" }, h("table", { class: "stats gloss" },
+    h("thead", {}, h("tr", {}, ["Term", "Abbr", "Meaning"].map((label) => h("th", { "data-tip": GLOSSARY[label] }, label)))),
+    h("tbody", {}, rows.map(([term, abbr, text]) => h("tr", { id: slug(term) }, h("th", { class: "rowhead" }, term), h("td", { class: "c" }, abbr), h("td", { class: "def" }, text))))));
+  const positions = Object.keys(v.replacement_rank);
+  const seasons = Object.keys(v.replacement).filter((y) => Object.keys(v.replacement[y]).length);
+  const headings = Object.entries(GLOSSARY).filter(([label]) => label).sort(([x], [y]) => x.localeCompare(y, undefined, { sensitivity: "base" }));
+
+  main.append(
+    h("h1", {}, "iooi Reference Glossary"),
+    h("p", { class: "note" }, "What the numbers on this site mean and how each is worked out. Every column heading also explains itself: hover over it, or tap it on a phone."),
+
+    section("The Basics", terms([
+      ["Franchise", "", "One of the twelve teams. A franchise keeps its history through every change of name and manager, so its records run unbroken from 2023."],
+      ["Manager", "", "A person who runs a franchise. A manager is credited with games, trades and picks made while holding a stake in the franchise. Two managers can share one."],
+      ["Stake", "", "A manager's share of a franchise, with the date it was acquired and the date it was sold."],
+      ["Start", "GS", "A week in an iooi starting lineup. Unless a table says otherwise, player stats count starts only: points scored on a bench count for nothing."],
+      ["Games", "G", "Weeks on an iooi roster, started or not."],
+      ["Bench Points", "Bench Pts", "Points scored in weeks spent on a roster but out of the lineup."],
+      ["Dynasty Playoffs", "", "The six-team championship bracket, weeks 15 to 17. Seeds 1 and 2 have a first-round bye."],
+      ["Toilet Bowl", "", "The bracket for seeds 7 to 12, in which the loser of each game advances. The loser of the final is the Ultimate Loser. Toilet Bowl games count in player stats and head-to-head records but not in Elo ratings, team streaks or team milestones."],
+      ["Team name", "", "A franchise is shown under the name it used at the time of the game, trade or pick."],
+    ])),
+
+    section("Team Stats", terms([
+      ["Points For", "PF", "Points scored by the starting lineup."],
+      ["Points Against", "PA", "Points scored by opponents."],
+      ["Max Points For", "Max PF", "The points the best possible lineup would have scored each week, choosing from everyone on the roster after the games were played. From 2027 it also sets the draft lottery odds."],
+      ["Lineup Efficiency", "Eff", "Points For as a share of Max PF. 100% would mean the right player started in every slot every week."],
+      ["All-Play", "", "A team's record had it played every other team every week. A team that outscores eight of the other eleven in a week goes 8-3 for that week. It measures how good a team's scores were without regard to who it happened to be scheduled against."],
+      ["Expected Wins", "xW", "All-play winning percentage times games played: the wins a team's scores would earn against an average schedule."],
+      ["Luck", "", "Actual wins minus expected wins. A positive figure means the schedule was kind; a negative one means the team scored well in weeks when its opponent scored better."],
+      ["Schedule Swap", "", ["On each ", a(`season.html?y=${L.current_season}#schedule-swap`, "season page"), ": every team's record had it played each other team's schedule with its own weekly scores."]],
+      ["Seed", "", "Place at the end of the regular season. Ties in record are broken by points for."],
+      ["Finish", "", "Final place, 1 to 12, after the Dynasty Playoffs and the Toilet Bowl."],
+    ])),
+
+    section("Player Value", h("div", { class: "prose" },
+      h("p", {}, "Raw points favor quarterbacks, who score the most at any level. These three stats ask how much a start was worth compared with what a team could otherwise have had.")),
+      terms([
+        ["Points Above Average", "PAA", "A start's points minus the average scored that week by iooi starters at the same position. It measures a player against the other players actually in lineups, and decides the MVP and All-iooi teams."],
+        ["Value Over Replacement", "VOR", `A start's points minus what a replacement-level player scores per game. Replacement level is the first NFL player outside the league-wide starter pool that season: ${positions.map((pos) => `${pos}${v.replacement_rank[pos] + 1}`).join(", ")}, ranked by season points under iooi scoring. He stands for the player a team would have sitting on its bench: with rosters as deep as iooi's, that is who steps in when a starter is missing. A start below that level counts against the total.`],
+        ["Wins Above Replacement", "WAR", `VOR turned into wins, at ${v.points_per_win} points per win. That rate comes from iooi's own completed seasons: it is how many extra points for a season have gone with one extra win.`],
+      ]),
+      h("h3", {}, "Replacement level, points per game"),
+      statTable({ sortable: false, rows: seasons, columns: [{ label: "Season", value: (y) => y, render: (y) => sLink(y) },
+        ...positions.map((pos) => ({ label: pos, title: `Points per game of ${pos}${v.replacement_rank[pos] + 1} that season`, render: (y) => fmt.pts(v.replacement[y][pos]), num: true }))] }),
+      h("p", { class: "note" }, `The ${L.current_season} line moves each week until the season ends.`)),
+
+    section("Elo Ratings", h("div", { class: "prose" },
+      h("p", {}, `A single number for how strong a franchise is right now. Every franchise began at ${elo.settings.start}, which stays the league average. After each game the winner takes points from the loser: more for an upset, more for a wide margin. The base swing is ${elo.settings.k} points.`),
+      h("p", {}, `The gap between two ratings gives a win chance before kickoff. Even ratings mean 50 percent, a 100-point edge about 64 percent, and 200 points about 76 percent. Between seasons each team is pulled a third of the way back toward ${elo.settings.start}. Toilet Bowl games are left out.`),
+      h("p", {}, ["The full explanation and every team's rating are on the ", a("ratings.html", "Elo ratings page"), "."]))),
+
+    section("Black Ink", h("div", { class: "prose" },
+      h("p", {}, "Black ink is the bold type a reference book uses for a league-leading figure. A player's Black Ink score counts how often he has led the league in a completed season, with more credit for the categories that matter more:"),
+      h("p", {}, Object.values(ink.weights).map((x) => `${x.label} ${x.points}`).join(", ") + "."),
+      h("p", {}, ["Position Points means leading his own position in points. League-leading figures are also set in bold on player pages. The table is on the ", a("leaders.html#black-ink", "leaders page"), "."]))),
+
+    section("Similarity Scores", h("div", { class: "prose" },
+      h("p", {}, "A score of 1000 means two players, or two team seasons, are identical on the stats compared. The further apart they are, the lower the score."),
+      h("p", {}, "Players are compared only with others at the same position, on career starts, points, points per start and WAR. Team seasons are compared on winning percentage, scoring and points allowed relative to the league that year, lineup efficiency and all-play record."),
+      h("p", {}, "Each stat is first put on a common scale, so a gap that is large by the standards of that stat counts the same whichever stat it is."))),
+
+    section("Hall of Fame Monitor", h("div", { class: "prose" },
+      h("p", {}, ["A rough measure of how strong a case a player has built, shown on the ", a("hof.html", "Hall of Fame page"), `. A score of ${hof.benchmark} marks a strong candidate. Induction is by vote of the managers; the Monitor is only a guide.`]),
+      h("p", {}, "The Monitor adds four things:")),
+      terms([
+        ["Value", "", `${w.war} points per career WAR. A career below replacement level counts as zero.`],
+        ["Service", "", `${w.start} of a point per start.`],
+        ["Black Ink (Monitor)", "", "The player's Black Ink score, point for point."],
+        ["Honors", "", `MVP ${w.mvp}, All-iooi First Team ${w.first_team}, Second Team ${w.second_team}, Young Sexy Award ${w.young_sexy}. A championship is worth ${w.champion} to a player who started the title game and ${w.champion_regular} to one on the title roster who started at least half the team's games that season but not the final. A bench player on a title team gets nothing.`],
+      ])),
+
+    section("Awards", terms([
+      ["Champion", "", "Winner of the Dynasty Championship in week 17. A player page lists a title for everyone on the roster that week."],
+      ["Ultimate Loser", "", "Loser of the Toilet Bowl final."],
+      ["Most Valuable Player", "MVP", "The player with the most points above average (PAA) across his starts that season, computed by iooi Reference."],
+      ["All-iooi Team", "", "The best lineup of the season by PAA: one quarterback, two running backs, two receivers, a tight end, a flex, a superflex, a kicker and a defense. The First Team is chosen, then the Second Team from those left."],
+      ["Rookie of the Year", "", "The NFL rookie with the most points as an iooi starter."],
+      ["Young Sexy Award", "", ["Set out in the ", a("constitution.html", "constitution"), ": the top-scoring NFL rookie at each position over weeks 1 to 17 under iooi scoring, started or not. The award goes to the team holding him at season's end."]],
+    ]), h("p", { class: "note" }, ["Winners are on the ", a("awards.html", "awards page"), "."])),
+
+    section("Drafts", terms([
+      ["Hit", "", `A draft pick who has started at least ${drafts.hit_starts} iooi games for any franchise.`],
+      ["Hit Rate", "Hit%", "Share of picks that became hits. The current year's class is left out, since it has barely played."],
+      ["Team Starts and Points", "Team GS, Team Pts", "What a pick has done for the franchise that drafted him."],
+      ["League Starts and Points", "Lg GS, Lg Pts", "What a pick has done for any iooi franchise, including after a trade or release."],
+      ["Lottery Odds", "Odds", "A team's chance at the first pick. Since the 2026 draft the six non-playoff teams draw for picks 1 to 6 at 30, 25, 20, 15, 7 and 3 percent. The 2026 odds followed regular-season standing, worst first; from 2027 they follow Max PF, lowest first. Picks 7 to 12 go by playoff finish."],
+      ["Split Draft", "", ["The ", a("split_draft.html", "2024 draft"), " in which two former co-managers pooled two rosters and two sets of rookie picks, then drafted the lot between them."]],
+      ["Draft Pick Ledger", "", ["Who holds every future pick, and the trades each has passed through. See the ", a("picks.html", "ledger"), "."]],
+    ])),
+
+    section("Trades and Waivers", terms([
+      ["Trade Result", "W, L", "A trade is scored by the points each side has had, as starters, from what it acquired. The side with more is ahead. A pick counts once it has been used, through the player taken."],
+      ["Points In and Out", "Pts In, Pts Out, Net", "Starter points from assets acquired, starter points the other side had from assets given up, and the difference."],
+      ["Trade Tree", "", "Everything a side's haul turned into. An asset that was later traded branches into what came back for it, and a pick into the player it was used on."],
+      ["Shared Branch", "†", "A branch reached through a later trade in which the team also gave up assets from outside this deal. Only part of what came back is owed to the original trade, so the row is marked."],
+      ["Vetoed", "", "A trade blocked when six managers voted against it during the two-day review."],
+      ["Pickup Credit", "Pts/Add", "A waiver claim or free-agent signing is credited with what the player did as a starter for that team from the day he was added until he left it."],
+      ["Revenge Game", "", "A start against a franchise that traded or released the player."],
+    ]), h("p", { class: "note" }, "Kickers and defenses are picked up and dropped week to week, so they have their own pickup list and are left out of the player journeys.")),
+
+    section("Streaks and Milestones", terms([
+      ["Team Streak", "", "Consecutive wins or losses in regular-season and Dynasty Playoff games. Toilet Bowl games are skipped."],
+      ["Player Streak", "", "Consecutive games in an iooi starting lineup, in any lineup slot and for any franchise. His NFL team's bye week is skipped: it neither adds to the streak nor ends it. A week on the bench, or off every iooi roster, ends it."],
+      ["Milestone", "", "A round number of starts, points or wins, with the date it was reached and those closest to the next one."],
+    ])),
+
+    section("Column Headings A to Z", h("p", { class: "note" }, "Every abbreviation used at the head of a table."),
+      h("div", { class: "scroll" }, h("table", { class: "stats gloss" },
+        h("thead", {}, h("tr", {}, h("th", { "data-tip": GLOSSARY.Abbr }, "Abbr"), h("th", { "data-tip": GLOSSARY.Meaning }, "Meaning"))),
+        h("tbody", {}, headings.map(([label, text]) => h("tr", {}, h("th", { class: "rowhead" }, label), h("td", { class: "def" }, text))))))));
+});
+</script>
+</body>
+</html>

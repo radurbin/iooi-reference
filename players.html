@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Players | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Players", async (main) => {
+  const players = await load("players");
+  const all = Object.entries(players).map(([id, p]) => ({ id, ...p })).filter((p) => p.g > 0);
+  const positions = ["All", "QB", "RB", "WR", "TE", "K", "DEF"];
+  const holder = h("div");
+  const draw = (pos) => holder.replaceChildren(statTable({
+    rows: rank(all.filter((p) => pos === "All" || p.pos === pos).sort((a, b) => b.pts - a.pts)),
+    columns: [
+      { label: "Rk", value: (p) => p.rk, num: true },
+      { label: "Player", value: (p) => p.name, render: (p) => pLink(p.id, p.name) },
+      { label: "Pos", value: (p) => p.pos, cls: "c" },
+      { label: "NFL", value: (p) => p.nfl_team ?? "", cls: "c" },
+      { label: "Yrs", value: (p) => p.seasons, num: true, title: "Seasons on an iooi roster" },
+      { label: "Tms", value: (p) => p.franchises, num: true, title: "iooi franchises played for" },
+      { label: "G", value: (p) => p.g, num: true, title: "Weeks on an iooi roster" },
+      { label: "GS", value: (p) => p.gs, num: true, title: "Games in a starting lineup" },
+      { label: "Pts", value: (p) => p.pts, render: (p) => fmt.pts(p.pts), num: true, title: "Points as a starter" },
+      { label: "Pts/GS", value: (p) => (p.gs ? p.pts / p.gs : null), render: (p) => (p.gs ? fmt.pts(p.pts / p.gs) : ""), num: true },
+      { label: "Bench Pts", value: (p) => p.bench_pts, render: (p) => fmt.pts(p.bench_pts), num: true, title: "Points scored while not in the lineup" },
+      { label: "Best", value: (p) => p.best, render: (p) => fmt.pts(p.best), num: true, title: "Best game as a starter" },
+      { label: "VOR", value: (p) => p.vor, render: (p) => fmt.pts1(p.vor), num: true, title: "Value over replacement" },
+      { label: "WAR", value: (p) => p.war, render: (p) => fmt.pts(p.war), num: true, title: "Wins above replacement" },
+    ],
+  }));
+  main.append(
+    h("h1", {}, "Dynasty iooi Player Register"),
+    h("p", { class: "note" }, `${all.length} players have spent at least one week on an iooi roster. Sorted by points as a starter; click a column to re-sort.`),
+    h("p", {}, h("b", {}, "Position: "), positions.flatMap((pos, i) => [i ? " · " : "", h("a", { href: "#", onclick: (e) => { e.preventDefault(); draw(pos); } }, pos)])),
+    holder);
+  draw("All");
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aging Curves &amp; Rookie Classes | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Aging Curves & Rookie Classes", async (main) => {
+  const d = await load("aging");
+  const positions = ["QB", "RB", "WR", "TE", "K"];
+  const peak = Object.fromEntries(positions.map((p) => [p, Math.max(...d.grid.map((r) => (r[p]?.gs >= 50 ? r[p].ppg : 0)))]));
+  const cell = (r, p) => (r[p] ? [fmt.pts(r[p].ppg), h("small", { class: "dim" }, ` ${r[p].gs}`)] : "");
+  main.append(
+    h("h1", {}, "Dynasty iooi Aging Curves & Rookie Classes"),
+    h("p", { class: "note" }, `How players score in iooi lineups at each age, and what each NFL rookie class has produced here.`),
+    section("Points per Start by Age", h("div", { class: "scroll" }, h("table", { class: "stats grid" },
+      h("thead", {}, h("tr", {}, h("th", { "data-tip": "Age on the day of the game" }, "Age"), positions.map((p) => h("th", { "data-tip": `Points per start for ${p}s at that age, with the number of starts` }, p)))),
+      h("tbody", {}, d.grid.map((r) => h("tr", {}, h("th", { class: "num" }, r.age), positions.map((p) => h("td", { class: `num ${r[p] && r[p].ppg === peak[p] ? "ahead win" : ""}` }, cell(r, p)))))))),
+      h("p", { class: "note" }, `Points per start, then the number of starts in small type. Ages with fewer than ${d.min_starts} starts at a position are left blank. The best age at each position, among ages with at least 50 starts, is shaded.`)),
+    section("Value Over Replacement per Start by Age", h("div", { class: "scroll" }, h("table", { class: "stats grid" },
+      h("thead", {}, h("tr", {}, h("th", { "data-tip": "Age on the day of the game" }, "Age"), positions.map((p) => h("th", { "data-tip": `Average value over a replacement ${p} per start at that age` }, p)))),
+      h("tbody", {}, d.grid.map((r) => h("tr", {}, h("th", { class: "num" }, r.age), positions.map((p) => h("td", { class: `num ${r[p] ? (r[p].vor > 0 ? "ahead" : "behind") : ""}` }, r[p] ? fmt.signed(r[p].vor) : ""))))))),
+      h("p", { class: "note" }, "Green is above replacement level, red below.")),
+    section("Best Season at Each Age", statTable({
+      rows: d.best_by_age,
+      columns: [
+        { label: "Age", value: (r) => r.age, num: true, title: "Age on 1 September of the season" },
+        { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) },
+        { label: "GS", value: (r) => r.gs, num: true },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+      ],
+    })),
+    section("NFL Rookie Classes", h("p", { class: "note" }, "Every player by the year he entered the NFL, judged on what he has done in iooi lineups since 2023."), statTable({
+      rows: d.classes,
+      columns: [
+        { label: "Class", value: (r) => r.year, num: true, title: "NFL rookie year" },
+        { label: "Players", value: (r) => r.players, num: true, title: "Players from the class with at least one iooi start" },
+        { label: "GS", value: (r) => r.gs, num: true },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, cls: "win" },
+        { label: "WAR/Player", value: (r) => r.war / r.players, render: (r) => fmt.pts(r.war / r.players), num: true, title: "Wins above replacement per player" },
+        { label: "Best of the class", render: (r) => h("div", {}, r.top.flatMap((p, i) => [i ? ", " : "", pLink(p.player, p.name), h("span", { class: "dim" }, ` ${fmt.pts(p.war)}`)])), title: "Top five by WAR, with WAR" },
+      ],
+    })));
+});
+</script>
+</body>
+</html>

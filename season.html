@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Season | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Season", async (main) => {
+  const y = param("y") || L.current_season;
+  const season = await load(`seasons/${y}`);
+  const info = L.seasons.find((s) => s.season === y);
+  const name = (id) => fLink(id, info.teams[id]);
+  const complete = season.status === "complete";
+  const side = (g, won) => g.teams.find((t) => (t.franchise === g.winner) === won);
+  const bracket = (kind, note) => {
+    const games = season.games.filter((g) => g.kind === kind);
+    if (!games.length) return h("p", { class: "note" }, "Not yet played.");
+    return [statTable({
+      sortable: false, rows: games,
+      columns: [
+        { label: "Week", value: (g) => g.week, num: true },
+        { label: "Round", value: (g) => g.label },
+        { label: "Winner", render: (g) => name(side(g, true).franchise), cls: "win" },
+        { label: "Pts", render: (g) => fmt.pts(side(g, true).points), num: true },
+        { label: "Loser", render: (g) => name(side(g, false).franchise) },
+        { label: "Pts", render: (g) => fmt.pts(side(g, false).points), num: true },
+        { label: "", render: (g) => gLink(g.id, "box score") },
+      ],
+    }), note && h("p", { class: "note" }, note)];
+  };
+  const weeks = [...new Set(season.games.filter((g) => g.kind === "regular").map((g) => g.week))];
+  main.append(
+    h("h1", {}, `${y} Dynasty iooi Season`),
+    meta([
+      ["Status", complete ? "Complete" : `In progress, ${season.weeks_played} weeks played`],
+      ["Champion", complete && name(season.champion)],
+      ["Runner-up", complete && name(season.runner_up)],
+      ["Ultimate Loser", complete && name(season.ultimate_loser)],
+    ]),
+    section("League Leaders", leaderBoxes(season.leaders, (r) => pLink(r.player, r.name)),
+      h("p", { class: "note" }, ["Starts in iooi lineups, playoffs and Toilet Bowl included. Full lists are on the ", h("a", { href: "leaders.html" }, "leaders page"), "."])),
+    section("Regular Season Standings", statTable({
+      rows: season.standings, rowClass: (r) => (r.finish === 1 ? "champ" : null),
+      columns: [
+        { label: "Seed", value: (r) => r.seed, num: true },
+        { label: "Team", value: (r) => r.team, render: (r) => tsLink(y, r.franchise, r.team) },
+        { label: "W", value: (r) => r.w, num: true },
+        { label: "L", value: (r) => r.l, num: true },
+        { label: "W-L%", value: (r) => r.pct, render: (r) => fmt.pct(r.pct), num: true },
+        { label: "PF", value: (r) => r.pf, render: (r) => fmt.pts(r.pf), num: true },
+        { label: "PA", value: (r) => r.pa, render: (r) => fmt.pts(r.pa), num: true },
+        { label: "PF/G", value: (r) => r.ppg, render: (r) => fmt.pts(r.ppg), num: true },
+        { label: "Max PF", value: (r) => r.max_pf, render: (r) => fmt.pts(r.max_pf), num: true, title: "Points from the best possible lineup each week" },
+        { label: "Eff", value: (r) => r.efficiency, render: (r) => fmt.eff(r.efficiency), num: true, title: "Points for as a share of Max PF" },
+        { label: "All-Play", value: (r) => r.all_play_w, render: (r) => `${r.all_play_w}-${r.all_play_l}`, num: true, title: "Record against every team every week" },
+        { label: "xW", value: (r) => r.expected_w, render: (r) => fmt.pts(r.expected_w), num: true, title: "Expected wins from all-play results" },
+        { label: "Luck", value: (r) => r.luck, render: (r) => fmt.signed(r.luck), num: true, title: "Wins minus expected wins" },
+        { label: "Trans", value: (r) => r.transactions, num: true },
+        { label: "Finish", value: (r) => r.finish, render: (r) => r.result ?? "", cls: "c" },
+      ],
+    }), h("p", { class: "note" }, "Seeds 1-6 make the Dynasty Playoffs; 7-12 play the Toilet Bowl. Ties in record are broken by points for. Click a team for its season page.")),
+    section("Dynasty Playoffs", bracket("winners", "Seeds 1 and 2 have a first-round bye.")),
+    section("Toilet Bowl", bracket("toilet", "The loser of each Toilet Bowl game advances. The loser of the final is the Ultimate Loser.")),
+    section("Schedule Swap", (() => {
+      const order = season.standings.map((r) => r.franchise);
+      const cell = (a, b) => season.schedule_swap[a][b];
+      return [h("div", { class: "scroll" }, h("table", { class: "stats grid" },
+        h("thead", {}, h("tr", {}, h("th", { "data-tip": "Each row shows the team's record had it played the numbered team's schedule" }, "Team, with the schedule of..."), order.map((id, i) => h("th", { "data-tip": info.teams[id] }, i + 1)), h("th", { "data-tip": "Best record under any team's schedule" }, "Best"), h("th", { "data-tip": "Worst record under any team's schedule" }, "Worst"))),
+        h("tbody", {}, order.map((a, i) => {
+          const actual = cell(a, a)[0];
+          const all = order.map((b) => cell(a, b)[0]);
+          return h("tr", {}, h("th", { class: "rowhead" }, `${i + 1}. `, name(a)),
+            order.map((b) => { const [w, l] = cell(a, b); return h("td", { class: `c ${a === b ? "self win" : w > actual ? "ahead" : w < actual ? "behind" : ""}` }, `${w}-${l}`); }),
+            h("td", { class: "c" }, `${Math.max(...all)}-${cell(a, order[all.indexOf(Math.max(...all))])[1]}`),
+            h("td", { class: "c" }, `${Math.min(...all)}-${cell(a, order[all.indexOf(Math.min(...all))])[1]}`));
+        })))),
+        h("p", { class: "note" }, "Each row is a team's record had it played another team's regular-season schedule with its own weekly scores. The shaded cell is the actual record; green is better than actual, red worse. Column numbers follow the row order.")];
+    })()),
+    section("Schedule and Results", statTable({
+      sortable: false,
+      rows: season.games.filter((g) => g.kind === "regular"),
+      columns: [
+        { label: "Week", value: (g) => g.week, num: true },
+        { label: "Date", value: (g) => g.date },
+        { label: "Winner", render: (g) => name(side(g, true).franchise), cls: "win" },
+        { label: "Pts", render: (g) => fmt.pts(side(g, true).points), num: true },
+        { label: "Loser", render: (g) => name(side(g, false).franchise) },
+        { label: "Pts", render: (g) => fmt.pts(side(g, false).points), num: true },
+        { label: "", render: (g) => gLink(g.id, "box score") },
+      ],
+    }), h("p", { class: "note" }, `${weeks.length} of 14 regular-season weeks played. Dates are the Thursday that opens each week.`)));
+  return `${y} Season`;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Draft Analysis | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Draft Analysis", async (main) => {
+  const [d, players] = await Promise.all([load("draft_analysis"), load("players")]);
+  const name = (id) => players[id]?.name ?? id;
+  const pickCols = (lead) => [
+    lead,
+    { label: "Player", value: (p) => name(p.player), render: (p) => pLink(p.player, name(p.player)), cls: "win" },
+    { label: "Pos", value: (p) => p.pos, cls: "c" },
+    { label: "Draft", value: (p) => p.season, render: (p) => h("a", { href: `draft.html?y=${p.season}` }, p.season) },
+    { label: "Pick", value: (p) => p.overall, render: (p) => p.label, num: true },
+    { label: "Team", value: (p) => p.team, render: (p) => fLink(p.franchise, p.team) },
+    { label: "Manager(s)", render: (p) => mLinks(p.managers) },
+    { label: "GS", value: (p) => p.starts_league, num: true, title: "Games started for any iooi franchise" },
+    { label: "Pts", value: (p) => p.pts_league, render: (p) => fmt.pts(p.pts_league), num: true, title: "Points as a starter for any iooi franchise" },
+    { label: "Rd Avg", value: (p) => p.round_avg, render: (p) => fmt.pts(p.round_avg), num: true, title: "Average points for picks in the same round of the same draft" },
+    { label: "+/-", value: (p) => p.vs_avg, render: (p) => fmt.signed(p.vs_avg), num: true, title: "Points above or below the round average" },
+    { label: "Own Pts", value: (p) => p.pts_team, render: (p) => fmt.pts(p.pts_team), num: true, title: "Points as a starter for the drafting franchise" },
+    { label: "Kept", value: (p) => (p.retained ? "Yes" : ""), cls: "c", title: "Still on the drafting franchise's roster" },
+  ];
+  const rk = { label: "Rk", value: (p) => p.rk, num: true };
+  const summaryCols = (lead) => [
+    lead,
+    { label: "Picks", value: (r) => r.picks, num: true },
+    { label: "Hits", value: (r) => r.hits, num: true, title: `Picks with at least ${d.hit_starts} iooi starts` },
+    { label: "Hit%", value: (r) => r.hit_rate, render: (r) => fmt.eff(r.hit_rate), num: true },
+    { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, title: "Starter points by these picks for any iooi franchise" },
+    { label: "Pts/Pick", value: (r) => r.pts_per_pick, render: (r) => fmt.pts(r.pts_per_pick), num: true },
+    { label: "+/-", value: (r) => r.vs_avg, render: (r) => fmt.signed(r.vs_avg), num: true, title: "Total points above or below round averages" },
+    { label: "Own Pts", value: (r) => r.pts_team, render: (r) => fmt.pts(r.pts_team), num: true, title: "Starter points for the drafting franchise" },
+    { label: "Kept", value: (r) => r.retained, num: true, title: "Picks still on the drafting franchise's roster" },
+  ];
+  main.append(
+    h("h1", {}, "Dynasty iooi Draft Analysis"),
+    meta([["Drafts", L.drafts.flatMap((x, i) => [i ? ", " : "", h("a", { href: `draft.html?y=${x.season}` }, `${x.season} ${x.kind}`)]).concat([", ", h("a", { href: "split_draft.html" }, "2024 split draft")])]]),
+    h("p", { class: "note" }, `Picks are judged on points as a starter for any iooi franchise, against the average pick in the same round of the same draft. A hit is a pick with at least ${d.hit_starts} starts. Hit rates leave out the ${L.current_season} class, which has barely played.`),
+    section("Rookie Drafts by Round", statTable({ sortable: false, rows: d.rounds, columns: summaryCols({ label: "Round", value: (r) => r.key, num: true }).filter((c) => c.label !== "+/-") })),
+    section("Rookie Drafting by Manager", statTable({ rows: d.managers, columns: summaryCols({ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }) }),
+      h("p", { class: "note" }, "Picks made while the manager held a stake in the franchise. Co-managers share the same picks.")),
+    section("Rookie Drafting by Franchise", statTable({ rows: d.franchises, columns: summaryCols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
+    section("Rookie Classes", statTable({ sortable: false, rows: d.classes, columns: summaryCols({ label: "Class", value: (r) => r.key, render: (r) => h("a", { href: `draft.html?y=${r.key}` }, r.key) }).filter((c) => c.label !== "+/-") })),
+    Object.entries(d.rookie_by_round).map(([round, lists]) => [
+      section(`Best Rookie Picks, Round ${round}`, statTable({ rows: rank(lists.best), columns: pickCols(rk) })),
+      section(`Worst Rookie Picks, Round ${round}`, statTable({ rows: rank(lists.worst), columns: pickCols(rk) })),
+    ]),
+    section("Most Productive Rookie Picks", statTable({ rows: rank(d.rookie_top_points), columns: pickCols(rk) })),
+    section("2023 Startup Draft by Franchise", statTable({ rows: d.startup_franchises, columns: summaryCols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
+    section("Startup Draft: Best Value", statTable({ rows: rank(d.startup_best), columns: pickCols(rk) })),
+    section("Startup Draft: Late-Round Steals", h("p", { class: "note" }, "Round 6 or later."), statTable({ rows: rank(d.startup_steals), columns: pickCols(rk) })),
+    section("Startup Draft: Early-Round Busts", h("p", { class: "note" }, "Rounds 1-5."), statTable({ rows: rank(d.startup_busts), columns: pickCols(rk) })));
+});
+</script>
+</body>
+</html>

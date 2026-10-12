@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Page Not Found | iooi Reference</title>
+<style>
+body { margin: 0; padding: 60px 16px; background: #eceef0; color: #000; font: 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; }
+h1 { font-size: 26px; margin: 0 0 6px; color: #253358; }
+a { color: #0f4fb5; }
+</style>
+</head>
+<body>
+<h1>Page Not Found</h1>
+<p>That page is not in the iooi record books.</p>
+<p><a id="home" href="index.html">Return to the league index</a></p>
+<script>
+// GitHub Pages serves this file for any missing address, at any depth; point the link at the site root.
+document.getElementById("home").href = `/${location.pathname.split("/")[1]}/`.replace("//", "/");
+</script>
+</body>
+</html>

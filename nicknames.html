@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nickname Register | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Nickname Register", async (main) => {
+  const rows = await load("nicknames");
+  const given = rows.filter((r) => r.nickname);
+  const count = (key) => Object.entries(given.reduce((acc, r) => { (acc[key(r)] ??= []).push(r); return acc; }, {})).map(([k, list]) => ({ key: k, n: list.length, list })).sort((x, y) => y.n - x.n);
+  const player = (r) => (r.player ? pLink(r.player, r.name) : r.name);
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "players.html" }, "Players"), " › Nickname Register"),
+    h("h1", {}, "Dynasty iooi Nickname Register"),
+    meta([
+      ["Nicknames given", given.length],
+      ["Players nicknamed", new Set(given.map((r) => r.name)).size],
+      ["First on record", [`"${given[0].nickname}", `, player(given[0]), " by ", mLink(given[0].manager), ` (${given[0].date})`]],
+    ]),
+    h("p", { class: "note" }, "Every nickname a manager has given a player on his roster, from the league's Sleeper notices. A nickname belongs to the manager who gave it; a player can carry different ones with different teams."),
+    section("Nicknames by Manager", statTable({
+      rows: rank(count((r) => r.manager)),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) },
+        { label: "Given", value: (r) => r.n, num: true, title: "Nicknames given, counting each change" },
+        { label: "Players", value: (r) => new Set(r.list.map((x) => x.name)).size, num: true, title: "Different players nicknamed" },
+        { label: "Latest", render: (r) => [`"${r.list.at(-1).nickname}" (`, player(r.list.at(-1)), ")"], title: "Most recent nickname given" },
+      ],
+    })),
+    section("Most Nicknamed Players", statTable({
+      rows: rank(count((r) => r.name).filter((r) => r.n > 1).slice(0, 25)),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Player", value: (r) => r.key, render: (r) => player(r.list[0]), cls: "win" },
+        { label: "Pos", value: (r) => r.list[0].pos, cls: "c" },
+        { label: "Given", value: (r) => r.n, num: true, title: "Nicknames given, counting each change" },
+        { label: "Nicknames", render: (r) => r.list.map((x) => `"${x.nickname}"`).join(", "), title: "In the order given" },
+      ],
+    })),
+    section("All Nickname Changes", statTable({
+      rows: [...rows].reverse(),
+      columns: [
+        { label: "Date", value: (r) => r.date },
+        { label: "Player", value: (r) => r.name, render: player, cls: "win" },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Nickname", value: (r) => r.nickname ?? "", render: (r) => r.nickname ?? h("span", { class: "dim" }, "removed"), title: "Nickname given; \"removed\" when the manager cleared it" },
+        { label: "Replaced", value: (r) => r.previous ?? "", cls: "dim", title: "The same manager's earlier nickname for the player" },
+        { label: "By", value: (r) => managerName(r.manager), render: (r) => mLink(r.manager) },
+        { label: "Team", value: (r) => r.team, render: (r) => (r.franchise ? fLink(r.franchise, r.team) : "") },
+      ],
+    })));
+});
+</script>
+</body>
+</html>

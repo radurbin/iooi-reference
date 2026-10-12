@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2024 Dynasty iooi Split Draft | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("2024 Dynasty iooi Split Draft", async (main) => {
+  const [d, players] = await Promise.all([load("split_draft"), load("players")]);
+  const [a, b] = d.totals;
+  const name = (id) => players[id]?.name ?? id;
+  const selection = (e) => (e.kind === "player" ? pLink(e.player, e.text) : [e.text, " (", pLink(e.became, name(e.became)), e.used_by === e.franchise ? "" : [", taken by ", fLink(e.used_by, e.used_team)], ")"]);
+  const board = (e) => h("td", { class: e.original === e.franchise ? null : "ahead" }, e.kind === "player" ? pLink(e.player, e.text) : `Pick ${e.label}`, h("small", { class: "dim" }, ` ${e.pos}`));
+  const rounds = Array.from({ length: d.rounds }, (_, i) => d.selections.filter((e) => e.round === i + 1));
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "drafts.html" }, "Drafts"), " › 2024 Split Draft"),
+    h("h1", {}, "2024 Dynasty iooi Split Draft"),
+    meta([
+      ["Date", d.date],
+      ["Format", `${d.rounds} rounds, snake order, Elis first, ${d.selections.length} selections (${a.players + b.players} players and ${a.picks + b.picks} rookie picks)`],
+      ["Managers", [mLink(a.manager), " (", fLink(a.franchise, a.team), ") and ", mLink(b.manager), " (", fLink(b.franchise, b.team), ")"]],
+      ["Changed rosters", `${a.switched + b.switched} of ${d.selections.length} selections`],
+      ["Other drafts", L.drafts.flatMap((x, i) => [i ? ", " : "", h("a", { href: `draft.html?y=${x.season}` }, `${x.season} ${x.kind}`)])],
+    ]),
+    h("p", { class: "prose" }, rich(`[[m:ritesh]] and [[m:elis]] managed [[f:10|${b.franchise === 10 ? b.team : a.team}]] together in 2023. When they parted ways before the 2024 season, Ritesh took over the vacant [[f:3|${a.franchise === 3 ? a.team : b.team}]]. The two pooled both rosters and both sets of 2024 rookie picks, then drafted the lot between them. The commissioner moved players and picks afterward to match the result.`)),
+    section("Results by Manager", statTable({
+      sortable: false, rows: d.totals,
+      columns: [
+        { label: "Manager", render: (r) => mLink(r.manager) },
+        { label: "Franchise", render: (r) => fLink(r.franchise, r.team) },
+        { label: "Sel", value: (r) => r.selections, num: true, title: "Selections made" },
+        { label: "Players", value: (r) => r.players, num: true, title: "Players selected" },
+        { label: "Picks", value: (r) => r.picks, num: true, title: "2024 rookie picks selected" },
+        { label: "Moved", value: (r) => r.switched, num: true, title: "Selections that came from the other franchise's roster" },
+        { label: "GS", value: (r) => r.gs, num: true, title: "Games started for this franchise since the split, by players selected or drafted with picks selected" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, title: "Starter points for this franchise since the split" },
+        { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, title: "Wins above replacement for this franchise since the split" },
+        { label: "Kept", value: (r) => r.kept, num: true, title: "Selections still on this franchise's roster" },
+      ],
+    })),
+    section("Draft Board", h("div", { class: "scroll" }, h("table", { class: "stats grid" },
+      h("thead", {}, h("tr", {}, h("th", { "data-tip": "Round" }, "Rd"), d.totals.map((t) => h("th", { "data-tip": `Selections by ${managerName(t.manager)}` }, managerName(t.manager), ", ", t.team)))),
+      h("tbody", {}, rounds.map((pair, i) => h("tr", {}, h("th", { class: "num" }, i + 1), d.totals.map((t) => board(pair.find((e) => e.manager === t.manager)))))))),
+      h("p", { class: "note" }, "Shaded selections came over from the other franchise. Elis chose first and the order snaked, so Ritesh chose first in even rounds.")),
+    section("Selections", statTable({
+      rows: d.selections,
+      columns: [
+        { label: "Rd", value: (e) => e.round, num: true },
+        { label: "Pick", value: (e) => e.overall, num: true, title: "Overall selection number" },
+        { label: "Manager", value: (e) => managerName(e.manager), render: (e) => mLink(e.manager) },
+        { label: "Team", value: (e) => e.team, render: (e) => fLink(e.franchise, e.team) },
+        { label: "Selection", value: (e) => e.text, render: selection, cls: "win", title: "Player chosen, or the rookie pick chosen and the player it was used on" },
+        { label: "Pos", value: (e) => e.pos, cls: "c" },
+        { label: "From", value: (e) => e.original, render: (e) => fLink(e.original, d.totals.find((t) => t.franchise === e.original).team), title: "Franchise that held the player or pick before the split" },
+        { label: "GS", value: (e) => e.gs, num: true, title: "Games started for the selecting franchise since the split" },
+        { label: "Pts", value: (e) => e.pts, render: (e) => fmt.pts(e.pts), num: true, title: "Points as a starter for the selecting franchise since the split" },
+        { label: "WAR", value: (e) => e.war, render: (e) => fmt.pts(e.war), num: true, title: "Wins above replacement for the selecting franchise since the split" },
+        { label: "Kept", value: (e) => (e.kept ? "Yes" : ""), cls: "c", title: "Still on the selecting franchise's roster" },
+      ],
+    }), h("p", { class: "note" }, "GS, Pts and WAR count starts for the selecting franchise from the 2024 season on. A rookie pick is credited with the player it was used on.")));
+});
+</script>
+</body>
+</html>

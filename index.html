@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="iooi Reference: Dynasty iooi History &amp; Stats">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Dynasty iooi History", async (main) => {
+  const [all, timeline, streaks] = await Promise.all([load("all_time"), load("timeline"), load("streaks")]);
+  // Events from earlier years that fell within three days of today's date.
+  const today = new Date();
+  const near = (date) => {
+    const d = new Date(`${date}T12:00:00`);
+    if (d.getFullYear() >= today.getFullYear()) return false;
+    const then = new Date(today.getFullYear(), d.getMonth(), d.getDate(), 12);
+    return Math.abs(then - today) <= 3.5 * 86400000;
+  };
+  const who = (m) => (m.kind === "player" ? `[[p:${m.key}|${m.name}]]` : m.kind === "manager" ? `[[m:${m.key}]]` : `[[f:${m.key}|${m.team}]]`);
+  const memories = [
+    ...timeline.events.filter((e) => near(e.date)).map((e) => ({ date: e.date, text: e.text })),
+    ...streaks.milestones.reached.filter((m) => near(m.date) && m.kind !== "manager").map((m) => ({ date: m.date, text: `${who(m)} reaches ${m.what} ([[g:${m.game}]]).` })),
+  ].sort((x, y) => (x.date < y.date ? 1 : -1)).slice(0, 8);
+  const done = L.seasons.filter((s) => s.status === "complete");
+  const team = (key) => (s) => (s[key] ? fLink(s[key], seasonTeam(s.season, s[key])) : "");
+  main.append(
+    h("h1", {}, "Dynasty iooi History & Stats"),
+    meta([
+      ["Founded", L.founded],
+      ["Franchises", L.franchises.length],
+      ["Seasons", `${L.seasons.length} (${L.seasons[0].season} to ${L.current_season})`],
+      ["Commissioner", mLink(L.commissioner)],
+      ["Current season", [sLink(L.current_season), ", ", h("a", { href: "week.html" }, `week ${L.current_week} matchups`)]],
+      ["Champions", done.map((s) => `${seasonTeam(s.season, s.champion)} (${s.season})`).join(", ")],
+    ]),
+    memories.length ? h("div", { class: "onthisday" }, h("b", { class: "head" }, "This week in iooi history"),
+      h("ul", {}, memories.map((e) => h("li", {}, h("b", {}, `${e.date}: `), rich(e.text))))) : null,
+    section("Champions", statTable({
+      rows: [...L.seasons].reverse(),
+      columns: [
+        { label: "Season", value: (s) => s.season, render: (s) => sLink(s.season) },
+        { label: "Champion", render: team("champion"), cls: "win" },
+        { label: "Runner-up", render: team("runner_up") },
+        { label: "Third place", render: team("third") },
+        { label: "Top seed", render: team("top_seed"), title: "Best regular-season record" },
+        { label: "Most points", render: team("most_points"), title: "Most regular-season points" },
+        { label: "Ultimate Loser", render: team("ultimate_loser"), title: "Loser of the Toilet Bowl" },
+      ],
+    }), h("p", { class: "note" }, `${L.current_season} is in progress; top seed and most points are through week ${L.current_week - 1}.`)),
+    section("Franchises", statTable({
+      rows: rank([...all.franchises].sort((a, b) => b.pct - a.pct || b.pf - a.pf)),
+      columns: [
+        { label: "Rk", value: (f) => f.rk, num: true },
+        { label: "Franchise", value: (f) => f.name, render: (f) => fLink(f.id) },
+        { label: "Manager(s)", render: (f) => mLinks(f.owners) },
+        { label: "W", value: (f) => f.w, num: true },
+        { label: "L", value: (f) => f.l, num: true },
+        { label: "W-L%", value: (f) => f.pct, render: (f) => fmt.pct(f.pct), num: true },
+        { label: "PF", value: (f) => f.pf, render: (f) => fmt.pts(f.pf), num: true, title: "Regular-season points for" },
+        { label: "PA", value: (f) => f.pa, render: (f) => fmt.pts(f.pa), num: true, title: "Regular-season points against" },
+        { label: "Trans", value: (f) => f.transactions, num: true, title: "Completed trades, waiver claims and free-agent moves" },
+        { label: "Trades", value: (f) => f.trades, num: true },
+        { label: "Plyf", value: (f) => f.playoff_appearances, num: true, title: "Playoff appearances" },
+        { label: "Plyf W-L", value: (f) => f.playoff_w - f.playoff_l, render: (f) => `${f.playoff_w}-${f.playoff_l}`, num: true },
+        { label: "Titles", value: (f) => f.championships.length, render: (f) => f.championships.join(", "), num: true },
+        { label: "Ult. Loser", value: (f) => f.ultimate_loser.length, render: (f) => f.ultimate_loser.join(", "), num: true },
+      ],
+    }), h("p", { class: "note" }, "Records are regular season only. A franchise keeps its history when it changes hands.")),
+    section("Managers", statTable({
+      rows: rank([...all.managers].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0) || b.w - a.w)),
+      columns: [
+        { label: "Rk", value: (m) => m.rk, num: true },
+        { label: "Manager", value: (m) => m.name, render: (m) => mLink(m.id) },
+        { label: "Franchise(s)", render: (m) => m.franchises.flatMap((id, i) => [i ? ", " : "", fLink(id)]) },
+        { label: "Active", value: (m) => (m.active ? "Yes" : "No"), cls: "c" },
+        { label: "W", value: (m) => m.w, num: true },
+        { label: "L", value: (m) => m.l, num: true },
+        { label: "W-L%", value: (m) => m.pct, render: (m) => fmt.pct(m.pct), num: true },
+        { label: "PF", value: (m) => m.pf, render: (m) => fmt.pts(m.pf), num: true },
+        { label: "PA", value: (m) => m.pa, render: (m) => fmt.pts(m.pa), num: true },
+        { label: "Trans", value: (m) => m.transactions, num: true },
+        { label: "Trades", value: (m) => m.trades, num: true },
+        { label: "Plyf W-L", value: (m) => m.playoff_w - m.playoff_l, render: (m) => `${m.playoff_w}-${m.playoff_l}`, num: true },
+        { label: "Titles", value: (m) => m.championships.length, render: (m) => m.championships.join(", "), num: true },
+      ],
+    }), h("p", { class: "note" }, "A manager is credited with every game played while holding a stake in the franchise. Co-managers share the same games.")));
+});
+</script>
+</body>
+</html>

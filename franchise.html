@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Franchise | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Franchise", async (main) => {
+  const [f, players, teams] = await Promise.all([load(`franchises/${param("id") || 1}`), load("players"), load("all_time_teams")]);
+  const slotName = (s) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex", DEF: "D/ST" }[s] ?? s);
+  const who = (r) => players[r.player]?.name ?? r.player;
+  const leaderCols = [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    { label: "Player", value: who, render: (r) => pLink(r.player, who(r)), cls: "win" },
+    { label: "Pos", value: (r) => r.pos, cls: "c" },
+    { label: "Years", value: (r) => r.years, cls: "c" },
+    { label: "G", value: (r) => r.g, num: true, title: "Weeks on the roster" },
+    { label: "GS", value: (r) => r.gs, num: true },
+    { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+    { label: "Pts/GS", value: (r) => r.pts / r.gs, render: (r) => fmt.pts(r.pts / r.gs), num: true },
+    { label: "Best", value: (r) => r.best, render: (r) => fmt.pts(r.best), num: true },
+    { label: "VOR", value: (r) => r.vor, render: (r) => fmt.pts1(r.vor), num: true, title: "Value over replacement" },
+    { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, title: "Wins above replacement" },
+    { label: "W", value: (r) => r.wins, num: true, title: "Team wins in games he started" },
+  ];
+  const t = f.totals;
+  const complete = new Set(L.seasons.filter((s) => s.status === "complete").map((s) => s.season));
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "index.html#franchises" }, "Franchises"), ` › ${f.name}`),
+    bio({
+      name: f.name,
+      awards: f.seasons.filter((s) => complete.has(s.season)).flatMap((s) => [
+        s.finish === 1 ? ["iooi Champ", s.season, "gold"] : null, s.finish === 2 ? ["Runner-up", s.season] : null,
+        s.seed <= 6 ? ["Playoffs", s.season] : null, s.seed === 1 ? ["Top Seed", s.season] : null,
+        s.result === "Ultimate Loser" ? ["Ultimate Loser", s.season, "red"] : null]).filter(Boolean),
+      tiles: [...f.seasons].reverse().map((s) => h("a", { href: `team.html?y=${s.season}&id=${f.id}`, "data-tip": `${s.season} ${s.team}: ${s.w}-${s.l}` }, `'${s.season.slice(2)}`, h("small", {}, `${s.w}-${s.l}`))),
+      lines: [
+        ["Seasons", `${f.seasons.length} (${f.seasons[0].season} to ${f.seasons.at(-1).season})`],
+        ["Manager(s)", mLinks(f.owners)],
+        ["Record", `${record(t)} (${fmt.pct(t.pct)} W-L%)`],
+        ["Playoff Appearances", `${t.playoff_appearances} (${t.playoff_w}-${t.playoff_l} in playoff games)`],
+        ["Championships", t.championships.length ? `${t.championships.length} (${t.championships.join(", ")})` : "0"],
+        ["Ultimate Loser", t.ultimate_loser.length ? t.ultimate_loser.join(", ") : null],
+        [["Points For", fmt.pts(t.pf)], ["Points Against", fmt.pts(t.pa)]],
+        [["Transactions", t.transactions], ["Trades", t.trades]],
+        ["Also known as", [...new Set(f.seasons.map((s) => s.team))].filter((n) => n !== f.name).join(", ")],
+      ],
+    }),
+    section("Seasons", statTable({
+      rows: [...f.seasons].reverse(), rowClass: (r) => (r.finish === 1 ? "champ" : null),
+      foot: { season: `${f.seasons.length} seasons`, team: "", w: t.w, l: t.l, pct: t.pct, pf: t.pf, pa: t.pa, transactions: t.transactions, total: true },
+      columns: [
+        { label: "Season", value: (r) => r.season, render: (r) => (r.total ? r.season : tsLink(r.season, f.id, r.season)), title: "Season; click for the team's season page" },
+        { label: "Team", value: (r) => r.team },
+        { label: "W", value: (r) => r.w, num: true },
+        { label: "L", value: (r) => r.l, num: true },
+        { label: "W-L%", value: (r) => r.pct, render: (r) => fmt.pct(r.pct), num: true },
+        { label: "Seed", value: (r) => r.seed, num: true },
+        { label: "PF", value: (r) => r.pf, render: (r) => fmt.pts(r.pf), num: true },
+        { label: "PA", value: (r) => r.pa, render: (r) => fmt.pts(r.pa), num: true },
+        { label: "Max PF", value: (r) => r.max_pf, render: (r) => fmt.pts(r.max_pf), num: true },
+        { label: "Eff", value: (r) => r.efficiency, render: (r) => fmt.eff(r.efficiency), num: true },
+        { label: "All-Play", value: (r) => r.all_play_w, render: (r) => (r.total ? "" : `${r.all_play_w}-${r.all_play_l}`), num: true },
+        { label: "Luck", value: (r) => r.luck, render: (r) => fmt.signed(r.luck), num: true },
+        { label: "Trans", value: (r) => r.transactions, num: true },
+        { label: "Playoffs", render: (r) => (r.total ? "" : r.playoff_w + r.playoff_l ? `${r.playoff_w}-${r.playoff_l}` : r.toilet_w + r.toilet_l ? `Toilet Bowl ${r.toilet_w}-${r.toilet_l}` : "") },
+        { label: "Finish", value: (r) => r.finish, render: (r) => r.result ?? "", cls: "c" },
+      ],
+    })),
+    section("Franchise History", h("div", { class: "prose" }, [...f.history].reverse().map((era) => [h("h3", {}, era.heading), h("p", {}, rich(era.text))]))),
+    section("All-Time Leaders", statTable({ rows: rank(f.leaders.overall), columns: leaderCols }),
+      h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(f.leaders.by_pos).flatMap((rows) => rank(rows)), columns: leaderCols }),
+      h("p", { class: "note" }, "Games started and points for this franchise only.")),
+    section("All-Time Team", statTable({
+      sortable: false, rows: teams.franchises[f.id],
+      columns: [
+        { label: "Slot", render: (r) => slotName(r.slot), cls: "win" },
+        { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
+        { label: "Pos", render: (r) => r.pos, cls: "c" },
+        { label: "Years", render: (r) => r.years, cls: "c" },
+        { label: "GS", render: (r) => r.gs, num: true },
+        { label: "Pts", render: (r) => fmt.pts(r.pts), num: true },
+        { label: "WAR", render: (r) => fmt.pts(r.war), num: true },
+      ],
+    }), h("p", { class: "note" }, ["The best lineup from everyone who has started for this franchise, by starter points for it. See every franchise's on the ", h("a", { href: "alltime.html" }, "all-time teams page"), "."])),
+    section("Manager History", statTable({
+      sortable: false, rows: f.ownership,
+      columns: [
+        { label: "Manager", render: (o) => mLink(o.manager) },
+        { label: "Acquired stake", value: (o) => o.from },
+        { label: "Sold stake", render: (o) => o.to ?? "present" },
+      ],
+    })),
+    section("Team Name History", f.names.length ? statTable({
+      sortable: false, rows: [...f.names].reverse(),
+      columns: [
+        { label: "Date", value: (n) => n.date },
+        { label: "Renamed to", value: (n) => n.name },
+        { label: "By", render: (n) => (n.set_by ? mLink(n.set_by) : "") },
+      ],
+    }) : h("p", { class: "note" }, "No renames on record.")));
+  return f.name;
+});
+</script>
+</body>
+</html>

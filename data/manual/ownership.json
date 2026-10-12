@@ -1,0 +1,21 @@
+{
+  "_comment": "Who has owned each franchise (Sleeper roster slot) and when. Dates come from Sleeper's join, leave and reassignment messages. 'to' is null while the stake is still held. Edit by hand to correct.",
+  "1":  [{"manager": "riley",   "from": "2023-08-02", "to": null},
+         {"manager": "emily",   "from": "2023-08-10", "to": null}],
+  "2":  [{"manager": "alex",    "from": "2023-08-02", "to": null}],
+  "3":  [{"manager": "dan",     "from": "2023-08-03", "to": "2024-05-12"},
+         {"manager": "ritesh",  "from": "2024-05-12", "to": null}],
+  "4":  [{"manager": "tony",    "from": "2023-08-09", "to": null}],
+  "5":  [{"manager": "sam",     "from": "2023-08-10", "to": null}],
+  "6":  [{"manager": "makenzy", "from": "2023-08-10", "to": null}],
+  "7":  [{"manager": "anargha", "from": "2023-08-10", "to": null}],
+  "8":  [{"manager": "evan",    "from": "2023-08-10", "to": null}],
+  "9":  [{"manager": "tanner",  "from": "2023-08-10", "to": null},
+         {"manager": "joe",     "from": "2023-08-12", "to": null}],
+  "10": [{"manager": "elis",    "from": "2023-08-10", "to": null},
+         {"manager": "ritesh",  "from": "2023-08-11", "to": "2024-05-12"}],
+  "11": [{"manager": "brandon", "from": "2023-08-10", "to": null}],
+  "12": [{"manager": "colin",   "from": "2023-08-10", "to": "2026-01-05"},
+         {"manager": "dan",     "from": "2024-10-22", "to": "2026-01-05"},
+         {"manager": "charlie", "from": "2026-01-05", "to": null}]
+}

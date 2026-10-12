@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Draft | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Draft", async (main) => {
+  const y = param("y") || L.drafts.at(-1).season;
+  const [draft, players] = await Promise.all([load(`drafts/${y}`), load("players")]);
+  const title = draft.kind === "startup" ? `${y} Dynasty iooi Startup Draft` : `${y} Dynasty iooi Rookie Draft`;
+  const first = draft.picks[0];
+  const traded = draft.picks.filter((p) => p.original && p.original !== p.franchise).length;
+  main.append(
+    h("h1", {}, title),
+    meta([
+      ["Date", draft.date],
+      ["Format", `${draft.rounds} rounds, ${draft.format === "snake" ? "snake" : "fixed order"}, ${draft.picks.length} picks`],
+      ["First overall pick", first && [pLink(first.player, players[first.player].name), " (", fLink(first.franchise, first.team), ")"]],
+      ["Picks made with another team's selection", traded],
+      ["Other drafts", [L.drafts.filter((d) => d.season !== y).flatMap((d, i) => [i ? ", " : "", h("a", { href: `draft.html?y=${d.season}` }, `${d.season} ${d.kind}`)]), ", ", h("a", { href: "split_draft.html" }, "2024 split draft")]],
+    ]),
+    section("Draft Results", statTable({
+      rows: draft.picks,
+      columns: [
+        { label: "Rd", value: (p) => p.round, num: true },
+        { label: "Pick", value: (p) => p.overall, render: (p) => p.label, num: true },
+        { label: "Ovr", value: (p) => p.overall, num: true },
+        { label: "Team", value: (p) => p.team, render: (p) => fLink(p.franchise, p.team) },
+        { label: "Manager(s)", render: (p) => mLinks(p.managers) },
+        { label: "Player", value: (p) => players[p.player].name, render: (p) => pLink(p.player, players[p.player].name), cls: "win" },
+        { label: "Pos", value: (p) => p.pos, cls: "c" },
+        { label: "Pick from", render: (p) => (p.original && p.original !== p.franchise ? fLink(p.original, seasonTeam(y, p.original)) : ""), title: "Franchise the pick originally belonged to, if acquired by trade" },
+        { label: "Team GS", value: (p) => p.starts_team, num: true, title: "Games started for the drafting franchise" },
+        { label: "Team Pts", value: (p) => p.pts_team, render: (p) => fmt.pts(p.pts_team), num: true, title: "Points as a starter for the drafting franchise" },
+        { label: "Lg GS", value: (p) => p.starts_league, num: true, title: "League games started: starts for any iooi franchise, not only the one that drafted him" },
+        { label: "Lg Pts", value: (p) => p.pts_league, render: (p) => fmt.pts(p.pts_league), num: true, title: "League points: starter points for any iooi franchise, not only the one that drafted him" },
+      ],
+    }), h("p", { class: "note" }, "Team GS and Team Pts are for the franchise that drafted him; Lg (league) GS and Pts are for every iooi franchise he has played for. All count games in a starting lineup, playoffs and Toilet Bowl included, through the most recent completed week. Click a column to sort.")));
+  return title;
+});
+</script>
+</body>
+</html>

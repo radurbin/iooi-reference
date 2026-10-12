@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Player | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Player", async (main) => {
+  const p = await load(`players/${param("id")}`);
+  const t = p.totals;
+  const height = p.height && /^\d+$/.test(p.height) ? `${Math.floor(p.height / 12)}-${p.height % 12}` : null;
+  const moves = {
+    draft: (e) => ["Drafted by ", fLink(e.to, e.to_team), `: ${e.detail}`],
+    traded: (e) => ["Traded from ", fLink(e.from, e.from_team), " to ", fLink(e.to, e.to_team), e.trade ? [" (", tLink(e.trade, "trade details"), ")"] : ""],
+    signed: (e) => ["Signed as a free agent by ", fLink(e.to, e.to_team)],
+    claimed: (e) => ["Claimed off waivers by ", fLink(e.to, e.to_team)],
+    released: (e) => ["Released by ", fLink(e.from, e.from_team)],
+    reassigned: (e) => ["Assigned by the commissioner from ", fLink(e.from, e.from_team), " to ", fLink(e.to, e.to_team)],
+  };
+  const starts = p.log.filter((r) => r.started);
+  // Bold marks a season in which he led the league in the stat (black ink).
+  const ink = (r, cat) => !r.total && p.career.filter((c) => c.season === r.season).length === 1 && p.black_ink?.leads[r.season]?.includes(cat);
+  const debut = starts[0];
+  const last = p.log.at(-1);
+  const nicks = [...new Set((p.nicknames ?? []).filter((n) => n.nickname).map((n) => n.nickname))];
+  const age = p.birth_date && Math.floor((Date.now() - new Date(p.birth_date)) / 31557600000);
+  const awards = p.honors.map((text) => {
+    const [, year, what] = text.match(/^(\d{4}) (.*)$/) ?? [null, "", text];
+    if (what.startsWith("All-iooi")) return ["All-iooi", year];
+    if (what.startsWith("champion")) return ["iooi Champ", year, "gold"];
+    if (what.includes("MVP")) return ["MVP", year, "gold"];
+    if (what.startsWith("Young Sexy")) return ["Young Sexy", year];
+    return [what, year];
+  });
+  // One tile per spell with a franchise, in the order he played for them, in the manner of uniform-number tiles.
+  const stints = [];
+  for (const row of p.log) {
+    let tile = stints.at(-1);
+    if (!tile || tile.franchise !== row.franchise) tile = stints[stints.push({ franchise: row.franchise, team: row.team, seasons: [] }) - 1];
+    tile.team = row.team;
+    if (!tile.seasons.includes(row.season)) tile.seasons.push(row.season);
+  }
+  const initials = (name) => (name.match(/[A-Za-z0-9]+/g) ?? ["?"]).map((w) => w[0].toUpperCase()).join("").slice(0, 4);
+  const span = (seasons) => (seasons.length > 1 ? `${seasons[0].slice(2)}-${seasons.at(-1).slice(2)}` : `'${seasons[0].slice(2)}`);
+  const ranks = p.ranks ?? [];
+  const at = (scope, stat) => ranks.find((r) => r.group === "Career" && r.scope === scope && r.stat === stat);
+  const standing = [[at("League", "Points"), "in points"], [at(`All ${p.pos}s`, "Points"), `among ${p.pos}s`], [at("League", "WAR"), "in WAR"], [at("League", "Games Started"), "in starts"]]
+    .filter(([r]) => r).map(([r, text]) => `${ordinal(r.rank)} ${text}`);
+  const rankRows = ranks.map((r, i) => ({ ...r, first: i === 0 || ranks[i - 1].group !== r.group || ranks[i - 1].scope !== r.scope }));
+  const sum = (rows, f) => rows.reduce((s, r) => s + f(r), 0);
+  const split = (group, label, rows) => {
+    if (!rows.length) return null;
+    const proj = rows.filter((r) => r.proj != null);
+    return { group, label, gs: rows.length, pts: sum(rows, (r) => r.pts), best: Math.max(...rows.map((r) => r.pts)), low: Math.min(...rows.map((r) => r.pts)),
+      vs: proj.length ? sum(proj, (r) => r.pts - r.proj) / proj.length : null, w: rows.filter((r) => r.won).length, l: rows.filter((r) => !r.won).length };
+  };
+  const by = (group, key, label = (k) => k) => [...new Set(starts.map(key))].map((k) => split(group, label(k), starts.filter((r) => key(r) === k)));
+  const stage = { regular: "Regular season", winners: "Dynasty Playoffs", toilet: "Toilet Bowl" };
+  const splits = [
+    split("Total", "All starts", starts),
+    split("Result", "Team wins", starts.filter((r) => r.won)), split("Result", "Team losses", starts.filter((r) => !r.won)),
+    ...Object.entries(stage).map(([k, label]) => split("Stage", label, starts.filter((r) => r.kind === k))),
+    split("Weeks", "Weeks 1-7", starts.filter((r) => r.week <= 7)), split("Weeks", "Weeks 8-14", starts.filter((r) => r.week > 7 && r.week <= 14)), split("Weeks", "Weeks 15-17", starts.filter((r) => r.week > 14)),
+    ...by("Lineup slot", (r) => r.slot ?? "", (k) => k.replace("SUPER_FLEX", "Superflex").replace("FLEX", "Flex")),
+    ...by("Season", (r) => r.season),
+    ...by("Franchise", (r) => r.franchise, (k) => franchiseName(k)),
+    ...by("Opponent", (r) => r.opp, (k) => franchiseName(k)).sort((a, b) => b.gs - a.gs),
+  ].filter(Boolean).map((r, i, all) => ({ ...r, first: i === 0 || all[i - 1].group !== r.group }));
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "players.html" }, "Players"), ` › ${p.name}`),
+    bio({
+      name: p.name,
+      photo: p.pos === "DEF" ? `https://sleepercdn.com/images/team_logos/nfl/${p.id.toLowerCase()}.png` : `https://sleepercdn.com/content/nfl/players/thumb/${p.id}.jpg`,
+      logo: p.pos === "DEF",
+      awards,
+      tiles: stints.map((x) => h("a", { href: `franchise.html?id=${x.franchise}`, "data-tip": `${x.team}, ${x.seasons.join(", ")}` }, initials(x.team), h("small", {}, span(x.seasons)))),
+      lines: [
+        nicks.length ? [null, `(${nicks.join(", ")})`] : null,
+        [["Position", p.pos], ["NFL team", p.nfl_team ?? (p.pos === "DEF" ? null : "Free agent")]],
+        [null, height && p.weight ? `${height}, ${p.weight}lb` : null],
+        ["Born", p.birth_date && `${p.birth_date}${age ? ` (Age: ${age})` : ""}`],
+        ["College", p.college],
+        ["iooi Draft", p.drafted && [fLink(p.drafted.franchise, p.history.find((e) => e.type === "draft")?.to_team), `, pick ${p.drafted.label} (${ordinal(p.drafted.overall)} overall), `,
+          h("a", { href: `draft.html?y=${p.drafted.season}` }, `${p.drafted.season} ${p.drafted.kind === "startup" ? "Startup" : "Rookie"} Draft`)]],
+        ["iooi Debut", debut && [gLink(debut.game, debut.date), " for ", fLink(debut.franchise, debut.team)]],
+        [[last && last.season === L.current_season ? "iooi Team" : "Last iooi team", last && fLink(last.franchise, last.team)], ["NFL rookie year", p.rookie_year]],
+        ["All-Time Ranks", standing.length ? standing.join(", ") : null],
+        ["Black Ink", p.black_ink && [`${p.black_ink.score} (${ordinal(p.black_ink.rank)} all-time; `, h("a", { href: "leaders.html#black-ink" }, "what is this?"), ")"]],
+        ["iooi Career", `${t.gs} starts, ${fmt.pts(t.pts)} points${t.ppg == null ? "" : `, ${fmt.pts(t.ppg)} per start`}, ${fmt.pts(t.war)} WAR`],
+      ],
+    }),
+    section("iooi Career", statTable({
+      rows: p.career, foot: { season: "Career", total: true, ...t },
+      columns: [
+        { label: "Season", value: (r) => r.season, render: (r) => (r.total ? r.season : sLink(r.season)) },
+        { label: "Franchise", value: (r) => r.team, render: (r) => (r.total ? "" : fLink(r.franchise, r.team)) },
+        { label: "G", value: (r) => r.g, num: true, title: "Weeks on the roster" },
+        { label: "GS", value: (r) => r.gs, num: true, title: "Games started" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, cls: (r) => (ink(r, "pts") ? "ink" : null), title: "Points as a starter" },
+        { label: "Pts/GS", value: (r) => r.ppg, render: (r) => fmt.pts(r.ppg), num: true, cls: (r) => (ink(r, "ppg") ? "ink" : null) },
+        { label: "Best", value: (r) => r.best, render: (r) => fmt.pts(r.best), num: true },
+        { label: "Bench Pts", value: (r) => r.bench_pts, render: (r) => fmt.pts(r.bench_pts), num: true },
+        { label: "W", value: (r) => r.wins, num: true, title: "Team wins in games he started" },
+        { label: "PAA", value: (r) => r.paa, render: (r) => fmt.pts1(r.paa), num: true, cls: (r) => (ink(r, "paa") ? "ink" : null), title: "Points above the average iooi starter at his position" },
+        { label: "VOR", value: (r) => r.vor, render: (r) => fmt.pts1(r.vor), num: true, title: "Value over a replacement-level player at his position" },
+        { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, cls: (r) => (ink(r, "war") ? "ink" : null), title: "Wins above replacement" },
+      ],
+    })),
+    p.black_ink ? h("p", { class: "note" }, "Bold marks a season in which he led the league.") : null,
+    starts.length ? section("Splits", statTable({
+      sortable: false, rows: splits, rowClass: (r) => (r.first ? "first" : null),
+      columns: [
+        { label: "Split", render: (r) => (r.first ? r.group : ""), cls: "win" },
+        { label: "Value", render: (r) => r.label, title: "The group of starts counted in the row" },
+        { label: "GS", value: (r) => r.gs, num: true },
+        { label: "Pts", render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Pts/GS", render: (r) => fmt.pts(r.pts / r.gs), num: true },
+        { label: "Best", render: (r) => fmt.pts(r.best), num: true },
+        { label: "Low", render: (r) => fmt.pts(r.low), num: true },
+        { label: "vs Proj", render: (r) => fmt.signed(r.vs), num: true },
+        { label: "Team W-L", render: (r) => `${r.w}-${r.l}`, cls: "c" },
+      ],
+    }), h("p", { class: "note" }, "Starts only. Opponents and franchises are listed under their current names.")) : null,
+    rankRows.length ? section("Places on the All-Time Lists", statTable({
+      sortable: false, rows: rankRows, rowClass: (r) => (r.first ? "first" : null),
+      columns: [
+        { label: "List", render: (r) => (r.first ? (r.franchise ? fLink(r.franchise, r.scope) : r.season && r.group === "Season" && r.scope !== "All single seasons" ? sLink(r.season, r.scope) : r.scope) : ""), cls: "win",
+          title: "The list: all of iooi, his position, a franchise he played for, or one season" },
+        { label: "Stat", render: (r) => r.stat, title: "What the list ranks" },
+        { label: "Value", render: (r) => r.value.toFixed(r.digits), num: true, title: "His figure" },
+        { label: "Rank", render: (r) => ordinal(r.rank), num: true, cls: (r) => (r.rank <= 10 ? "win" : null), title: "His place on the list; ties share a place" },
+        { label: "Of", render: (r) => r.of, num: true, cls: "dim", title: "Players on the list" },
+      ],
+    }), h("p", { class: "note" }, ["Starter points, starts and value for iooi franchises. Franchise lists count only his time with that team. Top-ten places are bold. Full lists: ",
+      h("a", { href: "leaders.html" }, "league leaders"), "; each franchise page has its own."])) : null,
+    p.similar?.length ? section("Similar Players", statTable({
+      sortable: false, rows: p.similar,
+      columns: [
+        { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
+        { label: "Sim", value: (r) => r.score, num: true },
+        { label: "GS", value: (r) => r.gs, num: true },
+        { label: "Pts", render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Pts/GS", render: (r) => fmt.pts(r.ppg), num: true },
+        { label: "WAR", render: (r) => fmt.pts(r.war), num: true },
+      ],
+    }), h("p", { class: "note" }, `Players at ${p.pos} whose iooi careers look most alike in starts, points, points per start and WAR. 1000 would be identical.`)) : null,
+    section("NFL Fantasy Seasons", statTable({
+      rows: p.nfl,
+      columns: [
+        { label: "Season", value: (r) => r.season },
+        { label: "G", value: (r) => r.g, num: true },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Pts/G", value: (r) => (r.g ? r.pts / r.g : null), render: (r) => (r.g ? fmt.pts(r.pts / r.g) : ""), num: true },
+        { label: "Pos Rk", value: (r) => r.rank, render: (r) => `${p.pos}${r.rank}`, num: true, title: "Rank at his position in total points" },
+      ],
+    }), h("p", { class: "note" }, "Every NFL game in weeks 1-17, scored under the iooi rules in force each week, whether or not he was on a roster or in a lineup.")),
+    section("Transactions", p.history.length ? h("ul", { class: "meta" }, p.history.map((e) => h("li", {}, h("b", {}, `${e.date}: `), moves[e.type](e)))) : h("p", { class: "note" }, "None on record.")),
+    p.nicknames?.length ? section("Nickname History", statTable({
+      sortable: false, rows: p.nicknames,
+      columns: [
+        { label: "Date", value: (r) => r.date },
+        { label: "Nickname", render: (r) => r.nickname ?? h("span", { class: "dim" }, "removed"), cls: "win", title: "Nickname given; \"removed\" when the manager cleared it" },
+        { label: "Replaced", value: (r) => r.previous ?? "", cls: "dim", title: "The same manager's earlier nickname for the player" },
+        { label: "By", render: (r) => mLink(r.manager) },
+        { label: "Team", render: (r) => (r.franchise ? fLink(r.franchise, r.team) : "") },
+      ],
+    }), h("p", { class: "note" }, ["From the league's Sleeper notices. See the full ", h("a", { href: "nicknames.html" }, "nickname register"), "."])) : null,
+    section("Game Log", statTable({
+      rows: [...p.log].reverse(),
+      columns: [
+        { label: "Season", value: (r) => r.season },
+        { label: "Week", value: (r) => r.week, num: true },
+        { label: "Franchise", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) },
+        { label: "Role", value: (r) => (r.started ? "Starter" : r.game ? "Bench" : "No game"), cls: (r) => (r.started ? "c win" : "c dim") },
+        { label: "Proj", value: (r) => r.proj, render: (r) => fmt.pts(r.proj), num: true, cls: "dim" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Team result", value: (r) => (r.won == null ? "" : r.won ? "W" : "L"), cls: "c" },
+        { label: "", render: (r) => (r.game ? gLink(r.game, "box score") : "") },
+      ],
+    })));
+  return p.name;
+});
+</script>
+</body>
+</html>

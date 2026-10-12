@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Streaks &amp; Milestones | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Streaks & Milestones", async (main) => {
+  const s = await load("streaks");
+  const game = (x) => gLink(x.id, `${x.season} wk ${x.week}`);
+  const streakCols = (who) => [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    who,
+    { label: "Streak", value: (r) => r.n, render: (r) => `${r.n} ${r.won ? (r.n === 1 ? "win" : "wins") : (r.n === 1 ? "loss" : "losses")}`, cls: "win" },
+    { label: "From", value: (r) => r.from.id, render: (r) => game(r.from) },
+    { label: "To", value: (r) => r.to.id, render: (r) => (r.active ? "active" : game(r.to)) },
+    { label: "Team", value: (r) => r.team, title: "Team name when the streak ended, which may differ from the franchise's name today" },
+  ];
+  const fCol = { label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) };
+  const mCol = { label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) };
+  const playerCols = (unit) => [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+    { label: "Pos", value: (r) => r.pos, cls: "c" },
+    { label: "Streak", value: (r) => r.n, render: (r) => `${r.n} ${unit}`, cls: "win" },
+    { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, title: "Points during the streak" },
+    { label: "From", value: (r) => r.from.id, render: (r) => game(r.from) },
+    { label: "To", value: (r) => r.to.id, render: (r) => (r.active ? "active" : game(r.to)) },
+    { label: "Team(s)", render: (r) => r.teams.join(", "), title: "Teams he started for during the streak" },
+  ];
+  const who = (m) => (m.kind === "player" ? pLink(m.key, m.name) : m.kind === "manager" ? mLink(m.key) : fLink(m.key, m.name));
+  const kinds = { franchise: "Franchise", manager: "Manager", player: "Player" };
+  const m = s.milestones;
+  main.append(
+    h("h1", {}, "Dynasty iooi Streaks & Milestones"),
+    h("p", { class: "note" }, "Team streaks and milestones count regular-season and Dynasty Playoff games. Toilet Bowl games are left out, as in the Elo ratings."),
+    section("Current Streaks", statTable({ rows: rank([...s.franchises.current].sort((x, y) => (y.won ? y.n : -y.n) - (x.won ? x.n : -x.n))), columns: streakCols(fCol).filter((c) => !["To", "Team"].includes(c.label)) })),
+    section("Longest Winning Streaks", statTable({ rows: rank(s.franchises.wins), columns: streakCols(fCol) })),
+    section("Longest Losing Streaks", statTable({ rows: rank(s.franchises.losses), columns: streakCols(fCol) })),
+    section("Manager Winning Streaks", statTable({ rows: rank(s.managers.wins), columns: streakCols(mCol) })),
+    section("Manager Losing Streaks", statTable({ rows: rank(s.managers.losses), columns: streakCols(mCol) })),
+    section("Consecutive Starts", h("p", { class: "note" }, "Games in a row in an iooi starting lineup, in any lineup slot and for any franchise. An NFL bye week is skipped: it neither adds to the streak nor ends it. A week on the bench, or off every iooi roster, ends it."),
+      statTable({ rows: rank(s.players.starts), columns: playerCols("starts") })),
+    section(`Consecutive ${s.players.big_game}-Point Starts`, statTable({ rows: rank(s.players.big_games), columns: playerCols("starts") })),
+    section("Playoff Runs and Droughts", statTable({
+      rows: s.postseason,
+      columns: [
+        { label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise) },
+        { label: "Plyf", value: (r) => r.appearances, render: (r) => `${r.appearances} of ${r.seasons}`, num: true, title: "Playoff appearances in completed seasons" },
+        { label: "Current run", value: (r) => (r.in_playoffs ? r.streak : -r.streak), render: (r) => `${r.streak} ${r.in_playoffs ? "in a row" : (r.streak === 1 ? "season out" : "seasons out")}`, title: "Consecutive seasons in or out of the Dynasty Playoffs" },
+        { label: "Titles", value: (r) => r.titles.length, render: (r) => r.titles.join(", "), title: "Championship seasons" },
+        { label: "Since title", value: (r) => r.since_title ?? 99, render: (r) => (r.since_title == null ? "never" : r.since_title === 0 ? "reigning" : `${r.since_title} ${r.since_title === 1 ? "season" : "seasons"}`), title: "Completed seasons since the last championship" },
+        { label: "Best finish", value: (r) => r.best_finish, render: (r) => `${ordinal(r.best_finish)} (${r.best_seasons.join(", ")})`, title: "Best final place and when" },
+      ],
+    })),
+    section("Next Milestones", statTable({
+      rows: m.upcoming,
+      columns: [
+        { label: "Type", value: (r) => kinds[r.kind], title: "Franchise, manager or player" },
+        { label: "Name", value: (r) => r.name, render: who, cls: "win", title: "Who is closing in" },
+        { label: "Milestone", value: (r) => r.what, title: "The next round number" },
+        { label: "Has", value: (r) => r.have, render: (r) => (r.unit === "points" ? fmt.pts(r.have) : r.have), num: true, title: "Current total" },
+        { label: "Needs", value: (r) => r.need, render: (r) => (r.unit === "points" ? fmt.pts(r.need) : r.need), num: true, title: "Amount still needed" },
+      ],
+    })),
+    section("Milestones Reached", statTable({
+      rows: m.reached,
+      columns: [
+        { label: "Date", value: (r) => r.date },
+        { label: "Type", value: (r) => kinds[r.kind], title: "Franchise, manager or player" },
+        { label: "Name", value: (r) => r.name, render: who, cls: "win", title: "Who reached it" },
+        { label: "Milestone", value: (r) => r.what, title: "The round number reached" },
+        { label: "Team", value: (r) => r.team },
+        { label: "Game", render: (r) => gLink(r.game, `${r.season} wk ${r.week}`) },
+      ],
+    }), h("p", { class: "note" }, "Player milestones count starts and points as a starter for any iooi franchise.")));
+});
+</script>
+</body>
+</html>

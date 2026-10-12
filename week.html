@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="This Week | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("This Week", async (main) => {
+  const w = await load("week");
+  const title = `${w.season} Week ${w.week}`;
+  if (!w.matchups.length) {
+    main.append(h("h1", {}, "This Week in Dynasty iooi"), h("p", {}, "No games are scheduled this week. See the ", sLink(w.season, `${w.season} season`), " for final results."));
+    return "This Week";
+  }
+  const team = (x) => tsLink(w.season, x.franchise, x.team);
+  const streak = (x) => (x.streak ? `${x.streak.won ? "W" : "L"}${x.streak.n}` : "");
+  const slot = (s) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex", DEF: "D/ST" }[s] ?? s);
+  const started = w.matchups.some((m) => m.a.points || m.b.points);
+  const fetched = w.fetched ? new Date(w.fetched).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : null;
+  const better = (x, y, key, low) => (x[key] === y[key] ? null : (x[key] > y[key]) !== !!low ? "win" : null);
+  const tape = (m) => {
+    const rows = [
+      ["Manager(s)", (x) => mLinks(x.managers)],
+      ["Record", (x) => `${x.w}-${x.l}`, "w"],
+      ["Seed", (x) => ordinal(x.seed), "seed", true],
+      ["Streak", (x) => streak(x)],
+      ["Points per game", (x) => fmt.pts(x.ppg), "ppg"],
+      ["Elo rating", (x) => x.elo, "elo"],
+      ["Win chance", (x) => fmt.eff(x.chance), "chance"],
+      ["Projected", (x) => fmt.pts(x.proj), "proj"],
+      started ? ["Points so far", (x) => fmt.pts(x.points), "points"] : null,
+    ].filter(Boolean);
+    return h("div", { class: "scroll" }, h("table", { class: "stats tape" },
+      h("thead", {}, h("tr", {}, h("th", { class: "num" }, team(m.a)), h("th", { "data-tip": "How the two teams compare coming in" }, ""), h("th", {}, team(m.b)))),
+      h("tbody", {}, rows.map(([label, show, key, low]) => h("tr", {}, h("td", { class: `num ${key ? better(m.a, m.b, key, low) ?? "" : ""}` }, show(m.a)), h("th", {}, label), h("td", { class: key ? better(m.b, m.a, key, low) : null }, show(m.b)))))));
+  };
+  const lineups = (m) => {
+    const n = Math.max(m.a.lineup.length, m.b.lineup.length);
+    const who = (x) => (x?.player ? pLink(x.player, x.name) : h("span", { class: "dim" }, x ? "Empty" : ""));
+    const tip = (label, text, cls) => h("th", { class: cls, "data-tip": text }, label);
+    return h("div", { class: "scroll" }, h("table", { class: "stats" },
+      h("thead", {}, h("tr", {}, tip(m.a.team, "Starter as of the last data refresh"), tip("Proj", "Sleeper's projection", "num"), started ? tip("Pts", "Points so far", "num") : null, tip("Slot", "Lineup slot"),
+        started ? tip("Pts", "Points so far", "num") : null, tip("Proj", "Sleeper's projection", "num"), tip(m.b.team, "Starter as of the last data refresh"))),
+      h("tbody", {}, Array.from({ length: n }, (_, i) => [m.a.lineup[i], m.b.lineup[i]]).map(([x, y]) => h("tr", {},
+        h("td", { class: "win" }, who(x)), h("td", { class: "num dim" }, fmt.pts(x?.proj)), started ? h("td", { class: "num" }, x?.pts ? fmt.pts(x.pts) : "") : null,
+        h("td", { class: "c" }, slot((x ?? y).slot)),
+        started ? h("td", { class: "num" }, y?.pts ? fmt.pts(y.pts) : "") : null, h("td", { class: "num dim" }, fmt.pts(y?.proj)), h("td", { class: "win" }, who(y))))),
+      h("tfoot", {}, h("tr", {}, h("td", {}, "Total"), h("td", { class: "num" }, fmt.pts(m.a.proj)), started ? h("td", { class: "num" }, fmt.pts(m.a.points)) : null, h("td", {}, ""),
+        started ? h("td", { class: "num" }, fmt.pts(m.b.points)) : null, h("td", { class: "num" }, fmt.pts(m.b.proj)), h("td", {}, "")))));
+  };
+  const history = (m) => {
+    const hist = m.history;
+    if (!hist.games) return h("p", {}, h("b", {}, "All-time series: "), "first meeting.");
+    const lead = hist.a_w === hist.b_w ? `tied ${hist.a_w}-${hist.b_w}` : `${hist.a_w > hist.b_w ? m.a.team : m.b.team} leads ${Math.max(hist.a_w, hist.b_w)}-${Math.min(hist.a_w, hist.b_w)}`;
+    return [h("p", {}, h("b", {}, "All-time series: "), lead, " (", h("a", { href: `rivalry.html?f=${hist.key}` }, "rivalry page"), ")"),
+      h("p", {}, h("b", {}, "Recent meetings: "), hist.last.flatMap((g, i) => [i ? "; " : "", gLink(g.id, `${g.season} wk ${g.week}`), ` ${g.a_pts > g.b_pts ? m.a.team : m.b.team} ${fmt.pts(Math.max(g.a_pts, g.b_pts))}-${fmt.pts(Math.min(g.a_pts, g.b_pts))}`]))];
+  };
+  main.append(
+    h("h1", {}, `Dynasty iooi: ${title}`),
+    meta([
+      ["Week opens", w.start],
+      ["Stage", w.week <= 14 ? `Regular season, week ${w.week} of 14` : "Postseason"],
+      ["Lineups and scores as of", fetched],
+      ["Standings", sLink(w.season, `${w.season} season`)],
+    ]),
+    section("Matchups", statTable({
+      sortable: false, rows: w.matchups,
+      columns: [
+        { label: "Matchup", render: (m) => [team(m.a), ` (${m.a.w}-${m.a.l}) vs `, team(m.b), ` (${m.b.w}-${m.b.l})`], title: "Higher seed listed first" },
+        { label: "Favorite", render: (m) => (m.a.chance >= m.b.chance ? m.a : m.b).team, cls: "win", title: "The team Elo gives the better chance" },
+        { label: "Win chance", render: (m) => fmt.eff(Math.max(m.a.chance, m.b.chance)), num: true, title: "The favorite's chance of winning, from the two Elo ratings" },
+        { label: "Projected", render: (m) => `${fmt.pts(m.a.proj)} - ${fmt.pts(m.b.proj)}`, cls: "c", title: "Sleeper's projected score for the lineups as set" },
+        started ? { label: "Score", render: (m) => `${fmt.pts(m.a.points)} - ${fmt.pts(m.b.points)}`, cls: "c", title: "Score as of the last data refresh" } : null,
+        { label: "Series", render: (m) => (m.history.games ? `${m.history.a_w}-${m.history.b_w}` : "First meeting"), cls: "c", title: "All-time record between the two, first team listed first" },
+      ].filter(Boolean),
+    }), h("p", { class: "note" }, "Elo and Sleeper's projections are separate measures: Elo judges the teams on results to date, projections judge this week's lineups.")),
+    w.matchups.map((m) => section(`${m.a.team} vs ${m.b.team}`,
+      h("div", { class: "matchup" }, tape(m), h("div", { class: "story" },
+        history(m),
+        m.notes.length ? [h("p", {}, h("b", {}, "Storylines")), h("ul", {}, m.notes.map((n) => h("li", {}, rich(n))))] : null)),
+      lineups(m))),
+    w.last_week.length ? section("Last Week's Results", statTable({
+      sortable: false, rows: w.last_week,
+      columns: [
+        { label: "Winner", render: (g) => tsLink(w.season, g.teams[0].franchise, g.teams[0].team), cls: "win" },
+        { label: "Pts", render: (g) => fmt.pts(g.teams[0].points), num: true },
+        { label: "Loser", render: (g) => tsLink(w.season, g.teams[1].franchise, g.teams[1].team) },
+        { label: "Pts", render: (g) => fmt.pts(g.teams[1].points), num: true },
+        { label: "", render: (g) => gLink(g.id, "box score") },
+      ],
+    })) : null);
+  // Twelve sections make a long in-page menu; keep the summary and results links only.
+  return title;
+});
+</script>
+</body>
+</html>

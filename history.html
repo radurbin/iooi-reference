@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="League History | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("League History", async (main) => {
+  const t = await load("timeline");
+  const labels = { league: "League", ownership: "Management", draft: "Draft", title: "Champion", toilet: "Toilet Bowl", rules: "Constitution", scoring: "Scoring", veto: "Veto" };
+  const years = [...new Set(t.events.map((e) => e.date.slice(0, 4)))];
+  main.append(
+    h("h1", {}, "Dynasty iooi League History"),
+    meta([
+      ["Founded", t.events[0].date],
+      ["Commissioner", [mLink(L.commissioner), `, ${L.founded} to present`]],
+      ["Governing document", h("a", { href: "constitution.html" }, "The Constitution of the iooi Dynasty Fantasy Football League")],
+      ["Jump to", years.flatMap((y, i) => [i ? " · " : "", h("a", { href: `#y${y}` }, y)]).concat([" · ", h("a", { href: "#team-name-changes" }, "team name changes")])],
+    ]),
+    section("Timeline", years.map((year) => [
+      h("h3", { id: `y${year}`, class: "year" }, year),
+      h("ul", { class: "timeline" }, t.events.filter((e) => e.date.startsWith(year)).map((e) =>
+        h("li", {}, h("span", { class: "when" }, e.date), h("span", { class: "kind" }, labels[e.kind] ?? e.kind), h("span", {}, rich(e.text))))),
+    ])),
+    section("Team Name Changes", statTable({
+      rows: t.renames,
+      columns: [
+        { label: "Date", value: (r) => r.date },
+        { label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise) },
+        { label: "Old name", value: (r) => r.from ?? "" },
+        { label: "New name", value: (r) => r.to, cls: "win" },
+        { label: "By", value: (r) => (r.by ? managerName(r.by) : ""), render: (r) => (r.by ? mLink(r.by) : "") },
+      ],
+    }), h("p", { class: "note" }, `${t.renames.length} renames on record, from Sleeper's log.`)));
+});
+</script>
+</body>
+</html>

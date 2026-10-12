@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Draft Pick Ledger | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Draft Pick Ledger", async (main) => {
+  const [d, players] = await Promise.all([load("picks"), load("players")]);
+  const rd = (n) => `${ordinal(n)} round`;
+  const path = (p) => [fLink(p.original), p.moves.flatMap((m) => [" → ", fLink(m.to, m.to_team), " (", tLink(m.trade, m.date), ")"])];
+  const held = (fid, season) => d.future.filter((p) => p.holder === fid && p.season === season).sort((a, b) => a.round - b.round);
+  const cell = (fid, season) => {
+    const picks = held(fid, season);
+    return picks.length ? h("div", {}, picks.flatMap((p, i) => [i ? ", " : "", p.original === fid ? `${p.round}` : h("b", { "data-tip": `Originally ${franchiseName(p.original)}` }, `${p.round}*`)])) : h("span", { class: "dim" }, "none");
+  };
+  const traded = d.future.filter((p) => p.moves.length);
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "drafts.html" }, "Drafts"), " › Draft Pick Ledger"),
+    h("h1", {}, "Dynasty iooi Draft Pick Ledger"),
+    meta([
+      ["Drafts covered", d.seasons.join(", ")],
+      ["Picks", `${d.future.length} (${d.rounds} rounds, ${L.franchises.length} franchises, ${d.seasons.length} drafts)`],
+      ["Picks that have changed hands", `${traded.length} of ${d.future.length}`],
+      ["Live draft order", h("a", { href: "tankathon/" }, "Tankathon")],
+    ]),
+    section("Future Picks by Franchise", statTable({
+      rows: L.franchises.map((f) => ({ id: f.id, own: d.future.filter((p) => p.original === f.id && p.holder === f.id).length,
+        total: d.future.filter((p) => p.holder === f.id).length, firsts: d.future.filter((p) => p.holder === f.id && p.round === 1).length })),
+      columns: [
+        { label: "Franchise", value: (r) => franchiseName(r.id), render: (r) => fLink(r.id), cls: "win" },
+        ...d.seasons.map((season) => ({ label: season, render: (r) => cell(r.id, season), title: `Rounds held in the ${season} draft. A starred round came from another franchise.` })),
+        { label: "Held", value: (r) => r.total, num: true, cls: "win", title: "Future picks held" },
+        { label: "Own", value: (r) => r.own, num: true, title: "Of its own picks, how many it still holds" },
+        { label: "Net", value: (r) => r.total - d.seasons.length * d.rounds, render: (r) => fmt.signed(r.total - d.seasons.length * d.rounds).replace(".00", ""), num: true, title: "Picks held above or below a full set" },
+        { label: "1sts", value: (r) => r.firsts, num: true, title: "First-round picks held" },
+      ],
+    }), h("p", { class: "note" }, "Numbers are rounds. A starred round is a pick acquired from another franchise; hover for whose it was.")),
+    d.swaps.length ? section("Conditional Picks", h("ul", { class: "meta" }, d.swaps.map((s) => h("li", {}, h("b", {}, `${s.season} ${rd(s.round)}: `),
+      "of the picks originally belonging to ", fLink(s.originals[0]), " and ", fLink(s.originals[1]), ", the better goes to ", fLink(s.better_to), " and the worse to ", fLink(s.worse_to),
+      " (", tLink(s.trade, s.date), "). Shown above with their current holders until the order is set.")))) : null,
+    section("Traded Future Picks", statTable({
+      rows: traded,
+      columns: [
+        { label: "Draft", value: (p) => p.season },
+        { label: "Rd", value: (p) => p.round, num: true },
+        { label: "Original", value: (p) => franchiseName(p.original), render: (p) => fLink(p.original), title: "Franchise the pick first belonged to" },
+        { label: "Holder", value: (p) => franchiseName(p.holder), render: (p) => fLink(p.holder), cls: "win", title: "Franchise that holds the pick now" },
+        { label: "Moves", value: (p) => p.moves.length, num: true, title: "Times the pick has been traded" },
+        { label: "Path", render: (p) => h("div", {}, path(p)), title: "Every franchise to hold the pick, with the trade that moved it" },
+      ],
+    })),
+    section("Most-Travelled Picks", h("p", { class: "note" }, "Picks from any draft that were traded at least twice."), statTable({
+      rows: rank(d.travelled),
+      columns: [
+        { label: "Rk", value: (p) => p.rk, num: true },
+        { label: "Draft", value: (p) => p.season, render: (p) => (L.drafts.some((x) => x.season === p.season) ? h("a", { href: `draft.html?y=${p.season}` }, p.season) : p.season) },
+        { label: "Rd", value: (p) => p.round, num: true },
+        { label: "Moves", value: (p) => p.moves.length, num: true, cls: "win", title: "Times the pick was traded" },
+        { label: "Became", value: (p) => (p.became ? players[p.became.player]?.name : ""), render: (p) => (p.became ? [pLink(p.became.player, players[p.became.player]?.name), ` (${p.became.label})`] : h("span", { class: "dim" }, "not yet used")) },
+        { label: "Path", render: (p) => h("div", {}, path(p)), title: "Every franchise to hold the pick, with the trade that moved it" },
+      ],
+    })),
+    section("Pick Trading by Franchise", statTable({
+      rows: d.activity,
+      columns: [
+        { label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise) },
+        { label: "Acquired", value: (r) => r.acquired, num: true, title: "Picks received in trades, all drafts" },
+        { label: "Sent", value: (r) => r.sent, num: true, title: "Picks sent away in trades, all drafts" },
+        { label: "Net", value: (r) => r.acquired - r.sent, render: (r) => (r.acquired - r.sent > 0 ? "+" : "") + (r.acquired - r.sent), num: true },
+      ],
+    })));
+});
+</script>
+</body>
+</html>

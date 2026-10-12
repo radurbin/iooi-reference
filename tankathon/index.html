@@ -1,0 +1,2071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Dynasty iooi Fantasy Football Draft Lottery Simulator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a1a;
+      min-height: 100vh;
+      color: #ffffff;
+      line-height: 1.5;
+    }
+
+    .header {
+      background: #2a2a3a;
+      padding: 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid #3a3a4a;
+    }
+
+    .header h1 {
+      color: #ffffff;
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .header .subtitle {
+      color: #a0a0b0;
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    .countdown-card {
+      background: #2a2a3a;
+      border-radius: 12px;
+      padding: 1rem;
+      margin: 1rem 0;
+      text-align: center;
+      border: 1px solid #3a3a4a;
+    }
+
+    #countdown {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-primary {
+      background: #6b4eff;
+      color: #ffffff;
+    }
+
+    .btn-secondary {
+      background: #ff2d55;
+      color: #ffffff;
+    }
+
+    .btn-tertiary {
+      background: #00ddeb;
+      color: #ffffff;
+    }
+
+    .btn:hover {
+      filter: brightness(1.1);
+    }
+
+    .btn:active {
+      filter: brightness(0.9);
+    }
+
+    .btn:disabled {
+      background: #4a4a5a;
+      cursor: not-allowed;
+    }
+
+    .table-container {
+      background: #2a2a3a;
+      border-radius: 12px;
+      padding: 1rem;
+      border: 1px solid #3a3a4a;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+    }
+
+    th {
+      background: #3a3a4a;
+      color: #ffffff;
+      padding: 0.75rem;
+      text-align: center;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      border: none;
+    }
+
+    th:first-child {
+      border-radius: 8px 0 0 0;
+    }
+
+    th:last-child {
+      border-radius: 0 8px 0 0;
+    }
+
+    td {
+      padding: 0.75rem;
+      text-align: center;
+      border-bottom: 1px solid #3a3a4a;
+      color: #d0d0d0;
+      font-size: 0.9rem;
+    }
+
+    /* tr:hover td {
+      background: #34344a;
+    } */
+
+    /* .lottery-pick td {
+      background: #3e3e5a;
+      font-weight: 600;
+    } */
+
+    /* .playoff-pick td {
+      background: #3e3e5a;
+      font-weight: 600;
+    } */
+
+    .separator td {
+      background: #3a3a4a;
+      color: #ffffff;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0.5rem;
+    }
+
+    .arrow-up { 
+      color: #00ff85; 
+      font-weight: bold;
+    }
+    .arrow-down { 
+      color: #ff2d55; 
+      font-weight: bold;
+    }
+    .arrow-same { 
+      color: #a0a0b0;
+      font-weight: bold;
+    }
+
+    .lottery-reveal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      overflow-y: auto;
+    }
+
+    .reveal-container {
+      text-align: center;
+      color: #ffffff;
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .lottery-reveal.active {
+      align-items: flex-start;
+      padding-top: 2rem;
+    }
+
+    .reveal-title {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-shadow: 0 0 20px rgba(107, 78, 255, 0.8), 0 0 40px rgba(107, 78, 255, 0.5);
+    }
+
+    /* NBA Draft Lottery Stage */
+    .lottery-stage {
+      background: linear-gradient(to bottom, #2a2a3a 0%, #1a1a2a 100%);
+      border-radius: 20px;
+      padding: 3rem 2rem;
+      margin: 2rem auto;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      border: 2px solid #3a3a4a;
+    }
+
+    .podium {
+      background: linear-gradient(135deg, #4a4a5a 0%, #2a2a3a 100%);
+      border-radius: 15px;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 800px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 -5px 15px rgba(0, 0, 0, 0.2);
+      border: 3px solid #5a5a6a;
+    }
+
+    .podium-top {
+      background: linear-gradient(to bottom, #3a3a4a 0%, #2a2a3a 100%);
+      height: 100px;
+      border-radius: 10px 10px 0 0;
+      border: 2px solid #4a4a5a;
+      position: relative;
+    }
+
+    .podium-front {
+      background: linear-gradient(to bottom, #2a2a3a 0%, #1a1a2a 100%);
+      height: 150px;
+      border-radius: 0 0 10px 10px;
+      border: 2px solid #3a3a4a;
+      border-top: none;
+    }
+
+    /* Ping Pong Ball Machine */
+    .ball-machine {
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+      border: 4px solid #6b4eff;
+      border-radius: 50%;
+      width: 400px;
+      height: 400px;
+      margin: 2rem auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 40px rgba(107, 78, 255, 0.5), inset 0 0 40px rgba(107, 78, 255, 0.2);
+      overflow: hidden;
+    }
+
+    .ping-pong-ball {
+      width: 50px;
+      height: 50px;
+      background: radial-gradient(circle at 30% 30%, #ffffff, #f0f0f0 50%, #d0d0d0);
+      border-radius: 50%;
+      position: absolute;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(0, 0, 0, 0.2);
+      animation: float 2s ease-in-out infinite;
+    }
+
+    .ping-pong-ball.drawn {
+      animation: drawBall 1.5s ease-out forwards;
+    }
+
+    .ball-number {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+      letter-spacing: 1px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) translateX(0px); }
+      25% { transform: translateY(-10px) translateX(5px); }
+      50% { transform: translateY(0px) translateX(-5px); }
+      75% { transform: translateY(10px) translateX(5px); }
+    }
+
+    @keyframes drawBall {
+      0% { transform: scale(1) translateY(0); opacity: 1; }
+      50% { transform: scale(1.3) translateY(-100px); opacity: 1; }
+      100% { transform: scale(0.8) translateY(-200px); opacity: 0; }
+    }
+
+    .drawn-balls-display {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin: 2rem 0;
+      min-height: 80px;
+    }
+
+    .drawn-ball-slot {
+      width: 70px;
+      height: 70px;
+      background: radial-gradient(circle at 30% 30%, #ffffff, #f0f0f0 50%, #d0d0d0);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(0, 0, 0, 0.2);
+      opacity: 0;
+      transform: scale(0);
+      animation: revealBall 0.5s ease-out forwards;
+      letter-spacing: 1px;
+    }
+
+    @keyframes revealBall {
+      0% { opacity: 0; transform: scale(0) rotate(0deg); }
+      50% { transform: scale(1.2) rotate(180deg); }
+      100% { opacity: 1; transform: scale(1) rotate(360deg); }
+    }
+
+    /* Explanation Section */
+    .explanation {
+      background: rgba(42, 42, 58, 0.5);
+      border: 2px solid #4a4a5a;
+      border-radius: 15px;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 700px;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    .explanation h3 {
+      color: #6b4eff;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .explanation ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .explanation li {
+      margin: 0.8rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    .explanation li:before {
+      content: "▶";
+      position: absolute;
+      left: 0;
+      color: #6b4eff;
+    }
+
+    /* Odds Table Display */
+    .odds-table-container {
+      background: rgba(42, 42, 58, 0.8);
+      border-radius: 15px;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 900px;
+      border: 2px solid #4a4a5a;
+    }
+
+    .odds-table-container h3 {
+      color: #00ddeb;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .mini-odds-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .mini-odds-table th {
+      background: #3a3a4a;
+      padding: 0.8rem;
+      font-size: 0.9rem;
+      border: 1px solid #4a4a5a;
+    }
+
+    .mini-odds-table td {
+      padding: 0.8rem;
+      border: 1px solid #4a4a5a;
+      font-size: 0.95rem;
+    }
+
+    .mini-odds-table tr:hover {
+      background: rgba(107, 78, 255, 0.1);
+    }
+
+    /* Live reveal table styles */
+    .mini-odds-table tr.revealed {
+      background: rgba(0, 221, 235, 0.15);
+      border: 2px solid #00ddeb;
+    }
+
+    .mini-odds-table tr.team-taken .team-name-text {
+      text-decoration: line-through;
+      opacity: 0.5;
+    }
+
+    .mini-odds-table tr.current-pick {
+      background: rgba(255, 215, 0, 0.2);
+      border: 2px solid #ffd700;
+      animation: currentPickPulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes currentPickPulse {
+      0%, 100% {
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+      }
+      50% {
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+      }
+    }
+
+    .revealed-badge {
+      background: #00ddeb;
+      color: #1a1a2e;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 0.5rem;
+    }
+
+    .current-badge {
+      background: #ffd700;
+      color: #1a1a2e;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 0.5rem;
+      animation: badgePulse 1s ease-in-out infinite;
+    }
+
+    @keyframes badgePulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    /* Split screen layout for reveal */
+    .reveal-split-layout {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+      margin: 2rem 0;
+      align-items: start;
+    }
+
+    .reveal-left-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .reveal-right-panel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: sticky;
+      top: 2rem;
+    }
+
+    .reveal-instructions {
+      background: rgba(107, 78, 255, 0.2);
+      border: 2px solid #6b4eff;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+      .reveal-split-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .reveal-right-panel {
+        position: relative;
+        top: 0;
+      }
+    }
+
+    /* Final Board Display */
+    .final-board {
+      background: rgba(42, 42, 58, 0.9);
+      border-radius: 15px;
+      padding: 2rem;
+      margin: 2rem auto;
+      border: 3px solid #6b4eff;
+      box-shadow: 0 0 30px rgba(107, 78, 255, 0.5);
+    }
+
+    .final-board h2 {
+      color: #00ddeb;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    .board-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .board-pick {
+      background: linear-gradient(135deg, #3a3a4a 0%, #2a2a3a 100%);
+      border: 2px solid #4a4a5a;
+      border-radius: 10px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.5s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .board-pick:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(107, 78, 255, 0.3);
+      border-color: #6b4eff;
+    }
+
+    .pick-number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #6b4eff;
+      margin-bottom: 0.5rem;
+    }
+
+    .pick-team {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .pick-record {
+      font-size: 0.9rem;
+      color: #a0a0b0;
+    }
+
+    .lottery-badge {
+      background: #ffd700;
+      color: #1a1a2e;
+      padding: 0.2rem 0.6rem;
+      border-radius: 5px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-left: 0.5rem;
+    }
+
+    .spotlight {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(107, 78, 255, 0.3) 0%, transparent 70%);
+      pointer-events: none;
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.1); }
+    }
+
+    .card-container {
+      perspective: 1000px;
+      margin: 1rem auto;
+      width: 280px;
+      height: 180px;
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.8s;
+      cursor: pointer;
+    }
+
+    .card.flipped {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.1em;
+      font-weight: 600;
+      background: #2a2a3a;
+      border: 1px solid #3a3a4a;
+    }
+
+    .card-front {
+      background: #3a3a4a;
+      color: #ffffff;
+    }
+
+    .card-back {
+      background: #6b4eff;
+      color: #ffffff;
+      transform: rotateY(180deg);
+    }
+
+    .projected-text {
+      font-size: 0.8em;
+      margin-bottom: 8px;
+      color: #a0a0b0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .team-name {
+      font-size: 1.2em;
+      margin-bottom: 6px;
+    }
+
+    .team-record {
+      font-size: 0.8em;
+      color: #d0d0d0;
+    }
+
+    .reveal-comment {
+      margin-top: 1.5rem;
+      font-size: 1.1em;
+      color: #00ddeb;
+      font-weight: 500;
+      min-height: 30px;
+    }
+
+    .continue-btn {
+      margin-top: 1.5rem;
+      padding: 10px 20px;
+      font-size: 0.9em;
+      background: #6b4eff;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+    }
+
+    .continue-btn:hover {
+      filter: brightness(1.1);
+    }
+
+    .skip-btn {
+      margin-top: 1rem;
+      padding: 8px 16px;
+      font-size: 0.8em;
+      background: #3a3a4a;
+      color: #ffffff;
+      border: 1px solid #4a4a5a;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .skip-btn:hover {
+      background: #4a4a5a;
+    }
+
+    /* Stage Transition Animation */
+    .lottery-stage {
+      animation: stageEnter 0.8s ease-out;
+    }
+
+    @keyframes stageEnter {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Enhanced Podium with Logo Area */
+    .podium-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #6b4eff;
+      text-shadow: 0 0 10px rgba(107, 78, 255, 0.8);
+    }
+
+    /* Dramatic reveal title */
+    .reveal-title.dramatic {
+      animation: titlePulse 2s ease-in-out infinite;
+    }
+
+    @keyframes titlePulse {
+      0%, 100% {
+        text-shadow: 0 0 20px rgba(107, 78, 255, 0.8), 0 0 40px rgba(107, 78, 255, 0.5);
+      }
+      50% {
+        text-shadow: 0 0 30px rgba(107, 78, 255, 1), 0 0 60px rgba(107, 78, 255, 0.8), 0 0 80px rgba(0, 221, 235, 0.5);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 1.5rem;
+      }
+
+      .container {
+        padding: 0.5rem;
+      }
+
+      .controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 12px;
+      }
+
+      .reveal-title {
+        font-size: 1.8rem;
+      }
+
+      .card-container {
+        width: 240px;
+        height: 160px;
+      }
+
+      .ball-machine {
+        width: 250px;
+        height: 250px;
+      }
+
+      .board-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .explanation {
+        font-size: 1rem;
+        padding: 1.5rem;
+      }
+
+      .podium {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Dynasty iooi Fantasy Football</h1>
+    <div class="subtitle">Draft Lottery Simulator</div>
+  </div>
+
+  <div class="container">
+    <div class="countdown-card">
+      <div id="countdown"></div>
+    </div>
+
+    <div class="controls">
+      <button class="btn btn-primary" onclick="simulateLottery()">Quick Sim</button>
+      <button class="btn btn-secondary" onclick="animatedLottery()" id="animated-btn">Animated Lottery</button>
+      <button class="btn btn-tertiary" onclick="resetLottery()">Reset</button>
+    </div>
+
+    <div class="table-container">
+      <table id="lottery-table">
+        <thead>
+          <tr>
+            <th>Pick</th>
+            <th>Seed</th>
+            <th>Record</th>
+            <th>PF</th>
+            <th>Max PF</th>
+            <th>Δ</th>
+            <th>Pick 1</th>
+            <th>Pick 2</th>
+            <th>Pick 3</th>
+            <th>Pick 4</th>
+            <th>Pick 5</th>
+            <th>Pick 6</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="lottery-reveal" id="lottery-reveal">
+    <div class="reveal-container">
+      <div class="spotlight" style="top: 10%; left: 20%;"></div>
+      <div class="spotlight" style="top: 40%; right: 15%;"></div>
+
+      <div class="reveal-title" id="reveal-title">2027 DRAFT LOTTERY</div>
+
+      <!-- Welcome Screen -->
+      <div id="welcome-screen" class="lottery-stage">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
+          <!-- Logo with glow effect -->
+          <div style="position: relative; margin-top: 1rem;">
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 200px; height: 200px; background: radial-gradient(circle, rgba(107, 78, 255, 0.4) 0%, transparent 70%); border-radius: 50%; animation: pulse 3s ease-in-out infinite;"></div>
+            <img src="iooiLeagueLogo.PNG" alt="iooi League Logo" style="position: relative; width: 150px; height: 150px; object-fit: contain; filter: drop-shadow(0 0 20px rgba(107, 78, 255, 0.6));">
+          </div>
+
+          <!-- Title section -->
+          <div style="text-align: center; margin-top: 1rem;">
+            <h2 style="font-size: 3rem; margin: 0 0 1rem 0; color: #00ddeb; text-transform: uppercase; letter-spacing: 3px; text-shadow: 0 0 20px rgba(0, 221, 235, 0.5);">
+              2027 Dynasty iooi Draft Lottery
+            </h2>
+            <div style="width: 300px; height: 3px; background: linear-gradient(90deg, transparent, #6b4eff, #00ddeb, #6b4eff, transparent); margin: 0 auto 1.5rem auto;"></div>
+            <p style="font-size: 1.4rem; color: #ffffff; font-weight: 500; margin-bottom: 0.5rem;">
+              Welcome to the Draft Lottery
+            </p>
+            <p style="font-size: 1.1rem; color: #a0a0b0; font-style: italic;">
+              The moment of truth is here...
+            </p>
+          </div>
+
+          <button class="continue-btn" onclick="showExplanation()" style="margin-top: 1rem; padding: 12px 30px; font-size: 1rem;">Begin Lottery</button>
+        </div>
+      </div>
+
+      <!-- Explanation Screen -->
+      <div id="explanation-screen" class="lottery-stage" style="display: none;">
+        <div class="explanation">
+          <h3>How the Lottery Works</h3>
+          <div id="lottery-explanation-content">
+            <p style="font-size: 1.15rem; margin-bottom: 1.5rem; color: #00ddeb; font-weight: 600;">
+              The Ping Pong Ball Draw
+            </p>
+            <ul>
+              <li><strong>1,000 ping pong balls</strong> are placed in the lottery machine</li>
+              <li><strong id="team-1-name">Team 1</strong> (lowest Max Points For) receives <strong>300 balls</strong> (30% chance)</li>
+              <li><strong id="team-2-name">Team 2</strong> receives <strong>250 balls</strong> (25% chance)</li>
+              <li><strong id="team-3-name">Team 3</strong> receives <strong>200 balls</strong> (20% chance)</li>
+              <li><strong id="team-4-name">Team 4</strong> receives <strong>150 balls</strong> (15% chance)</li>
+              <li><strong id="team-5-name">Team 5</strong> receives <strong>70 balls</strong> (7% chance)</li>
+              <li><strong id="team-6-name">Team 6</strong> receives <strong>30 balls</strong> (3% chance)</li>
+            </ul>
+            <p style="font-size: 1.15rem; margin: 1.5rem 0; color: #00ddeb; font-weight: 600;">
+              The Three Draws
+            </p>
+            <ul>
+              <li><strong>First Draw:</strong> One ball is randomly selected - that team wins the <strong>#1 pick</strong>! Their balls are removed from the machine.</li>
+              <li><strong>Second Draw:</strong> From the remaining balls, another is drawn for the <strong>#2 pick</strong>. Those balls are removed.</li>
+              <li><strong>Third Draw:</strong> The final lottery draw determines the <strong>#3 pick</strong>.</li>
+            </ul>
+            <p style="font-size: 1.15rem; margin: 1.5rem 0; color: #00ddeb; font-weight: 600;">
+              Remaining Picks
+            </p>
+            <ul>
+              <li><strong>Picks 4-6:</strong> Remaining lottery teams are assigned picks in reverse order of Max Points For (lowest first)</li>
+              <li><strong>Picks 7-12:</strong> Determined by playoff results. The 6th and final playoff seed goes to whichever non-top-5 team scored the most total points, not simply the next-best record</li>
+            </ul>
+          </div>
+        </div>
+        <button class="continue-btn" onclick="showBallDrawing()">Draw the Ping Pong Balls</button>
+      </div>
+
+      <!-- Ball Drawing Screen -->
+      <div id="ball-drawing-screen" class="lottery-stage" style="display: none;">
+        <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: #00ddeb;">Drawing Lottery Combinations</h2>
+        <div class="ball-machine" id="ball-machine">
+          <!-- Ping pong balls will be generated here -->
+        </div>
+        <div class="drawn-balls-display" id="drawn-balls-display"></div>
+        <div id="ball-status" style="font-size: 1.2rem; margin-top: 2rem; color: #fff; min-height: 120px; text-align: center; line-height: 1.6;"></div>
+        <div style="display: flex; justify-content: center; margin-top: 1rem;">
+          <button class="continue-btn" id="balls-drawn-btn" onclick="showOddsTable()" style="display: none;">View Odds & Results</button>
+        </div>
+      </div>
+
+      <!-- Odds Table Screen -->
+      <div id="odds-table-screen" class="lottery-stage" style="display: none;">
+        <div class="odds-table-container">
+          <h3>Lottery Odds & Projections</h3>
+          <table class="mini-odds-table" id="mini-odds-table">
+            <thead>
+              <tr>
+                <th>Seed</th>
+                <th>Team</th>
+                <th>Record</th>
+                <th>Pick 1</th>
+                <th>Pick 2</th>
+                <th>Pick 3</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p style="font-size: 1.3rem; margin-top: 2rem; color: #00ddeb;">
+          The lottery has determined the top 3 picks. Let's reveal them...
+        </p>
+        <button class="continue-btn" onclick="startPickReveals()">Reveal Picks 6-1</button>
+      </div>
+
+      <!-- Pick Reveal Screen -->
+      <div id="pick-reveal-screen" class="lottery-stage" style="display: none;">
+        <div class="reveal-split-layout">
+          <!-- Left Panel: Odds Table -->
+          <div class="reveal-left-panel">
+            <div class="odds-table-container">
+              <h3>Draft Order Status</h3>
+              <table class="mini-odds-table" id="reveal-odds-table">
+                <thead>
+                  <tr>
+                    <th>Pick</th>
+                    <th>Projected Team</th>
+                    <th>Pick 1 Odds</th>
+                    <th>Actual Result</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Right Panel: Card Reveal -->
+          <div class="reveal-right-panel">
+            <div class="reveal-instructions" id="reveal-instructions">
+              Click the card to reveal Pick #6!
+            </div>
+            <div class="card-container">
+              <div class="card" id="reveal-card" onclick="flipCard()">
+                <div class="card-face card-front" id="card-front">
+                  <div class="team-name" id="projected-team"></div>
+                  <div class="team-record" id="projected-record"></div>
+                </div>
+                <div class="card-face card-back" id="card-back">
+                  <div class="team-name" id="actual-team"></div>
+                  <div class="team-record" id="actual-record"></div>
+                </div>
+              </div>
+            </div>
+            <div class="reveal-comment" id="reveal-comment" style="margin-top: 1.5rem; font-size: 1.2rem; min-height: 60px;"></div>
+            <button class="continue-btn" id="continue-btn" onclick="nextReveal()" style="display: none;">Continue</button>
+            <button class="skip-btn" id="skip-btn" onclick="skipToFinalBoard()" style="display: none;">Skip to Final Board</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Final Board Screen -->
+      <div id="final-board-screen" class="lottery-stage" style="display: none;">
+        <div class="final-board">
+          <h2>Complete Draft Order</h2>
+          <div class="board-grid" id="board-grid"></div>
+        </div>
+        <button class="continue-btn" onclick="closeLottery()" style="margin-top: 2rem;">Close Lottery</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let seeds;
+    let originalOrder;
+    let currentOrder;
+    let lotteryResults = [];
+    let playoffAssignments = {};
+    let animationState = {
+      active: false,
+      currentPick: 0,
+      results: [],
+      cardFlipped: false
+    };
+    let playoffTeams = [];
+
+    async function loadData() {
+      const rostersResponse = await fetch('https://api.sleeper.app/v1/league/1314038209503567872/rosters');
+      const rosters = await rostersResponse.json();
+      const usersResponse = await fetch('https://api.sleeper.app/v1/league/1314038209503567872/users');
+      const users = await usersResponse.json();
+      const tradedResponse = await fetch('https://api.sleeper.app/v1/league/1314038209503567872/traded_picks');
+      const tradedPicks = await tradedResponse.json();
+      const winnersBracketResponse = await fetch('https://api.sleeper.app/v1/league/1314038209503567872/winners_bracket');
+      const winnersBracket = await winnersBracketResponse.json();
+
+      const rawTeams = rosters.map(roster => {
+        const user = users.find(u => u.user_id === roster.owner_id);
+        if (!user) return null;
+        const metadata = user.metadata || {};
+        const teamName = metadata.team_name || user.display_name;
+        const avatar = metadata.avatar ? metadata.avatar : `https://sleepercdn.com/avatars/thumbs/${user.avatar}`;
+        const wins = roster.settings.wins;
+        const losses = roster.settings.losses;
+        const ties = roster.settings.ties;
+        const record = `${wins}-${losses}${ties > 0 ? `-${ties}` : ''}`;
+        const winPct = (wins + ties * 0.5) / (wins + losses + ties) || 0;
+        const fpts = roster.settings.fpts + (roster.settings.fpts_decimal || 0) / 100;
+        // "Max Points For" - Sleeper's optimal/potential lineup points for the season
+        const maxPtsFor = (roster.settings.ppts || 0) + (roster.settings.ppts_decimal || 0) / 100;
+        const waiverPos = roster.settings.waiver_position;
+        return { name: teamName, avatar, record, winPct, fpts, maxPtsFor, waiverPos, roster_id: roster.roster_id };
+      }).filter(t => t);
+
+      // Rank all 12 teams by record (win% then total points), best team first
+      const byRecordBestFirst = [...rawTeams].sort((a, b) => {
+        if (a.record === '0-0') return a.waiverPos - b.waiverPos;
+        if (a.winPct !== b.winPct) return b.winPct - a.winPct;
+        return b.fpts - a.fpts;
+      });
+
+      // Hoisted so the winners-bracket processing below can resolve seed 3/6
+      // against our own house rule instead of Sleeper's real-record seeding.
+      let top5 = null;
+      let sixthSeed = null;
+
+      let teams;
+      if (rawTeams.every(t => t.record === '0-0')) {
+        // Preseason: no games played, nothing to rank teams on yet
+        teams = [...byRecordBestFirst].reverse();
+      } else {
+        top5 = byRecordBestFirst.slice(0, 5);
+        const rankedSixToTwelve = byRecordBestFirst.slice(5);
+
+        // Rule: the 6th (final) playoff seed goes to whoever scored the most total
+        // points among teams ranked 6th-12th, not simply the 6th-best record
+        sixthSeed = rankedSixToTwelve.reduce((best, t) => t.fpts > best.fpts ? t : best);
+        const lotteryPool = rankedSixToTwelve.filter(t => t !== sixthSeed);
+
+        // Rule: the 6 lottery teams are ordered by lowest Max Points For (worst first)
+        lotteryPool.sort((a, b) => a.maxPtsFor - b.maxPtsFor);
+
+        const projectedPlayoffTeams = [...top5, sixthSeed].sort((a, b) => a.winPct - b.winPct || a.fpts - b.fpts);
+        teams = [...lotteryPool, ...projectedPlayoffTeams];
+      }
+
+      const pickOwners2027 = new Map();
+      for (let i = 1; i <= 12; i++) {
+        pickOwners2027.set(i, i);
+      }
+      tradedPicks.filter(p => p.season === "2027" && p.round === 1).forEach(p => {
+        pickOwners2027.set(p.roster_id, p.owner_id);
+      });
+
+      const odds = [
+        { p1: 30.0, p2: 25.980, p3: 21.001, p4: 23.019, p5: 0.000, p6: 0.000 },
+        { p1: 25.0, p2: 24.031, p3: 21.819, p4: 25.640, p5: 3.510, p6: 0.000 },
+        { p1: 20.0, p2: 20.891, p3: 21.615, p4: 27.053, p5: 10.190, p6: 0.249 },
+        { p1: 15.0, p2: 16.772, p3: 19.305, p4: 24.288, p5: 23.169, p6: 1.467 },
+        { p1: 7.0, p2: 8.535, p3: 11.103, p4: 0.000, p5: 63.130, p6: 10.232 },
+        { p1: 3.0, p2: 3.791, p3: 5.157, p4: 0.000, p5: 0.000, p6: 88.052 },
+        { p1: 0.000, p2: 0.000, p3: 0.000, p4: 0.000, p5: 0.000, p6: 0.000 },
+        { p1: 0.000, p2: 0.000, p3: 0.000, p4: 0.000, p5: 0.000, p6: 0.000 },
+        { p1: 0.000, p2: 0.000, p3: 0.000, p4: 0.000, p5: 0.000, p6: 0.000 },
+        { p1: 0.000, p2: 0.000, p3: 0.000, p4: 0.000, p5: 0.000, p6: 0.000 },
+        { p1: 0.000, p2: 0.000, p3: 0.000, p4: 0.000, p5: 0.000, p6: 0.000 },
+        { p1: 0.000, p2: 0.000, p3: 0.000, p4: 0.000, p5: 0.000, p6: 0.000 }
+      ];
+
+      // Map roster_id to seed index
+      const rosterIdToIndex = new Map();
+      teams.forEach((team, index) => {
+        rosterIdToIndex.set(team.roster_id, index);
+      });
+
+      // Process winners bracket to determine playoff assignments
+      playoffAssignments = {};
+      playoffTeams = [];
+      let m1Winner, m1Loser, m2Winner, m2Loser, m3Winner, m3Loser, m4Winner, m4Loser;
+
+      winnersBracket.forEach(match => {
+        if (match.m === 1) { // Seed 4 vs Seed 5
+          if (match.w && match.l) {
+            m1Winner = rosterIdToIndex.get(match.w);
+            m1Loser = rosterIdToIndex.get(match.l);
+          } else {
+            const t1Index = rosterIdToIndex.get(match.t1); // Team 6 (Seed 4)
+            const t2Index = rosterIdToIndex.get(match.t2); // Team 2 (Seed 5)
+            m1Winner = t1Index;
+            m1Loser = t2Index;
+          }
+        } else if (match.m === 2) { // Seed 6 vs Seed 3
+          if (match.w && match.l) {
+            m2Winner = rosterIdToIndex.get(match.w);
+            m2Loser = rosterIdToIndex.get(match.l);
+          } else if (sixthSeed) {
+            // Sleeper seeds its own bracket by real record, but our house rule can
+            // swap in a different team as the 6 seed (most points among ranks
+            // 6-12), so match.t1/match.t2 can't be trusted here - resolve seed 3
+            // and seed 6 from our own seeding instead. Chalk: the better seed (3)
+            // is projected to win, same convention as every other matchup below.
+            m2Winner = rosterIdToIndex.get(top5[2].roster_id); // Seed 3
+            m2Loser = rosterIdToIndex.get(sixthSeed.roster_id); // Seed 6
+          } else {
+            const t1Index = rosterIdToIndex.get(match.t1); // Team 10 (Seed 3)
+            const t2Index = rosterIdToIndex.get(match.t2); // Team 5 (Seed 6)
+            m2Winner = t1Index;
+            m2Loser = t2Index;
+          }
+        } else if (match.m === 3) { // Seed 1 vs Winner of m=1 (Seed 4)
+          if (match.w && match.l) {
+            m3Winner = rosterIdToIndex.get(match.w);
+            m3Loser = rosterIdToIndex.get(match.l);
+          } else {
+            const t1Index = rosterIdToIndex.get(match.t1); // Team 1 (Seed 1)
+            m3Winner = t1Index; // Seed 1 vs Winner of m=1
+            m3Loser = m1Winner;
+          }
+        } else if (match.m === 4) { // Seed 2 vs Winner of m=2 (Seed 3)
+          if (match.w && match.l) {
+            m4Winner = rosterIdToIndex.get(match.w);
+            m4Loser = rosterIdToIndex.get(match.l);
+          } else {
+            const t1Index = rosterIdToIndex.get(match.t1); // Team 8 (Seed 2)
+            m4Winner = t1Index;
+            m4Loser = m2Winner;
+          }
+        } else if (match.p === 1) { // Championship: Winner of m=3 vs Winner of m=4
+          if (match.w && match.l) {
+            playoffAssignments[rosterIdToIndex.get(match.w)] = { pick: 12, rationale: "Winner of Championship" };
+            playoffAssignments[rosterIdToIndex.get(match.l)] = { pick: 11, rationale: "Loser of Championship" };
+            playoffTeams.push(rosterIdToIndex.get(match.w), rosterIdToIndex.get(match.l));
+          } else {
+            const champWinner = m3Winner;
+            const champLoser = m4Winner;
+            playoffAssignments[champWinner] = { pick: 12, rationale: "Winner of Championship (Projected)" };
+            playoffAssignments[champLoser] = { pick: 11, rationale: "Loser of Championship (Projected)" };
+            playoffTeams.push(champWinner, champLoser);
+          }
+        } else if (match.p === 3) { // 3rd place: Loser of m=4 vs Loser of m=3
+          if (match.w && match.l) {
+            playoffAssignments[rosterIdToIndex.get(match.w)] = { pick: 9, rationale: "Winner of 3rd Place Game" };
+            playoffAssignments[rosterIdToIndex.get(match.l)] = { pick: 10, rationale: "Loser of 3rd Place Game" };
+            playoffTeams.push(rosterIdToIndex.get(match.w), rosterIdToIndex.get(match.l));
+          } else {
+            const thirdWinner = m4Loser;
+            const thirdLoser = m3Loser;
+            playoffAssignments[thirdWinner] = { pick: 9, rationale: "Winner of 3rd Place Game (Projected)" };
+            playoffAssignments[thirdLoser] = { pick: 10, rationale: "Loser of 3rd Place Game (Projected)" };
+            playoffTeams.push(thirdWinner, thirdLoser);
+          }
+        } else if (match.p === 5) { // 5th place: Loser of m=1 vs Loser of m=2
+          if (match.w && match.l) {
+            playoffAssignments[rosterIdToIndex.get(match.w)] = { pick: 7, rationale: "Winner of 5th Place Game" };
+            playoffAssignments[rosterIdToIndex.get(match.l)] = { pick: 8, rationale: "Loser of 5th Place Game" };
+            playoffTeams.push(rosterIdToIndex.get(match.w), rosterIdToIndex.get(match.l));
+          } else {
+            const fifthWinner = m1Loser;
+            const fifthLoser = m2Loser;
+            playoffAssignments[fifthWinner] = { pick: 7, rationale: "Winner of 5th Place Game (Projected)" };
+            playoffAssignments[fifthLoser] = { pick: 8, rationale: "Loser of 5th Place Game (Projected)" };
+            playoffTeams.push(fifthWinner, fifthLoser);
+          }
+        }
+      });
+
+      const dynamicSeeds = teams.map((original_team, index) => {
+        const owner_roster_id = pickOwners2027.get(original_team.roster_id);
+        const owner_team = teams.find(t => t.roster_id === owner_roster_id);
+        const isTraded = owner_roster_id !== original_team.roster_id;
+        const displayName = isTraded ? `${owner_team.name} (via ${original_team.name})` : original_team.name;
+        return {
+          name: displayName,
+          avatar: owner_team.avatar,
+          record: original_team.record,
+          fpts: original_team.fpts,
+          maxPtsFor: original_team.maxPtsFor,
+          roster_id: original_team.roster_id,
+          // teams[6] is always the 6-seed-by-points team when the split has happened
+          // (index 0-5 = lottery pool, 6 = the points tiebreak winner, 7-11 = seeds 5-1)
+          isSixthSeedByPoints: !!sixthSeed && index === 6,
+          ...odds[index],
+          playoff: playoffAssignments[index] || null
+        };
+      });
+
+      dynamicSeeds.splice(6, 0, "separator");
+
+      return { seeds: dynamicSeeds, playoffTeams };
+    }
+
+    function generateCombinations(n, k) {
+      const combinations = [];
+      
+      function backtrack(start, currentCombination) {
+        if (currentCombination.length === k) {
+          combinations.push([...currentCombination]);
+          return;
+        }
+        
+        for (let i = start; i <= n; i++) {
+          currentCombination.push(i);
+          backtrack(i + 1, currentCombination);
+          currentCombination.pop();
+        }
+      }
+      
+      backtrack(1, []);
+      return combinations;
+    }
+
+    function assignPingPongBalls() {
+      const baseCombinations = generateCombinations(10, 3);
+      const allCombinations = [];
+      const multiplier = Math.ceil(1000 / baseCombinations.length);
+      
+      for (let i = 0; i < multiplier; i++) {
+        baseCombinations.forEach(combo => {
+          if (allCombinations.length < 1000) {
+            allCombinations.push([...combo, i]);
+          }
+        });
+      }
+      
+      const teamAssignments = {};
+      const teamCombinationCounts = [
+        { team: 0, count: 300 },
+        { team: 1, count: 250 },
+        { team: 2, count: 200 },
+        { team: 3, count: 150 },
+        { team: 4, count: 70 },
+        { team: 5, count: 30 }
+      ];
+      
+      let assignedCombinations = 0;
+      teamCombinationCounts.forEach(({ team, count }) => {
+        teamAssignments[team] = [];
+        for (let i = 0; i < count; i++) {
+          if (assignedCombinations < allCombinations.length) {
+            teamAssignments[team].push(allCombinations[assignedCombinations]);
+            assignedCombinations++;
+          }
+        }
+      });
+      
+      return { teamAssignments, allCombinations: allCombinations.slice(0, 1000) };
+    }
+
+    function drawPingPongBalls(availableTeams, pickNumber) {
+      const { teamAssignments } = assignPingPongBalls();
+      const combinationPool = [];
+      
+      availableTeams.forEach(team => {
+        if (teamAssignments[team]) {
+          teamAssignments[team].forEach((combo, index) => {
+            combinationPool.push({ combination: combo, team: team, index: index });
+          });
+        }
+      });
+      
+      const drawnEntry = combinationPool[Math.floor(Math.random() * combinationPool.length)];
+      const winningTeam = drawnEntry.team;
+      const teamCombinations = teamAssignments[winningTeam].length;
+      const totalCombinations = combinationPool.length;
+      const winningPercentage = ((teamCombinations / totalCombinations) * 100).toFixed(1);
+      
+      console.log(`🏀 Drawing lottery pick #${pickNumber}:`);
+      console.log(`   Winner: Seed ${winningTeam + 1} (${seeds[winningTeam].name})`);
+      console.log(`   Won with ${teamCombinations}/${totalCombinations} combinations (${winningPercentage}%)`);
+      console.log(`   Drawn combination: [${drawnEntry.combination.join(', ')}]`);
+      
+      return winningTeam;
+    }
+
+    function weightedRandom(teams, pickNumber) {
+      return drawPingPongBalls(teams, pickNumber);
+    }
+
+    function renderTable() {
+      const tbody = document.querySelector("#lottery-table tbody");
+      tbody.innerHTML = "";
+
+      // Define the desired rationale order
+      const rationaleOrder = [
+        "Winner of 5th Place Game (Projected)",
+        "Winner of 5th Place Game",
+        "Loser of 5th Place Game (Projected)",
+        "Loser of 5th Place Game",
+        "Winner of 3rd Place Game (Projected)",
+        "Winner of 3rd Place Game",
+        "Loser of 3rd Place Game (Projected)",
+        "Loser of 3rd Place Game",
+        "Loser of Championship (Projected)",
+        "Loser of Championship",
+        "Winner of Championship (Projected)",
+        "Winner of Championship"
+      ];
+
+      // Collect playoff teams and their indices
+      const playoffTeamsWithIndices = [];
+      currentOrder.forEach((idx, pick) => {
+        if (seeds[idx].playoff && pick >= 6) {
+          playoffTeamsWithIndices.push({ idx, pick });
+        }
+      });
+
+      // Sort playoff teams by rationale
+      playoffTeamsWithIndices.sort((a, b) => {
+        const aRationale = seeds[a.idx].playoff.rationale;
+        const bRationale = seeds[b.idx].playoff.rationale;
+        return rationaleOrder.indexOf(aRationale) - rationaleOrder.indexOf(bRationale);
+      });
+
+      // Render lottery and non-lottery teams (picks 1-6)
+      let separatorAdded = false;
+      currentOrder.forEach((idx, pick) => {
+        const seed = seeds[idx];
+        if (seed === "separator") {
+          tbody.innerHTML += `<tr class="separator"><td colspan="12">End of Lottery</td></tr>`;
+          separatorAdded = true;
+          return;
+        }
+        if (pick < 6) { // Render non-playoff teams
+          const isLotteryPick = lotteryResults.includes(idx) && pick < 3;
+          const isPlayoffPick = seed.playoff && pick >= 6;
+          const origPick = originalOrder.indexOf(idx);
+          let diff = isPlayoffPick ? 0 : origPick - pick;
+          let movement = "";
+          if (diff > 0) movement = `<span class="arrow-up">↑ ${diff}</span>`;
+          else if (diff < 0) movement = `<span class="arrow-down">↓ ${Math.abs(diff)}</span>`;
+          else movement = `<span class="arrow-same">→ 0</span>`;
+
+          const rowClass = isLotteryPick ? 'class="lottery-pick"' : isPlayoffPick ? 'class="playoff-pick"' : '';
+          const pickNum = pick + 1;
+          const rationale = seed.playoff ? seed.playoff.rationale : (pickNum <= 3 ? "Lottery" : "Non-Lottery");
+
+          const borderStyle = pick < 3 
+            ? "border: solid yellow; position: relative;" 
+            : "border: solid blue; position: relative;";
+
+            tbody.innerHTML += `
+            <tr ${rowClass} style="${borderStyle}">
+                <!-- overlay label cell -->
+                <td colspan="12" style="position: relative; padding: 0; border: none;">
+                <div style="position:absolute; top: -10px; left:50%; transform: translateX(-50%);
+                            background:${pick < 3 ? "yellow; color: black;" : "blue; color:white;"}
+                            padding:2px 6px; border-radius:4px; font-size:12px;">
+                    ${rationale}
+                </div>
+                </td>
+            </tr>
+
+            <tr ${rowClass} style="${borderStyle}">
+                <td>${pickNum}</td>
+                <td><img src="${seed.avatar}" width="24" height="24" style="border-radius:50%; margin-right:8px;vertical-align:middle;">${seed.name}</td>
+                <td>${seed.record}</td>
+                <td>${seed.fpts.toFixed(1)}</td>
+                <td><strong style='color:yellow;'>${seed.maxPtsFor.toFixed(1)}</strong></td>
+                <td>${movement}</td>
+                <td>${seed.p1.toFixed(1)}%</td>
+                <td>${seed.p2.toFixed(1)}%</td>
+                <td>${seed.p3.toFixed(1)}%</td>
+                <td>${seed.p4.toFixed(1)}%</td>
+                <td>${seed.p5.toFixed(1)}%</td>
+                <td>${seed.p6.toFixed(1)}%</td>
+            </tr>
+            `;
+        }
+      });
+
+      // Render playoff teams in custom rationale order
+      if (!separatorAdded) {
+        tbody.innerHTML += `<tr class="separator"><td colspan="12">End of Lottery</td></tr>`;
+      }
+
+      playoffTeamsWithIndices.forEach(({ idx, pick }) => {
+        const seed = seeds[idx];
+        const isPlayoffPick = true;
+        const origPick = originalOrder.indexOf(idx);
+        let diff = 0; // No movement for playoff teams
+        let movement = `<span class="arrow-same">→ 0</span>`;
+        const rowClass = 'class="playoff-pick"';
+        const pickNum = seed.playoff.pick;
+        const rationale = seed.playoff.rationale;
+
+        let color = 'pink';
+
+        if (rationale[10] == '5') {
+          color = "#90EE90";
+        } else if (rationale[10] == '3') {
+          color = "#CD7F32";
+        } else if (rationale[10] == 'C') {
+          color = "#FFD700";
+        } else if (rationale[9] == '5') {
+            color = "#F08080";
+        } else if (rationale[9] == '3') {
+            color = "#87CEFA";
+        } else if (rationale[9] == 'C') {
+            color = "#C0C0C0";
+        }
+
+        const borderStyle = rationale[0] == 'W'
+        ? `border: solid ${color}; position: relative;`
+        : `border: solid ${color}; position: relative;`;
+        tbody.innerHTML += `
+          <tr ${rowClass} style="${borderStyle}">
+                <!-- overlay label cell -->
+                <td colspan="12" style="position: relative; padding: 0; border: none;">
+                <div style="position:absolute; top: -10px; left:50%; transform: translateX(-50%);
+                            background:${color}; color:black;
+                            padding:2px 6px; border-radius:4px; font-size:12px;">
+                    ${rationale}
+                </div>
+                </td>
+            </tr>
+            <tr ${rowClass} style="${borderStyle}">
+                <td>${pickNum}</td>
+                <td><img src="${seed.avatar}" width="24" height="24" style="border-radius:50%; margin-right:8px;vertical-align:middle;">${seed.name}</td>
+                <td>${seed.record}</td>
+                <td>${seed.isSixthSeedByPoints ? `<strong style='color:yellow;'>${seed.fpts.toFixed(1)}</strong>` : seed.fpts.toFixed(1)}</td>
+                <td>${seed.maxPtsFor.toFixed(1)}</td>
+                <td>${movement}</td>
+                <td>${seed.p1.toFixed(1)}%</td>
+                <td>${seed.p2.toFixed(1)}%</td>
+                <td>${seed.p3.toFixed(1)}%</td>
+                <td>${seed.p4.toFixed(1)}%</td>
+                <td>${seed.p5.toFixed(1)}%</td>
+                <td>${seed.p6.toFixed(1)}%</td>
+            </tr>
+          </tr>
+        `;
+      });
+    }
+    function conductLottery() {
+      console.log("🎲 Starting Fantasy Football Draft Lottery Simulation");
+      console.log("================================================");
+      
+      currentOrder = [...originalOrder];
+      lotteryResults = [];
+      
+      let availableTeams = [0, 1, 2, 3, 4, 5].filter(i => !playoffTeams.includes(i));
+      let newOrder = new Array(13);
+      let results = [];
+      
+      for (let pick = 1; pick <= 3; pick++) {
+        console.log(`\n--- LOTTERY PICK #${pick} ---`);
+        console.log(`Available teams: ${availableTeams.map(t => `Seed ${t + 1}`).join(', ')}`);
+        
+        const selectedTeam = weightedRandom(availableTeams, pick);
+        newOrder[pick - 1] = selectedTeam;
+        lotteryResults.push(selectedTeam);
+        results.push(selectedTeam);
+        
+        availableTeams = availableTeams.filter(team => team !== selectedTeam);
+        
+        console.log(`✅ Pick #${pick} goes to: Seed ${selectedTeam + 1} (${seeds[selectedTeam].name})`);
+      }
+      
+      console.log(`\n--- REMAINING LOTTERY TEAMS ---`);
+      let remainingLotterySpot = 3;
+      for (let i = 0; i < 6; i++) {
+        if (!lotteryResults.includes(i) && !playoffTeams.includes(i)) {
+          newOrder[remainingLotterySpot] = i;
+          console.log(`Pick #${remainingLotterySpot + 1}: Seed ${i + 1} (${seeds[i].name}) - stays in original position`);
+          remainingLotterySpot++;
+        }
+      }
+      
+      newOrder[6] = 6; // Separator
+      for (let i = 0; i < seeds.length; i++) {
+        if (seeds[i].playoff) {
+          // newOrder[0..5] = lottery picks 1-6, newOrder[6] = separator, so
+          // playoff picks 7-12 land at index === pick (not pick - 1), or they
+          // clobber the separator slot and leave the last pick's slot empty.
+          newOrder[seeds[i].playoff.pick] = i;
+        }
+      }
+      
+      console.log("\n🏆 FINAL DRAFT ORDER:");
+      console.log("================================================");
+      for (let i = 0; i < seeds.length; i++) {
+        if (i === 6) continue; // Skip separator
+        const teamIdx = newOrder[i];
+        const team = seeds[teamIdx];
+        const pickNum = i < 6 ? i + 1 : i; // playoff picks (7-12) live at index === pick
+        const movement = i < 6 ? i - originalOrder.indexOf(teamIdx) : 0;
+        const movementText = movement > 0 ? `(↑${movement})` : movement < 0 ? `(↓${Math.abs(movement)})` : '(→)';
+        const rationale = team.playoff ? team.playoff.rationale : (i < 3 ? "Lottery" : i < 6 ? "Non-Lottery" : "");
+        console.log(`Pick #${pickNum}: ${team.name} ${movementText} - ${rationale}`);
+      }
+      console.log("================================================");
+      
+      currentOrder = newOrder;
+      return results;
+    }
+
+    function simulateLottery() {
+      conductLottery();
+      renderTable();
+    }
+
+    function animatedLottery() {
+      const results = conductLottery();
+      animationState = {
+        active: true,
+        currentPick: 6,
+        results: results,
+        cardFlipped: false,
+        drawnBalls: []
+      };
+
+      document.getElementById('animated-btn').disabled = true;
+      showLotteryReveal();
+    }
+
+    function showLotteryReveal() {
+      const overlay = document.getElementById('lottery-reveal');
+      overlay.style.display = 'flex';
+      overlay.classList.add('active');
+      overlay.scrollTop = 0;
+
+      // Reset all screens
+      document.getElementById('welcome-screen').style.display = 'block';
+      document.getElementById('explanation-screen').style.display = 'none';
+      document.getElementById('ball-drawing-screen').style.display = 'none';
+      document.getElementById('odds-table-screen').style.display = 'none';
+      document.getElementById('pick-reveal-screen').style.display = 'none';
+      document.getElementById('final-board-screen').style.display = 'none';
+    }
+
+    function showExplanation() {
+      document.getElementById('welcome-screen').style.display = 'none';
+      document.getElementById('explanation-screen').style.display = 'block';
+      document.getElementById('lottery-reveal').scrollTop = 0;
+
+      // Populate team names in the explanation
+      for (let i = 0; i < 6; i++) {
+        const teamElement = document.getElementById(`team-${i + 1}-name`);
+        if (teamElement && seeds[i]) {
+          teamElement.textContent = seeds[i].name;
+        }
+      }
+    }
+
+    function showBallDrawing() {
+      document.getElementById('explanation-screen').style.display = 'none';
+      document.getElementById('ball-drawing-screen').style.display = 'block';
+      document.getElementById('lottery-reveal').scrollTop = 0;
+
+      // Generate ping pong balls in the machine
+      const ballMachine = document.getElementById('ball-machine');
+      ballMachine.innerHTML = '';
+
+      // Create 50 balls to represent the 1000 balls visually
+      for (let i = 1; i <= 50; i++) {
+        const ball = document.createElement('div');
+        ball.className = 'ping-pong-ball';
+        ball.innerHTML = `<div class="ball-number">iooi</div>`;
+
+        // Random position within the circle
+        const angle = Math.random() * Math.PI * 2;
+        const radius = Math.random() * 100;
+        const x = Math.cos(angle) * radius;
+        const y = Math.sin(angle) * radius;
+
+        ball.style.left = `calc(50% + ${x}px)`;
+        ball.style.top = `calc(50% + ${y}px)`;
+        ball.style.animationDelay = `${Math.random() * 2}s`;
+
+        ballMachine.appendChild(ball);
+      }
+
+      // Start drawing balls after a delay
+      setTimeout(() => {
+        drawBallsSequence();
+      }, 2000);
+    }
+
+    function drawBallsSequence() {
+      const ballStatus = document.getElementById('ball-status');
+      const drawnBallsDisplay = document.getElementById('drawn-balls-display');
+
+      // Get the actual lottery results to narrate correctly
+      const winningTeams = animationState.results;
+      const ballCounts = [300, 250, 200, 150, 70, 30];
+
+      ballStatus.innerHTML = '<strong style="color: #ffd700;">1,000 ping pong balls are swirling in the machine...</strong>';
+
+      let ballCount = 0;
+      const drawInterval = setInterval(() => {
+        if (ballCount >= 3) {
+          clearInterval(drawInterval);
+          ballStatus.innerHTML = '<strong style="color: #00ff85; font-size: 1.4rem;">All three lottery picks have been determined!</strong><br><span style="font-size: 1rem; color: #d0d0d0; margin-top: 0.5rem;">The results will be revealed shortly...</span>';
+          document.getElementById('balls-drawn-btn').style.display = 'block';
+          return;
+        }
+
+        const winningTeamIdx = winningTeams[ballCount];
+        const winningTeam = seeds[winningTeamIdx];
+        const teamBalls = ballCounts[winningTeamIdx];
+
+        // Calculate remaining balls before this draw
+        let remainingBalls = 1000;
+        for (let i = 0; i < ballCount; i++) {
+          remainingBalls -= ballCounts[winningTeams[i]];
+        }
+
+        ballStatus.innerHTML = `<strong style="color: #ffd700; font-size: 1.3rem;">Drawing for Pick #${ballCount + 1}...</strong>`;
+
+        // Animate many balls being drawn (removed from machine)
+        const balls = document.querySelectorAll('.ping-pong-ball:not(.drawn)');
+        const ballsToRemove = Math.min(15, balls.length); // Remove 15 balls visually
+
+        for (let i = 0; i < ballsToRemove; i++) {
+          setTimeout(() => {
+            if (balls[i]) {
+              balls[i].classList.add('drawn');
+            }
+          }, i * 50);
+        }
+
+        // Add to drawn balls display and announce draw complete
+        setTimeout(() => {
+          const slot = document.createElement('div');
+          slot.className = 'drawn-ball-slot';
+          slot.textContent = 'iooi';
+          slot.style.animationDelay = '0s';
+          drawnBallsDisplay.appendChild(slot);
+
+          ballCount++;
+
+          // Announce the draw is complete (without spoiling the winner)
+          setTimeout(() => {
+            ballStatus.innerHTML = `<strong style="color: #00ff85; font-size: 1.3rem;">Pick #${ballCount} has been determined!</strong><br><span style="font-size: 0.95rem; color: #d0d0d0;">A ball has been drawn and removed from the machine</span><br><span style="font-size: 0.9rem; color: #a0a0b0; margin-top: 0.5rem;">The winning team will be revealed later...</span>`;
+          }, 500);
+
+        }, 800);
+
+      }, 4000);
+    }
+
+    function showOddsTable() {
+      document.getElementById('ball-drawing-screen').style.display = 'none';
+      document.getElementById('odds-table-screen').style.display = 'block';
+      document.getElementById('lottery-reveal').scrollTop = 0;
+
+      // Populate the mini odds table with only lottery teams
+      const tbody = document.querySelector('#mini-odds-table tbody');
+      tbody.innerHTML = '';
+
+      for (let i = 0; i < 6; i++) {
+        const team = seeds[i];
+        if (team === "separator") continue;
+
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${i + 1}</td>
+          <td style="text-align: left;">
+            <img src="${team.avatar}" width="24" height="24" style="border-radius:50%; margin-right:8px; vertical-align:middle;">
+            ${team.name}
+          </td>
+          <td>${team.record}</td>
+          <td>${team.p1.toFixed(1)}%</td>
+          <td>${team.p2.toFixed(1)}%</td>
+          <td>${team.p3.toFixed(1)}%</td>
+        `;
+        tbody.appendChild(row);
+      }
+    }
+
+    function startPickReveals() {
+      document.getElementById('odds-table-screen').style.display = 'none';
+      document.getElementById('pick-reveal-screen').style.display = 'block';
+      document.getElementById('lottery-reveal').scrollTop = 0;
+      populateRevealTable();
+      setupRevealCard();
+    }
+
+    function populateRevealTable() {
+      const tbody = document.querySelector('#reveal-odds-table tbody');
+      tbody.innerHTML = '';
+
+      // Show picks 1-6 in the reveal table
+      for (let pick = 0; pick < 6; pick++) {
+        const projectedTeamIdx = pick;
+        const projectedTeam = seeds[projectedTeamIdx];
+        if (projectedTeam === "separator") continue;
+
+        const actualTeamIdx = currentOrder[pick];
+        const actualTeam = seeds[actualTeamIdx];
+
+        const isRevealed = pick > animationState.currentPick - 1;
+        const isCurrent = pick === animationState.currentPick - 1;
+        const isPending = pick < animationState.currentPick - 1;
+
+        const row = document.createElement('tr');
+        row.id = `reveal-row-${pick + 1}`;
+
+        if (isCurrent) {
+          row.classList.add('current-pick');
+        } else if (isRevealed) {
+          row.classList.add('revealed');
+        } else if (isPending) {
+          row.classList.add('pending');
+        }
+
+        let statusContent = '';
+        if (isRevealed) {
+          // Show the actual team that got this pick
+          const movement = actualTeamIdx - projectedTeamIdx;
+          let movementIndicator = '';
+          if (movement > 0) {
+            movementIndicator = ` <span style="color: #00ff85;">↑${movement}</span>`;
+          } else if (movement < 0) {
+            movementIndicator = ` <span style="color: #ff2d55;">↓${Math.abs(movement)}</span>`;
+          }
+          statusContent = `
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <img src="${actualTeam.avatar}" width="20" height="20" style="border-radius:50%;">
+              <span class="revealed-badge">${actualTeam.name}</span>
+              ${movementIndicator}
+            </div>
+          `;
+        } else if (isCurrent) {
+          statusContent = `<span class="current-badge">REVEALING NOW</span>`;
+        } else {
+          statusContent = `<span style="color: #a0a0b0;">Not Yet Revealed</span>`;
+        }
+
+        // Show the team's odds of getting the first pick (p1)
+        let oddsText = `${projectedTeam.p1.toFixed(1)}%`;
+
+        row.innerHTML = `
+          <td style="font-weight: 700; color: #6b4eff; font-size: 1.1rem;">#${pick + 1}</td>
+          <td style="text-align: left;">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <img src="${projectedTeam.avatar}" width="24" height="24" style="border-radius:50%;">
+              <div>
+                <div class="team-name-text" style="font-weight: 600;">${projectedTeam.name}</div>
+                <div class="team-name-text" style="font-size: 0.85rem; color: #a0a0b0;">${projectedTeam.record}</div>
+              </div>
+            </div>
+          </td>
+          <td style="text-align: center;">
+            <div class="team-name-text" style="font-size: 0.85rem; color: #d0d0d0;">${oddsText}</div>
+          </td>
+          <td id="status-${pick + 1}" style="text-align: left;">${statusContent}</td>
+        `;
+        tbody.appendChild(row);
+      }
+    }
+
+    function updateRevealTable(revealedPick) {
+      // Update the status of the just-revealed pick
+      const pickIndex = revealedPick - 1;
+      const projectedTeamIdx = pickIndex;
+      const actualTeamIdx = currentOrder[pickIndex];
+      const actualTeam = seeds[actualTeamIdx];
+
+      const statusCell = document.getElementById(`status-${revealedPick}`);
+      const row = document.getElementById(`reveal-row-${revealedPick}`);
+
+      if (statusCell && row) {
+        const movement = actualTeamIdx - projectedTeamIdx;
+        let movementIndicator = '';
+        if (movement > 0) {
+          movementIndicator = ` <span style="color: #00ff85; font-weight: 700;">↑${movement}</span>`;
+        } else if (movement < 0) {
+          movementIndicator = ` <span style="color: #ff2d55; font-weight: 700;">↓${Math.abs(movement)}</span>`;
+        }
+
+        statusCell.innerHTML = `
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <img src="${actualTeam.avatar}" width="20" height="20" style="border-radius:50%;">
+            <span class="revealed-badge">${actualTeam.name}</span>
+            ${movementIndicator}
+          </div>
+        `;
+        row.classList.remove('current-pick');
+        row.classList.add('revealed');
+      }
+
+      // Find and mark the row of the team that was actually selected (strikethrough)
+      // The actualTeamIdx is the team index that was selected, find which row it's in (projected position)
+      const actualTeamRow = document.getElementById(`reveal-row-${actualTeamIdx + 1}`);
+      if (actualTeamRow) {
+        actualTeamRow.classList.add('team-taken');
+      }
+
+      // Update the next pick to be current
+      const nextPick = revealedPick - 1;
+      if (nextPick >= 1) {
+        const nextRow = document.getElementById(`reveal-row-${nextPick}`);
+        const nextStatus = document.getElementById(`status-${nextPick}`);
+
+        if (nextRow && nextStatus) {
+          nextRow.classList.remove('pending');
+          nextRow.classList.add('current-pick');
+          nextStatus.innerHTML = `<span class="current-badge">REVEALING NOW</span>`;
+        }
+      }
+    }
+
+    function setupRevealCard() {
+      const pick = animationState.currentPick;
+      const projectedTeamIdx = pick - 1;
+      const projectedTeam = seeds[projectedTeamIdx];
+      const actualTeamIdx = currentOrder[pick - 1];
+      const actualTeam = seeds[actualTeamIdx];
+
+      document.getElementById('reveal-title').textContent = `PICK #${pick}`;
+      document.getElementById('reveal-instructions').textContent = `Click the card to reveal Pick #${pick}!`;
+      document.getElementById('projected-team').innerHTML = `<div style="font-size: 3rem; font-weight: 700; color: #6b4eff;">PICK #${pick}</div>`;
+      document.getElementById('projected-record').textContent = '';
+      document.getElementById('actual-team').innerHTML = `<img src="${actualTeam.avatar}" width="48" height="48" style="border-radius:50%; margin-bottom:8px;"> <div style="font-size: 1.3rem; font-weight: 600;">${actualTeam.name}</div>`;
+      document.getElementById('actual-record').textContent = actualTeam.record;
+
+      const card = document.getElementById('reveal-card');
+      // Disable transitions temporarily for instant flip
+      card.style.transition = 'none';
+      card.classList.remove('flipped');
+      // Force reflow to ensure the transition disable takes effect
+      void card.offsetWidth;
+      // Re-enable transitions after the instant flip
+      setTimeout(() => {
+        card.style.transition = '';
+      }, 10);
+
+      animationState.cardFlipped = false;
+
+      document.getElementById('reveal-comment').textContent = '';
+      document.getElementById('continue-btn').style.display = 'none';
+      document.getElementById('skip-btn').style.display = 'block';
+    }
+
+    function flipCard() {
+      if (animationState.cardFlipped) return;
+
+      const card = document.getElementById('reveal-card');
+      card.classList.add('flipped');
+      animationState.cardFlipped = true;
+
+      setTimeout(() => {
+        showRevealComment();
+      }, 800);
+    }
+
+    function showRevealComment() {
+      const pick = animationState.currentPick;
+      const projectedTeamIdx = pick - 1;
+      const actualTeamIdx = currentOrder[pick - 1];
+      const actualTeam = seeds[actualTeamIdx];
+      const projectedTeam = seeds[projectedTeamIdx];
+
+      let comment = '';
+      if (pick > 3) {
+        // Non-lottery picks
+        if (actualTeamIdx === projectedTeamIdx) {
+          comment = `As expected! ${actualTeam.name} gets pick #${pick}.`;
+        } else {
+          comment = `${actualTeam.name} gets pick #${pick}!`;
+        }
+      } else {
+        // Lottery picks
+        if (actualTeamIdx === projectedTeamIdx) {
+          comment = `${actualTeam.name} stays at pick #${pick}.`;
+        } else if (actualTeamIdx > projectedTeamIdx) {
+          const movement = actualTeamIdx - projectedTeamIdx + 1;
+          comment = `${actualTeam.name} moves up from #${actualTeamIdx + 1} to pick #${pick}!`;
+        } else {
+          const drop = projectedTeamIdx - actualTeamIdx;
+          comment = `${actualTeam.name} secures pick #${pick}.`;
+        }
+      }
+
+      document.getElementById('reveal-comment').textContent = comment;
+      document.getElementById('reveal-instructions').textContent = `Pick #${pick} revealed!`;
+
+      // Update the table to mark this pick as revealed
+      updateRevealTable(pick);
+
+      document.getElementById('continue-btn').style.display = 'block';
+      document.getElementById('skip-btn').style.display = 'none';
+    }
+
+    function nextReveal() {
+      const currentPick = animationState.currentPick;
+      animationState.currentPick--;
+
+      if (animationState.currentPick < 1) {
+        showFinalBoard();
+      } else {
+        setupRevealCard();
+      }
+    }
+
+    function skipToFinalBoard() {
+      showFinalBoard();
+    }
+
+    function showFinalBoard() {
+      document.getElementById('pick-reveal-screen').style.display = 'none';
+      document.getElementById('final-board-screen').style.display = 'block';
+      document.getElementById('lottery-reveal').scrollTop = 0;
+
+      const boardGrid = document.getElementById('board-grid');
+      boardGrid.innerHTML = '';
+
+      // Display all 12 picks in the final board
+      for (let pick = 0; pick < 12; pick++) {
+        const teamIdx = currentOrder[pick];
+        if (teamIdx === 6) continue; // Skip separator
+
+        const team = seeds[teamIdx];
+        const isLotteryWinner = pick < 3;
+
+        // Determine badge text and color for each pick
+        let badgeText = '';
+        let badgeColor = '#ffd700'; // Default gold
+
+        if (isLotteryWinner) {
+          badgeText = 'Lottery';
+          badgeColor = 'yellow';
+        } else if (pick >= 3 && pick < 6) {
+          badgeText = 'Non-Lottery';
+          badgeColor = 'blue';
+        } else if (team.playoff) {
+          // Extract a short version of the playoff rationale and match colors from main table
+          const rationale = team.playoff.rationale;
+          if (rationale.includes('5th Place')) {
+            if (rationale.includes('Winner')) {
+              badgeText = '5th Place Winner';
+              badgeColor = '#90EE90'; // Light green
+            } else {
+              badgeText = '5th Place Loser';
+              badgeColor = '#F08080'; // Light coral
+            }
+          } else if (rationale.includes('3rd Place')) {
+            if (rationale.includes('Winner')) {
+              badgeText = '3rd Place Winner';
+              badgeColor = '#CD7F32'; // Bronze
+            } else {
+              badgeText = '3rd Place Loser';
+              badgeColor = '#87CEFA'; // Light sky blue
+            }
+          } else if (rationale.includes('Championship')) {
+            if (rationale.includes('Winner')) {
+              badgeText = 'Champion';
+              badgeColor = '#FFD700'; // Gold
+            } else {
+              badgeText = 'Runner-Up';
+              badgeColor = '#C0C0C0'; // Silver
+            }
+          }
+        }
+
+        const pickCard = document.createElement('div');
+        pickCard.className = 'board-pick';
+        pickCard.style.animationDelay = `${pick * 0.1}s`;
+
+        pickCard.innerHTML = `
+          <div class="pick-number">Pick ${pick + 1}${badgeText ? `<span class="lottery-badge" style="background: ${badgeColor}; color: black;">${badgeText}</span>` : ''}</div>
+          <div class="pick-team">
+            <img src="${team.avatar}" width="32" height="32" style="border-radius:50%;">
+            ${team.name}
+          </div>
+          <div class="pick-record">${team.record}</div>
+        `;
+
+        boardGrid.appendChild(pickCard);
+      }
+    }
+
+    function closeLottery() {
+      document.getElementById('lottery-reveal').style.display = 'none';
+      animationState.active = false;
+      document.getElementById('animated-btn').disabled = false;
+      renderTable();
+    }
+
+    function finishAnimation() {
+      closeLottery();
+    }
+
+    function resetLottery() {
+      currentOrder = [...originalOrder];
+      lotteryResults = [];
+      animationState.active = false;
+      document.getElementById('animated-btn').disabled = false;
+      renderTable();
+    }
+
+    function updateCountdown() {
+      const target = new Date("Jan 5, 2027 00:00:00").getTime();
+      const now = new Date().getTime();
+      const diff = target - now;
+      if (diff < 0) {
+        document.getElementById("countdown").innerHTML = "🏈 Draft Day!";
+        return;
+      }
+      const days = Math.floor(diff / (1000*60*60*24));
+      const hours = Math.floor((diff % (1000*60*60*24))/(1000*60*60));
+      const minutes = Math.floor((diff % (1000*60*60))/(1000*60));
+      const seconds = Math.floor((diff % (1000*60))/1000);
+      document.getElementById("countdown").innerHTML =
+        `⏰ ${days}d ${hours}h ${minutes}m ${seconds}s until 2027 Draft Lottery`;
+    }
+
+    (async () => {
+      const { seeds: loadedSeeds, playoffTeams: loadedPlayoffTeams } = await loadData();
+      seeds = loadedSeeds;
+      playoffTeams = loadedPlayoffTeams;
+      originalOrder = seeds.map((t, i) => i);
+      currentOrder = [...originalOrder];
+      setInterval(updateCountdown, 1000);
+      resetLottery();
+    })();
+  </script>
+</body>
+</html>

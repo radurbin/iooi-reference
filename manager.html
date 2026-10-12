@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manager | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Manager", async (main) => {
+  const m = await load(`managers/${param("id") || L.commissioner}`);
+  const t = m.totals;
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "index.html#managers" }, "Managers"), ` › ${m.name}`),
+    bio({
+      name: m.name,
+      awards: m.seasons.flatMap((s) => [
+        s.result === "Champion" ? ["iooi Champ", s.season, "gold"] : null, s.result === "Runner-up" ? ["Runner-up", s.season] : null,
+        s.result === "Ultimate Loser" ? ["Ultimate Loser", s.season, "red"] : null]).filter(Boolean),
+      tiles: [...m.seasons].reverse().map((s) => h("a", { href: `team.html?y=${s.season}&id=${s.franchise}`, "data-tip": `${s.season} ${s.team}: ${s.w}-${s.l}` }, `'${s.season.slice(2)}`, h("small", {}, `${s.w}-${s.l}`))),
+      lines: [
+        ["Position", m.id === L.commissioner ? "Manager and Commissioner" : m.stints.some((s) => s.to === null) ? "Manager" : "Former manager"],
+        ["Franchises", [...new Set(m.stints.map((s) => s.franchise))].flatMap((id, i) => [i ? ", " : "", fLink(id)])],
+        [["Record", t.pct == null ? "No games" : `${record(t)} (${fmt.pct(t.pct)} W-L%)`], ["Playoff Games", `${t.playoff_w}-${t.playoff_l}`]],
+        ["Championships", m.championships.length ? `${m.championships.length} (${m.championships.join(", ")})` : "0"],
+        ["Ultimate Loser", m.ultimate_loser.length ? m.ultimate_loser.join(", ") : null],
+        [["Points For", t.pf == null ? null : fmt.pts(t.pf)], ["Transactions", t.transactions], ["Trades", t.trades]],
+        ["First Stake", m.stints.map((s) => s.from).sort()[0]],
+      ],
+    }),
+    section("Seasons", statTable({
+      rows: [...m.seasons].reverse(), rowClass: (r) => (r.result === "Champion" ? "champ" : null),
+      foot: { season: "Career", total: true, ...t },
+      columns: [
+        { label: "Season", value: (r) => r.season, render: (r) => (r.total ? r.season : sLink(r.season)) },
+        { label: "Franchise", render: (r) => (r.total ? "" : fLink(r.franchise, r.team)) },
+        { label: "W", value: (r) => r.w, num: true },
+        { label: "L", value: (r) => r.l, num: true },
+        { label: "W-L%", value: (r) => r.pct, render: (r) => fmt.pct(r.pct), num: true },
+        { label: "PF", value: (r) => r.pf, render: (r) => fmt.pts(r.pf), num: true },
+        { label: "PA", value: (r) => r.pa, render: (r) => fmt.pts(r.pa), num: true },
+        { label: "Trans", value: (r) => r.transactions, num: true },
+        { label: "Trades", value: (r) => r.trades, num: true },
+        { label: "Plyf W-L", render: (r) => (r.playoff_w + r.playoff_l ? `${r.playoff_w}-${r.playoff_l}` : ""), num: true },
+        { label: "Finish", render: (r) => r.result ?? "", cls: "c" },
+        { label: "Notes", render: (r) => (r.partial_season ? "Partial season" : ""), cls: "dim" },
+      ],
+    })),
+    section("Franchise Stakes", statTable({
+      sortable: false, rows: m.stints,
+      columns: [
+        { label: "Franchise", render: (s) => fLink(s.franchise) },
+        { label: "Acquired stake", value: (s) => s.from },
+        { label: "Sold stake", render: (s) => s.to ?? "present" },
+      ],
+    })));
+  return m.name;
+});
+</script>
+</body>
+</html>

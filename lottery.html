@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Draft Lottery | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Draft Lottery", async (main) => {
+  const lot = await load("lottery");
+  main.append(
+    h("h1", {}, "Dynasty iooi Draft Order and Lottery History"),
+    meta([
+      ["Lottery introduced", ["2nd Amendment, ratified 2025-07-29; first used for the 2026 rookie draft (", h("a", { href: "constitution.html#amendment-2" }, "text"), ")"]],
+      ["Odds", "30%, 25%, 20%, 15%, 7%, 3%, from the worst non-playoff team to the best"],
+      ["Current standings and odds", h("a", { href: "tankathon/" }, "iooi Tankathon")],
+    ]),
+    lot.map((d) => section(`${d.season} Rookie Draft Order`, h("p", { class: "note" }, d.method), statTable({
+      sortable: false, rows: d.picks,
+      columns: [
+        { label: "Pick", value: (p) => p.pick, num: true },
+        { label: "Franchise", render: (p) => fLink(p.franchise, p.team), cls: "win" },
+        { label: `${d.season - 1} team`, value: (p) => p.prev_team, title: "Team name during the season that set the draft order" },
+        { label: "Record", value: (p) => p.record, cls: "c" },
+        { label: "Finish", value: (p) => p.result, cls: "c" },
+        { label: "Max PF", render: (p) => fmt.pts(p.max_pf), num: true },
+        { label: d.lottery ? "Odds rank" : "Rule order", render: (p) => p.rank ?? "", num: true, title: "Position among the six non-playoff teams before the draw, worst first" },
+        d.lottery && { label: "Odds", render: (p) => (p.odds == null ? "" : `${p.odds.toFixed(1)}%`), num: true },
+        { label: "Moved", render: (p) => (p.moved == null ? "" : p.moved === 0 ? "none" : p.moved > 0 ? `up ${p.moved}` : `down ${-p.moved}`), cls: "c" },
+      ].filter(Boolean),
+    }), h("p", { class: "note" }, `Order as set on draft day, ${d.date}, before any pick trades. `, h("a", { href: `draft.html?y=${d.season}` }, "Draft results")))));
+});
+</script>
+</body>
+</html>

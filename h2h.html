@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Head-to-Head | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Head-to-Head", async (main) => {
+  const data = await load("head_to_head");
+  const build = (kind, cells, keys, label, link) => {
+    const find = (a, b) => cells.find((c) => c.a === a && c.b === b);
+    const grid = h("table", { class: "stats grid" },
+      h("thead", {}, h("tr", {}, h("th", { "data-tip": "Read across: the row's record against each numbered column" }, ""), keys.map((k, i) => h("th", { "data-tip": label(k) }, i + 1)), h("th", { "data-tip": "Record against all opponents" }, "Total"))),
+      h("tbody", {}, keys.map((a, i) => {
+        const mine = cells.filter((c) => c.a === a);
+        const w = mine.reduce((s, c) => s + c.w, 0), l = mine.reduce((s, c) => s + c.l, 0);
+        return h("tr", {}, h("th", { class: "rowhead" }, `${i + 1}. `, link(a)),
+          keys.map((b) => {
+            const c = find(a, b);
+            if (a === b) return h("td", { class: "self" }, "");
+            if (!c) return h("td", { class: "c dim" }, "");
+            return h("td", { class: `c ${c.w > c.l ? "ahead" : c.w < c.l ? "behind" : ""}`, "data-tip": `${label(a)} vs ${label(b)}: ${fmt.pts(c.pf)} to ${fmt.pts(c.pa)}. Click for the rivalry page.` }, rLink(kind, a, b, `${c.w}-${c.l}`));
+          }),
+          h("td", { class: "c win" }, `${w}-${l}`));
+      })));
+    const series = cells.filter((c) => String(c.a) < String(c.b) || typeof c.a === "number" && c.a < c.b).filter((c) => (typeof c.a === "number" ? c.a < c.b : c.a < c.b));
+    return [h("div", { class: "scroll" }, grid), h("p", { class: "note" }, "Read across: the row team's record against the column team. Green means a winning record, red a losing one. Column numbers match the row numbers."),
+      h("h3", {}, "Series"), statTable({
+        rows: series.map((c) => ({ ...c, g: c.w + c.l, margin: (c.pf - c.pa) / (c.w + c.l) })).sort((x, y) => y.g - x.g),
+        columns: [
+          { label: "Matchup", value: (c) => `${label(c.a)} vs ${label(c.b)}`, render: (c) => [link(c.a), " vs ", link(c.b)] },
+          { label: "", render: (c) => rLink(kind, c.a, c.b, "rivalry") },
+          { label: "G", value: (c) => c.g, num: true },
+          { label: "Series", value: (c) => c.w - c.l, render: (c) => (c.w === c.l ? `Tied ${c.w}-${c.l}` : `${label(c.w > c.l ? c.a : c.b)} leads ${Math.max(c.w, c.l)}-${Math.min(c.w, c.l)}`) },
+          { label: "Avg score", render: (c) => `${fmt.pts1(c.pf / c.g)} - ${fmt.pts1(c.pa / c.g)}` },
+          { label: "Avg margin", value: (c) => Math.abs(c.margin), render: (c) => fmt.pts1(Math.abs(c.margin)), num: true },
+          { label: "Playoffs", value: (c) => c.playoff_w + c.playoff_l, render: (c) => (c.playoff_w + c.playoff_l ? `${c.playoff_w}-${c.playoff_l}` : ""), cls: "c", title: "Record in Dynasty Playoff games, first team listed" },
+          { label: "Last", render: (c) => gLink(c.last, `${c.last.split("-")[0]} wk ${Number(c.last.split("-")[1])}`) },
+        ],
+      })];
+  };
+  const managers = L.managers.map((m) => m.id).filter((id) => data.managers.some((c) => c.a === id));
+  main.append(
+    h("h1", {}, "Dynasty iooi Head-to-Head Records"),
+    h("p", { class: "note" }, "Every game since 2023, playoffs and Toilet Bowl included. Click any record for the full rivalry page."),
+    section("Franchise vs Franchise", build("f", data.franchises, L.franchises.map((f) => f.id), franchiseName, (id) => fLink(id))),
+    section("Manager vs Manager", h("p", { class: "note" }, "A manager is credited with games played while holding a stake. Co-managers of the same team never face each other."), build("m", data.managers, managers, managerName, (id) => mLink(id))));
+});
+</script>
+</body>
+</html>

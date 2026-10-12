@@ -1,0 +1,6 @@
+# Large weekly NFL stat downloads; the build writes trimmed copies to data/nfl/
+data/cache/
+# Working notes, not part of the site
+data/review/
+.DS_Store
+__pycache__/

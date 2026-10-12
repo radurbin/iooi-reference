@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Player Leaders | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Player Leaders", async (main) => {
+  const [lead, players, ink] = await Promise.all([load("leaders"), load("players"), load("black_ink")]);
+  const who = (r) => players[r.player]?.name ?? r.player;
+  const cols = (stat, withSeason) => [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    { label: "Player", value: who, render: (r) => pLink(r.player, who(r)), cls: "win" },
+    { label: "Pos", value: (r) => r.pos, cls: "c" },
+    withSeason ? { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) } : { label: "Years", value: (r) => r.years, cls: "c" },
+    { label: "Team(s)", render: (r) => r.franchises.flatMap((id, i) => [i ? ", " : "", fLink(id, withSeason ? seasonTeam(r.season, id) : undefined)]) },
+    { label: "GS", value: (r) => r.gs, num: true, cls: stat === "gs" ? "win" : "" },
+    { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, cls: stat === "pts" ? "win" : "" },
+    { label: "Pts/GS", value: (r) => r.pts / r.gs, render: (r) => fmt.pts(r.pts / r.gs), num: true },
+    { label: "PAA", value: (r) => r.paa, render: (r) => fmt.pts1(r.paa), num: true, cls: stat === "paa" ? "win" : "", title: "Points above the average iooi starter at his position" },
+    { label: "VOR", value: (r) => r.vor, render: (r) => fmt.pts1(r.vor), num: true, cls: stat === "vor" ? "win" : "", title: "Value over replacement" },
+    { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, title: "Wins above replacement" },
+    !withSeason && stat === "bench_pts" && { label: "Bench Pts", value: (r) => r.bench_pts, render: (r) => fmt.pts(r.bench_pts), num: true, cls: "win" },
+  ].filter(Boolean);
+  const v = lead.value;
+  main.append(
+    h("h1", {}, "Dynasty iooi Player Leaders"),
+    h("p", { class: "note" }, `All figures count games in an iooi starting lineup, playoffs and Toilet Bowl included. PAA compares each start with the average iooi starter at the position that week. VOR compares it with a replacement-level player: the per-game scoring of the first NFL player outside the league-wide starter pool that season (QB${v.replacement_rank.QB + 1}, RB${v.replacement_rank.RB + 1}, WR${v.replacement_rank.WR + 1}, TE${v.replacement_rank.TE + 1}, K${v.replacement_rank.K + 1}, DEF${v.replacement_rank.DEF + 1}). WAR converts VOR to wins at ${v.points_per_win} points per win, the rate at which points have turned into wins for iooi teams.`),
+    section("Career Points", statTable({ rows: rank(lead.career.pts), columns: cols("pts") })),
+    section("Career Value Over Replacement", statTable({ rows: rank(lead.career.vor), columns: cols("vor") })),
+    section("Career Points Above Average", statTable({ rows: rank(lead.career.paa), columns: cols("paa") })),
+    section("Career Games Started", statTable({ rows: rank(lead.career.gs), columns: cols("gs") })),
+    section("Career Points by Position", Object.entries(lead.career_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows), columns: cols("pts").filter((c) => c.label !== "Pos") })])),
+    section("Single-Season Points", statTable({ rows: rank(lead.season.pts), columns: cols("pts", true) })),
+    section("Single-Season Value Over Replacement", statTable({ rows: rank(lead.season.vor), columns: cols("vor", true) })),
+    section("Single-Season Points by Position", Object.entries(lead.season_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows), columns: cols("pts", true).filter((c) => c.label !== "Pos") })])),
+    section("Black Ink", h("p", { class: "note" }, `Black ink is the bold type a reference book uses for a league-leading figure. The score counts how often a player has led the league in a completed season: ${Object.values(ink.weights).map((w) => `${w.label} ${w.points}`).join(", ")}. Position Points means leading his own position in points.`),
+      statTable({
+        rows: rank(ink.table),
+        columns: [
+          { label: "Rk", value: (r) => r.rk, num: true },
+          { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+          { label: "Pos", value: (r) => r.pos, cls: "c" },
+          { label: "Black Ink", value: (r) => r.score, num: true, cls: "win" },
+          ...Object.entries(ink.weights).map(([key, w]) => ({ label: w.label.replace("Points Above Average", "PAA").replace("Points per Start", "Pts/GS").replace("Position Points", "Pos Pts").replace("Best Single Game", "Best Game"),
+            value: (r) => r.counts[key] ?? 0, render: (r) => r.counts[key] ?? "", num: true, title: `Seasons leading the league: ${w.label} (${w.points} each)` })),
+          { label: "Seasons", value: (r) => r.seasons.join(", "), title: "Seasons with at least one league lead" },
+        ],
+      })),
+    section("Career Bench Points", h("p", { class: "note" }, "Points scored in weeks spent on a roster but out of the lineup."), statTable({ rows: rank(lead.career.bench_pts), columns: cols("bench_pts") })));
+});
+</script>
+</body>
+</html>

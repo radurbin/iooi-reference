@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Trades | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Trades", async (main) => {
+  const [trades, players] = await Promise.all([load("trades"), load("players")]);
+  const round = (n) => `${ordinal(n)}-round pick`;
+  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${round(a.round)}${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : ""}`);
+  const terms = (t) => t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a)]) : "nothing"));
+  const votes = (t) => (t.votes ? `${t.votes.pass ?? 0}-${t.votes.veto ?? 0}` : "");
+  const table = (rows) => statTable({
+    rows,
+    columns: [
+      { label: "Date", value: (t) => t.date },
+      { label: "When", value: (t) => (t.week ? `${t.season} wk ${t.week}` : `${t.season} offseason`) },
+      { label: "Terms", render: terms },
+      { label: "Vote", value: (t) => (t.votes ? (t.votes.veto ?? 0) : null), render: votes, cls: "c", title: "Review poll: votes to pass, then votes to veto. Six vetoes block a trade." },
+      { label: "", render: (t) => tLink(t.id, "details") },
+    ],
+  });
+  const done = trades.filter((t) => t.status === "complete");
+  const blocked = trades.filter((t) => t.status !== "complete");
+  main.append(
+    h("h1", {}, "Dynasty iooi Trade Register"),
+    meta([
+      ["Completed trades", done.length],
+      ["Vetoed", blocked.filter((t) => t.status === "vetoed").length],
+      ["Withdrawn during review", blocked.filter((t) => t.status === "cancelled").length],
+      ["By season", L.seasons.map((s) => `${s.season}: ${done.filter((t) => t.season === s.season).length}`).join(", ")],
+    ]),
+    section("Vetoed and Withdrawn Trades", table(blocked), h("p", { class: "note" }, "A trade is vetoed when six managers vote against it during the two-day review. Vote counts are available from 2024.")),
+    section("Completed Trades", table(done), h("p", { class: "note" }, "A pick that has since been used shows its draft slot and the player taken. Trades are filed under the league year they were made in.")));
+  const style = document.createElement("style");
+  style.textContent = "table.stats td div { white-space: normal; max-width: 720px; }";
+  document.head.append(style);
+});
+</script>
+</body>
+</html>

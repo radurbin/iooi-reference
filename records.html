@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Record Book | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Record Book", async (main) => {
+  const [rec, players] = await Promise.all([load("records"), load("players")]);
+  const when = { label: "Game", value: (r) => `${r.season}-${String(r.week).padStart(2, "0")}`, render: (r) => gLink(r.game, `${r.season} wk ${r.week}`) };
+  const stage = { label: "Stage", value: (r) => ({ regular: "Reg", winners: "Playoffs", toilet: "Toilet Bowl" })[r.kind] };
+  const team = { label: "Team", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) };
+  const mgr = { label: "Manager(s)", render: (r) => mLinks(r.managers) };
+  const rk = { label: "Rk", value: (r) => r.rk, num: true };
+  const teamCols = (lead) => [lead, { label: "Pts", value: (r) => r.points, render: (r) => fmt.pts(r.points), num: true, cls: "win" }, team, mgr,
+    { label: "Opponent", render: (r) => fLink(r.opponent, seasonTeam(r.season, r.opponent)) },
+    { label: "Opp Pts", value: (r) => r.opponent_points, render: (r) => fmt.pts(r.opponent_points), num: true },
+    { label: "Result", value: (r) => (r.won ? "W" : "L"), cls: "c" }, when, stage];
+  const playerCols = (lead, extra = []) => [lead, { label: "Pts", value: (r) => r.points, render: (r) => fmt.pts(r.points), num: true, cls: "win" },
+    { label: "Player", value: (r) => players[r.player]?.name, render: (r) => pLink(r.player, players[r.player]?.name) }, { label: "Pos", value: (r) => r.pos, cls: "c" }, ...extra, team, mgr, when, stage];
+  main.append(
+    h("h1", {}, "Dynasty iooi Record Book"),
+    h("p", { class: "note" }, "All games since 2023, playoffs and Toilet Bowl included. Scoring rules have changed by amendment, so totals from different seasons are not strictly comparable."),
+    section("Highest Team Scores", statTable({ rows: rank(rec.team_high), columns: teamCols(rk) })),
+    section("Best Game by Franchise", statTable({ rows: rec.franchise_best, columns: teamCols({ label: "Franchise", render: (r) => fLink(r.key) }).filter((c) => c !== team) })),
+    section("Best Game by Manager", statTable({ rows: rec.manager_best, columns: teamCols({ label: "Manager", render: (r) => mLink(r.key) }).filter((c) => c !== mgr) })),
+    section("Lowest Team Scores", statTable({ rows: rank(rec.team_low), columns: teamCols(rk) })),
+    section("Highest Player Scores", h("p", { class: "note" }, "Starters only."), statTable({ rows: rank(rec.player_high), columns: playerCols(rk) })),
+    section("Highest Player Scores by Position", Object.entries(rec.player_high_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows), columns: playerCols(rk).filter((c) => c.label !== "Pos") })])),
+    section("Best Player Game by Franchise", statTable({ rows: rec.franchise_player_best, columns: playerCols({ label: "Franchise", render: (r) => fLink(r.key) }).filter((c) => c !== team) })),
+    section("Best Player Game by Manager", statTable({ rows: rec.manager_player_best, columns: playerCols({ label: "Manager", render: (r) => mLink(r.key) }).filter((c) => c !== mgr) })),
+    section("Highest Scores Left on the Bench", h("p", { class: "note" }, "Bench includes taxi squad and injured reserve players."), statTable({ rows: rank(rec.player_high_bench), columns: playerCols(rk) })));
+  return "Record Book";
+});
+</script>
+</body>
+</html>

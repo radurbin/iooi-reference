@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Elo Ratings | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Elo Ratings", async (main) => {
+  const elo = await load("elo");
+  const years = L.seasons.map((s) => s.season);
+  const when = (p) => `${p.season} wk ${p.week}`;
+  main.append(
+    h("h1", {}, "Dynasty iooi Elo Ratings"),
+    h("p", { class: "note" }, `Every franchise started at ${elo.settings.start} in 2023. A win takes points from the loser, more for an upset and for a wide margin. Each new season pulls every team a third of the way back to ${elo.settings.start}. Regular-season and Dynasty Playoff games count; Toilet Bowl games do not.`),
+    section("Current Ratings", statTable({
+      rows: rank(elo.table),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise), cls: "win" },
+        { label: "Elo", value: (r) => r.elo, num: true, cls: "win" },
+        { label: `${L.current_season} change`, value: (r) => r.change, render: (r) => (r.change > 0 ? `+${r.change}` : r.change), num: true, title: "Change in Elo rating since the start of this season" },
+        { label: "Peak", value: (r) => r.peak.elo, num: true },
+        { label: "Peak set", value: (r) => when(r.peak), render: (r) => `${when(r.peak)}, as ${r.peak.team}` },
+        { label: "Low", value: (r) => r.low.elo, num: true },
+        { label: "Low set", value: (r) => when(r.low), render: (r) => `${when(r.low)}, as ${r.low.team}` },
+      ],
+    })),
+    section("Rating at the End of Each Season", statTable({
+      rows: [...elo.table].sort((x, y) => franchiseName(x.franchise).localeCompare(franchiseName(y.franchise), undefined, { sensitivity: "base" })),
+      columns: [{ label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise) },
+        ...years.map((y) => ({ label: y, value: (r) => r.season_end[y], num: true, title: `Elo rating at the end of ${y}, or now for the season in progress` }))],
+    }), h("p", { class: "note" }, `${L.current_season} shows the rating after the most recent game.`)),
+    section("Biggest Upsets", h("p", { class: "note" }, "Wins by the team Elo gave the smallest chance."), statTable({
+      rows: rank(elo.upsets),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Game", value: (r) => `${r.season}-${String(r.week).padStart(2, "0")}`, render: (r) => gLink(r.game, `${r.season} wk ${r.week}`) },
+        { label: "Winner", value: (r) => r.winner_team, render: (r) => fLink(r.winner, r.winner_team), cls: "win" },
+        { label: "Elo", value: (r) => r.winner_elo, num: true },
+        { label: "Pts", value: (r) => r.winner_pts, render: (r) => fmt.pts(r.winner_pts), num: true },
+        { label: "Loser", value: (r) => r.loser_team, render: (r) => fLink(r.loser, r.loser_team) },
+        { label: "Elo", value: (r) => r.loser_elo, num: true },
+        { label: "Pts", value: (r) => r.loser_pts, render: (r) => fmt.pts(r.loser_pts), num: true },
+        { label: "Win chance", value: (r) => r.chance, render: (r) => fmt.eff(r.chance), num: true },
+      ],
+    })),
+    section("How Elo Works", h("div", { class: "prose" },
+      h("p", {}, `Elo is a single number for how strong a team is right now. Every franchise began at ${elo.settings.start}, which stays the league average. After each game the winner takes points from the loser, so the ratings always add up to the same total.`),
+      h("p", {}, "How many points change hands depends on two things. The first is surprise: beating a team rated far above you is worth a lot, and beating a team rated far below you is worth little. The second is margin: a blowout moves the ratings more than a one-point win."),
+      h("p", {}, `Before a game, the gap between two ratings gives a win chance. Even ratings mean 50 percent; a 100-point edge is about 64 percent; 200 points is about 76 percent. The base swing is ${elo.settings.k} points, scaled up for wide margins.`),
+      h("p", {}, `Between seasons every team is pulled a third of the way back toward ${elo.settings.start}, since rosters change over the offseason. Regular-season and Dynasty Playoff games count. Toilet Bowl games do not, because teams there are not always trying to win.`),
+      h("p", {}, "Unlike a win-loss record, Elo weighs who you beat and when. A team that started 0-4 and has won six straight will rate above a team that started 6-0 and has lost four straight."))));
+});
+</script>
+</body>
+</html>

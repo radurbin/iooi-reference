@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Transactions | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Transactions", async (main) => {
+  const y = param("y") || L.current_season;
+  const [wire, players] = await Promise.all([load(`transactions/${y}`), load("players")]);
+  const p = (id) => pLink(id, players[id]?.name ?? id);
+  const list = (ids) => ids.flatMap((id, i) => [i ? ", " : "", p(id)]);
+  const team = (e, id) => fLink(id, e.teams[id]);
+  const kinds = { trade: "Trade", waiver: "Waiver claim", free_agent: "Free agency", commissioner: "League office" };
+  const describe = (e) => {
+    if (e.type === "trade") {
+      return [e.franchises.flatMap((id, i) => [i ? " and " : "", team(e, id)]), " completed a trade",
+        e.players.length ? [": ", e.players.flatMap((m, i) => [i ? "; " : "", p(m.player), " to ", team(e, m.to)])] : "",
+        e.picks.length ? `${e.players.length ? "; plus" : ":"} ${e.picks.length} draft pick${e.picks.length > 1 ? "s" : ""}` : "",
+        e.trade ? [" (", tLink(e.trade, "details"), ")"] : "", "."];
+    }
+    const id = e.franchises[0];
+    if (e.type === "commissioner") return ["The league office reassigned ", e.swapped.flatMap((m, i) => [i ? ", " : "", p(m.player)]), ` involving `, team(e, id), "."];
+    const verb = e.type === "waiver" ? "claimed" : "signed";
+    const tail = e.type === "waiver" ? " off waivers" : " as a free agent";
+    if (e.added.length && e.released.length) return [team(e, id), ` ${verb} `, list(e.added), tail, " and released ", list(e.released), "."];
+    if (e.added.length) return [team(e, id), ` ${verb} `, list(e.added), tail, "."];
+    return [team(e, id), " released ", list(e.released), "."];
+  };
+  const months = [...new Set(wire.map((e) => e.date.slice(0, 7)))];
+  const monthName = (m) => new Date(`${m}-15`).toLocaleString("en-US", { month: "long", year: "numeric" });
+  main.append(
+    h("h1", {}, `${y} Dynasty iooi Transactions`),
+    meta([
+      ["Moves", `${wire.length} (${wire.filter((e) => e.type === "trade").length} trades, ${wire.filter((e) => e.type === "waiver").length} waiver claims, ${wire.filter((e) => e.type === "free_agent").length} free-agent moves)`],
+      ["Other years", L.seasons.filter((s) => s.season !== y).flatMap((s, i) => [i ? " · " : "", h("a", { href: `transactions.html?y=${s.season}` }, s.season)])],
+      ["See also", [h("a", { href: "trades.html" }, "Trade Register"), " · ", h("a", { href: "waivers.html" }, "Waiver Wire")]],
+    ]),
+    h("p", { class: "note" }, `The ${y} league year runs from the end of the ${y - 1} season to the end of the ${y} season. Newest first.`),
+    months.map((m) => section(monthName(m), h("ul", { class: "timeline" }, wire.filter((e) => e.date.startsWith(m)).map((e) =>
+      h("li", {}, h("span", { class: "when" }, e.date), h("span", { class: "kind" }, kinds[e.type]), h("span", {}, describe(e))))))));
+  return `${y} Transactions`;
+});
+</script>
+</body>
+</html>

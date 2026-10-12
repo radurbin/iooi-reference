@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Player Journeys | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Player Journeys", async (main) => {
+  const d = await load("journeys");
+  const who = { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" };
+  const pos = { label: "Pos", value: (r) => r.pos, cls: "c" };
+  const rk = { label: "Rk", value: (r) => r.rk, num: true };
+  const game = (r) => gLink(r.game, `${r.season} wk ${r.week}`);
+  const revengeCols = [rk, who, pos,
+    { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, cls: "win" },
+    { label: "Proj", value: (r) => r.proj, render: (r) => fmt.pts(r.proj), num: true, cls: "dim" },
+    { label: "For", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team), title: "Team he was starting for" },
+    { label: "Against", value: (r) => r.opp_team, render: (r) => fLink(r.opp, r.opp_team), title: "His former team" },
+    { label: "Left by", value: (r) => (r.how === "traded" ? "Trade" : "Release"), title: "How he left the former team" },
+    { label: "Result", value: (r) => (r.won ? "W" : "L"), cls: "c", title: "Result for his new team" },
+    { label: "Game", render: game },
+  ];
+  main.append(
+    h("h1", {}, "Dynasty iooi Player Journeys"),
+    h("p", { class: "note" }, "Kickers and defenses are left out of every list here except trades and one-franchise players. They are picked up and dropped week to week, and would crowd out everyone else."),
+    meta([
+      ["Revenge games", `${d.revenge_games} starts against a former team`],
+      ["Record in revenge games", `${d.revenge_wins}-${d.revenge_games - d.revenge_wins}`],
+      ["Returns", `${d.returns.length} players have rejoined a franchise they left`],
+    ]),
+    section("Most Franchises", statTable({
+      rows: rank(d.travelled),
+      columns: [rk, who, pos,
+        { label: "Teams", value: (r) => r.n, num: true, cls: "win", title: "Different iooi franchises he has been on" },
+        { label: "Stints", value: (r) => r.stints, num: true, title: "Separate spells, counting returns" },
+        { label: "GS", value: (r) => r.gs, num: true },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Franchises", render: (r) => h("div", {}, r.teams.flatMap((t, i) => [i ? ", " : "", fLink(t.franchise, t.team)])), title: "In order of his most recent spell with each, under the name at the time" },
+      ],
+    })),
+    section("Most-Traded Players", statTable({
+      rows: rank(d.traded),
+      columns: [rk, who, pos,
+        { label: "Trades", value: (r) => r.n, num: true, cls: "win", title: "Times traded" },
+        { label: "Teams", value: (r) => r.teams, num: true, title: "Different iooi franchises he has been on" },
+        { label: "First", value: (r) => r.first, title: "Date of his first trade" },
+        { label: "Latest", value: (r) => r.last, title: "Date of his most recent trade" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+      ],
+    })),
+    section("Most Transactions", statTable({
+      rows: rank(d.moved),
+      columns: [rk, who, pos,
+        { label: "Moves", value: (r) => r.n, num: true, cls: "win", title: "Every draft, signing, claim, release and trade" },
+        { label: "Signed", value: (r) => r.signed, num: true, title: "Free-agent signings and waiver claims" },
+        { label: "Released", value: (r) => r.released, num: true, title: "Times released" },
+        { label: "Traded", value: (r) => r.traded, num: true, title: "Times traded" },
+        { label: "Teams", value: (r) => r.teams, num: true, title: "Different iooi franchises he has been on" },
+      ],
+    })),
+    section("Best Revenge Games", h("p", { class: "note" }, "A revenge game is a start against a franchise that traded or released him."), statTable({ rows: rank(d.revenge_best), columns: revengeCols })),
+    section("Worst Revenge Games", statTable({ rows: rank(d.revenge_worst), columns: revengeCols })),
+    section("Revenge Game Careers", h("p", { class: "note" }, "At least three revenge games. Ranked by how far his scoring against former teams runs above his usual."), statTable({
+      rows: rank(d.revenge_careers),
+      columns: [rk, who, pos,
+        { label: "G", value: (r) => r.g, num: true, title: "Revenge games started" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Pts/G", value: (r) => r.ppg, render: (r) => fmt.pts(r.ppg), num: true, cls: "win" },
+        { label: "Usual", value: (r) => r.usual, render: (r) => fmt.pts(r.usual), num: true, title: "Career points per start" },
+        { label: "Diff", value: (r) => r.ppg - r.usual, render: (r) => fmt.signed(r.ppg - r.usual), num: true, title: "Revenge-game average minus career average" },
+        { label: "Team W-L", value: (r) => r.w - r.l, render: (r) => `${r.w}-${r.l}`, cls: "c" },
+      ],
+    })),
+    section("Returns", h("p", { class: "note" }, "Players who rejoined a franchise after leaving it."), statTable({
+      rows: d.returns,
+      columns: [who, pos,
+        { label: "Franchise", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) },
+        { label: "Stints", value: (r) => r.stints, num: true, title: "Separate spells with the franchise" },
+      ],
+    })),
+    section("One-Franchise Players", h("p", { class: "note" }, "Most starts by players who have only ever been on one iooi roster."), statTable({
+      rows: rank(d.loyal),
+      columns: [rk, who, pos,
+        { label: "Franchise", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) },
+        { label: "Seasons", value: (r) => r.seasons, num: true, title: "Seasons on the roster" },
+        { label: "G", value: (r) => r.g, num: true, title: "Weeks on the roster" },
+        { label: "GS", value: (r) => r.gs, num: true, cls: "win" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+      ],
+    })));
+});
+</script>
+</body>
+</html>

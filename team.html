@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Team Season | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Team Season", async (main) => {
+  const y = param("y") || L.current_season, id = Number(param("id") || 1);
+  const t = await load(`teams/${y}-${id}`);
+  const r = t.row, k = t.ranks;
+  const name = (pid) => t.players[pid] ?? pid;
+  const years = L.seasons.map((s) => s.season);
+  const title = `${y} ${t.team}`;
+  const done = t.status === "complete";
+  const stage = { regular: "", winners: "Playoffs", toilet: "Toilet Bowl" };
+  const awards = [
+    r.finish === 1 && done ? ["iooi Champ", y, "gold"] : null,
+    r.finish === 2 && done ? ["Runner-up", y] : null,
+    done && r.seed <= 6 ? ["Playoffs", y] : null,
+    done && r.seed === 1 ? ["Top Seed", y] : null,
+    done && k.pf === 1 ? ["Scoring Title", y] : null,
+    done && r.result === "Ultimate Loser" ? ["Ultimate Loser", y, "red"] : null,
+  ].filter(Boolean);
+  const slotName = (s) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex", DEF: "D/ST" }[s] ?? s);
+  const list = (rows) => rows.flatMap((x, i) => [i ? ", " : "", pLink(x.player, name(x.player)), h("span", { class: "dim" }, ` (${x.gs})`)]);
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "index.html#franchises" }, "Franchises"), " › ", fLink(id), " › ", y),
+    bio({
+      name: title, awards,
+      lines: [
+        [["Record", `${record(r)}, ${ordinal(r.seed)} seed`], [done ? "Finish" : null, done ? r.result ?? ordinal(r.finish) : null]],
+        ["Manager(s)", mLinks(t.managers)],
+        [["Points For", `${fmt.pts(r.pf)} (${fmt.pts(r.ppg)}/g), ${ordinal(k.pf)} of 12`], ["Points Against", `${fmt.pts(r.pa)}, ${ordinal(k.pa)} fewest`]],
+        [["Max PF", `${fmt.pts(r.max_pf)} (${ordinal(k.max_pf)})`], ["Lineup efficiency", `${fmt.eff(r.efficiency)} (${ordinal(k.efficiency)})`]],
+        [["All-Play", `${r.all_play_w}-${r.all_play_l}`], ["Expected W-L", `${fmt.pts1(r.expected_w)}-${fmt.pts1(r.w + r.l - r.expected_w)}`], ["Luck", fmt.signed(r.luck)]],
+        [["Playoffs", r.playoff_w + r.playoff_l ? `${r.playoff_w}-${r.playoff_l}` : null], ["Toilet Bowl", r.toilet_w + r.toilet_l ? `${r.toilet_w}-${r.toilet_l}` : null]],
+        [["Transactions", r.transactions], ["Trades", r.trades]],
+        ["Also known as", t.aka.filter((n) => n !== t.team).join(", ")],
+        [null, [years.includes(String(y - 1)) ? [tsLink(y - 1, id, `← ${y - 1}`), "  "] : "", sLink(y, `${y} season`), "  ", years.includes(String(+y + 1)) ? tsLink(+y + 1, id, `${+y + 1} →`) : ""]],
+      ],
+    }),
+    t.summary ? h("p", { class: "prose" }, rich(t.summary)) : null,
+    section("Schedule and Results", statTable({
+      sortable: false, rows: t.schedule,
+      columns: [
+        { label: "Week", value: (g) => g.week, num: true },
+        { label: "Date", value: (g) => g.date },
+        { label: "", render: (g) => gLink(g.id, "box score") },
+        { label: "Result", render: (g) => (g.won ? "W" : "L"), cls: (g) => (g.won ? "c win" : "c"), title: "Win or loss" },
+        { label: "Opp", render: (g) => tsLink(y, g.opp, g.opp_team) },
+        { label: "Pts", render: (g) => fmt.pts(g.pts), num: true, title: "Points scored" },
+        { label: "Opp Pts", render: (g) => fmt.pts(g.opp_pts), num: true },
+        { label: "Rec", render: (g) => g.record ?? "", cls: "c" },
+        { label: "Max PF", render: (g) => fmt.pts(g.max), num: true, title: "Points from the best possible lineup that week" },
+        { label: "Top scorer", render: (g) => g.top && [pLink(g.top.player, name(g.top.player)), ` (${fmt.pts(g.top.pts)})`] },
+        { label: "Stage", render: (g) => (g.kind === "regular" ? "" : g.label) },
+      ],
+    })),
+    section("Depth Chart", statTable({
+      sortable: false, rows: t.depth,
+      columns: [
+        { label: "Slot", render: (d) => slotName(d.slot), cls: "win" },
+        { label: "Primary starter(s)", render: (d) => list(d.players.slice(0, d.starters)), title: "Players with the most starts in the slot; starts in brackets" },
+        { label: "Also started", render: (d) => h("div", {}, list(d.players.slice(d.starters))), title: "Everyone else who started in the slot; starts in brackets" },
+      ],
+    }), h("p", { class: "note" }, "Starts in each lineup slot across the regular season, playoffs and Toilet Bowl.")),
+    section("Roster and Stats", statTable({
+      rows: t.roster,
+      columns: [
+        { label: "Player", value: (p) => name(p.player), render: (p) => pLink(p.player, name(p.player)), cls: "win" },
+        { label: "Pos", value: (p) => p.pos, cls: "c" },
+        { label: "G", value: (p) => p.g, num: true, title: "Weeks on the roster" },
+        { label: "GS", value: (p) => p.gs, num: true },
+        { label: "Pts", value: (p) => p.pts, render: (p) => fmt.pts(p.pts), num: true, title: "Points as a starter" },
+        { label: "Pts/GS", value: (p) => p.ppg, render: (p) => fmt.pts(p.ppg), num: true },
+        { label: "Best", value: (p) => p.best, render: (p) => fmt.pts(p.best), num: true },
+        { label: "Bench Pts", value: (p) => p.bench_pts, render: (p) => fmt.pts(p.bench_pts), num: true },
+        { label: "W", value: (p) => p.wins, num: true, title: "Team wins in games he started" },
+        { label: "PAA", value: (p) => p.paa, render: (p) => fmt.pts1(p.paa), num: true },
+        { label: "VOR", value: (p) => p.vor, render: (p) => fmt.pts1(p.vor), num: true },
+        { label: "WAR", value: (p) => p.war, render: (p) => fmt.pts(p.war), num: true },
+      ],
+    }), h("p", { class: "note" }, "Everyone who spent a week on the roster. Click a column to sort.")),
+    t.draft.length ? section(`${y} ${t.draft_kind === "startup" ? "Startup" : "Rookie"} Draft`, statTable({
+      sortable: false, rows: t.draft,
+      columns: [
+        { label: "Pick", render: (p) => p.label, num: true },
+        { label: "Ovr", value: (p) => p.overall, num: true },
+        { label: "Player", render: (p) => pLink(p.player, name(p.player)), cls: "win" },
+        { label: "Pos", value: (p) => p.pos, cls: "c" },
+        { label: "GS", value: (p) => p.starts_team, num: true, title: "Career starts for this franchise" },
+        { label: "Pts", render: (p) => fmt.pts(p.pts_team), num: true, title: "Career starter points for this franchise" },
+      ],
+    }), h("p", { class: "note" }, ["See the full ", h("a", { href: `draft.html?y=${y}` }, `${y} draft`), "."])) : null,
+    t.trades.length ? section("Trades", statTable({
+      sortable: false, rows: t.trades,
+      columns: [
+        { label: "Date", value: (x) => x.date },
+        { label: "With", render: (x) => x.with.flatMap((w, i) => [i ? ", " : "", tsLink(y, w.franchise, w.team)]), title: "Trade partner(s)" },
+        { label: "Got", value: (x) => x.got, num: true, title: "Players and picks received" },
+        { label: "", render: (x) => tLink(x.id, "details") },
+      ],
+    })) : null,
+    t.similar.length ? section("Similar Seasons", statTable({
+      sortable: false, rows: t.similar,
+      columns: [
+        { label: "Team", render: (x) => tsLink(x.season, x.franchise, `${x.season} ${x.team}`), cls: "win" },
+        { label: "Sim", value: (x) => x.score, num: true },
+        { label: "W", value: (x) => x.w, num: true },
+        { label: "L", value: (x) => x.l, num: true },
+        { label: "PF/G", render: (x) => fmt.pts(x.ppg), num: true },
+        { label: "Finish", render: (x) => x.result ?? "", cls: "c" },
+      ],
+    }), h("p", { class: "note" }, "Team seasons most alike in win percentage, scoring and points allowed relative to the league that year, lineup efficiency and all-play record. 1000 would be identical.")) : null);
+  return title;
+});
+</script>
+</body>
+</html>

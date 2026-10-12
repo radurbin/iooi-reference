@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="All-Time Teams | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("All-Time Teams", async (main) => {
+  const d = await load("all_time_teams");
+  const slot = (s) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex", DEF: "D/ST" }[s] ?? s);
+  const cols = (league) => [
+    { label: "Slot", render: (r) => slot(r.slot), cls: "win" },
+    { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
+    { label: "Pos", render: (r) => r.pos, cls: "c" },
+    { label: "Years", render: (r) => r.years, cls: "c" },
+    league ? { label: "Team(s)", render: (r) => r.franchises.flatMap((id, i) => [i ? ", " : "", fLink(id)]) } : null,
+    { label: "GS", render: (r) => r.gs, num: true },
+    { label: "Pts", render: (r) => fmt.pts(r.pts), num: true },
+    { label: "Pts/GS", render: (r) => fmt.pts(r.pts / r.gs), num: true },
+    { label: "WAR", render: (r) => fmt.pts(r.war), num: true },
+  ].filter(Boolean);
+  const total = (team) => h("p", { class: "note" }, `Combined: ${fmt.pts(team.reduce((s, r) => s + r.pts, 0))} points, ${fmt.pts(team.reduce((s, r) => s + r.war, 0))} WAR.`);
+  main.append(
+    h("h1", {}, "Dynasty iooi All-Time Teams"),
+    h("p", { class: "note" }, "The best lineup each franchise could field from everyone who has started for it, chosen by career starter points at each slot. Flex takes the best remaining back, receiver or tight end; Superflex the best remaining player of any offensive position. Franchise teams count only points scored for that franchise."),
+    section("All-Time iooi First Team", statTable({ sortable: false, rows: d.league[0], columns: cols(true) }), total(d.league[0])),
+    section("All-Time iooi Second Team", statTable({ sortable: false, rows: d.league[1], columns: cols(true) }), total(d.league[1])),
+    L.franchises.map((f) => section(f.name, statTable({ sortable: false, rows: d.franchises[f.id], columns: cols(false) }), total(d.franchises[f.id]))));
+  // Franchise names make long in-page menus; keep the headings linkable but trim the menu to the league teams.
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Constitution | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=UnifrakturMaguntia&family=Yesteryear&display=swap">
+<style>
+.parchment { max-width: 820px; margin: 18px auto; padding: 56px 64px; color: #1c140a; font: 27px/1.42 "Pinyon Script", "Snell Roundhand", "Apple Chancery", cursive;
+  background: radial-gradient(ellipse at 20% 10%, #f6e6c2 0%, rgba(246,230,194,0) 55%), radial-gradient(ellipse at 85% 80%, #c99a58 0%, rgba(201,154,88,0) 55%), linear-gradient(135deg, #efd9ac, #e2c188 55%, #d3a868);
+  box-shadow: inset 0 0 90px rgba(120, 72, 20, 0.55), 0 2px 10px rgba(0,0,0,0.25); border-radius: 2px; }
+.parchment .lead { font: 64px/1 "UnifrakturMaguntia", "Old English Text MT", serif; margin-right: 10px; }
+.parchment h2 { font: 40px/1.1 "Yesteryear", "Brush Script MT", cursive; border: 0; background: none; margin: 34px 0 4px; padding: 0; }
+.parchment h2.bill { text-align: center; font-size: 44px; margin-top: 60px; }
+.parchment .ratified { text-align: center; margin: 0 0 10px; }
+.parchment h3 { font: 34px/1.1 "Yesteryear", "Brush Script MT", cursive; text-align: center; margin: 30px 0 0; }
+.parchment .named { text-align: center; margin: 0 0 8px; }
+.parchment p { margin: 0 0 16px; }
+.parchment .cat { margin: 4px 0 0 34px; }
+.parchment ul { list-style: none; margin: 0 0 6px 72px; padding: 0; }
+.parchment.plain { font: 16px/1.6 Georgia, "Times New Roman", serif; }
+.parchment.plain .lead { font: bold 30px Georgia, serif; }
+.parchment.plain h2, .parchment.plain h3 { font-family: Georgia, serif; font-size: 22px; }
+.parchment.plain h2.bill { font-size: 26px; }
+@media (max-width: 700px) { .parchment { padding: 30px 22px; font-size: 22px; } .parchment .lead { font-size: 46px; } .parchment ul { margin-left: 36px; } }
+</style>
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Constitution", async (main) => {
+  const doc = await load("constitution");
+  const roman = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10, XI: 11, XII: 12 };
+  const blocks = (list) => list.map((b) => (b.p ? h("p", {}, b.p) : b.scoring.map((group) => [h("div", { class: "cat" }, `${group.label}:`), h("ul", {}, group.items.map(([k, v]) => h("li", {}, `${k} ${/%|per/.test(v) || b.colon ? ": " : "= "}${v}`)))])));
+  const sheet = h("div", { class: "parchment" },
+    h("p", {}, h("span", { class: "lead" }, doc.preamble_lead), doc.preamble),
+    doc.articles.map((a) => [h("h2", { id: `article-${roman[a.number]}` }, `Article. ${a.number}.`), blocks(a.blocks)]),
+    doc.bills.map((bill) => [
+      h("h2", { class: "bill" }, bill.title), h("p", { class: "ratified" }, `Ratified ${bill.ratified_text}`),
+      bill.amendments.map((am) => [h("h3", { id: `amendment-${am.number}` }, `${ordinal(am.number)} Amendment`), h("p", { class: "named" }, `“${am.name}”`), blocks(am.blocks)]),
+    ]));
+  const toggle = h("a", { href: "#", onclick: (e) => { e.preventDefault(); sheet.classList.toggle("plain"); toggle.textContent = sheet.classList.contains("plain") ? "Show in script" : "Show in plain text"; } }, "Show in plain text");
+  main.append(
+    h("h1", {}, "The Constitution of the iooi Dynasty Fantasy Football League"),
+    meta([
+      ["In force since", `the inaugural ${L.founded} season`],
+      ["Amended", doc.bills.map((b) => `${b.ratified} (${b.title}, amendments ${b.amendments[0].number}-${b.amendments.at(-1).number})`).join("; ")],
+      ["Original document", [h("a", { href: "assets/dynasty-iooi-constitution.pdf" }, "PDF"), " (signature page omitted)"]],
+      ["Display", toggle],
+    ]),
+    section("Contents",
+      h("p", {}, h("b", {}, "Articles: "), doc.articles.flatMap((a, i) => [i ? " · " : "", h("a", { href: `#article-${roman[a.number]}` }, `${a.number}. ${a.title}`)])),
+      h("p", {}, h("b", {}, "Amendments: "), doc.bills.flatMap((b) => b.amendments).flatMap((am, i) => [i ? " · " : "", h("a", { href: `#amendment-${am.number}` }, `${am.number}. ${am.name}`)])),
+      h("p", { class: "note" }, "Transcribed from the original with spelling corrected. Article names in the contents are descriptive and are not part of the document.")),
+    sheet);
+  return "Constitution";
+});
+</script>
+</body>
+</html>
