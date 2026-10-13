@@ -41,7 +41,7 @@ page("Hall of Fame", async (main) => {
         rows: rank(hof.candidates),
         columns: [
           { label: "Rk", value: (r) => r.rk, num: true },
-          { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+          { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: activeCls(players) },
           { label: "Pos", value: (r) => r.pos, cls: "c" },
           { label: "Status", value: (r) => `${statusOrder[players[r.player]?.status?.code]} ${statusText(players[r.player]?.status, false)}`, render: (r) => statusText(players[r.player]?.status), cls: (r) => (players[r.player]?.status?.code === "out" ? "dim" : null) },
           { label: "Monitor", value: (r) => r.score, render: (r) => r.score.toFixed(1), num: true, cls: (r) => (r.score >= hof.benchmark ? "win ahead" : "win"), title: `Hall of Fame Monitor: the sum of the four columns to the right. ${hof.benchmark} marks a strong candidate.` },

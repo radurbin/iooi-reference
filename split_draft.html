@@ -22,8 +22,8 @@ page("2024 Dynasty iooi Split Draft", async (main) => {
   const [d, players] = await Promise.all([load("split_draft"), load("players")]);
   const [a, b] = d.totals;
   const name = (id) => players[id]?.name ?? id;
-  const selection = (e) => (e.kind === "player" ? pLink(e.player, e.text) : [e.text, " (", pLink(e.became, name(e.became)), e.used_by === e.franchise ? "" : [", taken by ", fLink(e.used_by, e.used_team)], ")"]);
-  const board = (e) => h("td", { class: e.original === e.franchise ? null : "ahead" }, e.kind === "player" ? pLink(e.player, e.text) : `Pick ${e.label}`, h("small", { class: "dim" }, ` ${e.pos}`));
+  const selection = (e) => (e.kind === "player" ? pLink(e.player, e.text) : [e.text.replace(e.label, ""), pickLink("2024", e.label), " (", pLink(e.became, name(e.became)), e.used_by === e.franchise ? "" : [", taken by ", fLink(e.used_by, e.used_team)], ")"]);
+  const board = (e) => h("td", { class: e.original === e.franchise ? null : "ahead" }, e.kind === "player" ? pLink(e.player, e.text) : pickLink("2024", e.label, `Pick ${e.label}`), h("small", { class: "dim" }, ` ${e.pos}`));
   const rounds = Array.from({ length: d.rounds }, (_, i) => d.selections.filter((e) => e.round === i + 1));
   main.append(
     h("div", { class: "crumbs" }, h("a", { href: "drafts.html" }, "Drafts"), " › 2024 Split Draft"),

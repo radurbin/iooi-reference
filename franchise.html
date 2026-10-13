@@ -25,7 +25,7 @@ page("Franchise", async (main) => {
   const who = (r) => players[r.player]?.name ?? r.player;
   const leaderCols = [
     { label: "Rk", value: (r) => r.rk, num: true },
-    { label: "Player", value: who, render: (r) => pLink(r.player, who(r)), cls: "win" },
+    { label: "Player", value: who, render: (r) => pLink(r.player, who(r)), cls: activeCls(players, [f.id]) },
     { label: "Pos", value: (r) => r.pos, cls: "c" },
     { label: "Years", value: (r) => r.years, cls: "c" },
     { label: "G", value: (r) => r.g, num: true, title: "Weeks on the roster" },
@@ -47,7 +47,6 @@ page("Franchise", async (main) => {
         s.finish === 1 ? ["iooi Champ", s.season, "gold"] : null, s.finish === 2 ? ["Runner-up", s.season] : null,
         s.seed <= 6 ? ["Playoffs", s.season] : null, s.seed === 1 ? ["Top Seed", s.season] : null,
         s.result === "Ultimate Loser" ? ["Ultimate Loser", s.season, "red"] : null]).filter(Boolean),
-      tiles: [...f.seasons].reverse().map((s) => h("a", { href: `team.html?y=${s.season}&id=${f.id}`, "data-tip": `${s.season} ${s.team}: ${s.w}-${s.l}` }, `'${s.season.slice(2)}`, h("small", {}, `${s.w}-${s.l}`))),
       lines: [
         ["Seasons", `${f.seasons.length} (${f.seasons[0].season} to ${f.seasons.at(-1).season})`],
         ["Manager(s)", mLinks(f.owners)],
@@ -98,12 +97,12 @@ page("Franchise", async (main) => {
     }), h("p", { class: "note" }, ["Trades are filed under the league year they were made in. A pickup is credited with what the player did as a starter for this team until he left it. Full lists are in the ", h("a", { href: "trades.html" }, "trade register"), " and on the ", h("a", { href: "waivers.html" }, "waiver wire page"), "."])),
     section("All-Time Leaders", statTable({ rows: rank(f.leaders.overall), columns: leaderCols }),
       h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(f.leaders.by_pos).flatMap((rows) => rank(rows)), groupBy: (r) => r.pos, columns: leaderCols }),
-      h("p", { class: "note" }, "Games started and points for this franchise only.")),
+      h("p", { class: "note" }, "Games started and points for this franchise only. Bold marks a player on its roster now.")),
     section("All-Time Team", statTable({
       sortable: false, rows: teams.franchises[f.id],
       columns: [
         { label: "Slot", render: (r) => slotName(r.slot), cls: "win" },
-        { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
+        { label: "Player", render: (r) => pLink(r.player, r.name), cls: activeCls(players, [f.id]) },
         { label: "Pos", render: (r) => r.pos, cls: "c" },
         { label: "Years", render: (r) => r.years, cls: "c" },
         { label: "GS", render: (r) => r.gs, num: true },

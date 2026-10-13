@@ -21,12 +21,13 @@
 page("Manager", async (main) => {
   const mid = param("id") || L.commissioner;
   const [m, allTrades, players] = await Promise.all([load(`managers/${mid}`), load("trades"), load("players")]);
+  const mine = m.stints.filter((s) => !s.to).map((s) => s.franchise);   // franchises he holds a stake in now
   const trades = allTrades.filter((x) => x.sides.some((s) => (s.managers ?? []).includes(mid)));
   const t = m.totals;
   const slotName = (slot) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex" })[slot] ?? slot;
   const leaderCols = [
     { label: "Rk", value: (r) => r.rk, num: true },
-    { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name) },
+    { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: activeCls(players, mine) },
     { label: "Pos", value: (r) => r.pos, cls: "c" },
     { label: "Years", value: (r) => r.years, cls: "c" },
     { label: "G", value: (r) => r.g, num: true },
@@ -45,7 +46,6 @@ page("Manager", async (main) => {
       awards: m.seasons.flatMap((s) => [
         s.result === "Champion" ? ["iooi Champ", s.season, "gold"] : null, s.result === "Runner-up" ? ["Runner-up", s.season] : null,
         s.result === "Ultimate Loser" ? ["Ultimate Loser", s.season, "red"] : null]).filter(Boolean),
-      tiles: [...m.seasons].reverse().map((s) => h("a", { href: `team.html?y=${s.season}&id=${s.franchise}`, "data-tip": `${s.season} ${s.team}: ${s.w}-${s.l}` }, `'${s.season.slice(2)}`, h("small", {}, `${s.w}-${s.l}`))),
       lines: [
         ["Position", m.id === L.commissioner ? "Manager and Commissioner" : m.stints.some((s) => s.to === null) ? "Manager" : "Former manager"],
         ["Franchises", [...new Set(m.stints.map((s) => s.franchise))].flatMap((id, i) => [i ? ", " : "", fLink(id)])],
@@ -60,7 +60,7 @@ page("Manager", async (main) => {
       rows: [...m.seasons].reverse(), rowClass: (r) => (r.result === "Champion" ? "champ" : null),
       foot: { season: "Career", total: true, ...t },
       columns: [
-        { label: "Season", value: (r) => r.season, render: (r) => (r.total ? r.season : sLink(r.season)) },
+        { label: "Season", value: (r) => r.season, render: (r) => (r.total ? r.season : tsLink(r.season, r.franchise, r.season)) },
         { label: "Franchise", render: (r) => (r.total ? "" : fLink(r.franchise, r.team)) },
         { label: "W", value: (r) => r.w, num: true },
         { label: "L", value: (r) => r.l, num: true },
@@ -77,12 +77,12 @@ page("Manager", async (main) => {
     m.leaders.overall.length ? [
       section("All-Time Leaders", statTable({ rows: rank(m.leaders.overall), columns: leaderCols }),
         h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(m.leaders.by_pos).flatMap((rows) => rank(rows)), groupBy: (r) => r.pos, columns: leaderCols }),
-        h("p", { class: "note" }, `Games started and points for a franchise while ${m.name} held a stake in it.`)),
+        h("p", { class: "note" }, `Games started and points for a franchise while ${m.name} held a stake in it. Bold marks a player on one of ${m.name}'s rosters now.`)),
       section("All-Time Team", statTable({
         sortable: false, rows: m.all_time_team,
         columns: [
           { label: "Slot", render: (r) => slotName(r.slot), cls: "win" },
-          { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
+          { label: "Player", render: (r) => pLink(r.player, r.name), cls: activeCls(players, mine) },
           { label: "Pos", render: (r) => r.pos, cls: "c" },
           { label: "Years", render: (r) => r.years, cls: "c" },
           { label: "GS", render: (r) => r.gs, num: true },

@@ -94,6 +94,7 @@ page("Team Season", async (main) => {
       columns: [
         { label: "Player", value: (p) => name(p.player), render: (p) => pLink(p.player, name(p.player)), cls: "win" },
         { label: "Pos", value: (p) => p.pos, cls: "c" },
+        { label: "NFL", value: (p) => p.nfl ?? (y === L.current_season ? players[p.player]?.nfl_team : null) ?? "", cls: "c", title: "NFL team or teams he played for that season" },
         { label: "G", value: (p) => p.g, num: true, title: "Weeks on the roster" },
         { label: "GS", value: (p) => p.gs, num: true },
         { label: "Pts", value: (p) => p.pts, render: (p) => fmt.pts(p.pts), num: true, title: "Points as a starter" },

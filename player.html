@@ -46,6 +46,23 @@ page("Player", async (main) => {
     if (what.startsWith("Young Sexy")) return ["Young Sexy", year];
     return [what, year];
   });
+  // Honors by season for the career table and the Awards section. A title belongs to the row for the title team; the rest to the season.
+  const short = (what) => (what.startsWith("champion") ? "Champ" : what === "Championship MVP" ? "CMVP" : what.includes("MVP") ? "MVP" : what.endsWith("First Team") ? "All-iooi 1st"
+    : what.endsWith("Second Team") ? "All-iooi 2nd" : what === "Rookie of the Year" ? "ROY" : what.startsWith("Young Sexy") ? "YS" : what);
+  const full = (what) => (what.startsWith("champion") ? "iooi Champion" : what.startsWith("Young Sexy") ? `Young Sexy Award (${what.split(" ").at(-1)})` : what);
+  const honors = p.honors.map((text) => { const [, season, what] = text.match(/^(\d{4}) (.*)$/) ?? [null, "", text]; return { season, what, champTeam: what.match(/^champion \((.*)\)$/)?.[1] }; });
+  const order = ["MVP", "CMVP", "All-iooi 1st", "All-iooi 2nd", "ROY", "YS", "Champ"];
+  honors.sort((a, b) => (a.season < b.season ? -1 : a.season > b.season ? 1 : order.indexOf(short(a.what)) - order.indexOf(short(b.what))));
+  const rowHonors = (r) => {
+    const mine = p.career.filter((x) => x.season === r.season);
+    const main = mine.reduce((best, x) => (x.gs > best.gs ? x : best), mine[0]);   // the season's honors sit on the row with the most starts
+    return honors.filter((a) => a.season === r.season && (a.champTeam ? a.champTeam === r.team : r === main)).map((a) => short(a.what)).join(", ");
+  };
+  const awardRows = honors.map((a) => {
+    const rows = p.career.filter((r) => r.season === a.season && (!a.champTeam || r.team === a.champTeam));
+    const sum = (k) => rows.reduce((n, r) => n + (r[k] ?? 0), 0);
+    return { ...a, rows, gs: sum("gs"), pts: sum("pts"), paa: sum("paa"), war: sum("war") };
+  });
   // One tile per spell with a franchise, in the order he played for them, in the manner of uniform-number tiles.
   const stints = [];
   for (const row of p.log) {
@@ -97,7 +114,7 @@ page("Player", async (main) => {
         ["Born", p.birth_date && `${p.birth_date}${age ? ` (Age: ${age})` : ""}`],
         ["College", p.college],
         ["NFL rookie year", p.rookie_year],
-        ["iooi Draft", p.drafted && [fLink(p.drafted.franchise, p.history.find((e) => e.type === "draft")?.to_team), `, pick ${p.drafted.label} (${ordinal(p.drafted.overall)} overall), `,
+        ["iooi Draft", p.drafted && [fLink(p.drafted.franchise, p.history.find((e) => e.type === "draft")?.to_team), ", pick ", pickLink(p.drafted.season, p.drafted.label), ` (${ordinal(p.drafted.overall)} overall), `,
           h("a", { href: `draft.html?y=${p.drafted.season}` }, `${p.drafted.season} ${p.drafted.kind === "startup" ? "Startup" : "Rookie"} Draft`)]],
         ["iooi Debut", debut && [gLink(debut.game, debut.date), " for ", fLink(debut.franchise, debut.team)]],
         ["All-Time Ranks", standing.length ? standing.join(", ") : null],
@@ -110,6 +127,7 @@ page("Player", async (main) => {
       columns: [
         { label: "Season", value: (r) => r.season, render: (r) => (r.total ? r.season : r.franchise ? tsLink(r.season, r.franchise, r.season) : sLink(r.season)) },
         { label: "Franchise", value: (r) => r.team, render: (r) => (r.total ? "" : fLink(r.franchise, r.team)) },
+        { label: "NFL", value: (r) => (r.total ? "" : r.nfl ?? (r.season === L.current_season ? p.nfl_team : null) ?? ""), cls: "c", title: "NFL team or teams he played for that season" },
         { label: "G", value: (r) => r.g, num: true, title: "Weeks on the roster" },
         { label: "GS", value: (r) => r.gs, num: true, title: "Games started" },
         { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, cls: (r) => (ink(r, "pts") ? "ink" : null), title: "Points as a starter" },
@@ -120,9 +138,23 @@ page("Player", async (main) => {
         { label: "PAA", value: (r) => r.paa, render: (r) => fmt.pts1(r.paa), num: true, cls: (r) => (ink(r, "paa") ? "ink" : null), title: "Points above the average iooi starter at his position" },
         { label: "VOR", value: (r) => r.vor, render: (r) => fmt.pts1(r.vor), num: true, title: "Value over a replacement-level player at his position" },
         { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, cls: (r) => (ink(r, "war") ? "ink" : null), title: "Wins above replacement" },
+        { label: "Awards", render: (r) => (r.total ? "" : rowHonors(r)), title: "MVP, CMVP (Championship MVP), All-iooi 1st or 2nd team, ROY (Rookie of the Year), YS (Young Sexy Award), Champ (on the title roster)" },
       ],
     })),
     p.black_ink ? h("p", { class: "note" }, "Bold marks a season in which he led the league.") : null,
+    awardRows.length ? section("Awards", statTable({
+      sortable: false, rows: awardRows,
+      columns: [
+        { label: "Season", render: (a) => sLink(a.season) },
+        { label: "Award", render: (a) => h("a", { href: "awards.html" }, full(a.what)), cls: "win" },
+        { label: "iooi Team", render: (a) => a.rows.flatMap((r, i) => [i ? ", " : "", tsLink(a.season, r.franchise, r.team)]) },
+        { label: "GS", render: (a) => a.gs, num: true, title: "Starts that season for the team or teams shown" },
+        { label: "Pts", render: (a) => fmt.pts(a.pts), num: true },
+        { label: "Pts/GS", render: (a) => (a.gs ? fmt.pts(a.pts / a.gs) : ""), num: true },
+        { label: "PAA", render: (a) => fmt.pts1(a.paa), num: true, title: "Points above the average iooi starter at his position" },
+        { label: "WAR", render: (a) => fmt.pts(a.war), num: true, title: "Wins above replacement" },
+      ],
+    }), h("p", { class: "note" }, "The figures are his season as an iooi starter for the team or teams shown. A Young Sexy Award is decided on NFL points over weeks 1-17, started or not.")) : null,
     starts.length ? section("Splits", statTable({
       sortable: false, rows: splits, rowClass: (r) => (r.first ? "first" : null),
       columns: [
@@ -164,6 +196,7 @@ page("Player", async (main) => {
       rows: p.nfl,
       columns: [
         { label: "Season", value: (r) => r.season },
+        { label: "NFL", value: (r) => r.team ?? "", cls: "c", title: "NFL team or teams he played for" },
         { label: "G", value: (r) => r.g, num: true },
         { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
         { label: "Pts/G", value: (r) => (r.g ? r.pts / r.g : null), render: (r) => (r.g ? fmt.pts(r.pts / r.g) : ""), num: true },

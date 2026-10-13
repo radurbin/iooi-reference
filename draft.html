@@ -42,7 +42,7 @@ page("Draft", async (main) => {
       rows: draft.picks,
       columns: [
         { label: "Rd", value: (p) => p.round, num: true },
-        { label: "Pick", value: (p) => p.overall, render: (p) => p.label, num: true },
+        { label: "Pick", value: (p) => p.overall, render: (p) => pickLink(y, p.label), num: true, title: "Click for the pick's own page: who held it and what it became" },
         { label: "Ovr", value: (p) => p.overall, num: true },
         { label: "Team", value: (p) => p.team, render: (p) => fLink(p.franchise, p.team) },
         { label: "Manager(s)", render: (p) => mLinks(p.managers) },

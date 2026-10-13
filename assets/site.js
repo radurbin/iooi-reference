@@ -49,6 +49,12 @@ const sLink = (season, text) => h("a", { href: `season.html?y=${season}` }, text
 const pLink = (id, name) => h("a", { href: `player.html?id=${id}` }, name ?? id);
 const tLink = (id, text) => h("a", { href: `trade.html?id=${id}` }, text ?? "trade");
 const ordinal = (n) => `${n}${["th", "st", "nd", "rd"][n % 100 > 10 && n % 100 < 14 ? 0 : Math.min(n % 10, 4) % 4]}`;
+// Bold for an active player in a leader list, as on the reference sites. players is players.json;
+// `on` narrows it to players now with one of the given franchises.
+const activeCls = (players, on) => (r) => { const st = players[r.player]?.status; return st?.code === "rostered" && (!on || on.includes(st.franchise)) ? "win" : null; };
+const activeNote = (text = "Bold marks a player now on an iooi roster.") => h("p", { class: "note" }, text);
+// A drafted pick's own page, e.g. pick.html?y=2025&p=1.09.
+const pickLink = (season, label, text) => h("a", { href: `pick.html?y=${season}&p=${label}` }, text ?? label);
 const tsLink = (season, id, text) => h("a", { href: `team.html?y=${season}&id=${id}` }, text ?? seasonTeam(season, id));
 const rLink = (kind, a, b, text) => h("a", { href: `rivalry.html?${kind}=${[a, b].sort((x, y) => (String(x) < String(y) ? -1 : 1)).join("~")}` }, text ?? "rivalry");
 const gLink = (id, text) => h("a", { href: `game.html?id=${id}` }, text ?? "box");
@@ -217,7 +223,7 @@ function leaderBoxes(boards, linkOf) {
 
 // What each side of a trade received, one line per side. players is players.json.
 function tradeTerms(t, players) {
-  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${ordinal(a.round)}-round pick${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : a.original ? ` (originally ${seasonTeam(t.season, a.original)})` : ""}`);
+  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : [`${a.season} ${ordinal(a.round)}-round pick`, a.became ? [" (", pickLink(a.became.season, a.became.label), ", ", pLink(a.became.player, players[a.became.player]?.name), ")"] : a.original ? ` (originally ${seasonTeam(t.season, a.original)})` : ""]);
   return t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a)]) : "nothing"));
 }
 const tradeStatus = { label: "Status", value: (t) => t.status, render: (t) => ({ complete: "", vetoed: "Vetoed", cancelled: "Withdrawn", pending: "Under review" })[t.status] ?? t.status, cls: "c", title: "Blank for a completed trade; otherwise under review, vetoed by league vote, or withdrawn during review" };

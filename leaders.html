@@ -23,7 +23,7 @@ page("Player Leaders", async (main) => {
   const who = (r) => players[r.player]?.name ?? r.player;
   const cols = (stat, withSeason) => [
     { label: "Rk", value: (r) => r.rk, num: true },
-    { label: "Player", value: who, render: (r) => pLink(r.player, who(r)), cls: "win" },
+    { label: "Player", value: who, render: (r) => pLink(r.player, who(r)), cls: activeCls(players) },
     { label: "Pos", value: (r) => r.pos, cls: "c" },
     withSeason ? { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) } : { label: "Years", value: (r) => r.years, cls: "c" },
     { label: "Team(s)", render: (r) => r.franchises.flatMap((id, i) => [i ? ", " : "", fLink(id, withSeason ? seasonTeam(r.season, id) : undefined)]) },
@@ -39,6 +39,7 @@ page("Player Leaders", async (main) => {
   main.append(
     h("h1", {}, "Dynasty iooi Player Leaders"),
     h("p", { class: "note" }, `All figures count games in an iooi starting lineup, playoffs and Toilet Bowl included. PAA compares each start with the average iooi starter at the position that week. VOR compares it with a replacement-level player: the per-game scoring of the first NFL player outside the league-wide starter pool that season (QB${v.replacement_rank.QB + 1}, RB${v.replacement_rank.RB + 1}, WR${v.replacement_rank.WR + 1}, TE${v.replacement_rank.TE + 1}, K${v.replacement_rank.K + 1}, DEF${v.replacement_rank.DEF + 1}). WAR converts VOR to wins at ${v.points_per_win} points per win, the rate at which points have turned into wins for iooi teams.`),
+    activeNote("In every list on this page, bold marks a player now on an iooi roster."),
     section("Career Points", statTable({ rows: rank(lead.career.pts), columns: cols("pts") })),
     section("Career Value Over Replacement", statTable({ rows: rank(lead.career.vor), columns: cols("vor") })),
     section("Career Points Above Average", statTable({ rows: rank(lead.career.paa), columns: cols("paa") })),
@@ -52,7 +53,7 @@ page("Player Leaders", async (main) => {
         rows: rank(ink.table),
         columns: [
           { label: "Rk", value: (r) => r.rk, num: true },
-          { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+          { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: activeCls(players) },
           { label: "Pos", value: (r) => r.pos, cls: "c" },
           { label: "Black Ink", value: (r) => r.score, num: true, cls: "win" },
           ...Object.entries(ink.weights).map(([key, w]) => ({ label: w.label.replace("Points Above Average", "PAA").replace("Points per Start", "Pts/GS").replace("Position Points", "Pos Pts").replace("Best Single Game", "Best Game"),

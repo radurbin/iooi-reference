@@ -105,7 +105,9 @@ def trim_nfl(season, final_scoring, changes):
         playing = {teams[week] for teams in team_in.values() if week in teams}
         entry["bye"] = sorted(pid for pid, teams in team_in.items()
                               if week not in teams and teams[min(teams, key=lambda w: (abs(w - week), w > week))] not in playing)
-    data = {"season": season, "weeks": weeks}
+    # NFL team(s) each player appeared for, in order, so a season line can say who he played for.
+    teams = {pid: list(dict.fromkeys(by_week[w] for w in sorted(by_week))) for pid, by_week in sorted(team_in.items())}
+    data = {"season": season, "weeks": weeks, "teams": teams}
     dump(out_path, data)
     return data
 
@@ -505,6 +507,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
             by_pos[pos].append((pts, pid))
         ranks = {pid: i + 1 for rows in by_pos.values() for i, (pts, pid) in enumerate(sorted(rows, reverse=True))}
         nfl[season] = {pid: {"g": g, "pts": r2(pts), "rank": ranks[pid]} for pid, (g, pts) in totals.items()}
+    nfl_teams = lambda season, pid: "/".join(seasons[season]["nfl"].get("teams", {}).get(pid, [])) or None
 
     absorbed = {child: parent for parent, adj in adjustments.items() for child in adj.get("absorb", [])}
     trade_ids = {t["id"] for t in trades}
@@ -537,7 +540,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
         career = []
         for (season, fid), group in sorted(groups.items(), key=lambda kv: (kv[0][0], min(a["week"] for a in kv[1]))):
             starts = [a for a in group if a["started"]]
-            career.append({"season": season, "franchise": fid, "team": group[-1]["team"], "g": len(group), "gs": len(starts),
+            career.append({"season": season, "franchise": fid, "team": group[-1]["team"], "nfl": nfl_teams(season, pid), "g": len(group), "gs": len(starts),
                            "pts": r2(sum(a["pts"] for a in starts)), "bench_pts": r2(sum(a["pts"] for a in group if not a["started"] and a["game"])),
                            "ppg": r2(sum(a["pts"] for a in starts) / len(starts)) if starts else None,
                            "best": max((a["pts"] for a in starts), default=None), "wins": sum(1 for a in starts if a["won"]),
@@ -554,7 +557,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
             "college": raw.get("college"), "rookie_year": rookie_year_of(raw, state),
             "height": raw.get("height"), "weight": raw.get("weight"),
             "drafted": drafted.get(pid), "career": career, "totals": totals,
-            "nfl": [{"season": season, **nfl[season][pid]} for season in seasons if pid in nfl[season]],
+            "nfl": [{"season": season, "team": nfl_teams(season, pid), **nfl[season][pid]} for season in seasons if pid in nfl[season]],
             "history": sorted(history.get(pid, []), key=lambda e: e["date"]),
             "nicknames": [n for n in nicknames if n["player"] == pid],
             "log": rows,
@@ -908,7 +911,7 @@ def build_leaders(appearances, players):
         if not starts:
             continue
         base = {"player": pid, "pos": players[pid]["pos"]}
-        teams = lambda group: sorted({a["franchise"] for a in group})
+        teams = lambda group: list(dict.fromkeys(a["franchise"] for a in group))   # in the order he played for them
         career.append({**base, "gs": len(starts), "pts": r2(sum(a["pts"] for a in starts)), **value_sum(starts), "franchises": teams(starts),
                        "years": f"{starts[0]['season']}-{starts[-1]['season']}", "best": max(a["pts"] for a in starts),
                        "bench_pts": r2(sum(a["pts"] for a in rows if not a["started"] and a["game"]))})
@@ -1009,6 +1012,7 @@ def transaction_wire(season, all_moves, adjustments, people, name_on, trades):
 # ---------------------------------------------------------------- awards, timeline, lottery
 
 ALL_IOOI_SLOTS = ["QB", "RB", "RB", "WR", "WR", "TE", "FLEX", "SUPER_FLEX", "K", "DEF"]
+ALL_IOOI_MIN_STARTS = 8   # about half of the 17 playable weeks; while a season is in progress, half the weeks played so far
 SCORING_LABELS = {
     "pass_int": "Interception thrown", "ff": "Forced fumble (player)", "def_st_ff": "Special teams forced fumble", "def_st_fum_rec": "Special teams fumble recovery",
     "st_fum_rec": "Special teams player fumble recovery", "pts_allow_0": "0 points allowed", "pts_allow_1_6": "1-6 points allowed", "pts_allow_7_13": "7-13 points allowed",
@@ -1052,12 +1056,13 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
         mine = sorted(({"player": pid, "pos": players[pid]["pos"], "gs": r["gs"], "pts": r2(r["pts"]), "paa": r2(r["paa"]),
                         "teams": [{"franchise": f, "team": t} for f, t in r["teams"].items()]}
                        for (yr, pid), r in lines.items() if yr == season), key=lambda r: -r["paa"])
+        min_starts = ALL_IOOI_MIN_STARTS if complete else min(ALL_IOOI_MIN_STARTS, -(-s["last_week"] // 2))
         taken, teams = set(), []
         for label in ("First Team", "Second Team"):
             picks = []
             for slot in sorted(ALL_IOOI_SLOTS, key=lambda x: (x in FLEX, x == "SUPER_FLEX")):
                 allowed = FLEX.get(slot, {slot})
-                choice = next((r for r in mine if r["player"] not in taken and r["pos"] in allowed), None)
+                choice = next((r for r in mine if r["player"] not in taken and r["pos"] in allowed and r["gs"] >= min_starts), None)
                 if choice:
                     taken.add(choice["player"])
                     picks.append({"slot": slot, **choice})
@@ -1091,7 +1096,7 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
             "efficiency": {**team(max(rows, key=lambda r: r["efficiency"] or 0)), "value": max(r["efficiency"] or 0 for r in rows)},
             "luckiest": {**team(max(rows, key=lambda r: r["luck"])), "value": max(r["luck"] for r in rows)},
             "unluckiest": {**team(min(rows, key=lambda r: r["luck"])), "value": min(r["luck"] for r in rows)},
-            "mvp": mine[:5], "rookie": sorted(rookies, key=lambda r: -r["pts"])[:3], "all_iooi": teams, "young_sexy": young,
+            "mvp": mine[:5], "rookie": sorted(rookies, key=lambda r: -r["pts"])[:3], "all_iooi": teams, "all_iooi_min_starts": min_starts, "young_sexy": young,
         }
         # Championship MVP: the top scorer in the winner's starting lineup in the title game, team defenses excepted.
         title = next((g for g in game_log if g["season"] == season and g["label"] == "Dynasty Championship"), None) if complete else None
@@ -1604,7 +1609,14 @@ def main():
     dump(SITE / "leaders.json", {**build_leaders(appearances, players), "value": value_notes})
     dump(SITE / "elo.json", build_elo(game_log, seasons))
     for season in season_ids:
-        dump(SITE / "transactions" / f"{season}.json", transaction_wire(season, all_moves, adjustments, people, name_on, trades))
+        wire = transaction_wire(season, all_moves, adjustments, people, name_on, trades)
+        # A player added and released between games never reaches players.json; carry his name on the entry instead.
+        for entry in wire:
+            moved = entry.get("added", []) + entry.get("released", []) + [m["player"] for m in entry.get("players", []) + entry.get("swapped", [])]
+            unknown = {pid: (raw_players.get(pid) or {}).get("full_name") for pid in moved if pid not in players}
+            if any(unknown.values()):
+                entry["names"] = {pid: name for pid, name in unknown.items() if name}
+        dump(SITE / "transactions" / f"{season}.json", wire)
     for fid, franchise in franchises.items():
         franchise["leaders"] = franchise_leaders(fid, appearances, players)
         dump(SITE / "franchises" / f"{fid}.json", franchise)

@@ -70,7 +70,7 @@ page("Draft Pick Ledger", async (main) => {
         { label: "Draft", value: (p) => p.season, render: (p) => (L.drafts.some((x) => x.season === p.season) ? h("a", { href: `draft.html?y=${p.season}` }, p.season) : p.season) },
         { label: "Rd", value: (p) => p.round, num: true },
         { label: "Moves", value: (p) => p.moves.length, num: true, cls: "win", title: "Times the pick was traded" },
-        { label: "Became", value: (p) => (p.became ? players[p.became.player]?.name : ""), render: (p) => (p.became ? [pLink(p.became.player, players[p.became.player]?.name), ` (${p.became.label})`] : h("span", { class: "dim" }, "not yet used")) },
+        { label: "Became", value: (p) => (p.became ? players[p.became.player]?.name : ""), render: (p) => (p.became ? [pLink(p.became.player, players[p.became.player]?.name), " (", pickLink(p.became.season, p.became.label), ")"] : h("span", { class: "dim" }, "not yet used")) },
         { label: "Path", render: (p) => h("div", {}, path(p)), title: "Every franchise to hold the pick, with the trade that moved it" },
       ],
     })),

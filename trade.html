@@ -26,7 +26,7 @@ page("Trade", async (main) => {
   const name = (id) => players[id]?.name ?? id;
   const split = (v) => (v && v.g ? `${fmt.pts(v.ppg)} (${v.g} G)` : "");
   const pickLabel = (a) => [`${a.season} ${ordinal(a.round)}-round pick`, a.original ? [" (", fLink(a.original, seasonTeam(t.season, a.original)), "'s)"] : ""];
-  const became = (a) => (a.became ? [`${a.became.label}: `, pLink(a.became.player, name(a.became.player)), a.became.franchise ? [", selected by ", fLink(a.became.franchise)] : ""] : "Draft not yet held");
+  const became = (a) => (a.became ? [pickLink(a.became.season, a.became.label), ": ", pLink(a.became.player, name(a.became.player)), a.became.franchise ? [", selected by ", fLink(a.became.franchise)] : ""] : "Draft not yet held");
   // A trade tree as an indented table: each asset, what it produced for this team, and what it turned into.
   const pickName = (node) => [`${node.season} ${ordinal(node.round)}-round pick`, node.original ? ` (${seasonTeam(t.season, node.original)}'s)` : ""];
   const dagger = () => h("sup", { class: "dag", "data-tip": "Came back from a later deal that also cost assets from outside this trade" }, "†");

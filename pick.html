@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Draft Pick | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://dynastyiooi.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Draft Pick", async (main) => {
+  const y = param("y") || L.drafts.at(-1).season, label = param("p") || "1.01";
+  if (!L.drafts.some((d) => d.season === y)) throw new Error("No such draft");
+  const [draft, players, trades] = await Promise.all([load(`drafts/${y}`), load("players"), load("trades")]);
+  const at = draft.picks.findIndex((p) => p.label === label);
+  if (at < 0) throw new Error("No such pick");
+  const p = draft.picks[at], prev = draft.picks[at - 1], next = draft.picks[at + 1];
+  const kind = draft.kind === "startup" ? "Startup" : "Rookie";
+  const title = `${y} ${kind} Draft, Pick ${p.label}`;
+  const player = players[p.player];
+  const own = p.original === p.franchise;
+  const deal = (m) => trades.find((t) => t.id === m.trade);
+  // Every franchise to hold the pick, in order: the original owner, then each team that traded for it.
+  const holders = [p.original, ...p.moves.map((m) => m.to)];
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "drafts.html" }, "Drafts"), " › ", h("a", { href: `draft.html?y=${y}` }, `${y} ${kind} Draft`), " › ", `Pick ${p.label}`),
+    bio({
+      name: title,
+      nav: [prev ? pickLink(y, prev.label, `‹‹ Previous Pick (${prev.label})`) : null, h("a", { href: `draft.html?y=${y}` }, `Full Draft (${y})`), next ? pickLink(y, next.label, `Next Pick (${next.label}) ››`) : null],
+      lines: [
+        [["Round", p.round], ["Pick in round", p.pick], ["Overall", ordinal(p.overall)]],
+        ["Selection", [pLink(p.player, player?.name ?? p.player), ` (${p.pos})`]],
+        ["Selected by", [tsLink(y, p.franchise, p.team), p.managers?.length ? [" (", mLinks(p.managers), ")"] : ""]],
+        ["Originally belonged to", own && !p.moves.length ? "the same franchise" : fLink(p.original, seasonTeam(y, p.original))],
+        ["Times traded", p.moves.length],
+        ["Draft date", draft.date],
+      ],
+    }),
+    section("Path of the Pick", p.moves.length ? [
+      h("p", {}, holders.flatMap((fid, i) => [i ? " → " : "", fLink(fid, i ? p.moves[i - 1].to_team : seasonTeam(y, fid))])),
+      statTable({
+        sortable: false, rows: p.moves,
+        columns: [
+          { label: "Date", value: (m) => m.date },
+          { label: "From", render: (m) => fLink(m.from, m.from_team) },
+          { label: "To", render: (m) => fLink(m.to, m.to_team), cls: "win" },
+          { label: "Full terms of the trade", render: (m) => (deal(m) ? tradeTerms(deal(m), players) : "") },
+          { label: "", render: (m) => tLink(m.trade, "details") },
+        ],
+      })] : h("p", { class: "note" }, own ? "This pick was never traded: the franchise that owned it made the selection." : "No trade of this pick is on record.")),
+    section("What It Became", statTable({
+      sortable: false,
+      rows: [
+        { scope: ["For ", fLink(p.franchise, p.team), ", the team that drafted him"], gs: p.starts_team, pts: p.pts_team },
+        { scope: "For every iooi franchise", gs: p.starts_league, pts: p.pts_league },
+      ],
+      columns: [
+        { label: "Player", render: () => pLink(p.player, player?.name ?? p.player), cls: "win" },
+        { label: "Pos", render: () => p.pos, cls: "c" },
+        { label: "Counting", render: (r) => r.scope },
+        { label: "GS", render: (r) => r.gs, num: true, title: "Games started" },
+        { label: "Pts", render: (r) => fmt.pts(r.pts), num: true, title: "Points as a starter" },
+        { label: "Pts/GS", render: (r) => (r.gs ? fmt.pts(r.pts / r.gs) : ""), num: true, title: "Points per start" },
+      ],
+    }), h("p", { class: "note" }, ["Games in an iooi starting lineup only. His full record is on his ", pLink(p.player, "player page"), "."])));
+  return title;
+});
+</script>
+</body>
+</html>

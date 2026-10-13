@@ -72,7 +72,9 @@ page("Awards", async (main) => {
           { label: "PAA", render: (r) => fmt.signed(r.paa), num: true },
         ],
       })),
-    awards.map((a) => section(`${a.season} All-iooi Teams`, h("div", { class: "box" }, a.all_iooi.map((squad) => h("div", {}, h("h3", {}, squad.label), statTable({
+    awards.map((a) => section(`${a.season} All-iooi Teams`,
+      h("p", { class: "note" }, `The best lineup by points above average (PAA) among players with at least ${a.all_iooi_min_starts} ${a.all_iooi_min_starts === 1 ? "start" : "starts"}${a.complete ? ", about half the 17 playable weeks" : ", half the weeks played so far (8 once the season is complete)"}. The First Team is chosen, then the Second Team from those left.`),
+      h("div", { class: "box" }, a.all_iooi.map((squad) => h("div", {}, h("h3", {}, squad.label), statTable({
       sortable: false, rows: squad.picks,
       columns: [
         { label: "Slot", value: (r) => slot(r.slot) },

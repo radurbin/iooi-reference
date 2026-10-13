@@ -109,6 +109,9 @@ page("Dynasty iooi History", async (main) => {
       ["Current season", [sLink(L.current_season), L.current_week ? [", ", h("a", { href: "week.html" }, `week ${L.current_week} matchups`)] : null]],
       ["Champions", done.map((s) => `${seasonTeam(s.season, s.champion)} (${s.season})`).join(", ")],
     ]),
+    home.last_week?.lines.length && home.status !== "complete" ? h("div", { class: "onthisday" },
+      h("b", { class: "head" }, `Last week in iooi: ${home.last_week.season} Week ${home.last_week.week}${home.last_week.kind === "regular" ? "" : " (postseason)"}`),
+      h("ul", {}, home.last_week.lines.map((e) => h("li", {}, h("b", {}, `${e.label}: `), rich(e.text))))) : null,
     memories.length ? h("div", { class: "onthisday" }, h("b", { class: "head" }, "This week in iooi history"),
       h("ul", {}, memories.map((e) => h("li", {}, h("b", {}, `${e.date}: `), rich(e.text))))) : null,
     section("Champions", statTable({

@@ -19,11 +19,11 @@
 <script src="assets/site.js"></script>
 <script>
 page("All-Time Teams", async (main) => {
-  const d = await load("all_time_teams");
+  const [d, players] = await Promise.all([load("all_time_teams"), load("players")]);
   const slot = (s) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex", DEF: "D/ST" }[s] ?? s);
-  const cols = (league) => [
+  const cols = (league, fid) => [
     { label: "Slot", render: (r) => slot(r.slot), cls: "win" },
-    { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
+    { label: "Player", render: (r) => pLink(r.player, r.name), cls: activeCls(players, fid ? [fid] : null) },
     { label: "Pos", render: (r) => r.pos, cls: "c" },
     { label: "Years", render: (r) => r.years, cls: "c" },
     league ? { label: "Team(s)", render: (r) => r.franchises.flatMap((id, i) => [i ? ", " : "", fLink(id)]) } : null,
@@ -36,9 +36,10 @@ page("All-Time Teams", async (main) => {
   main.append(
     h("h1", {}, "Dynasty iooi All-Time Teams"),
     h("p", { class: "note" }, "The best lineup each franchise could field from everyone who has started for it, chosen by career starter points at each slot. Flex takes the best remaining back, receiver or tight end; Superflex the best remaining player of any offensive position. Franchise teams count only points scored for that franchise."),
+    activeNote("Bold marks an active player: on any iooi roster for the league teams, on that franchise's roster for the franchise teams."),
     section("All-Time iooi First Team", statTable({ sortable: false, rows: d.league[0], columns: cols(true) }), total(d.league[0])),
     section("All-Time iooi Second Team", statTable({ sortable: false, rows: d.league[1], columns: cols(true) }), total(d.league[1])),
-    L.franchises.map((f) => section(f.name, statTable({ sortable: false, rows: d.franchises[f.id], columns: cols(false) }), total(d.franchises[f.id]))));
+    L.franchises.map((f) => section(f.name, statTable({ sortable: false, rows: d.franchises[f.id], columns: cols(false, f.id) }), total(d.franchises[f.id]))));
   // Franchise names make long in-page menus; keep the headings linkable but trim the menu to the league teams.
 });
 </script>
