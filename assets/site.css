@@ -246,6 +246,8 @@ p.lede { margin: 8px 0 10px; font-size: 15.5px; }
 p.lede h1 { display: inline; font-size: 15.5px; margin: 0; }
 .home { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 16px; margin: 0 0 14px; align-items: start; }
 .panel { border: 1px solid var(--rule); box-shadow: 0 1px 4px rgba(0,0,0,0.14); background: #fff; }
+.panel.wide { grid-column: 1 / -1; }
+.panel.wide p.links { margin: 8px 0 2px; }
 .panel > h2 { margin: 0; padding: 7px 12px; background: var(--brand); color: #fff; border: 0; font-size: 19px; }
 .panel > h2 a { color: #fff; text-decoration: underline; }
 .panel > h2 a:hover { color: var(--gold); }

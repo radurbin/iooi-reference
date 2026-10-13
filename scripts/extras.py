@@ -853,7 +853,7 @@ def home(league, seasons, players, careers, picks):
 
 # ---------------------------------------------------------------- this week
 
-def this_week(league, players, files, seasons, games, streak_data, rivalry_data):
+def this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log):
     """The current week's matchups: lineups as last fetched, projections, Elo win chances, history and storylines."""
     from datetime import datetime, timezone
     season, week = league["current_season"], league["current_week"]
@@ -922,7 +922,11 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data)
                     continue
                 left = [e for e in files[pid]["history"] if e.get("from") == y["franchise"] and e["type"] in ("traded", "released")]
                 if left:
-                    notes.append(f"Revenge game: [[p:{pid}|{line['name']}]] faces the team that {'traded' if left[-1]['type'] == 'traded' else 'released'} him in {left[-1]['date'][:4]}.")
+                    last = left[-1]
+                    drop = next((d for d in waiver_log["drops"] if d["player"] == pid and d["franchise"] == y["franchise"] and d["date"] == last["date"]), None)
+                    how = (f"[[t:{last['trade']}|traded him]]" if last["type"] == "traded" and last.get("trade") else "traded him" if last["type"] == "traded"
+                           else f"[[x:team.html?y={drop['season']}&id={y['franchise']}#releases|released him]]" if drop else "released him")
+                    notes.append(f"Revenge game: [[p:{pid}|{line['name']}]] faces the team that {how} in {last['date'][:4]}.")
                 m = upcoming.get(("player", pid))
                 if m and m["unit"] == "points" and line["proj"] and m["need"] <= line["proj"]:
                     notes.append(f"[[p:{pid}|{line['name']}]] needs {m['need']:.2f} points to reach {m['what']} in iooi lineups.")
@@ -1018,7 +1022,7 @@ def main():
     picks = pick_ledger(trades, league, raw_traded)
     dump(SITE / "picks.json", picks)
     dump(SITE / "home.json", home(league, seasons, players, careers, picks))
-    dump(SITE / "week.json", this_week(league, players, files, seasons, games, streak_data, rivalry_data))
+    dump(SITE / "week.json", this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log))
     teams = all_time_teams(players, careers, league)
     dump(SITE / "all_time_teams.json", teams)
     dump(SITE / "journeys.json", journeys(players, files))

@@ -135,7 +135,7 @@ page("Team Season", async (main) => {
           { label: "Best", value: (r) => r.best, render: (r) => fmt.pts(r.best), num: true },
         ],
       }) : h("p", { class: "note" }, "None."),
-      h("h3", {}, "Releases"), t.drops.length ? statTable({
+      h("h3", { id: "releases" }, "Releases"), t.drops.length ? statTable({
         rows: t.drops,
         columns: [
           { label: "Released", value: (r) => r.date },

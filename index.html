@@ -19,7 +19,7 @@
 <script src="assets/site.js"></script>
 <script>
 page("Dynasty iooi History", async (main) => {
-  const [all, timeline, streaks, home] = await Promise.all([load("all_time"), load("timeline"), load("streaks"), load("home")]);
+  const [all, timeline, streaks, home, week] = await Promise.all([load("all_time"), load("timeline"), load("streaks"), load("home"), load("week")]);
   // Top panels, after the reference sites' front pages: faces of the season's leading scorers, then standings and the lottery.
   const y = home.season;
   const face = (p) => {
@@ -62,6 +62,27 @@ page("Dynasty iooi History", async (main) => {
             ],
           }), h("p", { class: "note" }, [lot.final ? "Final lottery order. " : "If the season ended today. ", lot.basis === "max_pf" ? "Odds go to the non-playoff teams by Max PF, lowest first. " : "", h("a", { href: "tankathon/" }, "Tankathon"), " has the live order."])) : null),
         h("p", { class: "note" }, "Seeds 1-6 make the Dynasty Playoffs; the line marks the cut."))));
+  // This week's games at a glance; the full preview is on its own page.
+  if (week.matchups?.length) {
+    const side = (x) => [tsLink(week.season, x.franchise, x.team), h("small", {}, ` (${x.w}-${x.l})`)];
+    const live = week.matchups.some((m) => m.a.points || m.b.points);
+    const stage = week.week <= 14 ? `Week ${week.week}` : `Week ${week.week} Postseason`;
+    panels.append(h("div", { class: "panel wide" },
+      h("h2", {}, h("a", { href: "week.html" }, "This Week in iooi")),
+      h("div", { class: "body" },
+        h("h3", {}, `${week.season} ${stage} Matchups`),
+        statTable({
+          sortable: false, rows: week.matchups,
+          columns: [
+            { label: "Matchup", render: (m) => [side(m.a), " vs ", side(m.b)], title: "Higher seed listed first" },
+            { label: "Favorite", render: (m) => `${(m.a.chance >= m.b.chance ? m.a : m.b).team} ${fmt.eff(Math.max(m.a.chance, m.b.chance))}`, title: "The team Elo gives the better chance, and that chance" },
+            { label: "Projected", render: (m) => `${fmt.pts(m.a.proj)} - ${fmt.pts(m.b.proj)}`, cls: "c", title: "Sleeper's projected score for the lineups as set" },
+            live ? { label: "Score", render: (m) => `${fmt.pts(m.a.points)} - ${fmt.pts(m.b.points)}`, cls: "c win", title: "Score as of the last data refresh" } : null,
+            { label: "Series", render: (m) => (m.history.games ? `${m.history.a_w}-${m.history.b_w}` : "First meeting"), cls: "c", title: "All-time record between the two, first team listed first" },
+          ].filter(Boolean),
+        }),
+        dots([h("a", { href: "week.html" }, "Full previews, lineups and storylines"), h("a", { href: `season.html?y=${week.season}#schedule-and-results` }, "Schedule and results")]))));
+  }
   // Events from earlier years that fell within three days of today's date.
   const today = new Date();
   const near = (date) => {

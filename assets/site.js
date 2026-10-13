@@ -163,7 +163,7 @@ function statTable({ columns, rows, foot, rowClass, sortable = true }) {
 function rich(text) {
   const make = {
     f: (id, label) => fLink(id, label), m: (id) => mLink(id), p: (id, label) => pLink(id, label), g: (id) => gLink(id, "box score"),
-    t: (id) => tLink(id, "details"), s: (id) => sLink(id), d: (id) => h("a", { href: `draft.html?y=${id}` }, "board"),
+    t: (id, label) => tLink(id, label ?? "details"), s: (id) => sLink(id), d: (id) => h("a", { href: `draft.html?y=${id}` }, "board"),
     c: (id) => h("a", { href: `constitution.html#${id}` }, "text"), x: (href, label) => h("a", { href }, label),
   };
   return text.split(/(\[\[[^\]]+\]\])/).map((part) => {
