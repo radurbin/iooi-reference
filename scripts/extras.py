@@ -384,7 +384,7 @@ def similar_teams(seasons):
 
 # ---------------------------------------------------------------- team seasons
 
-def team_season(season, s, fid, games, players, careers, draft, trades, history, similar, waiver_log):
+def team_season(season, s, fid, games, players, careers, draft, trades, similar, waiver_log):
     row = next(r for r in s["standings"] if r["franchise"] == fid)
     mine = [g for g in games if g["season"] == season and any(t["franchise"] == fid for t in g["teams"])]
     schedule, w, l, managers, names = [], 0, 0, [], []
@@ -426,7 +426,6 @@ def team_season(season, s, fid, games, players, careers, draft, trades, history,
         "trades": [{"id": t["id"], "date": t["date"], "with": [{"franchise": x["franchise"], "team": x["team"]} for x in t["sides"] if x["franchise"] != fid],
                     "got": len(next(x for x in t["sides"] if x["franchise"] == fid)["assets"])}
                    for t in trades if t["status"] == "complete" and t["season"] == season and any(x["franchise"] == fid for x in t["sides"])],
-        "summary": next((era["text"] for era in history if era["heading"].startswith(season)), None),
         "similar": similar.get(f"{season}-{fid}", []),
         "pickups": [p for p in waiver_log["pickups"] if p["season"] == season and p["franchise"] == fid],
         "drops": [d for d in waiver_log["drops"] if d["season"] == season and d["franchise"] == fid],
@@ -1014,8 +1013,7 @@ def main():
         draft_path = SITE / "drafts" / f"{season}.json"
         draft = load(draft_path) if draft_path.exists() else None
         for f in league["franchises"]:
-            history = load(SITE / "franchises" / f"{f['id']}.json")["history"]
-            dump(SITE / "teams" / f"{season}-{f['id']}.json", team_season(season, s, f["id"], games, players, careers, draft, trades, history, similar, waiver_log))
+            dump(SITE / "teams" / f"{season}-{f['id']}.json", team_season(season, s, f["id"], games, players, careers, draft, trades, similar, waiver_log))
 
     files = {pid: load(SITE / "players" / f"{pid}.json") for pid in players}
     raw_traded = load(ROOT / "data" / "raw" / league["current_season"] / "traded_picks.json")

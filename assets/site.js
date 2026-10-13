@@ -189,12 +189,13 @@ function bling(awards) {
   for (const [label, season, cls] of awards) groups.set(label, { cls, seasons: [...(groups.get(label)?.seasons ?? []), season] });
   return [...groups].map(([label, { cls, seasons }]) => h("li", { class: cls, "data-tip": `${label}: ${yearRuns(seasons)}` }, seasons.length > 1 ? `${seasons.length}x ${label}` : `${seasons[0]} ${label}`));
 }
-function bio({ name, photo, logo, lines, awards = [], tiles = [] }) {
+function bio({ name, photo, logo, lines, nav, awards = [], tiles = [] }) {
   const img = photo && h("img", { class: logo ? "photo logo" : "photo", src: photo, alt: "" });
   img?.addEventListener("error", () => img.remove());
   const dot = () => h("span", { class: "sep" }, " ▪ ");
   return h("div", { id: "bio" }, img,
     h("div", { class: "info" }, h("h1", {}, name),
+      nav?.some(Boolean) ? h("div", { class: "seasonnav" }, nav.filter(Boolean)) : null,
       lines.filter(Boolean).map((line) => {
         if (!Array.isArray(line[0])) line = [line];
         const parts = line.filter((part) => part && part[1] != null && part[1] !== "" && part[1] !== false);

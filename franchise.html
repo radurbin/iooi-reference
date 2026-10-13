@@ -96,18 +96,6 @@ page("Franchise", async (main) => {
         { label: "Pts/Add", value: (r) => (r.adds ? r.pts / r.adds : null), render: (r) => (r.adds ? fmt.pts(r.pts / r.adds) : ""), num: true },
       ],
     }), h("p", { class: "note" }, ["Trades are filed under the league year they were made in. A pickup is credited with what the player did as a starter for this team until he left it. Full lists are in the ", h("a", { href: "trades.html" }, "trade register"), " and on the ", h("a", { href: "waivers.html" }, "waiver wire page"), "."])),
-    section("Trade History", trades.length ? statTable({
-      rows: trades,
-      columns: [
-        { label: "Date", value: (x) => x.date },
-        { label: "When", value: (x) => `${x.season} ${String(x.week ?? 0).padStart(2, "0")}`, render: (x) => (x.week ? `${x.season} wk ${x.week}` : `${x.season} offseason`) },
-        { label: "Terms", render: (x) => tradeTerms(x, players) },
-        tradeStatus,
-        { label: "", render: (x) => tLink(x.id, "details") },
-      ],
-    }) : h("p", { class: "note" }, "No trades."),
-      h("p", { class: "note" }, ["Every trade this franchise has been part of, newest first, including those vetoed or withdrawn. Team names are as they were at the time. See also the ", h("a", { href: "trade_records.html" }, "trade records"), "."])),
-    section("Franchise History", h("div", { class: "prose" }, [...f.history].reverse().map((era) => [h("h3", {}, era.heading), h("p", {}, rich(era.text))]))),
     section("All-Time Leaders", statTable({ rows: rank(f.leaders.overall), columns: leaderCols }),
       h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(f.leaders.by_pos).flatMap((rows) => rank(rows)), columns: leaderCols }),
       h("p", { class: "note" }, "Games started and points for this franchise only.")),
@@ -138,7 +126,18 @@ page("Franchise", async (main) => {
         { label: "Renamed to", value: (n) => n.name },
         { label: "By", render: (n) => (n.set_by ? mLink(n.set_by) : "") },
       ],
-    }) : h("p", { class: "note" }, "No renames on record.")));
+    }) : h("p", { class: "note" }, "No renames on record.")),
+    section("Trade History", trades.length ? statTable({
+      rows: trades,
+      columns: [
+        { label: "Date", value: (x) => x.date },
+        { label: "When", value: (x) => `${x.season} ${String(x.week ?? 0).padStart(2, "0")}`, render: (x) => (x.week ? `${x.season} wk ${x.week}` : `${x.season} offseason`) },
+        { label: "Terms", render: (x) => tradeTerms(x, players) },
+        tradeStatus,
+        { label: "", render: (x) => tLink(x.id, "details") },
+      ],
+    }) : h("p", { class: "note" }, "No trades."),
+      h("p", { class: "note" }, ["Every trade this franchise has been part of, newest first, including those vetoed or withdrawn. Team names are as they were at the time. See also the ", h("a", { href: "trade_records.html" }, "trade records"), "."])));
   return f.name;
 });
 </script>

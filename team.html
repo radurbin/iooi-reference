@@ -37,25 +37,34 @@ page("Team Season", async (main) => {
     done && k.pf === 1 ? ["Scoring Title", y] : null,
     done && r.result === "Ultimate Loser" ? ["Ultimate Loser", y, "red"] : null,
   ].filter(Boolean);
+  // Postseason results one to a line, in the manner of a reference-site team page.
+  const bracket = (kind, label, w, l) => {
+    const played = t.schedule.filter((g) => g.kind === kind);
+    return played.length ? [`${label} (${w}-${l})`, played.map((g) => [h("br"), `${g.won ? "Won" : "Lost"} ${g.label} ${fmt.pts(g.pts)}-${fmt.pts(g.opp_pts)} versus `, tsLink(y, g.opp, g.opp_team), " (", gLink(g.id, "box score"), ")"])] : null;
+  };
   const slotName = (s) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex", DEF: "D/ST" }[s] ?? s);
   const list = (rows) => rows.flatMap((x, i) => [i ? ", " : "", pLink(x.player, name(x.player)), h("span", { class: "dim" }, ` (${x.gs})`)]);
   main.append(
     h("div", { class: "crumbs" }, h("a", { href: "index.html#franchises" }, "Franchises"), " › ", fLink(id), " › ", y),
     bio({
       name: title, awards,
+      nav: [
+        years.includes(String(y - 1)) ? tsLink(y - 1, id, `‹‹ Previous Season (${y - 1})`) : null,
+        sLink(y, `League Season (${y})`),
+        years.includes(String(+y + 1)) ? tsLink(+y + 1, id, `Next Season (${+y + 1}) ››`) : null,
+      ],
       lines: [
         [["Record", `${record(r)}, ${ordinal(r.seed)} seed`], [done ? "Finish" : null, done ? r.result ?? ordinal(r.finish) : null]],
         ["Manager(s)", mLinks(t.managers)],
         [["Points For", `${fmt.pts(r.pf)} (${fmt.pts(r.ppg)}/g), ${ordinal(k.pf)} of 12`], ["Points Against", `${fmt.pts(r.pa)}, ${ordinal(k.pa)} fewest`]],
         [["Max PF", `${fmt.pts(r.max_pf)} (${ordinal(k.max_pf)})`], ["Lineup efficiency", `${fmt.eff(r.efficiency)} (${ordinal(k.efficiency)})`]],
         [["All-Play", `${r.all_play_w}-${r.all_play_l}`], ["Expected W-L", `${fmt.pts1(r.expected_w)}-${fmt.pts1(r.w + r.l - r.expected_w)}`], ["Luck", fmt.signed(r.luck)]],
-        [["Playoffs", r.playoff_w + r.playoff_l ? `${r.playoff_w}-${r.playoff_l}` : null], ["Toilet Bowl", r.toilet_w + r.toilet_l ? `${r.toilet_w}-${r.toilet_l}` : null]],
+        bracket("winners", `${y} Dynasty Playoffs`, r.playoff_w, r.playoff_l),
+        bracket("toilet", `${y} Toilet Bowl`, r.toilet_w, r.toilet_l),
         [["Transactions", r.transactions], ["Trades", r.trades]],
         ["Also known as", t.aka.filter((n) => n !== t.team).join(", ")],
-        [null, [years.includes(String(y - 1)) ? [tsLink(y - 1, id, `← ${y - 1}`), "  "] : "", sLink(y, `${y} season`), "  ", years.includes(String(+y + 1)) ? tsLink(+y + 1, id, `${+y + 1} →`) : ""]],
       ],
     }),
-    t.summary ? h("p", { class: "prose" }, rich(t.summary)) : null,
     section("Schedule and Results", statTable({
       sortable: false, rows: t.schedule,
       columns: [

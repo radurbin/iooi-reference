@@ -19,7 +19,9 @@
 <script src="assets/site.js"></script>
 <script>
 page("Manager", async (main) => {
-  const m = await load(`managers/${param("id") || L.commissioner}`);
+  const mid = param("id") || L.commissioner;
+  const [m, allTrades, players] = await Promise.all([load(`managers/${mid}`), load("trades"), load("players")]);
+  const trades = allTrades.filter((x) => x.sides.some((s) => (s.managers ?? []).includes(mid)));
   const t = m.totals;
   const slotName = (slot) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex" })[slot] ?? slot;
   const leaderCols = [
@@ -107,7 +109,18 @@ page("Manager", async (main) => {
         { label: "Acquired stake", value: (s) => s.from },
         { label: "Sold stake", render: (s) => s.to ?? "present" },
       ],
-    })));
+    })),
+    section("Trade History", trades.length ? statTable({
+      rows: trades,
+      columns: [
+        { label: "Date", value: (x) => x.date },
+        { label: "When", value: (x) => `${x.season} ${String(x.week ?? 0).padStart(2, "0")}`, render: (x) => (x.week ? `${x.season} wk ${x.week}` : `${x.season} offseason`) },
+        { label: "Terms", render: (x) => tradeTerms(x, players) },
+        tradeStatus,
+        { label: "", render: (x) => tLink(x.id, "details") },
+      ],
+    }) : h("p", { class: "note" }, "No trades."),
+      h("p", { class: "note" }, ["Every trade made by a franchise while this manager held a stake in it, newest first, including those vetoed or withdrawn. Team names are as they were at the time. See also the ", h("a", { href: "trade_records.html" }, "trade records"), "."])));
   return m.name;
 });
 </script>

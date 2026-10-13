@@ -1006,77 +1006,6 @@ def transaction_wire(season, all_moves, adjustments, people, name_on, trades):
     return out[::-1]
 
 
-def franchise_history(franchise, seasons, season_rows, game_log, appearances, players, people, awards, notes):
-    """A season-by-season account written from the numbers. Hand-written notes are appended."""
-    fid = franchise["id"]
-    ordinal = lambda n: f"{n}{'th' if 10 < n % 100 < 14 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
-    names = people.managers
-    out = []
-    for row in franchise["seasons"]:
-        season, s = row["season"], seasons[row["season"]]
-        rows = list(season_rows[season].values())
-        complete = s["league"]["status"] == "complete"
-        pf_rank = sorted(rows, key=lambda r: -r["pf"]).index(row) + 1
-        owners = sorted({m for g in game_log if g["season"] == season for t in g["teams"] if t["franchise"] == fid for m in t["managers"]})
-        owner_text = " and ".join(names[m]["name"] for m in owners) or "the front office"
-        games = row["w"] + row["l"] + row["t"]
-        text = []
-        if complete:
-            text.append(f"Under {owner_text}, {row['team']} went {row['w']}-{row['l']} to finish as the No. {row['seed']} seed, scoring {row['pf']:.2f} points, {ordinal(pf_rank)} in the league.")
-        else:
-            text.append(f"Through {games} games under {owner_text}, {row['team']} are {row['w']}-{row['l']} and {ordinal(row['seed'])} in the standings, with {row['pf']:.2f} points ({ordinal(pf_rank)}).")
-        if abs(row["luck"]) >= 1.5 and complete:
-            text.append(f"Their all-play record of {row['all_play_w']}-{row['all_play_l']} suggests a team that was {'better' if row['luck'] < 0 else 'worse'} than its record; schedule luck was worth {abs(row['luck']):.2f} wins {'against' if row['luck'] < 0 else 'for'} them.")
-        leaders = defaultdict(lambda: [0, 0.0])
-        for pid, apps in appearances.items():
-            for a in apps:
-                if a["season"] == season and a["franchise"] == fid and a["started"]:
-                    leaders[pid][0] += 1
-                    leaders[pid][1] += a["pts"]
-        if leaders:
-            (top, (starts, pts)), *rest = sorted(leaders.items(), key=lambda kv: -kv[1][1])
-            text.append(f"[[p:{top}|{players[top]['name']}]] led the club with {pts:.2f} points in {starts} starts" +
-                        (f", followed by [[p:{rest[0][0]}|{players[rest[0][0]]['name']}]] ({rest[0][1][1]:.2f})." if rest else "."))
-        mine = sorted((g for g in game_log if g["season"] == season and any(t["franchise"] == fid for t in g["teams"])), key=lambda g: g["week"])
-        if mine:
-            best = max(mine, key=lambda g: next(t["points"] for t in g["teams"] if t["franchise"] == fid))
-            top_score = next(t["points"] for t in best["teams"] if t["franchise"] == fid)
-            text.append(f"The season high was {top_score:.2f} in week {best['week']} ([[g:{best['id']}]]).")
-        post = [g for g in mine if g["kind"] != "regular"]
-        if post:
-            bracket = "Dynasty Playoffs" if post[0]["kind"] == "winners" else "Toilet Bowl"
-            steps = []
-            for g in post:
-                me, them = sorted(g["teams"], key=lambda t: t["franchise"] != fid)
-                steps.append(f"{'beat' if g['winner'] == fid else 'lost to'} [[f:{them['franchise']}|{them['team']}]] {me['points']:.2f}-{them['points']:.2f} in the {g['label']}")
-            closing = {1: "and won the championship ring", 2: "and finished as runner-up", 12: "and were crowned Ultimate Loser"}.get(row["finish"], f"and finished {ordinal(row['finish'])}" if row["finish"] else "")
-            text.append(f"In the {bracket} they " + ", then ".join(steps) + f" {closing}.".replace(" .", "."))
-        elif complete and row["finish"]:
-            text.append(f"They finished {ordinal(row['finish'])}.")
-        if row["transactions"]:
-            text.append(f"The front office made {row['transactions']} transactions, {row['trades']} of them trades.")
-        award = next((a for a in awards if a["season"] == season), None)
-        if award and complete:
-            mvp = award["mvp"][0]
-            if any(t["franchise"] == fid for t in mvp["teams"]):
-                text.append(f"[[p:{mvp['player']}|{players[mvp['player']]['name']}]] was the league MVP.")
-            won = [y for y in award["young_sexy"] if y["franchise"] == fid]
-            if won:
-                text.append("Young Sexy Award winners on the roster at season's end: " + ", ".join(f"{y['name']} ({y['pos']})" for y in won) + ".")
-        year_names = [n for n in franchise["names"] if n["date"][:4] == season]
-        if year_names:
-            text.append(f"The club was renamed {len(year_names)} time{'s' if len(year_names) > 1 else ''} during the year, ending as {year_names[-1]['name']}.")
-        for st in franchise["ownership"]:
-            if st["from"][:4] == season and st["from"] > "2023-08-15":
-                text.append(f"[[m:{st['manager']}]] acquired a stake on {st['from']}.")
-            if st["to"] and st["to"][:4] == season:
-                text.append(f"[[m:{st['manager']}]] gave up his stake on {st['to']}.")
-        if notes.get(season):
-            text.append(notes[season])
-        out.append({"season": season, "heading": f"{season}: {row['team']}", "text": " ".join(text)})
-    return out
-
-
 # ---------------------------------------------------------------- awards, timeline, lottery
 
 ALL_IOOI_SLOTS = ["QB", "RB", "RB", "WR", "WR", "TE", "FLEX", "SUPER_FLEX", "K", "DEF"]
@@ -1674,10 +1603,8 @@ def main():
     dump(SITE / "elo.json", build_elo(game_log, seasons))
     for season in season_ids:
         dump(SITE / "transactions" / f"{season}.json", transaction_wire(season, all_moves, adjustments, people, name_on, trades))
-    notes = load(MANUAL / "franchise_notes.json")["notes"]
     for fid, franchise in franchises.items():
         franchise["leaders"] = franchise_leaders(fid, appearances, players)
-        franchise["history"] = franchise_history(franchise, seasons, season_rows, game_log, appearances, players, people, awards, notes.get(str(fid), {}))
         dump(SITE / "franchises" / f"{fid}.json", franchise)
 
     dump(SITE / "players.json", players)
