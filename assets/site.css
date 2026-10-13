@@ -59,6 +59,8 @@ h3 { font-size: 14px; margin: 14px 0 4px; }
 table.stats { border-collapse: collapse; font-size: 12.5px; line-height: 1.25; white-space: nowrap; border: 1px solid var(--rule-dark); background: #fff; }
 table.stats th, table.stats td { border: 1px solid var(--rule); padding: 3px 6px 2px; }
 table.stats thead th { background: var(--head); font-weight: 700; text-align: center; border-bottom: 1px solid var(--rule-dark); position: sticky; top: 0; }
+table.stats tbody tr.rehead th { background: var(--head); font-weight: 700; text-align: center; border-top: 1px solid var(--rule-dark); border-bottom: 1px solid var(--rule-dark); }
+table.stats tbody tr.rehead th.num { text-align: right; }
 table.stats thead th.sortable { cursor: pointer; }
 table.stats thead th.sortable:hover { background: #c8ccd0; }
 table.stats thead th.sorted { background: #c3c8cd; }

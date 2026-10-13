@@ -126,7 +126,8 @@ function tooltips() {
 }
 
 // columns: [{ label, title, value(row), render(row), num, cls }]. value() drives sorting; render() the cell.
-function statTable({ columns, rows, foot, rowClass, sortable = true }) {
+// groupBy(row): where its value changes from one row to the next, the column headings are repeated, as on the reference sites.
+function statTable({ columns, rows, foot, rowClass, groupBy, sortable = true }) {
   const table = h("table", { class: "stats" });
   const tbody = h("tbody");
   let sorted = { index: -1, asc: false };
@@ -135,7 +136,10 @@ function statTable({ columns, rows, foot, rowClass, sortable = true }) {
     const cls = [col.num ? "num" : "", typeof col.cls === "function" ? col.cls(row) : col.cls].filter(Boolean).join(" ");
     return h(tag, { class: cls || null }, shown ?? "");
   };
-  const draw = (list) => tbody.replaceChildren(...list.map((row) => h("tr", { class: rowClass?.(row) }, columns.map((c) => cell(c, row)))));
+  const rehead = () => h("tr", { class: "rehead" }, columns.map((c) => h("th", { class: c.num ? "num" : null }, c.label)));
+  const draw = (list) => tbody.replaceChildren(...list.flatMap((row, i) => [
+    groupBy && i && groupBy(row) !== groupBy(list[i - 1]) ? rehead() : null,
+    h("tr", { class: rowClass?.(row) }, columns.map((c) => cell(c, row)))]).filter(Boolean));
   const heads = columns.map((col, index) =>
     h("th", {
       class: [col.num ? "num" : "", sortable && col.value ? "sortable" : ""].join(" ").trim() || null,
