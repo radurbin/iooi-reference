@@ -213,7 +213,7 @@ function leaderBoxes(boards, linkOf) {
 
 // What each side of a trade received, one line per side. players is players.json.
 function tradeTerms(t, players) {
-  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${ordinal(a.round)}-round pick${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : ""}`);
+  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${ordinal(a.round)}-round pick${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : a.original ? ` (originally ${seasonTeam(t.season, a.original)})` : ""}`);
   return t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a)]) : "nothing"));
 }
 const tradeStatus = { label: "Status", value: (t) => t.status, render: (t) => ({ complete: "", vetoed: "Vetoed", cancelled: "Withdrawn", pending: "Under review" })[t.status] ?? t.status, cls: "c", title: "Blank for a completed trade; otherwise under review, vetoed by league vote, or withdrawn during review" };

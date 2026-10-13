@@ -21,8 +21,8 @@
 page("Trades", async (main) => {
   const [trades, players] = await Promise.all([load("trades"), load("players")]);
   const round = (n) => `${ordinal(n)}-round pick`;
-  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${round(a.round)}${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : ""}`);
-  const terms = (t) => t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a)]) : "nothing"));
+  const asset = (a, t) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : `${a.season} ${round(a.round)}${a.became ? ` (${a.became.label}, ${players[a.became.player]?.name})` : a.original ? ` (originally ${seasonTeam(t.season, a.original)})` : ""}`);
+  const terms = (t) => t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a, t)]) : "nothing"));
   const votes = (t) => (t.votes ? `${t.votes.pass ?? 0}-${t.votes.veto ?? 0}` : "");
   const table = (rows) => statTable({
     rows,
