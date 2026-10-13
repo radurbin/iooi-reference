@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Search | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://radurbin.github.io/iooi-reference/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Search", async (main) => {
+  const q = (param("q") || "").trim();
+  main.append(h("h1", {}, q ? `Search Results for "${q}"` : "Search"));
+  if (q.length < 2) {
+    main.append(h("p", { class: "note" }, "Type at least two letters of a player, team or manager in the box above. Players can be found by nickname, and franchises by any name they have used."));
+    return "Search";
+  }
+  const groups = await searchGroups(q, 500);
+  if (!groups.length) main.append(h("p", {}, "No players, franchises or managers match."));
+  for (const g of groups) {
+    main.append(section(g.title, h("div", { class: "scroll" }, h("table", { class: "stats results" },
+      h("thead", {}, h("tr", {}, h("th", { "data-tip": "Name, with the matched part underlined; a nickname or former name that matched is in brackets" }, "Name"),
+        h("th", { "data-tip": "Position, or the kind of page" }, "Type"), h("th", { "data-tip": "Seasons on an iooi roster, or active in the league" }, "Years"),
+        g.rows.some((x) => x.team) ? h("th", { "data-tip": "For a player, the team he is on now, or the last one he was on, under its name that season. For a manager, the franchise he runs or last ran." }, "Team") : null)),
+      h("tbody", {}, g.rows.map((x) => { const row = searchRow(x, q); return h("tr", {},
+        h("td", { class: x.active ? "active" : null }, h("a", { href: x.href }, [...row.firstChild.childNodes])), h("td", { class: "c" }, x.note), h("td", { class: x.active ? "c active" : "c" }, x.years),
+        g.rows.some((y) => y.team) ? h("td", { class: x.active ? "active" : "dim" }, x.team ? [fLink(x.team.franchise, x.team.team), x.active || !x.team.season ? null : ` (${x.team.season})`] : "") : null); })))),
+      h("p", { class: "note" }, `${g.total} ${g.total === 1 ? "match" : "matches"}. Bold marks a player on an iooi roster today, or a current franchise or manager. For a player who has left, the team is the last one he was on, with the season.`)));
+  }
+  return `Search: ${q}`;
+});
+</script>
+</body>
+</html>

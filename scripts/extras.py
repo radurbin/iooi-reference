@@ -633,7 +633,7 @@ def aging(players, files):
 # Points toward the Hall of Fame Monitor. A first pass, to be tuned with the league.
 # A title is worth "champion" to a player who started the championship game, "champion_regular" to one on the title roster who
 # started at least half the team's games that season but not the final, and nothing to a bench player.
-HOF_WEIGHTS = {"war": 10, "start": 0.25, "black_ink": 1, "mvp": 15, "first_team": 6, "second_team": 3, "champion": 4, "champion_regular": 2, "young_sexy": 2, "rookie_of_year": 1}
+HOF_WEIGHTS = {"war": 10, "start": 0.25, "black_ink": 1, "mvp": 15, "first_team": 6, "second_team": 3, "champion": 4, "champion_regular": 2, "young_sexy": 2, "rookie_of_year": 1, "championship_mvp": 3}
 HOF_BENCHMARK = 100
 
 
@@ -662,7 +662,7 @@ def hof_monitor(players, files, ink, games):
         honors = Counter()
         for text in f["honors"]:
             what = text.split(" ", 1)[1] if text[:4].isdigit() else text
-            key = ("mvp" if "MVP" in what else "first_team" if "First Team" in what else "second_team" if "Second Team" in what
+            key = ("championship_mvp" if what == "Championship MVP" else "mvp" if "MVP" in what else "first_team" if "First Team" in what else "second_team" if "Second Team" in what
                    else "young_sexy" if what.startswith("Young Sexy") else "rookie_of_year" if what == "Rookie of the Year" else None)
             if key:
                 honors[key] += 1
@@ -817,6 +817,40 @@ def franchise_moves(fid, league, trades, waivers):
                      **{k: w[k] for k in ("claims", "signings", "adds", "releases", "gs", "pts")}})
     return rows
 
+# ---------------------------------------------------------------- home page
+
+HOME_FACES = 12
+LOTTERY_ODDS = (30.0, 25.0, 20.0, 15.0, 7.0, 3.0)   # the six non-playoff teams, worst first (2nd Amendment)
+
+
+def home(league, seasons, players, careers, picks):
+    """The front page's top panels: the season's leading scorers, the standings, and the lottery as it stands."""
+    played = [s for s in league["seasons"] if seasons[s["season"]]["games"]]
+    season = played[-1]["season"]
+    s = seasons[season]
+    points = defaultdict(lambda: {"pts": 0.0, "gs": 0})
+    for pid, career in careers.items():
+        for row in career:
+            if row["season"] == season and row["gs"]:
+                points[pid]["pts"] += row["pts"]
+                points[pid]["gs"] += row["gs"]
+    scorers = sorted(points, key=lambda pid: -points[pid]["pts"])[:HOME_FACES]
+    draft = str(int(season) + 1)
+    lottery = None
+    if draft not in {d["season"] for d in league["drafts"]}:
+        # From the 2027 draft the odds follow Max PF, lowest first (5th Amendment); before that, regular-season standing.
+        out = [r for r in s["standings"] if r["seed"] > 6]
+        out.sort(key=(lambda r: r["max_pf"]) if int(draft) >= 2027 else (lambda r: -r["seed"]))
+        holder = {p["original"]: p["holder"] for p in picks["future"] if p["season"] == draft and p["round"] == 1}
+        lottery = {"draft": draft, "basis": "max_pf" if int(draft) >= 2027 else "standing", "final": s["status"] == "complete",
+                   "rows": [{"franchise": r["franchise"], "team": r["team"], "max_pf": r["max_pf"], "odds": odds, "holder": holder.get(r["franchise"], r["franchise"])}
+                            for r, odds in zip(out, LOTTERY_ODDS)]}
+    return {"season": season, "status": s["status"], "weeks_played": s["weeks_played"],
+            "scorers": [{"player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "pts": r2(points[pid]["pts"]), "gs": points[pid]["gs"]} for pid in scorers],
+            "standings": [{k: r[k] for k in ("seed", "franchise", "team", "w", "l", "pf", "finish", "result")} for r in s["standings"]],
+            "lottery": lottery}
+
+
 # ---------------------------------------------------------------- this week
 
 def this_week(league, players, files, seasons, games, streak_data, rivalry_data):
@@ -942,7 +976,17 @@ def main():
     status = player_status(players, league)
     for pid, p in players.items():
         p["status"] = status[pid]
+        on_roster = sorted({row["season"] for row in careers[pid]})   # seasons with a week on an iooi roster, for the search box
+        p["years"] = [on_roster[0], on_roster[-1]] if on_roster else None
+        p["last_team"] = {k: careers[pid][-1][k] for k in ("season", "franchise", "team")} if careers[pid] else None
     dump(SITE / "players.json", players)
+    for m in league["managers"]:
+        stints = load(SITE / "managers" / f"{m['id']}.json")["stints"]
+        m["years"] = [min(st["from"] for st in stints)[:4], max((st["to"] or league["current_season"])[:4] for st in stints)]
+        m["active"] = any(st["to"] is None for st in stints)
+        latest = max(stints, key=lambda st: (st["to"] is None, st["to"] or "", st["from"]))   # the stake held now, else the last one given up
+        m["franchise"] = latest["franchise"]
+    dump(SITE / "league.json", league)
     waivers = load(SITE / "waivers.json")
     for f in league["franchises"]:
         path = SITE / "franchises" / f"{f['id']}.json"
@@ -971,7 +1015,9 @@ def main():
 
     files = {pid: load(SITE / "players" / f"{pid}.json") for pid in players}
     raw_traded = load(ROOT / "data" / "raw" / league["current_season"] / "traded_picks.json")
-    dump(SITE / "picks.json", pick_ledger(trades, league, raw_traded))
+    picks = pick_ledger(trades, league, raw_traded)
+    dump(SITE / "picks.json", picks)
+    dump(SITE / "home.json", home(league, seasons, players, careers, picks))
     dump(SITE / "week.json", this_week(league, players, files, seasons, games, streak_data, rivalry_data))
     teams = all_time_teams(players, careers, league)
     dump(SITE / "all_time_teams.json", teams)

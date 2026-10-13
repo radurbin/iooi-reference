@@ -19,7 +19,49 @@
 <script src="assets/site.js"></script>
 <script>
 page("Dynasty iooi History", async (main) => {
-  const [all, timeline, streaks] = await Promise.all([load("all_time"), load("timeline"), load("streaks")]);
+  const [all, timeline, streaks, home] = await Promise.all([load("all_time"), load("timeline"), load("streaks"), load("home")]);
+  // Top panels, after the reference sites' front pages: faces of the season's leading scorers, then standings and the lottery.
+  const y = home.season;
+  const face = (p) => {
+    const img = h("img", { src: p.pos === "DEF" ? `https://sleepercdn.com/images/team_logos/nfl/${p.player.toLowerCase()}.png` : `https://sleepercdn.com/content/nfl/players/thumb/${p.player}.jpg`, alt: p.name, loading: "lazy", class: p.pos === "DEF" ? "logo" : null });
+    img.addEventListener("error", () => img.replaceWith(h("span", {}, p.name)));
+    return h("a", { href: `player.html?id=${p.player}`, "data-tip": `${p.name}, ${p.pos}: ${fmt.pts(p.pts)} points in ${p.gs} ${p.gs === 1 ? "start" : "starts"}` }, img);
+  };
+  const dots = (links) => h("p", { class: "links" }, links.flatMap((a, i) => [i ? " · " : "", a]));
+  const lot = home.lottery;
+  const panels = h("div", { class: "home" },
+    h("div", { class: "panel" },
+      h("h2", {}, h("a", { href: "players.html" }, "Every iooi Player")),
+      h("div", { class: "body" },
+        h("div", { class: "faces" }, home.scorers.map(face)),
+        h("h3", {}, `${y} Scoring Leaders`),
+        h("ol", { class: "scorers" }, home.scorers.map((p) => h("li", {}, pLink(p.player, p.name), h("small", {}, ` ${p.pos}`), h("b", {}, fmt.pts(p.pts))))),
+        dots([h("a", { href: "players.html" }, "Player Register"), h("a", { href: "leaders.html" }, "Career & Season Leaders"), h("a", { href: "hof.html" }, "Hall of Fame Monitor"), h("a", { href: "nicknames.html" }, "Nicknames")]))),
+    h("div", { class: "panel" },
+      h("h2", {}, h("a", { href: "index.html#franchises" }, "Every iooi Team")),
+      h("div", { class: "body" },
+        h("h3", {}, `${y} iooi Standings`),
+        dots([sLink(y, "Summary"), h("a", { href: `season.html?y=${y}#schedule-and-results` }, "Schedule"), L.current_week ? h("a", { href: "week.html" }, "This Week") : null, h("a", { href: `season.html?y=${y}#league-leaders` }, "Leaders"), h("a", { href: "ratings.html" }, "Elo Ratings")].filter(Boolean)),
+        h("div", { class: "pair" },
+          statTable({
+            sortable: false, rows: home.standings, rowClass: (r) => (r.finish === 1 ? "champ" : r.seed === 7 ? "first" : null),
+            columns: [
+              { label: "Team", render: (r) => [tsLink(y, r.franchise, r.team), h("small", {}, ` (${r.seed})`)], title: "Team, with its seed" },
+              { label: "W", render: (r) => r.w, num: true },
+              { label: "L", render: (r) => r.l, num: true },
+              { label: "PF", render: (r) => fmt.pts(r.pf), num: true },
+            ],
+          }),
+          lot ? h("div", {}, statTable({
+            sortable: false, rows: lot.rows,
+            columns: [
+              { label: `${lot.draft} Lottery`, render: (r) => fLink(r.franchise, r.team), title: "The six teams outside the playoffs, in lottery order" },
+              { label: "Max PF", render: (r) => fmt.pts(r.max_pf), num: true },
+              { label: "Odds", render: (r) => `${r.odds}%`, num: true, cls: "win", title: "Chance at the first pick" },
+              { label: "Holder", render: (r) => (r.holder === r.franchise ? "own" : fLink(r.holder)), title: `Who holds the team's ${lot.draft} first-round pick` },
+            ],
+          }), h("p", { class: "note" }, [lot.final ? "Final lottery order. " : "If the season ended today. ", lot.basis === "max_pf" ? "Odds go to the non-playoff teams by Max PF, lowest first. " : "", h("a", { href: "tankathon/" }, "Tankathon"), " has the live order."])) : null),
+        h("p", { class: "note" }, "Seeds 1-6 make the Dynasty Playoffs; the line marks the cut."))));
   // Events from earlier years that fell within three days of today's date.
   const today = new Date();
   const near = (date) => {
@@ -36,7 +78,8 @@ page("Dynasty iooi History", async (main) => {
   const done = L.seasons.filter((s) => s.status === "complete");
   const team = (key) => (s) => (s[key] ? fLink(s[key], seasonTeam(s.season, s[key])) : "");
   main.append(
-    h("h1", {}, "Dynasty iooi History & Stats"),
+    h("p", { class: "lede" }, h("h1", {}, "iooi Stats and History"), ` Statistics, scores and history for Dynasty iooi, a twelve-team dynasty fantasy football league founded in ${L.founded}.`),
+    panels,
     meta([
       ["Founded", L.founded],
       ["Franchises", L.franchises.length],

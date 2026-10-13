@@ -174,10 +174,20 @@ function rich(text) {
 
 // Page header in the reference-site manner: picture, name and bold-label lines on the left, award badges on the right.
 // awards: [[label, season, class]]. Repeats collapse to "3x Label"; a single award shows its season.
+// "2023-2025, 2027": consecutive years collapse to a range.
+function yearRuns(years) {
+  const sorted = [...new Set(years.map(Number))].sort((x, y) => x - y);
+  const runs = [];
+  for (const y of sorted) {
+    if (runs.length && y === runs.at(-1)[1] + 1) runs.at(-1)[1] = y;
+    else runs.push([y, y]);
+  }
+  return runs.map(([from, to]) => (from === to ? from : `${from}-${to}`)).join(", ");
+}
 function bling(awards) {
   const groups = new Map();
   for (const [label, season, cls] of awards) groups.set(label, { cls, seasons: [...(groups.get(label)?.seasons ?? []), season] });
-  return [...groups].map(([label, { cls, seasons }]) => h("li", { class: cls, "data-tip": `${label}: ${seasons.join(", ")}` }, seasons.length > 1 ? `${seasons.length}x ${label}` : `${seasons[0]} ${label}`));
+  return [...groups].map(([label, { cls, seasons }]) => h("li", { class: cls, "data-tip": `${label}: ${yearRuns(seasons)}` }, seasons.length > 1 ? `${seasons.length}x ${label}` : `${seasons[0]} ${label}`));
 }
 function bio({ name, photo, logo, lines, awards = [], tiles = [] }) {
   const img = photo && h("img", { class: logo ? "photo logo" : "photo", src: photo, alt: "" });
@@ -221,28 +231,65 @@ const meta = (pairs) => h("ul", { class: "meta" }, pairs.filter((p) => p && p[1]
 const rank = (list) => list.map((row, i) => ({ ...row, rk: i + 1 }));
 
 // Header search over players, franchises and managers, in the manner of the big reference sites.
+// Everything the search box looks through: players (by name or nickname), franchises (by any name they have used) and managers.
+let searchIndex = null;
+async function searchGroups(query, limit = 8) {
+  const q = query.trim().toLowerCase();
+  if (!searchIndex) {
+    const players = await load("players");
+    const span = (y) => (y ? (y[0] === y[1] ? y[0] : `${y[0]}-${y[1]}`) : "");
+    searchIndex = {
+      "iooi Players": { href: "players.html", rows: Object.entries(players).map(([id, p]) => ({ name: p.name, href: `player.html?id=${id}`, years: span(p.years ?? (p.status?.code === "rostered" ? [L.current_season, L.current_season] : null)), active: p.status?.code === "rostered", sort: p.pts ?? 0, note: p.pos, also: (p.nicknames ?? []).join(" | "),
+        team: p.status?.code === "rostered" ? { franchise: p.status.franchise } : p.last_team })) },
+      "iooi Franchises": { href: "index.html#franchises", rows: L.franchises.map((f) => ({ name: f.name, href: `franchise.html?id=${f.id}`, years: span([L.seasons[0].season, L.current_season]), active: true, sort: 0, note: "Franchise", also: [...new Set(L.seasons.map((s) => s.teams[f.id]))].filter((n) => n && n !== f.name).join(" | ") })) },
+      "iooi Managers": { href: "index.html#managers", rows: L.managers.map((m) => ({ name: m.name, href: `manager.html?id=${m.id}`, years: span(m.years), active: m.active, sort: 0, note: "Manager", also: "", team: { franchise: m.franchise } })) },
+    };
+  }
+  return Object.entries(searchIndex).map(([title, group]) => {
+    const found = group.rows.filter((x) => x.name.toLowerCase().includes(q) || x.also.toLowerCase().includes(q))
+      .map((x) => ({ ...x, via: x.name.toLowerCase().includes(q) ? null : x.also.split(" | ").find((n) => n.toLowerCase().includes(q)) }))
+      .sort((x, y) => (y.active - x.active) || (y.sort - x.sort) || x.name.localeCompare(y.name));
+    return { title, href: group.href, total: found.length, rows: found.slice(0, limit) };
+  }).filter((g) => g.total);
+}
+
+// A result row in the reference-site manner: the matched part underlined, years at the right, bold when still active.
+function searchRow(x, q) {
+  const mark = (text) => {
+    const at = text.toLowerCase().indexOf(q.trim().toLowerCase());
+    return at < 0 ? text : [text.slice(0, at), h("u", {}, text.slice(at, at + q.trim().length)), text.slice(at + q.trim().length)];
+  };
+  return h("a", { href: x.href, class: x.active ? "row active" : "row" }, h("span", {}, mark(x.name), x.via ? h("i", {}, [" (", mark(x.via), ")"]) : null), h("small", {}, x.years));
+}
+
+// Header search over players, franchises and managers, in the manner of the big reference sites.
 function searchBox() {
   const hits = h("div", { class: "hits", hidden: true });
-  let index = null;
-  const input = h("input", { type: "search", placeholder: "Search players, teams, managers", "aria-label": "Search" });
+  const input = h("input", { type: "search", placeholder: "Enter Player, Team, Manager", "aria-label": "Search" });
+  const all = () => `search.html?q=${encodeURIComponent(input.value.trim())}`;
+  let latest = 0;
   input.addEventListener("input", async () => {
-    const q = input.value.trim().toLowerCase();
-    if (q.length < 2) { hits.hidden = true; return; }
-    if (!index) {
-      const players = await load("players");
-      index = [
-        ...L.franchises.map((f) => ({ name: f.name, kind: "Franchise", href: `franchise.html?id=${f.id}`, rank: 3 })),
-        ...L.managers.map((m) => ({ name: m.name, kind: "Manager", href: `manager.html?id=${m.id}`, rank: 2 })),
-        ...Object.entries(players).map(([id, p]) => ({ name: p.name, kind: p.pos ?? "Player", href: `player.html?id=${id}`, rank: 1, pts: p.pts ?? 0, also: p.nicknames?.join(" | ").toLowerCase() })),
-      ];
-    }
-    const found = index.filter((x) => x.name.toLowerCase().includes(q) || x.also?.includes(q)).sort((a, b) => b.rank - a.rank || (b.pts ?? 0) - (a.pts ?? 0)).slice(0, 12);
-    hits.replaceChildren(...(found.length ? found.map((x) => h("a", { href: x.href }, h("span", {}, x.name), h("small", {}, x.kind))) : [h("a", {}, "No matches")]));
+    const q = input.value;
+    const turn = ++latest;
+    if (q.trim().length < 2) { hits.hidden = true; return; }
+    const groups = await searchGroups(q);
+    if (turn !== latest) return;
+    hits.replaceChildren(
+      ...(groups.length ? groups.flatMap((g) => [h("a", { class: "group", href: g.href }, g.title), ...g.rows.map((x) => searchRow(x, q))]) : [h("div", { class: "none" }, "No matches")]),
+      h("a", { class: "all", href: all() }, `All matches for "${q.trim()}" (or press enter)`));
     hits.hidden = false;
   });
-  input.addEventListener("keydown", (e) => { if (e.key === "Enter" && hits.querySelector("a[href]")) location.href = hits.querySelector("a[href]").href; });
+  // Enter goes straight to a lone match, otherwise to the full list.
+  const go = async () => {
+    const q = input.value;
+    if (q.trim().length < 2) { input.focus(); return; }
+    const rows = (await searchGroups(q, 2)).flatMap((g) => g.rows);
+    location.href = rows.length === 1 ? rows[0].href : all();
+  };
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
   document.addEventListener("click", (e) => { if (!e.target.closest("#search")) hits.hidden = true; });
-  return h("div", { id: "search" }, input, hits);
+  if (param("q") && location.pathname.endsWith("search.html")) input.value = param("q");
+  return h("div", { id: "search" }, input, h("button", { type: "button", onclick: go }, "Search"), hits);
 }
 
 // Jump to a page chosen at random: mostly players, with team seasons, franchises, managers and drafts mixed in.

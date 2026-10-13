@@ -27,12 +27,13 @@ page("Awards", async (main) => {
   const slot = (s) => s.replace("SUPER_FLEX", "SFLX");
   main.append(
     h("h1", {}, "Dynasty iooi Awards and Honors"),
-    h("p", { class: "note" }, "The championship ring, the Young Sexy Awards and the Ultimate Loser are set out in the constitution. MVP, All-iooi teams and Rookie of the Year are computed by iooi Reference."),
+    h("p", { class: "note" }, "The championship ring, the Young Sexy Awards and the Ultimate Loser are set out in the constitution. MVP, Championship MVP, All-iooi teams and Rookie of the Year are computed by iooi Reference."),
     section("Champions and Team Honors", statTable({
       sortable: false, rows: awards,
       columns: [
         { label: "Season", render: (a) => sLink(a.season) },
         { label: "Champion", render: (a) => team(a.champion), cls: "win" },
+        { label: "Championship MVP", render: (a) => (a.championship_mvp ? [pLink(a.championship_mvp.player, name(a.championship_mvp.player)), " (", gLink(a.championship_mvp.game, fmt.pts(a.championship_mvp.pts)), ")"] : ""), title: "Top scorer in the champion's starting lineup in the title game, team defenses excepted" },
         { label: "Runner-up", render: (a) => team(a.runner_up) },
         { label: "Top seed", render: (a) => team(a.top_seed) },
         { label: "Scoring title", render: (a) => [team(a.scoring_title), ` (${fmt.pts(a.scoring_title.value)})`] },

@@ -1164,9 +1164,17 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
             "unluckiest": {**team(min(rows, key=lambda r: r["luck"])), "value": min(r["luck"] for r in rows)},
             "mvp": mine[:5], "rookie": sorted(rookies, key=lambda r: -r["pts"])[:3], "all_iooi": teams, "young_sexy": young,
         }
+        # Championship MVP: the top scorer in the winner's starting lineup in the title game, team defenses excepted.
+        title = next((g for g in game_log if g["season"] == season and g["label"] == "Dynasty Championship"), None) if complete else None
+        side = next(t for t in title["teams"] if t["franchise"] == title["winner"]) if title else None
+        best = max((x for x in side["starters"] if players[x["player"]]["pos"] != "DEF"), key=lambda x: x["pts"], default=None) if side else None
+        entry["championship_mvp"] = best and {"player": best["player"], "pos": players[best["player"]]["pos"], "pts": r2(best["pts"]),
+                                              "franchise": side["franchise"], "team": side["team"], "game": title["id"]}
         out.append(entry)
         if complete:
             honors[mine[0]["player"]].append(f"{season} iooi MVP")
+            if best:
+                honors[best["player"]].append(f"{season} Championship MVP")
             if entry["rookie"]:
                 honors[entry["rookie"][0]["player"]].append(f"{season} Rookie of the Year")
             for squad in teams:
@@ -1175,9 +1183,7 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
             for y in young:
                 if y["player"]:
                     honors[y["player"]].append(f"{season} Young Sexy {y['pos']}")
-            title = next((g for g in game_log if g["season"] == season and g["label"] == "Dynasty Championship"), None)
             if title:
-                side = next(t for t in title["teams"] if t["franchise"] == title["winner"])
                 for line in side["starters"] + side["bench"]:
                     honors[line["player"]].append(f"{season} champion ({side['team']})")
     return out[::-1], honors
