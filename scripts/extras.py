@@ -417,7 +417,7 @@ def team_season(season, s, fid, games, players, careers, draft, trades, history,
     roster = sorted(({"player": pid, "pos": players[pid]["pos"], **{k: c[k] for k in ("g", "gs", "pts", "ppg", "best", "bench_pts", "wins", "paa", "vor", "war")}}
                      for pid, career in careers.items() for c in career if c["season"] == season and c["franchise"] == fid), key=lambda r: (-r["pts"], -r["g"]))
     standings = s["standings"]
-    rank = lambda key, reverse=True: sorted(standings, key=lambda r: r[key], reverse=reverse).index(row) + 1
+    rank = lambda key, reverse=True: sorted(standings, key=lambda r: r[key] or 0, reverse=reverse).index(row) + 1   # before week 1 some figures are blank
     return {
         "season": season, "franchise": fid, "team": row["team"], "aka": names, "managers": managers, "row": row, "status": s["status"],
         "ranks": {"pf": rank("pf"), "pa": rank("pa", False), "max_pf": rank("max_pf"), "efficiency": rank("efficiency"), "luck": rank("luck")},

@@ -20,6 +20,11 @@
 <script>
 page("Draft", async (main) => {
   const y = param("y") || L.drafts.at(-1).season;
+  if (!L.drafts.some((d) => d.season === y)) {
+    main.append(h("h1", {}, `${y} Dynasty iooi Draft`), h("p", { class: "note" }, "This draft has not been held yet. Its results will appear here once it is complete."),
+      h("p", {}, h("a", { href: "lottery.html" }, "Draft order and lottery"), " · ", h("a", { href: "tankathon/" }, "Tankathon: live draft order")));
+    return `${y} Draft`;
+  }
   const [draft, players] = await Promise.all([load(`drafts/${y}`), load("players")]);
   const title = draft.kind === "startup" ? `${y} Dynasty iooi Startup Draft` : `${y} Dynasty iooi Rookie Draft`;
   const first = draft.picks[0];

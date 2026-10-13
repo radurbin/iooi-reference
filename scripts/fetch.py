@@ -24,7 +24,8 @@ from pathlib import Path
 
 API = "https://api.sleeper.app/v1"
 # Newest league; older seasons are found by following previous_league_id.
-CURRENT_LEAGUE_ID = "1314038209503567872"
+CURRENT_LEAGUE_ID = "1314038209503567872"   # the 2026 league; only a starting point, see newest_league()
+COMMISSIONER_ID = "961678741954990080"       # Sleeper user whose league list is searched for each new season
 STATS_API = "https://api.sleeper.com"
 RAW = Path(__file__).resolve().parent.parent / "data" / "raw"
 CACHE = RAW.parent / "cache"
@@ -91,6 +92,24 @@ def fetch_nfl_weeks(season, last_week, refresh_from, force):
             save(path, get(f"{kind}/nfl/{season}/{week}?season_type=regular{POSITIONS}", base=STATS_API))
 
 
+def newest_league():
+    """The league id of the newest season.
+
+    Sleeper gives each season a new league id that points back to the one before, but not forward. So start from the
+    newest season already on disk and look, among the commissioner's leagues for each following year, for the one that
+    points back to it.
+    """
+    saved = sorted(RAW.glob("*/league.json"))
+    league = json.loads(saved[-1].read_text()) if saved else get(f"league/{CURRENT_LEAGUE_ID}")
+    while True:
+        later = get(f"user/{COMMISSIONER_ID}/leagues/nfl/{int(league['season']) + 1}") or []
+        successor = next((entry for entry in later if entry.get("previous_league_id") == league["league_id"]), None)
+        if not successor:
+            return league["league_id"]
+        print(f"found the {successor['season']} league")
+        league = successor
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--force", action="store_true", help="re-fetch completed seasons too")
@@ -100,7 +119,7 @@ def main():
     nfl_state = get("state/nfl")
     save(RAW / "nfl_state.json", nfl_state)
 
-    league_id = CURRENT_LEAGUE_ID
+    league_id = newest_league()
     while league_id and league_id != "0":
         league = get(f"league/{league_id}")
         season = league["season"]
@@ -116,9 +135,10 @@ def main():
             # Once a finished season's trimmed copy is in data/nfl/, its 36 large weekly files are not needed again.
             if args.force or not frozen or not (RAW.parent / "nfl" / f"{season}.json").exists():
                 fetch_nfl_weeks(season, NFL_WEEKS[-1], NFL_WEEKS[-1] + 1, args.force)
-        elif season == nfl_state["season"]:
-            # Re-pull last week too, to pick up stat corrections.
-            week = min(nfl_state["week"], NFL_WEEKS[-1])
+        elif season == nfl_state["season"] and nfl_state.get("season_type") in ("regular", "post"):
+            # Re-pull last week too, to pick up stat corrections. In the NFL playoffs the week counter restarts,
+            # so take the whole regular season; in the preseason and offseason there is nothing to take.
+            week = min(nfl_state["week"], NFL_WEEKS[-1]) if nfl_state["season_type"] == "regular" else NFL_WEEKS[-1]
             fetch_nfl_weeks(season, week, week - 1, args.force)
         league_id = league.get("previous_league_id")
 

@@ -42,7 +42,7 @@ page("Dynasty iooi History", async (main) => {
       ["Franchises", L.franchises.length],
       ["Seasons", `${L.seasons.length} (${L.seasons[0].season} to ${L.current_season})`],
       ["Commissioner", mLink(L.commissioner)],
-      ["Current season", [sLink(L.current_season), ", ", h("a", { href: "week.html" }, `week ${L.current_week} matchups`)]],
+      ["Current season", [sLink(L.current_season), L.current_week ? [", ", h("a", { href: "week.html" }, `week ${L.current_week} matchups`)] : null]],
       ["Champions", done.map((s) => `${seasonTeam(s.season, s.champion)} (${s.season})`).join(", ")],
     ]),
     memories.length ? h("div", { class: "onthisday" }, h("b", { class: "head" }, "This week in iooi history"),
@@ -58,7 +58,7 @@ page("Dynasty iooi History", async (main) => {
         { label: "Most points", render: team("most_points"), title: "Most regular-season points" },
         { label: "Ultimate Loser", render: team("ultimate_loser"), title: "Loser of the Toilet Bowl" },
       ],
-    }), h("p", { class: "note" }, `${L.current_season} is in progress; top seed and most points are through week ${L.current_week - 1}.`)),
+    }), L.current_week > 1 ? h("p", { class: "note" }, `${L.current_season} is in progress; top seed and most points are through week ${L.current_week - 1}.`) : null),
     section("Franchises", statTable({
       rows: rank([...all.franchises].sort((a, b) => b.pct - a.pct || b.pf - a.pf)),
       columns: [

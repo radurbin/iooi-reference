@@ -102,7 +102,8 @@ def main():
         for league in leagues:
             events, read, fresh = sync_events(league["season"], league["league_id"], cursor)
             tallies = sync_polls(events, polls)
-            fetch_chat.fetch_legs(league)
+            if league["status"] not in ("pre_draft", "drafting"):   # no weekly scores before the season is set up
+                fetch_chat.fetch_legs(league)
             kinds = ", ".join(f"{sum(1 for e in fresh if e['type'] == k)} {k}" for k in sorted({e["type"] for e in fresh}))
             print(f"{league['season']}: {read} new messages read, {len(fresh)} events kept{f' ({kinds})' if kinds else ''}, {tallies} vote tallies updated")
     except urllib.error.HTTPError as err:

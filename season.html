@@ -25,6 +25,7 @@ page("Season", async (main) => {
   const info = L.seasons.find((s) => s.season === y);
   const name = (id) => fLink(id, info.teams[id]);
   const complete = season.status === "complete";
+  const started = season.games.length > 0;
   const side = (g, won) => g.teams.find((t) => (t.franchise === g.winner) === won);
   const bracket = (kind, note) => {
     const games = season.games.filter((g) => g.kind === kind);
@@ -46,11 +47,13 @@ page("Season", async (main) => {
   main.append(
     h("h1", {}, `${y} Dynasty iooi Season`),
     meta([
-      ["Status", complete ? "Complete" : `In progress, ${season.weeks_played} weeks played`],
+      ["Status", complete ? "Complete" : started ? `In progress, ${season.weeks_played} ${season.weeks_played === 1 ? "week" : "weeks"} played` : "Not yet started"],
       ["Champion", complete && name(season.champion)],
       ["Runner-up", complete && name(season.runner_up)],
       ["Ultimate Loser", complete && name(season.ultimate_loser)],
     ]),
+    !started ? h("p", { class: "note" }, `The ${y} season has not started. Standings, leaders and results will appear after week 1. Offseason trades and pickups are below.`) : null,
+    started ? [
     section("League Leaders", leaderBoxes(season.leaders, (r) => pLink(r.player, r.name)),
       h("p", { class: "note" }, ["Starts in iooi lineups, playoffs and Toilet Bowl included. Full lists are on the ", h("a", { href: "leaders.html" }, "leaders page"), "."])),
     section("Regular Season Standings", statTable({
@@ -90,6 +93,7 @@ page("Season", async (main) => {
         })))),
         h("p", { class: "note" }, "Each row is a team's record had it played another team's regular-season schedule with its own weekly scores. The shaded cell is the actual record; green is better than actual, red worse. Column numbers follow the row order.")];
     })()),
+    ] : null,
     section("Trades", trades.length ? statTable({
       rows: trades,
       columns: [
@@ -130,7 +134,7 @@ page("Season", async (main) => {
       ],
     }),
     h("p", { class: "note" }, ["A pickup is credited with what the player did as a starter for that team from the day he was added until he left it, in this season or later. Kickers and defenses are left off the best pickups list. Every move is in the ", h("a", { href: `transactions.html?y=${y}` }, `${y} transaction log`), "; all-time lists are on the ", h("a", { href: "waivers.html" }, "waiver wire page"), "."])] : h("p", { class: "note" }, "No waiver activity yet.")),
-    section("Schedule and Results", statTable({
+    started ? section("Schedule and Results", statTable({
       sortable: false,
       rows: season.games.filter((g) => g.kind === "regular"),
       columns: [
@@ -142,7 +146,7 @@ page("Season", async (main) => {
         { label: "Pts", render: (g) => fmt.pts(side(g, false).points), num: true },
         { label: "", render: (g) => gLink(g.id, "box score") },
       ],
-    }), h("p", { class: "note" }, `${weeks.length} of 14 regular-season weeks played. Dates are the Thursday that opens each week.`)));
+    }), h("p", { class: "note" }, `${weeks.length} of 14 regular-season weeks played. Dates are the Thursday that opens each week.`)) : null);
   return `${y} Season`;
 });
 </script>

@@ -332,7 +332,7 @@ async function page(title, render) {
   }
   document.body.append(h("footer", {},
     h("div", { class: "index" }, menus.filter(([label]) => !["Franchises", "Managers"].includes(label)).map(([label, links]) => h("div", {}, h("b", {}, label), links.map((a) => a.cloneNode(true))))),
-    L?.updated ? h("p", { class: "updated" }, h("b", {}, "Data last updated: "), stamp(L.updated), L.seasons.at(-1).status === "complete" ? "." : `, during week ${L.current_week} of the ${L.current_season} season.`) : null,
+    L?.updated ? h("p", { class: "updated" }, h("b", {}, "Data last updated: "), stamp(L.updated), L.current_week ? `, during week ${L.current_week} of the ${L.current_season} season.` : ".") : null,
     h("p", {}, "iooi Reference is a fan-made parody built for one fantasy football league. It is not affiliated with Sports Reference LLC or Sleeper. League data via Sleeper."),
     h("p", {}, ["All stats count games in iooi starting lineups unless a table says otherwise. Scoring rules have changed by amendment; see the league history for dates. Every stat is explained in the ", h("a", { href: "glossary.html" }, "glossary"), "."])));
   document.addEventListener("click", (e) => { if (!e.target.closest("#nav")) document.querySelectorAll("#nav .open, #nav.open").forEach((x) => x.classList.remove("open")); });

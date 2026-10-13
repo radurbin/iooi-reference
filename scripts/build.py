@@ -72,7 +72,8 @@ def trim_nfl(season, final_scoring, changes):
     """Score every NFL player's stat line and projection under league rules."""
     out_path = NFL / f"{season}.json"
     if not (CACHE / "stats" / season).exists():
-        return load(out_path)
+        # A new season has no NFL weeks yet.
+        return load(out_path) if out_path.exists() else {"season": season, "weeks": {}}
     weeks, team_in = {}, defaultdict(dict)   # team_in: player -> {week: NFL team he played for}
     for week in WEEKS:
         stats_path = CACHE / "stats" / season / f"{week:02d}.json"
@@ -140,13 +141,34 @@ def best_lineup(points, positions, slots):
 
 # ---------------------------------------------------------------- season loading
 
+def rookie_year_of(raw, state):
+    """The year a player entered the NFL. Sleeper's own record where it has one; otherwise counted back from his
+    years of experience, which can be a year out in the offseason while Sleeper rolls its figures over."""
+    if raw.get("position") == "DEF":
+        return None
+    recorded = (raw.get("metadata") or {}).get("rookie_year")
+    if recorded and str(recorded).isdigit():
+        return int(recorded)
+    return int(state["season"]) - raw["years_exp"] if raw.get("years_exp") is not None else None
+
+
+def weeks_played(state, season, status):
+    """How many fantasy weeks of a season are finished. Preseason and offseason weeks never count as games."""
+    if status == "complete":
+        return WEEKS[-1]
+    if state["season"] != season or status in ("pre_draft", "drafting"):
+        return 0
+    kind = state.get("season_type", "regular")
+    if kind == "post":
+        return WEEKS[-1]
+    return max(0, min(WEEKS[-1], state["week"] - 1)) if kind == "regular" else 0
+
+
 def load_season(season, state, players):
     league = load(RAW / season / "league.json")
     events = load(EVENTS / f"{season}.json") if (EVENTS / f"{season}.json").exists() else []
     nfl = trim_nfl(season, league["scoring_settings"], [e for e in events if e["type"] == "scoring_settings_change"])
-    last_week = WEEKS[-1]
-    if league["status"] != "complete":
-        last_week = min(WEEKS[-1], state["week"] - 1) if state["season"] == season else 0
+    last_week = weeks_played(state, season, league["status"])
     slots = [p for p in league["roster_positions"] if p != "BN"]
     users = {u["user_id"]: u for u in load(RAW / season / "users.json")}
     rosters = load(RAW / season / "rosters.json")
@@ -529,7 +551,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
                     franchises=len({a["franchise"] for a in rows}), seasons=len({a["season"] for a in rows}))
         dump(SITE / "players" / f"{pid}.json", {
             "id": pid, **{k: info[k] for k in ("name", "pos", "nfl_team", "birth_date", "honors")},
-            "college": raw.get("college"), "rookie_year": int(state["season"]) - raw["years_exp"] if raw.get("years_exp") is not None and raw.get("position") != "DEF" else None,
+            "college": raw.get("college"), "rookie_year": rookie_year_of(raw, state),
             "height": raw.get("height"), "weight": raw.get("weight"),
             "drafted": drafted.get(pid), "career": career, "totals": totals,
             "nfl": [{"season": season, **nfl[season][pid]} for season in seasons if pid in nfl[season]],
@@ -1229,7 +1251,7 @@ def build_lottery(seasons, season_rows, name_on):
         prev = str(int(season) - 1)
         if prev not in seasons:
             continue
-        meta = next((d for d in load(RAW / season / "drafts.json")), None)
+        meta = next((d for d in load(RAW / season / "drafts.json") if d.get("status") == "complete"), None)   # a draft not yet held has no order to report
         if not meta:
             continue
         draft = load(RAW / season / "drafts" / f"{meta['draft_id']}.json")
@@ -1557,6 +1579,8 @@ def main():
     draft_index, pick_result, drafted, all_picks = [], {}, {}, []
     for season in season_ids:
         for meta in load(RAW / season / "drafts.json"):
+            if meta.get("status") != "complete":   # scheduled or under way; it joins the site once it is finished
+                continue
             draft = load(RAW / season / "drafts" / f"{meta['draft_id']}.json")
             day = day_of(draft["start_time"])
             original = {int(slot): rid for slot, rid in (draft.get("slot_to_roster_id") or {}).items()}
@@ -1621,8 +1645,7 @@ def main():
     dump(SITE / "trade_records.json", trade_records(trades, people))
     dump(SITE / "head_to_head.json", head_to_head(game_log))
     dump(SITE / "trades.json", trades)
-    rookie_year = {pid: int(state["season"]) - p["years_exp"] for pid, p in raw_players.items()
-                   if p.get("years_exp") is not None and p.get("position") != "DEF"}
+    rookie_year = {pid: year for pid, p in raw_players.items() if (year := rookie_year_of(p, state)) is not None}
     awards, honors = build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year)
     dump(SITE / "awards.json", awards)
     for pid, info in players.items():
@@ -1656,7 +1679,11 @@ def main():
     stamp = RAW / "fetched.json"
     updated = load(stamp)["at"] if stamp.exists() else datetime.fromtimestamp((RAW / "nfl_state.json").stat().st_mtime, timezone.utc).isoformat(timespec="minutes")
     dump(SITE / "league.json", {
-        "name": "Dynasty iooi", "founded": 2023, "commissioner": "riley", "current_season": latest, "current_week": state["week"], "updated": updated,
+        "name": "Dynasty iooi", "founded": 2023, "commissioner": "riley", "current_season": latest,
+        # The fantasy week now under way, 1-17; 0 in the offseason, the preseason and after the final.
+        "current_week": (seasons[latest]["last_week"] + 1 if seasons[latest]["league"]["status"] == "in_season" and seasons[latest]["last_week"] < WEEKS[-1]
+                         and state["season"] == latest and state.get("season_type", "regular") == "regular" else 0),
+        "updated": updated,
         "seasons": [season_summary(s, seasons[s], season_rows[s]) for s in season_ids],
         "drafts": draft_index,
         "split_draft": {"date": split["date"]},
