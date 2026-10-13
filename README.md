@@ -25,7 +25,7 @@ Sleeper API ──fetch.py──▶ data/raw/ ──build.py──▶ data/site/
 
 ## Refreshing the data
 
-A GitHub Actions job (`.github/workflows/refresh.yml`) runs every day at 10:00 UTC, and on demand from the Actions tab. It fetches from Sleeper, rebuilds `data/site/`, and commits the result; GitHub Pages then redeploys.
+A GitHub Actions job (`.github/workflows/refresh.yml`) runs every day at 06:30 UTC (1:30 AM Central in daylight time, 12:30 AM in standard time; shortly after Sleeper rolls to the next week at 1 AM Eastern on Tuesday), and on demand from the Actions tab. It fetches from Sleeper, rebuilds `data/site/`, and commits the result; GitHub Pages then redeploys.
 
 To run the same steps by hand (a recent Python 3, no packages to install):
 

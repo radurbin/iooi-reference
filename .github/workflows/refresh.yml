@@ -2,8 +2,10 @@ name: Refresh data
 
 on:
   schedule:
-    # 10:00 UTC: 5 AM Central in daylight time, 4 AM in standard time. GitHub may start it up to half an hour late.
-    - cron: "0 10 * * *"
+    # 06:30 UTC: 1:30 AM Central in daylight time, 12:30 AM in standard time. GitHub may start it up to half an hour late.
+    # Sleeper rolls to the next week at 1 AM Eastern on Tuesday (05:00 UTC in daylight time, 06:00 UTC in standard time);
+    # this runs shortly after it in both, so a finished week reaches the site the same night.
+    - cron: "30 6 * * *"
   workflow_dispatch:
 
 permissions:
