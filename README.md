@@ -1,6 +1,6 @@
 # iooi Reference
 
-Stats, history and records for the Dynasty iooi fantasy football league, in the manner of the Sports Reference sites. Live at https://radurbin.github.io/iooi-reference/.
+Stats, history and records for the Dynasty iooi fantasy football league, in the manner of the Sports Reference sites. Live at https://dynastyiooi.com/ (the old address, https://radurbin.github.io/iooi-reference/, redirects there).
 
 A fan-made parody for one league. Not affiliated with Sports Reference LLC or Sleeper.
 
@@ -53,4 +53,4 @@ Then open http://localhost:8770.
 
 ## Moving to a custom domain
 
-The link-preview image address in each page's `<head>` is absolute. Replace `https://radurbin.github.io/iooi-reference/` across `*.html`.
+The custom domain is set by the `CNAME` file at the repo root (dynastyiooi.com, registered and with DNS at Cloudflare: four A records for the bare domain and a `www` CNAME to `radurbin.github.io`, all "DNS only"). The link-preview image address in each page's `<head>` is absolute; to move domains, replace `https://dynastyiooi.com/` across `*.html` and change `CNAME`.

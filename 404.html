@@ -17,7 +17,8 @@ a { color: #0f4fb5; }
 <p><a id="home" href="index.html">Return to the league index</a></p>
 <script>
 // GitHub Pages serves this file for any missing address, at any depth; point the link at the site root.
-document.getElementById("home").href = `/${location.pathname.split("/")[1]}/`.replace("//", "/");
+// On the custom domain the site is at the root; on github.io it sits under the repository name.
+document.getElementById("home").href = location.hostname.endsWith("github.io") ? `/${location.pathname.split("/")[1]}/`.replace("//", "/") : "/";
 </script>
 </body>
 </html>
