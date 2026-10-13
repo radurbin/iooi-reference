@@ -240,7 +240,7 @@ async function searchGroups(query, limit = 8) {
     const players = await load("players");
     const span = (y) => (y ? (y[0] === y[1] ? y[0] : `${y[0]}-${y[1]}`) : "");
     searchIndex = {
-      "iooi Players": { href: "players.html", rows: Object.entries(players).map(([id, p]) => ({ name: p.name, href: `player.html?id=${id}`, years: span(p.years ?? (p.status?.code === "rostered" ? [L.current_season, L.current_season] : null)), active: p.status?.code === "rostered", sort: p.pts ?? 0, note: p.pos, also: (p.nicknames ?? []).join(" | "),
+      "iooi Players": { href: "players.html", rows: Object.entries(players).map(([id, p]) => ({ name: p.name, href: `player.html?id=${id}`, years: span(p.years ?? (p.status?.code === "rostered" ? [L.current_season, L.current_season] : null)), active: p.status?.code === "rostered", sort: p.pts ?? 0, note: p.positions?.join("/") ?? p.pos, also: (p.nicknames ?? []).join(" | "),
         team: p.status?.code === "rostered" ? { franchise: p.status.franchise } : p.last_team })) },
       "iooi Franchises": { href: "index.html#franchises", rows: L.franchises.map((f) => ({ name: f.name, href: `franchise.html?id=${f.id}`, years: span([L.seasons[0].season, L.current_season]), active: true, sort: 0, note: "Franchise", also: [...new Set(L.seasons.map((s) => s.teams[f.id]))].filter((n) => n && n !== f.name).join(" | ") })) },
       "iooi Managers": { href: "index.html#managers", rows: L.managers.map((m) => ({ name: m.name, href: `manager.html?id=${m.id}`, years: span(m.years), active: m.active, sort: 0, note: "Manager", also: "", team: { franchise: m.franchise } })) },

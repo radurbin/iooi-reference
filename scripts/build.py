@@ -550,7 +550,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
         info.update(paa=totals["paa"], vor=totals["vor"], war=totals["war"], g=totals["g"], gs=totals["gs"], pts=totals["pts"], bench_pts=totals["bench_pts"], best=totals["best"],
                     franchises=len({a["franchise"] for a in rows}), seasons=len({a["season"] for a in rows}))
         dump(SITE / "players" / f"{pid}.json", {
-            "id": pid, **{k: info[k] for k in ("name", "pos", "nfl_team", "birth_date", "honors")},
+            "id": pid, **{k: info[k] for k in ("name", "pos", "nfl_team", "birth_date", "honors")}, **({"positions": info["positions"]} if info.get("positions") else {}),
             "college": raw.get("college"), "rookie_year": rookie_year_of(raw, state),
             "height": raw.get("height"), "weight": raw.get("weight"),
             "drafted": drafted.get(pid), "career": career, "totals": totals,
@@ -1245,6 +1245,8 @@ def main():
         # Show the position he fills in this league (Travis Hunter is listed by the NFL as a DB).
         fantasy_pos = next((x for x in pos if x in ("QB", "RB", "WR", "TE", "K", "DEF")), p.get("position"))
         players[pid] = {"name": name, "pos": fantasy_pos, "nfl_team": p.get("team"), "birth_date": p.get("birth_date")}
+        if len(pos) > 1:   # every position Sleeper lists, for display; "pos" stays the one the stats use
+            players[pid]["positions"] = list(pos)
         positions[pid] = set(pos)
 
     seasons = {s: load_season(s, state, players) for s in season_ids}
