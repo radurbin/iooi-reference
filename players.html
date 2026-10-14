@@ -24,7 +24,7 @@ page("Players", async (main) => {
   const positions = ["All", "QB", "RB", "WR", "TE", "K", "DEF"];
   const holder = h("div");
   const draw = (pos) => holder.replaceChildren(statTable({
-    rows: rank(all.filter((p) => pos === "All" || p.pos === pos).sort((a, b) => b.pts - a.pts)),
+    rows: rank(all.filter((p) => pos === "All" || p.pos === pos).sort((a, b) => b.pts - a.pts), (p) => p.pts),
     columns: [
       { label: "Rk", value: (p) => p.rk, num: true },
       { label: "Player", value: (p) => p.name, render: (p) => pLink(p.id, p.name) },

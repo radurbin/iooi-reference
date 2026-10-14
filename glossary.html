@@ -81,7 +81,7 @@ page("Glossary", async (main) => {
     section("Black Ink", h("div", { class: "prose" },
       h("p", {}, "Black ink is the bold type a reference book uses for a league-leading figure. A player's Black Ink score counts how often he has led the league in a completed season, with more credit for the categories that matter more:"),
       h("p", {}, Object.values(ink.weights).map((x) => `${x.label} ${x.points}`).join(", ") + "."),
-      h("p", {}, ["Position Points means leading his own position in points. League-leading figures are also set in bold on player pages. The table is on the ", a("leaders.html#black-ink", "leaders page"), "."]))),
+      h("p", {}, ["Position Points means leading his own position in points. Points per Start needs at least 8 starts. Points Above Average is not counted, since leading in it is what wins the MVP, which the Hall of Fame Monitor already rewards. League-leading figures are also set in bold on player pages. The table is on the ", a("leaders.html#black-ink", "leaders page"), "."]))),
 
     section("Similarity Scores", h("div", { class: "prose" },
       h("p", {}, "A score of 1000 means two players, or two team seasons, are identical on the stats compared. The further apart they are, the lower the score."),

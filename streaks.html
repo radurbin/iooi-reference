@@ -62,9 +62,9 @@ page("Streaks & Milestones", async (main) => {
   const drawStretch = (n) => {
     stretchBox.replaceChildren(
       h("p", {}, h("b", {}, "Consecutive weeks: "), st.spans.flatMap((x, i) => [i ? " · " : "", x === n ? h("b", {}, x) : h("a", { href: "#", onclick: (e) => { e.preventDefault(); drawStretch(x); } }, x)])),
-      h("h3", {}, `Franchises: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.franchises[n]), columns: stretchCols([{ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }, teamCol]) }),
-      h("h3", {}, `Managers: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.managers[n]), columns: stretchCols([{ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }, teamCol]) }),
-      h("h3", {}, `Players: Most Points in ${n} Straight Starts`), statTable({ rows: rank(st.players[n]), columns: stretchCols([
+      h("h3", {}, `Franchises: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.franchises[n], (r) => r.pts), columns: stretchCols([{ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }, teamCol]) }),
+      h("h3", {}, `Managers: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.managers[n], (r) => r.pts), columns: stretchCols([{ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }, teamCol]) }),
+      h("h3", {}, `Players: Most Points in ${n} Straight Starts`), statTable({ rows: rank(st.players[n], (r) => r.pts), columns: stretchCols([
         { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" }, { label: "Pos", value: (r) => r.pos, cls: "c" },
         { label: "Team(s)", value: (r) => r.teams.join(", "), title: "Teams he started for during the stretch" }]) }));
   };
@@ -72,14 +72,14 @@ page("Streaks & Milestones", async (main) => {
   main.append(
     h("h1", {}, "Dynasty iooi Streaks & Milestones"),
     h("p", { class: "note" }, "Team streaks and milestones count regular-season and Dynasty Playoff games. Toilet Bowl games are left out, as in the Elo ratings."),
-    section("Current Streaks", statTable({ rows: rank([...s.franchises.current].sort((x, y) => (y.won ? y.n : -y.n) - (x.won ? x.n : -x.n))), columns: streakCols(fCol).filter((c) => !["To", "Team"].includes(c.label)) })),
-    section("Longest Winning Streaks", statTable({ rows: rank(s.franchises.wins), columns: streakCols(fCol) })),
-    section("Longest Losing Streaks", statTable({ rows: rank(s.franchises.losses), columns: streakCols(fCol) })),
-    section("Manager Winning Streaks", statTable({ rows: rank(s.managers.wins), columns: streakCols(mCol) })),
-    section("Manager Losing Streaks", statTable({ rows: rank(s.managers.losses), columns: streakCols(mCol) })),
+    section("Current Streaks", statTable({ rows: rank([...s.franchises.current].sort((x, y) => (y.won ? y.n : -y.n) - (x.won ? x.n : -x.n)), (r) => (r.won ? r.n : -r.n)), columns: streakCols(fCol).filter((c) => !["To", "Team"].includes(c.label)) })),
+    section("Longest Winning Streaks", statTable({ rows: rank(s.franchises.wins, (r) => r.n), columns: streakCols(fCol) })),
+    section("Longest Losing Streaks", statTable({ rows: rank(s.franchises.losses, (r) => r.n), columns: streakCols(fCol) })),
+    section("Manager Winning Streaks", statTable({ rows: rank(s.managers.wins, (r) => r.n), columns: streakCols(mCol) })),
+    section("Manager Losing Streaks", statTable({ rows: rank(s.managers.losses, (r) => r.n), columns: streakCols(mCol) })),
     section("Consecutive Starts", h("p", { class: "note" }, "Games in a row in an iooi starting lineup, in any lineup slot and for any franchise. An NFL bye week is skipped: it neither adds to the streak nor ends it. A week on the bench, or off every iooi roster, ends it."),
-      statTable({ rows: rank(s.players.starts), columns: playerCols("starts") })),
-    section(`Consecutive ${s.players.big_game}-Point Starts`, statTable({ rows: rank(s.players.big_games), columns: playerCols("starts") })),
+      statTable({ rows: rank(s.players.starts, (r) => r.n), columns: playerCols("starts") })),
+    section(`Consecutive ${s.players.big_game}-Point Starts`, statTable({ rows: rank(s.players.big_games, (r) => r.n), columns: playerCols("starts") })),
     section("Best Stretches", h("p", { class: "note" }, "The most points over a run of consecutive weeks within one season, playoffs and Toilet Bowl included. A team or player appears more than once only for stretches that do not overlap. For players the weeks must all be starts; an NFL bye is skipped, and a week on the bench ends the run."), stretchBox),
     section("Playoff Runs and Droughts", statTable({
       rows: s.postseason,

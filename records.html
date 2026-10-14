@@ -31,18 +31,70 @@ page("Record Book", async (main) => {
     { label: "Result", value: (r) => (r.won ? "W" : "L"), cls: "c" }, when, stage];
   const playerCols = (lead, extra = []) => [lead, { label: "Pts", value: (r) => r.points, render: (r) => fmt.pts(r.points), num: true, cls: "win" },
     { label: "Player", value: (r) => players[r.player]?.name, render: (r) => pLink(r.player, players[r.player]?.name) }, { label: "Pos", value: (r) => r.pos, cls: "c" }, ...extra, team, mgr, when, stage];
+  // Team seasons: each stat ranked both ways, side by side. Ties share a place.
+  const seasons = rec.team_seasons ?? [];
+  const covered = [...new Set(seasons.map((r) => r.season))];
+  const SEASON_TOP = 10;
+  const ranked = (rows, value, desc) => {
+    const sorted = [...rows].sort((x, y) => (desc ? value(y) - value(x) : value(x) - value(y)) || y.pf - x.pf);
+    return rank(sorted.slice(0, SEASON_TOP), value);
+  };
+  const seasonCols = (label, value, show, tip) => [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    { label: "Team", render: (r) => tsLink(r.season, r.franchise, `${r.season} ${r.team}`) },
+    { label, render: (r) => show(value(r), r), num: true, cls: "win", title: tip },
+    { label: "W-L", render: (r) => record(r), cls: "c" },
+    { label: "Finish", render: (r) => r.result ?? "", cls: "c" },
+  ];
+  // [hiLabel, loLabel] head the two tables, e.g. "Most Wins" and "Fewest Wins"; a label without the stat's name ("Luckiest") stands alone.
+  const pair = (title, value, show, tip, [hiLabel, loLabel] = [`Most ${title}`, `Fewest ${title}`]) => h("div", { class: "box pairs" },
+    h("div", {}, h("h3", {}, hiLabel), statTable({ sortable: false, rows: ranked(seasons, value, true), columns: seasonCols(title, value, show, tip) })),
+    h("div", {}, h("h3", {}, loLabel), statTable({ sortable: false, rows: ranked(seasons, value, false), columns: seasonCols(title, value, show, tip) })));
+  const n = (digits) => (v) => v.toFixed(digits);
+  const pct = (v) => `${(v * 100).toFixed(1)}%`;
+  const playoff = (r) => r.seed <= 6;
+  const notable = (title, note, rows) => [h("h3", {}, title), h("p", { class: "note" }, note), statTable({
+    sortable: false, rows,
+    columns: [
+      { label: "Team", render: (r) => tsLink(r.season, r.franchise, `${r.season} ${r.team}`), cls: "win" },
+      { label: "Manager(s)", render: (r) => mLinks(r.managers) },
+      { label: "W-L", render: (r) => record(r), cls: "c" },
+      { label: "Seed", value: (r) => r.seed, num: true },
+      { label: "PF", render: (r) => fmt.pts(r.pf), num: true },
+      { label: "PA", render: (r) => fmt.pts(r.pa), num: true },
+      { label: "Finish", render: (r) => r.result ?? "", cls: "c" },
+    ],
+  })];
+  const byRecord = (desc) => (x, y) => (desc ? y.w - x.w || y.pf - x.pf : x.w - y.w || x.pf - y.pf);
+  const teamSeasons = seasons.length ? section("Team Season Records",
+    h("p", { class: "note" }, `Regular seasons only (14 games), from the complete seasons: ${covered.join(", ")}. A season in progress joins the lists once it is over. Scoring rules have changed by amendment, so point totals from different seasons are not strictly comparable. Ties share a place.`),
+    pair("Wins", (r) => r.w, (v) => v, "Regular-season wins"),
+    pair("Points For", (r) => r.pf, fmt.pts, "Points scored by the starting lineup"),
+    pair("Points Against", (r) => r.pa, fmt.pts, "Points scored by opponents"),
+    pair("Point Differential", (r) => r.diff, fmt.signed, "Points for minus points against", ["Best Point Differential", "Worst Point Differential"]),
+    pair("Max PF", (r) => r.max_pf, fmt.pts, "Points from the best possible lineup each week", ["Highest Max PF", "Lowest Max PF"]),
+    pair("Points Left on the Bench", (r) => r.bench, fmt.pts, "Max PF minus points for: what better lineup calls would have added"),
+    pair("Lineup Efficiency", (r) => r.efficiency, pct, "Points for as a share of Max PF", ["Best Lineup Efficiency", "Worst Lineup Efficiency"]),
+    pair("All-Play Win%", (r) => r.all_play_pct, (v, r) => `${n(3)(v).replace(/^0/, "")} (${r.all_play_w}-${r.all_play_l})`, "Record had the team played every other team every week", ["Best All-Play Win%", "Worst All-Play Win%"]),
+    pair("Luck", (r) => r.luck, fmt.signed, "Wins minus expected wins from the all-play record", ["Luckiest Seasons", "Unluckiest Seasons"]),
+    pair("Transactions", (r) => r.transactions, (v) => v, "Waiver claims, free-agent adds and trades"),
+    pair("Trades", (r) => r.trades, (v) => v, "Completed trades"),
+    notable("Best Records to Miss the Playoffs", "Teams seeded 7th or lower, best record first.", seasons.filter((r) => !playoff(r)).sort(byRecord(true)).slice(0, 5)),
+    notable("Worst Records to Make the Playoffs", "Teams seeded 1st to 6th, worst record first.", seasons.filter(playoff).sort(byRecord(false)).slice(0, 5)),
+    notable("Champions' Regular Seasons", "Every champion, by regular-season record.", seasons.filter((r) => r.finish === 1).sort(byRecord(true)))) : null;
   main.append(
     h("h1", {}, "Dynasty iooi Record Book"),
     h("p", { class: "note" }, "All games since 2023, playoffs and Toilet Bowl included. Scoring rules have changed by amendment, so totals from different seasons are not strictly comparable."),
-    section("Highest Team Scores", statTable({ rows: rank(rec.team_high), columns: teamCols(rk) })),
+    section("Highest Team Scores", statTable({ rows: rank(rec.team_high, (r) => r.points), columns: teamCols(rk) })),
     section("Best Game by Franchise", statTable({ rows: rec.franchise_best, columns: teamCols({ label: "Franchise", render: (r) => fLink(r.key) }).filter((c) => c !== team) })),
     section("Best Game by Manager", statTable({ rows: rec.manager_best, columns: teamCols({ label: "Manager", render: (r) => mLink(r.key) }).filter((c) => c !== mgr) })),
-    section("Lowest Team Scores", statTable({ rows: rank(rec.team_low), columns: teamCols(rk) })),
-    section("Highest Player Scores", h("p", { class: "note" }, "Starters only."), statTable({ rows: rank(rec.player_high), columns: playerCols(rk) })),
-    section("Highest Player Scores by Position", Object.entries(rec.player_high_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows), columns: playerCols(rk).filter((c) => c.label !== "Pos") })])),
+    section("Lowest Team Scores", statTable({ rows: rank(rec.team_low, (r) => r.points), columns: teamCols(rk) })),
+    teamSeasons,
+    section("Highest Player Scores", h("p", { class: "note" }, "Starters only."), statTable({ rows: rank(rec.player_high, (r) => r.points), columns: playerCols(rk) })),
+    section("Highest Player Scores by Position", Object.entries(rec.player_high_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows, (r) => r.points), columns: playerCols(rk).filter((c) => c.label !== "Pos") })])),
     section("Best Player Game by Franchise", statTable({ rows: rec.franchise_player_best, columns: playerCols({ label: "Franchise", render: (r) => fLink(r.key) }).filter((c) => c !== team) })),
     section("Best Player Game by Manager", statTable({ rows: rec.manager_player_best, columns: playerCols({ label: "Manager", render: (r) => mLink(r.key) }).filter((c) => c !== mgr) })),
-    section("Highest Scores Left on the Bench", h("p", { class: "note" }, "Bench includes taxi squad and injured reserve players."), statTable({ rows: rank(rec.player_high_bench), columns: playerCols(rk) })));
+    section("Highest Scores Left on the Bench", h("p", { class: "note" }, "Bench includes taxi squad and injured reserve players."), statTable({ rows: rank(rec.player_high_bench, (r) => r.points), columns: playerCols(rk) })));
   return "Record Book";
 });
 </script>

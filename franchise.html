@@ -95,8 +95,8 @@ page("Franchise", async (main) => {
         { label: "Pts/Add", value: (r) => (r.adds ? r.pts / r.adds : null), render: (r) => (r.adds ? fmt.pts(r.pts / r.adds) : ""), num: true },
       ],
     }), h("p", { class: "note" }, ["Trades are filed under the league year they were made in. A pickup is credited with what the player did as a starter for this team until he left it. Full lists are in the ", h("a", { href: "trades.html" }, "trade register"), " and on the ", h("a", { href: "waivers.html" }, "waiver wire page"), "."])),
-    section("All-Time Leaders", statTable({ rows: rank(f.leaders.overall), columns: leaderCols }),
-      h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(f.leaders.by_pos).flatMap((rows) => rank(rows)), groupBy: (r) => r.pos, columns: leaderCols }),
+    section("All-Time Leaders", statTable({ rows: rank(f.leaders.overall, (r) => r.pts), columns: leaderCols }),
+      h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(f.leaders.by_pos).flatMap((rows) => rank(rows, (r) => r.pts)), groupBy: (r) => r.pos, columns: leaderCols }),
       h("p", { class: "note" }, "Games started and points for this franchise only. Bold marks a player on its roster now.")),
     section("All-Time Team", statTable({
       sortable: false, rows: teams.franchises[f.id],

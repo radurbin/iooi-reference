@@ -247,7 +247,9 @@ def season_leaders(season, players, careers, logs, weeks_played):
 # ---------------------------------------------------------------- black ink
 
 # Points for leading the league in a completed season, after the Black Ink test used by the reference sites.
-INK = {"pts": ("Points", 4), "war": ("WAR", 4), "paa": ("Points Above Average", 3), "ppg": ("Points per Start", 3), "pos": ("Position Points", 2), "best": ("Best Single Game", 1)}
+# PAA is left out: leading in it is what makes the MVP, which the Hall of Fame Monitor already rewards.
+INK = {"pts": ("Points", 3), "war": ("WAR", 3), "ppg": ("Points per Start", 2), "pos": ("Position Points", 1), "best": ("Best Single Game", 1)}
+INK_MIN_STARTS = 8   # to lead in points per start; the same minimum as the MVP and All-iooi teams
 
 
 def black_ink(seasons, players, careers, logs):
@@ -265,12 +267,11 @@ def black_ink(seasons, players, careers, logs):
                         rows[pid][k] += c[k] or 0
         if not rows:
             continue
-        floor = max(1, s["weeks_played"] // 2)
         top = lambda value, pool: max(pool, key=lambda pid: value(rows[pid]))
         everyone = list(rows)
-        for cat in ("pts", "war", "paa"):
+        for cat in ("pts", "war"):
             leads[top(lambda r, cat=cat: r[cat], everyone)][season].append(cat)
-        leads[top(lambda r: r["pts"] / r["gs"], [pid for pid in everyone if rows[pid]["gs"] >= floor])][season].append("ppg")
+        leads[top(lambda r: r["pts"] / r["gs"], [pid for pid in everyone if rows[pid]["gs"] >= INK_MIN_STARTS])][season].append("ppg")
         for pos in ("QB", "RB", "WR", "TE", "K", "DEF"):
             pool = [pid for pid in everyone if players[pid]["pos"] == pos]
             if pool:
@@ -338,8 +339,11 @@ def list_ranks(players, careers, totals, logs, franchise_names):
             place("Season", f"{season} {pos}s", "Points", {pid: v for pid, v in rows.items() if players[pid]["pos"] == pos}, 2, link)
     all_seasons = {(pid, season): v for season, rows in by_season.items() for pid, v in rows.items()}
     ranked = sorted(all_seasons.items(), key=lambda kv: -kv[1])
+    rank = 0
     for i, ((pid, season), v) in enumerate(ranked):
-        out[pid].append({"group": "Season", "scope": "All single seasons", "stat": f"Points, {season}", "value": round(v, 2), "digits": 2, "rank": i + 1, "of": len(ranked), "season": season})
+        if i == 0 or v != ranked[i - 1][1]:
+            rank = i + 1
+        out[pid].append({"group": "Season", "scope": "All single seasons", "stat": f"Points, {season}", "value": round(v, 2), "digits": 2, "rank": rank, "of": len(ranked), "season": season})
     return out
 
 
@@ -425,7 +429,8 @@ def team_season(season, s, fid, games, players, careers, draft, trades, similar,
     roster += [{"player": pid, "pos": players[pid]["pos"], "nfl": None, "g": 0, "gs": 0, "pts": 0.0, "ppg": None, "best": None, "bench_pts": 0.0, "wins": 0,
                 "paa": None, "vor": None, "war": None, "joined": True} for pid in sorted(joined, key=lambda q: players[q]["name"]) if pid not in listed]
     standings = s["standings"]
-    rank = lambda key, reverse=True: sorted(standings, key=lambda r: r[key] or 0, reverse=reverse).index(row) + 1   # before week 1 some figures are blank
+    # Equal figures share a rank; before week 1 some figures are blank.
+    rank = lambda key, reverse=True: 1 + sum(1 for r in standings if ((r[key] or 0) > (row[key] or 0) if reverse else (r[key] or 0) < (row[key] or 0)))
     return {
         "season": season, "franchise": fid, "team": row["team"], "aka": names, "managers": managers, "row": row, "status": s["status"],
         "ranks": {"pf": rank("pf"), "pa": rank("pa", False), "max_pf": rank("max_pf"), "efficiency": rank("efficiency"), "luck": rank("luck")},
@@ -440,6 +445,14 @@ def team_season(season, s, fid, games, players, careers, draft, trades, similar,
         "players": {pid: players[pid]["name"] for pid in sorted({r["player"] for r in roster} | {x["player"] for d in depth for x in d["players"]}
                                                                  | {p["player"] for p in (draft or {}).get("picks", []) if p["franchise"] == fid})},
     }
+
+
+def season_record_row(row, managers):
+    """One complete team season, with the figures the record book ranks."""
+    keep = ("season", "franchise", "team", "w", "l", "t", "pf", "pa", "max_pf", "all_play_w", "all_play_l", "expected_w", "luck", "efficiency",
+            "transactions", "trades", "seed", "finish", "result")
+    return {**{k: row.get(k) for k in keep}, "managers": managers, "diff": r2(row["pf"] - row["pa"]), "bench": r2(row["max_pf"] - row["pf"]),
+            "all_play_pct": round(row["all_play_w"] / max(1, row["all_play_w"] + row["all_play_l"]), 3)}
 
 
 # ---------------------------------------------------------------- draft pick ledger
@@ -867,13 +880,15 @@ def list_moves(season, week, logs, stints):
                     before[key][pid] += a["pts"]
     moves = []
     for key in sorted(after, key=lambda k: (list(LIST_MOVES).index(k[0]), str(k[1]))):
-        old = {pid: i + 1 for i, pid in enumerate(sorted(before[key], key=lambda q: (-before[key][q], q)))}
+        # Places shared on equal points: 1 plus the number of players with more.
+        old = {pid: 1 + sum(1 for v in before[key].values() if v > before[key][pid]) for pid in before[key]}
+        new = {pid: 1 + sum(1 for v in after[key].values() if v > after[key][pid]) for pid in after[key]}
         order = sorted(after[key], key=lambda q: (-after[key][q], q))
-        for i, pid in enumerate(order[:LIST_MOVES[key[0]]]):
+        for pid in [q for q in order if new[q] <= LIST_MOVES[key[0]]]:
             was = old.get(pid)
-            passed = [q for q in order[i + 1:] if q in old and (was is None or old[q] < was)]
+            passed = [q for q in order if new[q] > new[pid] and q in old and (was is None or old[q] < was)]
             if passed:   # a list with no history yet (the first week, a new manager) is not climbed
-                moves.append({"list": key[0], "key": key[1], "player": pid, "from": was, "to": i + 1, "passed": passed})
+                moves.append({"list": key[0], "key": key[1], "player": pid, "from": was, "to": new[pid], "passed": passed})
     # A manager's list is mentioned only where it tells something the franchise list does not.
     seen = {(m["player"], m["from"], m["to"], m["key"]) for m in moves if m["list"] == "franchise"}
     moves = [m for m in moves if m["list"] != "manager" or not any((m["player"], m["from"], m["to"], st["franchise"]) in seen for st in stints[m["key"]])]
@@ -893,9 +908,13 @@ def last_week_honors(games, players, records, reached, logs, stints):
     box_of = lambda r: f"([[g:{r['game']}]])"
 
     def place(rows, match, what):
-        """Where a performance stands on an all-time list, if it made the list."""
-        at = next((i + 1 for i, r in enumerate(rows) if match(r)), None)
-        return "" if at is None else f", the highest {what} in league history" if at == 1 else f", the {ordinal(at)}-highest {what} in league history"
+        """Where a performance stands on an all-time list, if it made the list. An equal score shares the place."""
+        hit = next((r for r in rows if match(r)), None)
+        if hit is None:
+            return ""
+        at = next(i + 1 for i, r in enumerate(rows) if r["points"] == hit["points"])
+        tied = sum(1 for r in rows if r["points"] == hit["points"]) > 1
+        return f", {'tied for ' if tied else ''}the {'' if at == 1 else ordinal(at) + '-'}highest {what} in league history"
 
     sides = [(side, g) for g in mine for side in g["teams"]]
     lines = []
@@ -1138,7 +1157,7 @@ def main():
 
     ink, leads = black_ink(seasons, players, careers, logs)
     dump(SITE / "black_ink.json", ink)
-    rank_of = {row["player"]: i + 1 for i, row in enumerate(ink["table"])}
+    rank_of = {row["player"]: 1 + sum(1 for other in ink["table"] if other["score"] > row["score"]) for row in ink["table"]}   # ties share
     for pid, near in similar_players(players, totals).items():
         files[pid]["similar"] = near
     ranks = list_ranks(players, careers, totals, logs, franchise_names)
@@ -1172,6 +1191,7 @@ def main():
 
     similar = similar_teams(seasons)
     waiver_log = load(SITE / "waiver_log.json")
+    season_rows = []
     for season, s in seasons.items():
         s["leaders"] = season_leaders(season, players, careers, logs, s["weeks_played"])
         dump(SITE / "seasons" / f"{season}.json", s)
@@ -1179,7 +1199,13 @@ def main():
         draft = load(draft_path) if draft_path.exists() else None
         for f in league["franchises"]:
             joined = [pid for pid, st in status.items() if st.get("franchise") == f["id"]] if season == league["current_season"] else ()
-            dump(SITE / "teams" / f"{season}-{f['id']}.json", team_season(season, s, f["id"], games, players, careers, draft, trades, similar, waiver_log, joined))
+            t = team_season(season, s, f["id"], games, players, careers, draft, trades, similar, waiver_log, joined)
+            dump(SITE / "teams" / f"{season}-{f['id']}.json", t)
+            if s["status"] == "complete":
+                season_rows.append(season_record_row(t["row"], t["managers"]))
+    # Team-season lists for the record book: complete seasons only, so a part season never tops "fewest".
+    path = SITE / "records.json"
+    dump(path, {**load(path), "team_seasons": season_rows})
 
     files = {pid: load(SITE / "players" / f"{pid}.json") for pid in players}
     raw_traded = load(ROOT / "data" / "raw" / league["current_season"] / "traded_picks.json")

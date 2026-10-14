@@ -38,7 +38,7 @@ page("Hall of Fame", async (main) => {
     })) : h("div", { class: "plaque" }, h("b", {}, "The hall is empty."), `Dynasty iooi is in its ${ordinal(L.seasons.length)} season, and no player has been on the ballot yet.`),
     section("Hall of Fame Monitor", h("p", { class: "note" }, `A rough measure of how strong a case each player has built, after the monitor on the reference sites. ${hof.benchmark} marks a strong candidate. It is a guide for the ballot, not the ballot.`),
       statTable({
-        rows: rank(hof.candidates),
+        rows: rank(hof.candidates, (r) => r.score),
         columns: [
           { label: "Rk", value: (r) => r.rk, num: true },
           { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: activeCls(players) },

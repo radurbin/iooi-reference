@@ -127,7 +127,7 @@ page("Dynasty iooi History", async (main) => {
       ],
     }), L.current_week > 1 ? h("p", { class: "note" }, `${L.current_season} is in progress; top seed and most points are through week ${L.current_week - 1}.`) : null),
     section("Franchises", statTable({
-      rows: rank([...all.franchises].sort((a, b) => b.pct - a.pct || b.pf - a.pf)),
+      rows: rank([...all.franchises].sort((a, b) => b.pct - a.pct || b.pf - a.pf), (f) => f.pct),
       columns: [
         { label: "Rk", value: (f) => f.rk, num: true },
         { label: "Franchise", value: (f) => f.name, render: (f) => fLink(f.id) },
@@ -146,7 +146,7 @@ page("Dynasty iooi History", async (main) => {
       ],
     }), h("p", { class: "note" }, "Records are regular season only. A franchise keeps its history when it changes hands.")),
     section("Managers", statTable({
-      rows: rank([...all.managers].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0) || b.w - a.w)),
+      rows: rank([...all.managers].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0) || b.w - a.w), (m) => m.pct ?? 0),
       columns: [
         { label: "Rk", value: (m) => m.rk, num: true },
         { label: "Manager", value: (m) => m.name, render: (m) => mLink(m.id) },

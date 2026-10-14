@@ -33,7 +33,7 @@ page("Nickname Register", async (main) => {
     ]),
     h("p", { class: "note" }, "Every nickname a manager has given a player on his roster, from the league's Sleeper notices. A nickname belongs to the manager who gave it; a player can carry different ones with different teams."),
     section("Nicknames by Manager", statTable({
-      rows: rank(count((r) => r.manager)),
+      rows: rank(count((r) => r.manager), (r) => r.n),
       columns: [
         { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) },
@@ -43,7 +43,7 @@ page("Nickname Register", async (main) => {
       ],
     })),
     section("Most Nicknamed Players", statTable({
-      rows: rank(count((r) => r.name).filter((r) => r.n > 1).slice(0, 25)),
+      rows: rank(count((r) => r.name).filter((r) => r.n > 1).slice(0, 25), (r) => r.n),
       columns: [
         { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Player", value: (r) => r.key, render: (r) => player(r.list[0]), cls: "win" },

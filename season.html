@@ -120,7 +120,7 @@ page("Season", async (main) => {
       ],
     }),
     h("h3", {}, `Best Pickups of ${y}`), statTable({
-      rows: rank(waivers.best_by_season[y] ?? []),
+      rows: rank(waivers.best_by_season[y] ?? [], (r) => r.pts),
       columns: [
         { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Player", value: (r) => players[r.player]?.name, render: (r) => pLink(r.player, players[r.player]?.name) },

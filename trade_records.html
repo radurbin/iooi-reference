@@ -45,7 +45,7 @@ page("Trade Records", async (main) => {
     section("Trade Record by Franchise", statTable({ rows: t.franchises, columns: cols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
     section("Trade Partners", h("div", { class: "scroll" }, grid), h("p", { class: "note" }, "Completed trades between each pair of franchises. Column numbers match the row numbers.")),
     section("Most Lopsided Trades", statTable({
-      rows: rank(t.lopsided),
+      rows: rank(t.lopsided, (r) => r.margin),
       columns: [
         { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Date", value: (r) => r.date },
@@ -58,7 +58,7 @@ page("Trade Records", async (main) => {
       ],
     })),
     section("Most Traded Players", statTable({
-      rows: rank(t.most_traded),
+      rows: rank(t.most_traded, (r) => r.trades),
       columns: [{ label: "Rk", value: (r) => r.rk, num: true }, { label: "Player", value: (r) => players[r.player]?.name, render: (r) => pLink(r.player, players[r.player]?.name) },
         { label: "Pos", value: (r) => players[r.player]?.pos, cls: "c" }, { label: "Trades", value: (r) => r.trades, num: true }],
     })));

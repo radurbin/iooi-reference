@@ -220,7 +220,8 @@ function bio({ name, photo, logo, lines, nav, awards = [], tiles = [] }) {
 function leaderBoxes(boards, linkOf) {
   return h("div", { class: "leaders" }, boards.filter((b) => b.rows.length).map((b) => h("div", { class: "lbox" },
     h("h4", { "data-tip": b.tip }, b.title),
-    h("ol", {}, b.rows.map((r) => h("li", {}, h("span", {}, linkOf(r)), h("b", {}, r.value.toFixed(b.digits))))))));
+    // Equal values (as shown) share a number.
+    h("ol", {}, rank(b.rows, (r) => r.value.toFixed(b.digits)).map((r) => h("li", { value: r.rk }, h("span", {}, linkOf(r)), h("b", {}, r.value.toFixed(b.digits))))))));
 }
 
 // What each side of a trade received, one line per side. players is players.json.
@@ -242,7 +243,12 @@ function statusText(st, linked = true) {
 
 const section = (title, ...kids) => [h("h2", { id: title.toLowerCase().replace(/[^a-z0-9]+/g, "-") }, title), ...kids];
 const meta = (pairs) => h("ul", { class: "meta" }, pairs.filter((p) => p && p[1] != null && p[1] !== "").map(([k, v]) => h("li", {}, h("b", {}, `${k}: `), v)));
-const rank = (list) => list.map((row, i) => ({ ...row, rk: i + 1 }));
+// Number a sorted list 1, 2, 3... Given the value it is sorted by, rows with equal values share a place (1, 2, 2, 4).
+const rank = (list, value) => list.reduce((out, row, i) => {
+  const prev = out[i - 1];
+  out.push({ ...row, rk: value && prev && value(row) === value(list[i - 1]) ? prev.rk : i + 1 });
+  return out;
+}, []);
 
 // Everything the search box looks through: players (by name or nickname), franchises (by any name they have used), managers,
 // and draft picks. Picks are matched word by word ("2027 1st mojo") and only for a query with a number in it.

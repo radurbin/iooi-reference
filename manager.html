@@ -75,8 +75,8 @@ page("Manager", async (main) => {
       ],
     })),
     m.leaders.overall.length ? [
-      section("All-Time Leaders", statTable({ rows: rank(m.leaders.overall), columns: leaderCols }),
-        h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(m.leaders.by_pos).flatMap((rows) => rank(rows)), groupBy: (r) => r.pos, columns: leaderCols }),
+      section("All-Time Leaders", statTable({ rows: rank(m.leaders.overall, (r) => r.pts), columns: leaderCols }),
+        h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(m.leaders.by_pos).flatMap((rows) => rank(rows, (r) => r.pts)), groupBy: (r) => r.pos, columns: leaderCols }),
         h("p", { class: "note" }, `Games started and points for a franchise while ${m.name} held a stake in it. Bold marks a player on one of ${m.name}'s rosters now.`)),
       section("All-Time Team", statTable({
         sortable: false, rows: m.all_time_team,
@@ -91,7 +91,7 @@ page("Manager", async (main) => {
         ],
       }), h("p", { class: "note" }, `The best lineup from everyone who has started for ${m.name}, by starter points under this manager.`)),
       section("Best Single Games", statTable({
-        rows: rank(m.best_games),
+        rows: rank(m.best_games, (r) => r.pts),
         columns: [
           { label: "Rk", value: (r) => r.rk, num: true },
           { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name) },

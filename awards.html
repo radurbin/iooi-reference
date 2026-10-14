@@ -59,7 +59,7 @@ page("Awards", async (main) => {
     section("Most Valuable Player", h("p", { class: "note" }, "Ranked by points above average (PAA): each start measured against the average iooi starter at the same position that week. Only games in an iooi starting lineup count, and a player needs the same minimum starts as the All-iooi teams: 8 in a complete season, half the weeks played so far while one is in progress."),
       statTable({
         sortable: false,
-        rows: awards.flatMap((a) => a.mvp.map((r, i) => ({ ...r, season: a.season, place: i + 1 }))),
+        rows: awards.flatMap((a) => rank(a.mvp, (r) => r.paa).map((r) => ({ ...r, season: a.season, place: r.rk }))),
         rowClass: (r) => (r.place === 1 ? "champ" : null),
         columns: [
           { label: "Season", value: (r) => r.season },
@@ -87,7 +87,7 @@ page("Awards", async (main) => {
     })))))),
     section("Rookie of the Year", h("p", { class: "note" }, "NFL rookies ranked by points above average (PAA) as an iooi starter, with the same minimum starts as the MVP and All-iooi teams: 8 in a complete season, half the weeks played so far while one is in progress."), statTable({
       sortable: false,
-      rows: awards.flatMap((a) => a.rookie.map((r, i) => ({ ...r, season: a.season, place: i + 1 }))),
+      rows: awards.flatMap((a) => rank(a.rookie, (r) => r.paa).map((r) => ({ ...r, season: a.season, place: r.rk }))),
       rowClass: (r) => (r.place === 1 ? "champ" : null),
       columns: [
         { label: "Season", value: (r) => r.season }, { label: "Rk", value: (r) => r.place, num: true },

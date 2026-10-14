@@ -26,7 +26,7 @@ page("Elo Ratings", async (main) => {
     h("h1", {}, "Dynasty iooi Elo Ratings"),
     h("p", { class: "note" }, `Every franchise started at ${elo.settings.start} in 2023. A win takes points from the loser, more for an upset and for a wide margin. Each new season pulls every team a third of the way back to ${elo.settings.start}. Regular-season and Dynasty Playoff games count; Toilet Bowl games do not.`),
     section("Current Ratings", statTable({
-      rows: rank(elo.table),
+      rows: rank(elo.table, (r) => r.elo),
       columns: [
         { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise), cls: "win" },
@@ -44,7 +44,7 @@ page("Elo Ratings", async (main) => {
         ...years.map((y) => ({ label: y, value: (r) => r.season_end[y], num: true, title: `Elo rating at the end of ${y}, or now for the season in progress` }))],
     }), h("p", { class: "note" }, `${L.current_season} shows the rating after the most recent game.`)),
     section("Biggest Upsets", h("p", { class: "note" }, "Wins by the team Elo gave the smallest chance."), statTable({
-      rows: rank(elo.upsets),
+      rows: rank(elo.upsets, (r) => r.chance),
       columns: [
         { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Game", value: (r) => `${r.season}-${String(r.week).padStart(2, "0")}`, render: (r) => gLink(r.game, `${r.season} wk ${r.week}`) },

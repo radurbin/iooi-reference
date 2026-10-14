@@ -136,7 +136,7 @@ page("Player", async (main) => {
         { label: "Best", value: (r) => r.best, render: (r) => fmt.pts(r.best), num: true },
         { label: "Bench Pts", value: (r) => r.bench_pts, render: (r) => fmt.pts(r.bench_pts), num: true },
         { label: "W", value: (r) => r.wins, num: true, title: "Team wins in games he started" },
-        { label: "PAA", value: (r) => r.paa, render: (r) => fmt.pts1(r.paa), num: true, cls: (r) => (ink(r, "paa") ? "ink" : null), title: "Points above the average iooi starter at his position" },
+        { label: "PAA", value: (r) => r.paa, render: (r) => fmt.pts1(r.paa), num: true, title: "Points above the average iooi starter at his position" },
         { label: "VOR", value: (r) => r.vor, render: (r) => fmt.pts1(r.vor), num: true, title: "Value over a replacement-level player at his position" },
         { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, cls: (r) => (ink(r, "war") ? "ink" : null), title: "Wins above replacement" },
         { label: "Awards", render: (r) => (r.total ? "" : rowHonors(r)), title: "MVP, CMVP (Championship MVP), All-iooi 1st or 2nd team, ROY (Rookie of the Year), YS (Young Sexy Award), Champ (on the title roster)" },

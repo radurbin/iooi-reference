@@ -80,6 +80,7 @@ table.grid td.behind { background: #f6dedb; }
 table.grid th.rowhead { text-align: left; background: var(--head); font-weight: 700; }
 
 .box { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 0 26px; }
+.box.pairs h3 { margin: 14px 0 6px; font-size: 15px; }
 .scoreline { font-size: 20px; margin: 6px 0; }
 .scoreline .w { font-weight: 700; }
 .error { color: #a00; }

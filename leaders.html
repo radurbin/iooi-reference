@@ -40,17 +40,17 @@ page("Player Leaders", async (main) => {
     h("h1", {}, "Dynasty iooi Player Leaders"),
     h("p", { class: "note" }, `All figures count games in an iooi starting lineup, playoffs and Toilet Bowl included. PAA compares each start with the average iooi starter at the position that week. VOR compares it with a replacement-level player: the per-game scoring of the first NFL player outside the league-wide starter pool that season (QB${v.replacement_rank.QB + 1}, RB${v.replacement_rank.RB + 1}, WR${v.replacement_rank.WR + 1}, TE${v.replacement_rank.TE + 1}, K${v.replacement_rank.K + 1}, DEF${v.replacement_rank.DEF + 1}). WAR converts VOR to wins at ${v.points_per_win} points per win, the rate at which points have turned into wins for iooi teams.`),
     activeNote("In every list on this page, bold marks a player now on an iooi roster."),
-    section("Career Points", statTable({ rows: rank(lead.career.pts), columns: cols("pts") })),
-    section("Career Value Over Replacement", statTable({ rows: rank(lead.career.vor), columns: cols("vor") })),
-    section("Career Points Above Average", statTable({ rows: rank(lead.career.paa), columns: cols("paa") })),
-    section("Career Games Started", statTable({ rows: rank(lead.career.gs), columns: cols("gs") })),
-    section("Career Points by Position", Object.entries(lead.career_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows), columns: cols("pts").filter((c) => c.label !== "Pos") })])),
-    section("Single-Season Points", statTable({ rows: rank(lead.season.pts), columns: cols("pts", true) })),
-    section("Single-Season Value Over Replacement", statTable({ rows: rank(lead.season.vor), columns: cols("vor", true) })),
-    section("Single-Season Points by Position", Object.entries(lead.season_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows), columns: cols("pts", true).filter((c) => c.label !== "Pos") })])),
-    section("Black Ink", h("p", { class: "note" }, `Black ink is the bold type a reference book uses for a league-leading figure. The score counts how often a player has led the league in a completed season: ${Object.values(ink.weights).map((w) => `${w.label} ${w.points}`).join(", ")}. Position Points means leading his own position in points.`),
+    section("Career Points", statTable({ rows: rank(lead.career.pts, (r) => r.pts), columns: cols("pts") })),
+    section("Career Value Over Replacement", statTable({ rows: rank(lead.career.vor, (r) => r.vor), columns: cols("vor") })),
+    section("Career Points Above Average", statTable({ rows: rank(lead.career.paa, (r) => r.paa), columns: cols("paa") })),
+    section("Career Games Started", statTable({ rows: rank(lead.career.gs, (r) => r.gs), columns: cols("gs") })),
+    section("Career Points by Position", Object.entries(lead.career_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows, (r) => r.pts), columns: cols("pts").filter((c) => c.label !== "Pos") })])),
+    section("Single-Season Points", statTable({ rows: rank(lead.season.pts, (r) => r.pts), columns: cols("pts", true) })),
+    section("Single-Season Value Over Replacement", statTable({ rows: rank(lead.season.vor, (r) => r.vor), columns: cols("vor", true) })),
+    section("Single-Season Points by Position", Object.entries(lead.season_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows, (r) => r.pts), columns: cols("pts", true).filter((c) => c.label !== "Pos") })])),
+    section("Black Ink", h("p", { class: "note" }, `Black ink is the bold type a reference book uses for a league-leading figure. The score counts how often a player has led the league in a completed season: ${Object.values(ink.weights).map((w) => `${w.label} ${w.points}`).join(", ")}. Position Points means leading his own position in points. Points per Start needs at least 8 starts. Points Above Average is not counted, since leading in it is what wins the MVP, which the Hall of Fame Monitor already rewards.`),
       statTable({
-        rows: rank(ink.table),
+        rows: rank(ink.table, (r) => r.score),
         columns: [
           { label: "Rk", value: (r) => r.rk, num: true },
           { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: activeCls(players) },
@@ -61,7 +61,7 @@ page("Player Leaders", async (main) => {
           { label: "Seasons", value: (r) => r.seasons.join(", "), title: "Seasons with at least one league lead" },
         ],
       })),
-    section("Career Bench Points", h("p", { class: "note" }, "Points scored in weeks spent on a roster but out of the lineup."), statTable({ rows: rank(lead.career.bench_pts), columns: cols("bench_pts") })));
+    section("Career Bench Points", h("p", { class: "note" }, "Points scored in weeks spent on a roster but out of the lineup."), statTable({ rows: rank(lead.career.bench_pts, (r) => r.bench_pts), columns: cols("bench_pts") })));
 });
 </script>
 </body>

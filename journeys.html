@@ -42,7 +42,7 @@ page("Player Journeys", async (main) => {
       ["Returns", `${d.returns.length} players have rejoined a franchise they left`],
     ]),
     section("Most Franchises", statTable({
-      rows: rank(d.travelled),
+      rows: rank(d.travelled, (r) => r.n),
       columns: [rk, who, pos,
         { label: "Teams", value: (r) => r.n, num: true, cls: "win", title: "Different iooi franchises he has been on" },
         { label: "Stints", value: (r) => r.stints, num: true, title: "Separate spells, counting returns" },
@@ -52,7 +52,7 @@ page("Player Journeys", async (main) => {
       ],
     })),
     section("Most-Traded Players", statTable({
-      rows: rank(d.traded),
+      rows: rank(d.traded, (r) => r.n),
       columns: [rk, who, pos,
         { label: "Trades", value: (r) => r.n, num: true, cls: "win", title: "Times traded" },
         { label: "Teams", value: (r) => r.teams, num: true, title: "Different iooi franchises he has been on" },
@@ -62,7 +62,7 @@ page("Player Journeys", async (main) => {
       ],
     })),
     section("Most Transactions", statTable({
-      rows: rank(d.moved),
+      rows: rank(d.moved, (r) => r.n),
       columns: [rk, who, pos,
         { label: "Moves", value: (r) => r.n, num: true, cls: "win", title: "Every draft, signing, claim, release and trade" },
         { label: "Signed", value: (r) => r.signed, num: true, title: "Free-agent signings and waiver claims" },
@@ -71,10 +71,10 @@ page("Player Journeys", async (main) => {
         { label: "Teams", value: (r) => r.teams, num: true, title: "Different iooi franchises he has been on" },
       ],
     })),
-    section("Best Revenge Games", h("p", { class: "note" }, "A revenge game is a start against a franchise that traded or released him."), statTable({ rows: rank(d.revenge_best), columns: revengeCols })),
-    section("Worst Revenge Games", statTable({ rows: rank(d.revenge_worst), columns: revengeCols })),
+    section("Best Revenge Games", h("p", { class: "note" }, "A revenge game is a start against a franchise that traded or released him."), statTable({ rows: rank(d.revenge_best, (r) => r.pts), columns: revengeCols })),
+    section("Worst Revenge Games", statTable({ rows: rank(d.revenge_worst, (r) => r.pts), columns: revengeCols })),
     section("Revenge Game Careers", h("p", { class: "note" }, "At least three revenge games. Ranked by how far his scoring against former teams runs above his usual."), statTable({
-      rows: rank(d.revenge_careers),
+      rows: rank(d.revenge_careers, (r) => r.ppg - (r.usual ?? 0)),
       columns: [rk, who, pos,
         { label: "G", value: (r) => r.g, num: true, title: "Revenge games started" },
         { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
@@ -92,7 +92,7 @@ page("Player Journeys", async (main) => {
       ],
     })),
     section("One-Franchise Players", h("p", { class: "note" }, "Most starts by players who have only ever been on one iooi roster."), statTable({
-      rows: rank(d.loyal),
+      rows: rank(d.loyal, (r) => r.gs),
       columns: [rk, who, pos,
         { label: "Franchise", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) },
         { label: "Seasons", value: (r) => r.seasons, num: true, title: "Seasons on the roster" },

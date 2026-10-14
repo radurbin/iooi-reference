@@ -58,14 +58,14 @@ page("Draft Analysis", async (main) => {
     section("Rookie Drafting by Franchise", statTable({ rows: d.franchises, columns: summaryCols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
     section("Rookie Classes", statTable({ sortable: false, rows: d.classes, columns: summaryCols({ label: "Class", value: (r) => r.key, render: (r) => h("a", { href: `draft.html?y=${r.key}` }, r.key) }).filter((c) => c.label !== "+/-") })),
     Object.entries(d.rookie_by_round).map(([round, lists]) => [
-      section(`Best Rookie Picks, Round ${round}`, statTable({ rows: rank(lists.best), columns: pickCols(rk) })),
-      section(`Worst Rookie Picks, Round ${round}`, statTable({ rows: rank(lists.worst), columns: pickCols(rk) })),
+      section(`Best Rookie Picks, Round ${round}`, statTable({ rows: rank(lists.best, (p) => p.vs_avg), columns: pickCols(rk) })),
+      section(`Worst Rookie Picks, Round ${round}`, statTable({ rows: rank(lists.worst, (p) => p.vs_avg), columns: pickCols(rk) })),
     ]),
-    section("Most Productive Rookie Picks", statTable({ rows: rank(d.rookie_top_points), columns: pickCols(rk) })),
+    section("Most Productive Rookie Picks", statTable({ rows: rank(d.rookie_top_points, (p) => p.pts_league), columns: pickCols(rk) })),
     section("2023 Startup Draft by Franchise", statTable({ rows: d.startup_franchises, columns: summaryCols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
-    section("Startup Draft: Best Value", statTable({ rows: rank(d.startup_best), columns: pickCols(rk) })),
-    section("Startup Draft: Late-Round Steals", h("p", { class: "note" }, "Round 6 or later."), statTable({ rows: rank(d.startup_steals), columns: pickCols(rk) })),
-    section("Startup Draft: Early-Round Busts", h("p", { class: "note" }, "Rounds 1-5."), statTable({ rows: rank(d.startup_busts), columns: pickCols(rk) })));
+    section("Startup Draft: Best Value", statTable({ rows: rank(d.startup_best, (p) => p.vs_avg), columns: pickCols(rk) })),
+    section("Startup Draft: Late-Round Steals", h("p", { class: "note" }, "Round 6 or later."), statTable({ rows: rank(d.startup_steals, (p) => p.vs_avg), columns: pickCols(rk) })),
+    section("Startup Draft: Early-Round Busts", h("p", { class: "note" }, "Rounds 1-5."), statTable({ rows: rank(d.startup_busts, (p) => p.vs_avg), columns: pickCols(rk) })));
 });
 </script>
 </body>

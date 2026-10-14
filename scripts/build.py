@@ -259,6 +259,16 @@ def nfl_ppg(seasons, pid, season, weeks):
     return {"g": len(scores), "ppg": r2(sum(scores) / len(scores)) if scores else None}
 
 
+def rosters_today(season, s):
+    """{franchise: players held now}, from the current rosters, so a player moved since the last game week is on his new team."""
+    path = RAW / season / "rosters.json"
+    if path.exists():
+        held = {r["roster_id"]: set(r.get("players") or []) for r in load(path)}
+    else:
+        held = {fid: set(s["sides"].get((s["last_week"], fid), {"players": []})["players"]) for fid in range(1, 13)}
+    return {fid: held.get(fid, set()) for fid in range(1, 13)}
+
+
 def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_result, appearances, game_log):
     by_id = {m["transaction_id"]: m for m in all_moves}
     absorbed = {child for adj in adjustments.values() for child in adj.get("absorb", [])}
@@ -382,8 +392,7 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                         break
     # Trade trees: follow everything a side received through later trades, drafts and releases.
     latest = max(seasons)
-    last = seasons[latest]["last_week"]
-    holding = {fid: set(seasons[latest]["sides"].get((last, fid), {"players": []})["players"]) for fid in range(1, 13)}
+    holding = rosters_today(latest, seasons[latest])
     releases = defaultdict(list)     # (player, franchise) -> days he was released outright
     for move in all_moves:
         if move["status"] == "complete" and move["type"] != "trade":
@@ -511,7 +520,8 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
         for pid, (games, pts) in totals.items():
             pos = players[pid]["pos"] if pid in players else (raw_players.get(pid) or {}).get("position")
             by_pos[pos].append((pts, pid))
-        ranks = {pid: i + 1 for rows in by_pos.values() for i, (pts, pid) in enumerate(sorted(rows, reverse=True))}
+        # Equal points share a rank: 1 plus the number of players at the position who scored more.
+        ranks = {pid: 1 + sum(1 for other, _ in rows if other > pts) for rows in by_pos.values() for pts, pid in rows}
         nfl[season] = {pid: {"g": g, "pts": r2(pts), "rank": ranks[pid]} for pid, (g, pts) in totals.items()}
     nfl_teams = lambda season, pid: "/".join(seasons[season]["nfl"].get("teams", {}).get(pid, [])) or None
 
@@ -1589,7 +1599,7 @@ def main():
     polls = load(RAW / "trade_polls.json") if (RAW / "trade_polls.json").exists() else {}
     trades = build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_result, appearances, game_log)
     current = seasons[latest]
-    on_roster = {fid: set(current["sides"].get((current["last_week"], fid), {"players": []})["players"]) for fid in range(1, 13)}
+    on_roster = rosters_today(latest, current)
     dump(SITE / "draft_analysis.json", draft_analysis(all_picks, on_roster, latest))
     waivers = waiver_report(all_moves, appearances, people, name_on, {c for a in adjustments.values() for c in a.get("absorb", [])}, players)
     log = waivers.pop("log")

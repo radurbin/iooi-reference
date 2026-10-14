@@ -52,11 +52,11 @@ page("Waiver Wire", async (main) => {
     meta([["Players added", `${w.counts.pickups} (${w.counts.claims} waiver claims, ${w.counts.pickups - w.counts.claims} free-agent signings)`], ["Players released", w.counts.releases]]),
     h("p", { class: "note" }, "A pickup is credited with what the player did as a starter for that team from the day he was added until he left it. Waivers run on rolling priority; the league has no bidding."),
     section("Best Pickups", h("p", { class: "note" }, "Kickers and defenses have their own list below. They are also left out of the season lists, Worst Drops and Most Added Players, since they are picked up and dropped week to week."),
-      statTable({ rows: rank(w.best), columns: pickupCols })),
-    section("Best Kicker and Defense Pickups", statTable({ rows: rank(w.best_kdef), columns: pickupCols })),
-    Object.entries(w.best_by_season).reverse().map(([season, rows]) => section(`Best Pickups of ${season}`, statTable({ rows: rank(rows), columns: pickupCols }))),
+      statTable({ rows: rank(w.best, (r) => r.pts), columns: pickupCols })),
+    section("Best Kicker and Defense Pickups", statTable({ rows: rank(w.best_kdef, (r) => r.pts), columns: pickupCols })),
+    Object.entries(w.best_by_season).reverse().map(([season, rows]) => section(`Best Pickups of ${season}`, statTable({ rows: rank(rows, (r) => r.pts), columns: pickupCols }))),
     section("The Ones That Got Away", h("p", { class: "note" }, "Released players, ranked by what they went on to score as starters for other iooi franchises."), statTable({
-      rows: rank(w.worst_drops),
+      rows: rank(w.worst_drops, (r) => r.pts),
       columns: [
         rk,
         { label: "Player", value: (r) => name(r.player), render: (r) => pLink(r.player, name(r.player)), cls: "win" },
@@ -72,7 +72,7 @@ page("Waiver Wire", async (main) => {
     section("Waiver Activity by Manager", statTable({ rows: w.managers, columns: activityCols({ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }) })),
     section("Waiver Activity by Franchise", statTable({ rows: w.franchises, columns: activityCols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
     section("Most Added Players", statTable({
-      rows: rank(w.most_added),
+      rows: rank(w.most_added, (r) => r.added),
       columns: [rk, { label: "Player", value: (r) => name(r.player), render: (r) => pLink(r.player, name(r.player)) }, { label: "Pos", value: (r) => players[r.player]?.pos, cls: "c" },
         { label: "Added", value: (r) => r.added, num: true }, { label: "Released", value: (r) => r.released, num: true }],
     })));

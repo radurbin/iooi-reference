@@ -64,7 +64,7 @@ page("Draft Pick Ledger", async (main) => {
       ],
     })),
     section("Most-Travelled Picks", h("p", { class: "note" }, "Picks from any draft that were traded at least twice."), statTable({
-      rows: rank(d.travelled),
+      rows: rank(d.travelled, (p) => p.moves.length),
       columns: [
         { label: "Rk", value: (p) => p.rk, num: true },
         { label: "Draft", value: (p) => p.season, render: (p) => (L.drafts.some((x) => x.season === p.season) ? h("a", { href: `draft.html?y=${p.season}` }, p.season) : p.season) },
