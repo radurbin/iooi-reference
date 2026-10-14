@@ -1011,7 +1011,9 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
     out = {"season": season, "week": week, "matchups": [], "fetched": datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat(timespec="minutes") if path.exists() else None}
     if not rows or seasons[season]["status"] == "complete":
         return out
-    nfl = load(ROOT / "data" / "nfl" / f"{season}.json")["weeks"].get(str(week), {})
+    nfl_season = load(ROOT / "data" / "nfl" / f"{season}.json")
+    # Before the week's first game the projections are kept apart from the scored weeks.
+    nfl = nfl_season["weeks"].get(str(week)) or (nfl_season.get("upcoming") if (nfl_season.get("upcoming") or {}).get("week") == week else None) or {}
     proj, out["start"] = nfl.get("proj", {}), nfl.get("start")
     slots = [p for p in load(raw / "league.json")["roster_positions"] if p != "BN"]
     standings = {r["franchise"]: r for r in seasons[season]["standings"]}

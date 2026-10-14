@@ -75,12 +75,18 @@ def trim_nfl(season, final_scoring, changes):
         # A new season has no NFL weeks yet.
         return load(out_path) if out_path.exists() else {"season": season, "weeks": {}}
     weeks, team_in = {}, defaultdict(dict)   # team_in: player -> {week: NFL team he played for}
+    upcoming = None   # the first week with projections but no games played yet (Tuesday to Thursday)
     for week in WEEKS:
         stats_path = CACHE / "stats" / season / f"{week:02d}.json"
-        if not stats_path.exists():
-            continue
-        rows = load(stats_path)
+        rows = load(stats_path) if stats_path.exists() else []
         if not rows:
+            proj_path = CACHE / "projections" / season / f"{week:02d}.json"
+            ahead = load(proj_path) if proj_path.exists() and upcoming is None else []
+            if ahead and any(r.get("date") for r in ahead):
+                start = min(r["date"] for r in ahead if r.get("date"))
+                scoring = scoring_for_week(final_scoring, changes, start)
+                proj = {r["player_id"]: r2(sum(v * scoring.get(k, 0) for k, v in (r.get("stats") or {}).items())) for r in ahead}
+                upcoming = {"week": week, "start": start, "proj": {pid: pts for pid, pts in proj.items() if pts}}
             continue
         start = min(r["date"] for r in rows if r.get("date"))
         scoring = scoring_for_week(final_scoring, changes, start)
@@ -107,7 +113,7 @@ def trim_nfl(season, final_scoring, changes):
                               if week not in teams and teams[min(teams, key=lambda w: (abs(w - week), w > week))] not in playing)
     # NFL team(s) each player appeared for, in order, so a season line can say who he played for.
     teams = {pid: list(dict.fromkeys(by_week[w] for w in sorted(by_week))) for pid, by_week in sorted(team_in.items())}
-    data = {"season": season, "weeks": weeks, "teams": teams}
+    data = {"season": season, "weeks": weeks, "teams": teams, **({"upcoming": upcoming} if upcoming else {})}
     dump(out_path, data)
     return data
 
