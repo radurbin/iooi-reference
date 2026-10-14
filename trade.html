@@ -25,10 +25,13 @@ page("Trade", async (main) => {
   const complete = t.status === "complete";
   const name = (id) => players[id]?.name ?? id;
   const split = (v) => (v && v.g ? `${fmt.pts(v.ppg)} (${v.g} G)` : "");
-  const pickLabel = (a) => [`${a.season} ${ordinal(a.round)}-round pick`, a.original ? [" (", fLink(a.original, seasonTeam(t.season, a.original)), "'s)"] : ""];
+  // The pick's name links to its page: the numbered pick once drafted, else the pick by round and original franchise.
+  const pickTitle = (a) => { const text = `${a.season} ${ordinal(a.round)}-round pick`;
+    return a.became ? pickLink(a.became.season, a.became.label, text) : a.original ? futurePickLink(a.season, a.round, a.original, text) : text; };
+  const pickLabel = (a) => [pickTitle(a), a.original ? [" (", fLink(a.original, seasonTeam(t.season, a.original)), "'s)"] : ""];
   const became = (a) => (a.became ? [pickLink(a.became.season, a.became.label), ": ", pLink(a.became.player, name(a.became.player)), a.became.franchise ? [", selected by ", fLink(a.became.franchise)] : ""] : "Draft not yet held");
   // A trade tree as an indented table: each asset, what it produced for this team, and what it turned into.
-  const pickName = (node) => [`${node.season} ${ordinal(node.round)}-round pick`, node.original ? ` (${seasonTeam(t.season, node.original)}'s)` : ""];
+  const pickName = (node) => [pickTitle(node), node.original ? ` (${seasonTeam(t.season, node.original)}'s)` : ""];
   const dagger = () => h("sup", { class: "dag", "data-tip": "Came back from a later deal that also cost assets from outside this trade" }, "†");
   const outcome = (node) => {
     const o = node.outcome;

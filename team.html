@@ -22,7 +22,9 @@ page("Team Season", async (main) => {
   const y = param("y") || L.current_season, id = Number(param("id") || 1);
   const [t, allTrades, players] = await Promise.all([load(`teams/${y}-${id}`), load("trades"), load("players")]);
   const trades = allTrades.filter((x) => x.season === y && x.sides.some((s) => Number(s.franchise) === Number(id)));
-  const pName = (r) => players[r.player]?.name ?? r.player;
+  const pName = (r) => players[r.player]?.name ?? r.name ?? r.player;
+  // A player added and dropped between games has no page of his own.
+  const pCell = (r) => (players[r.player] ? pLink(r.player, pName(r)) : pName(r));
   const r = t.row, k = t.ranks;
   const name = (pid) => t.players[pid] ?? pid;
   const years = L.seasons.map((s) => s.season);
@@ -106,7 +108,7 @@ page("Team Season", async (main) => {
         { label: "VOR", value: (p) => p.vor, render: (p) => fmt.pts1(p.vor), num: true },
         { label: "WAR", value: (p) => p.war, render: (p) => fmt.pts(p.war), num: true },
       ],
-    }), h("p", { class: "note" }, "Everyone who spent a week on the roster. Click a column to sort.")),
+    }), h("p", { class: "note" }, y === L.current_season ? "Everyone who has spent a game week on the roster this season, then anyone added since (by trade, claim or signing) who has not yet, shown with a G of 0. Click a column to sort." : "Everyone who spent a week on the roster. Click a column to sort.")),
     t.draft.length ? section(`${y} ${t.draft_kind === "startup" ? "Startup" : "Rookie"} Draft`, statTable({
       sortable: false, rows: t.draft,
       columns: [
@@ -135,8 +137,8 @@ page("Team Season", async (main) => {
         rows: t.pickups,
         columns: [
           { label: "Added", value: (r) => r.date },
-          { label: "Player", value: pName, render: (r) => pLink(r.player, pName(r)) },
-          { label: "Pos", value: (r) => players[r.player]?.pos, cls: "c" },
+          { label: "Player", value: pName, render: pCell },
+          { label: "Pos", value: (r) => players[r.player]?.pos ?? r.pos, cls: "c" },
           { label: "How", value: (r) => (r.type === "claim" ? "Waiver claim" : "Free agent") },
           { label: "Until", value: (r) => r.until ?? "9999", render: (r) => r.until ?? "still there" },
           { label: "G", value: (r) => r.g, num: true, title: "Weeks on this team's roster during the stint" },
@@ -149,8 +151,8 @@ page("Team Season", async (main) => {
         rows: t.drops,
         columns: [
           { label: "Released", value: (r) => r.date },
-          { label: "Player", value: pName, render: (r) => pLink(r.player, pName(r)) },
-          { label: "Pos", value: (r) => players[r.player]?.pos, cls: "c" },
+          { label: "Player", value: pName, render: pCell },
+          { label: "Pos", value: (r) => players[r.player]?.pos ?? r.pos, cls: "c" },
           { label: "GS since", value: (r) => r.gs, num: true },
           { label: "Pts since", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
           { label: "Next started for", value: (r) => r.next_team ?? "", render: (r) => (r.next ? fLink(r.next, r.next_team) : "") },

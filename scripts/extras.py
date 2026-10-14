@@ -388,7 +388,8 @@ def similar_teams(seasons):
 
 # ---------------------------------------------------------------- team seasons
 
-def team_season(season, s, fid, games, players, careers, draft, trades, similar, waiver_log):
+def team_season(season, s, fid, games, players, careers, draft, trades, similar, waiver_log, joined=()):
+    """joined: players on the roster today who have not yet spent a game week with this franchise (current season only)."""
     row = next(r for r in s["standings"] if r["franchise"] == fid)
     mine = [g for g in games if g["season"] == season and any(t["franchise"] == fid for t in g["teams"])]
     schedule, w, l, managers, names = [], 0, 0, [], []
@@ -420,6 +421,9 @@ def team_season(season, s, fid, games, players, careers, draft, trades, similar,
     depth.sort(key=lambda d: order.index(d["slot"]) if d["slot"] in order else 99)
     roster = sorted(({"player": pid, "pos": players[pid]["pos"], "nfl": c.get("nfl"), **{k: c[k] for k in ("g", "gs", "pts", "ppg", "best", "bench_pts", "wins", "paa", "vor", "war")}}
                      for pid, career in careers.items() for c in career if c["season"] == season and c["franchise"] == fid), key=lambda r: (-r["pts"], -r["g"]))
+    listed = {r["player"] for r in roster}
+    roster += [{"player": pid, "pos": players[pid]["pos"], "nfl": None, "g": 0, "gs": 0, "pts": 0.0, "ppg": None, "best": None, "bench_pts": 0.0, "wins": 0,
+                "paa": None, "vor": None, "war": None, "joined": True} for pid in sorted(joined, key=lambda q: players[q]["name"]) if pid not in listed]
     standings = s["standings"]
     rank = lambda key, reverse=True: sorted(standings, key=lambda r: r[key] or 0, reverse=reverse).index(row) + 1   # before week 1 some figures are blank
     return {
@@ -1172,7 +1176,8 @@ def main():
         draft_path = SITE / "drafts" / f"{season}.json"
         draft = load(draft_path) if draft_path.exists() else None
         for f in league["franchises"]:
-            dump(SITE / "teams" / f"{season}-{f['id']}.json", team_season(season, s, f["id"], games, players, careers, draft, trades, similar, waiver_log))
+            joined = [pid for pid, st in status.items() if st.get("franchise") == f["id"]] if season == league["current_season"] else ()
+            dump(SITE / "teams" / f"{season}-{f['id']}.json", team_season(season, s, f["id"], games, players, careers, draft, trades, similar, waiver_log, joined))
 
     files = {pid: load(SITE / "players" / f"{pid}.json") for pid in players}
     raw_traded = load(ROOT / "data" / "raw" / league["current_season"] / "traded_picks.json")

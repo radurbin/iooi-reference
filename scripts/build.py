@@ -1243,6 +1243,9 @@ def main():
                 rostered.update(row.get("players") or [])
     for path in RAW.glob("*/drafts/*_picks.json"):
         rostered.update(p["player_id"] for p in load(path) if p.get("player_id"))
+    # Anyone on a roster today, so a player picked up since the last game week has a page and a team.
+    if (RAW / season_ids[-1] / "rosters.json").exists():
+        rostered.update(pid for r in load(RAW / season_ids[-1] / "rosters.json") for pid in (r.get("players") or []))
     players, positions = {}, {}
     for pid in sorted(rostered):
         p = raw_players.get(pid) or {}
@@ -1583,7 +1586,11 @@ def main():
     on_roster = {fid: set(current["sides"].get((current["last_week"], fid), {"players": []})["players"]) for fid in range(1, 13)}
     dump(SITE / "draft_analysis.json", draft_analysis(all_picks, on_roster, latest))
     waivers = waiver_report(all_moves, appearances, people, name_on, {c for a in adjustments.values() for c in a.get("absorb", [])}, players)
-    dump(SITE / "waiver_log.json", waivers.pop("log"))   # every pickup and release; the team-season pages draw on it
+    log = waivers.pop("log")
+    for entry in log["pickups"] + log["drops"]:   # a player who never spent a game week on a roster has no page; carry his name
+        if entry["player"] not in players and (raw_players.get(entry["player"]) or {}).get("full_name"):
+            entry["name"], entry["pos"] = raw_players[entry["player"]]["full_name"], raw_players[entry["player"]].get("position")
+    dump(SITE / "waiver_log.json", log)   # every pickup and release; the team-season pages draw on it
     dump(SITE / "waivers.json", waivers)
     dump(SITE / "trade_records.json", trade_records(trades, people))
     dump(SITE / "head_to_head.json", head_to_head(game_log))

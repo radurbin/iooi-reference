@@ -109,8 +109,9 @@ page("Player", async (main) => {
         nicks.length ? [null, `(${nicks.join(", ")})`] : null,
         [[p.positions ? "Positions" : "Position", p.positions?.join("/") ?? p.pos], ["NFL team", p.nfl_team ?? (p.pos === "DEF" ? null : "None")]],
         [null, height && p.weight ? `${height}, ${p.weight}lb` : null],
-        [last && last.season === L.current_season ? "iooi Team" : "Last iooi team", last && fLink(last.franchise, last.team)],
-        ["iooi Status", p.status && (p.status.code === "rostered" ? (last && last.season === L.current_season ? null : ["On the roster of ", fLink(p.status.franchise)]) : p.status.code === "free_agent" ? "Free agent" : `Not on an iooi roster and without an NFL team${p.status.last_nfl ? `; last played in the NFL in ${p.status.last_nfl}` : ""}`)],
+        // The team that holds him today, from the current rosters, even before he has spent a game week there.
+        p.status?.code === "rostered" ? ["iooi Team", fLink(p.status.franchise, seasonTeam(L.current_season, p.status.franchise))] : ["Last iooi team", last && fLink(last.franchise, last.team)],
+        ["iooi Status", p.status && (p.status.code === "rostered" ? null : p.status.code === "free_agent" ? "Free agent" : `Not on an iooi roster and without an NFL team${p.status.last_nfl ? `; last played in the NFL in ${p.status.last_nfl}` : ""}`)],
         ["Born", p.birth_date && `${p.birth_date}${age ? ` (Age: ${age})` : ""}`],
         ["College", p.college],
         ["NFL rookie year", p.rookie_year],
