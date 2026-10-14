@@ -64,7 +64,7 @@ page("Glossary", async (main) => {
     section("Player Value", h("div", { class: "prose" },
       h("p", {}, "Raw points favor quarterbacks, who score the most at any level. These three stats ask how much a start was worth compared with what a team could otherwise have had.")),
       terms([
-        ["Points Above Average", "PAA", "A start's points minus the average scored that week by iooi starters at the same position. It measures a player against the other players actually in lineups, and decides the MVP and All-iooi teams."],
+        ["Points Above Average", "PAA", "A start's points minus the average scored that week by iooi starters at the same position. It measures a player against the other players actually in lineups, and decides the MVP, the All-iooi teams and Rookie of the Year."],
         ["Value Over Replacement", "VOR", `A start's points minus what a replacement-level player scores per game. Replacement level is the first NFL player outside the league-wide starter pool that season: ${positions.map((pos) => `${pos}${v.replacement_rank[pos] + 1}`).join(", ")}, ranked by season points under iooi scoring. He stands for the player a team would have sitting on its bench: with rosters as deep as iooi's, that is who steps in when a starter is missing. A start below that level counts against the total.`],
         ["Wins Above Replacement", "WAR", `VOR turned into wins, at ${v.points_per_win} points per win. That rate comes from iooi's own completed seasons: across every team-season, each extra win in the standings has gone with about ${v.points_per_win} extra points scored over the 14-game regular season, or roughly ${(v.points_per_win / 14).toFixed(1)} points a week. So a starter who beats a replacement-level player by ${(v.points_per_win / 14).toFixed(1)} points a game for a full regular season is worth about one win, and a 3.00 WAR career has added about three wins to his teams' records.`],
       ]),
@@ -101,10 +101,10 @@ page("Glossary", async (main) => {
     section("Awards", terms([
       ["Champion", "", "Winner of the Dynasty Championship in week 17. A player page lists a title for everyone on the roster that week."],
       ["Ultimate Loser", "", "Loser of the Toilet Bowl final."],
-      ["Most Valuable Player", "MVP", "The player with the most points above average (PAA) across his starts that season, computed by iooi Reference."],
+      ["Most Valuable Player", "MVP", "The player with the most points above average (PAA) across his starts that season, computed by iooi Reference. Like the All-iooi teams, it needs at least 8 starts that season (half the weeks played so far while a season is in progress); the four other finalists listed on the awards page meet the same bar."],
       ["Championship MVP", "", "The top scorer in the champion's starting lineup in the Dynasty Championship, team defenses excepted."],
       ["All-iooi Team", "", "The best lineup of the season by PAA: one quarterback, two running backs, two receivers, a tight end, a flex, a superflex, a kicker and a defense. A player needs at least 8 starts that season to qualify, about half the 17 playable weeks, so a few big games do not outrank a full season; while a season is in progress the bar is half the weeks played so far. The First Team is chosen, then the Second Team from those left."],
-      ["Rookie of the Year", "", "The NFL rookie with the most points as an iooi starter."],
+      ["Rookie of the Year", "", "The NFL rookie with the most points above average (PAA) as an iooi starter, with the same minimum starts as the MVP: 8 in a complete season, half the weeks played so far while one is in progress."],
       ["Young Sexy Award", "", ["Set out in the ", a("constitution.html", "constitution"), ": the top-scoring NFL rookie at each position over weeks 1 to 17 under iooi scoring, started or not. The award goes to the team holding him at season's end."]],
     ]), h("p", { class: "note" }, ["Winners are on the ", a("awards.html", "awards page"), "."])),
 

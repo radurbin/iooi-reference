@@ -22,16 +22,16 @@ page("Search", async (main) => {
   const q = (param("q") || "").trim();
   main.append(h("h1", {}, q ? `Search Results for "${q}"` : "Search"));
   if (q.length < 2) {
-    main.append(h("p", { class: "note" }, "Type at least two letters of a player, team or manager in the box above. Players can be found by nickname, and franchises by any name they have used."));
+    main.append(h("p", { class: "note" }, "Type at least two letters of a player, team or manager in the box above. Players can be found by nickname, and franchises by any name they have used. Draft picks are found by year and pick, as in 2025 1.09, or by year, round and original franchise, as in 2027 1st Mojo."));
     return "Search";
   }
   const groups = await searchGroups(q, 500);
-  if (!groups.length) main.append(h("p", {}, "No players, franchises or managers match."));
+  if (!groups.length) main.append(h("p", {}, "No players, franchises, managers or draft picks match."));
   for (const g of groups) {
     main.append(section(g.title, h("div", { class: "scroll" }, h("table", { class: "stats results" },
       h("thead", {}, h("tr", {}, h("th", { "data-tip": "Name, with the matched part underlined; a nickname or former name that matched is in brackets" }, "Name"),
         h("th", { "data-tip": "Position, or the kind of page" }, "Type"), h("th", { "data-tip": "Seasons on an iooi roster, or active in the league" }, "Years"),
-        g.rows.some((x) => x.team) ? h("th", { "data-tip": "For a player, the team he is on now, or the last one he was on, under its name that season. For a manager, the franchise he runs or last ran." }, "Team") : null)),
+        g.rows.some((x) => x.team) ? h("th", { "data-tip": "For a player, the team he is on now, or the last one he was on, under its name that season. For a manager, the franchise he runs or last ran. For a pick, the team that made it, or for a future pick the team holding it now." }, "Team") : null)),
       h("tbody", {}, g.rows.map((x) => { const row = searchRow(x, q); return h("tr", {},
         h("td", { class: x.active ? "active" : null }, h("a", { href: x.href }, [...row.firstChild.childNodes])), h("td", { class: "c" }, x.note), h("td", { class: x.active ? "c active" : "c" }, x.years),
         g.rows.some((y) => y.team) ? h("td", { class: x.active ? "active" : "dim" }, x.team ? [fLink(x.team.franchise, x.team.team), x.active || !x.team.season ? null : ` (${x.team.season})`] : "") : null); })))),

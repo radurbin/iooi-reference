@@ -485,6 +485,23 @@ def pick_ledger(trades, league, raw_traded):
             "activity": [{"franchise": f["id"], **counts[f["id"]]} for f in league["franchises"]], "chains": chains}
 
 
+def pick_search(league, picks, players):
+    """Every pick with a page, drafted or still to come, for the search box. Searched word by word, so "2027 1st mojo" finds a pick."""
+    ordinal = lambda n: f"{n}{'th' if 10 < n % 100 < 14 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+    names = {f["id"]: [f["name"]] + [s["teams"][str(f["id"])] for s in league["seasons"] if str(f["id"]) in s["teams"]] for f in league["franchises"]}
+    also = lambda fid: " | ".join(dict.fromkeys(names.get(fid, [])))
+    rows = []
+    for d in league["drafts"]:
+        for x in load(SITE / "drafts" / f"{d['season']}.json")["picks"]:
+            rows.append({"name": f"{d['season']} Pick {x['label']}", "season": d["season"], "label": x["label"], "player": players.get(x["player"], {}).get("name"),
+                         "franchise": x["franchise"], "team": x["team"],
+                         "also": f"round {x['round']} pick {x['pick']} | {ordinal(x['round'])} round | {x['overall']} overall | {also(x['original'])}"})
+    for x in picks["future"]:
+        rows.append({"name": f"{x['season']} {ordinal(x['round'])}-Round Pick ({names[x['original']][0]})", "season": x["season"], "round": x["round"], "original": x["original"],
+                     "franchise": x["holder"], "also": f"round {x['round']} | {also(x['original'])}"})
+    return rows
+
+
 # ---------------------------------------------------------------- all-time teams
 
 LINEUP = ("QB", "RB", "RB", "WR", "WR", "TE", "FLEX", "SUPER_FLEX", "K", "DEF")
@@ -828,7 +845,38 @@ HOME_FACES = 12
 LOTTERY_ODDS = (30.0, 25.0, 20.0, 15.0, 7.0, 3.0)   # the six non-playoff teams, worst first (2nd Amendment)
 
 
-def last_week_honors(games, players, records, reached):
+LIST_MOVES = {"league": 10, "franchise": 3, "manager": 3}   # places on a career points list worth a front-page mention
+
+
+def list_moves(season, week, logs, stints):
+    """Players who climbed a career points list (league, franchise, manager) in the given week, within LIST_MOVES places."""
+    before, after = defaultdict(lambda: defaultdict(float)), defaultdict(lambda: defaultdict(float))
+    held = lambda st, a: any(x["franchise"] == a["franchise"] and x["from"] <= a["date"] and (x["to"] is None or a["date"] < x["to"]) for x in st)
+    for pid, log in logs.items():
+        for a in log:
+            if not a["started"] or (a["season"], a["week"]) > (season, week):
+                continue
+            keys = [("league", None), ("franchise", a["franchise"])] + [("manager", m) for m, st in stints.items() if a["date"] and held(st, a)]
+            for key in keys:
+                after[key][pid] += a["pts"]
+                if (a["season"], a["week"]) < (season, week):
+                    before[key][pid] += a["pts"]
+    moves = []
+    for key in sorted(after, key=lambda k: (list(LIST_MOVES).index(k[0]), str(k[1]))):
+        old = {pid: i + 1 for i, pid in enumerate(sorted(before[key], key=lambda q: (-before[key][q], q)))}
+        order = sorted(after[key], key=lambda q: (-after[key][q], q))
+        for i, pid in enumerate(order[:LIST_MOVES[key[0]]]):
+            was = old.get(pid)
+            passed = [q for q in order[i + 1:] if q in old and (was is None or old[q] < was)]
+            if passed:   # a list with no history yet (the first week, a new manager) is not climbed
+                moves.append({"list": key[0], "key": key[1], "player": pid, "from": was, "to": i + 1, "passed": passed})
+    # A manager's list is mentioned only where it tells something the franchise list does not.
+    seen = {(m["player"], m["from"], m["to"], m["key"]) for m in moves if m["list"] == "franchise"}
+    moves = [m for m in moves if m["list"] != "manager" or not any((m["player"], m["from"], m["to"], st["franchise"]) in seen for st in stints[m["key"]])]
+    return moves, {key for key, rows in before.items() if rows}
+
+
+def last_week_honors(games, players, records, reached, logs, stints):
     """Accolades from the most recent completed week, as lines for the front page."""
     if not games:
         return None
@@ -838,6 +886,7 @@ def last_week_honors(games, players, records, reached):
     f = lambda side: f"[[f:{side['franchise']}|{side['team']}]]"
     p = lambda pid: f"[[p:{pid}|{players[pid]['name']}]]"
     box = lambda g: f"([[g:{g['id']}]])"
+    box_of = lambda r: f"([[g:{r['game']}]])"
 
     def place(rows, match, what):
         """Where a performance stands on an all-time list, if it made the list."""
@@ -875,6 +924,41 @@ def last_week_honors(games, players, records, reached):
     gap = (left.get("max_points") or left["points"]) - left["points"]
     if gap > 0:
         lines.append({"label": "Most Left on the Bench", "text": f"{f(left)} left {gap:.2f} points out of the lineup {box(g)}."})
+    # Records set: one clause per performance, naming every list it now tops.
+    moves, history = list_moves(season, week, logs, stints)
+    in_week = lambda r: r and r["season"] == season and r["week"] == week
+    tops = {}
+    def top(r, what):
+        if in_week(r):
+            tops.setdefault((r["player"], r["game"]), {"r": r, "what": []})["what"].append(what)
+    top((records["player_high"] or [None])[0], "the league record for a game")
+    for pos, rows in records["player_high_by_pos"].items():
+        if rows and (rows[0]["player"], rows[0]["game"]) not in tops:
+            top(rows[0], f"the record for a {pos}")
+    top((records["player_high_bench"] or [None])[0], "the record on a bench")
+    for r in records["franchise_player_best"]:
+        if ("franchise", r["key"]) in history:
+            top(r, f"the [[f:{r['key']}|{r['team']}]] record")
+    for r in records["manager_player_best"]:   # a manager's first week sets no record worth the name
+        if in_week(r) and ("manager", r["key"]) in history and not any(w.startswith("the [[f:") for w in tops.get((r["player"], r["game"]), {"what": []})["what"]):
+            top(r, f"[[m:{r['key']}]]'s record")
+    joined = lambda items: items[0] if len(items) == 1 else ", ".join(items[:-1]) + " and " + items[-1]
+    if tops:
+        lines.append({"label": "Records", "text": "; ".join(f"{p(t['r']['player'])} set {joined(t['what'])} with {t['r']['points']:.2f} {box_of(t['r'])}" for t in tops.values()) + "."})
+    # Climbing the career points lists: the league's top places, then the top of each franchise's and manager's list.
+    names = lambda pids: joined([p(q) for q in pids[:3]] + ([f"{len(pids) - 3} other{'s' if len(pids) > 4 else ''}"] if len(pids) > 3 else []))
+    passing = lambda m: f", passing {names(m['passed'])}" if m["passed"] else ""
+    league_moves = [m for m in moves if m["list"] == "league"]
+    if league_moves:
+        lines.append({"label": "Career Points List", "text": "; ".join(
+            f"{p(m['player'])} {'became the career points leader' if m['to'] == 1 else 'climbed to ' + ordinal(m['to'])}{passing(m)}" for m in league_moves) + "."})
+    team_name = {side["franchise"]: side["team"] for side, _ in sides}
+    where = lambda m: f"[[f:{m['key']}|{team_name.get(m['key']) or m['key']}]]'s" if m["list"] == "franchise" else f"[[m:{m['key']}]]'s"
+    other = sorted((m for m in moves if m["list"] != "league"), key=lambda m: m["to"])
+    if other:
+        text = "; ".join(f"{p(m['player'])} became {where(m)} career points leader{passing(m)}" if m["to"] == 1 else
+                         f"{p(m['player'])} climbed to {ordinal(m['to'])} on {where(m)} list{passing(m)}" for m in other[:6])
+        lines.append({"label": "Franchise and Manager Lists", "text": text + (f"; and {len(other) - 6} more moves near the top." if len(other) > 6 else ".")})
     who = lambda m: p(m["key"]) if m["kind"] == "player" else f"[[m:{m['key']}]]" if m["kind"] == "manager" else f"[[f:{m['key']}|{m['team']}]]"
     marks = [m for m in reached if m["season"] == season and m["week"] == week]
     marks.sort(key=lambda m: ({"franchise": 0, "manager": 1, "player": 2}[m["kind"]], -int(m["what"].split(" ")[0].replace(",", ""))))
@@ -1095,6 +1179,7 @@ def main():
     picks = pick_ledger(trades, league, raw_traded)
     chains = picks.pop("chains")
     dump(SITE / "picks.json", picks)
+    dump(SITE / "pick_search.json", pick_search(league, picks, players))
     # Every drafted pick carries the trades that moved it, for its own page.
     for d in league["drafts"]:
         path = SITE / "drafts" / f"{d['season']}.json"
@@ -1102,7 +1187,8 @@ def main():
         for p in draft["picks"]:
             p["moves"] = [{k: v for k, v in m.items() if k != "became"} for m in chains.get((d["season"], p["round"], p["original"]), [])]
         dump(path, draft)
-    honors = last_week_honors(games, players, load(SITE / "records.json"), streak_data["milestones"]["reached"])
+    stints = {m["id"]: load(SITE / "managers" / f"{m['id']}.json")["stints"] for m in league["managers"]}
+    honors = last_week_honors(games, players, load(SITE / "records.json"), streak_data["milestones"]["reached"], logs, stints)
     dump(SITE / "home.json", home(league, seasons, players, careers, picks, honors))
     dump(SITE / "week.json", this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone))
     teams = all_time_teams(players, careers, league)

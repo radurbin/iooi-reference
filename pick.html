@@ -18,10 +18,76 @@
 <body>
 <script src="assets/site.js"></script>
 <script>
+// The trades that moved a pick: who held it in turn, then each trade in full.
+function pickPath(season, p, trades, players) {
+  const deal = (m) => trades.find((t) => t.id === m.trade);
+  // Every franchise to hold the pick, in order: the original owner, then each team that traded for it.
+  const holders = [p.original, ...p.moves.map((m) => m.to)];
+  return [
+    h("p", {}, holders.flatMap((fid, i) => [i ? " → " : "", fLink(fid, i ? p.moves[i - 1].to_team : seasonTeam(Math.min(season, L.current_season), fid))])),
+    statTable({
+      sortable: false, rows: p.moves,
+      columns: [
+        { label: "Date", value: (m) => m.date },
+        { label: "From", render: (m) => fLink(m.from, m.from_team) },
+        { label: "To", render: (m) => fLink(m.to, m.to_team), cls: "win" },
+        { label: "Full terms of the trade", render: (m) => (deal(m) ? tradeTerms(deal(m), players) : "") },
+        { label: "", render: (m) => tLink(m.trade, "details") },
+      ],
+    })];
+}
+
+// A pick in a draft still to come: known by its round and the franchise it first belonged to.
+async function futurePick(main, y, round, original) {
+  const [d, players, trades] = await Promise.all([load("picks"), load("players"), load("trades")]);
+  const p = d.future.find((x) => x.season === y && x.round === round && x.original === original);
+  if (!p) throw new Error("No such pick");
+  const name = franchiseName(original);
+  const title = `${y} ${ordinal(round)}-Round Pick (originally ${name})`;
+  // Previous and next: the same franchise's picks in order, round by round and draft by draft.
+  const own = d.future.filter((x) => x.original === original);
+  const at = own.indexOf(p), prev = own[at - 1], next = own[at + 1];
+  const short = (x) => `${x.season} Rd ${x.round}`;
+  const swap = d.swaps.find((x) => x.season === y && x.round === round && x.originals.includes(original));
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "drafts.html" }, "Drafts"), " › ", h("a", { href: "picks.html" }, "Draft Pick Ledger"), " › ", `${y} ${ordinal(round)} round, originally ${name}`),
+    bio({
+      name: title,
+      nav: [prev ? futurePickLink(prev.season, prev.round, original, `‹‹ Previous (${short(prev)})`) : null, h("a", { href: "picks.html" }, "Draft Pick Ledger"),
+        next ? futurePickLink(next.season, next.round, original, `Next (${short(next)}) ››`) : null],
+      lines: [
+        [["Draft", `${y} Rookie Draft`], ["Round", round]],
+        ["Pick number", y === d.seasons[0] ? ["Not yet set; see the ", h("a", { href: "lottery.html" }, "draft order and lottery")] : "Not yet set"],
+        ["Originally belonged to", fLink(original)],
+        ["Held by", [fLink(p.holder), p.holder === original ? " (never traded away)" : ""]],
+        ["Times traded", p.moves.length],
+        p.sleeper_holder ? ["Sleeper lists it with", fLink(p.sleeper_holder)] : null,
+        swap ? ["Conditional", ["of this pick and the one originally belonging to ", fLink(swap.originals.find((x) => x !== original)), ", the better goes to ", fLink(swap.better_to),
+          " and the worse to ", fLink(swap.worse_to), " (", tLink(swap.trade, swap.date), ")"]] : null,
+      ].filter(Boolean),
+    }),
+    section("Path of the Pick", p.moves.length ? pickPath(y, p, trades, players) : h("p", { class: "note" }, "This pick has never been traded.")),
+    section(`Every ${y} ${ordinal(round)}-Round Pick`, statTable({
+      rows: d.future.filter((x) => x.season === y && x.round === round),
+      rowClass: (x) => (x === p ? "champ" : null),
+      columns: [
+        { label: "Originally", value: (x) => franchiseName(x.original), render: (x) => futurePickLink(x.season, x.round, x.original, franchiseName(x.original)), title: "Franchise the pick first belonged to; links to the pick's page" },
+        { label: "Holder", value: (x) => franchiseName(x.holder), render: (x) => fLink(x.holder), cls: "win", title: "Franchise that holds the pick now" },
+        { label: "Moves", value: (x) => x.moves.length, num: true, title: "Times the pick has been traded" },
+      ],
+    }), h("p", { class: "note" }, "Pick numbers are set once the draft order is. Until then a pick is known by its round and the franchise it first belonged to.")));
+  return title;
+}
+
 page("Draft Pick", async (main) => {
   const y = param("y") || L.drafts.at(-1).season, label = param("p") || "1.01";
+  const round = Number(param("r")), original = Number(param("o"));
+  if (param("r") && !L.drafts.some((d) => d.season === y)) return futurePick(main, y, round, original);
   if (!L.drafts.some((d) => d.season === y)) throw new Error("No such draft");
   const [draft, players, trades] = await Promise.all([load(`drafts/${y}`), load("players"), load("trades")]);
+  // A link made before the draft (by round and original franchise) goes to the pick it became.
+  const made = param("r") && draft.picks.find((x) => x.round === round && x.original === original);
+  if (made) { location.replace(`pick.html?y=${y}&p=${made.label}`); return ""; }
   const at = draft.picks.findIndex((p) => p.label === label);
   if (at < 0) throw new Error("No such pick");
   const p = draft.picks[at], prev = draft.picks[at - 1], next = draft.picks[at + 1];
@@ -29,9 +95,6 @@ page("Draft Pick", async (main) => {
   const title = `${y} ${kind} Draft, Pick ${p.label}`;
   const player = players[p.player];
   const own = p.original === p.franchise;
-  const deal = (m) => trades.find((t) => t.id === m.trade);
-  // Every franchise to hold the pick, in order: the original owner, then each team that traded for it.
-  const holders = [p.original, ...p.moves.map((m) => m.to)];
   main.append(
     h("div", { class: "crumbs" }, h("a", { href: "drafts.html" }, "Drafts"), " › ", h("a", { href: `draft.html?y=${y}` }, `${y} ${kind} Draft`), " › ", `Pick ${p.label}`),
     bio({
@@ -46,18 +109,7 @@ page("Draft Pick", async (main) => {
         ["Draft date", draft.date],
       ],
     }),
-    section("Path of the Pick", p.moves.length ? [
-      h("p", {}, holders.flatMap((fid, i) => [i ? " → " : "", fLink(fid, i ? p.moves[i - 1].to_team : seasonTeam(y, fid))])),
-      statTable({
-        sortable: false, rows: p.moves,
-        columns: [
-          { label: "Date", value: (m) => m.date },
-          { label: "From", render: (m) => fLink(m.from, m.from_team) },
-          { label: "To", render: (m) => fLink(m.to, m.to_team), cls: "win" },
-          { label: "Full terms of the trade", render: (m) => (deal(m) ? tradeTerms(deal(m), players) : "") },
-          { label: "", render: (m) => tLink(m.trade, "details") },
-        ],
-      })] : h("p", { class: "note" }, own ? "This pick was never traded: the franchise that owned it made the selection." : "No trade of this pick is on record.")),
+    section("Path of the Pick", p.moves.length ? pickPath(y, p, trades, players) : h("p", { class: "note" }, own ? "This pick was never traded: the franchise that owned it made the selection." : "No trade of this pick is on record.")),
     section("What It Became", statTable({
       sortable: false,
       rows: [

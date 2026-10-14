@@ -25,7 +25,7 @@ page("Draft Pick Ledger", async (main) => {
   const held = (fid, season) => d.future.filter((p) => p.holder === fid && p.season === season).sort((a, b) => a.round - b.round);
   const cell = (fid, season) => {
     const picks = held(fid, season);
-    return picks.length ? h("div", {}, picks.flatMap((p, i) => [i ? ", " : "", p.original === fid ? `${p.round}` : h("b", { "data-tip": `Originally ${franchiseName(p.original)}` }, `${p.round}*`)])) : h("span", { class: "dim" }, "none");
+    return picks.length ? h("div", {}, picks.flatMap((p, i) => [i ? ", " : "", futurePickLink(p.season, p.round, p.original, p.original === fid ? `${p.round}` : h("b", { "data-tip": `Originally ${franchiseName(p.original)}` }, `${p.round}*`))])) : h("span", { class: "dim" }, "none");
   };
   const traded = d.future.filter((p) => p.moves.length);
   main.append(
@@ -48,7 +48,7 @@ page("Draft Pick Ledger", async (main) => {
         { label: "Net", value: (r) => r.total - d.seasons.length * d.rounds, render: (r) => fmt.signed(r.total - d.seasons.length * d.rounds).replace(".00", ""), num: true, title: "Picks held above or below a full set" },
         { label: "1sts", value: (r) => r.firsts, num: true, title: "First-round picks held" },
       ],
-    }), h("p", { class: "note" }, "Numbers are rounds. A starred round is a pick acquired from another franchise; hover for whose it was.")),
+    }), h("p", { class: "note" }, "Numbers are rounds, each linking to the pick's own page. A starred round is a pick acquired from another franchise; hover for whose it was.")),
     d.swaps.length ? section("Conditional Picks", h("ul", { class: "meta" }, d.swaps.map((s) => h("li", {}, h("b", {}, `${s.season} ${rd(s.round)}: `),
       "of the picks originally belonging to ", fLink(s.originals[0]), " and ", fLink(s.originals[1]), ", the better goes to ", fLink(s.better_to), " and the worse to ", fLink(s.worse_to),
       " (", tLink(s.trade, s.date), "). Shown above with their current holders until the order is set.")))) : null,
@@ -56,7 +56,7 @@ page("Draft Pick Ledger", async (main) => {
       rows: traded,
       columns: [
         { label: "Draft", value: (p) => p.season },
-        { label: "Rd", value: (p) => p.round, num: true },
+        { label: "Rd", value: (p) => p.round, render: (p) => futurePickLink(p.season, p.round, p.original, `${p.round}`), num: true },
         { label: "Original", value: (p) => franchiseName(p.original), render: (p) => fLink(p.original), title: "Franchise the pick first belonged to" },
         { label: "Holder", value: (p) => franchiseName(p.holder), render: (p) => fLink(p.holder), cls: "win", title: "Franchise that holds the pick now" },
         { label: "Moves", value: (p) => p.moves.length, num: true, title: "Times the pick has been traded" },

@@ -55,6 +55,8 @@ const activeCls = (players, on) => (r) => { const st = players[r.player]?.status
 const activeNote = (text = "Bold marks a player now on an iooi roster.") => h("p", { class: "note" }, text);
 // A drafted pick's own page, e.g. pick.html?y=2025&p=1.09.
 const pickLink = (season, label, text) => h("a", { href: `pick.html?y=${season}&p=${label}` }, text ?? label);
+// A pick whose number is not yet set, by draft, round and the franchise it first belonged to, e.g. pick.html?y=2027&r=1&o=1.
+const futurePickLink = (season, round, original, text) => h("a", { href: `pick.html?y=${season}&r=${round}&o=${original}` }, text ?? `${season} ${ordinal(round)}-round pick`);
 const tsLink = (season, id, text) => h("a", { href: `team.html?y=${season}&id=${id}` }, text ?? seasonTeam(season, id));
 const rLink = (kind, a, b, text) => h("a", { href: `rivalry.html?${kind}=${[a, b].sort((x, y) => (String(x) < String(y) ? -1 : 1)).join("~")}` }, text ?? "rivalry");
 const gLink = (id, text) => h("a", { href: `game.html?id=${id}` }, text ?? "box");
@@ -223,7 +225,8 @@ function leaderBoxes(boards, linkOf) {
 
 // What each side of a trade received, one line per side. players is players.json.
 function tradeTerms(t, players) {
-  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : [`${a.season} ${ordinal(a.round)}-round pick`, a.became ? [" (", pickLink(a.became.season, a.became.label), ", ", pLink(a.became.player, players[a.became.player]?.name), ")"] : a.original ? ` (originally ${seasonTeam(t.season, a.original)})` : ""]);
+  const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : a.became ? [`${a.season} ${ordinal(a.round)}-round pick`, " (", pickLink(a.became.season, a.became.label), ", ", pLink(a.became.player, players[a.became.player]?.name), ")"]
+    : a.original ? [futurePickLink(a.season, a.round, a.original), ` (originally ${seasonTeam(t.season, a.original)})`] : `${a.season} ${ordinal(a.round)}-round pick`);
   return t.sides.map((s) => h("div", {}, fLink(s.franchise, s.team), " received: ", s.assets.length ? s.assets.flatMap((a, i) => [i ? ", " : "", asset(a)]) : "nothing"));
 }
 const tradeStatus = { label: "Status", value: (t) => t.status, render: (t) => ({ complete: "", vetoed: "Vetoed", cancelled: "Withdrawn", pending: "Under review" })[t.status] ?? t.status, cls: "c", title: "Blank for a completed trade; otherwise under review, vetoed by league vote, or withdrawn during review" };
@@ -241,24 +244,31 @@ const section = (title, ...kids) => [h("h2", { id: title.toLowerCase().replace(/
 const meta = (pairs) => h("ul", { class: "meta" }, pairs.filter((p) => p && p[1] != null && p[1] !== "").map(([k, v]) => h("li", {}, h("b", {}, `${k}: `), v)));
 const rank = (list) => list.map((row, i) => ({ ...row, rk: i + 1 }));
 
-// Header search over players, franchises and managers, in the manner of the big reference sites.
-// Everything the search box looks through: players (by name or nickname), franchises (by any name they have used) and managers.
+// Everything the search box looks through: players (by name or nickname), franchises (by any name they have used), managers,
+// and draft picks. Picks are matched word by word ("2027 1st mojo") and only for a query with a number in it.
 let searchIndex = null;
 async function searchGroups(query, limit = 8) {
   const q = query.trim().toLowerCase();
   if (!searchIndex) {
-    const players = await load("players");
+    const [players, picks] = await Promise.all([load("players"), load("pick_search")]);
     const span = (y) => (y ? (y[0] === y[1] ? y[0] : `${y[0]}-${y[1]}`) : "");
     searchIndex = {
       "iooi Players": { href: "players.html", rows: Object.entries(players).map(([id, p]) => ({ name: p.name, href: `player.html?id=${id}`, years: span(p.years ?? (p.status?.code === "rostered" ? [L.current_season, L.current_season] : null)), active: p.status?.code === "rostered", sort: p.pts ?? 0, note: p.positions?.join("/") ?? p.pos, also: (p.nicknames ?? []).join(" | "),
         team: p.status?.code === "rostered" ? { franchise: p.status.franchise } : p.last_team })) },
       "iooi Franchises": { href: "index.html#franchises", rows: L.franchises.map((f) => ({ name: f.name, href: `franchise.html?id=${f.id}`, years: span([L.seasons[0].season, L.current_season]), active: true, sort: 0, note: "Franchise", also: [...new Set(L.seasons.map((s) => s.teams[f.id]))].filter((n) => n && n !== f.name).join(" | ") })) },
       "iooi Managers": { href: "index.html#managers", rows: L.managers.map((m) => ({ name: m.name, href: `manager.html?id=${m.id}`, years: span(m.years), active: m.active, sort: 0, note: "Manager", also: "", team: { franchise: m.franchise } })) },
+      "iooi Draft Picks": { href: "picks.html", words: true, rows: picks.map((x, i) => ({ name: x.name, also: x.also, years: x.season, active: false, sort: -i,
+        href: x.label ? `pick.html?y=${x.season}&p=${x.label}` : `pick.html?y=${x.season}&r=${x.round}&o=${x.original}`, note: x.label ? "Pick" : "Future pick",
+        sub: x.player, team: { franchise: x.franchise, team: x.team } })) },
     };
   }
+  const words = q.split(/\s+/).filter(Boolean);
   return Object.entries(searchIndex).map(([title, group]) => {
-    const found = group.rows.filter((x) => x.name.toLowerCase().includes(q) || x.also.toLowerCase().includes(q))
-      .map((x) => ({ ...x, via: x.name.toLowerCase().includes(q) ? null : x.also.split(" | ").find((n) => n.toLowerCase().includes(q)) }))
+    // A pick whose words match whole ("1.09", not the "11.09" that contains it) comes first.
+    const whole = (x) => { const t = new Set(`${x.name} | ${x.also}`.toLowerCase().split(/[\s|()]+/)); return words.filter((w) => t.has(w)).length; };
+    const found = (group.words ? (/\d/.test(q) ? group.rows.filter((x) => words.every((w) => `${x.name} | ${x.also}`.toLowerCase().includes(w))).map((x) => ({ ...x, sort: whole(x) * 1e4 + x.sort })) : [])
+      : group.rows.filter((x) => x.name.toLowerCase().includes(q) || x.also.toLowerCase().includes(q)))
+      .map((x) => ({ ...x, via: group.words ? x.sub : x.name.toLowerCase().includes(q) ? null : x.also.split(" | ").find((n) => n.toLowerCase().includes(q)) }))
       .sort((x, y) => (y.active - x.active) || (y.sort - x.sort) || x.name.localeCompare(y.name));
     return { title, href: group.href, total: found.length, rows: found.slice(0, limit) };
   }).filter((g) => g.total);
@@ -276,7 +286,7 @@ function searchRow(x, q) {
 // Header search over players, franchises and managers, in the manner of the big reference sites.
 function searchBox() {
   const hits = h("div", { class: "hits", hidden: true });
-  const input = h("input", { type: "search", placeholder: "Enter Player, Team, Manager", "aria-label": "Search" });
+  const input = h("input", { type: "search", placeholder: "Enter Player, Team, Manager, Pick", "aria-label": "Search" });
   const all = () => `search.html?q=${encodeURIComponent(input.value.trim())}`;
   let latest = 0;
   input.addEventListener("input", async () => {

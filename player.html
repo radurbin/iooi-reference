@@ -202,7 +202,7 @@ page("Player", async (main) => {
         { label: "Pts/G", value: (r) => (r.g ? r.pts / r.g : null), render: (r) => (r.g ? fmt.pts(r.pts / r.g) : ""), num: true },
         { label: "Pos Rk", value: (r) => r.rank, render: (r) => `${p.pos}${r.rank}`, num: true, title: "Rank at his position in total points" },
       ],
-    }), h("p", { class: "note" }, "Every NFL game in weeks 1-17, scored under the iooi rules in force each week, whether or not he was on a roster or in a lineup.")),
+    }), h("p", { class: "note" }, "Every NFL game in weeks 1-17, scored under the iooi scoring rules of that week, whether or not he was on a roster or in a lineup.")),
     section("Transactions", p.history.length ? h("ul", { class: "meta" }, p.history.map((e) => h("li", {}, h("b", {}, `${e.date}: `), moves[e.type](e)))) : h("p", { class: "note" }, "None on record.")),
     p.nicknames?.length ? section("Nickname History", statTable({
       sortable: false, rows: p.nicknames,
