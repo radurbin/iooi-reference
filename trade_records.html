@@ -23,12 +23,14 @@ page("Trade Records", async (main) => {
   const cols = (lead) => [
     lead,
     { label: "Trades", value: (r) => r.trades, num: true },
-    { label: "W", value: (r) => r.w, num: true, title: "Trades where his side has more points from acquired starters" },
-    { label: "L", value: (r) => r.l, num: true },
-    { label: "Even", value: (r) => r.even, num: true, title: "Neither side has produced a starter point yet" },
-    { label: "Pts In", value: (r) => r.pts_in, render: (r) => fmt.pts(r.pts_in), num: true, title: "Starter points from assets acquired" },
-    { label: "Pts Out", value: (r) => r.pts_out, render: (r) => fmt.pts(r.pts_out), num: true, title: "Starter points the other side got from assets given up" },
-    { label: "Net", value: (r) => r.net, render: (r) => fmt.signed(r.net), num: true },
+    { label: "W", value: (r) => r.w, num: true, title: "Trades where this side received at least 0.25 WAR more value" },
+    { label: "L", value: (r) => r.l, num: true, title: "Trades where the other side received at least 0.25 WAR more value" },
+    { label: "Even", value: (r) => r.even, num: true, title: "Trades with neither side 0.25 WAR ahead" },
+    { label: "Value In", value: (r) => r.war_in, render: (r) => fmt.pts(r.war_in), num: true, title: "NFL WAR of everything received, from each trade on" },
+    { label: "Value Out", value: (r) => r.war_out, render: (r) => fmt.pts(r.war_out), num: true, title: "NFL WAR of everything given up, from each trade on" },
+    { label: "Net", value: (r) => r.net, render: (r) => fmt.signed(r.net), num: true, cls: "win", title: "Value in minus value out, in WAR" },
+    { label: "Pts In", value: (r) => r.pts_in, render: (r) => fmt.pts(r.pts_in), num: true, title: "Starter points this side got from the players it received (context)" },
+    { label: "Pts Out", value: (r) => r.pts_out, render: (r) => fmt.pts(r.pts_out), num: true, title: "Starter points the other side got from what it received (context)" },
     { label: "Vetoed", value: (r) => r.vetoed, num: true, title: "Trades blocked by league vote" },
   ];
   const ids = L.franchises.map((f) => f.id);
@@ -40,7 +42,7 @@ page("Trade Records", async (main) => {
       h("td", { class: "num win" }, ids.reduce((sum, b) => sum + (a === b ? 0 : count(a, b)), 0))))));
   main.append(
     h("h1", {}, "Dynasty iooi Trade Records"),
-    h("p", { class: "note" }, "A trade is scored by the points each side has had from the players it acquired, as starters, since the deal. Picks count once used by the team that acquired them. Unused picks carry no value yet, so recent deals for future picks look one-sided."),
+    h("p", { class: "note" }, ["A trade is judged by the value each side received: the NFL wins above replacement (WAR) of every player it got, in every game from the trade on, whoever rostered him, and for a pick, the WAR of the player it became from that draft on. A player below replacement counts as nothing rather than as a loss. What either team did afterwards, such as trading the player on, does not enter into it. A side is ahead once it leads by 0.25 WAR (about 21 points); until then the trade is even. Players still in the league and unused picks can change the result, so it is a verdict so far. Points in and out are the starter points each side got from what it received, for context. See the ", h("a", { href: "glossary.html#trade-result" }, "glossary"), "."]),
     section("Trade Record by Manager", statTable({ rows: t.managers, columns: cols({ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }) })),
     section("Trade Record by Franchise", statTable({ rows: t.franchises, columns: cols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
     section("Trade Partners", h("div", { class: "scroll" }, grid), h("p", { class: "note" }, "Completed trades between each pair of franchises. Column numbers match the row numbers.")),
@@ -50,10 +52,10 @@ page("Trade Records", async (main) => {
         { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Date", value: (r) => r.date },
         { label: "Ahead", value: (r) => r.winner_team, render: (r) => fLink(r.winner, r.winner_team), cls: "win" },
-        { label: "Pts", value: (r) => r.winner_pts, render: (r) => fmt.pts(r.winner_pts), num: true },
+        { label: "Value", value: (r) => r.winner_war, render: (r) => fmt.pts(r.winner_war), num: true, title: "NFL WAR received" },
         { label: "Behind", value: (r) => r.loser_team, render: (r) => fLink(r.loser, r.loser_team) },
-        { label: "Pts", value: (r) => r.loser_pts, render: (r) => fmt.pts(r.loser_pts), num: true },
-        { label: "Margin", value: (r) => r.margin, render: (r) => fmt.pts(r.margin), num: true },
+        { label: "Value", value: (r) => r.loser_war, render: (r) => fmt.pts(r.loser_war), num: true, title: "NFL WAR received" },
+        { label: "Margin", value: (r) => r.margin, render: (r) => fmt.pts(r.margin), num: true, cls: "win", title: "WAR margin" },
         { label: "", render: (r) => tLink(r.id, "details") },
       ],
     })),

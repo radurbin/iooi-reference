@@ -23,6 +23,8 @@ page("Trade", async (main) => {
   const t = trades.find((x) => x.id === param("id"));
   if (!t) throw new Error("No such trade");
   const complete = t.status === "complete";
+  // A before or after column is shown only if some asset in the trade has NFL games in that span (none before 2023).
+  const has = { before: t.sides.some((s) => s.assets.some((a) => a.before?.g)), after: t.sides.some((s) => s.assets.some((a) => a.after?.g)) };
   const name = (id) => players[id]?.name ?? id;
   const split = (v) => (v && v.g ? `${fmt.pts(v.ppg)} (${v.g} G)` : "");
   // The pick's name links to its page: the numbered pick once drafted, else the pick by round and original franchise.
@@ -38,6 +40,7 @@ page("Trade", async (main) => {
     return {
       traded: () => ["Traded ", o.date, " to ", fLink(o.to.franchise, o.to.team),
         o.with ? `, packaged with ${o.with} other asset${o.with > 1 ? "s" : ""}${o.outside ? ` (${o.outside === o.with ? "" : `${o.outside} `}from outside this trade)` : ""}` : "",
+        o.credit != null ? h("span", { class: "dim", "data-tip": "Share of what came back credited to this trade: what this trade's assets in the deal went on to produce for their new team, out of everything sent" }, `; ${Math.round(o.credit * 100)}% credited here`) : "",
         " (", tLink(o.trade, "details"), ")", o.repeat ? "; return listed above" : ""],
       drafted: () => [`Used at pick ${o.label}`],
       used_elsewhere: () => [`Became ${o.label} `, pLink(o.player, name(o.player)), ", selected by ", fLink(o.franchise), " (left this team outside a logged trade)"],
@@ -64,6 +67,7 @@ page("Trade", async (main) => {
         h("td", {}, node.acquired),
         h("td", { class: "num" }, node.stint ? node.stint.gs : ""),
         h("td", { class: "num" }, node.stint ? fmt.pts(node.stint.pts) : ""),
+        h("td", { class: "num" }, node.stint ? fmt.pts(node.stint.war) : ""),
         h("td", { class: "num" }, node.stint ? node.stint.wins : ""),
         h("td", {}, outcome(node)));
       all.push(row);
@@ -94,7 +98,7 @@ page("Trade", async (main) => {
       h("div", { class: "scroll" }, h("table", { class: "stats treetable" },
         h("thead", {}, h("tr", {},
           head("Asset", "Player or pick. Indented rows are what the row above was traded for or used on."), head("Pos", "Position"), head("Acquired", "Date this team got it"),
-          head("GS", "Games started for this team while it held him", "num"), head("Pts", "Points as a starter for this team while it held him", "num"),
+          head("GS", "Games started for this team while it held him", "num"), head("Pts", "Points as a starter for this team while it held him", "num"), head("WAR", "Wins above replacement as a starter for this team while it held him", "num"),
           head("W", "Team wins in games he started", "num"), head("Outcome", "Where it went, or where it is now"))),
         tbody)),
     ];
@@ -105,8 +109,9 @@ page("Trade", async (main) => {
     return h("div", { class: "today" },
       h("p", {}, h("b", {}, "On the roster today: "), now.roster.length ? now.roster.flatMap((r, i) => [i ? ", " : "", pLink(r.player, name(r.player)), r.shared ? dagger() : null, h("span", { class: "dim" }, ` ${fmt.pts(r.pts)}`)]) : "nobody"),
       now.picks.length ? h("p", {}, h("b", {}, "Picks still to come: "), now.picks.flatMap((p, i) => [i ? ", " : "", pickName(p), p.shared ? dagger() : null])) : null,
-      h("p", {}, h("b", {}, "Production: "), `${s.tree_direct.gs} starts and ${fmt.pts(s.tree_direct.pts)} points from this trade alone`,
-        same ? "." : [`; ${s.tree_total.gs} starts and ${fmt.pts(s.tree_total.pts)} points counting later package deals`, dagger(), "."]));
+      h("p", {}, h("b", {}, "What it led to: "), `${fmt.pts(s.credit.war)} WAR and ${fmt.pts(s.credit.pts)} starter points for ${s.team}, following later deals`,
+        same ? "" : [` (${fmt.pts(s.tree_direct.pts)} points from branches never packaged with other assets; ${fmt.pts(s.tree_total.pts)} with full credit for package deals`, dagger(), ")"],
+        ". This shows how the team used what it got; it is not part of the verdict."));
   };
   const heading = t.sides.map((s) => s.team).join(" / ");
   const status = { complete: "Completed", vetoed: "Vetoed by league vote", cancelled: "Withdrawn during review", pending: "Under review by the league" }[t.status];
@@ -119,22 +124,30 @@ page("Trade", async (main) => {
       [complete ? "Processed" : "Closed", t.processed],
       ["Review", t.status === "pending" ? `Open to a league vote. The two-day review runs to ${t.review_ends} at the earliest; the trade goes through unless six managers vote to veto it.` : null],
       [t.status === "pending" ? "Vote so far" : "Review vote", t.votes ? `${t.votes.pass ?? 0} to pass, ${t.votes.veto ?? 0} to veto${t.status === "pending" ? `, as of ${stamp(L.updated)}` : ""}` : null],
-      ["Ledger leader", complete && t.leader ? [fLink(t.leader, t.sides.find((s) => s.franchise === t.leader).team), " (more points from acquired starters)"] : null],
+      ["Verdict so far", complete && t.sides.length > 1 ? [t.leader ? [fLink(t.leader, t.sides.find((s) => s.franchise === t.leader).team), ` ahead by ${fmt.pts(t.margin)} WAR`] : `Even (within 0.25 WAR)`,
+        " in value received (", t.sides.flatMap((s, i) => [i ? "; " : "", `${s.team} ${fmt.pts(s.value)}`]), "; ", h("a", { href: "glossary.html#trade-result" }, "how this is judged"), ")"] : null],
     ]),
     t.notes.map((note) => h("p", {}, h("b", {}, "Note: "), rich(note))),
     t.sides.map((s) => section(`${s.team} received`,
       meta([["Managed by", mLinks(s.managers)]]),
       s.assets.length ? statTable({
         sortable: false, rows: s.assets,
-        foot: complete ? { total: true, team_since: s.total } : null,
+        // The total row adds up WAR before and after too; points per game are not summed.
+        foot: (() => { const sum = (k) => { const v = s.assets.map((x) => x[k]?.war).filter((w) => w != null); return v.length ? { war: v.reduce((x, y) => x + y, 0) } : null; };
+          return { total: true, team_since: complete ? s.total : null, before: sum("before"), after: sum("after"), value: { war: s.value, total: true } }; })(),
         columns: [
           { label: "Asset", render: (a) => (a.total ? "Total" : a.type === "player" ? pLink(a.player, name(a.player)) : pickLabel(a)) },
           { label: "Pos", render: (a) => (a.type === "player" ? players[a.player]?.pos : a.became ? players[a.became.player]?.pos : ""), cls: "c" },
           { label: "Became", render: (a) => (a.type === "pick" ? became(a) : "") },
-          { label: `Pts/G, ${t.spans[0]}`, render: (a) => split(a.before), num: true, title: "NFL fantasy points per game before the trade, under iooi scoring" },
-          { label: `Pts/G, ${t.spans[1]}`, render: (a) => split(a.after), num: true, title: "NFL fantasy points per game after the trade, under iooi scoring" },
-          complete && { label: "GS", render: (a) => a.team_since?.gs ?? "", num: true, title: "Games started for the acquiring franchise since the trade" },
+          has.before && { label: `Pts/G, ${t.spans[0]}`, render: (a) => split(a.before), num: true, title: "NFL fantasy points per game before the trade, under iooi scoring" },
+          has.after && { label: `Pts/G, ${t.spans[1]}`, render: (a) => split(a.after), num: true, title: "NFL fantasy points per game after the trade, under iooi scoring. For a pick, the player it became" },
+          has.before && { label: `WAR, ${t.spans[0]}`, render: (a) => fmt.pts(a.before?.war), num: true, title: "NFL wins above replacement before the trade: every NFL game, whoever rostered him, against that season's replacement level at his position" },
+          has.after && { label: `WAR, ${t.spans[1]}`, render: (a) => fmt.pts(a.after?.war), num: true, title: "NFL wins above replacement after the trade, counted the same way. For a pick, the player it became" },
+          complete && { label: "Value", render: (a) => (a.value ? (a.total ? fmt.pts(a.value.war) : `${fmt.pts(a.value.war)} (${a.value.g} G)`) : ""), num: true, cls: "win",
+            title: "The verdict's measure: NFL WAR in every game from the trade on (for a pick, from its draft on), whoever rostered him. The total counts an asset below replacement as zero" },
+          complete && { label: "GS", render: (a) => a.team_since?.gs ?? "", num: true, title: "Games started for the acquiring franchise since the trade (context; not part of the verdict)" },
           complete && { label: "Pts", render: (a) => (a.team_since ? fmt.pts(a.team_since.pts) : ""), num: true, title: "Points as a starter for the acquiring franchise since the trade" },
+          complete && { label: "WAR", render: (a) => (a.team_since ? fmt.pts(a.team_since.war) : ""), num: true, title: "Wins above replacement as a starter for the acquiring franchise since the trade" },
           complete && { label: "W", render: (a) => a.team_since?.wins ?? "", num: true, title: "Team wins in games he started since the trade" },
           { label: "Note", render: (a) => (a.moved_on ? `Assigned by the commissioner ${a.moved_on}` : ""), cls: "dim" },
         ].filter(Boolean),
@@ -145,7 +158,7 @@ page("Trade", async (main) => {
       todayBox(s),
       tree(s.tree)]),
       h("p", { class: "note" }, "Each row is an asset, what it did as a starter while this team held it, and where it went. Indented rows are what the team got back when the row above was traded, or the player a pick was used on. Open a branch with its arrow."),
-      h("p", { class: "note" }, [dagger(), " When an asset was traded on as part of a package that included assets from outside this trade, what came back is only partly this trade's doing. Those rows are shaded and left out of the first production figure."])) : null,
+      h("p", { class: "note" }, [dagger(), " When an asset was traded on as part of a package that included assets from outside this trade, what came back is only partly this trade's doing. Those rows are shaded, and this trade is credited with a share: what its assets in that deal went on to produce for their new team, out of everything sent."])) : null,
     h("p", { class: "note" }, complete
       ? "GS, Pts and W count only games started for the acquiring franchise from the trade date on. A traded pick is credited when the acquiring franchise made the selection itself."
       : "This trade never took effect. Points per game show what the players went on to do."));

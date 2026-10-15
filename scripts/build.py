@@ -251,12 +251,35 @@ def season_summary(season, s, rows):
 
 # ---------------------------------------------------------------- trades
 
-def nfl_ppg(seasons, pid, season, weeks):
-    """A player's NFL fantasy scoring under league rules over a span of weeks, whoever rostered him."""
+def nfl_ppg(seasons, pid, season, weeks, value=None, pos=None):
+    """A player's NFL fantasy scoring under league rules over a span of weeks, whoever rostered him.
+    With value (annotate_value's notes) and his position, also his WAR over those games: points above that season's
+    replacement level for the position, turned into wins at the league's rate."""
     data = seasons.get(season)
     scores = [data["nfl"]["weeks"][str(w)]["points"][pid] for w in weeks
               if data and str(w) in data["nfl"]["weeks"] and pid in data["nfl"]["weeks"][str(w)]["points"]]
-    return {"g": len(scores), "ppg": r2(sum(scores) / len(scores)) if scores else None}
+    out = {"g": len(scores), "ppg": r2(sum(scores) / len(scores)) if scores else None}
+    baseline = (value or {}).get("replacement", {}).get(season, {}).get(pos)
+    if scores and baseline is not None:
+        out["war"] = r2(sum(x - baseline for x in scores) * value["wins_per_point"])
+    return out
+
+
+TRADE_EVEN_WAR = 0.25   # a trade is even until one side is this many wins ahead (about 21 points)
+
+
+def nfl_war_since(seasons, pid, day, value, pos):
+    """A player's NFL wins above replacement in every game from `day` on, weeks 1-17, whoever rostered him."""
+    war, games = 0.0, 0
+    for season, data in seasons.items():
+        baseline = value["replacement"].get(season, {}).get(pos)
+        if baseline is None:
+            continue
+        for week, entry in data["nfl"]["weeks"].items():
+            if int(week) in WEEKS and entry["start"] >= day and pid in entry["points"]:
+                war += entry["points"][pid] - baseline
+                games += 1
+    return {"g": games, "war": r2(war * value["wins_per_point"])}
 
 
 def rosters_today(season, s):
@@ -269,14 +292,15 @@ def rosters_today(season, s):
     return {fid: held.get(fid, set()) for fid in range(1, 13)}
 
 
-def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_result, appearances, game_log):
+def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_result, appearances, game_log, value, players):
     by_id = {m["transaction_id"]: m for m in all_moves}
     absorbed = {child for adj in adjustments.values() for child in adj.get("absorb", [])}
 
     def since(pid, fid, day):
         rows = [a for a in appearances.get(pid, []) if a["franchise"] == fid and (a["date"] or "") >= day]
         starts = [a for a in rows if a["started"]]
-        return {"g": len(rows), "gs": len(starts), "pts": r2(sum(a["pts"] for a in starts)), "wins": sum(1 for a in starts if a["won"])}
+        return {"g": len(rows), "gs": len(starts), "pts": r2(sum(a["pts"] for a in starts)), "wins": sum(1 for a in starts if a["won"]),
+                "war": r2(sum(a.get("war") or 0 for a in starts))}
 
     def describe(trade_id, season, day, status, received, processed=None):
         s = seasons[season]
@@ -289,14 +313,15 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
         sides = []
         for fid in sorted(received):
             got = received[fid]
-            total = {"gs": 0, "pts": 0.0, "wins": 0}
+            total = {"gs": 0, "pts": 0.0, "wins": 0, "war": 0.0}
             assets = []
             for item in got["players"]:
                 row = {"type": "player", "player": item["player"], "from": item.get("from"),
-                       "before": nfl_ppg(seasons, item["player"], spans[0][0], spans[0][1]),
-                       "after": nfl_ppg(seasons, item["player"], spans[1][0], spans[1][1])}
+                       "before": nfl_ppg(seasons, item["player"], spans[0][0], spans[0][1], value, (players.get(item["player"]) or {}).get("pos")),
+                       "after": nfl_ppg(seasons, item["player"], spans[1][0], spans[1][1], value, (players.get(item["player"]) or {}).get("pos"))}
                 if status == "complete":
                     row["team_since"] = since(item["player"], fid, day)
+                    row["value"] = nfl_war_since(seasons, item["player"], day, value, (players.get(item["player"]) or {}).get("pos"))
                 assets.append(row)
             for pick in got["picks"]:
                 became = pick_result.get((pick["season"], pick["round"], pick["original"]))
@@ -304,6 +329,11 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                        "moved_on": pick.get("moved_on"), "became": became}
                 if status == "complete" and became and became["franchise"] == fid:
                     row["team_since"] = since(became["player"], fid, day)
+                if became:   # what the player the pick became did after the trade, whoever drafted him
+                    pos = (players.get(became["player"]) or {}).get("pos")
+                    row["after"] = nfl_ppg(seasons, became["player"], spans[1][0], spans[1][1], value, pos)
+                    if status == "complete":
+                        row["value"] = nfl_war_since(seasons, became["player"], max(day, became["date"]), value, pos)
                 assets.append(row)
             for row in assets:
                 for key in total:
@@ -317,12 +347,16 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                     split[label] = {"w": sum(1 for t, g in mine if g["winner"] == fid), "l": sum(1 for t, g in mine if g["winner"] not in (fid, None)),
                                     "ppg": r2(sum(t["points"] for t, g in mine) / len(mine)) if mine else None}
             sides.append({"franchise": fid, "team": name_on(season, fid, day), "managers": people.owners_on(fid, day),
-                          "assets": assets, "total": {**total, "pts": r2(total["pts"])}, "team_split": split})
-        best = sorted(sides, key=lambda x: -x["total"]["pts"])
+                          "assets": assets, "total": {**total, "pts": r2(total["pts"]), "war": r2(total["war"])},
+                          # An asset below replacement counts as nothing, not as a loss: the team could simply not start him.
+                          "value": r2(sum(max(0.0, (a.get("value") or {}).get("war", 0.0)) for a in assets)), "team_split": split})
+        best = sorted(sides, key=lambda x: -x["value"])
         return {"id": trade_id, "status": status, "season": season, "date": day, "processed": processed, "week": week,
                 "spans": [spans[0][2], spans[1][2]], "votes": (polls.get(trade_id) or {}).get("votes"),
                 "notes": adj.get("notes", []), "conditional_swap": adj.get("conditional_swap"),
-                "leader": best[0]["franchise"] if status == "complete" and len(best) > 1 and best[0]["total"]["pts"] > best[1]["total"]["pts"] else None,
+                # The verdict: NFL WAR of what each side received, from the trade on. Later deals do not enter into it.
+                "leader": best[0]["franchise"] if status == "complete" and len(best) > 1 and best[0]["value"] - best[1]["value"] >= TRADE_EVEN_WAR else None,
+                "margin": r2(best[0]["value"] - best[1]["value"]) if status == "complete" and len(best) > 1 else None,
                 "sides": sides}
 
     out = []
@@ -402,7 +436,7 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
 
     def stint(pid, fid, start, end):
         rows = [a for a in appearances.get(pid, []) if a["franchise"] == fid and a["started"] and (a["date"] or "") >= start and (end is None or a["date"] < end)]
-        return {"gs": len(rows), "pts": r2(sum(a["pts"] for a in rows)), "wins": sum(1 for a in rows if a["won"])}
+        return {"gs": len(rows), "pts": r2(sum(a["pts"] for a in rows)), "wins": sum(1 for a in rows if a["won"]), "war": r2(sum(a.get("war") or 0 for a in rows))}
 
     def next_trade(key, fid, day, seen):
         for later in done:
@@ -411,6 +445,8 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
             if any(key_of(a2) == key and a2.get("from") == fid for s2 in later["sides"] for a2 in s2["assets"]):
                 return later
         return None
+
+    by_trade = {t["id"]: t for t in done}
 
     def grow(asset, fid, day, seen, shown, depth=0):
         key = key_of(asset)
@@ -472,6 +508,49 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                 below = shared or o["outside"] > 0
             mark_shared(node.get("children", []), sent_by, below)
 
+    def realized(asset, receiver, day):
+        """What an asset went on to be worth to the team that got it: WAR as that team's starter until he left it, never below zero.
+        A pick is worth what the player it became did for the team that drafted him."""
+        if asset["type"] == "pick":
+            became = pick_result.get((asset["season"], asset["round"], asset["original"]))
+            if not became:
+                return 0.0
+            pid, receiver, day = became["player"], became["franchise"], became["date"]
+        else:
+            pid = asset["player"]
+        later = next_trade(("player", pid), receiver, day, set())
+        cut = min((d for d in releases[(pid, receiver)] if d >= day), default=None)
+        end = min((d for d in (later and later["date"], cut) if d), default=None)
+        return max(0.0, stint(pid, receiver, day, end)["war"])
+
+    def credit(nodes, fid):
+        """A side's credit from its whole tree. When a branch left in a later deal alongside assets from outside the tree,
+        what came back is shared out by what each asset sent in that deal went on to be worth; evenly if none has done anything yet."""
+        share = {}
+        for node in walk(nodes):
+            o = node["outcome"]
+            if o["type"] == "traded" and o.get("outside") and o["trade"] not in share:
+                later = by_trade[o["trade"]]
+                mine = {key_of(n) for n in walk(nodes) if n["outcome"]["type"] == "traded" and n["outcome"]["trade"] == later["id"]}
+                sent = [(key_of(a2), realized(a2, s2["franchise"], later["date"])) for s2 in later["sides"] for a2 in s2["assets"] if a2.get("from") == fid]
+                worth = sum(v for _, v in sent)
+                share[later["id"]] = (sum(v for k, v in sent if k in mine) / worth) if worth > 0 else len(mine) / len(sent)
+        def add(nodes, frac):
+            war = pts = 0.0
+            for node in nodes:
+                st = node.get("stint") or {}
+                war, pts = war + frac * st.get("war", 0.0), pts + frac * st.get("pts", 0.0)
+                o = node["outcome"]
+                below = frac
+                if o["type"] == "traded" and o["trade"] in share:
+                    o["credit"] = round(share[o["trade"]], 3)
+                    below = frac * share[o["trade"]]
+                sub = add(node.get("children", []), below)
+                war, pts = war + sub[0], pts + sub[1]
+            return war, pts
+        war, pts = add(nodes, 1.0)
+        return {"war": r2(war), "pts": r2(pts)}
+
     def today(nodes):
         """Where the tree stands now: players still on the roster and picks still to be used."""
         roster, picks = [], []
@@ -502,6 +581,7 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
             direct = [node for node in walk(side["tree"]) if not node["shared"]]
             side["tree_direct"] = {"gs": sum((n.get("stint") or {}).get("gs", 0) for n in direct), "pts": r2(sum((n.get("stint") or {}).get("pts", 0.0) for n in direct))}
             side["tree_today"] = today(side["tree"])
+            side["credit"] = credit(side["tree"], fid)   # what the trade led to for this team; shown, not used for the verdict
     return sorted(out, key=lambda t: (t["date"], t["id"]), reverse=True)
 
 
@@ -806,7 +886,7 @@ def waiver_report(all_moves, appearances, people, name_on, absorbed_ids, players
 
 def trade_records(trades, people):
     done = [t for t in trades if t["status"] == "complete"]
-    table = defaultdict(lambda: {"trades": 0, "w": 0, "l": 0, "even": 0, "pts_in": 0.0, "pts_out": 0.0, "vetoed": 0})
+    table = defaultdict(lambda: {"trades": 0, "w": 0, "l": 0, "even": 0, "war_in": 0.0, "war_out": 0.0, "pts_in": 0.0, "pts_out": 0.0, "vetoed": 0})
     partners = defaultdict(int)
     margins, player_counts = [], defaultdict(int)
     for t in trades:
@@ -819,6 +899,8 @@ def trade_records(trades, people):
                 others = [o for o in t["sides"] if o is not side]
                 row["trades"] += 1
                 row["w" if t["leader"] == side["franchise"] else "l" if t["leader"] else "even"] += 1
+                row["war_in"] += side["value"]
+                row["war_out"] += sum(o["value"] for o in others)
                 row["pts_in"] += side["total"]["pts"]
                 row["pts_out"] += sum(o["total"]["pts"] for o in others)
         if t["status"] != "complete":
@@ -832,12 +914,12 @@ def trade_records(trades, people):
                 if asset["type"] == "player":
                     player_counts[asset["player"]] += 1
         if len(t["sides"]) == 2:
-            a, b = sorted(t["sides"], key=lambda x: -x["total"]["pts"])
-            margins.append({"id": t["id"], "date": t["date"], "winner": a["franchise"], "winner_team": a["team"], "winner_pts": a["total"]["pts"],
-                            "loser": b["franchise"], "loser_team": b["team"], "loser_pts": b["total"]["pts"], "margin": r2(a["total"]["pts"] - b["total"]["pts"])})
+            a, b = sorted(t["sides"], key=lambda x: -x["value"])
+            margins.append({"id": t["id"], "date": t["date"], "winner": a["franchise"], "winner_team": a["team"], "winner_war": a["value"],
+                            "loser": b["franchise"], "loser_team": b["team"], "loser_war": b["value"], "margin": r2(a["value"] - b["value"])})
 
     def rows(kind):
-        return sorted(({"key": key, **r, "pts_in": r2(r["pts_in"]), "pts_out": r2(r["pts_out"]), "net": r2(r["pts_in"] - r["pts_out"])}
+        return sorted(({"key": key, **r, **{f: r2(r[f]) for f in ("war_in", "war_out", "pts_in", "pts_out")}, "net": r2(r["war_in"] - r["war_out"])}
                        for (k, key), r in table.items() if k == kind), key=lambda r: -r["net"])
 
     return {"managers": rows("manager"), "franchises": rows("franchise"),
@@ -1554,7 +1636,7 @@ def main():
                 in_round = pick["pick_no"] - (pick["round"] - 1) * teams
                 mine, league = career[(pid, fid)], career[(pid, None)]
                 pick_result[(season, pick["round"], original.get(pick["draft_slot"]))] = {
-                    "season": season, "label": f"{pick['round']}.{in_round:02d}", "overall": pick["pick_no"], "player": pid, "franchise": fid}
+                    "season": season, "date": day, "label": f"{pick['round']}.{in_round:02d}", "overall": pick["pick_no"], "player": pid, "franchise": fid}
                 drafted[pid] = {"season": season, "date": day, "label": f"{pick['round']}.{in_round:02d}", "overall": pick["pick_no"], "franchise": fid,
                                 "kind": "startup" if draft["type"] == "snake" else "rookie"}
                 picks.append({
@@ -1597,7 +1679,7 @@ def main():
     value_notes = annotate_value(appearances, players, raw_players, seasons, season_rows)
 
     polls = load(RAW / "trade_polls.json") if (RAW / "trade_polls.json").exists() else {}
-    trades = build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_result, appearances, game_log)
+    trades = build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_result, appearances, game_log, value_notes, players)
     current = seasons[latest]
     on_roster = rosters_today(latest, current)
     dump(SITE / "draft_analysis.json", draft_analysis(all_picks, on_roster, latest))
