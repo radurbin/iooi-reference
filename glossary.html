@@ -98,6 +98,17 @@ page("Glossary", async (main) => {
         ["Honors", "", `MVP ${w.mvp}, All-iooi First Team ${w.first_team}, Second Team ${w.second_team}, Young Sexy Award ${w.young_sexy}, Rookie of the Year ${w.rookie_of_year}, Championship MVP ${w.championship_mvp}. A championship is worth ${w.champion} to a player who started the title game and ${w.champion_regular} to one on the title roster who started at least half the team's games that season but not the final. A bench player on a title team gets nothing.`],
       ])),
 
+    section("Ring of Honor", h("div", { class: "prose" },
+      h("p", {}, "A franchise's Ring of Honor candidates are the players who mattered most to it, counting only their time with that franchise. Where the Hall of Fame Monitor measures a whole career, the ring rewards staying: per start, per season on the roster, for titles won there and for playoff starts, as well as value and awards won there. Each franchise page links to its list.")),
+      terms([
+        ["Value (Ring)", "", "10 points per win above replacement as a starter for the franchise; below replacement counts as zero."],
+        ["Service (Ring)", "", "Half a point per start for the franchise."],
+        ["Tenure", "", "2 points per season on the franchise's roster."],
+        ["Titles (Ring)", "", "8 for starting a title game for the franchise, 4 for a regular on its title team who did not start the final."],
+        ["Playoffs (Ring)", "", "1 point per Dynasty Playoffs start for the franchise."],
+        ["Honors (Ring)", "", "Awards won while with the franchise: MVP 10, All-iooi First Team 4, Second Team 2, Championship MVP 3, Rookie of the Year 1."],
+      ])),
+
     section("Awards", terms([
       ["Champion", "", "Winner of the Dynasty Championship in week 17. A player page lists a title for everyone on the roster that week."],
       ["Ultimate Loser", "", "Loser of the Toilet Bowl final."],
@@ -123,9 +134,11 @@ page("Glossary", async (main) => {
       ["Points In and Out", "Pts In, Pts Out, Net", "Starter points from assets acquired, starter points the other side had from assets given up, and the difference."],
       ["Trade Tree", "", "Everything a side's haul turned into. An asset that was later traded branches into what came back for it, and a pick into the player it was used on."],
       ["Shared Branch", "†", "A branch reached through a later trade in which the team also gave up assets from outside this deal. Only part of what came back is owed to the original trade, so the row is marked."],
-      ["Vetoed", "", "A trade blocked when six managers voted against it during the two-day review."],
+      ["Vetoed", "", "A trade blocked when six managers voted against it during the two-day review. A vetoed trade, like one withdrawn during the review, is still judged as if it had gone through, and given the place its margin would take among the completed trades."],
+      ["Lopsidedness", "", ["A trade's place among all completed trades, and among that season's, by the WAR margin between the two sides. See the ", a("trade_records.html#most-lopsided-trades", "most lopsided trades"), "."]],
       ["Pickup Credit", "Pts/Add", "A waiver claim or free-agent signing is credited with what the player did as a starter for that team from the day he was added until he left it."],
       ["Revenge Game", "", "A start against a franchise that traded or released the player."],
+      ["Auto-Sub", "", "Sleeper's automatic substitution: a manager names a bench player to come in for a starter who does not play. Sleeper keeps listing the original starter; iooi Reference puts the substitute in the lineup once the starter has sat and the substitute has played, and, after the week is final, only if Sleeper's official score counted him."],
     ]), h("p", { class: "note" }, "Kickers and defenses are picked up and dropped week to week, so they have their own pickup list and are left out of the player journeys.")),
 
     section("Streaks and Milestones", terms([

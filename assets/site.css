@@ -8,6 +8,11 @@
 html { background: #eceef0; }
 body { margin: 0 auto; max-width: 1290px; background: var(--page); color: var(--ink); border-left: 1px solid var(--rule); border-right: 1px solid var(--rule);
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* Windows has no flag emoji, so Chrome there shows "FR" for a flag. Twemoji's flags (CC BY 4.0, via country-flag-emoji-polyfill)
+   fill in for flag characters only, and only on Windows (site.js sets the class); other systems keep their own emoji. */
+@font-face { font-family: "Twemoji Country Flags"; src: url("TwemojiCountryFlags.woff2") format("woff2"); font-display: swap;
+  unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067, U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F; }
+html.flagfont body, html.flagfont input, html.flagfont button { font-family: "Twemoji Country Flags", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 a { color: var(--link); text-decoration: none; }
 a:hover { color: var(--accent); text-decoration: underline; }
 
@@ -292,3 +297,23 @@ ol.scorers b { font-variant-numeric: tabular-nums; }
 #search .hits .none { padding: 4px 14px; color: var(--muted); }
 table.results td.active, table.results td.active a { font-weight: 700; }
 table.results u { text-decoration: underline dotted; text-underline-offset: 3px; }
+
+/* Line charts (player Hall of Fame Monitor) */
+.chart { max-width: 780px; margin: 6px 0 4px; }
+.chart svg { width: 100%; height: auto; display: block; font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.chart .grid { stroke: var(--rule); stroke-width: 1; }
+.chart .band { fill: #f3f4f6; }
+.chart .ylab { fill: var(--muted); text-anchor: end; }
+.chart .xlab { fill: var(--muted); text-anchor: middle; font-weight: 700; }
+.chart .bench { stroke: var(--accent); stroke-width: 1.2; stroke-dasharray: 5 4; }
+.chart .benchlab { fill: var(--accent); text-anchor: start; }
+.chart .line { fill: none; stroke: var(--brand); stroke-width: 2; stroke-linejoin: round; }
+.chart .dot { fill: var(--brand); }
+.chart .chartbox { position: relative; }
+.chart .hit { fill: transparent; cursor: crosshair; touch-action: pan-y; }
+.chart .guide { stroke: var(--rule-dark); stroke-width: 1; stroke-dasharray: 3 3; pointer-events: none; }
+.chart .hot { fill: var(--accent); stroke: #fff; stroke-width: 2; pointer-events: none; }
+.chart .charttip { position: absolute; pointer-events: none; white-space: nowrap; background: #fff; border: 1px solid var(--rule-dark); border-radius: 3px;
+  padding: 4px 8px; font-size: 12px; line-height: 1.35; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+.chart .charttip .up { color: #1a7f37; }
+.chart .charttip .down { color: var(--accent); }

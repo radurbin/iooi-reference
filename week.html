@@ -49,15 +49,15 @@ page("This Week", async (main) => {
   };
   const lineups = (m) => {
     const n = Math.max(m.a.lineup.length, m.b.lineup.length);
-    const who = (x) => (x?.player ? pLink(x.player, x.name) : h("span", { class: "dim" }, x ? "Empty" : ""));
+    const who = (x) => (x?.player ? [pLink(x.player, x.name), x.sub_for ? h("small", { class: "dim", "data-tip": `Auto-sub: came in for ${x.sub_for_name}, who did not play` }, ` (for ${x.sub_for_name})`) : null] : h("span", { class: "dim" }, x ? "Empty" : ""));
     const tip = (label, text, cls) => h("th", { class: cls, "data-tip": text }, label);
     return h("div", { class: "scroll" }, h("table", { class: "stats" },
       h("thead", {}, h("tr", {}, tip(m.a.team, "Starter as of the last data refresh"), tip("Proj", "Sleeper's projection", "num"), started ? tip("Pts", "Points so far", "num") : null, tip("Slot", "Lineup slot"),
         started ? tip("Pts", "Points so far", "num") : null, tip("Proj", "Sleeper's projection", "num"), tip(m.b.team, "Starter as of the last data refresh"))),
       h("tbody", {}, Array.from({ length: n }, (_, i) => [m.a.lineup[i], m.b.lineup[i]]).map(([x, y]) => h("tr", {},
-        h("td", { class: "win" }, who(x)), h("td", { class: "num dim" }, fmt.pts(x?.proj)), started ? h("td", { class: "num" }, x?.pts ? fmt.pts(x.pts) : "") : null,
+        h("td", { class: "win" }, who(x)), h("td", { class: "num dim" }, fmt.pts(x?.proj)), started ? h("td", { class: "num" }, x?.pts || x?.done ? fmt.pts(x.pts ?? 0) : "") : null,
         h("td", { class: "c" }, slot((x ?? y).slot)),
-        started ? h("td", { class: "num" }, y?.pts ? fmt.pts(y.pts) : "") : null, h("td", { class: "num dim" }, fmt.pts(y?.proj)), h("td", { class: "win" }, who(y))))),
+        started ? h("td", { class: "num" }, y?.pts || y?.done ? fmt.pts(y.pts ?? 0) : "") : null, h("td", { class: "num dim" }, fmt.pts(y?.proj)), h("td", { class: "win" }, who(y))))),
       h("tfoot", {}, h("tr", {}, h("td", {}, "Total"), h("td", { class: "num" }, fmt.pts(m.a.proj)), started ? h("td", { class: "num" }, fmt.pts(m.a.points)) : null, h("td", {}, ""),
         started ? h("td", { class: "num" }, fmt.pts(m.b.points)) : null, h("td", { class: "num" }, fmt.pts(m.b.proj)), h("td", {}, "")))));
   };

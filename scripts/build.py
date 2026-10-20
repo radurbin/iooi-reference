@@ -68,6 +68,27 @@ def scoring_for_week(scoring, changes, week_start):
     return scoring
 
 
+def fired_subs(starters, players, subs, played, points, official=None):
+    """The lineup after Sleeper's auto-subs, and the swaps made, as [(starter, sub)].
+
+    subs is the manager's plan for the week, {starter: bench player}; it is kept whether or not a sub was needed.
+    - Week finished: Sleeper has already put the sub in the lineup it reports, so the swap is only noted.
+    - Week in progress: Sleeper still lists the starter. The sub goes in once the starter has missed his game and
+      the sub has played; until then, or if the starter plays, nothing changes.
+    played: players with an NFL game that week; points: {player: points}."""
+    lineup, swaps, made = list(starters), [], []
+    for starter, sub in (subs or {}).items():
+        if starter not in lineup and sub in lineup:
+            swaps.append((starter, sub))   # already applied by Sleeper
+        elif starter in lineup and sub in players and sub not in lineup and starter not in played and sub in played:
+            lineup[lineup.index(starter)] = sub
+            made.append((starter, sub))
+    # A swap made here must agree with Sleeper's official score once there is one.
+    if made and official is not None and abs(sum(points.get(pid, 0.0) for pid in lineup if pid != "0") - official) > 0.01:
+        return list(starters), swaps
+    return lineup, swaps + made
+
+
 def trim_nfl(season, final_scoring, changes):
     """Score every NFL player's stat line and projection under league rules."""
     out_path = NFL / f"{season}.json"
@@ -104,6 +125,8 @@ def trim_nfl(season, final_scoring, changes):
             # Only players who actually played; Sleeper also lists inactive players with empty lines.
             "points": {r["player_id"]: score(r) for r in rows if (r["stats"].get("gp") or 0) > 0 or score(r)},
             "proj": {pid: pts for pid, pts in proj.items() if pts},
+            # NFL teams that have played this week, so a player who scored 0 shows 0 rather than "not yet".
+            "played": sorted({r["team"] for r in rows if (r["stats"].get("gp") or 0) > 0 and r.get("team")}),
         }
     # NFL bye weeks: a player is on a bye when the team he last played for (or next plays for) has no game that week.
     for key, entry in weeks.items():
@@ -204,10 +227,14 @@ def load_season(season, state, players):
             players = leg.get("players") or row.get("players") or []
             starters = leg.get("starters") or row.get("starters") or []
             rescored = row.get("players_points") or {}
+            points = {pid: as_played.get(pid, rescored.get(pid, 0.0)) for pid in set(players) | set(starters)}
+            listed = starters
+            starters, swaps = fired_subs(starters, players, leg.get("subs"), as_played, points, official)
+            pending = [(a, b) for a, b in swaps if a in listed]   # swaps Sleeper has not applied yet (week in progress)
             sides[(week, row["roster_id"])] = {
-                "players": players, "starters": starters,
-                "points": {pid: as_played.get(pid, rescored.get(pid, 0.0)) for pid in set(players) | set(starters)},
-                "total": official if official is not None else (row.get("points") or 0.0),
+                "players": players, "starters": starters, "subs": [{"out": a, "in": b} for a, b in swaps],
+                "points": points,
+                "total": official if official is not None else r2((row.get("points") or 0.0) + sum(points[b] - points[a] for a, b in pending)),
                 "sleeper_max": leg.get("max_points"), "sleeper_proj": leg.get("proj_points"),
             }
         # A player traded mid-week can be listed on his new team while his points counted
@@ -266,6 +293,7 @@ def nfl_ppg(seasons, pid, season, weeks, value=None, pos=None):
 
 
 TRADE_EVEN_WAR = 0.25   # a trade is even until one side is this many wins ahead (about 21 points)
+JUDGED = ("complete", "vetoed", "cancelled")   # trades given a value verdict; a vetoed or withdrawn one as if it had gone through
 
 
 def nfl_war_since(seasons, pid, day, value, pos):
@@ -321,6 +349,7 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                        "after": nfl_ppg(seasons, item["player"], spans[1][0], spans[1][1], value, (players.get(item["player"]) or {}).get("pos"))}
                 if status == "complete":
                     row["team_since"] = since(item["player"], fid, day)
+                if status in JUDGED:
                     row["value"] = nfl_war_since(seasons, item["player"], day, value, (players.get(item["player"]) or {}).get("pos"))
                 assets.append(row)
             for pick in got["picks"]:
@@ -332,7 +361,7 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                 if became:   # what the player the pick became did after the trade, whoever drafted him
                     pos = (players.get(became["player"]) or {}).get("pos")
                     row["after"] = nfl_ppg(seasons, became["player"], spans[1][0], spans[1][1], value, pos)
-                    if status == "complete":
+                    if status in JUDGED:
                         row["value"] = nfl_war_since(seasons, became["player"], max(day, became["date"]), value, pos)
                 assets.append(row)
             for row in assets:
@@ -355,8 +384,9 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
                 "spans": [spans[0][2], spans[1][2]], "votes": (polls.get(trade_id) or {}).get("votes"),
                 "notes": adj.get("notes", []), "conditional_swap": adj.get("conditional_swap"),
                 # The verdict: NFL WAR of what each side received, from the trade on. Later deals do not enter into it.
-                "leader": best[0]["franchise"] if status == "complete" and len(best) > 1 and best[0]["value"] - best[1]["value"] >= TRADE_EVEN_WAR else None,
-                "margin": r2(best[0]["value"] - best[1]["value"]) if status == "complete" and len(best) > 1 else None,
+                # A vetoed or withdrawn trade is judged the same way, as if it had gone through.
+                "leader": best[0]["franchise"] if status in JUDGED and len(best) > 1 and best[0]["value"] - best[1]["value"] >= TRADE_EVEN_WAR else None,
+                "margin": r2(best[0]["value"] - best[1]["value"]) if status in JUDGED and len(best) > 1 else None,
                 "sides": sides}
 
     out = []
@@ -582,6 +612,12 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
             side["tree_direct"] = {"gs": sum((n.get("stint") or {}).get("gs", 0) for n in direct), "pts": r2(sum((n.get("stint") or {}).get("pts", 0.0) for n in direct))}
             side["tree_today"] = today(side["tree"])
             side["credit"] = credit(side["tree"], fid)   # what the trade led to for this team; shown, not used for the verdict
+    # How lopsided each judged trade is, by WAR margin, against the completed trades all-time and that season.
+    # A vetoed or withdrawn trade gets the place it would have taken among them.
+    finished = [t for t in out if t["status"] == "complete" and t["margin"] is not None]
+    for t in (t for t in out if t["margin"] is not None):
+        place = lambda pool: {"rank": 1 + sum(1 for o in pool if o["margin"] > t["margin"]), "of": len(pool)}
+        t["lopsided"] = {"all": place(finished), "season": place([o for o in finished if o["season"] == t["season"]])}
     return sorted(out, key=lambda t: (t["date"], t["id"]), reverse=True)
 
 
@@ -915,7 +951,7 @@ def trade_records(trades, people):
                     player_counts[asset["player"]] += 1
         if len(t["sides"]) == 2:
             a, b = sorted(t["sides"], key=lambda x: -x["value"])
-            margins.append({"id": t["id"], "date": t["date"], "winner": a["franchise"], "winner_team": a["team"], "winner_war": a["value"],
+            margins.append({"id": t["id"], "date": t["date"], "season": t["season"], "winner": a["franchise"], "winner_team": a["team"], "winner_war": a["value"],
                             "loser": b["franchise"], "loser_team": b["team"], "loser_war": b["value"], "margin": r2(a["value"] - b["value"])})
 
     def rows(kind):
@@ -925,6 +961,11 @@ def trade_records(trades, people):
     return {"managers": rows("manager"), "franchises": rows("franchise"),
             "partners": [{"a": a, "b": b, "trades": n} for (a, b), n in sorted(partners.items(), key=lambda kv: -kv[1])],
             "lopsided": sorted(margins, key=lambda m: -m["margin"])[:25],
+            "lopsided_by_season": {season: sorted((m for m in margins if m["season"] == season), key=lambda m: -m["margin"])[:10]
+                                   for season in sorted({m["season"] for m in margins}, reverse=True)},
+            "vetoed": [{"id": t["id"], "date": t["date"], "season": t["season"], "status": t["status"], "votes": t["votes"], "leader": t["leader"], "margin": t["margin"], "lopsided": t.get("lopsided"),
+                        "sides": [{"franchise": s["franchise"], "team": s["team"], "managers": s["managers"], "value": s["value"]} for s in sorted(t["sides"], key=lambda s: -s["value"])]}
+                       for t in sorted(trades, key=lambda t: t["date"], reverse=True) if t["status"] in ("vetoed", "cancelled")],
             "most_traded": [{"player": pid, "trades": n} for pid, n in sorted(player_counts.items(), key=lambda kv: -kv[1]) if n >= 2][:30]}
 
 
@@ -1002,6 +1043,22 @@ def value_sum(starts):
     return {"paa": r2(sum(a["paa"] for a in starts)), "vor": r2(sum(a["vor"] for a in starts)), "war": r2(sum(a["war"] for a in starts))}
 
 
+def year_span(rows):
+    """"2023" for one season, "2023-2026" for several (first and last season on an iooi roster)."""
+    first, last = min(a["season"] for a in rows), max(a["season"] for a in rows)
+    return first if first == last else f"{first}-{last}"
+
+
+def margin_list(game_log, widest, n=25):
+    """The closest games or the biggest blowouts, each with the winner (or first team, in a tie) first."""
+    rows = []
+    for g in game_log:
+        a, b = sorted(g["teams"], key=lambda t: -t["points"])
+        rows.append({"game": g["id"], "season": g["season"], "week": g["week"], "kind": g["kind"], "margin": r2(a["points"] - b["points"]), "tie": g["winner"] is None,
+                     **{f"{k}_{f}": t[f] for k, t in (("w", a), ("l", b)) for f in ("franchise", "team", "managers", "points")}})
+    return sorted(rows, key=lambda r: (-r["margin"] if widest else r["margin"], r["season"], r["week"]))[:n]
+
+
 def build_leaders(appearances, players):
     career, seasons_ = [], []
     for pid, rows in appearances.items():
@@ -1011,7 +1068,7 @@ def build_leaders(appearances, players):
         base = {"player": pid, "pos": players[pid]["pos"]}
         teams = lambda group: list(dict.fromkeys(a["franchise"] for a in group))   # in the order he played for them
         career.append({**base, "gs": len(starts), "pts": r2(sum(a["pts"] for a in starts)), **value_sum(starts), "franchises": teams(starts),
-                       "years": f"{starts[0]['season']}-{starts[-1]['season']}", "best": max(a["pts"] for a in starts),
+                       "years": year_span(rows), "best": max(a["pts"] for a in starts),
                        "bench_pts": r2(sum(a["pts"] for a in rows if not a["started"] and a["game"]))})
         by_season = defaultdict(list)
         for a in starts:
@@ -1033,7 +1090,7 @@ def franchise_leaders(fid, appearances, players):
         mine = [a for a in apps if a["franchise"] == fid]
         starts = [a for a in mine if a["started"]]
         if starts:
-            rows.append({"player": pid, "pos": players[pid]["pos"], "years": f"{mine[0]['season']}-{mine[-1]['season']}", "g": len(mine), "gs": len(starts),
+            rows.append({"player": pid, "pos": players[pid]["pos"], "years": year_span(mine), "g": len(mine), "gs": len(starts),
                          "pts": r2(sum(a["pts"] for a in starts)), "best": max(a["pts"] for a in starts), "wins": sum(1 for a in starts if a["won"]), **value_sum(starts)})
     rows.sort(key=lambda r: -r["pts"])
     return {"overall": rows[:20], "by_pos": {pos: [r for r in rows if r["pos"] == pos][:3] for pos in REPLACEMENT_RANK}}
@@ -1427,7 +1484,8 @@ def main():
             for roster_id in game["teams"]:
                 side = s["sides"][(week, roster_id)]
                 proj = s["nfl"]["weeks"].get(str(week), {}).get("proj", {})
-                starters = [{"slot": slot, "player": pid, "pts": side["points"].get(pid, 0.0), "proj": proj.get(pid)}
+                subbed = {x["in"]: x["out"] for x in side.get("subs", [])}   # auto-subs: the bench player who came in, and for whom
+                starters = [{"slot": slot, "player": pid, "pts": side["points"].get(pid, 0.0), "proj": proj.get(pid), **({"sub_for": subbed[pid]} if pid in subbed else {})}
                             for slot, pid in zip(s["slots"], side["starters"]) if pid != "0"]
                 rest = [pid for pid in side["players"] if pid not in side["starters"]]
                 bench = [{"player": pid, "pts": side["points"].get(pid, 0.0), "proj": proj.get(pid)} for pid in rest]
@@ -1606,6 +1664,8 @@ def main():
         "player_high": started[:50],
         "player_high_by_pos": {pos: [p for p in started if p["pos"] == pos][:10] for pos in ("QB", "RB", "WR", "TE", "K", "DEF")},
         "player_high_bench": sorted((p for p in player_games if p["role"] != "starters"), key=lambda p: -p["points"])[:25],
+        # Margins, winner first; a tie (margin 0) counts among the closest.
+        "closest": margin_list(game_log, False), "blowouts": margin_list(game_log, True),
         "franchise_player_best": best_per(started, lambda p: [p["franchise"]]),
         "manager_player_best": best_per(started, lambda p: p["managers"]),
     })

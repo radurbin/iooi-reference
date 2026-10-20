@@ -61,7 +61,9 @@ page("Dynasty iooi History", async (main) => {
               { label: "Holder", render: (r) => (r.holder === r.franchise ? "own" : fLink(r.holder)), title: `Who holds the team's ${lot.draft} first-round pick` },
             ],
           }), h("p", { class: "note" }, [lot.final ? "Final lottery order. " : "If the season ended today. ", lot.basis === "max_pf" ? "Odds go to the non-playoff teams by Max PF, lowest first. " : "", h("a", { href: "tankathon/" }, "Tankathon"), " has the live order."])) : null),
-        h("p", { class: "note" }, "Seeds 1-6 make the Dynasty Playoffs; the line marks the cut."))));
+        h("p", { class: "note" }, +y >= 2026
+          ? ["Seeds 1-6 make the Dynasty Playoffs; the line marks the cut. Seeds 1-5 go by record (points break ties), and the 6th seed goes to the top scorer among the rest, whatever its record (", h("a", { href: "constitution.html" }, "4th Amendment"), ")."]
+          : "Seeds 1-6 make the Dynasty Playoffs; the line marks the cut."))));
   // This week's games at a glance; the full preview is on its own page.
   if (week.matchups?.length) {
     const side = (x) => [tsLink(week.season, x.franchise, x.team), h("small", {}, ` (${x.w}-${x.l})`)];

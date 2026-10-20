@@ -29,7 +29,7 @@ page("Box Score", async (main) => {
     sortable: false, rows,
     columns: [
       slotted && { label: "Slot", value: (r) => r.slot.replace("SUPER_FLEX", "SFLX") },
-      { label: "Player", value: who, render: (r) => pLink(r.player, who(r)) },
+      { label: "Player", value: who, render: (r) => [pLink(r.player, who(r)), r.sub_for ? h("small", { class: "dim", "data-tip": "Sleeper auto-sub: came off the bench for a starter who did not play" }, ` (auto-sub for ${players[r.sub_for]?.name ?? r.sub_for})`) : null] },
       { label: "Pos", value: (r) => players[r.player]?.pos ?? "", cls: "c" },
       { label: "Proj", render: (r) => (r.proj == null ? "" : fmt.pts(r.proj)), num: true, cls: "dim" },
       { label: "Pts", render: (r) => fmt.pts(r.pts), num: true, cls: "win" },

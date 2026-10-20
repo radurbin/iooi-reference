@@ -45,7 +45,7 @@ page("Awards", async (main) => {
     }), h("p", { class: "note" }, `${L.current_season} is in progress; its entries are leaders so far.`)),
     section("Young Sexy Awards", h("p", { class: "note" }, "Article XI: the top-scoring NFL rookie at each position over weeks 1-17, under iooi scoring. The team shown held his rights at season's end."),
       statTable({
-        sortable: false,
+        sortable: false, groupBy: (r) => r.season,
         rows: awards.flatMap((a) => a.young_sexy.map((y) => ({ ...y, season: a.season, complete: a.complete }))),
         columns: [
           { label: "Season", value: (y) => y.season },
@@ -58,7 +58,7 @@ page("Awards", async (main) => {
       })),
     section("Most Valuable Player", h("p", { class: "note" }, "Ranked by points above average (PAA): each start measured against the average iooi starter at the same position that week. Only games in an iooi starting lineup count, and a player needs the same minimum starts as the All-iooi teams: 8 in a complete season, half the weeks played so far while one is in progress."),
       statTable({
-        sortable: false,
+        sortable: false, groupBy: (r) => r.season,
         rows: awards.flatMap((a) => rank(a.mvp, (r) => r.paa).map((r) => ({ ...r, season: a.season, place: r.rk }))),
         rowClass: (r) => (r.place === 1 ? "champ" : null),
         columns: [
@@ -86,7 +86,7 @@ page("Awards", async (main) => {
       ],
     })))))),
     section("Rookie of the Year", h("p", { class: "note" }, "NFL rookies ranked by points above average (PAA) as an iooi starter, with the same minimum starts as the MVP and All-iooi teams: 8 in a complete season, half the weeks played so far while one is in progress."), statTable({
-      sortable: false,
+      sortable: false, groupBy: (r) => r.season,
       rows: awards.flatMap((a) => rank(a.rookie, (r) => r.paa).map((r) => ({ ...r, season: a.season, place: r.rk }))),
       rowClass: (r) => (r.place === 1 ? "champ" : null),
       columns: [

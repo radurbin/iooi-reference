@@ -75,7 +75,7 @@ page("Season", async (main) => {
         { label: "Trans", value: (r) => r.transactions, num: true },
         { label: "Finish", value: (r) => r.finish, render: (r) => r.result ?? "", cls: "c" },
       ],
-    }), h("p", { class: "note" }, "Seeds 1-6 make the Dynasty Playoffs; 7-12 play the Toilet Bowl. Ties in record are broken by points for. Click a team for its season page.")),
+    }), h("p", { class: "note" }, `Seeds 1-6 make the Dynasty Playoffs; 7-12 play the Toilet Bowl. Ties in record are broken by points for.${+y >= 2026 ? " The 6th seed goes to the top scorer among the teams ranked 6th to 12th by record (4th Amendment)." : ""} Click a team for its season page.`)),
     section("Dynasty Playoffs", bracket("winners", "Seeds 1 and 2 have a first-round bye.")),
     section("Toilet Bowl", bracket("toilet", "The loser of each Toilet Bowl game advances. The loser of the final is the Ultimate Loser.")),
     section("Schedule Swap", (() => {

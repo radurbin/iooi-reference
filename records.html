@@ -31,6 +31,13 @@ page("Record Book", async (main) => {
     { label: "Result", value: (r) => (r.won ? "W" : "L"), cls: "c" }, when, stage];
   const playerCols = (lead, extra = []) => [lead, { label: "Pts", value: (r) => r.points, render: (r) => fmt.pts(r.points), num: true, cls: "win" },
     { label: "Player", value: (r) => players[r.player]?.name, render: (r) => pLink(r.player, players[r.player]?.name) }, { label: "Pos", value: (r) => r.pos, cls: "c" }, ...extra, team, mgr, when, stage];
+  const marginCols = [rk,
+    { label: "Margin", value: (r) => r.margin, render: (r) => fmt.pts(r.margin), num: true, cls: "win" },
+    { label: "Winner", value: (r) => r.w_team, render: (r) => [fLink(r.w_franchise, r.w_team), r.tie ? h("small", { class: "dim" }, " (tie)") : null] },
+    { label: "Pts", value: (r) => r.w_points, render: (r) => fmt.pts(r.w_points), num: true },
+    { label: "Loser", value: (r) => r.l_team, render: (r) => fLink(r.l_franchise, r.l_team) },
+    { label: "Pts", value: (r) => r.l_points, render: (r) => fmt.pts(r.l_points), num: true },
+    when, stage];
   // Team seasons: each stat ranked both ways, side by side. Ties share a place.
   const seasons = rec.team_seasons ?? [];
   const covered = [...new Set(seasons.map((r) => r.season))];
@@ -89,6 +96,8 @@ page("Record Book", async (main) => {
     section("Best Game by Franchise", statTable({ rows: rec.franchise_best, columns: teamCols({ label: "Franchise", render: (r) => fLink(r.key) }).filter((c) => c !== team) })),
     section("Best Game by Manager", statTable({ rows: rec.manager_best, columns: teamCols({ label: "Manager", render: (r) => mLink(r.key) }).filter((c) => c !== mgr) })),
     section("Lowest Team Scores", statTable({ rows: rank(rec.team_low, (r) => r.points), columns: teamCols(rk) })),
+    section("Closest Games", statTable({ rows: rank(rec.closest, (r) => r.margin), columns: marginCols })),
+    section("Biggest Blowouts", statTable({ rows: rank(rec.blowouts, (r) => r.margin), columns: marginCols })),
     teamSeasons,
     section("Highest Player Scores", h("p", { class: "note" }, "Starters only."), statTable({ rows: rank(rec.player_high, (r) => r.points), columns: playerCols(rk) })),
     section("Highest Player Scores by Position", Object.entries(rec.player_high_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows, (r) => r.points), columns: playerCols(rk).filter((c) => c.label !== "Pos") })])),

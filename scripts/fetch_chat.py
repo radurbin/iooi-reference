@@ -49,7 +49,8 @@ def graphql(query, field="messages"):
     return body["data"][field]
 
 
-LEG_FIELDS = "roster_id matchup_id points custom_points max_points proj_points players starters"
+# subs: the auto-subs a manager set for the week, {starter: bench player}. Sleeper lists them whether or not they fired.
+LEG_FIELDS = "roster_id matchup_id points custom_points max_points proj_points players starters subs"
 
 
 def fetch_legs(league):

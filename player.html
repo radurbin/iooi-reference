@@ -18,6 +18,60 @@
 <body>
 <script src="assets/site.js"></script>
 <script>
+// A line chart of a player's Hall of Fame Monitor score week by week, with a band for each season and the benchmark line.
+function hofChart(hof) {
+  const pts = hof.history, W = 760, H = 230, L = 40, R = 10, T = 12, B = 34;
+  const top = Math.max(...pts.map((x) => x[2]));
+  // Every player gets the same scale up to just past the benchmark, so the strong-candidate line is always in view; a higher score extends it.
+  const showBench = true;
+  const raw = Math.max(top, hof.benchmark) * 1.08;
+  const step = [1, 2, 5, 10, 20, 25, 50, 100].find((s) => raw / s <= 6) ?? 100;
+  const max = Math.ceil(raw / step) * step;
+  const x = (i) => L + (pts.length === 1 ? (W - L - R) / 2 : (i * (W - L - R)) / (pts.length - 1));
+  const y = (v) => T + (H - T - B) * (1 - v / max);
+  const out = [`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Hall of Fame Monitor score by week">`];
+  for (let v = 0; v <= max; v += step) out.push(`<line class="grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="ylab" x="${L - 6}" y="${y(v) + 4}">${v}</text>`);
+  const seasons = [...new Set(pts.map((x) => x[0]))];
+  seasons.forEach((season, n) => {
+    const idx = pts.map((x, i) => (x[0] === season ? i : -1)).filter((i) => i >= 0);
+    const a = idx[0] ? (x(idx[0] - 1) + x(idx[0])) / 2 : L, b = idx.at(-1) < pts.length - 1 ? (x(idx.at(-1)) + x(idx.at(-1) + 1)) / 2 : W - R;
+    if (n % 2) out.splice(1, 0, `<rect class="band" x="${a}" y="${T}" width="${b - a}" height="${H - T - B}"/>`);
+    out.push(`<text class="xlab" x="${(a + b) / 2}" y="${H - B + 18}">${season}</text>`);
+  });
+  if (showBench) out.push(`<line class="bench" x1="${L}" x2="${W - R}" y1="${y(hof.benchmark)}" y2="${y(hof.benchmark)}"/><text class="benchlab" x="${L + 6}" y="${y(hof.benchmark) - 5}">Strong candidate (${hof.benchmark})</text>`);
+  out.push(`<polyline class="line" points="${pts.map((p, i) => `${x(i)},${y(p[2])}`).join(" ")}"/>`);
+  pts.forEach((p, i) => out.push(`<circle class="dot" cx="${x(i)}" cy="${y(p[2])}" r="${pts.length > 40 ? 2 : 3}"/>`));
+  out.push(`<line class="guide" x1="0" x2="0" y1="${T}" y2="${H - B}" visibility="hidden"/><circle class="hot" r="5" visibility="hidden"/>`);
+  out.push(`<rect class="hit" x="${L}" y="0" width="${W - L - R}" height="${H}"/></svg>`);
+  const box = h("div", { class: "chartbox" });
+  box.innerHTML = out.join("");
+  const svg = box.firstChild, guide = svg.querySelector(".guide"), hot = svg.querySelector(".hot");
+  const tip = h("div", { class: "charttip", hidden: true });
+  box.append(tip);
+  // Hover (or touch): the nearest week's score, and the change from the week before.
+  const show = (ev) => {
+    const r = svg.getBoundingClientRect();
+    const sx = ((ev.clientX - r.left) / r.width) * W;
+    const i = Math.max(0, Math.min(pts.length - 1, Math.round(pts.length === 1 ? 0 : ((sx - L) / (W - L - R)) * (pts.length - 1))));
+    const [season, week, score] = pts[i];
+    const change = i ? score - pts[i - 1][2] : null;
+    guide.setAttribute("x1", x(i)); guide.setAttribute("x2", x(i)); guide.setAttribute("visibility", "visible");
+    hot.setAttribute("cx", x(i)); hot.setAttribute("cy", y(score)); hot.setAttribute("visibility", "visible");
+    tip.replaceChildren(h("b", {}, `${season} Week ${week}`), h("br"), `Monitor: ${score.toFixed(1)}`,
+      ...(change ? [h("br"), h("span", { class: change > 0 ? "up" : "down" }, `${change > 0 ? "+" : ""}${change.toFixed(1)} from the week before`)] : []));
+    tip.hidden = false;
+    const px = (x(i) / W) * r.width, py = (y(score) / H) * r.height;
+    tip.style.left = `${Math.min(Math.max(px - tip.offsetWidth / 2, 0), r.width - tip.offsetWidth)}px`;
+    tip.style.top = `${py - tip.offsetHeight - 12 < 0 ? py + 14 : py - tip.offsetHeight - 12}px`;
+  };
+  const hide = () => { tip.hidden = true; guide.setAttribute("visibility", "hidden"); hot.setAttribute("visibility", "hidden"); };
+  const hit = svg.querySelector(".hit");
+  hit.addEventListener("pointermove", show);
+  hit.addEventListener("pointerdown", show);
+  hit.addEventListener("pointerleave", hide);
+  return box;
+}
+
 page("Player", async (main) => {
   const p = await load(`players/${param("id")}`);
   const t = p.totals;
@@ -119,6 +173,7 @@ page("Player", async (main) => {
           h("a", { href: `draft.html?y=${p.drafted.season}` }, `${p.drafted.season} ${p.drafted.kind === "startup" ? "Startup" : "Rookie"} Draft`)]],
         ["iooi Debut", debut && [gLink(debut.game, debut.date), " for ", fLink(debut.franchise, debut.team)]],
         ["All-Time Ranks", standing.length ? standing.join(", ") : null],
+        ["Hall of Fame Monitor", p.hof && [`${p.hof.score.toFixed(1)} (${ordinal(p.hof.rank)} of ${p.hof.of}; `, h("a", { href: "#hall-of-fame-monitor" }, "over time"), ", ", h("a", { href: "hof.html#hall-of-fame-monitor" }, "full list"), ")"]],
         ["Black Ink", p.black_ink && [`${p.black_ink.score} (${ordinal(p.black_ink.rank)} all-time; `, h("a", { href: "leaders.html#black-ink" }, "what is this?"), ")"]],
         ["iooi Career", `${t.gs} starts, ${fmt.pts(t.pts)} points${t.ppg == null ? "" : `, ${fmt.pts(t.ppg)} per start`}, ${fmt.pts(t.war)} WAR`],
       ],
@@ -156,6 +211,10 @@ page("Player", async (main) => {
         { label: "WAR", render: (a) => fmt.pts(a.war), num: true, title: "Wins above replacement" },
       ],
     }), h("p", { class: "note" }, "The figures are his season as an iooi starter for the team or teams shown. A Young Sexy Award is decided on NFL points over weeks 1-17, started or not.")) : null,
+    p.hof ? section("Hall of Fame Monitor", h("div", { class: "chart" }, hofChart(p.hof)),
+      h("p", { class: "note" }, [`His Monitor score after each iooi week. Today it is ${p.hof.score.toFixed(1)}: ${p.hof.war.toFixed(1)} for value, ${p.hof.starts.toFixed(1)} for service, ${p.hof.black_ink.toFixed(1)} for Black Ink and ${p.hof.awards.toFixed(1)} for honors. `,
+        "Value and service build week by week; Black Ink, awards and titles count once their season is complete. ",
+        `${p.hof.benchmark} marks a strong candidate. See the `, h("a", { href: "hof.html#hall-of-fame-monitor" }, "Hall of Fame Monitor"), "."])) : null,
     starts.length ? section("Splits", statTable({
       sortable: false, rows: splits, rowClass: (r) => (r.first ? "first" : null),
       columns: [
@@ -170,6 +229,8 @@ page("Player", async (main) => {
         { label: "Team W-L", render: (r) => `${r.w}-${r.l}`, cls: "c" },
       ],
     }), h("p", { class: "note" }, "Starts only. Opponents and franchises are listed under their current names.")) : null,
+    p.records_held?.length ? section("Records Held", recordTable(p.records_held, { [p.id]: { name: p.name } }, { scope: true, holder: false, team: true }),
+      h("p", { class: "note" }, ["First places he holds today: on the league's ", h("a", { href: "records.html" }, "record book"), " and leader lists, and on a franchise's own records (franchise shown in brackets)."])) : null,
     rankRows.length ? section("Places on the All-Time Lists", statTable({
       sortable: false, rows: rankRows, rowClass: (r) => (r.first ? "first" : null),
       columns: [

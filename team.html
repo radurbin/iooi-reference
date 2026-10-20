@@ -67,6 +67,18 @@ page("Team Season", async (main) => {
         ["Also known as", t.aka.filter((n) => n !== t.team).join(", ")],
       ],
     }),
+    t.awards?.length || t.record_entries?.length ? section("Awards and Records",
+      t.awards?.length ? [h("h3", {}, "Awards"), statTable({
+        sortable: false, rows: t.awards,
+        columns: [
+          { label: "Award", render: (a) => h("a", { href: "awards.html" }, a.award), cls: "win" },
+          { label: "Player", render: (a) => (a.player ? pCell(a) : "Team") },
+          { label: "Pos", render: (a) => (a.player ? players[a.player]?.pos ?? "" : ""), cls: "c" },
+        ],
+      })] : null,
+      t.record_entries?.length ? [h("h3", {}, "Record Book Entries"), recordTable(t.record_entries, players, { rank: true, scope: "self" })] : null,
+      h("p", { class: "note" }, [done ? "" : "Awards are given once the season is complete. ", "Record book entries are the top-ten places this team and its players set this season on the league's ",
+        h("a", { href: "records.html" }, "record book"), " and ", h("a", { href: "leaders.html" }, "season leader"), " lists, and the franchise records it set, as they stand today. Team-season lists count complete seasons only."])) : null,
     section("Schedule and Results", statTable({
       sortable: false, rows: t.schedule,
       columns: [

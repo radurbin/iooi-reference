@@ -33,6 +33,16 @@ page("Trade Records", async (main) => {
     { label: "Pts Out", value: (r) => r.pts_out, render: (r) => fmt.pts(r.pts_out), num: true, title: "Starter points the other side got from what it received (context)" },
     { label: "Vetoed", value: (r) => r.vetoed, num: true, title: "Trades blocked by league vote" },
   ];
+  const lopsidedCols = [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    { label: "Date", value: (r) => r.date },
+    { label: "Ahead", value: (r) => r.winner_team, render: (r) => fLink(r.winner, r.winner_team), cls: "win" },
+    { label: "Value", value: (r) => r.winner_war, render: (r) => fmt.pts(r.winner_war), num: true, title: "NFL WAR received" },
+    { label: "Behind", value: (r) => r.loser_team, render: (r) => fLink(r.loser, r.loser_team) },
+    { label: "Value", value: (r) => r.loser_war, render: (r) => fmt.pts(r.loser_war), num: true, title: "NFL WAR received" },
+    { label: "Margin", value: (r) => r.margin, render: (r) => fmt.pts(r.margin), num: true, cls: "win", title: "WAR margin" },
+    { label: "", render: (r) => tLink(r.id, "details") },
+  ];
   const ids = L.franchises.map((f) => f.id);
   const count = (a, b) => t.partners.find((p) => (p.a === a && p.b === b) || (p.a === b && p.b === a))?.trades ?? 0;
   const grid = h("table", { class: "stats grid" },
@@ -48,17 +58,26 @@ page("Trade Records", async (main) => {
     section("Trade Partners", h("div", { class: "scroll" }, grid), h("p", { class: "note" }, "Completed trades between each pair of franchises. Column numbers match the row numbers.")),
     section("Most Lopsided Trades", statTable({
       rows: rank(t.lopsided, (r) => r.margin),
+      columns: lopsidedCols,
+    })),
+    section("Most Lopsided Trades by Season", h("p", { class: "note" }, "The ten widest margins among each season's completed trades. Trades are filed under the league year they were made in."),
+      Object.entries(t.lopsided_by_season).reverse().map(([season, rows]) => [h("h3", {}, `${season} Season`), statTable({ rows: rank(rows, (r) => r.margin), columns: lopsidedCols })])),
+    t.vetoed.length ? section("Vetoed and Withdrawn Trades", h("p", { class: "note" }, "Trades the league voted down, or that were withdrawn during the review, judged as if they had gone through: the NFL WAR of what each side would have received, from the trade on. The ranks place each one among the completed trades by margin."), statTable({
+      rows: t.vetoed,
       columns: [
-        { label: "Rk", value: (r) => r.rk, num: true },
         { label: "Date", value: (r) => r.date },
-        { label: "Ahead", value: (r) => r.winner_team, render: (r) => fLink(r.winner, r.winner_team), cls: "win" },
-        { label: "Value", value: (r) => r.winner_war, render: (r) => fmt.pts(r.winner_war), num: true, title: "NFL WAR received" },
-        { label: "Behind", value: (r) => r.loser_team, render: (r) => fLink(r.loser, r.loser_team) },
-        { label: "Value", value: (r) => r.loser_war, render: (r) => fmt.pts(r.loser_war), num: true, title: "NFL WAR received" },
+        { label: "Status", value: (r) => (r.status === "vetoed" ? "Vetoed" : "Withdrawn"), cls: "c" },
+        { label: "Ahead", value: (r) => r.sides[0].team, render: (r) => (r.leader ? fLink(r.sides[0].franchise, r.sides[0].team) : [fLink(r.sides[0].franchise, r.sides[0].team), h("span", { class: "dim" }, " (even)")]), cls: (r) => (r.leader ? "win" : null) },
+        { label: "Value", value: (r) => r.sides[0].value, render: (r) => fmt.pts(r.sides[0].value), num: true, title: "NFL WAR it would have received" },
+        { label: "Behind", value: (r) => r.sides[1]?.team, render: (r) => r.sides.slice(1).flatMap((s, i) => [i ? ", " : "", fLink(s.franchise, s.team)]) },
+        { label: "Value", value: (r) => r.sides[1]?.value, render: (r) => fmt.pts(r.sides[1]?.value), num: true, title: "NFL WAR it would have received" },
         { label: "Margin", value: (r) => r.margin, render: (r) => fmt.pts(r.margin), num: true, cls: "win", title: "WAR margin" },
+        { label: "All-Time Rk", value: (r) => r.lopsided?.all.rank, render: (r) => (r.lopsided ? `${ordinal(r.lopsided.all.rank)} of ${r.lopsided.all.of}` : ""), num: true, title: "Where its margin would place among all completed trades" },
+        { label: "Season Rk", value: (r) => r.lopsided?.season.rank, render: (r) => (r.lopsided ? `${ordinal(r.lopsided.season.rank)} of ${r.lopsided.season.of}` : ""), num: true, title: "Where its margin would place among that season's completed trades" },
+        { label: "Vote", value: (r) => r.votes?.veto ?? 0, render: (r) => (r.votes ? `${r.votes.veto ?? 0}-${r.votes.pass ?? 0}` : ""), cls: "c", title: "Votes to veto and to pass" },
         { label: "", render: (r) => tLink(r.id, "details") },
       ],
-    })),
+    })) : null,
     section("Most Traded Players", statTable({
       rows: rank(t.most_traded, (r) => r.trades),
       columns: [{ label: "Rk", value: (r) => r.rk, num: true }, { label: "Player", value: (r) => players[r.player]?.name, render: (r) => pLink(r.player, players[r.player]?.name) },

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ring of Honor | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://dynastyiooi.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Ring of Honor", async (main) => {
+  const id = Number(param("id") || 1);
+  const [ring, players] = await Promise.all([load("ring_of_honor"), load("players")]);
+  const rows = ring.franchises[id] ?? [];
+  const w = ring.weights;
+  const name = franchiseName(id);
+  const n1 = (v) => v.toFixed(1);
+  const counts = (r) => [
+    ...Object.entries(r.title_counts).map(([k, n]) => `${n}x ${k === "champion" ? "Champ (started final)" : "Champ (regular)"}`),
+    ...Object.entries(r.honor_counts).map(([k, n]) => `${n}x ${{ mvp: "MVP", first_team: "1st Team", second_team: "2nd Team", rookie_of_year: "ROY", championship_mvp: "Champ MVP" }[k]}`),
+  ].join(", ");
+  main.append(
+    h("div", { class: "crumbs" }, h("a", { href: "index.html#franchises" }, "Franchises"), " › ", fLink(id), " › Ring of Honor"),
+    h("h1", {}, `${name} Ring of Honor Candidates`),
+    h("p", { class: "note" }, ["The players who have mattered most to this franchise. Where the ", h("a", { href: "hof.html#hall-of-fame-monitor" }, "Hall of Fame Monitor"),
+      " measures greatness across a whole career, this counts only a player's time here, and rewards staying: starts, seasons on the roster, titles and playoff starts count for more. Other franchises: ",
+      L.franchises.filter((f) => f.id !== id).flatMap((f, i) => [i ? " · " : "", h("a", { href: `ring.html?id=${f.id}` }, f.name)]), "."]),
+    rows.length ? section("Candidates", statTable({
+      rows: rank(rows, (r) => r.score),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: (r) => (r.here ? "win" : null) },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Years", value: (r) => r.years, cls: "c", title: "Seasons on this franchise's roster" },
+        { label: "Score", value: (r) => r.score, render: (r) => n1(r.score), num: true, cls: "win", title: "The sum of the six columns to the right" },
+        { label: "Value", value: (r) => r.war, render: (r) => n1(r.war), num: true, title: `${w.war} points per win above replacement as a starter here` },
+        { label: "Service", value: (r) => r.service, render: (r) => n1(r.service), num: true, title: `${w.start} points per start here` },
+        { label: "Tenure", value: (r) => r.tenure, render: (r) => n1(r.tenure), num: true, title: `${w.season} points per season on the roster` },
+        { label: "Titles", value: (r) => r.titles, render: (r) => n1(r.titles), num: true, title: `${w.champion} for starting a title game here, ${w.champion_regular} for a regular on a title team who did not start the final` },
+        { label: "Playoffs", value: (r) => r.playoffs, render: (r) => n1(r.playoffs), num: true, title: `${w.playoff_start} point per Dynasty Playoffs start here` },
+        { label: "Honors", value: (r) => r.honors, render: (r) => n1(r.honors), num: true, title: `Won while here: MVP ${w.mvp}, All-iooi First Team ${w.first_team}, Second Team ${w.second_team}, Championship MVP ${w.championship_mvp}, Rookie of the Year ${w.rookie_of_year}` },
+        { label: "Yrs", value: (r) => r.seasons, num: true },
+        { label: "GS", value: (r) => r.gs, num: true },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "WAR", value: (r) => r.career_war, render: (r) => fmt.pts(r.career_war), num: true },
+        { label: "Awards", render: counts, title: "Titles and honors counted" },
+      ],
+    }), h("p", { class: "note" }, `Score = Value (${w.war} per WAR) + Service (${w.start} per start) + Tenure (${w.season} per season) + Titles (${w.champion} for starting the final, ${w.champion_regular} as a regular) + Playoffs (${w.playoff_start} per playoff start) + Honors won here. Bold marks a player on the roster now. The weights are a first pass and open to revision.`))
+      : h("p", { class: "note" }, "No starts on record."));
+  return `${name} Ring of Honor`;
+});
+</script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 // Shared helpers for every iooi Reference page: data loading, links, sortable stat tables, page chrome.
 const DATA = "data/site/";
+if (/Windows/.test(navigator.userAgent)) document.documentElement.classList.add("flagfont");   // flag emoji font; see site.css
 const cache = {};
 
 function load(name) {
@@ -225,6 +226,25 @@ function leaderBoxes(boards, linkOf) {
 }
 
 // What each side of a trade received, one line per side. players is players.json.
+// Record-book places (from the build's record entries) as a table: the list, the place, the figure, who and when.
+// opts.rank shows the place column; opts.scope names the franchise for a franchise's own list.
+function recordTable(entries, players, opts = {}) {
+  const holder = (e) => (e.player ? pLink(e.player, players[e.player]?.name ?? e.player) : e.franchise ? (e.season ? tsLink(e.season, e.franchise, e.team) : fLink(e.franchise)) : "");
+  const when = (e) => (e.game ? gLink(e.game, `${e.season} wk ${e.week}`) : e.season ? (e.franchise && !e.player ? tsLink(e.season, e.franchise, `${e.season} season`) : sLink(e.season, `${e.season} season`)) : "Career");
+  const list = (e) => [h("a", { href: e.href }, e.list), opts.scope && e.scope !== "league" ? h("small", { class: "dim" }, opts.scope === "self" ? " (franchise record)" : ` (${franchiseName(e.scope)})`) : null];
+  return statTable({
+    sortable: false, rows: entries,
+    columns: [
+      { label: "Record", render: list, cls: "win", title: "The list, in the record book or on a franchise page" },
+      opts.rank && { label: "Place", render: (e) => (e.rank === 1 ? h("b", {}, "1st (record)") : ordinal(e.rank)), num: true, title: "Place on the list as it stands today; ties share a place" },
+      { label: "Value", render: (e) => e.value, num: true },
+      opts.holder !== false && { label: "Holder", render: holder },
+      opts.team && { label: "Team", render: (e) => (e.player && e.franchise ? (e.season ? tsLink(e.season, e.franchise, e.team) : fLink(e.franchise)) : "") },
+      { label: "When", render: when },
+    ].filter(Boolean),
+  });
+}
+
 function tradeTerms(t, players) {
   const asset = (a) => (a.type === "player" ? pLink(a.player, players[a.player]?.name) : a.became ? [`${a.season} ${ordinal(a.round)}-round pick`, " (", pickLink(a.became.season, a.became.label), ", ", pLink(a.became.player, players[a.became.player]?.name), ")"]
     : a.original ? [futurePickLink(a.season, a.round, a.original), ` (originally ${seasonTeam(t.season, a.original)})`] : `${a.season} ${ordinal(a.round)}-round pick`);

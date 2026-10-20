@@ -74,6 +74,8 @@ page("Manager", async (main) => {
         { label: "Notes", render: (r) => (r.partial_season ? "Partial season" : ""), cls: "dim" },
       ],
     })),
+    m.records_held?.length ? section("Records Held", recordTable(m.records_held, players, { scope: true }),
+      h("p", { class: "note" }, ["First places he holds today: on the league's ", h("a", { href: "records.html" }, "record book"), " lists, and on the franchise records of teams he managed (franchise shown in brackets), set while he held a stake."])) : null,
     m.leaders.overall.length ? [
       section("All-Time Leaders", statTable({ rows: rank(m.leaders.overall, (r) => r.pts), columns: leaderCols }),
         h("h3", {}, "Leaders by Position"), statTable({ sortable: false, rows: Object.values(m.leaders.by_pos).flatMap((rows) => rank(rows, (r) => r.pts)), groupBy: (r) => r.pos, columns: leaderCols }),
