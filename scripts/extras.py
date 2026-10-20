@@ -704,11 +704,11 @@ def honor_key(text):
 
 
 def monitor_parts(war, gs, ink_points, honors):
-    """The Monitor's four columns, each rounded half up to the tenth shown, and their sum, so the columns add up."""
+    """The Monitor's four columns, each rounded half up to the hundredth shown, and their sum, so the columns add up."""
     parts = {"war": max(0, war) * HOF_WEIGHTS["war"], "starts": gs * HOF_WEIGHTS["start"], "black_ink": ink_points * HOF_WEIGHTS["black_ink"],
              "awards": sum(n * HOF_WEIGHTS.get(k, 0) for k, n in honors.items())}
-    parts = {k: float(Decimal(str(round(v, 6))).quantize(Decimal("0.1"), ROUND_HALF_UP)) for k, v in parts.items()}
-    return round(sum(parts.values()), 1), parts
+    parts = {k: float(Decimal(str(round(v, 6))).quantize(Decimal("0.01"), ROUND_HALF_UP)) for k, v in parts.items()}
+    return round(sum(parts.values()), 2), parts
 
 
 def hof_monitor(players, files, ink, ink_leads, games):
