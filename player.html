@@ -83,6 +83,8 @@ page("Player", async (main) => {
     claimed: (e) => ["Claimed off waivers by ", fLink(e.to, e.to_team)],
     released: (e) => ["Released by ", fLink(e.from, e.from_team)],
     reassigned: (e) => ["Assigned by the commissioner from ", fLink(e.from, e.from_team), " to ", fLink(e.to, e.to_team)],
+    vetoed: (e) => h("span", { class: "dim" }, "Trade ", e.from ? ["from ", fLink(e.from, e.from_team), " "] : "", "to ", fLink(e.to, e.to_team), " vetoed by league vote (", tLink(e.trade, "trade details"), ")"),
+    withdrawn: (e) => h("span", { class: "dim" }, "Trade ", e.from ? ["from ", fLink(e.from, e.from_team), " "] : "", "to ", fLink(e.to, e.to_team), " withdrawn during the league review (", tLink(e.trade, "trade details"), ")"),
   };
   const starts = p.log.filter((r) => r.started);
   // Bold marks a season in which he led the league in the stat (black ink).
@@ -110,7 +112,12 @@ page("Player", async (main) => {
   const rowHonors = (r) => {
     const mine = p.career.filter((x) => x.season === r.season);
     const main = mine.reduce((best, x) => (x.gs > best.gs ? x : best), mine[0]);   // the season's honors sit on the row with the most starts
-    return honors.filter((a) => a.season === r.season && (a.champTeam ? a.champTeam === r.team : r === main)).map((a) => short(a.what)).join(", ");
+    // MVP and Rookie of the Year races show his place, as in "MVP-4"; the winner is "MVP-1".
+    const places = r === main ? (p.votes ?? []).filter((v) => v.startsWith(`${r.season} `)).map((v) => v.slice(5)) : [];
+    const raced = new Set(places.map((v) => v.split("-")[0]));
+    const items = honors.filter((a) => a.season === r.season && (a.champTeam ? a.champTeam === r.team : r === main)).map((a) => short(a.what)).filter((x) => !raced.has(x)).concat(places);
+    const key = (x) => order.indexOf(x.split("-")[0]);
+    return items.sort((a, b) => key(a) - key(b)).join(", ");
   };
   const awardRows = honors.map((a) => {
     const rows = p.career.filter((r) => r.season === a.season && (!a.champTeam || r.team === a.champTeam));
@@ -194,7 +201,7 @@ page("Player", async (main) => {
         { label: "PAA", value: (r) => r.paa, render: (r) => fmt.pts1(r.paa), num: true, title: "Points above the average iooi starter at his position" },
         { label: "VOR", value: (r) => r.vor, render: (r) => fmt.pts1(r.vor), num: true, title: "Value over a replacement-level player at his position" },
         { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, cls: (r) => (ink(r, "war") ? "ink" : null), title: "Wins above replacement" },
-        { label: "Awards", render: (r) => (r.total ? "" : rowHonors(r)), title: "MVP, CMVP (Championship MVP), All-iooi 1st or 2nd team, ROY (Rookie of the Year), YS (Young Sexy Award), Champ (on the title roster)" },
+        { label: "Awards", render: (r) => (r.total ? "" : rowHonors(r)), title: "MVP-n and ROY-n: his place in the MVP and Rookie of the Year races (MVP-1 won it). CMVP (Championship MVP), All-iooi 1st or 2nd team, YS (Young Sexy Award), Champ (on the title roster)" },
       ],
     })),
     p.black_ink ? h("p", { class: "note" }, "Bold marks a season in which he led the league.") : null,

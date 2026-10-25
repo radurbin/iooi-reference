@@ -663,6 +663,19 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
             if pid not in adds:
                 history[pid].append({"date": move["day"], "type": "released", "from": frm, "from_team": name_on(move["season"], frm, move["day"])})
 
+    # Trades the league voted down or that were withdrawn: the moves that almost happened.
+    for t in trades:
+        if t["status"] not in ("vetoed", "cancelled"):
+            continue
+        for side in t["sides"]:
+            for asset in side["assets"]:
+                if asset["type"] != "player":
+                    continue
+                others = [o["franchise"] for o in t["sides"] if o is not side]
+                giver = asset.get("from") or (others[0] if len(others) == 1 else None)
+                history[asset["player"]].append({"date": t["date"], "type": "vetoed" if t["status"] == "vetoed" else "withdrawn", "to": side["franchise"], "to_team": side["team"],
+                                                 "from": giver, "from_team": name_on(t["season"], giver, t["date"]) if giver else None, "trade": t["id"]})
+
     for pid, info in players.items():
         raw = raw_players.get(pid) or {}
         rows = appearances.get(pid, [])
@@ -685,7 +698,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
         info.update(paa=totals["paa"], vor=totals["vor"], war=totals["war"], g=totals["g"], gs=totals["gs"], pts=totals["pts"], bench_pts=totals["bench_pts"], best=totals["best"],
                     franchises=len({a["franchise"] for a in rows}), seasons=len({a["season"] for a in rows}))
         dump(SITE / "players" / f"{pid}.json", {
-            "id": pid, **{k: info[k] for k in ("name", "pos", "nfl_team", "birth_date", "honors")}, **({"positions": info["positions"]} if info.get("positions") else {}),
+            "id": pid, **{k: info[k] for k in ("name", "pos", "nfl_team", "birth_date", "honors", "votes")}, **({"positions": info["positions"]} if info.get("positions") else {}),
             "college": raw.get("college"), "rookie_year": rookie_year_of(raw, state),
             "height": raw.get("height"), "weight": raw.get("weight"),
             "drafted": drafted.get(pid), "career": career, "totals": totals,
@@ -765,7 +778,10 @@ def build_split_draft(split, players, all_picks, all_moves, appearances, people,
             target = pid if entry["kind"] == "player" else entry["became"] if entry["used_by"] == fid else None
             entry["pos"] = players[entry.get("player") or entry["became"]]["pos"]
             starts = [a for a in appearances.get(target, []) if a["started"] and a["franchise"] == fid and a["date"] >= day] if target else []
+            # League-wide: every start since the split, for any franchise, by the player chosen or the player the pick became.
+            anyone = [a for a in appearances.get(entry.get("player") or entry["became"], []) if a["started"] and a["date"] >= day]
             entry.update(gs=len(starts), pts=r2(sum(a["pts"] for a in starts)), war=round(sum(a.get("war") or 0 for a in starts), 2),
+                         lg_gs=len(anyone), lg_pts=r2(sum(a["pts"] for a in anyone)), lg_war=round(sum(a.get("war") or 0 for a in anyone), 2),
                          kept=bool(target and target in on_roster[fid]))
             selections.append(entry)
     totals = []
@@ -775,6 +791,7 @@ def build_split_draft(split, players, all_picks, all_moves, appearances, people,
                        "players": sum(1 for e in mine if e["kind"] == "player"), "picks": sum(1 for e in mine if e["kind"] == "pick"),
                        "switched": sum(1 for e in mine if e["original"] != fid),
                        "gs": sum(e["gs"] for e in mine), "pts": r2(sum(e["pts"] for e in mine)), "war": round(sum(e["war"] for e in mine), 2),
+                       "lg_gs": sum(e["lg_gs"] for e in mine), "lg_pts": r2(sum(e["lg_pts"] for e in mine)), "lg_war": round(sum(e["lg_war"] for e in mine), 2),
                        "kept": sum(1 for e in mine if e["kept"])})
     return {"date": day, "summary": split["summary"], "rounds": len(split["rounds"]), "selections": selections, "totals": totals}
 
@@ -1069,6 +1086,7 @@ def build_leaders(appearances, players):
         teams = lambda group: list(dict.fromkeys(a["franchise"] for a in group))   # in the order he played for them
         career.append({**base, "gs": len(starts), "pts": r2(sum(a["pts"] for a in starts)), **value_sum(starts), "franchises": teams(starts),
                        "years": year_span(rows), "best": max(a["pts"] for a in starts),
+                       "wins": sum(1 for a in starts if a["won"]), "losses": sum(1 for a in starts if not a["won"]),
                        "bench_pts": r2(sum(a["pts"] for a in rows if not a["started"] and a["game"]))})
         by_season = defaultdict(list)
         for a in starts:
@@ -1077,7 +1095,7 @@ def build_leaders(appearances, players):
             seasons_.append({**base, "season": season, "gs": len(group), "pts": r2(sum(a["pts"] for a in group)), **value_sum(group), "franchises": teams(group)})
     top = lambda rows, key, n=25: sorted(rows, key=lambda r: -r[key])[:n]
     return {
-        "career": {key: top(career, key) for key in ("pts", "gs", "vor", "paa", "bench_pts")},
+        "career": {**{key: top(career, key) for key in ("gs", "vor", "paa", "bench_pts", "wins")}, "pts": top(career, "pts", 100)},
         "career_by_pos": {pos: top([r for r in career if r["pos"] == pos], "pts", 10) for pos in REPLACEMENT_RANK},
         "season": {key: top(seasons_, key) for key in ("pts", "vor", "paa")},
         "season_by_pos": {pos: top([r for r in seasons_ if r["pos"] == pos], "pts", 10) for pos in REPLACEMENT_RANK},
@@ -1203,6 +1221,7 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
                 row["teams"][side["franchise"]] = side["team"]
     official = {k: v for k, v in load(MANUAL / "young_sexy.json").items() if not k.startswith("_")}
     honors = defaultdict(list)
+    votes = defaultdict(list)   # player -> ["2024 MVP-4", ...]: places in the MVP and Rookie of the Year races
     out = []
     for season, s in seasons.items():
         if not s["last_week"]:
@@ -1241,7 +1260,7 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
             listed = official.get(season, {}).get(pos)
             young.append({"pos": pos, "player": pid if pid in players else None, "name": name, "pts": r2(pts),
                           "franchise": holders.get(pid), "team": name_of_holder(s, holders.get(pid)),
-                          "official": listed, "matches_official": listed is None or listed == name})
+                          "official": listed, "matches_official": listed is None or same_name(listed, name)})
         rows = list(season_rows[season].values())
         by_finish = {r["finish"]: r for r in rows if r["finish"]} if complete else {}
         team = lambda r: {"franchise": r["franchise"], "team": r["team"]} if r else None
@@ -1262,6 +1281,9 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
                                               "franchise": side["franchise"], "team": side["team"], "game": title["id"]}
         out.append(entry)
         if complete:
+            for label, race in (("MVP", mvp), ("ROY", entry["rookie"])):
+                for r in race:
+                    votes[r["player"]].append(f"{season} {label}-{1 + sum(1 for o in race if o['paa'] > r['paa'])}")
             honors[mvp[0]["player"]].append(f"{season} iooi MVP")
             if best:
                 honors[best["player"]].append(f"{season} Championship MVP")
@@ -1276,7 +1298,13 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
             if title:
                 for line in side["starters"] + side["bench"]:
                     honors[line["player"]].append(f"{season} champion ({side['team']})")
-    return out[::-1], honors
+    return out[::-1], honors, votes
+
+
+def same_name(a, b):
+    """True if two spellings name the same player, ignoring case, punctuation and suffixes such as Jr. or III."""
+    clean = lambda n: [w for w in "".join(c for c in n.lower() if c.isalnum() or c == " ").split() if w not in ("jr", "sr", "ii", "iii", "iv", "v")]
+    return clean(a) == clean(b)
 
 
 def name_of_holder(s, roster_id):
@@ -1754,10 +1782,11 @@ def main():
     dump(SITE / "head_to_head.json", head_to_head(game_log))
     dump(SITE / "trades.json", trades)
     rookie_year = {pid: year for pid, p in raw_players.items() if (year := rookie_year_of(p, state)) is not None}
-    awards, honors = build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year)
+    awards, honors, votes = build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year)
     dump(SITE / "awards.json", awards)
     for pid, info in players.items():
         info["honors"] = honors.get(pid, [])
+        info["votes"] = votes.get(pid, [])
     constitution = load(MANUAL / "constitution.json")
     dump(SITE / "constitution.json", constitution)
     dump(SITE / "timeline.json", build_timeline(seasons, people, franchises, name_history, draft_index, trades, constitution, game_log, players, name_on))

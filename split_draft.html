@@ -45,9 +45,12 @@ page("2024 Dynasty iooi Split Draft", async (main) => {
         { label: "Players", value: (r) => r.players, num: true, title: "Players selected" },
         { label: "Picks", value: (r) => r.picks, num: true, title: "2024 rookie picks selected" },
         { label: "Moved", value: (r) => r.switched, num: true, title: "Selections that came from the other franchise's roster" },
-        { label: "GS", value: (r) => r.gs, num: true, title: "Games started for this franchise since the split, by players selected or drafted with picks selected" },
-        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, title: "Starter points for this franchise since the split" },
-        { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, title: "Wins above replacement for this franchise since the split" },
+        { label: "Team GS", value: (r) => r.gs, num: true, title: "Games started for this franchise since the split, by players selected or drafted with picks selected" },
+        { label: "Team Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, title: "Starter points for this franchise since the split" },
+        { label: "Team WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, title: "Wins above replacement for this franchise since the split" },
+        { label: "Lg GS", value: (r) => r.lg_gs, num: true, title: "Games started since the split for any iooi franchise" },
+        { label: "Lg Pts", value: (r) => r.lg_pts, render: (r) => fmt.pts(r.lg_pts), num: true, title: "Starter points since the split for any iooi franchise" },
+        { label: "Lg WAR", value: (r) => r.lg_war, render: (r) => fmt.pts(r.lg_war), num: true, title: "Wins above replacement since the split for any iooi franchise" },
         { label: "Kept", value: (r) => r.kept, num: true, title: "Selections still on this franchise's roster" },
       ],
     })),
@@ -65,12 +68,16 @@ page("2024 Dynasty iooi Split Draft", async (main) => {
         { label: "Selection", value: (e) => e.text, render: selection, cls: "win", title: "Player chosen, or the rookie pick chosen and the player it was used on" },
         { label: "Pos", value: (e) => e.pos, cls: "c" },
         { label: "From", value: (e) => e.original, render: (e) => fLink(e.original, d.totals.find((t) => t.franchise === e.original).team), title: "Franchise that held the player or pick before the split" },
-        { label: "GS", value: (e) => e.gs, num: true, title: "Games started for the selecting franchise since the split" },
-        { label: "Pts", value: (e) => e.pts, render: (e) => fmt.pts(e.pts), num: true, title: "Points as a starter for the selecting franchise since the split" },
-        { label: "WAR", value: (e) => e.war, render: (e) => fmt.pts(e.war), num: true, title: "Wins above replacement for the selecting franchise since the split" },
+        { label: "Team GS", value: (e) => e.gs, num: true, title: "Games started for the selecting franchise since the split" },
+        { label: "Team Pts", value: (e) => e.pts, render: (e) => fmt.pts(e.pts), num: true, title: "Points as a starter for the selecting franchise since the split" },
+        { label: "Team WAR", value: (e) => e.war, render: (e) => fmt.pts(e.war), num: true, title: "Wins above replacement for the selecting franchise since the split" },
+        { label: "Lg GS", value: (e) => e.lg_gs, num: true, title: "Games started since the split for any iooi franchise" },
+        { label: "Lg Pts", value: (e) => e.lg_pts, render: (e) => fmt.pts(e.lg_pts), num: true, title: "Points as a starter since the split for any iooi franchise" },
+        { label: "Lg WAR", value: (e) => e.lg_war, render: (e) => fmt.pts(e.lg_war), num: true, title: "Wins above replacement since the split for any iooi franchise" },
+        { label: "HOF", value: (e) => e.hof ?? -1, render: (e) => (e.hof == null ? "" : e.hof.toFixed(2)), num: true, title: "Hall of Fame Monitor score" },
         { label: "Kept", value: (e) => (e.kept ? "Yes" : ""), cls: "c", title: "Still on the selecting franchise's roster" },
       ],
-    }), h("p", { class: "note" }, "GS, Pts and WAR count starts for the selecting franchise from the 2024 season on. A rookie pick is credited with the player it was used on.")));
+    }), h("p", { class: "note" }, "Team GS, Pts and WAR count starts for the selecting franchise from the 2024 season on; Lg (league) GS, Pts and WAR count his starts since the split for every iooi franchise. A rookie pick is credited with the player it was used on. HOF is his Hall of Fame Monitor score, from his whole iooi career.")));
 });
 </script>
 </body>

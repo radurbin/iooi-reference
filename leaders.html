@@ -44,6 +44,13 @@ page("Player Leaders", async (main) => {
     section("Career Value Over Replacement", statTable({ rows: rank(lead.career.vor, (r) => r.vor), columns: cols("vor") })),
     section("Career Points Above Average", statTable({ rows: rank(lead.career.paa, (r) => r.paa), columns: cols("paa") })),
     section("Career Games Started", statTable({ rows: rank(lead.career.gs, (r) => r.gs), columns: cols("gs") })),
+    section("Career Wins", h("p", { class: "note" }, "Team wins in games he started, for any iooi franchise, playoffs and Toilet Bowl included."), statTable({ rows: rank(lead.career.wins, (r) => r.wins), columns: [
+      ...cols("wins").filter((c) => !["PAA", "VOR"].includes(c.label)).slice(0, 6),
+      { label: "W", value: (r) => r.wins, num: true, cls: "win", title: "Team wins in his starts" },
+      { label: "L", value: (r) => r.losses, num: true, title: "Team losses in his starts" },
+      { label: "W-L%", value: (r) => r.wins / r.gs, render: (r) => fmt.pct(r.wins / r.gs), num: true, title: "Share of his starts his team won" },
+      ...cols("wins").slice(6).filter((c) => !["PAA", "VOR"].includes(c.label)),
+    ] })),
     section("Career Points by Position", Object.entries(lead.career_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows, (r) => r.pts), columns: cols("pts").filter((c) => c.label !== "Pos") })])),
     section("Single-Season Points", statTable({ rows: rank(lead.season.pts, (r) => r.pts), columns: cols("pts", true) })),
     section("Single-Season Value Over Replacement", statTable({ rows: rank(lead.season.vor, (r) => r.vor), columns: cols("vor", true) })),

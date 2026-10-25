@@ -63,7 +63,6 @@ page("Streaks & Milestones", async (main) => {
     stretchBox.replaceChildren(
       h("p", {}, h("b", {}, "Consecutive weeks: "), st.spans.flatMap((x, i) => [i ? " · " : "", x === n ? h("b", {}, x) : h("a", { href: "#", onclick: (e) => { e.preventDefault(); drawStretch(x); } }, x)])),
       h("h3", {}, `Franchises: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.franchises[n], (r) => r.pts), columns: stretchCols([{ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }, teamCol]) }),
-      h("h3", {}, `Managers: Most Points in ${n} Straight Weeks`), statTable({ rows: rank(st.managers[n], (r) => r.pts), columns: stretchCols([{ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }, teamCol]) }),
       h("h3", {}, `Players: Most Points in ${n} Straight Starts`), statTable({ rows: rank(st.players[n], (r) => r.pts), columns: stretchCols([
         { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" }, { label: "Pos", value: (r) => r.pos, cls: "c" },
         { label: "Team(s)", value: (r) => r.teams.join(", "), title: "Teams he started for during the stretch" }]) }));

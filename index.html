@@ -20,12 +20,12 @@
 <script>
 page("Dynasty iooi History", async (main) => {
   const [all, timeline, streaks, home, week] = await Promise.all([load("all_time"), load("timeline"), load("streaks"), load("home"), load("week")]);
-  // Top panels, after the reference sites' front pages: faces of the season's leading scorers, then standings and the lottery.
+  // Top panels, after the reference sites' front pages: a dozen faces (leading scorers in season; the champions, then the rookie draft, in the offseason), then standings and the lottery.
   const y = home.season;
   const face = (p) => {
     const img = h("img", { src: p.pos === "DEF" ? `https://sleepercdn.com/images/team_logos/nfl/${p.player.toLowerCase()}.png` : `https://sleepercdn.com/content/nfl/players/thumb/${p.player}.jpg`, alt: p.name, loading: "lazy", class: p.pos === "DEF" ? "logo" : null });
     img.addEventListener("error", () => img.replaceWith(h("span", {}, p.name)));
-    return h("a", { href: `player.html?id=${p.player}`, "data-tip": `${p.name}, ${p.pos}: ${fmt.pts(p.pts)} points in ${p.gs} ${p.gs === 1 ? "start" : "starts"}` }, img);
+    return h("a", { href: `player.html?id=${p.player}`, "data-tip": `${p.name}, ${p.pos}: ${p.tip}` }, img);
   };
   const dots = (links) => h("p", { class: "links" }, links.flatMap((a, i) => [i ? " · " : "", a]));
   const lot = home.lottery;
@@ -33,9 +33,9 @@ page("Dynasty iooi History", async (main) => {
     h("div", { class: "panel" },
       h("h2", {}, h("a", { href: "players.html" }, "Every iooi Player")),
       h("div", { class: "body" },
-        h("div", { class: "faces" }, home.scorers.map(face)),
-        h("h3", {}, `${y} Scoring Leaders`),
-        h("ol", { class: "scorers" }, home.scorers.map((p) => h("li", {}, pLink(p.player, p.name), h("small", {}, ` ${p.pos}`), h("b", {}, fmt.pts(p.pts))))),
+        h("div", { class: "faces" }, home.faces.rows.map(face)),
+        h("h3", {}, home.faces.kind === "draft" ? h("a", { href: `draft.html?y=${+y + 1}` }, home.faces.title) : home.faces.kind === "champion" ? tsLink(y, home.faces.franchise, home.faces.title) : home.faces.title),
+        h("ol", { class: "scorers" }, home.faces.rows.map((p) => h("li", {}, pLink(p.player, p.name), h("small", {}, ` ${p.pos}`), h("b", {}, p.stat)))),
         dots([h("a", { href: "players.html" }, "Player Register"), h("a", { href: "leaders.html" }, "Career & Season Leaders"), h("a", { href: "hof.html" }, "Hall of Fame Monitor"), h("a", { href: "nicknames.html" }, "Nicknames")]))),
     h("div", { class: "panel" },
       h("h2", {}, h("a", { href: "index.html#franchises" }, "Every iooi Team")),
@@ -98,6 +98,8 @@ page("Dynasty iooi History", async (main) => {
     ...timeline.events.filter((e) => near(e.date)).map((e) => ({ date: e.date, text: e.text })),
     ...streaks.milestones.reached.filter((m) => near(m.date) && m.kind !== "manager").map((m) => ({ date: m.date, text: `${who(m)} reaches ${m.what} ([[g:${m.game}]]).` })),
   ].sort((x, y) => (x.date < y.date ? 1 : -1)).slice(0, 8);
+  const md = `${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+  const birthdays = home.birthdays.filter((b) => b.birth_date.slice(5) === md);
   const done = L.seasons.filter((s) => s.status === "complete");
   const team = (key) => (s) => (s[key] ? fLink(s[key], seasonTeam(s.season, s[key])) : "");
   main.append(
@@ -114,6 +116,8 @@ page("Dynasty iooi History", async (main) => {
     home.last_week?.lines.length && home.status !== "complete" ? h("div", { class: "onthisday" },
       h("b", { class: "head" }, `Last week in iooi: ${home.last_week.season} Week ${home.last_week.week}${home.last_week.kind === "regular" ? "" : " (postseason)"}`),
       h("ul", {}, home.last_week.lines.map((e) => h("li", {}, h("b", {}, `${e.label}: `), rich(e.text))))) : null,
+    birthdays.length ? h("div", { class: "onthisday" }, h("b", { class: "head" }, "Birthdays today"),
+      h("ul", {}, birthdays.map((b) => h("li", {}, pLink(b.player, b.name), ` (${b.pos}, `, b.franchise ? fLink(b.franchise) : "free agent", `) turns ${today.getFullYear() - +b.birth_date.slice(0, 4)}`)))) : null,
     memories.length ? h("div", { class: "onthisday" }, h("b", { class: "head" }, "This week in iooi history"),
       h("ul", {}, memories.map((e) => h("li", {}, h("b", {}, `${e.date}: `), rich(e.text))))) : null,
     section("Champions", statTable({

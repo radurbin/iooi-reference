@@ -28,6 +28,7 @@ page("Draft", async (main) => {
   const [draft, players] = await Promise.all([load(`drafts/${y}`), load("players")]);
   const title = draft.kind === "startup" ? `${y} Dynasty iooi Startup Draft` : `${y} Dynasty iooi Rookie Draft`;
   const first = draft.picks[0];
+  const hofCol = { label: "HOF", value: (p) => p.hof ?? -1, render: (p) => (p.hof == null ? "" : p.hof.toFixed(2)), num: true, title: "Hall of Fame Monitor score" };
   const traded = draft.picks.filter((p) => p.original && p.original !== p.franchise).length;
   main.append(
     h("h1", {}, title),
@@ -53,8 +54,25 @@ page("Draft", async (main) => {
         { label: "Team Pts", value: (p) => p.pts_team, render: (p) => fmt.pts(p.pts_team), num: true, title: "Points as a starter for the drafting franchise" },
         { label: "Lg GS", value: (p) => p.starts_league, num: true, title: "League games started: starts for any iooi franchise, not only the one that drafted him" },
         { label: "Lg Pts", value: (p) => p.pts_league, render: (p) => fmt.pts(p.pts_league), num: true, title: "League points: starter points for any iooi franchise, not only the one that drafted him" },
+        hofCol,
       ],
-    }), h("p", { class: "note" }, "Team GS and Team Pts are for the franchise that drafted him; Lg (league) GS and Pts are for every iooi franchise he has played for. All count games in a starting lineup, playoffs and Toilet Bowl included, through the most recent completed week. Click a column to sort.")));
+    }), h("p", { class: "note" }, "Team GS and Team Pts are for the franchise that drafted him; Lg (league) GS and Pts are for every iooi franchise he has played for. All count games in a starting lineup, playoffs and Toilet Bowl included, through the most recent completed week. HOF is his Hall of Fame Monitor score. Click a column to sort.")),
+    draft.undrafted?.length ? section("Best Undrafted Players", h("p", { class: "note" }, draft.kind === "startup"
+      ? "Players already in the NFL in 2023 whom no one took in the startup draft, ranked by points as a starter for any iooi franchise."
+      : `${y} NFL rookies whom no one took in the rookie draft, ranked by points as a starter for any iooi franchise.`), statTable({
+      rows: rank(draft.undrafted, (r) => r.pts),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Player", value: (r) => players[r.player].name, render: (r) => pLink(r.player, players[r.player].name), cls: "win" },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "First iooi Team", value: (r) => r.first?.to_team, render: (r) => (r.first ? fLink(r.first.to, r.first.to_team) : ""), title: "The franchise that first added him" },
+        { label: "How", value: (r) => r.first?.type, render: (r) => (r.first ? `${{ signed: "Free agent", claimed: "Waivers", traded: "Trade", reassigned: "Commissioner" }[r.first.type]}, ${r.first.date}` : ""), title: "How and when he first joined an iooi roster" },
+        { label: "Lg GS", value: (r) => r.gs, num: true, title: "Games started for any iooi franchise" },
+        { label: "Lg Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true, cls: "win", title: "Starter points for any iooi franchise" },
+        { label: "WAR", value: (r) => r.war, render: (r) => fmt.pts(r.war), num: true, title: "Wins above replacement as an iooi starter" },
+        hofCol,
+      ],
+    })) : null);
   return title;
 });
 </script>
