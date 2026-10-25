@@ -184,7 +184,7 @@ def milestones(games, players, logs, franchise_names, manager_names, rostered, a
 
 def rivalries(games, trades):
     def collect(keys_of):
-        pairs = defaultdict(lambda: {"games": [], "trades": []})
+        pairs = defaultdict(lambda: {"games": [], "trades": [], "vetoed": []})
         for g in games:
             a, b = g["teams"]
             for x in keys_of(a):
@@ -198,8 +198,9 @@ def rivalries(games, trades):
                         "a_team": first["team"], "b_team": second["team"], "a_pts": first["points"], "b_pts": second["points"],
                         "a_fid": first["franchise"], "b_fid": second["franchise"]})
         for t in trades:
-            if t["status"] != "complete":
+            if t["status"] not in ("complete", "vetoed", "cancelled"):
                 continue
+            done = t["status"] == "complete"
             for i, a in enumerate(t["sides"]):
                 for b in t["sides"][i + 1:]:
                     for x in keys_of(a):
@@ -209,10 +210,14 @@ def rivalries(games, trades):
                             lo, hi = sorted((x, y), key=str)
                             first, second = (a, b) if str(x) < str(y) else (b, a)
                             entry = {"id": t["id"], "date": t["date"], "a_team": first["team"], "b_team": second["team"],
-                                     "a_pts": first["total"]["pts"], "b_pts": second["total"]["pts"],
                                      "a_assets": len(first["assets"]), "b_assets": len(second["assets"]), "teams": len(t["sides"])}
-                            if entry not in pairs[f"{lo}~{hi}"]["trades"]:
-                                pairs[f"{lo}~{hi}"]["trades"].append(entry)
+                            if done:
+                                entry.update(a_pts=first["total"]["pts"], b_pts=second["total"]["pts"])
+                            else:   # never went through: the NFL WAR each side would have received, and the vote
+                                entry.update(status=t["status"], a_war=first["value"], b_war=second["value"], votes=t.get("votes"))
+                            target = pairs[f"{lo}~{hi}"]["trades" if done else "vetoed"]
+                            if entry not in target:
+                                target.append(entry)
         return pairs
     return {"franchises": collect(lambda side: [side["franchise"]]), "managers": collect(lambda side: side["managers"])}
 

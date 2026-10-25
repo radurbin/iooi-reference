@@ -23,7 +23,8 @@ page("Rivalry", async (main) => {
   const key = param(kind) || "1~2";
   const data = await load("rivalries");
   const [a, b] = key.split("~");
-  const pair = (kind === "m" ? data.managers : data.franchises)[key] ?? { games: [], trades: [] };
+  const pair = (kind === "m" ? data.managers : data.franchises)[key] ?? { games: [], trades: [], vetoed: [] };
+  const vetoed = pair.vetoed ?? [];
   const label = kind === "m" ? managerName : franchiseName;
   const link = (x) => (kind === "m" ? mLink(x) : fLink(x));
   const title = `${label(a)} vs ${label(b)}`;
@@ -41,6 +42,7 @@ page("Rivalry", async (main) => {
     run = run.who === who ? { who, n: run.n + 1, to: g } : { who, n: 1, to: g };
     if (run.n > best.n) best = { ...run };
   }
+  const tradeCount = vetoed.length ? `${pair.trades.length} (plus ${vetoed.length} vetoed or withdrawn)` : pair.trades.length;
   const others = (kind === "m" ? L.managers.map((m) => m.id) : L.franchises.map((f) => String(f.id)));
   main.append(
     h("div", { class: "crumbs" }, h("a", { href: "h2h.html" }, "Head-to-Head"), ` › ${title}`),
@@ -57,8 +59,8 @@ page("Rivalry", async (main) => {
         ["Biggest Blowout", show(top((g) => Math.abs(g.a_pts - g.b_pts)))],
         ["Closest Game", show(top((g) => -Math.abs(g.a_pts - g.b_pts)))],
         ["Highest Scoring", show(top((g) => g.a_pts + g.b_pts))],
-        ["Trades Between Them", pair.trades.length],
-      ] : [[null, "These two have not met."], ["Trades Between Them", pair.trades.length]],
+        ["Trades Between Them", tradeCount],
+      ] : [[null, "These two have not met."], ["Trades Between Them", tradeCount]],
     }),
     games.length ? section("Every Meeting", statTable({
       rows: [...games].reverse(),
@@ -86,7 +88,23 @@ page("Rivalry", async (main) => {
         { label: "Teams", value: (t) => t.teams, num: true, title: "Number of teams in the trade" },
         { label: "", render: (t) => tLink(t.id, "details") },
       ],
-    }) : h("p", { class: "note" }, "None on record.")),
+    }) : h("p", { class: "note" }, "None on record."),
+    vetoed.length ? [h("h3", {}, "Vetoed and Withdrawn Trades"),
+      h("p", { class: "note" }, "Trades between them that the league voted down, or that were withdrawn during the review. Value is the NFL WAR each side would have received, from the trade on."),
+      statTable({
+        rows: [...vetoed].reverse(),
+        columns: [
+          { label: "Date", value: (t) => t.date },
+          { label: "Status", value: (t) => (t.status === "vetoed" ? "Vetoed" : "Withdrawn"), cls: "c" },
+          { label: `${label(a)} would get`, value: (t) => t.a_assets, render: (t) => `${t.a_assets} ${t.a_assets === 1 ? "asset" : "assets"}`, title: `Players and picks ${label(a)}'s team would have received` },
+          { label: "Value", value: (t) => t.a_war, render: (t) => fmt.pts(t.a_war), num: true, cls: (t) => (t.a_war > t.b_war ? "win" : null), title: "NFL WAR it would have received" },
+          { label: `${label(b)} would get`, value: (t) => t.b_assets, render: (t) => `${t.b_assets} ${t.b_assets === 1 ? "asset" : "assets"}`, title: `Players and picks ${label(b)}'s team would have received` },
+          { label: "Value", value: (t) => t.b_war, render: (t) => fmt.pts(t.b_war), num: true, cls: (t) => (t.b_war > t.a_war ? "win" : null), title: "NFL WAR it would have received" },
+          { label: "Teams", value: (t) => t.teams, num: true, title: "Number of teams in the trade" },
+          { label: "Vote", value: (t) => t.votes?.veto ?? 0, render: (t) => (t.votes ? `${t.votes.veto ?? 0}-${t.votes.pass ?? 0}` : ""), cls: "c", title: "Votes to veto and to pass" },
+          { label: "", render: (t) => tLink(t.id, "details") },
+        ],
+      })] : null),
     section("Other Rivalries", h("p", {}, [link(a), " vs: ", others.filter((x) => x !== a && x !== b).flatMap((x, i) => [i ? ", " : "", rLink(kind, a, x, label(x))])]),
       h("p", {}, [link(b), " vs: ", others.filter((x) => x !== a && x !== b).flatMap((x, i) => [i ? ", " : "", rLink(kind, b, x, label(x))])])));
   return title;
