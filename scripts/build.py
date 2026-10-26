@@ -1241,7 +1241,7 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
                     taken.add(choice["player"])
                     picks.append({"slot": slot, **choice})
             teams.append({"label": label, "picks": sorted(picks, key=lambda p: ALL_IOOI_SLOTS.index(p["slot"]))})
-        mvp = [r for r in mine if r["gs"] >= min_starts][:5]   # the same starts minimum as the All-iooi teams
+        mvp = [r for r in mine if r["gs"] >= min_starts][:10]   # top 10; the same starts minimum as the All-iooi teams
         rookies = [r for r in mine if rookie_year.get(r["player"]) == int(season) and r["gs"] >= min_starts]   # by PAA, like the MVP
         # Young Sexy Awards: top-scoring NFL rookie at each position, weeks 1-17, whoever rostered him.
         totals = defaultdict(float)
@@ -1271,7 +1271,7 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
             "efficiency": {**team(max(rows, key=lambda r: r["efficiency"] or 0)), "value": max(r["efficiency"] or 0 for r in rows)},
             "luckiest": {**team(max(rows, key=lambda r: r["luck"])), "value": max(r["luck"] for r in rows)},
             "unluckiest": {**team(min(rows, key=lambda r: r["luck"])), "value": min(r["luck"] for r in rows)},
-            "mvp": mvp, "rookie": rookies[:3], "all_iooi": teams, "all_iooi_min_starts": min_starts, "young_sexy": young,
+            "mvp": mvp, "rookie": rookies[:5], "all_iooi": teams, "all_iooi_min_starts": min_starts, "young_sexy": young,
         }
         # Championship MVP: the top scorer in the winner's starting lineup in the title game, team defenses excepted.
         title = next((g for g in game_log if g["season"] == season and g["label"] == "Dynasty Championship"), None) if complete else None

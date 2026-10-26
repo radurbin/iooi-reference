@@ -111,12 +111,13 @@ page("Player", async (main) => {
   honors.sort((a, b) => (a.season < b.season ? -1 : a.season > b.season ? 1 : order.indexOf(short(a.what)) - order.indexOf(short(b.what))));
   const rowHonors = (r) => {
     const mine = p.career.filter((x) => x.season === r.season);
-    const main = mine.reduce((best, x) => (x.gs > best.gs ? x : best), mine[0]);   // the season's honors sit on the row with the most starts
+    // The season's honors sit on the row with the most starts; a tie goes to the row with more points.
+    const main = mine.reduce((best, x) => (x.gs > best.gs || (x.gs === best.gs && (x.pts ?? 0) > (best.pts ?? 0)) ? x : best), mine[0]);
     // MVP and Rookie of the Year races show his place, as in "MVP-4"; the winner is "MVP-1".
     const places = r === main ? (p.votes ?? []).filter((v) => v.startsWith(`${r.season} `)).map((v) => v.slice(5)) : [];
     const raced = new Set(places.map((v) => v.split("-")[0]));
     const items = honors.filter((a) => a.season === r.season && (a.champTeam ? a.champTeam === r.team : r === main)).map((a) => short(a.what)).filter((x) => !raced.has(x)).concat(places);
-    const key = (x) => order.indexOf(x.split("-")[0]);
+    const key = (x) => order.indexOf(x.replace(/-\d+$/, ""));   // "MVP-4" sorts as MVP; "All-iooi 1st" keeps its hyphen
     return items.sort((a, b) => key(a) - key(b)).join(", ");
   };
   const awardRows = honors.map((a) => {
