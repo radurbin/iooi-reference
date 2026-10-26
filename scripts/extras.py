@@ -1151,7 +1151,8 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
         st = standings[fid]
         lineup = []
         # Auto-subs that have fired (the starter sat, his designated sub played); Sleeper still lists the starter.
-        starters, swaps = fired_subs(row["starters"], row.get("players") or [], subs.get(fid), as_played, row.get("players_points") or {})
+        starters, swaps = fired_subs(row["starters"], row.get("players") or [], subs.get(fid), as_played, row.get("players_points") or {},
+                                     kicked_off=played, team_of={pid: (players.get(pid) or {}).get("nfl_team") for pid in subs.get(fid) or {}})
         subbed = {b: a for a, b in swaps}
         for i, pid in enumerate(starters):
             known = pid in players

@@ -68,19 +68,22 @@ def scoring_for_week(scoring, changes, week_start):
     return scoring
 
 
-def fired_subs(starters, players, subs, played, points, official=None):
+def fired_subs(starters, players, subs, played, points, official=None, kicked_off=(), team_of=None):
     """The lineup after Sleeper's auto-subs, and the swaps made, as [(starter, sub)].
 
     subs is the manager's plan for the week, {starter: bench player}; it is kept whether or not a sub was needed.
     - Week finished: Sleeper has already put the sub in the lineup it reports, so the swap is only noted.
     - Week in progress: Sleeper still lists the starter. The sub goes in once the starter has missed his game and
-      the sub has played; until then, or if the starter plays, nothing changes.
-    played: players with an NFL game that week; points: {player: points}."""
+      the sub has played; until then, or if the starter plays, nothing changes. A starter whose NFL team has not
+      kicked off yet (a Monday game, say) has not missed anything, so his sub waits.
+    played: players with an NFL game that week; points: {player: points};
+    kicked_off: NFL teams whose game has started; team_of: {player: NFL team}."""
     lineup, swaps, made = list(starters), [], []
     for starter, sub in (subs or {}).items():
         if starter not in lineup and sub in lineup:
             swaps.append((starter, sub))   # already applied by Sleeper
-        elif starter in lineup and sub in players and sub not in lineup and starter not in played and sub in played:
+        elif (starter in lineup and sub in players and sub not in lineup and starter not in played and sub in played
+              and (team_of or {}).get(starter) in kicked_off):
             lineup[lineup.index(starter)] = sub
             made.append((starter, sub))
     # A swap made here must agree with Sleeper's official score once there is one.
@@ -196,6 +199,7 @@ def weeks_played(state, season, status):
 
 
 def load_season(season, state, players):
+    all_players = players   # "players" is reused below for a roster's player list
     league = load(RAW / season / "league.json")
     events = load(EVENTS / f"{season}.json") if (EVENTS / f"{season}.json").exists() else []
     nfl = trim_nfl(season, league["scoring_settings"], [e for e in events if e["type"] == "scoring_settings_change"])
@@ -229,7 +233,8 @@ def load_season(season, state, players):
             rescored = row.get("players_points") or {}
             points = {pid: as_played.get(pid, rescored.get(pid, 0.0)) for pid in set(players) | set(starters)}
             listed = starters
-            starters, swaps = fired_subs(starters, players, leg.get("subs"), as_played, points, official)
+            starters, swaps = fired_subs(starters, players, leg.get("subs"), as_played, points, official,
+                                         set(nfl["weeks"].get(str(week), {}).get("played", [])), {pid: (all_players.get(pid) or {}).get("nfl_team") for pid in leg.get("subs") or {}})
             pending = [(a, b) for a, b in swaps if a in listed]   # swaps Sleeper has not applied yet (week in progress)
             sides[(week, row["roster_id"])] = {
                 "players": players, "starters": starters, "subs": [{"out": a, "in": b} for a, b in swaps],
