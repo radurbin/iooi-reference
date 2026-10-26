@@ -118,7 +118,8 @@ page("Player", async (main) => {
     const raced = new Set(places.map((v) => v.split("-")[0]));
     const items = honors.filter((a) => a.season === r.season && (a.champTeam ? a.champTeam === r.team : r === main)).map((a) => short(a.what)).filter((x) => !raced.has(x)).concat(places);
     const key = (x) => order.indexOf(x.replace(/-\d+$/, ""));   // "MVP-4" sorts as MVP; "All-iooi 1st" keeps its hyphen
-    return items.sort((a, b) => key(a) - key(b)).join(", ");
+    // A race he won is in bold (MVP-1, ROY-1), as on Basketball Reference.
+    return items.sort((a, b) => key(a) - key(b)).flatMap((x, i) => [i ? ", " : "", /-1$/.test(x) ? h("b", {}, x) : x]);
   };
   const awardRows = honors.map((a) => {
     const rows = p.career.filter((r) => r.season === a.season && (!a.champTeam || r.team === a.champTeam));
