@@ -167,7 +167,8 @@ function statTable({ columns, rows, foot, rowClass, groupBy, sortable = true }) 
       },
     }, col.label));
   table.append(h("thead", {}, h("tr", {}, heads)), tbody);
-  if (foot) table.append(h("tfoot", {}, h("tr", {}, columns.map((c) => cell(c, foot)))));
+  // One footer row, or several.
+  if (foot) table.append(h("tfoot", {}, [foot].flat().map((row) => h("tr", {}, columns.map((c) => cell(c, row))))));
   draw(rows);
   return h("div", { class: "scroll" }, table);
 }

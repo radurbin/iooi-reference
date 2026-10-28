@@ -31,6 +31,36 @@ page("Anatomy of a Champion", async (main) => {
   const seeds = d.champions.map((c) => `${c.season} ${ordinal(c.seed)}`).join(", ");
   const mvps = d.champions.filter((c) => c.mvp_on_team).length;
   lines.push(h("li", {}, h("b", {}, "Seeds"), ` — ${seeds}. `, mvps ? `${mvps} of ${n} had the league MVP.` : "None had the league MVP."));
+  // This season's teams on every measure in the champions table, so far or projected to a full regular season, with the champions below.
+  const numbersBox = h("div");
+  const drawNumbers = (pace) => {
+    const pick = (x, m) => (pace && x?.pace != null ? x.pace : x?.value);
+    const shown = (x, m) => (x == null ? "" : pace && x.pace != null ? (m.format === "int" ? x.pace.toFixed(1) : show[m.format](x.pace)) : show[m.format](x.value));
+    const champRows = d.champions.map((c) => ({ champ: c, numbers: c.metrics }));
+    const avgRow = { avg: true, numbers: Object.fromEntries(d.metrics.map((m) => {
+      const vals = d.champions.map((c) => c.metrics[m.key]?.value).filter((v) => v != null);
+      return [m.key, vals.length ? { value: vals.reduce((a, b) => a + b, 0) / vals.length } : null];
+    })) };
+    numbersBox.replaceChildren(
+      h("p", {}, h("b", {}, "Show: "), [["So far", false], ["Full-season pace", true]].flatMap(([label, on], i) =>
+        [i ? " · " : "", on === pace ? h("b", {}, label) : h("a", { href: "#", onclick: (e) => { e.preventDefault(); drawNumbers(on); } }, label)])),
+      statTable({
+        rows: d.fits,
+        foot: [...champRows, avgRow],
+        columns: [
+          { label: "Team", value: (r) => r.team, render: (r) => (r.champ ? [`${r.champ.season} champion: `, tsLink(r.champ.season, r.champ.franchise, r.champ.team)] : r.avg ? "Champions' average" : tsLink(d.current, r.franchise, r.team)) },
+          ...d.metrics.map((m) => ({ label: m.short, title: `${m.label}: ${m.tip}${m.paced ? ". Projected to a full regular season under Full-season pace" : ""}`, num: true,
+            value: (r) => pick(r.numbers[m.key], m) ?? null,
+            render: (r) => {
+              const x = r.numbers[m.key];
+              if (!x) return r.champ || r.avg ? "" : "—";
+              const value = r.champ || r.avg ? (m.format === "int" && r.avg ? x.value.toFixed(1) : show[m.format](x.value)) : shown(x, m);
+              return x.rank ? [value, h("small", { class: "dim" }, ` ${ordinal(x.rank)}`)] : value;
+            } })),
+        ],
+      }),
+      h("p", { class: "note" }, `${pace ? `Counting measures (wins, points, PAA, trades and transactions) are projected from ${d.weeks_played} games to a full ${d.season_weeks}-week regular season; rates such as efficiency, shares, age and Elo are as they stand.` : `Through ${d.weeks_played} of ${d.season_weeks} regular-season games.`} The rank among this season's teams follows each value in small type; the champions' ranks are against their own seasons. All-iooi counts this season's players on the All-iooi teams as they stand today. Click a column to sort.`));
+  };
   main.append(
     h("h1", {}, "Dynasty iooi Anatomy of a Champion"),
     h("p", { class: "note" }, `What the ${n} Dynasty champions so far have in common. Each measure covers the regular season and is ranked against the other ${d.teams - 1} teams that year: 1st is the highest value.`),
@@ -56,7 +86,9 @@ page("Anatomy of a Champion", async (main) => {
         { label: "Threads", value: (r) => r.met.length, render: (r) => `${r.met.length} of ${d.threads.length}`, num: true, cls: "win", title: "How many of the champions' shared threads the team matches today" },
         { label: "Matched", render: (r) => r.met.map((k) => byKey[k].label).join(", ") },
       ],
-    }), h("p", { class: "note" }, `The season so far, measured on the same threads.`)) : null);
+    }), h("p", { class: "note" }, `The season so far, measured on the same threads.`)) : null,
+    d.fits.length ? section(`${d.current} Teams by the Numbers`, numbersBox) : null);
+  drawNumbers(false);
 });
 </script>
 </body>

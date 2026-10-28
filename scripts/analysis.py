@@ -91,6 +91,11 @@ def champions(starts, league, seasons, games, players, files, awards, elo):
         ("te", "TE PAA", "Points above average by the team's TEs", "signed", True),
         ("all_iooi", "All-iooi players", "Players on the All-iooi First or Second Team", "int", True),
     ]
+    # Short column labels, and the counting measures that a part season projects to a full one.
+    short = {"w": "W", "pf": "PF", "max_pf": "Max PF", "efficiency": "Eff", "pa": "PA", "luck": "Luck", "elo": "Elo", "trade_share": "Trade %",
+             "draft_share": "Draft %", "wire_share": "Wire %", "trades": "Trades", "transactions": "Txns", "age": "Age", "top3": "Top 3 %",
+             "qb": "QB PAA", "rb": "RB PAA", "wr": "WR PAA", "te": "TE PAA", "all_iooi": "All-iooi"}
+    paced = {"w", "pf", "max_pf", "pa", "luck", "trades", "transactions", "qb", "rb", "wr", "te"}
     by_season_starts = defaultdict(list)
     for row in starts:
         if row[1]["kind"] == "regular":
@@ -126,6 +131,7 @@ def champions(starts, league, seasons, games, players, files, awards, elo):
         return out
 
     rounded = lambda v, how: None if v is None else round(v, 4) if how == "pct" else round(v, 1) if how == "age" else r2(v) if how in ("pts", "signed") else v
+    complete_seasons = {season for season, s in seasons.items() if s["status"] == "complete"}
     champs, ranks_by_metric = [], defaultdict(list)
     for season, s in seasons.items():
         if s["status"] != "complete":
@@ -166,9 +172,18 @@ def champions(starts, league, seasons, games, players, files, awards, elo):
     # The season in progress, measured on the same threads.
     current = league["current_season"]
     fits = []
+    season_weeks = max((g["week"] for g in games if g["kind"] == "regular" and g["season"] in complete_seasons), default=14)
     if seasons[current]["status"] != "complete" and seasons[current]["games"]:
         values = season_values(current)
+        played = {r["franchise"]: r["w"] + r["l"] + r.get("t", 0) for r in seasons[current]["standings"]}
         for fid, v in values.items():
+            numbers = {}
+            for key, _label, _tip, how, higher in metrics:
+                if v[key] is None:
+                    continue
+                column = {f: x[key] for f, x in values.items() if x[key] is not None}
+                pace = v[key] * season_weeks / played[fid] if key in paced and played[fid] else None
+                numbers[key] = {"value": rounded(v[key], how), "rank": rank(column, fid, higher), **({"pace": round(pace, 1)} if pace is not None else {})}
             met = []
             for t in threads:
                 column = {f: x[t["metric"]] for f, x in values.items() if x[t["metric"]] is not None}
@@ -177,7 +192,8 @@ def champions(starts, league, seasons, games, players, files, awards, elo):
                 place = rank(column, fid, True)
                 if (t["side"] == "top" and place <= t["cut"]) or (t["side"] == "bottom" and place > teams - t["cut"]):
                     met.append(t["metric"])
-            fits.append({"franchise": fid, "team": v["team"], "seed": v["seed"], "w": v["w"], "met": met})
+            fits.append({"franchise": fid, "team": v["team"], "seed": v["seed"], "w": v["w"], "met": met, "numbers": numbers})
         fits.sort(key=lambda r: (-len(r["met"]), r["seed"]))
-    return {"metrics": [{"key": k, "label": l, "tip": t, "format": f} for k, l, t, f, _ in metrics], "champions": champs, "threads": threads,
-            "current": current, "fits": fits, "teams": teams}
+    return {"metrics": [{"key": k, "label": l, "short": short[k], "tip": t, "format": f, "paced": k in paced} for k, l, t, f, _ in metrics], "champions": champs,
+            "threads": threads, "current": current, "fits": fits, "teams": teams, "season_weeks": season_weeks,
+            "weeks_played": max(played.values()) if fits else 0}

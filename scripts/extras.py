@@ -748,7 +748,8 @@ def hof_monitor(players, files, ink, ink_leads, games):
         score, parts = monitor_parts(t["war"], t["gs"], ink_score.get(pid, 0), honors)
         rows.append({"player": pid, "name": f["name"], "pos": f["pos"], "score": score, **parts,
                      "gs": t["gs"], "pts": t["pts"], "career_war": t["war"], "honors": dict(honors), "seasons": len({a["season"] for a in f["log"] if a["started"]})})
-        # Week by week, from his first start.
+        # Week by week, from his first week on an iooi roster (bench weeks included).
+        first = min((a["season"], a["week"]) for a in f["log"])
         starts = defaultdict(list)
         for a in f["log"]:
             if a["started"]:
@@ -761,7 +762,7 @@ def hof_monitor(players, files, ink, ink_leads, games):
             if week == season_end[season] and season in complete:
                 settled.update(by_season.get(season, {}))
                 ink_so_far += sum(ink_points[c] for c in ink_leads.get(pid, {}).get(season, []))
-            if gs:   # career WAR is shown to the hundredth; rounding every week keeps a week without a start flat
+            if (season, week) >= first:   # career WAR is shown to the hundredth; rounding every week keeps a week without a start flat
                 series.append([season, week, monitor_parts(round(war, 2), gs, ink_so_far, settled)[0]])
         history[pid] = series
     rows.sort(key=lambda r: -r["score"])
@@ -897,6 +898,13 @@ def player_status(players, league):
     return out
 
 
+def best_games(players, logs, keep, n):
+    """The top n single games by a starter among the log entries kept."""
+    rows = ({"player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "pts": a["pts"], "game": a["game"], "season": a["season"], "week": a["week"],
+             "franchise": a["franchise"], "team": a["team"]} for pid, log in logs.items() for a in log if a["started"] and keep(a))
+    return sorted(rows, key=lambda r: (-r["pts"], r["season"], r["week"]))[:n]
+
+
 def manager_lists(manager, players, logs):
     """A manager's leaders and all-time team: starts made for a franchise while he held a stake in it."""
     held = lambda a: any(st["franchise"] == a["franchise"] and st["from"] <= a["date"] and (st["to"] is None or a["date"] < st["to"]) for st in manager["stints"])
@@ -916,8 +924,7 @@ def manager_lists(manager, players, logs):
         if choice:
             taken.add(choice["player"])
             team.append({"slot": slot, **choice})
-    best = sorted(({"player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "pts": a["pts"], "game": a["game"], "season": a["season"], "week": a["week"],
-                    "franchise": a["franchise"], "team": a["team"]} for pid, log in logs.items() for a in log if a["started"] and a["date"] and held(a)), key=lambda r: -r["pts"])[:10]
+    best = best_games(players, logs, lambda a: a["date"] and held(a), 25)
     return {"leaders": {"overall": rows[:25], "by_pos": {pos: [r for r in rows if r["pos"] == pos][:3] for pos in ("QB", "RB", "WR", "TE", "K", "DEF")}},
             "all_time_team": team, "best_games": best}
 
@@ -1216,7 +1223,7 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
             if e["started"] and (e["season"], e["week"]) < (season, week):
                 career_pts[pid] += e["pts"]
                 franchise_pts[e["franchise"]][pid] += e["pts"]
-    starting = {pid for row in rows for pid in row["starters"]}
+    starting = {pid: row["roster_id"] for row in rows for pid in row["starters"]}
 
     def list_note(pid, name, fid, team, reach):
         """Big climbs on a career points list in reach this week: into the league's top ten, onto its top 25 for the
@@ -1234,7 +1241,9 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                     continue
                 if need > reach:
                     continue
-                also = " (who also starts this week)" if other in starting else ""
+                # On a franchise's list, only a teammate starting for that franchise counts.
+                starts_too = other in starting and (scope == "league" or starting[other] == fid)
+                also = " (who also starts this week)" if starts_too else ""
                 goal = (f"{'the lead' if place == 1 else ordinal(place)} on the career points list" if scope == "league"
                         else f"the career points lead for [[f:{fid}|{team}]]")
                 found.append(f"[[p:{pid}|{name}]] needs {need:.2f} points to pass [[p:{other}|{players[other]['name']}]]{also} for {goal}.")
@@ -1595,7 +1604,8 @@ def main():
     waivers = load(SITE / "waivers.json")
     for f in league["franchises"]:
         path = SITE / "franchises" / f"{f['id']}.json"
-        dump(path, {**load(path), "moves": franchise_moves(f["id"], league, trades, waivers)})
+        dump(path, {**load(path), "moves": franchise_moves(f["id"], league, trades, waivers),
+                    "best_games": best_games(players, logs, lambda a, fid=f["id"]: a["franchise"] == fid, 25)})
     for m in league["managers"]:
         path = SITE / "managers" / f"{m['id']}.json"
         manager = load(path)
@@ -1619,6 +1629,7 @@ def main():
         for f in league["franchises"]:
             joined = [pid for pid, st in status.items() if st.get("franchise") == f["id"]] if season == league["current_season"] else ()
             t = team_season(season, s, f["id"], games, players, careers, draft, trades, similar, waiver_log, joined)
+            t["best_games"] = best_games(players, logs, lambda a, fid=f["id"]: a["franchise"] == fid and a["season"] == season, 10)
             dump(SITE / "teams" / f"{season}-{f['id']}.json", t)
             if s["status"] == "complete":
                 season_rows.append(season_record_row(t["row"], t["managers"]))

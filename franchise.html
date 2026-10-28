@@ -115,6 +115,17 @@ page("Franchise", async (main) => {
         { label: "WAR", render: (r) => fmt.pts(r.war), num: true },
       ],
     }), h("p", { class: "note" }, ["The best lineup from everyone who has started for this franchise, by starter points for it. See every franchise's on the ", h("a", { href: "alltime.html" }, "all-time teams page"), "."])),
+    f.best_games?.length ? section("Best Single Games", statTable({
+      rows: rank(f.best_games, (r) => r.pts),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: activeCls(players, [f.id]) },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Team", value: (r) => r.team, render: (r) => tsLink(r.season, r.franchise, r.team) },
+        { label: "Game", value: (r) => r.season * 100 + r.week, render: (r) => gLink(r.game, `${r.season} wk ${r.week}`) },
+      ],
+    }), h("p", { class: "note" }, "The most points by a starter in one game for this franchise, playoffs included.")) : null,
     section("Manager History", statTable({
       sortable: false, rows: f.ownership,
       columns: [

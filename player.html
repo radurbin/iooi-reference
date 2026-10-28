@@ -92,7 +92,15 @@ page("Player", async (main) => {
   const debut = starts[0];
   const last = p.log.at(-1);
   const nicks = [...new Set((p.nicknames ?? []).filter((n) => n.nickname).map((n) => n.nickname))];
-  const age = p.birth_date && Math.floor((Date.now() - new Date(p.birth_date)) / 31557600000);
+  // Age in whole years and days since the last birthday, by the calendar (as on Basketball Reference: 22-364d).
+  const age = p.birth_date && (() => {
+    const [by, bm, bd] = p.birth_date.split("-").map(Number);
+    const now = new Date(), today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    let years = now.getFullYear() - by;
+    if (Date.UTC(by + years, bm - 1, bd) > today) years -= 1;
+    const days = Math.round((today - Date.UTC(by + years, bm - 1, bd)) / 86400000);
+    return years > 0 ? `${years}-${days}d` : null;
+  })();
   const awards = p.honors.map((text) => {
     const [, year, what] = text.match(/^(\d{4}) (.*)$/) ?? [null, "", text];
     if (what.startsWith("All-iooi")) return ["All-iooi", year];

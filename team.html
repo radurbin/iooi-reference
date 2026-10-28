@@ -134,6 +134,16 @@ page("Team Season", async (main) => {
         { label: "WAR", value: (p) => p.war, render: (p) => fmt.pts(p.war), num: true },
       ],
     }), h("p", { class: "note" }, y === L.current_season ? "Everyone who has spent a game week on the roster this season, then anyone added since (by trade, claim or signing) who has not yet, shown with a G of 0. Click a column to sort." : "Everyone who spent a week on the roster. Click a column to sort.")),
+    t.best_games?.length ? section("Best Single Games", statTable({
+      rows: rank(t.best_games, (r) => r.pts),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Pts", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
+        { label: "Week", value: (r) => r.week, render: (r) => gLink(r.game, `wk ${r.week}`), num: true },
+      ],
+    }), h("p", { class: "note" }, "The most points by a starter in one game this season, playoffs included.")) : null,
     t.draft.length ? section(`${y} ${t.draft_kind === "startup" ? "Startup" : "Rookie"} Draft`, statTable({
       sortable: false, rows: t.draft,
       columns: [
