@@ -837,14 +837,16 @@ def draft_analysis(all_picks, on_roster, latest):
 
     by_round = {}
     for rnd in sorted({r["round"] for r in rookie}):
-        in_round = sorted((r for r in rookie if r["round"] == rnd), key=lambda r: -r["vs_avg"])
-        by_round[rnd] = {"best": in_round[:10], "worst": in_round[::-1][:10]}
-    ranked = sorted(startup, key=lambda r: -r["vs_avg"])
+        # Ties: among equal results an earlier pick is the bigger miss (3.01 above 3.11 on the worst list) and a later pick the better find.
+        in_round = [r for r in rookie if r["round"] == rnd]
+        by_round[rnd] = {"best": sorted(in_round, key=lambda r: (-r["vs_avg"], -r["overall"]))[:10],
+                         "worst": sorted(in_round, key=lambda r: (r["vs_avg"], r["overall"]))[:10]}
+    ranked = sorted(startup, key=lambda r: (-r["vs_avg"], -r["overall"]))
     return {
         "hit_starts": HIT_STARTS, "rookie_by_round": by_round,
         "rookie_top_points": sorted(rookie, key=lambda r: -r["pts_league"])[:25],
         "startup_steals": [r for r in ranked if r["round"] >= 6][:25], "startup_best": ranked[:25],
-        "startup_busts": sorted((r for r in startup if r["round"] <= 5), key=lambda r: r["vs_avg"])[:25],
+        "startup_busts": sorted((r for r in startup if r["round"] <= 5), key=lambda r: (r["vs_avg"], r["overall"]))[:25],
         "rounds": sorted(summary(judged, lambda r: [r["round"]]), key=lambda t: t["key"]),
         "managers": sorted(summary(judged, lambda r: r["managers"]), key=lambda t: -t["vs_avg"]),
         "franchises": sorted(summary(judged, lambda r: [r["franchise"]]), key=lambda t: -t["vs_avg"]),
@@ -1116,7 +1118,7 @@ def franchise_leaders(fid, appearances, players):
             rows.append({"player": pid, "pos": players[pid]["pos"], "years": year_span(mine), "g": len(mine), "gs": len(starts),
                          "pts": r2(sum(a["pts"] for a in starts)), "best": max(a["pts"] for a in starts), "wins": sum(1 for a in starts if a["won"]), **value_sum(starts)})
     rows.sort(key=lambda r: -r["pts"])
-    return {"overall": rows[:20], "by_pos": {pos: [r for r in rows if r["pos"] == pos][:3] for pos in REPLACEMENT_RANK}}
+    return {"overall": rows[:25], "by_pos": {pos: [r for r in rows if r["pos"] == pos][:3] for pos in REPLACEMENT_RANK}}
 
 
 REVIEW_DAYS = 2   # a trade is open to a league vote for two days before it is processed

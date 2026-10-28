@@ -95,6 +95,19 @@ page("Team Season", async (main) => {
         { label: "Stage", render: (g) => (g.kind === "regular" ? "" : g.label) },
       ],
     })),
+    t.upcoming?.length ? section("Remaining Schedule", statTable({
+      sortable: false, rows: t.upcoming,
+      columns: [
+        { label: "Week", value: (g) => g.week, num: true },
+        { label: "Opp", render: (g) => tsLink(y, g.opp, g.opp_team) },
+        { label: "Opp Rec", render: (g) => g.opp_record, cls: "c", title: "The opponent's record today" },
+        { label: "Opp Seed", render: (g) => g.opp_seed, num: true, title: "The opponent's place in the standings today" },
+        { label: "Proj", render: (g) => (g.proj == null ? "" : fmt.pts(g.proj)), num: true, title: "Sleeper's projection for the current lineup, this week only" },
+        { label: "Opp Proj", render: (g) => (g.opp_proj == null ? "" : fmt.pts(g.opp_proj)), num: true },
+        { label: "Win %", render: (g) => `${Math.round(g.chance * 100)}%`, num: true, title: "Chance of winning from the two teams' Elo ratings today" },
+      ],
+    }), h("p", { class: "note" }, ["Regular-season weeks still to play, from the Sleeper schedule. Win chances come from today's ",
+      h("a", { href: "ratings.html" }, "Elo ratings"), "; projections are shown for the current week only."])) : null,
     section("Depth Chart", statTable({
       sortable: false, rows: t.depth,
       columns: [

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Team Construction | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://dynastyiooi.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Team Construction", async (main) => {
+  const c = await load("construction");
+  const keys = ["startup", "rookie", "split", "trade", "waivers", "fa"];
+  const share = (r, k) => r.sources[k]?.share ?? 0;
+  const mixCols = (first) => [
+    ...first,
+    { label: "Pts", value: (r) => r.total, render: (r) => fmt.pts(r.total), num: true, title: "Points as a starter" },
+    ...keys.map((k) => ({ label: c.labels[k], value: (r) => share(r, k), num: true, title: `Share of points from players got in the ${c.labels[k].toLowerCase()}, with the points in small type`,
+      render: (r) => (r.sources[k] ? [`${(share(r, k) * 100).toFixed(1)}%`, h("small", { class: "dim" }, ` ${fmt.pts1(r.sources[k].pts)}`)] : "") })),
+  ];
+  const seasons = c.league.map((r) => r.season);
+  const seasonBox = h("div");
+  const drawSeason = (y) => seasonBox.replaceChildren(
+    h("p", {}, h("b", {}, "Season: "), seasons.flatMap((s, i) => [i ? " · " : "", s === y ? h("b", {}, s) : h("a", { href: "#", onclick: (e) => { e.preventDefault(); drawSeason(s); } }, s)])),
+    statTable({ rows: c.by_season[y].filter((r) => r.total), columns: mixCols([{ label: "Team", value: (r) => r.team, render: (r) => (r.franchise ? tsLink(y, r.franchise, r.team) : "League") }]),
+      foot: { ...c.league.find((r) => r.season === y), team: "League", franchise: null, total: c.league.find((r) => r.season === y).total } }));
+  drawSeason(seasons.at(-1));
+  main.append(
+    h("h1", {}, "Dynasty iooi Team Construction"),
+    h("p", { class: "note" }, "Where each franchise's points came from: every start is credited to the way the franchise got that player for that stay. A player taken with a traded pick counts as a draft pick; a player got in a trade, released and claimed again counts as a waiver pickup. Starts in every game count, playoffs and Toilet Bowl included."),
+    section("All-Time", statTable({ rows: c.all_time, columns: mixCols([{ label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise) }]) })),
+    section("By Season", seasonBox),
+    section("League Mix by Season", statTable({ sortable: false, rows: c.league, columns: mixCols([{ label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) }]) }),
+      h("p", { class: "note" }, "The whole league's points by source each season, as the startup rosters give way to trades, rookie drafts and the waiver wire.")),
+    section("Top Players by Source", statTable({
+      rows: c.all_time,
+      columns: [{ label: "Franchise", value: (r) => franchiseName(r.franchise), render: (r) => fLink(r.franchise) },
+        ...keys.filter((k) => k !== "split").map((k) => ({ label: c.labels[k], title: `The franchise's top scorer among players got in the ${c.labels[k].toLowerCase()}`,
+          render: (r) => { const t = c.top[r.franchise]?.[k]?.[0]; return t ? [pLink(t.player, t.name), h("small", { class: "dim" }, ` ${fmt.pts1(t.pts)}`)] : ""; } }))],
+    }), h("p", { class: "note" }, "Points as a starter for the franchise, in small type.")));
+});
+</script>
+</body>
+</html>

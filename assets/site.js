@@ -358,7 +358,8 @@ function siteMenus() {
   return [
     ["League", [link("index.html", "League Index"), link("history.html", "History & Timeline"), link("constitution.html", "Constitution"), link("awards.html", "Awards & Honors"), link("alltime.html", "All-Time Teams"),
       link("hof.html", "Hall of Fame"),
-      link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("h2h.html", "Head-to-Head & Rivalries"), link("ratings.html", "Elo Ratings"), link("glossary.html", "Glossary")]],
+      link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("h2h.html", "Head-to-Head & Rivalries"), link("ratings.html", "Elo Ratings"),
+      link("champions.html", "Anatomy of a Champion"), link("construction.html", "Team Construction"), link("glossary.html", "Glossary")]],
     ["Seasons", [link("week.html", "This Week"), ...years.map((s) => link(`season.html?y=${s.season}`, `${s.season} Season`))]],
     ["Franchises", L.franchises.map((f) => link(`franchise.html?id=${f.id}`, f.name))],
     ["Managers", L.managers.map((m) => link(`manager.html?id=${m.id}`, m.name))],

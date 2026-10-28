@@ -107,6 +107,8 @@ page("Player", async (main) => {
     : what.endsWith("Second Team") ? "All-iooi 2nd" : what === "Rookie of the Year" ? "ROY" : what.startsWith("Young Sexy") ? "YS" : what);
   const full = (what) => (what.startsWith("champion") ? "iooi Champion" : what.startsWith("Young Sexy") ? `Young Sexy Award (${what.split(" ").at(-1)})` : what);
   const honors = p.honors.map((text) => { const [, season, what] = text.match(/^(\d{4}) (.*)$/) ?? [null, "", text]; return { season, what, champTeam: what.match(/^champion \((.*)\)$/)?.[1] }; });
+  // A Championship MVP belongs to the title team too, which can differ from his main team that season (Achane in 2023).
+  for (const a of honors) if (a.what === "Championship MVP") a.champTeam = honors.find((b) => b.season === a.season && b.champTeam && b.what.startsWith("champion"))?.champTeam;
   const order = ["MVP", "CMVP", "All-iooi 1st", "All-iooi 2nd", "ROY", "YS", "Champ"];
   honors.sort((a, b) => (a.season < b.season ? -1 : a.season > b.season ? 1 : order.indexOf(short(a.what)) - order.indexOf(short(b.what))));
   const rowHonors = (r) => {

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anatomy of a Champion | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://dynastyiooi.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Anatomy of a Champion", async (main) => {
+  const d = await load("champions");
+  const show = { int: (v) => String(v), pts: fmt.pts, pct: (v) => `${(v * 100).toFixed(1)}%`, signed: fmt.signed, age: (v) => v.toFixed(1) };
+  const byKey = Object.fromEntries(d.metrics.map((m) => [m.key, m]));
+  const n = d.champions.length;
+  const lines = d.threads.map((t) => {
+    const where = t.cut === 1 ? (t.side === "top" ? "first" : "last") : `the ${t.side} ${t.cut}`;
+    const ranks = d.champions.map((c, i) => `${c.season}: ${ordinal(t.ranks[i])}`).join(", ");
+    return h("li", {}, h("b", {}, byKey[t.metric].label), ` — every champion ranked ${where} of ${d.teams} (${ranks}). `, h("span", { class: "dim" }, byKey[t.metric].tip + "."));
+  });
+  const seeds = d.champions.map((c) => `${c.season} ${ordinal(c.seed)}`).join(", ");
+  const mvps = d.champions.filter((c) => c.mvp_on_team).length;
+  lines.push(h("li", {}, h("b", {}, "Seeds"), ` — ${seeds}. `, mvps ? `${mvps} of ${n} had the league MVP.` : "None had the league MVP."));
+  main.append(
+    h("h1", {}, "Dynasty iooi Anatomy of a Champion"),
+    h("p", { class: "note" }, `What the ${n} Dynasty champions so far have in common. Each measure covers the regular season and is ranked against the other ${d.teams - 1} teams that year: 1st is the highest value.`),
+    section("What They Have in Common", h("ul", {}, lines),
+      h("p", { class: "note" }, `A thread is a measure on which every champion ranked in the top or bottom third of the league. With ${n} champions these are patterns, not rules.`)),
+    section("The Champions", statTable({
+      sortable: false, rows: d.metrics,
+      columns: [
+        { label: "Measure", render: (m) => h("span", { "data-tip": m.tip }, m.label) },
+        ...d.champions.map((c) => ({ label: c.season, title: c.team, num: true, render: (m) => {
+          const x = c.metrics[m.key];
+          return x ? [show[m.format](x.value), h("small", { class: d.threads.some((t) => t.metric === m.key) ? "win" : "dim" }, ` ${ordinal(x.rank)}`)] : "";
+        } })),
+      ],
+    }), h("p", { class: "note" }, ["Champions: ", d.champions.flatMap((c, i) => [i ? "; " : "", `${c.season} `, tsLink(c.season, c.franchise, c.team), ` (${ordinal(c.seed)} seed, `, gLink(c.title_game, "title game"),
+      `, ${fmt.pts(c.playoff_ppg)} points per playoff game)`]), ". The rank follows each value in small type; ranks on a shared thread are bold."])),
+    d.fits.length ? section(`${d.current} Teams on the Profile`, statTable({
+      rows: d.fits,
+      columns: [
+        { label: "Team", value: (r) => r.team, render: (r) => tsLink(d.current, r.franchise, r.team) },
+        { label: "W", value: (r) => r.w, num: true },
+        { label: "Seed", value: (r) => r.seed, num: true },
+        { label: "Threads", value: (r) => r.met.length, render: (r) => `${r.met.length} of ${d.threads.length}`, num: true, cls: "win", title: "How many of the champions' shared threads the team matches today" },
+        { label: "Matched", render: (r) => r.met.map((k) => byKey[k].label).join(", ") },
+      ],
+    }), h("p", { class: "note" }, `The season so far, measured on the same threads.`)) : null);
+});
+</script>
+</body>
+</html>
