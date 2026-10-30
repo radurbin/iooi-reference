@@ -53,7 +53,7 @@ page("Draft Analysis", async (main) => {
     meta([["Drafts", L.drafts.flatMap((x, i) => [i ? ", " : "", h("a", { href: `draft.html?y=${x.season}` }, `${x.season} ${x.kind}`)]).concat([", ", h("a", { href: "split_draft.html" }, "2024 split draft")])]]),
     h("p", { class: "note" }, `Picks are judged on points as a starter for any iooi franchise, against the average pick in the same round of the same draft. A hit is a pick with at least ${d.hit_starts} starts. Hit rates leave out the ${L.current_season} class, which has barely played.`),
     section("Rookie Drafts by Round", statTable({ sortable: false, rows: d.rounds, columns: summaryCols({ label: "Round", value: (r) => r.key, num: true }).filter((c) => c.label !== "+/-") })),
-    section("Rookie Drafting by Manager", statTable({ rows: d.managers, columns: summaryCols({ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }) }),
+    section("Rookie Drafting by Manager", statTable({ rows: mergeManagers(d.managers), columns: summaryCols(mgrCol()) }),
       h("p", { class: "note" }, "Picks made while the manager held a stake in the franchise. Co-managers share the same picks.")),
     section("Rookie Drafting by Franchise", statTable({ rows: d.franchises, columns: summaryCols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
     section("Rookie Classes", statTable({ sortable: false, rows: d.classes, columns: summaryCols({ label: "Class", value: (r) => r.key, render: (r) => h("a", { href: `draft.html?y=${r.key}` }, r.key) }).filter((c) => c.label !== "+/-") })),

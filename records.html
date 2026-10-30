@@ -94,7 +94,7 @@ page("Record Book", async (main) => {
     h("p", { class: "note" }, "All games since 2023, playoffs and Toilet Bowl included. Scoring rules have changed by amendment, so totals from different seasons are not strictly comparable."),
     section("Highest Team Scores", statTable({ rows: rank(rec.team_high, (r) => r.points), columns: teamCols(rk) })),
     section("Best Game by Franchise", statTable({ rows: rec.franchise_best, columns: teamCols({ label: "Franchise", render: (r) => fLink(r.key) }).filter((c) => c !== team) })),
-    section("Best Game by Manager", statTable({ rows: rec.manager_best, columns: teamCols({ label: "Manager", render: (r) => mLink(r.key) }).filter((c) => c !== mgr) })),
+    section("Best Game by Manager", statTable({ rows: mergeManagers(rec.manager_best), columns: teamCols(mgrCol()).filter((c) => c !== mgr) })),
     section("Lowest Team Scores", statTable({ rows: rank(rec.team_low, (r) => r.points), columns: teamCols(rk) })),
     section("Closest Games", statTable({ rows: rank(rec.closest, (r) => r.margin), columns: marginCols })),
     section("Biggest Blowouts", statTable({ rows: rank(rec.blowouts, (r) => r.margin), columns: marginCols })),
@@ -102,7 +102,7 @@ page("Record Book", async (main) => {
     section("Highest Player Scores", h("p", { class: "note" }, "Starters only."), statTable({ rows: rank(rec.player_high, (r) => r.points), columns: playerCols(rk) })),
     section("Highest Player Scores by Position", Object.entries(rec.player_high_by_pos).map(([pos, rows]) => [h("h3", {}, pos), statTable({ rows: rank(rows, (r) => r.points), columns: playerCols(rk).filter((c) => c.label !== "Pos") })])),
     section("Best Player Game by Franchise", statTable({ rows: rec.franchise_player_best, columns: playerCols({ label: "Franchise", render: (r) => fLink(r.key) }).filter((c) => c !== team) })),
-    section("Best Player Game by Manager", statTable({ rows: rec.manager_player_best, columns: playerCols({ label: "Manager", render: (r) => mLink(r.key) }).filter((c) => c !== mgr) })),
+    section("Best Player Game by Manager", statTable({ rows: mergeManagers(rec.manager_player_best), columns: playerCols(mgrCol()).filter((c) => c !== mgr) })),
     section("Highest Scores Left on the Bench", h("p", { class: "note" }, "Bench includes taxi squad and injured reserve players."), statTable({ rows: rank(rec.player_high_bench, (r) => r.points), columns: playerCols(rk) })));
   return "Record Book";
 });

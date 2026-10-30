@@ -152,10 +152,10 @@ page("Dynasty iooi History", async (main) => {
       ],
     }), h("p", { class: "note" }, "Records are regular season only. A franchise keeps its history when it changes hands.")),
     section("Managers", statTable({
-      rows: rank([...all.managers].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0) || b.w - a.w), (m) => m.pct ?? 0),
+      rows: rank(mergeManagers(all.managers, "id", { ignore: ["name"] }).sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0) || b.w - a.w), (m) => m.pct ?? 0),
       columns: [
         { label: "Rk", value: (m) => m.rk, num: true },
-        { label: "Manager", value: (m) => m.name, render: (m) => mLink(m.id) },
+        mgrCol("id"),
         { label: "Franchise(s)", render: (m) => m.franchises.flatMap((id, i) => [i ? ", " : "", fLink(id)]) },
         { label: "Active", value: (m) => (m.active ? "Yes" : "No"), cls: "c" },
         { label: "W", value: (m) => m.w, num: true },
@@ -168,7 +168,7 @@ page("Dynasty iooi History", async (main) => {
         { label: "Plyf W-L", value: (m) => m.playoff_w - m.playoff_l, render: (m) => `${m.playoff_w}-${m.playoff_l}`, num: true },
         { label: "Titles", value: (m) => m.championships.length, render: (m) => m.championships.join(", "), num: true },
       ],
-    }), h("p", { class: "note" }, "A manager is credited with every game played while holding a stake in the franchise. Co-managers share the same games.")));
+    }), h("p", { class: "note" }, "A manager is credited with every game played while holding a stake in the franchise. Co-managers who shared a team throughout share a row.")));
 });
 </script>
 </body>

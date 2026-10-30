@@ -1306,7 +1306,8 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                     notes.append(f"[[p:{pid}|{line['name']}]] makes {his} first iooi start.")
                 elif line["pos"] not in ("K", "DEF") and not any(e["franchise"] == x["franchise"] for e in before):
                     notes.append(f"[[p:{pid}|{line['name']}]] makes {his} first start for [[f:{x['franchise']}|{x['team']}]] ({ordinal(len(before) + 1)} in iooi).")
-                if line["proj"] and not line["done"]:
+                # Kept all week: the lists are as they stood before the week, so the note holds after his game too.
+                if line["proj"]:
                     notes.extend(list_note(pid, line["name"], x["franchise"], x["team"], line["proj"] * REACH))
                 for m in upcoming[("player", pid)]:
                     if m["unit"] == "points" and line["proj"] and m["need"] <= line["proj"] * REACH:

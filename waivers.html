@@ -69,7 +69,7 @@ page("Waiver Wire", async (main) => {
         { label: "Pts since", value: (r) => r.pts, render: (r) => fmt.pts(r.pts), num: true },
       ],
     })),
-    section("Waiver Activity by Manager", statTable({ rows: w.managers, columns: activityCols({ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }) })),
+    section("Waiver Activity by Manager", statTable({ rows: mergeManagers(w.managers), columns: activityCols(mgrCol()) })),
     section("Waiver Activity by Franchise", statTable({ rows: w.franchises, columns: activityCols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
     section("Most Added Players", statTable({
       rows: rank(w.most_added, (r) => r.added),

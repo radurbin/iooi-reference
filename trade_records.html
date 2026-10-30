@@ -53,7 +53,7 @@ page("Trade Records", async (main) => {
   main.append(
     h("h1", {}, "Dynasty iooi Trade Records"),
     h("p", { class: "note" }, ["A trade is judged by the value each side received: the NFL wins above replacement (WAR) of every player it got, in every game from the trade on, whoever rostered him, and for a pick, the WAR of the player it became from that draft on. A player below replacement counts as nothing rather than as a loss. What either team did afterwards, such as trading the player on, does not enter into it. A side is ahead once it leads by 0.25 WAR (about 21 points); until then the trade is even. Players still in the league and unused picks can change the result, so it is a verdict so far. Points in and out are the starter points each side got from what it received, for context. See the ", h("a", { href: "glossary.html#trade-result" }, "glossary"), "."]),
-    section("Trade Record by Manager", statTable({ rows: t.managers, columns: cols({ label: "Manager", value: (r) => managerName(r.key), render: (r) => mLink(r.key) }) })),
+    section("Trade Record by Manager", statTable({ rows: mergeManagers(t.managers), columns: cols(mgrCol()) })),
     section("Trade Record by Franchise", statTable({ rows: t.franchises, columns: cols({ label: "Franchise", value: (r) => franchiseName(r.key), render: (r) => fLink(r.key) }) })),
     section("Trade Partners", h("div", { class: "scroll" }, grid), h("p", { class: "note" }, "Completed trades between each pair of franchises. Column numbers match the row numbers.")),
     section("Most Lopsided Trades", statTable({

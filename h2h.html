@@ -53,11 +53,20 @@ page("Head-to-Head", async (main) => {
       })];
   };
   const managers = L.managers.map((m) => m.id).filter((id) => data.managers.some((c) => c.a === id));
+  // Co-managers with the same record against everyone (they shared one team throughout) get one row and one column.
+  const against = (a, skip) => JSON.stringify(data.managers.filter((c) => c.a === a && c.b !== skip).map(({ a: _, ...c }) => c).sort((x, y) => x.b.localeCompare(y.b)));
+  const group = {};   // manager -> the first of his group
+  for (const a of managers) group[a] = managers.find((b) => group[b] === b && (b === a || (!data.managers.some((c) => c.a === a && c.b === b) && against(a, b) === against(b, a)))) ?? a;
+  const members = (lead) => managers.filter((m) => group[m] === lead);
+  const leads = managers.filter((m) => group[m] === m);
+  const mCells = data.managers.filter((c) => group[c.a] === c.a && group[c.b] === c.b);
+  const mLabel = (lead) => members(lead).map(managerName).join(" & ");
+  const mLinksOf = (lead) => members(lead).flatMap((m, i) => (i ? [" & ", mLink(m)] : [mLink(m)]));
   main.append(
     h("h1", {}, "Dynasty iooi Head-to-Head Records"),
     h("p", { class: "note" }, "Every game since 2023, playoffs and Toilet Bowl included. Click any record for the full rivalry page."),
     section("Franchise vs Franchise", build("f", data.franchises, L.franchises.map((f) => f.id), franchiseName, (id) => fLink(id))),
-    section("Manager vs Manager", h("p", { class: "note" }, "A manager is credited with games played while holding a stake. Co-managers of the same team never face each other."), build("m", data.managers, managers, managerName, (id) => mLink(id))));
+    section("Manager vs Manager", h("p", { class: "note" }, "A manager is credited with games played while holding a stake. Co-managers of the same team never face each other; those who shared a team throughout, with the same record against everyone, share one row."), build("m", mCells, leads, mLabel, mLinksOf)));
 });
 </script>
 </body>

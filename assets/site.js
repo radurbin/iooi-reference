@@ -46,6 +46,23 @@ const seasonTeam = (season, id) => L.seasons.find((s) => s.season === String(sea
 const fLink = (id, text) => h("a", { href: `franchise.html?id=${id}` }, text ?? franchiseName(id));
 const mLink = (slug) => h("a", { href: `manager.html?id=${slug}` }, managerName(slug));
 const mLinks = (slugs) => (slugs || []).flatMap((s, i) => (i ? [", ", mLink(s)] : [mLink(s)]));
+// Co-managers of one team over the same games have identical rows; show such rows once, naming every manager.
+// Rows that differ in anything besides the manager stay apart. field is the row's manager slug; ignore lists other
+// fields that name the manager; only rows passing `when` are merged.
+const mergeManagers = (rows, field = "key", { ignore = [], when = () => true } = {}) => {
+  const seen = new Map(), out = [];
+  for (const r of rows ?? []) {
+    if (!when(r)) { out.push(r); continue; }
+    const { [field]: who, rk, ...rest } = r;
+    for (const k of ignore) delete rest[k];
+    const sig = JSON.stringify(rest);
+    if (seen.has(sig)) seen.get(sig).mgrs.push(who);
+    else { const row = { ...r, mgrs: [who] }; seen.set(sig, row); out.push(row); }
+  }
+  return out;
+};
+// The Manager column for a table of such rows.
+const mgrCol = (field = "key", label = "Manager") => ({ label, value: (r) => (r.mgrs ?? [r[field]]).map(managerName).join(", "), render: (r) => mLinks(r.mgrs ?? [r[field]]) });
 const sLink = (season, text) => h("a", { href: `season.html?y=${season}` }, text ?? season);
 const pLink = (id, name) => h("a", { href: `player.html?id=${id}` }, name ?? id);
 const tLink = (id, text) => h("a", { href: `trade.html?id=${id}` }, text ?? "trade");
