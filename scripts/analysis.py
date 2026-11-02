@@ -122,7 +122,12 @@ def champions(starts, league, seasons, games, players, files, awards, elo):
                     ages += (date.fromisoformat(a["date"]) - date.fromisoformat(born)).days / 365.25
                     n += 1
             history = [h for h in elo["history"][str(fid)] if h["season"] == season and h["week"] <= max(weeks or [0])]
-            all_iooi = sum(1 for squad in award_of.get(season, {}).get("all_iooi", []) for p in squad["picks"] if any(t["franchise"] == fid for t in p["teams"]))
+            # A season in progress credits each All-iooi player once, to the team that has him now; a finished one, to every team he played for.
+            if s["status"] == "complete":
+                on_team = lambda p: any(t["franchise"] == fid for t in p["teams"])
+            else:
+                on_team = lambda p: (files.get(p["player"], {}).get("status") or {}).get("franchise") == fid
+            all_iooi = sum(1 for squad in award_of.get(season, {}).get("all_iooi", []) for p in squad["picks"] if on_team(p))
             out[fid] = {"team": r["team"], "w": r["w"], "pf": r["pf"], "max_pf": r["max_pf"], "efficiency": r["efficiency"], "pa": r["pa"], "luck": r["luck"],
                         "elo": history[-1]["elo"] if history else None, "trade_share": share({"trade"}), "draft_share": share({"startup", "rookie", "split"}),
                         "wire_share": share({"waivers", "fa"}), "trades": r["trades"], "transactions": r["transactions"], "age": ages / n if n else None,

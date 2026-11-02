@@ -59,7 +59,7 @@ page("Anatomy of a Champion", async (main) => {
             } })),
         ],
       }),
-      h("p", { class: "note" }, `${pace ? `Counting measures (wins, points, PAA, trades and transactions) are projected from ${d.weeks_played} games to a full ${d.season_weeks}-week regular season; rates such as efficiency, shares, age and Elo are as they stand.` : `Through ${d.weeks_played} of ${d.season_weeks} regular-season games.`} The rank among this season's teams follows each value in small type; the champions' ranks are against their own seasons. All-iooi counts this season's players on the All-iooi teams as they stand today. Click a column to sort.`));
+      h("p", { class: "note" }, `${pace ? `Counting measures (wins, points, PAA, trades and transactions) are projected from ${d.weeks_played} games to a full ${d.season_weeks}-week regular season; rates such as efficiency, shares, age and Elo are as they stand.` : `Through ${d.weeks_played} of ${d.season_weeks} regular-season games.`} The rank among this season's teams follows each value in small type; the champions' ranks are against their own seasons. All-iooi counts the players on this season's All-iooi teams as they stand today, each credited only to the team that has him now. Click a column to sort.`));
   };
   main.append(
     h("h1", {}, "Dynasty iooi Anatomy of a Champion"),
