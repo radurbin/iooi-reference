@@ -21,18 +21,27 @@
 // The trades that moved a pick: who held it in turn, then each trade in full.
 function pickPath(season, p, trades, players) {
   const deal = (m) => trades.find((t) => t.id === m.trade);
-  // Every franchise to hold the pick, in order: the original owner, then each team that traded for it.
-  const holders = [p.original, ...p.moves.map((m) => m.to)];
+  // The 2024 split draft is a step on the path too, though not a trade.
+  const steps = [...p.moves];
+  if (p.split) {
+    const at = steps.findIndex((m) => m.date > p.split.date);
+    steps.splice(at < 0 ? steps.length : at, 0, { ...p.split, split: true });
+  }
+  // Every franchise to hold the pick, in order: the original owner, then each team it went to (a pick the split draft left in place is listed once).
+  const holders = [{ fid: p.original, team: steps[0]?.from === p.original ? steps[0].from_team : seasonTeam(Math.min(season, L.current_season), p.original) }, ...steps.map((m) => ({ fid: m.to, team: m.to_team }))]
+    .filter((x, i, all) => !i || x.fid !== all[i - 1].fid);
+  const splitLink = (text) => h("a", { href: "split_draft.html" }, text);
   return [
-    h("p", {}, holders.flatMap((fid, i) => [i ? " → " : "", fLink(fid, i ? p.moves[i - 1].to_team : seasonTeam(Math.min(season, L.current_season), fid))])),
+    h("p", {}, holders.flatMap((x, i) => [i ? " → " : "", fLink(x.fid, x.team)])),
     statTable({
-      sortable: false, rows: p.moves,
+      sortable: false, rows: steps,
       columns: [
         { label: "Date", value: (m) => m.date },
         { label: "From", render: (m) => fLink(m.from, m.from_team) },
         { label: "To", render: (m) => fLink(m.to, m.to_team), cls: "win" },
-        { label: "Full terms of the trade", render: (m) => (deal(m) ? tradeTerms(deal(m), players) : "") },
-        { label: "", render: (m) => tLink(m.trade, "details") },
+        { label: "Full terms of the trade", render: (m) => (m.split ? ["Taken by ", mLink(m.manager), " in the ", splitLink("2024 split draft"), `, round ${m.round}, pick ${m.pick} (${ordinal(m.overall)} overall)`,
+          m.from === m.to ? "; it stayed with the team" : ""] : deal(m) ? tradeTerms(deal(m), players) : "") },
+        { label: "", render: (m) => (m.split ? splitLink("details") : tLink(m.trade, "details")) },
       ],
     })];
 }
@@ -109,7 +118,7 @@ page("Draft Pick", async (main) => {
         ["Draft date", draft.date],
       ],
     }),
-    section("Path of the Pick", p.moves.length ? pickPath(y, p, trades, players) : h("p", { class: "note" }, own ? "This pick was never traded: the franchise that owned it made the selection." : "No trade of this pick is on record.")),
+    section("Path of the Pick", p.moves.length || p.split ? pickPath(y, p, trades, players) : h("p", { class: "note" }, own ? "This pick was never traded: the franchise that owned it made the selection." : "No trade of this pick is on record.")),
     section("What It Became", statTable({
       sortable: false,
       rows: [

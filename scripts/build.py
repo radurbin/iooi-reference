@@ -29,6 +29,10 @@ TOILET_LABEL = {(1, None): "Toilet Bowl First Round", (2, None): "Toilet Bowl Se
 FINISH_LABEL = {1: "Champion", 2: "Runner-up", 12: "Ultimate Loser"}
 
 
+
+def ordinal(n):
+    return f"{n}{'th' if 10 < n % 100 < 14 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
 def load(path):
     return json.loads(Path(path).read_text())
 
@@ -650,7 +654,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
     trade_ids = {t["id"] for t in trades}
     history = defaultdict(list)
     for pid, pick in drafted.items():
-        history[pid].append({"date": pick["date"], "type": "draft", "to": pick["franchise"], "to_team": name_on(pick["season"], pick["franchise"], pick["date"]), "detail": f"{pick['season']} {pick['kind']} draft, pick {pick['label']} ({pick['overall']} overall)"})
+        history[pid].append({"date": pick["date"], "type": "draft", "to": pick["franchise"], "to_team": name_on(pick["season"], pick["franchise"], pick["date"]), "detail": f"{pick['season']} {pick['kind']} draft, pick {pick['label']} ({ordinal(pick['overall'])} overall)"})
     for move in all_moves:
         if move["status"] != "complete":
             continue

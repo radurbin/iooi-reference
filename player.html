@@ -86,6 +86,22 @@ page("Player", async (main) => {
     vetoed: (e) => h("span", { class: "dim" }, "Trade ", e.from ? ["from ", fLink(e.from, e.from_team), " "] : "", "to ", fLink(e.to, e.to_team), " vetoed by league vote (", tLink(e.trade, "trade details"), ")"),
     withdrawn: (e) => h("span", { class: "dim" }, "Trade ", e.from ? ["from ", fLink(e.from, e.from_team), " "] : "", "to ", fLink(e.to, e.to_team), " withdrawn during the league review (", tLink(e.trade, "trade details"), ")"),
   };
+  // The 2024 split draft: the commissioner's move that carried it out (for a player who changed teams) shows the pick,
+  // and a player his own team kept gets a line of his own.
+  const sd = p.split_draft;
+  const splitPick = sd && ["Selected by ", mLink(sd.manager), " for ", fLink(sd.to, sd.to_team), " in the ", h("a", { href: "split_draft.html" }, "2024 split draft"),
+    `, round ${sd.round}, pick ${sd.pick} (${ordinal(sd.overall)} overall)`];
+  moves.split_moved = (e) => [...splitPick, ", moving from ", fLink(e.from, e.from_team)];
+  moves.split_kept = () => [...splitPick, ", staying with the team"];
+  const history = [...p.history];
+  if (sd) {
+    const at = history.findIndex((e) => e.type === "reassigned" && e.date === sd.date);
+    if (at >= 0) history[at] = { ...history[at], type: "split_moved" };
+    else {
+      const next = history.findIndex((e) => e.date > sd.date);
+      history.splice(next < 0 ? history.length : next, 0, { date: sd.date, type: "split_kept" });
+    }
+  }
   const starts = p.log.filter((r) => r.started);
   // Bold marks a season in which he led the league in the stat (black ink).
   const ink = (r, cat) => !r.total && p.career.filter((c) => c.season === r.season).length === 1 && p.black_ink?.leads[r.season]?.includes(cat);
@@ -284,7 +300,7 @@ page("Player", async (main) => {
         { label: "Pos Rk", value: (r) => r.rank, render: (r) => `${p.pos}${r.rank}`, num: true, title: "Rank at his position in total points" },
       ],
     }), h("p", { class: "note" }, "Every NFL game in weeks 1-17, scored under the iooi scoring rules of that week, whether or not he was on a roster or in a lineup.")),
-    section("Transactions", p.history.length ? h("ul", { class: "meta" }, p.history.map((e) => h("li", {}, h("b", {}, `${e.date}: `), moves[e.type](e)))) : h("p", { class: "note" }, "None on record.")),
+    section("Transactions", history.length ? h("ul", { class: "meta" }, history.map((e) => h("li", {}, h("b", {}, `${e.date}: `), moves[e.type](e)))) : h("p", { class: "note" }, "None on record.")),
     p.nicknames?.length ? section("Nickname History", statTable({
       sortable: false, rows: p.nicknames,
       columns: [

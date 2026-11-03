@@ -905,6 +905,19 @@ def best_games(players, logs, keep, n):
     return sorted(rows, key=lambda r: (-r["pts"], r["season"], r["week"]))[:n]
 
 
+def split_draft_picks(split):
+    """Each player taken in the 2024 split draft: his round, pick and overall place, who took him and the team he came from."""
+    teams = {e["franchise"]: e["team"] for e in split["selections"]}
+    out = {}
+    for e in split["selections"]:
+        if e["kind"] != "player":
+            continue
+        in_round = 1 + sum(1 for x in split["selections"] if x["round"] == e["round"] and x["overall"] < e["overall"])
+        out[e["player"]] = {"date": split["date"], "round": e["round"], "pick": in_round, "overall": e["overall"], "manager": e["manager"],
+                            "to": e["franchise"], "to_team": e["team"], "from": e["original"], "from_team": teams.get(e["original"])}
+    return out
+
+
 def manager_lists(manager, players, logs):
     """A manager's leaders and all-time team: starts made for a franchise while he held a stake in it."""
     held = lambda a: any(st["franchise"] == a["franchise"] and st["from"] <= a["date"] and (st["to"] is None or a["date"] < st["to"]) for st in manager["stints"])
@@ -1611,8 +1624,10 @@ def main():
         path = SITE / "managers" / f"{m['id']}.json"
         manager = load(path)
         dump(path, {**manager, **manager_lists(manager, players, logs)})
+    split_picks = split_draft_picks(load(SITE / "split_draft.json"))
     for pid, f in files.items():
         f["status"] = status[pid]
+        f["split_draft"] = split_picks.get(pid)
         f["ranks"] = ranks.get(pid, [])
         f.setdefault("similar", [])
         f["hof"] = {**hof_players[pid], "benchmark": HOF_BENCHMARK} if pid in hof_players else None
@@ -1669,12 +1684,20 @@ def main():
     dump(SITE / "pick_search.json", pick_search(league, picks, players))
     # Every drafted pick carries the trades that moved it, for its own page, and his Hall of Fame Monitor score.
     hof_score = lambda pid: hof_players[pid]["score"] if pid in hof_players else None
+    split = load(SITE / "split_draft.json")
+    split_teams = {e["franchise"]: e["team"] for e in split["selections"]}
+    # Rookie picks taken in the 2024 split draft, by the player each became: where the split draft sent the pick.
+    split_of = {e["became"]: {"date": split["date"], "round": e["round"], "overall": e["overall"], "manager": e["manager"],
+                              "pick": 1 + sum(1 for x in split["selections"] if x["round"] == e["round"] and x["overall"] < e["overall"]),
+                              "from": e["original"], "from_team": split_teams.get(e["original"]), "to": e["franchise"], "to_team": e["team"]}
+                for e in split["selections"] if e["kind"] == "pick" and e.get("became")}
     for d in league["drafts"]:
         path = SITE / "drafts" / f"{d['season']}.json"
         draft = load(path)
         for p in draft["picks"]:
             p["moves"] = [{k: v for k, v in m.items() if k != "became"} for m in chains.get((d["season"], p["round"], p["original"]), [])]
             p["hof"] = hof_score(p["player"])
+            p["split"] = split_of.get(p["player"]) if d["kind"] == "rookie" else None
         draft["undrafted"] = undrafted(draft, files, hof_score)
         dump(path, draft)
     path = SITE / "split_draft.json"
