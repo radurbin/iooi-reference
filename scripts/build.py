@@ -654,7 +654,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
     trade_ids = {t["id"] for t in trades}
     history = defaultdict(list)
     for pid, pick in drafted.items():
-        history[pid].append({"date": pick["date"], "type": "draft", "to": pick["franchise"], "to_team": name_on(pick["season"], pick["franchise"], pick["date"]), "detail": f"{pick['season']} {pick['kind']} draft, pick {pick['label']} ({ordinal(pick['overall'])} overall)"})
+        history[pid].append({"date": pick["date"], "type": "draft", "to": pick["franchise"], "to_team": name_on(pick["season"], pick["franchise"], pick["date"]), "detail": f"{pick['season']} {pick['kind']} draft, pick {pick['label']} ({ordinal(pick['overall'])} overall)", "season": pick["season"], "kind": pick["kind"], "label": pick["label"], "overall": pick["overall"]})
     for move in all_moves:
         if move["status"] != "complete":
             continue

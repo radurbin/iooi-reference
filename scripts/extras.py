@@ -181,6 +181,62 @@ def milestones(games, players, logs, franchise_names, manager_names, rostered, a
     return {"reached": reached, "upcoming": close("franchise")[:12] + close("manager")[:12] + close("player")[:25], "all": upcoming}
 
 
+FASTEST_ROWS = 15
+
+
+def fastest_milestones(games, players, logs, keep=lambda pid: True):
+    """Each player points milestone, by the fewest starts it took and by the fewest iooi weeks since his first week on an iooi roster."""
+    weeks = sorted({(g["season"], g["week"]) for g in games})
+    at = {w: i for i, w in enumerate(weeks)}
+    by_id = {g["id"]: g for g in games}
+    hits = defaultdict(list)
+    for pid, log in logs.items():
+        if not log or not keep(pid):
+            continue
+        first = min((a["season"], a["week"]) for a in log)
+        total, starts, pending = 0, 0, list(PLAYER_POINTS)
+        for a in sorted((a for a in log if a["started"] and a["game"]), key=lambda a: (a["season"], a["week"])):
+            total += a["pts"]
+            starts += 1
+            while pending and total >= pending[0]:
+                g = by_id[a["game"]]
+                hits[pending[0]].append({"player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "starts": starts,
+                                         "weeks": at[(a["season"], a["week"])] - at.get(first, at[(a["season"], a["week"])]) + 1,
+                                         "first": {"season": first[0], "week": first[1]}, "date": g["date"], "game": g["id"],
+                                         "season": g["season"], "week": g["week"], "team": a["team"], "franchise": a["franchise"]})
+                pending.pop(0)
+    marks = [m for m in PLAYER_POINTS if hits[m]]
+    top = lambda m, key: sorted(hits[m], key=lambda r: (r[key], r["date"], r["name"]))[:FASTEST_ROWS]
+    return {"marks": marks, "starts": {m: top(m, "starts") for m in marks}, "weeks": {m: top(m, "weeks") for m in marks},
+            "reached": {m: len(hits[m]) for m in marks}, "hits": dict(hits)}
+
+
+FASTEST_GROUPS = {"all": "", "rookies": " among NFL rookies since 2023"}
+FASTEST_UNITS = {"starts": "fewest starts", "weeks": "fewest weeks"}
+
+
+def fastest_tags(reached, fastest):
+    """Marks each player points milestone reached that is the fastest to that mark (ties included): fewest starts and
+    fewest weeks, for all players and for NFL rookies since 2023."""
+    for m in reached:
+        if m["kind"] != "player" or not m["what"].endswith(" points"):
+            continue
+        mark = int(m["what"].split(" ")[0].replace(",", ""))
+        tags, done = [], set()
+        for group, among in FASTEST_GROUPS.items():
+            hits = fastest[group]["hits"].get(mark, [])
+            mine = next((r for r in hits if r["player"] == m["key"]), None)
+            if mine is None:
+                continue
+            won = [unit for unit in FASTEST_UNITS if unit not in done and mine[unit] == min(r[unit] for r in hits)]
+            done.update(won)
+            if won:
+                tags.append(" and ".join(f"{FASTEST_UNITS[u]} ({mine[u]})" for u in won) + among)
+        if tags:
+            m["fastest"] = tags
+
+
+
 # ---------------------------------------------------------------- rivalries
 
 def rivalries(games, trades):
@@ -1107,7 +1163,7 @@ def last_week_honors(games, players, records, reached, logs, stints):
     marks = [m for m in reached if m["season"] == season and m["week"] == week]
     marks.sort(key=lambda m: ({"franchise": 0, "manager": 1, "player": 2}[m["kind"]], -int(m["what"].split(" ")[0].replace(",", ""))))
     if marks:
-        lines.append({"label": "Milestones", "text": "; ".join(f"{who(m)} reached {m['what']}" for m in marks[:8]) + "."})
+        lines.append({"label": "Milestones", "text": "; ".join(f"{who(m)} reached {m['what']}" + (f", the {'; '.join(m['fastest'])}" if m.get("fastest") else "") for m in marks[:8]) + "."})
     return {"season": season, "week": week, "kind": mine[0]["kind"], "lines": lines}
 
 
@@ -1161,7 +1217,7 @@ def home(league, seasons, players, careers, picks, honors):
 
 # ---------------------------------------------------------------- this week
 
-def this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone):
+def this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits):
     """The current week's matchups: lineups as last fetched, projections, Elo win chances, history and storylines."""
     from datetime import datetime, timezone
     from build import fired_subs
@@ -1237,6 +1293,39 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                 career_pts[pid] += e["pts"]
                 franchise_pts[e["franchise"]][pid] += e["pts"]
     starting = {pid: row["roster_id"] for row in rows for pid in row["starters"]}
+
+    # Fastest to a points milestone: his starts and weeks if he gets there this week, against the record as it stood before the week.
+    weeks_seen = sorted({(g["season"], g["week"]) for g in games if (g["season"], g["week"]) < (season, week)} | {(season, week)})
+
+    def fastest_note(pid, name, reach):
+        before = [e for e in files[pid]["log"] if (e["season"], e["week"]) < (season, week)]
+        if not before:
+            return []
+        pts = sum(e["pts"] for e in before if e["started"] and e["game"])
+        mark = next((m for m in PLAYER_POINTS if m > pts), None)
+        if mark is None or mark - pts > reach:
+            return []
+        first = min((e["season"], e["week"]) for e in before)
+        mine = {"starts": sum(1 for e in before if e["started"] and e["game"]) + 1, "weeks": sum(1 for w in weeks_seen if w >= first)}
+        found, done = [], set()
+        for group, among in FASTEST_GROUPS.items():
+            if group == "rookies" and int(files[pid].get("rookie_year") or 0) < 2023:
+                continue
+            hits = [r for r in fastest_hits[group].get(mark, []) if (r["season"], r["week"]) < (season, week) and r["player"] != pid]
+            parts = []
+            for unit in FASTEST_UNITS:
+                best = min((r[unit] for r in hits), default=None)
+                if unit in done or (best is not None and mine[unit] > best):
+                    continue
+                done.add(unit)
+                holders = sorted({r["player"]: r for r in hits if r[unit] == best}.values(), key=lambda r: r["date"])
+                names = " and ".join(f"[[p:{r['player']}|{r['name']}]]" for r in holders[:2]) + (f" and {len(holders) - 2} others" if len(holders) > 2 else "")
+                vs = "" if best is None else f", tying {names}" if mine[unit] == best else f", beating {names}'s {best}" if len(holders) == 1 else f", beating the {best} by {names}"
+                parts.append(f"{mine[unit]} {unit}{vs}")
+            if parts:
+                where = "the fastest ever" if group == "all" else f"the fastest{among}"
+                found.append(f"[[p:{pid}|{name}]] needs {r2(mark - pts):.2f} points to reach {mark:,} in iooi lineups. Getting there this week would make him {where}: {' and '.join(parts)}.")
+        return found
 
     def list_note(pid, name, fid, team, reach):
         """Big climbs on a career points list in reach this week: into the league's top ten, onto its top 25 for the
@@ -1322,8 +1411,10 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                 # Kept all week: the lists are as they stood before the week, so the note holds after his game too.
                 if line["proj"]:
                     notes.extend(list_note(pid, line["name"], x["franchise"], x["team"], line["proj"] * REACH))
+                fast = fastest_note(pid, line["name"], line["proj"] * REACH) if line["proj"] else []
+                notes.extend(fast)   # it says what the plain milestone note would, so it takes that note's place
                 for m in upcoming[("player", pid)]:
-                    if m["unit"] == "points" and line["proj"] and m["need"] <= line["proj"] * REACH:
+                    if m["unit"] == "points" and line["proj"] and m["need"] <= line["proj"] * REACH and not fast:
                         notes.append(f"[[p:{pid}|{line['name']}]] needs {m['need']:.2f} points to reach {m['what']} in iooi lineups.")
                     if m["unit"] == "starts" and m["need"] == 1:
                         notes.append(f"[[p:{pid}|{line['name']}]] makes his {nth(m)} iooi start.")
@@ -1589,7 +1680,11 @@ def main():
         "postseason": postseason_runs(seasons, league["franchises"]),
         "milestones": milestones(games, players, logs, franchise_names, manager_names, rostered, active_managers),
         "stretches": stretches(games, players, logs),
+        "fastest": {"all": fastest_milestones(games, players, logs),
+                    "rookies": fastest_milestones(games, players, logs, lambda pid: int(files[pid].get("rookie_year") or 0) >= 2023)},
     }
+    fastest_tags(streak_data["milestones"]["reached"], streak_data["fastest"])
+    fastest_hits = {group: data.pop("hits") for group, data in streak_data["fastest"].items()}
     every_milestone = streak_data["milestones"].pop("all")
     dump(SITE / "streaks.json", streak_data)
     rivalry_data = rivalries(games, trades)
@@ -1708,7 +1803,7 @@ def main():
     stints = {m["id"]: load(SITE / "managers" / f"{m['id']}.json")["stints"] for m in league["managers"]}
     honors = last_week_honors(games, players, load(SITE / "records.json"), streak_data["milestones"]["reached"], logs, stints)
     dump(SITE / "home.json", home(league, seasons, players, careers, picks, honors))
-    week_data = this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone)
+    week_data = this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits)
     dump(SITE / "week.json", week_data)
     for fid, rows in remaining_schedule(league, seasons, games, week_data).items():
         path = SITE / "teams" / f"{league['current_season']}-{fid}.json"

@@ -68,6 +68,31 @@ page("Streaks & Milestones", async (main) => {
         { label: "Team(s)", value: (r) => r.teams.join(", "), title: "Teams he started for during the stretch" }]) }));
   };
   drawStretch(5);
+  // Fastest to each player points milestone: one pair of tables, redrawn for the chosen players and milestone.
+  const fastBox = h("div");
+  const fastCols = (key, label, tip) => [
+    { label: "Rk", value: (r) => r.rk, num: true },
+    { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+    { label: "Pos", value: (r) => r.pos, cls: "c" },
+    { label, value: (r) => r[key], num: true, cls: "win", title: tip },
+    { label: key === "starts" ? "Weeks" : "Starts", value: (r) => r[key === "starts" ? "weeks" : "starts"], num: true, title: key === "starts" ? "iooi weeks since his first week on an iooi roster" : "Starts it took" },
+    ...(key === "weeks" ? [{ label: "Joined", value: (r) => `${r.first.season}-${String(r.first.week).padStart(2, "0")}`, render: (r) => `${r.first.season} wk ${r.first.week}`, title: "His first week on an iooi roster" }] : []),
+    { label: "Reached", value: (r) => r.game, render: (r) => gLink(r.game, `${r.season} wk ${r.week}`), title: "The game he got there" },
+    { label: "Team", value: (r) => r.team, render: (r) => tsLink(r.season, r.franchise, r.team), title: "Team he started for that week" },
+  ];
+  const groups = { all: "All players", rookies: "NFL rookies since 2023" };
+  const drawFast = (group, mark) => {
+    const fa = s.fastest[group];
+    if (!fa.marks.includes(mark)) mark = fa.marks[0];
+    const pickLinks = (items, on, label, go) => items.flatMap((x, i) => [i ? " · " : "", x === on ? h("b", {}, label(x)) : h("a", { href: "#", onclick: (e) => { e.preventDefault(); go(x); } }, label(x))]);
+    fastBox.replaceChildren(
+      h("p", {}, h("b", {}, "Players: "), pickLinks(Object.keys(groups), group, (g) => groups[g], (g) => drawFast(g, mark))),
+      h("p", {}, h("b", {}, "Milestone: "), pickLinks(fa.marks, mark, (x) => x.toLocaleString(), (x) => drawFast(group, x))),
+      h("p", { class: "note" }, `${fa.reached[mark]} ${group === "rookies" ? "players with an NFL rookie season of 2023 or later" : "players"} ${fa.reached[mark] === 1 ? "has" : "have"} reached ${mark.toLocaleString()} points.`),
+      h("h3", {}, `Fewest Starts to ${mark.toLocaleString()} Points`), statTable({ rows: rank(fa.starts[mark], (r) => -r.starts), columns: fastCols("starts", "Starts", "Starts it took") }),
+      h("h3", {}, `Fewest Weeks to ${mark.toLocaleString()} Points`), statTable({ rows: rank(fa.weeks[mark], (r) => -r.weeks), columns: fastCols("weeks", "Weeks", "iooi weeks from his first week on an iooi roster through the week he got there") }));
+  };
+  if (s.fastest.all.marks.length) drawFast("all", s.fastest.all.marks[0]);
   main.append(
     h("h1", {}, "Dynasty iooi Streaks & Milestones"),
     h("p", { class: "note" }, "Team streaks and milestones count regular-season and Dynasty Playoff games. Toilet Bowl games are left out, as in the Elo ratings."),
@@ -91,6 +116,7 @@ page("Streaks & Milestones", async (main) => {
         { label: "Best finish", value: (r) => r.best_finish, render: (r) => `${ordinal(r.best_finish)} (${r.best_seasons.join(", ")})`, title: "Best final place and when" },
       ],
     })),
+    section("Fastest to Player Milestones", h("p", { class: "note" }, "Points as a starter for any iooi franchise. Weeks count every iooi week (1 to 17 each season, playoffs included; the offseason is skipped) from the player's first week on an iooi roster, whether he came in by the startup draft, a rookie draft or free agency, through the week he got there. NFL rookies since 2023 shows only players whose first NFL season was 2023 or later, however they joined iooi, leaving out players who were already in the NFL before 2023."), fastBox),
     section("Next Milestones", statTable({
       rows: mergeManagers(m.upcoming, "key", { ignore: ["name"], when: (r) => r.kind === "manager" }),
       columns: [
@@ -108,10 +134,11 @@ page("Streaks & Milestones", async (main) => {
         { label: "Type", value: (r) => kinds[r.kind], title: "Franchise, manager or player" },
         { label: "Name", value: (r) => r.name, render: who, cls: "win", title: "Who reached it" },
         { label: "Milestone", value: (r) => r.what, title: "The round number reached" },
+        { label: "Fastest", value: (r) => (r.fastest ? 0 : 1), render: (r) => (r.fastest ? h("span", { class: "win" }, r.fastest.map((t) => t[0].toUpperCase() + t.slice(1)).join("; ")) : ""), title: "Still the fastest to this milestone: fewest starts or fewest weeks since his first week on an iooi roster, for all players or among NFL rookies since 2023" },
         { label: "Team", value: (r) => r.team },
         { label: "Game", render: (r) => gLink(r.game, `${r.season} wk ${r.week}`) },
       ],
-    }), h("p", { class: "note" }, "Player milestones count starts and points as a starter for any iooi franchise.")));
+    }), h("p", { class: "note" }, "Player milestones count starts and points as a starter for any iooi franchise. Fastest marks a player who still holds the record for reaching that points milestone in the fewest starts or weeks (see Fastest to Player Milestones above).")));
 });
 </script>
 </body>

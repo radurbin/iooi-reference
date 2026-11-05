@@ -77,7 +77,8 @@ page("Player", async (main) => {
   const t = p.totals;
   const height = p.height && /^\d+$/.test(p.height) ? `${Math.floor(p.height / 12)}-${p.height % 12}` : null;
   const moves = {
-    draft: (e) => ["Drafted by ", fLink(e.to, e.to_team), `: ${e.detail}`],
+    draft: (e) => ["Drafted by ", fLink(e.to, e.to_team), ": ", ...(e.label ? [h("a", { href: `draft.html?y=${e.season}` }, `${e.season} ${e.kind} draft`), ", pick ", pickLink(e.season, e.label),
+      ` (${ordinal(e.overall)} overall)`] : [e.detail])],
     traded: (e) => ["Traded from ", fLink(e.from, e.from_team), " to ", fLink(e.to, e.to_team), e.trade ? [" (", tLink(e.trade, "trade details"), ")"] : ""],
     signed: (e) => ["Signed as a free agent by ", fLink(e.to, e.to_team)],
     claimed: (e) => ["Claimed off waivers by ", fLink(e.to, e.to_team)],
