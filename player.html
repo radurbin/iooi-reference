@@ -280,10 +280,12 @@ page("Player", async (main) => {
     }), h("p", { class: "note" }, ["Starter points, starts and value for iooi franchises. Franchise lists count only his time with that team. Top-ten places are bold. Full lists: ",
       h("a", { href: "leaders.html" }, "league leaders"), "; each franchise page has its own."])) : null,
     p.similar?.length ? section("Similar Players", statTable({
-      sortable: false, rows: p.similar,
+      // His own career first, then a repeated header row, then the players most like him.
+      sortable: false, rows: [{ self: true, player: param("id"), name: p.name, gs: t.gs, pts: t.pts, ppg: t.gs ? t.pts / t.gs : 0, war: t.war }, ...p.similar],
+      groupBy: (r) => (r.self ? 0 : 1),
       columns: [
-        { label: "Player", render: (r) => pLink(r.player, r.name), cls: "win" },
-        { label: "Sim", value: (r) => r.score, num: true },
+        { label: "Player", render: (r) => (r.self ? h("b", {}, r.name) : pLink(r.player, r.name)), cls: "win" },
+        { label: "Sim", value: (r) => (r.self ? "" : r.score), num: true, title: "Similarity score: 1000 would be identical" },
         { label: "GS", value: (r) => r.gs, num: true },
         { label: "Pts", render: (r) => fmt.pts(r.pts), num: true },
         { label: "Pts/GS", render: (r) => fmt.pts(r.ppg), num: true },
