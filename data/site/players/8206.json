@@ -1,1 +1,520 @@
-{"id":"8206","name":"Skylar Thompson","pos":"QB","nfl_team":"BAL","birth_date":"1997-06-04","honors":[],"votes":[],"college":"Kansas State","rookie_year":2022,"height":"74","weight":"220","drafted":null,"career":[{"season":"2024","franchise":4,"team":"Cooper Scoopers","nfl":"MIA","g":3,"gs":0,"pts":0.0,"bench_pts":4.28,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0}],"totals":{"g":3,"gs":0,"pts":0.0,"bench_pts":4.28,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0},"nfl":[{"season":"2024","team":"MIA","g":3,"pts":7.88,"rank":57}],"history":[{"date":"2024-09-17","type":"claimed","to":4,"to_team":"Cooper Scoopers","from":null,"from_team":null,"trade":null},{"date":"2024-10-02","type":"released","from":4,"from_team":"Cooper Scoopers"},{"date":"2024-10-02","type":"claimed","to":4,"to_team":"Cooper Scoopers","from":null,"from_team":null,"trade":null},{"date":"2024-10-06","type":"released","from":4,"from_team":"Cooper Scoopers"}],"nicknames":[],"log":[{"season":"2024","week":3,"date":"2024-09-19","game":"2024-03-1-4","kind":"regular","franchise":4,"team":"Cooper Scoopers","opp":1,"opp_team":"Mojo Dojo Casa Team","slot":null,"started":false,"pts":4.28,"proj":11.96,"won":true},{"season":"2024","week":4,"date":"2024-09-26","game":"2024-04-3-4","kind":"regular","franchise":4,"team":"Cooper Scoopers","opp":3,"opp_team":"Kolkata Kommies","slot":null,"started":false,"pts":0.0,"proj":null,"won":true},{"season":"2024","week":5,"date":"2024-10-03","game":"2024-05-4-6","kind":"regular","franchise":4,"team":"Cooper Scoopers","opp":6,"opp_team":"got that DAWG","slot":null,"started":false,"pts":0.0,"proj":null,"won":false}],"status":{"code":"free_agent"},"split_draft":null,"ranks":[{"group":"Career","scope":"League","stat":"Bench Points","value":4.28,"digits":2,"rank":472,"of":506}],"similar":[],"hof":null,"black_ink":null,"records_held":[]}
+{
+ "id": "8206",
+ "name": "Skylar Thompson",
+ "pos": "QB",
+ "nfl_team": "BAL",
+ "birth_date": "1997-06-04",
+ "honors": [],
+ "votes": [],
+ "college": "Kansas State",
+ "rookie_year": 2022,
+ "height": "74",
+ "weight": "220",
+ "drafted": null,
+ "career": [
+  {
+   "season": "2024",
+   "franchise": 4,
+   "team": "Cooper Scoopers",
+   "nfl": "MIA",
+   "g": 3,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 4.28,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
+  }
+ ],
+ "totals": {
+  "g": 3,
+  "gs": 0,
+  "pts": 0.0,
+  "bench_pts": 4.28,
+  "ppg": null,
+  "best": null,
+  "wins": 0,
+  "paa": 0.0,
+  "vor": 0.0,
+  "war": 0.0
+ },
+ "nfl": [
+  {
+   "season": "2024",
+   "team": "MIA",
+   "g": 3,
+   "pts": 7.88,
+   "rank": 57
+  }
+ ],
+ "history": [
+  {
+   "date": "2024-09-17",
+   "type": "claimed",
+   "to": 4,
+   "to_team": "Cooper Scoopers",
+   "from": null,
+   "from_team": null,
+   "trade": null
+  },
+  {
+   "date": "2024-10-02",
+   "type": "released",
+   "from": 4,
+   "from_team": "Cooper Scoopers"
+  },
+  {
+   "date": "2024-10-02",
+   "type": "claimed",
+   "to": 4,
+   "to_team": "Cooper Scoopers",
+   "from": null,
+   "from_team": null,
+   "trade": null
+  },
+  {
+   "date": "2024-10-06",
+   "type": "released",
+   "from": 4,
+   "from_team": "Cooper Scoopers"
+  }
+ ],
+ "nicknames": [],
+ "log": [
+  {
+   "season": "2024",
+   "week": 3,
+   "date": "2024-09-19",
+   "game": "2024-03-1-4",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Cooper Scoopers",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team",
+   "slot": null,
+   "started": false,
+   "pts": 4.28,
+   "proj": 11.96,
+   "won": true
+  },
+  {
+   "season": "2024",
+   "week": 4,
+   "date": "2024-09-26",
+   "game": "2024-04-3-4",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Cooper Scoopers",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
+  },
+  {
+   "season": "2024",
+   "week": 5,
+   "date": "2024-10-03",
+   "game": "2024-05-4-6",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Cooper Scoopers",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
+  }
+ ],
+ "status": {
+  "code": "free_agent"
+ },
+ "split_draft": null,
+ "ranks": [
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Bench Points",
+   "value": 4.28,
+   "digits": 2,
+   "rank": 472,
+   "of": 506
+  }
+ ],
+ "similar": [],
+ "hof": null,
+ "black_ink": null,
+ "records_held": [],
+ "injuries": {
+  "seasons": [
+   {
+    "season": "2024",
+    "nfl": "MIA",
+    "missed": 3,
+    "lost": 0.0,
+    "injuries": [
+     "Ribs"
+    ],
+    "weeks": [
+     4,
+     5,
+     7
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "rostered": 2,
+    "games": [
+     {
+      "week": 4,
+      "kind": "Questionable",
+      "injury": "Ribs",
+      "franchise": 4,
+      "team": "Cooper Scoopers"
+     },
+     {
+      "week": 5,
+      "kind": "Questionable",
+      "injury": "Ribs",
+      "franchise": 4,
+      "team": "Cooper Scoopers"
+     },
+     {
+      "week": 7,
+      "kind": "Questionable",
+      "injury": "Ribs",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2025",
+    "nfl": "PIT",
+    "missed": 16,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "kinds": [
+     "IR",
+     "Questionable"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "Questionable",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 3,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 4,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 8,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 13,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 14,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 15,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 16,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 17,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2026",
+    "nfl": "BAL",
+    "missed": 9,
+    "lost": 0.0,
+    "injuries": [
+     "Undisclosed"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 3,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 4,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 5,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 8,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   }
+  ],
+  "stints": [
+   {
+    "season": "2024",
+    "from": 4,
+    "to": 7,
+    "weeks": [
+     4,
+     5,
+     7
+    ],
+    "missed": 3,
+    "nfl": "MIA",
+    "injury": "Ribs",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [
+     {
+      "franchise": 4,
+      "team": "Cooper Scoopers"
+     }
+    ],
+    "rostered": 2,
+    "lost": 0.0
+   },
+   {
+    "season": "2025",
+    "from": 1,
+    "to": 17,
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "missed": 16,
+    "nfl": "PIT",
+    "injury": "Hamstring",
+    "kinds": [
+     "IR",
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 1,
+    "to": 9,
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "missed": 9,
+    "nfl": "BAL",
+    "injury": "Undisclosed",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   }
+  ],
+  "now": null
+ }
+}

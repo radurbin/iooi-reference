@@ -134,6 +134,23 @@ page("Team Season", async (main) => {
         { label: "WAR", value: (p) => p.war, render: (p) => fmt.pts(p.war), num: true },
       ],
     }), h("p", { class: "note" }, y === L.current_season ? "Everyone who has spent a game week on the roster this season, then anyone added since (by trade, claim or signing) who has not yet, shown with a G of 0. Click a column to sort." : "Everyone who spent a week on the roster. Click a column to sort.")),
+    t.injuries?.rows.length ? section("Injuries",
+      h("p", {}, `${t.injuries.games} ${t.injuries.games === 1 ? "game" : "games"} missed to injury by ${t.injuries.players} ${t.injuries.players === 1 ? "player" : "players"}, ${fmt.pts(t.injuries.lost)} VOR lost: `,
+        h("b", {}, t.injuries.rank === 1 ? "the most" : `${ordinal(t.injuries.rank)} most`), ` of ${t.injuries.of} teams (${t.injuries.games_rank === 1 ? "most" : ordinal(t.injuries.games_rank)} in games missed). `, h("a", { href: "injuries.html" }, "League injuries")),
+      statTable({
+        rows: t.injuries.rows,
+        columns: [
+          { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+          { label: "Pos", value: (r) => r.pos, cls: "c" },
+          { label: "GS", value: (r) => r.gs, num: true, title: "Starts for this team this season" },
+          { label: "Missed", value: (r) => r.missed, num: true, title: "Games missed to injury while on this roster" },
+          { label: "Weeks", value: (r) => r.weeks[0], render: (r) => weeksText(r.weeks) },
+          { label: "Injury", value: (r) => r.injuries.join(", "), render: (r) => r.injuries.join(", ") },
+          { label: "Status", value: (r) => r.kinds.join(", "), render: (r) => injuryKinds(r.kinds) },
+          { label: "VOR Lost", value: (r) => r.lost, render: (r) => fmt.pts(r.lost), num: true, title: LOST_TIP },
+        ],
+      }),
+      h("p", { class: "note" }, `${INJURY_NOTE} Everyone on the roster that week counts. Click a column to sort.`)) : null,
     t.best_games?.length ? section("Best Single Games", statTable({
       rows: rank(t.best_games, (r) => r.pts),
       columns: [

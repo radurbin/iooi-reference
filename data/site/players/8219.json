@@ -1,1 +1,592 @@
-{"id":"8219","name":"Jelani Woods","pos":"TE","nfl_team":"NYJ","birth_date":"1998-10-09","honors":[],"votes":[],"college":"Virginia","rookie_year":2022,"height":"79","weight":"253","drafted":{"season":"2023","date":"2023-08-11","label":"16.08","overall":188,"franchise":3,"kind":"startup"},"career":[{"season":"2023","franchise":3,"team":"dantasy football","nfl":null,"g":8,"gs":0,"pts":0.0,"bench_pts":0.0,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0}],"totals":{"g":8,"gs":0,"pts":0.0,"bench_pts":0.0,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0},"nfl":[{"season":"2025","team":"NYJ","g":4,"pts":1.4,"rank":120},{"season":"2026","team":"NYJ","g":8,"pts":7.9,"rank":75}],"history":[{"date":"2023-08-11","type":"draft","to":3,"to_team":"dantasy football","detail":"2023 startup draft, pick 16.08 (188th overall)","season":"2023","kind":"startup","label":"16.08","overall":188},{"date":"2023-11-01","type":"released","from":3,"from_team":"dantasy football"}],"nicknames":[],"log":[{"season":"2023","week":1,"date":"2023-09-07","game":"2023-01-3-6","kind":"regular","franchise":3,"team":"dantasy football","opp":6,"opp_team":"got that DAWG","slot":null,"started":false,"pts":0.0,"proj":null,"won":true},{"season":"2023","week":2,"date":"2023-09-14","game":"2023-02-3-5","kind":"regular","franchise":3,"team":"dantasy football","opp":5,"opp_team":"your diggs small","slot":null,"started":false,"pts":0.0,"proj":null,"won":false},{"season":"2023","week":3,"date":"2023-09-21","game":"2023-03-3-10","kind":"regular","franchise":3,"team":"dantasy football","opp":10,"opp_team":"You Like That?","slot":null,"started":false,"pts":0.0,"proj":null,"won":false},{"season":"2023","week":4,"date":"2023-09-28","game":"2023-04-3-8","kind":"regular","franchise":3,"team":"dantasy football","opp":8,"opp_team":"Breece is the Word","slot":null,"started":false,"pts":0.0,"proj":null,"won":true},{"season":"2023","week":5,"date":"2023-10-05","game":"2023-05-1-3","kind":"regular","franchise":3,"team":"dantasy football","opp":1,"opp_team":"Mojo Dojo Casa Team","slot":null,"started":false,"pts":0.0,"proj":null,"won":true},{"season":"2023","week":6,"date":"2023-10-12","game":"2023-06-2-3","kind":"regular","franchise":3,"team":"dantasy football","opp":2,"opp_team":"Storm FC","slot":null,"started":false,"pts":0.0,"proj":null,"won":false},{"season":"2023","week":7,"date":"2023-10-19","game":"2023-07-3-11","kind":"regular","franchise":3,"team":"dantasy football","opp":11,"opp_team":"BubbaNASTIES","slot":null,"started":false,"pts":0.0,"proj":null,"won":false},{"season":"2023","week":8,"date":"2023-10-26","game":"2023-08-3-12","kind":"regular","franchise":3,"team":"dantasy football","opp":12,"opp_team":"Happy Feet","slot":null,"started":false,"pts":0.0,"proj":null,"won":true}],"status":{"code":"free_agent"},"split_draft":null,"ranks":[],"similar":[],"hof":null,"black_ink":null,"records_held":[]}
+{
+ "id": "8219",
+ "name": "Jelani Woods",
+ "pos": "TE",
+ "nfl_team": "NYJ",
+ "birth_date": "1998-10-09",
+ "honors": [],
+ "votes": [],
+ "college": "Virginia",
+ "rookie_year": 2022,
+ "height": "79",
+ "weight": "253",
+ "drafted": {
+  "season": "2023",
+  "date": "2023-08-11",
+  "label": "16.08",
+  "overall": 188,
+  "franchise": 3,
+  "kind": "startup"
+ },
+ "career": [
+  {
+   "season": "2023",
+   "franchise": 3,
+   "team": "dantasy football",
+   "nfl": null,
+   "g": 8,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
+  }
+ ],
+ "totals": {
+  "g": 8,
+  "gs": 0,
+  "pts": 0.0,
+  "bench_pts": 0.0,
+  "ppg": null,
+  "best": null,
+  "wins": 0,
+  "paa": 0.0,
+  "vor": 0.0,
+  "war": 0.0
+ },
+ "nfl": [
+  {
+   "season": "2025",
+   "team": "NYJ",
+   "g": 4,
+   "pts": 1.4,
+   "rank": 120
+  },
+  {
+   "season": "2026",
+   "team": "NYJ",
+   "g": 8,
+   "pts": 7.9,
+   "rank": 75
+  }
+ ],
+ "history": [
+  {
+   "date": "2023-08-11",
+   "type": "draft",
+   "to": 3,
+   "to_team": "dantasy football",
+   "detail": "2023 startup draft, pick 16.08 (188th overall)",
+   "season": "2023",
+   "kind": "startup",
+   "label": "16.08",
+   "overall": 188
+  },
+  {
+   "date": "2023-11-01",
+   "type": "released",
+   "from": 3,
+   "from_team": "dantasy football"
+  }
+ ],
+ "nicknames": [],
+ "log": [
+  {
+   "season": "2023",
+   "week": 1,
+   "date": "2023-09-07",
+   "game": "2023-01-3-6",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
+  },
+  {
+   "season": "2023",
+   "week": 2,
+   "date": "2023-09-14",
+   "game": "2023-02-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 5,
+   "opp_team": "your diggs small",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
+  },
+  {
+   "season": "2023",
+   "week": 3,
+   "date": "2023-09-21",
+   "game": "2023-03-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 10,
+   "opp_team": "You Like That?",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
+  },
+  {
+   "season": "2023",
+   "week": 4,
+   "date": "2023-09-28",
+   "game": "2023-04-3-8",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 8,
+   "opp_team": "Breece is the Word",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
+  },
+  {
+   "season": "2023",
+   "week": 5,
+   "date": "2023-10-05",
+   "game": "2023-05-1-3",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
+  },
+  {
+   "season": "2023",
+   "week": 6,
+   "date": "2023-10-12",
+   "game": "2023-06-2-3",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
+  },
+  {
+   "season": "2023",
+   "week": 7,
+   "date": "2023-10-19",
+   "game": "2023-07-3-11",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
+  },
+  {
+   "season": "2023",
+   "week": 8,
+   "date": "2023-10-26",
+   "game": "2023-08-3-12",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "dantasy football",
+   "opp": 12,
+   "opp_team": "Happy Feet",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
+  }
+ ],
+ "status": {
+  "code": "free_agent"
+ },
+ "split_draft": null,
+ "ranks": [],
+ "similar": [],
+ "hof": null,
+ "black_ink": null,
+ "records_held": [],
+ "injuries": {
+  "seasons": [
+   {
+    "season": "2023",
+    "nfl": "IND",
+    "missed": 16,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 8,
+    "games": [
+     {
+      "week": 1,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 2,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 3,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 4,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 5,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 6,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 7,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 8,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": 3,
+      "team": "dantasy football"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 13,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 14,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 15,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 16,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 17,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2024",
+    "nfl": "IND",
+    "missed": 16,
+    "lost": 0.0,
+    "injuries": [
+     "Toe"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     15,
+     16,
+     17
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 3,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 4,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 5,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 8,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 13,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 15,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 16,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 17,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   }
+  ],
+  "stints": [
+   {
+    "season": "2023",
+    "from": 1,
+    "to": 17,
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "missed": 16,
+    "nfl": "IND",
+    "injury": "Hamstring",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [
+     {
+      "franchise": 3,
+      "team": "dantasy football"
+     }
+    ],
+    "rostered": 8,
+    "lost": 0.0
+   },
+   {
+    "season": "2024",
+    "from": 1,
+    "to": 17,
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     15,
+     16,
+     17
+    ],
+    "missed": 16,
+    "nfl": "IND",
+    "injury": "Toe",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   }
+  ],
+  "now": null
+ }
+}

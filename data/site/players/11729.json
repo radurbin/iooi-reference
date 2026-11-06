@@ -1,1 +1,547 @@
-{"id":"11729","name":"Sione Vaki","pos":"RB","nfl_team":"DET","birth_date":"2001-07-30","honors":[],"votes":[],"college":"Utah","rookie_year":2024,"height":"71","weight":"216","drafted":null,"career":[{"season":"2026","franchise":10,"team":"Maddison Beer’s Boys","nfl":"DET","g":6,"gs":1,"pts":0.6,"bench_pts":18.8,"ppg":0.6,"best":0.6,"wins":0,"paa":-16.97,"vor":-7.99,"war":-0.09}],"totals":{"g":6,"gs":1,"pts":0.6,"bench_pts":18.8,"ppg":0.6,"best":0.6,"wins":0,"paa":-16.97,"vor":-7.99,"war":-0.09},"nfl":[{"season":"2024","team":"DET","g":15,"pts":9.1,"rank":102},{"season":"2025","team":"DET","g":10,"pts":0.4,"rank":135},{"season":"2026","team":"DET","g":7,"pts":25.5,"rank":66}],"history":[{"date":"2026-09-18","type":"claimed","to":10,"to_team":"Maddison Beer’s Boys","from":null,"from_team":null,"trade":null}],"nicknames":[],"log":[{"season":"2026","week":3,"date":"2026-09-24","game":"2026-03-8-10","kind":"regular","franchise":10,"team":"Maddison Beer’s Boys","opp":8,"opp_team":"BBL KIZZY","slot":null,"started":false,"pts":5.3,"proj":2.47,"won":false},{"season":"2026","week":4,"date":"2026-10-01","game":"2026-04-1-10","kind":"regular","franchise":10,"team":"Maddison Beer’s Boys","opp":1,"opp_team":"Mojo Dojo Casa Team 💍","slot":null,"started":false,"pts":2.7,"proj":4.96,"won":false},{"season":"2026","week":5,"date":"2026-10-08","game":"2026-05-5-10","kind":"regular","franchise":10,"team":"Maddison Beer’s Boys","opp":5,"opp_team":"St. Brown VS Board💍","slot":null,"started":false,"pts":1.7,"proj":4.67,"won":false},{"season":"2026","week":6,"date":"2026-10-15","game":"2026-06-10-11","kind":"regular","franchise":10,"team":"Maddison Beer’s Boys","opp":11,"opp_team":"BubbaNASTIES","slot":null,"started":false,"pts":0.0,"proj":null,"won":false},{"season":"2026","week":7,"date":"2026-10-22","game":"2026-07-2-10","kind":"regular","franchise":10,"team":"Maddison Beer’s Boys","opp":2,"opp_team":"Storm FC","slot":"RB","started":true,"pts":0.6,"proj":4.91,"won":false,"paa":-16.97,"vor":-7.99,"war":-0.09443207773761629},{"season":"2026","week":8,"date":"2026-10-29","game":"2026-08-7-10","kind":"regular","franchise":10,"team":"Maddison Beer’s Boys","opp":7,"opp_team":"the dart side 🛸💍","slot":null,"started":false,"pts":9.1,"proj":4.16,"won":false}],"status":{"code":"rostered","franchise":10},"split_draft":null,"ranks":[{"group":"Career","scope":"League","stat":"Points","value":0.6,"digits":2,"rank":412,"of":419},{"group":"Career","scope":"League","stat":"Games Started","value":1,"digits":0,"rank":355,"of":419},{"group":"Career","scope":"League","stat":"WAR","value":-0.09,"digits":2,"rank":276,"of":419},{"group":"Career","scope":"League","stat":"VOR","value":-8.0,"digits":1,"rank":284,"of":419},{"group":"Career","scope":"League","stat":"PAA","value":-17.0,"digits":1,"rank":278,"of":419},{"group":"Career","scope":"League","stat":"Best Game","value":0.6,"digits":2,"rank":411,"of":419},{"group":"Career","scope":"League","stat":"Bench Points","value":18.8,"digits":2,"rank":393,"of":506},{"group":"Career","scope":"All RBs","stat":"Points","value":0.6,"digits":2,"rank":98,"of":99},{"group":"Career","scope":"All RBs","stat":"Games Started","value":1,"digits":0,"rank":83,"of":99},{"group":"Career","scope":"All RBs","stat":"WAR","value":-0.09,"digits":2,"rank":78,"of":99},{"group":"Franchise","scope":"Maddison Beer’s Boys","stat":"Points","value":0.6,"digits":2,"rank":72,"of":73,"franchise":10},{"group":"Franchise","scope":"Maddison Beer’s Boys","stat":"Games Started","value":1,"digits":0,"rank":50,"of":73,"franchise":10},{"group":"Franchise","scope":"Maddison Beer’s Boys","stat":"WAR","value":-0.09,"digits":2,"rank":54,"of":73,"franchise":10},{"group":"Franchise","scope":"Maddison Beer’s Boys","stat":"Points, RBs","value":0.6,"digits":2,"rank":15,"of":15,"franchise":10},{"group":"Season","scope":"2026 League","stat":"Points","value":0.6,"digits":2,"rank":224,"of":230,"season":"2026"},{"group":"Season","scope":"2026 RBs","stat":"Points","value":0.6,"digits":2,"rank":57,"of":57,"season":"2026"},{"group":"Season","scope":"All single seasons","stat":"Points, 2026","value":0.6,"digits":2,"rank":990,"of":1007,"season":"2026"}],"similar":[],"hof":{"score":0.25,"rank":366,"of":419,"war":0.0,"starts":0.25,"black_ink":0.0,"awards":0.0,"history":[["2026",3,0.0],["2026",4,0.0],["2026",5,0.0],["2026",6,0.0],["2026",7,0.25],["2026",8,0.25]],"benchmark":100},"black_ink":null,"records_held":[]}
+{
+ "id": "11729",
+ "name": "Sione Vaki",
+ "pos": "RB",
+ "nfl_team": "DET",
+ "birth_date": "2001-07-30",
+ "honors": [],
+ "votes": [],
+ "college": "Utah",
+ "rookie_year": 2024,
+ "height": "71",
+ "weight": "216",
+ "drafted": null,
+ "career": [
+  {
+   "season": "2026",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "nfl": "DET",
+   "g": 6,
+   "gs": 1,
+   "pts": 0.6,
+   "bench_pts": 18.8,
+   "ppg": 0.6,
+   "best": 0.6,
+   "wins": 0,
+   "paa": -16.97,
+   "vor": -7.99,
+   "war": -0.09
+  }
+ ],
+ "totals": {
+  "g": 6,
+  "gs": 1,
+  "pts": 0.6,
+  "bench_pts": 18.8,
+  "ppg": 0.6,
+  "best": 0.6,
+  "wins": 0,
+  "paa": -16.97,
+  "vor": -7.99,
+  "war": -0.09
+ },
+ "nfl": [
+  {
+   "season": "2024",
+   "team": "DET",
+   "g": 15,
+   "pts": 9.1,
+   "rank": 102
+  },
+  {
+   "season": "2025",
+   "team": "DET",
+   "g": 10,
+   "pts": 0.4,
+   "rank": 135
+  },
+  {
+   "season": "2026",
+   "team": "DET",
+   "g": 7,
+   "pts": 25.5,
+   "rank": 66
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-09-18",
+   "type": "claimed",
+   "to": 10,
+   "to_team": "Maddison Beer’s Boys",
+   "from": null,
+   "from_team": null,
+   "trade": null
+  }
+ ],
+ "nicknames": [],
+ "log": [
+  {
+   "season": "2026",
+   "week": 3,
+   "date": "2026-09-24",
+   "game": "2026-03-8-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 5.3,
+   "proj": 2.47,
+   "won": false
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "date": "2026-10-01",
+   "game": "2026-04-1-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 2.7,
+   "proj": 4.96,
+   "won": false
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "date": "2026-10-08",
+   "game": "2026-05-5-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 1.7,
+   "proj": 4.67,
+   "won": false
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "date": "2026-10-15",
+   "game": "2026-06-10-11",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "date": "2026-10-22",
+   "game": "2026-07-2-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "RB",
+   "started": true,
+   "pts": 0.6,
+   "proj": 4.91,
+   "won": false,
+   "paa": -16.97,
+   "vor": -7.99,
+   "war": -0.09443207773761629
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "date": "2026-10-29",
+   "game": "2026-08-7-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 9.1,
+   "proj": 4.16,
+   "won": false
+  }
+ ],
+ "status": {
+  "code": "rostered",
+  "franchise": 10
+ },
+ "split_draft": null,
+ "ranks": [
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Points",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 412,
+   "of": 419
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 355,
+   "of": 419
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "WAR",
+   "value": -0.09,
+   "digits": 2,
+   "rank": 276,
+   "of": 419
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "VOR",
+   "value": -8.0,
+   "digits": 1,
+   "rank": 284,
+   "of": 419
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "PAA",
+   "value": -17.0,
+   "digits": 1,
+   "rank": 278,
+   "of": 419
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Best Game",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 411,
+   "of": 419
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Bench Points",
+   "value": 18.8,
+   "digits": 2,
+   "rank": 393,
+   "of": 506
+  },
+  {
+   "group": "Career",
+   "scope": "All RBs",
+   "stat": "Points",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 98,
+   "of": 99
+  },
+  {
+   "group": "Career",
+   "scope": "All RBs",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 83,
+   "of": 99
+  },
+  {
+   "group": "Career",
+   "scope": "All RBs",
+   "stat": "WAR",
+   "value": -0.09,
+   "digits": 2,
+   "rank": 78,
+   "of": 99
+  },
+  {
+   "group": "Franchise",
+   "scope": "Maddison Beer’s Boys",
+   "stat": "Points",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 72,
+   "of": 73,
+   "franchise": 10
+  },
+  {
+   "group": "Franchise",
+   "scope": "Maddison Beer’s Boys",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 50,
+   "of": 73,
+   "franchise": 10
+  },
+  {
+   "group": "Franchise",
+   "scope": "Maddison Beer’s Boys",
+   "stat": "WAR",
+   "value": -0.09,
+   "digits": 2,
+   "rank": 54,
+   "of": 73,
+   "franchise": 10
+  },
+  {
+   "group": "Franchise",
+   "scope": "Maddison Beer’s Boys",
+   "stat": "Points, RBs",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 15,
+   "of": 15,
+   "franchise": 10
+  },
+  {
+   "group": "Season",
+   "scope": "2026 League",
+   "stat": "Points",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 224,
+   "of": 230,
+   "season": "2026"
+  },
+  {
+   "group": "Season",
+   "scope": "2026 RBs",
+   "stat": "Points",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 57,
+   "of": 57,
+   "season": "2026"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 0.6,
+   "digits": 2,
+   "rank": 990,
+   "of": 1007,
+   "season": "2026"
+  }
+ ],
+ "similar": [],
+ "hof": {
+  "score": 0.25,
+  "rank": 366,
+  "of": 419,
+  "war": 0.0,
+  "starts": 0.25,
+  "black_ink": 0.0,
+  "awards": 0.0,
+  "history": [
+   [
+    "2026",
+    3,
+    0.0
+   ],
+   [
+    "2026",
+    4,
+    0.0
+   ],
+   [
+    "2026",
+    5,
+    0.0
+   ],
+   [
+    "2026",
+    6,
+    0.0
+   ],
+   [
+    "2026",
+    7,
+    0.25
+   ],
+   [
+    "2026",
+    8,
+    0.25
+   ]
+  ],
+  "benchmark": 100
+ },
+ "black_ink": null,
+ "records_held": [],
+ "injuries": {
+  "seasons": [
+   {
+    "season": "2024",
+    "nfl": "DET",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Doubtful"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Doubtful",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2025",
+    "nfl": "DET",
+    "missed": 6,
+    "lost": 0.0,
+    "injuries": [
+     "Groin",
+     "Hamstring"
+    ],
+    "weeks": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7
+    ],
+    "kinds": [
+     "Doubtful",
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "Doubtful",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 4,
+      "kind": "Out",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 5,
+      "kind": "Out",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "Out",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "Out",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   }
+  ],
+  "stints": [
+   {
+    "season": "2024",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "DET",
+    "injury": "Knee",
+    "kinds": [
+     "Doubtful"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2025",
+    "from": 1,
+    "to": 2,
+    "weeks": [
+     1,
+     2
+    ],
+    "missed": 2,
+    "nfl": "DET",
+    "injury": "Hamstring",
+    "kinds": [
+     "Doubtful",
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2025",
+    "from": 4,
+    "to": 7,
+    "weeks": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "missed": 4,
+    "nfl": "DET",
+    "injury": "Groin",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   }
+  ],
+  "now": null
+ }
+}

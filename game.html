@@ -25,11 +25,16 @@ page("Box Score", async (main) => {
   const g = games[id];
   if (!g) throw new Error(`No game ${id}`);
   const who = (line) => players[line.player]?.name ?? line.player;
-  const lines = (rows, slotted) => statTable({
+  // Players who missed the week to injury carry a tag, from the NFL's roster statuses and injury reports.
+  const hurtTag = (t, pid) => {
+    const x = (t.injured || []).find((m) => m.player === pid);
+    return x ? h("small", { class: "dim", "data-tip": `${INJURY_KINDS[x.kind] ?? x.kind}${x.injury ? `: ${x.injury}` : ""}; missed this week to injury` }, ` ${x.kind}${x.injury ? ` (${x.injury.toLowerCase()})` : ""}`) : null;
+  };
+  const lines = (rows, slotted, t) => statTable({
     sortable: false, rows,
     columns: [
       slotted && { label: "Slot", value: (r) => r.slot.replace("SUPER_FLEX", "SFLX") },
-      { label: "Player", value: who, render: (r) => [pLink(r.player, who(r)), r.sub_for ? h("small", { class: "dim", "data-tip": "Sleeper auto-sub: came off the bench for a starter who did not play" }, ` (auto-sub for ${players[r.sub_for]?.name ?? r.sub_for})`) : null] },
+      { label: "Player", value: who, render: (r) => [pLink(r.player, who(r)), r.sub_for ? h("small", { class: "dim", "data-tip": "Sleeper auto-sub: came off the bench for a starter who did not play" }, ` (auto-sub for ${players[r.sub_for]?.name ?? r.sub_for})`) : null, hurtTag(t, r.player)] },
       { label: "Pos", value: (r) => players[r.player]?.pos ?? "", cls: "c" },
       { label: "Proj", render: (r) => (r.proj == null ? "" : fmt.pts(r.proj)), num: true, cls: "dim" },
       { label: "Pts", render: (r) => fmt.pts(r.pts), num: true, cls: "win" },
@@ -48,10 +53,11 @@ page("Box Score", async (main) => {
         ["Score", fmt.pts(t.points)],
         ["Projected", fmt.pts(t.proj)],
         ["Max PF", `${fmt.pts(t.max_points)} (${fmt.eff(t.points / t.max_points)} efficiency)`],
+        ["Out injured", t.injured?.length ? t.injured.flatMap((x, i) => [i ? ", " : "", pLink(x.player, x.name), h("small", { class: "dim" }, ` (${x.kind})`)]) : null],
       ]),
-      h("h3", {}, "Starters"), lines(t.starters, true),
-      h("h3", {}, "Bench"), lines(t.bench)))),
-    h("p", { class: "note" }, "Points are as scored under the iooi scoring rules of that week. Bench includes taxi squad and injured reserve players; Sleeper does not record those slots week by week."));
+      h("h3", {}, "Starters"), lines(t.starters, true, t),
+      h("h3", {}, "Bench"), lines(t.bench, false, t)))),
+    h("p", { class: "note" }, ["Points are as scored under the iooi scoring rules of that week. Bench includes taxi squad and injured reserve players; Sleeper does not record those slots week by week. A tag such as IR or Out marks a player who missed the week to injury (see ", h("a", { href: "injuries.html" }, "injuries"), ")."]));
   return `${title}, ${season} Week ${g.week}`;
 });
 </script>

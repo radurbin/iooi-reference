@@ -141,6 +141,13 @@ page("Glossary", async (main) => {
       ["Auto-Sub", "", "Sleeper's automatic substitution: a manager names a bench player to come in for a starter who does not play. Sleeper keeps listing the original starter; iooi Reference puts the substitute in the lineup once the starter has sat and the substitute has played, and, after the week is final, only if Sleeper's official score counted him."],
     ]), h("p", { class: "note" }, "Kickers and defenses are picked up and dropped week to week, so they have their own pickup list and are left out of the player journeys.")),
 
+    section("Injuries", terms([
+      ["Games missed to injury", "Missed", ["An NFL game his team played while he sat out hurt: on injured reserve (IR), the physically unable to perform list (PUP) or the non-football injury list (NFI), or after being listed Out, Doubtful or Questionable, or inactive on game day with an injury. Byes, healthy scratches, suspensions and illnesses on the reserve list do not count, nor do report lines that are not injuries (rest, personal matters). Weeks 1-17. From nflverse's weekly NFL roster statuses and the official injury reports. See ", a("injuries.html", "Injuries"), "."]],
+      ["Team injuries", "", "For a team, franchise or manager: the games missed by every player on the roster that week, starters, bench, taxi and IR alike."],
+      ["VOR lost to injury", "VOR Lost", "What the missed games cost, over a replacement-level fill-in: for each one, the player's points per game that season (filled in with the season before when he played fewer than four games) minus the replacement level at his position, the same one used for VOR and WAR. A starter out for a month counts for far more than a backup out all year, who counts for little or nothing."],
+      ["Injury stint", "", "Games missed in a row within a season; his team's bye weeks are skipped and do not end it."],
+      ["Out now", "", "Sleeper's current injury designation (IR, PUP, Out, Doubtful or Questionable) for a player on an iooi roster."],
+    ])),
     section("Streaks and Milestones", terms([
       ["Team Streak", "", "Consecutive wins or losses in regular-season and Dynasty Playoff games. Toilet Bowl games are skipped."],
       ["Player Streak", "", "Consecutive games in an iooi starting lineup, in any lineup slot and for any franchise. His NFL team's bye week is skipped: it neither adds to the streak nor ends it. A week on the bench, or off every iooi roster, ends it."],

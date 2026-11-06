@@ -1,1 +1,458 @@
-{"id":"5121","name":"Braxton Berrios","pos":"WR","nfl_team":"NYG","birth_date":"1995-10-06","honors":[],"votes":[],"college":"Miami (FL)","rookie_year":2018,"height":"69","weight":"190","drafted":null,"career":[{"season":"2023","franchise":4,"team":"Cooper Scoopers","nfl":"MIA","g":1,"gs":0,"pts":0.0,"bench_pts":3.3,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0}],"totals":{"g":1,"gs":0,"pts":0.0,"bench_pts":3.3,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0},"nfl":[{"season":"2023","team":"MIA","g":15,"pts":55.0,"rank":102},{"season":"2024","team":"MIA","g":6,"pts":0.0,"rank":213},{"season":"2025","team":"HOU","g":4,"pts":9.7,"rank":180},{"season":"2026","team":"NYG","g":4,"pts":0.0,"rank":186}],"history":[{"date":"2023-10-03","type":"claimed","to":4,"to_team":"Cooper Scoopers","from":null,"from_team":null,"trade":null},{"date":"2023-10-09","type":"released","from":4,"from_team":"Cooper Scoopers"}],"nicknames":[],"log":[{"season":"2023","week":5,"date":"2023-10-05","game":"2023-05-4-10","kind":"regular","franchise":4,"team":"Cooper Scoopers","opp":10,"opp_team":"You Like That?","slot":null,"started":false,"pts":3.3,"proj":8.08,"won":false}],"status":{"code":"free_agent"},"split_draft":null,"ranks":[{"group":"Career","scope":"League","stat":"Bench Points","value":3.3,"digits":2,"rank":480,"of":506}],"similar":[],"hof":null,"black_ink":null,"records_held":[]}
+{
+ "id": "5121",
+ "name": "Braxton Berrios",
+ "pos": "WR",
+ "nfl_team": "NYG",
+ "birth_date": "1995-10-06",
+ "honors": [],
+ "votes": [],
+ "college": "Miami (FL)",
+ "rookie_year": 2018,
+ "height": "69",
+ "weight": "190",
+ "drafted": null,
+ "career": [
+  {
+   "season": "2023",
+   "franchise": 4,
+   "team": "Cooper Scoopers",
+   "nfl": "MIA",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 3.3,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
+  }
+ ],
+ "totals": {
+  "g": 1,
+  "gs": 0,
+  "pts": 0.0,
+  "bench_pts": 3.3,
+  "ppg": null,
+  "best": null,
+  "wins": 0,
+  "paa": 0.0,
+  "vor": 0.0,
+  "war": 0.0
+ },
+ "nfl": [
+  {
+   "season": "2023",
+   "team": "MIA",
+   "g": 15,
+   "pts": 55.0,
+   "rank": 102
+  },
+  {
+   "season": "2024",
+   "team": "MIA",
+   "g": 6,
+   "pts": 0.0,
+   "rank": 213
+  },
+  {
+   "season": "2025",
+   "team": "HOU",
+   "g": 4,
+   "pts": 9.7,
+   "rank": 180
+  },
+  {
+   "season": "2026",
+   "team": "NYG",
+   "g": 4,
+   "pts": 0.0,
+   "rank": 186
+  }
+ ],
+ "history": [
+  {
+   "date": "2023-10-03",
+   "type": "claimed",
+   "to": 4,
+   "to_team": "Cooper Scoopers",
+   "from": null,
+   "from_team": null,
+   "trade": null
+  },
+  {
+   "date": "2023-10-09",
+   "type": "released",
+   "from": 4,
+   "from_team": "Cooper Scoopers"
+  }
+ ],
+ "nicknames": [],
+ "log": [
+  {
+   "season": "2023",
+   "week": 5,
+   "date": "2023-10-05",
+   "game": "2023-05-4-10",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Cooper Scoopers",
+   "opp": 10,
+   "opp_team": "You Like That?",
+   "slot": null,
+   "started": false,
+   "pts": 3.3,
+   "proj": 8.08,
+   "won": false
+  }
+ ],
+ "status": {
+  "code": "free_agent"
+ },
+ "split_draft": null,
+ "ranks": [
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Bench Points",
+   "value": 3.3,
+   "digits": 2,
+   "rank": 480,
+   "of": 506
+  }
+ ],
+ "similar": [],
+ "hof": null,
+ "black_ink": null,
+ "records_held": [],
+ "injuries": {
+  "seasons": [
+   {
+    "season": "2023",
+    "nfl": "MIA",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     11
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 11,
+      "kind": "Questionable",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2024",
+    "nfl": "MIA",
+    "missed": 10,
+    "lost": 0.0,
+    "injuries": [
+     "Ankle"
+    ],
+    "weeks": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 8,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 13,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 14,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 15,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 16,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 17,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2025",
+    "nfl": "HOU",
+    "missed": 5,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring",
+     "Quadricep"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     11,
+     12
+    ],
+    "kinds": [
+     "Inactive",
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 3,
+      "kind": "Inactive",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
+      "kind": "Inactive",
+      "injury": "Quadricep",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
+      "kind": "Inactive",
+      "injury": "Quadricep",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2026",
+    "nfl": "NYG",
+    "missed": 3,
+    "lost": 0.0,
+    "injuries": [
+     "Foot"
+    ],
+    "weeks": [
+     5,
+     6,
+     7
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 5,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   }
+  ],
+  "stints": [
+   {
+    "season": "2023",
+    "from": 11,
+    "to": 11,
+    "weeks": [
+     11
+    ],
+    "missed": 1,
+    "nfl": "MIA",
+    "injury": "Hamstring",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2024",
+    "from": 8,
+    "to": 17,
+    "weeks": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "missed": 10,
+    "nfl": "MIA",
+    "injury": "Ankle",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2025",
+    "from": 1,
+    "to": 3,
+    "weeks": [
+     1,
+     2,
+     3
+    ],
+    "missed": 3,
+    "nfl": "HOU",
+    "injury": "Hamstring",
+    "kinds": [
+     "Inactive",
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2025",
+    "from": 11,
+    "to": 12,
+    "weeks": [
+     11,
+     12
+    ],
+    "missed": 2,
+    "nfl": "HOU",
+    "injury": "Quadricep",
+    "kinds": [
+     "Inactive"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 5,
+    "to": 7,
+    "weeks": [
+     5,
+     6,
+     7
+    ],
+    "missed": 3,
+    "nfl": "NYG",
+    "injury": "Foot",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   }
+  ],
+  "now": null
+ }
+}

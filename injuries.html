@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Injuries | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://dynastyiooi.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Injuries", async (main) => {
+  const d = await load("injuries");
+  const pts = (v) => fmt.pts(v);
+  const teams = (r) => r.teams.flatMap((x, i) => [i ? ", " : "", tsLink(r.season, x.franchise, x.team)]);
+  const player = [{ label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" }, { label: "Pos", value: (r) => r.pos, cls: "c" }];
+  const lostCol = { label: "VOR Lost", value: (r) => r.lost, render: (r) => pts(r.lost), num: true, title: LOST_TIP };
+  const rk = { label: "Rk", value: (r) => r.rk, num: true };
+
+  // Team injuries for one season at a time.
+  const seasonBox = h("div");
+  const seasons = d.seasons.filter((s) => d.team_seasons.some((r) => r.season === s && r.games));
+  const teamCols = [
+    { label: "Rk", value: (r) => r.rank, num: true, title: "Rank by VOR lost: 1st is the hardest hit" },
+    { label: "Team", value: (r) => r.team, render: (r) => tsLink(r.season, r.franchise, r.team), cls: "win" },
+    { label: "W-L", value: (r) => r.w - r.l, render: (r) => `${r.w}-${r.l}`, num: true },
+    { label: "Finish", value: (r) => r.finish ?? 99, render: (r) => (r.finish ? ordinal(r.finish) : ""), num: true },
+    { label: "Games", value: (r) => r.games, num: true, title: "Games missed to injury by players on the roster that week" },
+    { label: "Players", value: (r) => r.players, num: true, title: "Players who missed at least one game" },
+    { label: "VOR Lost", value: (r) => r.lost, render: (r) => pts(r.lost), num: true, title: LOST_TIP },
+    { label: "Hardest Hit", value: (r) => r.worst?.lost ?? 0, render: (r) => (r.worst ? [pLink(r.worst.player, r.worst.name), h("small", { class: "dim" }, ` ${r.worst.missed} g, ${pts(r.worst.lost)}`)] : ""), title: "The player whose absence cost the most points" },
+  ];
+  const drawSeason = (y) => {
+    const rows = d.team_seasons.filter((r) => r.season === y).sort((a, b) => a.rank - b.rank);
+    const done = y !== d.current ? "" : d.latest?.season === y ? ` Through week ${d.latest.week}.` : "";
+    seasonBox.replaceChildren(
+      h("p", {}, h("b", {}, "Season: "), seasons.flatMap((s, i) => [i ? " · " : "", s === y ? h("b", {}, s) : h("a", { href: "#", onclick: (e) => { e.preventDefault(); drawSeason(s); } }, s)])),
+      statTable({ rows, columns: teamCols }),
+      h("p", { class: "note" }, `Every player on the roster that week counts: starters, bench, taxi and IR.${done} Finish is the final place for a completed season. Click a column to sort.`));
+  };
+  if (seasons.length) drawSeason(seasons.at(-1));
+
+  const seasonRows = (rows) => statTable({ rows: rank(rows, (r) => r.missed), columns: [rk, ...player,
+    { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) },
+    { label: "Team", render: teams },
+    { label: "Missed", value: (r) => r.missed, num: true, cls: "win", title: "Games missed to injury while on an iooi roster" },
+    { label: "Weeks", render: (r) => weeksText(r.weeks) },
+    { label: "Injury", render: (r) => r.injuries.join(", ") },
+    { label: "Status", render: (r) => injuryKinds(r.kinds) },
+    lostCol] });
+  const careerRows = (rows, key) => statTable({ rows: rank(rows, (r) => r[key]), columns: [rk, ...player,
+    { label: "Missed", value: (r) => r.missed, num: true, cls: key === "missed" ? "win" : null, title: "Games missed to injury while on an iooi roster" },
+    { label: "Seasons", value: (r) => r.seasons, num: true, title: "Seasons with a game missed" },
+    { label: "Injuries", render: (r) => r.injuries.slice(0, 4).join(", ") },
+    { ...lostCol, cls: key === "lost" ? "win" : null }] });
+  const out = d.out_now.filter((r) => r.status !== "Questionable");
+  const maybe = d.out_now.filter((r) => r.status === "Questionable");
+
+  main.append(
+    h("h1", {}, "Dynasty iooi Injuries"),
+    h("p", { class: "note" }, `${INJURY_NOTE} Since 2023, players on iooi rosters have missed ${d.totals.games.toLocaleString()} games to injury, worth about ${Math.round(d.totals.lost).toLocaleString()} points over replacement (VOR lost: what each missed game cost over a replacement-level fill-in, so losing a starter counts for far more than losing a backup). Kickers and defenses are left out. Injury data: nflverse weekly NFL rosters and official injury reports; current statuses from Sleeper.`),
+    section("Out Now", out.length ? statTable({
+      rows: out,
+      columns: [...player,
+        { label: "Team", value: (r) => r.team, render: (r) => fLink(r.franchise, r.team) },
+        { label: "Status", value: (r) => r.status, title: "Sleeper's injury designation today" },
+        { label: "Injury", value: (r) => r.injury },
+        { label: "In a Row", value: (r) => r.streak, num: true, title: "Games missed in a row through the latest scored week" },
+        { label: `${d.current} Missed`, value: (r) => r.season_missed, num: true, title: "Games missed to injury this season, on any roster" }],
+    }) : h("p", {}, "Nobody on an iooi roster is listed as out."),
+      maybe.length ? h("p", {}, h("b", {}, `Questionable (${maybe.length}): `), maybe.flatMap((r, i) => [i ? ", " : "", pLink(r.player, r.name), h("small", { class: "dim" }, ` ${r.pos}, ${r.team}${r.injury ? `, ${r.injury.toLowerCase()}` : ""}`)])) : null,
+      h("p", { class: "note" }, "Players on iooi rosters listed on IR, PUP, Out or Doubtful by Sleeper, as of the latest refresh, then those listed Questionable. Click a column to sort.")),
+    seasons.length ? section("Team Injuries by Season", seasonBox) : null,
+    section("Most Injured Team Seasons", statTable({ rows: rank([...d.team_seasons].sort((a, b) => b.lost - a.lost).slice(0, 15), (r) => r.lost),
+      columns: [rk, { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) }, ...teamCols.slice(1)] }),
+      h("p", { class: "note" }, "By VOR lost: value over replacement lost to injury. The current season is still adding up.")),
+    section("Franchise Totals", statTable({
+      rows: rank([...d.franchises].sort((a, b) => b.lost - a.lost), (r) => r.lost),
+      columns: [rk, { label: "Franchise", value: (r) => r.name, render: (r) => fLink(r.franchise), cls: "win" },
+        { label: "Seasons", value: (r) => r.seasons, num: true },
+        { label: "Games", value: (r) => r.games, num: true, title: "Games missed to injury by players on the roster" },
+        { label: "VOR Lost", value: (r) => r.lost, render: (r) => pts(r.lost), num: true, title: LOST_TIP },
+        { label: "Per Season", value: (r) => r.per_season, render: (r) => pts(r.per_season), num: true },
+        { label: "Worst", value: (r) => r.worst, render: (r) => (r.worst ? tsLink(r.worst, r.franchise, r.worst) : ""), title: "Season with the most VOR lost" }] })),
+    section("Manager Totals", statTable({
+      rows: rank(mergeManagers([...d.managers].sort((a, b) => b.lost - a.lost), "key", { ignore: ["name"] }), (r) => r.lost),
+      columns: [rk, mgrCol(), { label: "Seasons", value: (r) => r.seasons, num: true }, { label: "Games", value: (r) => r.games, num: true },
+        { label: "VOR Lost", value: (r) => r.lost, render: (r) => pts(r.lost), num: true, title: LOST_TIP },
+        { label: "Per Season", value: (r) => r.per_season, render: (r) => pts(r.per_season), num: true }] }),
+      h("p", { class: "note" }, "Each season a manager ran, in full, including co-managed ones.")),
+    section("Players: Single Season", h("h3", {}, "Most Games Missed"), seasonRows(d.player_seasons),
+      h("h3", {}, "Most VOR Lost"), statTable({ rows: rank(d.player_seasons_lost, (r) => r.lost), columns: [rk, ...player,
+        { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) }, { label: "Team", render: teams },
+        { label: "Missed", value: (r) => r.missed, num: true }, { label: "Injury", render: (r) => r.injuries.join(", ") }, { ...lostCol, cls: "win" }] }),
+      h("p", { class: "note" }, "Games missed while on an iooi roster.")),
+    section("Players: Career", h("h3", {}, "Most Games Missed"), careerRows(d.player_careers, "missed"), h("h3", {}, "Most VOR Lost"), careerRows(d.player_careers_lost, "lost"),
+      h("p", { class: "note" }, "Games missed while on an iooi roster, since 2023.")),
+    section("Longest Injury Stints", statTable({ rows: rank(d.stints, (r) => r.missed), columns: [rk, ...player,
+      { label: "Season", value: (r) => r.season, render: (r) => sLink(r.season) },
+      { label: "Weeks", value: (r) => r.from, render: (r) => (r.from === r.to ? `${r.from}` : `${r.from}-${r.to}`) },
+      { label: "Missed", value: (r) => r.missed, num: true, cls: "win", title: "Games missed in a row; his team's byes are skipped" },
+      { label: "Injury", value: (r) => r.injury }, { label: "Status", render: (r) => injuryKinds(r.kinds) },
+      { label: "Team", render: teams }] }),
+      h("p", { class: "note" }, "Games missed in a row within a season, by a player on an iooi roster for at least one of them. A full season is 16 games once the bye is skipped.")),
+    section("Most Common Injuries", statTable({ rows: rank(d.injuries, (r) => r.games), columns: [rk,
+      { label: "Injury", value: (r) => r.injury, cls: "win" },
+      { label: "Games", value: (r) => r.games, num: true, title: "Games missed with it, by players on iooi rosters" },
+      { label: "Players", value: (r) => r.players, num: true },
+      { label: "Stints", value: (r) => r.stints, num: true, title: "Separate absences" },
+      { label: "Games/Stint", value: (r) => (r.stints ? r.games / r.stints : 0), render: (r) => (r.stints ? (r.games / r.stints).toFixed(1) : ""), num: true }] }),
+      h("p", { class: "note" }, "By body part, as named on the NFL injury report (a knee ACL tear counts as Knee). A stretch on injured reserve takes the injury named during it or just before it; the few the report never named were filled in by hand.")),
+    section("By Position", statTable({ rows: d.positions, sortable: false, columns: [
+      { label: "Season", render: (r) => sLink(r.season) },
+      ...["QB", "RB", "WR", "TE"].flatMap((pos) => [{ label: `${pos} G`, render: (r) => r[pos].games, num: true, title: `Games missed by ${pos}s on iooi rosters` },
+        { label: `${pos} Lost`, render: (r) => pts(r[pos].lost), num: true, title: `VOR lost by ${pos}s` }])] })),
+    section("Games Missed by Week", statTable({ rows: Object.entries(d.weekly).map(([season, weeks]) => ({ season, weeks })), sortable: false, columns: [
+      { label: "Season", render: (r) => sLink(r.season) },
+      ...Array.from({ length: 17 }, (_, i) => ({ label: `${i + 1}`, render: (r) => r.weeks[i] || "", num: true, title: `Week ${i + 1}` })),
+      { label: "Total", render: (r) => r.weeks.reduce((a, b) => a + b, 0), num: true, cls: "win" }] }),
+      h("p", { class: "note" }, "Games missed to injury each week by players on iooi rosters, across the league.")));
+});
+</script>
+</body>
+</html>

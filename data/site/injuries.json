@@ -1,0 +1,6141 @@
+{
+ "seasons": [
+  "2023",
+  "2024",
+  "2025",
+  "2026"
+ ],
+ "current": "2026",
+ "latest": {
+  "season": "2026",
+  "week": 9
+ },
+ "out_now": [
+  {
+   "player": "13302",
+   "name": "Adam Randall",
+   "pos": "RB",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "status": "IR",
+   "injury": "Neck",
+   "since": null,
+   "streak": 9,
+   "season_missed": 9
+  },
+  {
+   "player": "8205",
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "IR",
+   "injury": "Back",
+   "since": null,
+   "streak": 7,
+   "season_missed": 7
+  },
+  {
+   "player": "12484",
+   "name": "Jayden Higgins",
+   "pos": "WR",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "status": "IR",
+   "injury": "Knee - ACL",
+   "since": null,
+   "streak": 7,
+   "season_missed": 7
+  },
+  {
+   "player": "13281",
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "IR",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 7,
+   "season_missed": 7
+  },
+  {
+   "player": "8142",
+   "name": "Alec Pierce",
+   "pos": "WR",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "status": "IR",
+   "injury": "Heel",
+   "since": null,
+   "streak": 6,
+   "season_missed": 6
+  },
+  {
+   "player": "13417",
+   "name": "De'Zhaun Stribling",
+   "pos": "WR",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "status": "IR",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 6,
+   "season_missed": 6
+  },
+  {
+   "player": "10222",
+   "name": "Jayden Reed",
+   "pos": "WR",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "IR",
+   "injury": "Neck",
+   "since": null,
+   "streak": 6,
+   "season_missed": 6
+  },
+  {
+   "player": "12508",
+   "name": "Jaxson Dart",
+   "pos": "QB",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "IR",
+   "injury": "Knee - Meniscus",
+   "since": null,
+   "streak": 5,
+   "season_missed": 5
+  },
+  {
+   "player": "11583",
+   "name": "Jonathon Brooks",
+   "pos": "RB",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "IR",
+   "injury": "Abdomen",
+   "since": null,
+   "streak": 5,
+   "season_missed": 5
+  },
+  {
+   "player": "12487",
+   "name": "Terrance Ferguson",
+   "pos": "TE",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "IR",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 5,
+   "season_missed": 5
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "IR",
+   "injury": "Knee - ACL",
+   "since": null,
+   "streak": 4,
+   "season_missed": 4
+  },
+  {
+   "player": "6819",
+   "name": "Michael Pittman Jr.",
+   "pos": "WR",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "IR",
+   "injury": "Foot",
+   "since": null,
+   "streak": 4,
+   "season_missed": 5
+  },
+  {
+   "player": "12492",
+   "name": "Pat Bryant",
+   "pos": "WR",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "IR",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 4,
+   "season_missed": 4
+  },
+  {
+   "player": "7543",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "status": "IR",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 4,
+   "season_missed": 4
+  },
+  {
+   "player": "6904",
+   "name": "Jalen Hurts",
+   "pos": "QB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "IR",
+   "injury": "Calf",
+   "since": null,
+   "streak": 3,
+   "season_missed": 3
+  },
+  {
+   "player": "4881",
+   "name": "Lamar Jackson",
+   "pos": "QB",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "status": "IR",
+   "injury": "Thumb",
+   "since": null,
+   "streak": 3,
+   "season_missed": 3
+  },
+  {
+   "player": "11630",
+   "name": "Roman Wilson",
+   "pos": "WR",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "IR",
+   "injury": "Finger",
+   "since": null,
+   "streak": 3,
+   "season_missed": 3
+  },
+  {
+   "player": "2133",
+   "name": "Davante Adams",
+   "pos": "WR",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "IR",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "13287",
+   "name": "Jeremiyah Love",
+   "pos": "RB",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "status": "IR",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "status": "IR",
+   "injury": "Shoulder",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "12533",
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "IR",
+   "injury": "Groin",
+   "since": null,
+   "streak": 1,
+   "season_missed": 1
+  },
+  {
+   "player": "12489",
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "IR",
+   "injury": "Knee",
+   "since": null,
+   "streak": 1,
+   "season_missed": 2
+  },
+  {
+   "player": "5927",
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "status": "IR",
+   "injury": "Knee",
+   "since": null,
+   "streak": 1,
+   "season_missed": 2
+  },
+  {
+   "player": "12536",
+   "name": "Jaylin Noel",
+   "pos": "WR",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "IR",
+   "injury": "Toe",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "8154",
+   "name": "Brian Robinson Jr.",
+   "pos": "RB",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "status": "Out",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "5892",
+   "name": "David Montgomery",
+   "pos": "RB",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "status": "Out",
+   "injury": "Groin",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "5859",
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "Out",
+   "injury": "Knee",
+   "since": null,
+   "streak": 1,
+   "season_missed": 5
+  },
+  {
+   "player": "13279",
+   "name": "Carnell Tate",
+   "pos": "WR",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "Out",
+   "injury": "Shoulder",
+   "since": null,
+   "streak": 1,
+   "season_missed": 1
+  },
+  {
+   "player": "12529",
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "Out",
+   "injury": "Illness",
+   "since": null,
+   "streak": 1,
+   "season_missed": 2
+  },
+  {
+   "player": "9508",
+   "name": "Tyjae Spears",
+   "pos": "RB",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Out",
+   "injury": "Knee",
+   "since": null,
+   "streak": 1,
+   "season_missed": 1
+  },
+  {
+   "player": "8146",
+   "name": "Garrett Wilson",
+   "pos": "WR",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "Out",
+   "injury": "Concussion",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "11588",
+   "name": "Jawhar Jordan",
+   "pos": "RB",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "status": "Out",
+   "injury": "",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "4943",
+   "name": "Sam Darnold",
+   "pos": "QB",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "Out",
+   "injury": "Quadriceps",
+   "since": null,
+   "streak": 0,
+   "season_missed": 1
+  },
+  {
+   "player": "13320",
+   "name": "Zachariah Branch",
+   "pos": "WR",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "Out",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "8122",
+   "name": "Zonovan Knight",
+   "pos": "RB",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "Out",
+   "injury": "Concussion",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "12534",
+   "name": "Kyle Monangai",
+   "pos": "RB",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "status": "Questionable",
+   "injury": "Toe",
+   "since": null,
+   "streak": 4,
+   "season_missed": 4
+  },
+  {
+   "player": "7525",
+   "name": "DeVonta Smith",
+   "pos": "WR",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Questionable",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 2,
+   "season_missed": 4
+  },
+  {
+   "player": "5872",
+   "name": "Deebo Samuel Sr.",
+   "pos": "WR",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "status": "Questionable",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "5854",
+   "name": "Drew Lock",
+   "pos": "QB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "Questionable",
+   "injury": "Elbow",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "12514",
+   "name": "Emeka Egbuka",
+   "pos": "WR",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "Questionable",
+   "injury": "Foot",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
+   "player": "2216",
+   "name": "Mike Evans",
+   "pos": "WR",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "Questionable",
+   "injury": "Achilles",
+   "since": null,
+   "streak": 1,
+   "season_missed": 1
+  },
+  {
+   "player": "8676",
+   "name": "Rashid Shaheed",
+   "pos": "WR",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "status": "Questionable",
+   "injury": "Knee",
+   "since": null,
+   "streak": 1,
+   "season_missed": 1
+  },
+  {
+   "player": "7547",
+   "name": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "Questionable",
+   "injury": "Ribs",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "Questionable",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "4034",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "status": "Questionable",
+   "injury": "Calf",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "8167",
+   "name": "Christian Watson",
+   "pos": "WR",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Questionable",
+   "injury": "",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "4983",
+   "name": "DJ Moore",
+   "pos": "WR",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Questionable",
+   "injury": "",
+   "since": null,
+   "streak": 0,
+   "season_missed": 2
+  },
+  {
+   "player": "10236",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "status": "Questionable",
+   "injury": "Chest",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "13347",
+   "name": "Demond Claiborne",
+   "pos": "RB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "Questionable",
+   "injury": "Knee",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "4017",
+   "name": "Deshaun Watson",
+   "pos": "QB",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "Questionable",
+   "injury": "Concussion",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "8137",
+   "name": "George Pickens",
+   "pos": "WR",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "Questionable",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "3214",
+   "name": "Hunter Henry",
+   "pos": "TE",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "Questionable",
+   "injury": "Foot",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "8110",
+   "name": "Jake Ferguson",
+   "pos": "TE",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Questionable",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "13405",
+   "name": "Kaytron Allen",
+   "pos": "RB",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "status": "Questionable",
+   "injury": "Quadriceps",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "11637",
+   "name": "Keon Coleman",
+   "pos": "WR",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "status": "Questionable",
+   "injury": "Shoulder",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "Questionable",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 0,
+   "season_missed": 1
+  },
+  {
+   "player": "11632",
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "status": "Questionable",
+   "injury": "",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "11581",
+   "name": "MarShawn Lloyd",
+   "pos": "RB",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "status": "Questionable",
+   "injury": "Knee",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "10232",
+   "name": "Michael Wilson",
+   "pos": "WR",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "Questionable",
+   "injury": "Ribs",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "4866",
+   "name": "Saquon Barkley",
+   "pos": "RB",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "Questionable",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 0,
+   "season_missed": 2
+  },
+  {
+   "player": "8135",
+   "name": "Treylon Burks",
+   "pos": "WR",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "status": "Questionable",
+   "injury": "Foot",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "3321",
+   "name": "Tyreek Hill",
+   "pos": "WR",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "Questionable",
+   "injury": "Knee - ACL",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  }
+ ],
+ "player_seasons": [
+  {
+   "player": "4018",
+   "name": "Joe Mixon",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 16,
+   "lost": 153.92,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "NFI"
+   ],
+   "teams": [
+    {
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "season": "2024",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Knee - meniscus"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "11619",
+   "name": "Ja'Lynn Polk",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "11567",
+   "name": "Jordan Travis",
+   "pos": "QB",
+   "season": "2024",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Leg"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "NFI"
+   ],
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "7601",
+   "name": "Rondale Moore",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ]
+  },
+  {
+   "player": "9502",
+   "name": "Tank Dell",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "PUP"
+   ],
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    },
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ]
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "season": "2023",
+   "missed": 15,
+   "lost": 16.8,
+   "injuries": [
+    "Achilles"
+   ],
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ]
+  },
+  {
+   "player": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 14,
+   "lost": 30.66,
+   "injuries": [
+    "Shoulder"
+   ],
+   "weeks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "4988",
+   "name": "Nick Chubb",
+   "pos": "RB",
+   "season": "2023",
+   "missed": 14,
+   "lost": 13.58,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ]
+  },
+  {
+   "player": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "season": "2023",
+   "missed": 14,
+   "lost": 0.0,
+   "injuries": [
+    "Achilles"
+   ],
+   "weeks": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "teams": [
+    {
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "5848",
+   "name": "Marquise Brown",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 14,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "teams": [
+    {
+     "franchise": 7,
+     "team": "young sexy central"
+    }
+   ]
+  },
+  {
+   "player": "11630",
+   "name": "Roman Wilson",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 14,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Inactive",
+    "Out",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "4137",
+   "name": "James Conner",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 13,
+   "lost": 84.76,
+   "injuries": [
+    "Foot"
+   ],
+   "weeks": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    },
+    {
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "4068",
+   "name": "Mike Williams",
+   "pos": "WR",
+   "season": "2023",
+   "missed": 13,
+   "lost": 56.94,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "7528",
+   "name": "Najee Harris",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 13,
+   "lost": 25.61,
+   "injuries": [
+    "Eye"
+   ],
+   "weeks": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "6803",
+   "name": "Brandon Aiyuk",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 13,
+   "lost": 0.0,
+   "injuries": [
+    "Knee - ACL, MCL"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "kinds": [
+    "PUP"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ]
+  },
+  {
+   "player": "11618",
+   "name": "Jalen McMillan",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 13,
+   "lost": 0.0,
+   "injuries": [
+    "Neck"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "11583",
+   "name": "Jonathon Brooks",
+   "pos": "RB",
+   "season": "2024",
+   "missed": 13,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "NFI",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ]
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 12,
+   "lost": 54.36,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "11632",
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 12,
+   "lost": 53.16,
+   "injuries": [
+    "Shoulder"
+   ],
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "9229",
+   "name": "Anthony Richardson Sr.",
+   "pos": "QB",
+   "season": "2023",
+   "missed": 12,
+   "lost": 41.4,
+   "injuries": [
+    "Concussion"
+   ],
+   "weeks": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    }
+   ]
+  },
+  {
+   "player": "3321",
+   "name": "Tyreek Hill",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 12,
+   "lost": 33.36,
+   "injuries": [
+    "Oblique"
+   ],
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ]
+  },
+  {
+   "player": "4034",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "season": "2024",
+   "missed": 12,
+   "lost": 33.12,
+   "injuries": [
+    "Calf",
+    "Achilles"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 4,
+     "team": "Cooper Scoopers"
+    },
+    {
+     "franchise": 4,
+     "team": "Win one game"
+    }
+   ]
+  },
+  {
+   "player": "11589",
+   "name": "Trey Benson",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 12,
+   "lost": 8.76,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ]
+  },
+  {
+   "player": "11576",
+   "name": "Braelon Allen",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 12,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  }
+ ],
+ "player_seasons_lost": [
+  {
+   "player": "4018",
+   "name": "Joe Mixon",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 16,
+   "lost": 153.92,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "NFI"
+   ],
+   "teams": [
+    {
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "4137",
+   "name": "James Conner",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 13,
+   "lost": 84.76,
+   "injuries": [
+    "Foot"
+   ],
+   "weeks": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    },
+    {
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "8183",
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "season": "2025",
+   "missed": 8,
+   "lost": 80.32,
+   "injuries": [
+    "Toe",
+    "Shoulder"
+   ],
+   "weeks": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "4037",
+   "name": "Chris Godwin Jr.",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 9,
+   "lost": 71.91,
+   "injuries": [
+    "Neck"
+   ],
+   "weeks": [
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 7,
+     "team": "young sexy central"
+    }
+   ]
+  },
+  {
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 8,
+   "lost": 58.96,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "4068",
+   "name": "Mike Williams",
+   "pos": "WR",
+   "season": "2023",
+   "missed": 13,
+   "lost": 56.94,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 12,
+   "lost": 54.36,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "11632",
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 12,
+   "lost": 53.16,
+   "injuries": [
+    "Shoulder"
+   ],
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "12507",
+   "name": "Omarion Hampton",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 7,
+   "lost": 46.55,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "11566",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "season": "2025",
+   "missed": 9,
+   "lost": 45.54,
+   "injuries": [
+    "Elbow",
+    "Knee",
+    "Hamstring"
+   ],
+   "weeks": [
+    3,
+    4,
+    8,
+    10,
+    11,
+    13,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "teams": [
+    {
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "season": "2025",
+   "missed": 11,
+   "lost": 44.88,
+   "injuries": [
+    "Foot"
+   ],
+   "weeks": [
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "9484",
+   "name": "Tucker Kraft",
+   "pos": "TE",
+   "season": "2025",
+   "missed": 8,
+   "lost": 44.88,
+   "injuries": [
+    "Elbow"
+   ],
+   "weeks": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ]
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "season": "2023",
+   "missed": 6,
+   "lost": 43.08,
+   "injuries": [
+    "Shoulder",
+    "Knee"
+   ],
+   "weeks": [
+    1,
+    6,
+    7,
+    8,
+    9,
+    12
+   ],
+   "kinds": [
+    "IR",
+    "Inactive",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    },
+    {
+     "franchise": 4,
+     "team": "Cooper Scoopers"
+    },
+    {
+     "franchise": 5,
+     "team": "your gibbs small"
+    }
+   ]
+  },
+  {
+   "player": "6794",
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "season": "2023",
+   "missed": 7,
+   "lost": 42.84,
+   "injuries": [
+    "Hamstring"
+   ],
+   "weeks": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "8150",
+   "name": "Kyren Williams",
+   "pos": "RB",
+   "season": "2023",
+   "missed": 4,
+   "lost": 42.68,
+   "injuries": [
+    "Ankle"
+   ],
+   "weeks": [
+    7,
+    8,
+    9,
+    11
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "6770",
+   "name": "Joe Burrow",
+   "pos": "QB",
+   "season": "2025",
+   "missed": 9,
+   "lost": 42.39,
+   "injuries": [
+    "Toe"
+   ],
+   "weeks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ]
+  },
+  {
+   "player": "9229",
+   "name": "Anthony Richardson Sr.",
+   "pos": "QB",
+   "season": "2023",
+   "missed": 12,
+   "lost": 41.4,
+   "injuries": [
+    "Concussion"
+   ],
+   "weeks": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    }
+   ]
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "season": "2026",
+   "missed": 4,
+   "lost": 40.44,
+   "injuries": [
+    "Knee - ACL"
+   ],
+   "weeks": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
+   "player": "11584",
+   "name": "Bucky Irving",
+   "pos": "RB",
+   "season": "2025",
+   "missed": 7,
+   "lost": 39.2,
+   "injuries": [
+    "Foot",
+    "Shoulder"
+   ],
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "4217",
+   "name": "George Kittle",
+   "pos": "TE",
+   "season": "2025",
+   "missed": 6,
+   "lost": 38.82,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "6801",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 5,
+   "lost": 38.25,
+   "injuries": [
+    "Quadricep",
+    "Hamstring"
+   ],
+   "weeks": [
+    1,
+    2,
+    8,
+    9,
+    10
+   ],
+   "kinds": [
+    "Doubtful",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "9493",
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "season": "2024",
+   "missed": 5,
+   "lost": 35.4,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 7,
+     "team": "young sexy central"
+    }
+   ]
+  },
+  {
+   "player": "3321",
+   "name": "Tyreek Hill",
+   "pos": "WR",
+   "season": "2025",
+   "missed": 12,
+   "lost": 33.36,
+   "injuries": [
+    "Oblique"
+   ],
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ]
+  },
+  {
+   "player": "4034",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "season": "2024",
+   "missed": 12,
+   "lost": 33.12,
+   "injuries": [
+    "Calf",
+    "Achilles"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    14,
+    15,
+    16,
+    17
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 4,
+     "team": "Cooper Scoopers"
+    },
+    {
+     "franchise": 4,
+     "team": "Win one game"
+    }
+   ]
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "season": "2023",
+   "missed": 9,
+   "lost": 32.85,
+   "injuries": [
+    "Knee"
+   ],
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "kinds": [
+    "PUP"
+   ],
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  }
+ ],
+ "player_careers": [
+  {
+   "player": "9502",
+   "name": "Tank Dell",
+   "pos": "WR",
+   "missed": 29,
+   "lost": 13.25,
+   "injuries": [
+    "Knee",
+    "Calf",
+    "Concussion",
+    "Chest"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": 4,
+   "franchises": 3
+  },
+  {
+   "player": "11583",
+   "name": "Jonathon Brooks",
+   "pos": "RB",
+   "missed": 27,
+   "lost": 0.0,
+   "injuries": [
+    "Knee",
+    "Knee - ACL",
+    "Groin"
+   ],
+   "kinds": [
+    "IR",
+    "NFI",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 3
+  },
+  {
+   "player": "9229",
+   "name": "Anthony Richardson Sr.",
+   "pos": "QB",
+   "missed": 25,
+   "lost": 61.85,
+   "injuries": [
+    "Concussion",
+    "Eye",
+    "Oblique",
+    "Back"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "missed": 25,
+   "lost": 58.48,
+   "injuries": [
+    "Achilles",
+    "Foot",
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "missed": 23,
+   "lost": 10.92,
+   "injuries": [
+    "Knee - meniscus",
+    "Ankle",
+    "Concussion",
+    "Hand"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 2
+  },
+  {
+   "player": "6803",
+   "name": "Brandon Aiyuk",
+   "pos": "WR",
+   "missed": 23,
+   "lost": 3.9,
+   "injuries": [
+    "Knee - ACL, MCL",
+    "Shoulder"
+   ],
+   "kinds": [
+    "IR",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "missed": 22,
+   "lost": 50.77,
+   "injuries": [
+    "Shoulder",
+    "Concussion",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out"
+   ],
+   "seasons": 3,
+   "franchises": 3
+  },
+  {
+   "player": "4988",
+   "name": "Nick Chubb",
+   "pos": "RB",
+   "missed": 22,
+   "lost": 13.58,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR",
+    "PUP"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "missed": 21,
+   "lost": 77.73,
+   "injuries": [
+    "Foot",
+    "Knee",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 1
+  },
+  {
+   "player": "8205",
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "missed": 21,
+   "lost": 9.4,
+   "injuries": [
+    "Ankle",
+    "Back",
+    "Knee",
+    "Shoulder"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 4,
+   "franchises": 2
+  },
+  {
+   "player": "11638",
+   "name": "Ricky Pearsall",
+   "pos": "WR",
+   "missed": 20,
+   "lost": 0.0,
+   "injuries": [
+    "Knee",
+    "Knee - PCL",
+    "Gunshot wound"
+   ],
+   "kinds": [
+    "IR",
+    "NFI",
+    "Out"
+   ],
+   "seasons": 3,
+   "franchises": 1
+  },
+  {
+   "player": "4018",
+   "name": "Joe Mixon",
+   "pos": "RB",
+   "missed": 19,
+   "lost": 180.98,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "NFI",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "7601",
+   "name": "Rondale Moore",
+   "pos": "WR",
+   "missed": 19,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "4137",
+   "name": "James Conner",
+   "pos": "RB",
+   "missed": 18,
+   "lost": 101.99,
+   "injuries": [
+    "Foot",
+    "Back"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "11589",
+   "name": "Trey Benson",
+   "pos": "RB",
+   "missed": 18,
+   "lost": 11.68,
+   "injuries": [
+    "Knee",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "11618",
+   "name": "Jalen McMillan",
+   "pos": "WR",
+   "missed": 18,
+   "lost": 0.0,
+   "injuries": [
+    "Neck",
+    "Hamstring",
+    "Knee"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "4037",
+   "name": "Chris Godwin Jr.",
+   "pos": "WR",
+   "missed": 17,
+   "lost": 71.91,
+   "injuries": [
+    "Neck",
+    "Fibula",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "10222",
+   "name": "Jayden Reed",
+   "pos": "WR",
+   "missed": 17,
+   "lost": 1.12,
+   "injuries": [
+    "Foot",
+    "Neck",
+    "Toe"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 1
+  },
+  {
+   "player": "11619",
+   "name": "Ja'Lynn Polk",
+   "pos": "WR",
+   "missed": 17,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "9757",
+   "name": "Kendre Miller",
+   "pos": "RB",
+   "missed": 17,
+   "lost": 0.0,
+   "injuries": [
+    "Knee - ACL",
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 3
+  },
+  {
+   "player": "11630",
+   "name": "Roman Wilson",
+   "pos": "WR",
+   "missed": 17,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring",
+    "Ankle",
+    "Finger"
+   ],
+   "kinds": [
+    "IR",
+    "Inactive",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 2
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "missed": 16,
+   "lost": 70.68,
+   "injuries": [
+    "Ankle",
+    "Concussion",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "11567",
+   "name": "Jordan Travis",
+   "pos": "QB",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Leg"
+   ],
+   "kinds": [
+    "NFI"
+   ],
+   "seasons": 1,
+   "franchises": 1
+  },
+  {
+   "player": "9481",
+   "name": "Luke Musgrave",
+   "pos": "TE",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Ankle",
+    "Abdomen",
+    "Kidney"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "5848",
+   "name": "Marquise Brown",
+   "pos": "WR",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder",
+    "Heel"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  }
+ ],
+ "player_careers_lost": [
+  {
+   "player": "4018",
+   "name": "Joe Mixon",
+   "pos": "RB",
+   "missed": 19,
+   "lost": 180.98,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "NFI",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "4137",
+   "name": "James Conner",
+   "pos": "RB",
+   "missed": 18,
+   "lost": 101.99,
+   "injuries": [
+    "Foot",
+    "Back"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "8183",
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "missed": 9,
+   "lost": 85.91,
+   "injuries": [
+    "Toe",
+    "Shoulder",
+    "Right Shoulder"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "missed": 10,
+   "lost": 83.52,
+   "injuries": [
+    "Shoulder",
+    "Knee - ACL",
+    "Knee"
+   ],
+   "kinds": [
+    "IR",
+    "Inactive",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 3
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "missed": 21,
+   "lost": 77.73,
+   "injuries": [
+    "Foot",
+    "Knee",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 1
+  },
+  {
+   "player": "9493",
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "missed": 8,
+   "lost": 72.41,
+   "injuries": [
+    "Knee",
+    "Hip",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 1
+  },
+  {
+   "player": "4037",
+   "name": "Chris Godwin Jr.",
+   "pos": "WR",
+   "missed": 17,
+   "lost": 71.91,
+   "injuries": [
+    "Neck",
+    "Fibula",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "missed": 16,
+   "lost": 70.68,
+   "injuries": [
+    "Ankle",
+    "Concussion",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "11632",
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "missed": 14,
+   "lost": 66.36,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "9229",
+   "name": "Anthony Richardson Sr.",
+   "pos": "QB",
+   "missed": 25,
+   "lost": 61.85,
+   "injuries": [
+    "Concussion",
+    "Eye",
+    "Oblique",
+    "Back"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "missed": 8,
+   "lost": 58.96,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 1,
+   "franchises": 1
+  },
+  {
+   "player": "11566",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "missed": 11,
+   "lost": 58.72,
+   "injuries": [
+    "Elbow",
+    "Knee",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "missed": 25,
+   "lost": 58.48,
+   "injuries": [
+    "Achilles",
+    "Foot",
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 3,
+   "franchises": 2
+  },
+  {
+   "player": "4068",
+   "name": "Mike Williams",
+   "pos": "WR",
+   "missed": 13,
+   "lost": 56.94,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 1,
+   "franchises": 1
+  },
+  {
+   "player": "4217",
+   "name": "George Kittle",
+   "pos": "TE",
+   "missed": 8,
+   "lost": 51.86,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "missed": 22,
+   "lost": 50.77,
+   "injuries": [
+    "Shoulder",
+    "Concussion",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out"
+   ],
+   "seasons": 3,
+   "franchises": 3
+  },
+  {
+   "player": "7569",
+   "name": "Nico Collins",
+   "pos": "WR",
+   "missed": 10,
+   "lost": 50.56,
+   "injuries": [
+    "Hamstring",
+    "Calf",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 4,
+   "franchises": 3
+  },
+  {
+   "player": "6813",
+   "name": "Jonathan Taylor",
+   "pos": "RB",
+   "missed": 10,
+   "lost": 49.24,
+   "injuries": [
+    "Ankle",
+    "Thumb"
+   ],
+   "kinds": [
+    "Out",
+    "PUP"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "12507",
+   "name": "Omarion Hampton",
+   "pos": "RB",
+   "missed": 7,
+   "lost": 46.55,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 1,
+   "franchises": 1
+  },
+  {
+   "player": "6794",
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "missed": 8,
+   "lost": 46.0,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "9484",
+   "name": "Tucker Kraft",
+   "pos": "TE",
+   "missed": 8,
+   "lost": 44.88,
+   "injuries": [
+    "Elbow"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 1,
+   "franchises": 1
+  },
+  {
+   "player": "3321",
+   "name": "Tyreek Hill",
+   "pos": "WR",
+   "missed": 13,
+   "lost": 44.69,
+   "injuries": [
+    "Oblique",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 2
+  },
+  {
+   "player": "6801",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "missed": 11,
+   "lost": 44.61,
+   "injuries": [
+    "Hamstring",
+    "Quadricep",
+    "Concussion",
+    "Ribs"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 1
+  },
+  {
+   "player": "11604",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "missed": 6,
+   "lost": 42.78,
+   "injuries": [
+    "Knee",
+    "Toe"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "8150",
+   "name": "Kyren Williams",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 42.68,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": 1,
+   "franchises": 1
+  }
+ ],
+ "stints": [
+  {
+   "player": "4018",
+   "name": "Joe Mixon",
+   "pos": "RB",
+   "season": "2025",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "HOU",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Ankle",
+   "kinds": [
+    "NFI"
+   ],
+   "lost": 153.92,
+   "teams": [
+    {
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ],
+   "rostered": 16
+  },
+  {
+   "player": "8219",
+   "name": "Jelani Woods",
+   "pos": "TE",
+   "season": "2023",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "IND",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Hamstring",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ],
+   "rostered": 8
+  },
+  {
+   "player": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "season": "2024",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "MIN",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee - meniscus",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ],
+   "rostered": 16
+  },
+  {
+   "player": "11567",
+   "name": "Jordan Travis",
+   "pos": "QB",
+   "season": "2024",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "NYJ",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Leg",
+   "kinds": [
+    "NFI"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ],
+   "rostered": 16
+  },
+  {
+   "player": "7601",
+   "name": "Rondale Moore",
+   "pos": "WR",
+   "season": "2024",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "ATL",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ],
+   "rostered": 16
+  },
+  {
+   "player": "11619",
+   "name": "Ja'Lynn Polk",
+   "pos": "WR",
+   "season": "2025",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "NE/NO",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Shoulder",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ],
+   "rostered": 16
+  },
+  {
+   "player": "11583",
+   "name": "Jonathon Brooks",
+   "pos": "RB",
+   "season": "2025",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "CAR",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee - ACL",
+   "kinds": [
+    "PUP"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    },
+    {
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ],
+   "rostered": 10
+  },
+  {
+   "player": "7601",
+   "name": "Rondale Moore",
+   "pos": "WR",
+   "season": "2025",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "MIN",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ],
+   "rostered": 3
+  },
+  {
+   "player": "9502",
+   "name": "Tank Dell",
+   "pos": "WR",
+   "season": "2025",
+   "from": 1,
+   "to": 17,
+   "missed": 16,
+   "nfl": "HOU",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee",
+   "kinds": [
+    "PUP"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    },
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ],
+   "rostered": 16
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "season": "2023",
+   "from": 2,
+   "to": 17,
+   "missed": 15,
+   "nfl": "BAL",
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Achilles",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 16.8,
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ],
+   "rostered": 15
+  },
+  {
+   "player": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "season": "2023",
+   "from": 2,
+   "to": 17,
+   "missed": 15,
+   "nfl": "NYJ",
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Achilles",
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ],
+   "rostered": 14
+  },
+  {
+   "player": "9220",
+   "name": "Evan Hull",
+   "pos": "RB",
+   "season": "2023",
+   "from": 2,
+   "to": 17,
+   "missed": 15,
+   "nfl": "IND",
+   "weeks": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ],
+   "rostered": 7
+  },
+  {
+   "player": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "season": "2025",
+   "from": 3,
+   "to": 17,
+   "missed": 14,
+   "nfl": "WAS",
+   "weeks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Shoulder",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 30.66,
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ],
+   "rostered": 14
+  },
+  {
+   "player": "4988",
+   "name": "Nick Chubb",
+   "pos": "RB",
+   "season": "2023",
+   "from": 3,
+   "to": 17,
+   "missed": 14,
+   "nfl": "CLE",
+   "weeks": [
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 13.58,
+   "teams": [
+    {
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ],
+   "rostered": 14
+  },
+  {
+   "player": "5848",
+   "name": "Marquise Brown",
+   "pos": "WR",
+   "season": "2024",
+   "from": 1,
+   "to": 15,
+   "missed": 14,
+   "nfl": "KC",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "injury": "Shoulder",
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 7,
+     "team": "young sexy central"
+    }
+   ],
+   "rostered": 14
+  },
+  {
+   "player": "4137",
+   "name": "James Conner",
+   "pos": "RB",
+   "season": "2025",
+   "from": 4,
+   "to": 17,
+   "missed": 13,
+   "nfl": "ARI",
+   "weeks": [
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Foot",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 84.76,
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    },
+    {
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ],
+   "rostered": 13
+  },
+  {
+   "player": "4068",
+   "name": "Mike Williams",
+   "pos": "WR",
+   "season": "2023",
+   "from": 4,
+   "to": 17,
+   "missed": 13,
+   "nfl": "LAC",
+   "weeks": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Ankle",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 56.94,
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ],
+   "rostered": 13
+  },
+  {
+   "player": "7528",
+   "name": "Najee Harris",
+   "pos": "RB",
+   "season": "2025",
+   "from": 4,
+   "to": 17,
+   "missed": 13,
+   "nfl": "LAC",
+   "weeks": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Eye",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 25.61,
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ],
+   "rostered": 13
+  },
+  {
+   "player": "6803",
+   "name": "Brandon Aiyuk",
+   "pos": "WR",
+   "season": "2025",
+   "from": 1,
+   "to": 13,
+   "missed": 13,
+   "nfl": "SF",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "injury": "Knee - ACL, MCL",
+   "kinds": [
+    "PUP"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ],
+   "rostered": 13
+  },
+  {
+   "player": "11618",
+   "name": "Jalen McMillan",
+   "pos": "WR",
+   "season": "2025",
+   "from": 1,
+   "to": 14,
+   "missed": 13,
+   "nfl": "TB",
+   "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "injury": "Neck",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ],
+   "rostered": 13
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "season": "2024",
+   "from": 5,
+   "to": 17,
+   "missed": 12,
+   "nfl": "KC",
+   "weeks": [
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Ankle",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 54.36,
+   "teams": [
+    {
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ],
+   "rostered": 12
+  },
+  {
+   "player": "11632",
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "season": "2025",
+   "from": 5,
+   "to": 17,
+   "missed": 12,
+   "nfl": "NYG",
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17
+   ],
+   "injury": "Shoulder",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 53.16,
+   "teams": [
+    {
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ],
+   "rostered": 12
+  },
+  {
+   "player": "3321",
+   "name": "Tyreek Hill",
+   "pos": "WR",
+   "season": "2025",
+   "from": 5,
+   "to": 17,
+   "missed": 12,
+   "nfl": "MIA",
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Oblique",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 33.36,
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ],
+   "rostered": 12
+  },
+  {
+   "player": "11589",
+   "name": "Trey Benson",
+   "pos": "RB",
+   "season": "2025",
+   "from": 5,
+   "to": 17,
+   "missed": 12,
+   "nfl": "ARI",
+   "weeks": [
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 8.76,
+   "teams": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team"
+    }
+   ],
+   "rostered": 12
+  },
+  {
+   "player": "11576",
+   "name": "Braelon Allen",
+   "pos": "RB",
+   "season": "2025",
+   "from": 5,
+   "to": 17,
+   "missed": 12,
+   "nfl": "NYJ",
+   "weeks": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "injury": "Knee",
+   "kinds": [
+    "IR"
+   ],
+   "lost": 0.0,
+   "teams": [
+    {
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ],
+   "rostered": 12
+  }
+ ],
+ "team_seasons": [
+  {
+   "season": "2023",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "w": 7,
+   "l": 7,
+   "finish": 3,
+   "games": 40,
+   "players": 15,
+   "lost": 38.68,
+   "worst": {
+    "player": "4137",
+    "name": "James Conner",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 14.72
+   },
+   "rank": 9,
+   "games_rank": 5,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "w": 6,
+   "l": 8,
+   "finish": 8,
+   "games": 29,
+   "players": 15,
+   "lost": 52.82,
+   "worst": {
+    "player": "8150",
+    "name": "Kyren Williams",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 42.68
+   },
+   "rank": 6,
+   "games_rank": 8,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 3,
+   "team": "dantasy football",
+   "managers": [
+    "dan"
+   ],
+   "w": 4,
+   "l": 10,
+   "finish": 12,
+   "games": 43,
+   "players": 10,
+   "lost": 22.43,
+   "worst": {
+    "player": "6806",
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "missed": 15,
+    "lost": 16.8
+   },
+   "rank": 10,
+   "games_rank": 4,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 4,
+   "team": "Cooper Scoopers",
+   "managers": [
+    "tony"
+   ],
+   "w": 6,
+   "l": 8,
+   "finish": 9,
+   "games": 24,
+   "players": 10,
+   "lost": 68.87,
+   "worst": {
+    "player": "9226",
+    "name": "De'Von Achane",
+    "pos": "RB",
+    "missed": 3,
+    "lost": 21.54
+   },
+   "rank": 3,
+   "games_rank": 10,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 5,
+   "team": "i’m Stroud of you",
+   "managers": [
+    "sam"
+   ],
+   "w": 11,
+   "l": 3,
+   "finish": 1,
+   "games": 13,
+   "players": 9,
+   "lost": 51.44,
+   "worst": {
+    "player": "9221",
+    "name": "Jahmyr Gibbs",
+    "pos": "RB",
+    "missed": 2,
+    "lost": 12.14
+   },
+   "rank": 7,
+   "games_rank": 12,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "managers": [
+    "makenzy"
+   ],
+   "w": 7,
+   "l": 7,
+   "finish": 7,
+   "games": 45,
+   "players": 12,
+   "lost": 42.37,
+   "worst": {
+    "player": "4988",
+    "name": "Nick Chubb",
+    "pos": "RB",
+    "missed": 14,
+    "lost": 13.58
+   },
+   "rank": 8,
+   "games_rank": 3,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 7,
+   "team": "young sexy central",
+   "managers": [
+    "anargha"
+   ],
+   "w": 10,
+   "l": 4,
+   "finish": 4,
+   "games": 18,
+   "players": 10,
+   "lost": 17.94,
+   "worst": {
+    "player": "3321",
+    "name": "Tyreek Hill",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 11.33
+   },
+   "rank": 11,
+   "games_rank": 11,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 8,
+   "team": "Breece is the Word",
+   "managers": [
+    "evan"
+   ],
+   "w": 7,
+   "l": 7,
+   "finish": 5,
+   "games": 38,
+   "players": 10,
+   "lost": 11.54,
+   "worst": {
+    "player": "5850",
+    "name": "Josh Jacobs",
+    "pos": "RB",
+    "missed": 3,
+    "lost": 10.05
+   },
+   "rank": 12,
+   "games_rank": 6,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 9,
+   "team": "The McCaffrican Americans",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "w": 6,
+   "l": 8,
+   "finish": 10,
+   "games": 48,
+   "players": 13,
+   "lost": 56.75,
+   "worst": {
+    "player": "9229",
+    "name": "Anthony Richardson Sr.",
+    "pos": "QB",
+    "missed": 12,
+    "lost": 41.4
+   },
+   "rank": 4,
+   "games_rank": 2,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 10,
+   "team": "You Like That?",
+   "managers": [
+    "elis",
+    "ritesh"
+   ],
+   "w": 7,
+   "l": 7,
+   "finish": 6,
+   "games": 32,
+   "players": 13,
+   "lost": 52.98,
+   "worst": {
+    "player": "1166",
+    "name": "Kirk Cousins",
+    "pos": "QB",
+    "missed": 8,
+    "lost": 32.0
+   },
+   "rank": 5,
+   "games_rank": 7,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "w": 9,
+   "l": 5,
+   "finish": 2,
+   "games": 29,
+   "players": 10,
+   "lost": 75.07,
+   "worst": {
+    "player": "6794",
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "missed": 7,
+    "lost": 42.84
+   },
+   "rank": 2,
+   "games_rank": 8,
+   "of": 12
+  },
+  {
+   "season": "2023",
+   "franchise": 12,
+   "team": "Happy Feet",
+   "managers": [
+    "colin"
+   ],
+   "w": 4,
+   "l": 10,
+   "finish": 11,
+   "games": 51,
+   "players": 13,
+   "lost": 146.39,
+   "worst": {
+    "player": "4068",
+    "name": "Mike Williams",
+    "pos": "WR",
+    "missed": 13,
+    "lost": 56.94
+   },
+   "rank": 1,
+   "games_rank": 1,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "w": 8,
+   "l": 6,
+   "finish": 1,
+   "games": 58,
+   "players": 13,
+   "lost": 35.77,
+   "worst": {
+    "player": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "missed": 3,
+    "lost": 15.78
+   },
+   "rank": 8,
+   "games_rank": 2,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "w": 9,
+   "l": 5,
+   "finish": 5,
+   "games": 71,
+   "players": 12,
+   "lost": 26.05,
+   "worst": {
+    "player": "2028",
+    "name": "Derek Carr",
+    "pos": "QB",
+    "missed": 6,
+    "lost": 17.34
+   },
+   "rank": 12,
+   "games_rank": 1,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "w": 5,
+   "l": 9,
+   "finish": 7,
+   "games": 57,
+   "players": 13,
+   "lost": 92.94,
+   "worst": {
+    "player": "6806",
+    "name": "J.K. Dobbins",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 23.68
+   },
+   "rank": 4,
+   "games_rank": 3,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 4,
+   "team": "Win one game",
+   "managers": [
+    "tony"
+   ],
+   "w": 6,
+   "l": 8,
+   "finish": 10,
+   "games": 50,
+   "players": 16,
+   "lost": 98.98,
+   "worst": {
+    "player": "4034",
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "missed": 12,
+    "lost": 33.12
+   },
+   "rank": 3,
+   "games_rank": 6,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 5,
+   "team": "i’m Stroud of you",
+   "managers": [
+    "sam"
+   ],
+   "w": 9,
+   "l": 5,
+   "finish": 2,
+   "games": 22,
+   "players": 7,
+   "lost": 26.11,
+   "worst": {
+    "player": "4033",
+    "name": "David Njoku",
+    "pos": "TE",
+    "missed": 5,
+    "lost": 17.3
+   },
+   "rank": 11,
+   "games_rank": 12,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "managers": [
+    "makenzy"
+   ],
+   "w": 9,
+   "l": 5,
+   "finish": 6,
+   "games": 54,
+   "players": 12,
+   "lost": 55.95,
+   "worst": {
+    "player": "7569",
+    "name": "Nico Collins",
+    "pos": "WR",
+    "missed": 4,
+    "lost": 24.4
+   },
+   "rank": 7,
+   "games_rank": 4,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 7,
+   "team": "young sexy central",
+   "managers": [
+    "anargha"
+   ],
+   "w": 2,
+   "l": 12,
+   "finish": 12,
+   "games": 54,
+   "players": 11,
+   "lost": 155.45,
+   "worst": {
+    "player": "4037",
+    "name": "Chris Godwin Jr.",
+    "pos": "WR",
+    "missed": 9,
+    "lost": 71.91
+   },
+   "rank": 1,
+   "games_rank": 4,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 8,
+   "team": "Breece is the Word",
+   "managers": [
+    "evan"
+   ],
+   "w": 14,
+   "l": 0,
+   "finish": 3,
+   "games": 47,
+   "players": 15,
+   "lost": 139.97,
+   "worst": {
+    "player": "10229",
+    "name": "Rashee Rice",
+    "pos": "WR",
+    "missed": 12,
+    "lost": 54.36
+   },
+   "rank": 2,
+   "games_rank": 7,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "w": 5,
+   "l": 9,
+   "finish": 11,
+   "games": 34,
+   "players": 13,
+   "lost": 26.86,
+   "worst": {
+    "player": "11632",
+    "name": "Malik Nabers",
+    "pos": "WR",
+    "missed": 2,
+    "lost": 13.2
+   },
+   "rank": 10,
+   "games_rank": 9,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 10,
+   "team": "BAHAHAHA",
+   "managers": [
+    "elis"
+   ],
+   "w": 6,
+   "l": 8,
+   "finish": 4,
+   "games": 31,
+   "players": 12,
+   "lost": 78.49,
+   "worst": {
+    "player": "8151",
+    "name": "Kenneth Walker III",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 29.12
+   },
+   "rank": 5,
+   "games_rank": 10,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "w": 6,
+   "l": 8,
+   "finish": 9,
+   "games": 36,
+   "players": 11,
+   "lost": 32.21,
+   "worst": {
+    "player": "8676",
+    "name": "Rashid Shaheed",
+    "pos": "WR",
+    "missed": 10,
+    "lost": 16.0
+   },
+   "rank": 9,
+   "games_rank": 8,
+   "of": 12
+  },
+  {
+   "season": "2024",
+   "franchise": 12,
+   "team": "Happy Feet",
+   "managers": [
+    "colin",
+    "dan"
+   ],
+   "w": 5,
+   "l": 9,
+   "finish": 8,
+   "games": 30,
+   "players": 10,
+   "lost": 65.18,
+   "worst": {
+    "player": "6813",
+    "name": "Jonathan Taylor",
+    "pos": "RB",
+    "missed": 3,
+    "lost": 23.13
+   },
+   "rank": 6,
+   "games_rank": 11,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "w": 10,
+   "l": 4,
+   "finish": 3,
+   "games": 77,
+   "players": 13,
+   "lost": 155.58,
+   "worst": {
+    "player": "4137",
+    "name": "James Conner",
+    "pos": "RB",
+    "missed": 10,
+    "lost": 65.2
+   },
+   "rank": 5,
+   "games_rank": 3,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "w": 4,
+   "l": 10,
+   "finish": 11,
+   "games": 60,
+   "players": 13,
+   "lost": 173.79,
+   "worst": {
+    "player": "12507",
+    "name": "Omarion Hampton",
+    "pos": "RB",
+    "missed": 7,
+    "lost": 46.55
+   },
+   "rank": 2,
+   "games_rank": 4,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "w": 7,
+   "l": 7,
+   "finish": 8,
+   "games": 46,
+   "players": 12,
+   "lost": 66.73,
+   "worst": {
+    "player": "4881",
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "missed": 4,
+    "lost": 19.88
+   },
+   "rank": 9,
+   "games_rank": 6,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 4,
+   "team": "Win one game",
+   "managers": [
+    "tony"
+   ],
+   "w": 3,
+   "l": 11,
+   "finish": 10,
+   "games": 33,
+   "players": 11,
+   "lost": 24.64,
+   "worst": {
+    "player": "9229",
+    "name": "Anthony Richardson Sr.",
+    "pos": "QB",
+    "missed": 10,
+    "lost": 12.5
+   },
+   "rank": 12,
+   "games_rank": 7,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 5,
+   "team": "St. Brown VS Board",
+   "managers": [
+    "sam"
+   ],
+   "w": 10,
+   "l": 4,
+   "finish": 4,
+   "games": 25,
+   "players": 10,
+   "lost": 26.6,
+   "worst": {
+    "player": "11565",
+    "name": "J.J. McCarthy",
+    "pos": "QB",
+    "missed": 7,
+    "lost": 10.92
+   },
+   "rank": 11,
+   "games_rank": 10,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "managers": [
+    "makenzy"
+   ],
+   "w": 7,
+   "l": 7,
+   "finish": 5,
+   "games": 56,
+   "players": 16,
+   "lost": 105.82,
+   "worst": {
+    "player": "9484",
+    "name": "Tucker Kraft",
+    "pos": "TE",
+    "missed": 8,
+    "lost": 44.88
+   },
+   "rank": 6,
+   "games_rank": 5,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 7,
+   "team": "the dart side 🛸",
+   "managers": [
+    "anargha"
+   ],
+   "w": 10,
+   "l": 4,
+   "finish": 1,
+   "games": 23,
+   "players": 8,
+   "lost": 50.02,
+   "worst": {
+    "player": "11604",
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "missed": 4,
+    "lost": 23.56
+   },
+   "rank": 10,
+   "games_rank": 11,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "w": 11,
+   "l": 3,
+   "finish": 2,
+   "games": 33,
+   "players": 14,
+   "lost": 96.52,
+   "worst": {
+    "player": "4217",
+    "name": "George Kittle",
+    "pos": "TE",
+    "missed": 6,
+    "lost": 38.82
+   },
+   "rank": 7,
+   "games_rank": 7,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "w": 9,
+   "l": 5,
+   "finish": 6,
+   "games": 96,
+   "players": 19,
+   "lost": 190.62,
+   "worst": {
+    "player": "11632",
+    "name": "Malik Nabers",
+    "pos": "WR",
+    "missed": 12,
+    "lost": 53.16
+   },
+   "rank": 1,
+   "games_rank": 1,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "managers": [
+    "elis"
+   ],
+   "w": 6,
+   "l": 8,
+   "finish": 7,
+   "games": 33,
+   "players": 9,
+   "lost": 159.35,
+   "worst": {
+    "player": "4018",
+    "name": "Joe Mixon",
+    "pos": "RB",
+    "missed": 16,
+    "lost": 153.92
+   },
+   "rank": 4,
+   "games_rank": 7,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "w": 4,
+   "l": 10,
+   "finish": 9,
+   "games": 22,
+   "players": 10,
+   "lost": 86.58,
+   "worst": {
+    "player": "8183",
+    "name": "Brock Purdy",
+    "pos": "QB",
+    "missed": 8,
+    "lost": 80.32
+   },
+   "rank": 8,
+   "games_rank": 12,
+   "of": 12
+  },
+  {
+   "season": "2025",
+   "franchise": 12,
+   "team": "Happy Feet",
+   "managers": [
+    "colin",
+    "dan"
+   ],
+   "w": 3,
+   "l": 11,
+   "finish": 12,
+   "games": 93,
+   "players": 11,
+   "lost": 160.15,
+   "worst": {
+    "player": "12481",
+    "name": "Cam Skattebo",
+    "pos": "RB",
+    "missed": 8,
+    "lost": 58.96
+   },
+   "rank": 3,
+   "games_rank": 2,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "w": 7,
+   "l": 1,
+   "finish": null,
+   "games": 22,
+   "players": 10,
+   "lost": 26.39,
+   "worst": {
+    "player": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "missed": 2,
+    "lost": 11.98
+   },
+   "rank": 7,
+   "games_rank": 6,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "w": 5,
+   "l": 3,
+   "finish": null,
+   "games": 37,
+   "players": 12,
+   "lost": 45.9,
+   "worst": {
+    "player": "7525",
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "missed": 4,
+    "lost": 25.48
+   },
+   "rank": 3,
+   "games_rank": 1,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "w": 6,
+   "l": 2,
+   "finish": null,
+   "games": 21,
+   "players": 9,
+   "lost": 12.34,
+   "worst": {
+    "player": "4881",
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "missed": 3,
+    "lost": 6.36
+   },
+   "rank": 11,
+   "games_rank": 9,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "managers": [
+    "tony"
+   ],
+   "w": 3,
+   "l": 5,
+   "finish": null,
+   "games": 25,
+   "players": 6,
+   "lost": 32.92,
+   "worst": {
+    "player": "12534",
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 30.92
+   },
+   "rank": 5,
+   "games_rank": 4,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "w": 5,
+   "l": 3,
+   "finish": null,
+   "games": 22,
+   "players": 7,
+   "lost": 49.31,
+   "worst": {
+    "player": "9226",
+    "name": "De'Von Achane",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 40.44
+   },
+   "rank": 2,
+   "games_rank": 6,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "managers": [
+    "makenzy"
+   ],
+   "w": 4,
+   "l": 4,
+   "finish": null,
+   "games": 27,
+   "players": 9,
+   "lost": 18.71,
+   "worst": {
+    "player": "5859",
+    "name": "A.J. Brown",
+    "pos": "WR",
+    "missed": 5,
+    "lost": 10.2
+   },
+   "rank": 9,
+   "games_rank": 2,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "w": 3,
+   "l": 5,
+   "finish": null,
+   "games": 25,
+   "players": 10,
+   "lost": 75.49,
+   "worst": {
+    "player": "9493",
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "missed": 2,
+    "lost": 24.34
+   },
+   "rank": 1,
+   "games_rank": 4,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "w": 5,
+   "l": 3,
+   "finish": null,
+   "games": 27,
+   "players": 9,
+   "lost": 43.15,
+   "worst": {
+    "player": "8155",
+    "name": "Breece Hall",
+    "pos": "RB",
+    "missed": 3,
+    "lost": 14.52
+   },
+   "rank": 4,
+   "games_rank": 2,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "w": 3,
+   "l": 5,
+   "finish": null,
+   "games": 9,
+   "players": 4,
+   "lost": 7.66,
+   "worst": {
+    "player": "13287",
+    "name": "Jeremiyah Love",
+    "pos": "RB",
+    "missed": 2,
+    "lost": 3.16
+   },
+   "rank": 12,
+   "games_rank": 12,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "managers": [
+    "elis"
+   ],
+   "w": 2,
+   "l": 6,
+   "finish": null,
+   "games": 21,
+   "players": 9,
+   "lost": 21.63,
+   "worst": {
+    "player": "11560",
+    "name": "Caleb Williams",
+    "pos": "QB",
+    "missed": 3,
+    "lost": 17.88
+   },
+   "rank": 8,
+   "games_rank": 9,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "w": 4,
+   "l": 4,
+   "finish": null,
+   "games": 10,
+   "players": 4,
+   "lost": 28.68,
+   "worst": {
+    "player": "7543",
+    "name": "Travis Etienne Jr.",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 25.52
+   },
+   "rank": 6,
+   "games_rank": 11,
+   "of": 12
+  },
+  {
+   "season": "2026",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "managers": [
+    "charlie"
+   ],
+   "w": 1,
+   "l": 7,
+   "finish": null,
+   "games": 22,
+   "players": 10,
+   "lost": 14.78,
+   "worst": {
+    "player": "8155",
+    "name": "Breece Hall",
+    "pos": "RB",
+    "missed": 2,
+    "lost": 9.68
+   },
+   "rank": 10,
+   "games_rank": 6,
+   "of": 12
+  }
+ ],
+ "franchises": [
+  {
+   "franchise": 1,
+   "name": "Mojo Dojo Casa Team 💍",
+   "games": 197,
+   "lost": 256.42,
+   "seasons": 4,
+   "per_season": 64.11,
+   "worst": "2025"
+  },
+  {
+   "franchise": 2,
+   "name": "Storm FC",
+   "games": 197,
+   "lost": 298.56,
+   "seasons": 4,
+   "per_season": 74.64,
+   "worst": "2025"
+  },
+  {
+   "franchise": 3,
+   "name": "Kolkata Kommies",
+   "games": 167,
+   "lost": 194.44,
+   "seasons": 4,
+   "per_season": 48.61,
+   "worst": "2024"
+  },
+  {
+   "franchise": 4,
+   "name": "Im Stroud Of You",
+   "games": 132,
+   "lost": 225.41,
+   "seasons": 4,
+   "per_season": 56.35,
+   "worst": "2024"
+  },
+  {
+   "franchise": 5,
+   "name": "St. Brown VS Board💍",
+   "games": 82,
+   "lost": 153.46,
+   "seasons": 4,
+   "per_season": 38.37,
+   "worst": "2023"
+  },
+  {
+   "franchise": 6,
+   "name": "got that DAWG",
+   "games": 182,
+   "lost": 222.85,
+   "seasons": 4,
+   "per_season": 55.71,
+   "worst": "2025"
+  },
+  {
+   "franchise": 7,
+   "name": "the dart side 🛸💍",
+   "games": 120,
+   "lost": 298.9,
+   "seasons": 4,
+   "per_season": 74.72,
+   "worst": "2024"
+  },
+  {
+   "franchise": 8,
+   "name": "BBL KIZZY",
+   "games": 145,
+   "lost": 291.18,
+   "seasons": 4,
+   "per_season": 72.8,
+   "worst": "2024"
+  },
+  {
+   "franchise": 9,
+   "name": "Clandestine Ball Busters",
+   "games": 187,
+   "lost": 281.89,
+   "seasons": 4,
+   "per_season": 70.47,
+   "worst": "2025"
+  },
+  {
+   "franchise": 10,
+   "name": "Maddison Beer’s Boys",
+   "games": 117,
+   "lost": 312.45,
+   "seasons": 4,
+   "per_season": 78.11,
+   "worst": "2025"
+  },
+  {
+   "franchise": 11,
+   "name": "BubbaNASTIES",
+   "games": 97,
+   "lost": 222.54,
+   "seasons": 4,
+   "per_season": 55.63,
+   "worst": "2025"
+  },
+  {
+   "franchise": 12,
+   "name": "Team Win One Game",
+   "games": 196,
+   "lost": 386.5,
+   "seasons": 4,
+   "per_season": 96.62,
+   "worst": "2025"
+  }
+ ],
+ "managers": [
+  {
+   "key": "alex",
+   "name": "Alex",
+   "games": 197,
+   "lost": 298.56,
+   "seasons": 4,
+   "per_season": 74.64,
+   "worst": "2025"
+  },
+  {
+   "key": "anargha",
+   "name": "Anargha",
+   "games": 120,
+   "lost": 298.9,
+   "seasons": 4,
+   "per_season": 74.72,
+   "worst": "2024"
+  },
+  {
+   "key": "brandon",
+   "name": "Brandon",
+   "games": 97,
+   "lost": 222.54,
+   "seasons": 4,
+   "per_season": 55.63,
+   "worst": "2025"
+  },
+  {
+   "key": "charlie",
+   "name": "Charlie",
+   "games": 22,
+   "lost": 14.78,
+   "seasons": 1,
+   "per_season": 14.78,
+   "worst": "2026"
+  },
+  {
+   "key": "colin",
+   "name": "Colin",
+   "games": 174,
+   "lost": 371.72,
+   "seasons": 3,
+   "per_season": 123.91,
+   "worst": "2025"
+  },
+  {
+   "key": "dan",
+   "name": "Dan",
+   "games": 166,
+   "lost": 247.76,
+   "seasons": 3,
+   "per_season": 82.59,
+   "worst": "2025"
+  },
+  {
+   "key": "elis",
+   "name": "Elis",
+   "games": 117,
+   "lost": 312.45,
+   "seasons": 4,
+   "per_season": 78.11,
+   "worst": "2025"
+  },
+  {
+   "key": "emily",
+   "name": "Emily",
+   "games": 197,
+   "lost": 256.42,
+   "seasons": 4,
+   "per_season": 64.11,
+   "worst": "2025"
+  },
+  {
+   "key": "evan",
+   "name": "Evan",
+   "games": 145,
+   "lost": 291.18,
+   "seasons": 4,
+   "per_season": 72.8,
+   "worst": "2024"
+  },
+  {
+   "key": "joe",
+   "name": "Joe",
+   "games": 187,
+   "lost": 281.89,
+   "seasons": 4,
+   "per_season": 70.47,
+   "worst": "2025"
+  },
+  {
+   "key": "makenzy",
+   "name": "Makenzy",
+   "games": 182,
+   "lost": 222.85,
+   "seasons": 4,
+   "per_season": 55.71,
+   "worst": "2025"
+  },
+  {
+   "key": "riley",
+   "name": "Riley",
+   "games": 197,
+   "lost": 256.42,
+   "seasons": 4,
+   "per_season": 64.11,
+   "worst": "2025"
+  },
+  {
+   "key": "ritesh",
+   "name": "Ritesh",
+   "games": 156,
+   "lost": 224.99,
+   "seasons": 4,
+   "per_season": 56.25,
+   "worst": "2024"
+  },
+  {
+   "key": "sam",
+   "name": "Sam",
+   "games": 82,
+   "lost": 153.46,
+   "seasons": 4,
+   "per_season": 38.37,
+   "worst": "2023"
+  },
+  {
+   "key": "tanner",
+   "name": "Tanner",
+   "games": 187,
+   "lost": 281.89,
+   "seasons": 4,
+   "per_season": 70.47,
+   "worst": "2025"
+  },
+  {
+   "key": "tony",
+   "name": "Tony",
+   "games": 132,
+   "lost": 225.41,
+   "seasons": 4,
+   "per_season": 56.35,
+   "worst": "2024"
+  }
+ ],
+ "injuries": [
+  {
+   "injury": "Knee",
+   "games": 424,
+   "players": 76,
+   "stints": 101
+  },
+  {
+   "injury": "Hamstring",
+   "games": 250,
+   "players": 77,
+   "stints": 101
+  },
+  {
+   "injury": "Ankle",
+   "games": 231,
+   "players": 71,
+   "stints": 77
+  },
+  {
+   "injury": "Shoulder",
+   "games": 116,
+   "players": 37,
+   "stints": 39
+  },
+  {
+   "injury": "Concussion",
+   "games": 105,
+   "players": 53,
+   "stints": 62
+  },
+  {
+   "injury": "Foot",
+   "games": 67,
+   "players": 17,
+   "stints": 18
+  },
+  {
+   "injury": "Neck",
+   "games": 56,
+   "players": 10,
+   "stints": 11
+  },
+  {
+   "injury": "Achilles",
+   "games": 47,
+   "players": 6,
+   "stints": 6
+  },
+  {
+   "injury": "Quadricep",
+   "games": 40,
+   "players": 12,
+   "stints": 14
+  },
+  {
+   "injury": "Hip",
+   "games": 34,
+   "players": 16,
+   "stints": 17
+  },
+  {
+   "injury": "Back",
+   "games": 33,
+   "players": 13,
+   "stints": 13
+  },
+  {
+   "injury": "Groin",
+   "games": 32,
+   "players": 18,
+   "stints": 17
+  },
+  {
+   "injury": "Toe",
+   "games": 29,
+   "players": 11,
+   "stints": 11
+  },
+  {
+   "injury": "Calf",
+   "games": 28,
+   "players": 10,
+   "stints": 10
+  },
+  {
+   "injury": "Oblique",
+   "games": 26,
+   "players": 7,
+   "stints": 8
+  },
+  {
+   "injury": "Right Shoulder",
+   "games": 24,
+   "players": 7,
+   "stints": 10
+  },
+  {
+   "injury": "Eye",
+   "games": 23,
+   "players": 2,
+   "stints": 2
+  },
+  {
+   "injury": "Illness",
+   "games": 19,
+   "players": 11,
+   "stints": 11
+  },
+  {
+   "injury": "Elbow",
+   "games": 18,
+   "players": 4,
+   "stints": 6
+  },
+  {
+   "injury": "Heel",
+   "games": 18,
+   "players": 7,
+   "stints": 8
+  },
+  {
+   "injury": "Ribs",
+   "games": 18,
+   "players": 10,
+   "stints": 10
+  },
+  {
+   "injury": "Leg",
+   "games": 17,
+   "players": 2,
+   "stints": 2
+  },
+  {
+   "injury": "Thumb",
+   "games": 17,
+   "players": 6,
+   "stints": 6
+  },
+  {
+   "injury": "Chest",
+   "games": 16,
+   "players": 7,
+   "stints": 7
+  },
+  {
+   "injury": "Hand",
+   "games": 16,
+   "players": 5,
+   "stints": 4
+  },
+  {
+   "injury": "Wrist",
+   "games": 13,
+   "players": 6,
+   "stints": 5
+  },
+  {
+   "injury": "Finger",
+   "games": 12,
+   "players": 4,
+   "stints": 4
+  },
+  {
+   "injury": "Forearm",
+   "games": 10,
+   "players": 3,
+   "stints": 4
+  },
+  {
+   "injury": "Abdomen",
+   "games": 9,
+   "players": 5,
+   "stints": 5
+  },
+  {
+   "injury": "Collarbone",
+   "games": 8,
+   "players": 3,
+   "stints": 2
+  }
+ ],
+ "positions": [
+  {
+   "season": "2023",
+   "QB": {
+    "games": 95,
+    "lost": 141.45
+   },
+   "RB": {
+    "games": 133,
+    "lost": 262.84
+   },
+   "WR": {
+    "games": 131,
+    "lost": 205.56
+   },
+   "TE": {
+    "games": 51,
+    "lost": 27.43
+   }
+  },
+  {
+   "season": "2024",
+   "QB": {
+    "games": 93,
+    "lost": 126.34
+   },
+   "RB": {
+    "games": 153,
+    "lost": 234.78
+   },
+   "WR": {
+    "games": 232,
+    "lost": 411.54
+   },
+   "TE": {
+    "games": 66,
+    "lost": 61.3
+   }
+  },
+  {
+   "season": "2025",
+   "QB": {
+    "games": 97,
+    "lost": 352.9
+   },
+   "RB": {
+    "games": 180,
+    "lost": 506.54
+   },
+   "WR": {
+    "games": 253,
+    "lost": 287.17
+   },
+   "TE": {
+    "games": 67,
+    "lost": 149.79
+   }
+  },
+  {
+   "season": "2026",
+   "QB": {
+    "games": 30,
+    "lost": 57.41
+   },
+   "RB": {
+    "games": 87,
+    "lost": 186.04
+   },
+   "WR": {
+    "games": 128,
+    "lost": 110.97
+   },
+   "TE": {
+    "games": 23,
+    "lost": 22.54
+   }
+  }
+ ],
+ "weekly": {
+  "2023": [
+   17,
+   18,
+   24,
+   22,
+   17,
+   26,
+   24,
+   24,
+   21,
+   24,
+   21,
+   27,
+   18,
+   26,
+   31,
+   32,
+   38
+  ],
+  "2024": [
+   19,
+   28,
+   35,
+   34,
+   34,
+   25,
+   32,
+   38,
+   34,
+   31,
+   25,
+   17,
+   31,
+   34,
+   37,
+   44,
+   46
+  ],
+  "2025": [
+   20,
+   23,
+   33,
+   27,
+   32,
+   37,
+   40,
+   38,
+   32,
+   38,
+   38,
+   37,
+   36,
+   28,
+   41,
+   40,
+   57
+  ],
+  "2026": [
+   17,
+   26,
+   34,
+   42,
+   47,
+   40,
+   35,
+   27,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "totals": {
+  "games": 1819,
+  "lost": 3144.6,
+  "players": 316
+ }
+}

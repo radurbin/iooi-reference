@@ -1,0 +1,565 @@
+{
+ "_about": "Injuries the NFL report never named (a player hurt in a game who went straight to injured reserve, or who started a season on PUP or NFI). Fill in \"injury\" (for example \"Knee - ACL\" or \"Achilles\"); a blank one is ignored. Each entry names the player's absence by Sleeper id, season and the weeks it covered; only the season and a week inside the absence have to match. The rest is there to read.",
+ "absences": [
+  {
+   "player": "6938",
+   "name": "Cam Akers",
+   "season": "2023",
+   "weeks": "10-17",
+   "nfl": "MIN",
+   "status": "IR",
+   "iooi_team": "Mojo Dojo Casa Team",
+   "injury": "Achilles"
+  },
+  {
+   "player": "9220",
+   "name": "Evan Hull",
+   "season": "2023",
+   "weeks": "2-17",
+   "nfl": "IND",
+   "status": "IR",
+   "iooi_team": "dantasy football",
+   "injury": "Knee"
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "season": "2023",
+   "weeks": "2-17",
+   "nfl": "BAL",
+   "status": "IR",
+   "iooi_team": "dantasy football",
+   "injury": "Achilles"
+  },
+  {
+   "player": "8219",
+   "name": "Jelani Woods",
+   "season": "2023",
+   "weeks": "1-17",
+   "nfl": "IND",
+   "status": "IR",
+   "iooi_team": "dantasy football",
+   "injury": "Hamstring"
+  },
+  {
+   "player": "6813",
+   "name": "Jonathan Taylor",
+   "season": "2023",
+   "weeks": "1-4",
+   "nfl": "IND",
+   "status": "PUP",
+   "iooi_team": "Happy Feet",
+   "injury": "Ankle"
+  },
+  {
+   "player": "1166",
+   "name": "Kirk Cousins",
+   "season": "2023",
+   "weeks": "9-17",
+   "nfl": "MIN",
+   "status": "IR",
+   "iooi_team": "You Like That?",
+   "injury": "Achilles"
+  },
+  {
+   "player": "4988",
+   "name": "Nick Chubb",
+   "season": "2023",
+   "weeks": "3-17",
+   "nfl": "CLE",
+   "status": "IR",
+   "iooi_team": "got that DAWG",
+   "injury": "Knee"
+  },
+  {
+   "player": "11579",
+   "name": "Audric Estime",
+   "season": "2024",
+   "weeks": "2-5",
+   "nfl": "DEN",
+   "status": "IR",
+   "iooi_team": "Mojo Dojo Casa Team",
+   "injury": "Ankle"
+  },
+  {
+   "player": "6803",
+   "name": "Brandon Aiyuk",
+   "season": "2024",
+   "weeks": "8-17",
+   "nfl": "SF",
+   "status": "IR",
+   "iooi_team": "Mojo Dojo Casa Team",
+   "injury": "Knee - ACL, MCL"
+  },
+  {
+   "player": "4017",
+   "name": "Deshaun Watson",
+   "season": "2024",
+   "weeks": "8-17",
+   "nfl": "CLE",
+   "status": "IR",
+   "iooi_team": "Football?",
+   "injury": "Achilles"
+  },
+  {
+   "player": "11565",
+   "name": "J.J. McCarthy",
+   "season": "2024",
+   "weeks": "1-17",
+   "nfl": "MIN",
+   "status": "IR",
+   "iooi_team": "Storm FC",
+   "injury": "Knee - meniscus"
+  },
+  {
+   "player": "11567",
+   "name": "Jordan Travis",
+   "season": "2024",
+   "weeks": "1-17",
+   "nfl": "NYJ",
+   "status": "NFI",
+   "iooi_team": "Kolkata Kommies",
+   "injury": "Leg"
+  },
+  {
+   "player": "11638",
+   "name": "Ricky Pearsall",
+   "season": "2024",
+   "weeks": "1-6",
+   "nfl": "SF",
+   "status": "NFI",
+   "iooi_team": "Mojo Dojo Casa Team",
+   "injury": "Gunshot wound"
+  },
+  {
+   "player": "7601",
+   "name": "Rondale Moore",
+   "season": "2024",
+   "weeks": "1-17",
+   "nfl": "ATL",
+   "status": "IR",
+   "iooi_team": "got that DAWG",
+   "injury": "Knee"
+  },
+  {
+   "player": "8220",
+   "name": "Sincere McCormick",
+   "season": "2024",
+   "weeks": "16-17",
+   "nfl": "LV",
+   "status": "IR",
+   "iooi_team": "Breece is the Word",
+   "injury": "Ankle"
+  },
+  {
+   "player": "6768",
+   "name": "Tua Tagovailoa",
+   "season": "2024",
+   "weeks": "3-7",
+   "nfl": "MIA",
+   "status": "IR",
+   "iooi_team": "Happy Feet",
+   "injury": "Concussion"
+  },
+  {
+   "player": "4199",
+   "name": "Aaron Jones Sr.",
+   "season": "2025",
+   "weeks": "3-7",
+   "nfl": "MIN",
+   "status": "IR",
+   "iooi_team": "got that DAWG",
+   "injury": "Hamstring"
+  },
+  {
+   "player": "6803",
+   "name": "Brandon Aiyuk",
+   "season": "2025",
+   "weeks": "1-13",
+   "nfl": "SF",
+   "status": "PUP",
+   "iooi_team": "Mojo Dojo Casa Team",
+   "injury": "Knee - ACL, MCL"
+  },
+  {
+   "player": "4217",
+   "name": "George Kittle",
+   "season": "2025",
+   "weeks": "2-6",
+   "nfl": "SF",
+   "status": "IR",
+   "iooi_team": "BBL KIZZY",
+   "injury": "Hamstring"
+  },
+  {
+   "player": "11583",
+   "name": "Jonathon Brooks",
+   "season": "2025",
+   "weeks": "1-17",
+   "nfl": "CAR",
+   "status": "PUP",
+   "iooi_team": "Mojo Dojo Casa Team, Kolkata Kommies",
+   "injury": "Knee - ACL"
+  },
+  {
+   "player": "9757",
+   "name": "Kendre Miller",
+   "season": "2025",
+   "weeks": "8-17",
+   "nfl": "NO",
+   "status": "IR",
+   "iooi_team": "Storm FC",
+   "injury": "Knee - ACL"
+  },
+  {
+   "player": "12512",
+   "name": "Quinshon Judkins",
+   "season": "2025",
+   "weeks": "17",
+   "nfl": "CLE",
+   "status": "IR",
+   "iooi_team": "the dart side 🛸",
+   "injury": "Leg - fibula fracture"
+  },
+  {
+   "player": "7601",
+   "name": "Rondale Moore",
+   "season": "2025",
+   "weeks": "1-17",
+   "nfl": "MIN",
+   "status": "IR",
+   "iooi_team": "got that DAWG",
+   "injury": "Knee"
+  },
+  {
+   "player": "13293",
+   "name": "Ja'Kobi Lane",
+   "season": "2026",
+   "weeks": "2-5",
+   "nfl": "BAL",
+   "status": "IR",
+   "iooi_team": "Maddison Beer’s Boys",
+   "injury": "Wrist"
+  },
+  {
+   "player": "12483",
+   "name": "Jack Bech",
+   "season": "2026",
+   "weeks": "4-7",
+   "nfl": "LV",
+   "status": "IR",
+   "iooi_team": "BubbaNASTIES",
+   "injury": "Forearm"
+  },
+  {
+   "player": "8408",
+   "name": "Jordan Mason",
+   "season": "2026",
+   "weeks": "2-5",
+   "nfl": "MIN",
+   "status": "IR",
+   "iooi_team": "Im Stroud Of You",
+   "injury": "Thumb"
+  },
+  {
+   "player": "10210",
+   "name": "Cameron Latu",
+   "season": "2023",
+   "weeks": "1-17",
+   "nfl": "SF",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Knee - meniscus"
+  },
+  {
+   "player": "10223",
+   "name": "Eric Gray",
+   "season": "2023",
+   "weeks": "8-11",
+   "nfl": "NYG",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Calf"
+  },
+  {
+   "player": "8123",
+   "name": "Hassan Haskins",
+   "season": "2023",
+   "weeks": "3-17",
+   "nfl": "TEN",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  },
+  {
+   "player": "8254",
+   "name": "Julius Chestnut",
+   "season": "2023",
+   "weeks": "4-17",
+   "nfl": "TEN",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Hamstring"
+  },
+  {
+   "player": "4454",
+   "name": "Kendrick Bourne",
+   "season": "2023",
+   "weeks": "9-17",
+   "nfl": "NE",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Knee - ACL"
+  },
+  {
+   "player": "4234",
+   "name": "Noah Brown",
+   "season": "2023",
+   "weeks": "2-5",
+   "nfl": "HOU",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Groin"
+  },
+  {
+   "player": "7593",
+   "name": "Trey Sermon",
+   "season": "2023",
+   "weeks": "1-2",
+   "nfl": "PHI",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  },
+  {
+   "player": "8188",
+   "name": "Tyquan Thornton",
+   "season": "2023",
+   "weeks": "1-5",
+   "nfl": "NE",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Shoulder"
+  },
+  {
+   "player": "8219",
+   "name": "Jelani Woods",
+   "season": "2024",
+   "weeks": "1-17",
+   "nfl": "IND",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Toe"
+  },
+  {
+   "player": "4454",
+   "name": "Kendrick Bourne",
+   "season": "2024",
+   "weeks": "1-4",
+   "nfl": "NE",
+   "status": "PUP",
+   "iooi_team": null,
+   "injury": "Knee - ACL"
+  },
+  {
+   "player": "8168",
+   "name": "Skyy Moore",
+   "season": "2024",
+   "weeks": "8-17",
+   "nfl": "KC",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Core muscle"
+  },
+  {
+   "player": "11599",
+   "name": "Cade Stover",
+   "season": "2025",
+   "weeks": "2-10",
+   "nfl": "HOU",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Foot"
+  },
+  {
+   "player": "13150",
+   "name": "Darius Cooper",
+   "season": "2025",
+   "weeks": "4-7",
+   "nfl": "PHI",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Shoulder"
+  },
+  {
+   "player": "10870",
+   "name": "Deneric Prince",
+   "season": "2025",
+   "weeks": "1-17",
+   "nfl": "NE",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  },
+  {
+   "player": "6074",
+   "name": "Donald Parham",
+   "season": "2025",
+   "weeks": "1-17",
+   "nfl": "PIT",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Achilles"
+  },
+  {
+   "player": "10223",
+   "name": "Eric Gray",
+   "season": "2025",
+   "weeks": "1-11",
+   "nfl": "NYG",
+   "status": "PUP",
+   "iooi_team": null,
+   "injury": "Knee"
+  },
+  {
+   "player": "11592",
+   "name": "Erick All Jr.",
+   "season": "2025",
+   "weeks": "1-17",
+   "nfl": "CIN",
+   "status": "PUP",
+   "iooi_team": null,
+   "injury": "Knee - ACL"
+  },
+  {
+   "player": "6011",
+   "name": "Gardner Minshew II",
+   "season": "2025",
+   "weeks": "17",
+   "nfl": "KC",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Knee"
+  },
+  {
+   "player": "6126",
+   "name": "Irv Smith",
+   "season": "2025",
+   "weeks": "1-4",
+   "nfl": "HOU",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Ankle"
+  },
+  {
+   "player": "8221",
+   "name": "Keaontay Ingram",
+   "season": "2025",
+   "weeks": "1-17",
+   "nfl": "KC",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  },
+  {
+   "player": "11650",
+   "name": "Luke McCaffrey",
+   "season": "2025",
+   "weeks": "10-17",
+   "nfl": "WAS",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Collarbone"
+  },
+  {
+   "player": "6963",
+   "name": "Patrick Taylor",
+   "season": "2025",
+   "weeks": "1-17",
+   "nfl": "SF",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Shoulder"
+  },
+  {
+   "player": "8135",
+   "name": "Treylon Burks",
+   "season": "2025",
+   "weeks": "1-5",
+   "nfl": "TEN",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Collarbone"
+  },
+  {
+   "player": "8129",
+   "name": "Dameon Pierce",
+   "season": "2026",
+   "weeks": "8",
+   "nfl": "PHI",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  },
+  {
+   "player": "12670",
+   "name": "KeAndre Lambert-Smith",
+   "season": "2026",
+   "weeks": "2-5",
+   "nfl": "LAC",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Hamstring"
+  },
+  {
+   "player": "9481",
+   "name": "Luke Musgrave",
+   "season": "2026",
+   "weeks": "1-8",
+   "nfl": "GB",
+   "status": "PUP",
+   "iooi_team": null,
+   "injury": "Neck"
+  },
+  {
+   "player": "5096",
+   "name": "Ray-Ray McCloud",
+   "season": "2026",
+   "weeks": "1",
+   "nfl": "CHI",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  },
+  {
+   "player": "8206",
+   "name": "Skylar Thompson",
+   "season": "2026",
+   "weeks": "1-9",
+   "nfl": "BAL",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  },
+  {
+   "player": "12531",
+   "name": "Trevor Etienne",
+   "season": "2026",
+   "weeks": "1-4",
+   "nfl": "CAR",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Ankle"
+  },
+  {
+   "player": "7593",
+   "name": "Trey Sermon",
+   "season": "2026",
+   "weeks": "1-8",
+   "nfl": "ATL",
+   "status": "IR",
+   "iooi_team": null,
+   "injury": "Undisclosed"
+  }
+ ]
+}

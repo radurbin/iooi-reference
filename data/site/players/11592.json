@@ -1,1 +1,417 @@
-{"id":"11592","name":"Erick All Jr.","pos":"TE","nfl_team":"CIN","birth_date":"2000-09-13","honors":[],"votes":[],"college":"Iowa","rookie_year":2024,"height":"77","weight":"255","drafted":{"season":"2024","date":"2024-08-18","label":"4.04","overall":40,"franchise":4,"kind":"rookie"},"career":[],"totals":{"g":0,"gs":0,"pts":0.0,"bench_pts":0.0,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0},"nfl":[{"season":"2024","team":"CIN","g":9,"pts":35.8,"rank":52},{"season":"2026","team":"CIN","g":6,"pts":13.6,"rank":65}],"history":[{"date":"2024-08-18","type":"draft","to":4,"to_team":"Cooper Scoopers","detail":"2024 rookie draft, pick 4.04 (40th overall)","season":"2024","kind":"rookie","label":"4.04","overall":40},{"date":"2024-09-02","type":"released","from":4,"from_team":"Cooper Scoopers"},{"date":"2025-01-01","type":"signed","to":1,"to_team":"Mojo Dojo Casa Team","from":null,"from_team":null,"trade":null},{"date":"2025-01-07","type":"released","from":1,"from_team":"Mojo Dojo Casa Team"}],"nicknames":[],"log":[],"status":{"code":"free_agent"},"split_draft":null,"ranks":[],"similar":[],"hof":null,"black_ink":null,"records_held":[]}
+{
+ "id": "11592",
+ "name": "Erick All Jr.",
+ "pos": "TE",
+ "nfl_team": "CIN",
+ "birth_date": "2000-09-13",
+ "honors": [],
+ "votes": [],
+ "college": "Iowa",
+ "rookie_year": 2024,
+ "height": "77",
+ "weight": "255",
+ "drafted": {
+  "season": "2024",
+  "date": "2024-08-18",
+  "label": "4.04",
+  "overall": 40,
+  "franchise": 4,
+  "kind": "rookie"
+ },
+ "career": [],
+ "totals": {
+  "g": 0,
+  "gs": 0,
+  "pts": 0.0,
+  "bench_pts": 0.0,
+  "ppg": null,
+  "best": null,
+  "wins": 0,
+  "paa": 0.0,
+  "vor": 0.0,
+  "war": 0.0
+ },
+ "nfl": [
+  {
+   "season": "2024",
+   "team": "CIN",
+   "g": 9,
+   "pts": 35.8,
+   "rank": 52
+  },
+  {
+   "season": "2026",
+   "team": "CIN",
+   "g": 6,
+   "pts": 13.6,
+   "rank": 65
+  }
+ ],
+ "history": [
+  {
+   "date": "2024-08-18",
+   "type": "draft",
+   "to": 4,
+   "to_team": "Cooper Scoopers",
+   "detail": "2024 rookie draft, pick 4.04 (40th overall)",
+   "season": "2024",
+   "kind": "rookie",
+   "label": "4.04",
+   "overall": 40
+  },
+  {
+   "date": "2024-09-02",
+   "type": "released",
+   "from": 4,
+   "from_team": "Cooper Scoopers"
+  },
+  {
+   "date": "2025-01-01",
+   "type": "signed",
+   "to": 1,
+   "to_team": "Mojo Dojo Casa Team",
+   "from": null,
+   "from_team": null,
+   "trade": null
+  },
+  {
+   "date": "2025-01-07",
+   "type": "released",
+   "from": 1,
+   "from_team": "Mojo Dojo Casa Team"
+  }
+ ],
+ "nicknames": [],
+ "log": [],
+ "status": {
+  "code": "free_agent"
+ },
+ "split_draft": null,
+ "ranks": [],
+ "similar": [],
+ "hof": null,
+ "black_ink": null,
+ "records_held": [],
+ "injuries": {
+  "seasons": [
+   {
+    "season": "2024",
+    "nfl": "CIN",
+    "missed": 7,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     10,
+     11,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 13,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 14,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 15,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 16,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 17,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2025",
+    "nfl": "CIN",
+    "missed": 16,
+    "lost": 0.0,
+    "injuries": [
+     "Knee - ACL"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "kinds": [
+     "PUP"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 3,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 4,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 5,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 8,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 13,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 14,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 15,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 16,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 17,
+      "kind": "PUP",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   },
+   {
+    "season": "2026",
+    "nfl": "CIN",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Knee - ACL"
+    ],
+    "weeks": [
+     8
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 8,
+      "kind": "IR",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   }
+  ],
+  "stints": [
+   {
+    "season": "2024",
+    "from": 10,
+    "to": 17,
+    "weeks": [
+     10,
+     11,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "missed": 7,
+    "nfl": "CIN",
+    "injury": "Knee",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2025",
+    "from": 1,
+    "to": 17,
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "missed": 16,
+    "nfl": "CIN",
+    "injury": "Knee - ACL",
+    "kinds": [
+     "PUP"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 8,
+    "to": 8,
+    "weeks": [
+     8
+    ],
+    "missed": 1,
+    "nfl": "CIN",
+    "injury": "Knee - ACL",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   }
+  ],
+  "now": null
+ }
+}

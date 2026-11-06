@@ -211,6 +211,7 @@ page("Player", async (main) => {
         ["All-Time Ranks", standing.length ? standing.join(", ") : null],
         ["Hall of Fame Monitor", p.hof && [`${p.hof.score.toFixed(2)} (${ordinal(p.hof.rank)} of ${p.hof.of}; `, h("a", { href: "#hall-of-fame-monitor" }, "over time"), ", ", h("a", { href: "hof.html#hall-of-fame-monitor" }, "full list"), ")"]],
         ["Black Ink", p.black_ink && [`${p.black_ink.score} (${ordinal(p.black_ink.rank)} all-time; `, h("a", { href: "leaders.html#black-ink" }, "what is this?"), ")"]],
+        ["Injury", p.injuries?.now && [`${p.injuries.now.status}${p.injuries.now.injury ? ` (${p.injuries.now.injury})` : ""}`, p.injuries.now.streak ? `, ${p.injuries.now.streak} ${p.injuries.now.streak === 1 ? "game" : "games"} missed in a row` : "", " (", h("a", { href: "#injury-history" }, "history"), ")"]],
         ["iooi Career", `${t.gs} starts, ${fmt.pts(t.pts)} points${t.ppg == null ? "" : `, ${fmt.pts(t.ppg)} per start`}, ${fmt.pts(t.war)} WAR`],
       ],
     }),
@@ -279,6 +280,27 @@ page("Player", async (main) => {
       ],
     }), h("p", { class: "note" }, ["Starter points, starts and value for iooi franchises. Franchise lists count only his time with that team. Top-ten places are bold. Full lists: ",
       h("a", { href: "leaders.html" }, "league leaders"), "; each franchise page has its own."])) : null,
+    // One row per absence (games missed in a row), newest season first, each season closed by its total line.
+    p.injuries?.seasons.length ? section("Injury History", statTable({
+      sortable: false,
+      rows: [...p.injuries.seasons].reverse().flatMap((y) => [
+        ...p.injuries.stints.filter((r) => r.season === y.season),
+        { sub: true, season: y.season, missed: y.missed, rostered: y.rostered, lost: y.lost, injuries: y.injuries, kinds: y.kinds, nfl: y.nfl }]),
+      rowClass: (r) => (r.sub ? "subtotal" : null),
+      foot: { total: true, season: "Career", missed: p.injuries.seasons.reduce((a, r) => a + r.missed, 0), rostered: p.injuries.seasons.reduce((a, r) => a + r.rostered, 0),
+        lost: p.injuries.seasons.reduce((a, r) => a + r.lost, 0) },
+      columns: [
+        { label: "Season", render: (r) => (r.sub ? `${r.season} total` : r.season) },
+        { label: "NFL", render: (r) => (r.total ? "" : r.nfl ?? ""), cls: "c" },
+        { label: "Weeks", render: (r) => (r.sub || r.total ? "" : weeksText(r.weeks)), title: "Weeks of the absence; his team's byes are skipped" },
+        { label: "Missed", render: (r) => r.missed, num: true, cls: "win", title: "NFL games missed to injury" },
+        { label: "Injury", render: (r) => (r.total ? "" : r.sub ? r.injuries.join(", ") : r.injury) },
+        { label: "Status", render: (r) => (r.total ? "" : injuryKinds(r.kinds)) },
+        { label: "iooi", render: (r) => r.rostered, num: true, title: "Of those, games missed while on an iooi roster" },
+        { label: "iooi Team", render: (r) => (r.sub || r.total ? "" : r.teams.flatMap((x, i) => [i ? ", " : "", tsLink(r.season, x.franchise, x.team)])) },
+        { label: "VOR Lost", render: (r) => fmt.pts(r.lost), num: true, title: `${LOST_TIP}. Only games missed while on an iooi roster` },
+      ],
+    }), h("p", { class: "note" }, [`${INJURY_NOTE} Every NFL game he missed since 2023, on an iooi roster or not; each row is one absence, games missed in a row. `, h("a", { href: "injuries.html" }, "League injuries"), "."])) : null,
     p.similar?.length ? section("Similar Players", statTable({
       // His own career first, then a repeated header row, then the players most like him.
       sortable: false, rows: [{ self: true, player: param("id"), name: p.name, gs: t.gs, pts: t.pts, ppg: t.gs ? t.pts / t.gs : 0, war: t.war }, ...p.similar],

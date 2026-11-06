@@ -76,6 +76,7 @@ table.stats td.c { text-align: center; }
 table.stats tbody tr:hover td { background: var(--hover); }
 table.stats tfoot td { background: var(--bar); font-weight: 700; border-top: 1px solid var(--rule-dark); }
 table.stats tr.champ td { background: var(--gold); }
+table.stats tr.subtotal td { background: #f4f5f7; font-weight: 700; border-bottom: 1px solid var(--rule-dark); }
 table.stats td.win { font-weight: 700; }
 table.stats td.dim, .dim { color: var(--muted); }
 table.stats td div { white-space: normal; max-width: 720px; }

@@ -74,6 +74,18 @@ page("Manager", async (main) => {
         { label: "Notes", render: (r) => (r.partial_season ? "Partial season" : ""), cls: "dim" },
       ],
     })),
+    m.injuries?.some((r) => r.games) ? section("Injuries", statTable({
+      rows: [...m.injuries].reverse(),
+      foot: { total: true, season: "Career", games: m.injuries.reduce((a, r) => a + r.games, 0), lost: m.injuries.reduce((a, r) => a + r.lost, 0) },
+      columns: [
+        { label: "Season", value: (r) => r.season, render: (r) => (r.total ? r.season : h("a", { href: `team.html?y=${r.season}&id=${r.franchise}#injuries` }, r.season)) },
+        { label: "Team", render: (r) => (r.total ? "" : fLink(r.franchise, r.team)) },
+        { label: "Games", value: (r) => r.games, num: true, title: "Games missed to injury by players on the roster that week" },
+        { label: "Players", render: (r) => r.players ?? "", num: true },
+        { label: "VOR Lost", value: (r) => r.lost, render: (r) => fmt.pts(r.lost), num: true, title: LOST_TIP },
+        { label: "Rank", render: (r) => (r.total ? "" : `${ordinal(r.rank)} of ${r.of}`), num: true, title: "Rank in VOR lost that season: 1st is the hardest hit" },
+      ],
+    }), h("p", { class: "note" }, [`${INJURY_NOTE} `, h("a", { href: "injuries.html" }, "League injuries"), "."])) : null,
     m.records_held?.length ? section("Records Held", recordTable(m.records_held, players, { scope: true }),
       h("p", { class: "note" }, ["First places he holds today: on the league's ", h("a", { href: "records.html" }, "record book"), " lists, and on the franchise records of teams he managed (franchise shown in brackets), set while he held a stake."])) : null,
     m.leaders.overall.length ? [

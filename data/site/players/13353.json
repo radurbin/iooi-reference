@@ -1,1 +1,168 @@
-{"id":"13353","name":"Chris Brazzell II","pos":"WR","nfl_team":"CAR","birth_date":"2003-09-22","honors":[],"votes":[],"college":"Tennessee","rookie_year":2026,"height":"76","weight":"197","drafted":{"season":"2026","date":"2026-08-16","label":"2.10","overall":22,"franchise":6,"kind":"rookie"},"career":[],"totals":{"g":0,"gs":0,"pts":0.0,"bench_pts":0.0,"ppg":null,"best":null,"wins":0,"paa":0.0,"vor":0.0,"war":0.0},"nfl":[],"history":[{"date":"2026-08-16","type":"draft","to":6,"to_team":"got that DAWG","detail":"2026 rookie draft, pick 2.10 (22nd overall)","season":"2026","kind":"rookie","label":"2.10","overall":22},{"date":"2026-09-08","type":"released","from":6,"from_team":"got that DAWG"}],"nicknames":[],"log":[],"status":{"code":"free_agent"},"split_draft":null,"ranks":[],"similar":[],"hof":null,"black_ink":null,"records_held":[]}
+{
+ "id": "13353",
+ "name": "Chris Brazzell II",
+ "pos": "WR",
+ "nfl_team": "CAR",
+ "birth_date": "2003-09-22",
+ "honors": [],
+ "votes": [],
+ "college": "Tennessee",
+ "rookie_year": 2026,
+ "height": "76",
+ "weight": "197",
+ "drafted": {
+  "season": "2026",
+  "date": "2026-08-16",
+  "label": "2.10",
+  "overall": 22,
+  "franchise": 6,
+  "kind": "rookie"
+ },
+ "career": [],
+ "totals": {
+  "g": 0,
+  "gs": 0,
+  "pts": 0.0,
+  "bench_pts": 0.0,
+  "ppg": null,
+  "best": null,
+  "wins": 0,
+  "paa": 0.0,
+  "vor": 0.0,
+  "war": 0.0
+ },
+ "nfl": [],
+ "history": [
+  {
+   "date": "2026-08-16",
+   "type": "draft",
+   "to": 6,
+   "to_team": "got that DAWG",
+   "detail": "2026 rookie draft, pick 2.10 (22nd overall)",
+   "season": "2026",
+   "kind": "rookie",
+   "label": "2.10",
+   "overall": 22
+  },
+  {
+   "date": "2026-09-08",
+   "type": "released",
+   "from": 6,
+   "from_team": "got that DAWG"
+  }
+ ],
+ "nicknames": [],
+ "log": [],
+ "status": {
+  "code": "free_agent"
+ },
+ "split_draft": null,
+ "ranks": [],
+ "similar": [],
+ "hof": null,
+ "black_ink": null,
+ "records_held": [],
+ "injuries": {
+  "seasons": [
+   {
+    "season": "2026",
+    "nfl": "CAR",
+    "missed": 7,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 3,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 4,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 8,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   }
+  ],
+  "stints": [
+   {
+    "season": "2026",
+    "from": 1,
+    "to": 8,
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8
+    ],
+    "missed": 7,
+    "nfl": "CAR",
+    "injury": "Knee",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   }
+  ],
+  "now": null
+ }
+}

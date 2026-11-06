@@ -134,6 +134,32 @@ page("Season", async (main) => {
       ],
     }),
     h("p", { class: "note" }, ["A pickup is credited with what the player did as a starter for that team from the day he was added until he left it, in this season or later. Kickers and defenses are left off the best pickups list. Every move is in the ", h("a", { href: `transactions.html?y=${y}` }, `${y} transaction log`), "; all-time lists are on the ", h("a", { href: "waivers.html" }, "waiver wire page"), "."])] : h("p", { class: "note" }, "No waiver activity yet.")),
+    season.injuries ? section("Injuries", statTable({
+      rows: season.injuries.teams,
+      columns: [
+        { label: "Rk", value: (r) => r.rank, num: true, title: "Rank by VOR lost: 1st is the hardest hit" },
+        { label: "Team", value: (r) => r.team, render: (r) => h("a", { href: `team.html?y=${y}&id=${r.franchise}#injuries` }, r.team), cls: "win" },
+        { label: "W-L", value: (r) => r.w - r.l, render: (r) => `${r.w}-${r.l}`, num: true },
+        { label: "Games", value: (r) => r.games, num: true, title: "Games missed to injury by players on the roster that week" },
+        { label: "Players", value: (r) => r.players, num: true, title: "Players who missed at least one game" },
+        { label: "VOR Lost", value: (r) => r.lost, render: (r) => fmt.pts(r.lost), num: true, title: LOST_TIP },
+        { label: "Hardest Hit", value: (r) => r.worst?.lost ?? 0, render: (r) => (r.worst ? [pLink(r.worst.player, r.worst.name), h("small", { class: "dim" }, ` ${r.worst.missed} g, ${fmt.pts(r.worst.lost)}`)] : "") },
+      ],
+    }),
+    season.injuries.players.length ? [h("h3", {}, `Most Games Missed in ${y}`), statTable({
+      rows: rank(season.injuries.players, (r) => r.missed),
+      columns: [
+        { label: "Rk", value: (r) => r.rk, num: true },
+        { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name) },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Team", render: (r) => r.teams.flatMap((x, i) => [i ? ", " : "", tsLink(y, x.franchise, x.team)]) },
+        { label: "Missed", value: (r) => r.missed, num: true, cls: "win" },
+        { label: "Weeks", render: (r) => weeksText(r.weeks) },
+        { label: "Injury", render: (r) => r.injuries.join(", ") },
+        { label: "VOR Lost", value: (r) => r.lost, render: (r) => fmt.pts(r.lost), num: true, title: LOST_TIP },
+      ],
+    })] : null,
+    h("p", { class: "note" }, [`${INJURY_NOTE} Everyone on the roster that week counts. All seasons are on the `, h("a", { href: "injuries.html" }, "injuries page"), "."])) : null,
     started ? section("Schedule and Results", statTable({
       sortable: false,
       rows: season.games.filter((g) => g.kind === "regular"),

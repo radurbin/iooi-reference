@@ -73,6 +73,15 @@ const activeCls = (players, on) => (r) => { const st = players[r.player]?.status
 const activeNote = (text = "Bold marks a player now on an iooi roster.") => h("p", { class: "note" }, text);
 // A drafted pick's own page, e.g. pick.html?y=2025&p=1.09.
 const pickLink = (season, label, text) => h("a", { href: `pick.html?y=${season}&p=${label}` }, text ?? label);
+
+// Injuries (see injuries.html): week lists as ranges, and what each status means.
+const weeksText = (weeks) => weeks.reduce((out, w, i) => (i && w === weeks[i - 1] + 1 ? (out.at(-1)[1] = w, out) : [...out, [w, w]]), [])
+  .map(([a, b]) => (a === b ? `${a}` : `${a}-${b}`)).join(", ");
+const INJURY_KINDS = { IR: "Injured reserve", PUP: "Physically unable to perform list", NFI: "Non-football injury list", Out: "Listed Out", Doubtful: "Listed Doubtful and did not play",
+  Questionable: "Listed Questionable and did not play", Inactive: "Inactive on game day with an injury" };
+const injuryKinds = (kinds) => h("span", { "data-tip": kinds.map((k) => INJURY_KINDS[k] ?? k).join("; ") }, kinds.join(", "));
+const INJURY_NOTE = "A game missed to injury is an NFL game his team played while he sat out on injured reserve, PUP or the non-football injury list, or after being listed Out, Doubtful or Questionable (or inactive with an injury). Byes, healthy scratches, suspensions and illnesses do not count. Weeks 1-17. An injury left blank was never named on the NFL report, as when a player goes straight to injured reserve.";
+const LOST_TIP = "Value over replacement lost: for each game missed, his points per game that season (filled in with the season before when he played fewer than four games) above a replacement-level player at his position. A backup who would not have started counts for little or nothing";
 // A pick whose number is not yet set, by draft, round and the franchise it first belonged to, e.g. pick.html?y=2027&r=1&o=1.
 const futurePickLink = (season, round, original, text) => h("a", { href: `pick.html?y=${season}&r=${round}&o=${original}` }, text ?? `${season} ${ordinal(round)}-round pick`);
 const tsLink = (season, id, text) => h("a", { href: `team.html?y=${season}&id=${id}` }, text ?? seasonTeam(season, id));
@@ -377,18 +386,18 @@ function siteMenus() {
     ["League", [link("index.html", "League Index"), link("history.html", "History & Timeline"), link("constitution.html", "Constitution"), link("awards.html", "Awards & Honors"), link("alltime.html", "All-Time Teams"),
       link("hof.html", "Hall of Fame"),
       link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("h2h.html", "Head-to-Head & Rivalries"), link("ratings.html", "Elo Ratings"),
-      link("champions.html", "Anatomy of a Champion"), link("construction.html", "Team Construction"), link("glossary.html", "Glossary")]],
+      link("champions.html", "Anatomy of a Champion"), link("construction.html", "Team Construction"), link("injuries.html", "Injuries"), link("glossary.html", "Glossary")]],
     ["Seasons", [link("week.html", "This Week"), ...years.map((s) => link(`season.html?y=${s.season}`, `${s.season} Season`))]],
     ["Franchises", L.franchises.map((f) => link(`franchise.html?id=${f.id}`, f.name))],
     ["Managers", L.managers.map((m) => link(`manager.html?id=${m.id}`, m.name))],
     ["Players", [link("players.html", "Player Register"), link("leaders.html", "Career & Season Leaders"), link("awards.html", "MVP & All-iooi Teams"), link("alltime.html", "All-Time Teams"), link("hof.html", "Hall of Fame Monitor"),
-      link("journeys.html", "Player Journeys"), link("aging.html", "Aging Curves & Rookie Classes"), link("nicknames.html", "Nickname Register")]],
+      link("journeys.html", "Player Journeys"), link("aging.html", "Aging Curves & Rookie Classes"), link("injuries.html", "Injuries"), link("nicknames.html", "Nickname Register")]],
     // The 2024 split draft sits in date order: after the 2024 rookie draft, before the 2023 startup draft.
     ["Drafts", [...[...L.drafts].reverse().flatMap((d) => [d.kind === "startup" ? link("split_draft.html", "2024 Split Draft") : null, link(`draft.html?y=${d.season}`, `${d.season} ${d.kind === "startup" ? "Startup" : "Rookie"} Draft`)]).filter(Boolean),
       link("drafts.html", "Draft Analysis"), link("picks.html", "Draft Pick Ledger"), link("lottery.html", "Draft Order & Lottery"), link("tankathon/", "Tankathon: Live Draft Order")]],
     ["Trades", [link("trades.html", "Trade Register"), link("trade_records.html", "Trade Records")]],
     ["Transactions", [link("waivers.html", "Waiver Wire"), ...years.map((s) => link(`transactions.html?y=${s.season}`, `${s.season} Transactions`))]],
-    ["Leaders", [link("leaders.html", "Player Leaders"), link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("ratings.html", "Elo Ratings"), link("glossary.html", "Glossary")]],
+    ["Leaders", [link("leaders.html", "Player Leaders"), link("records.html", "Record Book"), link("streaks.html", "Streaks & Milestones"), link("ratings.html", "Elo Ratings"), link("injuries.html", "Injuries"), link("glossary.html", "Glossary")]],
   ];
 }
 

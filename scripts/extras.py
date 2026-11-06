@@ -1817,6 +1817,10 @@ def main():
     starts = analysis.acquisitions(files)
     dump(SITE / "construction.json", analysis.construction(starts, league, seasons, players))
     dump(SITE / "champions.json", analysis.champions(starts, league, seasons, games, players, files, award_list, load(SITE / "elo.json")))
+    import injuries
+    misses, nfl_by_season, _ = injuries.build(league, players, logs)
+    injuries.week_notes(week_data, misses, nfl_by_season)
+    dump(SITE / "week.json", week_data)
 
 
 if __name__ == "__main__":
