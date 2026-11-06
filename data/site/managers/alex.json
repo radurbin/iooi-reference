@@ -1256,5 +1256,433 @@
    "rank": 3,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Knee - meniscus"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "11630",
+   "name": "Roman Wilson",
+   "pos": "WR",
+   "missed": 14,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Inactive",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "8167",
+   "name": "Christian Watson",
+   "pos": "WR",
+   "missed": 12,
+   "lost": 16.74,
+   "injuries": [
+    "Knee",
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "11566",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "missed": 11,
+   "lost": 58.72,
+   "injuries": [
+    "Elbow",
+    "Knee",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2026",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "9511",
+   "name": "Keaton Mitchell",
+   "pos": "RB",
+   "missed": 11,
+   "lost": 0.0,
+   "injuries": [
+    "Knee",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "PUP"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "9757",
+   "name": "Kendre Miller",
+   "pos": "RB",
+   "missed": 9,
+   "lost": 0.0,
+   "injuries": [
+    "Knee - ACL"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "11581",
+   "name": "MarShawn Lloyd",
+   "pos": "RB",
+   "missed": 9,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "12497",
+   "name": "Tory Horton",
+   "pos": "WR",
+   "missed": 9,
+   "lost": 0.0,
+   "injuries": [
+    "Shin",
+    "Groin",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2026",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "12507",
+   "name": "Omarion Hampton",
+   "pos": "RB",
+   "missed": 7,
+   "lost": 46.55,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "13281",
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "missed": 7,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "8112",
+   "name": "Drake London",
+   "pos": "WR",
+   "missed": 6,
+   "lost": 32.05,
+   "injuries": [
+    "Knee",
+    "Groin",
+    "Hip"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "2028",
+   "name": "Derek Carr",
+   "pos": "QB",
+   "missed": 6,
+   "lost": 17.34,
+   "injuries": [
+    "Oblique",
+    "Left Hand"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "7591",
+   "name": "Justin Fields",
+   "pos": "QB",
+   "missed": 6,
+   "lost": 13.11,
+   "injuries": [
+    "Abdomen",
+    "Knee",
+    "Hamstring",
+    "Concussion"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "12492",
+   "name": "Pat Bryant",
+   "pos": "WR",
+   "missed": 6,
+   "lost": 0.0,
+   "injuries": [
+    "Ankle",
+    "Hamstring",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 2,
+     "team": "Storm FC"
+    },
+    {
+     "season": "2026",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
+   "player": "10444",
+   "name": "Cedric Tillman",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Concussion"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  }
  ]
 }

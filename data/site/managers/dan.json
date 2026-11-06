@@ -1337,5 +1337,383 @@
    "rank": 3,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "missed": 19,
+   "lost": 42.46,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 12,
+     "team": "Happy Feet"
+    },
+    {
+     "season": "2025",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "11619",
+   "name": "Ja'Lynn Polk",
+   "pos": "WR",
+   "missed": 17,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 12,
+     "team": "Happy Feet"
+    },
+    {
+     "season": "2025",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "11618",
+   "name": "Jalen McMillan",
+   "pos": "WR",
+   "missed": 17,
+   "lost": 0.0,
+   "injuries": [
+    "Neck",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 12,
+     "team": "Happy Feet"
+    },
+    {
+     "season": "2025",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "missed": 15,
+   "lost": 16.8,
+   "injuries": [
+    "Achilles"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ]
+  },
+  {
+   "player": "7528",
+   "name": "Najee Harris",
+   "pos": "RB",
+   "missed": 13,
+   "lost": 25.61,
+   "injuries": [
+    "Eye"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "missed": 11,
+   "lost": 44.88,
+   "injuries": [
+    "Foot"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "10222",
+   "name": "Jayden Reed",
+   "pos": "WR",
+   "missed": 10,
+   "lost": 0.0,
+   "injuries": [
+    "Foot"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "missed": 8,
+   "lost": 58.96,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "8219",
+   "name": "Jelani Woods",
+   "pos": "TE",
+   "missed": 8,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ]
+  },
+  {
+   "player": "9220",
+   "name": "Evan Hull",
+   "pos": "RB",
+   "missed": 7,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ]
+  },
+  {
+   "player": "5284",
+   "name": "Jeff Wilson",
+   "pos": "RB",
+   "missed": 6,
+   "lost": 0.0,
+   "injuries": [
+    "Ribs"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 3,
+     "team": "dantasy football"
+    }
+   ]
+  },
+  {
+   "player": "6768",
+   "name": "Tua Tagovailoa",
+   "pos": "QB",
+   "missed": 5,
+   "lost": 21.55,
+   "injuries": [
+    "Concussion",
+    "Hip"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "6151",
+   "name": "Miles Sanders",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "6813",
+   "name": "Jonathan Taylor",
+   "pos": "RB",
+   "missed": 3,
+   "lost": 23.13,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "8154",
+   "name": "Brian Robinson Jr.",
+   "pos": "RB",
+   "missed": 3,
+   "lost": 8.7,
+   "injuries": [
+    "Hamstring",
+    "Knee"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  }
  ]
 }

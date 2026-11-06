@@ -115,7 +115,19 @@ page("Manager", async (main) => {
         { label: "VOR Lost", value: (r) => r.lost, render: (r) => fmt.pts(r.lost), num: true, title: LOST_TIP },
         { label: "Rank", render: (r) => (r.total ? "" : `${ordinal(r.rank)} of ${r.of}`), num: true, title: "Rank in VOR lost that season: 1st is the hardest hit" },
       ],
-    }), h("p", { class: "note" }, [`${INJURY_NOTE} `, h("a", { href: "injuries.html" }, "League injuries"), "."])) : null,
+    }), m.injury_players?.length ? [h("h3", {}, "Most Games Missed"), statTable({
+      rows: m.injury_players,
+      columns: [
+        { label: "Player", value: (r) => r.name, render: (r) => pLink(r.player, r.name), cls: "win" },
+        { label: "Pos", value: (r) => r.pos, cls: "c" },
+        { label: "Missed", value: (r) => r.missed, num: true, title: "Games missed to injury on teams he ran" },
+        { label: "Team", value: (r) => r.teams.map((x) => x.team).join(", "), title: "The team or teams he missed games for, and the seasons (each links to that team-season)",
+          render: (r) => Object.values(r.teams.reduce((g, x) => ((g[x.franchise] ??= []).push(x), g), {})).flatMap((list, i) => [i ? "; " : "", fLink(list[0].franchise, list.at(-1).team), " (",
+            [...new Set(list.map((x) => x.season))].flatMap((y, j) => [j ? ", " : "", tsLink(y, list[0].franchise, y)]), ")"]) },
+        { label: "Injuries", render: (r) => r.injuries.slice(0, 3).join(", ") },
+        { label: "VOR Lost", value: (r) => r.lost, render: (r) => fmt.pts(r.lost), num: true, title: LOST_TIP },
+      ],
+    })] : null, h("p", { class: "note" }, [`${INJURY_NOTE} `, h("a", { href: "injuries.html" }, "League injuries"), "."])) : null,
     section("Franchise Stakes", statTable({
       sortable: false, rows: m.stints,
       columns: [

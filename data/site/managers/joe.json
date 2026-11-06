@@ -1249,5 +1249,480 @@
    "rank": 12,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "9229",
+   "name": "Anthony Richardson Sr.",
+   "pos": "QB",
+   "missed": 15,
+   "lost": 49.35,
+   "injuries": [
+    "Concussion",
+    "Oblique",
+    "Back"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "11632",
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "missed": 14,
+   "lost": 66.36,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    },
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "4017",
+   "name": "Deshaun Watson",
+   "pos": "QB",
+   "missed": 13,
+   "lost": 0.0,
+   "injuries": [
+    "Right Shoulder",
+    "Achilles"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    }
+   ]
+  },
+  {
+   "player": "9502",
+   "name": "Tank Dell",
+   "pos": "WR",
+   "missed": 11,
+   "lost": 13.25,
+   "injuries": [
+    "Knee",
+    "Calf",
+    "Concussion",
+    "Chest"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    },
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "12530",
+   "name": "Travis Hunter",
+   "pos": "WR",
+   "missed": 9,
+   "lost": 17.46,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "2216",
+   "name": "Mike Evans",
+   "pos": "WR",
+   "missed": 9,
+   "lost": 8.64,
+   "injuries": [
+    "Hamstring",
+    "Collarbone"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "10236",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "missed": 9,
+   "lost": 8.55,
+   "injuries": [
+    "Knee",
+    "Hamstring",
+    "Concussion",
+    "Oblique"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    },
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "8144",
+   "name": "Chris Olave",
+   "pos": "WR",
+   "missed": 9,
+   "lost": 2.1,
+   "injuries": [
+    "Concussion",
+    "Head",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "12511",
+   "name": "Will Howard",
+   "pos": "QB",
+   "missed": 9,
+   "lost": 0.0,
+   "injuries": [
+    "Hand"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "9508",
+   "name": "Tyjae Spears",
+   "pos": "RB",
+   "missed": 8,
+   "lost": 1.28,
+   "injuries": [
+    "Concussion",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    },
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "11584",
+   "name": "Bucky Irving",
+   "pos": "RB",
+   "missed": 7,
+   "lost": 39.2,
+   "injuries": [
+    "Foot",
+    "Shoulder"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "10859",
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "missed": 7,
+   "lost": 21.0,
+   "injuries": [
+    "Back"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "11646",
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "missed": 7,
+   "lost": 2.22,
+   "injuries": [
+    "Quadricep"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    },
+    {
+     "season": "2026",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "missed": 6,
+   "lost": 18.0,
+   "injuries": [
+    "Foot"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  },
+  {
+   "player": "10235",
+   "name": "Roschon Johnson",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Concussion",
+    "Toe"
+   ],
+   "kinds": [
+    "Inactive",
+    "Out"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 9,
+     "team": "The McCaffrican Americans"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Football?"
+    },
+    {
+     "season": "2024",
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ]
+  }
  ]
 }

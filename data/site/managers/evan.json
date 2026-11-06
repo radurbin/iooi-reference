@@ -1269,5 +1269,437 @@
    "rank": 4,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "9481",
+   "name": "Luke Musgrave",
+   "pos": "TE",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Ankle",
+    "Abdomen",
+    "Kidney"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2024",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "pos": "WR",
+   "missed": 14,
+   "lost": 54.36,
+   "injuries": [
+    "Ankle",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2026",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "6801",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "missed": 11,
+   "lost": 44.61,
+   "injuries": [
+    "Hamstring",
+    "Quadricep",
+    "Concussion",
+    "Ribs"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2024",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "missed": 11,
+   "lost": 0.0,
+   "injuries": [
+    "Achilles"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "4217",
+   "name": "George Kittle",
+   "pos": "TE",
+   "missed": 8,
+   "lost": 51.86,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "9753",
+   "name": "Zach Charbonnet",
+   "pos": "RB",
+   "missed": 8,
+   "lost": 16.52,
+   "injuries": [
+    "Knee",
+    "Foot"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "PUP"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    },
+    {
+     "season": "2026",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "4035",
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "missed": 7,
+   "lost": 23.02,
+   "injuries": [
+    "Knee",
+    "Groin"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "12484",
+   "name": "Jayden Higgins",
+   "pos": "WR",
+   "missed": 7,
+   "lost": 0.0,
+   "injuries": [
+    "Knee - ACL"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "3199",
+   "name": "Michael Thomas",
+   "pos": "WR",
+   "missed": 6,
+   "lost": 0.0,
+   "injuries": [
+    "Illness"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "8408",
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 1.56,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "8155",
+   "name": "Breece Hall",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 20.18,
+   "injuries": [
+    "Quadricep",
+    "Knee"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2026",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "5850",
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 17.27,
+   "injuries": [
+    "Quadricep",
+    "Knee"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "8160",
+   "name": "Kenny Pickett",
+   "pos": "QB",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    }
+   ]
+  },
+  {
+   "player": "4137",
+   "name": "James Conner",
+   "pos": "RB",
+   "missed": 3,
+   "lost": 19.56,
+   "injuries": [
+    "Foot"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
+   "player": "5870",
+   "name": "Daniel Jones",
+   "pos": "QB",
+   "missed": 3,
+   "lost": 18.15,
+   "injuries": [
+    "Fibula"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  }
  ]
 }

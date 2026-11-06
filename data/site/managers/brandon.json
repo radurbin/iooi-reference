@@ -1243,5 +1243,440 @@
    "rank": 6,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "8676",
+   "name": "Rashid Shaheed",
+   "pos": "WR",
+   "missed": 13,
+   "lost": 16.0,
+   "injuries": [
+    "Knee",
+    "Thigh"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2026",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "8183",
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "missed": 9,
+   "lost": 85.91,
+   "injuries": [
+    "Toe",
+    "Shoulder",
+    "Right Shoulder"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2025",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "6794",
+   "name": "Justin Jefferson",
+   "pos": "WR",
+   "missed": 8,
+   "lost": 46.0,
+   "injuries": [
+    "Hamstring",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2023",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2026",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "4950",
+   "name": "Christian Kirk",
+   "pos": "WR",
+   "missed": 8,
+   "lost": 0.68,
+   "injuries": [
+    "Groin",
+    "Collarbone"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "4080",
+   "name": "Zay Jones",
+   "pos": "WR",
+   "missed": 6,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "1479",
+   "name": "Keenan Allen",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 29.74,
+   "injuries": [
+    "Heel"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "12483",
+   "name": "Jack Bech",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Forearm",
+    "Back"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2026",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "11597",
+   "name": "Theo Johnson",
+   "pos": "TE",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Back",
+    "Illness"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2025",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "9999",
+   "name": "Will Levis",
+   "pos": "QB",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Right Shoulder",
+    "Ankle"
+   ],
+   "kinds": [
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "7543",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 25.52,
+   "injuries": [
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "9500",
+   "name": "Josh Downs",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 2.76,
+   "injuries": [
+    "Ankle",
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2025",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "8131",
+   "name": "Isaiah Likely",
+   "pos": "TE",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Foot",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    },
+    {
+     "season": "2025",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "11637",
+   "name": "Keon Coleman",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Wrist"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Achilles"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "9504",
+   "name": "Kayshon Boutte",
+   "pos": "WR",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring",
+    "Concussion"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  }
  ]
 }

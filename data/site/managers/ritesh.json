@@ -1322,5 +1322,423 @@
    "rank": 11,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "11567",
+   "name": "Jordan Travis",
+   "pos": "QB",
+   "missed": 16,
+   "lost": 0.0,
+   "injuries": [
+    "Leg"
+   ],
+   "kinds": [
+    "NFI"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "11576",
+   "name": "Braelon Allen",
+   "pos": "RB",
+   "missed": 12,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "11559",
+   "name": "Michael Penix Jr.",
+   "pos": "QB",
+   "missed": 9,
+   "lost": 13.16,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    },
+    {
+     "season": "2026",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "5927",
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "missed": 9,
+   "lost": 8.26,
+   "injuries": [
+    "Quadricep",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    },
+    {
+     "season": "2026",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "1166",
+   "name": "Kirk Cousins",
+   "pos": "QB",
+   "missed": 8,
+   "lost": 32.0,
+   "injuries": [
+    "Achilles"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    }
+   ]
+  },
+  {
+   "player": "5022",
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "missed": 8,
+   "lost": 5.18,
+   "injuries": [
+    "Knee",
+    "Forearm"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    },
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    },
+    {
+     "season": "2025",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "4881",
+   "name": "Lamar Jackson",
+   "pos": "QB",
+   "missed": 7,
+   "lost": 26.24,
+   "injuries": [
+    "Hamstring",
+    "Ankle",
+    "Back"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    },
+    {
+     "season": "2026",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "1689",
+   "name": "Adam Thielen",
+   "pos": "WR",
+   "missed": 7,
+   "lost": 19.32,
+   "injuries": [
+    "Shoulder",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "7523",
+   "name": "Trevor Lawrence",
+   "pos": "QB",
+   "missed": 6,
+   "lost": 13.92,
+   "injuries": [
+    "Left Shoulder"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "13417",
+   "name": "De'Zhaun Stribling",
+   "pos": "WR",
+   "missed": 6,
+   "lost": 0.0,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "4381",
+   "name": "Taysom Hill",
+   "pos": "TE",
+   "missed": 5,
+   "lost": 11.0,
+   "injuries": [
+    "Rib",
+    "Foot",
+    "Chest"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    },
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "4951",
+   "name": "DJ Chark",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Hip"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "4234",
+   "name": "Noah Brown",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Kidney",
+    "Knee"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    },
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "6806",
+   "name": "J.K. Dobbins",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 23.68,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
+   "player": "6786",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 20.44,
+   "injuries": [
+    "Ankle",
+    "Shoulder"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    },
+    {
+     "season": "2025",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  }
  ]
 }

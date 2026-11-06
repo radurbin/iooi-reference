@@ -1025,5 +1025,245 @@
    "rank": 10,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "10222",
+   "name": "Jayden Reed",
+   "pos": "WR",
+   "missed": 6,
+   "lost": 0.0,
+   "injuries": [
+    "Neck"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Happy Feet"
+    },
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "4892",
+   "name": "Baker Mayfield",
+   "pos": "QB",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Thumb"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "11630",
+   "name": "Roman Wilson",
+   "pos": "WR",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Finger"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "8155",
+   "name": "Breece Hall",
+   "pos": "RB",
+   "missed": 2,
+   "lost": 9.68,
+   "injuries": [
+    "Quadricep"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "13477",
+   "name": "Colbie Young",
+   "pos": "WR",
+   "missed": 2,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "6768",
+   "name": "Tua Tagovailoa",
+   "pos": "QB",
+   "missed": 2,
+   "lost": 0.0,
+   "injuries": [
+    "Oblique"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  },
+  {
+   "player": "8136",
+   "name": "Rachaad White",
+   "pos": "RB",
+   "missed": 1,
+   "lost": 2.66,
+   "injuries": [
+    "Shoulder"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "2449",
+   "name": "Stefon Diggs",
+   "pos": "WR",
+   "missed": 1,
+   "lost": 2.44,
+   "injuries": [
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "13279",
+   "name": "Carnell Tate",
+   "pos": "WR",
+   "missed": 1,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "missed": 1,
+   "lost": 0.0,
+   "injuries": [
+    "Concussion"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Happy Feet"
+    }
+   ]
+  }
  ]
 }

@@ -375,6 +375,16 @@ def build(league, players, logs):
         if path.exists():
             data = load(path)
             data["injuries"] = [{k: r[k] for k in ("season", "franchise", "team", "games", "players", "lost", "rank", "of")} for r in team_rows if slug in r["managers"]]
+            # His most-missed players: games missed on the teams he ran, each season counted in full as in the totals.
+            ran = {(r["season"], r["franchise"]) for r in team_rows if slug in r["managers"]}
+            by_p = defaultdict(list)
+            for m in rostered:
+                if (m["season"], m["franchise"]) in ran:
+                    by_p[m["player"]].append(m)
+            data["injury_players"] = sorted(({**who(pid), **{k: v for k, v in summary_of(rows).items() if k != "weeks"},
+                                              "seasons": sorted({m["season"] for m in rows}),
+                                              "teams": [{"season": se, "franchise": f, "team": t} for se, f, t in dict.fromkeys((m["season"], m["franchise"], m["team"]) for m in rows)]}
+                                             for pid, rows in by_p.items()), key=lambda r: (-r["missed"], -r["lost"], r["name"]))[:15]
             dump(path, data)
 
     # ---- season pages

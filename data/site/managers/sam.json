@@ -1271,5 +1271,420 @@
    "rank": 2,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "8205",
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "missed": 11,
+   "lost": 9.4,
+   "injuries": [
+    "Ankle",
+    "Shoulder"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 5,
+     "team": "your gibbs small"
+    },
+    {
+     "season": "2024",
+     "franchise": 5,
+     "team": "i’m Stroud of you"
+    }
+   ]
+  },
+  {
+   "player": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "missed": 7,
+   "lost": 10.92,
+   "injuries": [
+    "Ankle",
+    "Concussion",
+    "Hand"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown v. Board"
+    },
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown VS Board"
+    }
+   ]
+  },
+  {
+   "player": "4033",
+   "name": "David Njoku",
+   "pos": "TE",
+   "missed": 6,
+   "lost": 17.3,
+   "injuries": [
+    "Ankle",
+    "Knee",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 5,
+     "team": "i’m Stroud of you"
+    },
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown v. Board"
+    }
+   ]
+  },
+  {
+   "player": "13349",
+   "name": "Eli Stowers",
+   "pos": "TE",
+   "missed": 6,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring",
+    "Quadricep"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 47.62,
+   "injuries": [
+    "Knee - ACL",
+    "Knee"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 5,
+     "team": "your gibbs small"
+    },
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
+   "player": "9758",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "missed": 5,
+   "lost": 16.75,
+   "injuries": [
+    "Concussion"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2023",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 5,
+     "team": "your gibbs small"
+    },
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown v. Board"
+    }
+   ]
+  },
+  {
+   "player": "12469",
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
+   "player": "6904",
+   "name": "Jalen Hurts",
+   "pos": "QB",
+   "missed": 4,
+   "lost": 15.95,
+   "injuries": [
+    "Calf",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 5,
+     "team": "i’m Stroud of you"
+    },
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
+   "player": "11628",
+   "name": "Marvin Harrison Jr.",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 0.2,
+   "injuries": [
+    "Illness",
+    "Heel"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown v. Board"
+    },
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "Brandon Aubrey"
+    }
+   ]
+  },
+  {
+   "player": "10444",
+   "name": "Cedric Tillman",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Hand"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown v. Board"
+    }
+   ]
+  },
+  {
+   "player": "8110",
+   "name": "Jake Ferguson",
+   "pos": "TE",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Concussion",
+    "Knee"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 5,
+     "team": "i’m Stroud of you"
+    }
+   ]
+  },
+  {
+   "player": "9494",
+   "name": "Marvin Mims Jr.",
+   "pos": "WR",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Concussion",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 5,
+     "team": "i’m Stroud of you"
+    },
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown v. Board"
+    }
+   ]
+  },
+  {
+   "player": "9221",
+   "name": "Jahmyr Gibbs",
+   "pos": "RB",
+   "missed": 2,
+   "lost": 12.14,
+   "injuries": [
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 5,
+     "team": "your diggs small"
+    }
+   ]
+  },
+  {
+   "player": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "missed": 2,
+   "lost": 5.54,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 5,
+     "team": "your diggs small"
+    }
+   ]
+  },
+  {
+   "player": "11599",
+   "name": "Cade Stover",
+   "pos": "TE",
+   "missed": 2,
+   "lost": 0.0,
+   "injuries": [
+    "Illness"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 5,
+     "team": "i’m Stroud of you"
+    }
+   ]
+  }
  ]
 }

@@ -1260,5 +1260,441 @@
    "rank": 8,
    "of": 12
   }
+ ],
+ "injury_players": [
+  {
+   "player": "4018",
+   "name": "Joe Mixon",
+   "pos": "RB",
+   "missed": 19,
+   "lost": 180.98,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "NFI",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "Justin Treherbert Jr"
+    },
+    {
+     "season": "2025",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2025",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "1166",
+   "name": "Kirk Cousins",
+   "pos": "QB",
+   "missed": 8,
+   "lost": 32.0,
+   "injuries": [
+    "Achilles"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    }
+   ]
+  },
+  {
+   "player": "8151",
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "missed": 6,
+   "lost": 35.14,
+   "injuries": [
+    "Oblique",
+    "Ankle",
+    "Calf"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    },
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "Justin Treherbert Jr"
+    },
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    }
+   ]
+  },
+  {
+   "player": "5022",
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "missed": 6,
+   "lost": 1.26,
+   "injuries": [
+    "Forearm",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    },
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "Justin Treherbert Jr"
+    },
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "Comeback Papa"
+    }
+   ]
+  },
+  {
+   "player": "4381",
+   "name": "Taysom Hill",
+   "pos": "TE",
+   "missed": 5,
+   "lost": 11.0,
+   "injuries": [
+    "Knee",
+    "Foot"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    },
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    }
+   ]
+  },
+  {
+   "player": "7083",
+   "name": "Tyler Huntley",
+   "pos": "QB",
+   "missed": 5,
+   "lost": 3.95,
+   "injuries": [
+    "Right Shoulder"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2024"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "Justin Treherbert Jr"
+    },
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "Comeback Papa"
+    },
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    }
+   ]
+  },
+  {
+   "player": "9480",
+   "name": "Brenton Strange",
+   "pos": "TE",
+   "missed": 5,
+   "lost": 0.95,
+   "injuries": [
+    "Hip"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2025",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "7591",
+   "name": "Justin Fields",
+   "pos": "QB",
+   "missed": 4,
+   "lost": 14.96,
+   "injuries": [
+    "Right Thumb"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
+    }
+   ]
+  },
+  {
+   "player": "13380",
+   "name": "Brenen Thompson",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Quadricep"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "13293",
+   "name": "Ja'Kobi Lane",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Wrist"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Concussion",
+    "Shoulder"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "11560",
+   "name": "Caleb Williams",
+   "pos": "QB",
+   "missed": 3,
+   "lost": 17.88,
+   "injuries": [
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "7021",
+   "name": "Rico Dowdle",
+   "pos": "RB",
+   "missed": 3,
+   "lost": 3.75,
+   "injuries": [
+    "Toe"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "8111",
+   "name": "Cade Otton",
+   "pos": "TE",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2025",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "8125",
+   "name": "Calvin Austin III",
+   "pos": "WR",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2025"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2025",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  }
  ]
 }
