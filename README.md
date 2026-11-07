@@ -56,6 +56,14 @@ injury note for the current week into the season's file (Sleeper only shows a no
 kept as the season goes). Anything still unnamed can be named by hand in `data/manual/injury_notes.json`; the build
 lists each unnamed absence on an iooi roster as a notice on the daily job's summary page.
 
+### Clinching and the 6th seed
+
+`scripts/clinch.py` marks teams that have clinched a playoff spot or a first-round bye (the x and y on the home page
+standings) and works out what this week's results would clinch, for the storylines. It needs nothing beyond the Sleeper
+matchups already fetched: the remaining schedule comes from the future weeks' matchup files. If any of those is missing
+or incomplete, or a played game has no winner, it marks nothing rather than guess. In the last regular-season week
+(from 2026) the storylines also give each team's points-for race for the 6th seed. The method is in the file's docstring.
+
 ### The Sleeper token
 
 Three things come only from Sleeper's private endpoint and need a logged-in user's token: league-office events posted in the league chat (team renames, nickname changes, scoring changes, trades under review, vetoes), the vote tally on each trade, and the official weekly scores. `scripts/sync_chat.py` reads only the chat messages posted since its last run, keeps the system events with profile details removed, and discards everything else. The chat itself is never stored here.

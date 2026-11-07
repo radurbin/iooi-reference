@@ -29,6 +29,7 @@ page("Dynasty iooi History", async (main) => {
   };
   const dots = (links) => h("p", { class: "links" }, links.flatMap((a, i) => [i ? " · " : "", a]));
   const lot = home.lottery;
+  const CLINCH_TIP = { playoffs: "Clinched a playoff spot: a top-five record whatever happens in the games left", bye: "Clinched a first-round bye: a top-two seed whatever happens in the games left" };
   const panels = h("div", { class: "home" },
     h("div", { class: "panel" },
       h("h2", {}, h("a", { href: "players.html" }, "Every iooi Player")),
@@ -46,7 +47,7 @@ page("Dynasty iooi History", async (main) => {
           statTable({
             sortable: false, rows: home.standings, rowClass: (r) => (r.finish === 1 ? "champ" : r.seed === 7 ? "first" : null),
             columns: [
-              { label: "Team", render: (r) => [tsLink(y, r.franchise, r.team), h("small", {}, ` (${r.seed})`)], title: "Team, with its seed" },
+              { label: "Team", render: (r) => [tsLink(y, r.franchise, r.team), h("small", {}, ` (${r.seed})`), r.clinched ? h("small", { class: "dim", "data-tip": CLINCH_TIP[r.clinched] }, ` ${r.clinched === "bye" ? "y" : "x"}`) : null], title: "Team, with its seed" },
               { label: "W", render: (r) => r.w, num: true },
               { label: "L", render: (r) => r.l, num: true },
               { label: "PF", render: (r) => fmt.pts(r.pf), num: true },
@@ -61,6 +62,7 @@ page("Dynasty iooi History", async (main) => {
               { label: "Holder", render: (r) => (r.holder === r.franchise ? "own" : fLink(r.holder)), title: `Who holds the team's ${lot.draft} first-round pick` },
             ],
           }), h("p", { class: "note" }, [lot.final ? "Final lottery order. " : "If the season ended today. ", lot.basis === "max_pf" ? "Odds go to the non-playoff teams by Max PF, lowest first. " : "", h("a", { href: "tankathon/" }, "Tankathon"), " has the live order."])) : null),
+        home.standings.some((r) => r.clinched) ? h("p", { class: "note" }, "x: clinched a playoff spot. y: clinched a first-round bye (a top-two seed).") : null,
         h("p", { class: "note" }, +y >= 2026
           ? ["Seeds 1-6 make the Dynasty Playoffs; the line marks the cut. Seeds 1-5 go by record (points break ties), and the 6th seed goes to the top scorer among the rest, whatever its record (", h("a", { href: "constitution.html" }, "4th Amendment"), ")."]
           : "Seeds 1-6 make the Dynasty Playoffs; the line marks the cut."))));

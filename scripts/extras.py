@@ -1167,7 +1167,7 @@ def last_week_honors(games, players, records, reached, logs, stints):
     return {"season": season, "week": week, "kind": mine[0]["kind"], "lines": lines}
 
 
-def home(league, seasons, players, careers, picks, honors):
+def home(league, seasons, players, careers, picks, honors, clinched=None):
     """The front page's top panels: a dozen faces, the standings, and the lottery as it stands.
 
     The faces follow the calendar: the season's leading scorers while it is played; once it is over, the champion's
@@ -1201,6 +1201,8 @@ def home(league, seasons, players, careers, picks, honors):
                          "franchise": p["status"].get("franchise") if p["status"]["code"] == "rostered" else None}
                         for pid, p in players.items() if p.get("birth_date") and p["pos"] != "DEF"
                         and (p["status"]["code"] == "rostered" or (p["status"]["code"] == "free_agent" and p.get("gs")))), key=lambda b: b["birth_date"][5:])
+    if season != league["current_season"]:
+        clinched = None
     lottery = None
     if draft not in {d["season"] for d in league["drafts"]}:
         # From the 2027 draft the odds follow Max PF, lowest first (5th Amendment); before that, regular-season standing.
@@ -1211,13 +1213,114 @@ def home(league, seasons, players, careers, picks, honors):
                    "rows": [{"franchise": r["franchise"], "team": r["team"], "max_pf": r["max_pf"], "odds": odds, "holder": holder.get(r["franchise"], r["franchise"])}
                             for r, odds in zip(out, LOTTERY_ODDS)]}
     return {"season": season, "status": s["status"], "weeks_played": s["weeks_played"], "faces": faces, "birthdays": birthdays,
-            "standings": [{k: r[k] for k in ("seed", "franchise", "team", "w", "l", "pf", "finish", "result")} for r in s["standings"]],
+            "standings": [{**{k: r[k] for k in ("seed", "franchise", "team", "w", "l", "pf", "finish", "result")},
+                           **({"clinched": c} if (c := clinch_word((clinched or {}).get(r["franchise"]))) else {})} for r in s["standings"]],
             "lottery": lottery, "last_week": honors}
+
+
+def clinch_word(st):
+    """'bye', 'playoffs' or None for a team's clinch status."""
+    return st and ("bye" if st["bye"] else "playoffs" if st["playoffs"] else None)
+
+
+CLINCH_GOAL = {"playoffs": "a playoff spot", "bye": "a first-round bye"}
+
+
+def clinch_notes(fid, name, clinch_data, standings):
+    """Storylines: what the team clinched last week, and the results this week that would clinch."""
+    team = lambda f: f"[[f:{f}|{standings[f]['team']}]]"
+    notes = []
+    new = clinch_data["new"].get(fid) or []
+    if new:
+        notes.append(f"{name} clinched {CLINCH_GOAL['bye' if 'bye' in new else 'playoffs']} last week.")
+    for key in ("bye", "playoffs"):
+        path = clinch_data["paths"].get(fid, {}).get(key)
+        if not path:
+            continue
+        goal = CLINCH_GOAL[key]
+        ties = tie_text(path["ties"], team)
+        if path["options"]:
+            notes.append(f"{name} clinch {goal} with {clinch_options(path['options'], team)}."
+                         + (f" A tie in record would go to points for, where going into the week they {ties}." if ties else ""))
+        else:
+            notes.append(f"{name} can still earn {goal} with a win, but only by winning a tie in record on points for, where going into the week they {ties}.")
+    return notes
+
+
+def points_seed_notes(fid, name, clinch_data, standings, projected):
+    """The season's last week, from 2026: what a team outside the top five needs in points for to take the 6th seed.
+
+    The race is among the teams that finish 6th to 12th by record; any team that has not clinched a top-five record
+    could end up in it. Margins are going into the week; the needed score assumes every rival scores its projection."""
+    clinched = clinch_data["now"]
+    if clinched[fid]["playoffs"]:
+        return []
+    # A team that cannot reach the top five by record is in the race for certain.
+    if_out = "if they finish outside the top five, " if clinch_data["by_record"].get(fid, True) else ""
+    team = lambda f: f"[[f:{f}|{standings[f]['team']}]]"
+    pf = lambda f: standings[f]["pf"]
+    rivals = [f for f in standings if f != fid and not clinched[f]["playoffs"]]
+    if not rivals:
+        return []
+    top = max(rivals, key=lambda f: pf(f) + (projected.get(f) or 0))
+    need = pf(top) + (projected.get(top) or 0) - pf(fid)
+    own = f" (they are projected for {projected[fid]:.2f})" if projected.get(fid) else ""
+    nearest = max(rivals, key=pf)
+    if pf(fid) > pf(nearest):
+        est = f" If the others score their projections, they need about {need:.2f} points to stay ahead of {team(top)}{own}." if need > 0 else ""
+        return [f"{name} lead the race for the 6th seed by points, {pf(fid) - pf(nearest):.2f} points for ahead of {team(nearest)} going into the week. "
+                f"{(if_out or 'they cannot finish in the top five, so ').capitalize()}the 6th seed is theirs as long as no team outside the top five outscores them by more than its deficit." + est]
+    lead = f"6th seed by points: if {name} finish outside the top five, they need" if if_out else f"6th seed by points: {name} cannot finish in the top five, so their way in is"
+    return [f"{lead} the most points for of the teams outside it. "
+            f"Going into the week they trail {team(nearest)}, who lead that group, by {pf(nearest) - pf(fid):.2f}. "
+            f"If the others score their projections, {name} need about {need:.2f} points to finish ahead of {team(top)}{own}."]
+
+
+def and_list(items):
+    return items[0] if len(items) == 1 else f"{', '.join(items[:-1])} and {items[-1]}"
+
+
+def or_list(items):
+    return items[0] if len(items) == 1 else f"{', '.join(items[:-1])} or {items[-1]}"
+
+
+NUMBER_WORDS = {2: "two", 3: "three", 4: "four", 5: "five"}
+
+
+def clinch_options(options, team):
+    """The sets of results that each clinch, in words: "a win or a loss by X", "a win and losses by X and Y",
+    "a win and losses by any three of V, W, X, Y and Z"."""
+    from itertools import combinations
+    parts = []
+    for win in (True, False):
+        group = [o["losses"] for o in options if o["win"] == win]
+        if not group:
+            continue
+        lead = "a win and " if win else ""
+        if group == [[]]:
+            parts.append("a win")
+            continue
+        sizes = {len(g) for g in group}
+        pool = sorted({x for g in group for x in g}, key=lambda x: [x in g for g in group].index(True))
+        k = len(group[0])
+        if len(sizes) == 1 and len(group) > 1 and {frozenset(g) for g in group} == {frozenset(c) for c in combinations(pool, k)}:
+            names = [team(x) for x in pool]
+            parts.append(f"{lead}a loss by {or_list(names)}" if k == 1 else f"{lead}losses by any {NUMBER_WORDS.get(k, k)} of {and_list(names)}")
+        else:
+            parts.extend(f"{lead}{'a loss by' if len(g) == 1 else 'losses by'} {and_list([team(x) for x in g])}" for g in group)
+    return or_list(parts) if all(" and " not in p for p in parts) else "; or ".join(parts)
+
+
+def tie_text(ties, team):
+    """ "lead X by 12.30 and trail Y by 4.50": the points-for margins that would settle a tie in record."""
+    lead = [f"{team(t['franchise'])} by {t['gap']:.2f}" for t in ties if t["gap"] > 0]
+    trail = [f"{team(t['franchise'])} by {-t['gap']:.2f}" for t in ties if t["gap"] <= 0]
+    return " and ".join(x for x in (f"trail {and_list(trail)}" if trail else "", f"lead {and_list(lead)}" if lead else "") if x)
 
 
 # ---------------------------------------------------------------- this week
 
-def this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits):
+def this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits, clinch_data=None):
     """The current week's matchups: lineups as last fetched, projections, Elo win chances, history and storylines."""
     from datetime import datetime, timezone
     from build import fired_subs
@@ -1355,10 +1458,9 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
     pairs = defaultdict(list)
     for row in rows:
         pairs[row["matchup_id"]].append(row)
-    for _, pair in sorted(pairs.items()):
-        if len(pair) != 2:
-            continue
-        a, b = sorted((side(r) for r in pair), key=lambda x: x["seed"])
+    matchups = [sorted((side(r) for r in pair), key=lambda x: x["seed"]) for _, pair in sorted(pairs.items()) if len(pair) == 2]
+    projected = {x["franchise"]: x["proj"] for m in matchups for x in m}
+    for a, b in matchups:
         a["chance"] = round(1 / (1 + 10 ** ((b["elo"] - a["elo"]) / 400)), 3)
         b["chance"] = round(1 - a["chance"], 3)
         key = "~".join(str(x) for x in sorted((a["franchise"], b["franchise"]), key=str))
@@ -1375,6 +1477,10 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                 notes.append(f"Birthday: [[p:{pid}|{players[pid]['name']}]] of {name} turns {age} on {day.strftime('%A')}, {day.strftime('%B')} {day.day}.")
             if x["streak"] and x["streak"]["n"] >= 3:
                 notes.append(f"{name} {'have won' if x['streak']['won'] else 'have lost'} {x['streak']['n']} in a row.")
+            if clinch_data and kind == "regular":
+                notes.extend(clinch_notes(x["franchise"], name, clinch_data, standings))
+                if clinch_data["points_seed"]:
+                    notes.extend(points_seed_notes(x["franchise"], name, clinch_data, standings, projected))
             if x["l"] == 0 and x["w"] >= 3:
                 notes.append(f"{name} are unbeaten at {x['w']}-0.")
             if x["w"] == 0 and x["l"] >= 3:
@@ -1802,8 +1908,11 @@ def main():
     dump(path, split)
     stints = {m["id"]: load(SITE / "managers" / f"{m['id']}.json")["stints"] for m in league["managers"]}
     honors = last_week_honors(games, players, load(SITE / "records.json"), streak_data["milestones"]["reached"], logs, stints)
-    dump(SITE / "home.json", home(league, seasons, players, careers, picks, honors))
-    week_data = this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits)
+    import clinch
+    current = seasons[league["current_season"]]
+    clinch_data = clinch.season_status(league["current_season"], current["standings"], games) if current["status"] != "complete" else None
+    dump(SITE / "home.json", home(league, seasons, players, careers, picks, honors, clinch_data and clinch_data["now"]))
+    week_data = this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits, clinch_data)
     dump(SITE / "week.json", week_data)
     for fid, rows in remaining_schedule(league, seasons, games, week_data).items():
         path = SITE / "teams" / f"{league['current_season']}-{fid}.json"
