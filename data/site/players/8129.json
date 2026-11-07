@@ -2,7 +2,7 @@
  "id": "8129",
  "name": "Dameon Pierce",
  "pos": "RB",
- "nfl_team": "PHI",
+ "nfl_team": null,
  "birth_date": "2000-02-19",
  "honors": [],
  "votes": [],
@@ -723,7 +723,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "out",
+  "last_nfl": "2026"
  },
  "split_draft": null,
  "ranks": [
