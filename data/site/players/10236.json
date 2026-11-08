@@ -80,8 +80,8 @@
    "best": 22.5,
    "wins": 2,
    "paa": -2.68,
-   "vor": 2.35,
-   "war": 0.03
+   "vor": 8.3,
+   "war": 0.1
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 22.5,
   "wins": 16,
   "paa": -98.67,
-  "vor": -75.17,
-  "war": -0.89
+  "vor": -69.22,
+  "war": -0.82
  },
  "nfl": [
   {
@@ -1103,8 +1103,8 @@
    "proj": 12.14,
    "won": true,
    "paa": 9.91,
-   "vor": 11.49,
-   "war": 0.13579781892430678
+   "vor": 12.68,
+   "war": 0.14986217092778156
   },
   {
    "season": "2026",
@@ -1122,8 +1122,8 @@
    "proj": 13.23,
    "won": false,
    "paa": -8.86,
-   "vor": -7.21,
-   "war": -0.08521342684458241
+   "vor": -6.02,
+   "war": -0.07114907484110765
   },
   {
    "season": "2026",
@@ -1141,8 +1141,8 @@
    "proj": 12.2,
    "won": false,
    "paa": -9.42,
-   "vor": -9.31,
-   "war": -0.11003287155659672
+   "vor": -8.12,
+   "war": -0.09596851955312194
   },
   {
    "season": "2026",
@@ -1176,8 +1176,8 @@
    "proj": 11.08,
    "won": true,
    "paa": -0.06,
-   "vor": -0.21,
-   "war": -0.0024819444712014293
+   "vor": 0.98,
+   "war": 0.011582407532273338
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 10.46,
    "won": false,
    "paa": 5.75,
-   "vor": 7.59,
-   "war": 0.08970456445913738
+   "vor": 8.78,
+   "war": 0.10376891646261215
   }
  ],
  "similar": [
@@ -1223,39 +1223,39 @@
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.72
+   "war": -0.65
   },
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 818,
+   "score": 819,
    "gs": 32,
    "pts": 291.5,
    "ppg": 9.11,
-   "war": -0.39
+   "war": -0.32
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 710,
+   "score": 714,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.31
+   "war": -0.27
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 672,
+   "score": 681,
    "gs": 33,
    "pts": 339.9,
    "ppg": 10.3,
-   "war": 0.2
+   "war": 0.24
   },
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 636,
+   "score": 637,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -1290,18 +1290,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.89,
+   "value": -0.82,
    "digits": 2,
-   "rank": 416,
+   "rank": 414,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -75.2,
+   "value": -69.2,
    "digits": 1,
-   "rank": 416,
+   "rank": 414,
    "of": 419
   },
   {
@@ -1362,7 +1362,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.89,
+   "value": -0.82,
    "digits": 2,
    "rank": 52,
    "of": 52
@@ -1391,7 +1391,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.88,
+   "value": -0.81,
    "digits": 2,
    "rank": 65,
    "of": 65,
@@ -1530,7 +1530,7 @@
  ],
  "hof": {
   "score": 9.5,
-  "rank": 132,
+  "rank": 133,
   "of": 419,
   "war": 0.0,
   "starts": 9.5,

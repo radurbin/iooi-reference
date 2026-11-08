@@ -55,8 +55,8 @@
    "best": 27.7,
    "wins": 0,
    "paa": -7.73,
-   "vor": 0.34,
-   "war": 0.0
+   "vor": 1.8,
+   "war": 0.02
   }
  ],
  "totals": {
@@ -68,8 +68,8 @@
   "best": 28.42,
   "wins": 8,
   "paa": 14.95,
-  "vor": 76.22,
-  "war": 0.9
+  "vor": 77.68,
+  "war": 0.92
  },
  "nfl": [
   {
@@ -414,8 +414,8 @@
    "proj": 18.96,
    "won": false,
    "paa": 9.21,
-   "vor": 13.62,
-   "war": 0.16097182713220698
+   "vor": 14.35,
+   "war": 0.16959953886543103
   },
   {
    "season": "2026",
@@ -433,8 +433,8 @@
    "proj": 18.18,
    "won": false,
    "paa": -16.94,
-   "vor": -13.28,
-   "war": -0.15695344084549992
+   "vor": -12.55,
+   "war": -0.14832572911227593
   },
   {
    "season": "2026",
@@ -537,16 +537,16 @@
   {
    "player": "3257",
    "name": "Jacoby Brissett",
-   "score": 845,
+   "score": 846,
    "gs": 15,
    "pts": 251.56,
    "ppg": 16.77,
-   "war": 0.72
+   "war": 0.78
   },
   {
    "player": "8162",
    "name": "Sam Howell",
-   "score": 845,
+   "score": 843,
    "gs": 9,
    "pts": 154.44,
    "ppg": 17.16,
@@ -568,12 +568,12 @@
    "gs": 23,
    "pts": 400.74,
    "ppg": 17.42,
-   "war": 1.45
+   "war": 1.47
   },
   {
    "player": "7591",
    "name": "Justin Fields",
-   "score": 698,
+   "score": 699,
    "gs": 24,
    "pts": 401.96,
    "ppg": 16.75,
@@ -608,16 +608,16 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.92,
    "digits": 2,
-   "rank": 82,
+   "rank": 83,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 76.2,
+   "value": 77.7,
    "digits": 1,
    "rank": 83,
    "of": 419
@@ -680,9 +680,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.92,
    "digits": 2,
-   "rank": 21,
+   "rank": 22,
    "of": 66
   },
   {
@@ -709,7 +709,7 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.92,
    "digits": 2,
    "rank": 7,
    "of": 51,
@@ -787,10 +787,10 @@
   }
  ],
  "hof": {
-  "score": 21.75,
+  "score": 21.95,
   "rank": 70,
   "of": 419,
-  "war": 9.0,
+  "war": 9.2,
   "starts": 2.75,
   "black_ink": 0.0,
   "awards": 10.0,
@@ -883,42 +883,42 @@
    [
     "2026",
     1,
-    23.1
+    23.2
    ],
    [
     "2026",
     2,
-    21.75
+    21.95
    ],
    [
     "2026",
     3,
-    21.75
+    21.95
    ],
    [
     "2026",
     4,
-    21.75
+    21.95
    ],
    [
     "2026",
     5,
-    21.75
+    21.95
    ],
    [
     "2026",
     6,
-    21.75
+    21.95
    ],
    [
     "2026",
     7,
-    21.75
+    21.95
    ],
    [
     "2026",
     8,
-    21.75
+    21.95
    ]
   ],
   "benchmark": 100
@@ -964,7 +964,7 @@
     "season": "2026",
     "nfl": "NYG",
     "missed": 5,
-    "lost": 12.85,
+    "lost": 16.5,
     "injuries": [
      "Knee"
     ],
@@ -1066,7 +1066,7 @@
      }
     ],
     "rostered": 5,
-    "lost": 12.85
+    "lost": 16.5
    }
   ],
   "now": {

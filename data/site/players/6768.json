@@ -121,7 +121,7 @@
   {
    "season": "2026",
    "team": "ATL",
-   "g": 1,
+   "g": 2,
    "pts": -0.64,
    "rank": 65
   }
@@ -1106,20 +1106,20 @@
   {
    "player": "1373",
    "name": "Geno Smith",
-   "score": 748,
+   "score": 747,
    "gs": 34,
    "pts": 467.84,
    "ppg": 13.76,
-   "war": 0.31
+   "war": 0.33
   },
   {
    "player": "96",
    "name": "Aaron Rodgers",
-   "score": 723,
+   "score": 722,
    "gs": 24,
    "pts": 322.32,
    "ppg": 13.43,
-   "war": 0.35
+   "war": 0.37
   },
   {
    "player": "5870",
@@ -1128,25 +1128,25 @@
    "gs": 22,
    "pts": 314.82,
    "ppg": 14.31,
-   "war": 0.45
+   "war": 0.47
   },
   {
    "player": "9228",
    "name": "Bryce Young",
-   "score": 662,
+   "score": 659,
    "gs": 19,
    "pts": 264.38,
    "ppg": 13.91,
-   "war": 0.13
+   "war": 0.19
   },
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 630,
+   "score": 626,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
-   "war": 0.84
+   "war": 0.89
   }
  ],
  "status": {
@@ -1386,7 +1386,7 @@
  ],
  "hof": {
   "score": 8.25,
-  "rank": 144,
+  "rank": 145,
   "of": 419,
   "war": 0.0,
   "starts": 8.25,

@@ -112,8 +112,8 @@
    "best": 22.1,
    "wins": 1,
    "paa": -2.6,
-   "vor": 7.32,
-   "war": 0.09
+   "vor": 8.78,
+   "war": 0.1
   }
  ],
  "totals": {
@@ -125,8 +125,8 @@
   "best": 25.66,
   "wins": 19,
   "paa": -89.01,
-  "vor": 29.72,
-  "war": 0.35
+  "vor": 31.18,
+  "war": 0.37
  },
  "nfl": [
   {
@@ -1182,8 +1182,8 @@
    "proj": 16.52,
    "won": true,
    "paa": 2.31,
-   "vor": 8.02,
-   "war": 0.09478664123350221
+   "vor": 8.75,
+   "war": 0.10341435296672623
   },
   {
    "season": "2026",
@@ -1217,8 +1217,8 @@
    "proj": 16.86,
    "won": false,
    "paa": -4.91,
-   "vor": -0.7,
-   "war": -0.008273148237338098
+   "vor": 0.03,
+   "war": 0.0003545634958859185
   },
   {
    "season": "2026",
@@ -1245,30 +1245,30 @@
    "gs": 22,
    "pts": 314.82,
    "ppg": 14.31,
-   "war": 0.45
+   "war": 0.47
   },
   {
    "player": "9228",
    "name": "Bryce Young",
-   "score": 893,
+   "score": 895,
    "gs": 19,
    "pts": 264.38,
    "ppg": 13.91,
-   "war": 0.13
+   "war": 0.19
   },
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 846,
+   "score": 844,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
-   "war": 0.84
+   "war": 0.89
   },
   {
    "player": "1234",
    "name": "Russell Wilson",
-   "score": 832,
+   "score": 834,
    "gs": 23,
    "pts": 365.04,
    "ppg": 15.87,
@@ -1281,7 +1281,7 @@
    "gs": 34,
    "pts": 467.84,
    "ppg": 13.76,
-   "war": 0.31
+   "war": 0.33
   }
  ],
  "status": {
@@ -1312,18 +1312,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.35,
+   "value": 0.37,
    "digits": 2,
-   "rank": 134,
+   "rank": 132,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 29.7,
+   "value": 31.2,
    "digits": 1,
-   "rank": 134,
+   "rank": 133,
    "of": 419
   },
   {
@@ -1384,7 +1384,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.35,
+   "value": 0.37,
    "digits": 2,
    "rank": 29,
    "of": 66
@@ -1493,7 +1493,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 0.16,
+   "value": 0.17,
    "digits": 2,
    "rank": 25,
    "of": 77,
@@ -1631,10 +1631,10 @@
   }
  ],
  "hof": {
-  "score": 9.5,
-  "rank": 132,
+  "score": 9.7,
+  "rank": 131,
   "of": 419,
-  "war": 3.5,
+  "war": 3.7,
   "starts": 6.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1917,22 +1917,22 @@
    [
     "2026",
     5,
-    9.35
+    9.45
    ],
    [
     "2026",
     6,
-    9.35
+    9.45
    ],
    [
     "2026",
     7,
-    9.5
+    9.7
    ],
    [
     "2026",
     8,
-    9.5
+    9.7
    ]
   ],
   "benchmark": 100

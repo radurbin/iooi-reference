@@ -247,8 +247,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 19.93,
-   "vor": 45.0,
-   "war": 0.53
+   "vor": 50.11,
+   "war": 0.59
   },
   {
    "player": "7564",
@@ -292,8 +292,8 @@
    "bench_pts": 0.0,
    "wins": 6,
    "paa": -2.59,
-   "vor": 2.12,
-   "war": 0.03
+   "vor": 11.64,
+   "war": 0.14
   },
   {
    "player": "4881",
@@ -307,8 +307,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": -4.57,
-   "vor": 10.58,
-   "war": 0.13
+   "vor": 14.23,
+   "war": 0.17
   },
   {
    "player": "MIN",
@@ -322,8 +322,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 22.42,
-   "vor": 21.75,
-   "war": 0.26
+   "vor": 21.0,
+   "war": 0.25
   },
   {
    "player": "11559",
@@ -337,8 +337,8 @@
    "bench_pts": 46.68,
    "wins": 1,
    "paa": 2.06,
-   "vor": 9.64,
-   "war": 0.11
+   "vor": 11.1,
+   "war": 0.13
   },
   {
    "player": "12185",
@@ -367,8 +367,8 @@
    "bench_pts": 44.2,
    "wins": 1,
    "paa": 14.14,
-   "vor": 15.79,
-   "war": 0.19
+   "vor": 16.98,
+   "war": 0.2
   },
   {
    "player": "7611",
@@ -397,8 +397,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 15.5,
-   "vor": 18.25,
-   "war": 0.22
+   "vor": 18.0,
+   "war": 0.21
   },
   {
    "player": "12495",
@@ -427,7 +427,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 11.42,
-   "vor": 11.25,
+   "vor": 11.0,
    "war": 0.13
   },
   {
@@ -457,7 +457,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 5.58,
-   "vor": 4.25,
+   "vor": 4.0,
    "war": 0.05
   },
   {
@@ -472,8 +472,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -1.67,
-   "vor": 2.25,
-   "war": 0.03
+   "vor": 2.0,
+   "war": 0.02
   },
   {
    "player": "11792",
@@ -787,7 +787,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -2.82,
-   "vor": -6.75,
+   "vor": -7.0,
    "war": -0.08
   },
   {
@@ -2557,8 +2557,8 @@
    "opp_record": "5-3",
    "opp_seed": 4,
    "chance": 0.436,
-   "proj": 158.09,
-   "opp_proj": 158.65
+   "proj": 158.89,
+   "opp_proj": 158.43
   },
   {
    "week": 10,
@@ -2604,7 +2604,7 @@
  "injuries": {
   "games": 21,
   "players": 9,
-  "lost": 12.34,
+  "lost": 14.75,
   "rank": 11,
   "games_rank": 9,
   "of": 12,
@@ -2614,7 +2614,7 @@
     "name": "Lamar Jackson",
     "pos": "QB",
     "missed": 3,
-    "lost": 6.36,
+    "lost": 8.55,
     "injuries": [
      "Ankle"
     ],
@@ -2666,6 +2666,24 @@
     "gs": 0
    },
    {
+    "player": "11559",
+    "name": "Michael Penix Jr.",
+    "pos": "QB",
+    "missed": 2,
+    "lost": 0.22,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     1,
+     2
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 2
+   },
+   {
     "player": "13417",
     "name": "De'Zhaun Stribling",
     "pos": "WR",
@@ -2686,24 +2704,6 @@
      "IR"
     ],
     "gs": 0
-   },
-   {
-    "player": "11559",
-    "name": "Michael Penix Jr.",
-    "pos": "QB",
-    "missed": 2,
-    "lost": 0.0,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     1,
-     2
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 2
    },
    {
     "player": "5927",

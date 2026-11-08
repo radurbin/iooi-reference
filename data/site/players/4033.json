@@ -1045,6 +1045,15 @@
  ],
  "similar": [
   {
+   "player": "9484",
+   "name": "Tucker Kraft",
+   "score": 931,
+   "gs": 20,
+   "pts": 246.3,
+   "ppg": 12.32,
+   "war": 0.65
+  },
+  {
    "player": "5844",
    "name": "T.J. Hockenson",
    "score": 918,
@@ -1054,27 +1063,18 @@
    "war": 0.62
   },
   {
-   "player": "9484",
-   "name": "Tucker Kraft",
-   "score": 917,
-   "gs": 20,
-   "pts": 246.3,
-   "ppg": 12.32,
-   "war": 0.54
-  },
-  {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 829,
+   "score": 837,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.41
+   "war": 0.48
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 791,
+   "score": 792,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
@@ -1083,11 +1083,11 @@
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 763,
+   "score": 776,
    "gs": 14,
    "pts": 163.65,
    "ppg": 11.69,
-   "war": 0.25
+   "war": 0.36
   }
  ],
  "status": {
@@ -1119,7 +1119,7 @@
    "stat": "WAR",
    "value": 0.76,
    "digits": 2,
-   "rank": 92,
+   "rank": 93,
    "of": 419
   },
   {
@@ -1327,7 +1327,7 @@
  ],
  "hof": {
   "score": 16.6,
-  "rank": 86,
+  "rank": 87,
   "of": 419,
   "war": 7.6,
   "starts": 5.0,

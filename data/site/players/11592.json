@@ -315,13 +315,14 @@
    {
     "season": "2026",
     "nfl": "CIN",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Knee - ACL"
     ],
     "weeks": [
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -330,6 +331,13 @@
     "games": [
      {
       "week": 8,
+      "kind": "IR",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "IR",
       "injury": "Knee - ACL",
       "franchise": null,
@@ -397,11 +405,12 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 8,
+    "to": 9,
     "weeks": [
-     8
+     8,
+     9
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "CIN",
     "injury": "Knee - ACL",
     "kinds": [

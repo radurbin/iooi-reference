@@ -1176,20 +1176,29 @@
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 895,
+   "score": 896,
    "gs": 20,
    "pts": 246.3,
    "ppg": 12.32,
-   "war": 0.54
+   "war": 0.65
   },
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 840,
+   "score": 845,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.41
+   "war": 0.48
+  },
+  {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 822,
+   "gs": 14,
+   "pts": 163.65,
+   "ppg": 11.69,
+   "war": 0.36
   },
   {
    "player": "4144",
@@ -1199,15 +1208,6 @@
    "pts": 133.2,
    "ppg": 13.32,
    "war": 0.38
-  },
-  {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 811,
-   "gs": 14,
-   "pts": 163.65,
-   "ppg": 11.69,
-   "war": 0.25
   }
  ],
  "status": {
@@ -1240,7 +1240,7 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 101,
+   "rank": 102,
    "of": 419
   },
   {
@@ -1312,7 +1312,7 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 7,
+   "rank": 8,
    "of": 52
   },
   {

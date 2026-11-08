@@ -1967,6 +1967,17 @@
      ]
     },
     {
+     "player": "4984",
+     "name": "Josh Allen",
+     "value": 1.18,
+     "teams": [
+      {
+       "franchise": 1,
+       "team": "Mojo Dojo Casa Team 💍"
+      }
+     ]
+    },
+    {
      "player": "9509",
      "name": "Bijan Robinson",
      "value": 1.18,
@@ -1974,17 +1985,6 @@
       {
        "franchise": 9,
        "team": "Clandestine Ball Busters"
-      }
-     ]
-    },
-    {
-     "player": "6790",
-     "name": "D'Andre Swift",
-     "value": 1.14,
-     "teams": [
-      {
-       "franchise": 11,
-       "team": "BubbaNASTIES"
       }
      ]
     }
@@ -2596,7 +2596,7 @@
     "finish": null,
     "games": 25,
     "players": 10,
-    "lost": 75.49,
+    "lost": 81.5,
     "worst": {
      "player": "9493",
      "name": "Puka Nacua",
@@ -2620,7 +2620,7 @@
     "finish": null,
     "games": 22,
     "players": 7,
-    "lost": 49.31,
+    "lost": 51.5,
     "worst": {
      "player": "9226",
      "name": "De'Von Achane",
@@ -2644,7 +2644,7 @@
     "finish": null,
     "games": 37,
     "players": 12,
-    "lost": 45.9,
+    "lost": 47.36,
     "worst": {
      "player": "7525",
      "name": "DeVonta Smith",
@@ -2668,7 +2668,7 @@
     "finish": null,
     "games": 27,
     "players": 9,
-    "lost": 43.15,
+    "lost": 45.51,
     "worst": {
      "player": "8155",
      "name": "Breece Hall",
@@ -2765,13 +2765,13 @@
     "finish": null,
     "games": 21,
     "players": 9,
-    "lost": 21.63,
+    "lost": 23.82,
     "worst": {
      "player": "11560",
      "name": "Caleb Williams",
      "pos": "QB",
      "missed": 3,
-     "lost": 17.88
+     "lost": 20.07
     },
     "rank": 8,
     "games_rank": 9,
@@ -2789,7 +2789,7 @@
     "finish": null,
     "games": 27,
     "players": 9,
-    "lost": 18.71,
+    "lost": 20.91,
     "worst": {
      "player": "5859",
      "name": "A.J. Brown",
@@ -2837,13 +2837,13 @@
     "finish": null,
     "games": 21,
     "players": 9,
-    "lost": 12.34,
+    "lost": 14.75,
     "worst": {
      "player": "4881",
      "name": "Lamar Jackson",
      "pos": "QB",
      "missed": 3,
-     "lost": 6.36
+     "lost": 8.55
     },
     "rank": 11,
     "games_rank": 9,

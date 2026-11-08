@@ -64,8 +64,8 @@
    "best": 13.62,
    "wins": 1,
    "paa": -14.28,
-   "vor": -5.56,
-   "war": -0.07
+   "vor": -3.37,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 21.16,
   "wins": 7,
   "paa": -63.07,
-  "vor": -29.38,
-  "war": -0.35
+  "vor": -27.19,
+  "war": -0.32
  },
  "nfl": [
   {
@@ -662,8 +662,8 @@
    "proj": 14.46,
    "won": true,
    "paa": -1.6,
-   "vor": -0.46,
-   "war": -0.005436640270250751
+   "vor": 0.27,
+   "war": 0.0031910714629732667
   },
   {
    "season": "2026",
@@ -681,8 +681,8 @@
    "proj": 14.2,
    "won": false,
    "paa": -6.99,
-   "vor": -1.28,
-   "war": -0.015128042491132523
+   "vor": -0.55,
+   "war": -0.006500330757908506
   },
   {
    "season": "2026",
@@ -700,8 +700,8 @@
    "proj": 14.29,
    "won": false,
    "paa": -5.69,
-   "vor": -3.82,
-   "war": -0.04514775180947362
+   "vor": -3.09,
+   "war": -0.03652004007624961
   },
   {
    "season": "2026",
@@ -740,7 +740,7 @@
   {
    "player": "4179",
    "name": "Joshua Dobbs",
-   "score": 936,
+   "score": 937,
    "gs": 9,
    "pts": 109.08,
    "ppg": 12.12,
@@ -749,7 +749,7 @@
   {
    "player": "9999",
    "name": "Will Levis",
-   "score": 915,
+   "score": 914,
    "gs": 11,
    "pts": 114.72,
    "ppg": 10.43,
@@ -758,7 +758,7 @@
   {
    "player": "6011",
    "name": "Gardner Minshew II",
-   "score": 823,
+   "score": 825,
    "gs": 11,
    "pts": 157.42,
    "ppg": 14.31,
@@ -767,7 +767,7 @@
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 814,
+   "score": 815,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -776,11 +776,11 @@
   {
    "player": "11559",
    "name": "Michael Penix Jr.",
-   "score": 788,
+   "score": 789,
    "gs": 8,
    "pts": 116.46,
    "ppg": 14.56,
-   "war": 0.23
+   "war": 0.25
   }
  ],
  "status": {
@@ -811,18 +811,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.35,
+   "value": -0.32,
    "digits": 2,
-   "rank": 383,
+   "rank": 381,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -29.4,
+   "value": -27.2,
    "digits": 1,
-   "rank": 383,
+   "rank": 382,
    "of": 419
   },
   {
@@ -883,7 +883,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": -0.35,
+   "value": -0.32,
    "digits": 2,
    "rank": 62,
    "of": 66
@@ -912,7 +912,7 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.04,
    "digits": 2,
    "rank": 22,
    "of": 47,

@@ -89,8 +89,8 @@
    "best": 13.62,
    "wins": 0,
    "paa": -6.33,
-   "vor": -3.32,
-   "war": -0.04
+   "vor": -1.86,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -102,8 +102,8 @@
   "best": 34.58,
   "wins": 9,
   "paa": 12.78,
-  "vor": 122.86,
-  "war": 1.45
+  "vor": 124.32,
+  "war": 1.47
  },
  "nfl": [
   {
@@ -132,7 +132,7 @@
    "team": "SEA",
    "g": 7,
    "pts": 93.42,
-   "rank": 24
+   "rank": 25
   }
  ],
  "history": [
@@ -846,8 +846,8 @@
    "proj": 16.19,
    "won": false,
    "paa": -1.6,
-   "vor": -0.46,
-   "war": -0.005436640270250751
+   "vor": 0.27,
+   "war": 0.0031910714629732667
   },
   {
    "season": "2026",
@@ -881,8 +881,8 @@
    "proj": 13.73,
    "won": false,
    "paa": -4.73,
-   "vor": -2.86,
-   "war": -0.03380171994112423
+   "vor": -2.13,
+   "war": -0.025174008207900212
   },
   {
    "season": "2026",
@@ -921,16 +921,16 @@
   {
    "player": "11563",
    "name": "Bo Nix",
-   "score": 976,
+   "score": 977,
    "gs": 24,
    "pts": 414.24,
    "ppg": 17.26,
-   "war": 1.39
+   "war": 1.45
   },
   {
    "player": "7591",
    "name": "Justin Fields",
-   "score": 923,
+   "score": 921,
    "gs": 24,
    "pts": 401.96,
    "ppg": 16.75,
@@ -939,7 +939,7 @@
   {
    "player": "1234",
    "name": "Russell Wilson",
-   "score": 850,
+   "score": 849,
    "gs": 23,
    "pts": 365.04,
    "ppg": 15.87,
@@ -948,20 +948,20 @@
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 814,
+   "score": 817,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
-   "war": 0.84
+   "war": 0.89
   },
   {
-   "player": "11566",
-   "name": "Jayden Daniels",
-   "score": 813,
-   "gs": 31,
-   "pts": 538.94,
-   "ppg": 17.39,
-   "war": 1.88
+   "player": "1166",
+   "name": "Kirk Cousins",
+   "score": 816,
+   "gs": 30,
+   "pts": 474.22,
+   "ppg": 15.81,
+   "war": 0.95
   }
  ],
  "status": {
@@ -992,7 +992,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.45,
+   "value": 1.47,
    "digits": 2,
    "rank": 63,
    "of": 419
@@ -1001,7 +1001,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 122.9,
+   "value": 124.3,
    "digits": 1,
    "rank": 63,
    "of": 419
@@ -1064,7 +1064,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 1.45,
+   "value": 1.47,
    "digits": 2,
    "rank": 17,
    "of": 66
@@ -1093,7 +1093,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.33,
+   "value": 0.35,
    "digits": 2,
    "rank": 16,
    "of": 40,
@@ -1241,10 +1241,10 @@
   }
  ],
  "hof": {
-  "score": 20.25,
-  "rank": 75,
+  "score": 20.45,
+  "rank": 73,
   "of": 419,
-  "war": 14.5,
+  "war": 14.7,
   "starts": 5.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1447,17 +1447,17 @@
    [
     "2026",
     6,
-    20.25
+    20.45
    ],
    [
     "2026",
     7,
-    20.25
+    20.45
    ],
    [
     "2026",
     8,
-    20.25
+    20.45
    ]
   ],
   "benchmark": 100

@@ -476,7 +476,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 324,
+   "rank": 325,
    "of": 419
   },
   {
@@ -868,7 +868,7 @@
    {
     "season": "2026",
     "nfl": "CIN",
-    "missed": 5,
+    "missed": 6,
     "lost": 0.0,
     "injuries": [
      "Thumb"
@@ -878,7 +878,8 @@
      4,
      5,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -919,6 +920,13 @@
       "injury": "Thumb",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Thumb",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -944,15 +952,16 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 8,
+    "to": 9,
     "weeks": [
      3,
      4,
      5,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 5,
+    "missed": 6,
     "nfl": "CIN",
     "injury": "Thumb",
     "kinds": [

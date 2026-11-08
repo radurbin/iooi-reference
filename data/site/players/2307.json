@@ -57,8 +57,8 @@
    "best": 5.44,
    "wins": 0,
    "paa": -9.78,
-   "vor": -8.64,
-   "war": -0.1
+   "vor": -7.91,
+   "war": -0.09
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 23.26,
   "wins": 1,
   "paa": -8.31,
-  "vor": 14.98,
-  "war": 0.18
+  "vor": 15.71,
+  "war": 0.19
  },
  "nfl": [
   {
@@ -413,8 +413,8 @@
    "proj": null,
    "won": false,
    "paa": -9.78,
-   "vor": -8.64,
-   "war": -0.10211428681514453
+   "vor": -7.91,
+   "war": -0.09348657508192051
   },
   {
    "season": "2026",
@@ -476,7 +476,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.18,
+   "value": 0.19,
    "digits": 2,
    "rank": 162,
    "of": 419
@@ -485,7 +485,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 15.0,
+   "value": 15.7,
    "digits": 1,
    "rank": 164,
    "of": 419
@@ -539,7 +539,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.18,
+   "value": 0.19,
    "digits": 2,
    "rank": 34,
    "of": 66
@@ -608,9 +608,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.04,
+   "value": 0.05,
    "digits": 2,
-   "rank": 33,
+   "rank": 32,
    "of": 75,
    "franchise": 2
   },
@@ -687,10 +687,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 3.05,
-  "rank": 228,
+  "score": 3.15,
+  "rank": 226,
   "of": 419,
-  "war": 1.8,
+  "war": 1.9,
   "starts": 1.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -783,27 +783,27 @@
    [
     "2026",
     4,
-    3.05
+    3.15
    ],
    [
     "2026",
     5,
-    3.05
+    3.15
    ],
    [
     "2026",
     6,
-    3.05
+    3.15
    ],
    [
     "2026",
     7,
-    3.05
+    3.15
    ],
    [
     "2026",
     8,
-    3.05
+    3.15
    ]
   ],
   "benchmark": 100

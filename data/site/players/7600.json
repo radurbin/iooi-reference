@@ -96,8 +96,8 @@
    "best": 21.6,
    "wins": 3,
    "paa": -0.01,
-   "vor": 3.96,
-   "war": 0.05
+   "vor": 8.72,
+   "war": 0.1
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 21.6,
   "wins": 8,
   "paa": -24.91,
-  "vor": -19.18,
-  "war": -0.23
+  "vor": -14.42,
+  "war": -0.17
  },
  "nfl": [
   {
@@ -1002,8 +1002,8 @@
    "proj": 7.89,
    "won": false,
    "paa": -0.42,
-   "vor": -0.31,
-   "war": -0.003663822790821158
+   "vor": 0.88,
+   "war": 0.01040052921265361
   },
   {
    "season": "2026",
@@ -1021,8 +1021,8 @@
    "proj": 8.0,
    "won": true,
    "paa": 8.77,
-   "vor": 10.59,
-   "war": 0.12516091404772922
+   "vor": 11.78,
+   "war": 0.139225266051204
   },
   {
    "season": "2026",
@@ -1056,8 +1056,8 @@
    "proj": 9.59,
    "won": true,
    "paa": -7.21,
-   "vor": -7.01,
-   "war": -0.08284967020534295
+   "vor": -5.82,
+   "war": -0.06878531820186819
   },
   {
    "season": "2026",
@@ -1075,55 +1075,55 @@
    "proj": 9.25,
    "won": true,
    "paa": -1.15,
-   "vor": 0.69,
-   "war": 0.008154960405376124
+   "vor": 1.88,
+   "war": 0.022219312408850892
   }
  ],
  "similar": [
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 828,
+   "score": 829,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.14
+   "war": -0.11
   },
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 826,
+   "score": 823,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.18
+   "war": 0.27
+  },
+  {
+   "player": "12517",
+   "name": "Colston Loveland",
+   "score": 780,
+   "gs": 11,
+   "pts": 122.0,
+   "ppg": 11.09,
+   "war": 0.2
   },
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 784,
+   "score": 777,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
    "war": -0.74
   },
   {
-   "player": "12517",
-   "name": "Colston Loveland",
-   "score": 783,
-   "gs": 11,
-   "pts": 122.0,
-   "ppg": 11.09,
-   "war": 0.1
-  },
-  {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 765,
-   "gs": 14,
-   "pts": 163.65,
-   "ppg": 11.69,
-   "war": 0.25
+   "player": "7002",
+   "name": "Juwan Johnson",
+   "score": 764,
+   "gs": 8,
+   "pts": 68.5,
+   "ppg": 8.56,
+   "war": -0.07
   }
  ],
  "status": {
@@ -1154,18 +1154,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.23,
+   "value": -0.17,
    "digits": 2,
-   "rank": 356,
+   "rank": 342,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -19.2,
+   "value": -14.4,
    "digits": 1,
-   "rank": 357,
+   "rank": 344,
    "of": 419
   },
   {
@@ -1226,9 +1226,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.23,
+   "value": -0.17,
    "digits": 2,
-   "rank": 40,
+   "rank": 38,
    "of": 52
   },
   {
@@ -1295,9 +1295,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.05,
+   "value": 0.1,
    "digits": 2,
-   "rank": 31,
+   "rank": 30,
    "of": 75,
    "franchise": 2
   },
@@ -1337,7 +1337,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 36,
+   "rank": 35,
    "of": 51,
    "franchise": 7
   },
@@ -1444,7 +1444,7 @@
  ],
  "hof": {
   "score": 4.5,
-  "rank": 200,
+  "rank": 202,
   "of": 419,
   "war": 0.0,
   "starts": 4.5,

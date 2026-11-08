@@ -73,8 +73,8 @@
    "best": 13.9,
    "wins": 0,
    "paa": -2.05,
-   "vor": -0.18,
-   "war": -0.0
+   "vor": 0.55,
+   "war": 0.01
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 16.74,
   "wins": 2,
   "paa": -9.81,
-  "vor": 2.36,
-  "war": 0.03
+  "vor": 3.09,
+  "war": 0.04
  },
  "nfl": [
   {
@@ -422,8 +422,8 @@
    "proj": 12.83,
    "won": false,
    "paa": -2.05,
-   "vor": -0.18,
-   "war": -0.002127380975315511
+   "vor": 0.55,
+   "war": 0.006500330757908506
   },
   {
    "season": "2026",
@@ -469,18 +469,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.03,
+   "value": 0.04,
    "digits": 2,
-   "rank": 204,
+   "rank": 202,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 2.4,
+   "value": 3.1,
    "digits": 1,
-   "rank": 208,
+   "rank": 206,
    "of": 419
   },
   {
@@ -532,9 +532,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.03,
+   "value": 0.04,
    "digits": 2,
-   "rank": 41,
+   "rank": 42,
    "of": 66
   },
   {
@@ -563,7 +563,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 33,
+   "rank": 34,
    "of": 68,
    "franchise": 3
   },
@@ -641,9 +641,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.0,
+   "value": 0.01,
    "digits": 2,
-   "rank": 31,
+   "rank": 30,
    "of": 57,
    "franchise": 5
   },
@@ -750,10 +750,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 1.05,
-  "rank": 301,
+  "score": 1.15,
+  "rank": 299,
   "of": 419,
-  "war": 0.3,
+  "war": 0.4,
   "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -946,17 +946,17 @@
    [
     "2026",
     6,
-    1.05
+    1.15
    ],
    [
     "2026",
     7,
-    1.05
+    1.15
    ],
    [
     "2026",
     8,
-    1.05
+    1.15
    ]
   ],
   "benchmark": 100

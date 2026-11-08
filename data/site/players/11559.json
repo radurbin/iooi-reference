@@ -64,8 +64,8 @@
    "best": 23.2,
    "wins": 1,
    "paa": 2.06,
-   "vor": 9.64,
-   "war": 0.11
+   "vor": 11.1,
+   "war": 0.13
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 24.02,
   "wins": 4,
   "paa": -24.59,
-  "vor": 19.42,
-  "war": 0.23
+  "vor": 20.88,
+  "war": 0.25
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "ATL",
-   "g": 6,
-   "pts": 84.48,
-   "rank": 25
+   "g": 7,
+   "pts": 94.2,
+   "rank": 24
   }
  ],
  "history": [
@@ -775,8 +775,8 @@
    "proj": 14.71,
    "won": false,
    "paa": -5.19,
-   "vor": 0.52,
-   "war": 0.0061457672620225876
+   "vor": 1.25,
+   "war": 0.014773478995246603
   },
   {
    "season": "2026",
@@ -794,8 +794,8 @@
    "proj": 13.92,
    "won": true,
    "paa": 7.25,
-   "vor": 9.12,
-   "war": 0.10778730274931922
+   "vor": 9.85,
+   "war": 0.11641501448254324
   },
   {
    "season": "2026",
@@ -834,7 +834,7 @@
   {
    "player": "6011",
    "name": "Gardner Minshew II",
-   "score": 933,
+   "score": 932,
    "gs": 11,
    "pts": 157.42,
    "ppg": 14.31,
@@ -852,7 +852,7 @@
   {
    "player": "9229",
    "name": "Anthony Richardson Sr.",
-   "score": 841,
+   "score": 842,
    "gs": 14,
    "pts": 221.66,
    "ppg": 15.83,
@@ -870,7 +870,7 @@
   {
    "player": "4179",
    "name": "Joshua Dobbs",
-   "score": 828,
+   "score": 827,
    "gs": 9,
    "pts": 109.08,
    "ppg": 12.12,
@@ -905,18 +905,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.23,
+   "value": 0.25,
    "digits": 2,
-   "rank": 150,
+   "rank": 149,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 19.4,
+   "value": 20.9,
    "digits": 1,
-   "rank": 150,
+   "rank": 149,
    "of": 419
   },
   {
@@ -977,7 +977,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.23,
+   "value": 0.25,
    "digits": 2,
    "rank": 32,
    "of": 66
@@ -1006,9 +1006,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.23,
+   "value": 0.25,
    "digits": 2,
-   "rank": 20,
+   "rank": 18,
    "of": 68,
    "franchise": 3
   },
@@ -1084,10 +1084,10 @@
   }
  ],
  "hof": {
-  "score": 4.3,
-  "rank": 204,
+  "score": 4.5,
+  "rank": 202,
   "of": 419,
-  "war": 2.3,
+  "war": 2.5,
   "starts": 2.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1285,22 +1285,22 @@
    [
     "2026",
     5,
-    2.95
+    3.05
    ],
    [
     "2026",
     6,
-    4.3
+    4.5
    ],
    [
     "2026",
     7,
-    4.3
+    4.5
    ],
    [
     "2026",
     8,
-    4.3
+    4.5
    ]
   ],
   "benchmark": 100
@@ -1387,7 +1387,7 @@
     "season": "2026",
     "nfl": "ATL",
     "missed": 2,
-    "lost": 0.0,
+    "lost": 0.22,
     "injuries": [
      "Knee"
     ],
@@ -1488,7 +1488,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 0.0
+    "lost": 0.22
    }
   ],
   "now": null

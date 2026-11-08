@@ -1258,7 +1258,7 @@
    "stat": "WAR",
    "value": -0.42,
    "digits": 2,
-   "rank": 392,
+   "rank": 390,
    "of": 419
   },
   {
@@ -1267,7 +1267,7 @@
    "stat": "VOR",
    "value": -35.1,
    "digits": 1,
-   "rank": 392,
+   "rank": 390,
    "of": 419
   },
   {
@@ -1894,14 +1894,15 @@
    {
     "season": "2026",
     "nfl": "ATL",
-    "missed": 2,
+    "missed": 3,
     "lost": 2.28,
     "injuries": [
      "Hamstring"
     ],
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "Out"
@@ -1921,6 +1922,13 @@
       "injury": "Hamstring",
       "franchise": 9,
       "team": "Clandestine Ball Busters"
+     },
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1998,12 +2006,13 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 8,
+    "to": 9,
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "ATL",
     "injury": "Hamstring",
     "kinds": [
@@ -2020,10 +2029,10 @@
    }
   ],
   "now": {
-   "status": "Out",
+   "status": "IR",
    "injury": "Hamstring",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

@@ -202,8 +202,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 11.86,
-   "vor": 38.8,
-   "war": 0.46
+   "vor": 44.64,
+   "war": 0.53
   },
   {
    "player": "6770",
@@ -217,8 +217,8 @@
    "bench_pts": 24.02,
    "wins": 4,
    "paa": 39.17,
-   "vor": 63.1,
-   "war": 0.75
+   "vor": 67.48,
+   "war": 0.8
   },
   {
    "player": "7594",
@@ -322,8 +322,8 @@
    "bench_pts": 9.8,
    "wins": 3,
    "paa": -0.38,
-   "vor": 0.75,
-   "war": 0.01
+   "vor": 6.7,
+   "war": 0.08
   },
   {
    "player": "4199",
@@ -352,8 +352,8 @@
    "bench_pts": 68.58,
    "wins": 0,
    "paa": -6.33,
-   "vor": -3.32,
-   "war": -0.04
+   "vor": -1.86,
+   "war": -0.02
   },
   {
    "player": "9479",
@@ -367,8 +367,8 @@
    "bench_pts": 37.8,
    "wins": 1,
    "paa": -12.01,
-   "vor": -8.43,
-   "war": -0.1
+   "vor": -4.86,
+   "war": -0.06
   },
   {
    "player": "HOU",
@@ -382,7 +382,7 @@
    "bench_pts": 19.0,
    "wins": 1,
    "paa": 8.33,
-   "vor": 12.25,
+   "vor": 12.0,
    "war": 0.14
   },
   {
@@ -427,8 +427,8 @@
    "bench_pts": 6.0,
    "wins": 3,
    "paa": -30.9,
-   "vor": -34.25,
-   "war": -0.4
+   "vor": -36.0,
+   "war": -0.43
   },
   {
    "player": "9757",
@@ -1281,8 +1281,8 @@
    "opp_record": "3-5",
    "opp_seed": 10,
    "chance": 0.628,
-   "proj": 140.54,
-   "opp_proj": 83.74
+   "proj": 140.1,
+   "opp_proj": 83.69
   },
   {
    "week": 10,
@@ -1328,7 +1328,7 @@
  "injuries": {
   "games": 27,
   "players": 9,
-  "lost": 18.71,
+  "lost": 20.91,
   "rank": 9,
   "games_rank": 2,
   "of": 12,
@@ -1384,6 +1384,24 @@
     ],
     "weeks": [
      7
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 5
+   },
+   {
+    "player": "5022",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "missed": 2,
+    "lost": 2.2,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     3,
+     4
     ],
     "kinds": [
      "Out"
@@ -1453,24 +1471,6 @@
      "Questionable"
     ],
     "gs": 0
-   },
-   {
-    "player": "5022",
-    "name": "Dallas Goedert",
-    "pos": "TE",
-    "missed": 2,
-    "lost": 0.0,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     3,
-     4
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 5
    },
    {
     "player": "12498",
