@@ -54,9 +54,10 @@ page("Draft", async (main) => {
         { label: "Team Pts", value: (p) => p.pts_team, render: (p) => fmt.pts(p.pts_team), num: true, title: "Points as a starter for the drafting franchise" },
         { label: "Lg GS", value: (p) => p.starts_league, num: true, title: "League games started: starts for any iooi franchise, not only the one that drafted him" },
         { label: "Lg Pts", value: (p) => p.pts_league, render: (p) => fmt.pts(p.pts_league), num: true, title: "League points: starter points for any iooi franchise, not only the one that drafted him" },
+        { label: "NFL Pts", value: (p) => p.nfl_pts, render: (p) => fmt.pts(p.nfl_pts), num: true, title: NFL_PTS_TIP },
         hofCol,
       ],
-    }), h("p", { class: "note" }, "Team GS and Team Pts are for the franchise that drafted him; Lg (league) GS and Pts are for every iooi franchise he has played for. All count games in a starting lineup, playoffs and Toilet Bowl included, through the most recent completed week. HOF is his Hall of Fame Monitor score. Click a column to sort.")),
+    }), h("p", { class: "note" }, "Team GS and Team Pts are for the franchise that drafted him; Lg (league) GS and Pts are for every iooi franchise he has played for. All count games in a starting lineup, playoffs and Toilet Bowl included, through the most recent completed week. NFL Pts is every fantasy point he has scored in the NFL since 2023 under iooi scoring (weeks 1-17), whether started, benched or unrostered. HOF is his Hall of Fame Monitor score. Click a column to sort.")),
     draft.undrafted?.length ? section("Best Undrafted Players", h("p", { class: "note" }, draft.kind === "startup"
       ? "Players already in the NFL in 2023 whom no one took in the startup draft, ranked by points as a starter for any iooi franchise."
       : `${y} NFL rookies whom no one took in the rookie draft, ranked by points as a starter for any iooi franchise.`), statTable({

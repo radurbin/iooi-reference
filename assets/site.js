@@ -288,6 +288,8 @@ function statusText(st, linked = true) {
   return st.last_nfl ? `No NFL team (last played ${st.last_nfl})` : "No NFL team";
 }
 
+const NFL_PTS_TIP = "NFL fantasy points under iooi scoring since 2023, weeks 1-17: every week he played, started, benched or unrostered";
+
 // Rookie Draft Picks on the franchise and manager pages: one table per rookie draft, newest first, for the picks `mine(pick)` selects.
 // fid: the franchise page's own id (its picks need no Team column, and "Here" stands for that roster); null on a manager page.
 async function rookiePicksSection(players, mine, { fid = null, on = null, note }) {
@@ -309,13 +311,14 @@ async function rookiePicksSection(players, mine, { fid = null, on = null, note }
     { label: "Team Pts", value: (p) => p.pts_team, render: (p) => fmt.pts(p.pts_team), num: true, title: "Points as a starter for the franchise that drafted him" },
     { label: "Lg GS", value: (p) => p.starts_league, num: true, title: "League games started: starts for any iooi franchise" },
     { label: "Lg Pts", value: (p) => p.pts_league, render: (p) => fmt.pts(p.pts_league), num: true, title: "League points: starter points for any iooi franchise" },
+    { label: "NFL Pts", value: (p) => p.nfl_pts, render: (p) => fmt.pts(p.nfl_pts), num: true, title: NFL_PTS_TIP },
   ].filter(Boolean);
   const foot = (rows) => ({ total: true, player: `${rows.length} pick${rows.length === 1 ? "" : "s"}`,
-    starts_team: sum(rows, "starts_team"), pts_team: sum(rows, "pts_team"), starts_league: sum(rows, "starts_league"), pts_league: sum(rows, "pts_league") });
+    starts_team: sum(rows, "starts_team"), pts_team: sum(rows, "pts_team"), starts_league: sum(rows, "starts_league"), pts_league: sum(rows, "pts_league"), nfl_pts: sum(rows, "nfl_pts") });
   return section("Rookie Draft Picks", drafts.flatMap((d) => [
     h("h3", {}, h("a", { href: `draft.html?y=${d.season}` }, `${d.season} Rookie Draft`)),
     d.picks.length ? statTable({ rows: d.picks, foot: foot(d.picks), columns: cols(d.season) }) : h("p", { class: "note" }, "No picks made."),
-  ]), h("p", { class: "note" }, [note, " Team GS and Team Pts count only starts for the franchise that drafted him; Lg (league) GS and Pts count starts for any iooi franchise. Both include playoffs and the Toilet Bowl. The 2023 startup draft is on its ", h("a", { href: "draft.html?y=2023" }, "own page"), "."]));
+  ]), h("p", { class: "note" }, [note, " Team GS and Team Pts count only starts for the franchise that drafted him; Lg (league) GS and Pts count starts for any iooi franchise. Both include playoffs and the Toilet Bowl. NFL Pts counts every NFL fantasy point (weeks 1-17), started, benched or unrostered. The 2023 startup draft is on its ", h("a", { href: "draft.html?y=2023" }, "own page"), "."]));
 }
 
 const section = (title, ...kids) => [h("h2", { id: title.toLowerCase().replace(/[^a-z0-9]+/g, "-") }, title), ...kids];
@@ -406,7 +409,7 @@ async function randomPage() {
   } else if (roll < 0.8) location.href = `team.html?y=${pick(L.seasons).season}&id=${pick(L.franchises).id}`;
   else if (roll < 0.87) location.href = `franchise.html?id=${pick(L.franchises).id}`;
   else if (roll < 0.94) location.href = `manager.html?id=${pick(L.managers).id}`;
-  else location.href = pick([...L.drafts.map((d) => `draft.html?y=${d.season}`), ...L.seasons.map((x) => `season.html?y=${x.season}`), "split_draft.html", "nicknames.html", "streaks.html"]);
+  else location.href = pick([...L.drafts.map((d) => `draft.html?y=${d.season}`), ...L.seasons.map((x) => `season.html?y=${x.season}`), "split_draft.html", "nicknames.html", "streaks.html", "young_sexy.html"]);
 }
 
 function siteMenus() {
@@ -420,7 +423,7 @@ function siteMenus() {
     ["Seasons", [link("week.html", "This Week"), ...years.map((s) => link(`season.html?y=${s.season}`, `${s.season} Season`))]],
     ["Franchises", L.franchises.map((f) => link(`franchise.html?id=${f.id}`, f.name))],
     ["Managers", L.managers.map((m) => link(`manager.html?id=${m.id}`, m.name))],
-    ["Players", [link("players.html", "Player Register"), link("leaders.html", "Career & Season Leaders"), link("awards.html", "MVP & All-iooi Teams"), link("alltime.html", "All-Time Teams"), link("hof.html", "Hall of Fame Monitor"),
+    ["Players", [link("players.html", "Player Register"), link("leaders.html", "Career & Season Leaders"), link("awards.html", "MVP & All-iooi Teams"), link("young_sexy.html", "Young Sexy Race"), link("alltime.html", "All-Time Teams"), link("hof.html", "Hall of Fame Monitor"),
       link("journeys.html", "Player Journeys"), link("aging.html", "Aging Curves & Rookie Classes"), link("injuries.html", "Injuries"), link("nicknames.html", "Nickname Register")]],
     // The 2024 split draft sits in date order: after the 2024 rookie draft, before the 2023 startup draft.
     ["Drafts", [...[...L.drafts].reverse().flatMap((d) => [d.kind === "startup" ? link("split_draft.html", "2024 Split Draft") : null, link(`draft.html?y=${d.season}`, `${d.season} ${d.kind === "startup" ? "Startup" : "Rookie"} Draft`)]).filter(Boolean),

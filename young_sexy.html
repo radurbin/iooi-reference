@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>iooi Reference</title>
+<meta property="og:site_name" content="iooi Reference">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Young Sexy Race | iooi Reference">
+<meta property="og:description" content="Dynasty iooi stats, history and records since 2023.">
+<meta property="og:image" content="https://dynastyiooi.com/assets/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Dynasty iooi stats, history and records since 2023.">
+<link rel="icon" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<script src="assets/site.js"></script>
+<script>
+page("Young Sexy Race", async (main) => {
+  const [all, players] = await Promise.all([load("young_sexy"), load("players")]);
+  const y = param("y") || all[0].season;
+  const r = all.find((x) => x.season === y) ?? all[0];
+  const live = !r.complete;
+  const name = (p) => (p.player ? pLink(p.player, p.name) : p.name);
+  const cols = [
+    { label: "Rk", value: (p) => p.rk, num: true },
+    { label: "Player", value: (p) => p.name, render: name, cls: (p) => (p.franchise ? "win" : null) },
+    { label: "NFL", value: (p) => p.nfl_team ?? "", cls: "c", title: "NFL team" },
+    { label: "iooi Team", value: (p) => p.team ?? "", render: (p) => (p.franchise ? tsLink(r.season, p.franchise, p.team) : h("span", { class: "dim" }, "Free agent")),
+      title: live ? "The iooi team that holds him now" : "The iooi team that held him at season's end" },
+    { label: "Drafted", value: (p) => p.pick ?? "", render: (p) => (p.pick ? pickLink(r.season, p.pick) : ""), title: `His pick in the ${r.season} rookie draft, if he was taken` },
+    { label: "G", value: (p) => p.g, num: true, title: "NFL games played" },
+    { label: "Pts", value: (p) => p.pts, render: (p) => fmt.pts(p.pts), num: true, title: "NFL fantasy points under iooi scoring, weeks 1-17, started or not" },
+    { label: "Pts/G", value: (p) => p.ppg, render: (p) => fmt.pts(p.ppg), num: true },
+    { label: "Behind", value: (p) => p.behind, render: (p) => (p.behind ? fmt.pts(p.behind) : ""), num: true, title: "Points behind the leader" },
+  ].filter(Boolean);
+  main.append(
+    h("h1", {}, `${r.season} Young Sexy Race`),
+    meta([
+      ["Status", live ? `In progress, through NFL week ${r.through} of 17` : "Final"],
+      ["Rule", ["Article XI of the ", h("a", { href: "constitution.html" }, "constitution"), ": the top-scoring NFL rookie at each position over weeks 1 to 17, under iooi scoring, started or not. The award goes to the team holding him at season's end."]],
+      ["Other seasons", all.filter((x) => x.season !== r.season).flatMap((x, i) => [i ? ", " : "", h("a", { href: `young_sexy.html?y=${x.season}` }, x.season)])],
+      ["Past winners", h("a", { href: "awards.html#young-sexy-awards" }, "Young Sexy Awards")],
+    ]),
+    ...["QB", "RB", "WR", "TE"].filter((pos) => r.races[pos]).map((pos) => section(pos, statTable({
+      rows: r.races[pos], rowClass: (p) => (p.rk === 1 ? "champ" : null), columns: cols,
+    }))),
+    h("p", { class: "note" }, `Every ${r.season} NFL rookie at the position who has scored. ${live ? "The leader is highlighted. " : "The highlighted player won the award. "}Bold marks a player on an iooi roster. Click a column to sort.`));
+  return `${r.season} Young Sexy Race`;
+});
+</script>
+</body>
+</html>

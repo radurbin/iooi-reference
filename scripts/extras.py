@@ -1119,6 +1119,42 @@ def streak_lines(season, week, mine, team_runs, player_runs, stretch, f, p, ordi
     return ("; ".join(parts) + ".") if parts else None
 
 
+def young_sexy_changes(season, week, players):
+    """New leaders in the Young Sexy race after this NFL week: "X took the rookie RB lead ..., passing Y (n)." or None."""
+    race = next((r for r in load(SITE / "young_sexy.json") if r["season"] == season), None)
+    path = ROOT / "data" / "nfl" / f"{season}.json"
+    if not race or not path.exists() or not 2 <= week <= 17:
+        return None
+    nfl = load(path)["weeks"]
+    if not nfl.get(str(week), {}).get("points"):
+        return None
+    name = lambda e: f"[[p:{e['player']}|{e['name']}]]" if e["player"] in players else e["name"]
+    found = []
+    for pos, entries in race["races"].items():
+        by_id = {e["id"]: e for e in entries}
+        before, after = Counter(), Counter()
+        for w, entry in nfl.items():
+            for pid, pts in entry["points"].items():
+                if pid in by_id and int(w) <= week:
+                    after[pid] += pts
+                    if int(w) < week:
+                        before[pid] += pts
+        lead = lambda totals: {pid for pid, pts in totals.items() if r2(pts) == r2(max(totals.values()))} if totals else set()
+        old, new = lead(before), lead(after)
+        if not old or max(before.values()) <= 0 or not new or new <= old:
+            continue   # no leader yet to pass, the same leader, or one who was already level at the top
+        for pid in sorted(new - old):
+            e = by_id[pid]
+            team = f" of [[f:{e['franchise']}|{e['team']}]]" if e["franchise"] else " (a free agent)"
+            passed = " and ".join(f"{name(by_id[o])} ({r2(after[o]):.2f})" for o in sorted(old) if o not in new)
+            shared = [o for o in new if o != pid]
+            how = f"drew level with {' and '.join(name(by_id[o]) for o in sorted(shared))} for the rookie {pos} lead" if shared else f"took the rookie {pos} lead"
+            found.append(f"{name(e)}{team} {how} with {r2(after[pid]):.2f} NFL points" + (f", passing {passed}" if passed else ""))
+    if not found:
+        return None
+    return "; ".join(found) + " ([[x:young_sexy.html|the race]])."
+
+
 def last_week_honors(games, players, records, reached, logs, stints, team_runs=(), player_runs=(), stretch=None):
     """Accolades from the most recent completed week, as lines for the front page."""
     if not games:
@@ -1239,6 +1275,9 @@ def last_week_honors(games, players, records, reached, logs, stints, team_runs=(
     marks.sort(key=lambda m: ({"franchise": 0, "manager": 1, "player": 2}[m["kind"]], -int(m["what"].split(" ")[0].replace(",", ""))))
     if marks:
         lines.append({"label": "Milestones", "text": "; ".join(f"{who(m)} reached {m['what']}" + (f", the {'; '.join(m['fastest'])}" if m.get("fastest") else "") for m in marks[:8]) + "."})
+    young = young_sexy_changes(season, week, players)
+    if young:
+        lines.append({"label": "Young Sexy Race", "text": young})
     return {"season": season, "week": week, "kind": mine[0]["kind"], "lines": lines}
 
 
@@ -1543,6 +1582,37 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                 break
         return found
 
+    # The Young Sexy race as it stood before this week: NFL points over weeks 1-17, every rookie at QB, RB, WR and TE.
+    race = next((r for r in load(SITE / "young_sexy.json") if r["season"] == season), None) if week <= 17 else None
+    rookie_pos, rookie_name, race_pts = {}, {}, Counter()
+    for pos, entries in (race or {"races": {}})["races"].items():
+        for e in entries:
+            rookie_pos[e["id"]], rookie_name[e["id"]] = pos, e["name"]
+    for w, entry in nfl_season["weeks"].items():
+        if int(w) < week:
+            for pid, pts in entry["points"].items():
+                if pid in rookie_pos:
+                    race_pts[pid] += pts
+    on_bye = set(nfl.get("bye", []))
+
+    def young_sexy_note(pid, team):
+        """A rookie who could take his position's Young Sexy lead this week: he trails by less than his projection."""
+        pos, mine, mine_proj = rookie_pos.get(pid), race_pts.get(pid, 0.0), proj.get(pid) or 0
+        if not pos or not mine_proj:
+            return None
+        field = {o: race_pts[o] for o, p in rookie_pos.items() if p == pos}
+        top = max(field.values(), default=0)
+        gap = r2(top - mine)
+        if gap <= 0 or gap >= mine_proj:
+            return None
+        leaders = [o for o, pts in field.items() if pts == top]
+        link = lambda o: f"[[p:{o}|{rookie_name[o]}]]" if o in players else rookie_name[o]
+        lead = " and ".join(link(o) for o in leaders)
+        place = 1 + sum(1 for pts in field.values() if pts > mine)
+        them = "; ".join(f"{rookie_name[o]} is on a bye" if o in on_bye else f"{rookie_name[o]} for {proj[o]:.2f}" if proj.get(o) else f"{rookie_name[o]} is not projected to score" for o in leaders)
+        return (f"Young Sexy race: [[p:{pid}|{rookie_name[pid]}]] of {team} came into the week {ordinal(place)} among rookie {pos}s, {gap:.2f} NFL points behind {lead}, "
+                f"and could take the lead. He is projected for {mine_proj:.2f}; {them}.")
+
     pairs = defaultdict(list)
     for row in rows:
         pairs[row["matchup_id"]].append(row)
@@ -1561,8 +1631,11 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
         notes = []
         for x, y in ((a, b), (b, a)):
             name = f"[[f:{x['franchise']}|{x['team']}]]"
-            for pid, age, day in birthdays(x.pop("roster")):
+            roster = x.pop("roster")
+            for pid, age, day in birthdays(roster):
                 notes.append(f"Birthday: [[p:{pid}|{players[pid]['name']}]] of {name} turns {age} on {day.strftime('%A')}, {day.strftime('%B')} {day.day}.")
+            # Started or benched: the race counts every NFL point.
+            notes.extend(filter(None, (young_sexy_note(pid, name) for pid in sorted(roster, key=lambda q: -(proj.get(q) or 0)) if pid in players)))
             run = streaks.get(x["franchise"])
             if run and run["n"] >= 3:
                 notes.append(streak_note(name, "have", run))

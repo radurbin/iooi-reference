@@ -1318,6 +1318,50 @@ def same_name(a, b):
     return clean(a) == clean(b)
 
 
+YOUNG_SEXY_POS = ("QB", "RB", "WR", "TE")
+
+
+def young_sexy_race(seasons, players, raw_players, rookie_year, drafted, on_roster, latest):
+    """Every NFL rookie at QB, RB, WR and TE who has scored, ranked by NFL points over weeks 1-17 under iooi scoring,
+    started or not (Article XI). The team shown holds him now for the season in progress, or held him at its end."""
+    out = []
+    for season, s in seasons.items():
+        weeks = [w for w in WEEKS if s["nfl"]["weeks"].get(str(w), {}).get("points")]   # weeks with games played
+        if not weeks:
+            continue
+        games, totals = defaultdict(int), defaultdict(float)
+        for week in weeks:
+            for pid, pts in s["nfl"]["weeks"][str(week)]["points"].items():
+                if rookie_year.get(pid) == int(season):
+                    games[pid] += 1
+                    totals[pid] += pts
+        if season == latest:
+            holders = {pid: fid for fid, held in on_roster.items() for pid in held}
+        else:
+            holders = {pid: rid for (week, rid), side in s["sides"].items() if week == s["last_week"] for pid in side["players"]}
+        races = {}
+        for pos in YOUNG_SEXY_POS:
+            rows = sorted(((r2(pts), pid) for pid, pts in totals.items()
+                           if (raw_players.get(pid) or {}).get("position") == pos and pts > 0), key=lambda x: (-x[0], x[1]))
+            if not rows:
+                continue
+            top = rows[0][0]
+            races[pos] = []
+            for pts, pid in rows:
+                pick = drafted.get(pid)
+                fid = holders.get(pid)
+                races[pos].append({
+                    "rk": 1 + sum(1 for other, _ in rows if other > pts), "id": pid, "player": pid if pid in players else None,
+                    "name": players[pid]["name"] if pid in players else (raw_players[pid].get("full_name") or pid),
+                    "nfl_team": "/".join(s["nfl"].get("teams", {}).get(pid, [])) or None, "g": games[pid], "pts": pts,
+                    "ppg": r2(pts / games[pid]), "behind": r2(top - pts),
+                    "franchise": fid, "team": name_of_holder(s, fid) if fid else None,
+                    "pick": pick["label"] if pick and pick["season"] == season and pick["kind"] == "rookie" else None,
+                })
+        out.append({"season": season, "through": weeks[-1], "complete": weeks[-1] == WEEKS[-1], "races": races})
+    return sorted(out, key=lambda r: r["season"], reverse=True)
+
+
 def name_of_holder(s, roster_id):
     return s["names"].get(roster_id) if roster_id else None
 
@@ -1719,6 +1763,11 @@ def main():
                 for key in ((line["player"], side["franchise"]), (line["player"], None)):
                     career[key]["starts"] += 1
                     career[key]["pts"] += line["pts"]
+    nfl_total = defaultdict(float)   # player -> NFL fantasy points under league scoring, weeks 1-17 of every season since 2023
+    for s in seasons.values():
+        for week in WEEKS:
+            for pid, pts in s["nfl"]["weeks"].get(str(week), {}).get("points", {}).items():
+                nfl_total[pid] += pts
     draft_index, pick_result, drafted, all_picks = [], {}, {}, []
     for season in season_ids:
         for meta in load(RAW / season / "drafts.json"):
@@ -1743,6 +1792,7 @@ def main():
                     "franchise": fid, "team": name_on(season, fid, day), "managers": people.owners_on(fid, day),
                     "original": original.get(pick["draft_slot"]), "player": pid, "pos": players[pid]["pos"],
                     "starts_team": mine["starts"], "pts_team": r2(mine["pts"]), "starts_league": league["starts"], "pts_league": r2(league["pts"]),
+                    "nfl_pts": r2(nfl_total.get(pid, 0.0)),
                 })
             kind = "startup" if draft["type"] == "snake" else "rookie"
             dump(SITE / "drafts" / f"{season}.json", {"season": season, "kind": kind, "date": day, "rounds": draft["settings"]["rounds"],
@@ -1795,6 +1845,7 @@ def main():
     rookie_year = {pid: year for pid, p in raw_players.items() if (year := rookie_year_of(p, state)) is not None}
     awards, honors, votes = build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year)
     dump(SITE / "awards.json", awards)
+    dump(SITE / "young_sexy.json", young_sexy_race(seasons, players, raw_players, rookie_year, drafted, on_roster, latest))
     for pid, info in players.items():
         info["honors"] = honors.get(pid, [])
         info["votes"] = votes.get(pid, [])

@@ -971,7 +971,8 @@
    "starts_team": 5,
    "pts_team": 57.8,
    "starts_league": 6,
-   "pts_league": 61.0
+   "pts_league": 61.0,
+   "nfl_pts": 61.0
   },
   {
    "round": 1,
@@ -989,7 +990,8 @@
    "starts_team": 0,
    "pts_team": 0.0,
    "starts_league": 0,
-   "pts_league": 0.0
+   "pts_league": 0.0,
+   "nfl_pts": 5.0
   },
   {
    "round": 1,
@@ -1007,7 +1009,8 @@
    "starts_team": 3,
    "pts_team": 31.7,
    "starts_league": 3,
-   "pts_league": 31.7
+   "pts_league": 31.7,
+   "nfl_pts": 89.4
   },
   {
    "round": 2,
@@ -1025,7 +1028,8 @@
    "starts_team": 0,
    "pts_team": 0.0,
    "starts_league": 0,
-   "pts_league": 0.0
+   "pts_league": 0.0,
+   "nfl_pts": 62.6
   },
   {
    "round": 3,
@@ -1043,7 +1047,8 @@
    "starts_team": 0,
    "pts_team": 0.0,
    "starts_league": 0,
-   "pts_league": 0.0
+   "pts_league": 0.0,
+   "nfl_pts": 36.8
   }
  ],
  "draft_kind": "rookie",
@@ -1915,7 +1920,7 @@
    "opp_seed": 8,
    "chance": 0.544,
    "proj": 147.28,
-   "opp_proj": 140.69
+   "opp_proj": 140.75
   },
   {
    "week": 10,
