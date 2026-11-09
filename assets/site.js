@@ -288,6 +288,36 @@ function statusText(st, linked = true) {
   return st.last_nfl ? `No NFL team (last played ${st.last_nfl})` : "No NFL team";
 }
 
+// Rookie Draft Picks on the franchise and manager pages: one table per rookie draft, newest first, for the picks `mine(pick)` selects.
+// fid: the franchise page's own id (its picks need no Team column, and "Here" stands for that roster); null on a manager page.
+async function rookiePicksSection(players, mine, { fid = null, on = null, note }) {
+  const drafts = (await Promise.all(L.drafts.filter((d) => d.kind === "rookie").map((d) => load(`drafts/${d.season}`))))
+    .map((d) => ({ season: d.season, picks: d.picks.filter(mine) })).reverse();
+  if (!drafts.some((d) => d.picks.length)) return null;
+  const who = (p) => players[p.player]?.name ?? p.player;
+  const sum = (rows, k) => rows.reduce((t, r) => t + r[k], 0);
+  const cols = (season) => [
+    { label: "Rd", value: (p) => p.round, num: true },
+    { label: "Pick", value: (p) => p.overall, render: (p) => (p.total ? "" : pickLink(season, p.label)), num: true, title: "Click for the pick's own page: who held it and what it became" },
+    { label: "Player", value: who, render: (p) => (p.total ? p.player : pLink(p.player, who(p))), cls: activeCls(players, on) },
+    { label: "Pos", value: (p) => p.pos, cls: "c" },
+    fid ? null : { label: "Team", value: (p) => p.team, render: (p) => (p.total ? "" : tsLink(season, p.franchise, p.team)), title: "The franchise he managed that made the pick" },
+    { label: "Pick from", render: (p) => (p.original && p.original !== p.franchise ? fLink(p.original, seasonTeam(season, p.original)) : ""), title: "Franchise the pick originally belonged to, if acquired by trade" },
+    { label: "Now", render: (p) => { if (p.total) return ""; const st = players[p.player]?.status; return fid && st?.code === "rostered" && st.franchise === fid ? "Here" : statusText(st); },
+      title: "Where he is now: an iooi roster, or unrostered" },
+    { label: "Team GS", value: (p) => p.starts_team, num: true, title: "Games started for the franchise that drafted him" },
+    { label: "Team Pts", value: (p) => p.pts_team, render: (p) => fmt.pts(p.pts_team), num: true, title: "Points as a starter for the franchise that drafted him" },
+    { label: "Lg GS", value: (p) => p.starts_league, num: true, title: "League games started: starts for any iooi franchise" },
+    { label: "Lg Pts", value: (p) => p.pts_league, render: (p) => fmt.pts(p.pts_league), num: true, title: "League points: starter points for any iooi franchise" },
+  ].filter(Boolean);
+  const foot = (rows) => ({ total: true, player: `${rows.length} pick${rows.length === 1 ? "" : "s"}`,
+    starts_team: sum(rows, "starts_team"), pts_team: sum(rows, "pts_team"), starts_league: sum(rows, "starts_league"), pts_league: sum(rows, "pts_league") });
+  return section("Rookie Draft Picks", drafts.flatMap((d) => [
+    h("h3", {}, h("a", { href: `draft.html?y=${d.season}` }, `${d.season} Rookie Draft`)),
+    d.picks.length ? statTable({ rows: d.picks, foot: foot(d.picks), columns: cols(d.season) }) : h("p", { class: "note" }, "No picks made."),
+  ]), h("p", { class: "note" }, [note, " Team GS and Team Pts count only starts for the franchise that drafted him; Lg (league) GS and Pts count starts for any iooi franchise. Both include playoffs and the Toilet Bowl. The 2023 startup draft is on its ", h("a", { href: "draft.html?y=2023" }, "own page"), "."]));
+}
+
 const section = (title, ...kids) => [h("h2", { id: title.toLowerCase().replace(/[^a-z0-9]+/g, "-") }, title), ...kids];
 const meta = (pairs) => h("ul", { class: "meta" }, pairs.filter((p) => p && p[1] != null && p[1] !== "").map(([k, v]) => h("li", {}, h("b", {}, `${k}: `), v)));
 // Number a sorted list 1, 2, 3... Given the value it is sorted by, rows with equal values share a place (1, 2, 2, 4).

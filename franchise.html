@@ -21,6 +21,8 @@
 page("Franchise", async (main) => {
   const [f, players, teams] = await Promise.all([load(`franchises/${param("id") || 1}`), load("players"), load("all_time_teams")]);
   const trades = (await load("trades")).filter((x) => x.sides.some((s) => Number(s.franchise) === f.id));
+  const rookie = await rookiePicksSection(players, (p) => p.franchise === f.id,
+    { fid: f.id, on: [f.id], note: "Every rookie this franchise drafted. Bold marks a player on this roster now." });
   const slotName = (s) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex", DEF: "D/ST" }[s] ?? s);
   const who = (r) => players[r.player]?.name ?? r.player;
   const leaderCols = [
@@ -96,6 +98,7 @@ page("Franchise", async (main) => {
         { label: "Pts/Add", value: (r) => (r.adds ? r.pts / r.adds : null), render: (r) => (r.adds ? fmt.pts(r.pts / r.adds) : ""), num: true },
       ],
     }), h("p", { class: "note" }, ["Trades are filed under the league year they were made in. A pickup is credited with what the player did as a starter for this team until he left it. Full lists are in the ", h("a", { href: "trades.html" }, "trade register"), " and on the ", h("a", { href: "waivers.html" }, "waiver wire page"), "."])),
+    rookie,
     f.records?.length ? section("Franchise Records", recordTable(f.records, players),
       h("p", { class: "note" }, "The franchise's bests and worsts in every game since 2023, and in its complete regular seasons. Player records count only games and seasons for this franchise. Ties are all listed.")) : null,
     f.records_held?.length ? section("League Records Held", recordTable(f.records_held, players, { holder: false }),

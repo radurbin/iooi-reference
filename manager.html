@@ -24,6 +24,8 @@ page("Manager", async (main) => {
   const mine = m.stints.filter((s) => !s.to).map((s) => s.franchise);   // franchises he holds a stake in now
   const trades = allTrades.filter((x) => x.sides.some((s) => (s.managers ?? []).includes(mid)));
   const t = m.totals;
+  const rookie = await rookiePicksSection(players, (p) => p.managers.includes(mid),
+    { on: mine, note: "Every rookie drafted by a franchise while he held a stake in it, co-managed picks included. Bold marks a player on a roster he manages now." });
   const slotName = (slot) => ({ SUPER_FLEX: "Superflex", FLEX: "Flex" })[slot] ?? slot;
   const leaderCols = [
     { label: "Rk", value: (r) => r.rk, num: true },
@@ -74,6 +76,7 @@ page("Manager", async (main) => {
         { label: "Notes", render: (r) => (r.partial_season ? "Partial season" : ""), cls: "dim" },
       ],
     })),
+    rookie,
     m.records_held?.length ? section("Records Held", recordTable(m.records_held, players, { scope: true }),
       h("p", { class: "note" }, ["First places he holds today: on the league's ", h("a", { href: "records.html" }, "record book"), " lists, and on the franchise records of teams he managed (franchise shown in brackets), set while he held a stake."])) : null,
     m.leaders.overall.length ? [
