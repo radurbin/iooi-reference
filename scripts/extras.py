@@ -1079,26 +1079,25 @@ def longest(rank, tied, what, top=15):
     return f", {'tied for ' if tied else ''}the {'' if rank == 1 else ordinal(rank) + '-'}longest {what} in league history"
 
 
-STREAK_NOTE = 4        # a team's winning or losing streak makes the weekly recap from this many games, or when one this long ends
-STREAK_LIST = 10       # a player's streak makes it when it is in the top ten of its kind
+STREAK_LIST = 10       # a streak makes the weekly recap when it is in the top ten of its kind (and a team's, too, when one that long ends)
 
 
 def streak_lines(season, week, mine, team_runs, player_runs, stretch, f, p, ordinal, joined):
     """The weekly recap's streaks: teams' winning and losing runs (and long ones that ended), players' runs of
     20-point starts and of starts climbing the all-time list, and record scoring stretches that end this week."""
     this_week = lambda ref: ref["season"] == season and ref["week"] == week
-    place = lambda r, what: longest(r["rank"], r["tied"], what)
+    place = lambda r, what: longest(r["rank"], r["tied"], what, STREAK_LIST)
     sides = {side["franchise"]: side for g in mine for side in g["teams"]}
     parts = []
     for r in team_runs:
         if r["key"] not in sides or not this_week(r["to"]):
             continue
         team = f(sides[r["key"]])
-        if r["n"] >= STREAK_NOTE:
+        if r["rank"] <= STREAK_LIST:
             what = "winning streak" if r["won"] else "losing streak"
             parts.append(f"{team} have {'won' if r['won'] else 'lost'} {r['n']} straight{place(r, what)}")
         ended = r.get("ended")
-        if ended and ended["n"] >= STREAK_NOTE:
+        if ended and ended["rank"] <= STREAK_LIST:
             what = "winning streak" if ended["won"] else "losing streak"
             article = "an" if ended["n"] in (8, 11, 18) or 80 <= ended["n"] <= 89 else "a"
             parts.append(f"{team} {'lost, ending' if ended['won'] else 'won, ending'} {article} {ended['n']}-game {what}{place(ended, what)}")
