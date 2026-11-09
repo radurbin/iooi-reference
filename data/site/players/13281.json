@@ -218,7 +218,9 @@
     "nfl": "NO",
     "missed": 7,
     "lost": 0.0,
-    "injuries": [],
+    "injuries": [
+     "Hamstring"
+    ],
     "weeks": [
      1,
      2,
@@ -236,49 +238,49 @@
      {
       "week": 1,
       "kind": "IR",
-      "injury": "",
+      "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 2,
       "kind": "IR",
-      "injury": "",
+      "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 3,
       "kind": "IR",
-      "injury": "",
+      "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 4,
       "kind": "IR",
-      "injury": "",
+      "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 5,
       "kind": "IR",
-      "injury": "",
+      "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 6,
       "kind": "IR",
-      "injury": "",
+      "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 7,
       "kind": "IR",
-      "injury": "",
+      "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
      }
@@ -301,7 +303,7 @@
     ],
     "missed": 7,
     "nfl": "NO",
-    "injury": "",
+    "injury": "Hamstring",
     "kinds": [
      "IR"
     ],

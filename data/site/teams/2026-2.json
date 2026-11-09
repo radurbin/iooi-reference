@@ -1914,8 +1914,8 @@
    "opp_record": "4-4",
    "opp_seed": 8,
    "chance": 0.544,
-   "proj": 147.48,
-   "opp_proj": 140.75
+   "proj": 147.46,
+   "opp_proj": 140.69
   },
   {
    "week": 10,
@@ -2010,7 +2010,9 @@
     "pos": "WR",
     "missed": 7,
     "lost": 0.0,
-    "injuries": [],
+    "injuries": [
+     "Hamstring"
+    ],
     "weeks": [
      1,
      2,

@@ -77,6 +77,17 @@ def team_streaks(games, keys_of):
             rows.append(row)
             if row["active"]:
                 current.append(row)
+                if run["n"] == 1 and i:
+                    row["ended"] = {"n": found[i - 1]["n"], "won": found[i - 1]["won"]}   # the streak this game ended
+    # Where each current streak (and each one just ended) stands among every streak of its kind; equal lengths share a place.
+    for row in current:
+        for r in (row, row.get("ended")):
+            if r:
+                r["rank"] = 1 + sum(1 for x in rows if x["won"] == r["won"] and x["n"] > r["n"])
+                r["tied"] = sum(1 for x in rows if x["won"] == r["won"] and x["n"] == r["n"]) > 1   # the run itself is in rows
+        # Where it would stand after one more game, for the week's preview.
+        row["next_rank"] = 1 + sum(1 for x in rows if x["won"] == row["won"] and x["n"] > row["n"] + 1)
+        row["next_tied"] = any(x["won"] == row["won"] and x["n"] == row["n"] + 1 for x in rows)
     top = lambda won: sorted((r for r in rows if r["won"] == won and r["n"] >= 3), key=lambda r: (-r["n"], r["from"]["id"]))[:15]
     return {"wins": top(True), "losses": top(False), "current": sorted(current, key=lambda r: (not r["won"], -r["n"]))}
 
@@ -116,7 +127,21 @@ def player_streaks(players, logs):
         close(run, starts, True)
         close(hot, big, True)
     top = lambda rows: sorted(rows, key=lambda r: (-r["n"], -r["pts"]))[:20]
-    return {"starts": top(starts), "big_games": top(big), "big_game": BIG_GAME}
+    # Live runs with their place among every run of their kind (and, for starts, the place a week earlier), for the weekly recap.
+    current = []
+    for kind, rows in (("starts", starts), ("big_games", big)):
+        for r in rows:
+            if r["active"]:
+                # A week earlier, every other live run was one shorter too (if it also grew this week).
+                grew = lambda x: x["active"] and (x["to"]["season"], x["to"]["week"]) == calendar[-1]
+                current.append({**r, "kind": kind, "rank": 1 + sum(1 for x in rows if x is not r and x["n"] > r["n"]),
+                                "was": 1 + sum(1 for x in rows if x is not r and x["n"] - grew(x) > r["n"] - 1),
+                                "tied": any(x is not r and x["n"] == r["n"] for x in rows),
+                                "next_rank": 1 + sum(1 for x in rows if x is not r and x["n"] > r["n"] + 1),
+                                "next_tied": any(x is not r and x["n"] == r["n"] + 1 for x in rows)})
+    # Finished runs of starts, by length: with the live ones, the whole list a run this week can climb.
+    done = [r["n"] for r in starts if not r["active"]]
+    return {"starts": top(starts), "big_games": top(big), "big_game": BIG_GAME, "current": current, "done_starts": done}
 
 
 def postseason_runs(seasons, franchises):
@@ -1047,7 +1072,55 @@ def list_moves(season, week, logs, stints):
     return moves, {key for key, rows in before.items() if rows}
 
 
-def last_week_honors(games, players, records, reached, logs, stints):
+def longest(rank, tied, what, top=15):
+    """", tied for the 8th-longest winning streak in league history", or "" off the list."""
+    if rank > top:
+        return ""
+    return f", {'tied for ' if tied else ''}the {'' if rank == 1 else ordinal(rank) + '-'}longest {what} in league history"
+
+
+STREAK_NOTE = 4        # a team's winning or losing streak makes the weekly recap from this many games, or when one this long ends
+STREAK_LIST = 10       # a player's streak makes it when it is in the top ten of its kind
+
+
+def streak_lines(season, week, mine, team_runs, player_runs, stretch, f, p, ordinal, joined):
+    """The weekly recap's streaks: teams' winning and losing runs (and long ones that ended), players' runs of
+    20-point starts and of starts climbing the all-time list, and record scoring stretches that end this week."""
+    this_week = lambda ref: ref["season"] == season and ref["week"] == week
+    place = lambda r, what: longest(r["rank"], r["tied"], what)
+    sides = {side["franchise"]: side for g in mine for side in g["teams"]}
+    parts = []
+    for r in team_runs:
+        if r["key"] not in sides or not this_week(r["to"]):
+            continue
+        team = f(sides[r["key"]])
+        if r["n"] >= STREAK_NOTE:
+            what = "winning streak" if r["won"] else "losing streak"
+            parts.append(f"{team} have {'won' if r['won'] else 'lost'} {r['n']} straight{place(r, what)}")
+        ended = r.get("ended")
+        if ended and ended["n"] >= STREAK_NOTE:
+            what = "winning streak" if ended["won"] else "losing streak"
+            article = "an" if ended["n"] in (8, 11, 18) or 80 <= ended["n"] <= 89 else "a"
+            parts.append(f"{team} {'lost, ending' if ended['won'] else 'won, ending'} {article} {ended['n']}-game {what}{place(ended, what)}")
+    skill = lambda r: r["pos"] not in ("K", "DEF")
+    big = sorted((r for r in player_runs if r["kind"] == "big_games" and this_week(r["to"]) and r["n"] >= 3 and r["rank"] <= STREAK_LIST), key=lambda r: (r["rank"], -r["pts"]))
+    for r in big:
+        parts.append(f"{p(r['player'])} has {r['n']} straight starts of {BIG_GAME}+ points{place(r, 'such run')}")
+    climbs = sorted((r for r in player_runs if r["kind"] == "starts" and skill(r) and this_week(r["to"]) and r["rank"] <= STREAK_LIST and r["rank"] < r["was"]),
+                    key=lambda r: r["rank"])
+    for r in climbs:
+        parts.append(f"{p(r['player'])} has started {r['n']} straight iooi games{place(r, 'run of starts')}")
+    # A new record for points over a run of weeks: the longest such run only, for a team and for a player.
+    for kind, unit in (("franchises", "weeks"), ("players", "starts")):
+        fresh = [(int(n), rows[0]) for n, rows in (stretch.get(kind) or {}).items() if rows and this_week(rows[0]["to"])]
+        if fresh:
+            n, r = max(fresh, key=lambda x: x[0])
+            who = p(r["player"]) if kind == "players" else f(sides[r["key"]]) if r["key"] in sides else f"[[f:{r['key']}|{r['teams'][-1]}]]"
+            parts.append(f"{who} scored {r['pts']:,.2f} over {n} straight {unit}, the most in league history")
+    return ("; ".join(parts) + ".") if parts else None
+
+
+def last_week_honors(games, players, records, reached, logs, stints, team_runs=(), player_runs=(), stretch=None):
     """Accolades from the most recent completed week, as lines for the front page."""
     if not games:
         return None
@@ -1159,6 +1232,9 @@ def last_week_honors(games, players, records, reached, logs, stints):
         text = "; ".join(f"{p(m['player'])} became {where(m)} career points leader{passing(m)}" if m["to"] == 1 else
                          f"{p(m['player'])} climbed to {ordinal(m['to'])} on {where(m)} list{passing(m)}" for m in other[:6])
         lines.append({"label": "Franchise and Manager Lists", "text": text + (f"; and {len(other) - 6} more moves near the top." if len(other) > 6 else ".")})
+    streaks = streak_lines(season, week, mine, team_runs, player_runs, stretch or {}, f, p, ordinal, joined)
+    if streaks:
+        lines.append({"label": "Streaks", "text": streaks})
     who = lambda m: p(m["key"]) if m["kind"] == "player" else f"[[m:{m['key']}]]" if m["kind"] == "manager" else f"[[f:{m['key']}|{m['team']}]]"
     marks = [m for m in reached if m["season"] == season and m["week"] == week]
     marks.sort(key=lambda m: ({"franchise": 0, "manager": 1, "player": 2}[m["kind"]], -int(m["what"].split(" ")[0].replace(",", ""))))
@@ -1320,7 +1396,7 @@ def tie_text(ties, team):
 
 # ---------------------------------------------------------------- this week
 
-def this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits, clinch_data=None):
+def this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits, clinch_data=None, player_runs=(), done_starts=()):
     """The current week's matchups: lineups as last fetched, projections, Elo win chances, history and storylines."""
     from datetime import datetime, timezone
     from build import fired_subs
@@ -1341,6 +1417,19 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
     elo = {r["franchise"]: r["elo"] for r in load(SITE / "elo.json")["table"]}
     owners = {f["id"]: f["owners"] for f in league["franchises"]}
     streaks = {r["key"]: r for r in streak_data["franchises"]["current"]}
+    manager_streaks = {r["key"]: r for r in streak_data["managers"]["current"]}
+    live_starts = [r for r in player_runs if r["kind"] == "starts"]
+    runs_of = defaultdict(dict)   # player -> {"starts" | "big_games": his live run}
+    for r in player_runs:
+        runs_of[r["player"]][r["kind"]] = r
+
+    def streak_note(who, verb, run, scope=""):
+        """ "X have won 4 in a row, tied for the 14th-longest winning streak in league history; a win would make 5, tied for the 8th-longest." """
+        what = "winning streak" if run["won"] else "losing streak"
+        text = f"{who} {verb} {'won' if run['won'] else 'lost'} {run['n']} in a row{scope}{longest(run['rank'], run['tied'], what)}"
+        if run["next_rank"] <= 15 and (run["next_rank"] < run["rank"] or run["rank"] > 15):
+            text += f"; {'a win' if run['won'] else 'a loss'} would make {run['n'] + 1}{longest(run['next_rank'], run['next_tied'], what).replace(' in league history', '')}"
+        return text + "."
     upcoming = defaultdict(list)   # (kind, key) -> the next points, wins and starts milestones
     for u in every_milestone:
         upcoming[(u["kind"], str(u["key"]))].append(u)
@@ -1475,8 +1564,13 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
             name = f"[[f:{x['franchise']}|{x['team']}]]"
             for pid, age, day in birthdays(x.pop("roster")):
                 notes.append(f"Birthday: [[p:{pid}|{players[pid]['name']}]] of {name} turns {age} on {day.strftime('%A')}, {day.strftime('%B')} {day.day}.")
-            if x["streak"] and x["streak"]["n"] >= 3:
-                notes.append(f"{name} {'have won' if x['streak']['won'] else 'have lost'} {x['streak']['n']} in a row.")
+            run = streaks.get(x["franchise"])
+            if run and run["n"] >= 3:
+                notes.append(streak_note(name, "have", run))
+            for slug in x["managers"]:
+                mine = manager_streaks.get(slug)
+                if mine and mine["n"] >= 3 and not (run and (run["n"], run["won"]) == (mine["n"], mine["won"])):
+                    notes.append(streak_note(f"[[m:{slug}]]", "has", mine, " as a manager"))
             if clinch_data and kind == "regular":
                 notes.extend(clinch_notes(x["franchise"], name, clinch_data, standings))
                 if clinch_data["points_seed"]:
@@ -1514,6 +1608,22 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                     notes.append(f"[[p:{pid}|{line['name']}]] makes {his} first iooi start.")
                 elif line["pos"] not in ("K", "DEF") and not any(e["franchise"] == x["franchise"] for e in before):
                     notes.append(f"[[p:{pid}|{line['name']}]] makes {his} first start for [[f:{x['franchise']}|{x['team']}]] ({ordinal(len(before) + 1)} in iooi).")
+                # His live runs: straight 20-point starts, and straight starts when this one climbs the all-time list.
+                hot = runs_of[pid].get("big_games")
+                if hot and hot["n"] >= 3 and line["pos"] not in ("K", "DEF") and min(hot["rank"], hot["next_rank"]) <= STREAK_LIST:
+                    more = (f"; another would make {hot['n'] + 1}{longest(hot['next_rank'], hot['next_tied'], 'such run', STREAK_LIST).replace(' in league history', '')}"
+                            if hot["next_rank"] <= STREAK_LIST and hot["next_rank"] < hot["rank"] else "")
+                    notes.append(f"[[p:{pid}|{line['name']}]] has scored {BIG_GAME}+ in {hot['n']} straight starts{longest(hot['rank'], hot['tied'], 'such run', STREAK_LIST)}{more}.")
+                run_s = runs_of[pid].get("starts")
+                if run_s and line["pos"] not in ("K", "DEF"):
+                    n = run_s["n"] + 1
+                    # Every other run as it will stand after this week: a live one grows only if he starts too.
+                    others = list(done_starts) + [r["n"] + (r["player"] in starting) for r in live_starts if r["player"] != pid]
+                    rank = 1 + sum(1 for x in others if x > n)
+                    # Only when he draws level with or passes a run that is not growing with him.
+                    gains = any(x in (n - 1, n) for x in done_starts) or any(r["player"] not in starting and r["n"] in (n - 1, n) for r in live_starts if r["player"] != pid)
+                    if gains and rank <= STREAK_LIST:
+                        notes.append(f"[[p:{pid}|{line['name']}]] makes his {ordinal(n)} straight iooi start{longest(rank, n in others, 'run of starts', STREAK_LIST)}.")
                 # Kept all week: the lists are as they stood before the week, so the note holds after his game too.
                 if line["proj"]:
                     notes.extend(list_note(pid, line["name"], x["franchise"], x["team"], line["proj"] * REACH))
@@ -1792,6 +1902,8 @@ def main():
     fastest_tags(streak_data["milestones"]["reached"], streak_data["fastest"])
     fastest_hits = {group: data.pop("hits") for group, data in streak_data["fastest"].items()}
     every_milestone = streak_data["milestones"].pop("all")
+    player_runs = streak_data["players"].pop("current")
+    done_starts = streak_data["players"].pop("done_starts")
     dump(SITE / "streaks.json", streak_data)
     rivalry_data = rivalries(games, trades)
     dump(SITE / "rivalries.json", rivalry_data)
@@ -1907,12 +2019,13 @@ def main():
         e["hof"] = hof_score(e.get("player") or e.get("became"))
     dump(path, split)
     stints = {m["id"]: load(SITE / "managers" / f"{m['id']}.json")["stints"] for m in league["managers"]}
-    honors = last_week_honors(games, players, load(SITE / "records.json"), streak_data["milestones"]["reached"], logs, stints)
+    honors = last_week_honors(games, players, load(SITE / "records.json"), streak_data["milestones"]["reached"], logs, stints,
+                              streak_data["franchises"]["current"], player_runs, streak_data["stretches"])
     import clinch
     current = seasons[league["current_season"]]
     clinch_data = clinch.season_status(league["current_season"], current["standings"], games) if current["status"] != "complete" else None
     dump(SITE / "home.json", home(league, seasons, players, careers, picks, honors, clinch_data and clinch_data["now"]))
-    week_data = this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits, clinch_data)
+    week_data = this_week(league, players, files, seasons, games, streak_data, rivalry_data, waiver_log, every_milestone, fastest_hits, clinch_data, player_runs, done_starts)
     dump(SITE / "week.json", week_data)
     for fid, rows in remaining_schedule(league, seasons, games, week_data).items():
         path = SITE / "teams" / f"{league['current_season']}-{fid}.json"
