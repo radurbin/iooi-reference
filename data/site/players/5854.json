@@ -82,9 +82,9 @@
   {
    "season": "2026",
    "team": "SEA",
-   "g": 2,
-   "pts": 34.38,
-   "rank": 36
+   "g": 3,
+   "pts": 47.48,
+   "rank": 34
   }
  ],
  "history": [
@@ -244,7 +244,7 @@
    "stat": "WAR",
    "value": 0.1,
    "digits": 2,
-   "rank": 183,
+   "rank": 178,
    "of": 419
   },
   {
@@ -253,7 +253,7 @@
    "stat": "VOR",
    "value": 8.1,
    "digits": 1,
-   "rank": 185,
+   "rank": 179,
    "of": 419
   },
   {
@@ -681,6 +681,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Oblique",
+   "since": null,
+   "streak": 2
+  }
  }
 }

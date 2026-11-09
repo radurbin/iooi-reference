@@ -54,7 +54,7 @@
    "team": "KC",
    "g": 5,
    "pts": 1.4,
-   "rank": 118
+   "rank": 122
   }
  ],
  "history": [
@@ -373,14 +373,15 @@
    {
     "season": "2026",
     "nfl": "KC",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Hamstring"
     ],
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -400,6 +401,13 @@
       "injury": "Hamstring",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -408,12 +416,13 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 8,
+    "to": 9,
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "KC",
     "injury": "Hamstring",
     "kinds": [

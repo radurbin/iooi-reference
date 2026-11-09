@@ -48,8 +48,8 @@
    "best": 20.8,
    "wins": 1,
    "paa": -33.27,
-   "vor": 20.07,
-   "war": 0.24
+   "vor": 23.99,
+   "war": 0.28
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 31.0,
   "wins": 2,
   "paa": -10.15,
-  "vor": 79.43,
-  "war": 0.94
+  "vor": 83.35,
+  "war": 0.99
  },
  "nfl": [
   {
@@ -77,7 +77,7 @@
    "team": "NYG",
    "g": 7,
    "pts": 80.2,
-   "rank": 26
+   "rank": 27
   }
  ],
  "history": [
@@ -398,8 +398,8 @@
    "proj": 16.42,
    "won": false,
    "paa": -4.03,
-   "vor": 7.31,
-   "war": 0.08639530516420214
+   "vor": 7.87,
+   "war": 0.09301382375407262
   },
   {
    "season": "2026",
@@ -417,8 +417,8 @@
    "proj": 16.05,
    "won": false,
    "paa": -2.68,
-   "vor": 2.11,
-   "war": 0.024937632543976268
+   "vor": 2.67,
+   "war": 0.031556151133846744
   },
   {
    "season": "2026",
@@ -436,8 +436,8 @@
    "proj": 16.79,
    "won": false,
    "paa": -1.24,
-   "vor": 6.41,
-   "war": 0.0757584002876246
+   "vor": 6.97,
+   "war": 0.08237691887749506
   },
   {
    "season": "2026",
@@ -455,8 +455,8 @@
    "proj": 17.21,
    "won": true,
    "paa": -8.1,
-   "vor": 0.81,
-   "war": 0.009573214388919801
+   "vor": 1.37,
+   "war": 0.01619173297879028
   },
   {
    "season": "2026",
@@ -474,8 +474,8 @@
    "proj": 14.26,
    "won": false,
    "paa": -7.05,
-   "vor": -0.19,
-   "war": -0.002245568807277484
+   "vor": 0.37,
+   "war": 0.004372949782592995
   },
   {
    "season": "2026",
@@ -493,8 +493,8 @@
    "proj": 11.28,
    "won": false,
    "paa": -13.4,
-   "vor": -8.59,
-   "war": -0.10152334765533466
+   "vor": -8.03,
+   "war": -0.09490482906546419
   },
   {
    "season": "2026",
@@ -512,8 +512,8 @@
    "proj": 8.0,
    "won": false,
    "paa": 3.23,
-   "vor": 12.21,
-   "war": 0.14430734282556884
+   "vor": 12.77,
+   "war": 0.15092586141543932
   },
   {
    "season": "2026",
@@ -536,11 +536,11 @@
   {
    "player": "12490",
    "name": "Bhayshul Tuten",
-   "score": 926,
+   "score": 925,
    "gs": 10,
    "pts": 144.8,
    "ppg": 14.48,
-   "war": 0.7
+   "war": 0.74
   },
   {
    "player": "2749",
@@ -554,7 +554,7 @@
   {
    "player": "7021",
    "name": "Rico Dowdle",
-   "score": 882,
+   "score": 886,
    "gs": 17,
    "pts": 263.2,
    "ppg": 15.48,
@@ -563,16 +563,16 @@
   {
    "player": "12507",
    "name": "Omarion Hampton",
-   "score": 872,
+   "score": 871,
    "gs": 14,
    "pts": 177.9,
    "ppg": 12.71,
-   "war": 0.68
+   "war": 0.71
   },
   {
    "player": "8205",
    "name": "Isiah Pacheco",
-   "score": 857,
+   "score": 854,
    "gs": 15,
    "pts": 189.5,
    "ppg": 12.63,
@@ -607,18 +607,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.94,
+   "value": 0.99,
    "digits": 2,
-   "rank": 80,
+   "rank": 73,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 79.4,
+   "value": 83.3,
    "digits": 1,
-   "rank": 80,
+   "rank": 74,
    "of": 419
   },
   {
@@ -679,9 +679,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.94,
+   "value": 0.99,
    "digits": 2,
-   "rank": 30,
+   "rank": 29,
    "of": 99
   },
   {
@@ -708,7 +708,7 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.94,
+   "value": 0.98,
    "digits": 2,
    "rank": 4,
    "of": 47,
@@ -786,10 +786,10 @@
   }
  ],
  "hof": {
-  "score": 12.65,
-  "rank": 109,
+  "score": 13.15,
+  "rank": 104,
   "of": 419,
-  "war": 9.4,
+  "war": 9.9,
   "starts": 3.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -887,37 +887,37 @@
    [
     "2026",
     2,
-    10.1
+    10.3
    ],
    [
     "2026",
     3,
-    11.15
+    11.35
    ],
    [
     "2026",
     4,
-    11.5
+    11.7
    ],
    [
     "2026",
     5,
-    11.75
+    12.05
    ],
    [
     "2026",
     6,
-    10.9
+    11.3
    ],
    [
     "2026",
     7,
-    12.65
+    13.15
    ],
    [
     "2026",
     8,
-    12.65
+    13.15
    ]
   ],
   "benchmark": 100
@@ -1006,6 +1006,31 @@
       "team": "Happy Feet"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "NYG",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Doubtful"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Doubtful",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1037,13 +1062,30 @@
     ],
     "rostered": 8,
     "lost": 58.96
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "NYG",
+    "injury": "Hamstring",
+    "kinds": [
+     "Doubtful"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
-   "status": "Doubtful",
+   "status": "Out",
    "injury": "Hamstring",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

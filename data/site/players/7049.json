@@ -84,7 +84,7 @@
    "team": "MIN",
    "g": 6,
    "pts": 11.4,
-   "rank": 133
+   "rank": 141
   }
  ],
  "history": [
@@ -654,27 +654,27 @@
  ],
  "similar": [
   {
-   "player": "8126",
-   "name": "Wan'Dale Robinson",
-   "score": 947,
-   "gs": 12,
-   "pts": 158.8,
-   "ppg": 13.23,
-   "war": 0.34
-  },
-  {
    "player": "10232",
    "name": "Michael Wilson",
    "score": 947,
    "gs": 12,
    "pts": 175.18,
    "ppg": 14.6,
-   "war": 0.49
+   "war": 0.26
+  },
+  {
+   "player": "8126",
+   "name": "Wan'Dale Robinson",
+   "score": 944,
+   "gs": 12,
+   "pts": 158.8,
+   "ppg": 13.23,
+   "war": 0.27
   },
   {
    "player": "5947",
    "name": "Jakobi Meyers",
-   "score": 894,
+   "score": 893,
    "gs": 13,
    "pts": 164.3,
    "ppg": 12.64,
@@ -728,7 +728,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 132,
+   "rank": 126,
    "of": 419
   },
   {
@@ -737,7 +737,7 @@
    "stat": "VOR",
    "value": 31.3,
    "digits": 1,
-   "rank": 132,
+   "rank": 127,
    "of": 419
   },
   {
@@ -800,7 +800,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 36,
+   "rank": 32,
    "of": 126
   },
   {
@@ -829,7 +829,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 15,
+   "rank": 14,
    "of": 82,
    "franchise": 4
   },
@@ -906,7 +906,7 @@
  ],
  "hof": {
   "score": 6.7,
-  "rank": 167,
+  "rank": 165,
   "of": 419,
   "war": 3.7,
   "starts": 3.0,

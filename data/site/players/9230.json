@@ -61,7 +61,7 @@
    "team": "PHI",
    "g": 3,
    "pts": 30.72,
-   "rank": 37
+   "rank": 38
   }
  ],
  "history": [
@@ -203,6 +203,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "PHI",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Rib"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Questionable",
+      "injury": "Rib",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -220,6 +245,23 @@
     "injury": "Thumb",
     "kinds": [
      "Out",
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "PHI",
+    "injury": "Rib",
+    "kinds": [
      "Questionable"
     ],
     "teams": [],

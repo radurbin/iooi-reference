@@ -126,9 +126,9 @@
   {
    "season": "2026",
    "team": "NO",
-   "g": 6,
-   "pts": 69.9,
-   "rank": 29
+   "g": 7,
+   "pts": 78.4,
+   "rank": 28
   }
  ],
  "history": [
@@ -1203,11 +1203,11 @@
   {
    "player": "7594",
    "name": "Chuba Hubbard",
-   "score": 911,
+   "score": 912,
    "gs": 32,
    "pts": 526.3,
    "ppg": 16.45,
-   "war": 2.74
+   "war": 2.78
   },
   {
    "player": "4018",
@@ -1221,29 +1221,29 @@
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 785,
+   "score": 788,
    "gs": 33,
    "pts": 486.4,
    "ppg": 14.74,
-   "war": 2.22
-  },
-  {
-   "player": "9226",
-   "name": "De'Von Achane",
-   "score": 769,
-   "gs": 37,
-   "pts": 673.2,
-   "ppg": 18.19,
-   "war": 4.01
+   "war": 2.27
   },
   {
    "player": "7543",
    "name": "Travis Etienne Jr.",
-   "score": 769,
+   "score": 770,
    "gs": 36,
    "pts": 525.9,
    "ppg": 14.61,
-   "war": 2.3
+   "war": 2.32
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "score": 768,
+   "gs": 37,
+   "pts": 673.2,
+   "ppg": 18.19,
+   "war": 4.03
   }
  ],
  "status": {
@@ -1276,7 +1276,7 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 419
   },
   {
@@ -1348,7 +1348,7 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 12,
+   "rank": 13,
    "of": 99
   },
   {
@@ -1484,7 +1484,7 @@
  ],
  "hof": {
   "score": 45.3,
-  "rank": 23,
+  "rank": 22,
   "of": 419,
   "war": 28.8,
   "starts": 7.5,
@@ -1904,7 +1904,7 @@
     "season": "2026",
     "nfl": "NO",
     "missed": 1,
-    "lost": 3.06,
+    "lost": 3.17,
     "injuries": [
      "Knee"
     ],
@@ -1996,7 +1996,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 3.06
+    "lost": 3.17
    }
   ],
   "now": null

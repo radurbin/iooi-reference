@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "DEN",
-   "g": 8,
-   "pts": 49.6,
-   "rank": 67
+   "g": 9,
+   "pts": 65.1,
+   "rank": 53
   }
  ],
  "history": [
@@ -1206,7 +1206,7 @@
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 893,
+   "score": 891,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
@@ -1215,20 +1215,20 @@
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 868,
+   "score": 856,
    "gs": 25,
    "pts": 330.0,
    "ppg": 13.2,
-   "war": 0.47
+   "war": 0.4
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 860,
+   "score": 855,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.5
+   "war": 0.47
   },
   {
    "player": "6819",
@@ -1242,7 +1242,7 @@
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 841,
+   "score": 839,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
@@ -1289,7 +1289,7 @@
    "stat": "WAR",
    "value": 0.93,
    "digits": 2,
-   "rank": 81,
+   "rank": 77,
    "of": 419
   },
   {
@@ -1298,7 +1298,7 @@
    "stat": "VOR",
    "value": 78.5,
    "digits": 1,
-   "rank": 81,
+   "rank": 77,
    "of": 419
   },
   {
@@ -1361,7 +1361,7 @@
    "stat": "WAR",
    "value": 0.93,
    "digits": 2,
-   "rank": 24,
+   "rank": 20,
    "of": 126
   },
   {
@@ -1390,7 +1390,7 @@
    "stat": "WAR",
    "value": -0.03,
    "digits": 2,
-   "rank": 47,
+   "rank": 44,
    "of": 68,
    "franchise": 3
   },
@@ -1537,7 +1537,7 @@
  ],
  "hof": {
   "score": 16.05,
-  "rank": 92,
+  "rank": 91,
   "of": 419,
   "war": 9.3,
   "starts": 6.75,

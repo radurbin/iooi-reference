@@ -91,8 +91,8 @@
    "best": 5.6,
    "wins": 0,
    "paa": -3.07,
-   "vor": -4.22,
-   "war": -0.05
+   "vor": -4.7,
+   "war": -0.06
   },
   {
    "season": "2026",
@@ -107,7 +107,7 @@
    "best": 8.5,
    "wins": 0,
    "paa": -4.09,
-   "vor": -1.32,
+   "vor": -1.8,
    "war": -0.02
   }
  ],
@@ -120,8 +120,8 @@
   "best": 14.5,
   "wins": 8,
   "paa": -30.38,
-  "vor": -9.24,
-  "war": -0.11
+  "vor": -10.2,
+  "war": -0.12
  },
  "nfl": [
   {
@@ -148,9 +148,9 @@
   {
    "season": "2026",
    "team": "NE",
-   "g": 8,
-   "pts": 76.6,
-   "rank": 14
+   "g": 9,
+   "pts": 84.6,
+   "rank": 9
   }
  ],
  "history": [
@@ -1054,8 +1054,8 @@
    "proj": 9.4,
    "won": false,
    "paa": -3.07,
-   "vor": -4.22,
-   "war": -0.049875265087952536
+   "vor": -4.7,
+   "war": -0.055548281022127236
   },
   {
    "season": "2026",
@@ -1073,8 +1073,8 @@
    "proj": 10.23,
    "won": false,
    "paa": -4.09,
-   "vor": -1.32,
-   "war": -0.015600793818980415
+   "vor": -1.8,
+   "war": -0.021273809753155112
   },
   {
    "season": "2026",
@@ -1195,7 +1195,7 @@
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 856,
+   "score": 857,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
@@ -1208,16 +1208,16 @@
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.17
+   "war": -0.19
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 787,
+   "score": 789,
    "gs": 11,
    "pts": 122.0,
    "ppg": 11.09,
-   "war": 0.2
+   "war": 0.16
   }
  ],
  "status": {
@@ -1248,18 +1248,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.12,
    "digits": 2,
-   "rank": 298,
+   "rank": 296,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -9.2,
+   "value": -10.2,
    "digits": 1,
-   "rank": 301,
+   "rank": 298,
    "of": 419
   },
   {
@@ -1320,9 +1320,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.12,
    "digits": 2,
-   "rank": 32,
+   "rank": 34,
    "of": 52
   },
   {
@@ -1349,9 +1349,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.06,
    "digits": 2,
-   "rank": 46,
+   "rank": 45,
    "of": 82,
    "franchise": 4
   },
@@ -1391,7 +1391,7 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 28,
+   "rank": 27,
    "of": 40,
    "franchise": 6
   },
@@ -1568,7 +1568,7 @@
  ],
  "hof": {
   "score": 6.75,
-  "rank": 164,
+  "rank": 162,
   "of": 419,
   "war": 0.0,
   "starts": 2.75,
@@ -1931,11 +1931,6 @@
     "lost": 0.0
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Foot",
-   "since": null,
-   "streak": 0
-  }
+  "now": null
  }
 }

@@ -2,7 +2,7 @@
  "id": "9757",
  "name": "Kendre Miller",
  "pos": "RB",
- "nfl_team": "NO",
+ "nfl_team": null,
  "birth_date": "2002-06-11",
  "honors": [],
  "votes": [],
@@ -112,8 +112,8 @@
    "best": 11.0,
    "wins": 0,
    "paa": -2.4,
-   "vor": 2.41,
-   "war": 0.03
+   "vor": 2.97,
+   "war": 0.04
   }
  ],
  "totals": {
@@ -125,8 +125,8 @@
   "best": 11.0,
   "wins": 0,
   "paa": -24.05,
-  "vor": -9.87,
-  "war": -0.12
+  "vor": -9.31,
+  "war": -0.11
  },
  "nfl": [
   {
@@ -155,7 +155,7 @@
    "team": "NO",
    "g": 6,
    "pts": 44.3,
-   "rank": 52
+   "rank": 53
   }
  ],
  "history": [
@@ -804,8 +804,8 @@
    "proj": 10.26,
    "won": false,
    "paa": -2.4,
-   "vor": 2.41,
-   "war": 0.028483267502835453
+   "vor": 2.97,
+   "war": 0.035101786092705936
   },
   {
    "season": "2026",
@@ -868,18 +868,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.11,
    "digits": 2,
-   "rank": 307,
+   "rank": 286,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -9.9,
+   "value": -9.3,
    "digits": 1,
-   "rank": 307,
+   "rank": 291,
    "of": 419
   },
   {
@@ -931,9 +931,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.11,
    "digits": 2,
-   "rank": 82,
+   "rank": 83,
    "of": 99
   },
   {
@@ -960,9 +960,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.03,
+   "value": 0.04,
    "digits": 2,
-   "rank": 26,
+   "rank": 25,
    "of": 40,
    "franchise": 6
   },
@@ -1002,7 +1002,7 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 68,
+   "rank": 65,
    "of": 75,
    "franchise": 2
   },

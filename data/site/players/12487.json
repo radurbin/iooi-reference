@@ -48,8 +48,8 @@
    "best": 1.9,
    "wins": 1,
    "paa": -10.76,
-   "vor": -7.92,
-   "war": -0.09
+   "vor": -8.4,
+   "war": -0.1
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 1.9,
   "wins": 1,
   "paa": -10.76,
-  "vor": -7.92,
-  "war": -0.09
+  "vor": -8.4,
+  "war": -0.1
  },
  "nfl": [
   {
@@ -77,7 +77,7 @@
    "team": "LAR",
    "g": 3,
    "pts": 19.3,
-   "rank": 54
+   "rank": 55
   }
  ],
  "history": [
@@ -415,8 +415,8 @@
    "proj": 7.65,
    "won": true,
    "paa": -10.76,
-   "vor": -7.92,
-   "war": -0.09360476291388248
+   "vor": -8.4,
+   "war": -0.09927777884805719
   },
   {
    "season": "2026",
@@ -527,18 +527,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.1,
    "digits": 2,
-   "rank": 276,
+   "rank": 274,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -7.9,
+   "value": -8.4,
    "digits": 1,
-   "rank": 283,
+   "rank": 276,
    "of": 419
   },
   {
@@ -590,9 +590,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.1,
    "digits": 2,
-   "rank": 29,
+   "rank": 30,
    "of": 52
   },
   {
@@ -619,7 +619,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.1,
    "digits": 2,
    "rank": 59,
    "of": 75,
@@ -669,7 +669,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -811,7 +811,7 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 5,
+    "missed": 6,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -821,7 +821,8 @@
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -862,6 +863,13 @@
       "injury": "Ankle",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -870,15 +878,16 @@
    {
     "season": "2026",
     "from": 4,
-    "to": 8,
+    "to": 9,
     "weeks": [
      4,
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 5,
+    "missed": 6,
     "nfl": "LAR",
     "injury": "Ankle",
     "kinds": [
@@ -898,7 +907,7 @@
    "status": "IR",
    "injury": "Ankle",
    "since": null,
-   "streak": 5
+   "streak": 6
   }
  }
 }

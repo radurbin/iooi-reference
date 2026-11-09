@@ -80,8 +80,8 @@
    "best": 29.2,
    "wins": 2,
    "paa": 15.51,
-   "vor": 25.46,
-   "war": 0.3
+   "vor": 12.82,
+   "war": 0.15
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 33.3,
   "wins": 24,
   "paa": 18.22,
-  "vor": 102.66,
-  "war": 1.21
+  "vor": 90.02,
+  "war": 1.06
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "PHI",
    "g": 4,
    "pts": 70.5,
-   "rank": 42
+   "rank": 45
   }
  ],
  "history": [
@@ -1146,8 +1146,8 @@
    "proj": 15.7,
    "won": false,
    "paa": -5.39,
-   "vor": -2.96,
-   "war": -0.03498359826074396
+   "vor": -6.12,
+   "war": -0.07233095316072738
   },
   {
    "season": "2026",
@@ -1165,8 +1165,8 @@
    "proj": 14.74,
    "won": false,
    "paa": 13.92,
-   "vor": 17.94,
-   "war": 0.2120289705397793
+   "vor": 14.78,
+   "war": 0.17468161563979584
   },
   {
    "season": "2026",
@@ -1184,8 +1184,8 @@
    "proj": 15.26,
    "won": true,
    "paa": -1.12,
-   "vor": 1.24,
-   "war": 0.014655291163284631
+   "vor": -1.92,
+   "war": -0.022692063736698784
   },
   {
    "season": "2026",
@@ -1235,8 +1235,8 @@
    "proj": 11.9,
    "won": true,
    "paa": 8.1,
-   "vor": 9.24,
-   "war": 0.1092055567328629
+   "vor": 6.08,
+   "war": 0.07185820183287948
   },
   {
    "season": "2026",
@@ -1275,47 +1275,47 @@
   {
    "player": "4983",
    "name": "DJ Moore",
-   "score": 931,
+   "score": 930,
    "gs": 41,
    "pts": 562.68,
    "ppg": 13.72,
-   "war": 1.01
-  },
-  {
-   "player": "8112",
-   "name": "Drake London",
-   "score": 905,
-   "gs": 47,
-   "pts": 639.35,
-   "ppg": 13.6,
-   "war": 1.18
+   "war": 0.86
   },
   {
    "player": "8137",
    "name": "George Pickens",
-   "score": 890,
+   "score": 908,
    "gs": 41,
    "pts": 605.7,
    "ppg": 14.77,
-   "war": 1.64
+   "war": 1.34
+  },
+  {
+   "player": "8112",
+   "name": "Drake London",
+   "score": 899,
+   "gs": 47,
+   "pts": 639.35,
+   "ppg": 13.6,
+   "war": 0.88
   },
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 881,
+   "score": 889,
    "gs": 39,
    "pts": 576.0,
    "ppg": 14.77,
-   "war": 1.51
+   "war": 1.25
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 878,
+   "score": 871,
    "gs": 38,
    "pts": 539.5,
    "ppg": 14.2,
-   "war": 1.14
+   "war": 0.84
   }
  ],
  "status": {
@@ -1346,18 +1346,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.21,
+   "value": 1.06,
    "digits": 2,
-   "rank": 69,
+   "rank": 70,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 102.7,
+   "value": 90.0,
    "digits": 1,
-   "rank": 69,
+   "rank": 70,
    "of": 419
   },
   {
@@ -1418,7 +1418,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.21,
+   "value": 1.06,
    "digits": 2,
    "rank": 18,
    "of": 126
@@ -1489,7 +1489,7 @@
    "stat": "WAR",
    "value": 0.29,
    "digits": 2,
-   "rank": 17,
+   "rank": 16,
    "of": 67,
    "franchise": 8
   },
@@ -1527,9 +1527,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.3,
+   "value": 0.15,
    "digits": 2,
-   "rank": 18,
+   "rank": 26,
    "of": 75,
    "franchise": 2
   },
@@ -1569,7 +1569,7 @@
    "stat": "WAR",
    "value": 0.16,
    "digits": 2,
-   "rank": 27,
+   "rank": 26,
    "of": 77,
    "franchise": 1
   },
@@ -1705,10 +1705,10 @@
   }
  ],
  "hof": {
-  "score": 22.85,
+  "score": 21.35,
   "rank": 69,
   "of": 419,
-  "war": 12.1,
+  "war": 10.6,
   "starts": 10.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1971,42 +1971,42 @@
    [
     "2026",
     1,
-    18.8
+    18.4
    ],
    [
     "2026",
     2,
-    21.15
+    20.35
    ],
    [
     "2026",
     3,
-    21.5
+    20.4
    ],
    [
     "2026",
     4,
-    21.5
+    20.4
    ],
    [
     "2026",
     5,
-    21.5
+    20.4
    ],
    [
     "2026",
     6,
-    22.85
+    21.35
    ],
    [
     "2026",
     7,
-    22.85
+    21.35
    ],
    [
     "2026",
     8,
-    22.85
+    21.35
    ]
   ],
   "benchmark": 100
@@ -2061,8 +2061,8 @@
    {
     "season": "2026",
     "nfl": "PHI",
-    "missed": 4,
-    "lost": 25.48,
+    "missed": 5,
+    "lost": 12.84,
     "injuries": [
      "Hamstring"
     ],
@@ -2070,7 +2070,8 @@
      4,
      5,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "Out"
@@ -2104,6 +2105,13 @@
       "injury": "Hamstring",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2176,17 +2184,18 @@
      }
     ],
     "rostered": 2,
-    "lost": 12.74
+    "lost": 6.42
    },
    {
     "season": "2026",
     "from": 7,
-    "to": 8,
+    "to": 9,
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "PHI",
     "injury": "Hamstring",
     "kinds": [
@@ -2199,14 +2208,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 12.74
+    "lost": 6.42
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Hamstring",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

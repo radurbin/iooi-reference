@@ -96,8 +96,8 @@
    "best": 16.4,
    "wins": 0,
    "paa": -10.35,
-   "vor": 9.43,
-   "war": 0.11
+   "vor": 11.11,
+   "war": 0.13
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 27.9,
   "wins": 12,
   "paa": 12.48,
-  "vor": 135.81,
-  "war": 1.61
+  "vor": 137.49,
+  "war": 1.62
  },
  "nfl": [
   {
@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "WAS",
-   "g": 6,
-   "pts": 67.5,
-   "rank": 32
+   "g": 7,
+   "pts": 76.6,
+   "rank": 30
   }
  ],
  "history": [
@@ -1168,8 +1168,8 @@
    "proj": 7.7,
    "won": false,
    "paa": -11.75,
-   "vor": -4.89,
-   "war": -0.05779384982940471
+   "vor": -4.33,
+   "war": -0.05117533123953424
   },
   {
    "season": "2026",
@@ -1187,8 +1187,8 @@
    "proj": 12.06,
    "won": false,
    "paa": 3.0,
-   "vor": 7.81,
-   "war": 0.09230469676230078
+   "vor": 8.37,
+   "war": 0.09892321535217126
   },
   {
    "season": "2026",
@@ -1222,8 +1222,8 @@
    "proj": 12.06,
    "won": false,
    "paa": -1.6,
-   "vor": 6.51,
-   "war": 0.07694027860724431
+   "vor": 7.07,
+   "war": 0.0835587971971148
   }
  ],
  "similar": [
@@ -1239,25 +1239,25 @@
   {
    "player": "4199",
    "name": "Aaron Jones Sr.",
-   "score": 882,
+   "score": 883,
    "gs": 31,
    "pts": 392.95,
    "ppg": 12.68,
-   "war": 1.18
+   "war": 1.2
   },
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 872,
+   "score": 869,
    "gs": 33,
    "pts": 486.4,
    "ppg": 14.74,
-   "war": 2.22
+   "war": 2.27
   },
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 841,
+   "score": 842,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -1266,11 +1266,11 @@
   {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 832,
+   "score": 833,
    "gs": 26,
    "pts": 326.9,
    "ppg": 12.57,
-   "war": 0.88
+   "war": 0.9
   }
  ],
  "status": {
@@ -1301,18 +1301,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.61,
+   "value": 1.62,
    "digits": 2,
-   "rank": 57,
+   "rank": 55,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 135.8,
+   "value": 137.5,
    "digits": 1,
-   "rank": 57,
+   "rank": 55,
    "of": 419
   },
   {
@@ -1373,7 +1373,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 1.61,
+   "value": 1.62,
    "digits": 2,
    "rank": 24,
    "of": 99
@@ -1402,9 +1402,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.11,
+   "value": 0.13,
    "digits": 2,
-   "rank": 13,
+   "rank": 9,
    "of": 47,
    "franchise": 12
   },
@@ -1444,7 +1444,7 @@
    "stat": "WAR",
    "value": 1.49,
    "digits": 2,
-   "rank": 6,
+   "rank": 5,
    "of": 65,
    "franchise": 9
   },
@@ -1580,10 +1580,10 @@
   }
  ],
  "hof": {
-  "score": 23.35,
-  "rank": 68,
+  "score": 23.45,
+  "rank": 64,
   "of": 419,
-  "war": 16.1,
+  "war": 16.2,
   "starts": 7.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1871,17 +1871,17 @@
    [
     "2026",
     6,
-    22.3
+    22.4
    ],
    [
     "2026",
     7,
-    22.3
+    22.4
    ],
    [
     "2026",
     8,
-    23.35
+    23.45
    ]
   ],
   "benchmark": 100
@@ -1919,7 +1919,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 1,
-    "lost": 2.66,
+    "lost": 2.91,
     "injuries": [
      "Shoulder"
     ],
@@ -1984,7 +1984,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.66
+    "lost": 2.91
    }
   ],
   "now": null

@@ -123,9 +123,9 @@
   {
    "season": "2026",
    "team": "WAS",
-   "g": 4,
-   "pts": 17.3,
-   "rank": 81
+   "g": 5,
+   "pts": 23.5,
+   "rank": 76
   }
  ],
  "history": [
@@ -1069,20 +1069,20 @@
   {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 898,
+   "score": 896,
    "gs": 26,
    "pts": 326.9,
    "ppg": 12.57,
-   "war": 0.88
+   "war": 0.9
   },
   {
    "player": "12512",
    "name": "Quinshon Judkins",
-   "score": 850,
+   "score": 848,
    "gs": 17,
    "pts": 211.9,
    "ppg": 12.46,
-   "war": 0.78
+   "war": 0.82
   },
   {
    "player": "4098",
@@ -1123,7 +1123,7 @@
    "stat": "WAR",
    "value": 0.46,
    "digits": 2,
-   "rank": 119,
+   "rank": 113,
    "of": 419
   },
   {
@@ -1132,7 +1132,7 @@
    "stat": "VOR",
    "value": 39.0,
    "digits": 1,
-   "rank": 119,
+   "rank": 113,
    "of": 419
   },
   {
@@ -1224,7 +1224,7 @@
    "stat": "WAR",
    "value": 0.13,
    "digits": 2,
-   "rank": 12,
+   "rank": 9,
    "of": 47,
    "franchise": 12
   },
@@ -1264,7 +1264,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 24,
+   "rank": 22,
    "of": 51,
    "franchise": 7
   },
@@ -1304,7 +1304,7 @@
    "stat": "WAR",
    "value": 0.27,
    "digits": 2,
-   "rank": 18,
+   "rank": 16,
    "of": 57,
    "franchise": 5
   },
@@ -1411,7 +1411,7 @@
  ],
  "hof": {
   "score": 14.6,
-  "rank": 98,
+  "rank": 96,
   "of": 419,
   "war": 4.6,
   "starts": 6.0,

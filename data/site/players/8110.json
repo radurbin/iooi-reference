@@ -75,8 +75,8 @@
    "best": 20.3,
    "wins": 1,
    "paa": -4.42,
-   "vor": -1.76,
-   "war": -0.02
+   "vor": -3.2,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -88,8 +88,8 @@
   "best": 23.9,
   "wins": 15,
   "paa": -12.85,
-  "vor": 20.18,
-  "war": 0.24
+  "vor": 18.74,
+  "war": 0.22
  },
  "nfl": [
   {
@@ -116,9 +116,9 @@
   {
    "season": "2026",
    "team": "DAL",
-   "g": 8,
-   "pts": 46.0,
-   "rank": 29
+   "g": 9,
+   "pts": 56.1,
+   "rank": 28
   }
  ],
  "history": [
@@ -1055,8 +1055,8 @@
    "proj": 9.08,
    "won": false,
    "paa": -6.07,
-   "vor": -7.22,
-   "war": -0.08533161467654439
+   "vor": -7.7,
+   "war": -0.09100463061071909
   },
   {
    "season": "2026",
@@ -1074,8 +1074,8 @@
    "proj": 9.63,
    "won": false,
    "paa": 7.71,
-   "vor": 10.48,
-   "war": 0.12386084789614754
+   "vor": 10.0,
+   "war": 0.11818783196197283
   },
   {
    "season": "2026",
@@ -1141,8 +1141,8 @@
    "proj": 9.15,
    "won": true,
    "paa": -6.06,
-   "vor": -5.02,
-   "war": -0.05933029164491036
+   "vor": -5.5,
+   "war": -0.06500330757908505
   },
   {
    "season": "2026",
@@ -1181,11 +1181,11 @@
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 824,
+   "score": 822,
    "gs": 32,
    "pts": 291.5,
    "ppg": 9.11,
-   "war": -0.32
+   "war": -0.35
   },
   {
    "player": "4066",
@@ -1199,20 +1199,20 @@
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 719,
+   "score": 716,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.65
+   "war": -0.68
   },
   {
    "player": "10236",
    "name": "Dalton Kincaid",
-   "score": 681,
+   "score": 678,
    "gs": 38,
    "pts": 310.3,
    "ppg": 8.17,
-   "war": -0.82
+   "war": -0.85
   },
   {
    "player": "5012",
@@ -1221,7 +1221,7 @@
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.27
+   "war": -0.29
   }
  ],
  "status": {
@@ -1252,18 +1252,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.24,
+   "value": 0.22,
    "digits": 2,
-   "rank": 150,
+   "rank": 149,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 20.2,
+   "value": 18.7,
    "digits": 1,
-   "rank": 151,
+   "rank": 149,
    "of": 419
   },
   {
@@ -1324,9 +1324,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 0.24,
+   "value": 0.22,
    "digits": 2,
-   "rank": 15,
+   "rank": 16,
    "of": 52
   },
   {
@@ -1353,7 +1353,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.45,
    "digits": 2,
    "rank": 14,
    "of": 75,
@@ -1531,10 +1531,10 @@
   }
  ],
  "hof": {
-  "score": 12.65,
-  "rank": 109,
+  "score": 12.45,
+  "rank": 107,
   "of": 419,
-  "war": 2.4,
+  "war": 2.2,
   "starts": 8.25,
   "black_ink": 0.0,
   "awards": 2.0,
@@ -1797,37 +1797,37 @@
    [
     "2026",
     2,
-    13.0
+    12.9
    ],
    [
     "2026",
     3,
-    13.0
+    12.9
    ],
    [
     "2026",
     4,
-    13.0
+    12.9
    ],
    [
     "2026",
     5,
-    13.0
+    12.9
    ],
    [
     "2026",
     6,
-    12.65
+    12.45
    ],
    [
     "2026",
     7,
-    12.65
+    12.45
    ],
    [
     "2026",
     8,
-    12.65
+    12.45
    ]
   ],
   "benchmark": 100
@@ -1929,7 +1929,7 @@
   ],
   "now": {
    "status": "Questionable",
-   "injury": "Ankle",
+   "injury": "Knee",
    "since": null,
    "streak": 0
   }

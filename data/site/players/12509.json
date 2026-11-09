@@ -48,8 +48,8 @@
    "best": 3.6,
    "wins": 0,
    "paa": -11.19,
-   "vor": -7.66,
-   "war": -0.09
+   "vor": -10.82,
+   "war": -0.13
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 9.4,
   "wins": 2,
   "paa": -67.07,
-  "vor": -56.26,
-  "war": -0.66
+  "vor": -59.42,
+  "war": -0.7
  },
  "nfl": [
   {
@@ -75,9 +75,9 @@
   {
    "season": "2026",
    "team": "LAC",
-   "g": 6,
-   "pts": 43.6,
-   "rank": 75
+   "g": 7,
+   "pts": 47.2,
+   "rank": 77
   }
  ],
  "history": [
@@ -489,8 +489,8 @@
    "proj": 9.8,
    "won": false,
    "paa": -11.19,
-   "vor": -7.66,
-   "war": -0.0905318792828712
+   "vor": -10.82,
+   "war": -0.1278792341828546
   },
   {
    "season": "2026",
@@ -545,7 +545,7 @@
   {
    "player": "5038",
    "name": "Michael Gallup",
-   "score": 878,
+   "score": 880,
    "gs": 10,
    "pts": 51.2,
    "ppg": 5.12,
@@ -563,7 +563,7 @@
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 669,
+   "score": 668,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
@@ -576,16 +576,16 @@
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.29
+   "war": -0.33
   },
   {
    "player": "11646",
    "name": "Jalen Coker",
-   "score": 636,
+   "score": 640,
    "gs": 8,
    "pts": 68.1,
    "ppg": 8.51,
-   "war": -0.25
+   "war": -0.44
   }
  ],
  "status": {
@@ -616,18 +616,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.66,
+   "value": -0.7,
    "digits": 2,
-   "rank": 408,
+   "rank": 405,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -56.3,
+   "value": -59.4,
    "digits": 1,
-   "rank": 408,
+   "rank": 405,
    "of": 419
   },
   {
@@ -688,9 +688,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.66,
+   "value": -0.7,
    "digits": 2,
-   "rank": 124,
+   "rank": 122,
    "of": 126
   },
   {
@@ -757,9 +757,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.13,
    "digits": 2,
-   "rank": 54,
+   "rank": 58,
    "of": 73,
    "franchise": 10
   },
@@ -836,7 +836,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
+  "rank": 254,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

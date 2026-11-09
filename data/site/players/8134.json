@@ -89,8 +89,8 @@
    "best": 11.4,
    "wins": 0,
    "paa": -1.74,
-   "vor": 0.14,
-   "war": 0.0
+   "vor": -3.02,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -102,8 +102,8 @@
   "best": 21.6,
   "wins": 9,
   "paa": -63.64,
-  "vor": -10.86,
-  "war": -0.13
+  "vor": -14.02,
+  "war": -0.17
  },
  "nfl": [
   {
@@ -132,7 +132,7 @@
    "team": "BUF",
    "g": 7,
    "pts": 66.4,
-   "rank": 47
+   "rank": 51
   }
  ],
  "history": [
@@ -983,33 +983,33 @@
    "proj": 9.24,
    "won": false,
    "paa": -1.74,
-   "vor": 0.14,
-   "war": 0.0016546296474676198
+   "vor": -3.02,
+   "war": -0.035692725252515795
   }
  ],
  "similar": [
   {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 980,
+   "score": 977,
    "gs": 25,
    "pts": 260.8,
    "ppg": 10.43,
-   "war": -0.17
+   "war": -0.24
   },
   {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 975,
+   "score": 966,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": -0.1
+   "war": -0.29
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 955,
+   "score": 961,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -1018,16 +1018,16 @@
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 927,
+   "score": 912,
    "gs": 22,
    "pts": 244.6,
    "ppg": 11.12,
-   "war": -0.12
+   "war": -0.42
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 880,
+   "score": 882,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -1062,18 +1062,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.17,
    "digits": 2,
-   "rank": 316,
+   "rank": 330,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -10.9,
+   "value": -14.0,
    "digits": 1,
-   "rank": 320,
+   "rank": 330,
    "of": 419
   },
   {
@@ -1134,9 +1134,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.17,
    "digits": 2,
-   "rank": 88,
+   "rank": 92,
    "of": 126
   },
   {
@@ -1163,9 +1163,9 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": -0.04,
+   "value": -0.08,
    "digits": 2,
-   "rank": 22,
+   "rank": 28,
    "of": 44,
    "franchise": 11
   },
@@ -1245,7 +1245,7 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 43,
+   "rank": 42,
    "of": 65,
    "franchise": 9
   },
@@ -1352,7 +1352,7 @@
  ],
  "hof": {
   "score": 6.25,
-  "rank": 176,
+  "rank": 173,
   "of": 419,
   "war": 0.0,
   "starts": 6.25,

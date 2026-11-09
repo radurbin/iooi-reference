@@ -54,7 +54,7 @@
    "team": "CHI",
    "g": 4,
    "pts": 3.0,
-   "rank": 109
+   "rank": 110
   }
  ],
  "history": [
@@ -125,7 +125,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 285,
+   "rank": 274,
    "of": 419
   },
   {
@@ -134,7 +134,7 @@
    "stat": "VOR",
    "value": -8.8,
    "digits": 1,
-   "rank": 295,
+   "rank": 284,
    "of": 419
   },
   {
@@ -208,7 +208,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 57,
+   "rank": 54,
    "of": 82,
    "franchise": 4
   },
@@ -256,7 +256,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -399,6 +399,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "CHI",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Wrist"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Wrist",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -414,6 +439,23 @@
     "injury": "Ankle",
     "kinds": [
      "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "CHI",
+    "injury": "Wrist",
+    "kinds": [
+     "IR"
     ],
     "teams": [],
     "rostered": 0,

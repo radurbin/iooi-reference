@@ -80,8 +80,8 @@
    "best": 15.6,
    "wins": 0,
    "paa": 1.98,
-   "vor": 4.34,
-   "war": 0.05
+   "vor": 1.18,
+   "war": 0.01
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 35.8,
   "wins": 13,
   "paa": 25.52,
-  "vor": 87.24,
-  "war": 1.03
+  "vor": 84.08,
+  "war": 0.99
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "SF",
    "g": 5,
    "pts": 61.3,
-   "rank": 51
+   "rank": 58
   }
  ],
  "history": [
@@ -1107,8 +1107,8 @@
    "proj": 11.44,
    "won": false,
    "paa": 1.98,
-   "vor": 4.34,
-   "war": 0.05129351907149621
+   "vor": 1.18,
+   "war": 0.013946164171512794
   },
   {
    "season": "2026",
@@ -1195,47 +1195,47 @@
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 959,
+   "score": 937,
    "gs": 36,
    "pts": 486.6,
    "ppg": 13.52,
-   "war": 0.95
+   "war": 0.73
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 938,
+   "score": 935,
    "gs": 38,
    "pts": 539.5,
    "ppg": 14.2,
-   "war": 1.14
+   "war": 0.84
   },
   {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 890,
+   "score": 893,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
    "war": 0.72
   },
   {
-   "player": "4983",
-   "name": "DJ Moore",
-   "score": 879,
-   "gs": 41,
-   "pts": 562.68,
-   "ppg": 13.72,
-   "war": 1.01
-  },
-  {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 878,
+   "score": 881,
    "gs": 32,
    "pts": 482.42,
    "ppg": 15.08,
-   "war": 1.23
+   "war": 1.12
+  },
+  {
+   "player": "4983",
+   "name": "DJ Moore",
+   "score": 876,
+   "gs": 41,
+   "pts": 562.68,
+   "ppg": 13.72,
+   "war": 0.86
   }
  ],
  "status": {
@@ -1266,18 +1266,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.03,
+   "value": 0.99,
    "digits": 2,
-   "rank": 75,
+   "rank": 73,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 87.2,
+   "value": 84.1,
    "digits": 1,
-   "rank": 75,
+   "rank": 73,
    "of": 419
   },
   {
@@ -1338,9 +1338,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.03,
+   "value": 0.99,
    "digits": 2,
-   "rank": 21,
+   "rank": 19,
    "of": 126
   },
   {
@@ -1367,9 +1367,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 1.03,
+   "value": 0.99,
    "digits": 2,
-   "rank": 4,
+   "rank": 5,
    "of": 82,
    "franchise": 4
   },
@@ -1505,10 +1505,10 @@
   }
  ],
  "hof": {
-  "score": 19.3,
-  "rank": 80,
+  "score": 18.9,
+  "rank": 78,
   "of": 419,
-  "war": 10.3,
+  "war": 9.9,
   "starts": 9.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1781,32 +1781,32 @@
    [
     "2026",
     3,
-    19.3
+    18.9
    ],
    [
     "2026",
     4,
-    19.3
+    18.9
    ],
    [
     "2026",
     5,
-    19.3
+    18.9
    ],
    [
     "2026",
     6,
-    19.3
+    18.9
    ],
    [
     "2026",
     7,
-    19.3
+    18.9
    ],
    [
     "2026",
     8,
-    19.3
+    18.9
    ]
   ],
   "benchmark": 100
@@ -1901,14 +1901,15 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 2,
-    "lost": 2.0,
+    "missed": 3,
+    "lost": 0.0,
     "injuries": [
      "Hamstring"
     ],
     "weeks": [
      6,
-     7
+     7,
+     9
     ],
     "kinds": [
      "Out"
@@ -1928,6 +1929,13 @@
       "injury": "Hamstring",
       "franchise": 4,
       "team": "Im Stroud Of You"
+     },
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2003,12 +2011,13 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 7,
+    "to": 9,
     "weeks": [
      6,
-     7
+     7,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "SF",
     "injury": "Hamstring",
     "kinds": [
@@ -2021,14 +2030,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 2.0
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Hamstring",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

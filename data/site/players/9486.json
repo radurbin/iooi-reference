@@ -89,8 +89,8 @@
    "best": 5.2,
    "wins": 1,
    "paa": -16.42,
-   "vor": -12.92,
-   "war": -0.15
+   "vor": -19.24,
+   "war": -0.23
   }
  ],
  "totals": {
@@ -102,8 +102,8 @@
   "best": 5.2,
   "wins": 2,
   "paa": -38.06,
-  "vor": -30.42,
-  "war": -0.36
+  "vor": -36.74,
+  "war": -0.43
  },
  "nfl": [
   {
@@ -132,7 +132,7 @@
    "team": "PHI",
    "g": 6,
    "pts": 53.4,
-   "rank": 60
+   "rank": 67
   }
  ],
  "history": [
@@ -593,8 +593,8 @@
    "proj": 9.35,
    "won": true,
    "paa": -8.42,
-   "vor": -6.06,
-   "war": -0.07162182616895553
+   "vor": -9.22,
+   "war": -0.10896918106893896
   },
   {
    "season": "2026",
@@ -644,8 +644,8 @@
    "proj": 4.8,
    "won": false,
    "paa": -8.0,
-   "vor": -6.86,
-   "war": -0.08107685272591336
+   "vor": -10.02,
+   "war": -0.11842420762589678
   }
  ],
  "status": {
@@ -675,18 +675,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.36,
+   "value": -0.43,
    "digits": 2,
-   "rank": 386,
+   "rank": 390,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -30.4,
+   "value": -36.7,
    "digits": 1,
-   "rank": 386,
+   "rank": 390,
    "of": 419
   },
   {
@@ -738,7 +738,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.36,
+   "value": -0.43,
    "digits": 2,
    "rank": 115,
    "of": 126
@@ -767,9 +767,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.23,
    "digits": 2,
-   "rank": 63,
+   "rank": 66,
    "of": 67,
    "franchise": 8
   },
@@ -809,7 +809,7 @@
    "stat": "WAR",
    "value": -0.21,
    "digits": 2,
-   "rank": 75,
+   "rank": 74,
    "of": 77,
    "franchise": 1
   },
@@ -887,7 +887,7 @@
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 302,
+  "rank": 301,
   "of": 419,
   "war": 0.0,
   "starts": 1.0,
@@ -1181,14 +1181,15 @@
    {
     "season": "2026",
     "nfl": "PHI",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Ankle"
     ],
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "Out"
@@ -1204,6 +1205,13 @@
      },
      {
       "week": 8,
+      "kind": "Out",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "Out",
       "injury": "Ankle",
       "franchise": null,
@@ -1268,12 +1276,13 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 8,
+    "to": 9,
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "PHI",
     "injury": "Ankle",
     "kinds": [

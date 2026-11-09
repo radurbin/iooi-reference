@@ -1047,11 +1047,11 @@
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 931,
+   "score": 926,
    "gs": 20,
    "pts": 246.3,
    "ppg": 12.32,
-   "war": 0.65
+   "war": 0.6
   },
   {
    "player": "5844",
@@ -1065,11 +1065,11 @@
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 837,
+   "score": 834,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.48
+   "war": 0.45
   },
   {
    "player": "4066",
@@ -1083,11 +1083,11 @@
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 776,
+   "score": 771,
    "gs": 14,
    "pts": 163.65,
    "ppg": 11.69,
-   "war": 0.36
+   "war": 0.32
   }
  ],
  "status": {
@@ -1119,7 +1119,7 @@
    "stat": "WAR",
    "value": 0.76,
    "digits": 2,
-   "rank": 93,
+   "rank": 91,
    "of": 419
   },
   {
@@ -1128,7 +1128,7 @@
    "stat": "VOR",
    "value": 64.6,
    "digits": 1,
-   "rank": 93,
+   "rank": 91,
    "of": 419
   },
   {
@@ -1327,7 +1327,7 @@
  ],
  "hof": {
   "score": 16.6,
-  "rank": 87,
+  "rank": 85,
   "of": 419,
   "war": 7.6,
   "starts": 5.0,
@@ -1748,17 +1748,19 @@
    {
     "season": "2026",
     "nfl": "LAC",
-    "missed": 5,
+    "missed": 6,
     "lost": 0.0,
     "injuries": [
-     "Lower Leg"
+     "Lower Leg",
+     "Fibula"
     ],
     "weeks": [
      3,
      4,
      5,
      6,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1797,6 +1799,13 @@
       "week": 8,
       "kind": "IR",
       "injury": "Lower Leg",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Fibula",
       "franchise": null,
       "team": null
      }
@@ -1916,15 +1925,16 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 8,
+    "to": 9,
     "weeks": [
      3,
      4,
      5,
      6,
-     8
+     8,
+     9
     ],
-    "missed": 5,
+    "missed": 6,
     "nfl": "LAC",
     "injury": "Lower Leg",
     "kinds": [

@@ -48,8 +48,8 @@
    "best": 10.4,
    "wins": 1,
    "paa": -4.88,
-   "vor": -0.86,
-   "war": -0.01
+   "vor": -4.02,
+   "war": -0.05
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 23.5,
   "wins": 6,
   "paa": -18.65,
-  "vor": -7.56,
-  "war": -0.09
+  "vor": -10.72,
+  "war": -0.13
  },
  "nfl": [
   {
@@ -75,9 +75,9 @@
   {
    "season": "2026",
    "team": "TB",
-   "g": 6,
-   "pts": 71.3,
-   "rank": 40
+   "g": 7,
+   "pts": 78.3,
+   "rank": 37
   }
  ],
  "history": [
@@ -429,8 +429,8 @@
    "proj": 10.81,
    "won": true,
    "paa": -4.88,
-   "vor": -0.86,
-   "war": -0.010164153548729663
+   "vor": -4.02,
+   "war": -0.047511508448713075
   },
   {
    "season": "2026",
@@ -557,18 +557,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.13,
    "digits": 2,
-   "rank": 276,
+   "rank": 303,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -7.6,
+   "value": -10.7,
    "digits": 1,
-   "rank": 278,
+   "rank": 307,
    "of": 419
   },
   {
@@ -620,9 +620,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.13,
    "digits": 2,
-   "rank": 69,
+   "rank": 77,
    "of": 126
   },
   {
@@ -649,9 +649,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.13,
    "digits": 2,
-   "rank": 68,
+   "rank": 71,
    "of": 77,
    "franchise": 1
   },
@@ -872,7 +872,7 @@
     "season": "2026",
     "nfl": "TB",
     "missed": 2,
-    "lost": 1.24,
+    "lost": 0.0,
     "injuries": [
      "Concussion",
      "Foot"
@@ -925,14 +925,9 @@
      }
     ],
     "rostered": 2,
-    "lost": 1.24
+    "lost": 0.0
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Foot",
-   "since": null,
-   "streak": 2
-  }
+  "now": null
  }
 }

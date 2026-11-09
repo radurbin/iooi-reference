@@ -23,7 +23,7 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "nfl": null,
+   "nfl": "NO",
    "g": 8,
    "gs": 0,
    "pts": 0.0,
@@ -48,7 +48,15 @@
   "vor": 0.0,
   "war": 0.0
  },
- "nfl": [],
+ "nfl": [
+  {
+   "season": "2026",
+   "team": "NO",
+   "g": 1,
+   "pts": 5.0,
+   "rank": 165
+  }
+ ],
  "history": [
   {
    "date": "2026-08-16",
@@ -210,9 +218,7 @@
     "nfl": "NO",
     "missed": 7,
     "lost": 0.0,
-    "injuries": [
-     "Hamstring"
-    ],
+    "injuries": [],
     "weeks": [
      1,
      2,
@@ -230,49 +236,49 @@
      {
       "week": 1,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 2,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 3,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 4,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 5,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 6,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 7,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "",
       "franchise": 2,
       "team": "Storm FC"
      }
@@ -295,7 +301,7 @@
     ],
     "missed": 7,
     "nfl": "NO",
-    "injury": "Hamstring",
+    "injury": "",
     "kinds": [
      "IR"
     ],
@@ -309,11 +315,6 @@
     "lost": 0.0
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Hamstring",
-   "since": null,
-   "streak": 7
-  }
+  "now": null
  }
 }

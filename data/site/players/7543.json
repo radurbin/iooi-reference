@@ -100,8 +100,8 @@
    "best": 15.7,
    "wins": 3,
    "paa": -15.65,
-   "vor": 8.13,
-   "war": 0.1
+   "vor": 9.81,
+   "war": 0.12
   }
  ],
  "totals": {
@@ -113,8 +113,8 @@
   "best": 36.4,
   "wins": 19,
   "paa": 22.5,
-  "vor": 194.74,
-  "war": 2.3
+  "vor": 196.42,
+  "war": 2.32
  },
  "nfl": [
   {
@@ -143,7 +143,7 @@
    "team": "NO",
    "g": 3,
    "pts": 33.9,
-   "rank": 59
+   "rank": 62
   }
  ],
  "history": [
@@ -1095,8 +1095,8 @@
    "proj": 17.45,
    "won": true,
    "paa": -4.23,
-   "vor": 7.11,
-   "war": 0.0840315485249627
+   "vor": 7.67,
+   "war": 0.09065006711483316
   },
   {
    "season": "2026",
@@ -1114,8 +1114,8 @@
    "proj": 13.04,
    "won": true,
    "paa": -5.48,
-   "vor": -0.69,
-   "war": -0.008154960405376124
+   "vor": -0.13,
+   "war": -0.0015364418155056469
   },
   {
    "season": "2026",
@@ -1133,8 +1133,8 @@
    "proj": 12.55,
    "won": true,
    "paa": -5.94,
-   "vor": 1.71,
-   "war": 0.020210119265497355
+   "vor": 2.27,
+   "war": 0.026828637855367835
   },
   {
    "season": "2026",
@@ -1225,34 +1225,34 @@
    "gs": 33,
    "pts": 486.4,
    "ppg": 14.74,
-   "war": 2.22
+   "war": 2.27
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 861,
+   "score": 862,
    "gs": 42,
    "pts": 561.0,
    "ppg": 13.36,
-   "war": 1.95
+   "war": 2.01
   },
   {
    "player": "7594",
    "name": "Chuba Hubbard",
-   "score": 856,
+   "score": 855,
    "gs": 32,
    "pts": 526.3,
    "ppg": 16.45,
-   "war": 2.74
+   "war": 2.78
   },
   {
    "player": "5967",
    "name": "Tony Pollard",
-   "score": 829,
+   "score": 830,
    "gs": 42,
    "pts": 540.3,
    "ppg": 12.86,
-   "war": 1.66
+   "war": 1.7
   },
   {
    "player": "8136",
@@ -1261,7 +1261,7 @@
    "gs": 29,
    "pts": 413.0,
    "ppg": 14.24,
-   "war": 1.61
+   "war": 1.62
   }
  ],
  "status": {
@@ -1302,18 +1302,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.3,
+   "value": 2.32,
    "digits": 2,
-   "rank": 36,
+   "rank": 35,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 194.7,
+   "value": 196.4,
    "digits": 1,
-   "rank": 36,
+   "rank": 35,
    "of": 419
   },
   {
@@ -1374,7 +1374,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 2.3,
+   "value": 2.32,
    "digits": 2,
    "rank": 16,
    "of": 99
@@ -1403,7 +1403,7 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": 1.32,
+   "value": 1.34,
    "digits": 2,
    "rank": 8,
    "of": 44,
@@ -1581,10 +1581,10 @@
   }
  ],
  "hof": {
-  "score": 35.0,
-  "rank": 40,
+  "score": 35.2,
+  "rank": 38,
   "of": 419,
-  "war": 23.0,
+  "war": 23.2,
   "starts": 9.0,
   "black_ink": 0.0,
   "awards": 3.0,
@@ -1847,42 +1847,42 @@
    [
     "2026",
     1,
-    34.4
+    34.5
    ],
    [
     "2026",
     2,
-    34.55
+    34.65
    ],
    [
     "2026",
     3,
-    35.0
+    35.2
    ],
    [
     "2026",
     4,
-    35.0
+    35.2
    ],
    [
     "2026",
     5,
-    35.0
+    35.2
    ],
    [
     "2026",
     6,
-    35.0
+    35.2
    ],
    [
     "2026",
     7,
-    35.0
+    35.2
    ],
    [
     "2026",
     8,
-    35.0
+    35.2
    ]
   ],
   "benchmark": 100
@@ -1927,8 +1927,8 @@
    {
     "season": "2026",
     "nfl": "NO",
-    "missed": 4,
-    "lost": 25.52,
+    "missed": 5,
+    "lost": 27.76,
     "injuries": [
      "Hamstring"
     ],
@@ -1936,7 +1936,8 @@
      4,
      5,
      6,
-     7
+     7,
+     9
     ],
     "kinds": [
      "IR"
@@ -1970,6 +1971,13 @@
       "injury": "Hamstring",
       "franchise": 11,
       "team": "BubbaNASTIES"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2001,14 +2009,15 @@
    {
     "season": "2026",
     "from": 4,
-    "to": 7,
+    "to": 9,
     "weeks": [
      4,
      5,
      6,
-     7
+     7,
+     9
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "NO",
     "injury": "Hamstring",
     "kinds": [
@@ -2021,14 +2030,14 @@
      }
     ],
     "rostered": 4,
-    "lost": 25.52
+    "lost": 27.76
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Hamstring",
    "since": null,
-   "streak": 4
+   "streak": 5
   }
  }
 }

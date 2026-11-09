@@ -155,7 +155,7 @@
    "team": "PHI",
    "g": 4,
    "pts": 19.9,
-   "rank": 75
+   "rank": 80
   }
  ],
  "history": [
@@ -937,7 +937,7 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 268,
+   "rank": 261,
    "of": 419
   },
   {
@@ -946,7 +946,7 @@
    "stat": "VOR",
    "value": -6.8,
    "digits": 1,
-   "rank": 273,
+   "rank": 263,
    "of": 419
   },
   {
@@ -1000,7 +1000,7 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 75,
+   "rank": 76,
    "of": 99
   },
   {
@@ -1077,7 +1077,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -1414,7 +1414,7 @@
    {
     "season": "2026",
     "nfl": "PHI",
-    "missed": 4,
+    "missed": 5,
     "lost": 0.0,
     "injuries": [
      "Abdomen"
@@ -1423,7 +1423,8 @@
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1453,6 +1454,13 @@
      },
      {
       "week": 8,
+      "kind": "IR",
+      "injury": "Abdomen",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "IR",
       "injury": "Abdomen",
       "franchise": null,
@@ -1487,14 +1495,15 @@
    {
     "season": "2026",
     "from": 5,
-    "to": 8,
+    "to": 9,
     "weeks": [
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "PHI",
     "injury": "Abdomen",
     "kinds": [

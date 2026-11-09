@@ -77,7 +77,7 @@
    "team": "DEN",
    "g": 6,
    "pts": 69.8,
-   "rank": 30
+   "rank": 33
   }
  ],
  "history": [
@@ -521,15 +521,16 @@
    {
     "season": "2026",
     "nfl": "DEN",
-    "missed": 2,
-    "lost": 6.08,
+    "missed": 3,
+    "lost": 7.2,
     "injuries": [
-     "Hamstring",
-     "Knee"
+     "Knee",
+     "Hamstring"
     ],
     "weeks": [
      2,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR",
@@ -550,6 +551,13 @@
       "injury": "Knee",
       "franchise": 1,
       "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -575,16 +583,17 @@
      }
     ],
     "rostered": 1,
-    "lost": 3.04
+    "lost": 3.6
    },
    {
     "season": "2026",
     "from": 8,
-    "to": 8,
+    "to": 9,
     "weeks": [
-     8
+     8,
+     9
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "DEN",
     "injury": "Knee",
     "kinds": [
@@ -597,14 +606,14 @@
      }
     ],
     "rostered": 1,
-    "lost": 3.04
+    "lost": 3.6
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Knee",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

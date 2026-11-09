@@ -123,9 +123,9 @@
   {
    "season": "2026",
    "team": "NYG",
-   "g": 3,
-   "pts": 27.2,
-   "rank": 39
+   "g": 4,
+   "pts": 34.88,
+   "rank": 37
   }
  ],
  "history": [
@@ -867,7 +867,7 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 359,
+   "rank": 351,
    "of": 419
   },
   {
@@ -876,7 +876,7 @@
    "stat": "VOR",
    "value": -19.7,
    "digits": 1,
-   "rank": 360,
+   "rank": 354,
    "of": 419
   },
   {
@@ -1563,6 +1563,11 @@
     "lost": 1.56
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "",
+   "since": null,
+   "streak": 0
+  }
  }
 }

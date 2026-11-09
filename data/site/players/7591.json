@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "KC",
-   "g": 1,
-   "pts": 0.0,
-   "rank": 56
+   "g": 2,
+   "pts": -1.9,
+   "rank": 68
   }
  ],
  "history": [
@@ -1341,7 +1341,7 @@
    "stat": "WAR",
    "value": 1.04,
    "digits": 2,
-   "rank": 74,
+   "rank": 71,
    "of": 419
   },
   {
@@ -1350,7 +1350,7 @@
    "stat": "VOR",
    "value": 87.9,
    "digits": 1,
-   "rank": 74,
+   "rank": 71,
    "of": 419
   },
   {
@@ -1442,7 +1442,7 @@
    "stat": "WAR",
    "value": 0.63,
    "digits": 2,
-   "rank": 11,
+   "rank": 10,
    "of": 75,
    "franchise": 2
   },
@@ -1589,7 +1589,7 @@
  ],
  "hof": {
   "score": 16.4,
-  "rank": 90,
+  "rank": 88,
   "of": 419,
   "war": 10.4,
   "starts": 6.0,

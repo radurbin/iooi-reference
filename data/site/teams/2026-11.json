@@ -202,8 +202,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 34.83,
-   "vor": 96.28,
-   "war": 1.14
+   "vor": 100.76,
+   "war": 1.19
   },
   {
    "player": "3198",
@@ -217,8 +217,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 22.33,
-   "vor": 83.78,
-   "war": 0.99
+   "vor": 88.26,
+   "war": 1.04
   },
   {
    "player": "8183",
@@ -247,8 +247,8 @@
    "bench_pts": 19.9,
    "wins": 3,
    "paa": 0.46,
-   "vor": 19.18,
-   "war": 0.23
+   "vor": -2.94,
+   "war": -0.03
   },
   {
    "player": "8131",
@@ -262,8 +262,8 @@
    "bench_pts": 31.1,
    "wins": 2,
    "paa": 22.79,
-   "vor": 32.28,
-   "war": 0.38
+   "vor": 29.9,
+   "war": 0.35
   },
   {
    "player": "6794",
@@ -277,8 +277,8 @@
    "bench_pts": 8.4,
    "wins": 3,
    "paa": 7.58,
-   "vor": 21.8,
-   "war": 0.26
+   "vor": 6.0,
+   "war": 0.07
   },
   {
    "player": "421",
@@ -307,8 +307,8 @@
    "bench_pts": 25.1,
    "wins": 3,
    "paa": -10.47,
-   "vor": -2.02,
-   "war": -0.02
+   "vor": -4.9,
+   "war": -0.06
   },
   {
    "player": "4195",
@@ -322,8 +322,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": -28.49,
-   "vor": -29.3,
-   "war": -0.35
+   "vor": -51.14,
+   "war": -0.6
   },
   {
    "player": "9500",
@@ -337,8 +337,8 @@
    "bench_pts": 29.1,
    "wins": 2,
    "paa": -25.2,
-   "vor": -14.1,
-   "war": -0.17
+   "vor": -29.9,
+   "war": -0.35
   },
   {
    "player": "12545",
@@ -367,8 +367,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -15.65,
-   "vor": 8.13,
-   "war": 0.1
+   "vor": 9.81,
+   "war": 0.12
   },
   {
    "player": "DET",
@@ -382,8 +382,8 @@
    "bench_pts": 8.0,
    "wins": 3,
    "paa": -20.17,
-   "vor": -17.0,
-   "war": -0.2
+   "vor": -17.66,
+   "war": -0.21
   },
   {
    "player": "8134",
@@ -397,8 +397,8 @@
    "bench_pts": 55.0,
    "wins": 0,
    "paa": -1.74,
-   "vor": 0.14,
-   "war": 0.0
+   "vor": -3.02,
+   "war": -0.04
   },
   {
    "player": "SF",
@@ -412,7 +412,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 0.6,
-   "vor": -4.0,
+   "vor": -4.22,
    "war": -0.05
   },
   {
@@ -427,8 +427,8 @@
    "bench_pts": 59.0,
    "wins": 0,
    "paa": -7.09,
-   "vor": -3.56,
-   "war": -0.04
+   "vor": -6.72,
+   "war": -0.08
   },
   {
    "player": "12483",
@@ -1090,8 +1090,8 @@
    "opp_record": "5-3",
    "opp_seed": 5,
    "chance": 0.456,
-   "proj": 140.08,
-   "opp_proj": 147.17
+   "proj": 140.49,
+   "opp_proj": 147.37
   },
   {
    "week": 10,
@@ -1137,8 +1137,8 @@
  "injuries": {
   "games": 10,
   "players": 4,
-  "lost": 28.68,
-  "rank": 6,
+  "lost": 27.76,
+  "rank": 5,
   "games_rank": 11,
   "of": 12,
   "rows": [
@@ -1147,7 +1147,7 @@
     "name": "Travis Etienne Jr.",
     "pos": "RB",
     "missed": 4,
-    "lost": 25.52,
+    "lost": 27.76,
     "injuries": [
      "Hamstring"
     ],
@@ -1161,23 +1161,6 @@
      "IR"
     ],
     "gs": 3
-   },
-   {
-    "player": "6794",
-    "name": "Justin Jefferson",
-    "pos": "WR",
-    "missed": 1,
-    "lost": 3.16,
-    "injuries": [
-     "Ankle"
-    ],
-    "weeks": [
-     4
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 5
    },
    {
     "player": "12483",
@@ -1198,6 +1181,23 @@
      "IR"
     ],
     "gs": 0
+   },
+   {
+    "player": "6794",
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Ankle"
+    ],
+    "weeks": [
+     4
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 5
    },
    {
     "player": "8676",

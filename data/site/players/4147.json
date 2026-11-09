@@ -80,7 +80,7 @@
    "best": 3.3,
    "wins": 0,
    "paa": -13.4,
-   "vor": -5.29,
+   "vor": -4.73,
    "war": -0.06
   }
  ],
@@ -93,8 +93,8 @@
   "best": 5.4,
   "wins": 2,
   "paa": -34.43,
-  "vor": -22.44,
-  "war": -0.27
+  "vor": -21.88,
+  "war": -0.26
  },
  "nfl": [
   {
@@ -122,8 +122,8 @@
    "season": "2026",
    "team": "CIN",
    "g": 8,
-   "pts": 44.6,
-   "rank": 49
+   "pts": 49.5,
+   "rank": 48
   }
  ],
  "history": [
@@ -535,8 +535,8 @@
    "proj": 9.84,
    "won": false,
    "paa": -13.4,
-   "vor": -5.29,
-   "war": -0.06252136310788363
+   "vor": -4.73,
+   "war": -0.05590284451801315
   }
  ],
  "status": {
@@ -566,18 +566,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.26,
    "digits": 2,
-   "rank": 367,
+   "rank": 358,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -22.4,
+   "value": -21.9,
    "digits": 1,
-   "rank": 367,
+   "rank": 358,
    "of": 419
   },
   {
@@ -629,7 +629,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.26,
    "digits": 2,
    "rank": 91,
    "of": 99
@@ -808,7 +808,7 @@
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 302,
+  "rank": 301,
   "of": 419,
   "war": 0.0,
   "starts": 1.0,

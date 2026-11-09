@@ -68,7 +68,7 @@
    "team": "DAL",
    "g": 6,
    "pts": 13.1,
-   "rank": 126
+   "rank": 132
   }
  ],
  "history": [
@@ -139,7 +139,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 245,
+   "rank": 239,
    "of": 419
   },
   {
@@ -148,7 +148,7 @@
    "stat": "VOR",
    "value": -4.2,
    "digits": 1,
-   "rank": 250,
+   "rank": 243,
    "of": 419
   },
   {
@@ -193,7 +193,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 58,
+   "rank": 54,
    "of": 126
   },
   {
@@ -222,7 +222,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 49,
+   "rank": 46,
    "of": 68,
    "franchise": 3
   },
@@ -270,7 +270,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -455,14 +455,15 @@
    {
     "season": "2026",
     "nfl": "DAL",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Ribs"
     ],
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "Out"
@@ -478,6 +479,13 @@
      },
      {
       "week": 8,
+      "kind": "Out",
+      "injury": "Ribs",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "Out",
       "injury": "Ribs",
       "franchise": null,
@@ -525,12 +533,13 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 8,
+    "to": 9,
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "DAL",
     "injury": "Ribs",
     "kinds": [

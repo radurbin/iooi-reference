@@ -100,7 +100,7 @@
    "team": "CLE",
    "g": 8,
    "pts": 123.04,
-   "rank": 16
+   "rank": 17
   }
  ],
  "history": [
@@ -813,7 +813,7 @@
    "stat": "WAR",
    "value": -0.32,
    "digits": 2,
-   "rank": 381,
+   "rank": 376,
    "of": 419
   },
   {
@@ -822,7 +822,7 @@
    "stat": "VOR",
    "value": -27.2,
    "digits": 1,
-   "rank": 382,
+   "rank": 376,
    "of": 419
   },
   {
@@ -914,7 +914,7 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 22,
+   "rank": 21,
    "of": 47,
    "franchise": 12
   },
@@ -954,7 +954,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 59,
+   "rank": 58,
    "of": 65,
    "franchise": 9
   },
@@ -1061,7 +1061,7 @@
  ],
  "hof": {
   "score": 3.0,
-  "rank": 229,
+  "rank": 228,
   "of": 419,
   "war": 0.0,
   "starts": 3.0,
@@ -1702,6 +1702,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "CLE",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Concussion"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Questionable",
+      "injury": "Concussion",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1840,13 +1865,30 @@
     "teams": [],
     "rostered": 0,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "CLE",
+    "injury": "Concussion",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
-   "status": "Questionable",
+   "status": "Out",
    "injury": "Concussion",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

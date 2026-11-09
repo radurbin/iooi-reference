@@ -162,9 +162,9 @@
   {
    "season": "2026",
    "team": "HOU",
-   "g": 1,
-   "pts": 5.6,
-   "rank": 156
+   "g": 2,
+   "pts": 26.1,
+   "rank": 105
   }
  ],
  "history": [
@@ -1209,16 +1209,16 @@
   {
    "player": "10222",
    "name": "Jayden Reed",
-   "score": 970,
+   "score": 973,
    "gs": 18,
    "pts": 222.6,
    "ppg": 12.37,
-   "war": 0.15
+   "war": 0.11
   },
   {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 929,
+   "score": 928,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -1227,29 +1227,29 @@
   {
    "player": "8148",
    "name": "Jameson Williams",
-   "score": 915,
+   "score": 918,
    "gs": 17,
    "pts": 219.0,
    "ppg": 12.88,
-   "war": 0.36
-  },
-  {
-   "player": "8167",
-   "name": "Christian Watson",
-   "score": 892,
-   "gs": 22,
-   "pts": 244.6,
-   "ppg": 11.12,
-   "war": -0.12
+   "war": 0.32
   },
   {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 890,
+   "score": 898,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
-   "war": 0.35
+   "war": 0.24
+  },
+  {
+   "player": "12526",
+   "name": "Tetairoa McMillan",
+   "score": 894,
+   "gs": 21,
+   "pts": 276.8,
+   "ppg": 13.18,
+   "war": 0.32
   }
  ],
  "status": {
@@ -1282,7 +1282,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 192,
+   "rank": 187,
    "of": 419
   },
   {
@@ -1291,7 +1291,7 @@
    "stat": "VOR",
    "value": 4.8,
    "digits": 1,
-   "rank": 198,
+   "rank": 192,
    "of": 419
   },
   {
@@ -1354,7 +1354,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 48,
+   "rank": 46,
    "of": 126
   },
   {
@@ -1383,7 +1383,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 20,
+   "rank": 19,
    "of": 65,
    "franchise": 9
   },
@@ -1460,7 +1460,7 @@
  ],
  "hof": {
   "score": 5.35,
-  "rank": 188,
+  "rank": 186,
   "of": 419,
   "war": 0.6,
   "starts": 4.75,

@@ -116,7 +116,7 @@
    "team": "MIA",
    "g": 6,
    "pts": 6.3,
-   "rank": 98
+   "rank": 99
   }
  ],
  "history": [
@@ -651,7 +651,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 371,
+   "rank": 363,
    "of": 419
   },
   {
@@ -660,7 +660,7 @@
    "stat": "VOR",
    "value": -24.0,
    "digits": 1,
-   "rank": 373,
+   "rank": 365,
    "of": 419
   },
   {
@@ -743,7 +743,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 37,
+   "rank": 36,
    "of": 47,
    "franchise": 12
   },
@@ -1052,16 +1052,19 @@
    {
     "season": "2026",
     "nfl": "MIA",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
-     "Stinger"
+     "Stinger",
+     "Quadricep"
     ],
     "weeks": [
-     3
+     3,
+     9
     ],
     "kinds": [
-     "Doubtful"
+     "Doubtful",
+     "Questionable"
     ],
     "rostered": 1,
     "games": [
@@ -1071,6 +1074,13 @@
       "injury": "Stinger",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 9,
+      "kind": "Questionable",
+      "injury": "Quadricep",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1115,6 +1125,23 @@
      }
     ],
     "rostered": 1,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "MIA",
+    "injury": "Quadricep",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
     "lost": 0.0
    }
   ],

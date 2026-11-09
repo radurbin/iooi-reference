@@ -80,8 +80,8 @@
    "best": 15.0,
    "wins": 0,
    "paa": -14.75,
-   "vor": -0.98,
-   "war": -0.01
+   "vor": 0.14,
+   "war": 0.0
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 19.8,
   "wins": 4,
   "paa": -87.25,
-  "vor": -19.7,
-  "war": -0.23
+  "vor": -18.58,
+  "war": -0.22
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "NYG",
-   "g": 4,
-   "pts": 35.3,
-   "rank": 57
+   "g": 5,
+   "pts": 43.3,
+   "rank": 54
   }
  ],
  "history": [
@@ -813,8 +813,8 @@
    "proj": 4.82,
    "won": false,
    "paa": -12.18,
-   "vor": -7.39,
-   "war": -0.08734080781989792
+   "vor": -6.83,
+   "war": -0.08072228923002744
   },
   {
    "season": "2026",
@@ -896,8 +896,8 @@
    "proj": 4.77,
    "won": false,
    "paa": -2.57,
-   "vor": 6.41,
-   "war": 0.0757584002876246
+   "vor": 6.97,
+   "war": 0.08237691887749506
   },
   {
    "season": "2026",
@@ -924,12 +924,12 @@
    "gs": 16,
    "pts": 140.1,
    "ppg": 8.76,
-   "war": 0.03
+   "war": 0.04
   },
   {
    "player": "5248",
    "name": "Gus Edwards",
-   "score": 888,
+   "score": 889,
    "gs": 13,
    "pts": 129.2,
    "ppg": 9.94,
@@ -956,11 +956,11 @@
   {
    "player": "11435",
    "name": "Emanuel Wilson",
-   "score": 868,
+   "score": 867,
    "gs": 8,
    "pts": 67.7,
    "ppg": 8.46,
-   "war": -0.03
+   "war": -0.01
   }
  ],
  "status": {
@@ -991,18 +991,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.23,
+   "value": -0.22,
    "digits": 2,
-   "rank": 359,
+   "rank": 349,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -19.7,
+   "value": -18.6,
    "digits": 1,
-   "rank": 361,
+   "rank": 350,
    "of": 419
   },
   {
@@ -1063,7 +1063,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.23,
+   "value": -0.22,
    "digits": 2,
    "rank": 89,
    "of": 99
@@ -1092,9 +1092,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.01,
+   "value": 0.0,
    "digits": 2,
-   "rank": 21,
+   "rank": 19,
    "of": 47,
    "franchise": 12
   },
@@ -1241,7 +1241,7 @@
  ],
  "hof": {
   "score": 3.75,
-  "rank": 213,
+  "rank": 210,
   "of": 419,
   "war": 0.0,
   "starts": 3.75,

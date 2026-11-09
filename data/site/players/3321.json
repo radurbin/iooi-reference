@@ -1226,29 +1226,20 @@
   {
    "player": "6801",
    "name": "Tee Higgins",
-   "score": 894,
+   "score": 870,
    "gs": 33,
    "pts": 551.4,
    "ppg": 16.71,
-   "war": 2.05
+   "war": 1.79
   },
   {
    "player": "1479",
    "name": "Keenan Allen",
-   "score": 785,
+   "score": 783,
    "gs": 35,
    "pts": 547.16,
    "ppg": 15.63,
    "war": 1.67
-  },
-  {
-   "player": "11632",
-   "name": "Malik Nabers",
-   "score": 763,
-   "gs": 24,
-   "pts": 414.1,
-   "ppg": 17.25,
-   "war": 1.66
   },
   {
    "player": "5859",
@@ -1257,16 +1248,25 @@
    "gs": 40,
    "pts": 653.7,
    "ppg": 16.34,
-   "war": 2.23
+   "war": 2.16
   },
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 749,
+   "score": 741,
    "gs": 40,
    "pts": 640.7,
    "ppg": 16.02,
-   "war": 2.02
+   "war": 1.84
+  },
+  {
+   "player": "11632",
+   "name": "Malik Nabers",
+   "score": 735,
+   "gs": 24,
+   "pts": 414.1,
+   "ppg": 17.25,
+   "war": 1.4
   }
  ],
  "status": {
@@ -1299,7 +1299,7 @@
    "stat": "WAR",
    "value": 2.2,
    "digits": 2,
-   "rank": 40,
+   "rank": 38,
    "of": 419
   },
   {
@@ -1308,7 +1308,7 @@
    "stat": "VOR",
    "value": 186.6,
    "digits": 1,
-   "rank": 40,
+   "rank": 38,
    "of": 419
   },
   {
@@ -1371,7 +1371,7 @@
    "stat": "WAR",
    "value": 2.2,
    "digits": 2,
-   "rank": 9,
+   "rank": 7,
    "of": 126
   },
   {
@@ -1440,7 +1440,7 @@
    "stat": "WAR",
    "value": 0.26,
    "digits": 2,
-   "rank": 18,
+   "rank": 17,
    "of": 77,
    "franchise": 1
   },
@@ -1547,7 +1547,7 @@
  ],
  "hof": {
   "score": 36.75,
-  "rank": 35,
+  "rank": 34,
   "of": 419,
   "war": 22.0,
   "starts": 7.75,

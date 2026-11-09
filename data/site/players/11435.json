@@ -73,8 +73,8 @@
    "best": 20.9,
    "wins": 2,
    "paa": -3.72,
-   "vor": 16.93,
-   "war": 0.2
+   "vor": 18.61,
+   "war": 0.22
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 20.9,
   "wins": 3,
   "paa": -45.56,
-  "vor": -2.22,
-  "war": -0.03
+  "vor": -0.54,
+  "war": -0.01
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "SEA",
    "g": 8,
    "pts": 87.4,
-   "rank": 24
+   "rank": 25
   }
  ],
  "history": [
@@ -562,8 +562,8 @@
    "proj": 14.18,
    "won": true,
    "paa": -0.25,
-   "vor": 6.61,
-   "war": 0.07812215692686404
+   "vor": 7.17,
+   "war": 0.08474067551673452
   },
   {
    "season": "2026",
@@ -581,8 +581,8 @@
    "proj": 14.48,
    "won": false,
    "paa": -6.8,
-   "vor": -1.99,
-   "war": -0.023519378560432593
+   "vor": -1.43,
+   "war": -0.016900859970562114
   },
   {
    "season": "2026",
@@ -600,8 +600,8 @@
    "proj": 11.4,
    "won": true,
    "paa": 3.33,
-   "vor": 12.31,
-   "war": 0.14548922114518856
+   "vor": 12.87,
+   "war": 0.15210773973505903
   },
   {
    "season": "2026",
@@ -628,7 +628,7 @@
    "gs": 8,
    "pts": 58.5,
    "ppg": 7.31,
-   "war": -0.19
+   "war": -0.18
   },
   {
    "player": "3164",
@@ -642,11 +642,11 @@
   {
    "player": "6130",
    "name": "Devin Singletary",
-   "score": 868,
+   "score": 867,
    "gs": 15,
    "pts": 123.9,
    "ppg": 8.26,
-   "war": -0.23
+   "war": -0.22
   },
   {
    "player": "5248",
@@ -664,7 +664,7 @@
    "gs": 10,
    "pts": 107.45,
    "ppg": 10.75,
-   "war": 0.19
+   "war": 0.21
   }
  ],
  "status": {
@@ -694,18 +694,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.03,
+   "value": -0.01,
    "digits": 2,
-   "rank": 232,
+   "rank": 216,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -2.2,
+   "value": -0.5,
    "digits": 1,
-   "rank": 232,
+   "rank": 217,
    "of": 419
   },
   {
@@ -766,9 +766,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.03,
+   "value": -0.01,
    "digits": 2,
-   "rank": 66,
+   "rank": 61,
    "of": 99
   },
   {
@@ -837,7 +837,7 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 65,
+   "rank": 63,
    "of": 77,
    "franchise": 1
   },
@@ -875,9 +875,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.21,
    "digits": 2,
-   "rank": 22,
+   "rank": 19,
    "of": 57,
    "franchise": 5
   },
@@ -984,7 +984,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
+  "rank": 254,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

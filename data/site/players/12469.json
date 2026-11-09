@@ -75,9 +75,9 @@
   {
    "season": "2026",
    "team": "CLE",
-   "g": 3,
-   "pts": 24.3,
-   "rank": 69
+   "g": 4,
+   "pts": 32.9,
+   "rank": 65
   }
  ],
  "history": [
@@ -540,7 +540,7 @@
    "gs": 8,
    "pts": 58.5,
    "ppg": 7.31,
-   "war": -0.19
+   "war": -0.18
   },
   {
    "player": "8154",
@@ -554,11 +554,11 @@
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 876,
+   "score": 877,
    "gs": 13,
    "pts": 57.4,
    "ppg": 4.42,
-   "war": -0.64
+   "war": -0.63
   },
   {
    "player": "5284",
@@ -609,7 +609,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 371,
+   "rank": 363,
    "of": 419
   },
   {
@@ -618,7 +618,7 @@
    "stat": "VOR",
    "value": -23.6,
    "digits": 1,
-   "rank": 372,
+   "rank": 364,
    "of": 419
   },
   {
@@ -710,7 +710,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 37,
+   "rank": 36,
    "of": 47,
    "franchise": 12
   },
@@ -757,7 +757,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
+  "rank": 254,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,
@@ -934,7 +934,7 @@
     "season": "2026",
     "nfl": "CLE",
     "missed": 5,
-    "lost": 0.0,
+    "lost": 1.0,
     "injuries": [
      "Knee"
     ],
@@ -1036,7 +1036,7 @@
      }
     ],
     "rostered": 5,
-    "lost": 0.0
+    "lost": 1.0
    }
   ],
   "now": null

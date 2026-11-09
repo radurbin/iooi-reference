@@ -96,8 +96,8 @@
    "best": 8.9,
    "wins": 0,
    "paa": -8.67,
-   "vor": 0.31,
-   "war": 0.0
+   "vor": 0.87,
+   "war": 0.01
   }
  ],
  "totals": {
@@ -109,7 +109,7 @@
   "best": 24.5,
   "wins": 8,
   "paa": -53.47,
-  "vor": 71.64,
+  "vor": 72.2,
   "war": 0.85
  },
  "nfl": [
@@ -137,8 +137,8 @@
   {
    "season": "2026",
    "team": "DEN",
-   "g": 8,
-   "pts": 68.7,
+   "g": 9,
+   "pts": 72.3,
    "rank": 31
   }
  ],
@@ -1178,8 +1178,8 @@
    "proj": 11.16,
    "won": false,
    "paa": -8.67,
-   "vor": 0.31,
-   "war": 0.003663822790821158
+   "vor": 0.87,
+   "war": 0.010282341380691637
   },
   {
    "season": "2026",
@@ -1215,7 +1215,7 @@
    "gs": 26,
    "pts": 326.9,
    "ppg": 12.57,
-   "war": 0.88
+   "war": 0.9
   },
   {
    "player": "12512",
@@ -1224,7 +1224,7 @@
    "gs": 17,
    "pts": 211.9,
    "ppg": 12.46,
-   "war": 0.78
+   "war": 0.82
   },
   {
    "player": "4098",
@@ -1285,16 +1285,16 @@
    "stat": "WAR",
    "value": 0.85,
    "digits": 2,
-   "rank": 88,
+   "rank": 84,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 71.6,
+   "value": 72.2,
    "digits": 1,
-   "rank": 89,
+   "rank": 84,
    "of": 419
   },
   {
@@ -1386,7 +1386,7 @@
    "stat": "WAR",
    "value": 0.27,
    "digits": 2,
-   "rank": 16,
+   "rank": 15,
    "of": 82,
    "franchise": 4
   },
@@ -1426,7 +1426,7 @@
    "stat": "WAR",
    "value": 0.5,
    "digits": 2,
-   "rank": 14,
+   "rank": 13,
    "of": 68,
    "franchise": 3
   },
@@ -1464,9 +1464,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.09,
    "digits": 2,
-   "rank": 19,
+   "rank": 17,
    "of": 65,
    "franchise": 9
   },

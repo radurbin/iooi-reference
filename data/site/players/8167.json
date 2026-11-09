@@ -96,8 +96,8 @@
    "best": 32.7,
    "wins": 5,
    "paa": 37.14,
-   "vor": 58.22,
-   "war": 0.69
+   "vor": 32.94,
+   "war": 0.39
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 32.7,
   "wins": 10,
   "paa": -47.06,
-  "vor": -9.88,
-  "war": -0.12
+  "vor": -35.16,
+  "war": -0.42
  },
  "nfl": [
   {
@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "GB",
-   "g": 8,
-   "pts": 148.3,
-   "rank": 4
+   "g": 9,
+   "pts": 178.4,
+   "rank": 3
   }
  ],
  "history": [
@@ -1043,8 +1043,8 @@
    "proj": 12.57,
    "won": false,
    "paa": 19.01,
-   "vor": 21.44,
-   "war": 0.25339471172646977
+   "vor": 18.28,
+   "war": 0.21604735682648635
   },
   {
    "season": "2026",
@@ -1062,8 +1062,8 @@
    "proj": 14.87,
    "won": false,
    "paa": -1.18,
-   "vor": 2.84,
-   "war": 0.03356534427720028
+   "vor": -0.32,
+   "war": -0.0037820106227831308
   },
   {
    "season": "2026",
@@ -1081,8 +1081,8 @@
    "proj": 15.64,
    "won": true,
    "paa": 8.98,
-   "vor": 11.34,
-   "war": 0.1340250014448772
+   "vor": 8.18,
+   "war": 0.09667764654489377
   },
   {
    "season": "2026",
@@ -1100,8 +1100,8 @@
    "proj": 15.18,
    "won": false,
    "paa": -6.95,
-   "vor": -3.56,
-   "war": -0.04207486817846233
+   "vor": -6.72,
+   "war": -0.07942222307844574
   },
   {
    "season": "2026",
@@ -1119,8 +1119,8 @@
    "proj": 15.58,
    "won": true,
    "paa": 17.51,
-   "vor": 21.04,
-   "war": 0.24866719844799084
+   "vor": 17.88,
+   "war": 0.21131984354800742
   },
   {
    "season": "2026",
@@ -1138,8 +1138,8 @@
    "proj": 18.46,
    "won": true,
    "paa": -3.0,
-   "vor": -1.86,
-   "war": -0.021982936744926948
+   "vor": -5.02,
+   "war": -0.05933029164491036
   },
   {
    "season": "2026",
@@ -1157,8 +1157,8 @@
    "proj": 18.0,
    "won": true,
    "paa": -1.39,
-   "vor": 0.94,
-   "war": 0.011109656204425446
+   "vor": -2.22,
+   "war": -0.026237698695557973
   },
   {
    "season": "2026",
@@ -1176,55 +1176,55 @@
    "proj": 16.0,
    "won": true,
    "paa": 4.16,
-   "vor": 6.04,
-   "war": 0.07138545050503159
+   "vor": 2.88,
+   "war": 0.034038095605048176
   }
  ],
  "similar": [
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 934,
+   "score": 939,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
    "war": -0.3
   },
   {
+   "player": "1426",
+   "name": "DeAndre Hopkins",
+   "score": 927,
+   "gs": 25,
+   "pts": 267.1,
+   "ppg": 10.68,
+   "war": -0.37
+  },
+  {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 930,
+   "score": 926,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": -0.1
-  },
-  {
-   "player": "2309",
-   "name": "Amari Cooper",
-   "score": 929,
-   "gs": 19,
-   "pts": 217.2,
-   "ppg": 11.43,
-   "war": -0.14
+   "war": -0.29
   },
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 927,
+   "score": 912,
    "gs": 25,
    "pts": 266.9,
    "ppg": 10.68,
-   "war": -0.13
+   "war": -0.17
   },
   {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 919,
+   "score": 912,
    "gs": 25,
    "pts": 260.8,
    "ppg": 10.43,
-   "war": -0.17
+   "war": -0.24
   }
  ],
  "status": {
@@ -1255,18 +1255,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.42,
    "digits": 2,
-   "rank": 307,
+   "rank": 386,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -9.9,
+   "value": -35.2,
    "digits": 1,
-   "rank": 308,
+   "rank": 387,
    "of": 419
   },
   {
@@ -1327,9 +1327,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.42,
    "digits": 2,
-   "rank": 85,
+   "rank": 114,
    "of": 126
   },
   {
@@ -1356,9 +1356,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.41,
    "digits": 2,
-   "rank": 63,
+   "rank": 75,
    "of": 75,
    "franchise": 2
   },
@@ -1495,7 +1495,7 @@
  ],
  "hof": {
   "score": 5.5,
-  "rank": 185,
+  "rank": 184,
   "of": 419,
   "war": 0.0,
   "starts": 5.5,

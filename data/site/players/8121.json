@@ -80,8 +80,8 @@
    "best": 23.8,
    "wins": 1,
    "paa": -12.64,
-   "vor": 1.8,
-   "war": 0.02
+   "vor": -14.0,
+   "war": -0.17
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 29.8,
   "wins": 10,
   "paa": -60.63,
-  "vor": -8.85,
-  "war": -0.1
+  "vor": -24.65,
+  "war": -0.29
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "NE",
    "g": 6,
    "pts": 58.1,
-   "rank": 52
+   "rank": 62
   }
  ],
  "history": [
@@ -1055,8 +1055,8 @@
    "proj": 9.04,
    "won": true,
    "paa": -2.68,
-   "vor": 1.34,
-   "war": 0.01583716948290436
+   "vor": -1.82,
+   "war": -0.021510185417079056
   },
   {
    "season": "2026",
@@ -1074,8 +1074,8 @@
    "proj": 9.38,
    "won": false,
    "paa": -5.72,
-   "vor": -3.36,
-   "war": -0.03971111153922287
+   "vor": -6.52,
+   "war": -0.07705846643920629
   },
   {
    "season": "2026",
@@ -1093,8 +1093,8 @@
    "proj": 9.0,
    "won": false,
    "paa": 9.15,
-   "vor": 12.54,
-   "war": 0.14820754128031394
+   "vor": 9.38,
+   "war": 0.11086018638033053
   },
   {
    "season": "2026",
@@ -1112,8 +1112,8 @@
    "proj": 12.91,
    "won": false,
    "paa": -12.19,
-   "vor": -8.66,
-   "war": -0.10235066247906847
+   "vor": -11.82,
+   "war": -0.13969801737905188
   },
   {
    "season": "2026",
@@ -1131,8 +1131,8 @@
    "proj": 9.41,
    "won": false,
    "paa": -1.2,
-   "vor": -0.06,
-   "war": -0.000709126991771837
+   "vor": -3.22,
+   "war": -0.038056481891755256
   },
   {
    "season": "2026",
@@ -1169,45 +1169,45 @@
  ],
  "similar": [
   {
-   "player": "8134",
-   "name": "Khalil Shakir",
-   "score": 975,
-   "gs": 25,
-   "pts": 266.9,
-   "ppg": 10.68,
-   "war": -0.13
-  },
-  {
-   "player": "11631",
-   "name": "Brian Thomas Jr.",
-   "score": 955,
-   "gs": 25,
-   "pts": 260.8,
-   "ppg": 10.43,
-   "war": -0.17
-  },
-  {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 944,
+   "score": 972,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
    "war": -0.37
   },
   {
+   "player": "8134",
+   "name": "Khalil Shakir",
+   "score": 966,
+   "gs": 25,
+   "pts": 266.9,
+   "ppg": 10.68,
+   "war": -0.17
+  },
+  {
+   "player": "11631",
+   "name": "Brian Thomas Jr.",
+   "score": 956,
+   "gs": 25,
+   "pts": 260.8,
+   "ppg": 10.43,
+   "war": -0.24
+  },
+  {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 930,
+   "score": 926,
    "gs": 22,
    "pts": 244.6,
    "ppg": 11.12,
-   "war": -0.12
+   "war": -0.42
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 874,
+   "score": 880,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -1252,18 +1252,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.29,
    "digits": 2,
-   "rank": 285,
+   "rank": 366,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -8.8,
+   "value": -24.6,
    "digits": 1,
-   "rank": 297,
+   "rank": 368,
    "of": 419
   },
   {
@@ -1324,9 +1324,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.29,
    "digits": 2,
-   "rank": 73,
+   "rank": 106,
    "of": 126
   },
   {
@@ -1353,9 +1353,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.3,
    "digits": 2,
-   "rank": 58,
+   "rank": 70,
    "of": 73,
    "franchise": 10
   },
@@ -1492,7 +1492,7 @@
  ],
  "hof": {
   "score": 6.25,
-  "rank": 176,
+  "rank": 173,
   "of": 419,
   "war": 0.0,
   "starts": 6.25,
@@ -1837,14 +1837,15 @@
    {
     "season": "2026",
     "nfl": "NE",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Shoulder"
     ],
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1864,6 +1865,13 @@
       "injury": "Shoulder",
       "franchise": 10,
       "team": "Maddison Beer’s Boys"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Shoulder",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1895,12 +1903,13 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 8,
+    "to": 9,
     "weeks": [
      7,
-     8
+     8,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "NE",
     "injury": "Shoulder",
     "kinds": [
@@ -1920,7 +1929,7 @@
    "status": "IR",
    "injury": "Shoulder",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

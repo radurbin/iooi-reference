@@ -98,8 +98,8 @@
    "best": 7.6,
    "wins": 0,
    "paa": -5.99,
-   "vor": -3.66,
-   "war": -0.04
+   "vor": -6.82,
+   "war": -0.08
   }
  ],
  "totals": {
@@ -111,8 +111,8 @@
   "best": 37.4,
   "wins": 17,
   "paa": -12.03,
-  "vor": 42.69,
-  "war": 0.5
+  "vor": 39.53,
+  "war": 0.47
  },
  "nfl": [
   {
@@ -141,7 +141,7 @@
    "team": "PIT",
    "g": 8,
    "pts": 79.5,
-   "rank": 29
+   "rank": 35
   }
  ],
  "history": [
@@ -1204,8 +1204,8 @@
    "proj": 12.16,
    "won": false,
    "paa": -5.99,
-   "vor": -3.66,
-   "war": -0.04325674649808206
+   "vor": -6.82,
+   "war": -0.08060410139806548
   },
   {
    "season": "2026",
@@ -1226,27 +1226,36 @@
  ],
  "similar": [
   {
-   "player": "11635",
-   "name": "Ladd McConkey",
-   "score": 928,
-   "gs": 31,
-   "pts": 380.4,
-   "ppg": 12.27,
-   "war": 0.43
-  },
-  {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 926,
+   "score": 922,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
    "war": 0.72
   },
   {
+   "player": "11635",
+   "name": "Ladd McConkey",
+   "score": 916,
+   "gs": 31,
+   "pts": 380.4,
+   "ppg": 12.27,
+   "war": 0.24
+  },
+  {
+   "player": "9997",
+   "name": "Zay Flowers",
+   "score": 857,
+   "gs": 36,
+   "pts": 486.6,
+   "ppg": 13.52,
+   "war": 0.73
+  },
+  {
    "player": "5045",
    "name": "Courtland Sutton",
-   "score": 860,
+   "score": 855,
    "gs": 27,
    "pts": 383.4,
    "ppg": 14.2,
@@ -1255,20 +1264,11 @@
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 853,
+   "score": 852,
    "gs": 25,
    "pts": 330.0,
    "ppg": 13.2,
-   "war": 0.47
-  },
-  {
-   "player": "5927",
-   "name": "Terry McLaurin",
-   "score": 851,
-   "gs": 32,
-   "pts": 375.2,
-   "ppg": 11.72,
-   "war": -0.02
+   "war": 0.4
   }
  ],
  "status": {
@@ -1299,18 +1299,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.5,
+   "value": 0.47,
    "digits": 2,
-   "rank": 108,
+   "rank": 111,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 42.7,
+   "value": 39.5,
    "digits": 1,
-   "rank": 108,
+   "rank": 111,
    "of": 419
   },
   {
@@ -1371,7 +1371,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.5,
+   "value": 0.47,
    "digits": 2,
    "rank": 29,
    "of": 126
@@ -1440,9 +1440,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": -0.04,
+   "value": -0.08,
    "digits": 2,
-   "rank": 51,
+   "rank": 63,
    "of": 77,
    "franchise": 1
   },
@@ -1578,10 +1578,10 @@
   }
  ],
  "hof": {
-  "score": 12.75,
-  "rank": 108,
+  "score": 12.45,
+  "rank": 107,
   "of": 419,
-  "war": 5.0,
+  "war": 4.7,
   "starts": 7.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1874,12 +1874,12 @@
    [
     "2026",
     7,
-    12.75
+    12.45
    ],
    [
     "2026",
     8,
-    12.75
+    12.45
    ]
   ],
   "benchmark": 100

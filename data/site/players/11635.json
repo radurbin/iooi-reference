@@ -68,8 +68,8 @@
    "best": 19.2,
    "wins": 1,
    "paa": -30.64,
-   "vor": -17.3,
-   "war": -0.2
+   "vor": -33.1,
+   "war": -0.39
   }
  ],
  "totals": {
@@ -81,8 +81,8 @@
   "best": 29.4,
   "wins": 13,
   "paa": -32.48,
-  "vor": 36.4,
-  "war": 0.43
+  "vor": 20.6,
+  "war": 0.24
  },
  "nfl": [
   {
@@ -104,7 +104,7 @@
    "team": "LAC",
    "g": 6,
    "pts": 51.6,
-   "rank": 64
+   "rank": 69
   }
  ],
  "history": [
@@ -754,8 +754,8 @@
    "proj": 13.22,
    "won": false,
    "paa": 5.51,
-   "vor": 7.94,
-   "war": 0.09384113857780643
+   "vor": 4.78,
+   "war": 0.05649378367782302
   },
   {
    "season": "2026",
@@ -773,8 +773,8 @@
    "proj": 13.09,
    "won": false,
    "paa": -8.78,
-   "vor": -4.76,
-   "war": -0.056257408013899064
+   "vor": -7.92,
+   "war": -0.09360476291388248
   },
   {
    "season": "2026",
@@ -792,8 +792,8 @@
    "proj": 14.15,
    "won": false,
    "paa": -3.02,
-   "vor": -0.66,
-   "war": -0.007800396909490207
+   "vor": -3.82,
+   "war": -0.04514775180947362
   },
   {
    "season": "2026",
@@ -811,8 +811,8 @@
    "proj": null,
    "won": true,
    "paa": -14.65,
-   "vor": -11.26,
-   "war": -0.1330794987891814
+   "vor": -14.42,
+   "war": -0.17042685368916483
   },
   {
    "season": "2026",
@@ -846,8 +846,8 @@
    "proj": 11.26,
    "won": false,
    "paa": -9.7,
-   "vor": -8.56,
-   "war": -0.10116878415944876
+   "vor": -11.72,
+   "war": -0.13851613905943216
   },
   {
    "season": "2026",
@@ -884,27 +884,27 @@
  ],
  "similar": [
   {
-   "player": "5846",
-   "name": "DK Metcalf",
-   "score": 928,
-   "gs": 31,
-   "pts": 408.1,
-   "ppg": 13.16,
-   "war": 0.5
-  },
-  {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 904,
+   "score": 926,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
-   "war": -0.02
+   "war": -0.06
+  },
+  {
+   "player": "5846",
+   "name": "DK Metcalf",
+   "score": 916,
+   "gs": 31,
+   "pts": 408.1,
+   "ppg": 13.16,
+   "war": 0.47
   },
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 881,
+   "score": 907,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -913,7 +913,7 @@
   {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 869,
+   "score": 849,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
@@ -922,11 +922,11 @@
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 850,
+   "score": 847,
    "gs": 25,
    "pts": 330.0,
    "ppg": 13.2,
-   "war": 0.47
+   "war": 0.4
   }
  ],
  "status": {
@@ -957,18 +957,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.43,
+   "value": 0.24,
    "digits": 2,
-   "rank": 122,
+   "rank": 144,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 36.4,
+   "value": 20.6,
    "digits": 1,
-   "rank": 123,
+   "rank": 144,
    "of": 419
   },
   {
@@ -1029,9 +1029,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.43,
+   "value": 0.24,
    "digits": 2,
-   "rank": 34,
+   "rank": 37,
    "of": 126
   },
   {
@@ -1058,9 +1058,9 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.44,
+   "value": 0.25,
    "digits": 2,
-   "rank": 14,
+   "rank": 16,
    "of": 51,
    "franchise": 7
   },
@@ -1166,10 +1166,10 @@
   }
  ],
  "hof": {
-  "score": 16.05,
-  "rank": 92,
+  "score": 14.15,
+  "rank": 100,
   "of": 419,
-  "war": 4.3,
+  "war": 2.4,
   "starts": 7.75,
   "black_ink": 0.0,
   "awards": 4.0,
@@ -1347,42 +1347,42 @@
    [
     "2026",
     1,
-    18.05
+    17.65
    ],
    [
     "2026",
     2,
-    17.7
+    17.0
    ],
    [
     "2026",
     3,
-    17.85
+    16.75
    ],
    [
     "2026",
     4,
-    16.8
+    15.3
    ],
    [
     "2026",
     5,
-    16.8
+    15.3
    ],
    [
     "2026",
     6,
-    16.05
+    14.15
    ],
    [
     "2026",
     7,
-    16.05
+    14.15
    ],
    [
     "2026",
     8,
-    16.05
+    14.15
    ]
   ],
   "benchmark": 100
@@ -1488,6 +1488,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Back",
+   "since": null,
+   "streak": 0
+  }
  }
 }

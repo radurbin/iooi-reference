@@ -118,7 +118,7 @@
    "team": "NYG",
    "g": 7,
    "pts": 33.8,
-   "rank": 60
+   "rank": 63
   }
  ],
  "history": [
@@ -775,7 +775,7 @@
    "stat": "WAR",
    "value": 0.12,
    "digits": 2,
-   "rank": 177,
+   "rank": 173,
    "of": 419
   },
   {
@@ -784,7 +784,7 @@
    "stat": "VOR",
    "value": 10.0,
    "digits": 1,
-   "rank": 180,
+   "rank": 175,
    "of": 419
   },
   {
@@ -838,7 +838,7 @@
    "stat": "WAR",
    "value": 0.12,
    "digits": 2,
-   "rank": 51,
+   "rank": 53,
    "of": 99
   },
   {
@@ -867,7 +867,7 @@
    "stat": "WAR",
    "value": 0.12,
    "digits": 2,
-   "rank": 33,
+   "rank": 32,
    "of": 77,
    "franchise": 1
   },
@@ -915,7 +915,7 @@
  "similar": [],
  "hof": {
   "score": 2.2,
-  "rank": 253,
+  "rank": 252,
   "of": 419,
   "war": 1.2,
   "starts": 1.0,
@@ -1172,6 +1172,31 @@
       "team": "Mojo Dojo Casa Team"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "NYG",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1198,6 +1223,23 @@
     ],
     "rostered": 2,
     "lost": 1.8
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "NYG",
+    "injury": "Hamstring",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": null

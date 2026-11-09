@@ -75,7 +75,7 @@
    "team": "GB",
    "g": 5,
    "pts": 10.5,
-   "rank": 135
+   "rank": 142
   }
  ],
  "history": [
@@ -409,7 +409,7 @@
    "stat": "WAR",
    "value": -0.27,
    "digits": 2,
-   "rank": 367,
+   "rank": 361,
    "of": 419
   },
   {
@@ -418,7 +418,7 @@
    "stat": "VOR",
    "value": -23.1,
    "digits": 1,
-   "rank": 370,
+   "rank": 362,
    "of": 419
   },
   {
@@ -472,7 +472,7 @@
    "stat": "WAR",
    "value": -0.27,
    "digits": 2,
-   "rank": 108,
+   "rank": 104,
    "of": 126
   },
   {
@@ -501,7 +501,7 @@
    "stat": "WAR",
    "value": -0.27,
    "digits": 2,
-   "rank": 72,
+   "rank": 69,
    "of": 75,
    "franchise": 2
   },
@@ -991,7 +991,7 @@
    {
     "season": "2026",
     "nfl": "GB",
-    "missed": 3,
+    "missed": 4,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -999,7 +999,8 @@
     "weeks": [
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1022,6 +1023,13 @@
      },
      {
       "week": 8,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "IR",
       "injury": "Ankle",
       "franchise": null,
@@ -1083,13 +1091,14 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 8,
+    "to": 9,
     "weeks": [
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "GB",
     "injury": "Ankle",
     "kinds": [

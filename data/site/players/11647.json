@@ -64,8 +64,8 @@
    "best": 7.7,
    "wins": 0,
    "paa": -5.7,
-   "vor": -0.89,
-   "war": -0.01
+   "vor": -0.33,
+   "war": -0.0
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 19.7,
   "wins": 3,
   "paa": -26.95,
-  "vor": 12.22,
-  "war": 0.14
+  "vor": 12.78,
+  "war": 0.15
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "LAC",
-   "g": 7,
-   "pts": 44.35,
-   "rank": 51
+   "g": 8,
+   "pts": 49.65,
+   "rank": 47
   }
  ],
  "history": [
@@ -705,8 +705,8 @@
    "proj": 7.76,
    "won": false,
    "paa": -5.7,
-   "vor": -0.89,
-   "war": -0.010518717044615582
+   "vor": -0.33,
+   "war": -0.0039001984547451037
   },
   {
    "season": "2026",
@@ -769,18 +769,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.14,
+   "value": 0.15,
    "digits": 2,
-   "rank": 172,
+   "rank": 164,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 12.2,
+   "value": 12.8,
    "digits": 1,
-   "rank": 173,
+   "rank": 166,
    "of": 419
   },
   {
@@ -832,9 +832,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.14,
+   "value": 0.15,
    "digits": 2,
-   "rank": 50,
+   "rank": 51,
    "of": 99
   },
   {
@@ -861,9 +861,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.01,
+   "value": 0.0,
    "digits": 2,
-   "rank": 34,
+   "rank": 32,
    "of": 67,
    "franchise": 8
   },
@@ -903,7 +903,7 @@
    "stat": "WAR",
    "value": 0.15,
    "digits": 2,
-   "rank": 22,
+   "rank": 20,
    "of": 40,
    "franchise": 6
   },
@@ -980,10 +980,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 3.15,
-  "rank": 226,
+  "score": 3.25,
+  "rank": 222,
   "of": 419,
-  "war": 1.4,
+  "war": 1.5,
   "starts": 1.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1186,17 +1186,17 @@
    [
     "2026",
     6,
-    3.15
+    3.25
    ],
    [
     "2026",
     7,
-    3.15
+    3.25
    ],
    [
     "2026",
     8,
-    3.15
+    3.25
    ]
   ],
   "benchmark": 100

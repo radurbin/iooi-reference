@@ -80,8 +80,8 @@
    "best": 30.9,
    "wins": 2,
    "paa": -17.95,
-   "vor": 14.74,
-   "war": 0.17
+   "vor": 16.98,
+   "war": 0.2
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 30.9,
   "wins": 19,
   "paa": -47.05,
-  "vor": 159.2,
-  "war": 1.88
+  "vor": 161.44,
+  "war": 1.91
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "HOU",
    "g": 5,
    "pts": 50.7,
-   "rank": 43
+   "rank": 46
   }
  ],
  "history": [
@@ -1099,8 +1099,8 @@
    "proj": 16.64,
    "won": true,
    "paa": 10.97,
-   "vor": 22.31,
-   "war": 0.2636770531071614
+   "vor": 22.87,
+   "war": 0.2702955716970319
   },
   {
    "season": "2026",
@@ -1118,8 +1118,8 @@
    "proj": 18.71,
    "won": false,
    "paa": -8.38,
-   "vor": -3.59,
-   "war": -0.04242943167434825
+   "vor": -3.03,
+   "war": -0.035810913084477765
   },
   {
    "season": "2026",
@@ -1137,8 +1137,8 @@
    "proj": 15.93,
    "won": true,
    "paa": -8.34,
-   "vor": -0.69,
-   "war": -0.008154960405376124
+   "vor": -0.13,
+   "war": -0.0015364418155056469
   },
   {
    "season": "2026",
@@ -1156,8 +1156,8 @@
    "proj": 16.46,
    "won": false,
    "paa": -12.2,
-   "vor": -3.29,
-   "war": -0.03888379671548906
+   "vor": -2.73,
+   "war": -0.032265278125618586
   },
   {
    "season": "2026",
@@ -1228,29 +1228,29 @@
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 956,
+   "score": 955,
    "gs": 42,
    "pts": 561.0,
    "ppg": 13.36,
-   "war": 1.95
+   "war": 2.01
   },
   {
    "player": "5967",
    "name": "Tony Pollard",
-   "score": 948,
+   "score": 949,
    "gs": 42,
    "pts": 540.3,
    "ppg": 12.86,
-   "war": 1.66
+   "war": 1.7
   },
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 817,
+   "score": 819,
    "gs": 46,
    "pts": 667.96,
    "ppg": 14.52,
-   "war": 2.8
+   "war": 2.82
   },
   {
    "player": "7543",
@@ -1259,16 +1259,16 @@
    "gs": 36,
    "pts": 525.9,
    "ppg": 14.61,
-   "war": 2.3
+   "war": 2.32
   },
   {
    "player": "6790",
    "name": "D'Andre Swift",
-   "score": 773,
+   "score": 772,
    "gs": 50,
    "pts": 713.9,
    "ppg": 14.28,
-   "war": 2.88
+   "war": 2.93
   }
  ],
  "status": {
@@ -1299,18 +1299,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.88,
+   "value": 1.91,
    "digits": 2,
-   "rank": 51,
+   "rank": 48,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 159.2,
+   "value": 161.4,
    "digits": 1,
-   "rank": 51,
+   "rank": 48,
    "of": 419
   },
   {
@@ -1371,7 +1371,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 1.88,
+   "value": 1.91,
    "digits": 2,
    "rank": 21,
    "of": 99
@@ -1440,9 +1440,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.17,
+   "value": 0.2,
    "digits": 2,
-   "rank": 22,
+   "rank": 19,
    "of": 67,
    "franchise": 8
   },
@@ -1578,10 +1578,10 @@
   }
  ],
  "hof": {
-  "score": 29.8,
+  "score": 30.1,
   "rank": 49,
   "of": 419,
-  "war": 18.8,
+  "war": 19.1,
   "starts": 11.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1844,42 +1844,42 @@
    [
     "2026",
     1,
-    29.95
+    30.05
    ],
    [
     "2026",
     2,
-    29.8
+    29.9
    ],
    [
     "2026",
     3,
-    29.95
+    30.15
    ],
    [
     "2026",
     4,
-    29.8
+    30.1
    ],
    [
     "2026",
     5,
-    29.8
+    30.1
    ],
    [
     "2026",
     6,
-    29.8
+    30.1
    ],
    [
     "2026",
     7,
-    29.8
+    30.1
    ],
    [
     "2026",
     8,
-    29.8
+    30.1
    ]
   ],
   "benchmark": 100
@@ -1967,14 +1967,15 @@
    {
     "season": "2026",
     "nfl": "HOU",
-    "missed": 2,
-    "lost": 3.1,
+    "missed": 3,
+    "lost": 4.22,
     "injuries": [
      "Groin"
     ],
     "weeks": [
      6,
-     7
+     7,
+     9
     ],
     "kinds": [
      "Out"
@@ -1994,6 +1995,13 @@
       "injury": "Groin",
       "franchise": 8,
       "team": "BBL KIZZY"
+     },
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2070,12 +2078,13 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 7,
+    "to": 9,
     "weeks": [
      6,
-     7
+     7,
+     9
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "HOU",
     "injury": "Groin",
     "kinds": [
@@ -2088,14 +2097,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 3.1
+    "lost": 4.22
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Groin",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

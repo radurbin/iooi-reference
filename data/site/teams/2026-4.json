@@ -217,8 +217,8 @@
    "bench_pts": 6.6,
    "wins": 3,
    "paa": 9.98,
-   "vor": 64.57,
-   "war": 0.76
+   "vor": 68.49,
+   "war": 0.81
   },
   {
    "player": "12501",
@@ -232,8 +232,8 @@
    "bench_pts": 21.0,
    "wins": 3,
    "paa": 14.56,
-   "vor": 33.28,
-   "war": 0.39
+   "vor": 11.16,
+   "war": 0.13
   },
   {
    "player": "9487",
@@ -247,8 +247,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -0.37,
-   "vor": 18.38,
-   "war": 0.22
+   "vor": -3.74,
+   "war": -0.04
   },
   {
    "player": "6797",
@@ -277,8 +277,8 @@
    "bench_pts": 7.5,
    "wins": 3,
    "paa": -13.57,
-   "vor": -1.22,
-   "war": -0.01
+   "vor": -4.1,
+   "war": -0.05
   },
   {
    "player": "7839",
@@ -292,8 +292,8 @@
    "bench_pts": 5.0,
    "wins": 1,
    "paa": 10.63,
-   "vor": 12.1,
-   "war": 0.14
+   "vor": -1.55,
+   "war": -0.02
   },
   {
    "player": "12534",
@@ -307,8 +307,8 @@
    "bench_pts": 21.4,
    "wins": 1,
    "paa": -18.67,
-   "vor": 9.54,
-   "war": 0.11
+   "vor": 11.78,
+   "war": 0.14
   },
   {
    "player": "10213",
@@ -322,8 +322,8 @@
    "bench_pts": 62.6,
    "wins": 2,
    "paa": -18.77,
-   "vor": -7.64,
-   "war": -0.09
+   "vor": -20.28,
+   "war": -0.24
   },
   {
    "player": "11834",
@@ -337,8 +337,8 @@
    "bench_pts": 55.3,
    "wins": 2,
    "paa": -9.11,
-   "vor": -3.28,
-   "war": -0.04
+   "vor": -12.76,
+   "war": -0.15
   },
   {
    "player": "7567",
@@ -352,8 +352,8 @@
    "bench_pts": 30.0,
    "wins": 2,
    "paa": -17.37,
-   "vor": 4.53,
-   "war": 0.05
+   "vor": 6.21,
+   "war": 0.07
   },
   {
    "player": "CLE",
@@ -367,7 +367,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 1.08,
-   "vor": 5.0,
+   "vor": 4.78,
    "war": 0.06
   },
   {
@@ -382,8 +382,8 @@
    "bench_pts": 45.7,
    "wins": 0,
    "paa": 1.98,
-   "vor": 4.34,
-   "war": 0.05
+   "vor": 1.18,
+   "war": 0.01
   },
   {
    "player": "4037",
@@ -397,8 +397,8 @@
    "bench_pts": 38.3,
    "wins": 1,
    "paa": -25.32,
-   "vor": -18.68,
-   "war": -0.22
+   "vor": -28.16,
+   "war": -0.33
   },
   {
    "player": "8408",
@@ -412,7 +412,7 @@
    "bench_pts": 11.1,
    "wins": 0,
    "paa": -6.53,
-   "vor": 4.81,
+   "vor": 5.37,
    "war": 0.06
   },
   {
@@ -427,8 +427,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -5.55,
-   "vor": -5.7,
-   "war": -0.07
+   "vor": -11.16,
+   "war": -0.13
   },
   {
    "player": "CAR",
@@ -442,8 +442,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -3.4,
-   "vor": -8.0,
-   "war": -0.09
+   "vor": -8.22,
+   "war": -0.1
   },
   {
    "player": "3214",
@@ -457,8 +457,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -3.07,
-   "vor": -4.22,
-   "war": -0.05
+   "vor": -4.7,
+   "war": -0.06
   },
   {
    "player": "13414",
@@ -472,8 +472,8 @@
    "bench_pts": 31.0,
    "wins": 0,
    "paa": -23.43,
-   "vor": -11.78,
-   "war": -0.14
+   "vor": -10.66,
+   "war": -0.13
   },
   {
    "player": "2505",
@@ -487,8 +487,8 @@
    "bench_pts": 51.8,
    "wins": 0,
    "paa": -10.75,
-   "vor": -7.72,
-   "war": -0.09
+   "vor": -8.2,
+   "war": -0.1
   },
   {
    "player": "MIA",
@@ -502,8 +502,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -12.67,
-   "vor": -13.0,
-   "war": -0.15
+   "vor": -13.22,
+   "war": -0.16
   },
   {
    "player": "13268",
@@ -652,7 +652,7 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -4.08,
-   "vor": -7.0,
+   "vor": -7.11,
    "war": -0.08
   }
  ],
@@ -1621,8 +1621,8 @@
    "opp_record": "4-4",
    "opp_seed": 7,
    "chance": 0.372,
-   "proj": 83.69,
-   "opp_proj": 140.1
+   "proj": 93.37,
+   "opp_proj": 137.59
   },
   {
    "week": 10,
@@ -1668,8 +1668,8 @@
  "injuries": {
   "games": 25,
   "players": 6,
-  "lost": 32.92,
-  "rank": 5,
+  "lost": 33.2,
+  "rank": 4,
   "games_rank": 4,
   "of": 12,
   "rows": [
@@ -1678,7 +1678,7 @@
     "name": "Kyle Monangai",
     "pos": "RB",
     "missed": 4,
-    "lost": 30.92,
+    "lost": 33.16,
     "injuries": [
      "Thumb"
     ],
@@ -1694,20 +1694,22 @@
     "gs": 4
    },
    {
-    "player": "5872",
-    "name": "Deebo Samuel Sr.",
-    "pos": "WR",
-    "missed": 2,
-    "lost": 2.0,
+    "player": "8408",
+    "name": "Jordan Mason",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 0.04,
     "injuries": [
-     "Hamstring"
+     "Thumb"
     ],
     "weeks": [
-     6,
-     7
+     2,
+     3,
+     4,
+     5
     ],
     "kinds": [
-     "Out"
+     "IR"
     ],
     "gs": 1
    },
@@ -1758,22 +1760,20 @@
     "gs": 0
    },
    {
-    "player": "8408",
-    "name": "Jordan Mason",
-    "pos": "RB",
-    "missed": 4,
+    "player": "5872",
+    "name": "Deebo Samuel Sr.",
+    "pos": "WR",
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
-     "Thumb"
+     "Hamstring"
     ],
     "weeks": [
-     2,
-     3,
-     4,
-     5
+     6,
+     7
     ],
     "kinds": [
-     "IR"
+     "Out"
     ],
     "gs": 1
    },

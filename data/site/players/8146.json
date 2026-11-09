@@ -82,8 +82,8 @@
    "best": 26.7,
    "wins": 7,
    "paa": 2.54,
-   "vor": 23.62,
-   "war": 0.28
+   "vor": -1.66,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -95,8 +95,8 @@
   "best": 30.0,
   "wins": 26,
   "paa": 9.22,
-  "vor": 96.77,
-  "war": 1.14
+  "vor": 71.49,
+  "war": 0.84
  },
  "nfl": [
   {
@@ -125,7 +125,7 @@
    "team": "NYJ",
    "g": 8,
    "pts": 113.7,
-   "rank": 14
+   "rank": 16
   }
  ],
  "history": [
@@ -1111,8 +1111,8 @@
    "proj": 14.85,
    "won": true,
    "paa": 0.21,
-   "vor": 2.64,
-   "war": 0.03120158763796083
+   "vor": -0.52,
+   "war": -0.0061457672620225876
   },
   {
    "season": "2026",
@@ -1130,8 +1130,8 @@
    "proj": 15.12,
    "won": true,
    "paa": 1.42,
-   "vor": 5.44,
-   "war": 0.06429418058731323
+   "vor": 2.28,
+   "war": 0.026946825687329805
   },
   {
    "season": "2026",
@@ -1149,8 +1149,8 @@
    "proj": 15.98,
    "won": true,
    "paa": 13.08,
-   "vor": 15.44,
-   "war": 0.18248201254928606
+   "vor": 12.28,
+   "war": 0.14513465764930264
   },
   {
    "season": "2026",
@@ -1168,8 +1168,8 @@
    "proj": 18.82,
    "won": true,
    "paa": -8.95,
-   "vor": -5.56,
-   "war": -0.06571243457085689
+   "vor": -8.72,
+   "war": -0.10305978947084032
   },
   {
    "season": "2026",
@@ -1187,8 +1187,8 @@
    "proj": 15.64,
    "won": true,
    "paa": 8.61,
-   "vor": 12.14,
-   "war": 0.14348002800183504
+   "vor": 8.98,
+   "war": 0.10613267310185161
   },
   {
    "season": "2026",
@@ -1206,8 +1206,8 @@
    "proj": 15.62,
    "won": true,
    "paa": -4.0,
-   "vor": -2.86,
-   "war": -0.03380171994112423
+   "vor": -6.02,
+   "war": -0.07114907484110765
   },
   {
    "season": "2026",
@@ -1225,8 +1225,8 @@
    "proj": 16.79,
    "won": false,
    "paa": -8.99,
-   "vor": -6.66,
-   "war": -0.07871309608667391
+   "vor": -9.82,
+   "war": -0.11606045098665732
   },
   {
    "season": "2026",
@@ -1244,55 +1244,55 @@
    "proj": 16.91,
    "won": true,
    "paa": 1.16,
-   "vor": 3.04,
-   "war": 0.03592910091643974
+   "vor": -0.12,
+   "war": -0.001418253983543674
   }
  ],
  "similar": [
   {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
-   "score": 938,
+   "score": 935,
    "gs": 36,
    "pts": 503.25,
    "ppg": 13.98,
-   "war": 1.03
+   "war": 0.99
   },
   {
    "player": "4983",
    "name": "DJ Moore",
-   "score": 922,
+   "score": 926,
    "gs": 41,
    "pts": 562.68,
    "ppg": 13.72,
-   "war": 1.01
-  },
-  {
-   "player": "8144",
-   "name": "Chris Olave",
-   "score": 908,
-   "gs": 39,
-   "pts": 576.0,
-   "ppg": 14.77,
-   "war": 1.51
+   "war": 0.86
   },
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 908,
+   "score": 912,
    "gs": 36,
    "pts": 486.6,
    "ppg": 13.52,
-   "war": 0.95
+   "war": 0.73
+  },
+  {
+   "player": "8144",
+   "name": "Chris Olave",
+   "score": 900,
+   "gs": 39,
+   "pts": 576.0,
+   "ppg": 14.77,
+   "war": 1.25
   },
   {
    "player": "7525",
    "name": "DeVonta Smith",
-   "score": 878,
+   "score": 871,
    "gs": 43,
    "pts": 598.8,
    "ppg": 13.93,
-   "war": 1.21
+   "war": 1.06
   }
  ],
  "status": {
@@ -1323,18 +1323,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.14,
+   "value": 0.84,
    "digits": 2,
-   "rank": 72,
+   "rank": 86,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 96.8,
+   "value": 71.5,
    "digits": 1,
-   "rank": 72,
+   "rank": 86,
    "of": 419
   },
   {
@@ -1395,9 +1395,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.14,
+   "value": 0.84,
    "digits": 2,
-   "rank": 20,
+   "rank": 23,
    "of": 126
   },
   {
@@ -1424,9 +1424,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 0.56,
+   "value": 0.26,
    "digits": 2,
-   "rank": 11,
+   "rank": 17,
    "of": 77,
    "franchise": 1
   },
@@ -1466,7 +1466,7 @@
    "stat": "WAR",
    "value": 0.58,
    "digits": 2,
-   "rank": 11,
+   "rank": 10,
    "of": 57,
    "franchise": 5
   },
@@ -1602,10 +1602,10 @@
   }
  ],
  "hof": {
-  "score": 24.9,
-  "rank": 64,
+  "score": 21.9,
+  "rank": 68,
   "of": 419,
-  "war": 11.4,
+  "war": 8.4,
   "starts": 9.5,
   "black_ink": 0.0,
   "awards": 4.0,
@@ -1868,42 +1868,42 @@
    [
     "2026",
     1,
-    20.75
+    20.35
    ],
    [
     "2026",
     2,
-    21.6
+    20.9
    ],
    [
     "2026",
     3,
-    23.65
+    22.55
    ],
    [
     "2026",
     4,
-    23.3
+    21.8
    ],
    [
     "2026",
     5,
-    24.95
+    23.05
    ],
    [
     "2026",
     6,
-    24.9
+    22.6
    ],
    [
     "2026",
     7,
-    24.35
+    21.75
    ],
    [
     "2026",
     8,
-    24.9
+    21.9
    ]
   ],
   "benchmark": 100
@@ -1994,6 +1994,31 @@
       "team": "Mojo Dojo Casa Team"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "NYJ",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Concussion"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Concussion",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -2047,13 +2072,30 @@
     ],
     "rostered": 6,
     "lost": 22.98
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "NYJ",
+    "injury": "Concussion",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Concussion",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

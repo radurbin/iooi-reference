@@ -80,8 +80,8 @@
    "best": 21.8,
    "wins": 2,
    "paa": -32.16,
-   "vor": -11.08,
-   "war": -0.13
+   "vor": -36.36,
+   "war": -0.43
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 25.1,
   "wins": 12,
   "paa": -118.22,
-  "vor": -37.43,
-  "war": -0.44
+  "vor": -62.71,
+  "war": -0.74
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "DEN",
-   "g": 8,
-   "pts": 79.0,
-   "rank": 30
+   "g": 9,
+   "pts": 82.2,
+   "rank": 34
   }
  ],
  "history": [
@@ -1102,8 +1102,8 @@
    "proj": 14.26,
    "won": true,
    "paa": -12.49,
-   "vor": -10.06,
-   "war": -0.11889695895374468
+   "vor": -13.22,
+   "war": -0.15624431385372808
   },
   {
    "season": "2026",
@@ -1121,8 +1121,8 @@
    "proj": 12.74,
    "won": true,
    "paa": 6.52,
-   "vor": 10.54,
-   "war": 0.12456997488791936
+   "vor": 7.38,
+   "war": 0.08722261998793596
   },
   {
    "season": "2026",
@@ -1140,8 +1140,8 @@
    "proj": 13.35,
    "won": false,
    "paa": -7.12,
-   "vor": -4.76,
-   "war": -0.056257408013899064
+   "vor": -7.92,
+   "war": -0.09360476291388248
   },
   {
    "season": "2026",
@@ -1159,8 +1159,8 @@
    "proj": 12.65,
    "won": false,
    "paa": -0.15,
-   "vor": 3.24,
-   "war": 0.038292857555679204
+   "vor": 0.08,
+   "war": 0.0009455026556957827
   },
   {
    "season": "2026",
@@ -1178,8 +1178,8 @@
    "proj": 12.1,
    "won": false,
    "paa": -9.89,
-   "vor": -6.36,
-   "war": -0.07516746112781472
+   "vor": -9.52,
+   "war": -0.11251481602779813
   },
   {
    "season": "2026",
@@ -1197,8 +1197,8 @@
    "proj": 11.37,
    "won": false,
    "paa": -6.0,
-   "vor": -4.86,
-   "war": -0.0574392863335188
+   "vor": -8.02,
+   "war": -0.09478664123350221
   },
   {
    "season": "2026",
@@ -1216,8 +1216,8 @@
    "proj": 12.77,
    "won": false,
    "paa": -4.79,
-   "vor": -2.46,
-   "war": -0.029074206662645315
+   "vor": -5.62,
+   "war": -0.06642156156262874
   },
   {
    "season": "2026",
@@ -1235,15 +1235,15 @@
    "proj": 11.61,
    "won": false,
    "paa": 1.76,
-   "vor": 3.64,
-   "war": 0.04302037083415811
+   "vor": 0.48,
+   "war": 0.005673015934174696
   }
  ],
  "similar": [
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 825,
+   "score": 795,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -1252,38 +1252,38 @@
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 797,
+   "score": 770,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
-   "war": -0.02
+   "war": -0.06
   },
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 725,
+   "score": 708,
    "gs": 31,
    "pts": 380.4,
    "ppg": 12.27,
-   "war": 0.43
+   "war": 0.24
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 689,
+   "score": 652,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.5
+   "war": 0.47
   },
   {
-   "player": "6819",
-   "name": "Michael Pittman Jr.",
-   "score": 671,
-   "gs": 33,
-   "pts": 445.1,
-   "ppg": 13.49,
-   "war": 0.72
+   "player": "1426",
+   "name": "DeAndre Hopkins",
+   "score": 643,
+   "gs": 25,
+   "pts": 267.1,
+   "ppg": 10.68,
+   "war": -0.37
   }
  ],
  "status": {
@@ -1324,18 +1324,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.44,
+   "value": -0.74,
    "digits": 2,
-   "rank": 393,
+   "rank": 407,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -37.4,
+   "value": -62.7,
    "digits": 1,
-   "rank": 394,
+   "rank": 409,
    "of": 419
   },
   {
@@ -1396,9 +1396,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.44,
+   "value": -0.74,
    "digits": 2,
-   "rank": 118,
+   "rank": 123,
    "of": 126
   },
   {
@@ -1427,7 +1427,7 @@
    "stat": "WAR",
    "value": -0.18,
    "digits": 2,
-   "rank": 61,
+   "rank": 60,
    "of": 68,
    "franchise": 3
   },
@@ -1465,9 +1465,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.57,
    "digits": 2,
-   "rank": 71,
+   "rank": 72,
    "of": 73,
    "franchise": 10
   },
@@ -1604,7 +1604,7 @@
  ],
  "hof": {
   "score": 10.0,
-  "rank": 128,
+  "rank": 126,
   "of": 419,
   "war": 0.0,
   "starts": 10.0,
@@ -2053,6 +2053,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Out",
+   "injury": "Head",
+   "since": null,
+   "streak": 0
+  }
  }
 }

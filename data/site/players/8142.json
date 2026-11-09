@@ -155,7 +155,7 @@
    "team": "IND",
    "g": 2,
    "pts": 12.2,
-   "rank": 130
+   "rank": 136
   }
  ],
  "history": [
@@ -1140,15 +1140,6 @@
  ],
  "similar": [
   {
-   "player": "9487",
-   "name": "Parker Washington",
-   "score": 927,
-   "gs": 9,
-   "pts": 104.8,
-   "ppg": 11.64,
-   "war": 0.06
-  },
-  {
    "player": "5947",
    "name": "Jakobi Meyers",
    "score": 923,
@@ -1160,11 +1151,20 @@
   {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 919,
+   "score": 921,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
-   "war": 0.34
+   "war": 0.27
+  },
+  {
+   "player": "9487",
+   "name": "Parker Washington",
+   "score": 895,
+   "gs": 9,
+   "pts": 104.8,
+   "ppg": 11.64,
+   "war": -0.2
   },
   {
    "player": "7049",
@@ -1178,7 +1178,7 @@
   {
    "player": "6943",
    "name": "Gabe Davis",
-   "score": 845,
+   "score": 843,
    "gs": 12,
    "pts": 129.1,
    "ppg": 10.76,
@@ -1215,7 +1215,7 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 155,
+   "rank": 149,
    "of": 419
   },
   {
@@ -1224,7 +1224,7 @@
    "stat": "VOR",
    "value": 18.6,
    "digits": 1,
-   "rank": 155,
+   "rank": 150,
    "of": 419
   },
   {
@@ -1287,7 +1287,7 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 41,
+   "rank": 39,
    "of": 126
   },
   {
@@ -1316,7 +1316,7 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 19,
+   "rank": 18,
    "of": 82,
    "franchise": 4
   },
@@ -1363,7 +1363,7 @@
  ],
  "hof": {
   "score": 4.7,
-  "rank": 201,
+  "rank": 199,
   "of": 419,
   "war": 2.2,
   "starts": 2.5,
@@ -1733,7 +1733,7 @@
    {
     "season": "2026",
     "nfl": "IND",
-    "missed": 6,
+    "missed": 7,
     "lost": 0.0,
     "injuries": [
      "Heel"
@@ -1744,7 +1744,8 @@
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1792,6 +1793,13 @@
       "injury": "Heel",
       "franchise": 4,
       "team": "Im Stroud Of You"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Heel",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1845,16 +1853,17 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 8,
+    "to": 9,
     "weeks": [
      3,
      4,
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "IND",
     "injury": "Heel",
     "kinds": [
@@ -1874,7 +1883,7 @@
    "status": "IR",
    "injury": "Heel",
    "since": null,
-   "streak": 6
+   "streak": 7
   }
  }
 }

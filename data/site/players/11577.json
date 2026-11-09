@@ -100,7 +100,7 @@
    "team": "PHI",
    "g": 5,
    "pts": 21.8,
-   "rank": 72
+   "rank": 77
   }
  ],
  "history": [
@@ -632,7 +632,7 @@
    {
     "season": "2026",
     "nfl": "PHI",
-    "missed": 3,
+    "missed": 4,
     "lost": 0.0,
     "injuries": [
      "Foot"
@@ -640,7 +640,8 @@
     "weeks": [
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -663,6 +664,13 @@
      },
      {
       "week": 8,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "IR",
       "injury": "Foot",
       "franchise": null,
@@ -720,13 +728,14 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 8,
+    "to": 9,
     "weeks": [
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "PHI",
     "injury": "Foot",
     "kinds": [

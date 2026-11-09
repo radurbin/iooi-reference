@@ -1094,11 +1094,11 @@
   {
    "player": "12527",
    "name": "Ashton Jeanty",
-   "score": 922,
+   "score": 918,
    "gs": 21,
    "pts": 330.4,
    "ppg": 15.73,
-   "war": 1.77
+   "war": 1.83
   },
   {
    "player": "8228",
@@ -1107,7 +1107,7 @@
    "gs": 20,
    "pts": 302.3,
    "ppg": 15.12,
-   "war": 1.52
+   "war": 1.57
   },
   {
    "player": "8136",
@@ -1116,16 +1116,16 @@
    "gs": 29,
    "pts": 413.0,
    "ppg": 14.24,
-   "war": 1.61
+   "war": 1.62
   },
   {
    "player": "11584",
    "name": "Bucky Irving",
-   "score": 872,
+   "score": 868,
    "gs": 22,
    "pts": 367.2,
    "ppg": 16.69,
-   "war": 2.06
+   "war": 2.12
   },
   {
    "player": "7021",
@@ -1166,7 +1166,7 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 59,
+   "rank": 57,
    "of": 419
   },
   {
@@ -1175,7 +1175,7 @@
    "stat": "VOR",
    "value": 131.1,
    "digits": 1,
-   "rank": 59,
+   "rank": 57,
    "of": 419
   },
   {
@@ -1238,7 +1238,7 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 99
   },
   {
@@ -1267,7 +1267,7 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 7,
+   "rank": 6,
    "of": 77,
    "franchise": 1
   },
@@ -1856,8 +1856,8 @@
    {
     "season": "2026",
     "nfl": "ARI",
-    "missed": 8,
-    "lost": 2.51,
+    "missed": 9,
+    "lost": 3.07,
     "injuries": [
      "Foot"
     ],
@@ -1869,7 +1869,8 @@
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1927,6 +1928,13 @@
      },
      {
       "week": 8,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "IR",
       "injury": "Foot",
       "franchise": null,
@@ -2002,7 +2010,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 8,
+    "to": 9,
     "weeks": [
      1,
      2,
@@ -2011,9 +2019,10 @@
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "ARI",
     "injury": "Foot",
     "kinds": [
@@ -2026,7 +2035,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.51
+    "lost": 3.07
    }
   ],
   "now": null

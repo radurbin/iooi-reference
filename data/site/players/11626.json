@@ -100,7 +100,7 @@
    "team": "CAR",
    "g": 2,
    "pts": 8.4,
-   "rank": 143
+   "rank": 150
   }
  ],
  "history": [
@@ -815,7 +815,7 @@
    "stat": "WAR",
    "value": -0.03,
    "digits": 2,
-   "rank": 232,
+   "rank": 228,
    "of": 419
   },
   {
@@ -824,7 +824,7 @@
    "stat": "VOR",
    "value": -2.5,
    "digits": 1,
-   "rank": 233,
+   "rank": 228,
    "of": 419
   },
   {
@@ -878,7 +878,7 @@
    "stat": "WAR",
    "value": -0.03,
    "digits": 2,
-   "rank": 54,
+   "rank": 50,
    "of": 126
   },
   {
@@ -1241,7 +1241,7 @@
    {
     "season": "2026",
     "nfl": "CAR",
-    "missed": 5,
+    "missed": 6,
     "lost": 0.0,
     "injuries": [
      "Knee"
@@ -1251,7 +1251,8 @@
      4,
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR",
@@ -1289,6 +1290,13 @@
      },
      {
       "week": 8,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "IR",
       "injury": "Knee",
       "franchise": null,
@@ -1347,15 +1355,16 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 8,
+    "to": 9,
     "weeks": [
      3,
      4,
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 5,
+    "missed": 6,
     "nfl": "CAR",
     "injury": "Knee",
     "kinds": [

@@ -80,8 +80,8 @@
    "best": 12.7,
    "wins": 1,
    "paa": -16.72,
-   "vor": -8.88,
-   "war": -0.1
+   "vor": -18.36,
+   "war": -0.22
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 20.6,
   "wins": 11,
   "paa": -107.23,
-  "vor": -47.08,
-  "war": -0.56
+  "vor": -56.56,
+  "war": -0.67
  },
  "nfl": [
   {
@@ -114,9 +114,9 @@
   {
    "season": "2026",
    "team": "CHI",
-   "g": 8,
-   "pts": 74.3,
-   "rank": 37
+   "g": 9,
+   "pts": 90.3,
+   "rank": 25
   }
  ],
  "history": [
@@ -783,8 +783,8 @@
    "proj": 11.12,
    "won": true,
    "paa": -6.49,
-   "vor": -4.06,
-   "war": -0.04798425977656097
+   "vor": -7.22,
+   "war": -0.08533161467654439
   },
   {
    "season": "2026",
@@ -850,8 +850,8 @@
    "proj": 9.67,
    "won": false,
    "paa": -9.79,
-   "vor": -6.26,
-   "war": -0.07398558280819499
+   "vor": -9.42,
+   "war": -0.11133293770817841
   },
   {
    "season": "2026",
@@ -901,55 +901,55 @@
    "proj": 10.03,
    "won": false,
    "paa": -0.44,
-   "vor": 1.44,
-   "war": 0.017019047802524088
+   "vor": -1.72,
+   "war": -0.020328307097459326
   }
  ],
  "similar": [
   {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 874,
+   "score": 867,
    "gs": 25,
    "pts": 260.8,
    "ppg": 10.43,
-   "war": -0.17
+   "war": -0.24
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 873,
+   "score": 865,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
    "war": -0.37
   },
   {
-   "player": "8134",
-   "name": "Khalil Shakir",
-   "score": 854,
-   "gs": 25,
-   "pts": 266.9,
-   "ppg": 10.68,
-   "war": -0.13
-  },
-  {
    "player": "9500",
    "name": "Josh Downs",
-   "score": 854,
+   "score": 852,
    "gs": 18,
    "pts": 155.5,
    "ppg": 8.64,
-   "war": -0.63
+   "war": -0.82
   },
   {
-   "player": "4950",
-   "name": "Christian Kirk",
-   "score": 849,
-   "gs": 20,
-   "pts": 215.66,
-   "ppg": 10.78,
-   "war": -0.3
+   "player": "8134",
+   "name": "Khalil Shakir",
+   "score": 844,
+   "gs": 25,
+   "pts": 266.9,
+   "ppg": 10.68,
+   "war": -0.17
+  },
+  {
+   "player": "8167",
+   "name": "Christian Watson",
+   "score": 843,
+   "gs": 22,
+   "pts": 244.6,
+   "ppg": 11.12,
+   "war": -0.42
   }
  ],
  "status": {
@@ -980,18 +980,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.56,
+   "value": -0.67,
    "digits": 2,
-   "rank": 402,
+   "rank": 403,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -47.1,
+   "value": -56.6,
    "digits": 1,
-   "rank": 402,
+   "rank": 403,
    "of": 419
   },
   {
@@ -1052,7 +1052,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.56,
+   "value": -0.67,
    "digits": 2,
    "rank": 121,
    "of": 126
@@ -1121,7 +1121,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.44,
+   "value": -0.56,
    "digits": 2,
    "rank": 63,
    "of": 65,
@@ -1230,7 +1230,7 @@
  ],
  "hof": {
   "score": 6.0,
-  "rank": 180,
+  "rank": 177,
   "of": 419,
   "war": 0.0,
   "starts": 6.0,

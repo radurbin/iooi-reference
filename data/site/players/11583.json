@@ -82,7 +82,7 @@
    "best": 7.6,
    "wins": 1,
    "paa": -12.33,
-   "vor": -0.99,
+   "vor": -0.43,
    "war": -0.01
   },
   {
@@ -127,7 +127,7 @@
   "best": 7.6,
   "wins": 1,
   "paa": -12.33,
-  "vor": -0.99,
+  "vor": -0.43,
   "war": -0.01
  },
  "nfl": [
@@ -143,7 +143,7 @@
    "team": "CAR",
    "g": 2,
    "pts": 10.2,
-   "rank": 90
+   "rank": 93
   }
  ],
  "history": [
@@ -690,8 +690,8 @@
    "proj": 10.82,
    "won": true,
    "paa": -12.33,
-   "vor": -0.99,
-   "war": -0.01170059536423531
+   "vor": -0.43,
+   "war": -0.005082076774364831
   },
   {
    "season": "2026",
@@ -804,16 +804,16 @@
    "stat": "WAR",
    "value": -0.01,
    "digits": 2,
-   "rank": 222,
+   "rank": 216,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -1.0,
+   "value": -0.4,
    "digits": 1,
-   "rank": 225,
+   "rank": 216,
    "of": 419
   },
   {
@@ -944,7 +944,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -1439,17 +1439,19 @@
    {
     "season": "2026",
     "nfl": "CAR",
-    "missed": 5,
+    "missed": 6,
     "lost": 0.0,
     "injuries": [
-     "Groin"
+     "Groin",
+     "Abdomen"
     ],
     "weeks": [
      3,
      4,
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1490,6 +1492,13 @@
       "injury": "Groin",
       "franchise": 1,
       "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Abdomen",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1595,15 +1604,16 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 8,
+    "to": 9,
     "weeks": [
      3,
      4,
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 5,
+    "missed": 6,
     "nfl": "CAR",
     "injury": "Groin",
     "kinds": [
@@ -1631,7 +1641,7 @@
    "status": "IR",
    "injury": "Abdomen",
    "since": null,
-   "streak": 5
+   "streak": 6
   }
  }
 }

@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "TB",
-   "g": 8,
-   "pts": 37.6,
-   "rank": 37
+   "g": 9,
+   "pts": 44.1,
+   "rank": 34
   }
  ],
  "history": [
@@ -805,29 +805,29 @@
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 946,
+   "score": 943,
    "gs": 11,
    "pts": 122.0,
    "ppg": 11.09,
-   "war": 0.2
+   "war": 0.16
   },
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 923,
+   "score": 926,
    "gs": 14,
    "pts": 163.65,
    "ppg": 11.69,
-   "war": 0.36
+   "war": 0.32
   },
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 874,
+   "score": 875,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.27
+   "war": 0.23
   },
   {
    "player": "4144",
@@ -841,11 +841,11 @@
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 824,
+   "score": 826,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.48
+   "war": 0.45
   }
  ],
  "status": {
@@ -887,7 +887,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 150,
+   "rank": 144,
    "of": 419
   },
   {
@@ -896,7 +896,7 @@
    "stat": "VOR",
    "value": 20.4,
    "digits": 1,
-   "rank": 150,
+   "rank": 145,
    "of": 419
   },
   {
@@ -959,7 +959,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 15,
+   "rank": 14,
    "of": 52
   },
   {
@@ -988,7 +988,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 19,
+   "rank": 18,
    "of": 73,
    "franchise": 10
   },
@@ -1095,7 +1095,7 @@
  ],
  "hof": {
   "score": 5.15,
-  "rank": 192,
+  "rank": 191,
   "of": 419,
   "war": 2.4,
   "starts": 2.75,

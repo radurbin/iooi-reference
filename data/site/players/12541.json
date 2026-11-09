@@ -383,7 +383,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 285,
+   "rank": 274,
    "of": 419
   },
   {
@@ -392,7 +392,7 @@
    "stat": "VOR",
    "value": -8.2,
    "digits": 1,
-   "rank": 285,
+   "rank": 274,
    "of": 419
   },
   {
@@ -446,7 +446,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 73,
+   "rank": 65,
    "of": 126
   },
   {
@@ -475,7 +475,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 61,
+   "rank": 59,
    "of": 75,
    "franchise": 2
   },
@@ -523,7 +523,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -690,10 +690,11 @@
    {
     "season": "2026",
     "nfl": "LV",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
-     "Hamstring"
+     "Hamstring",
+     "Back"
     ],
     "weeks": [
      1,
@@ -702,10 +703,12 @@
      4,
      5,
      6,
-     7
+     7,
+     9
     ],
     "kinds": [
-     "IR"
+     "IR",
+     "Inactive"
     ],
     "rostered": 0,
     "games": [
@@ -757,6 +760,13 @@
       "injury": "Hamstring",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 9,
+      "kind": "Inactive",
+      "injury": "Back",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -802,6 +812,23 @@
     "injury": "Hamstring",
     "kinds": [
      "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "LV",
+    "injury": "Back",
+    "kinds": [
+     "Inactive"
     ],
     "teams": [],
     "rostered": 0,

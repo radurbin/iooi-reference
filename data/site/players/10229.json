@@ -80,8 +80,8 @@
    "best": 18.3,
    "wins": 3,
    "paa": -14.08,
-   "vor": 0.0,
-   "war": 0.0
+   "vor": -15.8,
+   "war": -0.19
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 29.4,
   "wins": 10,
   "paa": 36.02,
-  "vor": 76.25,
-  "war": 0.9
+  "vor": 60.45,
+  "war": 0.71
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "KC",
-   "g": 5,
-   "pts": 56.3,
-   "rank": 55
+   "g": 6,
+   "pts": 66.2,
+   "rank": 52
   }
  ],
  "history": [
@@ -1042,8 +1042,8 @@
    "proj": 12.87,
    "won": true,
    "paa": -3.79,
-   "vor": -1.36,
-   "war": -0.016073545146828308
+   "vor": -4.52,
+   "war": -0.053420900046811715
   },
   {
    "season": "2026",
@@ -1061,8 +1061,8 @@
    "proj": 13.98,
    "won": false,
    "paa": -2.98,
-   "vor": 1.04,
-   "war": 0.012291534524045175
+   "vor": -2.12,
+   "war": -0.025055820375938242
   },
   {
    "season": "2026",
@@ -1080,8 +1080,8 @@
    "proj": 12.26,
    "won": true,
    "paa": 2.18,
-   "vor": 4.54,
-   "war": 0.05365727571073567
+   "vor": 1.38,
+   "war": 0.01630992081075225
   },
   {
    "season": "2026",
@@ -1099,8 +1099,8 @@
    "proj": 14.03,
    "won": false,
    "paa": -14.65,
-   "vor": -11.26,
-   "war": -0.1330794987891814
+   "vor": -14.42,
+   "war": -0.17042685368916483
   },
   {
    "season": "2026",
@@ -1166,15 +1166,15 @@
    "proj": 13.26,
    "won": true,
    "paa": 5.16,
-   "vor": 7.04,
-   "war": 0.08320423370122888
+   "vor": 3.88,
+   "war": 0.045856878801245456
   }
  ],
  "similar": [
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 876,
+   "score": 895,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
@@ -1183,38 +1183,38 @@
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 864,
+   "score": 876,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
    "war": 0.56
   },
   {
-   "player": "12526",
-   "name": "Tetairoa McMillan",
-   "score": 848,
-   "gs": 21,
-   "pts": 276.8,
-   "ppg": 13.18,
-   "war": 0.59
-  },
-  {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 838,
+   "score": 845,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
-   "war": 0.35
+   "war": 0.24
   },
   {
-   "player": "5045",
-   "name": "Courtland Sutton",
-   "score": 822,
-   "gs": 27,
-   "pts": 383.4,
-   "ppg": 14.2,
-   "war": 0.93
+   "player": "12526",
+   "name": "Tetairoa McMillan",
+   "score": 840,
+   "gs": 21,
+   "pts": 276.8,
+   "ppg": 13.18,
+   "war": 0.32
+  },
+  {
+   "player": "9756",
+   "name": "Jordan Addison",
+   "score": 818,
+   "gs": 25,
+   "pts": 330.0,
+   "ppg": 13.2,
+   "war": 0.4
   }
  ],
  "status": {
@@ -1245,18 +1245,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.71,
    "digits": 2,
-   "rank": 84,
+   "rank": 97,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 76.2,
+   "value": 60.5,
    "digits": 1,
-   "rank": 84,
+   "rank": 97,
    "of": 419
   },
   {
@@ -1317,9 +1317,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.71,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 126
   },
   {
@@ -1346,9 +1346,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.41,
+   "value": 0.22,
    "digits": 2,
-   "rank": 14,
+   "rank": 17,
    "of": 67,
    "franchise": 8
   },
@@ -1524,10 +1524,10 @@
   }
  ],
  "hof": {
-  "score": 14.0,
-  "rank": 101,
+  "score": 12.1,
+  "rank": 109,
   "of": 419,
-  "war": 9.0,
+  "war": 7.1,
   "starts": 5.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1790,42 +1790,42 @@
    [
     "2026",
     1,
-    12.9
+    12.5
    ],
    [
     "2026",
     2,
-    13.25
+    12.45
    ],
    [
     "2026",
     3,
-    14.0
+    12.9
    ],
    [
     "2026",
     4,
-    12.95
+    11.45
    ],
    [
     "2026",
     5,
-    12.95
+    11.45
    ],
    [
     "2026",
     6,
-    12.95
+    11.45
    ],
    [
     "2026",
     7,
-    12.95
+    11.45
    ],
    [
     "2026",
     8,
-    14.0
+    12.1
    ]
   ],
   "benchmark": 100

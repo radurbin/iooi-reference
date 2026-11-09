@@ -80,8 +80,8 @@
    "best": 1.9,
    "wins": 1,
    "paa": -11.5,
-   "vor": -6.69,
-   "war": -0.08
+   "vor": -6.13,
+   "war": -0.07
   },
   {
    "season": "2026",
@@ -109,8 +109,8 @@
   "best": 9.2,
   "wins": 1,
   "paa": -33.16,
-  "vor": -12.66,
-  "war": -0.15
+  "vor": -12.1,
+  "war": -0.14
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "TEN",
    "g": 6,
    "pts": 28.9,
-   "rank": 62
+   "rank": 67
   }
  ],
  "history": [
@@ -1099,8 +1099,8 @@
    "proj": 9.36,
    "won": true,
    "paa": -11.5,
-   "vor": -6.69,
-   "war": -0.07906765958255983
+   "vor": -6.13,
+   "war": -0.07244914099268934
   },
   {
    "season": "2026",
@@ -1163,18 +1163,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.14,
    "digits": 2,
-   "rank": 334,
+   "rank": 312,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -12.7,
+   "value": -12.1,
    "digits": 1,
-   "rank": 336,
+   "rank": 318,
    "of": 419
   },
   {
@@ -1226,7 +1226,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.14,
    "digits": 2,
    "rank": 87,
    "of": 99
@@ -1255,7 +1255,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.16,
+   "value": -0.15,
    "digits": 2,
    "rank": 52,
    "of": 65,
@@ -1365,7 +1365,7 @@
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 302,
+  "rank": 301,
   "of": 419,
   "war": 0.0,
   "starts": 1.0,

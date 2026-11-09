@@ -32,8 +32,8 @@
    "best": 21.5,
    "wins": 1,
    "paa": 4.8,
-   "vor": 12.91,
-   "war": 0.15
+   "vor": 13.47,
+   "war": 0.16
   }
  ],
  "totals": {
@@ -45,16 +45,16 @@
   "best": 21.5,
   "wins": 1,
   "paa": 4.8,
-  "vor": 12.91,
-  "war": 0.15
+  "vor": 13.47,
+  "war": 0.16
  },
  "nfl": [
   {
    "season": "2026",
    "team": "DEN",
-   "g": 4,
-   "pts": 47.1,
-   "rank": 46
+   "g": 5,
+   "pts": 67.6,
+   "rank": 34
   }
  ],
  "history": [
@@ -200,8 +200,8 @@
    "proj": 12.83,
    "won": true,
    "paa": 4.8,
-   "vor": 12.91,
-   "war": 0.15258049106290694
+   "vor": 13.47,
+   "war": 0.15919900965277742
   }
  ],
  "status": {
@@ -232,18 +232,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.15,
+   "value": 0.16,
    "digits": 2,
-   "rank": 169,
+   "rank": 160,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 12.9,
+   "value": 13.5,
    "digits": 1,
-   "rank": 170,
+   "rank": 162,
    "of": 419
   },
   {
@@ -295,7 +295,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.15,
+   "value": 0.16,
    "digits": 2,
    "rank": 49,
    "of": 99
@@ -324,9 +324,9 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.15,
+   "value": 0.16,
    "digits": 2,
-   "rank": 19,
+   "rank": 18,
    "of": 51,
    "franchise": 7
   },
@@ -373,10 +373,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 1.75,
-  "rank": 272,
+  "score": 1.85,
+  "rank": 271,
   "of": 419,
-  "war": 1.5,
+  "war": 1.6,
   "starts": 0.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -419,7 +419,7 @@
    [
     "2026",
     8,
-    1.75
+    1.85
    ]
   ],
   "benchmark": 100
@@ -432,7 +432,7 @@
     "season": "2026",
     "nfl": "DEN",
     "missed": 4,
-    "lost": 12.76,
+    "lost": 21.96,
     "injuries": [
      "Ankle"
     ],
@@ -502,7 +502,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 12.76
+    "lost": 21.96
    }
   ],
   "now": null

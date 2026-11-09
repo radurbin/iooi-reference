@@ -107,7 +107,7 @@
    "team": "SF",
    "g": 1,
    "pts": 0.0,
-   "rank": 186
+   "rank": 193
   }
  ],
  "history": [
@@ -923,11 +923,20 @@
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 934,
+   "score": 939,
    "gs": 22,
    "pts": 244.6,
    "ppg": 11.12,
-   "war": -0.12
+   "war": -0.42
+  },
+  {
+   "player": "11631",
+   "name": "Brian Thomas Jr.",
+   "score": 884,
+   "gs": 25,
+   "pts": 260.8,
+   "ppg": 10.43,
+   "war": -0.24
   },
   {
    "player": "1426",
@@ -939,22 +948,13 @@
    "war": -0.37
   },
   {
-   "player": "11631",
-   "name": "Brian Thomas Jr.",
-   "score": 882,
-   "gs": 25,
-   "pts": 260.8,
-   "ppg": 10.43,
-   "war": -0.17
-  },
-  {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 880,
+   "score": 882,
    "gs": 25,
    "pts": 266.9,
    "ppg": 10.68,
-   "war": -0.13
+   "war": -0.17
   }
  ],
  "status": {
@@ -986,7 +986,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 377,
+   "rank": 370,
    "of": 419
   },
   {
@@ -995,7 +995,7 @@
    "stat": "VOR",
    "value": -25.0,
    "digits": 1,
-   "rank": 377,
+   "rank": 370,
    "of": 419
   },
   {
@@ -1058,7 +1058,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 112,
+   "rank": 107,
    "of": 126
   },
   {
@@ -1087,7 +1087,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 40,
+   "rank": 39,
    "of": 44,
    "franchise": 11
   },
@@ -1127,7 +1127,7 @@
    "stat": "WAR",
    "value": 0.0,
    "digits": 2,
-   "rank": 36,
+   "rank": 33,
    "of": 82,
    "franchise": 4
   },
@@ -1234,7 +1234,7 @@
  ],
  "hof": {
   "score": 5.0,
-  "rank": 195,
+  "rank": 193,
   "of": 419,
   "war": 0.0,
   "starts": 5.0,
@@ -1725,11 +1725,12 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 6,
+    "missed": 7,
     "lost": 0.0,
     "injuries": [
      "Knee - Meniscus",
-     "Calf"
+     "Calf",
+     "Knee"
     ],
     "weeks": [
      1,
@@ -1737,7 +1738,8 @@
      3,
      4,
      5,
-     6
+     6,
+     9
     ],
     "kinds": [
      "IR"
@@ -1783,6 +1785,13 @@
       "week": 6,
       "kind": "IR",
       "injury": "Calf",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Knee",
       "franchise": null,
       "team": null
      }
@@ -1905,6 +1914,23 @@
     "missed": 6,
     "nfl": "SF",
     "injury": "Knee - Meniscus",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "SF",
+    "injury": "Knee",
     "kinds": [
      "IR"
     ],

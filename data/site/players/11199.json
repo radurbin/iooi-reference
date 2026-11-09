@@ -80,7 +80,7 @@
    "season": "2026",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "nfl": "DAL",
+   "nfl": "DAL/HOU",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -129,10 +129,10 @@
   },
   {
    "season": "2026",
-   "team": "DAL",
-   "g": 2,
-   "pts": 2.0,
-   "rank": 113
+   "team": "DAL/HOU",
+   "g": 3,
+   "pts": 6.0,
+   "rank": 103
   }
  ],
  "history": [
@@ -391,7 +391,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 276,
+   "rank": 267,
    "of": 419
   },
   {
@@ -400,7 +400,7 @@
    "stat": "VOR",
    "value": -7.9,
    "digits": 1,
-   "rank": 282,
+   "rank": 273,
    "of": 419
   },
   {
@@ -483,7 +483,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 68,
+   "rank": 67,
    "of": 77,
    "franchise": 1
   },
@@ -531,7 +531,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,

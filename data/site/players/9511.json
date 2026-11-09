@@ -73,7 +73,7 @@
    "best": 6.5,
    "wins": 1,
    "paa": -8.95,
-   "vor": -2.09,
+   "vor": -1.53,
    "war": -0.02
   }
  ],
@@ -86,8 +86,8 @@
   "best": 11.1,
   "wins": 4,
   "paa": -47.95,
-  "vor": -16.19,
-  "war": -0.19
+  "vor": -15.63,
+  "war": -0.18
  },
  "nfl": [
   {
@@ -114,9 +114,9 @@
   {
    "season": "2026",
    "team": "LAC",
-   "g": 7,
-   "pts": 46.3,
-   "rank": 48
+   "g": 8,
+   "pts": 54.7,
+   "rank": 44
   }
  ],
  "history": [
@@ -880,8 +880,8 @@
    "proj": 10.84,
    "won": true,
    "paa": -8.95,
-   "vor": -2.09,
-   "war": -0.02470125688005232
+   "vor": -1.53,
+   "war": -0.018082738290181845
   },
   {
    "season": "2026",
@@ -908,7 +908,7 @@
    "gs": 8,
    "pts": 67.7,
    "ppg": 8.46,
-   "war": -0.03
+   "war": -0.01
   },
   {
    "player": "12469",
@@ -935,7 +935,7 @@
    "gs": 15,
    "pts": 123.9,
    "ppg": 8.26,
-   "war": -0.23
+   "war": -0.22
   },
   {
    "player": "12533",
@@ -944,7 +944,7 @@
    "gs": 16,
    "pts": 140.1,
    "ppg": 8.76,
-   "war": 0.03
+   "war": 0.04
   }
  ],
  "status": {
@@ -974,18 +974,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.19,
+   "value": -0.18,
    "digits": 2,
-   "rank": 348,
+   "rank": 335,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -16.2,
+   "value": -15.6,
    "digits": 1,
-   "rank": 351,
+   "rank": 336,
    "of": 419
   },
   {
@@ -1046,7 +1046,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.19,
+   "value": -0.18,
    "digits": 2,
    "rank": 88,
    "of": 99
@@ -1117,7 +1117,7 @@
    "stat": "WAR",
    "value": -0.16,
    "digits": 2,
-   "rank": 69,
+   "rank": 66,
    "of": 75,
    "franchise": 2
   },
@@ -1224,7 +1224,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
+  "rank": 254,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

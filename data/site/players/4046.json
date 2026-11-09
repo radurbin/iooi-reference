@@ -121,8 +121,8 @@
   {
    "season": "2026",
    "team": "KC",
-   "g": 7,
-   "pts": 127.6,
+   "g": 8,
+   "pts": 144.28,
    "rank": 14
   }
  ],
@@ -1647,7 +1647,7 @@
  ],
  "hof": {
   "score": 45.7,
-  "rank": 22,
+  "rank": 21,
   "of": 419,
   "war": 33.2,
   "starts": 12.5,
@@ -2027,6 +2027,11 @@
     "lost": 18.06
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Elbow",
+   "since": null,
+   "streak": 0
+  }
  }
 }

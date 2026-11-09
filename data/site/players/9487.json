@@ -73,8 +73,8 @@
    "best": 30.4,
    "wins": 2,
    "paa": -0.37,
-   "vor": 18.38,
-   "war": 0.22
+   "vor": -3.74,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 30.4,
   "wins": 4,
   "paa": -15.86,
-  "vor": 4.78,
-  "war": 0.06
+  "vor": -17.34,
+  "war": -0.2
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "JAX",
    "g": 8,
    "pts": 111.3,
-   "rank": 15
+   "rank": 17
   }
  ],
  "history": [
@@ -407,8 +407,8 @@
    "proj": 12.18,
    "won": false,
    "paa": 5.61,
-   "vor": 8.04,
-   "war": 0.09502301689742615
+   "vor": 4.88,
+   "war": 0.05767566199744274
   },
   {
    "season": "2026",
@@ -426,8 +426,8 @@
    "proj": 13.08,
    "won": false,
    "paa": 3.02,
-   "vor": 7.04,
-   "war": 0.08320423370122888
+   "vor": 3.88,
+   "war": 0.045856878801245456
   },
   {
    "season": "2026",
@@ -445,8 +445,8 @@
    "proj": 15.28,
    "won": false,
    "paa": -0.62,
-   "vor": 1.74,
-   "war": 0.020564682761383273
+   "vor": -1.42,
+   "war": -0.01678267213860014
   },
   {
    "season": "2026",
@@ -464,8 +464,8 @@
    "proj": 17.21,
    "won": true,
    "paa": -12.55,
-   "vor": -9.16,
-   "war": -0.10826005407716711
+   "vor": -12.32,
+   "war": -0.14560740897715055
   },
   {
    "season": "2026",
@@ -483,8 +483,8 @@
    "proj": 14.0,
    "won": false,
    "paa": 15.61,
-   "vor": 19.14,
-   "war": 0.226211510375216
+   "vor": 15.98,
+   "war": 0.18886415547523258
   },
   {
    "season": "2026",
@@ -502,8 +502,8 @@
    "proj": 15.12,
    "won": true,
    "paa": -2.0,
-   "vor": -0.86,
-   "war": -0.010164153548729663
+   "vor": -4.02,
+   "war": -0.047511508448713075
   },
   {
    "season": "2026",
@@ -537,55 +537,55 @@
    "proj": 14.98,
    "won": false,
    "paa": -9.44,
-   "vor": -7.56,
-   "war": -0.08935000096325146
+   "vor": -10.72,
+   "war": -0.12669735586323488
   }
  ],
  "similar": [
   {
-   "player": "8142",
-   "name": "Alec Pierce",
-   "score": 927,
-   "gs": 10,
-   "pts": 124.6,
-   "ppg": 12.46,
-   "war": 0.22
-  },
-  {
    "player": "6943",
    "name": "Gabe Davis",
-   "score": 893,
+   "score": 907,
    "gs": 12,
    "pts": 129.1,
    "ppg": 10.76,
    "war": -0.23
   },
   {
-   "player": "5947",
-   "name": "Jakobi Meyers",
-   "score": 873,
-   "gs": 13,
-   "pts": 164.3,
-   "ppg": 12.64,
-   "war": 0.14
+   "player": "8142",
+   "name": "Alec Pierce",
+   "score": 895,
+   "gs": 10,
+   "pts": 124.6,
+   "ppg": 12.46,
+   "war": 0.22
   },
   {
    "player": "8676",
    "name": "Rashid Shaheed",
-   "score": 854,
+   "score": 860,
    "gs": 14,
    "pts": 146.6,
    "ppg": 10.47,
    "war": -0.15
   },
   {
-   "player": "8126",
-   "name": "Wan'Dale Robinson",
-   "score": 848,
-   "gs": 12,
-   "pts": 158.8,
-   "ppg": 13.23,
-   "war": 0.34
+   "player": "5947",
+   "name": "Jakobi Meyers",
+   "score": 858,
+   "gs": 13,
+   "pts": 164.3,
+   "ppg": 12.64,
+   "war": 0.14
+  },
+  {
+   "player": "10213",
+   "name": "Tre Tucker",
+   "score": 838,
+   "gs": 15,
+   "pts": 155.9,
+   "ppg": 10.39,
+   "war": -0.23
   }
  ],
  "status": {
@@ -616,18 +616,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.06,
+   "value": -0.2,
    "digits": 2,
-   "rank": 192,
+   "rank": 342,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 4.8,
+   "value": -17.3,
    "digits": 1,
-   "rank": 199,
+   "rank": 345,
    "of": 419
   },
   {
@@ -688,9 +688,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.06,
+   "value": -0.2,
    "digits": 2,
-   "rank": 48,
+   "rank": 97,
    "of": 126
   },
   {
@@ -717,9 +717,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 0.22,
+   "value": -0.04,
    "digits": 2,
-   "rank": 19,
+   "rank": 39,
    "of": 82,
    "franchise": 4
   },
@@ -759,7 +759,7 @@
    "stat": "WAR",
    "value": -0.16,
    "digits": 2,
-   "rank": 65,
+   "rank": 64,
    "of": 67,
    "franchise": 8
   },
@@ -835,10 +835,10 @@
   }
  ],
  "hof": {
-  "score": 2.85,
-  "rank": 234,
+  "score": 2.25,
+  "rank": 247,
   "of": 419,
-  "war": 0.6,
+  "war": 0.0,
   "starts": 2.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -981,12 +981,12 @@
    [
     "2026",
     2,
-    1.2
+    1.0
    ],
    [
     "2026",
     3,
-    1.65
+    1.25
    ],
    [
     "2026",
@@ -996,22 +996,22 @@
    [
     "2026",
     5,
-    3.35
+    1.75
    ],
    [
     "2026",
     6,
-    3.5
+    2.0
    ],
    [
     "2026",
     7,
-    3.5
+    2.0
    ],
    [
     "2026",
     8,
-    2.85
+    2.25
    ]
   ],
   "benchmark": 100

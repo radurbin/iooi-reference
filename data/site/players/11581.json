@@ -48,8 +48,8 @@
    "best": 9.2,
    "wins": 1,
    "paa": -15.78,
-   "vor": -6.18,
-   "war": -0.07
+   "vor": -5.06,
+   "war": -0.06
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 9.2,
   "wins": 1,
   "paa": -15.78,
-  "vor": -6.18,
-  "war": -0.07
+  "vor": -5.06,
+  "war": -0.06
  },
  "nfl": [
   {
@@ -77,7 +77,7 @@
    "team": "GB",
    "g": 8,
    "pts": 57.5,
-   "rank": 39
+   "rank": 43
   }
  ],
  "history": [
@@ -426,8 +426,8 @@
    "proj": 12.97,
    "won": true,
    "paa": -4.18,
-   "vor": 0.61,
-   "war": 0.007209457749680343
+   "vor": 1.17,
+   "war": 0.01382797633955082
   },
   {
    "season": "2026",
@@ -493,8 +493,8 @@
    "proj": 13.11,
    "won": false,
    "paa": -11.6,
-   "vor": -6.79,
-   "war": -0.08024953790217955
+   "vor": -6.23,
+   "war": -0.07363101931230909
   }
  ],
  "status": {
@@ -525,18 +525,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.06,
    "digits": 2,
-   "rank": 256,
+   "rank": 246,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -6.2,
+   "value": -5.1,
    "digits": 1,
-   "rank": 265,
+   "rank": 248,
    "of": 419
   },
   {
@@ -588,9 +588,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.06,
    "digits": 2,
-   "rank": 72,
+   "rank": 71,
    "of": 99
   },
   {
@@ -617,9 +617,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.06,
    "digits": 2,
-   "rank": 47,
+   "rank": 44,
    "of": 73,
    "franchise": 10
   },
@@ -1126,6 +1126,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "GB",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Questionable",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1211,13 +1236,30 @@
     "teams": [],
     "rostered": 0,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "GB",
+    "injury": "Knee",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
-   "status": "Questionable",
+   "status": "Out",
    "injury": "Knee",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

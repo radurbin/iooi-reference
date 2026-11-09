@@ -73,8 +73,8 @@
    "best": 15.7,
    "wins": 2,
    "paa": -20.93,
-   "vor": -9.2,
-   "war": -0.11
+   "vor": -25.0,
+   "war": -0.3
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 15.7,
   "wins": 2,
   "paa": -38.51,
-  "vor": -21.1,
-  "war": -0.25
+  "vor": -36.9,
+  "war": -0.44
  },
  "nfl": [
   {
@@ -107,9 +107,9 @@
   {
    "season": "2026",
    "team": "CAR",
-   "g": 6,
-   "pts": 80.9,
-   "rank": 28
+   "g": 7,
+   "pts": 87.6,
+   "rank": 30
   }
  ],
  "history": [
@@ -601,8 +601,8 @@
    "proj": 12.9,
    "won": true,
    "paa": -0.68,
-   "vor": 3.34,
-   "war": 0.03947473587529893
+   "vor": 0.18,
+   "war": 0.002127380975315511
   },
   {
    "season": "2026",
@@ -620,8 +620,8 @@
    "proj": 14.7,
    "won": false,
    "paa": -9.82,
-   "vor": -7.46,
-   "war": -0.08816812264363173
+   "vor": -10.62,
+   "war": -0.12551547754361514
   },
   {
    "season": "2026",
@@ -671,8 +671,8 @@
    "proj": 12.88,
    "won": true,
    "paa": 3.3,
-   "vor": 4.44,
-   "war": 0.052475397391115945
+   "vor": 1.28,
+   "war": 0.015128042491132523
   },
   {
    "season": "2026",
@@ -690,8 +690,8 @@
    "proj": 15.66,
    "won": false,
    "paa": -11.69,
-   "vor": -9.36,
-   "war": -0.11062381071640656
+   "vor": -12.52,
+   "war": -0.14797116561638998
   },
   {
    "season": "2026",
@@ -709,55 +709,55 @@
    "proj": 15.94,
    "won": false,
    "paa": -2.04,
-   "vor": -0.16,
-   "war": -0.0018910053113915654
+   "vor": -3.32,
+   "war": -0.03923836021137498
   }
  ],
  "similar": [
   {
    "player": "11637",
    "name": "Keon Coleman",
-   "score": 974,
+   "score": 967,
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.29
+   "war": -0.33
   },
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 861,
+   "score": 864,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.46
+   "war": -0.57
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 849,
+   "score": 857,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
    "war": -0.52
   },
   {
-   "player": "2374",
-   "name": "Tyler Lockett",
-   "score": 830,
-   "gs": 15,
-   "pts": 132.1,
-   "ppg": 8.81,
-   "war": -0.57
-  },
-  {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 827,
+   "score": 842,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
    "war": -0.74
+  },
+  {
+   "player": "2374",
+   "name": "Tyler Lockett",
+   "score": 839,
+   "gs": 15,
+   "pts": 132.1,
+   "ppg": 8.81,
+   "war": -0.57
   }
  ],
  "status": {
@@ -788,18 +788,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.25,
+   "value": -0.44,
    "digits": 2,
-   "rank": 362,
+   "rank": 391,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -21.1,
+   "value": -36.9,
    "digits": 1,
-   "rank": 362,
+   "rank": 391,
    "of": 419
   },
   {
@@ -860,9 +860,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.25,
+   "value": -0.44,
    "digits": 2,
-   "rank": 105,
+   "rank": 116,
    "of": 126
   },
   {
@@ -889,9 +889,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.39,
    "digits": 2,
-   "rank": 56,
+   "rank": 62,
    "of": 65,
    "franchise": 9
   },
@@ -931,7 +931,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 54,
+   "rank": 53,
    "of": 77,
    "franchise": 1
   },
@@ -1038,7 +1038,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
+  "rank": 254,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,
@@ -1334,7 +1334,7 @@
     "season": "2026",
     "nfl": "CAR",
     "missed": 1,
-    "lost": 2.22,
+    "lost": 0.0,
     "injuries": [
      "Quadricep"
     ],
@@ -1430,7 +1430,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.22
+    "lost": 0.0
    }
   ],
   "now": null

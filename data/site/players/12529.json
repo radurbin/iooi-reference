@@ -48,8 +48,8 @@
    "best": 5.2,
    "wins": 1,
    "paa": -10.25,
-   "vor": -3.39,
-   "war": -0.04
+   "vor": -2.83,
+   "war": -0.03
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 32.3,
   "wins": 7,
   "paa": -32.84,
-  "vor": 33.32,
-  "war": 0.39
+  "vor": 33.88,
+  "war": 0.4
  },
  "nfl": [
   {
@@ -77,7 +77,7 @@
    "team": "NE",
    "g": 6,
    "pts": 39.0,
-   "rank": 54
+   "rank": 56
   }
  ],
  "history": [
@@ -503,8 +503,8 @@
    "proj": 11.96,
    "won": true,
    "paa": -10.25,
-   "vor": -3.39,
-   "war": -0.04006567503510879
+   "vor": -2.83,
+   "war": -0.03344715644523831
   },
   {
    "season": "2026",
@@ -563,25 +563,25 @@
    "gs": 12,
    "pts": 137.4,
    "ppg": 11.45,
-   "war": 0.38
+   "war": 0.4
   },
   {
    "player": "12534",
    "name": "Kyle Monangai",
-   "score": 955,
+   "score": 954,
    "gs": 12,
    "pts": 144.7,
    "ppg": 12.06,
-   "war": 0.49
+   "war": 0.52
   },
   {
    "player": "8132",
    "name": "Tyler Allgeier",
-   "score": 937,
+   "score": 938,
    "gs": 10,
    "pts": 107.45,
    "ppg": 10.75,
-   "war": 0.19
+   "war": 0.21
   },
   {
    "player": "8143",
@@ -599,7 +599,7 @@
    "gs": 9,
    "pts": 108.2,
    "ppg": 12.02,
-   "war": 0.32
+   "war": 0.33
   }
  ],
  "status": {
@@ -630,18 +630,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.39,
+   "value": 0.4,
    "digits": 2,
-   "rank": 127,
+   "rank": 120,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 33.3,
+   "value": 33.9,
    "digits": 1,
-   "rank": 127,
+   "rank": 121,
    "of": 419
   },
   {
@@ -702,7 +702,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.39,
+   "value": 0.4,
    "digits": 2,
    "rank": 42,
    "of": 99
@@ -731,9 +731,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.39,
+   "value": 0.4,
    "digits": 2,
-   "rank": 13,
+   "rank": 12,
    "of": 57,
    "franchise": 5
   },
@@ -809,10 +809,10 @@
   }
  ],
  "hof": {
-  "score": 6.9,
-  "rank": 162,
+  "score": 7.0,
+  "rank": 160,
   "of": 419,
-  "war": 3.9,
+  "war": 4.0,
   "starts": 3.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -925,22 +925,22 @@
    [
     "2026",
     5,
-    6.9
+    7.0
    ],
    [
     "2026",
     6,
-    6.9
+    7.0
    ],
    [
     "2026",
     7,
-    6.9
+    7.0
    ],
    [
     "2026",
     8,
-    6.9
+    7.0
    ]
   ],
   "benchmark": 100
@@ -952,15 +952,16 @@
    {
     "season": "2026",
     "nfl": "NE",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
-     "Ankle",
-     "Illness"
+     "Illness",
+     "Ankle"
     ],
     "weeks": [
      1,
-     8
+     8,
+     9
     ],
     "kinds": [
      "Out",
@@ -981,6 +982,13 @@
       "injury": "Illness",
       "franchise": 5,
       "team": "St. Brown VS Board💍"
+     },
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Illness",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1011,14 +1019,16 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 8,
+    "to": 9,
     "weeks": [
-     8
+     8,
+     9
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "NE",
     "injury": "Illness",
     "kinds": [
+     "Out",
      "Questionable"
     ],
     "teams": [
@@ -1035,7 +1045,7 @@
    "status": "Out",
    "injury": "Illness",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

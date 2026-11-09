@@ -83,10 +83,10 @@
   },
   {
    "season": "2026",
-   "team": "CLE",
-   "g": 1,
-   "pts": 8.8,
-   "rank": 92
+   "team": "CLE/NO",
+   "g": 2,
+   "pts": 25.0,
+   "rank": 73
   }
  ],
  "history": [
@@ -462,7 +462,7 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 235,
+   "rank": 231,
    "of": 419
   },
   {
@@ -471,7 +471,7 @@
    "stat": "VOR",
    "value": -3.7,
    "digits": 1,
-   "rank": 242,
+   "rank": 236,
    "of": 419
   },
   {
@@ -602,7 +602,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,

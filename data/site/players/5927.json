@@ -80,8 +80,8 @@
    "best": 3.7,
    "wins": 1,
    "paa": -8.7,
-   "vor": -7.56,
-   "war": -0.09
+   "vor": -10.72,
+   "war": -0.13
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 27.3,
   "wins": 12,
   "paa": -55.37,
-  "vor": -1.71,
-  "war": -0.02
+  "vor": -4.87,
+  "war": -0.06
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "WAS",
    "g": 5,
    "pts": 46.0,
-   "rank": 73
+   "rank": 80
   }
  ],
  "history": [
@@ -1160,8 +1160,8 @@
    "proj": 11.61,
    "won": true,
    "paa": -8.7,
-   "vor": -7.56,
-   "war": -0.08935000096325146
+   "vor": -10.72,
+   "war": -0.12669735586323488
   },
   {
    "season": "2026",
@@ -1200,7 +1200,7 @@
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 971,
+   "score": 974,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -1209,29 +1209,29 @@
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 904,
+   "score": 926,
    "gs": 31,
    "pts": 380.4,
    "ppg": 12.27,
-   "war": 0.43
+   "war": 0.24
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 851,
+   "score": 847,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.5
+   "war": 0.47
   },
   {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 814,
+   "score": 809,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": -0.1
+   "war": -0.29
   },
   {
    "player": "8134",
@@ -1240,7 +1240,7 @@
    "gs": 25,
    "pts": 266.9,
    "ppg": 10.68,
-   "war": -0.13
+   "war": -0.17
   }
  ],
  "status": {
@@ -1281,18 +1281,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.02,
+   "value": -0.06,
    "digits": 2,
-   "rank": 227,
+   "rank": 246,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -1.7,
+   "value": -4.9,
    "digits": 1,
-   "rank": 229,
+   "rank": 247,
    "of": 419
   },
   {
@@ -1353,9 +1353,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.02,
+   "value": -0.06,
    "digits": 2,
-   "rank": 52,
+   "rank": 59,
    "of": 126
   },
   {
@@ -1382,9 +1382,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": -0.03,
+   "value": -0.07,
    "digits": 2,
-   "rank": 46,
+   "rank": 53,
    "of": 68,
    "franchise": 3
   },
@@ -1906,14 +1906,16 @@
    {
     "season": "2026",
     "nfl": "WAS",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
-     "Hamstring"
+     "Hamstring",
+     "Knee"
     ],
     "weeks": [
      4,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR",
@@ -1934,6 +1936,13 @@
       "injury": "Hamstring",
       "franchise": 3,
       "team": "Kolkata Kommies"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2013,11 +2022,12 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 8,
+    "to": 9,
     "weeks": [
-     8
+     8,
+     9
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "WAS",
     "injury": "Hamstring",
     "kinds": [
@@ -2037,7 +2047,7 @@
    "status": "IR",
    "injury": "Knee",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

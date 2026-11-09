@@ -994,7 +994,7 @@
    "stat": "WAR",
    "value": 1.47,
    "digits": 2,
-   "rank": 63,
+   "rank": 60,
    "of": 419
   },
   {
@@ -1003,7 +1003,7 @@
    "stat": "VOR",
    "value": 124.3,
    "digits": 1,
-   "rank": 63,
+   "rank": 60,
    "of": 419
   },
   {
@@ -1095,7 +1095,7 @@
    "stat": "WAR",
    "value": 0.35,
    "digits": 2,
-   "rank": 16,
+   "rank": 15,
    "of": 40,
    "franchise": 6
   },
@@ -1469,13 +1469,15 @@
    {
     "season": "2026",
     "nfl": "SEA",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
-     "Glute"
+     "Glute",
+     "Quadricep"
     ],
     "weeks": [
-     2
+     2,
+     9
     ],
     "kinds": [
      "Out"
@@ -1488,6 +1490,13 @@
       "injury": "Glute",
       "franchise": 6,
       "team": "got that DAWG"
+     },
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Quadricep",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1514,13 +1523,30 @@
     ],
     "rostered": 1,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "SEA",
+    "injury": "Quadricep",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Quadriceps",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

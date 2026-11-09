@@ -116,7 +116,7 @@
    "team": "PIT",
    "g": 5,
    "pts": 49.2,
-   "rank": 44
+   "rank": 49
   }
  ],
  "history": [
@@ -906,7 +906,7 @@
   {
    "player": "2749",
    "name": "Raheem Mostert",
-   "score": 931,
+   "score": 932,
    "gs": 15,
    "pts": 238.3,
    "ppg": 15.89,
@@ -915,29 +915,29 @@
   {
    "player": "8228",
    "name": "Jaylen Warren",
-   "score": 930,
+   "score": 928,
    "gs": 20,
    "pts": 302.3,
    "ppg": 15.12,
-   "war": 1.52
+   "war": 1.57
   },
   {
    "player": "12527",
    "name": "Ashton Jeanty",
-   "score": 892,
+   "score": 888,
    "gs": 21,
    "pts": 330.4,
    "ppg": 15.73,
-   "war": 1.77
+   "war": 1.83
   },
   {
    "player": "12481",
    "name": "Cam Skattebo",
-   "score": 882,
+   "score": 886,
    "gs": 13,
    "pts": 191.1,
    "ppg": 14.7,
-   "war": 0.94
+   "war": 0.99
   },
   {
    "player": "4137",
@@ -979,7 +979,7 @@
    "stat": "WAR",
    "value": 1.34,
    "digits": 2,
-   "rank": 65,
+   "rank": 63,
    "of": 419
   },
   {
@@ -988,7 +988,7 @@
    "stat": "VOR",
    "value": 113.6,
    "digits": 1,
-   "rank": 65,
+   "rank": 64,
    "of": 419
   },
   {
@@ -1157,7 +1157,7 @@
  ],
  "hof": {
   "score": 17.65,
-  "rank": 82,
+  "rank": 81,
   "of": 419,
   "war": 13.4,
   "starts": 4.25,
@@ -1410,7 +1410,7 @@
     "season": "2026",
     "nfl": "PIT",
     "missed": 3,
-    "lost": 3.75,
+    "lost": 5.43,
     "injuries": [
      "Toe"
     ],
@@ -1490,7 +1490,7 @@
      }
     ],
     "rostered": 3,
-    "lost": 3.75
+    "lost": 5.43
    }
   ],
   "now": null

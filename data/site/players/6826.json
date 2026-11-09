@@ -107,7 +107,7 @@
    "team": "CHI",
    "g": 7,
    "pts": 24.7,
-   "rank": 47
+   "rank": 49
   }
  ],
  "history": [
@@ -861,16 +861,16 @@
    "gs": 20,
    "pts": 136.5,
    "ppg": 6.83,
-   "war": -0.72
+   "war": -0.73
   },
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 777,
+   "score": 780,
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.17
+   "war": -0.19
   },
   {
    "player": "3214",
@@ -879,16 +879,16 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.11
+   "war": -0.12
   },
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 692,
+   "score": 694,
    "gs": 32,
    "pts": 291.5,
    "ppg": 9.11,
-   "war": -0.32
+   "war": -0.35
   },
   {
    "player": "12493",
@@ -929,7 +929,7 @@
    "stat": "WAR",
    "value": -0.74,
    "digits": 2,
-   "rank": 410,
+   "rank": 407,
    "of": 419
   },
   {
@@ -938,7 +938,7 @@
    "stat": "VOR",
    "value": -62.3,
    "digits": 1,
-   "rank": 410,
+   "rank": 407,
    "of": 419
   },
   {
@@ -1137,7 +1137,7 @@
  ],
  "hof": {
   "score": 5.5,
-  "rank": 185,
+  "rank": 184,
   "of": 419,
   "war": 0.0,
   "starts": 5.5,
@@ -1474,13 +1474,14 @@
    {
     "season": "2026",
     "nfl": "CHI",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Knee"
     ],
     "weeks": [
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1489,6 +1490,13 @@
     "games": [
      {
       "week": 8,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 9,
       "kind": "IR",
       "injury": "Knee",
       "franchise": null,
@@ -1523,11 +1531,12 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 8,
+    "to": 9,
     "weeks": [
-     8
+     8,
+     9
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "CHI",
     "injury": "Knee",
     "kinds": [

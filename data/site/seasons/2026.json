@@ -1936,7 +1936,7 @@
     {
      "player": "9221",
      "name": "Jahmyr Gibbs",
-     "value": 1.79,
+     "value": 1.84,
      "teams": [
       {
        "franchise": 5,
@@ -1945,20 +1945,9 @@
      ]
     },
     {
-     "player": "9488",
-     "name": "Jaxon Smith-Njigba",
-     "value": 1.56,
-     "teams": [
-      {
-       "franchise": 3,
-       "team": "Kolkata Kommies"
-      }
-     ]
-    },
-    {
      "player": "8151",
      "name": "Kenneth Walker III",
-     "value": 1.35,
+     "value": 1.39,
      "teams": [
       {
        "franchise": 2,
@@ -1967,24 +1956,35 @@
      ]
     },
     {
-     "player": "4984",
-     "name": "Josh Allen",
-     "value": 1.18,
+     "player": "9488",
+     "name": "Jaxon Smith-Njigba",
+     "value": 1.26,
      "teams": [
       {
-       "franchise": 1,
-       "team": "Mojo Dojo Casa Team 💍"
+       "franchise": 3,
+       "team": "Kolkata Kommies"
       }
      ]
     },
     {
      "player": "9509",
      "name": "Bijan Robinson",
-     "value": 1.18,
+     "value": 1.23,
      "teams": [
       {
        "franchise": 9,
        "team": "Clandestine Ball Busters"
+      }
+     ]
+    },
+    {
+     "player": "6790",
+     "name": "D'Andre Swift",
+     "value": 1.19,
+     "teams": [
+      {
+       "franchise": 11,
+       "team": "BubbaNASTIES"
       }
      ]
     }
@@ -2596,13 +2596,13 @@
     "finish": null,
     "games": 25,
     "players": 10,
-    "lost": 81.5,
+    "lost": 86.35,
     "worst": {
-     "player": "9493",
-     "name": "Puka Nacua",
-     "pos": "WR",
-     "missed": 2,
-     "lost": 24.34
+     "player": "13345",
+     "name": "Jonah Coleman",
+     "pos": "RB",
+     "missed": 4,
+     "lost": 21.96
     },
     "rank": 1,
     "games_rank": 4,
@@ -2620,40 +2620,16 @@
     "finish": null,
     "games": 22,
     "players": 7,
-    "lost": 51.5,
+    "lost": 55.3,
     "worst": {
      "player": "9226",
      "name": "De'Von Achane",
      "pos": "RB",
      "missed": 4,
-     "lost": 40.44
+     "lost": 42.68
     },
     "rank": 2,
     "games_rank": 6,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 2,
-    "team": "Storm FC",
-    "managers": [
-     "alex"
-    ],
-    "w": 5,
-    "l": 3,
-    "finish": null,
-    "games": 37,
-    "players": 12,
-    "lost": 47.36,
-    "worst": {
-     "player": "7525",
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "missed": 4,
-     "lost": 25.48
-    },
-    "rank": 3,
-    "games_rank": 1,
     "of": 12
    },
    {
@@ -2668,15 +2644,15 @@
     "finish": null,
     "games": 27,
     "players": 9,
-    "lost": 45.51,
+    "lost": 49.42,
     "worst": {
      "player": "8155",
      "name": "Breece Hall",
      "pos": "RB",
      "missed": 3,
-     "lost": 14.52
+     "lost": 21.51
     },
-    "rank": 4,
+    "rank": 3,
     "games_rank": 2,
     "of": 12
    },
@@ -2692,15 +2668,15 @@
     "finish": null,
     "games": 25,
     "players": 6,
-    "lost": 32.92,
+    "lost": 33.2,
     "worst": {
      "player": "12534",
      "name": "Kyle Monangai",
      "pos": "RB",
      "missed": 4,
-     "lost": 30.92
+     "lost": 33.16
     },
-    "rank": 5,
+    "rank": 4,
     "games_rank": 4,
     "of": 12
    },
@@ -2716,16 +2692,64 @@
     "finish": null,
     "games": 10,
     "players": 4,
-    "lost": 28.68,
+    "lost": 27.76,
     "worst": {
      "player": "7543",
      "name": "Travis Etienne Jr.",
      "pos": "RB",
      "missed": 4,
-     "lost": 25.52
+     "lost": 27.76
+    },
+    "rank": 5,
+    "games_rank": 11,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 2,
+    "team": "Storm FC",
+    "managers": [
+     "alex"
+    ],
+    "w": 5,
+    "l": 3,
+    "finish": null,
+    "games": 37,
+    "players": 12,
+    "lost": 25.58,
+    "worst": {
+     "player": "7525",
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "missed": 4,
+     "lost": 12.84
     },
     "rank": 6,
-    "games_rank": 11,
+    "games_rank": 1,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 10,
+    "team": "Maddison Beer’s Boys",
+    "managers": [
+     "elis"
+    ],
+    "w": 2,
+    "l": 6,
+    "finish": null,
+    "games": 21,
+    "players": 9,
+    "lost": 22.11,
+    "worst": {
+     "player": "11560",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "missed": 3,
+     "lost": 16.68
+    },
+    "rank": 7,
+    "games_rank": 9,
     "of": 12
    },
    {
@@ -2741,87 +2765,15 @@
     "finish": null,
     "games": 22,
     "players": 10,
-    "lost": 26.39,
+    "lost": 18.61,
     "worst": {
-     "player": "2133",
-     "name": "Davante Adams",
-     "pos": "WR",
-     "missed": 2,
-     "lost": 11.98
-    },
-    "rank": 7,
-    "games_rank": 6,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 10,
-    "team": "Maddison Beer’s Boys",
-    "managers": [
-     "elis"
-    ],
-    "w": 2,
-    "l": 6,
-    "finish": null,
-    "games": 21,
-    "players": 9,
-    "lost": 23.82,
-    "worst": {
-     "player": "11560",
-     "name": "Caleb Williams",
-     "pos": "QB",
-     "missed": 3,
-     "lost": 20.07
-    },
-    "rank": 8,
-    "games_rank": 9,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 6,
-    "team": "got that DAWG",
-    "managers": [
-     "makenzy"
-    ],
-    "w": 4,
-    "l": 4,
-    "finish": null,
-    "games": 27,
-    "players": 9,
-    "lost": 20.91,
-    "worst": {
-     "player": "5859",
-     "name": "A.J. Brown",
-     "pos": "WR",
-     "missed": 5,
-     "lost": 10.2
-    },
-    "rank": 9,
-    "games_rank": 2,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 12,
-    "team": "Team Win One Game",
-    "managers": [
-     "charlie"
-    ],
-    "w": 1,
-    "l": 7,
-    "finish": null,
-    "games": 22,
-    "players": 10,
-    "lost": 14.78,
-    "worst": {
-     "player": "8155",
-     "name": "Breece Hall",
+     "player": "12489",
+     "name": "RJ Harvey",
      "pos": "RB",
      "missed": 2,
-     "lost": 9.68
+     "lost": 7.2
     },
-    "rank": 10,
+    "rank": 8,
     "games_rank": 6,
     "of": 12
    },
@@ -2837,7 +2789,7 @@
     "finish": null,
     "games": 21,
     "players": 9,
-    "lost": 14.75,
+    "lost": 18.26,
     "worst": {
      "player": "4881",
      "name": "Lamar Jackson",
@@ -2845,8 +2797,32 @@
      "missed": 3,
      "lost": 8.55
     },
-    "rank": 11,
+    "rank": 9,
     "games_rank": 9,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 12,
+    "team": "Team Win One Game",
+    "managers": [
+     "charlie"
+    ],
+    "w": 1,
+    "l": 7,
+    "finish": null,
+    "games": 22,
+    "players": 10,
+    "lost": 17.25,
+    "worst": {
+     "player": "8155",
+     "name": "Breece Hall",
+     "pos": "RB",
+     "missed": 2,
+     "lost": 14.34
+    },
+    "rank": 10,
+    "games_rank": 6,
     "of": 12
    },
    {
@@ -2862,16 +2838,40 @@
     "finish": null,
     "games": 9,
     "players": 4,
-    "lost": 7.66,
+    "lost": 7.68,
     "worst": {
      "player": "13287",
      "name": "Jeremiyah Love",
      "pos": "RB",
      "missed": 2,
-     "lost": 3.16
+     "lost": 4.28
+    },
+    "rank": 11,
+    "games_rank": 12,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 6,
+    "team": "got that DAWG",
+    "managers": [
+     "makenzy"
+    ],
+    "w": 4,
+    "l": 4,
+    "finish": null,
+    "games": 27,
+    "players": 9,
+    "lost": 3.19,
+    "worst": {
+     "player": "9997",
+     "name": "Zay Flowers",
+     "pos": "WR",
+     "missed": 1,
+     "lost": 1.78
     },
     "rank": 12,
-    "games_rank": 12,
+    "games_rank": 2,
     "of": 12
    }
   ],
@@ -2912,7 +2912,7 @@
     "pos": "RB",
     "season": "2026",
     "missed": 7,
-    "lost": 14.21,
+    "lost": 18.41,
     "injuries": [
      "Knee"
     ],
@@ -3001,9 +3001,7 @@
     "season": "2026",
     "missed": 7,
     "lost": 0.0,
-    "injuries": [
-     "Hamstring"
-    ],
+    "injuries": [],
     "weeks": [
      1,
      2,

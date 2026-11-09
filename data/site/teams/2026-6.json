@@ -232,8 +232,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": 31.58,
-   "vor": 86.17,
-   "war": 1.02
+   "vor": 90.09,
+   "war": 1.06
   },
   {
    "player": "9997",
@@ -247,8 +247,8 @@
    "bench_pts": 15.5,
    "wins": 4,
    "paa": 24.74,
-   "vor": 39.44,
-   "war": 0.47
+   "vor": 20.48,
+   "war": 0.24
   },
   {
    "player": "8137",
@@ -262,8 +262,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": -5.36,
-   "vor": 15.72,
-   "war": 0.19
+   "vor": -9.56,
+   "war": -0.11
   },
   {
    "player": "9224",
@@ -277,8 +277,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": -13.47,
-   "vor": 43.17,
-   "war": 0.51
+   "vor": 47.09,
+   "war": 0.56
   },
   {
    "player": "2216",
@@ -292,8 +292,8 @@
    "bench_pts": 16.9,
    "wins": 1,
    "paa": 1.36,
-   "vor": 15.8,
-   "war": 0.19
+   "vor": 0.0,
+   "war": 0.0
   },
   {
    "player": "11786",
@@ -307,8 +307,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": 2.48,
-   "vor": 1.1,
-   "war": 0.01
+   "vor": -18.01,
+   "war": -0.21
   },
   {
    "player": "5022",
@@ -322,8 +322,8 @@
    "bench_pts": 9.8,
    "wins": 3,
    "paa": -0.38,
-   "vor": 6.7,
-   "war": 0.08
+   "vor": 4.3,
+   "war": 0.05
   },
   {
    "player": "4199",
@@ -337,8 +337,8 @@
    "bench_pts": 40.9,
    "wins": 1,
    "paa": 4.83,
-   "vor": 24.13,
-   "war": 0.29
+   "vor": 25.81,
+   "war": 0.31
   },
   {
    "player": "4943",
@@ -367,8 +367,8 @@
    "bench_pts": 37.8,
    "wins": 1,
    "paa": -12.01,
-   "vor": -4.86,
-   "war": -0.06
+   "vor": -6.3,
+   "war": -0.07
   },
   {
    "player": "HOU",
@@ -382,7 +382,7 @@
    "bench_pts": 19.0,
    "wins": 1,
    "paa": 8.33,
-   "vor": 12.0,
+   "vor": 11.89,
    "war": 0.14
   },
   {
@@ -397,8 +397,8 @@
    "bench_pts": 83.7,
    "wins": 1,
    "paa": 5.36,
-   "vor": 7.24,
-   "war": 0.09
+   "vor": 4.08,
+   "war": 0.05
   },
   {
    "player": "5859",
@@ -412,8 +412,8 @@
    "bench_pts": 5.7,
    "wins": 2,
    "paa": -13.88,
-   "vor": -9.12,
-   "war": -0.11
+   "vor": -15.44,
+   "war": -0.18
   },
   {
    "player": "PHI",
@@ -427,7 +427,7 @@
    "bench_pts": 6.0,
    "wins": 3,
    "paa": -30.9,
-   "vor": -36.0,
+   "vor": -36.77,
    "war": -0.43
   },
   {
@@ -442,8 +442,8 @@
    "bench_pts": 6.6,
    "wins": 0,
    "paa": -2.4,
-   "vor": 2.41,
-   "war": 0.03
+   "vor": 2.97,
+   "war": 0.04
   },
   {
    "player": "6083",
@@ -457,8 +457,8 @@
    "bench_pts": 10.3,
    "wins": 1,
    "paa": -0.97,
-   "vor": -0.4,
-   "war": -0.0
+   "vor": -3.13,
+   "war": -0.04
   },
   {
    "player": "12498",
@@ -1281,8 +1281,8 @@
    "opp_record": "3-5",
    "opp_seed": 10,
    "chance": 0.628,
-   "proj": 140.1,
-   "opp_proj": 83.69
+   "proj": 137.59,
+   "opp_proj": 93.37
   },
   {
    "week": 10,
@@ -1328,40 +1328,17 @@
  "injuries": {
   "games": 27,
   "players": 9,
-  "lost": 20.91,
-  "rank": 9,
+  "lost": 3.19,
+  "rank": 12,
   "games_rank": 2,
   "of": 12,
   "rows": [
-   {
-    "player": "5859",
-    "name": "A.J. Brown",
-    "pos": "WR",
-    "missed": 5,
-    "lost": 10.2,
-    "injuries": [
-     "Knee",
-     "Ankle"
-    ],
-    "weeks": [
-     2,
-     3,
-     4,
-     5,
-     8
-    ],
-    "kinds": [
-     "IR",
-     "Questionable"
-    ],
-    "gs": 2
-   },
    {
     "player": "9997",
     "name": "Zay Flowers",
     "pos": "WR",
     "missed": 1,
-    "lost": 4.94,
+    "lost": 1.78,
     "injuries": [
      "Hamstring"
     ],
@@ -1374,16 +1351,17 @@
     "gs": 6
    },
    {
-    "player": "2216",
-    "name": "Mike Evans",
-    "pos": "WR",
-    "missed": 1,
-    "lost": 3.57,
+    "player": "5022",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "missed": 2,
+    "lost": 1.0,
     "injuries": [
-     "Ribs"
+     "Knee"
     ],
     "weeks": [
-     7
+     3,
+     4
     ],
     "kinds": [
      "Out"
@@ -1391,17 +1369,16 @@
     "gs": 5
    },
    {
-    "player": "5022",
-    "name": "Dallas Goedert",
-    "pos": "TE",
-    "missed": 2,
-    "lost": 2.2,
+    "player": "2216",
+    "name": "Mike Evans",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 0.41,
     "injuries": [
-     "Knee"
+     "Ribs"
     ],
     "weeks": [
-     3,
-     4
+     7
     ],
     "kinds": [
      "Out"
@@ -1430,6 +1407,29 @@
      "IR"
     ],
     "gs": 0
+   },
+   {
+    "player": "5859",
+    "name": "A.J. Brown",
+    "pos": "WR",
+    "missed": 5,
+    "lost": 0.0,
+    "injuries": [
+     "Knee",
+     "Ankle"
+    ],
+    "weeks": [
+     2,
+     3,
+     4,
+     5,
+     8
+    ],
+    "kinds": [
+     "IR",
+     "Questionable"
+    ],
+    "gs": 2
    },
    {
     "player": "9502",

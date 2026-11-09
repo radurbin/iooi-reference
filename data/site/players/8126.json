@@ -82,8 +82,8 @@
    "best": 15.7,
    "wins": 0,
    "paa": -4.64,
-   "vor": -1.62,
-   "war": -0.02
+   "vor": -7.94,
+   "war": -0.09
   }
  ],
  "totals": {
@@ -95,8 +95,8 @@
   "best": 32.1,
   "wins": 8,
   "paa": 1.13,
-  "vor": 29.18,
-  "war": 0.34
+  "vor": 22.86,
+  "war": 0.27
  },
  "nfl": [
   {
@@ -125,7 +125,7 @@
    "team": "TEN",
    "g": 8,
    "pts": 77.4,
-   "rank": 32
+   "rank": 39
   }
  ],
  "history": [
@@ -1086,8 +1086,8 @@
    "proj": 11.04,
    "won": false,
    "paa": -7.2,
-   "vor": -6.06,
-   "war": -0.07162182616895553
+   "vor": -9.22,
+   "war": -0.10896918106893896
   },
   {
    "season": "2026",
@@ -1121,33 +1121,33 @@
    "proj": 10.83,
    "won": false,
    "paa": 2.56,
-   "vor": 4.44,
-   "war": 0.052475397391115945
+   "vor": 1.28,
+   "war": 0.015128042491132523
   }
  ],
  "similar": [
   {
-   "player": "7049",
-   "name": "Jauan Jennings",
-   "score": 947,
-   "gs": 12,
-   "pts": 167.3,
-   "ppg": 13.94,
-   "war": 0.37
-  },
-  {
    "player": "5947",
    "name": "Jakobi Meyers",
-   "score": 939,
+   "score": 946,
    "gs": 13,
    "pts": 164.3,
    "ppg": 12.64,
    "war": 0.14
   },
   {
+   "player": "7049",
+   "name": "Jauan Jennings",
+   "score": 944,
+   "gs": 12,
+   "pts": 167.3,
+   "ppg": 13.94,
+   "war": 0.37
+  },
+  {
    "player": "8142",
    "name": "Alec Pierce",
-   "score": 919,
+   "score": 921,
    "gs": 10,
    "pts": 124.6,
    "ppg": 12.46,
@@ -1156,11 +1156,11 @@
   {
    "player": "10232",
    "name": "Michael Wilson",
-   "score": 895,
+   "score": 899,
    "gs": 12,
    "pts": 175.18,
    "ppg": 14.6,
-   "war": 0.49
+   "war": 0.26
   },
   {
    "player": "8148",
@@ -1169,7 +1169,7 @@
    "gs": 17,
    "pts": 219.0,
    "ppg": 12.88,
-   "war": 0.36
+   "war": 0.32
   }
  ],
  "status": {
@@ -1200,18 +1200,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.34,
+   "value": 0.27,
    "digits": 2,
-   "rank": 138,
+   "rank": 140,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 29.2,
+   "value": 22.9,
    "digits": 1,
-   "rank": 138,
+   "rank": 140,
    "of": 419
   },
   {
@@ -1272,9 +1272,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.34,
+   "value": 0.27,
    "digits": 2,
-   "rank": 39,
+   "rank": 35,
    "of": 126
   },
   {
@@ -1301,9 +1301,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.34,
+   "value": 0.27,
    "digits": 2,
-   "rank": 15,
+   "rank": 16,
    "of": 57,
    "franchise": 5
   },
@@ -1409,10 +1409,10 @@
   }
  ],
  "hof": {
-  "score": 6.4,
-  "rank": 173,
+  "score": 5.7,
+  "rank": 179,
   "of": 419,
-  "war": 3.4,
+  "war": 2.7,
   "starts": 3.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1680,17 +1680,17 @@
    [
     "2026",
     6,
-    5.65
+    5.35
    ],
    [
     "2026",
     7,
-    5.65
+    5.35
    ],
    [
     "2026",
     8,
-    6.4
+    5.7
    ]
   ],
   "benchmark": 100

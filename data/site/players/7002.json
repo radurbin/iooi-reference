@@ -57,7 +57,7 @@
    "best": 26.8,
    "wins": 1,
    "paa": 14.14,
-   "vor": 16.98,
+   "vor": 16.5,
    "war": 0.2
   }
  ],
@@ -70,7 +70,7 @@
   "best": 26.8,
   "wins": 3,
   "paa": -19.02,
-  "vor": -5.6,
+  "vor": -6.08,
   "war": -0.07
  },
  "nfl": [
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "NO",
-   "g": 7,
-   "pts": 71.0,
-   "rank": 18
+   "g": 8,
+   "pts": 82.4,
+   "rank": 13
   }
  ],
  "history": [
@@ -516,8 +516,8 @@
    "proj": 10.28,
    "won": true,
    "paa": 14.14,
-   "vor": 16.98,
-   "war": 0.2006829386714299
+   "vor": 16.5,
+   "war": 0.19500992273725518
   },
   {
    "season": "2026",
@@ -617,7 +617,7 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.11
+   "war": -0.12
   },
   {
    "player": "12493",
@@ -631,20 +631,20 @@
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 768,
+   "score": 771,
    "gs": 11,
    "pts": 122.0,
    "ppg": 11.09,
-   "war": 0.2
+   "war": 0.16
   },
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 764,
+   "score": 763,
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.17
+   "war": -0.19
   }
  ],
  "status": {
@@ -677,16 +677,16 @@
    "stat": "WAR",
    "value": -0.07,
    "digits": 2,
-   "rank": 256,
+   "rank": 251,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -5.6,
+   "value": -6.1,
    "digits": 1,
-   "rank": 256,
+   "rank": 257,
    "of": 419
   },
   {
@@ -778,7 +778,7 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 48,
+   "rank": 45,
    "of": 82,
    "franchise": 4
   },
@@ -925,7 +925,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
+  "rank": 254,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

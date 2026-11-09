@@ -57,8 +57,8 @@
    "best": 16.4,
    "wins": 2,
    "paa": -9.11,
-   "vor": -3.28,
-   "war": -0.04
+   "vor": -12.76,
+   "war": -0.15
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 16.4,
   "wins": 2,
   "paa": -9.11,
-  "vor": -3.28,
-  "war": -0.04
+  "vor": -12.76,
+  "war": -0.15
  },
  "nfl": [
   {
@@ -91,9 +91,9 @@
   {
    "season": "2026",
    "team": "NO",
-   "g": 7,
-   "pts": 85.8,
-   "rank": 25
+   "g": 8,
+   "pts": 89.5,
+   "rank": 27
   }
  ],
  "history": [
@@ -698,8 +698,8 @@
    "proj": 10.02,
    "won": false,
    "paa": -6.72,
-   "vor": -4.36,
-   "war": -0.05152989473542016
+   "vor": -7.52,
+   "war": -0.08887724963540357
   },
   {
    "season": "2026",
@@ -749,8 +749,8 @@
    "proj": 10.64,
    "won": true,
    "paa": -5.2,
-   "vor": -4.06,
-   "war": -0.04798425977656097
+   "vor": -7.22,
+   "war": -0.08533161467654439
   },
   {
    "season": "2026",
@@ -768,8 +768,8 @@
    "proj": 10.16,
    "won": true,
    "paa": 2.81,
-   "vor": 5.14,
-   "war": 0.06074854562845403
+   "vor": 1.98,
+   "war": 0.02340119072847062
   },
   {
    "season": "2026",
@@ -816,18 +816,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.04,
+   "value": -0.15,
    "digits": 2,
-   "rank": 235,
+   "rank": 320,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -3.3,
+   "value": -12.8,
    "digits": 1,
-   "rank": 237,
+   "rank": 324,
    "of": 419
   },
   {
@@ -879,9 +879,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.04,
+   "value": -0.15,
    "digits": 2,
-   "rank": 55,
+   "rank": 86,
    "of": 126
   },
   {
@@ -908,9 +908,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.04,
+   "value": -0.15,
    "digits": 2,
-   "rank": 42,
+   "rank": 64,
    "of": 82,
    "franchise": 4
   },

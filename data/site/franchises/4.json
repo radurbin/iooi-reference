@@ -220,8 +220,8 @@
     "best": 35.8,
     "wins": 13,
     "paa": 25.52,
-    "vor": 87.24,
-    "war": 1.03
+    "vor": 84.08,
+    "war": 0.99
    },
    {
     "player": "5967",
@@ -233,8 +233,8 @@
     "best": 39.0,
     "wins": 6,
     "paa": 7.87,
-    "vor": 82.25,
-    "war": 0.97
+    "vor": 86.17,
+    "war": 1.02
    },
    {
     "player": "421",
@@ -350,8 +350,8 @@
     "best": 40.9,
     "wins": 4,
     "paa": -34.54,
-    "vor": 2.16,
-    "war": 0.03
+    "vor": -10.48,
+    "war": -0.12
    },
    {
     "player": "12534",
@@ -363,8 +363,8 @@
     "best": 31.0,
     "wins": 4,
     "paa": -25.27,
-    "vor": 41.62,
-    "war": 0.49
+    "vor": 43.86,
+    "war": 0.52
    },
    {
     "player": "2309",
@@ -389,8 +389,8 @@
     "best": 31.4,
     "wins": 3,
     "paa": -25.45,
-    "vor": 37.11,
-    "war": 0.44
+    "vor": 38.79,
+    "war": 0.46
    },
    {
     "player": "5248",
@@ -480,8 +480,8 @@
     "best": 23.9,
     "wins": 3,
     "paa": 14.56,
-    "vor": 33.28,
-    "war": 0.39
+    "vor": 11.16,
+    "war": 0.13
    },
    {
     "player": "4179",
@@ -506,8 +506,8 @@
     "best": 30.4,
     "wins": 2,
     "paa": -0.37,
-    "vor": 18.38,
-    "war": 0.22
+    "vor": -3.74,
+    "war": -0.04
    }
   ],
   "by_pos": {
@@ -576,8 +576,8 @@
      "best": 39.0,
      "wins": 6,
      "paa": 7.87,
-     "vor": 82.25,
-     "war": 0.97
+     "vor": 86.17,
+     "war": 1.02
     },
     {
      "player": "4034",
@@ -604,8 +604,8 @@
      "best": 35.8,
      "wins": 13,
      "paa": 25.52,
-     "vor": 87.24,
-     "war": 1.03
+     "vor": 84.08,
+     "war": 0.99
     },
     {
      "player": "2449",
@@ -658,8 +658,8 @@
      "best": 26.0,
      "wins": 3,
      "paa": -13.57,
-     "vor": -1.22,
-     "war": -0.01
+     "vor": -4.1,
+     "war": -0.05
     },
     {
      "player": "2505",
@@ -671,8 +671,8 @@
      "best": 18.8,
      "wins": 1,
      "paa": -44.57,
-     "vor": -32.3,
-     "war": -0.38
+     "vor": -32.78,
+     "war": -0.39
     }
    ],
    "K": [
@@ -1376,8 +1376,8 @@
     "team": "Im Stroud Of You",
     "games": 25,
     "players": 6,
-    "lost": 32.92,
-    "rank": 5,
+    "lost": 33.2,
+    "rank": 4,
     "games_rank": 4,
     "of": 12,
     "worst": {
@@ -1385,7 +1385,7 @@
      "name": "Kyle Monangai",
      "pos": "RB",
      "missed": 4,
-     "lost": 30.92
+     "lost": 33.16
     },
     "w": 3,
     "l": 5
@@ -1516,7 +1516,7 @@
     "name": "Deebo Samuel Sr.",
     "pos": "WR",
     "missed": 6,
-    "lost": 13.4,
+    "lost": 11.4,
     "injuries": [
      "Shoulder",
      "Hamstring",
@@ -1598,7 +1598,7 @@
     "name": "Kyle Monangai",
     "pos": "RB",
     "missed": 4,
-    "lost": 30.92,
+    "lost": 33.16,
     "injuries": [
      "Thumb"
     ],
@@ -1629,6 +1629,22 @@
     ]
    },
    {
+    "player": "8408",
+    "name": "Jordan Mason",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 0.04,
+    "injuries": [
+     "Thumb"
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "seasons": [
+     "2026"
+    ]
+   },
+   {
     "player": "4950",
     "name": "Christian Kirk",
     "pos": "WR",
@@ -1643,31 +1659,15 @@
     "seasons": [
      "2025"
     ]
-   },
-   {
-    "player": "8408",
-    "name": "Jordan Mason",
-    "pos": "RB",
-    "missed": 4,
-    "lost": 0.0,
-    "injuries": [
-     "Thumb"
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "seasons": [
-     "2026"
-    ]
    }
   ],
   "total": {
    "franchise": 4,
    "name": "Im Stroud Of You",
    "games": 132,
-   "lost": 225.41,
+   "lost": 225.69,
    "seasons": 4,
-   "per_season": 56.35,
+   "per_season": 56.42,
    "worst": "2024"
   }
  }

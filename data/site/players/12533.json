@@ -41,8 +41,8 @@
    "best": 7.9,
    "wins": 1,
    "paa": -9.6,
-   "vor": -0.69,
-   "war": -0.01
+   "vor": -0.13,
+   "war": -0.0
   }
  ],
  "totals": {
@@ -54,8 +54,8 @@
   "best": 27.0,
   "wins": 6,
   "paa": -91.31,
-  "vor": 2.66,
-  "war": 0.03
+  "vor": 3.22,
+  "war": 0.04
  },
  "nfl": [
   {
@@ -70,7 +70,7 @@
    "team": "WAS",
    "g": 5,
    "pts": 51.6,
-   "rank": 42
+   "rank": 45
   }
  ],
  "history": [
@@ -510,8 +510,8 @@
    "proj": 14.78,
    "won": true,
    "paa": -9.6,
-   "vor": -0.69,
-   "war": -0.008154960405376124
+   "vor": -0.13,
+   "war": -0.0015364418155056469
   },
   {
    "season": "2026",
@@ -586,7 +586,7 @@
    "gs": 15,
    "pts": 123.9,
    "ppg": 8.26,
-   "war": -0.23
+   "war": -0.22
   },
   {
    "player": "6845",
@@ -653,18 +653,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.03,
+   "value": 0.04,
    "digits": 2,
-   "rank": 207,
+   "rank": 195,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 2.7,
+   "value": 3.2,
    "digits": 1,
-   "rank": 208,
+   "rank": 196,
    "of": 419
   },
   {
@@ -725,9 +725,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.03,
+   "value": 0.04,
    "digits": 2,
-   "rank": 57,
+   "rank": 56,
    "of": 99
   },
   {
@@ -794,9 +794,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": -0.01,
+   "value": 0.0,
    "digits": 2,
-   "rank": 34,
+   "rank": 32,
    "of": 57,
    "franchise": 5
   },
@@ -872,10 +872,10 @@
   }
  ],
  "hof": {
-  "score": 4.3,
-  "rank": 206,
+  "score": 4.4,
+  "rank": 204,
   "of": 419,
-  "war": 0.3,
+  "war": 0.4,
   "starts": 4.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -983,27 +983,27 @@
    [
     "2026",
     4,
-    4.3
+    4.4
    ],
    [
     "2026",
     5,
-    4.3
+    4.4
    ],
    [
     "2026",
     6,
-    4.3
+    4.4
    ],
    [
     "2026",
     7,
-    4.3
+    4.4
    ],
    [
     "2026",
     8,
-    4.3
+    4.4
    ]
   ],
   "benchmark": 100
@@ -1015,13 +1015,14 @@
    {
     "season": "2026",
     "nfl": "WAS",
-    "missed": 1,
-    "lost": 1.73,
+    "missed": 2,
+    "lost": 2.29,
     "injuries": [
      "Groin"
     ],
     "weeks": [
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR"
@@ -1034,6 +1035,13 @@
       "injury": "Groin",
       "franchise": 5,
       "team": "St. Brown VS Board💍"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1042,11 +1050,12 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 8,
+    "to": 9,
     "weeks": [
-     8
+     8,
+     9
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "WAS",
     "injury": "Groin",
     "kinds": [
@@ -1059,14 +1068,14 @@
      }
     ],
     "rostered": 1,
-    "lost": 1.73
+    "lost": 2.29
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Groin",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

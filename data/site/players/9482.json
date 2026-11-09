@@ -96,7 +96,7 @@
    "best": 9.2,
    "wins": 1,
    "paa": 0.53,
-   "vor": -0.62,
+   "vor": -1.1,
    "war": -0.01
   }
  ],
@@ -109,8 +109,8 @@
   "best": 9.2,
   "wins": 2,
   "paa": -12.61,
-  "vor": -18.04,
-  "war": -0.21
+  "vor": -18.52,
+  "war": -0.22
  },
  "nfl": [
   {
@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "LV",
-   "g": 8,
-   "pts": 78.6,
-   "rank": 13
+   "g": 9,
+   "pts": 83.3,
+   "rank": 12
   }
  ],
  "history": [
@@ -508,8 +508,8 @@
    "proj": 8.52,
    "won": true,
    "paa": 0.53,
-   "vor": -0.62,
-   "war": -0.007327645581642316
+   "vor": -1.1,
+   "war": -0.013000661515817013
   },
   {
    "season": "2026",
@@ -652,18 +652,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.21,
+   "value": -0.22,
    "digits": 2,
-   "rank": 354,
+   "rank": 349,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -18.0,
+   "value": -18.5,
    "digits": 1,
-   "rank": 358,
+   "rank": 349,
    "of": 419
   },
   {
@@ -715,9 +715,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.21,
+   "value": -0.22,
    "digits": 2,
-   "rank": 40,
+   "rank": 41,
    "of": 52
   },
   {

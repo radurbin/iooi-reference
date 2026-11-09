@@ -511,7 +511,7 @@
    {
     "season": "2026",
     "nfl": "HOU",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
      "Knee - ACL"
@@ -523,7 +523,8 @@
      4,
      5,
      6,
-     7
+     7,
+     9
     ],
     "kinds": [
      "IR"
@@ -578,6 +579,13 @@
       "injury": "Knee - ACL",
       "franchise": 8,
       "team": "BBL KIZZY"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -586,7 +594,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 7,
+    "to": 9,
     "weeks": [
      1,
      2,
@@ -594,9 +602,10 @@
      4,
      5,
      6,
-     7
+     7,
+     9
     ],
-    "missed": 7,
+    "missed": 8,
     "nfl": "HOU",
     "injury": "Knee - ACL",
     "kinds": [
@@ -616,7 +625,7 @@
    "status": "IR",
    "injury": "Knee - ACL",
    "since": null,
-   "streak": 7
+   "streak": 8
   }
  }
 }

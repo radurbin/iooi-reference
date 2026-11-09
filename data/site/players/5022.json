@@ -96,8 +96,8 @@
    "best": 23.7,
    "wins": 3,
    "paa": -0.38,
-   "vor": 6.7,
-   "war": 0.08
+   "vor": 4.3,
+   "war": 0.05
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 27.0,
   "wins": 16,
   "paa": -56.76,
-  "vor": -27.1,
-  "war": -0.32
+  "vor": -29.5,
+  "war": -0.35
  },
  "nfl": [
   {
@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "PHI",
-   "g": 6,
-   "pts": 65.6,
-   "rank": 20
+   "g": 7,
+   "pts": 75.6,
+   "rank": 19
   }
  ],
  "history": [
@@ -1091,8 +1091,8 @@
    "proj": 9.96,
    "won": true,
    "paa": 15.03,
-   "vor": 13.88,
-   "war": 0.1640447107632183
+   "vor": 13.4,
+   "war": 0.1583716948290436
   },
   {
    "season": "2026",
@@ -1110,8 +1110,8 @@
    "proj": 10.17,
    "won": false,
    "paa": -11.19,
-   "vor": -8.42,
-   "war": -0.09951415451198113
+   "vor": -8.9,
+   "war": -0.10518717044615583
   },
   {
    "season": "2026",
@@ -1177,8 +1177,8 @@
    "proj": 10.51,
    "won": false,
    "paa": 1.24,
-   "vor": 2.28,
-   "war": 0.026946825687329805
+   "vor": 1.8,
+   "war": 0.021273809753155112
   },
   {
    "season": "2026",
@@ -1196,8 +1196,8 @@
    "proj": 11.52,
    "won": true,
    "paa": 0.09,
-   "vor": 1.48,
-   "war": 0.01749179913037198
+   "vor": 1.0,
+   "war": 0.011818783196197283
   },
   {
    "season": "2026",
@@ -1215,19 +1215,19 @@
    "proj": 10.27,
    "won": true,
    "paa": -5.55,
-   "vor": -2.52,
-   "war": -0.029783333654417155
+   "vor": -3.0,
+   "war": -0.035456349588591854
   }
  ],
  "similar": [
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 824,
+   "score": 822,
    "gs": 33,
    "pts": 339.9,
    "ppg": 10.3,
-   "war": 0.24
+   "war": 0.22
   },
   {
    "player": "10236",
@@ -1236,7 +1236,7 @@
    "gs": 38,
    "pts": 310.3,
    "ppg": 8.17,
-   "war": -0.82
+   "war": -0.85
   },
   {
    "player": "7553",
@@ -1245,12 +1245,12 @@
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.65
+   "war": -0.68
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 741,
+   "score": 736,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
@@ -1259,7 +1259,7 @@
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 692,
+   "score": 694,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -1304,7 +1304,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.32,
+   "value": -0.35,
    "digits": 2,
    "rank": 381,
    "of": 419
@@ -1313,7 +1313,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -27.1,
+   "value": -29.5,
    "digits": 1,
    "rank": 381,
    "of": 419
@@ -1376,9 +1376,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.32,
+   "value": -0.35,
    "digits": 2,
-   "rank": 45,
+   "rank": 46,
    "of": 52
   },
   {
@@ -1445,9 +1445,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.05,
    "digits": 2,
-   "rank": 23,
+   "rank": 24,
    "of": 40,
    "franchise": 6
   },
@@ -1487,7 +1487,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 66,
+   "rank": 63,
    "of": 73,
    "franchise": 10
   },
@@ -2079,7 +2079,7 @@
     "season": "2026",
     "nfl": "PHI",
     "missed": 2,
-    "lost": 2.2,
+    "lost": 1.0,
     "injuries": [
      "Knee"
     ],
@@ -2231,7 +2231,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 2.2
+    "lost": 1.0
    }
   ],
   "now": null

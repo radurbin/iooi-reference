@@ -96,8 +96,8 @@
    "best": 21.6,
    "wins": 3,
    "paa": -0.01,
-   "vor": 8.72,
-   "war": 0.1
+   "vor": 6.8,
+   "war": 0.08
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 21.6,
   "wins": 8,
   "paa": -24.91,
-  "vor": -14.42,
-  "war": -0.17
+  "vor": -16.34,
+  "war": -0.19
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "PIT",
    "g": 8,
    "pts": 79.4,
-   "rank": 10
+   "rank": 16
   }
  ],
  "history": [
@@ -1002,8 +1002,8 @@
    "proj": 7.89,
    "won": false,
    "paa": -0.42,
-   "vor": 0.88,
-   "war": 0.01040052921265361
+   "vor": 0.4,
+   "war": 0.004727513278478914
   },
   {
    "season": "2026",
@@ -1021,8 +1021,8 @@
    "proj": 8.0,
    "won": true,
    "paa": 8.77,
-   "vor": 11.78,
-   "war": 0.139225266051204
+   "vor": 11.3,
+   "war": 0.13355225011702931
   },
   {
    "season": "2026",
@@ -1056,8 +1056,8 @@
    "proj": 9.59,
    "won": true,
    "paa": -7.21,
-   "vor": -5.82,
-   "war": -0.06878531820186819
+   "vor": -6.3,
+   "war": -0.07445833413604289
   },
   {
    "season": "2026",
@@ -1075,8 +1075,8 @@
    "proj": 9.25,
    "won": true,
    "paa": -1.15,
-   "vor": 1.88,
-   "war": 0.022219312408850892
+   "vor": 1.4,
+   "war": 0.016546296474676196
   }
  ],
  "similar": [
@@ -1087,30 +1087,30 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.11
+   "war": -0.12
   },
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 823,
+   "score": 825,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.27
+   "war": 0.23
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 780,
+   "score": 782,
    "gs": 11,
    "pts": 122.0,
    "ppg": 11.09,
-   "war": 0.2
+   "war": 0.16
   },
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 777,
+   "score": 780,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -1119,7 +1119,7 @@
   {
    "player": "7002",
    "name": "Juwan Johnson",
-   "score": 764,
+   "score": 763,
    "gs": 8,
    "pts": 68.5,
    "ppg": 8.56,
@@ -1154,18 +1154,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.17,
+   "value": -0.19,
    "digits": 2,
-   "rank": 342,
+   "rank": 337,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -14.4,
+   "value": -16.3,
    "digits": 1,
-   "rank": 344,
+   "rank": 340,
    "of": 419
   },
   {
@@ -1226,7 +1226,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.17,
+   "value": -0.19,
    "digits": 2,
    "rank": 38,
    "of": 52
@@ -1295,7 +1295,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.08,
    "digits": 2,
    "rank": 30,
    "of": 75,
@@ -1444,7 +1444,7 @@
  ],
  "hof": {
   "score": 4.5,
-  "rank": 202,
+  "rank": 201,
   "of": 419,
   "war": 0.0,
   "starts": 4.5,

@@ -82,8 +82,8 @@
    "best": 8.4,
    "wins": 1,
    "paa": -25.32,
-   "vor": -18.68,
-   "war": -0.22
+   "vor": -28.16,
+   "war": -0.33
   }
  ],
  "totals": {
@@ -95,8 +95,8 @@
   "best": 35.5,
   "wins": 7,
   "paa": -1.22,
-  "vor": 29.57,
-  "war": 0.35
+  "vor": 20.09,
+  "war": 0.24
  },
  "nfl": [
   {
@@ -123,9 +123,9 @@
   {
    "season": "2026",
    "team": "TB",
-   "g": 8,
-   "pts": 53.4,
-   "rank": 59
+   "g": 9,
+   "pts": 58.3,
+   "rank": 60
   }
  ],
  "history": [
@@ -1023,8 +1023,8 @@
    "proj": 11.79,
    "won": false,
    "paa": -5.29,
-   "vor": -2.86,
-   "war": -0.03380171994112423
+   "vor": -6.02,
+   "war": -0.07114907484110765
   },
   {
    "season": "2026",
@@ -1122,8 +1122,8 @@
    "proj": 11.41,
    "won": true,
    "paa": -6.89,
-   "vor": -4.56,
-   "war": -0.05389365137465961
+   "vor": -7.72,
+   "war": -0.09124100627464303
   },
   {
    "season": "2026",
@@ -1141,51 +1141,51 @@
    "proj": 11.51,
    "won": false,
    "paa": -13.14,
-   "vor": -11.26,
-   "war": -0.1330794987891814
+   "vor": -14.42,
+   "war": -0.17042685368916483
   }
  ],
  "similar": [
   {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 932,
+   "score": 946,
    "gs": 21,
    "pts": 276.8,
    "ppg": 13.18,
-   "war": 0.59
+   "war": 0.32
   },
   {
    "player": "8148",
    "name": "Jameson Williams",
-   "score": 928,
+   "score": 926,
    "gs": 17,
    "pts": 219.0,
    "ppg": 12.88,
-   "war": 0.36
+   "war": 0.32
+  },
+  {
+   "player": "10222",
+   "name": "Jayden Reed",
+   "score": 905,
+   "gs": 18,
+   "pts": 222.6,
+   "ppg": 12.37,
+   "war": 0.11
   },
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 912,
+   "score": 904,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
    "war": 0.46
   },
   {
-   "player": "10222",
-   "name": "Jayden Reed",
-   "score": 901,
-   "gs": 18,
-   "pts": 222.6,
-   "ppg": 12.37,
-   "war": 0.15
-  },
-  {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 890,
+   "score": 898,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
@@ -1220,18 +1220,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.35,
+   "value": 0.24,
    "digits": 2,
-   "rank": 137,
+   "rank": 144,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 29.6,
+   "value": 20.1,
    "digits": 1,
-   "rank": 137,
+   "rank": 146,
    "of": 419
   },
   {
@@ -1292,9 +1292,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.35,
+   "value": 0.24,
    "digits": 2,
-   "rank": 38,
+   "rank": 37,
    "of": 126
   },
   {
@@ -1321,9 +1321,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.22,
+   "value": -0.33,
    "digits": 2,
-   "rank": 71,
+   "rank": 78,
    "of": 82,
    "franchise": 4
   },
@@ -1363,7 +1363,7 @@
    "stat": "WAR",
    "value": 0.57,
    "digits": 2,
-   "rank": 12,
+   "rank": 11,
    "of": 51,
    "franchise": 7
   },
@@ -1469,10 +1469,10 @@
   }
  ],
  "hof": {
-  "score": 8.25,
-  "rank": 145,
+  "score": 7.15,
+  "rank": 157,
   "of": 419,
-  "war": 3.5,
+  "war": 2.4,
   "starts": 4.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1735,42 +1735,42 @@
    [
     "2026",
     1,
-    9.65
+    9.25
    ],
    [
     "2026",
     2,
-    9.65
+    9.25
    ],
    [
     "2026",
     3,
-    9.65
+    9.25
    ],
    [
     "2026",
     4,
-    9.65
+    9.25
    ],
    [
     "2026",
     5,
-    9.65
+    9.25
    ],
    [
     "2026",
     6,
-    9.65
+    9.25
    ],
    [
     "2026",
     7,
-    9.3
+    8.6
    ],
    [
     "2026",
     8,
-    8.25
+    7.15
    ]
   ],
   "benchmark": 100

@@ -281,8 +281,8 @@
     "best": 29.8,
     "wins": 10,
     "paa": -60.63,
-    "vor": -8.85,
-    "war": -0.1
+    "vor": -24.65,
+    "war": -0.29
    },
    {
     "player": "7021",
@@ -307,8 +307,8 @@
     "best": 23.0,
     "wins": 8,
     "paa": -78.19,
-    "vor": -22.58,
-    "war": -0.27
+    "vor": -47.86,
+    "war": -0.57
    },
    {
     "player": "7591",
@@ -385,8 +385,8 @@
     "best": 24.1,
     "wins": 7,
     "paa": 7.88,
-    "vor": 30.84,
-    "war": 0.36
+    "vor": 27.01,
+    "war": 0.32
    },
    {
     "player": "CLE",
@@ -424,8 +424,8 @@
     "best": 31.5,
     "wins": 5,
     "paa": -6.57,
-    "vor": 58.9,
-    "war": 0.7
+    "vor": 62.82,
+    "war": 0.74
    },
    {
     "player": "8111",
@@ -463,8 +463,8 @@
     "best": 20.0,
     "wins": 6,
     "paa": 27.4,
-    "vor": 30.96,
-    "war": 0.37
+    "vor": 30.3,
+    "war": 0.36
    },
    {
     "player": "LAC",
@@ -654,8 +654,8 @@
      "best": 24.1,
      "wins": 7,
      "paa": 7.88,
-     "vor": 30.84,
-     "war": 0.36
+     "vor": 27.01,
+     "war": 0.32
     },
     {
      "player": "8111",
@@ -695,8 +695,8 @@
      "best": 17.0,
      "wins": 4,
      "paa": 23.22,
-     "vor": 24.64,
-     "war": 0.29
+     "vor": 19.18,
+     "war": 0.23
     },
     {
      "player": "1433",
@@ -736,8 +736,8 @@
      "best": 20.0,
      "wins": 6,
      "paa": 27.4,
-     "vor": 30.96,
-     "war": 0.37
+     "vor": 30.3,
+     "war": 0.36
     },
     {
      "player": "LAC",
@@ -1407,8 +1407,8 @@
     "team": "Maddison Beer’s Boys",
     "games": 21,
     "players": 9,
-    "lost": 23.82,
-    "rank": 8,
+    "lost": 22.11,
+    "rank": 7,
     "games_rank": 9,
     "of": 12,
     "worst": {
@@ -1416,7 +1416,7 @@
      "name": "Caleb Williams",
      "pos": "QB",
      "missed": 3,
-     "lost": 20.07
+     "lost": 16.68
     },
     "w": 2,
     "l": 6
@@ -1623,7 +1623,7 @@
     "name": "Caleb Williams",
     "pos": "QB",
     "missed": 3,
-    "lost": 20.07,
+    "lost": 16.68,
     "injuries": [
      "Hamstring"
     ],
@@ -1640,7 +1640,7 @@
     "name": "Rico Dowdle",
     "pos": "RB",
     "missed": 3,
-    "lost": 3.75,
+    "lost": 5.43,
     "injuries": [
      "Toe"
     ],
@@ -1692,9 +1692,9 @@
    "franchise": 10,
    "name": "Maddison Beer’s Boys",
    "games": 117,
-   "lost": 314.64,
+   "lost": 312.93,
    "seasons": 4,
-   "per_season": 78.66,
+   "per_season": 78.23,
    "worst": "2025"
   }
  }

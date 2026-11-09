@@ -80,8 +80,8 @@
    "best": 5.0,
    "wins": 0,
    "paa": -8.69,
-   "vor": -6.26,
-   "war": -0.07
+   "vor": -9.42,
+   "war": -0.11
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 33.1,
   "wins": 6,
   "paa": -26.33,
-  "vor": 12.69,
-  "war": 0.15
+  "vor": 9.53,
+  "war": 0.11
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "GB",
    "g": 2,
    "pts": 6.4,
-   "rank": 152
+   "rank": 157
   }
  ],
  "history": [
@@ -1015,8 +1015,8 @@
    "proj": 12.14,
    "won": false,
    "paa": -8.69,
-   "vor": -6.26,
-   "war": -0.07398558280819499
+   "vor": -9.42,
+   "war": -0.11133293770817841
   },
   {
    "season": "2026",
@@ -1135,7 +1135,7 @@
   {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 970,
+   "score": 973,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
@@ -1144,16 +1144,16 @@
   {
    "player": "8148",
    "name": "Jameson Williams",
-   "score": 942,
+   "score": 941,
    "gs": 17,
    "pts": 219.0,
    "ppg": 12.88,
-   "war": 0.36
+   "war": 0.32
   },
   {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 910,
+   "score": 914,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -1162,20 +1162,20 @@
   {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 901,
+   "score": 905,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
-   "war": 0.35
+   "war": 0.24
   },
   {
-   "player": "5947",
-   "name": "Jakobi Meyers",
-   "score": 879,
-   "gs": 13,
-   "pts": 164.3,
-   "ppg": 12.64,
-   "war": 0.14
+   "player": "12526",
+   "name": "Tetairoa McMillan",
+   "score": 890,
+   "gs": 21,
+   "pts": 276.8,
+   "ppg": 13.18,
+   "war": 0.32
   }
  ],
  "status": {
@@ -1206,18 +1206,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.15,
+   "value": 0.11,
    "digits": 2,
-   "rank": 169,
+   "rank": 177,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 12.7,
+   "value": 9.5,
    "digits": 1,
-   "rank": 171,
+   "rank": 177,
    "of": 419
   },
   {
@@ -1278,9 +1278,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.15,
+   "value": 0.11,
    "digits": 2,
-   "rank": 43,
+   "rank": 44,
    "of": 126
   },
   {
@@ -1307,9 +1307,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.15,
+   "value": 0.11,
    "digits": 2,
-   "rank": 10,
+   "rank": 13,
    "of": 47,
    "franchise": 12
   },
@@ -1445,10 +1445,10 @@
   }
  ],
  "hof": {
-  "score": 6.0,
-  "rank": 180,
+  "score": 5.6,
+  "rank": 182,
   "of": 419,
-  "war": 1.5,
+  "war": 1.1,
   "starts": 4.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1711,42 +1711,42 @@
    [
     "2026",
     1,
-    6.0
+    5.6
    ],
    [
     "2026",
     2,
-    6.0
+    5.6
    ],
    [
     "2026",
     3,
-    6.0
+    5.6
    ],
    [
     "2026",
     4,
-    6.0
+    5.6
    ],
    [
     "2026",
     5,
-    6.0
+    5.6
    ],
    [
     "2026",
     6,
-    6.0
+    5.6
    ],
    [
     "2026",
     7,
-    6.0
+    5.6
    ],
    [
     "2026",
     8,
-    6.0
+    5.6
    ]
   ],
   "benchmark": 100
@@ -1880,7 +1880,7 @@
    {
     "season": "2026",
     "nfl": "GB",
-    "missed": 6,
+    "missed": 7,
     "lost": 0.0,
     "injuries": [
      "Neck"
@@ -1891,7 +1891,8 @@
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
     "kinds": [
      "IR",
@@ -1940,6 +1941,13 @@
       "injury": "Neck",
       "franchise": 12,
       "team": "Team Win One Game"
+     },
+     {
+      "week": 9,
+      "kind": "IR",
+      "injury": "Neck",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2001,16 +2009,17 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 8,
+    "to": 9,
     "weeks": [
      3,
      4,
      5,
      6,
      7,
-     8
+     8,
+     9
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "GB",
     "injury": "Neck",
     "kinds": [
@@ -2035,7 +2044,7 @@
    "status": "IR",
    "injury": "Neck",
    "since": null,
-   "streak": 6
+   "streak": 7
   }
  }
 }

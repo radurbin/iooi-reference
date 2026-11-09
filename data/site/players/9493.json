@@ -96,8 +96,8 @@
    "best": 37.9,
    "wins": 3,
    "paa": 58.34,
-   "vor": 73.04,
-   "war": 0.86
+   "vor": 54.08,
+   "war": 0.64
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 46.5,
   "wins": 21,
   "paa": 282.35,
-  "vor": 373.99,
-  "war": 4.42
+  "vor": 355.03,
+  "war": 4.2
  },
  "nfl": [
   {
@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "LAR",
-   "g": 6,
-   "pts": 140.6,
-   "rank": 7
+   "g": 7,
+   "pts": 177.3,
+   "rank": 4
   }
  ],
  "history": [
@@ -1095,8 +1095,8 @@
    "proj": 21.02,
    "won": false,
    "paa": 0.21,
-   "vor": 2.64,
-   "war": 0.03120158763796083
+   "vor": -0.52,
+   "war": -0.0061457672620225876
   },
   {
    "season": "2026",
@@ -1146,8 +1146,8 @@
    "proj": 19.32,
    "won": true,
    "paa": 13.15,
-   "vor": 16.54,
-   "war": 0.19548267406510306
+   "vor": 13.38,
+   "war": 0.15813531916511966
   },
   {
    "season": "2026",
@@ -1165,8 +1165,8 @@
    "proj": 20.68,
    "won": true,
    "paa": 23.11,
-   "vor": 26.64,
-   "war": 0.31485238434669566
+   "vor": 23.48,
+   "war": 0.27750502944671224
   },
   {
    "season": "2026",
@@ -1184,8 +1184,8 @@
    "proj": 22.68,
    "won": false,
    "paa": 1.6,
-   "vor": 2.74,
-   "war": 0.03238346595758056
+   "vor": -0.42,
+   "war": -0.0049638889424028585
   },
   {
    "season": "2026",
@@ -1203,8 +1203,8 @@
    "proj": 22.39,
    "won": false,
    "paa": 8.41,
-   "vor": 10.74,
-   "war": 0.12693373152715884
+   "vor": 7.58,
+   "war": 0.0895863766271754
   },
   {
    "season": "2026",
@@ -1222,55 +1222,55 @@
    "proj": 22.07,
    "won": true,
    "paa": 11.86,
-   "vor": 13.74,
-   "war": 0.16239008111575068
+   "vor": 10.58,
+   "war": 0.12504272621576726
   }
  ],
  "similar": [
   {
    "player": "7564",
    "name": "Ja'Marr Chase",
-   "score": 862,
+   "score": 863,
    "gs": 47,
    "pts": 933.02,
    "ppg": 19.85,
-   "war": 4.56
+   "war": 4.3
   },
   {
    "player": "6786",
    "name": "CeeDee Lamb",
-   "score": 807,
+   "score": 805,
    "gs": 49,
    "pts": 931.4,
    "ppg": 19.01,
-   "war": 4.32
+   "war": 4.02
   },
   {
    "player": "9488",
    "name": "Jaxon Smith-Njigba",
-   "score": 792,
+   "score": 785,
    "gs": 35,
    "pts": 734.96,
    "ppg": 21.0,
-   "war": 4.06
+   "war": 3.76
   },
   {
    "player": "7547",
    "name": "Amon-Ra St. Brown",
-   "score": 730,
+   "score": 731,
    "gs": 52,
    "pts": 991.53,
    "ppg": 19.07,
-   "war": 4.66
+   "war": 4.4
   },
   {
    "player": "6794",
    "name": "Justin Jefferson",
-   "score": 502,
+   "score": 498,
    "gs": 46,
    "pts": 738.73,
    "ppg": 16.06,
-   "war": 2.53
+   "war": 2.35
   }
  ],
  "status": {
@@ -1301,18 +1301,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 4.42,
+   "value": 4.2,
    "digits": 2,
-   "rank": 9,
+   "rank": 12,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 374.0,
+   "value": 355.0,
    "digits": 1,
-   "rank": 10,
+   "rank": 12,
    "of": 419
   },
   {
@@ -1373,7 +1373,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 4.42,
+   "value": 4.2,
    "digits": 2,
    "rank": 3,
    "of": 126
@@ -1402,7 +1402,7 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 4.42,
+   "value": 4.2,
    "digits": 2,
    "rank": 1,
    "of": 51,
@@ -1540,10 +1540,10 @@
   }
  ],
  "hof": {
-  "score": 64.7,
-  "rank": 11,
+  "score": 62.5,
+  "rank": 12,
   "of": 419,
-  "war": 44.2,
+  "war": 42.0,
   "starts": 10.5,
   "black_ink": 0.0,
   "awards": 10.0,
@@ -1806,42 +1806,42 @@
    [
     "2026",
     1,
-    55.15
+    54.75
    ],
    [
     "2026",
     2,
-    55.15
+    54.75
    ],
    [
     "2026",
     3,
-    55.15
+    54.75
    ],
    [
     "2026",
     4,
-    57.3
+    56.6
    ],
    [
     "2026",
     5,
-    60.75
+    59.65
    ],
    [
     "2026",
     6,
-    61.3
+    59.8
    ],
    [
     "2026",
     7,
-    62.85
+    60.95
    ],
    [
     "2026",
     8,
-    64.7
+    62.5
    ]
   ],
   "benchmark": 100
@@ -1861,7 +1861,7 @@
    "list": "Career WAR",
    "scope": 7,
    "rank": 1,
-   "value": "4.42",
+   "value": "4.20",
    "href": "franchise.html?id=7#all-time-leaders",
    "player": "9493",
    "franchise": 7
@@ -1955,7 +1955,7 @@
     "season": "2026",
     "nfl": "LAR",
     "missed": 2,
-    "lost": 24.34,
+    "lost": 21.82,
     "injuries": [
      "Hip"
     ],
@@ -2057,9 +2057,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 24.34
+    "lost": 21.82
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Knee",
+   "since": null,
+   "streak": 0
+  }
  }
 }

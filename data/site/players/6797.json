@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "LAC",
-   "g": 7,
-   "pts": 75.77,
-   "rank": 29
+   "g": 8,
+   "pts": 86.29,
+   "rank": 26
   }
  ],
  "history": [
@@ -1344,7 +1344,7 @@
    "stat": "WAR",
    "value": 2.04,
    "digits": 2,
-   "rank": 47,
+   "rank": 45,
    "of": 419
   },
   {
@@ -1353,7 +1353,7 @@
    "stat": "VOR",
    "value": 172.8,
    "digits": 1,
-   "rank": 47,
+   "rank": 45,
    "of": 419
   },
   {
@@ -1582,7 +1582,7 @@
  ],
  "hof": {
   "score": 32.9,
-  "rank": 44,
+  "rank": 43,
   "of": 419,
   "war": 20.4,
   "starts": 12.5,
@@ -1998,6 +1998,11 @@
     "lost": 9.87
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Finger",
+   "since": null,
+   "streak": 0
+  }
  }
 }

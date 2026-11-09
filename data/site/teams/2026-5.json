@@ -202,8 +202,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 94.73,
-   "vor": 151.37,
-   "war": 1.79
+   "vor": 155.29,
+   "war": 1.84
   },
   {
    "player": "7547",
@@ -217,8 +217,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 42.44,
-   "vor": 62.38,
-   "war": 0.74
+   "vor": 40.26,
+   "war": 0.48
   },
   {
    "player": "11563",
@@ -247,8 +247,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 7.09,
-   "vor": 28.17,
-   "war": 0.33
+   "vor": 2.89,
+   "war": 0.03
   },
   {
    "player": "12526",
@@ -262,8 +262,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 12.53,
-   "vor": 30.08,
-   "war": 0.36
+   "vor": 7.96,
+   "war": 0.09
   },
   {
    "player": "6904",
@@ -292,8 +292,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 2.21,
-   "vor": 1.4,
-   "war": 0.02
+   "vor": -20.44,
+   "war": -0.24
   },
   {
    "player": "12517",
@@ -307,8 +307,8 @@
    "bench_pts": 7.1,
    "wins": 4,
    "paa": -13.33,
-   "vor": -1.95,
-   "war": -0.02
+   "vor": -5.3,
+   "war": -0.06
   },
   {
    "player": "SEA",
@@ -322,8 +322,8 @@
    "bench_pts": 14.0,
    "wins": 5,
    "paa": 8.68,
-   "vor": 6.0,
-   "war": 0.07
+   "vor": 5.23,
+   "war": 0.06
   },
   {
    "player": "11435",
@@ -337,8 +337,8 @@
    "bench_pts": 32.9,
    "wins": 2,
    "paa": -3.72,
-   "vor": 16.93,
-   "war": 0.2
+   "vor": 18.61,
+   "war": 0.22
   },
   {
    "player": "9226",
@@ -352,8 +352,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -21.55,
-   "vor": 2.23,
-   "war": 0.03
+   "vor": 3.91,
+   "war": 0.05
   },
   {
    "player": "12474",
@@ -367,8 +367,8 @@
    "bench_pts": 47.6,
    "wins": 1,
    "paa": -8.37,
-   "vor": 5.42,
-   "war": 0.06
+   "vor": 6.54,
+   "war": 0.08
   },
   {
    "player": "8126",
@@ -382,8 +382,8 @@
    "bench_pts": 56.5,
    "wins": 0,
    "paa": -4.64,
-   "vor": -1.62,
-   "war": -0.02
+   "vor": -7.94,
+   "war": -0.09
   },
   {
    "player": "LV",
@@ -397,7 +397,7 @@
    "bench_pts": 12.0,
    "wins": 0,
    "paa": 7.75,
-   "vor": 9.0,
+   "vor": 8.89,
    "war": 0.11
   },
   {
@@ -427,8 +427,8 @@
    "bench_pts": 43.7,
    "wins": 1,
    "paa": -9.6,
-   "vor": -0.69,
-   "war": -0.01
+   "vor": -0.13,
+   "war": -0.0
   },
   {
    "player": "12529",
@@ -442,8 +442,8 @@
    "bench_pts": 33.8,
    "wins": 1,
    "paa": -10.25,
-   "vor": -3.39,
-   "war": -0.04
+   "vor": -2.83,
+   "war": -0.03
   },
   {
    "player": "4147",
@@ -457,7 +457,7 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -13.4,
-   "vor": -5.29,
+   "vor": -4.73,
    "war": -0.06
   },
   {
@@ -592,7 +592,7 @@
    "bench_pts": 25.4,
    "wins": 1,
    "paa": -12.66,
-   "vor": -9.82,
+   "vor": -10.3,
    "war": -0.12
   },
   {
@@ -1761,8 +1761,8 @@
    "opp_record": "3-5",
    "opp_seed": 6,
    "chance": 0.571,
-   "proj": 158.41,
-   "opp_proj": 152.76
+   "proj": 158.58,
+   "opp_proj": 152.85
   },
   {
    "week": 10,
@@ -1808,7 +1808,7 @@
  "injuries": {
   "games": 22,
   "players": 7,
-  "lost": 51.5,
+  "lost": 55.3,
   "rank": 2,
   "games_rank": 6,
   "of": 12,
@@ -1818,7 +1818,7 @@
     "name": "De'Von Achane",
     "pos": "RB",
     "missed": 4,
-    "lost": 40.44,
+    "lost": 42.68,
     "injuries": [
      "Knee - ACL"
     ],
@@ -1857,7 +1857,7 @@
     "name": "Jacory Croskey-Merritt",
     "pos": "RB",
     "missed": 1,
-    "lost": 1.73,
+    "lost": 2.29,
     "injuries": [
      "Groin"
     ],
@@ -1868,6 +1868,27 @@
      "IR"
     ],
     "gs": 1
+   },
+   {
+    "player": "12469",
+    "name": "Dylan Sampson",
+    "pos": "RB",
+    "missed": 5,
+    "lost": 1.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 0
    },
    {
     "player": "13349",
@@ -1881,27 +1902,6 @@
     ],
     "weeks": [
      1,
-     2,
-     3,
-     4,
-     5,
-     6
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 0
-   },
-   {
-    "player": "12469",
-    "name": "Dylan Sampson",
-    "pos": "RB",
-    "missed": 5,
-    "lost": 0.0,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
      2,
      3,
      4,

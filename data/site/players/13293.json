@@ -32,8 +32,8 @@
    "best": 3.05,
    "wins": 0,
    "paa": -10.09,
-   "vor": -8.21,
-   "war": -0.1
+   "vor": -11.37,
+   "war": -0.13
   }
  ],
  "totals": {
@@ -45,8 +45,8 @@
   "best": 3.05,
   "wins": 0,
   "paa": -10.09,
-  "vor": -8.21,
-  "war": -0.1
+  "vor": -11.37,
+  "war": -0.13
  },
  "nfl": [
   {
@@ -54,7 +54,7 @@
    "team": "BAL",
    "g": 5,
    "pts": 18.65,
-   "rank": 111
+   "rank": 116
   }
  ],
  "history": [
@@ -200,8 +200,8 @@
    "proj": 5.88,
    "won": false,
    "paa": -10.09,
-   "vor": -8.21,
-   "war": -0.0970322100407797
+   "vor": -11.37,
+   "war": -0.1343795649407631
   }
  ],
  "status": {
@@ -232,18 +232,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.13,
    "digits": 2,
-   "rank": 285,
+   "rank": 303,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -8.2,
+   "value": -11.4,
    "digits": 1,
-   "rank": 287,
+   "rank": 311,
    "of": 419
   },
   {
@@ -295,9 +295,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.13,
    "digits": 2,
-   "rank": 73,
+   "rank": 77,
    "of": 126
   },
   {
@@ -324,9 +324,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.13,
    "digits": 2,
-   "rank": 56,
+   "rank": 58,
    "of": 73,
    "franchise": 10
   },
@@ -374,7 +374,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,

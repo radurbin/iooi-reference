@@ -96,8 +96,8 @@
    "best": 13.1,
    "wins": 0,
    "paa": -9.23,
-   "vor": -5.02,
-   "war": -0.06
+   "vor": -11.34,
+   "war": -0.13
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 39.3,
   "wins": 16,
   "paa": -9.03,
-  "vor": 39.78,
-  "war": 0.47
+  "vor": 33.46,
+  "war": 0.4
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "MIN",
    "g": 6,
    "pts": 50.8,
-   "rank": 66
+   "rank": 71
   }
  ],
  "history": [
@@ -1154,8 +1154,8 @@
    "proj": 8.42,
    "won": false,
    "paa": -9.19,
-   "vor": -6.86,
-   "war": -0.08107685272591336
+   "vor": -10.02,
+   "war": -0.11842420762589678
   },
   {
    "season": "2026",
@@ -1173,15 +1173,15 @@
    "proj": 9.64,
    "won": false,
    "paa": -0.04,
-   "vor": 1.84,
-   "war": 0.021746561081003004
+   "vor": -1.32,
+   "war": -0.015600793818980415
   }
  ],
  "similar": [
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 939,
+   "score": 934,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
@@ -1190,7 +1190,7 @@
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 916,
+   "score": 915,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
@@ -1199,16 +1199,16 @@
   {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 899,
+   "score": 900,
    "gs": 21,
    "pts": 276.8,
    "ppg": 13.18,
-   "war": 0.59
+   "war": 0.32
   },
   {
    "player": "5045",
    "name": "Courtland Sutton",
-   "score": 868,
+   "score": 856,
    "gs": 27,
    "pts": 383.4,
    "ppg": 14.2,
@@ -1217,11 +1217,11 @@
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 853,
+   "score": 852,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.5
+   "war": 0.47
   }
  ],
  "status": {
@@ -1252,18 +1252,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.4,
    "digits": 2,
-   "rank": 117,
+   "rank": 120,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 39.8,
+   "value": 33.5,
    "digits": 1,
-   "rank": 117,
+   "rank": 123,
    "of": 419
   },
   {
@@ -1324,9 +1324,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.4,
    "digits": 2,
-   "rank": 32,
+   "rank": 31,
    "of": 126
   },
   {
@@ -1393,9 +1393,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.06,
+   "value": -0.13,
    "digits": 2,
-   "rank": 44,
+   "rank": 58,
    "of": 73,
    "franchise": 10
   },
@@ -1531,10 +1531,10 @@
   }
  ],
  "hof": {
-  "score": 10.95,
-  "rank": 121,
+  "score": 10.25,
+  "rank": 123,
   "of": 419,
-  "war": 4.7,
+  "war": 4.0,
   "starts": 6.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1827,12 +1827,12 @@
    [
     "2026",
     7,
-    10.5
+    10.1
    ],
    [
     "2026",
     8,
-    10.95
+    10.25
    ]
   ],
   "benchmark": 100

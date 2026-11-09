@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "WAS",
-   "g": 5,
-   "pts": 103.34,
-   "rank": 21
+   "g": 6,
+   "pts": 118.3,
+   "rank": 19
   }
  ],
  "history": [
@@ -1002,7 +1002,7 @@
    "stat": "WAR",
    "value": 1.93,
    "digits": 2,
-   "rank": 50,
+   "rank": 47,
    "of": 419
   },
   {
@@ -1011,7 +1011,7 @@
    "stat": "VOR",
    "value": 162.9,
    "digits": 1,
-   "rank": 50,
+   "rank": 47,
    "of": 419
   },
   {
@@ -1241,7 +1241,7 @@
  ],
  "hof": {
   "score": 33.05,
-  "rank": 43,
+  "rank": 42,
   "of": 419,
   "war": 19.3,
   "starts": 7.75,
@@ -1560,7 +1560,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 2,
-    "lost": 14.64,
+    "lost": 12.74,
     "injuries": [
      "Elbow"
     ],
@@ -1705,7 +1705,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 14.64
+    "lost": 12.74
    }
   ],
   "now": null

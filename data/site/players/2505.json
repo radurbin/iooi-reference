@@ -64,8 +64,8 @@
    "best": 2.1,
    "wins": 0,
    "paa": -10.75,
-   "vor": -7.72,
-   "war": -0.09
+   "vor": -8.2,
+   "war": -0.1
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 22.8,
   "wins": 8,
   "paa": -78.53,
-  "vor": -61.16,
-  "war": -0.72
+  "vor": -61.64,
+  "war": -0.73
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "CAR",
-   "g": 7,
-   "pts": 53.9,
-   "rank": 25
+   "g": 8,
+   "pts": 76.9,
+   "rank": 18
   }
  ],
  "history": [
@@ -856,8 +856,8 @@
    "proj": 7.66,
    "won": false,
    "paa": -10.75,
-   "vor": -7.72,
-   "war": -0.09124100627464303
+   "vor": -8.2,
+   "war": -0.09691402220881772
   }
  ],
  "similar": [
@@ -873,25 +873,25 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 754,
+   "score": 755,
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.17
+   "war": -0.19
   },
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 730,
+   "score": 729,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.11
+   "war": -0.12
   },
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 723,
+   "score": 722,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
@@ -900,7 +900,7 @@
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 696,
+   "score": 694,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -935,18 +935,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.72,
+   "value": -0.73,
    "digits": 2,
-   "rank": 409,
+   "rank": 406,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -61.2,
+   "value": -61.6,
    "digits": 1,
-   "rank": 409,
+   "rank": 406,
    "of": 419
   },
   {
@@ -1007,7 +1007,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.72,
+   "value": -0.73,
    "digits": 2,
    "rank": 50,
    "of": 52
@@ -1036,7 +1036,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.38,
+   "value": -0.39,
    "digits": 2,
    "rank": 79,
    "of": 82,
@@ -1185,7 +1185,7 @@
  ],
  "hof": {
   "score": 5.0,
-  "rank": 195,
+  "rank": 193,
   "of": 419,
   "war": 0.0,
   "starts": 5.0,

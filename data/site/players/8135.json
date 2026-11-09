@@ -91,7 +91,7 @@
    "team": "WAS",
    "g": 6,
    "pts": 47.3,
-   "rank": 71
+   "rank": 76
   }
  ],
  "history": [
@@ -436,7 +436,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 276,
+   "rank": 267,
    "of": 419
   },
   {
@@ -445,7 +445,7 @@
    "stat": "VOR",
    "value": -7.7,
    "digits": 1,
-   "rank": 279,
+   "rank": 270,
    "of": 419
   },
   {
@@ -499,7 +499,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 69,
+   "rank": 62,
    "of": 126
   },
   {
@@ -528,7 +528,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 68,
+   "rank": 67,
    "of": 77,
    "franchise": 1
   },
@@ -576,7 +576,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -1122,6 +1122,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "WAS",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Foot"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1241,13 +1266,30 @@
     "teams": [],
     "rostered": 0,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "WAS",
+    "injury": "Foot",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Foot",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

@@ -73,8 +73,8 @@
    "best": 1.1,
    "wins": 0,
    "paa": -15.6,
-   "vor": -7.49,
-   "war": -0.09
+   "vor": -6.93,
+   "war": -0.08
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 6.7,
   "wins": 1,
   "paa": -27.56,
-  "vor": -11.57,
-  "war": -0.14
+  "vor": -11.01,
+  "war": -0.13
  },
  "nfl": [
   {
@@ -109,7 +109,7 @@
    "team": "ARI",
    "g": 8,
    "pts": 27.9,
-   "rank": 64
+   "rank": 69
   }
  ],
  "history": [
@@ -333,8 +333,8 @@
    "proj": null,
    "won": false,
    "paa": -15.6,
-   "vor": -7.49,
-   "war": -0.08852268613951765
+   "vor": -6.93,
+   "war": -0.08190416754964717
   }
  ],
  "status": {
@@ -365,18 +365,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.14,
+   "value": -0.13,
    "digits": 2,
-   "rank": 325,
+   "rank": 303,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -11.6,
+   "value": -11.0,
    "digits": 1,
-   "rank": 325,
+   "rank": 309,
    "of": 419
   },
   {
@@ -428,7 +428,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.14,
+   "value": -0.13,
    "digits": 2,
    "rank": 85,
    "of": 99
@@ -459,7 +459,7 @@
    "stat": "WAR",
    "value": -0.02,
    "digits": 2,
-   "rank": 45,
+   "rank": 43,
    "of": 68,
    "franchise": 3
   },
@@ -497,9 +497,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.08,
    "digits": 2,
-   "rank": 27,
+   "rank": 25,
    "of": 47,
    "franchise": 12
   },
@@ -868,6 +868,31 @@
       "team": "Clandestine Ball Busters"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "ARI",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Concussion"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Concussion",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -920,13 +945,30 @@
     ],
     "rostered": 2,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "ARI",
+    "injury": "Concussion",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Concussion",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

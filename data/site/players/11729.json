@@ -25,7 +25,7 @@
    "best": 0.6,
    "wins": 0,
    "paa": -16.97,
-   "vor": -7.99,
+   "vor": -7.43,
    "war": -0.09
   }
  ],
@@ -38,7 +38,7 @@
   "best": 0.6,
   "wins": 0,
   "paa": -16.97,
-  "vor": -7.99,
+  "vor": -7.43,
   "war": -0.09
  },
  "nfl": [
@@ -59,8 +59,8 @@
   {
    "season": "2026",
    "team": "DET",
-   "g": 7,
-   "pts": 25.5,
+   "g": 8,
+   "pts": 29.9,
    "rank": 66
   }
  ],
@@ -157,8 +157,8 @@
    "proj": 4.91,
    "won": false,
    "paa": -16.97,
-   "vor": -7.99,
-   "war": -0.09443207773761629
+   "vor": -7.43,
+   "war": -0.08781355914774581
   },
   {
    "season": "2026",
@@ -207,16 +207,16 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 276,
+   "rank": 267,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -8.0,
+   "value": -7.4,
    "digits": 1,
-   "rank": 284,
+   "rank": 269,
    "of": 419
   },
   {
@@ -299,7 +299,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 54,
+   "rank": 53,
    "of": 73,
    "franchise": 10
   },
@@ -347,7 +347,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
+  "rank": 365,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,
@@ -542,11 +542,6 @@
     "lost": 0.0
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Ankle",
-   "since": null,
-   "streak": 0
-  }
+  "now": null
  }
 }
