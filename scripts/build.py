@@ -744,7 +744,7 @@ def build_nicknames(seasons, people, players, name_on):
     return rows
 
 
-def build_split_draft(split, players, all_picks, all_moves, appearances, people, name_on, on_roster):
+def build_split_draft(split, players, all_picks, all_moves, appearances, people, name_on, on_roster, seasons):
     """The 2024 draft in which Ritesh and Elis divided the pooled rosters and picks of franchises 3 and 10."""
     day = split["date"]
     by_name = {}
@@ -768,6 +768,14 @@ def build_split_draft(split, players, all_picks, all_moves, appearances, people,
              for pid, to in (m.get("adds") or {}).items() if to in split["franchises"].values()}
     selections = []
     order = [split["first"]] + [slug for slug in split["franchises"] if slug != split["first"]]
+    # NFL fantasy points since the split (weeks 1-17), started, benched or unrostered.
+    nfl_since = defaultdict(float)
+    for s in seasons.values():
+        for week in WEEKS:
+            entry = s["nfl"]["weeks"].get(str(week), {})
+            if entry.get("start", "") >= day:
+                for pid, pts in entry.get("points", {}).items():
+                    nfl_since[pid] += pts
     for row in split["rounds"]:
         # Snake order: the manager who opened the draft picks first in odd rounds.
         for turn, slug in enumerate(order if row["round"] % 2 else order[::-1]):
@@ -791,6 +799,7 @@ def build_split_draft(split, players, all_picks, all_moves, appearances, people,
             anyone = [a for a in appearances.get(entry.get("player") or entry["became"], []) if a["started"] and a["date"] >= day]
             entry.update(gs=len(starts), pts=r2(sum(a["pts"] for a in starts)), war=round(sum(a.get("war") or 0 for a in starts), 2),
                          lg_gs=len(anyone), lg_pts=r2(sum(a["pts"] for a in anyone)), lg_war=round(sum(a.get("war") or 0 for a in anyone), 2),
+                         nfl_pts=r2(nfl_since[entry.get("player") or entry["became"]]),
                          kept=bool(target and target in on_roster[fid]))
             selections.append(entry)
     totals = []
@@ -801,7 +810,7 @@ def build_split_draft(split, players, all_picks, all_moves, appearances, people,
                        "switched": sum(1 for e in mine if e["original"] != fid),
                        "gs": sum(e["gs"] for e in mine), "pts": r2(sum(e["pts"] for e in mine)), "war": round(sum(e["war"] for e in mine), 2),
                        "lg_gs": sum(e["lg_gs"] for e in mine), "lg_pts": r2(sum(e["lg_pts"] for e in mine)), "lg_war": round(sum(e["lg_war"] for e in mine), 2),
-                       "kept": sum(1 for e in mine if e["kept"])})
+                       "nfl_pts": r2(sum(e["nfl_pts"] for e in mine)), "kept": sum(1 for e in mine if e["kept"])})
     return {"date": day, "summary": split["summary"], "rounds": len(split["rounds"]), "selections": selections, "totals": totals}
 
 
@@ -1861,7 +1870,7 @@ def main():
             if row["nickname"] not in names:
                 names.append(row["nickname"])
     split = load(MANUAL / "split_draft_2024.json")
-    dump(SITE / "split_draft.json", build_split_draft(split, players, all_picks, all_moves, appearances, people, name_on, on_roster))
+    dump(SITE / "split_draft.json", build_split_draft(split, players, all_picks, all_moves, appearances, people, name_on, on_roster, seasons))
     build_players(players, raw_players, seasons, appearances, all_moves, adjustments, drafted, trades, state, name_on, nicknames)
     dump(SITE / "leaders.json", {**build_leaders(appearances, players), "value": value_notes})
     dump(SITE / "elo.json", build_elo(game_log, seasons))

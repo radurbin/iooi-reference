@@ -51,6 +51,7 @@ page("2024 Dynasty iooi Split Draft", async (main) => {
         { label: "Lg GS", value: (r) => r.lg_gs, num: true, title: "Games started since the split for any iooi franchise" },
         { label: "Lg Pts", value: (r) => r.lg_pts, render: (r) => fmt.pts(r.lg_pts), num: true, title: "Starter points since the split for any iooi franchise" },
         { label: "Lg WAR", value: (r) => r.lg_war, render: (r) => fmt.pts(r.lg_war), num: true, title: "Wins above replacement since the split for any iooi franchise" },
+        { label: "NFL Pts", value: (r) => r.nfl_pts, render: (r) => fmt.pts(r.nfl_pts), num: true, title: "NFL fantasy points since the split under iooi scoring, weeks 1-17, started, benched or unrostered" },
         { label: "Kept", value: (r) => r.kept, num: true, title: "Selections still on this franchise's roster" },
       ],
     })),
@@ -74,10 +75,11 @@ page("2024 Dynasty iooi Split Draft", async (main) => {
         { label: "Lg GS", value: (e) => e.lg_gs, num: true, title: "Games started since the split for any iooi franchise" },
         { label: "Lg Pts", value: (e) => e.lg_pts, render: (e) => fmt.pts(e.lg_pts), num: true, title: "Points as a starter since the split for any iooi franchise" },
         { label: "Lg WAR", value: (e) => e.lg_war, render: (e) => fmt.pts(e.lg_war), num: true, title: "Wins above replacement since the split for any iooi franchise" },
+        { label: "NFL Pts", value: (e) => e.nfl_pts, render: (e) => fmt.pts(e.nfl_pts), num: true, title: "NFL fantasy points since the split under iooi scoring, weeks 1-17, started, benched or unrostered, by the player chosen or the player the pick became" },
         { label: "HOF", value: (e) => e.hof ?? -1, render: (e) => (e.hof == null ? "" : e.hof.toFixed(2)), num: true, title: "Hall of Fame Monitor score" },
         { label: "Kept", value: (e) => (e.kept ? "Yes" : ""), cls: "c", title: "Still on the selecting franchise's roster" },
       ],
-    }), h("p", { class: "note" }, "Team GS, Pts and WAR count starts for the selecting franchise from the 2024 season on; Lg (league) GS, Pts and WAR count his starts since the split for every iooi franchise. A rookie pick is credited with the player it was used on. HOF is his Hall of Fame Monitor score, from his whole iooi career.")));
+    }), h("p", { class: "note" }, "Team GS, Pts and WAR count starts for the selecting franchise from the 2024 season on; Lg (league) GS, Pts and WAR count his starts since the split for every iooi franchise. NFL Pts is every NFL fantasy point he has scored since the split (weeks 1-17), started, benched or unrostered. A rookie pick is credited with the player it was used on. HOF is his Hall of Fame Monitor score, from his whole iooi career.")));
 });
 </script>
 </body>
