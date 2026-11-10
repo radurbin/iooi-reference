@@ -656,20 +656,20 @@
   {
    "player": "10232",
    "name": "Michael Wilson",
-   "score": 947,
+   "score": 951,
    "gs": 12,
    "pts": 175.18,
    "ppg": 14.6,
-   "war": 0.26
+   "war": 0.4
   },
   {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 944,
+   "score": 947,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
-   "war": 0.27
+   "war": 0.32
   },
   {
    "player": "5947",
@@ -728,7 +728,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 126,
+   "rank": 132,
    "of": 419
   },
   {
@@ -737,7 +737,7 @@
    "stat": "VOR",
    "value": 31.3,
    "digits": 1,
-   "rank": 127,
+   "rank": 132,
    "of": 419
   },
   {
@@ -800,7 +800,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 32,
+   "rank": 34,
    "of": 126
   },
   {
@@ -906,7 +906,7 @@
  ],
  "hof": {
   "score": 6.7,
-  "rank": 165,
+  "rank": 168,
   "of": 419,
   "war": 3.7,
   "starts": 3.0,
@@ -1246,6 +1246,31 @@
       "team": "Win one game"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "MIN",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Calf"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1350,6 +1375,23 @@
     ],
     "rostered": 1,
     "lost": 1.35
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "MIN",
+    "injury": "Calf",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": null

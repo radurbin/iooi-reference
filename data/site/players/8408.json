@@ -130,9 +130,9 @@
   {
    "season": "2026",
    "team": "MIN",
-   "g": 3,
-   "pts": 24.5,
-   "rank": 74
+   "g": 4,
+   "pts": 25.4,
+   "rank": 73
   }
  ],
  "history": [
@@ -986,7 +986,7 @@
    "stat": "WAR",
    "value": 0.33,
    "digits": 2,
-   "rank": 130,
+   "rank": 137,
    "of": 419
   },
   {
@@ -995,7 +995,7 @@
    "stat": "VOR",
    "value": 27.9,
    "digits": 1,
-   "rank": 132,
+   "rank": 138,
    "of": 419
   },
   {
@@ -1087,7 +1087,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 25,
+   "rank": 27,
    "of": 82,
    "franchise": 4
   },
@@ -1127,7 +1127,7 @@
    "stat": "WAR",
    "value": 0.07,
    "digits": 2,
-   "rank": 25,
+   "rank": 28,
    "of": 67,
    "franchise": 8
   },
@@ -1274,7 +1274,7 @@
  ],
  "hof": {
   "score": 5.55,
-  "rank": 183,
+  "rank": 184,
   "of": 419,
   "war": 3.3,
   "starts": 2.25,
@@ -1631,7 +1631,7 @@
     "season": "2026",
     "nfl": "MIN",
     "missed": 4,
-    "lost": 0.04,
+    "lost": 0.0,
     "injuries": [
      "Thumb"
     ],
@@ -1748,7 +1748,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 0.04
+    "lost": 0.0
    }
   ],
   "now": null

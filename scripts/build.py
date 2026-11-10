@@ -1327,11 +1327,11 @@ def same_name(a, b):
     return clean(a) == clean(b)
 
 
-YOUNG_SEXY_POS = ("QB", "RB", "WR", "TE")
+YOUNG_SEXY_POS = ("QB", "RB", "WR", "TE", "K")
 
 
 def young_sexy_race(seasons, players, raw_players, rookie_year, drafted, on_roster, latest):
-    """Every NFL rookie at QB, RB, WR and TE who has scored, ranked by NFL points over weeks 1-17 under iooi scoring,
+    """Every NFL rookie at QB, RB, WR, TE and K who has scored, ranked by NFL points over weeks 1-17 under iooi scoring,
     started or not (Article XI). The team shown holds him now for the season in progress, or held him at its end."""
     out = []
     for season, s in seasons.items():

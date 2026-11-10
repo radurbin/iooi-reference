@@ -80,8 +80,8 @@
    "best": 12.7,
    "wins": 2,
    "paa": -25.2,
-   "vor": -29.9,
-   "war": -0.35
+   "vor": -20.35,
+   "war": -0.24
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 19.4,
   "wins": 8,
   "paa": -85.74,
-  "vor": -69.1,
-  "war": -0.82
+  "vor": -59.55,
+  "war": -0.7
  },
  "nfl": [
   {
@@ -1044,8 +1044,8 @@
    "proj": 11.16,
    "won": true,
    "paa": -0.92,
-   "vor": -1.72,
-   "war": -0.020328307097459326
+   "vor": 0.19,
+   "war": 0.002245568807277484
   },
   {
    "season": "2026",
@@ -1063,8 +1063,8 @@
    "proj": 13.85,
    "won": false,
    "paa": -10.05,
-   "vor": -9.82,
-   "war": -0.11606045098665732
+   "vor": -7.91,
+   "war": -0.09348657508192051
   },
   {
    "season": "2026",
@@ -1098,8 +1098,8 @@
    "proj": 11.77,
    "won": true,
    "paa": -3.6,
-   "vor": -5.62,
-   "war": -0.06642156156262874
+   "vor": -3.71,
+   "war": -0.04384768565789192
   },
   {
    "season": "2026",
@@ -1117,8 +1117,8 @@
    "proj": 9.23,
    "won": false,
    "paa": -9.79,
-   "vor": -10.62,
-   "war": -0.12551547754361514
+   "vor": -8.71,
+   "war": -0.10294160163887835
   },
   {
    "season": "2026",
@@ -1136,15 +1136,15 @@
    "proj": 9.83,
    "won": false,
    "paa": -0.84,
-   "vor": -2.12,
-   "war": -0.025055820375938242
+   "vor": -0.21,
+   "war": -0.0024819444712014293
   }
  ],
  "similar": [
   {
    "player": "2374",
    "name": "Tyler Lockett",
-   "score": 917,
+   "score": 928,
    "gs": 15,
    "pts": 132.1,
    "ppg": 8.81,
@@ -1153,25 +1153,25 @@
   {
    "player": "11624",
    "name": "Xavier Worthy",
-   "score": 911,
+   "score": 915,
    "gs": 16,
    "pts": 150.0,
    "ppg": 9.38,
-   "war": -0.52
+   "war": -0.43
   },
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 893,
+   "score": 898,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.57
+   "war": -0.5
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 869,
+   "score": 877,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
@@ -1180,11 +1180,11 @@
   {
    "player": "11620",
    "name": "Rome Odunze",
-   "score": 852,
+   "score": 853,
    "gs": 24,
    "pts": 220.3,
    "ppg": 9.18,
-   "war": -0.67
+   "war": -0.6
   }
  ],
  "status": {
@@ -1215,18 +1215,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.82,
+   "value": -0.7,
    "digits": 2,
-   "rank": 413,
+   "rank": 408,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -69.1,
+   "value": -59.5,
    "digits": 1,
-   "rank": 413,
+   "rank": 408,
    "of": 419
   },
   {
@@ -1287,9 +1287,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.82,
+   "value": -0.7,
    "digits": 2,
-   "rank": 125,
+   "rank": 124,
    "of": 126
   },
   {
@@ -1316,9 +1316,9 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": -0.82,
+   "value": -0.71,
    "digits": 2,
-   "rank": 43,
+   "rank": 44,
    "of": 44,
    "franchise": 11
   },
@@ -1455,7 +1455,7 @@
  ],
  "hof": {
   "score": 4.5,
-  "rank": 201,
+  "rank": 203,
   "of": 419,
   "war": 0.0,
   "starts": 4.5,

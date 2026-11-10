@@ -912,6 +912,15 @@
  ],
  "similar": [
   {
+   "player": "8167",
+   "name": "Christian Watson",
+   "score": 942,
+   "gs": 22,
+   "pts": 244.6,
+   "ppg": 11.12,
+   "war": -0.23
+  },
+  {
    "player": "2309",
    "name": "Amari Cooper",
    "score": 940,
@@ -919,24 +928,6 @@
    "pts": 217.2,
    "ppg": 11.43,
    "war": -0.14
-  },
-  {
-   "player": "8167",
-   "name": "Christian Watson",
-   "score": 939,
-   "gs": 22,
-   "pts": 244.6,
-   "ppg": 11.12,
-   "war": -0.42
-  },
-  {
-   "player": "11631",
-   "name": "Brian Thomas Jr.",
-   "score": 884,
-   "gs": 25,
-   "pts": 260.8,
-   "ppg": 10.43,
-   "war": -0.24
   },
   {
    "player": "1426",
@@ -948,13 +939,22 @@
    "war": -0.37
   },
   {
+   "player": "11631",
+   "name": "Brian Thomas Jr.",
+   "score": 883,
+   "gs": 25,
+   "pts": 260.8,
+   "ppg": 10.43,
+   "war": -0.2
+  },
+  {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 882,
+   "score": 880,
    "gs": 25,
    "pts": 266.9,
    "ppg": 10.68,
-   "war": -0.17
+   "war": -0.14
   }
  ],
  "status": {
@@ -986,7 +986,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 370,
+   "rank": 375,
    "of": 419
   },
   {
@@ -995,7 +995,7 @@
    "stat": "VOR",
    "value": -25.0,
    "digits": 1,
-   "rank": 370,
+   "rank": 375,
    "of": 419
   },
   {
@@ -1058,7 +1058,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 107,
+   "rank": 109,
    "of": 126
   },
   {
@@ -1127,7 +1127,7 @@
    "stat": "WAR",
    "value": 0.0,
    "digits": 2,
-   "rank": 33,
+   "rank": 36,
    "of": 82,
    "franchise": 4
   },
@@ -1234,7 +1234,7 @@
  ],
  "hof": {
   "score": 5.0,
-  "rank": 193,
+  "rank": 195,
   "of": 419,
   "war": 0.0,
   "starts": 5.0,

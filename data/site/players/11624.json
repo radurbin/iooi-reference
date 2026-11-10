@@ -80,8 +80,8 @@
    "best": 11.0,
    "wins": 0,
    "paa": -30.1,
-   "vor": -32.78,
-   "war": -0.39
+   "vor": -25.14,
+   "war": -0.3
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 20.8,
   "wins": 5,
   "paa": -64.94,
-  "vor": -43.68,
-  "war": -0.52
+  "vor": -36.04,
+  "war": -0.43
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "KC",
    "g": 8,
    "pts": 68.3,
-   "rank": 46
+   "rank": 47
   }
  ],
  "history": [
@@ -806,8 +806,8 @@
    "proj": 10.52,
    "won": false,
    "paa": -8.12,
-   "vor": -8.92,
-   "war": -0.10542354611007977
+   "vor": -7.01,
+   "war": -0.08284967020534295
   },
   {
    "season": "2026",
@@ -825,8 +825,8 @@
    "proj": 9.8,
    "won": false,
    "paa": -3.65,
-   "vor": -3.42,
-   "war": -0.04042023853099471
+   "vor": -1.51,
+   "war": -0.017846362626257897
   },
   {
    "season": "2026",
@@ -876,8 +876,8 @@
    "proj": 11.21,
    "won": false,
    "paa": -9.49,
-   "vor": -10.32,
-   "war": -0.12196984258475597
+   "vor": -8.41,
+   "war": -0.09939596668001915
   },
   {
    "season": "2026",
@@ -895,15 +895,15 @@
    "proj": 9.54,
    "won": false,
    "paa": -8.84,
-   "vor": -10.12,
-   "war": -0.1196060859455165
+   "vor": -8.21,
+   "war": -0.0970322100407797
   }
  ],
  "similar": [
   {
    "player": "2374",
    "name": "Tyler Lockett",
-   "score": 949,
+   "score": 944,
    "gs": 15,
    "pts": 132.1,
    "ppg": 8.81,
@@ -912,11 +912,20 @@
   {
    "player": "9500",
    "name": "Josh Downs",
-   "score": 911,
+   "score": 915,
    "gs": 18,
    "pts": 155.5,
    "ppg": 8.64,
-   "war": -0.82
+   "war": -0.7
+  },
+  {
+   "player": "10213",
+   "name": "Tre Tucker",
+   "score": 905,
+   "gs": 15,
+   "pts": 155.9,
+   "ppg": 10.39,
+   "war": -0.14
   },
   {
    "player": "9754",
@@ -925,21 +934,12 @@
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.57
-  },
-  {
-   "player": "10213",
-   "name": "Tre Tucker",
-   "score": 904,
-   "gs": 15,
-   "pts": 155.9,
-   "ppg": 10.39,
-   "war": -0.23
+   "war": -0.5
   },
   {
    "player": "8676",
    "name": "Rashid Shaheed",
-   "score": 885,
+   "score": 896,
    "gs": 14,
    "pts": 146.6,
    "ppg": 10.47,
@@ -974,18 +974,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.52,
+   "value": -0.43,
    "digits": 2,
-   "rank": 396,
+   "rank": 392,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -43.7,
+   "value": -36.0,
    "digits": 1,
-   "rank": 396,
+   "rank": 392,
    "of": 419
   },
   {
@@ -1046,7 +1046,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.52,
+   "value": -0.43,
    "digits": 2,
    "rank": 117,
    "of": 126
@@ -1117,7 +1117,7 @@
    "stat": "WAR",
    "value": 0.2,
    "digits": 2,
-   "rank": 19,
+   "rank": 20,
    "of": 40,
    "franchise": 6
   },
@@ -1155,7 +1155,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.67,
+   "value": -0.58,
    "digits": 2,
    "rank": 73,
    "of": 73,
@@ -1264,7 +1264,7 @@
  ],
  "hof": {
   "score": 4.0,
-  "rank": 207,
+  "rank": 208,
   "of": 419,
   "war": 0.0,
   "starts": 4.0,

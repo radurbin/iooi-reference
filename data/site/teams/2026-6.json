@@ -247,8 +247,8 @@
    "bench_pts": 15.5,
    "wins": 4,
    "paa": 24.74,
-   "vor": 20.48,
-   "war": 0.24
+   "vor": 31.94,
+   "war": 0.38
   },
   {
    "player": "8137",
@@ -262,8 +262,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": -5.36,
-   "vor": -9.56,
-   "war": -0.11
+   "vor": 5.72,
+   "war": 0.07
   },
   {
    "player": "9224",
@@ -292,8 +292,8 @@
    "bench_pts": 16.9,
    "wins": 1,
    "paa": 1.36,
-   "vor": 0.0,
-   "war": 0.0
+   "vor": 9.55,
+   "war": 0.11
   },
   {
    "player": "11786",
@@ -307,8 +307,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": 2.48,
-   "vor": -18.01,
-   "war": -0.21
+   "vor": -0.37,
+   "war": -0.0
   },
   {
    "player": "5022",
@@ -322,8 +322,8 @@
    "bench_pts": 9.8,
    "wins": 3,
    "paa": -0.38,
-   "vor": 4.3,
-   "war": 0.05
+   "vor": 9.5,
+   "war": 0.11
   },
   {
    "player": "4199",
@@ -367,8 +367,8 @@
    "bench_pts": 37.8,
    "wins": 1,
    "paa": -12.01,
-   "vor": -6.3,
-   "war": -0.07
+   "vor": -3.18,
+   "war": -0.04
   },
   {
    "player": "HOU",
@@ -397,8 +397,8 @@
    "bench_pts": 83.7,
    "wins": 1,
    "paa": 5.36,
-   "vor": 4.08,
-   "war": 0.05
+   "vor": 5.99,
+   "war": 0.07
   },
   {
    "player": "5859",
@@ -412,8 +412,8 @@
    "bench_pts": 5.7,
    "wins": 2,
    "paa": -13.88,
-   "vor": -15.44,
-   "war": -0.18
+   "vor": -11.62,
+   "war": -0.14
   },
   {
    "player": "PHI",
@@ -457,8 +457,8 @@
    "bench_pts": 10.3,
    "wins": 1,
    "paa": -0.97,
-   "vor": -3.13,
-   "war": -0.04
+   "vor": -0.61,
+   "war": -0.01
   },
   {
    "player": "12498",
@@ -1288,8 +1288,8 @@
    "opp_record": "3-5",
    "opp_seed": 10,
    "chance": 0.628,
-   "proj": 137.5,
-   "opp_proj": 93.06
+   "proj": 137.66,
+   "opp_proj": 93.14
   },
   {
    "week": 10,
@@ -1335,17 +1335,40 @@
  "injuries": {
   "games": 27,
   "players": 9,
-  "lost": 3.19,
-  "rank": 12,
+  "lost": 15.74,
+  "rank": 11,
   "games_rank": 2,
   "of": 12,
   "rows": [
+   {
+    "player": "5859",
+    "name": "A.J. Brown",
+    "pos": "WR",
+    "missed": 5,
+    "lost": 3.95,
+    "injuries": [
+     "Knee",
+     "Ankle"
+    ],
+    "weeks": [
+     2,
+     3,
+     4,
+     5,
+     8
+    ],
+    "kinds": [
+     "IR",
+     "Questionable"
+    ],
+    "gs": 2
+   },
    {
     "player": "9997",
     "name": "Zay Flowers",
     "pos": "WR",
     "missed": 1,
-    "lost": 1.78,
+    "lost": 3.69,
     "injuries": [
      "Hamstring"
     ],
@@ -1362,7 +1385,7 @@
     "name": "Dallas Goedert",
     "pos": "TE",
     "missed": 2,
-    "lost": 1.0,
+    "lost": 3.08,
     "injuries": [
      "Knee"
     ],
@@ -1376,11 +1399,32 @@
     "gs": 5
    },
    {
+    "player": "9502",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "missed": 5,
+    "lost": 2.7,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 0
+   },
+   {
     "player": "2216",
     "name": "Mike Evans",
     "pos": "WR",
     "missed": 1,
-    "lost": 0.41,
+    "lost": 2.32,
     "injuries": [
      "Ribs"
     ],
@@ -1409,50 +1453,6 @@
      5,
      7,
      8
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 0
-   },
-   {
-    "player": "5859",
-    "name": "A.J. Brown",
-    "pos": "WR",
-    "missed": 5,
-    "lost": 0.0,
-    "injuries": [
-     "Knee",
-     "Ankle"
-    ],
-    "weeks": [
-     2,
-     3,
-     4,
-     5,
-     8
-    ],
-    "kinds": [
-     "IR",
-     "Questionable"
-    ],
-    "gs": 2
-   },
-   {
-    "player": "9502",
-    "name": "Tank Dell",
-    "pos": "WR",
-    "missed": 5,
-    "lost": 0.0,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     1,
-     2,
-     3,
-     4,
-     5
     ],
     "kinds": [
      "IR"

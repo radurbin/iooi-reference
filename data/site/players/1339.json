@@ -116,7 +116,7 @@
    "team": "PHI",
    "g": 3,
    "pts": 5.2,
-   "rank": 91
+   "rank": 92
   }
  ],
  "history": [
@@ -941,11 +941,11 @@
   {
    "player": "7002",
    "name": "Juwan Johnson",
-   "score": 976,
+   "score": 975,
    "gs": 8,
    "pts": 68.5,
    "ppg": 8.56,
-   "war": -0.07
+   "war": -0.06
   },
   {
    "player": "3214",
@@ -954,16 +954,16 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.12
+   "war": -0.1
   },
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 905,
+   "score": 906,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.19
+   "war": -0.18
   },
   {
    "player": "7600",
@@ -972,16 +972,16 @@
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.19
+   "war": -0.14
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 748,
+   "score": 742,
    "gs": 11,
    "pts": 122.0,
    "ppg": 11.09,
-   "war": 0.16
+   "war": 0.25
   }
  ],
  "status": {
@@ -1013,7 +1013,7 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 286,
+   "rank": 294,
    "of": 419
   },
   {
@@ -1022,7 +1022,7 @@
    "stat": "VOR",
    "value": -9.0,
    "digits": 1,
-   "rank": 289,
+   "rank": 297,
    "of": 419
   },
   {
@@ -1085,7 +1085,7 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 32,
+   "rank": 33,
    "of": 52
   },
   {
@@ -1191,7 +1191,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 254,
+  "rank": 255,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

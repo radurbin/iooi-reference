@@ -96,8 +96,8 @@
    "best": 32.7,
    "wins": 5,
    "paa": 37.14,
-   "vor": 32.94,
-   "war": 0.39
+   "vor": 48.22,
+   "war": 0.57
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 32.7,
   "wins": 10,
   "paa": -47.06,
-  "vor": -35.16,
-  "war": -0.42
+  "vor": -19.88,
+  "war": -0.23
  },
  "nfl": [
   {
@@ -1043,8 +1043,8 @@
    "proj": 12.57,
    "won": false,
    "paa": 19.01,
-   "vor": 18.28,
-   "war": 0.21604735682648635
+   "vor": 20.19,
+   "war": 0.23862123273122318
   },
   {
    "season": "2026",
@@ -1062,8 +1062,8 @@
    "proj": 14.87,
    "won": false,
    "paa": -1.18,
-   "vor": -0.32,
-   "war": -0.0037820106227831308
+   "vor": 1.59,
+   "war": 0.01879186528195368
   },
   {
    "season": "2026",
@@ -1081,8 +1081,8 @@
    "proj": 15.64,
    "won": true,
    "paa": 8.98,
-   "vor": 8.18,
-   "war": 0.09667764654489377
+   "vor": 10.09,
+   "war": 0.1192515224496306
   },
   {
    "season": "2026",
@@ -1100,8 +1100,8 @@
    "proj": 15.18,
    "won": false,
    "paa": -6.95,
-   "vor": -6.72,
-   "war": -0.07942222307844574
+   "vor": -4.81,
+   "war": -0.05684834717370893
   },
   {
    "season": "2026",
@@ -1119,8 +1119,8 @@
    "proj": 15.58,
    "won": true,
    "paa": 17.51,
-   "vor": 17.88,
-   "war": 0.21131984354800742
+   "vor": 19.79,
+   "war": 0.23389371945274423
   },
   {
    "season": "2026",
@@ -1138,8 +1138,8 @@
    "proj": 18.46,
    "won": true,
    "paa": -3.0,
-   "vor": -5.02,
-   "war": -0.05933029164491036
+   "vor": -3.11,
+   "war": -0.03675641574017355
   },
   {
    "season": "2026",
@@ -1157,8 +1157,8 @@
    "proj": 18.0,
    "won": true,
    "paa": -1.39,
-   "vor": -2.22,
-   "war": -0.026237698695557973
+   "vor": -0.31,
+   "war": -0.003663822790821158
   },
   {
    "season": "2026",
@@ -1176,55 +1176,55 @@
    "proj": 16.0,
    "won": true,
    "paa": 4.16,
-   "vor": 2.88,
-   "war": 0.034038095605048176
+   "vor": 4.79,
+   "war": 0.05661197150978499
   }
  ],
  "similar": [
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 939,
+   "score": 942,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
    "war": -0.3
   },
   {
-   "player": "1426",
-   "name": "DeAndre Hopkins",
-   "score": 927,
-   "gs": 25,
-   "pts": 267.1,
-   "ppg": 10.68,
-   "war": -0.37
-  },
-  {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 926,
+   "score": 930,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": -0.29
+   "war": -0.18
+  },
+  {
+   "player": "2309",
+   "name": "Amari Cooper",
+   "score": 927,
+   "gs": 19,
+   "pts": 217.2,
+   "ppg": 11.43,
+   "war": -0.14
   },
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 912,
+   "score": 925,
    "gs": 25,
    "pts": 266.9,
    "ppg": 10.68,
-   "war": -0.17
+   "war": -0.14
   },
   {
-   "player": "11631",
-   "name": "Brian Thomas Jr.",
-   "score": 912,
+   "player": "1426",
+   "name": "DeAndre Hopkins",
+   "score": 922,
    "gs": 25,
-   "pts": 260.8,
-   "ppg": 10.43,
-   "war": -0.24
+   "pts": 267.1,
+   "ppg": 10.68,
+   "war": -0.37
   }
  ],
  "status": {
@@ -1255,18 +1255,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.42,
+   "value": -0.23,
    "digits": 2,
-   "rank": 386,
+   "rank": 359,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -35.2,
+   "value": -19.9,
    "digits": 1,
-   "rank": 387,
+   "rank": 361,
    "of": 419
   },
   {
@@ -1327,9 +1327,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.42,
+   "value": -0.23,
    "digits": 2,
-   "rank": 114,
+   "rank": 103,
    "of": 126
   },
   {
@@ -1356,9 +1356,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.41,
+   "value": -0.23,
    "digits": 2,
-   "rank": 75,
+   "rank": 70,
    "of": 75,
    "franchise": 2
   },
@@ -1495,7 +1495,7 @@
  ],
  "hof": {
   "score": 5.5,
-  "rank": 184,
+  "rank": 185,
   "of": 419,
   "war": 0.0,
   "starts": 5.5,

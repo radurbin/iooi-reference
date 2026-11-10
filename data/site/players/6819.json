@@ -1180,49 +1180,49 @@
  ],
  "similar": [
   {
-   "player": "9997",
-   "name": "Zay Flowers",
-   "score": 925,
-   "gs": 36,
-   "pts": 486.6,
-   "ppg": 13.52,
-   "war": 0.73
-  },
-  {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 922,
+   "score": 925,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.47
+   "war": 0.49
+  },
+  {
+   "player": "9997",
+   "name": "Zay Flowers",
+   "score": 920,
+   "gs": 36,
+   "pts": 486.6,
+   "ppg": 13.52,
+   "war": 0.86
   },
   {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
-   "score": 893,
+   "score": 890,
    "gs": 36,
    "pts": 503.25,
    "ppg": 13.98,
-   "war": 0.99
-  },
-  {
-   "player": "2449",
-   "name": "Stefon Diggs",
-   "score": 854,
-   "gs": 32,
-   "pts": 482.42,
-   "ppg": 15.08,
-   "war": 1.12
+   "war": 1.02
   },
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 849,
+   "score": 863,
    "gs": 31,
    "pts": 380.4,
    "ppg": 12.27,
-   "war": 0.24
+   "war": 0.36
+  },
+  {
+   "player": "2449",
+   "name": "Stefon Diggs",
+   "score": 847,
+   "gs": 32,
+   "pts": 482.42,
+   "ppg": 15.08,
+   "war": 1.19
   }
  ],
  "status": {
@@ -1255,7 +1255,7 @@
    "stat": "WAR",
    "value": 0.72,
    "digits": 2,
-   "rank": 96,
+   "rank": 97,
    "of": 419
   },
   {
@@ -1264,7 +1264,7 @@
    "stat": "VOR",
    "value": 61.1,
    "digits": 1,
-   "rank": 96,
+   "rank": 97,
    "of": 419
   },
   {
@@ -1327,7 +1327,7 @@
    "stat": "WAR",
    "value": 0.72,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 126
   },
   {
@@ -1463,7 +1463,7 @@
  ],
  "hof": {
   "score": 17.45,
-  "rank": 82,
+  "rank": 83,
   "of": 419,
   "war": 7.2,
   "starts": 8.25,

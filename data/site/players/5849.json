@@ -1235,7 +1235,7 @@
    "stat": "WAR",
    "value": 0.89,
    "digits": 2,
-   "rank": 80,
+   "rank": 84,
    "of": 419
   },
   {
@@ -1244,7 +1244,7 @@
    "stat": "VOR",
    "value": 75.6,
    "digits": 1,
-   "rank": 80,
+   "rank": 84,
    "of": 419
   },
   {
@@ -1443,7 +1443,7 @@
  ],
  "hof": {
   "score": 15.65,
-  "rank": 93,
+  "rank": 94,
   "of": 419,
   "war": 8.9,
   "starts": 6.75,
@@ -1950,13 +1950,15 @@
    {
     "season": "2026",
     "nfl": "MIN",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
-     "Concussion"
+     "Concussion",
+     "Hamstring"
     ],
     "weeks": [
-     2
+     2,
+     9
     ],
     "kinds": [
      "Out"
@@ -1969,6 +1971,13 @@
       "injury": "Concussion",
       "franchise": 12,
       "team": "Happy Feet"
+     },
+     {
+      "week": 9,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2058,13 +2067,30 @@
     ],
     "rostered": 1,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 9,
+    "to": 9,
+    "weeks": [
+     9
+    ],
+    "missed": 1,
+    "nfl": "MIN",
+    "injury": "Hamstring",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Hamstring",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

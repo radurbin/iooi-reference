@@ -80,8 +80,8 @@
    "best": 23.8,
    "wins": 1,
    "paa": -12.64,
-   "vor": -14.0,
-   "war": -0.17
+   "vor": -4.45,
+   "war": -0.05
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 29.8,
   "wins": 10,
   "paa": -60.63,
-  "vor": -24.65,
-  "war": -0.29
+  "vor": -15.1,
+  "war": -0.18
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "NE",
    "g": 6,
    "pts": 58.1,
-   "rank": 62
+   "rank": 63
   }
  ],
  "history": [
@@ -1055,8 +1055,8 @@
    "proj": 9.04,
    "won": true,
    "paa": -2.68,
-   "vor": -1.82,
-   "war": -0.021510185417079056
+   "vor": 0.09,
+   "war": 0.0010636904876577555
   },
   {
    "season": "2026",
@@ -1074,8 +1074,8 @@
    "proj": 9.38,
    "won": false,
    "paa": -5.72,
-   "vor": -6.52,
-   "war": -0.07705846643920629
+   "vor": -4.61,
+   "war": -0.05448459053446948
   },
   {
    "season": "2026",
@@ -1093,8 +1093,8 @@
    "proj": 9.0,
    "won": false,
    "paa": 9.15,
-   "vor": 9.38,
-   "war": 0.11086018638033053
+   "vor": 11.29,
+   "war": 0.13343406228506732
   },
   {
    "season": "2026",
@@ -1112,8 +1112,8 @@
    "proj": 12.91,
    "won": false,
    "paa": -12.19,
-   "vor": -11.82,
-   "war": -0.13969801737905188
+   "vor": -9.91,
+   "war": -0.11712414147431507
   },
   {
    "season": "2026",
@@ -1131,8 +1131,8 @@
    "proj": 9.41,
    "won": false,
    "paa": -1.2,
-   "vor": -3.22,
-   "war": -0.038056481891755256
+   "vor": -1.31,
+   "war": -0.015482605987018443
   },
   {
    "season": "2026",
@@ -1169,45 +1169,45 @@
  ],
  "similar": [
   {
+   "player": "8134",
+   "name": "Khalil Shakir",
+   "score": 974,
+   "gs": 25,
+   "pts": 266.9,
+   "ppg": 10.68,
+   "war": -0.14
+  },
+  {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 972,
+   "score": 957,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
    "war": -0.37
   },
   {
-   "player": "8134",
-   "name": "Khalil Shakir",
-   "score": 966,
-   "gs": 25,
-   "pts": 266.9,
-   "ppg": 10.68,
-   "war": -0.17
-  },
-  {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 956,
+   "score": 957,
    "gs": 25,
    "pts": 260.8,
    "ppg": 10.43,
-   "war": -0.24
+   "war": -0.2
   },
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 926,
+   "score": 930,
    "gs": 22,
    "pts": 244.6,
    "ppg": 11.12,
-   "war": -0.42
+   "war": -0.23
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 880,
+   "score": 877,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -1252,18 +1252,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.29,
+   "value": -0.18,
    "digits": 2,
-   "rank": 366,
+   "rank": 343,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -24.6,
+   "value": -15.1,
    "digits": 1,
-   "rank": 368,
+   "rank": 344,
    "of": 419
   },
   {
@@ -1324,9 +1324,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.29,
+   "value": -0.18,
    "digits": 2,
-   "rank": 106,
+   "rank": 99,
    "of": 126
   },
   {
@@ -1353,9 +1353,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.3,
+   "value": -0.18,
    "digits": 2,
-   "rank": 70,
+   "rank": 67,
    "of": 73,
    "franchise": 10
   },
@@ -1492,7 +1492,7 @@
  ],
  "hof": {
   "score": 6.25,
-  "rank": 173,
+  "rank": 175,
   "of": 419,
   "war": 0.0,
   "starts": 6.25,

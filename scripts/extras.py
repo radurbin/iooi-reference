@@ -1582,7 +1582,7 @@ def this_week(league, players, files, seasons, games, streak_data, rivalry_data,
                 break
         return found
 
-    # The Young Sexy race as it stood before this week: NFL points over weeks 1-17, every rookie at QB, RB, WR and TE.
+    # The Young Sexy race as it stood before this week: NFL points over weeks 1-17, every rookie at QB, RB, WR, TE and K.
     race = next((r for r in load(SITE / "young_sexy.json") if r["season"] == season), None) if week <= 17 else None
     rookie_pos, rookie_name, race_pts = {}, {}, Counter()
     for pos, entries in (race or {"races": {}})["races"].items():

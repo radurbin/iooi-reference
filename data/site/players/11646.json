@@ -73,8 +73,8 @@
    "best": 15.7,
    "wins": 2,
    "paa": -20.93,
-   "vor": -25.0,
-   "war": -0.3
+   "vor": -15.45,
+   "war": -0.18
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 15.7,
   "wins": 2,
   "paa": -38.51,
-  "vor": -36.9,
-  "war": -0.44
+  "vor": -27.35,
+  "war": -0.32
  },
  "nfl": [
   {
@@ -109,7 +109,7 @@
    "team": "CAR",
    "g": 7,
    "pts": 87.6,
-   "rank": 30
+   "rank": 31
   }
  ],
  "history": [
@@ -601,8 +601,8 @@
    "proj": 12.9,
    "won": true,
    "paa": -0.68,
-   "vor": 0.18,
-   "war": 0.002127380975315511
+   "vor": 2.09,
+   "war": 0.02470125688005232
   },
   {
    "season": "2026",
@@ -620,8 +620,8 @@
    "proj": 14.7,
    "won": false,
    "paa": -9.82,
-   "vor": -10.62,
-   "war": -0.12551547754361514
+   "vor": -8.71,
+   "war": -0.10294160163887835
   },
   {
    "season": "2026",
@@ -671,8 +671,8 @@
    "proj": 12.88,
    "won": true,
    "paa": 3.3,
-   "vor": 1.28,
-   "war": 0.015128042491132523
+   "vor": 3.19,
+   "war": 0.03770191839586933
   },
   {
    "season": "2026",
@@ -690,8 +690,8 @@
    "proj": 15.66,
    "won": false,
    "paa": -11.69,
-   "vor": -12.52,
-   "war": -0.14797116561638998
+   "vor": -10.61,
+   "war": -0.12539728971165318
   },
   {
    "season": "2026",
@@ -709,55 +709,55 @@
    "proj": 15.94,
    "won": false,
    "paa": -2.04,
-   "vor": -3.32,
-   "war": -0.03923836021137498
+   "vor": -1.41,
+   "war": -0.01666448430663817
   }
  ],
  "similar": [
   {
    "player": "11637",
    "name": "Keon Coleman",
-   "score": 967,
+   "score": 975,
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.33
+   "war": -0.3
   },
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 864,
+   "score": 862,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.57
+   "war": -0.5
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 857,
+   "score": 853,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
    "war": -0.52
   },
   {
-   "player": "8119",
-   "name": "Jahan Dotson",
-   "score": 842,
-   "gs": 11,
-   "pts": 73.5,
-   "ppg": 6.68,
-   "war": -0.74
-  },
-  {
    "player": "2374",
    "name": "Tyler Lockett",
-   "score": 839,
+   "score": 834,
    "gs": 15,
    "pts": 132.1,
    "ppg": 8.81,
    "war": -0.57
+  },
+  {
+   "player": "8119",
+   "name": "Jahan Dotson",
+   "score": 833,
+   "gs": 11,
+   "pts": 73.5,
+   "ppg": 6.68,
+   "war": -0.74
   }
  ],
  "status": {
@@ -788,18 +788,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.44,
+   "value": -0.32,
    "digits": 2,
-   "rank": 391,
+   "rank": 381,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -36.9,
+   "value": -27.4,
    "digits": 1,
-   "rank": 391,
+   "rank": 383,
    "of": 419
   },
   {
@@ -860,9 +860,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.44,
+   "value": -0.32,
    "digits": 2,
-   "rank": 116,
+   "rank": 112,
    "of": 126
   },
   {
@@ -889,9 +889,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.39,
+   "value": -0.27,
    "digits": 2,
-   "rank": 62,
+   "rank": 57,
    "of": 65,
    "franchise": 9
   },
@@ -1038,7 +1038,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 254,
+  "rank": 255,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

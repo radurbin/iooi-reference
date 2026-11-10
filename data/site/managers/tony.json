@@ -132,8 +132,8 @@
     "pts": 503.25,
     "best": 35.8,
     "wins": 13,
-    "vor": 84.08,
-    "war": 0.99
+    "vor": 85.99,
+    "war": 1.02
    },
    {
     "player": "5967",
@@ -262,8 +262,8 @@
     "pts": 153.2,
     "best": 40.9,
     "wins": 4,
-    "vor": -10.48,
-    "war": -0.12
+    "vor": -2.84,
+    "war": -0.03
    },
    {
     "player": "12534",
@@ -392,8 +392,8 @@
     "pts": 112.1,
     "best": 23.9,
     "wins": 3,
-    "vor": 11.16,
-    "war": 0.13
+    "vor": 24.53,
+    "war": 0.29
    },
    {
     "player": "4179",
@@ -418,8 +418,8 @@
     "pts": 97.2,
     "best": 30.4,
     "wins": 2,
-    "vor": -3.74,
-    "war": -0.04
+    "vor": 9.63,
+    "war": 0.11
    }
   ],
   "by_pos": {
@@ -516,8 +516,8 @@
      "pts": 503.25,
      "best": 35.8,
      "wins": 13,
-     "vor": 84.08,
-     "war": 0.99
+     "vor": 85.99,
+     "war": 1.02
     },
     {
      "player": "2449",
@@ -570,8 +570,8 @@
      "pts": 57.7,
      "best": 26.0,
      "wins": 3,
-     "vor": -4.1,
-     "war": -0.05
+     "vor": 2.14,
+     "war": 0.03
     },
     {
      "player": "2505",
@@ -583,8 +583,8 @@
      "pts": 40.8,
      "best": 18.8,
      "wins": 1,
-     "vor": -32.78,
-     "war": -0.39
+     "vor": -31.74,
+     "war": -0.38
     }
    ],
    "K": [
@@ -725,8 +725,8 @@
    "pts": 503.25,
    "best": 35.8,
    "wins": 13,
-   "vor": 84.08,
-   "war": 0.99
+   "vor": 85.99,
+   "war": 1.02
   },
   {
    "slot": "WR",
@@ -1237,8 +1237,8 @@
    "team": "Im Stroud Of You",
    "games": 25,
    "players": 6,
-   "lost": 33.2,
-   "rank": 4,
+   "lost": 33.16,
+   "rank": 5,
    "of": 12
   }
  ],
@@ -1621,29 +1621,6 @@
    ]
   },
   {
-   "player": "8408",
-   "name": "Jordan Mason",
-   "pos": "RB",
-   "missed": 4,
-   "lost": 0.04,
-   "injuries": [
-    "Thumb"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 4,
-     "team": "Im Stroud Of You"
-    }
-   ]
-  },
-  {
    "player": "4950",
    "name": "Christian Kirk",
    "pos": "WR",
@@ -1663,6 +1640,29 @@
      "season": "2025",
      "franchise": 4,
      "team": "Win one game"
+    }
+   ]
+  },
+  {
+   "player": "8408",
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Thumb"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 4,
+     "team": "Im Stroud Of You"
     }
    ]
   }

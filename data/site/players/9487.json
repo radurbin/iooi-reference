@@ -73,8 +73,8 @@
    "best": 30.4,
    "wins": 2,
    "paa": -0.37,
-   "vor": -3.74,
-   "war": -0.04
+   "vor": 9.63,
+   "war": 0.11
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 30.4,
   "wins": 4,
   "paa": -15.86,
-  "vor": -17.34,
-  "war": -0.2
+  "vor": -3.97,
+  "war": -0.05
  },
  "nfl": [
   {
@@ -407,8 +407,8 @@
    "proj": 12.18,
    "won": false,
    "paa": 5.61,
-   "vor": 4.88,
-   "war": 0.05767566199744274
+   "vor": 6.79,
+   "war": 0.08024953790217955
   },
   {
    "season": "2026",
@@ -426,8 +426,8 @@
    "proj": 13.08,
    "won": false,
    "paa": 3.02,
-   "vor": 3.88,
-   "war": 0.045856878801245456
+   "vor": 5.79,
+   "war": 0.06843075470598227
   },
   {
    "season": "2026",
@@ -445,8 +445,8 @@
    "proj": 15.28,
    "won": false,
    "paa": -0.62,
-   "vor": -1.42,
-   "war": -0.01678267213860014
+   "vor": 0.49,
+   "war": 0.005791203766136669
   },
   {
    "season": "2026",
@@ -464,8 +464,8 @@
    "proj": 17.21,
    "won": true,
    "paa": -12.55,
-   "vor": -12.32,
-   "war": -0.14560740897715055
+   "vor": -10.41,
+   "war": -0.12303353307241373
   },
   {
    "season": "2026",
@@ -483,8 +483,8 @@
    "proj": 14.0,
    "won": false,
    "paa": 15.61,
-   "vor": 15.98,
-   "war": 0.18886415547523258
+   "vor": 17.89,
+   "war": 0.21143803137996942
   },
   {
    "season": "2026",
@@ -502,8 +502,8 @@
    "proj": 15.12,
    "won": true,
    "paa": -2.0,
-   "vor": -4.02,
-   "war": -0.047511508448713075
+   "vor": -2.11,
+   "war": -0.024937632543976268
   },
   {
    "season": "2026",
@@ -537,55 +537,55 @@
    "proj": 14.98,
    "won": false,
    "paa": -9.44,
-   "vor": -10.72,
-   "war": -0.12669735586323488
+   "vor": -8.81,
+   "war": -0.10412347995849808
   }
  ],
  "similar": [
   {
-   "player": "6943",
-   "name": "Gabe Davis",
-   "score": 907,
-   "gs": 12,
-   "pts": 129.1,
-   "ppg": 10.76,
-   "war": -0.23
-  },
-  {
    "player": "8142",
    "name": "Alec Pierce",
-   "score": 895,
+   "score": 916,
    "gs": 10,
    "pts": 124.6,
    "ppg": 12.46,
    "war": 0.22
   },
   {
-   "player": "8676",
-   "name": "Rashid Shaheed",
-   "score": 860,
-   "gs": 14,
-   "pts": 146.6,
-   "ppg": 10.47,
-   "war": -0.15
+   "player": "6943",
+   "name": "Gabe Davis",
+   "score": 901,
+   "gs": 12,
+   "pts": 129.1,
+   "ppg": 10.76,
+   "war": -0.23
   },
   {
    "player": "5947",
    "name": "Jakobi Meyers",
-   "score": 858,
+   "score": 869,
    "gs": 13,
    "pts": 164.3,
    "ppg": 12.64,
    "war": 0.14
   },
   {
-   "player": "10213",
-   "name": "Tre Tucker",
-   "score": 838,
-   "gs": 15,
-   "pts": 155.9,
-   "ppg": 10.39,
-   "war": -0.23
+   "player": "8676",
+   "name": "Rashid Shaheed",
+   "score": 859,
+   "gs": 14,
+   "pts": 146.6,
+   "ppg": 10.47,
+   "war": -0.15
+  },
+  {
+   "player": "8126",
+   "name": "Wan'Dale Robinson",
+   "score": 841,
+   "gs": 12,
+   "pts": 158.8,
+   "ppg": 13.23,
+   "war": 0.32
   }
  ],
  "status": {
@@ -616,18 +616,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.05,
    "digits": 2,
-   "rank": 342,
+   "rank": 241,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -17.3,
+   "value": -4.0,
    "digits": 1,
-   "rank": 345,
+   "rank": 243,
    "of": 419
   },
   {
@@ -688,9 +688,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.05,
    "digits": 2,
-   "rank": 97,
+   "rank": 55,
    "of": 126
   },
   {
@@ -717,9 +717,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.04,
+   "value": 0.11,
    "digits": 2,
-   "rank": 39,
+   "rank": 24,
    "of": 82,
    "franchise": 4
   },
@@ -836,7 +836,7 @@
  ],
  "hof": {
   "score": 2.25,
-  "rank": 247,
+  "rank": 248,
   "of": 419,
   "war": 0.0,
   "starts": 2.25,
@@ -996,17 +996,17 @@
    [
     "2026",
     5,
-    1.75
+    2.55
    ],
    [
     "2026",
     6,
-    2.0
+    2.6
    ],
    [
     "2026",
     7,
-    2.0
+    2.6
    ],
    [
     "2026",

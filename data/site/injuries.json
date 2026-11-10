@@ -444,6 +444,18 @@
    "season_missed": 1
   },
   {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "status": "Out",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 1,
+   "season_missed": 2
+  },
+  {
    "player": "11581",
    "name": "MarShawn Lloyd",
    "pos": "RB",
@@ -550,18 +562,6 @@
    "since": null,
    "streak": 0,
    "season_missed": 0
-  },
-  {
-   "player": "5849",
-   "name": "Kyler Murray",
-   "pos": "QB",
-   "franchise": 12,
-   "team": "Team Win One Game",
-   "status": "Out",
-   "injury": "Hamstring",
-   "since": null,
-   "streak": 0,
-   "season_missed": 1
   },
   {
    "player": "7611",
@@ -2463,7 +2463,7 @@
    "name": "Tank Dell",
    "pos": "WR",
    "missed": 29,
-   "lost": 13.25,
+   "lost": 16.49,
    "injuries": [
     "Knee",
     "Calf",
@@ -3009,6 +3009,26 @@
    "franchises": 1
   },
   {
+   "player": "9493",
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "missed": 8,
+   "lost": 73.71,
+   "injuries": [
+    "Knee",
+    "Hip",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 1
+  },
+  {
    "player": "4037",
    "name": "Chris Godwin Jr.",
    "pos": "WR",
@@ -3043,26 +3063,6 @@
    ],
    "seasons": 3,
    "franchises": 2
-  },
-  {
-   "player": "9493",
-   "name": "Puka Nacua",
-   "pos": "WR",
-   "missed": 8,
-   "lost": 69.89,
-   "injuries": [
-    "Knee",
-    "Hip",
-    "Ankle"
-   ],
-   "kinds": [
-    "Doubtful",
-    "IR",
-    "Out",
-    "Questionable"
-   ],
-   "seasons": 3,
-   "franchises": 1
   },
   {
    "player": "11632",
@@ -3220,6 +3220,44 @@
    "franchises": 1
   },
   {
+   "player": "7569",
+   "name": "Nico Collins",
+   "pos": "WR",
+   "missed": 10,
+   "lost": 48.14,
+   "injuries": [
+    "Hamstring",
+    "Calf",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 4,
+   "franchises": 3
+  },
+  {
+   "player": "11604",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "missed": 6,
+   "lost": 46.78,
+   "injuries": [
+    "Knee",
+    "Toe"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
    "player": "12507",
    "name": "Omarion Hampton",
    "pos": "RB",
@@ -3247,25 +3285,6 @@
     "IR"
    ],
    "seasons": 1,
-   "franchises": 1
-  },
-  {
-   "player": "11604",
-   "name": "Brock Bowers",
-   "pos": "TE",
-   "missed": 6,
-   "lost": 44.7,
-   "injuries": [
-    "Knee",
-    "Toe"
-   ],
-   "kinds": [
-    "Doubtful",
-    "IR",
-    "Out",
-    "Questionable"
-   ],
-   "seasons": 2,
    "franchises": 1
   },
   {
@@ -3306,30 +3325,11 @@
    "franchises": 1
   },
   {
-   "player": "7569",
-   "name": "Nico Collins",
-   "pos": "WR",
-   "missed": 10,
-   "lost": 44.32,
-   "injuries": [
-    "Hamstring",
-    "Calf",
-    "Concussion"
-   ],
-   "kinds": [
-    "IR",
-    "Out",
-    "Questionable"
-   ],
-   "seasons": 4,
-   "franchises": 3
-  },
-  {
    "player": "6794",
    "name": "Justin Jefferson",
    "pos": "WR",
    "missed": 8,
-   "lost": 42.84,
+   "lost": 43.53,
    "injuries": [
     "Hamstring",
     "Ankle"
@@ -5224,15 +5224,15 @@
    "finish": null,
    "games": 22,
    "players": 10,
-   "lost": 18.61,
+   "lost": 22.43,
    "worst": {
-    "player": "12489",
-    "name": "RJ Harvey",
-    "pos": "RB",
+    "player": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
     "missed": 2,
-    "lost": 7.2
+    "lost": 9.48
    },
-   "rank": 8,
+   "rank": 7,
    "games_rank": 6,
    "of": 12
   },
@@ -5248,15 +5248,15 @@
    "finish": null,
    "games": 37,
    "players": 12,
-   "lost": 25.58,
+   "lost": 33.26,
    "worst": {
     "player": "7525",
     "name": "DeVonta Smith",
     "pos": "WR",
     "missed": 4,
-    "lost": 12.84
+    "lost": 20.48
    },
-   "rank": 6,
+   "rank": 4,
    "games_rank": 1,
    "of": 12
   },
@@ -5296,7 +5296,7 @@
    "finish": null,
    "games": 25,
    "players": 6,
-   "lost": 33.2,
+   "lost": 33.16,
    "worst": {
     "player": "12534",
     "name": "Kyle Monangai",
@@ -5304,7 +5304,7 @@
     "missed": 4,
     "lost": 33.16
    },
-   "rank": 4,
+   "rank": 5,
    "games_rank": 4,
    "of": 12
   },
@@ -5328,7 +5328,7 @@
     "missed": 4,
     "lost": 42.68
    },
-   "rank": 2,
+   "rank": 3,
    "games_rank": 6,
    "of": 12
   },
@@ -5344,15 +5344,15 @@
    "finish": null,
    "games": 27,
    "players": 9,
-   "lost": 3.19,
+   "lost": 15.74,
    "worst": {
-    "player": "9997",
-    "name": "Zay Flowers",
+    "player": "5859",
+    "name": "A.J. Brown",
     "pos": "WR",
-    "missed": 1,
-    "lost": 1.78
+    "missed": 5,
+    "lost": 3.95
    },
-   "rank": 12,
+   "rank": 11,
    "games_rank": 2,
    "of": 12
   },
@@ -5368,13 +5368,13 @@
    "finish": null,
    "games": 25,
    "players": 10,
-   "lost": 86.35,
+   "lost": 92.25,
    "worst": {
-    "player": "13345",
-    "name": "Jonah Coleman",
-    "pos": "RB",
-    "missed": 4,
-    "lost": 21.96
+    "player": "9493",
+    "name": "Puka Nacua",
+    "pos": "WR",
+    "missed": 2,
+    "lost": 25.64
    },
    "rank": 1,
    "games_rank": 4,
@@ -5392,7 +5392,7 @@
    "finish": null,
    "games": 27,
    "players": 9,
-   "lost": 49.42,
+   "lost": 55.86,
    "worst": {
     "player": "8155",
     "name": "Breece Hall",
@@ -5400,7 +5400,7 @@
     "missed": 3,
     "lost": 21.51
    },
-   "rank": 3,
+   "rank": 2,
    "games_rank": 2,
    "of": 12
   },
@@ -5425,7 +5425,7 @@
     "missed": 2,
     "lost": 4.28
    },
-   "rank": 11,
+   "rank": 12,
    "games_rank": 12,
    "of": 12
   },
@@ -5449,7 +5449,7 @@
     "missed": 3,
     "lost": 16.68
    },
-   "rank": 7,
+   "rank": 8,
    "games_rank": 9,
    "of": 12
   },
@@ -5465,7 +5465,7 @@
    "finish": null,
    "games": 10,
    "players": 4,
-   "lost": 27.76,
+   "lost": 28.45,
    "worst": {
     "player": "7543",
     "name": "Travis Etienne Jr.",
@@ -5473,7 +5473,7 @@
     "missed": 4,
     "lost": 27.76
    },
-   "rank": 5,
+   "rank": 6,
    "games_rank": 11,
    "of": 12
   },
@@ -5489,7 +5489,7 @@
    "finish": null,
    "games": 22,
    "players": 10,
-   "lost": 17.25,
+   "lost": 17.64,
    "worst": {
     "player": "8155",
     "name": "Breece Hall",
@@ -5507,18 +5507,18 @@
    "franchise": 1,
    "name": "Mojo Dojo Casa Team 💍",
    "games": 197,
-   "lost": 248.64,
+   "lost": 252.46,
    "seasons": 4,
-   "per_season": 62.16,
+   "per_season": 63.12,
    "worst": "2025"
   },
   {
    "franchise": 2,
    "name": "Storm FC",
    "games": 197,
-   "lost": 278.24,
+   "lost": 285.92,
    "seasons": 4,
-   "per_season": 69.56,
+   "per_season": 71.48,
    "worst": "2025"
   },
   {
@@ -5534,9 +5534,9 @@
    "franchise": 4,
    "name": "Im Stroud Of You",
    "games": 132,
-   "lost": 225.69,
+   "lost": 225.65,
    "seasons": 4,
-   "per_season": 56.42,
+   "per_season": 56.41,
    "worst": "2024"
   },
   {
@@ -5552,27 +5552,27 @@
    "franchise": 6,
    "name": "got that DAWG",
    "games": 182,
-   "lost": 207.33,
+   "lost": 219.88,
    "seasons": 4,
-   "per_season": 51.83,
+   "per_season": 54.97,
    "worst": "2025"
   },
   {
    "franchise": 7,
    "name": "the dart side 🛸💍",
    "games": 120,
-   "lost": 309.76,
+   "lost": 315.66,
    "seasons": 4,
-   "per_season": 77.44,
+   "per_season": 78.91,
    "worst": "2024"
   },
   {
    "franchise": 8,
    "name": "BBL KIZZY",
    "games": 145,
-   "lost": 297.45,
+   "lost": 303.89,
    "seasons": 4,
-   "per_season": 74.36,
+   "per_season": 75.97,
    "worst": "2024"
   },
   {
@@ -5597,18 +5597,18 @@
    "franchise": 11,
    "name": "BubbaNASTIES",
    "games": 97,
-   "lost": 221.62,
+   "lost": 222.31,
    "seasons": 4,
-   "per_season": 55.41,
+   "per_season": 55.58,
    "worst": "2025"
   },
   {
    "franchise": 12,
    "name": "Team Win One Game",
    "games": 196,
-   "lost": 388.97,
+   "lost": 389.36,
    "seasons": 4,
-   "per_season": 97.24,
+   "per_season": 97.34,
    "worst": "2025"
   }
  ],
@@ -5617,36 +5617,36 @@
    "key": "alex",
    "name": "Alex",
    "games": 197,
-   "lost": 278.24,
+   "lost": 285.92,
    "seasons": 4,
-   "per_season": 69.56,
+   "per_season": 71.48,
    "worst": "2025"
   },
   {
    "key": "anargha",
    "name": "Anargha",
    "games": 120,
-   "lost": 309.76,
+   "lost": 315.66,
    "seasons": 4,
-   "per_season": 77.44,
+   "per_season": 78.91,
    "worst": "2024"
   },
   {
    "key": "brandon",
    "name": "Brandon",
    "games": 97,
-   "lost": 221.62,
+   "lost": 222.31,
    "seasons": 4,
-   "per_season": 55.41,
+   "per_season": 55.58,
    "worst": "2025"
   },
   {
    "key": "charlie",
    "name": "Charlie",
    "games": 22,
-   "lost": 17.25,
+   "lost": 17.64,
    "seasons": 1,
-   "per_season": 17.25,
+   "per_season": 17.64,
    "worst": "2026"
   },
   {
@@ -5680,18 +5680,18 @@
    "key": "emily",
    "name": "Emily",
    "games": 197,
-   "lost": 248.64,
+   "lost": 252.46,
    "seasons": 4,
-   "per_season": 62.16,
+   "per_season": 63.12,
    "worst": "2025"
   },
   {
    "key": "evan",
    "name": "Evan",
    "games": 145,
-   "lost": 297.45,
+   "lost": 303.89,
    "seasons": 4,
-   "per_season": 74.36,
+   "per_season": 75.97,
    "worst": "2024"
   },
   {
@@ -5707,18 +5707,18 @@
    "key": "makenzy",
    "name": "Makenzy",
    "games": 182,
-   "lost": 207.33,
+   "lost": 219.88,
    "seasons": 4,
-   "per_season": 51.83,
+   "per_season": 54.97,
    "worst": "2025"
   },
   {
    "key": "riley",
    "name": "Riley",
    "games": 197,
-   "lost": 248.64,
+   "lost": 252.46,
    "seasons": 4,
-   "per_season": 62.16,
+   "per_season": 63.12,
    "worst": "2025"
   },
   {
@@ -5752,9 +5752,9 @@
    "key": "tony",
    "name": "Tony",
    "games": 132,
-   "lost": 225.69,
+   "lost": 225.65,
    "seasons": 4,
-   "per_season": 56.42,
+   "per_season": 56.41,
    "worst": "2024"
   }
  ],
@@ -6006,15 +6006,15 @@
    },
    "RB": {
     "games": 87,
-    "lost": 229.6
+    "lost": 229.56
    },
    "WR": {
     "games": 128,
-    "lost": 44.27
+    "lost": 75.5
    },
    "TE": {
     "games": 23,
-    "lost": 25.66
+    "lost": 31.9
    }
   }
  ],
@@ -6098,7 +6098,7 @@
  },
  "totals": {
   "games": 1819,
-  "lost": 3132.35,
+  "lost": 3169.78,
   "players": 316
  }
 }

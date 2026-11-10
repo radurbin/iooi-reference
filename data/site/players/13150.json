@@ -25,8 +25,8 @@
    "best": 1.9,
    "wins": 0,
    "paa": -10.5,
-   "vor": -12.52,
-   "war": -0.15
+   "vor": -10.61,
+   "war": -0.13
   }
  ],
  "totals": {
@@ -38,8 +38,8 @@
   "best": 1.9,
   "wins": 0,
   "paa": -10.5,
-  "vor": -12.52,
-  "war": -0.15
+  "vor": -10.61,
+  "war": -0.13
  },
  "nfl": [
   {
@@ -54,7 +54,7 @@
    "team": "PHI",
    "g": 9,
    "pts": 57.0,
-   "rank": 64
+   "rank": 65
   }
  ],
  "history": [
@@ -101,8 +101,8 @@
    "proj": 4.6,
    "won": false,
    "paa": -10.5,
-   "vor": -12.52,
-   "war": -0.14797116561638998
+   "vor": -10.61,
+   "war": -0.12539728971165318
   },
   {
    "season": "2026",
@@ -165,18 +165,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.13,
    "digits": 2,
-   "rank": 320,
+   "rank": 311,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -12.5,
+   "value": -10.6,
    "digits": 1,
-   "rank": 321,
+   "rank": 313,
    "of": 419
   },
   {
@@ -228,9 +228,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.13,
    "digits": 2,
-   "rank": 86,
+   "rank": 83,
    "of": 126
   },
   {
@@ -257,7 +257,7 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.13,
    "digits": 2,
    "rank": 31,
    "of": 47,
@@ -307,7 +307,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 365,
+  "rank": 366,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,

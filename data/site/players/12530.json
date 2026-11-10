@@ -52,8 +52,8 @@
    "best": 5.85,
    "wins": 0,
    "paa": -7.29,
-   "vor": -8.57,
-   "war": -0.1
+   "vor": -6.66,
+   "war": -0.08
   }
  ],
  "totals": {
@@ -65,8 +65,8 @@
   "best": 13.9,
   "wins": 4,
   "paa": -19.96,
-  "vor": -7.32,
-  "war": -0.09
+  "vor": -5.41,
+  "war": -0.06
  },
  "nfl": [
   {
@@ -520,8 +520,8 @@
    "proj": 9.58,
    "won": false,
    "paa": -7.29,
-   "vor": -8.57,
-   "war": -0.10128697199141072
+   "vor": -6.66,
+   "war": -0.07871309608667391
   }
  ],
  "status": {
@@ -552,18 +552,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.06,
    "digits": 2,
-   "rank": 267,
+   "rank": 250,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -7.3,
+   "value": -5.4,
    "digits": 1,
-   "rank": 268,
+   "rank": 255,
    "of": 419
   },
   {
@@ -615,9 +615,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.06,
    "digits": 2,
-   "rank": 62,
+   "rank": 61,
    "of": 126
   },
   {
@@ -644,9 +644,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.07,
    "digits": 2,
-   "rank": 43,
+   "rank": 42,
    "of": 65,
    "franchise": 9
   },
@@ -724,7 +724,7 @@
  "similar": [],
  "hof": {
   "score": 1.25,
-  "rank": 290,
+  "rank": 291,
   "of": 419,
   "war": 0.0,
   "starts": 1.25,

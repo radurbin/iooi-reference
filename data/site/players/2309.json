@@ -774,38 +774,38 @@
   {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 928,
+   "score": 929,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
    "war": 0.06
   },
   {
-   "player": "10222",
-   "name": "Jayden Reed",
-   "score": 914,
-   "gs": 18,
-   "pts": 222.6,
-   "ppg": 12.37,
-   "war": 0.11
-  },
-  {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 910,
+   "score": 927,
    "gs": 22,
    "pts": 244.6,
    "ppg": 11.12,
-   "war": -0.42
+   "war": -0.23
+  },
+  {
+   "player": "10222",
+   "name": "Jayden Reed",
+   "score": 911,
+   "gs": 18,
+   "pts": 222.6,
+   "ppg": 12.37,
+   "war": 0.14
   },
   {
    "player": "10213",
    "name": "Tre Tucker",
-   "score": 870,
+   "score": 872,
    "gs": 15,
    "pts": 155.9,
    "ppg": 10.39,
-   "war": -0.23
+   "war": -0.14
   }
  ],
  "status": {
@@ -838,7 +838,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 312,
+   "rank": 319,
    "of": 419
   },
   {
@@ -847,7 +847,7 @@
    "stat": "VOR",
    "value": -12.2,
    "digits": 1,
-   "rank": 319,
+   "rank": 329,
    "of": 419
   },
   {
@@ -910,7 +910,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 82,
+   "rank": 87,
    "of": 126
   },
   {
@@ -939,7 +939,7 @@
    "stat": "WAR",
    "value": 0.03,
    "digits": 2,
-   "rank": 31,
+   "rank": 33,
    "of": 82,
    "franchise": 4
   },
@@ -979,7 +979,7 @@
    "stat": "WAR",
    "value": -0.17,
    "digits": 2,
-   "rank": 73,
+   "rank": 74,
    "of": 77,
    "franchise": 1
   },
@@ -1056,7 +1056,7 @@
  ],
  "hof": {
   "score": 4.75,
-  "rank": 198,
+  "rank": 199,
   "of": 419,
   "war": 0.0,
   "starts": 4.75,

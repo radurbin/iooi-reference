@@ -44,7 +44,7 @@ page("Young Sexy Race", async (main) => {
       ["Other seasons", all.filter((x) => x.season !== r.season).flatMap((x, i) => [i ? ", " : "", h("a", { href: `young_sexy.html?y=${x.season}` }, x.season)])],
       ["Past winners", h("a", { href: "awards.html#young-sexy-awards" }, "Young Sexy Awards")],
     ]),
-    ...["QB", "RB", "WR", "TE"].filter((pos) => r.races[pos]).map((pos) => section(pos, statTable({
+    ...["QB", "RB", "WR", "TE", "K"].filter((pos) => r.races[pos]).map((pos) => section(pos, statTable({
       rows: r.races[pos], rowClass: (p) => (p.rk === 1 ? "champ" : null), columns: cols,
     }))),
     h("p", { class: "note" }, `Every ${r.season} NFL rookie at the position who has scored. ${live ? "The leader is highlighted. " : "The highlighted player won the award. "}Bold marks a player on an iooi roster. Click a column to sort.`));

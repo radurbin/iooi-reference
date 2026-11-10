@@ -80,8 +80,8 @@
    "best": 21.8,
    "wins": 2,
    "paa": -32.16,
-   "vor": -36.36,
-   "war": -0.43
+   "vor": -21.08,
+   "war": -0.25
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 25.1,
   "wins": 12,
   "paa": -118.22,
-  "vor": -62.71,
-  "war": -0.74
+  "vor": -47.43,
+  "war": -0.56
  },
  "nfl": [
   {
@@ -1102,8 +1102,8 @@
    "proj": 14.26,
    "won": true,
    "paa": -12.49,
-   "vor": -13.22,
-   "war": -0.15624431385372808
+   "vor": -11.31,
+   "war": -0.13367043794899128
   },
   {
    "season": "2026",
@@ -1121,8 +1121,8 @@
    "proj": 12.74,
    "won": true,
    "paa": 6.52,
-   "vor": 7.38,
-   "war": 0.08722261998793596
+   "vor": 9.29,
+   "war": 0.10979649589267275
   },
   {
    "season": "2026",
@@ -1140,8 +1140,8 @@
    "proj": 13.35,
    "won": false,
    "paa": -7.12,
-   "vor": -7.92,
-   "war": -0.09360476291388248
+   "vor": -6.01,
+   "war": -0.07103088700914567
   },
   {
    "season": "2026",
@@ -1159,8 +1159,8 @@
    "proj": 12.65,
    "won": false,
    "paa": -0.15,
-   "vor": 0.08,
-   "war": 0.0009455026556957827
+   "vor": 1.99,
+   "war": 0.023519378560432593
   },
   {
    "season": "2026",
@@ -1178,8 +1178,8 @@
    "proj": 12.1,
    "won": false,
    "paa": -9.89,
-   "vor": -9.52,
-   "war": -0.11251481602779813
+   "vor": -7.61,
+   "war": -0.08994094012306134
   },
   {
    "season": "2026",
@@ -1197,8 +1197,8 @@
    "proj": 11.37,
    "won": false,
    "paa": -6.0,
-   "vor": -8.02,
-   "war": -0.09478664123350221
+   "vor": -6.11,
+   "war": -0.0722127653287654
   },
   {
    "season": "2026",
@@ -1216,8 +1216,8 @@
    "proj": 12.77,
    "won": false,
    "paa": -4.79,
-   "vor": -5.62,
-   "war": -0.06642156156262874
+   "vor": -3.71,
+   "war": -0.04384768565789192
   },
   {
    "season": "2026",
@@ -1235,15 +1235,15 @@
    "proj": 11.61,
    "won": false,
    "paa": 1.76,
-   "vor": 0.48,
-   "war": 0.005673015934174696
+   "vor": 2.39,
+   "war": 0.02824689183891151
   }
  ],
  "similar": [
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 795,
+   "score": 815,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -1252,38 +1252,38 @@
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 770,
+   "score": 787,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
-   "war": -0.06
+   "war": -0.03
   },
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 708,
+   "score": 718,
    "gs": 31,
    "pts": 380.4,
    "ppg": 12.27,
-   "war": 0.24
+   "war": 0.36
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 652,
+   "score": 675,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.47
+   "war": 0.49
   },
   {
-   "player": "1426",
-   "name": "DeAndre Hopkins",
-   "score": 643,
-   "gs": 25,
-   "pts": 267.1,
-   "ppg": 10.68,
-   "war": -0.37
+   "player": "6819",
+   "name": "Michael Pittman Jr.",
+   "score": 653,
+   "gs": 33,
+   "pts": 445.1,
+   "ppg": 13.49,
+   "war": 0.72
   }
  ],
  "status": {
@@ -1324,18 +1324,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.74,
+   "value": -0.56,
    "digits": 2,
-   "rank": 407,
+   "rank": 401,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -62.7,
+   "value": -47.4,
    "digits": 1,
-   "rank": 409,
+   "rank": 401,
    "of": 419
   },
   {
@@ -1396,9 +1396,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.74,
+   "value": -0.56,
    "digits": 2,
-   "rank": 123,
+   "rank": 120,
    "of": 126
   },
   {
@@ -1427,7 +1427,7 @@
    "stat": "WAR",
    "value": -0.18,
    "digits": 2,
-   "rank": 60,
+   "rank": 61,
    "of": 68,
    "franchise": 3
   },
@@ -1465,7 +1465,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.57,
+   "value": -0.39,
    "digits": 2,
    "rank": 72,
    "of": 73,
@@ -1604,7 +1604,7 @@
  ],
  "hof": {
   "score": 10.0,
-  "rank": 126,
+  "rank": 128,
   "of": 419,
   "war": 0.0,
   "starts": 10.0,

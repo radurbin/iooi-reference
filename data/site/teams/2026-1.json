@@ -233,8 +233,8 @@
    "bench_pts": 0.0,
    "wins": 7,
    "paa": 59.11,
-   "vor": 69.5,
-   "war": 0.82
+   "vor": 77.82,
+   "war": 0.92
   },
   {
    "player": "8138",
@@ -278,8 +278,8 @@
    "bench_pts": 0.0,
    "wins": 7,
    "paa": 2.54,
-   "vor": -1.66,
-   "war": -0.02
+   "vor": 13.62,
+   "war": 0.16
   },
   {
    "player": "6786",
@@ -293,8 +293,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 28.93,
-   "vor": 25.4,
-   "war": 0.3
+   "vor": 34.95,
+   "war": 0.41
   },
   {
    "player": "2133",
@@ -308,8 +308,8 @@
    "bench_pts": 41.0,
    "wins": 5,
    "paa": -6.65,
-   "vor": -9.6,
-   "war": -0.11
+   "vor": -0.05,
+   "war": -0.0
   },
   {
    "player": "4866",
@@ -338,8 +338,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": 11.85,
-   "vor": 2.98,
-   "war": 0.04
+   "vor": 13.06,
+   "war": 0.15
   },
   {
    "player": "96",
@@ -383,8 +383,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -7.89,
-   "vor": -19.19,
-   "war": -0.23
+   "vor": -11.63,
+   "war": -0.14
   },
   {
    "player": "12514",
@@ -398,8 +398,8 @@
    "bench_pts": 60.9,
    "wins": 1,
    "paa": -4.88,
-   "vor": -4.02,
-   "war": -0.05
+   "vor": -2.11,
+   "war": -0.02
   },
   {
    "player": "1945",
@@ -413,8 +413,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -0.95,
-   "vor": -3.43,
-   "war": -0.04
+   "vor": -0.91,
+   "war": -0.01
   },
   {
    "player": "5846",
@@ -428,8 +428,8 @@
    "bench_pts": 71.9,
    "wins": 0,
    "paa": -5.99,
-   "vor": -6.82,
-   "war": -0.08
+   "vor": -4.91,
+   "war": -0.06
   },
   {
    "player": "TB",
@@ -2158,7 +2158,7 @@
    "opp_record": "1-7",
    "opp_seed": 12,
    "chance": 0.847,
-   "proj": 154.37,
+   "proj": 154.31,
    "opp_proj": 112.32
   },
   {
@@ -2205,11 +2205,29 @@
  "injuries": {
   "games": 22,
   "players": 10,
-  "lost": 18.61,
-  "rank": 8,
+  "lost": 22.43,
+  "rank": 7,
   "games_rank": 6,
   "of": 12,
   "rows": [
+   {
+    "player": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "missed": 2,
+    "lost": 9.48,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     7,
+     8
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 5
+   },
    {
     "player": "12489",
     "name": "RJ Harvey",
@@ -2229,24 +2247,6 @@
      "Questionable"
     ],
     "gs": 0
-   },
-   {
-    "player": "2133",
-    "name": "Davante Adams",
-    "pos": "WR",
-    "missed": 2,
-    "lost": 5.66,
-    "injuries": [
-     "Hamstring"
-    ],
-    "weeks": [
-     7,
-     8
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 5
    },
    {
     "player": "4137",

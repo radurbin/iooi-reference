@@ -64,8 +64,8 @@
    "best": 7.7,
    "wins": 0,
    "paa": -7.09,
-   "vor": -6.72,
-   "war": -0.08
+   "vor": -4.81,
+   "war": -0.06
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 18.0,
   "wins": 3,
   "paa": -44.06,
-  "vor": -27.62,
-  "war": -0.33
+  "vor": -25.71,
+  "war": -0.3
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "BUF",
-   "g": 7,
-   "pts": 66.7,
-   "rank": 49
+   "g": 8,
+   "pts": 68.2,
+   "rank": 48
   }
  ],
  "history": [
@@ -763,8 +763,8 @@
    "proj": 11.16,
    "won": false,
    "paa": -7.09,
-   "vor": -6.72,
-   "war": -0.07942222307844574
+   "vor": -4.81,
+   "war": -0.05684834717370893
   },
   {
    "season": "2026",
@@ -819,34 +819,34 @@
   {
    "player": "11646",
    "name": "Jalen Coker",
-   "score": 967,
+   "score": 975,
    "gs": 8,
    "pts": 68.1,
    "ppg": 8.51,
-   "war": -0.44
+   "war": -0.32
+  },
+  {
+   "player": "9754",
+   "name": "Quentin Johnston",
+   "score": 861,
+   "gs": 14,
+   "pts": 116.2,
+   "ppg": 8.3,
+   "war": -0.5
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 860,
+   "score": 859,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
    "war": -0.52
   },
   {
-   "player": "9754",
-   "name": "Quentin Johnston",
-   "score": 858,
-   "gs": 14,
-   "pts": 116.2,
-   "ppg": 8.3,
-   "war": -0.57
-  },
-  {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 852,
+   "score": 849,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
@@ -855,7 +855,7 @@
   {
    "player": "2374",
    "name": "Tyler Lockett",
-   "score": 828,
+   "score": 827,
    "gs": 15,
    "pts": 132.1,
    "ppg": 8.81,
@@ -890,16 +890,16 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.33,
+   "value": -0.3,
    "digits": 2,
-   "rank": 377,
+   "rank": 375,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -27.6,
+   "value": -25.7,
    "digits": 1,
    "rank": 378,
    "of": 419
@@ -962,7 +962,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.33,
+   "value": -0.3,
    "digits": 2,
    "rank": 109,
    "of": 126
@@ -991,7 +991,7 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": -0.32,
+   "value": -0.3,
    "digits": 2,
    "rank": 40,
    "of": 44,
@@ -1100,7 +1100,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 254,
+  "rank": 255,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

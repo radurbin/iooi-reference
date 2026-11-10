@@ -80,8 +80,8 @@
    "best": 22.5,
    "wins": 2,
    "paa": -2.68,
-   "vor": 5.9,
-   "war": 0.07
+   "vor": 11.1,
+   "war": 0.13
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 22.5,
   "wins": 16,
   "paa": -98.67,
-  "vor": -71.62,
-  "war": -0.85
+  "vor": -66.42,
+  "war": -0.79
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "BUF",
-   "g": 7,
-   "pts": 79.1,
-   "rank": 17
+   "g": 8,
+   "pts": 81.3,
+   "rank": 15
   }
  ],
  "history": [
@@ -1103,8 +1103,8 @@
    "proj": 12.14,
    "won": true,
    "paa": 9.91,
-   "vor": 12.2,
-   "war": 0.14418915499360685
+   "vor": 13.24,
+   "war": 0.15648068951765204
   },
   {
    "season": "2026",
@@ -1122,8 +1122,8 @@
    "proj": 13.23,
    "won": false,
    "paa": -8.86,
-   "vor": -6.5,
-   "war": -0.07682209077528235
+   "vor": -5.46,
+   "war": -0.06453055625123717
   },
   {
    "season": "2026",
@@ -1141,8 +1141,8 @@
    "proj": 12.2,
    "won": false,
    "paa": -9.42,
-   "vor": -8.6,
-   "war": -0.10164153548729664
+   "vor": -7.56,
+   "war": -0.08935000096325146
   },
   {
    "season": "2026",
@@ -1176,8 +1176,8 @@
    "proj": 11.08,
    "won": true,
    "paa": -0.06,
-   "vor": 0.5,
-   "war": 0.005909391598098642
+   "vor": 1.54,
+   "war": 0.01820092612214382
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 10.46,
    "won": false,
    "paa": 5.75,
-   "vor": 8.3,
-   "war": 0.09809590052843746
+   "vor": 9.34,
+   "war": 0.11038743505248262
   }
  ],
  "similar": [
@@ -1223,39 +1223,39 @@
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.68
+   "war": -0.62
   },
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 819,
+   "score": 820,
    "gs": 32,
    "pts": 291.5,
    "ppg": 9.11,
-   "war": -0.35
+   "war": -0.29
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 713,
+   "score": 716,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.29
+   "war": -0.25
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 678,
+   "score": 685,
    "gs": 33,
    "pts": 339.9,
    "ppg": 10.3,
-   "war": 0.22
+   "war": 0.26
   },
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 636,
+   "score": 637,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -1290,18 +1290,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.85,
+   "value": -0.79,
    "digits": 2,
-   "rank": 415,
+   "rank": 413,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -71.6,
+   "value": -66.4,
    "digits": 1,
-   "rank": 415,
+   "rank": 413,
    "of": 419
   },
   {
@@ -1362,7 +1362,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.85,
+   "value": -0.79,
    "digits": 2,
    "rank": 52,
    "of": 52
@@ -1391,7 +1391,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.84,
+   "value": -0.78,
    "digits": 2,
    "rank": 65,
    "of": 65,
@@ -1530,7 +1530,7 @@
  ],
  "hof": {
   "score": 9.5,
-  "rank": 132,
+  "rank": 136,
   "of": 419,
   "war": 0.0,
   "starts": 9.5,

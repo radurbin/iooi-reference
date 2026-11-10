@@ -68,8 +68,8 @@
    "best": 9.7,
    "wins": 1,
    "paa": -16.77,
-   "vor": -17.34,
-   "war": -0.2
+   "vor": -13.52,
+   "war": -0.16
   }
  ],
  "totals": {
@@ -81,8 +81,8 @@
   "best": 32.5,
   "wins": 7,
   "paa": -73.95,
-  "vor": -20.64,
-  "war": -0.24
+  "vor": -16.82,
+  "war": -0.2
  },
  "nfl": [
   {
@@ -777,8 +777,8 @@
    "proj": 9.08,
    "won": false,
    "paa": -11.82,
-   "vor": -12.62,
-   "war": -0.1491530439360097
+   "vor": -10.71,
+   "war": -0.12657916803127292
   },
   {
    "season": "2026",
@@ -796,8 +796,8 @@
    "proj": 7.74,
    "won": true,
    "paa": -4.95,
-   "vor": -4.72,
-   "war": -0.055784656686051176
+   "vor": -2.81,
+   "war": -0.03321078078131437
   },
   {
    "season": "2026",
@@ -868,16 +868,16 @@
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 977,
+   "score": 978,
    "gs": 25,
    "pts": 266.9,
    "ppg": 10.68,
-   "war": -0.17
+   "war": -0.14
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 968,
+   "score": 962,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -886,25 +886,25 @@
   {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 956,
+   "score": 957,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": -0.29
+   "war": -0.18
   },
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 912,
+   "score": 919,
    "gs": 22,
    "pts": 244.6,
    "ppg": 11.12,
-   "war": -0.42
+   "war": -0.23
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 884,
+   "score": 883,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -939,18 +939,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.2,
    "digits": 2,
-   "rank": 355,
+   "rank": 351,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -20.6,
+   "value": -16.8,
    "digits": 1,
-   "rank": 355,
+   "rank": 351,
    "of": 419
   },
   {
@@ -1011,7 +1011,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.2,
    "digits": 2,
    "rank": 101,
    "of": 126
@@ -1040,9 +1040,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.2,
    "digits": 2,
-   "rank": 34,
+   "rank": 35,
    "of": 47,
    "franchise": 12
   },

@@ -84,8 +84,8 @@
    "best": 7.8,
    "wins": 2,
    "paa": -13.88,
-   "vor": -15.44,
-   "war": -0.18
+   "vor": -11.62,
+   "war": -0.14
   }
  ],
  "totals": {
@@ -97,8 +97,8 @@
   "best": 38.5,
   "wins": 19,
   "paa": 108.19,
-  "vor": 182.61,
-  "war": 2.16
+  "vor": 186.43,
+  "war": 2.2
  },
  "nfl": [
   {
@@ -1112,8 +1112,8 @@
    "proj": 16.86,
    "won": true,
    "paa": -8.09,
-   "vor": -8.82,
-   "war": -0.10424166779046004
+   "vor": -6.91,
+   "war": -0.08166779188572323
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 14.92,
    "won": true,
    "paa": -5.79,
-   "vor": -6.62,
-   "war": -0.07824034475882602
+   "vor": -4.71,
+   "war": -0.055666468854089206
   },
   {
    "season": "2026",
@@ -1235,47 +1235,47 @@
   {
    "player": "7569",
    "name": "Nico Collins",
-   "score": 973,
+   "score": 974,
    "gs": 41,
    "pts": 664.4,
    "ppg": 16.2,
-   "war": 2.12
+   "war": 2.23
   },
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 932,
+   "score": 945,
    "gs": 40,
    "pts": 640.7,
    "ppg": 16.02,
-   "war": 1.84
-  },
-  {
-   "player": "6794",
-   "name": "Justin Jefferson",
-   "score": 843,
-   "gs": 46,
-   "pts": 738.73,
-   "ppg": 16.06,
-   "war": 2.35
+   "war": 1.95
   },
   {
    "player": "2133",
    "name": "Davante Adams",
-   "score": 840,
+   "score": 844,
    "gs": 46,
    "pts": 708.7,
    "ppg": 15.41,
-   "war": 1.9
+   "war": 2.01
   },
   {
-   "player": "1479",
-   "name": "Keenan Allen",
-   "score": 814,
-   "gs": 35,
-   "pts": 547.16,
-   "ppg": 15.63,
-   "war": 1.67
+   "player": "6794",
+   "name": "Justin Jefferson",
+   "score": 839,
+   "gs": 46,
+   "pts": 738.73,
+   "ppg": 16.06,
+   "war": 2.46
+  },
+  {
+   "player": "8137",
+   "name": "George Pickens",
+   "score": 820,
+   "gs": 41,
+   "pts": 605.7,
+   "ppg": 14.77,
+   "war": 1.53
   }
  ],
  "status": {
@@ -1316,7 +1316,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.16,
+   "value": 2.2,
    "digits": 2,
    "rank": 39,
    "of": 419
@@ -1325,9 +1325,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 182.6,
+   "value": 186.4,
    "digits": 1,
-   "rank": 39,
+   "rank": 40,
    "of": 419
   },
   {
@@ -1388,7 +1388,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 2.16,
+   "value": 2.2,
    "digits": 2,
    "rank": 8,
    "of": 126
@@ -1457,9 +1457,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.28,
+   "value": 0.32,
    "digits": 2,
-   "rank": 18,
+   "rank": 16,
    "of": 40,
    "franchise": 6
   },
@@ -1635,10 +1635,10 @@
   }
  ],
  "hof": {
-  "score": 34.6,
-  "rank": 39,
+  "score": 35.0,
+  "rank": 40,
   "of": 419,
-  "war": 21.6,
+  "war": 22.0,
   "starts": 10.0,
   "black_ink": 0.0,
   "awards": 3.0,
@@ -1901,42 +1901,42 @@
    [
     "2026",
     1,
-    35.15
+    35.35
    ],
    [
     "2026",
     2,
-    35.15
+    35.35
    ],
    [
     "2026",
     3,
-    35.15
+    35.35
    ],
    [
     "2026",
     4,
-    35.15
+    35.35
    ],
    [
     "2026",
     5,
-    35.15
+    35.35
    ],
    [
     "2026",
     6,
-    35.15
+    35.35
    ],
    [
     "2026",
     7,
-    34.6
+    35.0
    ],
    [
     "2026",
     8,
-    34.6
+    35.0
    ]
   ],
   "benchmark": 100
@@ -2016,7 +2016,7 @@
     "season": "2026",
     "nfl": "NE",
     "missed": 6,
-    "lost": 0.0,
+    "lost": 3.95,
     "injuries": [
      "Knee",
      "Ankle"
@@ -2152,7 +2152,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 0.0
+    "lost": 3.16
    },
    {
     "season": "2026",
@@ -2176,7 +2176,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 0.79
    }
   ],
   "now": {

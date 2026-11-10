@@ -203,8 +203,8 @@
     "best": 46.5,
     "wins": 21,
     "paa": 282.35,
-    "vor": 355.03,
-    "war": 4.2
+    "vor": 366.49,
+    "war": 4.33
    },
    {
     "player": "3294",
@@ -242,8 +242,8 @@
     "best": 43.3,
     "wins": 12,
     "paa": 164.75,
-    "vor": 200.7,
-    "war": 2.37
+    "vor": 206.94,
+    "war": 2.45
    },
    {
     "player": "3321",
@@ -281,8 +281,8 @@
     "best": 29.4,
     "wins": 13,
     "paa": -32.48,
-    "vor": 20.6,
-    "war": 0.24
+    "vor": 30.15,
+    "war": 0.36
    },
    {
     "player": "1234",
@@ -398,8 +398,8 @@
     "best": 33.5,
     "wins": 7,
     "paa": 32.02,
-    "vor": 33.46,
-    "war": 0.4
+    "vor": 44.92,
+    "war": 0.53
    },
    {
     "player": "12711",
@@ -411,8 +411,8 @@
     "best": 15.2,
     "wins": 10,
     "paa": 9.94,
-    "vor": 4.57,
-    "war": 0.05
+    "vor": 17.17,
+    "war": 0.2
    },
    {
     "player": "5987",
@@ -515,8 +515,8 @@
     "best": 13.9,
     "wins": 6,
     "paa": -22.81,
-    "vor": -6.34,
-    "war": -0.07
+    "vor": -5.3,
+    "war": -0.06
    }
   ],
   "by_pos": {
@@ -613,8 +613,8 @@
      "best": 46.5,
      "wins": 21,
      "paa": 282.35,
-     "vor": 355.03,
-     "war": 4.2
+     "vor": 366.49,
+     "war": 4.33
     },
     {
      "player": "3321",
@@ -654,8 +654,8 @@
      "best": 43.3,
      "wins": 12,
      "paa": 164.75,
-     "vor": 200.7,
-     "war": 2.37
+     "vor": 206.94,
+     "war": 2.45
     },
     {
      "player": "7600",
@@ -708,8 +708,8 @@
      "best": 15.2,
      "wins": 10,
      "paa": 9.94,
-     "vor": 4.57,
-     "war": 0.05
+     "vor": 17.17,
+     "war": 0.2
     },
     {
      "player": "2747",
@@ -1314,7 +1314,7 @@
    "list": "Career WAR",
    "scope": 7,
    "rank": 1,
-   "value": "4.20",
+   "value": "4.33",
    "href": "franchise.html?id=7#all-time-leaders",
    "player": "9493",
    "franchise": 7
@@ -1440,16 +1440,16 @@
     "team": "the dart side 🛸💍",
     "games": 25,
     "players": 10,
-    "lost": 86.35,
+    "lost": 92.25,
     "rank": 1,
     "games_rank": 4,
     "of": 12,
     "worst": {
-     "player": "13345",
-     "name": "Jonah Coleman",
-     "pos": "RB",
-     "missed": 4,
-     "lost": 21.96
+     "player": "9493",
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "missed": 2,
+     "lost": 25.64
     },
     "w": 3,
     "l": 5
@@ -1500,7 +1500,7 @@
     "name": "Puka Nacua",
     "pos": "WR",
     "missed": 8,
-    "lost": 69.89,
+    "lost": 73.71,
     "injuries": [
      "Knee",
      "Hip",
@@ -1581,7 +1581,7 @@
     "name": "Brock Bowers",
     "pos": "TE",
     "missed": 6,
-    "lost": 44.7,
+    "lost": 46.78,
     "injuries": [
      "Knee",
      "Toe"
@@ -1740,9 +1740,9 @@
    "franchise": 7,
    "name": "the dart side 🛸💍",
    "games": 120,
-   "lost": 309.76,
+   "lost": 315.66,
    "seasons": 4,
-   "per_season": 77.44,
+   "per_season": 78.91,
    "worst": "2024"
   }
  }

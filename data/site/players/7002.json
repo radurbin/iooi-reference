@@ -57,8 +57,8 @@
    "best": 26.8,
    "wins": 1,
    "paa": 14.14,
-   "vor": 16.5,
-   "war": 0.2
+   "vor": 17.54,
+   "war": 0.21
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 26.8,
   "wins": 3,
   "paa": -19.02,
-  "vor": -6.08,
-  "war": -0.07
+  "vor": -5.04,
+  "war": -0.06
  },
  "nfl": [
   {
@@ -100,7 +100,7 @@
    "team": "NO",
    "g": 8,
    "pts": 82.4,
-   "rank": 13
+   "rank": 14
   }
  ],
  "history": [
@@ -516,8 +516,8 @@
    "proj": 10.28,
    "won": true,
    "paa": 14.14,
-   "vor": 16.5,
-   "war": 0.19500992273725518
+   "vor": 17.54,
+   "war": 0.20730145726130034
   },
   {
    "season": "2026",
@@ -604,7 +604,7 @@
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 976,
+   "score": 975,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -617,7 +617,7 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.12
+   "war": -0.1
   },
   {
    "player": "12493",
@@ -626,25 +626,25 @@
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.19
+   "war": -0.18
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 771,
+   "score": 766,
    "gs": 11,
    "pts": 122.0,
    "ppg": 11.09,
-   "war": 0.16
+   "war": 0.25
   },
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 763,
+   "score": 764,
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.19
+   "war": -0.14
   }
  ],
  "status": {
@@ -675,18 +675,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.06,
    "digits": 2,
-   "rank": 251,
+   "rank": 250,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -6.1,
+   "value": -5.0,
    "digits": 1,
-   "rank": 257,
+   "rank": 251,
    "of": 419
   },
   {
@@ -747,7 +747,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.06,
    "digits": 2,
    "rank": 26,
    "of": 52
@@ -778,7 +778,7 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 45,
+   "rank": 47,
    "of": 82,
    "franchise": 4
   },
@@ -816,7 +816,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.0,
+   "value": 0.01,
    "digits": 2,
    "rank": 42,
    "of": 68,
@@ -925,7 +925,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 254,
+  "rank": 255,
   "of": 419,
   "war": 0.0,
   "starts": 2.0,

@@ -80,8 +80,8 @@
    "best": 15.6,
    "wins": 0,
    "paa": 1.98,
-   "vor": 1.18,
-   "war": 0.01
+   "vor": 3.09,
+   "war": 0.04
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 35.8,
   "wins": 13,
   "paa": 25.52,
-  "vor": 84.08,
-  "war": 0.99
+  "vor": 85.99,
+  "war": 1.02
  },
  "nfl": [
   {
@@ -1107,8 +1107,8 @@
    "proj": 11.44,
    "won": false,
    "paa": 1.98,
-   "vor": 1.18,
-   "war": 0.013946164171512794
+   "vor": 3.09,
+   "war": 0.03652004007624961
   },
   {
    "season": "2026",
@@ -1195,25 +1195,25 @@
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 937,
+   "score": 951,
    "gs": 36,
    "pts": 486.6,
    "ppg": 13.52,
-   "war": 0.73
+   "war": 0.86
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 935,
+   "score": 942,
    "gs": 38,
    "pts": 539.5,
    "ppg": 14.2,
-   "war": 0.84
+   "war": 1.03
   },
   {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 893,
+   "score": 890,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
@@ -1222,20 +1222,20 @@
   {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 881,
+   "score": 879,
    "gs": 32,
    "pts": 482.42,
    "ppg": 15.08,
-   "war": 1.12
+   "war": 1.19
   },
   {
    "player": "4983",
    "name": "DJ Moore",
-   "score": 876,
+   "score": 878,
    "gs": 41,
    "pts": 562.68,
    "ppg": 13.72,
-   "war": 0.86
+   "war": 0.95
   }
  ],
  "status": {
@@ -1266,18 +1266,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.99,
+   "value": 1.02,
    "digits": 2,
-   "rank": 73,
+   "rank": 75,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 84.1,
+   "value": 86.0,
    "digits": 1,
-   "rank": 73,
+   "rank": 75,
    "of": 419
   },
   {
@@ -1338,9 +1338,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.99,
+   "value": 1.02,
    "digits": 2,
-   "rank": 19,
+   "rank": 21,
    "of": 126
   },
   {
@@ -1367,9 +1367,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 0.99,
+   "value": 1.02,
    "digits": 2,
-   "rank": 5,
+   "rank": 4,
    "of": 82,
    "franchise": 4
   },
@@ -1505,10 +1505,10 @@
   }
  ],
  "hof": {
-  "score": 18.9,
-  "rank": 78,
+  "score": 19.2,
+  "rank": 80,
   "of": 419,
-  "war": 9.9,
+  "war": 10.2,
   "starts": 9.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1781,32 +1781,32 @@
    [
     "2026",
     3,
-    18.9
+    19.2
    ],
    [
     "2026",
     4,
-    18.9
+    19.2
    ],
    [
     "2026",
     5,
-    18.9
+    19.2
    ],
    [
     "2026",
     6,
-    18.9
+    19.2
    ],
    [
     "2026",
     7,
-    18.9
+    19.2
    ],
    [
     "2026",
     8,
-    18.9
+    19.2
    ]
   ],
   "benchmark": 100

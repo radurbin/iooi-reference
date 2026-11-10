@@ -80,8 +80,8 @@
    "best": 18.3,
    "wins": 3,
    "paa": -14.08,
-   "vor": -15.8,
-   "war": -0.19
+   "vor": -6.25,
+   "war": -0.07
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 29.4,
   "wins": 10,
   "paa": 36.02,
-  "vor": 60.45,
-  "war": 0.71
+  "vor": 70.0,
+  "war": 0.83
  },
  "nfl": [
   {
@@ -1042,8 +1042,8 @@
    "proj": 12.87,
    "won": true,
    "paa": -3.79,
-   "vor": -4.52,
-   "war": -0.053420900046811715
+   "vor": -2.61,
+   "war": -0.030847024142074908
   },
   {
    "season": "2026",
@@ -1061,8 +1061,8 @@
    "proj": 13.98,
    "won": false,
    "paa": -2.98,
-   "vor": -2.12,
-   "war": -0.025055820375938242
+   "vor": -0.21,
+   "war": -0.0024819444712014293
   },
   {
    "season": "2026",
@@ -1080,8 +1080,8 @@
    "proj": 12.26,
    "won": true,
    "paa": 2.18,
-   "vor": 1.38,
-   "war": 0.01630992081075225
+   "vor": 3.29,
+   "war": 0.03888379671548906
   },
   {
    "season": "2026",
@@ -1099,8 +1099,8 @@
    "proj": 14.03,
    "won": false,
    "paa": -14.65,
-   "vor": -14.42,
-   "war": -0.17042685368916483
+   "vor": -12.51,
+   "war": -0.14785297778442802
   },
   {
    "season": "2026",
@@ -1166,15 +1166,15 @@
    "proj": 13.26,
    "won": true,
    "paa": 5.16,
-   "vor": 3.88,
-   "war": 0.045856878801245456
+   "vor": 5.79,
+   "war": 0.06843075470598227
   }
  ],
  "similar": [
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 895,
+   "score": 883,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
@@ -1183,38 +1183,38 @@
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 876,
+   "score": 869,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
    "war": 0.56
   },
   {
-   "player": "4037",
-   "name": "Chris Godwin Jr.",
-   "score": 845,
-   "gs": 19,
-   "pts": 256.4,
-   "ppg": 13.49,
-   "war": 0.24
-  },
-  {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 840,
+   "score": 844,
    "gs": 21,
    "pts": 276.8,
    "ppg": 13.18,
-   "war": 0.32
+   "war": 0.48
   },
   {
-   "player": "9756",
-   "name": "Jordan Addison",
-   "score": 818,
-   "gs": 25,
-   "pts": 330.0,
-   "ppg": 13.2,
-   "war": 0.4
+   "player": "4037",
+   "name": "Chris Godwin Jr.",
+   "score": 841,
+   "gs": 19,
+   "pts": 256.4,
+   "ppg": 13.49,
+   "war": 0.31
+  },
+  {
+   "player": "5045",
+   "name": "Courtland Sutton",
+   "score": 821,
+   "gs": 27,
+   "pts": 383.4,
+   "ppg": 14.2,
+   "war": 0.93
   }
  ],
  "status": {
@@ -1245,18 +1245,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.71,
+   "value": 0.83,
    "digits": 2,
-   "rank": 97,
+   "rank": 90,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 60.5,
+   "value": 70.0,
    "digits": 1,
-   "rank": 97,
+   "rank": 90,
    "of": 419
   },
   {
@@ -1317,9 +1317,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.71,
+   "value": 0.83,
    "digits": 2,
-   "rank": 26,
+   "rank": 25,
    "of": 126
   },
   {
@@ -1346,9 +1346,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.22,
+   "value": 0.34,
    "digits": 2,
-   "rank": 17,
+   "rank": 15,
    "of": 67,
    "franchise": 8
   },
@@ -1524,10 +1524,10 @@
   }
  ],
  "hof": {
-  "score": 12.1,
-  "rank": 109,
+  "score": 13.3,
+  "rank": 104,
   "of": 419,
-  "war": 7.1,
+  "war": 8.3,
   "starts": 5.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1790,42 +1790,42 @@
    [
     "2026",
     1,
-    12.5
+    12.7
    ],
    [
     "2026",
     2,
-    12.45
+    12.95
    ],
    [
     "2026",
     3,
-    12.9
+    13.6
    ],
    [
     "2026",
     4,
-    11.45
+    12.35
    ],
    [
     "2026",
     5,
-    11.45
+    12.35
    ],
    [
     "2026",
     6,
-    11.45
+    12.35
    ],
    [
     "2026",
     7,
-    11.45
+    12.35
    ],
    [
     "2026",
     8,
-    12.1
+    13.3
    ]
   ],
   "benchmark": 100

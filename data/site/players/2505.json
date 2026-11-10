@@ -64,8 +64,8 @@
    "best": 2.1,
    "wins": 0,
    "paa": -10.75,
-   "vor": -8.2,
-   "war": -0.1
+   "vor": -7.16,
+   "war": -0.08
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 22.8,
   "wins": 8,
   "paa": -78.53,
-  "vor": -61.64,
-  "war": -0.73
+  "vor": -60.6,
+  "war": -0.72
  },
  "nfl": [
   {
@@ -856,8 +856,8 @@
    "proj": 7.66,
    "won": false,
    "paa": -10.75,
-   "vor": -8.2,
-   "war": -0.09691402220881772
+   "vor": -7.16,
+   "war": -0.08462248768477255
   }
  ],
  "similar": [
@@ -873,11 +873,11 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 755,
+   "score": 751,
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.19
+   "war": -0.14
   },
   {
    "player": "3214",
@@ -886,21 +886,21 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.12
+   "war": -0.1
   },
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 722,
+   "score": 723,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.19
+   "war": -0.18
   },
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 694,
+   "score": 696,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -935,18 +935,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.73,
+   "value": -0.72,
    "digits": 2,
-   "rank": 406,
+   "rank": 409,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -61.6,
+   "value": -60.6,
    "digits": 1,
-   "rank": 406,
+   "rank": 409,
    "of": 419
   },
   {
@@ -1007,7 +1007,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.73,
+   "value": -0.72,
    "digits": 2,
    "rank": 50,
    "of": 52
@@ -1036,7 +1036,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.39,
+   "value": -0.37,
    "digits": 2,
    "rank": 79,
    "of": 82,
@@ -1185,7 +1185,7 @@
  ],
  "hof": {
   "score": 5.0,
-  "rank": 193,
+  "rank": 195,
   "of": 419,
   "war": 0.0,
   "starts": 5.0,

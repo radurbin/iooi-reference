@@ -48,8 +48,8 @@
    "best": 10.4,
    "wins": 1,
    "paa": -4.88,
-   "vor": -4.02,
-   "war": -0.05
+   "vor": -2.11,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 23.5,
   "wins": 6,
   "paa": -18.65,
-  "vor": -10.72,
-  "war": -0.13
+  "vor": -8.81,
+  "war": -0.1
  },
  "nfl": [
   {
@@ -429,8 +429,8 @@
    "proj": 10.81,
    "won": true,
    "paa": -4.88,
-   "vor": -4.02,
-   "war": -0.047511508448713075
+   "vor": -2.11,
+   "war": -0.024937632543976268
   },
   {
    "season": "2026",
@@ -557,18 +557,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.1,
    "digits": 2,
-   "rank": 303,
+   "rank": 281,
    "of": 419
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -10.7,
+   "value": -8.8,
    "digits": 1,
-   "rank": 307,
+   "rank": 293,
    "of": 419
   },
   {
@@ -620,9 +620,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.1,
    "digits": 2,
-   "rank": 77,
+   "rank": 69,
    "of": 126
   },
   {
@@ -649,7 +649,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.1,
    "digits": 2,
    "rank": 71,
    "of": 77,
@@ -729,7 +729,7 @@
  "similar": [],
  "hof": {
   "score": 1.75,
-  "rank": 272,
+  "rank": 273,
   "of": 419,
   "war": 0.0,
   "starts": 1.75,

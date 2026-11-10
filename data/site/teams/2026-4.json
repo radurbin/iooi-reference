@@ -232,8 +232,8 @@
    "bench_pts": 21.0,
    "wins": 3,
    "paa": 14.56,
-   "vor": 11.16,
-   "war": 0.13
+   "vor": 24.53,
+   "war": 0.29
   },
   {
    "player": "9487",
@@ -247,8 +247,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -0.37,
-   "vor": -3.74,
-   "war": -0.04
+   "vor": 9.63,
+   "war": 0.11
   },
   {
    "player": "6797",
@@ -277,8 +277,8 @@
    "bench_pts": 7.5,
    "wins": 3,
    "paa": -13.57,
-   "vor": -4.1,
-   "war": -0.05
+   "vor": 2.14,
+   "war": 0.03
   },
   {
    "player": "7839",
@@ -292,8 +292,8 @@
    "bench_pts": 5.0,
    "wins": 1,
    "paa": 10.63,
-   "vor": -1.55,
-   "war": -0.02
+   "vor": 11.05,
+   "war": 0.13
   },
   {
    "player": "12534",
@@ -322,8 +322,8 @@
    "bench_pts": 62.6,
    "wins": 2,
    "paa": -18.77,
-   "vor": -20.28,
-   "war": -0.24
+   "vor": -12.64,
+   "war": -0.15
   },
   {
    "player": "11834",
@@ -337,8 +337,8 @@
    "bench_pts": 55.3,
    "wins": 2,
    "paa": -9.11,
-   "vor": -12.76,
-   "war": -0.15
+   "vor": -7.03,
+   "war": -0.08
   },
   {
    "player": "7567",
@@ -382,8 +382,8 @@
    "bench_pts": 45.7,
    "wins": 0,
    "paa": 1.98,
-   "vor": 1.18,
-   "war": 0.01
+   "vor": 3.09,
+   "war": 0.04
   },
   {
    "player": "4037",
@@ -397,8 +397,8 @@
    "bench_pts": 38.3,
    "wins": 1,
    "paa": -25.32,
-   "vor": -28.16,
-   "war": -0.33
+   "vor": -22.43,
+   "war": -0.27
   },
   {
    "player": "8408",
@@ -427,8 +427,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -5.55,
-   "vor": -11.16,
-   "war": -0.13
+   "vor": -6.12,
+   "war": -0.07
   },
   {
    "player": "CAR",
@@ -457,8 +457,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -3.07,
-   "vor": -4.7,
-   "war": -0.06
+   "vor": -3.66,
+   "war": -0.04
   },
   {
    "player": "13414",
@@ -487,8 +487,8 @@
    "bench_pts": 51.8,
    "wins": 0,
    "paa": -10.75,
-   "vor": -8.2,
-   "war": -0.1
+   "vor": -7.16,
+   "war": -0.08
   },
   {
    "player": "MIA",
@@ -1624,8 +1624,8 @@
    "opp_record": "4-4",
    "opp_seed": 7,
    "chance": 0.372,
-   "proj": 93.06,
-   "opp_proj": 137.5
+   "proj": 93.14,
+   "opp_proj": 137.66
   },
   {
    "week": 10,
@@ -1671,8 +1671,8 @@
  "injuries": {
   "games": 25,
   "players": 6,
-  "lost": 33.2,
-  "rank": 4,
+  "lost": 33.16,
+  "rank": 5,
   "games_rank": 4,
   "of": 12,
   "rows": [
@@ -1695,26 +1695,6 @@
      "Out"
     ],
     "gs": 4
-   },
-   {
-    "player": "8408",
-    "name": "Jordan Mason",
-    "pos": "RB",
-    "missed": 4,
-    "lost": 0.04,
-    "injuries": [
-     "Thumb"
-    ],
-    "weeks": [
-     2,
-     3,
-     4,
-     5
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 1
    },
    {
     "player": "13302",
@@ -1761,6 +1741,26 @@
      "IR"
     ],
     "gs": 0
+   },
+   {
+    "player": "8408",
+    "name": "Jordan Mason",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 0.0,
+    "injuries": [
+     "Thumb"
+    ],
+    "weeks": [
+     2,
+     3,
+     4,
+     5
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 1
    },
    {
     "player": "5872",

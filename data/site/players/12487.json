@@ -48,8 +48,8 @@
    "best": 1.9,
    "wins": 1,
    "paa": -10.76,
-   "vor": -8.4,
-   "war": -0.1
+   "vor": -7.36,
+   "war": -0.09
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 1.9,
   "wins": 1,
   "paa": -10.76,
-  "vor": -8.4,
-  "war": -0.1
+  "vor": -7.36,
+  "war": -0.09
  },
  "nfl": [
   {
@@ -415,8 +415,8 @@
    "proj": 7.65,
    "won": true,
    "paa": -10.76,
-   "vor": -8.4,
-   "war": -0.09927777884805719
+   "vor": -7.36,
+   "war": -0.08698624432401202
   },
   {
    "season": "2026",
@@ -527,7 +527,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.09,
    "digits": 2,
    "rank": 274,
    "of": 419
@@ -536,9 +536,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -8.4,
+   "value": -7.4,
    "digits": 1,
-   "rank": 276,
+   "rank": 275,
    "of": 419
   },
   {
@@ -590,9 +590,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.09,
    "digits": 2,
-   "rank": 30,
+   "rank": 29,
    "of": 52
   },
   {
@@ -619,7 +619,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.09,
    "digits": 2,
    "rank": 59,
    "of": 75,
@@ -669,7 +669,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 365,
+  "rank": 366,
   "of": 419,
   "war": 0.0,
   "starts": 0.25,

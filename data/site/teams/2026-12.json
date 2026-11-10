@@ -233,8 +233,8 @@
    "bench_pts": 5.7,
    "wins": 1,
    "paa": -22.78,
-   "vor": -27.84,
-   "war": -0.33
+   "vor": -14.47,
+   "war": -0.17
   },
   {
    "player": "6786",
@@ -248,8 +248,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": 28.41,
-   "vor": 27.74,
-   "war": 0.33
+   "vor": 33.47,
+   "war": 0.4
   },
   {
    "player": "10859",
@@ -263,8 +263,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 3.59,
-   "vor": 10.4,
-   "war": 0.12
+   "vor": 14.56,
+   "war": 0.17
   },
   {
    "player": "11539",
@@ -278,8 +278,8 @@
    "bench_pts": 15.7,
    "wins": 1,
    "paa": 4.03,
-   "vor": -8.15,
-   "war": -0.1
+   "vor": 4.45,
+   "war": 0.05
   },
   {
    "player": "8155",
@@ -338,8 +338,8 @@
    "bench_pts": 26.15,
    "wins": 0,
    "paa": -15.95,
-   "vor": -11.2,
-   "war": -0.13
+   "vor": -6.0,
+   "war": -0.07
   },
   {
    "player": "2449",
@@ -353,8 +353,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -2.49,
-   "vor": -5.56,
-   "war": -0.07
+   "vor": 0.17,
+   "war": 0.0
   },
   {
    "player": "4017",
@@ -383,8 +383,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": 10.68,
-   "vor": 0.21,
-   "war": 0.0
+   "vor": 7.77,
+   "war": 0.09
   },
   {
    "player": "8136",
@@ -428,8 +428,8 @@
    "bench_pts": 37.7,
    "wins": 0,
    "paa": -19.18,
-   "vor": -13.8,
-   "war": -0.16
+   "vor": -10.68,
+   "war": -0.13
   },
   {
    "player": "6130",
@@ -458,8 +458,8 @@
    "bench_pts": 23.7,
    "wins": 1,
    "paa": -16.77,
-   "vor": -17.34,
-   "war": -0.2
+   "vor": -13.52,
+   "war": -0.16
   },
   {
    "player": "NE",
@@ -488,8 +488,8 @@
    "bench_pts": 49.5,
    "wins": 0,
    "paa": -9.88,
-   "vor": -9.02,
-   "war": -0.11
+   "vor": -7.11,
+   "war": -0.08
   },
   {
    "player": "10222",
@@ -503,8 +503,8 @@
    "bench_pts": 1.4,
    "wins": 0,
    "paa": -8.69,
-   "vor": -9.42,
-   "war": -0.11
+   "vor": -7.51,
+   "war": -0.09
   },
   {
    "player": "13337",
@@ -533,8 +533,8 @@
    "bench_pts": 6.6,
    "wins": 0,
    "paa": -10.5,
-   "vor": -12.52,
-   "war": -0.15
+   "vor": -10.61,
+   "war": -0.13
   },
   {
    "player": "8122",
@@ -608,8 +608,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -14.79,
-   "vor": -14.42,
-   "war": -0.17
+   "vor": -12.51,
+   "war": -0.15
   },
   {
    "player": "13264",
@@ -623,8 +623,8 @@
    "bench_pts": 3.2,
    "wins": 0,
    "paa": -13.59,
-   "vor": -14.42,
-   "war": -0.17
+   "vor": -12.51,
+   "war": -0.15
   },
   {
    "player": "6768",
@@ -1994,7 +1994,7 @@
    "opp_seed": 1,
    "chance": 0.153,
    "proj": 112.32,
-   "opp_proj": 154.37
+   "opp_proj": 154.31
   },
   {
    "week": 10,
@@ -2040,7 +2040,7 @@
  "injuries": {
   "games": 22,
   "players": 10,
-  "lost": 17.25,
+  "lost": 17.64,
   "rank": 10,
   "games_rank": 6,
   "of": 12,
@@ -2074,6 +2074,23 @@
     ],
     "weeks": [
      4
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 3
+   },
+   {
+    "player": "2449",
+    "name": "Stefon Diggs",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 0.39,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     5
     ],
     "kinds": [
      "Out"
@@ -2212,23 +2229,6 @@
      "Out"
     ],
     "gs": 6
-   },
-   {
-    "player": "2449",
-    "name": "Stefon Diggs",
-    "pos": "WR",
-    "missed": 1,
-    "lost": 0.0,
-    "injuries": [
-     "Hamstring"
-    ],
-    "weeks": [
-     5
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 3
    }
   ],
   "by_week": [

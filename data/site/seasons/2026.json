@@ -1945,6 +1945,17 @@
      ]
     },
     {
+     "player": "9488",
+     "name": "Jaxon Smith-Njigba",
+     "value": 1.44,
+     "teams": [
+      {
+       "franchise": 3,
+       "team": "Kolkata Kommies"
+      }
+     ]
+    },
+    {
      "player": "8151",
      "name": "Kenneth Walker III",
      "value": 1.39,
@@ -1952,17 +1963,6 @@
       {
        "franchise": 2,
        "team": "Storm FC"
-      }
-     ]
-    },
-    {
-     "player": "9488",
-     "name": "Jaxon Smith-Njigba",
-     "value": 1.26,
-     "teams": [
-      {
-       "franchise": 3,
-       "team": "Kolkata Kommies"
       }
      ]
     },
@@ -2596,16 +2596,40 @@
     "finish": null,
     "games": 25,
     "players": 10,
-    "lost": 86.35,
+    "lost": 92.25,
     "worst": {
-     "player": "13345",
-     "name": "Jonah Coleman",
-     "pos": "RB",
-     "missed": 4,
-     "lost": 21.96
+     "player": "9493",
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "missed": 2,
+     "lost": 25.64
     },
     "rank": 1,
     "games_rank": 4,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 8,
+    "team": "BBL KIZZY",
+    "managers": [
+     "evan"
+    ],
+    "w": 5,
+    "l": 3,
+    "finish": null,
+    "games": 27,
+    "players": 9,
+    "lost": 55.86,
+    "worst": {
+     "player": "8155",
+     "name": "Breece Hall",
+     "pos": "RB",
+     "missed": 3,
+     "lost": 21.51
+    },
+    "rank": 2,
+    "games_rank": 2,
     "of": 12
    },
    {
@@ -2628,32 +2652,32 @@
      "missed": 4,
      "lost": 42.68
     },
-    "rank": 2,
+    "rank": 3,
     "games_rank": 6,
     "of": 12
    },
    {
     "season": "2026",
-    "franchise": 8,
-    "team": "BBL KIZZY",
+    "franchise": 2,
+    "team": "Storm FC",
     "managers": [
-     "evan"
+     "alex"
     ],
     "w": 5,
     "l": 3,
     "finish": null,
-    "games": 27,
-    "players": 9,
-    "lost": 49.42,
+    "games": 37,
+    "players": 12,
+    "lost": 33.26,
     "worst": {
-     "player": "8155",
-     "name": "Breece Hall",
-     "pos": "RB",
-     "missed": 3,
-     "lost": 21.51
+     "player": "7525",
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "missed": 4,
+     "lost": 20.48
     },
-    "rank": 3,
-    "games_rank": 2,
+    "rank": 4,
+    "games_rank": 1,
     "of": 12
    },
    {
@@ -2668,7 +2692,7 @@
     "finish": null,
     "games": 25,
     "players": 6,
-    "lost": 33.2,
+    "lost": 33.16,
     "worst": {
      "player": "12534",
      "name": "Kyle Monangai",
@@ -2676,7 +2700,7 @@
      "missed": 4,
      "lost": 33.16
     },
-    "rank": 4,
+    "rank": 5,
     "games_rank": 4,
     "of": 12
    },
@@ -2692,7 +2716,7 @@
     "finish": null,
     "games": 10,
     "players": 4,
-    "lost": 27.76,
+    "lost": 28.45,
     "worst": {
      "player": "7543",
      "name": "Travis Etienne Jr.",
@@ -2700,32 +2724,33 @@
      "missed": 4,
      "lost": 27.76
     },
-    "rank": 5,
+    "rank": 6,
     "games_rank": 11,
     "of": 12
    },
    {
     "season": "2026",
-    "franchise": 2,
-    "team": "Storm FC",
+    "franchise": 1,
+    "team": "Mojo Dojo Casa Team 💍",
     "managers": [
-     "alex"
+     "riley",
+     "emily"
     ],
-    "w": 5,
-    "l": 3,
+    "w": 7,
+    "l": 1,
     "finish": null,
-    "games": 37,
-    "players": 12,
-    "lost": 25.58,
+    "games": 22,
+    "players": 10,
+    "lost": 22.43,
     "worst": {
-     "player": "7525",
-     "name": "DeVonta Smith",
+     "player": "2133",
+     "name": "Davante Adams",
      "pos": "WR",
-     "missed": 4,
-     "lost": 12.84
+     "missed": 2,
+     "lost": 9.48
     },
-    "rank": 6,
-    "games_rank": 1,
+    "rank": 7,
+    "games_rank": 6,
     "of": 12
    },
    {
@@ -2748,33 +2773,8 @@
      "missed": 3,
      "lost": 16.68
     },
-    "rank": 7,
-    "games_rank": 9,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 1,
-    "team": "Mojo Dojo Casa Team 💍",
-    "managers": [
-     "riley",
-     "emily"
-    ],
-    "w": 7,
-    "l": 1,
-    "finish": null,
-    "games": 22,
-    "players": 10,
-    "lost": 18.61,
-    "worst": {
-     "player": "12489",
-     "name": "RJ Harvey",
-     "pos": "RB",
-     "missed": 2,
-     "lost": 7.2
-    },
     "rank": 8,
-    "games_rank": 6,
+    "games_rank": 9,
     "of": 12
    },
    {
@@ -2813,7 +2813,7 @@
     "finish": null,
     "games": 22,
     "players": 10,
-    "lost": 17.25,
+    "lost": 17.64,
     "worst": {
      "player": "8155",
      "name": "Breece Hall",
@@ -2823,6 +2823,30 @@
     },
     "rank": 10,
     "games_rank": 6,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 6,
+    "team": "got that DAWG",
+    "managers": [
+     "makenzy"
+    ],
+    "w": 4,
+    "l": 4,
+    "finish": null,
+    "games": 27,
+    "players": 9,
+    "lost": 15.74,
+    "worst": {
+     "player": "5859",
+     "name": "A.J. Brown",
+     "pos": "WR",
+     "missed": 5,
+     "lost": 3.95
+    },
+    "rank": 11,
+    "games_rank": 2,
     "of": 12
    },
    {
@@ -2846,32 +2870,8 @@
      "missed": 2,
      "lost": 4.28
     },
-    "rank": 11,
-    "games_rank": 12,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 6,
-    "team": "got that DAWG",
-    "managers": [
-     "makenzy"
-    ],
-    "w": 4,
-    "l": 4,
-    "finish": null,
-    "games": 27,
-    "players": 9,
-    "lost": 3.19,
-    "worst": {
-     "player": "9997",
-     "name": "Zay Flowers",
-     "pos": "WR",
-     "missed": 1,
-     "lost": 1.78
-    },
     "rank": 12,
-    "games_rank": 2,
+    "games_rank": 12,
     "of": 12
    }
   ],
@@ -3053,6 +3053,38 @@
     ]
    },
    {
+    "player": "9502",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "season": "2026",
+    "missed": 6,
+    "lost": 3.24,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "teams": [
+     {
+      "franchise": 6,
+      "team": "got that DAWG"
+     },
+     {
+      "franchise": 8,
+      "team": "BBL KIZZY"
+     }
+    ]
+   },
+   {
     "player": "8142",
     "name": "Alec Pierce",
     "pos": "WR",
@@ -3134,39 +3166,6 @@
      {
       "franchise": 5,
       "team": "St. Brown VS Board💍"
-     }
-    ]
-   },
-   {
-    "player": "10222",
-    "name": "Jayden Reed",
-    "pos": "WR",
-    "season": "2026",
-    "missed": 6,
-    "lost": 0.0,
-    "injuries": [
-     "Neck"
-    ],
-    "weeks": [
-     3,
-     4,
-     5,
-     6,
-     7,
-     8
-    ],
-    "kinds": [
-     "IR",
-     "Out"
-    ],
-    "teams": [
-     {
-      "franchise": 12,
-      "team": "Happy Feet"
-     },
-     {
-      "franchise": 12,
-      "team": "Team Win One Game"
      }
     ]
    }
