@@ -408,7 +408,12 @@ def build_trades(all_moves, adjustments, polls, seasons, people, name_on, pick_r
         for source in [move] + [by_id[c] for c in adj.get("absorb", []) if c in by_id]:
             if source["type"] == "commissioner":   # the bookkeeping half of a deal already described by its picks
                 continue
+            as_pick = {x["player"]: x for x in adj.get("pick_for_player", [])}
             for pid, to in (source.get("adds") or {}).items():
+                if pid in as_pick:   # the draft pick he was taken with changed hands, not the player
+                    x = as_pick[pid]
+                    received[to]["picks"].append({"season": x["season"], "round": x["round"], "original": x["original"], "from": (source.get("drops") or {}).get(pid)})
+                    continue
                 received[to]["players"].append({"player": pid, "from": (source.get("drops") or {}).get(pid)})
             for pick in source.get("draft_picks") or []:
                 received[pick["owner_id"]]["picks"].append({"season": pick["season"], "round": pick["round"], "original": pick["roster_id"], "from": pick["previous_owner_id"]})
@@ -651,6 +656,7 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
     nfl_teams = lambda season, pid: "/".join(seasons[season]["nfl"].get("teams", {}).get(pid, [])) or None
 
     absorbed = {child: parent for parent, adj in adjustments.items() for child in adj.get("absorb", [])}
+    pick_moves = {(tid, x["player"]) for tid, adj in adjustments.items() for x in adj.get("pick_for_player", [])}
     trade_ids = {t["id"] for t in trades}
     history = defaultdict(list)
     for pid, pick in drafted.items():
@@ -663,13 +669,15 @@ def build_players(players, raw_players, seasons, appearances, all_moves, adjustm
             continue
         adds, drops = move.get("adds") or {}, move.get("drops") or {}
         for pid, to in adds.items():
+            if (move["transaction_id"], pid) in pick_moves:
+                continue   # traded as the pick he was drafted with; his draft entry already credits the receiving team
             kind = {"free_agent": "signed", "waiver": "claimed", "trade": "traded", "commissioner": "reassigned"}[move["type"]]
             giver = drops.get(pid)
             history[pid].append({"date": move["day"], "type": kind, "to": to, "to_team": name_on(move["season"], to, move["day"]),
                                  "from": giver, "from_team": name_on(move["season"], giver, move["day"]) if giver else None,
                                  "trade": parent if parent in trade_ids else None})
         for pid, frm in drops.items():
-            if pid not in adds:
+            if pid not in adds and (move["transaction_id"], pid) not in pick_moves:
                 history[pid].append({"date": move["day"], "type": "released", "from": frm, "from_team": name_on(move["season"], frm, move["day"])})
 
     # Trades the league voted down or that were withdrawn: the moves that almost happened.
@@ -1189,11 +1197,13 @@ def transaction_wire(season, all_moves, adjustments, people, name_on, trades):
             continue
         adds, drops = move.get("adds") or {}, move.get("drops") or {}
         if move["type"] == "trade":
+            as_pick = {x["player"]: x for x in adjustments.get(move["transaction_id"], {}).get("pick_for_player", [])}
             out.append({"date": move["day"], "type": "trade", "franchises": move["roster_ids"],
                         "teams": {fid: name_on(season, fid, move["day"]) for fid in move["roster_ids"]},
                         "trade": move["transaction_id"] if move["transaction_id"] in trade_ids else None,
-                        "players": [{"player": pid, "from": drops.get(pid), "to": to} for pid, to in adds.items()],
-                        "picks": [{"season": p["season"], "round": p["round"], "to": p["owner_id"]} for p in move.get("draft_picks") or []]})
+                        "players": [{"player": pid, "from": drops.get(pid), "to": to} for pid, to in adds.items() if pid not in as_pick],
+                        "picks": [{"season": p["season"], "round": p["round"], "to": p["owner_id"]} for p in move.get("draft_picks") or []]
+                                 + [{"season": as_pick[pid]["season"], "round": as_pick[pid]["round"], "to": to} for pid, to in adds.items() if pid in as_pick]})
             continue
         for fid in move["roster_ids"]:
             out.append({"date": move["day"], "type": move["type"], "franchises": [fid], "teams": {fid: name_on(season, fid, move["day"])},

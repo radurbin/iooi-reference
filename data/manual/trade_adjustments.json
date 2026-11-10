@@ -1,5 +1,5 @@
 {
-  "_comment": "Corrections to how Sleeper logged trades, confirmed by Riley on 2026-10-10. Each entry is keyed by the Sleeper transaction_id of the main trade. absorb = other logged transactions that are really part of it. add_picks = picks that were part of the deal but moved later by the commissioner because the app could not hold them yet. draft_credit = draft picks to credit to a different franchise than the one that clicked the pick. conditional_swap = picks whose final owner depends on where they land. notes are shown on the trade page.",
+  "_comment": "Corrections to how Sleeper logged trades, confirmed by Riley on 2026-10-10. Each entry is keyed by the Sleeper transaction_id of the main trade. absorb = other logged transactions that are really part of it. add_picks = picks that were part of the deal but moved later by the commissioner because the app could not hold them yet. draft_credit = draft picks to credit to a different franchise than the one that clicked the pick. conditional_swap = picks whose final owner depends on where they land. pick_for_player = a player Sleeper logged in the trade who was really the draft pick used on him, made by one team for the other during the draft. notes are shown on the trade page.",
   "trades": {
     "1020071849377533952": {
       "absorb": [
@@ -86,6 +86,26 @@
       },
       "notes": [
         "Conditional pick swap: of the 2027 second-round picks originally belonging to [[f:4]] and [[f:2]], the better goes to [[f:3]] and the worse to [[f:6]]."
+      ]
+    },
+    "1394755250988003328": {
+      "pick_for_player": [
+        {
+          "player": "13289",
+          "season": "2026",
+          "round": 3,
+          "original": 4
+        }
+      ],
+      "draft_credit": [
+        {
+          "season": "2026",
+          "pick_no": 25,
+          "franchise": 2
+        }
+      ],
+      "notes": [
+        "Agreed during the 2026 rookie draft, with [[f:1]] on the clock at pick 3.01. [[f:2]] chose Drew Allar and [[f:1]] made the pick for them; the trade was entered in Sleeper as Allar for the two third-round picks once the draft was over."
       ]
     }
   }
