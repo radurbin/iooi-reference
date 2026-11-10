@@ -24,7 +24,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "NO",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 7.0,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 8,
+  "g": 9,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 7.0,
@@ -199,6 +199,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": 1.72,
+   "won": true
   }
  ],
  "status": {
@@ -213,8 +229,8 @@
    "stat": "Bench Points",
    "value": 7.0,
    "digits": 2,
-   "rank": 450,
-   "of": 506
+   "rank": 455,
+   "of": 511
   }
  ],
  "similar": [],

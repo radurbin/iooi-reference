@@ -60,29 +60,29 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "NYG",
-   "g": 8,
-   "gs": 7,
-   "pts": 122.0,
+   "g": 9,
+   "gs": 8,
+   "pts": 131.3,
    "bench_pts": 0.0,
-   "ppg": 17.43,
+   "ppg": 16.41,
    "best": 30.0,
-   "wins": 3,
-   "paa": 23.98,
-   "vor": 34.43,
-   "war": 0.41
+   "wins": 4,
+   "paa": 19.64,
+   "vor": 31.22,
+   "war": 0.37
   }
  ],
  "totals": {
-  "g": 42,
-  "gs": 24,
-  "pts": 414.1,
+  "g": 43,
+  "gs": 25,
+  "pts": 423.4,
   "bench_pts": 0.0,
-  "ppg": 17.25,
+  "ppg": 16.94,
   "best": 39.2,
-  "wins": 13,
-  "paa": 85.24,
-  "vor": 132.03,
-  "war": 1.56
+  "wins": 14,
+  "paa": 80.9,
+  "vor": 128.82,
+  "war": 1.52
  },
  "nfl": [
   {
@@ -882,53 +882,72 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-9-10",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": "WR",
+   "started": true,
+   "pts": 9.3,
+   "proj": 15.54,
+   "won": true,
+   "paa": -4.34,
+   "vor": -3.21,
+   "war": -0.03793829405979328
   }
  ],
  "similar": [
   {
+   "player": "5045",
+   "name": "Courtland Sutton",
+   "score": 766,
+   "gs": 27,
+   "pts": 383.4,
+   "ppg": 14.2,
+   "war": 0.93
+  },
+  {
    "player": "3321",
    "name": "Tyreek Hill",
-   "score": 753,
+   "score": 765,
    "gs": 31,
    "pts": 557.9,
    "ppg": 18.0,
    "war": 2.2
   },
   {
-   "player": "6801",
-   "name": "Tee Higgins",
-   "score": 752,
-   "gs": 33,
-   "pts": 551.4,
-   "ppg": 16.71,
-   "war": 1.95
-  },
-  {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 751,
-   "gs": 32,
-   "pts": 482.42,
-   "ppg": 15.08,
-   "war": 1.19
+   "score": 761,
+   "gs": 33,
+   "pts": 490.52,
+   "ppg": 14.86,
+   "war": 1.14
   },
   {
    "player": "10229",
    "name": "Rashee Rice",
-   "score": 744,
-   "gs": 20,
-   "pts": 301.2,
-   "ppg": 15.06,
-   "war": 0.83
+   "score": 752,
+   "gs": 21,
+   "pts": 311.1,
+   "ppg": 14.81,
+   "war": 0.8
   },
   {
-   "player": "5045",
-   "name": "Courtland Sutton",
-   "score": 738,
-   "gs": 27,
-   "pts": 383.4,
-   "ppg": 14.2,
-   "war": 0.93
+   "player": "6801",
+   "name": "Tee Higgins",
+   "score": 747,
+   "gs": 34,
+   "pts": 571.6,
+   "ppg": 16.81,
+   "war": 2.04
   }
  ],
  "status": {
@@ -941,46 +960,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 414.1,
+   "value": 423.4,
    "digits": 2,
    "rank": 74,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 24,
+   "value": 25,
    "digits": 0,
-   "rank": 113,
-   "of": 419
+   "rank": 109,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.56,
+   "value": 1.52,
    "digits": 2,
-   "rank": 58,
-   "of": 419
+   "rank": 60,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 132.0,
+   "value": 128.8,
    "digits": 1,
-   "rank": 58,
-   "of": 419
+   "rank": 60,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 85.2,
+   "value": 80.9,
    "digits": 1,
-   "rank": 32,
-   "of": 419
+   "rank": 35,
+   "of": 420
   },
   {
    "group": "Career",
@@ -989,22 +1008,22 @@
    "value": 39.2,
    "digits": 2,
    "rank": 33,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 17.25,
+   "value": 16.94,
    "digits": 2,
-   "rank": 28,
-   "of": 252
+   "rank": 34,
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 414.1,
+   "value": 423.4,
    "digits": 2,
    "rank": 25,
    "of": 126
@@ -1013,55 +1032,55 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 24,
+   "value": 25,
    "digits": 0,
-   "rank": 35,
+   "rank": 32,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.56,
+   "value": 1.52,
    "digits": 2,
-   "rank": 14,
+   "rank": 15,
    "of": 126
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points",
-   "value": 414.1,
+   "value": 423.4,
    "digits": 2,
    "rank": 4,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Games Started",
-   "value": 24,
+   "value": 25,
    "digits": 0,
    "rank": 6,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 1.56,
+   "value": 1.52,
    "digits": 2,
    "rank": 5,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points, WRs",
-   "value": 414.1,
+   "value": 423.4,
    "digits": 2,
    "rank": 2,
    "of": 16,
@@ -1111,19 +1130,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 122.0,
+   "value": 131.3,
    "digits": 2,
-   "rank": 39,
-   "of": 230,
+   "rank": 40,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 122.0,
+   "value": 131.3,
    "digits": 2,
-   "rank": 9,
+   "rank": 10,
    "of": 62,
    "season": "2026"
   },
@@ -1133,18 +1152,18 @@
    "stat": "Points, 2024",
    "value": 232.0,
    "digits": 2,
-   "rank": 73,
-   "of": 1007,
+   "rank": 74,
+   "of": 1010,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 122.0,
+   "value": 131.3,
    "digits": 2,
-   "rank": 291,
-   "of": 1007,
+   "rank": 271,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1153,17 +1172,17 @@
    "stat": "Points, 2025",
    "value": 60.1,
    "digits": 2,
-   "rank": 493,
-   "of": 1007,
+   "rank": 501,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 24.6,
-  "rank": 64,
-  "of": 419,
-  "war": 15.6,
-  "starts": 6.0,
+  "score": 24.45,
+  "rank": 65,
+  "of": 420,
+  "war": 15.2,
+  "starts": 6.25,
   "black_ink": 0.0,
   "awards": 3.0,
   "history": [
@@ -1376,6 +1395,11 @@
     "2026",
     8,
     24.6
+   ],
+   [
+    "2026",
+    9,
+    24.45
    ]
   ],
   "benchmark": 100

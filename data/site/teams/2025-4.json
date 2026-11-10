@@ -1466,7 +1466,7 @@
    "season": "2025",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 834,
+   "score": 835,
    "w": 4,
    "l": 10,
    "ppg": 100.72,
@@ -1476,7 +1476,7 @@
    "season": "2023",
    "franchise": 3,
    "team": "dantasy football",
-   "score": 805,
+   "score": 804,
    "w": 4,
    "l": 10,
    "ppg": 107.09,
@@ -1493,24 +1493,24 @@
    "result": "11th"
   },
   {
+   "season": "2026",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "score": 462,
+   "w": 2,
+   "l": 7,
+   "ppg": 103.1,
+   "result": null
+  },
+  {
    "season": "2024",
    "franchise": 7,
    "team": "young sexy central",
-   "score": 429,
+   "score": 426,
    "w": 2,
    "l": 12,
    "ppg": 114.52,
    "result": "Ultimate Loser"
-  },
-  {
-   "season": "2026",
-   "franchise": 4,
-   "team": "Im Stroud Of You",
-   "score": 419,
-   "w": 3,
-   "l": 5,
-   "ppg": 111.58,
-   "result": null
   }
  ],
  "pickups": [
@@ -1525,11 +1525,11 @@
     "tony"
    ],
    "until": null,
-   "g": 25,
-   "gs": 8,
-   "pts": 40.8,
+   "g": 26,
+   "gs": 9,
+   "pts": 63.8,
    "wins": 1,
-   "best": 18.8
+   "best": 23.0
   },
   {
    "date": "2025-08-17",
@@ -1576,7 +1576,7 @@
     "tony"
    ],
    "until": null,
-   "g": 25,
+   "g": 26,
    "gs": 10,
    "pts": 124.6,
    "wins": 3,
@@ -1644,9 +1644,9 @@
     "tony"
    ],
    "until": null,
-   "g": 24,
-   "gs": 11,
-   "pts": 131.6,
+   "g": 25,
+   "gs": 12,
+   "pts": 142.7,
    "wins": 3,
    "best": 31.4
   },
@@ -1678,9 +1678,9 @@
     "tony"
    ],
    "until": null,
-   "g": 24,
-   "gs": 14,
-   "pts": 153.2,
+   "g": 25,
+   "gs": 15,
+   "pts": 164.2,
    "wins": 4,
    "best": 40.9
   },
@@ -2158,9 +2158,9 @@
     "tony"
    ],
    "until": null,
-   "g": 10,
-   "gs": 7,
-   "pts": 97.2,
+   "g": 11,
+   "gs": 8,
+   "pts": 111.3,
    "wins": 2,
    "best": 30.4
   }
@@ -2189,8 +2189,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 1,
-   "pts": 21.4,
+   "gs": 2,
+   "pts": 34.5,
    "next": 12,
    "next_team": "Happy Feet"
   },
@@ -2345,10 +2345,10 @@
    "managers": [
     "tony"
    ],
-   "gs": 0,
-   "pts": 0.0,
-   "next": null,
-   "next_team": null
+   "gs": 1,
+   "pts": 3.1,
+   "next": 9,
+   "next_team": "Clandestine Ball Busters"
   },
   {
    "date": "2025-09-30",
@@ -2401,8 +2401,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 7,
-   "pts": 91.4,
+   "gs": 8,
+   "pts": 109.2,
    "next": 10,
    "next_team": "Maddison Beer’s Boys"
   },
@@ -2499,8 +2499,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 10,
-   "pts": 51.0,
+   "gs": 11,
+   "pts": 67.0,
    "next": 2,
    "next_team": "Storm FC"
   },

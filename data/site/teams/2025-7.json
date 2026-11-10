@@ -1215,10 +1215,10 @@
    "original": 2,
    "player": "12512",
    "pos": "RB",
-   "starts_team": 17,
-   "pts_team": 211.9,
-   "starts_league": 17,
-   "pts_league": 211.9,
+   "starts_team": 18,
+   "pts_team": 218.9,
+   "starts_league": 18,
+   "pts_league": 218.9,
    "nfl_pts": 273.5
   },
   {
@@ -1255,8 +1255,8 @@
    "pos": "WR",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 7,
-   "pts_league": 112.1,
+   "starts_league": 8,
+   "pts_league": 144.5,
    "nfl_pts": 235.2
   },
   {
@@ -1350,10 +1350,20 @@
    "season": "2026",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "score": 741,
-   "w": 7,
+   "score": 735,
+   "w": 8,
    "l": 1,
-   "ppg": 158.68,
+   "ppg": 157.08,
+   "result": null
+  },
+  {
+   "season": "2026",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "score": 703,
+   "w": 7,
+   "l": 2,
+   "ppg": 165.5,
    "result": null
   },
   {
@@ -1370,7 +1380,7 @@
    "season": "2025",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "score": 690,
+   "score": 687,
    "w": 11,
    "l": 3,
    "ppg": 143.65,
@@ -1378,23 +1388,13 @@
   },
   {
    "season": "2026",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
-   "score": 635,
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 655,
    "w": 6,
-   "l": 2,
-   "ppg": 167.99,
+   "l": 3,
+   "ppg": 143.7,
    "result": null
-  },
-  {
-   "season": "2024",
-   "franchise": 5,
-   "team": "i’m Stroud of you",
-   "score": 556,
-   "w": 9,
-   "l": 5,
-   "ppg": 140.69,
-   "result": "Runner-up"
   }
  ],
  "pickups": [
@@ -1681,10 +1681,10 @@
     "anargha"
    ],
    "until": null,
-   "g": 15,
-   "gs": 10,
-   "pts": 162.38,
-   "wins": 7,
+   "g": 16,
+   "gs": 11,
+   "pts": 174.38,
+   "wins": 8,
    "best": 33.5
   },
   {
@@ -1715,7 +1715,7 @@
     "anargha"
    ],
    "until": null,
-   "g": 14,
+   "g": 15,
    "gs": 3,
    "pts": 50.0,
    "wins": 2,
@@ -1845,8 +1845,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 15,
-   "pts": 147.9,
+   "gs": 16,
+   "pts": 154.4,
    "next": 10,
    "next_team": "BAHAHAHA"
   },
@@ -1957,8 +1957,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 8,
-   "pts": 89.1,
+   "gs": 9,
+   "pts": 103.1,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -1985,8 +1985,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 2,
-   "pts": 31.0,
+   "gs": 3,
+   "pts": 39.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2041,8 +2041,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 5,
-   "pts": 50.0,
+   "gs": 6,
+   "pts": 64.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2055,8 +2055,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 14,
-   "pts": 143.9,
+   "gs": 15,
+   "pts": 150.4,
    "next": 8,
    "next_team": "BBL KIZZY"
   },
@@ -2181,8 +2181,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 4,
-   "pts": 47.0,
+   "gs": 5,
+   "pts": 61.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team 💍"
   },

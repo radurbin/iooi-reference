@@ -42,10 +42,10 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "IND",
-   "g": 8,
+   "g": 9,
    "gs": 5,
    "pts": 52.1,
-   "bench_pts": 23.9,
+   "bench_pts": 32.3,
    "ppg": 10.42,
    "best": 21.5,
    "wins": 3,
@@ -55,10 +55,10 @@
   }
  ],
  "totals": {
-  "g": 25,
+  "g": 26,
   "gs": 18,
   "pts": 207.2,
-  "bench_pts": 44.8,
+  "bench_pts": 53.2,
   "ppg": 11.51,
   "best": 21.5,
   "wins": 12,
@@ -79,7 +79,7 @@
    "team": "IND",
    "g": 7,
    "pts": 84.4,
-   "rank": 11
+   "rank": 12
   }
  ],
  "history": [
@@ -547,40 +547,56 @@
    "paa": -7.05,
    "vor": -3.46,
    "war": -0.0408929898588426
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-3-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 8.4,
+   "proj": 13.34,
+   "won": false
   }
  ],
  "similar": [
   {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 928,
+   "gs": 15,
+   "pts": 175.85,
+   "ppg": 11.72,
+   "war": 0.45
+  },
+  {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 919,
+   "score": 920,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
    "war": 0.31
   },
   {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 903,
-   "gs": 14,
-   "pts": 163.65,
-   "ppg": 11.69,
-   "war": 0.42
-  },
-  {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 899,
-   "gs": 20,
-   "pts": 246.3,
-   "ppg": 12.32,
-   "war": 0.7
+   "score": 915,
+   "gs": 21,
+   "pts": 248.4,
+   "ppg": 11.83,
+   "war": 0.62
   },
   {
    "player": "5844",
    "name": "T.J. Hockenson",
-   "score": 846,
+   "score": 845,
    "gs": 17,
    "pts": 226.9,
    "ppg": 13.35,
@@ -589,7 +605,7 @@
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 840,
+   "score": 839,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
@@ -608,8 +624,8 @@
    "stat": "Points",
    "value": 207.2,
    "digits": 2,
-   "rank": 149,
-   "of": 419
+   "rank": 151,
+   "of": 420
   },
   {
    "group": "Career",
@@ -617,8 +633,8 @@
    "stat": "Games Started",
    "value": 18,
    "digits": 0,
-   "rank": 156,
-   "of": 419
+   "rank": 157,
+   "of": 420
   },
   {
    "group": "Career",
@@ -626,8 +642,8 @@
    "stat": "WAR",
    "value": 0.51,
    "digits": 2,
-   "rank": 108,
-   "of": 419
+   "rank": 110,
+   "of": 420
   },
   {
    "group": "Career",
@@ -635,8 +651,8 @@
    "stat": "VOR",
    "value": 43.4,
    "digits": 1,
-   "rank": 108,
-   "of": 419
+   "rank": 110,
+   "of": 420
   },
   {
    "group": "Career",
@@ -645,7 +661,7 @@
    "value": 13.2,
    "digits": 1,
    "rank": 86,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -654,7 +670,7 @@
    "value": 21.5,
    "digits": 2,
    "rank": 203,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -662,17 +678,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.51,
    "digits": 2,
-   "rank": 135,
-   "of": 252
+   "rank": 137,
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 44.8,
+   "value": 53.2,
    "digits": 2,
-   "rank": 298,
-   "of": 506
+   "rank": 275,
+   "of": 511
   },
   {
    "group": "Career",
@@ -767,8 +783,8 @@
    "stat": "Points",
    "value": 52.1,
    "digits": 2,
-   "rank": 97,
-   "of": 230,
+   "rank": 105,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -778,7 +794,7 @@
    "value": 52.1,
    "digits": 2,
    "rank": 13,
-   "of": 27,
+   "of": 28,
    "season": "2026"
   },
   {
@@ -787,8 +803,8 @@
    "stat": "Points, 2025",
    "value": 155.1,
    "digits": 2,
-   "rank": 200,
-   "of": 1007,
+   "rank": 218,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -797,15 +813,15 @@
    "stat": "Points, 2026",
    "value": 52.1,
    "digits": 2,
-   "rank": 537,
-   "of": 1007,
+   "rank": 545,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 9.6,
-  "rank": 134,
-  "of": 419,
+  "rank": 135,
+  "of": 420,
   "war": 5.1,
   "starts": 4.5,
   "black_ink": 0.0,
@@ -934,6 +950,11 @@
    [
     "2026",
     8,
+    9.6
+   ],
+   [
+    "2026",
+    9,
     9.6
    ]
   ],

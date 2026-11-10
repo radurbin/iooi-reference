@@ -156,8 +156,8 @@
    "stat": "Points",
    "value": 8.7,
    "digits": 2,
-   "rank": 357,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -165,8 +165,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 327,
-   "of": 419
+   "rank": 328,
+   "of": 420
   },
   {
    "group": "Career",
@@ -174,8 +174,8 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 294,
-   "of": 419
+   "rank": 295,
+   "of": 420
   },
   {
    "group": "Career",
@@ -183,8 +183,8 @@
    "stat": "VOR",
    "value": -9.4,
    "digits": 1,
-   "rank": 299,
-   "of": 419
+   "rank": 300,
+   "of": 420
   },
   {
    "group": "Career",
@@ -192,8 +192,8 @@
    "stat": "PAA",
    "value": -11.7,
    "digits": 1,
-   "rank": 237,
-   "of": 419
+   "rank": 232,
+   "of": 420
   },
   {
    "group": "Career",
@@ -201,8 +201,8 @@
    "stat": "Best Game",
    "value": 5.9,
    "digits": 2,
-   "rank": 363,
-   "of": 419
+   "rank": 365,
+   "of": 420
   },
   {
    "group": "Career",
@@ -237,8 +237,8 @@
    "stat": "Points",
    "value": 8.7,
    "digits": 2,
-   "rank": 54,
-   "of": 65,
+   "rank": 55,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -248,7 +248,7 @@
    "value": 2,
    "digits": 0,
    "rank": 45,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -257,8 +257,8 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 47,
-   "of": 65,
+   "rank": 49,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -268,7 +268,7 @@
    "value": 8.7,
    "digits": 2,
    "rank": 6,
-   "of": 7,
+   "of": 8,
    "franchise": 9
   },
   {
@@ -297,16 +297,16 @@
    "stat": "Points, 2025",
    "value": 8.7,
    "digits": 2,
-   "rank": 873,
-   "of": 1007,
+   "rank": 878,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.5,
-  "rank": 341,
-  "of": 419,
+  "rank": 342,
+  "of": 420,
   "war": 0.0,
   "starts": 0.5,
   "black_ink": 0.0,
@@ -385,6 +385,11 @@
    [
     "2026",
     8,
+    0.5
+   ],
+   [
+    "2026",
+    9,
     0.5
    ]
   ],

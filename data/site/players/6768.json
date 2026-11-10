@@ -1106,7 +1106,7 @@
   {
    "player": "1373",
    "name": "Geno Smith",
-   "score": 747,
+   "score": 748,
    "gs": 34,
    "pts": 467.84,
    "ppg": 13.76,
@@ -1115,7 +1115,7 @@
   {
    "player": "96",
    "name": "Aaron Rodgers",
-   "score": 722,
+   "score": 724,
    "gs": 24,
    "pts": 322.32,
    "ppg": 13.43,
@@ -1124,7 +1124,7 @@
   {
    "player": "5870",
    "name": "Daniel Jones",
-   "score": 663,
+   "score": 665,
    "gs": 22,
    "pts": 314.82,
    "ppg": 14.31,
@@ -1133,16 +1133,16 @@
   {
    "player": "9228",
    "name": "Bryce Young",
-   "score": 659,
-   "gs": 19,
-   "pts": 264.38,
-   "ppg": 13.91,
-   "war": 0.19
+   "score": 660,
+   "gs": 20,
+   "pts": 284.82,
+   "ppg": 14.24,
+   "war": 0.28
   },
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 626,
+   "score": 628,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
@@ -1161,7 +1161,7 @@
    "value": 366.78,
    "digits": 2,
    "rank": 87,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1169,8 +1169,8 @@
    "stat": "Games Started",
    "value": 33,
    "digits": 0,
-   "rank": 70,
-   "of": 419
+   "rank": 75,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1178,8 +1178,8 @@
    "stat": "WAR",
    "value": -0.81,
    "digits": 2,
-   "rank": 414,
-   "of": 419
+   "rank": 415,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1187,8 +1187,8 @@
    "stat": "VOR",
    "value": -68.2,
    "digits": 1,
-   "rank": 414,
-   "of": 419
+   "rank": 415,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1196,8 +1196,8 @@
    "stat": "PAA",
    "value": -165.3,
    "digits": 1,
-   "rank": 419,
-   "of": 419
+   "rank": 420,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1205,8 +1205,8 @@
    "stat": "Best Game",
    "value": 28.36,
    "digits": 2,
-   "rank": 119,
-   "of": 419
+   "rank": 121,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1214,8 +1214,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.11,
    "digits": 2,
-   "rank": 142,
-   "of": 252
+   "rank": 145,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1224,7 +1224,7 @@
    "value": 209.06,
    "digits": 2,
    "rank": 40,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
@@ -1260,7 +1260,7 @@
    "value": 366.78,
    "digits": 2,
    "rank": 6,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1270,7 +1270,7 @@
    "value": 33,
    "digits": 0,
    "rank": 5,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1279,8 +1279,8 @@
    "stat": "WAR",
    "value": -0.8,
    "digits": 2,
-   "rank": 45,
-   "of": 47,
+   "rank": 46,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1290,7 +1290,7 @@
    "value": 366.78,
    "digits": 2,
    "rank": 3,
-   "of": 5,
+   "of": 6,
    "franchise": 12
   },
   {
@@ -1360,7 +1360,7 @@
    "value": 249.78,
    "digits": 2,
    "rank": 59,
-   "of": 1007,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1369,8 +1369,8 @@
    "stat": "Points, 2025",
    "value": 69.36,
    "digits": 2,
-   "rank": 460,
-   "of": 1007,
+   "rank": 466,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1379,15 +1379,15 @@
    "stat": "Points, 2024",
    "value": 47.64,
    "digits": 2,
-   "rank": 567,
-   "of": 1007,
+   "rank": 575,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 8.25,
-  "rank": 145,
-  "of": 419,
+  "rank": 146,
+  "of": 420,
   "war": 0.0,
   "starts": 8.25,
   "black_ink": 0.0,
@@ -1686,6 +1686,11 @@
    [
     "2026",
     8,
+    8.25
+   ],
+   [
+    "2026",
+    9,
     8.25
    ]
   ],

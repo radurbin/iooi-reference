@@ -997,11 +997,11 @@
    "original": 11,
    "player": "6794",
    "pos": "WR",
-   "starts_team": 46,
-   "pts_team": 738.73,
-   "starts_league": 46,
-   "pts_league": 738.73,
-   "nfl_pts": 753.03
+   "starts_team": 47,
+   "pts_team": 747.53,
+   "starts_league": 47,
+   "pts_league": 747.53,
+   "nfl_pts": 755.93
   },
   {
    "round": 2,
@@ -1016,10 +1016,10 @@
    "original": 11,
    "player": "1466",
    "pos": "TE",
-   "starts_team": 53,
-   "pts_team": 651.85,
-   "starts_league": 53,
-   "pts_league": 651.85,
+   "starts_team": 54,
+   "pts_team": 669.25,
+   "starts_league": 54,
+   "pts_league": 669.25,
    "nfl_pts": 706.95
   },
   {
@@ -1035,10 +1035,10 @@
    "original": 11,
    "player": "3198",
    "pos": "RB",
-   "starts_team": 56,
-   "pts_team": 952.56,
-   "starts_league": 56,
-   "pts_league": 952.56,
+   "starts_team": 57,
+   "pts_team": 959.84,
+   "starts_league": 57,
+   "pts_league": 959.84,
    "nfl_pts": 959.84
   },
   {
@@ -1073,10 +1073,10 @@
    "original": 11,
    "player": "6790",
    "pos": "RB",
-   "starts_team": 50,
-   "pts_team": 713.9,
-   "starts_league": 50,
-   "pts_league": 713.9,
+   "starts_team": 51,
+   "pts_team": 718.2,
+   "starts_league": 51,
+   "pts_league": 718.2,
    "nfl_pts": 793.4
   },
   {
@@ -1206,10 +1206,10 @@
    "original": 11,
    "player": "8183",
    "pos": "QB",
-   "starts_team": 45,
-   "pts_team": 867.08,
-   "starts_league": 45,
-   "pts_league": 867.08,
+   "starts_team": 46,
+   "pts_team": 893.06,
+   "starts_league": 46,
+   "pts_league": 893.06,
    "nfl_pts": 909.86
   },
   {
@@ -1248,7 +1248,7 @@
    "pts_team": 0.0,
    "starts_league": 2,
    "pts_league": 9.5,
-   "nfl_pts": 226.4
+   "nfl_pts": 228.3
   },
   {
    "round": 15,
@@ -1265,8 +1265,8 @@
    "pos": "DEF",
    "starts_team": 16,
    "pts_team": 101.0,
-   "starts_league": 33,
-   "pts_league": 282.0,
+   "starts_league": 34,
+   "pts_league": 294.0,
    "nfl_pts": 458.0
   },
   {
@@ -1370,23 +1370,33 @@
  "similar": [
   {
    "season": "2026",
-   "franchise": 8,
-   "team": "BBL KIZZY",
-   "score": 739,
-   "w": 5,
-   "l": 3,
-   "ppg": 139.92,
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "score": 717,
+   "w": 4,
+   "l": 5,
+   "ppg": 152.33,
    "result": null
   },
   {
    "season": "2023",
    "franchise": 10,
    "team": "You Like That?",
-   "score": 669,
+   "score": 668,
    "w": 7,
    "l": 7,
    "ppg": 128.33,
    "result": "6th"
+  },
+  {
+   "season": "2026",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "score": 662,
+   "w": 5,
+   "l": 4,
+   "ppg": 137.23,
+   "result": null
   },
   {
    "season": "2025",
@@ -1399,20 +1409,10 @@
    "result": "5th"
   },
   {
-   "season": "2026",
-   "franchise": 7,
-   "team": "the dart side 🛸💍",
-   "score": 657,
-   "w": 3,
-   "l": 5,
-   "ppg": 151.02,
-   "result": null
-  },
-  {
    "season": "2025",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "score": 642,
+   "score": 639,
    "w": 11,
    "l": 3,
    "ppg": 143.65,
@@ -1584,7 +1584,7 @@
     "brandon"
    ],
    "until": null,
-   "g": 45,
+   "g": 46,
    "gs": 6,
    "pts": 90.0,
    "wins": 3,
@@ -1716,8 +1716,8 @@
    "managers": [
     "brandon"
    ],
-   "gs": 22,
-   "pts": 204.0,
+   "gs": 23,
+   "pts": 210.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   },

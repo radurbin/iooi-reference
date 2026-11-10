@@ -47,7 +47,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "NYG",
-   "g": 8,
+   "g": 9,
    "gs": 2,
    "pts": 28.5,
    "bench_pts": 0.0,
@@ -60,7 +60,7 @@
   }
  ],
  "totals": {
-  "g": 25,
+  "g": 26,
   "gs": 11,
   "pts": 207.7,
   "bench_pts": 19.84,
@@ -531,13 +531,29 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "3257",
    "name": "Jacoby Brissett",
-   "score": 846,
+   "score": 847,
    "gs": 15,
    "pts": 251.56,
    "ppg": 16.77,
@@ -546,7 +562,7 @@
   {
    "player": "8162",
    "name": "Sam Howell",
-   "score": 843,
+   "score": 844,
    "gs": 9,
    "pts": 154.44,
    "ppg": 17.16,
@@ -564,7 +580,7 @@
   {
    "player": "4943",
    "name": "Sam Darnold",
-   "score": 716,
+   "score": 720,
    "gs": 23,
    "pts": 400.74,
    "ppg": 17.42,
@@ -573,7 +589,7 @@
   {
    "player": "7591",
    "name": "Justin Fields",
-   "score": 699,
+   "score": 703,
    "gs": 24,
    "pts": 401.96,
    "ppg": 16.75,
@@ -592,8 +608,8 @@
    "stat": "Points",
    "value": 207.7,
    "digits": 2,
-   "rank": 148,
-   "of": 419
+   "rank": 150,
+   "of": 420
   },
   {
    "group": "Career",
@@ -601,8 +617,8 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 208,
-   "of": 419
+   "rank": 210,
+   "of": 420
   },
   {
    "group": "Career",
@@ -610,8 +626,8 @@
    "stat": "WAR",
    "value": 0.92,
    "digits": 2,
-   "rank": 81,
-   "of": 419
+   "rank": 83,
+   "of": 420
   },
   {
    "group": "Career",
@@ -619,8 +635,8 @@
    "stat": "VOR",
    "value": 77.7,
    "digits": 1,
-   "rank": 81,
-   "of": 419
+   "rank": 83,
+   "of": 420
   },
   {
    "group": "Career",
@@ -628,8 +644,8 @@
    "stat": "PAA",
    "value": 14.9,
    "digits": 1,
-   "rank": 82,
-   "of": 419
+   "rank": 83,
+   "of": 420
   },
   {
    "group": "Career",
@@ -637,8 +653,8 @@
    "stat": "Best Game",
    "value": 28.42,
    "digits": 2,
-   "rank": 118,
-   "of": 419
+   "rank": 120,
+   "of": 420
   },
   {
    "group": "Career",
@@ -647,7 +663,7 @@
    "value": 18.88,
    "digits": 2,
    "rank": 15,
-   "of": 252
+   "of": 256
   },
   {
    "group": "Career",
@@ -655,8 +671,8 @@
    "stat": "Bench Points",
    "value": 19.84,
    "digits": 2,
-   "rank": 391,
-   "of": 506
+   "rank": 396,
+   "of": 511
   },
   {
    "group": "Career",
@@ -673,7 +689,7 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 33,
+   "rank": 34,
    "of": 66
   },
   {
@@ -692,7 +708,7 @@
    "value": 207.7,
    "digits": 2,
    "rank": 15,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -702,7 +718,7 @@
    "value": 11,
    "digits": 0,
    "rank": 20,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -712,7 +728,7 @@
    "value": 0.92,
    "digits": 2,
    "rank": 7,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -751,8 +767,8 @@
    "stat": "Points",
    "value": 28.5,
    "digits": 2,
-   "rank": 139,
-   "of": 230,
+   "rank": 148,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -761,8 +777,8 @@
    "stat": "Points",
    "value": 28.5,
    "digits": 2,
-   "rank": 30,
-   "of": 35,
+   "rank": 31,
+   "of": 36,
    "season": "2026"
   },
   {
@@ -771,8 +787,8 @@
    "stat": "Points, 2025",
    "value": 179.2,
    "digits": 2,
-   "rank": 154,
-   "of": 1007,
+   "rank": 158,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -781,15 +797,15 @@
    "stat": "Points, 2026",
    "value": 28.5,
    "digits": 2,
-   "rank": 680,
-   "of": 1007,
+   "rank": 689,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 21.95,
   "rank": 70,
-  "of": 419,
+  "of": 420,
   "war": 9.2,
   "starts": 2.75,
   "black_ink": 0.0,
@@ -919,6 +935,11 @@
     "2026",
     8,
     21.95
+   ],
+   [
+    "2026",
+    9,
+    21.95
    ]
   ],
   "benchmark": 100
@@ -964,7 +985,7 @@
     "season": "2026",
     "nfl": "NYG",
     "missed": 6,
-    "lost": 16.5,
+    "lost": 19.8,
     "injuries": [
      "Knee",
      "Knee - Meniscus"
@@ -980,7 +1001,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 5,
+    "rostered": 6,
     "games": [
      {
       "week": 3,
@@ -1021,8 +1042,8 @@
       "week": 9,
       "kind": "IR",
       "injury": "Knee - Meniscus",
-      "franchise": null,
-      "team": null
+      "franchise": 7,
+      "team": "the dart side 🛸💍"
      }
     ]
    }
@@ -1075,8 +1096,8 @@
       "team": "the dart side 🛸💍"
      }
     ],
-    "rostered": 5,
-    "lost": 16.5
+    "rostered": 6,
+    "lost": 19.8
    }
   ],
   "now": {

@@ -891,7 +891,7 @@
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 955,
+   "score": 956,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
@@ -909,29 +909,29 @@
   {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 889,
+   "score": 891,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
    "war": -0.74
   },
   {
+   "player": "11646",
+   "name": "Jalen Coker",
+   "score": 884,
+   "gs": 9,
+   "pts": 74.8,
+   "ppg": 8.31,
+   "war": -0.39
+  },
+  {
    "player": "9500",
    "name": "Josh Downs",
-   "score": 877,
+   "score": 880,
    "gs": 18,
    "pts": 155.5,
    "ppg": 8.64,
    "war": -0.7
-  },
-  {
-   "player": "11624",
-   "name": "Xavier Worthy",
-   "score": 863,
-   "gs": 16,
-   "pts": 150.0,
-   "ppg": 9.38,
-   "war": -0.43
   }
  ],
  "status": {
@@ -945,8 +945,8 @@
    "stat": "Points",
    "value": 107.8,
    "digits": 2,
-   "rank": 215,
-   "of": 419
+   "rank": 219,
+   "of": 420
   },
   {
    "group": "Career",
@@ -954,8 +954,8 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 180,
-   "of": 419
+   "rank": 182,
+   "of": 420
   },
   {
    "group": "Career",
@@ -963,8 +963,8 @@
    "stat": "WAR",
    "value": -0.52,
    "digits": 2,
-   "rank": 398,
-   "of": 419
+   "rank": 399,
+   "of": 420
   },
   {
    "group": "Career",
@@ -972,8 +972,8 @@
    "stat": "VOR",
    "value": -43.9,
    "digits": 1,
-   "rank": 398,
-   "of": 419
+   "rank": 399,
+   "of": 420
   },
   {
    "group": "Career",
@@ -981,8 +981,8 @@
    "stat": "PAA",
    "value": -68.9,
    "digits": 1,
-   "rank": 391,
-   "of": 419
+   "rank": 393,
+   "of": 420
   },
   {
    "group": "Career",
@@ -990,8 +990,8 @@
    "stat": "Best Game",
    "value": 31.5,
    "digits": 2,
-   "rank": 87,
-   "of": 419
+   "rank": 89,
+   "of": 420
   },
   {
    "group": "Career",
@@ -999,8 +999,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 7.7,
    "digits": 2,
-   "rank": 211,
-   "of": 252
+   "rank": 216,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1008,8 +1008,8 @@
    "stat": "Bench Points",
    "value": 186.4,
    "digits": 2,
-   "rank": 53,
-   "of": 506
+   "rank": 55,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1017,7 +1017,7 @@
    "stat": "Points",
    "value": 107.8,
    "digits": 2,
-   "rank": 62,
+   "rank": 64,
    "of": 126
   },
   {
@@ -1045,7 +1045,7 @@
    "value": 76.3,
    "digits": 2,
    "rank": 17,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1055,7 +1055,7 @@
    "value": 13,
    "digits": 0,
    "rank": 14,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1064,8 +1064,8 @@
    "stat": "WAR",
    "value": -0.75,
    "digits": 2,
-   "rank": 42,
-   "of": 47,
+   "rank": 43,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1084,8 +1084,8 @@
    "stat": "Points",
    "value": 31.5,
    "digits": 2,
-   "rank": 27,
-   "of": 57,
+   "rank": 28,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1095,7 +1095,7 @@
    "value": 1,
    "digits": 0,
    "rank": 39,
-   "of": 57,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1105,7 +1105,7 @@
    "value": 0.23,
    "digits": 2,
    "rank": 19,
-   "of": 57,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1164,8 +1164,8 @@
    "stat": "Points, 2025",
    "value": 57.0,
    "digits": 2,
-   "rank": 517,
-   "of": 1007,
+   "rank": 525,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1174,15 +1174,15 @@
    "stat": "Points, 2024",
    "value": 50.8,
    "digits": 2,
-   "rank": 549,
-   "of": 1007,
+   "rank": 558,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 3.5,
-  "rank": 215,
-  "of": 419,
+  "rank": 218,
+  "of": 420,
   "war": 0.0,
   "starts": 3.5,
   "black_ink": 0.0,
@@ -1481,6 +1481,11 @@
    [
     "2026",
     8,
+    3.5
+   ],
+   [
+    "2026",
+    9,
     3.5
    ]
   ],

@@ -1198,10 +1198,10 @@
    "original": 12,
    "player": "12526",
    "pos": "WR",
-   "starts_team": 21,
-   "pts_team": 276.8,
-   "starts_league": 21,
-   "pts_league": 276.8,
+   "starts_team": 22,
+   "pts_team": 292.4,
+   "starts_league": 22,
+   "pts_league": 292.4,
    "nfl_pts": 329.9
   },
   {
@@ -1217,10 +1217,10 @@
    "original": 4,
    "player": "12517",
    "pos": "TE",
-   "starts_team": 11,
-   "pts_team": 122.0,
-   "starts_league": 11,
-   "pts_league": 122.0,
+   "starts_team": 12,
+   "pts_team": 131.4,
+   "starts_league": 12,
+   "pts_league": 131.4,
    "nfl_pts": 224.8
   },
   {
@@ -1236,10 +1236,10 @@
    "original": 5,
    "player": "12474",
    "pos": "RB",
-   "starts_team": 2,
-   "pts_team": 22.6,
-   "starts_league": 2,
-   "pts_league": 22.6,
+   "starts_team": 3,
+   "pts_team": 32.8,
+   "starts_league": 3,
+   "pts_league": 32.8,
    "nfl_pts": 224.7
   }
  ],
@@ -1354,7 +1354,7 @@
    "season": "2025",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team",
-   "score": 846,
+   "score": 847,
    "w": 10,
    "l": 4,
    "ppg": 139.3,
@@ -1374,7 +1374,7 @@
    "season": "2025",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "score": 665,
+   "score": 666,
    "w": 11,
    "l": 3,
    "ppg": 143.65,
@@ -1384,21 +1384,21 @@
    "season": "2025",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 646,
+   "score": 649,
    "w": 7,
    "l": 7,
    "ppg": 132.89,
    "result": "5th"
   },
   {
-   "season": "2026",
+   "season": "2024",
    "franchise": 1,
-   "team": "Mojo Dojo Casa Team 💍",
-   "score": 633,
-   "w": 7,
-   "l": 1,
-   "ppg": 158.68,
-   "result": null
+   "team": "Mojo Dojo Casa Team",
+   "score": 602,
+   "w": 8,
+   "l": 6,
+   "ppg": 142.7,
+   "result": "Champion"
   }
  ],
  "pickups": [
@@ -1704,9 +1704,9 @@
     "sam"
    ],
    "until": null,
-   "g": 14,
-   "gs": 11,
-   "pts": 107.0,
+   "g": 15,
+   "gs": 12,
+   "pts": 119.0,
    "wins": 7,
    "best": 28.0
   },
@@ -1915,8 +1915,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 19,
-   "pts": 110.7,
+   "gs": 20,
+   "pts": 115.2,
    "next": 11,
    "next_team": "BubbaNASTIES"
   },
@@ -2139,8 +2139,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 5,
-   "pts": 57.7,
+   "gs": 6,
+   "pts": 67.3,
    "next": 3,
    "next_team": "Kolkata Kommies"
   },
@@ -2223,8 +2223,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 4,
-   "pts": 47.0,
+   "gs": 5,
+   "pts": 61.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team 💍"
   },
@@ -2237,8 +2237,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 7,
-   "pts": 141.04,
+   "gs": 8,
+   "pts": 153.88,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2279,8 +2279,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 7,
-   "pts": 74.0,
+   "gs": 8,
+   "pts": 80.0,
    "next": 3,
    "next_team": "Kolkata Kommies"
   }

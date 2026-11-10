@@ -65,14 +65,14 @@
    "season": "2026",
    "franchise": 6,
    "team": "got that DAWG",
-   "w": 4,
+   "w": 5,
    "l": 4,
    "t": 0,
-   "pf": 1136.26,
-   "pa": 1072.26,
+   "pf": 1289.88,
+   "pa": 1216.74,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.5,
+   "pct": 0.556,
    "transactions": 11,
    "trades": 3,
    "partial_season": false,
@@ -80,14 +80,14 @@
   }
  ],
  "totals": {
-  "w": 27,
+  "w": 28,
   "l": 23,
   "t": 0,
-  "pf": 6636.22,
-  "pa": 6463.02,
+  "pf": 6789.84,
+  "pa": 6607.5,
   "playoff_w": 1,
   "playoff_l": 3,
-  "pct": 0.54,
+  "pct": 0.549,
   "transactions": 42,
   "trades": 10
  },
@@ -101,33 +101,33 @@
     "name": "Jordan Love",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 59,
-    "gs": 49,
-    "pts": 835.16,
-    "best": 28.3,
-    "wins": 27,
-    "vor": 200.44,
-    "war": 2.37
+    "g": 60,
+    "gs": 50,
+    "pts": 871.44,
+    "best": 36.28,
+    "wins": 28,
+    "vor": 223.37,
+    "war": 2.64
    },
    {
     "player": "6770",
     "name": "Joe Burrow",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 59,
-    "gs": 36,
-    "pts": 702.36,
+    "g": 60,
+    "gs": 37,
+    "pts": 732.2,
     "best": 39.78,
-    "wins": 18,
-    "vor": 237.9,
-    "war": 2.81
+    "wins": 19,
+    "vor": 254.39,
+    "war": 3.01
    },
    {
     "player": "8137",
     "name": "George Pickens",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 59,
+    "g": 60,
     "gs": 41,
     "pts": 605.7,
     "best": 33.4,
@@ -140,39 +140,65 @@
     "name": "Chuba Hubbard",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 55,
-    "gs": 32,
-    "pts": 526.3,
+    "g": 56,
+    "gs": 33,
+    "pts": 541.5,
     "best": 32.5,
-    "wins": 18,
-    "vor": 235.6,
-    "war": 2.78
+    "wins": 19,
+    "vor": 242.77,
+    "war": 2.87
    },
    {
     "player": "4199",
     "name": "Aaron Jones Sr.",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 59,
-    "gs": 31,
-    "pts": 392.95,
+    "g": 60,
+    "gs": 32,
+    "pts": 396.55,
     "best": 26.7,
-    "wins": 14,
-    "vor": 101.43,
-    "war": 1.2
+    "wins": 15,
+    "vor": 97.0,
+    "war": 1.15
    },
    {
     "player": "4039",
     "name": "Cooper Kupp",
     "pos": "WR",
     "years": "2023-2025",
-    "g": 59,
+    "g": 60,
     "gs": 24,
     "pts": 334.7,
     "best": 32.0,
     "wins": 12,
     "vor": 47.2,
     "war": 0.56
+   },
+   {
+    "player": "9224",
+    "name": "Chase Brown",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 26,
+    "gs": 21,
+    "pts": 323.0,
+    "best": 32.9,
+    "wins": 12,
+    "vor": 147.09,
+    "war": 1.74
+   },
+   {
+    "player": "9997",
+    "name": "Zay Flowers",
+    "pos": "WR",
+    "years": "2025-2026",
+    "g": 26,
+    "gs": 22,
+    "pts": 317.6,
+    "best": 28.1,
+    "wins": 12,
+    "vor": 71.03,
+    "war": 0.84
    },
    {
     "player": "5846",
@@ -186,32 +212,6 @@
     "wins": 13,
     "vor": 46.45,
     "war": 0.55
-   },
-   {
-    "player": "9224",
-    "name": "Chase Brown",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 25,
-    "gs": 20,
-    "pts": 311.6,
-    "best": 32.9,
-    "wins": 11,
-    "vor": 143.72,
-    "war": 1.7
-   },
-   {
-    "player": "9997",
-    "name": "Zay Flowers",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 25,
-    "gs": 21,
-    "pts": 310.5,
-    "best": 28.1,
-    "wins": 11,
-    "vor": 76.44,
-    "war": 0.9
    },
    {
     "player": "7569",
@@ -244,7 +244,7 @@
     "name": "Philadelphia Eagles",
     "pos": "DEF",
     "years": "2023-2026",
-    "g": 59,
+    "g": 60,
     "gs": 37,
     "pts": 240.0,
     "best": 20.0,
@@ -279,17 +279,43 @@
     "war": -0.03
    },
    {
+    "player": "11786",
+    "name": "Cam Little",
+    "pos": "K",
+    "years": "2025-2026",
+    "g": 18,
+    "gs": 16,
+    "pts": 170.2,
+    "best": 19.1,
+    "wins": 8,
+    "vor": 31.56,
+    "war": 0.37
+   },
+   {
     "player": "5859",
     "name": "A.J. Brown",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 25,
+    "g": 26,
     "gs": 13,
     "pts": 169.0,
     "best": 35.2,
     "wins": 7,
     "vor": 27.38,
     "war": 0.32
+   },
+   {
+    "player": "HOU",
+    "name": "Houston Texans",
+    "pos": "DEF",
+    "years": "2024-2026",
+    "g": 41,
+    "gs": 15,
+    "pts": 166.0,
+    "best": 19.0,
+    "wins": 9,
+    "vor": 69.48,
+    "war": 0.82
    },
    {
     "player": "6011",
@@ -305,56 +331,30 @@
     "war": 0.07
    },
    {
-    "player": "11786",
-    "name": "Cam Little",
-    "pos": "K",
+    "player": "8148",
+    "name": "Jameson Williams",
+    "pos": "WR",
     "years": "2025-2026",
-    "g": 17,
-    "gs": 15,
-    "pts": 151.1,
-    "best": 16.0,
-    "wins": 7,
-    "vor": 21.67,
-    "war": 0.26
-   },
-   {
-    "player": "HOU",
-    "name": "Houston Texans",
-    "pos": "DEF",
-    "years": "2024-2026",
-    "g": 40,
-    "gs": 14,
-    "pts": 150.0,
-    "best": 19.0,
-    "wins": 8,
-    "vor": 60.59,
-    "war": 0.72
+    "g": 22,
+    "gs": 10,
+    "pts": 141.0,
+    "best": 26.4,
+    "wins": 6,
+    "vor": 31.18,
+    "war": 0.37
    },
    {
     "player": "4943",
     "name": "Sam Darnold",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 21,
+    "g": 22,
     "gs": 9,
     "pts": 136.64,
     "best": 27.64,
     "wins": 2,
     "vor": 29.58,
     "war": 0.35
-   },
-   {
-    "player": "8148",
-    "name": "Jameson Williams",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 21,
-    "gs": 9,
-    "pts": 135.9,
-    "best": 26.4,
-    "wins": 5,
-    "vor": 38.59,
-    "war": 0.46
    },
    {
     "player": "9484",
@@ -400,7 +400,7 @@
     "name": "Mike Evans",
     "pos": "WR",
     "years": "2026",
-    "g": 8,
+    "g": 9,
     "gs": 5,
     "pts": 72.1,
     "best": 26.3,
@@ -429,26 +429,26 @@
      "name": "Jordan Love",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 59,
-     "gs": 49,
-     "pts": 835.16,
-     "best": 28.3,
-     "wins": 27,
-     "vor": 200.44,
-     "war": 2.37
+     "g": 60,
+     "gs": 50,
+     "pts": 871.44,
+     "best": 36.28,
+     "wins": 28,
+     "vor": 223.37,
+     "war": 2.64
     },
     {
      "player": "6770",
      "name": "Joe Burrow",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 59,
-     "gs": 36,
-     "pts": 702.36,
+     "g": 60,
+     "gs": 37,
+     "pts": 732.2,
      "best": 39.78,
-     "wins": 18,
-     "vor": 237.9,
-     "war": 2.81
+     "wins": 19,
+     "vor": 254.39,
+     "war": 3.01
     },
     {
      "player": "6011",
@@ -470,39 +470,39 @@
      "name": "Chuba Hubbard",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 55,
-     "gs": 32,
-     "pts": 526.3,
+     "g": 56,
+     "gs": 33,
+     "pts": 541.5,
      "best": 32.5,
-     "wins": 18,
-     "vor": 235.6,
-     "war": 2.78
+     "wins": 19,
+     "vor": 242.77,
+     "war": 2.87
     },
     {
      "player": "4199",
      "name": "Aaron Jones Sr.",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 59,
-     "gs": 31,
-     "pts": 392.95,
+     "g": 60,
+     "gs": 32,
+     "pts": 396.55,
      "best": 26.7,
-     "wins": 14,
-     "vor": 101.43,
-     "war": 1.2
+     "wins": 15,
+     "vor": 97.0,
+     "war": 1.15
     },
     {
      "player": "9224",
      "name": "Chase Brown",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 25,
-     "gs": 20,
-     "pts": 311.6,
+     "g": 26,
+     "gs": 21,
+     "pts": 323.0,
      "best": 32.9,
-     "wins": 11,
-     "vor": 143.72,
-     "war": 1.7
+     "wins": 12,
+     "vor": 147.09,
+     "war": 1.74
     }
    ],
    "WR": [
@@ -511,7 +511,7 @@
      "name": "George Pickens",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 59,
+     "g": 60,
      "gs": 41,
      "pts": 605.7,
      "best": 33.4,
@@ -524,7 +524,7 @@
      "name": "Cooper Kupp",
      "pos": "WR",
      "years": "2023-2025",
-     "g": 59,
+     "g": 60,
      "gs": 24,
      "pts": 334.7,
      "best": 32.0,
@@ -533,17 +533,17 @@
      "war": 0.56
     },
     {
-     "player": "5846",
-     "name": "DK Metcalf",
+     "player": "9997",
+     "name": "Zay Flowers",
      "pos": "WR",
-     "years": "2023-2024",
+     "years": "2025-2026",
      "g": 26,
      "gs": 22,
-     "pts": 313.6,
-     "best": 37.4,
-     "wins": 13,
-     "vor": 46.45,
-     "war": 0.55
+     "pts": 317.6,
+     "best": 28.1,
+     "wins": 12,
+     "vor": 71.03,
+     "war": 0.84
     }
    ],
    "TE": [
@@ -606,13 +606,13 @@
      "name": "Cam Little",
      "pos": "K",
      "years": "2025-2026",
-     "g": 17,
-     "gs": 15,
-     "pts": 151.1,
-     "best": 16.0,
-     "wins": 7,
-     "vor": 21.67,
-     "war": 0.26
+     "g": 18,
+     "gs": 16,
+     "pts": 170.2,
+     "best": 19.1,
+     "wins": 8,
+     "vor": 31.56,
+     "war": 0.37
     },
     {
      "player": "6650",
@@ -634,7 +634,7 @@
      "name": "Philadelphia Eagles",
      "pos": "DEF",
      "years": "2023-2026",
-     "g": 59,
+     "g": 60,
      "gs": 37,
      "pts": 240.0,
      "best": 20.0,
@@ -647,13 +647,13 @@
      "name": "Houston Texans",
      "pos": "DEF",
      "years": "2024-2026",
-     "g": 40,
-     "gs": 14,
-     "pts": 150.0,
+     "g": 41,
+     "gs": 15,
+     "pts": 166.0,
      "best": 19.0,
-     "wins": 8,
-     "vor": 60.59,
-     "war": 0.72
+     "wins": 9,
+     "vor": 69.48,
+     "war": 0.82
     },
     {
      "player": "ATL",
@@ -678,13 +678,13 @@
    "name": "Jordan Love",
    "pos": "QB",
    "years": "2023-2026",
-   "g": 59,
-   "gs": 49,
-   "pts": 835.16,
-   "best": 28.3,
-   "wins": 27,
-   "vor": 200.44,
-   "war": 2.37
+   "g": 60,
+   "gs": 50,
+   "pts": 871.44,
+   "best": 36.28,
+   "wins": 28,
+   "vor": 223.37,
+   "war": 2.64
   },
   {
    "slot": "RB",
@@ -692,13 +692,13 @@
    "name": "Chuba Hubbard",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 55,
-   "gs": 32,
-   "pts": 526.3,
+   "g": 56,
+   "gs": 33,
+   "pts": 541.5,
    "best": 32.5,
-   "wins": 18,
-   "vor": 235.6,
-   "war": 2.78
+   "wins": 19,
+   "vor": 242.77,
+   "war": 2.87
   },
   {
    "slot": "RB",
@@ -706,13 +706,13 @@
    "name": "Aaron Jones Sr.",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 59,
-   "gs": 31,
-   "pts": 392.95,
+   "g": 60,
+   "gs": 32,
+   "pts": 396.55,
    "best": 26.7,
-   "wins": 14,
-   "vor": 101.43,
-   "war": 1.2
+   "wins": 15,
+   "vor": 97.0,
+   "war": 1.15
   },
   {
    "slot": "WR",
@@ -720,7 +720,7 @@
    "name": "George Pickens",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 59,
+   "g": 60,
    "gs": 41,
    "pts": 605.7,
    "best": 33.4,
@@ -734,7 +734,7 @@
    "name": "Cooper Kupp",
    "pos": "WR",
    "years": "2023-2025",
-   "g": 59,
+   "g": 60,
    "gs": 24,
    "pts": 334.7,
    "best": 32.0,
@@ -758,17 +758,17 @@
   },
   {
    "slot": "FLEX",
-   "player": "5846",
-   "name": "DK Metcalf",
-   "pos": "WR",
-   "years": "2023-2024",
+   "player": "9224",
+   "name": "Chase Brown",
+   "pos": "RB",
+   "years": "2025-2026",
    "g": 26,
-   "gs": 22,
-   "pts": 313.6,
-   "best": 37.4,
-   "wins": 13,
-   "vor": 46.45,
-   "war": 0.55
+   "gs": 21,
+   "pts": 323.0,
+   "best": 32.9,
+   "wins": 12,
+   "vor": 147.09,
+   "war": 1.74
   },
   {
    "slot": "SUPER_FLEX",
@@ -776,13 +776,13 @@
    "name": "Joe Burrow",
    "pos": "QB",
    "years": "2023-2026",
-   "g": 59,
-   "gs": 36,
-   "pts": 702.36,
+   "g": 60,
+   "gs": 37,
+   "pts": 732.2,
    "best": 39.78,
-   "wins": 18,
-   "vor": 237.9,
-   "war": 2.81
+   "wins": 19,
+   "vor": 254.39,
+   "war": 3.01
   },
   {
    "slot": "K",
@@ -804,7 +804,7 @@
    "name": "Philadelphia Eagles",
    "pos": "DEF",
    "years": "2023-2026",
-   "g": 59,
+   "g": 60,
    "gs": 37,
    "pts": 240.0,
    "best": 20.0,
@@ -844,6 +844,17 @@
    "game": "2023-13-6-10",
    "season": "2023",
    "week": 13,
+   "franchise": 6,
+   "team": "got that DAWG"
+  },
+  {
+   "player": "6804",
+   "name": "Jordan Love",
+   "pos": "QB",
+   "pts": 36.28,
+   "game": "2026-09-4-6",
+   "season": "2026",
+   "week": 9,
    "franchise": 6,
    "team": "got that DAWG"
   },
@@ -1002,6 +1013,17 @@
    "team": "got that DAWG"
   },
   {
+   "player": "6770",
+   "name": "Joe Burrow",
+   "pos": "QB",
+   "pts": 29.84,
+   "game": "2026-09-4-6",
+   "season": "2026",
+   "week": 9,
+   "franchise": 6,
+   "team": "got that DAWG"
+  },
+  {
    "player": "8137",
    "name": "George Pickens",
    "pos": "WR",
@@ -1064,28 +1086,6 @@
    "game": "2025-16-6-9",
    "season": "2025",
    "week": 16,
-   "franchise": 6,
-   "team": "got that DAWG"
-  },
-  {
-   "player": "5846",
-   "name": "DK Metcalf",
-   "pos": "WR",
-   "pts": 28.9,
-   "game": "2024-02-2-6",
-   "season": "2024",
-   "week": 2,
-   "franchise": 6,
-   "team": "got that DAWG"
-  },
-  {
-   "player": "4039",
-   "name": "Cooper Kupp",
-   "pos": "WR",
-   "pts": 28.6,
-   "game": "2024-11-6-11",
-   "season": "2024",
-   "week": 11,
    "franchise": 6,
    "team": "got that DAWG"
   }
@@ -1248,10 +1248,10 @@
    "season": "2026",
    "franchise": 6,
    "team": "got that DAWG",
-   "games": 27,
-   "players": 9,
-   "lost": 15.74,
-   "rank": 11,
+   "games": 33,
+   "players": 11,
+   "lost": 19.56,
+   "rank": 10,
    "of": 12
   }
  ],
@@ -1376,6 +1376,37 @@
    ]
   },
   {
+   "player": "8205",
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "missed": 11,
+   "lost": 0.0,
+   "injuries": [
+    "Back",
+    "Knee"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 6,
+     "team": "got that DAWG"
+    },
+    {
+     "season": "2026",
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ]
+  },
+  {
    "player": "4199",
    "name": "Aaron Jones Sr.",
    "pos": "RB",
@@ -1402,37 +1433,6 @@
     },
     {
      "season": "2025",
-     "franchise": 6,
-     "team": "got that DAWG"
-    }
-   ]
-  },
-  {
-   "player": "8205",
-   "name": "Isiah Pacheco",
-   "pos": "RB",
-   "missed": 10,
-   "lost": 0.0,
-   "injuries": [
-    "Back",
-    "Knee"
-   ],
-   "kinds": [
-    "IR",
-    "Out"
-   ],
-   "seasons": [
-    "2025",
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2025",
-     "franchise": 6,
-     "team": "got that DAWG"
-    },
-    {
-     "season": "2026",
      "franchise": 6,
      "team": "got that DAWG"
     }
@@ -1531,6 +1531,39 @@
    ]
   },
   {
+   "player": "5859",
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "missed": 7,
+   "lost": 8.83,
+   "injuries": [
+    "Knee",
+    "Ankle",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 6,
+     "team": "got that DAWG"
+    },
+    {
+     "season": "2026",
+     "franchise": 6,
+     "team": "got that DAWG"
+    }
+   ]
+  },
+  {
    "player": "4066",
    "name": "Evan Engram",
    "pos": "TE",
@@ -1589,39 +1622,6 @@
     },
     {
      "season": "2024",
-     "franchise": 6,
-     "team": "got that DAWG"
-    }
-   ]
-  },
-  {
-   "player": "5859",
-   "name": "A.J. Brown",
-   "pos": "WR",
-   "missed": 6,
-   "lost": 8.04,
-   "injuries": [
-    "Knee",
-    "Hamstring",
-    "Ankle"
-   ],
-   "kinds": [
-    "IR",
-    "Out",
-    "Questionable"
-   ],
-   "seasons": [
-    "2025",
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2025",
-     "franchise": 6,
-     "team": "got that DAWG"
-    },
-    {
-     "season": "2026",
      "franchise": 6,
      "team": "got that DAWG"
     }

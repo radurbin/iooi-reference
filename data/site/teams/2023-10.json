@@ -1158,8 +1158,8 @@
    "pos": "RB",
    "starts_team": 37,
    "pts_team": 502.15,
-   "starts_league": 44,
-   "pts_league": 676.35,
+   "starts_league": 45,
+   "pts_league": 714.45,
    "nfl_pts": 760.65
   },
   {
@@ -1198,8 +1198,8 @@
    "pos": "WR",
    "starts_team": 3,
    "pts_team": 38.8,
-   "starts_league": 35,
-   "pts_league": 734.96,
+   "starts_league": 36,
+   "pts_league": 747.06,
    "nfl_pts": 976.96
   },
   {
@@ -1218,8 +1218,8 @@
    "pos": "QB",
    "starts_team": 8,
    "pts_team": 149.74,
-   "starts_league": 30,
-   "pts_league": 474.22,
+   "starts_league": 31,
+   "pts_league": 487.06,
    "nfl_pts": 594.9
   },
   {
@@ -1238,8 +1238,8 @@
    "pos": "TE",
    "starts_team": 18,
    "pts_team": 173.3,
-   "starts_league": 32,
-   "pts_league": 291.5,
+   "starts_league": 33,
+   "pts_league": 301.5,
    "nfl_pts": 492.7
   },
   {
@@ -1438,8 +1438,8 @@
    "pos": "RB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 32,
-   "pts_league": 526.3,
+   "starts_league": 33,
+   "pts_league": 541.5,
    "nfl_pts": 697.6
   },
   {
@@ -1498,8 +1498,8 @@
    "pos": "K",
    "starts_team": 21,
    "pts_team": 172.0,
-   "starts_league": 42,
-   "pts_league": 366.9,
+   "starts_league": 43,
+   "pts_league": 373.4,
    "nfl_pts": 536.4
   }
  ],
@@ -1520,20 +1520,20 @@
    "season": "2026",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 795,
-   "w": 4,
+   "score": 808,
+   "w": 5,
    "l": 4,
-   "ppg": 142.03,
+   "ppg": 143.32,
    "result": null
   },
   {
    "season": "2026",
-   "franchise": 8,
-   "team": "BBL KIZZY",
-   "score": 762,
-   "w": 5,
-   "l": 3,
-   "ppg": 139.92,
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "score": 753,
+   "w": 4,
+   "l": 5,
+   "ppg": 152.33,
    "result": null
   },
   {
@@ -1547,14 +1547,14 @@
    "result": "5th"
   },
   {
-   "season": "2026",
-   "franchise": 7,
-   "team": "the dart side 🛸💍",
-   "score": 742,
-   "w": 3,
-   "l": 5,
-   "ppg": 151.02,
-   "result": null
+   "season": "2023",
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 726,
+   "w": 6,
+   "l": 8,
+   "ppg": 127.61,
+   "result": "8th"
   }
  ],
  "pickups": [
@@ -1909,8 +1909,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 21,
-   "pts": 194.9,
+   "gs": 22,
+   "pts": 201.4,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -1924,8 +1924,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 32,
-   "pts": 526.3,
+   "gs": 33,
+   "pts": 541.5,
    "next": 6,
    "next_team": "got that DAWG"
   },
@@ -1954,8 +1954,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 33,
-   "pts": 173.0,
+   "gs": 34,
+   "pts": 185.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2014,8 +2014,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 3,
-   "pts": 36.2,
+   "gs": 4,
+   "pts": 43.0,
    "next": 8,
    "next_team": "BBL KIZZY"
   },

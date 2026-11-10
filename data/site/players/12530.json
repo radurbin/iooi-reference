@@ -44,10 +44,10 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "JAX",
-   "g": 8,
+   "g": 9,
    "gs": 1,
    "pts": 5.85,
-   "bench_pts": 62.0,
+   "bench_pts": 67.65,
    "ppg": 5.85,
    "best": 5.85,
    "wins": 0,
@@ -57,10 +57,10 @@
   }
  ],
  "totals": {
-  "g": 25,
+  "g": 26,
   "gs": 5,
   "pts": 49.5,
-  "bench_pts": 106.15,
+  "bench_pts": 111.8,
   "ppg": 9.9,
   "best": 13.9,
   "wins": 4,
@@ -81,7 +81,7 @@
    "team": "JAX",
    "g": 8,
    "pts": 73.5,
-   "rank": 43
+   "rank": 44
   }
  ],
  "history": [
@@ -522,6 +522,22 @@
    "paa": -7.29,
    "vor": -6.66,
    "war": -0.07871309608667391
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-9-10",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 5.65,
+   "proj": 8.4,
+   "won": true
   }
  ],
  "status": {
@@ -537,7 +553,7 @@
    "value": 49.5,
    "digits": 2,
    "rank": 271,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -545,8 +561,8 @@
    "stat": "Games Started",
    "value": 5,
    "digits": 0,
-   "rank": 274,
-   "of": 419
+   "rank": 275,
+   "of": 420
   },
   {
    "group": "Career",
@@ -554,8 +570,8 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 250,
-   "of": 419
+   "rank": 253,
+   "of": 420
   },
   {
    "group": "Career",
@@ -563,8 +579,8 @@
    "stat": "VOR",
    "value": -5.4,
    "digits": 1,
-   "rank": 255,
-   "of": 419
+   "rank": 258,
+   "of": 420
   },
   {
    "group": "Career",
@@ -573,7 +589,7 @@
    "value": -20.0,
    "digits": 1,
    "rank": 287,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -581,17 +597,17 @@
    "stat": "Best Game",
    "value": 13.9,
    "digits": 2,
-   "rank": 293,
-   "of": 419
+   "rank": 294,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 106.15,
+   "value": 111.8,
    "digits": 2,
-   "rank": 163,
-   "of": 506
+   "rank": 154,
+   "of": 511
   },
   {
    "group": "Career",
@@ -617,7 +633,7 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 61,
+   "rank": 62,
    "of": 126
   },
   {
@@ -627,7 +643,7 @@
    "value": 49.5,
    "digits": 2,
    "rank": 35,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -637,7 +653,7 @@
    "value": 5,
    "digits": 0,
    "rank": 32,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -646,8 +662,8 @@
    "stat": "WAR",
    "value": -0.07,
    "digits": 2,
-   "rank": 42,
-   "of": 65,
+   "rank": 43,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -686,8 +702,8 @@
    "stat": "Points",
    "value": 5.85,
    "digits": 2,
-   "rank": 202,
-   "of": 230,
+   "rank": 208,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -696,7 +712,7 @@
    "stat": "Points",
    "value": 5.85,
    "digits": 2,
-   "rank": 54,
+   "rank": 55,
    "of": 62,
    "season": "2026"
   },
@@ -706,8 +722,8 @@
    "stat": "Points, 2025",
    "value": 43.65,
    "digits": 2,
-   "rank": 591,
-   "of": 1007,
+   "rank": 599,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -716,16 +732,16 @@
    "stat": "Points, 2026",
    "value": 5.85,
    "digits": 2,
-   "rank": 912,
-   "of": 1007,
+   "rank": 918,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.25,
-  "rank": 291,
-  "of": 419,
+  "rank": 292,
+  "of": 420,
   "war": 0.0,
   "starts": 1.25,
   "black_ink": 0.0,
@@ -854,6 +870,11 @@
    [
     "2026",
     8,
+    1.25
+   ],
+   [
+    "2026",
+    9,
     1.25
    ]
   ],

@@ -74,7 +74,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "PIT",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 17.4,
@@ -87,7 +87,7 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 33,
   "pts": 445.1,
   "bench_pts": 141.3,
@@ -1176,13 +1176,29 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 925,
+   "score": 926,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
@@ -1191,38 +1207,38 @@
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 920,
-   "gs": 36,
-   "pts": 486.6,
-   "ppg": 13.52,
-   "war": 0.86
+   "score": 905,
+   "gs": 37,
+   "pts": 493.7,
+   "ppg": 13.34,
+   "war": 0.8
   },
   {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
-   "score": 890,
+   "score": 893,
    "gs": 36,
    "pts": 503.25,
    "ppg": 13.98,
    "war": 1.02
   },
   {
-   "player": "11635",
-   "name": "Ladd McConkey",
-   "score": 863,
-   "gs": 31,
-   "pts": 380.4,
-   "ppg": 12.27,
-   "war": 0.36
-  },
-  {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 847,
-   "gs": 32,
-   "pts": 482.42,
-   "ppg": 15.08,
-   "war": 1.19
+   "score": 865,
+   "gs": 33,
+   "pts": 490.52,
+   "ppg": 14.86,
+   "war": 1.14
+  },
+  {
+   "player": "5045",
+   "name": "Courtland Sutton",
+   "score": 851,
+   "gs": 27,
+   "pts": 383.4,
+   "ppg": 14.2,
+   "war": 0.93
   }
  ],
  "status": {
@@ -1238,7 +1254,7 @@
    "value": 445.1,
    "digits": 2,
    "rank": 70,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1246,8 +1262,8 @@
    "stat": "Games Started",
    "value": 33,
    "digits": 0,
-   "rank": 70,
-   "of": 419
+   "rank": 75,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1255,8 +1271,8 @@
    "stat": "WAR",
    "value": 0.72,
    "digits": 2,
-   "rank": 97,
-   "of": 419
+   "rank": 98,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1264,8 +1280,8 @@
    "stat": "VOR",
    "value": 61.1,
    "digits": 1,
-   "rank": 97,
-   "of": 419
+   "rank": 98,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1273,8 +1289,8 @@
    "stat": "PAA",
    "value": -1.4,
    "digits": 1,
-   "rank": 145,
-   "of": 419
+   "rank": 144,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1282,8 +1298,8 @@
    "stat": "Best Game",
    "value": 27.5,
    "digits": 2,
-   "rank": 127,
-   "of": 419
+   "rank": 128,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1291,8 +1307,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.49,
    "digits": 2,
-   "rank": 95,
-   "of": 252
+   "rank": 97,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1300,8 +1316,8 @@
    "stat": "Bench Points",
    "value": 141.3,
    "digits": 2,
-   "rank": 101,
-   "of": 506
+   "rank": 103,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1318,7 +1334,7 @@
    "stat": "Games Started",
    "value": 33,
    "digits": 0,
-   "rank": 21,
+   "rank": 22,
    "of": 126
   },
   {
@@ -1337,7 +1353,7 @@
    "value": 445.1,
    "digits": 2,
    "rank": 6,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -1347,7 +1363,7 @@
    "value": 33,
    "digits": 0,
    "rank": 3,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -1357,7 +1373,7 @@
    "value": 0.73,
    "digits": 2,
    "rank": 9,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -1436,8 +1452,8 @@
    "stat": "Points, 2023",
    "value": 209.8,
    "digits": 2,
-   "rank": 102,
-   "of": 1007,
+   "rank": 103,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1446,8 +1462,8 @@
    "stat": "Points, 2025",
    "value": 134.8,
    "digits": 2,
-   "rank": 254,
-   "of": 1007,
+   "rank": 262,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1456,15 +1472,15 @@
    "stat": "Points, 2024",
    "value": 100.5,
    "digits": 2,
-   "rank": 351,
-   "of": 1007,
+   "rank": 355,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 17.45,
   "rank": 83,
-  "of": 419,
+  "of": 420,
   "war": 7.2,
   "starts": 8.25,
   "black_ink": 0.0,
@@ -1763,6 +1779,11 @@
    [
     "2026",
     8,
+    17.45
+   ],
+   [
+    "2026",
+    9,
     17.45
    ]
   ],

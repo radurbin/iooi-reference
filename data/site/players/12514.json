@@ -40,29 +40,29 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "TB",
-   "g": 8,
-   "gs": 1,
-   "pts": 10.4,
+   "g": 9,
+   "gs": 2,
+   "pts": 17.4,
    "bench_pts": 60.9,
-   "ppg": 10.4,
+   "ppg": 8.7,
    "best": 10.4,
-   "wins": 1,
-   "paa": -4.88,
-   "vor": -2.11,
-   "war": -0.02
+   "wins": 2,
+   "paa": -11.52,
+   "vor": -7.62,
+   "war": -0.09
   }
  ],
  "totals": {
-  "g": 25,
-  "gs": 7,
-  "pts": 67.3,
+  "g": 26,
+  "gs": 8,
+  "pts": 74.3,
   "bench_pts": 197.9,
-  "ppg": 9.61,
+  "ppg": 9.29,
   "best": 23.5,
-  "wins": 6,
-  "paa": -18.65,
-  "vor": -8.81,
-  "war": -0.1
+  "wins": 7,
+  "paa": -25.29,
+  "vor": -14.32,
+  "war": -0.17
  },
  "nfl": [
   {
@@ -527,6 +527,72 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": "WR",
+   "started": true,
+   "pts": 7.0,
+   "proj": 10.46,
+   "won": true,
+   "paa": -6.64,
+   "vor": -5.51,
+   "war": -0.06512149541104703
+  }
+ ],
+ "similar": [
+  {
+   "player": "11646",
+   "name": "Jalen Coker",
+   "score": 916,
+   "gs": 9,
+   "pts": 74.8,
+   "ppg": 8.31,
+   "war": -0.39
+  },
+  {
+   "player": "11637",
+   "name": "Keon Coleman",
+   "score": 915,
+   "gs": 8,
+   "pts": 65.4,
+   "ppg": 8.18,
+   "war": -0.3
+  },
+  {
+   "player": "6943",
+   "name": "Gabe Davis",
+   "score": 856,
+   "gs": 12,
+   "pts": 129.1,
+   "ppg": 10.76,
+   "war": -0.23
+  },
+  {
+   "player": "9754",
+   "name": "Quentin Johnston",
+   "score": 843,
+   "gs": 14,
+   "pts": 116.2,
+   "ppg": 8.3,
+   "war": -0.5
+  },
+  {
+   "player": "8676",
+   "name": "Rashid Shaheed",
+   "score": 836,
+   "gs": 14,
+   "pts": 146.6,
+   "ppg": 10.47,
+   "war": -0.15
   }
  ],
  "status": {
@@ -539,46 +605,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 67.3,
+   "value": 74.3,
    "digits": 2,
-   "rank": 246,
-   "of": 419
+   "rank": 239,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 253,
-   "of": 419
+   "rank": 239,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.17,
    "digits": 2,
-   "rank": 281,
-   "of": 419
+   "rank": 338,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -8.8,
+   "value": -14.3,
    "digits": 1,
-   "rank": 293,
-   "of": 419
+   "rank": 340,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -18.6,
+   "value": -25.3,
    "digits": 1,
-   "rank": 281,
-   "of": 419
+   "rank": 304,
+   "of": 420
   },
   {
    "group": "Career",
@@ -587,7 +653,16 @@
    "value": 23.5,
    "digits": 2,
    "rank": 186,
-   "of": 419
+   "of": 420
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Points per Start (min. 8 GS)",
+   "value": 9.29,
+   "digits": 2,
+   "rank": 178,
+   "of": 256
   },
   {
    "group": "Career",
@@ -596,42 +671,42 @@
    "value": 197.9,
    "digits": 2,
    "rank": 49,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 67.3,
+   "value": 74.3,
    "digits": 2,
-   "rank": 69,
+   "rank": 66,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 68,
+   "rank": 66,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.17,
    "digits": 2,
-   "rank": 69,
+   "rank": 94,
    "of": 126
   },
   {
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points",
-   "value": 67.3,
+   "value": 74.3,
    "digits": 2,
-   "rank": 27,
+   "rank": 26,
    "of": 77,
    "franchise": 1
   },
@@ -639,9 +714,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 20,
+   "rank": 19,
    "of": 77,
    "franchise": 1
   },
@@ -649,9 +724,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.17,
    "digits": 2,
-   "rank": 71,
+   "rank": 73,
    "of": 77,
    "franchise": 1
   },
@@ -659,7 +734,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points, WRs",
-   "value": 67.3,
+   "value": 74.3,
    "digits": 2,
    "rank": 12,
    "of": 18,
@@ -689,19 +764,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 10.4,
+   "value": 17.4,
    "digits": 2,
-   "rank": 185,
-   "of": 230,
+   "rank": 168,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 10.4,
+   "value": 17.4,
    "digits": 2,
-   "rank": 50,
+   "rank": 44,
    "of": 62,
    "season": "2026"
   },
@@ -711,28 +786,27 @@
    "stat": "Points, 2025",
    "value": 56.9,
    "digits": 2,
-   "rank": 520,
-   "of": 1007,
+   "rank": 529,
+   "of": 1010,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 10.4,
+   "value": 17.4,
    "digits": 2,
-   "rank": 851,
-   "of": 1007,
+   "rank": 770,
+   "of": 1010,
    "season": "2026"
   }
  ],
- "similar": [],
  "hof": {
-  "score": 1.75,
-  "rank": 273,
-  "of": 419,
+  "score": 2.0,
+  "rank": 258,
+  "of": 420,
   "war": 0.0,
-  "starts": 1.75,
+  "starts": 2.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -860,6 +934,11 @@
     "2026",
     8,
     1.75
+   ],
+   [
+    "2026",
+    9,
+    2.0
    ]
   ],
   "benchmark": 100

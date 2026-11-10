@@ -68,7 +68,7 @@
    "team": "DAL",
    "g": 7,
    "pts": 26.6,
-   "rank": 71
+   "rank": 72
   }
  ],
  "history": [
@@ -217,8 +217,8 @@
    "stat": "Points",
    "value": 11.1,
    "digits": 2,
-   "rank": 348,
-   "of": 419
+   "rank": 350,
+   "of": 420
   },
   {
    "group": "Career",
@@ -226,8 +226,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -236,7 +236,7 @@
    "value": 0.02,
    "digits": 2,
    "rank": 210,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -245,7 +245,7 @@
    "value": 1.9,
    "digits": 1,
    "rank": 211,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -254,7 +254,7 @@
    "value": -4.5,
    "digits": 1,
    "rank": 159,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -262,8 +262,8 @@
    "stat": "Best Game",
    "value": 11.1,
    "digits": 2,
-   "rank": 322,
-   "of": 419
+   "rank": 324,
+   "of": 420
   },
   {
    "group": "Career",
@@ -271,8 +271,8 @@
    "stat": "Bench Points",
    "value": 8.9,
    "digits": 2,
-   "rank": 439,
-   "of": 506
+   "rank": 445,
+   "of": 511
   },
   {
    "group": "Career",
@@ -280,8 +280,8 @@
    "stat": "Points",
    "value": 11.1,
    "digits": 2,
-   "rank": 79,
-   "of": 99
+   "rank": 81,
+   "of": 100
   },
   {
    "group": "Career",
@@ -289,8 +289,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 83,
-   "of": 99
+   "rank": 85,
+   "of": 100
   },
   {
    "group": "Career",
@@ -298,8 +298,8 @@
    "stat": "WAR",
    "value": 0.02,
    "digits": 2,
-   "rank": 58,
-   "of": 99
+   "rank": 59,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -367,16 +367,16 @@
    "stat": "Points, 2024",
    "value": 11.1,
    "digits": 2,
-   "rank": 843,
-   "of": 1007,
+   "rank": 848,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.45,
-  "rank": 363,
-  "of": 419,
+  "rank": 367,
+  "of": 420,
   "war": 0.2,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -560,6 +560,11 @@
    [
     "2026",
     8,
+    0.45
+   ],
+   [
+    "2026",
+    9,
     0.45
    ]
   ],

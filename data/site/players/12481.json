@@ -40,7 +40,7 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "NYG",
-   "g": 8,
+   "g": 9,
    "gs": 7,
    "pts": 80.2,
    "bench_pts": 0.0,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 25,
+  "g": 26,
   "gs": 13,
   "pts": 191.1,
   "bench_pts": 16.8,
@@ -530,17 +530,33 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "12490",
    "name": "Bhayshul Tuten",
-   "score": 925,
-   "gs": 10,
-   "pts": 144.8,
-   "ppg": 14.48,
-   "war": 0.74
+   "score": 934,
+   "gs": 11,
+   "pts": 154.9,
+   "ppg": 14.08,
+   "war": 0.77
   },
   {
    "player": "2749",
@@ -554,7 +570,7 @@
   {
    "player": "7021",
    "name": "Rico Dowdle",
-   "score": 886,
+   "score": 887,
    "gs": 17,
    "pts": 263.2,
    "ppg": 15.48,
@@ -591,8 +607,8 @@
    "stat": "Points",
    "value": 191.1,
    "digits": 2,
-   "rank": 156,
-   "of": 419
+   "rank": 158,
+   "of": 420
   },
   {
    "group": "Career",
@@ -600,8 +616,8 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 190,
-   "of": 419
+   "rank": 191,
+   "of": 420
   },
   {
    "group": "Career",
@@ -609,8 +625,8 @@
    "stat": "WAR",
    "value": 0.99,
    "digits": 2,
-   "rank": 76,
-   "of": 419
+   "rank": 77,
+   "of": 420
   },
   {
    "group": "Career",
@@ -618,8 +634,8 @@
    "stat": "VOR",
    "value": 83.3,
    "digits": 1,
-   "rank": 76,
-   "of": 419
+   "rank": 78,
+   "of": 420
   },
   {
    "group": "Career",
@@ -627,8 +643,8 @@
    "stat": "PAA",
    "value": -10.2,
    "digits": 1,
-   "rank": 218,
-   "of": 419
+   "rank": 213,
+   "of": 420
   },
   {
    "group": "Career",
@@ -636,8 +652,8 @@
    "stat": "Best Game",
    "value": 31.0,
    "digits": 2,
-   "rank": 92,
-   "of": 419
+   "rank": 94,
+   "of": 420
   },
   {
    "group": "Career",
@@ -645,8 +661,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 14.7,
    "digits": 2,
-   "rank": 71,
-   "of": 252
+   "rank": 72,
+   "of": 256
   },
   {
    "group": "Career",
@@ -654,8 +670,8 @@
    "stat": "Bench Points",
    "value": 16.8,
    "digits": 2,
-   "rank": 398,
-   "of": 506
+   "rank": 403,
+   "of": 511
   },
   {
    "group": "Career",
@@ -664,7 +680,7 @@
    "value": 191.1,
    "digits": 2,
    "rank": 36,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -672,8 +688,8 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 43,
-   "of": 99
+   "rank": 44,
+   "of": 100
   },
   {
    "group": "Career",
@@ -682,7 +698,7 @@
    "value": 0.99,
    "digits": 2,
    "rank": 29,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -691,7 +707,7 @@
    "value": 191.1,
    "digits": 2,
    "rank": 13,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -701,7 +717,7 @@
    "value": 13,
    "digits": 0,
    "rank": 14,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -711,7 +727,7 @@
    "value": 0.98,
    "digits": 2,
    "rank": 4,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -750,8 +766,8 @@
    "stat": "Points",
    "value": 80.2,
    "digits": 2,
-   "rank": 60,
-   "of": 230,
+   "rank": 70,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -760,8 +776,8 @@
    "stat": "Points",
    "value": 80.2,
    "digits": 2,
-   "rank": 19,
-   "of": 57,
+   "rank": 21,
+   "of": 58,
    "season": "2026"
   },
   {
@@ -770,8 +786,8 @@
    "stat": "Points, 2025",
    "value": 110.9,
    "digits": 2,
-   "rank": 324,
-   "of": 1007,
+   "rank": 332,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -780,15 +796,15 @@
    "stat": "Points, 2026",
    "value": 80.2,
    "digits": 2,
-   "rank": 405,
-   "of": 1007,
+   "rank": 415,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 13.15,
-  "rank": 105,
-  "of": 419,
+  "rank": 106,
+  "of": 420,
   "war": 9.9,
   "starts": 3.25,
   "black_ink": 0.0,
@@ -918,6 +934,11 @@
     "2026",
     8,
     13.15
+   ],
+   [
+    "2026",
+    9,
+    13.15
    ]
   ],
   "benchmark": 100
@@ -1011,7 +1032,7 @@
     "season": "2026",
     "nfl": "NYG",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 3.43,
     "injuries": [
      "Hamstring"
     ],
@@ -1021,14 +1042,14 @@
     "kinds": [
      "Doubtful"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 9,
       "kind": "Doubtful",
       "injury": "Hamstring",
-      "franchise": null,
-      "team": null
+      "franchise": 12,
+      "team": "Team Win One Game"
      }
     ]
    }
@@ -1076,9 +1097,14 @@
     "kinds": [
      "Doubtful"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 12,
+      "team": "Team Win One Game"
+     }
+    ],
+    "rostered": 1,
+    "lost": 3.43
    }
   ],
   "now": {

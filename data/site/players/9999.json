@@ -668,16 +668,16 @@
   {
    "player": "6011",
    "name": "Gardner Minshew II",
-   "score": 742,
-   "gs": 11,
-   "pts": 157.42,
-   "ppg": 14.31,
-   "war": 0.07
+   "score": 779,
+   "gs": 12,
+   "pts": 164.56,
+   "ppg": 13.71,
+   "war": -0.01
   },
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 729,
+   "score": 730,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -686,10 +686,10 @@
   {
    "player": "11559",
    "name": "Michael Penix Jr.",
-   "score": 715,
-   "gs": 8,
-   "pts": 116.46,
-   "ppg": 14.56,
+   "score": 723,
+   "gs": 9,
+   "pts": 130.24,
+   "ppg": 14.47,
    "war": 0.25
   }
  ],
@@ -704,8 +704,8 @@
    "stat": "Points",
    "value": 114.72,
    "digits": 2,
-   "rank": 209,
-   "of": 419
+   "rank": 215,
+   "of": 420
   },
   {
    "group": "Career",
@@ -713,8 +713,8 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 208,
-   "of": 419
+   "rank": 210,
+   "of": 420
   },
   {
    "group": "Career",
@@ -722,8 +722,8 @@
    "stat": "WAR",
    "value": -0.47,
    "digits": 2,
-   "rank": 395,
-   "of": 419
+   "rank": 396,
+   "of": 420
   },
   {
    "group": "Career",
@@ -731,8 +731,8 @@
    "stat": "VOR",
    "value": -39.6,
    "digits": 1,
-   "rank": 395,
-   "of": 419
+   "rank": 396,
+   "of": 420
   },
   {
    "group": "Career",
@@ -740,8 +740,8 @@
    "stat": "PAA",
    "value": -59.8,
    "digits": 1,
-   "rank": 379,
-   "of": 419
+   "rank": 380,
+   "of": 420
   },
   {
    "group": "Career",
@@ -749,8 +749,8 @@
    "stat": "Best Game",
    "value": 16.58,
    "digits": 2,
-   "rank": 264,
-   "of": 419
+   "rank": 266,
+   "of": 420
   },
   {
    "group": "Career",
@@ -758,8 +758,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.43,
    "digits": 2,
-   "rank": 158,
-   "of": 252
+   "rank": 161,
+   "of": 256
   },
   {
    "group": "Career",
@@ -767,8 +767,8 @@
    "stat": "Bench Points",
    "value": 95.44,
    "digits": 2,
-   "rank": 177,
-   "of": 506
+   "rank": 180,
+   "of": 511
   },
   {
    "group": "Career",
@@ -785,7 +785,7 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 33,
+   "rank": 34,
    "of": 66
   },
   {
@@ -803,7 +803,7 @@
    "stat": "Points",
    "value": 114.72,
    "digits": 2,
-   "rank": 16,
+   "rank": 18,
    "of": 44,
    "franchise": 11
   },
@@ -883,8 +883,8 @@
    "stat": "Points, 2023",
    "value": 75.4,
    "digits": 2,
-   "rank": 425,
-   "of": 1007,
+   "rank": 436,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -893,15 +893,15 @@
    "stat": "Points, 2024",
    "value": 39.32,
    "digits": 2,
-   "rank": 616,
-   "of": 1007,
+   "rank": 626,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 2.75,
-  "rank": 235,
-  "of": 419,
+  "rank": 236,
+  "of": 420,
   "war": 0.0,
   "starts": 2.75,
   "black_ink": 0.0,
@@ -1200,6 +1200,11 @@
    [
     "2026",
     8,
+    2.75
+   ],
+   [
+    "2026",
+    9,
     2.75
    ]
   ],

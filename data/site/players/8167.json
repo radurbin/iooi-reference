@@ -88,29 +88,29 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "GB",
-   "g": 8,
-   "gs": 8,
-   "pts": 148.3,
+   "g": 9,
+   "gs": 9,
+   "pts": 178.4,
    "bench_pts": 0.0,
-   "ppg": 18.54,
+   "ppg": 19.82,
    "best": 32.7,
-   "wins": 5,
-   "paa": 37.14,
-   "vor": 48.22,
-   "war": 0.57
+   "wins": 6,
+   "paa": 53.6,
+   "vor": 65.81,
+   "war": 0.78
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 22,
-  "pts": 244.6,
+  "g": 60,
+  "gs": 23,
+  "pts": 274.7,
   "bench_pts": 244.2,
-  "ppg": 11.12,
+  "ppg": 11.94,
   "best": 32.7,
-  "wins": 10,
-  "paa": -47.06,
-  "vor": -19.88,
-  "war": -0.23
+  "wins": 11,
+  "paa": -30.6,
+  "vor": -2.29,
+  "war": -0.03
  },
  "nfl": [
   {
@@ -1178,31 +1178,50 @@
    "paa": 4.16,
    "vor": 4.79,
    "war": 0.05661197150978499
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-2-11",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": "WR",
+   "started": true,
+   "pts": 30.1,
+   "proj": 15.93,
+   "won": true,
+   "paa": 16.46,
+   "vor": 17.59,
+   "war": 0.2078923964211102
   }
  ],
  "similar": [
   {
-   "player": "4950",
-   "name": "Christian Kirk",
-   "score": 942,
-   "gs": 20,
-   "pts": 215.66,
-   "ppg": 10.78,
-   "war": -0.3
-  },
-  {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 930,
+   "score": 916,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
    "war": -0.18
   },
   {
+   "player": "9502",
+   "name": "Tank Dell",
+   "score": 906,
+   "gs": 19,
+   "pts": 232.3,
+   "ppg": 12.23,
+   "war": 0.06
+  },
+  {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 927,
+   "score": 893,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -1211,16 +1230,16 @@
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 925,
-   "gs": 25,
-   "pts": 266.9,
-   "ppg": 10.68,
-   "war": -0.14
+   "score": 885,
+   "gs": 26,
+   "pts": 276.7,
+   "ppg": 10.64,
+   "war": -0.18
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 922,
+   "score": 882,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -1237,46 +1256,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 244.6,
+   "value": 274.7,
    "digits": 2,
-   "rank": 127,
-   "of": 419
+   "rank": 115,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 22,
+   "value": 23,
    "digits": 0,
-   "rank": 128,
-   "of": 419
+   "rank": 125,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.23,
+   "value": -0.03,
    "digits": 2,
-   "rank": 359,
-   "of": 419
+   "rank": 231,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -19.9,
+   "value": -2.3,
    "digits": 1,
-   "rank": 361,
-   "of": 419
+   "rank": 231,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -47.1,
+   "value": -30.6,
    "digits": 1,
-   "rank": 364,
-   "of": 419
+   "rank": 325,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1284,17 +1303,17 @@
    "stat": "Best Game",
    "value": 32.7,
    "digits": 2,
-   "rank": 76,
-   "of": 419
+   "rank": 77,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 11.12,
+   "value": 11.94,
    "digits": 2,
-   "rank": 141,
-   "of": 252
+   "rank": 127,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1302,23 +1321,23 @@
    "stat": "Bench Points",
    "value": 244.2,
    "digits": 2,
-   "rank": 29,
-   "of": 506
+   "rank": 30,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 244.6,
+   "value": 274.7,
    "digits": 2,
-   "rank": 41,
+   "rank": 38,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 22,
+   "value": 23,
    "digits": 0,
    "rank": 38,
    "of": 126
@@ -1327,46 +1346,46 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.23,
+   "value": -0.03,
    "digits": 2,
-   "rank": 103,
+   "rank": 51,
    "of": 126
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points",
-   "value": 244.6,
+   "value": 274.7,
    "digits": 2,
-   "rank": 9,
-   "of": 75,
+   "rank": 8,
+   "of": 76,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Games Started",
-   "value": 22,
+   "value": 23,
    "digits": 0,
    "rank": 10,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.23,
+   "value": -0.02,
    "digits": 2,
-   "rank": 70,
-   "of": 75,
+   "rank": 44,
+   "of": 76,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points, WRs",
-   "value": 244.6,
+   "value": 274.7,
    "digits": 2,
    "rank": 3,
    "of": 19,
@@ -1436,17 +1455,17 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 148.3,
+   "value": 178.4,
    "digits": 2,
-   "rank": 18,
-   "of": 230,
+   "rank": 8,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 148.3,
+   "value": 178.4,
    "digits": 2,
    "rank": 3,
    "of": 62,
@@ -1456,10 +1475,10 @@
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 148.3,
+   "value": 178.4,
    "digits": 2,
-   "rank": 219,
-   "of": 1007,
+   "rank": 160,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1468,8 +1487,8 @@
    "stat": "Points, 2023",
    "value": 42.8,
    "digits": 2,
-   "rank": 593,
-   "of": 1007,
+   "rank": 601,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1478,8 +1497,8 @@
    "stat": "Points, 2025",
    "value": 33.4,
    "digits": 2,
-   "rank": 656,
-   "of": 1007,
+   "rank": 664,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1488,17 +1507,17 @@
    "stat": "Points, 2024",
    "value": 20.1,
    "digits": 2,
-   "rank": 751,
-   "of": 1007,
+   "rank": 760,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 5.5,
-  "rank": 185,
-  "of": 419,
+  "score": 5.75,
+  "rank": 184,
+  "of": 420,
   "war": 0.0,
-  "starts": 5.5,
+  "starts": 5.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1796,6 +1815,11 @@
     "2026",
     8,
     5.5
+   ],
+   [
+    "2026",
+    9,
+    5.75
    ]
   ],
   "benchmark": 100

@@ -24,10 +24,10 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "NYJ",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 48.8,
+   "bench_pts": 62.6,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -37,10 +37,10 @@
   }
  ],
  "totals": {
-  "g": 8,
+  "g": 9,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 48.8,
+  "bench_pts": 62.6,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -199,6 +199,22 @@
    "pts": 0.0,
    "proj": 10.68,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-2-11",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 13.8,
+   "proj": 13.42,
+   "won": true
   }
  ],
  "status": {
@@ -211,10 +227,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 48.8,
+   "value": 62.6,
    "digits": 2,
-   "rank": 290,
-   "of": 506
+   "rank": 252,
+   "of": 511
   }
  ],
  "similar": [],

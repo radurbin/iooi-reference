@@ -886,18 +886,9 @@
    "war": 0.52
   },
   {
-   "player": "7567",
-   "name": "Kenny Gainwell",
-   "score": 936,
-   "gs": 12,
-   "pts": 137.4,
-   "ppg": 11.45,
-   "war": 0.4
-  },
-  {
    "player": "8205",
    "name": "Isiah Pacheco",
-   "score": 933,
+   "score": 934,
    "gs": 15,
    "pts": 189.5,
    "ppg": 12.63,
@@ -906,20 +897,29 @@
   {
    "player": "12507",
    "name": "Omarion Hampton",
-   "score": 932,
+   "score": 933,
    "gs": 14,
    "pts": 177.9,
    "ppg": 12.71,
    "war": 0.71
   },
   {
-   "player": "8408",
-   "name": "Jordan Mason",
+   "player": "7567",
+   "name": "Kenny Gainwell",
    "score": 931,
-   "gs": 9,
-   "pts": 108.2,
-   "ppg": 12.02,
-   "war": 0.33
+   "gs": 13,
+   "pts": 148.5,
+   "ppg": 11.42,
+   "war": 0.44
+  },
+  {
+   "player": "12529",
+   "name": "TreVeyon Henderson",
+   "score": 930,
+   "gs": 12,
+   "pts": 136.4,
+   "ppg": 11.37,
+   "war": 0.4
   }
  ],
  "status": {
@@ -933,8 +933,8 @@
    "stat": "Points",
    "value": 149.7,
    "digits": 2,
-   "rank": 180,
-   "of": 419
+   "rank": 182,
+   "of": 420
   },
   {
    "group": "Career",
@@ -942,8 +942,8 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 196,
-   "of": 419
+   "rank": 199,
+   "of": 420
   },
   {
    "group": "Career",
@@ -951,8 +951,8 @@
    "stat": "WAR",
    "value": 0.32,
    "digits": 2,
-   "rank": 139,
-   "of": 419
+   "rank": 137,
+   "of": 420
   },
   {
    "group": "Career",
@@ -960,8 +960,8 @@
    "stat": "VOR",
    "value": 26.9,
    "digits": 1,
-   "rank": 140,
-   "of": 419
+   "rank": 138,
+   "of": 420
   },
   {
    "group": "Career",
@@ -969,8 +969,8 @@
    "stat": "PAA",
    "value": -12.5,
    "digits": 1,
-   "rank": 245,
-   "of": 419
+   "rank": 241,
+   "of": 420
   },
   {
    "group": "Career",
@@ -978,8 +978,8 @@
    "stat": "Best Game",
    "value": 26.1,
    "digits": 2,
-   "rank": 146,
-   "of": 419
+   "rank": 147,
+   "of": 420
   },
   {
    "group": "Career",
@@ -988,7 +988,7 @@
    "value": 12.47,
    "digits": 2,
    "rank": 114,
-   "of": 252
+   "of": 256
   },
   {
    "group": "Career",
@@ -996,8 +996,8 @@
    "stat": "Bench Points",
    "value": 183.7,
    "digits": 2,
-   "rank": 56,
-   "of": 506
+   "rank": 59,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1005,8 +1005,8 @@
    "stat": "Points",
    "value": 149.7,
    "digits": 2,
-   "rank": 39,
-   "of": 99
+   "rank": 40,
+   "of": 100
   },
   {
    "group": "Career",
@@ -1014,8 +1014,8 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 46,
-   "of": 99
+   "rank": 47,
+   "of": 100
   },
   {
    "group": "Career",
@@ -1023,8 +1023,8 @@
    "stat": "WAR",
    "value": 0.32,
    "digits": 2,
-   "rank": 45,
-   "of": 99
+   "rank": 44,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -1032,7 +1032,7 @@
    "stat": "Points",
    "value": 128.6,
    "digits": 2,
-   "rank": 18,
+   "rank": 19,
    "of": 82,
    "franchise": 4
   },
@@ -1052,7 +1052,7 @@
    "stat": "WAR",
    "value": 0.39,
    "digits": 2,
-   "rank": 13,
+   "rank": 14,
    "of": 82,
    "franchise": 4
   },
@@ -1152,8 +1152,8 @@
    "stat": "Points, 2023",
    "value": 128.6,
    "digits": 2,
-   "rank": 273,
-   "of": 1007,
+   "rank": 280,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1162,15 +1162,15 @@
    "stat": "Points, 2024",
    "value": 21.1,
    "digits": 2,
-   "rank": 739,
-   "of": 1007,
+   "rank": 747,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 6.2,
-  "rank": 178,
-  "of": 419,
+  "rank": 179,
+  "of": 420,
   "war": 3.2,
   "starts": 3.0,
   "black_ink": 0.0,
@@ -1459,6 +1459,11 @@
    [
     "2026",
     8,
+    6.2
+   ],
+   [
+    "2026",
+    9,
     6.2
    ]
   ],

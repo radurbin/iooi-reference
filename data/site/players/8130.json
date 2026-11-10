@@ -79,29 +79,29 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "ARI",
-   "g": 8,
-   "gs": 8,
-   "pts": 151.9,
+   "g": 9,
+   "gs": 9,
+   "pts": 164.3,
    "bench_pts": 0.0,
-   "ppg": 18.99,
+   "ppg": 18.26,
    "best": 27.1,
-   "wins": 7,
-   "paa": 59.11,
-   "vor": 77.82,
-   "war": 0.92
+   "wins": 8,
+   "paa": 59.92,
+   "vor": 80.96,
+   "war": 0.96
   }
  ],
  "totals": {
-  "g": 52,
-  "gs": 42,
-  "pts": 727.4,
+  "g": 53,
+  "gs": 43,
+  "pts": 739.8,
   "bench_pts": 73.1,
-  "ppg": 17.32,
+  "ppg": 17.2,
   "best": 37.4,
-  "wins": 30,
-  "paa": 269.21,
-  "vor": 326.94,
-  "war": 3.86
+  "wins": 31,
+  "paa": 270.02,
+  "vor": 330.08,
+  "war": 3.9
  },
  "nfl": [
   {
@@ -1120,44 +1120,63 @@
    "paa": 7.35,
    "vor": 10.94,
    "war": 0.12929748816639827
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": "TE",
+   "started": true,
+   "pts": 12.4,
+   "proj": 15.4,
+   "won": true,
+   "paa": 0.81,
+   "vor": 3.14,
+   "war": 0.03711097923605947
   }
  ],
  "similar": [
   {
    "player": "4217",
    "name": "George Kittle",
-   "score": 666,
-   "gs": 43,
-   "pts": 652.7,
-   "ppg": 15.18,
-   "war": 2.71
+   "score": 661,
+   "gs": 44,
+   "pts": 662.5,
+   "ppg": 15.06,
+   "war": 2.72
   },
   {
    "player": "11604",
    "name": "Brock Bowers",
-   "score": 505,
-   "gs": 31,
-   "pts": 502.5,
-   "ppg": 16.21,
-   "war": 2.45
+   "score": 540,
+   "gs": 32,
+   "pts": 524.9,
+   "ppg": 16.4,
+   "war": 2.6
   },
   {
    "player": "1466",
    "name": "Travis Kelce",
-   "score": 298,
-   "gs": 53,
-   "pts": 651.85,
-   "ppg": 12.3,
-   "war": 1.6
+   "score": 322,
+   "gs": 54,
+   "pts": 669.25,
+   "ppg": 12.39,
+   "war": 1.7
   },
   {
    "player": "10859",
    "name": "Sam LaPorta",
-   "score": 202,
-   "gs": 42,
-   "pts": 514.3,
-   "ppg": 12.25,
-   "war": 1.18
+   "score": 192,
+   "gs": 43,
+   "pts": 521.5,
+   "ppg": 12.13,
+   "war": 1.15
   },
   {
    "player": "4033",
@@ -1179,46 +1198,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 727.4,
+   "value": 739.8,
    "digits": 2,
    "rank": 25,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 42,
+   "value": 43,
    "digits": 0,
-   "rank": 38,
-   "of": 419
+   "rank": 37,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.86,
+   "value": 3.9,
    "digits": 2,
    "rank": 17,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 326.9,
+   "value": 330.1,
    "digits": 1,
    "rank": 17,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 269.2,
+   "value": 270.0,
    "digits": 1,
-   "rank": 7,
-   "of": 419
+   "rank": 8,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1226,17 +1245,17 @@
    "stat": "Best Game",
    "value": 37.4,
    "digits": 2,
-   "rank": 42,
-   "of": 419
+   "rank": 43,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 17.32,
+   "value": 17.2,
    "digits": 2,
-   "rank": 26,
-   "of": 252
+   "rank": 30,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1244,14 +1263,14 @@
    "stat": "Bench Points",
    "value": 73.1,
    "digits": 2,
-   "rank": 230,
-   "of": 506
+   "rank": 232,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Points",
-   "value": 727.4,
+   "value": 739.8,
    "digits": 2,
    "rank": 1,
    "of": 52
@@ -1260,7 +1279,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 42,
+   "value": 43,
    "digits": 0,
    "rank": 4,
    "of": 52
@@ -1269,7 +1288,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 3.86,
+   "value": 3.9,
    "digits": 2,
    "rank": 1,
    "of": 52
@@ -1278,7 +1297,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points",
-   "value": 727.4,
+   "value": 739.8,
    "digits": 2,
    "rank": 2,
    "of": 77,
@@ -1288,7 +1307,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Games Started",
-   "value": 42,
+   "value": 43,
    "digits": 0,
    "rank": 2,
    "of": 77,
@@ -1298,9 +1317,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 3.86,
+   "value": 3.9,
    "digits": 2,
-   "rank": 3,
+   "rank": 2,
    "of": 77,
    "franchise": 1
   },
@@ -1308,7 +1327,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points, TEs",
-   "value": 727.4,
+   "value": 739.8,
    "digits": 2,
    "rank": 1,
    "of": 3,
@@ -1378,20 +1397,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 151.9,
+   "value": 164.3,
    "digits": 2,
-   "rank": 13,
-   "of": 230,
+   "rank": 22,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 TEs",
    "stat": "Points",
-   "value": 151.9,
+   "value": 164.3,
    "digits": 2,
    "rank": 1,
-   "of": 27,
+   "of": 28,
    "season": "2026"
   },
   {
@@ -1401,7 +1420,7 @@
    "value": 302.4,
    "digits": 2,
    "rank": 26,
-   "of": 1007,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1410,18 +1429,18 @@
    "stat": "Points, 2024",
    "value": 230.3,
    "digits": 2,
-   "rank": 76,
-   "of": 1007,
+   "rank": 77,
+   "of": 1010,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 151.9,
+   "value": 164.3,
    "digits": 2,
-   "rank": 208,
-   "of": 1007,
+   "rank": 193,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1430,17 +1449,17 @@
    "stat": "Points, 2023",
    "value": 42.8,
    "digits": 2,
-   "rank": 593,
-   "of": 1007,
+   "rank": 601,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 67.1,
+  "score": 67.75,
   "rank": 9,
-  "of": 419,
-  "war": 38.6,
-  "starts": 10.5,
+  "of": 420,
+  "war": 39.0,
+  "starts": 10.75,
   "black_ink": 2.0,
   "awards": 16.0,
   "history": [
@@ -1738,6 +1757,11 @@
     "2026",
     8,
     67.1
+   ],
+   [
+    "2026",
+    9,
+    67.75
    ]
   ],
   "benchmark": 100

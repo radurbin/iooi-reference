@@ -75,10 +75,10 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "MIN",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 80.0,
+   "bench_pts": 88.8,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -88,10 +88,10 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 17,
   "pts": 226.9,
-  "bench_pts": 270.0,
+  "bench_pts": 278.8,
   "ppg": 13.35,
   "best": 30.4,
   "wins": 9,
@@ -125,7 +125,7 @@
    "season": "2026",
    "team": "MIN",
    "g": 8,
-   "pts": 85.2,
+   "pts": 88.8,
    "rank": 9
   }
  ],
@@ -1161,13 +1161,29 @@
    "pts": 15.8,
    "proj": 10.91,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 8.8,
+   "proj": 11.12,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 918,
+   "score": 919,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
@@ -1176,16 +1192,16 @@
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 895,
-   "gs": 20,
-   "pts": 246.3,
-   "ppg": 12.32,
-   "war": 0.7
+   "score": 853,
+   "gs": 21,
+   "pts": 248.4,
+   "ppg": 11.83,
+   "war": 0.62
   },
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 846,
+   "score": 845,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
@@ -1194,16 +1210,16 @@
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 826,
-   "gs": 14,
-   "pts": 163.65,
-   "ppg": 11.69,
-   "war": 0.42
+   "score": 842,
+   "gs": 15,
+   "pts": 175.85,
+   "ppg": 11.72,
+   "war": 0.45
   },
   {
    "player": "4144",
    "name": "Jonnu Smith",
-   "score": 812,
+   "score": 815,
    "gs": 10,
    "pts": 133.2,
    "ppg": 13.32,
@@ -1223,7 +1239,7 @@
    "value": 226.9,
    "digits": 2,
    "rank": 135,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1231,8 +1247,8 @@
    "stat": "Games Started",
    "value": 17,
    "digits": 0,
-   "rank": 161,
-   "of": 419
+   "rank": 163,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1240,8 +1256,8 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 102,
-   "of": 419
+   "rank": 101,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1250,7 +1266,7 @@
    "value": 52.1,
    "digits": 1,
    "rank": 102,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1258,8 +1274,8 @@
    "stat": "PAA",
    "value": 43.6,
    "digits": 1,
-   "rank": 53,
-   "of": 419
+   "rank": 55,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1267,8 +1283,8 @@
    "stat": "Best Game",
    "value": 30.4,
    "digits": 2,
-   "rank": 100,
-   "of": 419
+   "rank": 102,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1276,17 +1292,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.35,
    "digits": 2,
-   "rank": 98,
-   "of": 252
+   "rank": 99,
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 270.0,
+   "value": 278.8,
    "digits": 2,
-   "rank": 20,
-   "of": 506
+   "rank": 18,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1312,7 +1328,7 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 8,
+   "rank": 7,
    "of": 52
   },
   {
@@ -1341,7 +1357,7 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 9,
+   "rank": 10,
    "of": 77,
    "franchise": 1
   },
@@ -1421,8 +1437,8 @@
    "stat": "Points, 2023",
    "value": 219.0,
    "digits": 2,
-   "rank": 92,
-   "of": 1007,
+   "rank": 93,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1431,8 +1447,8 @@
    "stat": "Points, 2025",
    "value": 4.6,
    "digits": 2,
-   "rank": 931,
-   "of": 1007,
+   "rank": 936,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1441,15 +1457,15 @@
    "stat": "Points, 2024",
    "value": 3.3,
    "digits": 2,
-   "rank": 944,
-   "of": 1007,
+   "rank": 949,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 17.45,
   "rank": 83,
-  "of": 419,
+  "of": 420,
   "war": 6.2,
   "starts": 4.25,
   "black_ink": 1.0,
@@ -1748,6 +1764,11 @@
    [
     "2026",
     8,
+    17.45
+   ],
+   [
+    "2026",
+    9,
     17.45
    ]
   ],

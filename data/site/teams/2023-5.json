@@ -1269,10 +1269,10 @@
    "original": 9,
    "player": "7547",
    "pos": "WR",
-   "starts_team": 52,
-   "pts_team": 991.53,
-   "starts_league": 52,
-   "pts_league": 991.53,
+   "starts_team": 53,
+   "pts_team": 1009.63,
+   "starts_league": 53,
+   "pts_league": 1009.63,
    "nfl_pts": 1071.13
   },
   {
@@ -1288,10 +1288,10 @@
    "original": 5,
    "player": "9221",
    "pos": "RB",
-   "starts_team": 51,
-   "pts_team": 1054.9,
-   "starts_league": 51,
-   "pts_league": 1054.9,
+   "starts_team": 52,
+   "pts_team": 1070.3,
+   "starts_league": 52,
+   "pts_league": 1070.3,
    "nfl_pts": 1123.5
   },
   {
@@ -1309,8 +1309,8 @@
    "pos": "WR",
    "starts_team": 9,
    "pts_team": 195.4,
-   "starts_league": 32,
-   "pts_league": 482.42,
+   "starts_league": 33,
+   "pts_league": 490.52,
    "nfl_pts": 676.32
   },
   {
@@ -1328,8 +1328,8 @@
    "pos": "QB",
    "starts_team": 29,
    "pts_team": 451.88,
-   "starts_league": 39,
-   "pts_league": 620.22,
+   "starts_league": 40,
+   "pts_league": 655.78,
    "nfl_pts": 827.16
   },
   {
@@ -1366,8 +1366,8 @@
    "pos": "WR",
    "starts_team": 15,
    "pts_team": 176.1,
-   "starts_league": 36,
-   "pts_league": 486.6,
+   "starts_league": 37,
+   "pts_league": 493.7,
    "nfl_pts": 758.9
   },
   {
@@ -1594,8 +1594,8 @@
    "pos": "K",
    "starts_team": 10,
    "pts_team": 94.0,
-   "starts_league": 29,
-   "pts_league": 204.7,
+   "starts_league": 30,
+   "pts_league": 209.2,
    "nfl_pts": 424.2
   },
   {
@@ -1692,37 +1692,37 @@
    "season": "2024",
    "franchise": 8,
    "team": "Breece is the Word",
-   "score": 692,
+   "score": 693,
    "w": 14,
    "l": 0,
    "ppg": 148.45,
    "result": "3rd"
   },
   {
+   "season": "2026",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "score": 617,
+   "w": 8,
+   "l": 1,
+   "ppg": 157.08,
+   "result": null
+  },
+  {
    "season": "2024",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 547,
+   "score": 546,
    "w": 9,
    "l": 5,
    "ppg": 131.74,
    "result": "5th"
   },
   {
-   "season": "2026",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
-   "score": 497,
-   "w": 5,
-   "l": 3,
-   "ppg": 142.02,
-   "result": null
-  },
-  {
    "season": "2025",
    "franchise": 7,
    "team": "the dart side 🛸",
-   "score": 492,
+   "score": 485,
    "w": 10,
    "l": 4,
    "ppg": 151.19,
@@ -1730,12 +1730,12 @@
   },
   {
    "season": "2026",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team 💍",
-   "score": 441,
-   "w": 7,
-   "l": 1,
-   "ppg": 158.68,
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 481,
+   "w": 6,
+   "l": 3,
+   "ppg": 143.7,
    "result": null
   }
  ],
@@ -1887,7 +1887,7 @@
     "sam"
    ],
    "until": null,
-   "g": 55,
+   "g": 56,
    "gs": 12,
    "pts": 158.8,
    "wins": 8,
@@ -2023,9 +2023,9 @@
     "sam"
    ],
    "until": null,
-   "g": 51,
-   "gs": 46,
-   "pts": 491.0,
+   "g": 52,
+   "gs": 47,
+   "pts": 500.5,
    "wins": 29,
    "best": 24.0
   },
@@ -2294,8 +2294,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 7,
-   "pts": 23.0,
+   "gs": 8,
+   "pts": 41.0,
    "next": 8,
    "next_team": "Breece is the Word"
   },
@@ -2308,8 +2308,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 12,
-   "pts": 93.0,
+   "gs": 13,
+   "pts": 107.0,
    "next": 8,
    "next_team": "Breece is the Word"
   },
@@ -2350,8 +2350,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 16,
-   "pts": 125.0,
+   "gs": 17,
+   "pts": 133.0,
    "next": 8,
    "next_team": "Breece is the Word"
   },
@@ -2518,8 +2518,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 25,
-   "pts": 266.9,
+   "gs": 26,
+   "pts": 276.7,
    "next": 2,
    "next_team": "Storm FC"
   },

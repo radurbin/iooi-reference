@@ -74,29 +74,29 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "CAR",
-   "g": 8,
-   "gs": 7,
-   "pts": 128.74,
+   "g": 9,
+   "gs": 8,
+   "pts": 149.18,
    "bench_pts": 0.0,
-   "ppg": 18.39,
+   "ppg": 18.65,
    "best": 31.64,
-   "wins": 6,
-   "paa": 8.95,
-   "vor": 35.29,
-   "war": 0.42
+   "wins": 7,
+   "paa": 13.0,
+   "vor": 42.38,
+   "war": 0.5
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 19,
-  "pts": 264.38,
+  "g": 60,
+  "gs": 20,
+  "pts": 284.82,
   "bench_pts": 376.66,
-  "ppg": 13.91,
+  "ppg": 14.24,
   "best": 31.64,
-  "wins": 14,
-  "paa": -52.76,
-  "vor": 16.25,
-  "war": 0.19
+  "wins": 15,
+  "paa": -48.71,
+  "vor": 23.34,
+  "war": 0.28
  },
  "nfl": [
   {
@@ -1177,13 +1177,32 @@
    "paa": -4.92,
    "vor": -1.49,
    "war": -0.017609986962333953
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": "QB",
+   "started": true,
+   "pts": 20.44,
+   "proj": 16.82,
+   "won": true,
+   "paa": 4.05,
+   "vor": 7.09,
+   "war": 0.08379517286103874
   }
  ],
  "similar": [
   {
    "player": "5870",
    "name": "Daniel Jones",
-   "score": 919,
+   "score": 950,
    "gs": 22,
    "pts": 314.82,
    "ppg": 14.31,
@@ -1192,7 +1211,7 @@
   {
    "player": "96",
    "name": "Aaron Rodgers",
-   "score": 895,
+   "score": 910,
    "gs": 24,
    "pts": 322.32,
    "ppg": 13.43,
@@ -1201,29 +1220,29 @@
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 893,
+   "score": 873,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
    "war": 0.0
   },
   {
+   "player": "1234",
+   "name": "Russell Wilson",
+   "score": 854,
+   "gs": 23,
+   "pts": 365.04,
+   "ppg": 15.87,
+   "war": 0.73
+  },
+  {
    "player": "9229",
    "name": "Anthony Richardson Sr.",
-   "score": 843,
+   "score": 847,
    "gs": 14,
    "pts": 221.66,
    "ppg": 15.83,
    "war": 0.48
-  },
-  {
-   "player": "6011",
-   "name": "Gardner Minshew II",
-   "score": 837,
-   "gs": 11,
-   "pts": 157.42,
-   "ppg": 14.31,
-   "war": 0.07
   }
  ],
  "status": {
@@ -1236,46 +1255,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 264.38,
+   "value": 284.82,
    "digits": 2,
-   "rank": 117,
-   "of": 419
+   "rank": 110,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 19,
+   "value": 20,
    "digits": 0,
-   "rank": 150,
-   "of": 419
+   "rank": 144,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.28,
    "digits": 2,
-   "rank": 162,
-   "of": 419
+   "rank": 148,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 16.2,
+   "value": 23.3,
    "digits": 1,
-   "rank": 162,
-   "of": 419
+   "rank": 148,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -52.8,
+   "value": -48.7,
    "digits": 1,
-   "rank": 369,
-   "of": 419
+   "rank": 366,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1283,17 +1302,17 @@
    "stat": "Best Game",
    "value": 31.64,
    "digits": 2,
-   "rank": 86,
-   "of": 419
+   "rank": 88,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 13.91,
+   "value": 14.24,
    "digits": 2,
-   "rank": 88,
-   "of": 252
+   "rank": 80,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1302,13 +1321,13 @@
    "value": 376.66,
    "digits": 2,
    "rank": 5,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 264.38,
+   "value": 284.82,
    "digits": 2,
    "rank": 28,
    "of": 66
@@ -1317,7 +1336,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 19,
+   "value": 20,
    "digits": 0,
    "rank": 28,
    "of": 66
@@ -1326,16 +1345,16 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.28,
    "digits": 2,
-   "rank": 34,
+   "rank": 31,
    "of": 66
   },
   {
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points",
-   "value": 264.38,
+   "value": 284.82,
    "digits": 2,
    "rank": 9,
    "of": 77,
@@ -1345,7 +1364,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Games Started",
-   "value": 19,
+   "value": 20,
    "digits": 0,
    "rank": 10,
    "of": 77,
@@ -1355,9 +1374,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 0.2,
+   "value": 0.28,
    "digits": 2,
-   "rank": 23,
+   "rank": 18,
    "of": 77,
    "franchise": 1
   },
@@ -1365,7 +1384,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points, QBs",
-   "value": 264.38,
+   "value": 284.82,
    "digits": 2,
    "rank": 3,
    "of": 6,
@@ -1435,30 +1454,30 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 128.74,
+   "value": 149.18,
    "digits": 2,
-   "rank": 34,
-   "of": 230,
+   "rank": 32,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 128.74,
+   "value": 149.18,
    "digits": 2,
    "rank": 11,
-   "of": 35,
+   "of": 36,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 128.74,
+   "value": 149.18,
    "digits": 2,
-   "rank": 272,
-   "of": 1007,
+   "rank": 232,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1467,8 +1486,8 @@
    "stat": "Points, 2025",
    "value": 71.9,
    "digits": 2,
-   "rank": 453,
-   "of": 1007,
+   "rank": 459,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1477,8 +1496,8 @@
    "stat": "Points, 2023",
    "value": 51.7,
    "digits": 2,
-   "rank": 544,
-   "of": 1007,
+   "rank": 551,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1487,17 +1506,17 @@
    "stat": "Points, 2024",
    "value": 12.04,
    "digits": 2,
-   "rank": 827,
-   "of": 1007,
+   "rank": 833,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 6.65,
-  "rank": 170,
-  "of": 419,
-  "war": 1.9,
-  "starts": 4.75,
+  "score": 7.8,
+  "rank": 154,
+  "of": 420,
+  "war": 2.8,
+  "starts": 5.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1795,6 +1814,11 @@
     "2026",
     8,
     6.65
+   ],
+   [
+    "2026",
+    9,
+    7.8
    ]
   ],
   "benchmark": 100

@@ -758,7 +758,7 @@
    "value": 46.8,
    "digits": 2,
    "rank": 273,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -767,7 +767,7 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -775,8 +775,8 @@
    "stat": "WAR",
    "value": 0.12,
    "digits": 2,
-   "rank": 178,
-   "of": 419
+   "rank": 179,
+   "of": 420
   },
   {
    "group": "Career",
@@ -784,8 +784,8 @@
    "stat": "VOR",
    "value": 10.0,
    "digits": 1,
-   "rank": 181,
-   "of": 419
+   "rank": 182,
+   "of": 420
   },
   {
    "group": "Career",
@@ -793,8 +793,8 @@
    "stat": "PAA",
    "value": -11.5,
    "digits": 1,
-   "rank": 234,
-   "of": 419
+   "rank": 229,
+   "of": 420
   },
   {
    "group": "Career",
@@ -802,8 +802,8 @@
    "stat": "Best Game",
    "value": 15.4,
    "digits": 2,
-   "rank": 277,
-   "of": 419
+   "rank": 278,
+   "of": 420
   },
   {
    "group": "Career",
@@ -811,8 +811,8 @@
    "stat": "Bench Points",
    "value": 268.7,
    "digits": 2,
-   "rank": 21,
-   "of": 506
+   "rank": 22,
+   "of": 511
   },
   {
    "group": "Career",
@@ -821,7 +821,7 @@
    "value": 46.8,
    "digits": 2,
    "rank": 64,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -830,7 +830,7 @@
    "value": 4,
    "digits": 0,
    "rank": 67,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -839,7 +839,7 @@
    "value": 0.12,
    "digits": 2,
    "rank": 53,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -847,7 +847,7 @@
    "stat": "Points",
    "value": 46.8,
    "digits": 2,
-   "rank": 32,
+   "rank": 33,
    "of": 77,
    "franchise": 1
   },
@@ -907,16 +907,16 @@
    "stat": "Points, 2024",
    "value": 46.8,
    "digits": 2,
-   "rank": 575,
-   "of": 1007,
+   "rank": 583,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
   "score": 2.2,
-  "rank": 253,
-  "of": 419,
+  "rank": 256,
+  "of": 420,
   "war": 1.2,
   "starts": 1.0,
   "black_ink": 0.0,
@@ -1130,6 +1130,11 @@
    [
     "2026",
     8,
+    2.2
+   ],
+   [
+    "2026",
+    9,
     2.2
    ]
   ],

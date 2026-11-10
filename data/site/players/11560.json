@@ -56,28 +56,28 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "CHI",
-   "g": 8,
-   "gs": 5,
-   "pts": 100.18,
+   "g": 9,
+   "gs": 6,
+   "pts": 113.44,
    "bench_pts": 0.0,
-   "ppg": 20.04,
+   "ppg": 18.91,
    "best": 38.26,
    "wins": 2,
-   "paa": 12.93,
-   "vor": 33.43,
-   "war": 0.4
+   "paa": 9.8,
+   "vor": 33.34,
+   "war": 0.39
   }
  ],
  "totals": {
-  "g": 42,
-  "gs": 35,
-  "pts": 597.76,
+  "g": 43,
+  "gs": 36,
+  "pts": 611.02,
   "bench_pts": 26.14,
-  "ppg": 17.08,
+  "ppg": 16.97,
   "best": 38.7,
   "wins": 16,
-  "paa": 3.26,
-  "vor": 175.81,
+  "paa": 0.13,
+  "vor": 175.72,
   "war": 2.08
  },
  "nfl": [
@@ -914,53 +914,72 @@
    "paa": -2.6,
    "vor": 0.83,
    "war": 0.009809590052843745
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-9-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": "QB",
+   "started": true,
+   "pts": 13.26,
+   "proj": 19.06,
+   "won": false,
+   "paa": -3.13,
+   "vor": -0.09,
+   "war": -0.0010636904876577555
   }
  ],
  "similar": [
   {
    "player": "11566",
    "name": "Jayden Daniels",
-   "score": 912,
-   "gs": 31,
-   "pts": 538.94,
-   "ppg": 17.39,
-   "war": 1.93
+   "score": 914,
+   "gs": 32,
+   "pts": 553.9,
+   "ppg": 17.31,
+   "war": 1.94
   },
   {
    "player": "7523",
    "name": "Trevor Lawrence",
-   "score": 889,
-   "gs": 37,
-   "pts": 673.88,
-   "ppg": 18.21,
+   "score": 890,
+   "gs": 38,
+   "pts": 687.56,
+   "ppg": 18.09,
    "war": 2.41
   },
   {
    "player": "9758",
    "name": "C.J. Stroud",
-   "score": 840,
-   "gs": 39,
-   "pts": 620.22,
-   "ppg": 15.9,
-   "war": 1.26
-  },
-  {
-   "player": "6770",
-   "name": "Joe Burrow",
-   "score": 794,
-   "gs": 36,
-   "pts": 702.36,
-   "ppg": 19.51,
-   "war": 2.81
+   "score": 881,
+   "gs": 40,
+   "pts": 655.78,
+   "ppg": 16.39,
+   "war": 1.52
   },
   {
    "player": "1166",
    "name": "Kirk Cousins",
-   "score": 771,
-   "gs": 30,
-   "pts": 474.22,
-   "ppg": 15.81,
+   "score": 773,
+   "gs": 31,
+   "pts": 487.06,
+   "ppg": 15.71,
    "war": 0.95
+  },
+  {
+   "player": "4892",
+   "name": "Baker Mayfield",
+   "score": 756,
+   "gs": 47,
+   "pts": 731.28,
+   "ppg": 15.56,
+   "war": 1.44
   }
  ],
  "status": {
@@ -973,19 +992,19 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 597.76,
+   "value": 611.02,
    "digits": 2,
-   "rank": 44,
-   "of": 419
+   "rank": 42,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 35,
+   "value": 36,
    "digits": 0,
-   "rank": 64,
-   "of": 419
+   "rank": 62,
+   "of": 420
   },
   {
    "group": "Career",
@@ -993,26 +1012,26 @@
    "stat": "WAR",
    "value": 2.08,
    "digits": 2,
-   "rank": 44,
-   "of": 419
+   "rank": 45,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 175.8,
+   "value": 175.7,
    "digits": 1,
-   "rank": 44,
-   "of": 419
+   "rank": 45,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 3.3,
+   "value": 0.1,
    "digits": 1,
-   "rank": 120,
-   "of": 419
+   "rank": 135,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1021,16 +1040,16 @@
    "value": 38.7,
    "digits": 2,
    "rank": 36,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 17.08,
+   "value": 16.97,
    "digits": 2,
-   "rank": 30,
-   "of": 252
+   "rank": 33,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1039,13 +1058,13 @@
    "value": 26.14,
    "digits": 2,
    "rank": 369,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 597.76,
+   "value": 611.02,
    "digits": 2,
    "rank": 15,
    "of": 66
@@ -1054,7 +1073,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 35,
+   "value": 36,
    "digits": 0,
    "rank": 15,
    "of": 66
@@ -1072,7 +1091,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points",
-   "value": 597.76,
+   "value": 611.02,
    "digits": 2,
    "rank": 1,
    "of": 73,
@@ -1082,7 +1101,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Games Started",
-   "value": 35,
+   "value": 36,
    "digits": 0,
    "rank": 2,
    "of": 73,
@@ -1092,7 +1111,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": 2.09,
+   "value": 2.08,
    "digits": 2,
    "rank": 3,
    "of": 73,
@@ -1102,7 +1121,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points, QBs",
-   "value": 597.76,
+   "value": 611.02,
    "digits": 2,
    "rank": 1,
    "of": 11,
@@ -1152,20 +1171,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 100.18,
+   "value": 113.44,
    "digits": 2,
-   "rank": 50,
-   "of": 230,
+   "rank": 49,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 100.18,
+   "value": 113.44,
    "digits": 2,
    "rank": 15,
-   "of": 35,
+   "of": 36,
    "season": "2026"
   },
   {
@@ -1175,7 +1194,7 @@
    "value": 280.1,
    "digits": 2,
    "rank": 36,
-   "of": 1007,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1184,27 +1203,27 @@
    "stat": "Points, 2024",
    "value": 217.48,
    "digits": 2,
-   "rank": 94,
-   "of": 1007,
+   "rank": 95,
+   "of": 1010,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 100.18,
+   "value": 113.44,
    "digits": 2,
-   "rank": 352,
-   "of": 1007,
+   "rank": 326,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 29.55,
-  "rank": 50,
-  "of": 419,
+  "score": 29.8,
+  "rank": 53,
+  "of": 420,
   "war": 20.8,
-  "starts": 8.75,
+  "starts": 9.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1417,6 +1436,11 @@
     "2026",
     8,
     29.55
+   ],
+   [
+    "2026",
+    9,
+    29.8
    ]
   ],
   "benchmark": 100
@@ -1427,7 +1451,7 @@
    "list": "Career Points",
    "scope": 10,
    "rank": 1,
-   "value": "597.76",
+   "value": "611.02",
    "href": "franchise.html?id=10#all-time-leaders",
    "player": "11560",
    "franchise": 10

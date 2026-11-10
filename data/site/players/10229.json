@@ -72,29 +72,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "KC",
-   "g": 8,
-   "gs": 5,
-   "pts": 56.3,
+   "g": 9,
+   "gs": 6,
+   "pts": 66.2,
    "bench_pts": 0.0,
-   "ppg": 11.26,
+   "ppg": 11.03,
    "best": 18.3,
    "wins": 3,
-   "paa": -14.08,
-   "vor": -6.25,
-   "war": -0.07
+   "paa": -17.82,
+   "vor": -8.86,
+   "war": -0.1
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 20,
-  "pts": 301.2,
+  "g": 60,
+  "gs": 21,
+  "pts": 311.1,
   "bench_pts": 164.9,
-  "ppg": 15.06,
+  "ppg": 14.81,
   "best": 29.4,
   "wins": 10,
-  "paa": 36.02,
-  "vor": 70.0,
-  "war": 0.83
+  "paa": 32.28,
+  "vor": 67.39,
+  "war": 0.8
  },
  "nfl": [
   {
@@ -1168,13 +1168,32 @@
    "paa": 5.16,
    "vor": 5.79,
    "war": 0.06843075470598227
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-3-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": "FLEX",
+   "started": true,
+   "pts": 9.9,
+   "proj": 15.63,
+   "won": false,
+   "paa": -3.74,
+   "vor": -2.61,
+   "war": -0.030847024142074908
   }
  ],
  "similar": [
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 883,
+   "score": 906,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
@@ -1183,7 +1202,7 @@
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 869,
+   "score": 900,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
@@ -1192,29 +1211,29 @@
   {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 844,
-   "gs": 21,
-   "pts": 276.8,
-   "ppg": 13.18,
-   "war": 0.48
-  },
-  {
-   "player": "4037",
-   "name": "Chris Godwin Jr.",
-   "score": 841,
-   "gs": 19,
-   "pts": 256.4,
-   "ppg": 13.49,
-   "war": 0.31
+   "score": 875,
+   "gs": 22,
+   "pts": 292.4,
+   "ppg": 13.29,
+   "war": 0.52
   },
   {
    "player": "5045",
    "name": "Courtland Sutton",
-   "score": 821,
+   "score": 852,
    "gs": 27,
    "pts": 383.4,
    "ppg": 14.2,
    "war": 0.93
+  },
+  {
+   "player": "4037",
+   "name": "Chris Godwin Jr.",
+   "score": 851,
+   "gs": 19,
+   "pts": 256.4,
+   "ppg": 13.49,
+   "war": 0.31
   }
  ],
  "status": {
@@ -1227,46 +1246,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 301.2,
+   "value": 311.1,
    "digits": 2,
-   "rank": 104,
-   "of": 419
+   "rank": 102,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 20,
+   "value": 21,
    "digits": 0,
-   "rank": 141,
-   "of": 419
+   "rank": 139,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.83,
+   "value": 0.8,
    "digits": 2,
    "rank": 90,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 70.0,
+   "value": 67.4,
    "digits": 1,
-   "rank": 90,
-   "of": 419
+   "rank": 91,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 36.0,
+   "value": 32.3,
    "digits": 1,
-   "rank": 58,
-   "of": 419
+   "rank": 61,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1274,17 +1293,17 @@
    "stat": "Best Game",
    "value": 29.4,
    "digits": 2,
-   "rank": 110,
-   "of": 419
+   "rank": 112,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 15.06,
+   "value": 14.81,
    "digits": 2,
-   "rank": 66,
-   "of": 252
+   "rank": 70,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1292,23 +1311,23 @@
    "stat": "Bench Points",
    "value": 164.9,
    "digits": 2,
-   "rank": 74,
-   "of": 506
+   "rank": 75,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 301.2,
+   "value": 311.1,
    "digits": 2,
-   "rank": 34,
+   "rank": 33,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 20,
+   "value": 21,
    "digits": 0,
    "rank": 41,
    "of": 126
@@ -1317,16 +1336,16 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.83,
+   "value": 0.8,
    "digits": 2,
-   "rank": 25,
+   "rank": 24,
    "of": 126
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points",
-   "value": 175.2,
+   "value": 185.1,
    "digits": 2,
    "rank": 14,
    "of": 67,
@@ -1336,18 +1355,8 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
-   "rank": 18,
-   "of": 67,
-   "franchise": 8
-  },
-  {
-   "group": "Franchise",
-   "scope": "BBL KIZZY",
-   "stat": "WAR",
-   "value": 0.34,
-   "digits": 2,
    "rank": 15,
    "of": 67,
    "franchise": 8
@@ -1355,8 +1364,18 @@
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
+   "stat": "WAR",
+   "value": 0.31,
+   "digits": 2,
+   "rank": 16,
+   "of": 67,
+   "franchise": 8
+  },
+  {
+   "group": "Franchise",
+   "scope": "BBL KIZZY",
    "stat": "Points, WRs",
-   "value": 175.2,
+   "value": 185.1,
    "digits": 2,
    "rank": 3,
    "of": 15,
@@ -1369,7 +1388,7 @@
    "value": 126.0,
    "digits": 2,
    "rank": 22,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1378,8 +1397,8 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 21,
-   "of": 75,
+   "rank": 22,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1388,8 +1407,8 @@
    "stat": "WAR",
    "value": 0.49,
    "digits": 2,
-   "rank": 13,
-   "of": 75,
+   "rank": 15,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1466,19 +1485,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 56.3,
+   "value": 66.2,
    "digits": 2,
-   "rank": 92,
-   "of": 230,
+   "rank": 85,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 56.3,
+   "value": 66.2,
    "digits": 2,
-   "rank": 27,
+   "rank": 25,
    "of": 62,
    "season": "2026"
   },
@@ -1488,9 +1507,19 @@
    "stat": "Points, 2025",
    "value": 126.0,
    "digits": 2,
-   "rank": 278,
-   "of": 1007,
+   "rank": 283,
+   "of": 1010,
    "season": "2025"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 66.2,
+   "digits": 2,
+   "rank": 477,
+   "of": 1010,
+   "season": "2026"
   },
   {
    "group": "Season",
@@ -1498,19 +1527,9 @@
    "stat": "Points, 2024",
    "value": 64.9,
    "digits": 2,
-   "rank": 476,
-   "of": 1007,
+   "rank": 485,
+   "of": 1010,
    "season": "2024"
-  },
-  {
-   "group": "Season",
-   "scope": "All single seasons",
-   "stat": "Points, 2026",
-   "value": 56.3,
-   "digits": 2,
-   "rank": 523,
-   "of": 1007,
-   "season": "2026"
   },
   {
    "group": "Season",
@@ -1518,17 +1537,17 @@
    "stat": "Points, 2023",
    "value": 54.0,
    "digits": 2,
-   "rank": 532,
-   "of": 1007,
+   "rank": 537,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 13.3,
+  "score": 13.25,
   "rank": 104,
-  "of": 419,
-  "war": 8.3,
-  "starts": 5.0,
+  "of": 420,
+  "war": 8.0,
+  "starts": 5.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1826,6 +1845,11 @@
     "2026",
     8,
     13.3
+   ],
+   [
+    "2026",
+    9,
+    13.25
    ]
   ],
   "benchmark": 100

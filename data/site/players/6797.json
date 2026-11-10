@@ -72,29 +72,29 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "LAC",
-   "g": 8,
-   "gs": 7,
-   "pts": 75.77,
+   "g": 9,
+   "gs": 8,
+   "pts": 86.29,
    "bench_pts": 0.0,
-   "ppg": 10.82,
+   "ppg": 10.79,
    "best": 13.76,
    "wins": 2,
-   "paa": -45.52,
-   "vor": -17.68,
-   "war": -0.21
+   "paa": -51.39,
+   "vor": -20.51,
+   "war": -0.24
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 50,
-  "pts": 816.72,
+  "g": 60,
+  "gs": 51,
+  "pts": 827.24,
   "bench_pts": 29.3,
-  "ppg": 16.33,
+  "ppg": 16.22,
   "best": 30.2,
   "wins": 18,
-  "paa": -25.15,
-  "vor": 172.75,
-  "war": 2.04
+  "paa": -31.02,
+  "vor": 169.92,
+  "war": 2.01
  },
  "nfl": [
   {
@@ -1265,53 +1265,72 @@
    "paa": -8.6,
    "vor": -5.17,
    "war": -0.06110310912433996
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": "QB",
+   "started": true,
+   "pts": 10.52,
+   "proj": 13.34,
+   "won": false,
+   "paa": -5.87,
+   "vor": -2.83,
+   "war": -0.03344715644523831
   }
  ],
  "similar": [
   {
    "player": "421",
    "name": "Matthew Stafford",
-   "score": 972,
-   "gs": 49,
-   "pts": 808.0,
-   "ppg": 16.49,
-   "war": 2.16
+   "score": 973,
+   "gs": 50,
+   "pts": 819.32,
+   "ppg": 16.39,
+   "war": 2.13
   },
   {
    "player": "6804",
    "name": "Jordan Love",
-   "score": 930,
-   "gs": 49,
-   "pts": 835.16,
-   "ppg": 17.04,
-   "war": 2.37
+   "score": 873,
+   "gs": 50,
+   "pts": 871.44,
+   "ppg": 17.43,
+   "war": 2.64
   },
   {
    "player": "4892",
    "name": "Baker Mayfield",
-   "score": 865,
-   "gs": 46,
-   "pts": 723.46,
-   "ppg": 15.73,
-   "war": 1.5
-  },
-  {
-   "player": "4046",
-   "name": "Patrick Mahomes",
-   "score": 747,
-   "gs": 50,
-   "pts": 926.58,
-   "ppg": 18.53,
-   "war": 3.32
+   "score": 861,
+   "gs": 47,
+   "pts": 731.28,
+   "ppg": 15.56,
+   "war": 1.44
   },
   {
    "player": "9758",
    "name": "C.J. Stroud",
-   "score": 728,
-   "gs": 39,
-   "pts": 620.22,
-   "ppg": 15.9,
-   "war": 1.26
+   "score": 761,
+   "gs": 40,
+   "pts": 655.78,
+   "ppg": 16.39,
+   "war": 1.52
+  },
+  {
+   "player": "3163",
+   "name": "Jared Goff",
+   "score": 741,
+   "gs": 48,
+   "pts": 892.1,
+   "ppg": 18.59,
+   "war": 3.34
   }
  ],
  "status": {
@@ -1324,46 +1343,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 816.72,
+   "value": 827.24,
    "digits": 2,
    "rank": 19,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 50,
+   "value": 51,
    "digits": 0,
-   "rank": 9,
-   "of": 419
+   "rank": 7,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.04,
+   "value": 2.01,
    "digits": 2,
-   "rank": 45,
-   "of": 419
+   "rank": 47,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 172.8,
+   "value": 169.9,
    "digits": 1,
-   "rank": 45,
-   "of": 419
+   "rank": 48,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -25.1,
+   "value": -31.0,
    "digits": 1,
-   "rank": 303,
-   "of": 419
+   "rank": 326,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1371,17 +1390,17 @@
    "stat": "Best Game",
    "value": 30.2,
    "digits": 2,
-   "rank": 103,
-   "of": 419
+   "rank": 105,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 16.33,
+   "value": 16.22,
    "digits": 2,
-   "rank": 43,
-   "of": 252
+   "rank": 46,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1389,14 +1408,14 @@
    "stat": "Bench Points",
    "value": 29.3,
    "digits": 2,
-   "rank": 362,
-   "of": 506
+   "rank": 363,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 816.72,
+   "value": 827.24,
    "digits": 2,
    "rank": 9,
    "of": 66
@@ -1405,7 +1424,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 50,
+   "value": 51,
    "digits": 0,
    "rank": 2,
    "of": 66
@@ -1414,7 +1433,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 2.04,
+   "value": 2.01,
    "digits": 2,
    "rank": 14,
    "of": 66
@@ -1423,7 +1442,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "Points",
-   "value": 816.72,
+   "value": 827.24,
    "digits": 2,
    "rank": 1,
    "of": 82,
@@ -1433,7 +1452,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "Games Started",
-   "value": 50,
+   "value": 51,
    "digits": 0,
    "rank": 1,
    "of": 82,
@@ -1443,7 +1462,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 2.03,
+   "value": 2.0,
    "digits": 2,
    "rank": 1,
    "of": 82,
@@ -1453,7 +1472,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "Points, QBs",
-   "value": 816.72,
+   "value": 827.24,
    "digits": 2,
    "rank": 1,
    "of": 11,
@@ -1523,20 +1542,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 75.77,
+   "value": 86.29,
    "digits": 2,
-   "rank": 65,
-   "of": 230,
+   "rank": 59,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 75.77,
+   "value": 86.29,
    "digits": 2,
-   "rank": 20,
-   "of": 35,
+   "rank": 17,
+   "of": 36,
    "season": "2026"
   },
   {
@@ -1546,7 +1565,7 @@
    "value": 257.36,
    "digits": 2,
    "rank": 53,
-   "of": 1007,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1556,7 +1575,7 @@
    "value": 249.43,
    "digits": 2,
    "rank": 60,
-   "of": 1007,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1566,26 +1585,26 @@
    "value": 234.16,
    "digits": 2,
    "rank": 71,
-   "of": 1007,
+   "of": 1010,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 75.77,
+   "value": 86.29,
    "digits": 2,
-   "rank": 424,
-   "of": 1007,
+   "rank": 391,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 32.9,
-  "rank": 43,
-  "of": 419,
-  "war": 20.4,
-  "starts": 12.5,
+  "score": 32.85,
+  "rank": 44,
+  "of": 420,
+  "war": 20.1,
+  "starts": 12.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1883,6 +1902,11 @@
     "2026",
     8,
     32.9
+   ],
+   [
+    "2026",
+    9,
+    32.85
    ]
   ],
   "benchmark": 100
@@ -1904,7 +1928,7 @@
    "list": "Career Points",
    "scope": 4,
    "rank": 1,
-   "value": "816.72",
+   "value": "827.24",
    "href": "franchise.html?id=4#all-time-leaders",
    "player": "6797",
    "franchise": 4
@@ -1913,7 +1937,7 @@
    "list": "Career Starts",
    "scope": 4,
    "rank": 1,
-   "value": "50",
+   "value": "51",
    "href": "franchise.html?id=4#all-time-leaders",
    "player": "6797",
    "franchise": 4
@@ -1922,7 +1946,7 @@
    "list": "Career WAR",
    "scope": 4,
    "rank": 1,
-   "value": "2.03",
+   "value": "2.00",
    "href": "franchise.html?id=4#all-time-leaders",
    "player": "6797",
    "franchise": 4

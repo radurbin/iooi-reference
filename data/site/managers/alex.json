@@ -65,14 +65,14 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "w": 5,
+   "w": 6,
    "l": 3,
    "t": 0,
-   "pf": 1109.72,
-   "pa": 1039.9,
+   "pf": 1293.32,
+   "pa": 1163.48,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.625,
+   "pct": 0.667,
    "transactions": 28,
    "trades": 7,
    "partial_season": false,
@@ -80,14 +80,14 @@
   }
  ],
  "totals": {
-  "w": 24,
+  "w": 25,
   "l": 26,
   "t": 0,
-  "pf": 6150.77,
-  "pa": 6221.5,
+  "pf": 6334.37,
+  "pa": 6345.08,
   "playoff_w": 1,
   "playoff_l": 1,
-  "pct": 0.48,
+  "pct": 0.49,
   "transactions": 167,
   "trades": 31
  },
@@ -127,13 +127,13 @@
     "name": "Jayden Daniels",
     "pos": "QB",
     "years": "2024-2026",
-    "g": 39,
-    "gs": 28,
-    "pts": 469.28,
+    "g": 40,
+    "gs": 29,
+    "pts": 484.24,
     "best": 34.42,
-    "wins": 13,
-    "vor": 129.85,
-    "war": 1.53
+    "wins": 14,
+    "vor": 131.46,
+    "war": 1.55
    },
    {
     "player": "8150",
@@ -188,6 +188,19 @@
     "war": 0.67
    },
    {
+    "player": "8167",
+    "name": "Christian Watson",
+    "pos": "WR",
+    "years": "2023-2026",
+    "g": 57,
+    "gs": 23,
+    "pts": 274.7,
+    "best": 32.7,
+    "wins": 11,
+    "vor": -2.29,
+    "war": -0.03
+   },
+   {
     "player": "1945",
     "name": "Chris Boswell",
     "pos": "K",
@@ -201,17 +214,17 @@
     "war": 0.66
    },
    {
-    "player": "8167",
-    "name": "Christian Watson",
-    "pos": "WR",
-    "years": "2023-2026",
-    "g": 56,
-    "gs": 22,
-    "pts": 244.6,
-    "best": 32.7,
-    "wins": 10,
-    "vor": -19.88,
-    "war": -0.23
+    "player": "8151",
+    "name": "Kenneth Walker III",
+    "pos": "RB",
+    "years": "2026",
+    "g": 9,
+    "gs": 8,
+    "pts": 212.3,
+    "best": 38.1,
+    "wins": 5,
+    "vor": 148.06,
+    "war": 1.75
    },
    {
     "player": "7591",
@@ -231,39 +244,26 @@
     "name": "Jake Ferguson",
     "pos": "TE",
     "years": "2025-2026",
-    "g": 25,
-    "gs": 17,
-    "pts": 195.4,
+    "g": 26,
+    "gs": 18,
+    "pts": 205.5,
     "best": 23.9,
-    "wins": 6,
-    "vor": 41.06,
-    "war": 0.49
+    "wins": 7,
+    "vor": 41.9,
+    "war": 0.5
    },
    {
     "player": "12507",
     "name": "Omarion Hampton",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 25,
+    "g": 26,
     "gs": 14,
     "pts": 177.9,
     "best": 27.5,
     "wins": 6,
     "vor": 60.44,
     "war": 0.71
-   },
-   {
-    "player": "8151",
-    "name": "Kenneth Walker III",
-    "pos": "RB",
-    "years": "2026",
-    "g": 8,
-    "gs": 7,
-    "pts": 174.2,
-    "best": 36.4,
-    "wins": 4,
-    "vor": 117.99,
-    "war": 1.39
    },
    {
     "player": "9224",
@@ -305,6 +305,32 @@
     "war": 0.26
    },
    {
+    "player": "1166",
+    "name": "Kirk Cousins",
+    "pos": "QB",
+    "years": "2026",
+    "g": 9,
+    "gs": 8,
+    "pts": 153.88,
+    "best": 28.68,
+    "wins": 6,
+    "vor": 47.08,
+    "war": 0.56
+   },
+   {
+    "player": "4983",
+    "name": "DJ Moore",
+    "pos": "WR",
+    "years": "2025-2026",
+    "g": 26,
+    "gs": 15,
+    "pts": 147.08,
+    "best": 22.98,
+    "wins": 7,
+    "vor": -21.47,
+    "war": -0.25
+   },
+   {
     "player": "8259",
     "name": "Cameron Dicker",
     "pos": "K",
@@ -329,32 +355,6 @@
     "wins": 5,
     "vor": 26.92,
     "war": 0.32
-   },
-   {
-    "player": "1166",
-    "name": "Kirk Cousins",
-    "pos": "QB",
-    "years": "2026",
-    "g": 8,
-    "gs": 7,
-    "pts": 141.04,
-    "best": 28.68,
-    "wins": 5,
-    "vor": 47.59,
-    "war": 0.56
-   },
-   {
-    "player": "4983",
-    "name": "DJ Moore",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 25,
-    "gs": 14,
-    "pts": 140.38,
-    "best": 22.98,
-    "wins": 6,
-    "vor": -15.66,
-    "war": -0.19
    },
    {
     "player": "12533",
@@ -387,13 +387,26 @@
     "name": "Tyler Allgeier",
     "pos": "RB",
     "years": "2024-2026",
-    "g": 39,
-    "gs": 8,
-    "pts": 91.65,
+    "g": 40,
+    "gs": 9,
+    "pts": 99.95,
     "best": 19.8,
-    "wins": 3,
-    "vor": 22.85,
+    "wins": 4,
+    "vor": 23.12,
     "war": 0.27
+   },
+   {
+    "player": "11584",
+    "name": "Bucky Irving",
+    "pos": "RB",
+    "years": "2026",
+    "g": 7,
+    "gs": 4,
+    "pts": 89.4,
+    "best": 30.5,
+    "wins": 4,
+    "vor": 57.28,
+    "war": 0.68
    },
    {
     "player": "9754",
@@ -407,19 +420,6 @@
     "wins": 5,
     "vor": -21.5,
     "war": -0.25
-   },
-   {
-    "player": "9753",
-    "name": "Zach Charbonnet",
-    "pos": "RB",
-    "years": "2023-2024",
-    "g": 34,
-    "gs": 6,
-    "pts": 86.1,
-    "best": 25.7,
-    "wins": 3,
-    "vor": 28.18,
-    "war": 0.33
    }
   ],
   "by_pos": {
@@ -442,13 +442,13 @@
      "name": "Jayden Daniels",
      "pos": "QB",
      "years": "2024-2026",
-     "g": 39,
-     "gs": 28,
-     "pts": 469.28,
+     "g": 40,
+     "gs": 29,
+     "pts": 484.24,
      "best": 34.42,
-     "wins": 13,
-     "vor": 129.85,
-     "war": 1.53
+     "wins": 14,
+     "vor": 131.46,
+     "war": 1.55
     },
     {
      "player": "7591",
@@ -492,17 +492,17 @@
      "war": 1.72
     },
     {
-     "player": "12507",
-     "name": "Omarion Hampton",
+     "player": "8151",
+     "name": "Kenneth Walker III",
      "pos": "RB",
-     "years": "2025-2026",
-     "g": 25,
-     "gs": 14,
-     "pts": 177.9,
-     "best": 27.5,
-     "wins": 6,
-     "vor": 60.44,
-     "war": 0.71
+     "years": "2026",
+     "g": 9,
+     "gs": 8,
+     "pts": 212.3,
+     "best": 38.1,
+     "wins": 5,
+     "vor": 148.06,
+     "war": 1.75
     }
    ],
    "WR": [
@@ -537,13 +537,13 @@
      "name": "Christian Watson",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 56,
-     "gs": 22,
-     "pts": 244.6,
+     "g": 57,
+     "gs": 23,
+     "pts": 274.7,
      "best": 32.7,
-     "wins": 10,
-     "vor": -19.88,
-     "war": -0.23
+     "wins": 11,
+     "vor": -2.29,
+     "war": -0.03
     }
    ],
    "TE": [
@@ -565,13 +565,13 @@
      "name": "Jake Ferguson",
      "pos": "TE",
      "years": "2025-2026",
-     "g": 25,
-     "gs": 17,
-     "pts": 195.4,
+     "g": 26,
+     "gs": 18,
+     "pts": 205.5,
      "best": 23.9,
-     "wins": 6,
-     "vor": 41.06,
-     "war": 0.49
+     "wins": 7,
+     "vor": 41.9,
+     "war": 0.5
     },
     {
      "player": "5001",
@@ -762,13 +762,13 @@
    "name": "Christian Watson",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 56,
-   "gs": 22,
-   "pts": 244.6,
+   "g": 57,
+   "gs": 23,
+   "pts": 274.7,
    "best": 32.7,
-   "wins": 10,
-   "vor": -19.88,
-   "war": -0.23
+   "wins": 11,
+   "vor": -2.29,
+   "war": -0.03
   },
   {
    "slot": "SUPER_FLEX",
@@ -776,13 +776,13 @@
    "name": "Jayden Daniels",
    "pos": "QB",
    "years": "2024-2026",
-   "g": 39,
-   "gs": 28,
-   "pts": 469.28,
+   "g": 40,
+   "gs": 29,
+   "pts": 484.24,
    "best": 34.42,
-   "wins": 13,
-   "vor": 129.85,
-   "war": 1.53
+   "wins": 14,
+   "vor": 131.46,
+   "war": 1.55
   },
   {
    "slot": "K",
@@ -833,6 +833,17 @@
    "game": "2023-12-2-11",
    "season": "2023",
    "week": 12,
+   "franchise": 2,
+   "team": "Storm FC"
+  },
+  {
+   "player": "8151",
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "pts": 38.1,
+   "game": "2026-09-2-11",
+   "season": "2026",
+   "week": 9,
    "franchise": 2,
    "team": "Storm FC"
   },
@@ -980,6 +991,17 @@
    "team": "Storm FC"
   },
   {
+   "player": "11584",
+   "name": "Bucky Irving",
+   "pos": "RB",
+   "pts": 30.5,
+   "game": "2026-09-2-11",
+   "season": "2026",
+   "week": 9,
+   "franchise": 2,
+   "team": "Storm FC"
+  },
+  {
    "player": "11566",
    "name": "Jayden Daniels",
    "pos": "QB",
@@ -987,6 +1009,17 @@
    "game": "2024-12-2-9",
    "season": "2024",
    "week": 12,
+   "franchise": 2,
+   "team": "Storm FC"
+  },
+  {
+   "player": "8167",
+   "name": "Christian Watson",
+   "pos": "WR",
+   "pts": 30.1,
+   "game": "2026-09-2-11",
+   "season": "2026",
+   "week": 9,
    "franchise": 2,
    "team": "Storm FC"
   },
@@ -1055,39 +1088,6 @@
    "week": 13,
    "franchise": 2,
    "team": "Storm FC"
-  },
-  {
-   "player": "4046",
-   "name": "Patrick Mahomes",
-   "pos": "QB",
-   "pts": 28.76,
-   "game": "2024-12-2-9",
-   "season": "2024",
-   "week": 12,
-   "franchise": 2,
-   "team": "Storm FC"
-  },
-  {
-   "player": "1166",
-   "name": "Kirk Cousins",
-   "pos": "QB",
-   "pts": 28.68,
-   "game": "2026-08-2-5",
-   "season": "2026",
-   "week": 8,
-   "franchise": 2,
-   "team": "Storm FC"
-  },
-  {
-   "player": "10859",
-   "name": "Sam LaPorta",
-   "pos": "TE",
-   "pts": 28.6,
-   "game": "2023-15-2-4",
-   "season": "2023",
-   "week": 15,
-   "franchise": 2,
-   "team": "Storm FC"
   }
  ],
  "records_held": [
@@ -1123,11 +1123,11 @@
    "list": "Highest Score",
    "scope": 2,
    "rank": 1,
-   "value": "171.18",
+   "value": "183.60",
    "href": "franchise.html?id=2#franchise-records",
-   "season": "2025",
-   "week": 4,
-   "game": "2025-04-2-8",
+   "season": "2026",
+   "week": 9,
+   "game": "2026-09-2-11",
    "franchise": 2,
    "team": "Storm FC",
    "managers": [
@@ -1250,10 +1250,10 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "games": 37,
+   "games": 39,
    "players": 12,
-   "lost": 33.26,
-   "rank": 4,
+   "lost": 38.38,
+   "rank": 5,
    "of": 12
   }
  ],
@@ -1661,24 +1661,23 @@
    ]
   },
   {
-   "player": "10444",
-   "name": "Cedric Tillman",
-   "pos": "WR",
-   "missed": 5,
+   "player": "12487",
+   "name": "Terrance Ferguson",
+   "pos": "TE",
+   "missed": 6,
    "lost": 0.0,
    "injuries": [
-    "Concussion"
+    "Ankle"
    ],
    "kinds": [
-    "Out",
-    "Questionable"
+    "IR"
    ],
    "seasons": [
-    "2024"
+    "2026"
    ],
    "teams": [
     {
-     "season": "2024",
+     "season": "2026",
      "franchise": 2,
      "team": "Storm FC"
     }

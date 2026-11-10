@@ -72,7 +72,7 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "SEA",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 42.6,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 14,
   "pts": 146.6,
   "bench_pts": 272.8,
@@ -1126,22 +1126,38 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-2-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "10213",
    "name": "Tre Tucker",
-   "score": 977,
-   "gs": 15,
-   "pts": 155.9,
-   "ppg": 10.39,
-   "war": -0.14
+   "score": 955,
+   "gs": 16,
+   "pts": 166.9,
+   "ppg": 10.43,
+   "war": -0.16
   },
   {
    "player": "6943",
    "name": "Gabe Davis",
-   "score": 948,
+   "score": 950,
    "gs": 12,
    "pts": 129.1,
    "ppg": 10.76,
@@ -1150,25 +1166,25 @@
   {
    "player": "11624",
    "name": "Xavier Worthy",
-   "score": 896,
-   "gs": 16,
-   "pts": 150.0,
-   "ppg": 9.38,
-   "war": -0.43
+   "score": 889,
+   "gs": 17,
+   "pts": 160.8,
+   "ppg": 9.46,
+   "war": -0.45
   },
   {
    "player": "9487",
    "name": "Parker Washington",
-   "score": 859,
-   "gs": 9,
-   "pts": 104.8,
-   "ppg": 11.64,
-   "war": -0.05
+   "score": 866,
+   "gs": 10,
+   "pts": 118.9,
+   "ppg": 11.89,
+   "war": -0.03
   },
   {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 856,
+   "score": 859,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -1187,8 +1203,8 @@
    "stat": "Points",
    "value": 146.6,
    "digits": 2,
-   "rank": 183,
-   "of": 419
+   "rank": 186,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1196,8 +1212,8 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 180,
-   "of": 419
+   "rank": 182,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1205,8 +1221,8 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 330,
-   "of": 419
+   "rank": 327,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1214,8 +1230,8 @@
    "stat": "VOR",
    "value": -12.6,
    "digits": 1,
-   "rank": 333,
-   "of": 419
+   "rank": 330,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1223,8 +1239,8 @@
    "stat": "PAA",
    "value": -36.0,
    "digits": 1,
-   "rank": 343,
-   "of": 419
+   "rank": 341,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1233,7 +1249,7 @@
    "value": 21.4,
    "digits": 2,
    "rank": 206,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1241,8 +1257,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.47,
    "digits": 2,
-   "rank": 156,
-   "of": 252
+   "rank": 158,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1250,8 +1266,8 @@
    "stat": "Bench Points",
    "value": 272.8,
    "digits": 2,
-   "rank": 18,
-   "of": 506
+   "rank": 19,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1277,7 +1293,7 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 92,
+   "rank": 88,
    "of": 126
   },
   {
@@ -1286,7 +1302,7 @@
    "stat": "Points",
    "value": 146.6,
    "digits": 2,
-   "rank": 14,
+   "rank": 15,
    "of": 44,
    "franchise": 11
   },
@@ -1296,7 +1312,7 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 16,
+   "rank": 17,
    "of": 44,
    "franchise": 11
   },
@@ -1316,7 +1332,7 @@
    "stat": "Points, WRs",
    "value": 146.6,
    "digits": 2,
-   "rank": 6,
+   "rank": 7,
    "of": 13,
    "franchise": 11
   },
@@ -1386,8 +1402,8 @@
    "stat": "Points, 2025",
    "value": 73.3,
    "digits": 2,
-   "rank": 439,
-   "of": 1007,
+   "rank": 446,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1396,8 +1412,8 @@
    "stat": "Points, 2024",
    "value": 42.6,
    "digits": 2,
-   "rank": 597,
-   "of": 1007,
+   "rank": 604,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1406,15 +1422,15 @@
    "stat": "Points, 2023",
    "value": 30.7,
    "digits": 2,
-   "rank": 668,
-   "of": 1007,
+   "rank": 677,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 3.5,
-  "rank": 215,
-  "of": 419,
+  "rank": 218,
+  "of": 420,
   "war": 0.0,
   "starts": 3.5,
   "black_ink": 0.0,
@@ -1714,6 +1730,11 @@
     "2026",
     8,
     3.5
+   ],
+   [
+    "2026",
+    9,
+    3.5
    ]
   ],
   "benchmark": 100
@@ -1868,7 +1889,7 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 8,
@@ -1881,8 +1902,8 @@
       "week": 9,
       "kind": "Out",
       "injury": "Knee",
-      "franchise": null,
-      "team": null
+      "franchise": 11,
+      "team": "BubbaNASTIES"
      }
     ]
    }
@@ -1963,7 +1984,7 @@
       "team": "BubbaNASTIES"
      }
     ],
-    "rostered": 1,
+    "rostered": 2,
     "lost": 0.0
    }
   ],

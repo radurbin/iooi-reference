@@ -76,29 +76,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "SF",
-   "g": 8,
-   "gs": 6,
-   "pts": 101.3,
+   "g": 9,
+   "gs": 7,
+   "pts": 111.1,
    "bench_pts": 4.7,
-   "ppg": 16.88,
+   "ppg": 15.87,
    "best": 26.2,
    "wins": 3,
-   "paa": 30.03,
-   "vor": 45.74,
-   "war": 0.54
+   "paa": 28.24,
+   "vor": 46.28,
+   "war": 0.55
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 43,
-  "pts": 652.7,
+  "g": 60,
+  "gs": 44,
+  "pts": 662.5,
   "bench_pts": 4.7,
-  "ppg": 15.18,
+  "ppg": 15.06,
   "best": 27.7,
   "wins": 31,
-  "paa": 175.47,
-  "vor": 229.56,
-  "war": 2.71
+  "paa": 173.68,
+  "vor": 230.1,
+  "war": 2.72
  },
  "nfl": [
   {
@@ -1220,53 +1220,72 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-3-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": "TE",
+   "started": true,
+   "pts": 9.8,
+   "proj": 15.66,
+   "won": false,
+   "paa": -1.79,
+   "vor": 0.54,
+   "war": 0.006382142925946533
   }
  ],
  "similar": [
   {
    "player": "11604",
    "name": "Brock Bowers",
-   "score": 685,
-   "gs": 31,
-   "pts": 502.5,
-   "ppg": 16.21,
-   "war": 2.45
+   "score": 696,
+   "gs": 32,
+   "pts": 524.9,
+   "ppg": 16.4,
+   "war": 2.6
   },
   {
    "player": "8130",
    "name": "Trey McBride",
-   "score": 666,
-   "gs": 42,
-   "pts": 727.4,
-   "ppg": 17.32,
-   "war": 3.86
+   "score": 661,
+   "gs": 43,
+   "pts": 739.8,
+   "ppg": 17.2,
+   "war": 3.9
   },
   {
    "player": "1466",
    "name": "Travis Kelce",
-   "score": 606,
-   "gs": 53,
-   "pts": 651.85,
-   "ppg": 12.3,
-   "war": 1.6
+   "score": 631,
+   "gs": 54,
+   "pts": 669.25,
+   "ppg": 12.39,
+   "war": 1.7
   },
   {
    "player": "10859",
    "name": "Sam LaPorta",
-   "score": 535,
-   "gs": 42,
-   "pts": 514.3,
-   "ppg": 12.25,
-   "war": 1.18
+   "score": 529,
+   "gs": 43,
+   "pts": 521.5,
+   "ppg": 12.13,
+   "war": 1.15
   },
   {
-   "player": "4033",
-   "name": "David Njoku",
-   "score": 173,
-   "gs": 20,
-   "pts": 261.4,
-   "ppg": 13.07,
-   "war": 0.76
+   "player": "8110",
+   "name": "Jake Ferguson",
+   "score": 183,
+   "gs": 34,
+   "pts": 350.0,
+   "ppg": 10.29,
+   "war": 0.27
   }
  ],
  "status": {
@@ -1279,46 +1298,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 652.7,
+   "value": 662.5,
    "digits": 2,
    "rank": 37,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 43,
+   "value": 44,
    "digits": 0,
-   "rank": 34,
-   "of": 419
+   "rank": 33,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.71,
+   "value": 2.72,
    "digits": 2,
    "rank": 30,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 229.6,
+   "value": 230.1,
    "digits": 1,
    "rank": 30,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 175.5,
+   "value": 173.7,
    "digits": 1,
-   "rank": 11,
-   "of": 419
+   "rank": 12,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1326,17 +1345,17 @@
    "stat": "Best Game",
    "value": 27.7,
    "digits": 2,
-   "rank": 125,
-   "of": 419
+   "rank": 126,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 15.18,
+   "value": 15.06,
    "digits": 2,
-   "rank": 62,
-   "of": 252
+   "rank": 65,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1344,23 +1363,23 @@
    "stat": "Bench Points",
    "value": 4.7,
    "digits": 2,
-   "rank": 469,
-   "of": 506
+   "rank": 473,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Points",
-   "value": 652.7,
+   "value": 662.5,
    "digits": 2,
-   "rank": 2,
+   "rank": 3,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 43,
+   "value": 44,
    "digits": 0,
    "rank": 3,
    "of": 52
@@ -1369,7 +1388,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 2.71,
+   "value": 2.72,
    "digits": 2,
    "rank": 2,
    "of": 52
@@ -1378,7 +1397,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points",
-   "value": 652.7,
+   "value": 662.5,
    "digits": 2,
    "rank": 3,
    "of": 67,
@@ -1388,7 +1407,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Games Started",
-   "value": 43,
+   "value": 44,
    "digits": 0,
    "rank": 2,
    "of": 67,
@@ -1398,7 +1417,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 2.71,
+   "value": 2.72,
    "digits": 2,
    "rank": 5,
    "of": 67,
@@ -1408,7 +1427,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points, TEs",
-   "value": 652.7,
+   "value": 662.5,
    "digits": 2,
    "rank": 1,
    "of": 5,
@@ -1478,20 +1497,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 101.3,
+   "value": 111.1,
    "digits": 2,
-   "rank": 49,
-   "of": 230,
+   "rank": 51,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 TEs",
    "stat": "Points",
-   "value": 101.3,
+   "value": 111.1,
    "digits": 2,
    "rank": 3,
-   "of": 27,
+   "of": 28,
    "season": "2026"
   },
   {
@@ -1500,8 +1519,8 @@
    "stat": "Points, 2024",
    "value": 221.8,
    "digits": 2,
-   "rank": 89,
-   "of": 1007,
+   "rank": 91,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1510,8 +1529,8 @@
    "stat": "Points, 2023",
    "value": 197.3,
    "digits": 2,
-   "rank": 124,
-   "of": 1007,
+   "rank": 127,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1520,27 +1539,27 @@
    "stat": "Points, 2025",
    "value": 132.3,
    "digits": 2,
-   "rank": 261,
-   "of": 1007,
+   "rank": 269,
+   "of": 1010,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 101.3,
+   "value": 111.1,
    "digits": 2,
-   "rank": 346,
-   "of": 1007,
+   "rank": 331,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 43.85,
-  "rank": 25,
-  "of": 419,
-  "war": 27.1,
-  "starts": 10.75,
+  "score": 44.2,
+  "rank": 26,
+  "of": 420,
+  "war": 27.2,
+  "starts": 11.0,
   "black_ink": 0.0,
   "awards": 6.0,
   "history": [
@@ -1838,6 +1857,11 @@
     "2026",
     8,
     43.85
+   ],
+   [
+    "2026",
+    9,
+    44.2
    ]
   ],
   "benchmark": 100

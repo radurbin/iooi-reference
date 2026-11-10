@@ -74,10 +74,10 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "JAX",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 65.95,
+   "bench_pts": 76.45,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -87,10 +87,10 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 13,
   "pts": 164.3,
-  "bench_pts": 456.48,
+  "bench_pts": 466.98,
   "ppg": 12.64,
   "best": 20.5,
   "wins": 7,
@@ -1148,13 +1148,29 @@
    "pts": 4.4,
    "proj": 9.06,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 10.5,
+   "proj": 9.32,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 941,
+   "score": 942,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
@@ -1163,34 +1179,34 @@
   {
    "player": "8142",
    "name": "Alec Pierce",
-   "score": 923,
+   "score": 926,
    "gs": 10,
    "pts": 124.6,
    "ppg": 12.46,
    "war": 0.22
   },
   {
+   "player": "9487",
+   "name": "Parker Washington",
+   "score": 902,
+   "gs": 10,
+   "pts": 118.9,
+   "ppg": 11.89,
+   "war": -0.03
+  },
+  {
    "player": "7049",
    "name": "Jauan Jennings",
-   "score": 893,
+   "score": 894,
    "gs": 12,
    "pts": 167.3,
    "ppg": 13.94,
    "war": 0.37
   },
   {
-   "player": "8148",
-   "name": "Jameson Williams",
-   "score": 892,
-   "gs": 17,
-   "pts": 219.0,
-   "ppg": 12.88,
-   "war": 0.34
-  },
-  {
    "player": "10222",
    "name": "Jayden Reed",
-   "score": 879,
+   "score": 883,
    "gs": 18,
    "pts": 222.6,
    "ppg": 12.37,
@@ -1209,8 +1225,8 @@
    "stat": "Points",
    "value": 164.3,
    "digits": 2,
-   "rank": 169,
-   "of": 419
+   "rank": 172,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1218,8 +1234,8 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 190,
-   "of": 419
+   "rank": 191,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1227,8 +1243,8 @@
    "stat": "WAR",
    "value": 0.14,
    "digits": 2,
-   "rank": 173,
-   "of": 419
+   "rank": 175,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1236,8 +1252,8 @@
    "stat": "VOR",
    "value": 12.2,
    "digits": 1,
-   "rank": 173,
-   "of": 419
+   "rank": 175,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1245,8 +1261,8 @@
    "stat": "PAA",
    "value": -15.5,
    "digits": 1,
-   "rank": 265,
-   "of": 419
+   "rank": 264,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1255,7 +1271,7 @@
    "value": 20.5,
    "digits": 2,
    "rank": 220,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1263,17 +1279,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 12.64,
    "digits": 2,
-   "rank": 111,
-   "of": 252
+   "rank": 112,
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 456.48,
+   "value": 466.98,
    "digits": 2,
    "rank": 1,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
@@ -1281,7 +1297,7 @@
    "stat": "Points",
    "value": 164.3,
    "digits": 2,
-   "rank": 51,
+   "rank": 52,
    "of": 126
   },
   {
@@ -1299,7 +1315,7 @@
    "stat": "WAR",
    "value": 0.14,
    "digits": 2,
-   "rank": 42,
+   "rank": 43,
    "of": 126
   },
   {
@@ -1408,8 +1424,8 @@
    "stat": "Points, 2024",
    "value": 76.4,
    "digits": 2,
-   "rank": 420,
-   "of": 1007,
+   "rank": 432,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1418,8 +1434,8 @@
    "stat": "Points, 2023",
    "value": 59.3,
    "digits": 2,
-   "rank": 498,
-   "of": 1007,
+   "rank": 506,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1428,15 +1444,15 @@
    "stat": "Points, 2025",
    "value": 28.6,
    "digits": 2,
-   "rank": 679,
-   "of": 1007,
+   "rank": 688,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 8.65,
-  "rank": 143,
-  "of": 419,
+  "rank": 144,
+  "of": 420,
   "war": 1.4,
   "starts": 3.25,
   "black_ink": 0.0,
@@ -1735,6 +1751,11 @@
    [
     "2026",
     8,
+    8.65
+   ],
+   [
+    "2026",
+    9,
     8.65
    ]
   ],

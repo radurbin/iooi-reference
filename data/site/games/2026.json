@@ -16525,5 +16525,2072 @@
     ]
    }
   ]
+ },
+ "2026-09-1-12": {
+  "id": "2026-09-1-12",
+  "season": "2026",
+  "week": 9,
+  "date": "2026-11-05",
+  "kind": "regular",
+  "label": "Regular Season",
+  "winner": 1,
+  "teams": [
+   {
+    "franchise": 1,
+    "team": "Mojo Dojo Casa Team 💍",
+    "managers": [
+     "riley",
+     "emily"
+    ],
+    "points": 144.3,
+    "proj": 154.31,
+    "max_points": 153.0,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "9228",
+      "pts": 20.44,
+      "proj": 16.82
+     },
+     {
+      "slot": "RB",
+      "player": "8150",
+      "pts": 10.6,
+      "proj": 20.43
+     },
+     {
+      "slot": "RB",
+      "player": "8138",
+      "pts": 19.8,
+      "proj": 16.79
+     },
+     {
+      "slot": "WR",
+      "player": "6786",
+      "pts": 33.5,
+      "proj": 21.46
+     },
+     {
+      "slot": "WR",
+      "player": "12514",
+      "pts": 7.0,
+      "proj": 10.46
+     },
+     {
+      "slot": "TE",
+      "player": "8130",
+      "pts": 12.4,
+      "proj": 15.4
+     },
+     {
+      "slot": "FLEX",
+      "player": "4866",
+      "pts": 9.5,
+      "proj": 14.15
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "4984",
+      "pts": 13.46,
+      "proj": 22.16
+     },
+     {
+      "slot": "K",
+      "player": "11792",
+      "pts": 9.6,
+      "proj": 9.13
+     },
+     {
+      "slot": "DEF",
+      "player": "NO",
+      "pts": 8.0,
+      "proj": 7.51
+     }
+    ],
+    "bench": [
+     {
+      "player": "13296",
+      "pts": 13.0,
+      "proj": 8.91
+     },
+     {
+      "player": "10219",
+      "pts": 12.2,
+      "proj": 6.64
+     },
+     {
+      "player": "5947",
+      "pts": 10.5,
+      "proj": 9.32
+     },
+     {
+      "player": "5844",
+      "pts": 8.8,
+      "proj": 11.12
+     },
+     {
+      "player": "11583",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12489",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12536",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13420",
+      "pts": 0.0,
+      "proj": 0.81
+     },
+     {
+      "player": "2133",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "3257",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "3321",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "5846",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "7021",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8146",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "96",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "2133",
+      "name": "Davante Adams",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "12489",
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Knee"
+     },
+     {
+      "player": "8146",
+      "name": "Garrett Wilson",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Concussion"
+     },
+     {
+      "player": "11583",
+      "name": "Jonathon Brooks",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Abdomen"
+     },
+     {
+      "player": "12536",
+      "name": "Jaylin Noel",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Toe"
+     }
+    ]
+   },
+   {
+    "franchise": 12,
+    "team": "Team Win One Game",
+    "managers": [
+     "charlie"
+    ],
+    "points": 74.46,
+    "proj": 112.32,
+    "max_points": 74.46,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "4892",
+      "pts": 7.82,
+      "proj": 15.35
+     },
+     {
+      "slot": "RB",
+      "player": "8136",
+      "pts": 9.1,
+      "proj": 12.27
+     },
+     {
+      "slot": "RB",
+      "player": "13337",
+      "pts": 10.0,
+      "proj": 6.86
+     },
+     {
+      "slot": "WR",
+      "player": "2449",
+      "pts": 8.1,
+      "proj": 12.86
+     },
+     {
+      "slot": "WR",
+      "player": "13301",
+      "pts": 5.5,
+      "proj": 9.82
+     },
+     {
+      "slot": "TE",
+      "player": "10859",
+      "pts": 7.2,
+      "proj": 13.46
+     },
+     {
+      "slot": "FLEX",
+      "player": "6130",
+      "pts": 8.0,
+      "proj": 15.9
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "6011",
+      "pts": 7.14,
+      "proj": 10.72
+     },
+     {
+      "slot": "K",
+      "player": "11539",
+      "pts": 15.6,
+      "proj": 8.24
+     },
+     {
+      "slot": "DEF",
+      "player": "NE",
+      "pts": -4.0,
+      "proj": 6.84
+     }
+    ],
+    "bench": [
+     {
+      "player": "2020",
+      "pts": 9.8,
+      "proj": 7.97
+     },
+     {
+      "player": "7553",
+      "pts": 5.3,
+      "proj": 9.85
+     },
+     {
+      "player": "5012",
+      "pts": 4.1,
+      "proj": 7.37
+     },
+     {
+      "player": "10222",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "11630",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "11631",
+      "pts": 0.0,
+      "proj": 3.73
+     },
+     {
+      "player": "12481",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13278",
+      "pts": 0.0,
+      "proj": 0.1
+     },
+     {
+      "player": "13279",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13477",
+      "pts": 0.0,
+      "proj": 1.34
+     },
+     {
+      "player": "4017",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "5849",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8122",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "12481",
+      "name": "Cam Skattebo",
+      "pos": "RB",
+      "kind": "Doubtful",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "4017",
+      "name": "Deshaun Watson",
+      "pos": "QB",
+      "kind": "Questionable",
+      "injury": "Concussion"
+     },
+     {
+      "player": "10222",
+      "name": "Jayden Reed",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Neck"
+     },
+     {
+      "player": "5849",
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "8122",
+      "name": "Zonovan Knight",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Concussion"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-09-2-11": {
+  "id": "2026-09-2-11",
+  "season": "2026",
+  "week": 9,
+  "date": "2026-11-05",
+  "kind": "regular",
+  "label": "Regular Season",
+  "winner": 2,
+  "teams": [
+   {
+    "franchise": 2,
+    "team": "Storm FC",
+    "managers": [
+     "alex"
+    ],
+    "points": 183.6,
+    "proj": 147.28,
+    "max_points": 204.06,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "11566",
+      "pts": 14.96,
+      "proj": 18.62
+     },
+     {
+      "slot": "RB",
+      "player": "8151",
+      "pts": 38.1,
+      "proj": 23.56
+     },
+     {
+      "slot": "RB",
+      "player": "8132",
+      "pts": 8.3,
+      "proj": 15.17
+     },
+     {
+      "slot": "WR",
+      "player": "8167",
+      "pts": 30.1,
+      "proj": 15.93
+     },
+     {
+      "slot": "WR",
+      "player": "4983",
+      "pts": 6.7,
+      "proj": 12.8
+     },
+     {
+      "slot": "TE",
+      "player": "8110",
+      "pts": 10.1,
+      "proj": 8.3
+     },
+     {
+      "slot": "FLEX",
+      "player": "11584",
+      "pts": 30.5,
+      "proj": 19.27
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "1166",
+      "pts": 12.84,
+      "proj": 17.09
+     },
+     {
+      "slot": "K",
+      "player": "7839",
+      "pts": 14.0,
+      "proj": 9.2
+     },
+     {
+      "slot": "DEF",
+      "player": "NYG",
+      "pts": 18.0,
+      "proj": 7.34
+     }
+    ],
+    "bench": [
+     {
+      "player": "13298",
+      "pts": 18.9,
+      "proj": 10.59
+     },
+     {
+      "player": "12492",
+      "pts": 15.6,
+      "proj": 7.32
+     },
+     {
+      "player": "13276",
+      "pts": 13.8,
+      "proj": 13.42
+     },
+     {
+      "player": "12507",
+      "pts": 7.3,
+      "proj": 10.36
+     },
+     {
+      "player": "13281",
+      "pts": 5.0,
+      "proj": 4.82
+     },
+     {
+      "player": "11610",
+      "pts": 4.2,
+      "proj": 11.11
+     },
+     {
+      "player": "12493",
+      "pts": 3.7,
+      "proj": 4.64
+     },
+     {
+      "player": "11625",
+      "pts": 0.0,
+      "proj": 10.27
+     },
+     {
+      "player": "12487",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13289",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13317",
+      "pts": 0.0,
+      "proj": 4.7
+     },
+     {
+      "player": "13425",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "7525",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "7600",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "9508",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "7525",
+      "name": "DeVonta Smith",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "12487",
+      "name": "Terrance Ferguson",
+      "pos": "TE",
+      "kind": "IR",
+      "injury": "Ankle"
+     }
+    ]
+   },
+   {
+    "franchise": 11,
+    "team": "BubbaNASTIES",
+    "managers": [
+     "brandon"
+    ],
+    "points": 123.58,
+    "proj": 141.07,
+    "max_points": 169.46,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "8183",
+      "pts": 25.98,
+      "proj": 21.46
+     },
+     {
+      "slot": "RB",
+      "player": "3198",
+      "pts": 7.28,
+      "proj": 13.62
+     },
+     {
+      "slot": "RB",
+      "player": "6790",
+      "pts": 4.3,
+      "proj": 21.07
+     },
+     {
+      "slot": "WR",
+      "player": "6794",
+      "pts": 8.8,
+      "proj": 18.27
+     },
+     {
+      "slot": "WR",
+      "player": "12519",
+      "pts": 22.2,
+      "proj": 14.62
+     },
+     {
+      "slot": "TE",
+      "player": "1466",
+      "pts": 17.4,
+      "proj": 13.14
+     },
+     {
+      "slot": "FLEX",
+      "player": "8134",
+      "pts": 9.8,
+      "proj": 9.06
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "421",
+      "pts": 11.32,
+      "proj": 18.33
+     },
+     {
+      "slot": "K",
+      "player": "4195",
+      "pts": 4.5,
+      "proj": 6.23
+     },
+     {
+      "slot": "DEF",
+      "player": "DET",
+      "pts": 12.0,
+      "proj": 5.27
+     }
+    ],
+    "bench": [
+     {
+      "player": "9504",
+      "pts": 28.5,
+      "proj": 3.81
+     },
+     {
+      "player": "SF",
+      "pts": 21.0,
+      "proj": 6.4
+     },
+     {
+      "player": "12545",
+      "pts": 20.7,
+      "proj": 15.72
+     },
+     {
+      "player": "8131",
+      "pts": 16.3,
+      "proj": 11.12
+     },
+     {
+      "player": "1479",
+      "pts": 8.1,
+      "proj": 11.36
+     },
+     {
+      "player": "13405",
+      "pts": 5.6,
+      "proj": 2.84
+     },
+     {
+      "player": "9500",
+      "pts": 5.4,
+      "proj": 10.96
+     },
+     {
+      "player": "11637",
+      "pts": 4.7,
+      "proj": 8.09
+     },
+     {
+      "player": "12483",
+      "pts": 1.9,
+      "proj": 3.88
+     },
+     {
+      "player": "13269",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13274",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13402",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "7543",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8676",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "7543",
+      "name": "Travis Etienne Jr.",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "8676",
+      "name": "Rashid Shaheed",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Knee"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-09-3-8": {
+  "id": "2026-09-3-8",
+  "season": "2026",
+  "week": 9,
+  "date": "2026-11-05",
+  "kind": "regular",
+  "label": "Regular Season",
+  "winner": 3,
+  "teams": [
+   {
+    "franchise": 3,
+    "team": "Kolkata Kommies",
+    "managers": [
+     "ritesh"
+    ],
+    "points": 145.58,
+    "proj": 159.11,
+    "max_points": 170.88,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "3163",
+      "pts": 5.7,
+      "proj": 19.6
+     },
+     {
+      "slot": "RB",
+      "player": "7588",
+      "pts": 24.4,
+      "proj": 19.77
+     },
+     {
+      "slot": "RB",
+      "player": "12495",
+      "pts": 9.0,
+      "proj": 16.32
+     },
+     {
+      "slot": "WR",
+      "player": "9488",
+      "pts": 12.1,
+      "proj": 24.08
+     },
+     {
+      "slot": "WR",
+      "player": "7564",
+      "pts": 31.5,
+      "proj": 19.46
+     },
+     {
+      "slot": "TE",
+      "player": "9484",
+      "pts": 2.1,
+      "proj": 11.28
+     },
+     {
+      "slot": "FLEX",
+      "player": "7611",
+      "pts": 15.4,
+      "proj": 15.2
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "11559",
+      "pts": 13.78,
+      "proj": 16.25
+     },
+     {
+      "slot": "K",
+      "player": "12185",
+      "pts": 17.6,
+      "proj": 8.38
+     },
+     {
+      "slot": "DEF",
+      "player": "JAX",
+      "pts": 14.0,
+      "proj": 8.77
+     }
+    ],
+    "bench": [
+     {
+      "player": "5045",
+      "pts": 15.5,
+      "proj": 7.26
+     },
+     {
+      "player": "9501",
+      "pts": 15.2,
+      "proj": 8.78
+     },
+     {
+      "player": "7002",
+      "pts": 11.4,
+      "proj": 10.43
+     },
+     {
+      "player": "4035",
+      "pts": 8.5,
+      "proj": 13.75
+     },
+     {
+      "player": "13421",
+      "pts": 8.2,
+      "proj": 7.55
+     },
+     {
+      "player": "12527",
+      "pts": 7.6,
+      "proj": 13.22
+     },
+     {
+      "player": "11576",
+      "pts": 6.2,
+      "proj": 11.45
+     },
+     {
+      "player": "13394",
+      "pts": 1.6,
+      "proj": 3.64
+     },
+     {
+      "player": "12502",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13350",
+      "pts": 0.0,
+      "proj": 9.9
+     },
+     {
+      "player": "13400",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13417",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "4881",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "5927",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "13417",
+      "name": "De'Zhaun Stribling",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Ankle"
+     },
+     {
+      "player": "5927",
+      "name": "Terry McLaurin",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
+     }
+    ]
+   },
+   {
+    "franchise": 8,
+    "team": "BBL KIZZY",
+    "managers": [
+     "evan"
+    ],
+    "points": 115.68,
+    "proj": 160.56,
+    "max_points": 151.66,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "11564",
+      "pts": 18.36,
+      "proj": 20.77
+     },
+     {
+      "slot": "RB",
+      "player": "4034",
+      "pts": 24.5,
+      "proj": 24.02
+     },
+     {
+      "slot": "RB",
+      "player": "5850",
+      "pts": 0.9,
+      "proj": 16.77
+     },
+     {
+      "slot": "WR",
+      "player": "7569",
+      "pts": 15.5,
+      "proj": 17.27
+     },
+     {
+      "slot": "WR",
+      "player": "6801",
+      "pts": 20.2,
+      "proj": 16.37
+     },
+     {
+      "slot": "TE",
+      "player": "4217",
+      "pts": 9.8,
+      "proj": 15.66
+     },
+     {
+      "slot": "FLEX",
+      "player": "10229",
+      "pts": 9.9,
+      "proj": 15.63
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "8161",
+      "pts": 4.02,
+      "proj": 17.85
+     },
+     {
+      "slot": "K",
+      "player": "2747",
+      "pts": 6.5,
+      "proj": 8.75
+     },
+     {
+      "slot": "DEF",
+      "player": "DEN",
+      "pts": 6.0,
+      "proj": 7.47
+     }
+    ],
+    "bench": [
+     {
+      "player": "9502",
+      "pts": 20.5,
+      "proj": 2.83
+     },
+     {
+      "player": "8155",
+      "pts": 13.2,
+      "proj": 11.66
+     },
+     {
+      "player": "13294",
+      "pts": 12.1,
+      "proj": 7.92
+     },
+     {
+      "player": "5870",
+      "pts": 12.1,
+      "proj": 14.99
+     },
+     {
+      "player": "9753",
+      "pts": 11.2,
+      "proj": 11.01
+     },
+     {
+      "player": "TB",
+      "pts": 11.0,
+      "proj": 4.0
+     },
+     {
+      "player": "12518",
+      "pts": 8.4,
+      "proj": 13.34
+     },
+     {
+      "player": "11565",
+      "pts": 7.68,
+      "proj": 14.73
+     },
+     {
+      "player": "13285",
+      "pts": 7.0,
+      "proj": 6.35
+     },
+     {
+      "player": "11647",
+      "pts": 5.3,
+      "proj": 8.23
+     },
+     {
+      "player": "11581",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12484",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12540",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13435",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "5892",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "5892",
+      "name": "David Montgomery",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Groin"
+     },
+     {
+      "player": "11581",
+      "name": "MarShawn Lloyd",
+      "pos": "RB",
+      "kind": "Questionable",
+      "injury": "Knee"
+     },
+     {
+      "player": "12484",
+      "name": "Jayden Higgins",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee - ACL"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-09-4-6": {
+  "id": "2026-09-4-6",
+  "season": "2026",
+  "week": 9,
+  "date": "2026-11-05",
+  "kind": "regular",
+  "label": "Regular Season",
+  "winner": 6,
+  "teams": [
+   {
+    "franchise": 4,
+    "team": "Im Stroud Of You",
+    "managers": [
+     "tony"
+    ],
+    "points": 144.48,
+    "proj": 93.14,
+    "max_points": 145.78,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "6797",
+      "pts": 10.52,
+      "proj": 13.34
+     },
+     {
+      "slot": "RB",
+      "player": "7567",
+      "pts": 11.1,
+      "proj": 7.72
+     },
+     {
+      "slot": "RB",
+      "player": "8408",
+      "pts": 6.8,
+      "proj": 9.42
+     },
+     {
+      "slot": "WR",
+      "player": "10213",
+      "pts": 11.0,
+      "proj": 11.04
+     },
+     {
+      "slot": "WR",
+      "player": "12501",
+      "pts": 32.4,
+      "proj": 14.91
+     },
+     {
+      "slot": "TE",
+      "player": "2505",
+      "pts": 23.0,
+      "proj": 6.54
+     },
+     {
+      "slot": "FLEX",
+      "player": "9487",
+      "pts": 14.1,
+      "proj": 14.04
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "9758",
+      "pts": 35.56,
+      "proj": 16.13
+     }
+    ],
+    "bench": [
+     {
+      "player": "13414",
+      "pts": 8.1,
+      "proj": 7.87
+     },
+     {
+      "player": "5001",
+      "pts": 7.7,
+      "proj": 8.46
+     },
+     {
+      "player": "4037",
+      "pts": 4.9,
+      "proj": 9.34
+     },
+     {
+      "player": "11834",
+      "pts": 3.7,
+      "proj": 8.6
+     },
+     {
+      "player": "11588",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12534",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13268",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13302",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "5872",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "5967",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8142",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "9229",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "12534",
+      "name": "Kyle Monangai",
+      "pos": "RB",
+      "kind": "Questionable",
+      "injury": "Thumb"
+     },
+     {
+      "player": "13302",
+      "name": "Adam Randall",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Neck"
+     },
+     {
+      "player": "5872",
+      "name": "Deebo Samuel Sr.",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "8142",
+      "name": "Alec Pierce",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Heel"
+     }
+    ]
+   },
+   {
+    "franchise": 6,
+    "team": "got that DAWG",
+    "managers": [
+     "makenzy"
+    ],
+    "points": 153.62,
+    "proj": 137.66,
+    "max_points": 156.22,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "6770",
+      "pts": 29.84,
+      "proj": 20.17
+     },
+     {
+      "slot": "RB",
+      "player": "7594",
+      "pts": 15.2,
+      "proj": 18.72
+     },
+     {
+      "slot": "RB",
+      "player": "9224",
+      "pts": 11.4,
+      "proj": 17.56
+     },
+     {
+      "slot": "WR",
+      "player": "9997",
+      "pts": 7.1,
+      "proj": 13.8
+     },
+     {
+      "slot": "WR",
+      "player": "8148",
+      "pts": 5.1,
+      "proj": 13.4
+     },
+     {
+      "slot": "TE",
+      "player": "5022",
+      "pts": 10.0,
+      "proj": 9.74
+     },
+     {
+      "slot": "FLEX",
+      "player": "4199",
+      "pts": 3.6,
+      "proj": 11.13
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "6804",
+      "pts": 36.28,
+      "proj": 16.75
+     },
+     {
+      "slot": "K",
+      "player": "11786",
+      "pts": 19.1,
+      "proj": 8.58
+     },
+     {
+      "slot": "DEF",
+      "player": "HOU",
+      "pts": 16.0,
+      "proj": 7.81
+     }
+    ],
+    "bench": [
+     {
+      "player": "PHI",
+      "pts": 11.0,
+      "proj": 5.68
+     },
+     {
+      "player": "6083",
+      "pts": 7.0,
+      "proj": 7.53
+     },
+     {
+      "player": "4039",
+      "pts": 6.2,
+      "proj": 7.7
+     },
+     {
+      "player": "12498",
+      "pts": 2.1,
+      "proj": 7.62
+     },
+     {
+      "player": "13305",
+      "pts": 0.3,
+      "proj": 9.26
+     },
+     {
+      "player": "13288",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13303",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13320",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "2216",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "4943",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "5859",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8137",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8205",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "9479",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "9757",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "2216",
+      "name": "Mike Evans",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Ribs"
+     },
+     {
+      "player": "5859",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Ankle"
+     },
+     {
+      "player": "8137",
+      "name": "George Pickens",
+      "pos": "WR",
+      "kind": "Questionable",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "13320",
+      "name": "Zachariah Branch",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "4943",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Quadricep"
+     },
+     {
+      "player": "8205",
+      "name": "Isiah Pacheco",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Back"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-09-5-7": {
+  "id": "2026-09-5-7",
+  "season": "2026",
+  "week": 9,
+  "date": "2026-11-05",
+  "kind": "regular",
+  "label": "Regular Season",
+  "winner": 7,
+  "teams": [
+   {
+    "franchise": 5,
+    "team": "St. Brown VS Board💍",
+    "managers": [
+     "sam"
+    ],
+    "points": 131.28,
+    "proj": 158.58,
+    "max_points": 143.46,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "11563",
+      "pts": 16.18,
+      "proj": 15.1
+     },
+     {
+      "slot": "RB",
+      "player": "9221",
+      "pts": 15.4,
+      "proj": 27.71
+     },
+     {
+      "slot": "RB",
+      "player": "12474",
+      "pts": 10.2,
+      "proj": 15.48
+     },
+     {
+      "slot": "WR",
+      "player": "7547",
+      "pts": 18.1,
+      "proj": 20.4
+     },
+     {
+      "slot": "WR",
+      "player": "8112",
+      "pts": 11.8,
+      "proj": 18.43
+     },
+     {
+      "slot": "TE",
+      "player": "12517",
+      "pts": 9.4,
+      "proj": 11.05
+     },
+     {
+      "slot": "FLEX",
+      "player": "12526",
+      "pts": 15.6,
+      "proj": 13.78
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "5854",
+      "pts": 13.1,
+      "proj": 16.96
+     },
+     {
+      "slot": "K",
+      "player": "11533",
+      "pts": 9.5,
+      "proj": 9.86
+     },
+     {
+      "slot": "DEF",
+      "player": "SEA",
+      "pts": 12.0,
+      "proj": 9.81
+     }
+    ],
+    "bench": [
+     {
+      "player": "12524",
+      "pts": 23.68,
+      "proj": 13.02
+     },
+     {
+      "player": "13424",
+      "pts": 11.8,
+      "proj": 7.48
+     },
+     {
+      "player": "12469",
+      "pts": 8.6,
+      "proj": 9.16
+     },
+     {
+      "player": "11628",
+      "pts": 4.0,
+      "proj": 5.03
+     },
+     {
+      "player": "3271",
+      "pts": 2.3,
+      "proj": 8.37
+     },
+     {
+      "player": "12510",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12529",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12533",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13270",
+      "pts": 0.0,
+      "proj": 0.6
+     },
+     {
+      "player": "13347",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13349",
+      "pts": 0.0,
+      "proj": 2.41
+     },
+     {
+      "player": "6904",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8126",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "9226",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "3161",
+      "pts": -2.66,
+      "proj": 14.7
+     }
+    ],
+    "injured": [
+     {
+      "player": "9226",
+      "name": "De'Von Achane",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Knee - ACL"
+     },
+     {
+      "player": "6904",
+      "name": "Jalen Hurts",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Calf"
+     },
+     {
+      "player": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Groin"
+     },
+     {
+      "player": "12529",
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Illness"
+     }
+    ]
+   },
+   {
+    "franchise": 7,
+    "team": "the dart side 🛸💍",
+    "managers": [
+     "anargha"
+    ],
+    "points": 162.8,
+    "proj": 139.85,
+    "max_points": 186.9,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "3294",
+      "pts": 19.7,
+      "proj": 19.43
+     },
+     {
+      "slot": "RB",
+      "player": "6813",
+      "pts": 10.7,
+      "proj": 19.23
+     },
+     {
+      "slot": "RB",
+      "player": "13345",
+      "pts": 20.5,
+      "proj": 15.89
+     },
+     {
+      "slot": "WR",
+      "player": "9493",
+      "pts": 36.7,
+      "proj": 23.61
+     },
+     {
+      "slot": "WR",
+      "player": "10232",
+      "pts": 12.0,
+      "proj": null
+     },
+     {
+      "slot": "TE",
+      "player": "11604",
+      "pts": 22.4,
+      "proj": 18.67
+     },
+     {
+      "slot": "FLEX",
+      "player": "12512",
+      "pts": 7.0,
+      "proj": 13.57
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "11635",
+      "pts": 0.0,
+      "proj": 13.03
+     },
+     {
+      "slot": "K",
+      "player": "3451",
+      "pts": 17.8,
+      "proj": 8.77
+     },
+     {
+      "slot": "DEF",
+      "player": "KC",
+      "pts": 16.0,
+      "proj": 7.65
+     }
+    ],
+    "bench": [
+     {
+      "player": "13346",
+      "pts": 15.8,
+      "proj": 10.76
+     },
+     {
+      "player": "11603",
+      "pts": 15.3,
+      "proj": 7.94
+     },
+     {
+      "player": "3214",
+      "pts": 8.0,
+      "proj": 7.62
+     },
+     {
+      "player": "13150",
+      "pts": 4.5,
+      "proj": 8.6
+     },
+     {
+      "player": "12505",
+      "pts": 3.8,
+      "proj": 1.7
+     },
+     {
+      "player": "13411",
+      "pts": 2.3,
+      "proj": 3.21
+     },
+     {
+      "player": "12535",
+      "pts": 1.9,
+      "proj": 4.55
+     },
+     {
+      "player": "12508",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13272",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13306",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13319",
+      "pts": 0.0,
+      "proj": 1.72
+     },
+     {
+      "player": "6819",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8228",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "PIT",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "12508",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Knee - Meniscus"
+     }
+    ]
+   }
+  ]
+ },
+ "2026-09-9-10": {
+  "id": "2026-09-9-10",
+  "season": "2026",
+  "week": 9,
+  "date": "2026-11-05",
+  "kind": "regular",
+  "label": "Regular Season",
+  "winner": 9,
+  "teams": [
+   {
+    "franchise": 9,
+    "team": "Clandestine Ball Busters",
+    "managers": [
+     "tanner",
+     "joe"
+    ],
+    "points": 124.06,
+    "proj": 144.34,
+    "max_points": 139.16,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "4046",
+      "pts": 16.68,
+      "proj": 21.38
+     },
+     {
+      "slot": "RB",
+      "player": "9509",
+      "pts": 28.6,
+      "proj": 25.51
+     },
+     {
+      "slot": "RB",
+      "player": "13286",
+      "pts": 12.7,
+      "proj": 10.56
+     },
+     {
+      "slot": "WR",
+      "player": "11632",
+      "pts": 9.3,
+      "proj": 15.54
+     },
+     {
+      "slot": "WR",
+      "player": "8144",
+      "pts": 16.8,
+      "proj": 15.48
+     },
+     {
+      "slot": "TE",
+      "player": "4993",
+      "pts": 3.1,
+      "proj": 10.08
+     },
+     {
+      "slot": "FLEX",
+      "player": "11646",
+      "pts": 6.7,
+      "proj": 13.77
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "7523",
+      "pts": 13.68,
+      "proj": 19.5
+     },
+     {
+      "slot": "K",
+      "player": "6650",
+      "pts": 10.5,
+      "proj": 7.9
+     },
+     {
+      "slot": "DEF",
+      "player": "MIN",
+      "pts": 6.0,
+      "proj": 4.62
+     }
+    ],
+    "bench": [
+     {
+      "player": "11620",
+      "pts": 16.0,
+      "proj": 11.63
+     },
+     {
+      "player": "1373",
+      "pts": 9.0,
+      "proj": 14.71
+     },
+     {
+      "player": "13330",
+      "pts": 8.9,
+      "proj": 3.95
+     },
+     {
+      "player": "11783",
+      "pts": 7.3,
+      "proj": 12.03
+     },
+     {
+      "player": "10236",
+      "pts": 5.8,
+      "proj": 9.56
+     },
+     {
+      "player": "12530",
+      "pts": 5.65,
+      "proj": 8.4
+     },
+     {
+      "player": "6806",
+      "pts": 3.6,
+      "proj": 10.57
+     },
+     {
+      "player": "13338",
+      "pts": 1.7,
+      "proj": 2.86
+     },
+     {
+      "player": "13311",
+      "pts": 1.5,
+      "proj": 7.1
+     },
+     {
+      "player": "13273",
+      "pts": 0.0,
+      "proj": 1.48
+     },
+     {
+      "player": "13287",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13602",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8135",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8154",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "13287",
+      "name": "Jeremiyah Love",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Ankle"
+     },
+     {
+      "player": "8154",
+      "name": "Brian Robinson Jr.",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "8135",
+      "name": "Treylon Burks",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Foot"
+     }
+    ]
+   },
+   {
+    "franchise": 10,
+    "team": "Maddison Beer’s Boys",
+    "managers": [
+     "elis"
+    ],
+    "points": 67.26,
+    "proj": 89.68,
+    "max_points": 93.02,
+    "starters": [
+     {
+      "slot": "QB",
+      "player": "11560",
+      "pts": 13.26,
+      "proj": 19.06
+     },
+     {
+      "slot": "RB",
+      "player": "12490",
+      "pts": 10.1,
+      "proj": 15.12
+     },
+     {
+      "slot": "RB",
+      "player": "11586",
+      "pts": 12.9,
+      "proj": 8.18
+     },
+     {
+      "slot": "WR",
+      "player": "7526",
+      "pts": 3.2,
+      "proj": 11.08
+     },
+     {
+      "slot": "WR",
+      "player": "9756",
+      "pts": 4.8,
+      "proj": 9.51
+     },
+     {
+      "slot": "TE",
+      "player": "12506",
+      "pts": 12.2,
+      "proj": 11.4
+     },
+     {
+      "slot": "FLEX",
+      "player": "13293",
+      "pts": 0.0,
+      "proj": 4.96
+     },
+     {
+      "slot": "SUPER_FLEX",
+      "player": "11624",
+      "pts": 10.8,
+      "proj": 10.37
+     }
+    ],
+    "bench": [
+     {
+      "player": "9754",
+      "pts": 14.9,
+      "proj": 7.84
+     },
+     {
+      "player": "11557",
+      "pts": 14.06,
+      "proj": 11.8
+     },
+     {
+      "player": "9482",
+      "pts": 4.7,
+      "proj": 8.0
+     },
+     {
+      "player": "11729",
+      "pts": 4.4,
+      "proj": 5.05
+     },
+     {
+      "player": "9480",
+      "pts": 4.2,
+      "proj": 9.7
+     },
+     {
+      "player": "12509",
+      "pts": 3.6,
+      "proj": 5.98
+     },
+     {
+      "player": "12522",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "12547",
+      "pts": 0.0,
+      "proj": 6.44
+     },
+     {
+      "player": "13275",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13348",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "13413",
+      "pts": 0.0,
+      "proj": 1.08
+     },
+     {
+      "player": "6803",
+      "pts": 0.0,
+      "proj": null
+     },
+     {
+      "player": "8121",
+      "pts": 0.0,
+      "proj": null
+     }
+    ],
+    "injured": [
+     {
+      "player": "8121",
+      "name": "Romeo Doubs",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Shoulder"
+     }
+    ]
+   }
+  ]
  }
 }

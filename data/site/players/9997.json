@@ -74,29 +74,29 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "BAL",
-   "g": 8,
-   "gs": 6,
-   "pts": 107.0,
+   "g": 9,
+   "gs": 7,
+   "pts": 114.1,
    "bench_pts": 15.5,
-   "ppg": 17.83,
+   "ppg": 16.3,
    "best": 27.7,
-   "wins": 4,
-   "paa": 24.74,
-   "vor": 31.94,
-   "war": 0.38
+   "wins": 5,
+   "paa": 18.2,
+   "vor": 26.53,
+   "war": 0.31
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 36,
-  "pts": 486.6,
+  "g": 60,
+  "gs": 37,
+  "pts": 493.7,
   "bench_pts": 239.2,
-  "ppg": 13.52,
+  "ppg": 13.34,
   "best": 28.1,
-  "wins": 23,
-  "paa": 5.08,
-  "vor": 73.14,
-  "war": 0.86
+  "wins": 24,
+  "paa": -1.46,
+  "vor": 67.73,
+  "war": 0.8
  },
  "nfl": [
   {
@@ -1228,26 +1228,36 @@
    "paa": -13.14,
    "vor": -12.51,
    "war": -0.14785297778442802
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": "WR",
+   "started": true,
+   "pts": 7.1,
+   "proj": 13.8,
+   "won": true,
+   "paa": -6.54,
+   "vor": -5.41,
+   "war": -0.0639396170914273
   }
  ],
  "similar": [
   {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
-   "score": 951,
+   "score": 934,
    "gs": 36,
    "pts": 503.25,
    "ppg": 13.98,
    "war": 1.02
-  },
-  {
-   "player": "6819",
-   "name": "Michael Pittman Jr.",
-   "score": 920,
-   "gs": 33,
-   "pts": 445.1,
-   "ppg": 13.49,
-   "war": 0.72
   },
   {
    "player": "8146",
@@ -1259,22 +1269,31 @@
    "war": 1.03
   },
   {
-   "player": "4983",
-   "name": "DJ Moore",
-   "score": 868,
-   "gs": 41,
-   "pts": 562.68,
-   "ppg": 13.72,
-   "war": 0.95
+   "player": "6819",
+   "name": "Michael Pittman Jr.",
+   "score": 905,
+   "gs": 33,
+   "pts": 445.1,
+   "ppg": 13.49,
+   "war": 0.72
   },
   {
-   "player": "5846",
-   "name": "DK Metcalf",
-   "score": 849,
-   "gs": 31,
-   "pts": 408.1,
-   "ppg": 13.16,
-   "war": 0.49
+   "player": "4983",
+   "name": "DJ Moore",
+   "score": 873,
+   "gs": 42,
+   "pts": 569.38,
+   "ppg": 13.56,
+   "war": 0.88
+  },
+  {
+   "player": "2449",
+   "name": "Stefon Diggs",
+   "score": 850,
+   "gs": 33,
+   "pts": 490.52,
+   "ppg": 14.86,
+   "war": 1.14
   }
  ],
  "status": {
@@ -1287,46 +1306,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 486.6,
+   "value": 493.7,
    "digits": 2,
-   "rank": 62,
-   "of": 419
+   "rank": 64,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 36,
+   "value": 37,
    "digits": 0,
-   "rank": 60,
-   "of": 419
+   "rank": 57,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.86,
+   "value": 0.8,
    "digits": 2,
-   "rank": 86,
-   "of": 419
+   "rank": 90,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 73.1,
+   "value": 67.7,
    "digits": 1,
-   "rank": 86,
-   "of": 419
+   "rank": 90,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 5.1,
+   "value": -1.5,
    "digits": 1,
-   "rank": 112,
-   "of": 419
+   "rank": 145,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1334,17 +1353,17 @@
    "stat": "Best Game",
    "value": 28.1,
    "digits": 2,
-   "rank": 121,
-   "of": 419
+   "rank": 122,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 13.52,
+   "value": 13.34,
    "digits": 2,
-   "rank": 93,
-   "of": 252
+   "rank": 100,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1352,14 +1371,14 @@
    "stat": "Bench Points",
    "value": 239.2,
    "digits": 2,
-   "rank": 32,
-   "of": 506
+   "rank": 33,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 486.6,
+   "value": 493.7,
    "digits": 2,
    "rank": 21,
    "of": 126
@@ -1368,7 +1387,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 36,
+   "value": 37,
    "digits": 0,
    "rank": 17,
    "of": 126
@@ -1377,7 +1396,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.86,
+   "value": 0.8,
    "digits": 2,
    "rank": 24,
    "of": 126
@@ -1386,9 +1405,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "Points",
-   "value": 310.5,
+   "value": 317.6,
    "digits": 2,
-   "rank": 9,
+   "rank": 8,
    "of": 40,
    "franchise": 6
   },
@@ -1396,9 +1415,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "Games Started",
-   "value": 21,
+   "value": 22,
    "digits": 0,
-   "rank": 11,
+   "rank": 10,
    "of": 40,
    "franchise": 6
   },
@@ -1406,7 +1425,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.91,
+   "value": 0.84,
    "digits": 2,
    "rank": 9,
    "of": 40,
@@ -1416,9 +1435,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "Points, WRs",
-   "value": 310.5,
+   "value": 317.6,
    "digits": 2,
-   "rank": 4,
+   "rank": 3,
    "of": 12,
    "franchise": 6
   },
@@ -1429,7 +1448,7 @@
    "value": 176.1,
    "digits": 2,
    "rank": 12,
-   "of": 57,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1439,7 +1458,7 @@
    "value": 15,
    "digits": 0,
    "rank": 12,
-   "of": 57,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1448,8 +1467,8 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 38,
-   "of": 57,
+   "rank": 39,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1526,17 +1545,17 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 107.0,
+   "value": 114.1,
    "digits": 2,
-   "rank": 45,
-   "of": 230,
+   "rank": 47,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 107.0,
+   "value": 114.1,
    "digits": 2,
    "rank": 14,
    "of": 62,
@@ -1548,18 +1567,18 @@
    "stat": "Points, 2025",
    "value": 203.5,
    "digits": 2,
-   "rank": 114,
-   "of": 1007,
+   "rank": 116,
+   "of": 1010,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 107.0,
+   "value": 114.1,
    "digits": 2,
-   "rank": 332,
-   "of": 1007,
+   "rank": 321,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1568,8 +1587,8 @@
    "stat": "Points, 2024",
    "value": 101.1,
    "digits": 2,
-   "rank": 348,
-   "of": 1007,
+   "rank": 352,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1578,17 +1597,17 @@
    "stat": "Points, 2023",
    "value": 75.0,
    "digits": 2,
-   "rank": 427,
-   "of": 1007,
+   "rank": 438,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 17.6,
-  "rank": 82,
-  "of": 419,
-  "war": 8.6,
-  "starts": 9.0,
+  "score": 17.25,
+  "rank": 85,
+  "of": 420,
+  "war": 8.0,
+  "starts": 9.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1886,6 +1905,11 @@
     "2026",
     8,
     17.6
+   ],
+   [
+    "2026",
+    9,
+    17.25
    ]
   ],
   "benchmark": 100

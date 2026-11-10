@@ -13,14 +13,14 @@
   "franchise": 8,
   "team": "BBL KIZZY",
   "w": 5,
-  "l": 3,
+  "l": 4,
   "t": 0,
-  "pf": 1119.38,
-  "pa": 1138.99,
-  "max_pf": 1292.8,
-  "all_play_w": 45,
-  "all_play_l": 43,
-  "expected_w": 4.09,
+  "pf": 1235.06,
+  "pa": 1284.57,
+  "max_pf": 1444.46,
+  "all_play_w": 47,
+  "all_play_l": 52,
+  "expected_w": 4.27,
   "playoff_w": 0,
   "playoff_l": 0,
   "toilet_w": 0,
@@ -28,20 +28,20 @@
   "finish": null,
   "transactions": 32,
   "trades": 7,
-  "seed": 4,
-  "efficiency": 0.8659,
-  "luck": 0.91,
-  "ppg": 139.92,
-  "pct": 0.625,
+  "seed": 7,
+  "efficiency": 0.855,
+  "luck": 0.73,
+  "ppg": 137.23,
+  "pct": 0.556,
   "result": null
  },
  "status": "in_season",
  "ranks": {
-  "pf": 6,
-  "pa": 10,
-  "max_pf": 4,
-  "efficiency": 5,
-  "luck": 2
+  "pf": 7,
+  "pa": 11,
+  "max_pf": 6,
+  "efficiency": 8,
+  "luck": 3
  },
  "schedule": [
   {
@@ -187,6 +187,24 @@
     "player": "6801",
     "pts": 37.5
    }
+  },
+  {
+   "id": "2026-09-3-8",
+   "week": 9,
+   "date": "2026-11-05",
+   "kind": "regular",
+   "label": "Regular Season",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "pts": 115.68,
+   "opp_pts": 145.58,
+   "won": false,
+   "record": "5-4",
+   "max": 151.66,
+   "top": {
+    "player": "4034",
+    "pts": 24.5
+   }
   }
  ],
  "roster": [
@@ -194,157 +212,157 @@
    "player": "4034",
    "pos": "RB",
    "nfl": "SF",
-   "g": 8,
-   "gs": 7,
-   "pts": 152.4,
-   "ppg": 21.77,
+   "g": 9,
+   "gs": 8,
+   "pts": 176.9,
+   "ppg": 22.11,
    "best": 32.3,
    "bench_pts": 0.0,
    "wins": 4,
-   "paa": 38.93,
-   "vor": 96.19,
-   "war": 1.14
-  },
-  {
-   "player": "11564",
-   "pos": "QB",
-   "nfl": "NE",
-   "g": 8,
-   "gs": 7,
-   "pts": 140.06,
-   "ppg": 20.01,
-   "best": 40.16,
-   "bench_pts": 26.96,
-   "wins": 5,
-   "paa": 15.7,
-   "vor": 46.61,
-   "war": 0.55
+   "paa": 49.9,
+   "vor": 112.66,
+   "war": 1.33
   },
   {
    "player": "6801",
    "pos": "WR",
    "nfl": "CIN",
-   "g": 8,
-   "gs": 7,
-   "pts": 139.6,
-   "ppg": 19.94,
+   "g": 9,
+   "gs": 8,
+   "pts": 159.8,
+   "ppg": 19.98,
    "best": 37.5,
    "bench_pts": 0.0,
    "wins": 5,
-   "paa": 40.84,
-   "vor": 52.03,
+   "paa": 47.4,
+   "vor": 59.72,
+   "war": 0.71
+  },
+  {
+   "player": "11564",
+   "pos": "QB",
+   "nfl": "NE",
+   "g": 9,
+   "gs": 8,
+   "pts": 158.42,
+   "ppg": 19.8,
+   "best": 40.16,
+   "bench_pts": 26.96,
+   "wins": 5,
+   "paa": 17.67,
+   "vor": 51.62,
    "war": 0.61
   },
   {
    "player": "4217",
    "pos": "TE",
    "nfl": "SF",
-   "g": 8,
-   "gs": 6,
-   "pts": 101.3,
-   "ppg": 16.88,
+   "g": 9,
+   "gs": 7,
+   "pts": 111.1,
+   "ppg": 15.87,
    "best": 26.2,
    "bench_pts": 4.7,
    "wins": 3,
-   "paa": 30.03,
-   "vor": 45.74,
-   "war": 0.54
+   "paa": 28.24,
+   "vor": 46.28,
+   "war": 0.55
   },
   {
    "player": "7569",
    "pos": "WR",
    "nfl": "HOU",
-   "g": 8,
-   "gs": 5,
-   "pts": 76.3,
-   "ppg": 15.26,
+   "g": 9,
+   "gs": 6,
+   "pts": 91.8,
+   "ppg": 15.3,
    "best": 30.8,
    "bench_pts": 0.0,
    "wins": 3,
-   "paa": 7.18,
-   "vor": 13.75,
-   "war": 0.16
-  },
-  {
-   "player": "8161",
-   "pos": "QB",
-   "nfl": "MIA",
-   "g": 8,
-   "gs": 5,
-   "pts": 72.78,
-   "ppg": 14.56,
-   "best": 26.82,
-   "bench_pts": 32.04,
-   "wins": 3,
-   "paa": -15.58,
-   "vor": 6.03,
-   "war": 0.07
+   "paa": 9.04,
+   "vor": 16.74,
+   "war": 0.2
   },
   {
    "player": "2747",
    "pos": "K",
    "nfl": "SEA",
-   "g": 8,
-   "gs": 8,
-   "pts": 71.9,
-   "ppg": 8.99,
+   "g": 9,
+   "gs": 9,
+   "pts": 78.4,
+   "ppg": 8.71,
    "best": 25.0,
    "bench_pts": 0.0,
    "wins": 5,
-   "paa": 0.71,
-   "vor": -1.78,
-   "war": -0.02
+   "paa": -5.26,
+   "vor": -4.49,
+   "war": -0.05
+  },
+  {
+   "player": "8161",
+   "pos": "QB",
+   "nfl": "MIA",
+   "g": 9,
+   "gs": 6,
+   "pts": 76.8,
+   "ppg": 12.8,
+   "best": 26.82,
+   "bench_pts": 32.04,
+   "wins": 3,
+   "paa": -27.95,
+   "vor": -3.3,
+   "war": -0.04
   },
   {
    "player": "10229",
    "pos": "WR",
    "nfl": "KC",
-   "g": 8,
-   "gs": 5,
-   "pts": 56.3,
-   "ppg": 11.26,
+   "g": 9,
+   "gs": 6,
+   "pts": 66.2,
+   "ppg": 11.03,
    "best": 18.3,
    "bench_pts": 0.0,
    "wins": 3,
-   "paa": -14.08,
-   "vor": -6.25,
-   "war": -0.07
+   "paa": -17.82,
+   "vor": -8.86,
+   "war": -0.1
+  },
+  {
+   "player": "DEN",
+   "pos": "DEF",
+   "nfl": "DEN",
+   "g": 9,
+   "gs": 7,
+   "pts": 58.0,
+   "ppg": 8.29,
+   "best": 18.0,
+   "bench_pts": 12.0,
+   "wins": 4,
+   "paa": 4.36,
+   "vor": 8.23,
+   "war": 0.1
   },
   {
    "player": "12518",
    "pos": "TE",
    "nfl": "IND",
-   "g": 8,
+   "g": 9,
    "gs": 5,
    "pts": 52.1,
    "ppg": 10.42,
    "best": 21.5,
-   "bench_pts": 23.9,
+   "bench_pts": 32.3,
    "wins": 3,
    "paa": -5.7,
    "vor": 5.8,
    "war": 0.07
   },
   {
-   "player": "DEN",
-   "pos": "DEF",
-   "nfl": "DEN",
-   "g": 8,
-   "gs": 6,
-   "pts": 52.0,
-   "ppg": 8.67,
-   "best": 18.0,
-   "bench_pts": 12.0,
-   "wins": 4,
-   "paa": 8.76,
-   "vor": 9.34,
-   "war": 0.11
-  },
-  {
    "player": "5892",
    "pos": "RB",
    "nfl": "HOU",
-   "g": 8,
+   "g": 9,
    "gs": 4,
    "pts": 49.1,
    "ppg": 12.28,
@@ -359,27 +377,27 @@
    "player": "5850",
    "pos": "RB",
    "nfl": "GB",
-   "g": 8,
-   "gs": 2,
-   "pts": 46.5,
-   "ppg": 23.25,
+   "g": 9,
+   "gs": 3,
+   "pts": 47.4,
+   "ppg": 15.8,
    "best": 25.3,
    "bench_pts": 0.0,
    "wins": 2,
-   "paa": 12.23,
-   "vor": 30.44,
-   "war": 0.36
+   "paa": -0.4,
+   "vor": 23.31,
+   "war": 0.28
   },
   {
    "player": "13294",
    "pos": "WR",
    "nfl": "PHI",
-   "g": 8,
+   "g": 9,
    "gs": 2,
    "pts": 31.4,
    "ppg": 15.7,
    "best": 19.7,
-   "bench_pts": 33.3,
+   "bench_pts": 45.4,
    "wins": 2,
    "paa": 4.67,
    "vor": 6.38,
@@ -404,12 +422,12 @@
    "player": "5870",
    "pos": "QB",
    "nfl": "IND",
-   "g": 8,
+   "g": 9,
    "gs": 2,
    "pts": 17.46,
    "ppg": 8.73,
    "best": 9.14,
-   "bench_pts": 56.22,
+   "bench_pts": 68.32,
    "wins": 1,
    "paa": -16.25,
    "vor": -9.24,
@@ -449,12 +467,12 @@
    "player": "11647",
    "pos": "RB",
    "nfl": "LAC",
-   "g": 3,
+   "g": 4,
    "gs": 1,
    "pts": 7.7,
    "ppg": 7.7,
    "best": 7.7,
-   "bench_pts": 5.8,
+   "bench_pts": 11.1,
    "wins": 0,
    "paa": -5.7,
    "vor": -0.33,
@@ -464,12 +482,12 @@
    "player": "9753",
    "pos": "RB",
    "nfl": "SEA",
-   "g": 8,
+   "g": 9,
    "gs": 1,
    "pts": 6.5,
    "ppg": 6.5,
    "best": 6.5,
-   "bench_pts": 0.0,
+   "bench_pts": 11.2,
    "wins": 1,
    "paa": -10.2,
    "vor": -1.53,
@@ -494,7 +512,7 @@
    "player": "12484",
    "pos": "WR",
    "nfl": null,
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
@@ -509,7 +527,7 @@
    "player": "12540",
    "pos": "WR",
    "nfl": "TEN",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
@@ -524,12 +542,12 @@
    "player": "13285",
    "pos": "WR",
    "nfl": "NYG",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
    "best": null,
-   "bench_pts": 51.3,
+   "bench_pts": 58.3,
    "wins": 0,
    "paa": 0.0,
    "vor": 0.0,
@@ -539,7 +557,7 @@
    "player": "13435",
    "pos": "TE",
    "nfl": null,
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
@@ -581,30 +599,15 @@
    "war": 0.0
   },
   {
-   "player": "3634",
-   "pos": "WR",
-   "nfl": "CHI",
-   "g": 3,
-   "gs": 0,
-   "pts": 0.0,
-   "ppg": null,
-   "best": null,
-   "bench_pts": 27.1,
-   "wins": 0,
-   "paa": 0.0,
-   "vor": 0.0,
-   "war": 0.0
-  },
-  {
    "player": "8155",
    "pos": "RB",
    "nfl": "NYJ",
-   "g": 3,
+   "g": 4,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
    "best": null,
-   "bench_pts": 0.0,
+   "bench_pts": 13.2,
    "wins": 0,
    "paa": 0.0,
    "vor": 0.0,
@@ -614,12 +617,12 @@
    "player": "9502",
    "pos": "WR",
    "nfl": "HOU",
-   "g": 3,
+   "g": 4,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
    "best": null,
-   "bench_pts": 5.6,
+   "bench_pts": 26.1,
    "wins": 0,
    "paa": 0.0,
    "vor": 0.0,
@@ -629,12 +632,27 @@
    "player": "11565",
    "pos": "QB",
    "nfl": "NYG",
-   "g": 2,
+   "g": 3,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
    "best": null,
-   "bench_pts": 10.28,
+   "bench_pts": 17.96,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
+  },
+  {
+   "player": "3634",
+   "pos": "WR",
+   "nfl": "CHI",
+   "g": 3,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 27.1,
    "wins": 0,
    "paa": 0.0,
    "vor": 0.0,
@@ -665,6 +683,21 @@
    "ppg": null,
    "best": null,
    "bench_pts": 2.9,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
+  },
+  {
+   "player": "11581",
+   "pos": "RB",
+   "nfl": "GB",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
    "wins": 0,
    "paa": 0.0,
    "vor": 0.0,
@@ -731,36 +764,19 @@
    "war": 0.0
   },
   {
-   "player": "11581",
-   "pos": "RB",
-   "nfl": null,
-   "g": 0,
-   "gs": 0,
-   "pts": 0.0,
-   "ppg": null,
-   "best": null,
-   "bench_pts": 0.0,
-   "wins": 0,
-   "paa": null,
-   "vor": null,
-   "war": null,
-   "joined": true
-  },
-  {
    "player": "TB",
    "pos": "DEF",
-   "nfl": null,
-   "g": 0,
+   "nfl": "TB",
+   "g": 1,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
    "best": null,
-   "bench_pts": 0.0,
+   "bench_pts": 11.0,
    "wins": 0,
-   "paa": null,
-   "vor": null,
-   "war": null,
-   "joined": true
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
   }
  ],
  "depth": [
@@ -770,8 +786,8 @@
    "players": [
     {
      "player": "11564",
-     "gs": 7,
-     "pts": 140.06
+     "gs": 8,
+     "pts": 158.42
     },
     {
      "player": "5870",
@@ -786,8 +802,8 @@
    "players": [
     {
      "player": "4034",
-     "gs": 7,
-     "pts": 152.4
+     "gs": 8,
+     "pts": 176.9
     },
     {
      "player": "5892",
@@ -796,8 +812,8 @@
     },
     {
      "player": "5850",
-     "gs": 2,
-     "pts": 46.5
+     "gs": 3,
+     "pts": 47.4
     },
     {
      "player": "11647",
@@ -822,18 +838,18 @@
    "players": [
     {
      "player": "6801",
-     "gs": 6,
-     "pts": 130.7
+     "gs": 7,
+     "pts": 150.9
+    },
+    {
+     "player": "7569",
+     "gs": 5,
+     "pts": 61.0
     },
     {
      "player": "10229",
      "gs": 5,
      "pts": 56.3
-    },
-    {
-     "player": "7569",
-     "gs": 4,
-     "pts": 45.5
     },
     {
      "player": "9486",
@@ -848,8 +864,8 @@
    "players": [
     {
      "player": "4217",
-     "gs": 5,
-     "pts": 83.3
+     "gs": 6,
+     "pts": 93.1
     },
     {
      "player": "12518",
@@ -883,6 +899,11 @@
      "pts": 18.0
     },
     {
+     "player": "10229",
+     "gs": 1,
+     "pts": 9.9
+    },
+    {
      "player": "6801",
      "gs": 1,
      "pts": 8.9
@@ -900,8 +921,8 @@
    "players": [
     {
      "player": "8161",
-     "gs": 5,
-     "pts": 72.78
+     "gs": 6,
+     "pts": 76.8
     },
     {
      "player": "3257",
@@ -921,8 +942,8 @@
    "players": [
     {
      "player": "2747",
-     "gs": 8,
-     "pts": 71.9
+     "gs": 9,
+     "pts": 78.4
     }
    ]
   },
@@ -932,8 +953,8 @@
    "players": [
     {
      "player": "DEN",
-     "gs": 6,
-     "pts": 52.0
+     "gs": 7,
+     "pts": 58.0
     },
     {
      "player": "LAR",
@@ -1084,10 +1105,40 @@
  ],
  "similar": [
   {
+   "season": "2024",
+   "franchise": 10,
+   "team": "BAHAHAHA",
+   "score": 840,
+   "w": 6,
+   "l": 8,
+   "ppg": 127.5,
+   "result": "4th"
+  },
+  {
+   "season": "2023",
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 822,
+   "w": 6,
+   "l": 8,
+   "ppg": 127.61,
+   "result": "8th"
+  },
+  {
+   "season": "2025",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "score": 810,
+   "w": 7,
+   "l": 7,
+   "ppg": 130.72,
+   "result": "8th"
+  },
+  {
    "season": "2023",
    "franchise": 8,
    "team": "Breece is the Word",
-   "score": 779,
+   "score": 805,
    "w": 7,
    "l": 7,
    "ppg": 128.19,
@@ -1095,43 +1146,13 @@
   },
   {
    "season": "2025",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
-   "score": 772,
-   "w": 7,
-   "l": 7,
-   "ppg": 130.72,
-   "result": "8th"
-  },
-  {
-   "season": "2025",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 763,
+   "score": 789,
    "w": 7,
    "l": 7,
    "ppg": 132.89,
    "result": "5th"
-  },
-  {
-   "season": "2023",
-   "franchise": 10,
-   "team": "You Like That?",
-   "score": 762,
-   "w": 7,
-   "l": 7,
-   "ppg": 128.33,
-   "result": "6th"
-  },
-  {
-   "season": "2023",
-   "franchise": 2,
-   "team": "Storm FC",
-   "score": 744,
-   "w": 6,
-   "l": 8,
-   "ppg": 127.61,
-   "result": "8th"
   }
  ],
  "pickups": [
@@ -1352,7 +1373,7 @@
     "evan"
    ],
    "until": null,
-   "g": 3,
+   "g": 4,
    "gs": 1,
    "pts": 7.7,
    "wins": 0,
@@ -1420,7 +1441,7 @@
     "evan"
    ],
    "until": null,
-   "g": 2,
+   "g": 3,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1471,7 +1492,7 @@
     "evan"
    ],
    "until": null,
-   "g": 0,
+   "g": 1,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1488,7 +1509,7 @@
     "evan"
    ],
    "until": null,
-   "g": 0,
+   "g": 1,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1759,8 +1780,8 @@
    "managers": [
     "evan"
    ],
-   "gs": 2,
-   "pts": 18.0,
+   "gs": 3,
+   "pts": 34.0,
    "next": 3,
    "next_team": "Kolkata Kommies"
   },
@@ -2024,62 +2045,54 @@
  ],
  "upcoming": [
   {
-   "week": 9,
-   "opp": 3,
-   "opp_team": "Kolkata Kommies",
-   "opp_record": "6-2",
-   "opp_seed": 2,
-   "chance": 0.564,
-   "proj": 160.56,
-   "opp_proj": 159.11
-  },
-  {
    "week": 10,
    "opp": 6,
    "opp_team": "got that DAWG",
-   "opp_record": "4-4",
-   "opp_seed": 7,
-   "chance": 0.61
+   "opp_record": "5-4",
+   "opp_seed": 4,
+   "chance": 0.574,
+   "proj": 146.84,
+   "opp_proj": 129.43
   },
   {
    "week": 11,
    "opp": 12,
    "opp_team": "Team Win One Game",
-   "opp_record": "1-7",
+   "opp_record": "1-8",
    "opp_seed": 12,
-   "chance": 0.799
+   "chance": 0.789
   },
   {
    "week": 12,
    "opp": 4,
    "opp_team": "Im Stroud Of You",
-   "opp_record": "3-5",
+   "opp_record": "3-6",
    "opp_seed": 10,
-   "chance": 0.726
+   "chance": 0.716
   },
   {
    "week": 13,
    "opp": 1,
    "opp_team": "Mojo Dojo Casa Team 💍",
-   "opp_record": "7-1",
+   "opp_record": "8-1",
    "opp_seed": 1,
-   "chance": 0.419
+   "chance": 0.388
   },
   {
    "week": 14,
    "opp": 10,
    "opp_team": "Maddison Beer’s Boys",
-   "opp_record": "2-6",
+   "opp_record": "2-7",
    "opp_seed": 11,
-   "chance": 0.733
+   "chance": 0.73
   }
  ],
  "injuries": {
-  "games": 27,
-  "players": 9,
-  "lost": 55.86,
-  "rank": 2,
-  "games_rank": 2,
+  "games": 30,
+  "players": 10,
+  "lost": 57.97,
+  "rank": 3,
+  "games_rank": 3,
   "of": 12,
   "rows": [
    {
@@ -2127,6 +2140,25 @@
     "gs": 1
    },
    {
+    "player": "5892",
+    "name": "David Montgomery",
+    "pos": "RB",
+    "missed": 3,
+    "lost": 6.33,
+    "injuries": [
+     "Groin"
+    ],
+    "weeks": [
+     6,
+     7,
+     9
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 4
+   },
+   {
     "player": "12518",
     "name": "Tyler Warren",
     "pos": "TE",
@@ -2161,25 +2193,7 @@
     "kinds": [
      "Out"
     ],
-    "gs": 5
-   },
-   {
-    "player": "5892",
-    "name": "David Montgomery",
-    "pos": "RB",
-    "missed": 2,
-    "lost": 4.22,
-    "injuries": [
-     "Groin"
-    ],
-    "weeks": [
-     6,
-     7
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 4
+    "gs": 6
    },
    {
     "player": "9502",
@@ -2202,7 +2216,7 @@
     "player": "12484",
     "name": "Jayden Higgins",
     "pos": "WR",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
      "Knee - ACL"
@@ -2214,7 +2228,8 @@
      4,
      5,
      6,
-     7
+     7,
+     9
     ],
     "kinds": [
      "IR"
@@ -2237,7 +2252,7 @@
     "kinds": [
      "Out"
     ],
-    "gs": 5
+    "gs": 6
    },
    {
     "player": "9756",
@@ -2255,6 +2270,23 @@
      "Questionable"
     ],
     "gs": 0
+   },
+   {
+    "player": "11581",
+    "name": "MarShawn Lloyd",
+    "pos": "RB",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "gs": 0
    }
   ],
   "by_week": [
@@ -2266,7 +2298,7 @@
    7,
    6,
    1,
-   0,
+   3,
    0,
    0,
    0,

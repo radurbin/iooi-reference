@@ -112,29 +112,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "SF",
-   "g": 8,
-   "gs": 7,
-   "pts": 152.4,
+   "g": 9,
+   "gs": 8,
+   "pts": 176.9,
    "bench_pts": 0.0,
-   "ppg": 21.77,
+   "ppg": 22.11,
    "best": 32.3,
    "wins": 4,
-   "paa": 38.93,
-   "vor": 96.19,
-   "war": 1.14
+   "paa": 49.9,
+   "vor": 112.66,
+   "war": 1.33
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 43,
-  "pts": 982.95,
+  "g": 60,
+  "gs": 44,
+  "pts": 1007.45,
   "bench_pts": 0.0,
-  "ppg": 22.86,
+  "ppg": 22.9,
   "best": 48.7,
   "wins": 24,
-  "paa": 380.73,
-  "vor": 582.66,
-  "war": 6.89
+  "paa": 391.7,
+  "vor": 599.13,
+  "war": 7.08
  },
  "nfl": [
   {
@@ -1289,53 +1289,72 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-3-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": "RB",
+   "started": true,
+   "pts": 24.5,
+   "proj": 24.02,
+   "won": false,
+   "paa": 10.97,
+   "vor": 16.47,
+   "war": 0.19465535924136926
   }
  ],
  "similar": [
   {
    "player": "9221",
    "name": "Jahmyr Gibbs",
-   "score": 800,
-   "gs": 51,
-   "pts": 1054.9,
-   "ppg": 20.68,
-   "war": 6.92
+   "score": 797,
+   "gs": 52,
+   "pts": 1070.3,
+   "ppg": 20.58,
+   "war": 7.01
   },
   {
    "player": "9509",
    "name": "Bijan Robinson",
-   "score": 661,
-   "gs": 54,
-   "pts": 1008.0,
-   "ppg": 18.67,
-   "war": 6.0
+   "score": 671,
+   "gs": 55,
+   "pts": 1036.6,
+   "ppg": 18.85,
+   "war": 6.24
   },
   {
    "player": "8150",
    "name": "Kyren Williams",
-   "score": 566,
-   "gs": 46,
-   "pts": 825.3,
-   "ppg": 17.94,
-   "war": 4.82
+   "score": 543,
+   "gs": 47,
+   "pts": 835.9,
+   "ppg": 17.79,
+   "war": 4.85
   },
   {
    "player": "3198",
    "name": "Derrick Henry",
-   "score": 519,
-   "gs": 56,
-   "pts": 952.56,
-   "ppg": 17.01,
-   "war": 5.14
+   "score": 497,
+   "gs": 57,
+   "pts": 959.84,
+   "ppg": 16.84,
+   "war": 5.13
   },
   {
-   "player": "4866",
-   "name": "Saquon Barkley",
-   "score": 485,
-   "gs": 49,
-   "pts": 828.7,
-   "ppg": 16.91,
-   "war": 4.46
+   "player": "8138",
+   "name": "James Cook III",
+   "score": 478,
+   "gs": 48,
+   "pts": 822.0,
+   "ppg": 17.12,
+   "war": 4.48
   }
  ],
  "status": {
@@ -1348,46 +1367,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 982.95,
+   "value": 1007.45,
    "digits": 2,
-   "rank": 6,
-   "of": 419
+   "rank": 5,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 43,
+   "value": 44,
    "digits": 0,
-   "rank": 34,
-   "of": 419
+   "rank": 33,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 6.89,
+   "value": 7.08,
    "digits": 2,
-   "rank": 3,
-   "of": 419
+   "rank": 1,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 582.7,
+   "value": 599.1,
    "digits": 1,
-   "rank": 3,
-   "of": 419
+   "rank": 1,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 380.7,
+   "value": 391.7,
    "digits": 1,
-   "rank": 2,
-   "of": 419
+   "rank": 1,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1396,43 +1415,43 @@
    "value": 48.7,
    "digits": 2,
    "rank": 6,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 22.86,
+   "value": 22.9,
    "digits": 2,
    "rank": 2,
-   "of": 252
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 982.95,
+   "value": 1007.45,
    "digits": 2,
    "rank": 3,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 43,
+   "value": 44,
    "digits": 0,
-   "rank": 13,
-   "of": 99
+   "rank": 12,
+   "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 6.89,
+   "value": 7.08,
    "digits": 2,
-   "rank": 2,
-   "of": 99
+   "rank": 1,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -1440,7 +1459,7 @@
    "stat": "Points",
    "value": 197.2,
    "digits": 2,
-   "rank": 7,
+   "rank": 8,
    "of": 82,
    "franchise": 4
   },
@@ -1450,7 +1469,7 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 15,
+   "rank": 16,
    "of": 82,
    "franchise": 4
   },
@@ -1478,7 +1497,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points",
-   "value": 543.85,
+   "value": 568.35,
    "digits": 2,
    "rank": 5,
    "of": 67,
@@ -1488,9 +1507,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Games Started",
-   "value": 22,
+   "value": 23,
    "digits": 0,
-   "rank": 9,
+   "rank": 8,
    "of": 67,
    "franchise": 8
   },
@@ -1498,7 +1517,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 4.24,
+   "value": 4.43,
    "digits": 2,
    "rank": 1,
    "of": 67,
@@ -1508,7 +1527,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points, RBs",
-   "value": 543.85,
+   "value": 568.35,
    "digits": 2,
    "rank": 2,
    "of": 13,
@@ -1521,7 +1540,7 @@
    "value": 148.0,
    "digits": 2,
    "rank": 15,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1531,7 +1550,7 @@
    "value": 6,
    "digits": 0,
    "rank": 26,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1541,7 +1560,7 @@
    "value": 1.0,
    "digits": 2,
    "rank": 9,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1551,7 +1570,7 @@
    "value": 148.0,
    "digits": 2,
    "rank": 5,
-   "of": 10,
+   "of": 11,
    "franchise": 9
   },
   {
@@ -1580,7 +1599,7 @@
    "stat": "WAR",
    "value": 0.61,
    "digits": 2,
-   "rank": 10,
+   "rank": 11,
    "of": 77,
    "franchise": 1
   },
@@ -1658,20 +1677,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 152.4,
+   "value": 176.9,
    "digits": 2,
-   "rank": 12,
-   "of": 230,
+   "rank": 11,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 152.4,
+   "value": 176.9,
    "digits": 2,
-   "rank": 9,
-   "of": 57,
+   "rank": 4,
+   "of": 58,
    "season": "2026"
   },
   {
@@ -1681,7 +1700,7 @@
    "value": 391.45,
    "digits": 2,
    "rank": 1,
-   "of": 1007,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1691,17 +1710,17 @@
    "value": 391.3,
    "digits": 2,
    "rank": 2,
-   "of": 1007,
+   "of": 1010,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 152.4,
+   "value": 176.9,
    "digits": 2,
-   "rank": 207,
-   "of": 1007,
+   "rank": 164,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1710,17 +1729,17 @@
    "stat": "Points, 2024",
    "value": 47.8,
    "digits": 2,
-   "rank": 566,
-   "of": 1007,
+   "rank": 574,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 139.65,
+  "score": 141.8,
   "rank": 1,
-  "of": 419,
-  "war": 68.9,
-  "starts": 10.75,
+  "of": 420,
+  "war": 70.8,
+  "starts": 11.0,
   "black_ink": 18.0,
   "awards": 42.0,
   "history": [
@@ -2018,6 +2037,11 @@
     "2026",
     8,
     139.65
+   ],
+   [
+    "2026",
+    9,
+    141.8
    ]
   ],
   "benchmark": 100
@@ -2041,6 +2065,22 @@
   }
  },
  "records_held": [
+  {
+   "list": "Career VOR",
+   "scope": "league",
+   "rank": 1,
+   "value": "599.13",
+   "href": "leaders.html",
+   "player": "4034"
+  },
+  {
+   "list": "Career PAA",
+   "scope": "league",
+   "rank": 1,
+   "value": "391.70",
+   "href": "leaders.html",
+   "player": "4034"
+  },
   {
    "list": "Single-Season Points",
    "scope": "league",
@@ -2094,7 +2134,7 @@
    "list": "Career WAR",
    "scope": 8,
    "rank": 1,
-   "value": "4.24",
+   "value": "4.43",
    "href": "franchise.html?id=8#all-time-leaders",
    "player": "4034",
    "franchise": 8

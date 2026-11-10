@@ -1073,49 +1073,49 @@
  ],
  "similar": [
   {
-   "player": "7594",
-   "name": "Chuba Hubbard",
-   "score": 877,
-   "gs": 32,
-   "pts": 526.3,
-   "ppg": 16.45,
-   "war": 2.78
-  },
-  {
    "player": "11584",
    "name": "Bucky Irving",
-   "score": 868,
-   "gs": 22,
-   "pts": 367.2,
-   "ppg": 16.69,
-   "war": 2.12
-  },
-  {
-   "player": "9224",
-   "name": "Chase Brown",
-   "score": 863,
-   "gs": 33,
-   "pts": 486.4,
-   "ppg": 14.74,
-   "war": 2.27
+   "score": 884,
+   "gs": 23,
+   "pts": 397.7,
+   "ppg": 17.29,
+   "war": 2.38
   },
   {
    "player": "4035",
    "name": "Alvin Kamara",
-   "score": 854,
+   "score": 856,
    "gs": 30,
    "pts": 532.8,
    "ppg": 17.76,
    "war": 2.88
   },
   {
-   "player": "8136",
-   "name": "Rachaad White",
-   "score": 842,
-   "gs": 29,
-   "pts": 413.0,
-   "ppg": 14.24,
-   "war": 1.62
+   "player": "7594",
+   "name": "Chuba Hubbard",
+   "score": 856,
+   "gs": 33,
+   "pts": 541.5,
+   "ppg": 16.41,
+   "war": 2.87
+  },
+  {
+   "player": "9224",
+   "name": "Chase Brown",
+   "score": 846,
+   "gs": 34,
+   "pts": 497.8,
+   "ppg": 14.64,
+   "war": 2.31
+  },
+  {
+   "player": "4137",
+   "name": "James Conner",
+   "score": 839,
+   "gs": 24,
+   "pts": 360.2,
+   "ppg": 15.01,
+   "war": 1.55
   }
  ],
  "status": {
@@ -1141,7 +1141,7 @@
    "value": 460.3,
    "digits": 2,
    "rank": 68,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1149,8 +1149,8 @@
    "stat": "Games Started",
    "value": 28,
    "digits": 0,
-   "rank": 96,
-   "of": 419
+   "rank": 98,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1158,8 +1158,8 @@
    "stat": "WAR",
    "value": 2.15,
    "digits": 2,
-   "rank": 42,
-   "of": 419
+   "rank": 43,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1167,8 +1167,8 @@
    "stat": "VOR",
    "value": 182.1,
    "digits": 1,
-   "rank": 42,
-   "of": 419
+   "rank": 43,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1176,8 +1176,8 @@
    "stat": "PAA",
    "value": 78.1,
    "digits": 1,
-   "rank": 37,
-   "of": 419
+   "rank": 36,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1185,8 +1185,8 @@
    "stat": "Best Game",
    "value": 35.3,
    "digits": 2,
-   "rank": 56,
-   "of": 419
+   "rank": 57,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1194,8 +1194,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 16.44,
    "digits": 2,
-   "rank": 41,
-   "of": 252
+   "rank": 40,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1204,7 +1204,7 @@
    "value": 460.3,
    "digits": 2,
    "rank": 21,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -1213,7 +1213,7 @@
    "value": 28,
    "digits": 0,
    "rank": 24,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -1221,8 +1221,8 @@
    "stat": "WAR",
    "value": 2.15,
    "digits": 2,
-   "rank": 18,
-   "of": 99
+   "rank": 20,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -1311,7 +1311,7 @@
    "value": 236.7,
    "digits": 2,
    "rank": 70,
-   "of": 1007,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1320,15 +1320,15 @@
    "stat": "Points, 2023",
    "value": 223.6,
    "digits": 2,
-   "rank": 83,
-   "of": 1007,
+   "rank": 85,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 28.5,
-  "rank": 54,
-  "of": 419,
+  "rank": 56,
+  "of": 420,
   "war": 21.5,
   "starts": 7.0,
   "black_ink": 0.0,
@@ -1627,6 +1627,11 @@
    [
     "2026",
     8,
+    28.5
+   ],
+   [
+    "2026",
+    9,
     28.5
    ]
   ],

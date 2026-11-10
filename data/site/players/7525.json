@@ -72,7 +72,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "PHI",
-   "g": 8,
+   "g": 9,
    "gs": 4,
    "pts": 70.5,
    "bench_pts": 0.0,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 43,
   "pts": 598.8,
   "bench_pts": 85.3,
@@ -123,7 +123,7 @@
    "team": "PHI",
    "g": 4,
    "pts": 70.5,
-   "rank": 46
+   "rank": 47
   }
  ],
  "history": [
@@ -1269,31 +1269,38 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-2-11",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "4983",
    "name": "DJ Moore",
-   "score": 931,
-   "gs": 41,
-   "pts": 562.68,
-   "ppg": 13.72,
-   "war": 0.95
-  },
-  {
-   "player": "8112",
-   "name": "Drake London",
-   "score": 904,
-   "gs": 47,
-   "pts": 639.35,
-   "ppg": 13.6,
-   "war": 1.07
+   "score": 932,
+   "gs": 42,
+   "pts": 569.38,
+   "ppg": 13.56,
+   "war": 0.88
   },
   {
    "player": "8137",
    "name": "George Pickens",
-   "score": 896,
+   "score": 898,
    "gs": 41,
    "pts": 605.7,
    "ppg": 14.77,
@@ -1302,16 +1309,25 @@
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 885,
-   "gs": 39,
-   "pts": 576.0,
-   "ppg": 14.77,
-   "war": 1.4
+   "score": 896,
+   "gs": 40,
+   "pts": 592.8,
+   "ppg": 14.82,
+   "war": 1.45
+  },
+  {
+   "player": "8112",
+   "name": "Drake London",
+   "score": 884,
+   "gs": 48,
+   "pts": 651.15,
+   "ppg": 13.57,
+   "war": 1.06
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 877,
+   "score": 880,
    "gs": 38,
    "pts": 539.5,
    "ppg": 14.2,
@@ -1330,8 +1346,8 @@
    "stat": "Points",
    "value": 598.8,
    "digits": 2,
-   "rank": 43,
-   "of": 419
+   "rank": 44,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1339,8 +1355,8 @@
    "stat": "Games Started",
    "value": 43,
    "digits": 0,
-   "rank": 34,
-   "of": 419
+   "rank": 37,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1348,8 +1364,8 @@
    "stat": "WAR",
    "value": 1.15,
    "digits": 2,
-   "rank": 71,
-   "of": 419
+   "rank": 68,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1357,8 +1373,8 @@
    "stat": "VOR",
    "value": 97.7,
    "digits": 1,
-   "rank": 71,
-   "of": 419
+   "rank": 68,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1366,8 +1382,8 @@
    "stat": "PAA",
    "value": 18.2,
    "digits": 1,
-   "rank": 77,
-   "of": 419
+   "rank": 78,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1375,8 +1391,8 @@
    "stat": "Best Game",
    "value": 33.3,
    "digits": 2,
-   "rank": 69,
-   "of": 419
+   "rank": 70,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1384,8 +1400,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.93,
    "digits": 2,
-   "rank": 87,
-   "of": 252
+   "rank": 89,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1393,8 +1409,8 @@
    "stat": "Bench Points",
    "value": 85.3,
    "digits": 2,
-   "rank": 206,
-   "of": 506
+   "rank": 210,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1420,7 +1436,7 @@
    "stat": "WAR",
    "value": 1.15,
    "digits": 2,
-   "rank": 18,
+   "rank": 17,
    "of": 126
   },
   {
@@ -1429,7 +1445,7 @@
    "stat": "Points",
    "value": 178.9,
    "digits": 2,
-   "rank": 9,
+   "rank": 10,
    "of": 82,
    "franchise": 4
   },
@@ -1449,7 +1465,7 @@
    "stat": "WAR",
    "value": 0.46,
    "digits": 2,
-   "rank": 11,
+   "rank": 13,
    "of": 82,
    "franchise": 4
   },
@@ -1509,8 +1525,8 @@
    "stat": "Points",
    "value": 70.5,
    "digits": 2,
-   "rank": 27,
-   "of": 75,
+   "rank": 28,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1520,7 +1536,7 @@
    "value": 4,
    "digits": 0,
    "rank": 32,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1530,7 +1546,7 @@
    "value": 0.24,
    "digits": 2,
    "rank": 20,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1569,7 +1585,7 @@
    "stat": "WAR",
    "value": 0.16,
    "digits": 2,
-   "rank": 26,
+   "rank": 27,
    "of": 77,
    "franchise": 1
   },
@@ -1649,8 +1665,8 @@
    "stat": "Points",
    "value": 70.5,
    "digits": 2,
-   "rank": 75,
-   "of": 230,
+   "rank": 81,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -1669,8 +1685,8 @@
    "stat": "Points, 2023",
    "value": 186.8,
    "digits": 2,
-   "rank": 143,
-   "of": 1007,
+   "rank": 147,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1679,8 +1695,8 @@
    "stat": "Points, 2024",
    "value": 178.9,
    "digits": 2,
-   "rank": 155,
-   "of": 1007,
+   "rank": 159,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1689,8 +1705,8 @@
    "stat": "Points, 2025",
    "value": 162.6,
    "digits": 2,
-   "rank": 185,
-   "of": 1007,
+   "rank": 199,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1699,15 +1715,15 @@
    "stat": "Points, 2026",
    "value": 70.5,
    "digits": 2,
-   "rank": 457,
-   "of": 1007,
+   "rank": 463,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 22.25,
   "rank": 69,
-  "of": 419,
+  "of": 420,
   "war": 11.5,
   "starts": 10.75,
   "black_ink": 0.0,
@@ -2007,6 +2023,11 @@
     "2026",
     8,
     22.25
+   ],
+   [
+    "2026",
+    9,
+    22.25
    ]
   ],
   "benchmark": 100
@@ -2062,7 +2083,7 @@
     "season": "2026",
     "nfl": "PHI",
     "missed": 5,
-    "lost": 20.48,
+    "lost": 25.6,
     "injuries": [
      "Hamstring"
     ],
@@ -2076,7 +2097,7 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 4,
+    "rostered": 5,
     "games": [
      {
       "week": 4,
@@ -2110,8 +2131,8 @@
       "week": 9,
       "kind": "Out",
       "injury": "Hamstring",
-      "franchise": null,
-      "team": null
+      "franchise": 2,
+      "team": "Storm FC"
      }
     ]
    }
@@ -2207,8 +2228,8 @@
       "team": "Storm FC"
      }
     ],
-    "rostered": 2,
-    "lost": 10.24
+    "rostered": 3,
+    "lost": 15.36
    }
   ],
   "now": {

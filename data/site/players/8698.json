@@ -178,7 +178,7 @@
    "value": 13.3,
    "digits": 2,
    "rank": 343,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -186,8 +186,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -195,8 +195,8 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 199,
-   "of": 419
+   "rank": 198,
+   "of": 420
   },
   {
    "group": "Career",
@@ -204,8 +204,8 @@
    "stat": "VOR",
    "value": 4.3,
    "digits": 1,
-   "rank": 200,
-   "of": 419
+   "rank": 199,
+   "of": 420
   },
   {
    "group": "Career",
@@ -213,8 +213,8 @@
    "stat": "PAA",
    "value": 1.9,
    "digits": 1,
-   "rank": 128,
-   "of": 419
+   "rank": 126,
+   "of": 420
   },
   {
    "group": "Career",
@@ -222,8 +222,8 @@
    "stat": "Best Game",
    "value": 13.3,
    "digits": 2,
-   "rank": 297,
-   "of": 419
+   "rank": 298,
+   "of": 420
   },
   {
    "group": "Career",
@@ -268,7 +268,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 50,
+   "rank": 51,
    "of": 73,
    "franchise": 10
   },
@@ -318,16 +318,16 @@
    "stat": "Points, 2025",
    "value": 13.3,
    "digits": 2,
-   "rank": 811,
-   "of": 1007,
+   "rank": 816,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 316,
-  "of": 419,
+  "rank": 317,
+  "of": 420,
   "war": 0.5,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -431,6 +431,11 @@
    [
     "2026",
     8,
+    0.75
+   ],
+   [
+    "2026",
+    9,
     0.75
    ]
   ],

@@ -66,13 +66,13 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "w": 3,
-   "l": 5,
+   "l": 6,
    "t": 0,
-   "pf": 892.65,
-   "pa": 997.1,
+   "pf": 1037.13,
+   "pa": 1150.72,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.375,
+   "pct": 0.333,
    "transactions": 23,
    "trades": 2,
    "partial_season": false,
@@ -81,13 +81,13 @@
  ],
  "totals": {
   "w": 18,
-  "l": 32,
+  "l": 33,
   "t": 0,
-  "pf": 5644.23,
-  "pa": 6394.54,
+  "pf": 5788.71,
+  "pa": 6548.16,
   "playoff_w": 0,
   "playoff_l": 0,
-  "pct": 0.36,
+  "pct": 0.353,
   "transactions": 155,
   "trades": 15
  },
@@ -101,13 +101,13 @@
     "name": "Justin Herbert",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 59,
-    "gs": 50,
-    "pts": 816.72,
+    "g": 60,
+    "gs": 51,
+    "pts": 827.24,
     "best": 30.2,
     "wins": 18,
-    "vor": 172.75,
-    "war": 2.04
+    "vor": 169.92,
+    "war": 2.01
    },
    {
     "player": "5892",
@@ -127,7 +127,7 @@
     "name": "Deebo Samuel Sr.",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 59,
+    "g": 60,
     "gs": 36,
     "pts": 503.25,
     "best": 35.8,
@@ -140,7 +140,7 @@
     "name": "Tony Pollard",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 19,
+    "g": 20,
     "gs": 16,
     "pts": 237.6,
     "best": 39.0,
@@ -173,6 +173,19 @@
     "wins": 8,
     "vor": 47.44,
     "war": 0.56
+   },
+   {
+    "player": "9758",
+    "name": "C.J. Stroud",
+    "pos": "QB",
+    "years": "2025-2026",
+    "g": 13,
+    "gs": 11,
+    "pts": 203.9,
+    "best": 35.56,
+    "wins": 4,
+    "vor": 62.66,
+    "war": 0.74
    },
    {
     "player": "4034",
@@ -214,19 +227,6 @@
     "war": 0.46
    },
    {
-    "player": "9758",
-    "name": "C.J. Stroud",
-    "pos": "QB",
-    "years": "2025-2026",
-    "g": 12,
-    "gs": 10,
-    "pts": 168.34,
-    "best": 23.28,
-    "wins": 4,
-    "vor": 40.45,
-    "war": 0.48
-   },
-   {
     "player": "7049",
     "name": "Jauan Jennings",
     "pos": "WR",
@@ -238,6 +238,19 @@
     "wins": 3,
     "vor": 31.3,
     "war": 0.37
+   },
+   {
+    "player": "10213",
+    "name": "Tre Tucker",
+    "pos": "WR",
+    "years": "2025-2026",
+    "g": 25,
+    "gs": 15,
+    "pts": 164.2,
+    "best": 40.9,
+    "wins": 4,
+    "vor": -4.35,
+    "war": -0.05
    },
    {
     "player": "6826",
@@ -253,30 +266,43 @@
     "war": -0.74
    },
    {
-    "player": "10213",
-    "name": "Tre Tucker",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 24,
-    "gs": 14,
-    "pts": 153.2,
-    "best": 40.9,
-    "wins": 4,
-    "vor": -2.84,
-    "war": -0.03
-   },
-   {
     "player": "12534",
     "name": "Kyle Monangai",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 25,
+    "g": 26,
     "gs": 12,
     "pts": 144.7,
     "best": 31.0,
     "wins": 4,
     "vor": 43.86,
     "war": 0.52
+   },
+   {
+    "player": "12501",
+    "name": "Matthew Golden",
+    "pos": "WR",
+    "years": "2026",
+    "g": 9,
+    "gs": 8,
+    "pts": 144.5,
+    "best": 32.4,
+    "wins": 3,
+    "vor": 44.42,
+    "war": 0.52
+   },
+   {
+    "player": "7567",
+    "name": "Kenny Gainwell",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 25,
+    "gs": 12,
+    "pts": 142.7,
+    "best": 31.4,
+    "wins": 3,
+    "vor": 41.86,
+    "war": 0.49
    },
    {
     "player": "2309",
@@ -290,19 +316,6 @@
     "wins": 5,
     "vor": 2.45,
     "war": 0.03
-   },
-   {
-    "player": "7567",
-    "name": "Kenny Gainwell",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 24,
-    "gs": 11,
-    "pts": 131.6,
-    "best": 31.4,
-    "wins": 3,
-    "vor": 38.79,
-    "war": 0.46
    },
    {
     "player": "5248",
@@ -335,7 +348,7 @@
     "name": "Alec Pierce",
     "pos": "WR",
     "years": "2025",
-    "g": 25,
+    "g": 26,
     "gs": 10,
     "pts": 124.6,
     "best": 24.6,
@@ -383,17 +396,17 @@
     "war": 0.49
    },
    {
-    "player": "12501",
-    "name": "Matthew Golden",
+    "player": "9487",
+    "name": "Parker Washington",
     "pos": "WR",
     "years": "2026",
-    "g": 8,
-    "gs": 7,
-    "pts": 112.1,
-    "best": 23.9,
-    "wins": 3,
-    "vor": 24.53,
-    "war": 0.29
+    "g": 11,
+    "gs": 8,
+    "pts": 111.3,
+    "best": 30.4,
+    "wins": 2,
+    "vor": 11.22,
+    "war": 0.13
    },
    {
     "player": "4179",
@@ -407,19 +420,6 @@
     "wins": 3,
     "vor": -17.42,
     "war": -0.21
-   },
-   {
-    "player": "9487",
-    "name": "Parker Washington",
-    "pos": "WR",
-    "years": "2026",
-    "g": 10,
-    "gs": 7,
-    "pts": 97.2,
-    "best": 30.4,
-    "wins": 2,
-    "vor": 9.63,
-    "war": 0.11
    }
   ],
   "by_pos": {
@@ -429,13 +429,13 @@
      "name": "Justin Herbert",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 59,
-     "gs": 50,
-     "pts": 816.72,
+     "g": 60,
+     "gs": 51,
+     "pts": 827.24,
      "best": 30.2,
      "wins": 18,
-     "vor": 172.75,
-     "war": 2.04
+     "vor": 169.92,
+     "war": 2.01
     },
     {
      "player": "421",
@@ -455,13 +455,13 @@
      "name": "C.J. Stroud",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 12,
-     "gs": 10,
-     "pts": 168.34,
-     "best": 23.28,
+     "g": 13,
+     "gs": 11,
+     "pts": 203.9,
+     "best": 35.56,
      "wins": 4,
-     "vor": 40.45,
-     "war": 0.48
+     "vor": 62.66,
+     "war": 0.74
     }
    ],
    "RB": [
@@ -483,7 +483,7 @@
      "name": "Tony Pollard",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 19,
+     "g": 20,
      "gs": 16,
      "pts": 237.6,
      "best": 39.0,
@@ -511,7 +511,7 @@
      "name": "Deebo Samuel Sr.",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 59,
+     "g": 60,
      "gs": 36,
      "pts": 503.25,
      "best": 35.8,
@@ -561,30 +561,30 @@
      "war": -0.74
     },
     {
+     "player": "2505",
+     "name": "Darren Waller",
+     "pos": "TE",
+     "years": "2025-2026",
+     "g": 26,
+     "gs": 9,
+     "pts": 63.8,
+     "best": 23.0,
+     "wins": 1,
+     "vor": -18.0,
+     "war": -0.21
+    },
+    {
      "player": "5001",
      "name": "Dalton Schultz",
      "pos": "TE",
      "years": "2026",
-     "g": 8,
+     "g": 9,
      "gs": 6,
      "pts": 57.7,
      "best": 26.0,
      "wins": 3,
      "vor": 2.14,
      "war": 0.03
-    },
-    {
-     "player": "2505",
-     "name": "Darren Waller",
-     "pos": "TE",
-     "years": "2025-2026",
-     "g": 25,
-     "gs": 8,
-     "pts": 40.8,
-     "best": 18.8,
-     "wins": 1,
-     "vor": -31.74,
-     "war": -0.38
     }
    ],
    "K": [
@@ -678,13 +678,13 @@
    "name": "Justin Herbert",
    "pos": "QB",
    "years": "2023-2026",
-   "g": 59,
-   "gs": 50,
-   "pts": 816.72,
+   "g": 60,
+   "gs": 51,
+   "pts": 827.24,
    "best": 30.2,
    "wins": 18,
-   "vor": 172.75,
-   "war": 2.04
+   "vor": 169.92,
+   "war": 2.01
   },
   {
    "slot": "RB",
@@ -706,7 +706,7 @@
    "name": "Tony Pollard",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 19,
+   "g": 20,
    "gs": 16,
    "pts": 237.6,
    "best": 39.0,
@@ -720,7 +720,7 @@
    "name": "Deebo Samuel Sr.",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 59,
+   "g": 60,
    "gs": 36,
    "pts": 503.25,
    "best": 35.8,
@@ -870,6 +870,17 @@
    "team": "Cooper Scoopers"
   },
   {
+   "player": "9758",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "pts": 35.56,
+   "game": "2026-09-4-6",
+   "season": "2026",
+   "week": 9,
+   "franchise": 4,
+   "team": "Im Stroud Of You"
+  },
+  {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
    "pos": "WR",
@@ -879,6 +890,17 @@
    "week": 14,
    "franchise": 4,
    "team": "Cooper Scoopers"
+  },
+  {
+   "player": "12501",
+   "name": "Matthew Golden",
+   "pos": "WR",
+   "pts": 32.4,
+   "game": "2026-09-4-6",
+   "season": "2026",
+   "week": 9,
+   "franchise": 4,
+   "team": "Im Stroud Of You"
   },
   {
    "player": "7567",
@@ -1066,28 +1088,6 @@
    "week": 10,
    "franchise": 4,
    "team": "Cooper Scoopers"
-  },
-  {
-   "player": "7049",
-   "name": "Jauan Jennings",
-   "pos": "WR",
-   "pts": 28.0,
-   "game": "2024-14-1-4",
-   "season": "2024",
-   "week": 14,
-   "franchise": 4,
-   "team": "Win one game"
-  },
-  {
-   "player": "7525",
-   "name": "DeVonta Smith",
-   "pos": "WR",
-   "pts": 28.0,
-   "game": "2024-15-4-12",
-   "season": "2024",
-   "week": 15,
-   "franchise": 4,
-   "team": "Win one game"
   }
  ],
  "records_held": [
@@ -1235,10 +1235,10 @@
    "season": "2026",
    "franchise": 4,
    "team": "Im Stroud Of You",
-   "games": 25,
+   "games": 29,
    "players": 6,
-   "lost": 33.16,
-   "rank": 5,
+   "lost": 41.45,
+   "rank": 4,
    "of": 12
   }
  ],
@@ -1293,6 +1293,60 @@
      "season": "2025",
      "franchise": 4,
      "team": "Win one game"
+    }
+   ]
+  },
+  {
+   "player": "8142",
+   "name": "Alec Pierce",
+   "pos": "WR",
+   "missed": 9,
+   "lost": 1.68,
+   "injuries": [
+    "Heel",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 4,
+     "team": "Win one game"
+    },
+    {
+     "season": "2026",
+     "franchise": 4,
+     "team": "Im Stroud Of You"
+    }
+   ]
+  },
+  {
+   "player": "13302",
+   "name": "Adam Randall",
+   "pos": "RB",
+   "missed": 9,
+   "lost": 0.0,
+   "injuries": [
+    "Neck"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 4,
+     "team": "Im Stroud Of You"
     }
    ]
   },
@@ -1354,52 +1408,42 @@
    ]
   },
   {
-   "player": "8142",
-   "name": "Alec Pierce",
+   "player": "5872",
+   "name": "Deebo Samuel Sr.",
    "pos": "WR",
-   "missed": 8,
-   "lost": 1.68,
+   "missed": 7,
+   "lost": 11.4,
    "injuries": [
-    "Heel",
-    "Concussion"
+    "Hamstring",
+    "Shoulder",
+    "Calf",
+    "Heel"
    ],
    "kinds": [
-    "IR",
     "Out"
    ],
    "seasons": [
+    "2023",
+    "2024",
     "2025",
     "2026"
    ],
    "teams": [
     {
+     "season": "2023",
+     "franchise": 4,
+     "team": "Cooper Scoopers"
+    },
+    {
+     "season": "2024",
+     "franchise": 4,
+     "team": "Cooper Scoopers"
+    },
+    {
      "season": "2025",
      "franchise": 4,
      "team": "Win one game"
     },
-    {
-     "season": "2026",
-     "franchise": 4,
-     "team": "Im Stroud Of You"
-    }
-   ]
-  },
-  {
-   "player": "13302",
-   "name": "Adam Randall",
-   "pos": "RB",
-   "missed": 8,
-   "lost": 0.0,
-   "injuries": [
-    "Neck"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
     {
      "season": "2026",
      "franchise": 4,
@@ -1432,42 +1476,22 @@
    ]
   },
   {
-   "player": "5872",
-   "name": "Deebo Samuel Sr.",
-   "pos": "WR",
-   "missed": 6,
-   "lost": 11.4,
+   "player": "12534",
+   "name": "Kyle Monangai",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 41.45,
    "injuries": [
-    "Shoulder",
-    "Hamstring",
-    "Calf",
-    "Heel"
+    "Thumb"
    ],
    "kinds": [
-    "Out"
+    "Out",
+    "Questionable"
    ],
    "seasons": [
-    "2023",
-    "2024",
-    "2025",
     "2026"
    ],
    "teams": [
-    {
-     "season": "2023",
-     "franchise": 4,
-     "team": "Cooper Scoopers"
-    },
-    {
-     "season": "2024",
-     "franchise": 4,
-     "team": "Cooper Scoopers"
-    },
-    {
-     "season": "2025",
-     "franchise": 4,
-     "team": "Win one game"
-    },
     {
      "season": "2026",
      "franchise": 4,
@@ -1563,29 +1587,6 @@
      "season": "2025",
      "franchise": 4,
      "team": "Win one game"
-    }
-   ]
-  },
-  {
-   "player": "12534",
-   "name": "Kyle Monangai",
-   "pos": "RB",
-   "missed": 4,
-   "lost": 33.16,
-   "injuries": [
-    "Thumb"
-   ],
-   "kinds": [
-    "Out"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 4,
-     "team": "Im Stroud Of You"
     }
    ]
   },

@@ -90,29 +90,29 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "ARI",
-   "g": 8,
-   "gs": 6,
-   "pts": 73.98,
+   "g": 9,
+   "gs": 7,
+   "pts": 85.98,
    "bench_pts": 36.5,
-   "ppg": 12.33,
+   "ppg": 12.28,
    "best": 26.9,
-   "wins": 3,
-   "paa": -9.87,
-   "vor": -1.08,
-   "war": -0.01
+   "wins": 4,
+   "paa": -11.51,
+   "vor": -1.59,
+   "war": -0.02
   }
  ],
  "totals": {
-  "g": 52,
-  "gs": 12,
-  "pts": 175.18,
+  "g": 53,
+  "gs": 13,
+  "pts": 187.18,
   "bench_pts": 300.7,
-  "ppg": 14.6,
+  "ppg": 14.4,
   "best": 33.5,
-  "wins": 8,
-  "paa": 16.96,
-  "vor": 33.67,
-  "war": 0.4
+  "wins": 9,
+  "paa": 15.32,
+  "vor": 33.16,
+  "war": 0.39
  },
  "nfl": [
   {
@@ -1044,13 +1044,32 @@
    "paa": 13.76,
    "vor": 14.39,
    "war": 0.1700722901932789
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": "WR",
+   "started": true,
+   "pts": 12.0,
+   "proj": null,
+   "won": true,
+   "paa": -1.64,
+   "vor": -0.51,
+   "war": -0.006027579430060615
   }
  ],
  "similar": [
   {
    "player": "7049",
    "name": "Jauan Jennings",
-   "score": 951,
+   "score": 956,
    "gs": 12,
    "pts": 167.3,
    "ppg": 13.94,
@@ -1059,7 +1078,7 @@
   {
    "player": "1689",
    "name": "Adam Thielen",
-   "score": 932,
+   "score": 926,
    "gs": 13,
    "pts": 200.0,
    "ppg": 15.38,
@@ -1068,29 +1087,29 @@
   {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 898,
+   "score": 908,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
    "war": 0.32
   },
   {
+   "player": "12519",
+   "name": "Luther Burden III",
+   "score": 869,
+   "gs": 8,
+   "pts": 120.2,
+   "ppg": 15.03,
+   "war": 0.24
+  },
+  {
    "player": "5947",
    "name": "Jakobi Meyers",
-   "score": 847,
+   "score": 862,
    "gs": 13,
    "pts": 164.3,
    "ppg": 12.64,
    "war": 0.14
-  },
-  {
-   "player": "8148",
-   "name": "Jameson Williams",
-   "score": 832,
-   "gs": 17,
-   "pts": 219.0,
-   "ppg": 12.88,
-   "war": 0.34
   }
  ],
  "status": {
@@ -1103,46 +1122,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 175.18,
+   "value": 187.18,
    "digits": 2,
-   "rank": 166,
-   "of": 419
+   "rank": 161,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
-   "rank": 196,
-   "of": 419
+   "rank": 191,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.4,
+   "value": 0.39,
    "digits": 2,
-   "rank": 124,
-   "of": 419
+   "rank": 126,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 33.7,
+   "value": 33.2,
    "digits": 1,
    "rank": 127,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 17.0,
+   "value": 15.3,
    "digits": 1,
-   "rank": 79,
-   "of": 419
+   "rank": 82,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1150,17 +1169,17 @@
    "stat": "Best Game",
    "value": 33.5,
    "digits": 2,
-   "rank": 67,
-   "of": 419
+   "rank": 68,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 14.6,
+   "value": 14.4,
    "digits": 2,
-   "rank": 73,
-   "of": 252
+   "rank": 77,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1169,13 +1188,13 @@
    "value": 300.7,
    "digits": 2,
    "rank": 14,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 175.18,
+   "value": 187.18,
    "digits": 2,
    "rank": 49,
    "of": 126
@@ -1184,16 +1203,16 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
-   "rank": 57,
+   "rank": 55,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.4,
+   "value": 0.39,
    "digits": 2,
    "rank": 33,
    "of": 126
@@ -1205,7 +1224,7 @@
    "value": 12.8,
    "digits": 2,
    "rank": 48,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1215,7 +1234,7 @@
    "value": 2,
    "digits": 0,
    "rank": 45,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1224,8 +1243,8 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 51,
-   "of": 65,
+   "rank": 53,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1242,37 +1261,37 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points",
-   "value": 162.38,
+   "value": 174.38,
    "digits": 2,
    "rank": 16,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Games Started",
-   "value": 10,
+   "value": 11,
    "digits": 0,
-   "rank": 22,
-   "of": 51,
+   "rank": 20,
+   "of": 52,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.53,
+   "value": 0.52,
    "digits": 2,
    "rank": 13,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points, WRs",
-   "value": 162.38,
+   "value": 174.38,
    "digits": 2,
    "rank": 6,
    "of": 12,
@@ -1342,19 +1361,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 73.98,
+   "value": 85.98,
    "digits": 2,
-   "rank": 68,
-   "of": 230,
+   "rank": 60,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 73.98,
+   "value": 85.98,
    "digits": 2,
-   "rank": 21,
+   "rank": 20,
    "of": 62,
    "season": "2026"
   },
@@ -1364,18 +1383,18 @@
    "stat": "Points, 2025",
    "value": 88.4,
    "digits": 2,
-   "rank": 379,
-   "of": 1007,
+   "rank": 380,
+   "of": 1010,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 73.98,
+   "value": 85.98,
    "digits": 2,
-   "rank": 433,
-   "of": 1007,
+   "rank": 394,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1384,8 +1403,8 @@
    "stat": "Points, 2024",
    "value": 12.8,
    "digits": 2,
-   "rank": 821,
-   "of": 1007,
+   "rank": 826,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1394,17 +1413,17 @@
    "stat": "Points, 2023",
    "value": 0.0,
    "digits": 2,
-   "rank": 991,
-   "of": 1007,
+   "rank": 995,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 11.0,
+  "score": 11.15,
   "rank": 120,
-  "of": 419,
-  "war": 4.0,
-  "starts": 3.0,
+  "of": 420,
+  "war": 3.9,
+  "starts": 3.25,
   "black_ink": 0.0,
   "awards": 4.0,
   "history": [
@@ -1702,6 +1721,11 @@
     "2026",
     8,
     11.0
+   ],
+   [
+    "2026",
+    9,
+    11.15
    ]
   ],
   "benchmark": 100
@@ -1810,6 +1834,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Out",
+   "injury": "Neck",
+   "since": null,
+   "streak": 0
+  }
  }
 }

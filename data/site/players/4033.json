@@ -1045,31 +1045,40 @@
  ],
  "similar": [
   {
-   "player": "9484",
-   "name": "Tucker Kraft",
-   "score": 934,
-   "gs": 20,
-   "pts": 246.3,
-   "ppg": 12.32,
-   "war": 0.7
-  },
-  {
    "player": "5844",
    "name": "T.J. Hockenson",
-   "score": 918,
+   "score": 919,
    "gs": 17,
    "pts": 226.9,
    "ppg": 13.35,
    "war": 0.62
   },
   {
+   "player": "9484",
+   "name": "Tucker Kraft",
+   "score": 891,
+   "gs": 21,
+   "pts": 248.4,
+   "ppg": 11.83,
+   "war": 0.62
+  },
+  {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 840,
+   "score": 839,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
    "war": 0.51
+  },
+  {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 806,
+   "gs": 15,
+   "pts": 175.85,
+   "ppg": 11.72,
+   "war": 0.45
   },
   {
    "player": "4066",
@@ -1079,15 +1088,6 @@
    "pts": 280.4,
    "ppg": 11.22,
    "war": 0.3
-  },
-  {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 782,
-   "gs": 14,
-   "pts": 163.65,
-   "ppg": 11.69,
-   "war": 0.42
   }
  ],
  "status": {
@@ -1101,8 +1101,8 @@
    "stat": "Points",
    "value": 261.4,
    "digits": 2,
-   "rank": 119,
-   "of": 419
+   "rank": 122,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1110,8 +1110,8 @@
    "stat": "Games Started",
    "value": 20,
    "digits": 0,
-   "rank": 141,
-   "of": 419
+   "rank": 144,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1119,8 +1119,8 @@
    "stat": "WAR",
    "value": 0.76,
    "digits": 2,
-   "rank": 93,
-   "of": 419
+   "rank": 94,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1128,8 +1128,8 @@
    "stat": "VOR",
    "value": 64.6,
    "digits": 1,
-   "rank": 93,
-   "of": 419
+   "rank": 94,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1137,8 +1137,8 @@
    "stat": "PAA",
    "value": 31.2,
    "digits": 1,
-   "rank": 61,
-   "of": 419
+   "rank": 62,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1146,8 +1146,8 @@
    "stat": "Best Game",
    "value": 26.2,
    "digits": 2,
-   "rank": 145,
-   "of": 419
+   "rank": 146,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1155,8 +1155,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.07,
    "digits": 2,
-   "rank": 104,
-   "of": 252
+   "rank": 105,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1164,8 +1164,8 @@
    "stat": "Bench Points",
    "value": 150.1,
    "digits": 2,
-   "rank": 90,
-   "of": 506
+   "rank": 91,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1182,7 +1182,7 @@
    "stat": "Games Started",
    "value": 20,
    "digits": 0,
-   "rank": 13,
+   "rank": 15,
    "of": 52
   },
   {
@@ -1201,7 +1201,7 @@
    "value": 261.4,
    "digits": 2,
    "rank": 10,
-   "of": 57,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1211,7 +1211,7 @@
    "value": 20,
    "digits": 0,
    "rank": 10,
-   "of": 57,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1221,7 +1221,7 @@
    "value": 0.77,
    "digits": 2,
    "rank": 9,
-   "of": 57,
+   "of": 58,
    "franchise": 5
   },
   {
@@ -1300,8 +1300,8 @@
    "stat": "Points, 2024",
    "value": 129.6,
    "digits": 2,
-   "rank": 268,
-   "of": 1007,
+   "rank": 277,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1310,8 +1310,8 @@
    "stat": "Points, 2023",
    "value": 80.5,
    "digits": 2,
-   "rank": 403,
-   "of": 1007,
+   "rank": 412,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1320,15 +1320,15 @@
    "stat": "Points, 2025",
    "value": 51.3,
    "digits": 2,
-   "rank": 545,
-   "of": 1007,
+   "rank": 553,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 16.6,
-  "rank": 86,
-  "of": 419,
+  "rank": 88,
+  "of": 420,
   "war": 7.6,
   "starts": 5.0,
   "black_ink": 0.0,
@@ -1627,6 +1627,11 @@
    [
     "2026",
     8,
+    16.6
+   ],
+   [
+    "2026",
+    9,
     16.6
    ]
   ],

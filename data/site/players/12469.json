@@ -40,10 +40,10 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "CLE",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 24.3,
+   "bench_pts": 32.9,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -53,10 +53,10 @@
   }
  ],
  "totals": {
-  "g": 25,
+  "g": 26,
   "gs": 8,
   "pts": 45.15,
-  "bench_pts": 62.6,
+  "bench_pts": 71.2,
   "ppg": 5.64,
   "best": 17.3,
   "wins": 1,
@@ -530,13 +530,29 @@
    "pts": 13.0,
    "proj": 6.99,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 8.6,
+   "proj": 9.16,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "9511",
    "name": "Keaton Mitchell",
-   "score": 897,
+   "score": 896,
    "gs": 8,
    "pts": 58.5,
    "ppg": 7.31,
@@ -545,7 +561,7 @@
   {
    "player": "8154",
    "name": "Brian Robinson Jr.",
-   "score": 879,
+   "score": 881,
    "gs": 14,
    "pts": 90.1,
    "ppg": 6.44,
@@ -554,11 +570,11 @@
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 877,
-   "gs": 13,
-   "pts": 57.4,
-   "ppg": 4.42,
-   "war": -0.63
+   "score": 876,
+   "gs": 14,
+   "pts": 66.4,
+   "ppg": 4.74,
+   "war": -0.62
   },
   {
    "player": "5284",
@@ -572,7 +588,7 @@
   {
    "player": "6151",
    "name": "Miles Sanders",
-   "score": 825,
+   "score": 828,
    "gs": 16,
    "pts": 82.5,
    "ppg": 5.16,
@@ -592,7 +608,7 @@
    "value": 45.15,
    "digits": 2,
    "rank": 275,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -600,8 +616,8 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 236,
-   "of": 419
+   "rank": 239,
+   "of": 420
   },
   {
    "group": "Career",
@@ -609,8 +625,8 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 370,
-   "of": 419
+   "rank": 371,
+   "of": 420
   },
   {
    "group": "Career",
@@ -618,8 +634,8 @@
    "stat": "VOR",
    "value": -23.6,
    "digits": 1,
-   "rank": 371,
-   "of": 419
+   "rank": 373,
+   "of": 420
   },
   {
    "group": "Career",
@@ -627,8 +643,8 @@
    "stat": "PAA",
    "value": -69.6,
    "digits": 1,
-   "rank": 393,
-   "of": 419
+   "rank": 395,
+   "of": 420
   },
   {
    "group": "Career",
@@ -636,8 +652,8 @@
    "stat": "Best Game",
    "value": 17.3,
    "digits": 2,
-   "rank": 257,
-   "of": 419
+   "rank": 259,
+   "of": 420
   },
   {
    "group": "Career",
@@ -645,17 +661,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 5.64,
    "digits": 2,
-   "rank": 238,
-   "of": 252
+   "rank": 242,
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 62.6,
+   "value": 71.2,
    "digits": 2,
-   "rank": 251,
-   "of": 506
+   "rank": 233,
+   "of": 511
   },
   {
    "group": "Career",
@@ -664,7 +680,7 @@
    "value": 45.15,
    "digits": 2,
    "rank": 65,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -673,7 +689,7 @@
    "value": 8,
    "digits": 0,
    "rank": 56,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -681,8 +697,8 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 92,
-   "of": 99
+   "rank": 93,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -690,8 +706,8 @@
    "stat": "Points",
    "value": 45.15,
    "digits": 2,
-   "rank": 24,
-   "of": 47,
+   "rank": 25,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -701,7 +717,7 @@
    "value": 8,
    "digits": 0,
    "rank": 20,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -710,8 +726,8 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 37,
-   "of": 47,
+   "rank": 38,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -750,15 +766,15 @@
    "stat": "Points, 2025",
    "value": 45.15,
    "digits": 2,
-   "rank": 581,
-   "of": 1007,
+   "rank": 589,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
-  "of": 419,
+  "rank": 258,
+  "of": 420,
   "war": 0.0,
   "starts": 2.0,
   "black_ink": 0.0,
@@ -887,6 +903,11 @@
    [
     "2026",
     8,
+    2.0
+   ],
+   [
+    "2026",
+    9,
     2.0
    ]
   ],

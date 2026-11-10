@@ -72,29 +72,29 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "TB",
-   "g": 8,
-   "gs": 5,
-   "pts": 44.76,
+   "g": 9,
+   "gs": 6,
+   "pts": 52.58,
    "bench_pts": 0.0,
-   "ppg": 8.95,
+   "ppg": 8.76,
    "best": 12.58,
    "wins": 0,
-   "paa": -43.86,
-   "vor": -21.99,
-   "war": -0.26
+   "paa": -52.43,
+   "vor": -27.52,
+   "war": -0.33
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 46,
-  "pts": 723.46,
+  "g": 60,
+  "gs": 47,
+  "pts": 731.28,
   "bench_pts": 109.26,
-  "ppg": 15.73,
+  "ppg": 15.56,
   "best": 28.02,
   "wins": 12,
-  "paa": -47.56,
-  "vor": 126.99,
-  "war": 1.5
+  "paa": -56.13,
+  "vor": 121.46,
+  "war": 1.44
  },
  "nfl": [
   {
@@ -1249,53 +1249,72 @@
    "paa": -14.98,
    "vor": -11.55,
    "war": -0.13650694591607862
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": "QB",
+   "started": true,
+   "pts": 7.82,
+   "proj": 15.35,
+   "won": false,
+   "paa": -8.57,
+   "vor": -5.53,
+   "war": -0.06535787107497099
   }
  ],
  "similar": [
   {
    "player": "6797",
    "name": "Justin Herbert",
-   "score": 865,
-   "gs": 50,
-   "pts": 816.72,
-   "ppg": 16.33,
-   "war": 2.04
-  },
-  {
-   "player": "421",
-   "name": "Matthew Stafford",
    "score": 861,
-   "gs": 49,
-   "pts": 808.0,
-   "ppg": 16.49,
-   "war": 2.16
+   "gs": 51,
+   "pts": 827.24,
+   "ppg": 16.22,
+   "war": 2.01
   },
   {
    "player": "9758",
    "name": "C.J. Stroud",
-   "score": 851,
-   "gs": 39,
-   "pts": 620.22,
-   "ppg": 15.9,
-   "war": 1.26
+   "score": 859,
+   "gs": 40,
+   "pts": 655.78,
+   "ppg": 16.39,
+   "war": 1.52
   },
   {
-   "player": "6804",
-   "name": "Jordan Love",
-   "score": 814,
-   "gs": 49,
-   "pts": 835.16,
-   "ppg": 17.04,
-   "war": 2.37
+   "player": "421",
+   "name": "Matthew Stafford",
+   "score": 856,
+   "gs": 50,
+   "pts": 819.32,
+   "ppg": 16.39,
+   "war": 2.13
   },
   {
    "player": "11560",
    "name": "Caleb Williams",
    "score": 756,
-   "gs": 35,
-   "pts": 597.76,
-   "ppg": 17.08,
+   "gs": 36,
+   "pts": 611.02,
+   "ppg": 16.97,
    "war": 2.08
+  },
+  {
+   "player": "6804",
+   "name": "Jordan Love",
+   "score": 753,
+   "gs": 50,
+   "pts": 871.44,
+   "ppg": 17.43,
+   "war": 2.64
   }
  ],
  "status": {
@@ -1308,46 +1327,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 723.46,
+   "value": 731.28,
    "digits": 2,
-   "rank": 26,
-   "of": 419
+   "rank": 27,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 46,
+   "value": 47,
    "digits": 0,
-   "rank": 25,
-   "of": 419
+   "rank": 23,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.5,
+   "value": 1.44,
    "digits": 2,
-   "rank": 61,
-   "of": 419
+   "rank": 65,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 127.0,
+   "value": 121.5,
    "digits": 1,
-   "rank": 61,
-   "of": 419
+   "rank": 65,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -47.6,
+   "value": -56.1,
    "digits": 1,
-   "rank": 365,
-   "of": 419
+   "rank": 375,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1355,17 +1374,17 @@
    "stat": "Best Game",
    "value": 28.02,
    "digits": 2,
-   "rank": 123,
-   "of": 419
+   "rank": 124,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 15.73,
+   "value": 15.56,
    "digits": 2,
-   "rank": 55,
-   "of": 252
+   "rank": 58,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1373,74 +1392,74 @@
    "stat": "Bench Points",
    "value": 109.26,
    "digits": 2,
-   "rank": 156,
-   "of": 506
+   "rank": 158,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 723.46,
+   "value": 731.28,
    "digits": 2,
-   "rank": 11,
+   "rank": 12,
    "of": 66
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 46,
+   "value": 47,
    "digits": 0,
-   "rank": 9,
+   "rank": 8,
    "of": 66
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 1.5,
+   "value": 1.44,
    "digits": 2,
-   "rank": 16,
+   "rank": 19,
    "of": 66
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points",
-   "value": 723.46,
+   "value": 731.28,
    "digits": 2,
    "rank": 2,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Games Started",
-   "value": 46,
+   "value": 47,
    "digits": 0,
-   "rank": 3,
-   "of": 47,
+   "rank": 1,
+   "of": 48,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 1.51,
+   "value": 1.44,
    "digits": 2,
    "rank": 2,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points, QBs",
-   "value": 723.46,
+   "value": 731.28,
    "digits": 2,
    "rank": 1,
-   "of": 5,
+   "of": 6,
    "franchise": 12
   },
   {
@@ -1507,20 +1526,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 44.76,
+   "value": 52.58,
    "digits": 2,
-   "rank": 108,
-   "of": 230,
+   "rank": 104,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 44.76,
+   "value": 52.58,
    "digits": 2,
    "rank": 24,
-   "of": 35,
+   "of": 36,
    "season": "2026"
   },
   {
@@ -1530,7 +1549,7 @@
    "value": 239.52,
    "digits": 2,
    "rank": 68,
-   "of": 1007,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1540,7 +1559,7 @@
    "value": 238.84,
    "digits": 2,
    "rank": 69,
-   "of": 1007,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1549,27 +1568,27 @@
    "stat": "Points, 2024",
    "value": 200.34,
    "digits": 2,
-   "rank": 119,
-   "of": 1007,
+   "rank": 122,
+   "of": 1010,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 44.76,
+   "value": 52.58,
    "digits": 2,
-   "rank": 587,
-   "of": 1007,
+   "rank": 544,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 26.5,
+  "score": 26.15,
   "rank": 59,
-  "of": 419,
-  "war": 15.0,
-  "starts": 11.5,
+  "of": 420,
+  "war": 14.4,
+  "starts": 11.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1867,12 +1886,27 @@
     "2026",
     8,
     26.5
+   ],
+   [
+    "2026",
+    9,
+    26.15
    ]
   ],
   "benchmark": 100
  },
  "black_ink": null,
- "records_held": [],
+ "records_held": [
+  {
+   "list": "Career Starts",
+   "scope": 12,
+   "rank": 1,
+   "value": "47",
+   "href": "franchise.html?id=12#all-time-leaders",
+   "player": "4892",
+   "franchise": 12
+  }
+ ],
  "injuries": {
   "seasons": [
    {

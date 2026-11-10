@@ -43,19 +43,35 @@
    "paa": 3.66,
    "vor": 8.05,
    "war": 0.1
+  },
+  {
+   "season": "2026",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "nfl": "SEA",
+   "g": 1,
+   "gs": 1,
+   "pts": 13.1,
+   "bench_pts": 0.0,
+   "ppg": 13.1,
+   "best": 13.1,
+   "wins": 0,
+   "paa": -3.29,
+   "vor": -0.25,
+   "war": -0.0
   }
  ],
  "totals": {
-  "g": 5,
-  "gs": 1,
-  "pts": 21.4,
+  "g": 6,
+  "gs": 2,
+  "pts": 34.5,
   "bench_pts": 40.86,
-  "ppg": 21.4,
+  "ppg": 17.25,
   "best": 21.4,
   "wins": 0,
-  "paa": 3.66,
-  "vor": 8.05,
-  "war": 0.1
+  "paa": 0.37,
+  "vor": 7.8,
+  "war": 0.09
  },
  "nfl": [
   {
@@ -212,6 +228,25 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": "SUPER_FLEX",
+   "started": true,
+   "pts": 13.1,
+   "proj": 16.96,
+   "won": false,
+   "paa": -3.29,
+   "vor": -0.25,
+   "war": -0.002954695799049321
   }
  ],
  "status": {
@@ -224,46 +259,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 21.4,
+   "value": 34.5,
    "digits": 2,
-   "rank": 317,
-   "of": 419
+   "rank": 289,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 1,
+   "value": 2,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 328,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.09,
    "digits": 2,
-   "rank": 183,
-   "of": 419
+   "rank": 186,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 8.1,
+   "value": 7.8,
    "digits": 1,
-   "rank": 184,
-   "of": 419
+   "rank": 186,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 3.7,
+   "value": 0.4,
    "digits": 1,
-   "rank": 118,
-   "of": 419
+   "rank": 134,
+   "of": 420
   },
   {
    "group": "Career",
@@ -272,7 +307,7 @@
    "value": 21.4,
    "digits": 2,
    "rank": 206,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -280,32 +315,32 @@
    "stat": "Bench Points",
    "value": 40.86,
    "digits": 2,
-   "rank": 316,
-   "of": 506
+   "rank": 320,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 21.4,
+   "value": 34.5,
    "digits": 2,
-   "rank": 55,
+   "rank": 50,
    "of": 66
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 1,
+   "value": 2,
    "digits": 0,
-   "rank": 58,
+   "rank": 52,
    "of": 66
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.09,
    "digits": 2,
    "rank": 37,
    "of": 66
@@ -316,8 +351,8 @@
    "stat": "Points",
    "value": 21.4,
    "digits": 2,
-   "rank": 34,
-   "of": 47,
+   "rank": 35,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -326,8 +361,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 37,
-   "of": 47,
+   "rank": 40,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -337,7 +372,7 @@
    "value": 0.1,
    "digits": 2,
    "rank": 14,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -347,47 +382,87 @@
    "value": 21.4,
    "digits": 2,
    "rank": 5,
-   "of": 5,
+   "of": 6,
    "franchise": 12
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "Points",
+   "value": 13.1,
+   "digits": 2,
+   "rank": 40,
+   "of": 58,
+   "franchise": 5
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 39,
+   "of": 58,
+   "franchise": 5
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "WAR",
+   "value": 0.0,
+   "digits": 2,
+   "rank": 32,
+   "of": 58,
+   "franchise": 5
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "Points, QBs",
+   "value": 13.1,
+   "digits": 2,
+   "rank": 7,
+   "of": 9,
+   "franchise": 5
   },
   {
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 21.4,
+   "value": 34.5,
    "digits": 2,
-   "rank": 153,
-   "of": 230,
+   "rank": 138,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 21.4,
+   "value": 34.5,
    "digits": 2,
-   "rank": 32,
-   "of": 35,
+   "rank": 29,
+   "of": 36,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 21.4,
+   "value": 34.5,
    "digits": 2,
-   "rank": 737,
-   "of": 1007,
+   "rank": 656,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.25,
-  "rank": 291,
-  "of": 419,
-  "war": 1.0,
-  "starts": 0.25,
+  "score": 1.4,
+  "rank": 289,
+  "of": 420,
+  "war": 0.9,
+  "starts": 0.5,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -530,6 +605,11 @@
     "2026",
     8,
     1.25
+   ],
+   [
+    "2026",
+    9,
+    1.4
    ]
   ],
   "benchmark": 100

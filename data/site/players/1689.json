@@ -791,43 +791,43 @@
   {
    "player": "10232",
    "name": "Michael Wilson",
-   "score": 932,
-   "gs": 12,
-   "pts": 175.18,
-   "ppg": 14.6,
-   "war": 0.4
+   "score": 926,
+   "gs": 13,
+   "pts": 187.18,
+   "ppg": 14.4,
+   "war": 0.39
   },
   {
    "player": "7049",
    "name": "Jauan Jennings",
-   "score": 886,
+   "score": 887,
    "gs": 12,
    "pts": 167.3,
    "ppg": 13.94,
    "war": 0.37
   },
   {
+   "player": "12519",
+   "name": "Luther Burden III",
+   "score": 862,
+   "gs": 8,
+   "pts": 120.2,
+   "ppg": 15.03,
+   "war": 0.24
+  },
+  {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 833,
+   "score": 835,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
    "war": 0.32
   },
   {
-   "player": "10229",
-   "name": "Rashee Rice",
-   "score": 808,
-   "gs": 20,
-   "pts": 301.2,
-   "ppg": 15.06,
-   "war": 0.83
-  },
-  {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 804,
+   "score": 808,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
@@ -856,8 +856,8 @@
    "stat": "Points",
    "value": 200.0,
    "digits": 2,
-   "rank": 153,
-   "of": 419
+   "rank": 155,
+   "of": 420
   },
   {
    "group": "Career",
@@ -865,8 +865,8 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 190,
-   "of": 419
+   "rank": 191,
+   "of": 420
   },
   {
    "group": "Career",
@@ -874,8 +874,8 @@
    "stat": "WAR",
    "value": 0.48,
    "digits": 2,
-   "rank": 113,
-   "of": 419
+   "rank": 115,
+   "of": 420
   },
   {
    "group": "Career",
@@ -883,8 +883,8 @@
    "stat": "VOR",
    "value": 40.8,
    "digits": 1,
-   "rank": 115,
-   "of": 419
+   "rank": 116,
+   "of": 420
   },
   {
    "group": "Career",
@@ -892,8 +892,8 @@
    "stat": "PAA",
    "value": 12.8,
    "digits": 1,
-   "rank": 88,
-   "of": 419
+   "rank": 87,
+   "of": 420
   },
   {
    "group": "Career",
@@ -901,8 +901,8 @@
    "stat": "Best Game",
    "value": 31.5,
    "digits": 2,
-   "rank": 87,
-   "of": 419
+   "rank": 89,
+   "of": 420
   },
   {
    "group": "Career",
@@ -910,8 +910,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 15.38,
    "digits": 2,
-   "rank": 60,
-   "of": 252
+   "rank": 61,
+   "of": 256
   },
   {
    "group": "Career",
@@ -919,8 +919,8 @@
    "stat": "Bench Points",
    "value": 129.8,
    "digits": 2,
-   "rank": 123,
-   "of": 506
+   "rank": 125,
+   "of": 511
   },
   {
    "group": "Career",
@@ -946,7 +946,7 @@
    "stat": "WAR",
    "value": 0.48,
    "digits": 2,
-   "rank": 29,
+   "rank": 31,
    "of": 126
   },
   {
@@ -955,7 +955,7 @@
    "stat": "Points",
    "value": 29.3,
    "digits": 2,
-   "rank": 39,
+   "rank": 40,
    "of": 68,
    "franchise": 3
   },
@@ -975,7 +975,7 @@
    "stat": "WAR",
    "value": 0.07,
    "digits": 2,
-   "rank": 33,
+   "rank": 34,
    "of": 68,
    "franchise": 3
   },
@@ -995,7 +995,7 @@
    "stat": "Points",
    "value": 170.7,
    "digits": 2,
-   "rank": 15,
+   "rank": 16,
    "of": 73,
    "franchise": 10
   },
@@ -1075,8 +1075,8 @@
    "stat": "Points, 2023",
    "value": 170.7,
    "digits": 2,
-   "rank": 164,
-   "of": 1007,
+   "rank": 175,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1085,15 +1085,15 @@
    "stat": "Points, 2024",
    "value": 29.3,
    "digits": 2,
-   "rank": 675,
-   "of": 1007,
+   "rank": 683,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 8.05,
-  "rank": 149,
-  "of": 419,
+  "rank": 151,
+  "of": 420,
   "war": 4.8,
   "starts": 3.25,
   "black_ink": 0.0,
@@ -1392,6 +1392,11 @@
    [
     "2026",
     8,
+    8.05
+   ],
+   [
+    "2026",
+    9,
     8.05
    ]
   ],

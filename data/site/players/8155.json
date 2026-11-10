@@ -88,10 +88,10 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "NYJ",
-   "g": 3,
+   "g": 4,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 0.0,
+   "bench_pts": 13.2,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -101,10 +101,10 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 46,
   "pts": 667.96,
-  "bench_pts": 9.9,
+  "bench_pts": 23.1,
   "ppg": 14.52,
   "best": 43.1,
   "wins": 28,
@@ -1279,53 +1279,69 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-3-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 13.2,
+   "proj": 11.66,
+   "won": false
   }
  ],
  "similar": [
   {
-   "player": "8151",
-   "name": "Kenneth Walker III",
-   "score": 920,
-   "gs": 44,
-   "pts": 676.35,
-   "ppg": 15.37,
-   "war": 3.2
+   "player": "5850",
+   "name": "Josh Jacobs",
+   "score": 935,
+   "gs": 45,
+   "pts": 685.5,
+   "ppg": 15.23,
+   "war": 3.14
   },
   {
    "player": "6790",
    "name": "D'Andre Swift",
-   "score": 918,
-   "gs": 50,
-   "pts": 713.9,
-   "ppg": 14.28,
-   "war": 2.93
-  },
-  {
-   "player": "5850",
-   "name": "Josh Jacobs",
-   "score": 908,
-   "gs": 44,
-   "pts": 684.6,
-   "ppg": 15.56,
-   "war": 3.23
-  },
-  {
-   "player": "6813",
-   "name": "Jonathan Taylor",
-   "score": 836,
-   "gs": 47,
-   "pts": 747.1,
-   "ppg": 15.9,
-   "war": 3.73
+   "score": 902,
+   "gs": 51,
+   "pts": 718.2,
+   "ppg": 14.08,
+   "war": 2.89
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 826,
-   "gs": 42,
-   "pts": 561.0,
-   "ppg": 13.36,
-   "war": 2.01
+   "score": 868,
+   "gs": 43,
+   "pts": 585.4,
+   "ppg": 13.61,
+   "war": 2.2
+  },
+  {
+   "player": "8151",
+   "name": "Kenneth Walker III",
+   "score": 866,
+   "gs": 45,
+   "pts": 714.45,
+   "ppg": 15.88,
+   "war": 3.55
+  },
+  {
+   "player": "6813",
+   "name": "Jonathan Taylor",
+   "score": 831,
+   "gs": 48,
+   "pts": 757.8,
+   "ppg": 15.79,
+   "war": 3.76
   }
  ],
  "status": {
@@ -1340,8 +1356,8 @@
    "stat": "Points",
    "value": 667.96,
    "digits": 2,
-   "rank": 34,
-   "of": 419
+   "rank": 36,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1349,8 +1365,8 @@
    "stat": "Games Started",
    "value": 46,
    "digits": 0,
-   "rank": 25,
-   "of": 419
+   "rank": 28,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1358,8 +1374,8 @@
    "stat": "WAR",
    "value": 2.82,
    "digits": 2,
-   "rank": 27,
-   "of": 419
+   "rank": 29,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1367,8 +1383,8 @@
    "stat": "VOR",
    "value": 238.2,
    "digits": 1,
-   "rank": 27,
-   "of": 419
+   "rank": 29,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1376,8 +1392,8 @@
    "stat": "PAA",
    "value": 20.5,
    "digits": 1,
-   "rank": 75,
-   "of": 419
+   "rank": 76,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1386,7 +1402,7 @@
    "value": 43.1,
    "digits": 2,
    "rank": 18,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1395,16 +1411,16 @@
    "value": 14.52,
    "digits": 2,
    "rank": 75,
-   "of": 252
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 9.9,
+   "value": 23.1,
    "digits": 2,
-   "rank": 431,
-   "of": 506
+   "rank": 381,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1413,7 +1429,7 @@
    "value": 667.96,
    "digits": 2,
    "rank": 13,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -1421,8 +1437,8 @@
    "stat": "Games Started",
    "value": 46,
    "digits": 0,
-   "rank": 8,
-   "of": 99
+   "rank": 9,
+   "of": 100
   },
   {
    "group": "Career",
@@ -1430,8 +1446,8 @@
    "stat": "WAR",
    "value": 2.82,
    "digits": 2,
-   "rank": 14,
-   "of": 99
+   "rank": 15,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -1439,7 +1455,7 @@
    "stat": "Points",
    "value": 186.76,
    "digits": 2,
-   "rank": 12,
+   "rank": 13,
    "of": 68,
    "franchise": 3
   },
@@ -1449,7 +1465,7 @@
    "stat": "Games Started",
    "value": 15,
    "digits": 0,
-   "rank": 13,
+   "rank": 14,
    "of": 68,
    "franchise": 3
   },
@@ -1459,7 +1475,7 @@
    "stat": "WAR",
    "value": 0.68,
    "digits": 2,
-   "rank": 10,
+   "rank": 11,
    "of": 68,
    "franchise": 3
   },
@@ -1469,7 +1485,7 @@
    "stat": "Points, RBs",
    "value": 186.76,
    "digits": 2,
-   "rank": 4,
+   "rank": 5,
    "of": 15,
    "franchise": 3
   },
@@ -1520,7 +1536,7 @@
    "value": 47.6,
    "digits": 2,
    "rank": 23,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1529,8 +1545,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 27,
-   "of": 47,
+   "rank": 29,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1539,8 +1555,8 @@
    "stat": "WAR",
    "value": 0.28,
    "digits": 2,
-   "rank": 7,
-   "of": 47,
+   "rank": 8,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1619,8 +1635,8 @@
    "stat": "Points",
    "value": 47.6,
    "digits": 2,
-   "rank": 104,
-   "of": 230,
+   "rank": 112,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -1630,7 +1646,7 @@
    "value": 47.6,
    "digits": 2,
    "rank": 27,
-   "of": 57,
+   "of": 58,
    "season": "2026"
   },
   {
@@ -1639,8 +1655,8 @@
    "stat": "Points, 2023",
    "value": 224.0,
    "digits": 2,
-   "rank": 82,
-   "of": 1007,
+   "rank": 84,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1649,8 +1665,8 @@
    "stat": "Points, 2024",
    "value": 209.6,
    "digits": 2,
-   "rank": 103,
-   "of": 1007,
+   "rank": 104,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1659,8 +1675,8 @@
    "stat": "Points, 2025",
    "value": 186.76,
    "digits": 2,
-   "rank": 144,
-   "of": 1007,
+   "rank": 148,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1669,15 +1685,15 @@
    "stat": "Points, 2026",
    "value": 47.6,
    "digits": 2,
-   "rank": 568,
-   "of": 1007,
+   "rank": 576,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 39.7,
   "rank": 32,
-  "of": 419,
+  "of": 420,
   "war": 28.2,
   "starts": 11.5,
   "black_ink": 0.0,
@@ -1976,6 +1992,11 @@
    [
     "2026",
     8,
+    39.7
+   ],
+   [
+    "2026",
+    9,
     39.7
    ]
   ],

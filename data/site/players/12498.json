@@ -40,10 +40,10 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "NYJ",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 44.6,
+   "bench_pts": 46.7,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -53,10 +53,10 @@
   }
  ],
  "totals": {
-  "g": 25,
+  "g": 26,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 133.5,
+  "bench_pts": 135.6,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -491,6 +491,22 @@
    "pts": 4.9,
    "proj": 8.03,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 2.1,
+   "proj": 7.62,
+   "won": true
   }
  ],
  "status": {
@@ -503,10 +519,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 133.5,
+   "value": 135.6,
    "digits": 2,
    "rank": 111,
-   "of": 506
+   "of": 511
   }
  ],
  "similar": [],

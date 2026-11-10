@@ -79,29 +79,29 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "WAS",
-   "g": 8,
-   "gs": 5,
-   "pts": 103.34,
+   "g": 9,
+   "gs": 6,
+   "pts": 118.3,
    "bench_pts": 0.0,
-   "ppg": 20.67,
+   "ppg": 19.72,
    "best": 33.16,
-   "wins": 3,
-   "paa": 14.59,
-   "vor": 36.59,
-   "war": 0.43
+   "wins": 4,
+   "paa": 13.16,
+   "vor": 38.2,
+   "war": 0.45
   }
  ],
  "totals": {
-  "g": 42,
-  "gs": 31,
-  "pts": 538.94,
+  "g": 43,
+  "gs": 32,
+  "pts": 553.9,
   "bench_pts": 0.0,
-  "ppg": 17.39,
+  "ppg": 17.31,
   "best": 34.42,
-  "wins": 14,
-  "paa": 12.97,
-  "vor": 162.91,
-  "war": 1.93
+  "wins": 15,
+  "paa": 11.54,
+  "vor": 164.52,
+  "war": 1.94
  },
  "nfl": [
   {
@@ -923,53 +923,72 @@
    "paa": -1.6,
    "vor": 1.83,
    "war": 0.02162837324904103
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-2-11",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": "QB",
+   "started": true,
+   "pts": 14.96,
+   "proj": 18.62,
+   "won": true,
+   "paa": -1.43,
+   "vor": 1.61,
+   "war": 0.019028240945877628
   }
  ],
  "similar": [
   {
    "player": "11560",
    "name": "Caleb Williams",
-   "score": 912,
-   "gs": 35,
-   "pts": 597.76,
-   "ppg": 17.08,
+   "score": 914,
+   "gs": 36,
+   "pts": 611.02,
+   "ppg": 16.97,
    "war": 2.08
   },
   {
    "player": "11563",
    "name": "Bo Nix",
-   "score": 829,
-   "gs": 24,
-   "pts": 414.24,
-   "ppg": 17.26,
-   "war": 1.45
+   "score": 834,
+   "gs": 25,
+   "pts": 430.42,
+   "ppg": 17.22,
+   "war": 1.49
   },
   {
    "player": "7523",
    "name": "Trevor Lawrence",
-   "score": 827,
-   "gs": 37,
-   "pts": 673.88,
-   "ppg": 18.21,
+   "score": 831,
+   "gs": 38,
+   "pts": 687.56,
+   "ppg": 18.09,
    "war": 2.41
+  },
+  {
+   "player": "9758",
+   "name": "C.J. Stroud",
+   "score": 823,
+   "gs": 40,
+   "pts": 655.78,
+   "ppg": 16.39,
+   "war": 1.52
   },
   {
    "player": "1166",
    "name": "Kirk Cousins",
-   "score": 814,
-   "gs": 30,
-   "pts": 474.22,
-   "ppg": 15.81,
+   "score": 813,
+   "gs": 31,
+   "pts": 487.06,
+   "ppg": 15.71,
    "war": 0.95
-  },
-  {
-   "player": "4943",
-   "name": "Sam Darnold",
-   "score": 812,
-   "gs": 23,
-   "pts": 400.74,
-   "ppg": 17.42,
-   "war": 1.47
   }
  ],
  "status": {
@@ -982,46 +1001,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 538.94,
+   "value": 553.9,
    "digits": 2,
-   "rank": 54,
-   "of": 419
+   "rank": 51,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 31,
+   "value": 32,
    "digits": 0,
-   "rank": 83,
-   "of": 419
+   "rank": 81,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.93,
+   "value": 1.94,
    "digits": 2,
    "rank": 50,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 162.9,
+   "value": 164.5,
    "digits": 1,
    "rank": 50,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 13.0,
+   "value": 11.5,
    "digits": 1,
-   "rank": 87,
-   "of": 419
+   "rank": 91,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1029,23 +1048,23 @@
    "stat": "Best Game",
    "value": 34.42,
    "digits": 2,
-   "rank": 61,
-   "of": 419
+   "rank": 62,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 17.39,
+   "value": 17.31,
    "digits": 2,
-   "rank": 25,
-   "of": 252
+   "rank": 27,
+   "of": 256
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 538.94,
+   "value": 553.9,
    "digits": 2,
    "rank": 16,
    "of": 66
@@ -1054,7 +1073,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 31,
+   "value": 32,
    "digits": 0,
    "rank": 18,
    "of": 66
@@ -1063,7 +1082,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 1.93,
+   "value": 1.94,
    "digits": 2,
    "rank": 15,
    "of": 66
@@ -1072,37 +1091,37 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points",
-   "value": 469.28,
+   "value": 484.24,
    "digits": 2,
    "rank": 3,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Games Started",
-   "value": 28,
+   "value": 29,
    "digits": 0,
-   "rank": 5,
-   "of": 75,
+   "rank": 3,
+   "of": 76,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 1.54,
+   "value": 1.56,
    "digits": 2,
-   "rank": 3,
-   "of": 75,
+   "rank": 4,
+   "of": 76,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points, QBs",
-   "value": 469.28,
+   "value": 484.24,
    "digits": 2,
    "rank": 2,
    "of": 11,
@@ -1115,7 +1134,7 @@
    "value": 69.66,
    "digits": 2,
    "rank": 26,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1125,7 +1144,7 @@
    "value": 3,
    "digits": 0,
    "rank": 40,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1135,7 +1154,7 @@
    "value": 0.39,
    "digits": 2,
    "rank": 12,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1192,20 +1211,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 103.34,
+   "value": 118.3,
    "digits": 2,
-   "rank": 47,
-   "of": 230,
+   "rank": 45,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 103.34,
+   "value": 118.3,
    "digits": 2,
    "rank": 14,
-   "of": 35,
+   "of": 36,
    "season": "2026"
   },
   {
@@ -1215,8 +1234,18 @@
    "value": 319.82,
    "digits": 2,
    "rank": 17,
-   "of": 1007,
+   "of": 1010,
    "season": "2024"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 118.3,
+   "digits": 2,
+   "rank": 310,
+   "of": 1010,
+   "season": "2026"
   },
   {
    "group": "Season",
@@ -1224,27 +1253,17 @@
    "stat": "Points, 2025",
    "value": 115.78,
    "digits": 2,
-   "rank": 313,
-   "of": 1007,
+   "rank": 317,
+   "of": 1010,
    "season": "2025"
-  },
-  {
-   "group": "Season",
-   "scope": "All single seasons",
-   "stat": "Points, 2026",
-   "value": 103.34,
-   "digits": 2,
-   "rank": 341,
-   "of": 1007,
-   "season": "2026"
   }
  ],
  "hof": {
-  "score": 33.05,
+  "score": 33.4,
   "rank": 42,
-  "of": 419,
-  "war": 19.3,
-  "starts": 7.75,
+  "of": 420,
+  "war": 19.4,
+  "starts": 8.0,
   "black_ink": 0.0,
   "awards": 6.0,
   "history": [
@@ -1457,6 +1476,11 @@
     "2026",
     8,
     33.05
+   ],
+   [
+    "2026",
+    9,
+    33.4
    ]
   ],
   "benchmark": 100

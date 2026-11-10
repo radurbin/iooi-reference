@@ -72,7 +72,7 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "SF",
-   "g": 8,
+   "g": 9,
    "gs": 1,
    "pts": 15.6,
    "bench_pts": 45.7,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 36,
   "pts": 503.25,
   "bench_pts": 130.7,
@@ -123,7 +123,7 @@
    "team": "SF",
    "g": 5,
    "pts": 61.3,
-   "rank": 58
+   "rank": 59
   }
  ],
  "history": [
@@ -1189,53 +1189,69 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
-   "player": "9997",
-   "name": "Zay Flowers",
-   "score": 951,
-   "gs": 36,
-   "pts": 486.6,
-   "ppg": 13.52,
-   "war": 0.86
-  },
-  {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 942,
+   "score": 944,
    "gs": 38,
    "pts": 539.5,
    "ppg": 14.2,
    "war": 1.03
   },
   {
+   "player": "9997",
+   "name": "Zay Flowers",
+   "score": 934,
+   "gs": 37,
+   "pts": 493.7,
+   "ppg": 13.34,
+   "war": 0.8
+  },
+  {
+   "player": "2449",
+   "name": "Stefon Diggs",
+   "score": 909,
+   "gs": 33,
+   "pts": 490.52,
+   "ppg": 14.86,
+   "war": 1.14
+  },
+  {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 890,
+   "score": 893,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
    "war": 0.72
   },
   {
-   "player": "2449",
-   "name": "Stefon Diggs",
-   "score": 879,
-   "gs": 32,
-   "pts": 482.42,
-   "ppg": 15.08,
-   "war": 1.19
-  },
-  {
    "player": "4983",
    "name": "DJ Moore",
-   "score": 878,
-   "gs": 41,
-   "pts": 562.68,
-   "ppg": 13.72,
-   "war": 0.95
+   "score": 858,
+   "gs": 42,
+   "pts": 569.38,
+   "ppg": 13.56,
+   "war": 0.88
   }
  ],
  "status": {
@@ -1250,8 +1266,8 @@
    "stat": "Points",
    "value": 503.25,
    "digits": 2,
-   "rank": 60,
-   "of": 419
+   "rank": 61,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1259,8 +1275,8 @@
    "stat": "Games Started",
    "value": 36,
    "digits": 0,
-   "rank": 60,
-   "of": 419
+   "rank": 62,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1269,7 +1285,7 @@
    "value": 1.02,
    "digits": 2,
    "rank": 75,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1277,8 +1293,8 @@
    "stat": "VOR",
    "value": 86.0,
    "digits": 1,
-   "rank": 75,
-   "of": 419
+   "rank": 76,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1286,8 +1302,8 @@
    "stat": "PAA",
    "value": 25.5,
    "digits": 1,
-   "rank": 67,
-   "of": 419
+   "rank": 68,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1295,8 +1311,8 @@
    "stat": "Best Game",
    "value": 35.8,
    "digits": 2,
-   "rank": 53,
-   "of": 419
+   "rank": 54,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1304,8 +1320,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.98,
    "digits": 2,
-   "rank": 84,
-   "of": 252
+   "rank": 86,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1313,8 +1329,8 @@
    "stat": "Bench Points",
    "value": 130.7,
    "digits": 2,
-   "rank": 119,
-   "of": 506
+   "rank": 121,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1331,7 +1347,7 @@
    "stat": "Games Started",
    "value": 36,
    "digits": 0,
-   "rank": 17,
+   "rank": 18,
    "of": 126
   },
   {
@@ -1449,8 +1465,8 @@
    "stat": "Points",
    "value": 15.6,
    "digits": 2,
-   "rank": 168,
-   "of": 230,
+   "rank": 174,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -1459,7 +1475,7 @@
    "stat": "Points",
    "value": 15.6,
    "digits": 2,
-   "rank": 44,
+   "rank": 46,
    "of": 62,
    "season": "2026"
   },
@@ -1469,8 +1485,8 @@
    "stat": "Points, 2023",
    "value": 222.6,
    "digits": 2,
-   "rank": 85,
-   "of": 1007,
+   "rank": 87,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1479,8 +1495,8 @@
    "stat": "Points, 2025",
    "value": 160.05,
    "digits": 2,
-   "rank": 188,
-   "of": 1007,
+   "rank": 203,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1489,8 +1505,8 @@
    "stat": "Points, 2024",
    "value": 105.0,
    "digits": 2,
-   "rank": 337,
-   "of": 1007,
+   "rank": 343,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1499,15 +1515,15 @@
    "stat": "Points, 2026",
    "value": 15.6,
    "digits": 2,
-   "rank": 788,
-   "of": 1007,
+   "rank": 794,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 19.2,
   "rank": 80,
-  "of": 419,
+  "of": 420,
   "war": 10.2,
   "starts": 9.0,
   "black_ink": 0.0,
@@ -1807,6 +1823,11 @@
     "2026",
     8,
     19.2
+   ],
+   [
+    "2026",
+    9,
+    19.2
    ]
   ],
   "benchmark": 100
@@ -1914,7 +1935,7 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 2,
+    "rostered": 3,
     "games": [
      {
       "week": 6,
@@ -1934,8 +1955,8 @@
       "week": 9,
       "kind": "Out",
       "injury": "Hamstring",
-      "franchise": null,
-      "team": null
+      "franchise": 4,
+      "team": "Im Stroud Of You"
      }
     ]
    }
@@ -2029,7 +2050,7 @@
       "team": "Im Stroud Of You"
      }
     ],
-    "rostered": 2,
+    "rostered": 3,
     "lost": 0.0
    }
   ],

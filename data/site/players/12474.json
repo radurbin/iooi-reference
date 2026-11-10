@@ -40,29 +40,29 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "HOU",
-   "g": 8,
-   "gs": 2,
-   "pts": 22.6,
+   "g": 9,
+   "gs": 3,
+   "pts": 32.8,
    "bench_pts": 47.6,
-   "ppg": 11.3,
+   "ppg": 10.93,
    "best": 11.6,
    "wins": 1,
-   "paa": -8.37,
-   "vor": 6.54,
-   "war": 0.08
+   "paa": -11.7,
+   "vor": 8.71,
+   "war": 0.1
   }
  ],
  "totals": {
-  "g": 25,
-  "gs": 2,
-  "pts": 22.6,
+  "g": 26,
+  "gs": 3,
+  "pts": 32.8,
   "bench_pts": 191.9,
-  "ppg": 11.3,
+  "ppg": 10.93,
   "best": 11.6,
   "wins": 1,
-  "paa": -8.37,
-  "vor": 6.54,
-  "war": 0.08
+  "paa": -11.7,
+  "vor": 8.71,
+  "war": 0.1
  },
  "nfl": [
   {
@@ -523,6 +523,25 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": "RB",
+   "started": true,
+   "pts": 10.2,
+   "proj": 15.48,
+   "won": false,
+   "paa": -3.33,
+   "vor": 2.17,
+   "war": 0.025646759535748104
   }
  ],
  "status": {
@@ -535,46 +554,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 22.6,
+   "value": 32.8,
    "digits": 2,
-   "rank": 310,
-   "of": 419
+   "rank": 293,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 327,
-   "of": 419
+   "rank": 299,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.1,
    "digits": 2,
-   "rank": 185,
-   "of": 419
+   "rank": 184,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 6.5,
+   "value": 8.7,
    "digits": 1,
-   "rank": 185,
-   "of": 419
+   "rank": 184,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -8.4,
+   "value": -11.7,
    "digits": 1,
-   "rank": 197,
-   "of": 419
+   "rank": 233,
+   "of": 420
   },
   {
    "group": "Career",
@@ -582,8 +601,8 @@
    "stat": "Best Game",
    "value": 11.6,
    "digits": 2,
-   "rank": 318,
-   "of": 419
+   "rank": 320,
+   "of": 420
   },
   {
    "group": "Career",
@@ -591,71 +610,71 @@
    "stat": "Bench Points",
    "value": 191.9,
    "digits": 2,
-   "rank": 51,
-   "of": 506
+   "rank": 52,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 22.6,
+   "value": 32.8,
    "digits": 2,
-   "rank": 70,
-   "of": 99
+   "rank": 69,
+   "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 77,
-   "of": 99
+   "rank": 71,
+   "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.1,
    "digits": 2,
    "rank": 54,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Points",
-   "value": 22.6,
+   "value": 32.8,
    "digits": 2,
-   "rank": 31,
-   "of": 57,
+   "rank": 27,
+   "of": 58,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 30,
-   "of": 57,
+   "rank": 29,
+   "of": 58,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.1,
    "digits": 2,
-   "rank": 27,
-   "of": 57,
+   "rank": 26,
+   "of": 58,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Points, RBs",
-   "value": 22.6,
+   "value": 32.8,
    "digits": 2,
    "rank": 7,
    "of": 13,
@@ -665,40 +684,40 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 22.6,
+   "value": 32.8,
    "digits": 2,
-   "rank": 151,
-   "of": 230,
+   "rank": 142,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 22.6,
+   "value": 32.8,
    "digits": 2,
-   "rank": 37,
-   "of": 57,
+   "rank": 36,
+   "of": 58,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 22.6,
+   "value": 32.8,
    "digits": 2,
-   "rank": 728,
-   "of": 1007,
+   "rank": 669,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.3,
-  "rank": 289,
-  "of": 419,
-  "war": 0.8,
-  "starts": 0.5,
+  "score": 1.75,
+  "rank": 273,
+  "of": 420,
+  "war": 1.0,
+  "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -826,6 +845,11 @@
     "2026",
     8,
     1.3
+   ],
+   [
+    "2026",
+    9,
+    1.75
    ]
   ],
   "benchmark": 100

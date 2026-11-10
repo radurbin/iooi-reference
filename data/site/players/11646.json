@@ -65,29 +65,29 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "CAR",
-   "g": 8,
-   "gs": 5,
-   "pts": 47.1,
+   "g": 9,
+   "gs": 6,
+   "pts": 53.8,
    "bench_pts": 33.8,
-   "ppg": 9.42,
+   "ppg": 8.97,
    "best": 15.7,
-   "wins": 2,
-   "paa": -20.93,
-   "vor": -15.45,
-   "war": -0.18
+   "wins": 3,
+   "paa": -27.87,
+   "vor": -21.26,
+   "war": -0.25
   }
  ],
  "totals": {
-  "g": 33,
-  "gs": 8,
-  "pts": 68.1,
+  "g": 34,
+  "gs": 9,
+  "pts": 74.8,
   "bench_pts": 103.9,
-  "ppg": 8.51,
+  "ppg": 8.31,
   "best": 15.7,
-  "wins": 2,
-  "paa": -38.51,
-  "vor": -27.35,
-  "war": -0.32
+  "wins": 3,
+  "paa": -45.45,
+  "vor": -33.16,
+  "war": -0.39
  },
  "nfl": [
   {
@@ -711,22 +711,50 @@
    "paa": -2.04,
    "vor": -1.41,
    "war": -0.01666448430663817
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-9-10",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": "FLEX",
+   "started": true,
+   "pts": 6.7,
+   "proj": 13.77,
+   "won": true,
+   "paa": -6.94,
+   "vor": -5.81,
+   "war": -0.06866713036990621
   }
  ],
  "similar": [
   {
    "player": "11637",
    "name": "Keon Coleman",
-   "score": 975,
+   "score": 971,
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
    "war": -0.3
   },
   {
+   "player": "12514",
+   "name": "Emeka Egbuka",
+   "score": 916,
+   "gs": 8,
+   "pts": 74.3,
+   "ppg": 9.29,
+   "war": -0.17
+  },
+  {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 862,
+   "score": 891,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
@@ -735,25 +763,16 @@
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 853,
+   "score": 884,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
    "war": -0.52
   },
   {
-   "player": "2374",
-   "name": "Tyler Lockett",
-   "score": 834,
-   "gs": 15,
-   "pts": 132.1,
-   "ppg": 8.81,
-   "war": -0.57
-  },
-  {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 833,
+   "score": 859,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
@@ -770,46 +789,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 68.1,
+   "value": 74.8,
    "digits": 2,
-   "rank": 244,
-   "of": 419
+   "rank": 238,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 8,
+   "value": 9,
    "digits": 0,
-   "rank": 236,
-   "of": 419
+   "rank": 232,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.32,
+   "value": -0.39,
    "digits": 2,
-   "rank": 381,
-   "of": 419
+   "rank": 388,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -27.4,
+   "value": -33.2,
    "digits": 1,
-   "rank": 383,
-   "of": 419
+   "rank": 389,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -38.5,
+   "value": -45.5,
    "digits": 1,
-   "rank": 352,
-   "of": 419
+   "rank": 359,
+   "of": 420
   },
   {
    "group": "Career",
@@ -817,17 +836,17 @@
    "stat": "Best Game",
    "value": 15.7,
    "digits": 2,
-   "rank": 276,
-   "of": 419
+   "rank": 277,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 8.51,
+   "value": 8.31,
    "digits": 2,
-   "rank": 194,
-   "of": 252
+   "rank": 202,
+   "of": 256
   },
   {
    "group": "Career",
@@ -836,22 +855,22 @@
    "value": 103.9,
    "digits": 2,
    "rank": 168,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 68.1,
+   "value": 74.8,
    "digits": 2,
-   "rank": 68,
+   "rank": 65,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 8,
+   "value": 9,
    "digits": 0,
    "rank": 65,
    "of": 126
@@ -860,46 +879,46 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.32,
+   "value": -0.39,
    "digits": 2,
-   "rank": 112,
+   "rank": 115,
    "of": 126
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points",
-   "value": 61.0,
+   "value": 67.7,
    "digits": 2,
    "rank": 28,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 25,
-   "of": 65,
+   "rank": 23,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.34,
    "digits": 2,
-   "rank": 57,
-   "of": 65,
+   "rank": 64,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points, WRs",
-   "value": 61.0,
+   "value": 67.7,
    "digits": 2,
    "rank": 10,
    "of": 16,
@@ -989,17 +1008,17 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 47.1,
+   "value": 53.8,
    "digits": 2,
-   "rank": 105,
-   "of": 230,
+   "rank": 102,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 47.1,
+   "value": 53.8,
    "digits": 2,
    "rank": 28,
    "of": 62,
@@ -1009,10 +1028,10 @@
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 47.1,
+   "value": 53.8,
    "digits": 2,
-   "rank": 571,
-   "of": 1007,
+   "rank": 540,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1021,8 +1040,8 @@
    "stat": "Points, 2025",
    "value": 13.9,
    "digits": 2,
-   "rank": 804,
-   "of": 1007,
+   "rank": 810,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1031,17 +1050,17 @@
    "stat": "Points, 2024",
    "value": 7.1,
    "digits": 2,
-   "rank": 897,
-   "of": 1007,
+   "rank": 903,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 2.0,
-  "rank": 255,
-  "of": 419,
+  "score": 2.25,
+  "rank": 252,
+  "of": 420,
   "war": 0.0,
-  "starts": 2.0,
+  "starts": 2.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1214,6 +1233,11 @@
     "2026",
     8,
     2.0
+   ],
+   [
+    "2026",
+    9,
+    2.25
    ]
   ],
   "benchmark": 100

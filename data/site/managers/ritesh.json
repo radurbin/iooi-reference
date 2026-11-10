@@ -71,14 +71,14 @@
    "season": "2026",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "w": 6,
+   "w": 7,
    "l": 2,
    "t": 0,
-   "pf": 1343.9,
-   "pa": 1080.78,
+   "pf": 1489.48,
+   "pa": 1196.46,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.75,
+   "pct": 0.778,
    "transactions": 61,
    "trades": 5,
    "partial_season": false,
@@ -86,14 +86,14 @@
   }
  ],
  "totals": {
-  "w": 25,
+  "w": 26,
   "l": 25,
   "t": 0,
-  "pf": 6709.1,
-  "pa": 6545.49,
+  "pf": 6854.68,
+  "pa": 6661.17,
   "playoff_w": 0,
   "playoff_l": 2,
-  "pct": 0.5,
+  "pct": 0.51,
   "transactions": 165,
   "trades": 16
  },
@@ -107,12 +107,12 @@
     "name": "Jaxon Smith-Njigba",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 59,
-    "gs": 35,
-    "pts": 734.96,
+    "g": 60,
+    "gs": 36,
+    "pts": 747.06,
     "best": 42.5,
-    "wins": 16,
-    "vor": 333.53,
+    "wins": 17,
+    "vor": 333.12,
     "war": 3.94
    },
    {
@@ -146,13 +146,13 @@
     "name": "Javonte Williams",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 25,
-    "gs": 21,
-    "pts": 338.1,
+    "g": 26,
+    "gs": 22,
+    "pts": 362.5,
     "best": 33.2,
-    "wins": 11,
-    "vor": 162.19,
-    "war": 1.92
+    "wins": 12,
+    "vor": 178.56,
+    "war": 2.11
    },
    {
     "player": "1166",
@@ -172,7 +172,7 @@
     "name": "Ashton Jeanty",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 25,
+    "g": 26,
     "gs": 21,
     "pts": 330.4,
     "best": 35.0,
@@ -185,7 +185,7 @@
     "name": "Lamar Jackson",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 25,
+    "g": 26,
     "gs": 17,
     "pts": 278.42,
     "best": 29.36,
@@ -198,7 +198,7 @@
     "name": "Terry McLaurin",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 42,
+    "g": 43,
     "gs": 19,
     "pts": 249.3,
     "best": 27.3,
@@ -233,6 +233,19 @@
     "war": 0.48
    },
    {
+    "player": "7611",
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "years": "2024-2026",
+    "g": 43,
+    "gs": 16,
+    "pts": 199.0,
+    "best": 23.5,
+    "wins": 8,
+    "vor": 56.6,
+    "war": 0.67
+   },
+   {
     "player": "7591",
     "name": "Justin Fields",
     "pos": "QB",
@@ -257,19 +270,6 @@
     "wins": 8,
     "vor": 57.91,
     "war": 0.68
-   },
-   {
-    "player": "7611",
-    "name": "Rhamondre Stevenson",
-    "pos": "RB",
-    "years": "2024-2026",
-    "g": 42,
-    "gs": 15,
-    "pts": 183.6,
-    "best": 23.5,
-    "wins": 7,
-    "vor": 49.23,
-    "war": 0.58
    },
    {
     "player": "5022",
@@ -311,6 +311,19 @@
     "war": 0.43
    },
    {
+    "player": "7564",
+    "name": "Ja'Marr Chase",
+    "pos": "WR",
+    "years": "2026",
+    "g": 9,
+    "gs": 8,
+    "pts": 164.7,
+    "best": 32.6,
+    "wins": 6,
+    "vor": 64.62,
+    "war": 0.76
+   },
+   {
     "player": "3257",
     "name": "Jacoby Brissett",
     "pos": "QB",
@@ -322,6 +335,19 @@
     "wins": 3,
     "vor": 62.84,
     "war": 0.74
+   },
+   {
+    "player": "3163",
+    "name": "Jared Goff",
+    "pos": "QB",
+    "years": "2026",
+    "g": 9,
+    "gs": 8,
+    "pts": 149.26,
+    "best": 30.08,
+    "wins": 6,
+    "vor": 42.46,
+    "war": 0.5
    },
    {
     "player": "7523",
@@ -337,19 +363,6 @@
     "war": 0.42
    },
    {
-    "player": "3163",
-    "name": "Jared Goff",
-    "pos": "QB",
-    "years": "2026",
-    "g": 8,
-    "gs": 7,
-    "pts": 143.56,
-    "best": 30.08,
-    "wins": 5,
-    "vor": 50.11,
-    "war": 0.59
-   },
-   {
     "player": "6806",
     "name": "J.K. Dobbins",
     "pos": "RB",
@@ -363,17 +376,17 @@
     "war": 0.61
    },
    {
-    "player": "7564",
-    "name": "Ja'Marr Chase",
-    "pos": "WR",
-    "years": "2026",
-    "g": 8,
-    "gs": 7,
-    "pts": 133.2,
-    "best": 32.6,
+    "player": "11559",
+    "name": "Michael Penix Jr.",
+    "pos": "QB",
+    "years": "2025-2026",
+    "g": 26,
+    "gs": 9,
+    "pts": 130.24,
+    "best": 24.02,
     "wins": 5,
-    "vor": 45.63,
-    "war": 0.54
+    "vor": 21.31,
+    "war": 0.25
    },
    {
     "player": "6943",
@@ -413,19 +426,6 @@
     "wins": 5,
     "vor": 0.62,
     "war": 0.01
-   },
-   {
-    "player": "11559",
-    "name": "Michael Penix Jr.",
-    "pos": "QB",
-    "years": "2025-2026",
-    "g": 25,
-    "gs": 8,
-    "pts": 116.46,
-    "best": 24.02,
-    "wins": 4,
-    "vor": 20.88,
-    "war": 0.25
    }
   ],
   "by_pos": {
@@ -448,7 +448,7 @@
      "name": "Lamar Jackson",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 25,
+     "g": 26,
      "gs": 17,
      "pts": 278.42,
      "best": 29.36,
@@ -476,20 +476,20 @@
      "name": "Javonte Williams",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 25,
-     "gs": 21,
-     "pts": 338.1,
+     "g": 26,
+     "gs": 22,
+     "pts": 362.5,
      "best": 33.2,
-     "wins": 11,
-     "vor": 162.19,
-     "war": 1.92
+     "wins": 12,
+     "vor": 178.56,
+     "war": 2.11
     },
     {
      "player": "12527",
      "name": "Ashton Jeanty",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 25,
+     "g": 26,
      "gs": 21,
      "pts": 330.4,
      "best": 35.0,
@@ -517,12 +517,12 @@
      "name": "Jaxon Smith-Njigba",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 59,
-     "gs": 35,
-     "pts": 734.96,
+     "g": 60,
+     "gs": 36,
+     "pts": 747.06,
      "best": 42.5,
-     "wins": 16,
-     "vor": 333.53,
+     "wins": 17,
+     "vor": 333.12,
      "war": 3.94
     },
     {
@@ -584,13 +584,13 @@
      "name": "Tucker Kraft",
      "pos": "TE",
      "years": "2026",
-     "g": 8,
-     "gs": 8,
-     "pts": 90.2,
+     "g": 9,
+     "gs": 9,
+     "pts": 92.3,
      "best": 18.1,
-     "wins": 6,
-     "vor": 16.12,
-     "war": 0.19
+     "wins": 7,
+     "vor": 8.96,
+     "war": 0.11
     }
    ],
    "K": [
@@ -621,17 +621,17 @@
      "war": 0.35
     },
     {
-     "player": "12713",
-     "name": "Andy Borregales",
+     "player": "12185",
+     "name": "Spencer Shrader",
      "pos": "K",
-     "years": "2025",
-     "g": 7,
-     "gs": 4,
-     "pts": 51.0,
-     "best": 18.0,
-     "wins": 1,
-     "vor": 18.52,
-     "war": 0.22
+     "years": "2026",
+     "g": 5,
+     "gs": 5,
+     "pts": 53.9,
+     "best": 22.3,
+     "wins": 4,
+     "vor": 7.85,
+     "war": 0.09
     }
    ],
    "DEF": [
@@ -698,13 +698,13 @@
    "name": "Javonte Williams",
    "pos": "RB",
    "years": "2025-2026",
-   "g": 25,
-   "gs": 21,
-   "pts": 338.1,
+   "g": 26,
+   "gs": 22,
+   "pts": 362.5,
    "best": 33.2,
-   "wins": 11,
-   "vor": 162.19,
-   "war": 1.92
+   "wins": 12,
+   "vor": 178.56,
+   "war": 2.11
   },
   {
    "slot": "RB",
@@ -712,7 +712,7 @@
    "name": "Ashton Jeanty",
    "pos": "RB",
    "years": "2025-2026",
-   "g": 25,
+   "g": 26,
    "gs": 21,
    "pts": 330.4,
    "best": 35.0,
@@ -726,12 +726,12 @@
    "name": "Jaxon Smith-Njigba",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 59,
-   "gs": 35,
-   "pts": 734.96,
+   "g": 60,
+   "gs": 36,
+   "pts": 747.06,
    "best": 42.5,
-   "wins": 16,
-   "vor": 333.53,
+   "wins": 17,
+   "vor": 333.12,
    "war": 3.94
   },
   {
@@ -782,7 +782,7 @@
    "name": "Lamar Jackson",
    "pos": "QB",
    "years": "2025-2026",
-   "g": 25,
+   "g": 26,
    "gs": 17,
    "pts": 278.42,
    "best": 29.36,
@@ -986,6 +986,17 @@
    "team": "Kolkata Kommies"
   },
   {
+   "player": "7564",
+   "name": "Ja'Marr Chase",
+   "pos": "WR",
+   "pts": 31.5,
+   "game": "2026-09-3-8",
+   "season": "2026",
+   "week": 9,
+   "franchise": 3,
+   "team": "Kolkata Kommies"
+  },
+  {
    "player": "8151",
    "name": "Kenneth Walker III",
    "pos": "RB",
@@ -1083,17 +1094,6 @@
    "week": 8,
    "franchise": 3,
    "team": "Kolkata Kommies"
-  },
-  {
-   "player": "1166",
-   "name": "Kirk Cousins",
-   "pos": "QB",
-   "pts": 28.56,
-   "game": "2023-02-6-10",
-   "season": "2023",
-   "week": 2,
-   "franchise": 10,
-   "team": "You Like That?"
   }
  ],
  "records_held": [
@@ -1316,10 +1316,10 @@
    "season": "2026",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "games": 21,
+   "games": 23,
    "players": 9,
    "lost": 18.26,
-   "rank": 9,
+   "rank": 11,
    "of": 12
   }
  ],
@@ -1371,12 +1371,14 @@
    ]
   },
   {
-   "player": "11559",
-   "name": "Michael Penix Jr.",
-   "pos": "QB",
-   "missed": 9,
-   "lost": 14.54,
+   "player": "5927",
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "missed": 10,
+   "lost": 8.26,
    "injuries": [
+    "Quadricep",
+    "Hamstring",
     "Knee"
    ],
    "kinds": [
@@ -1402,14 +1404,13 @@
    ]
   },
   {
-   "player": "5927",
-   "name": "Terry McLaurin",
-   "pos": "WR",
+   "player": "11559",
+   "name": "Michael Penix Jr.",
+   "pos": "QB",
    "missed": 9,
-   "lost": 8.26,
+   "lost": 14.54,
    "injuries": [
-    "Quadricep",
-    "Hamstring"
+    "Knee"
    ],
    "kinds": [
     "IR",
@@ -1551,6 +1552,29 @@
    ]
   },
   {
+   "player": "13417",
+   "name": "De'Zhaun Stribling",
+   "pos": "WR",
+   "missed": 7,
+   "lost": 0.0,
+   "injuries": [
+    "Ankle"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 3,
+     "team": "Kolkata Kommies"
+    }
+   ]
+  },
+  {
    "player": "7523",
    "name": "Trevor Lawrence",
    "pos": "QB",
@@ -1570,29 +1594,6 @@
    "teams": [
     {
      "season": "2024",
-     "franchise": 3,
-     "team": "Kolkata Kommies"
-    }
-   ]
-  },
-  {
-   "player": "13417",
-   "name": "De'Zhaun Stribling",
-   "pos": "WR",
-   "missed": 6,
-   "lost": 0.0,
-   "injuries": [
-    "Ankle"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
      "franchise": 3,
      "team": "Kolkata Kommies"
     }

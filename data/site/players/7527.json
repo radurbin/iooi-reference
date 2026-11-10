@@ -155,7 +155,7 @@
    "team": "SF",
    "g": 2,
    "pts": 0.0,
-   "rank": 59
+   "rank": 61
   }
  ],
  "history": [
@@ -896,7 +896,7 @@
   {
    "player": "10217",
    "name": "Clayton Tune",
-   "score": 721,
+   "score": 722,
    "gs": 8,
    "pts": 7.22,
    "ppg": 0.9,
@@ -930,13 +930,13 @@
    "war": -0.28
   },
   {
-   "player": "6768",
-   "name": "Tua Tagovailoa",
-   "score": 418,
-   "gs": 33,
-   "pts": 366.78,
-   "ppg": 11.11,
-   "war": -0.81
+   "player": "6011",
+   "name": "Gardner Minshew II",
+   "score": 438,
+   "gs": 12,
+   "pts": 164.56,
+   "ppg": 13.71,
+   "war": -0.01
   }
  ],
  "status": {
@@ -961,7 +961,7 @@
    "value": 57.14,
    "digits": 2,
    "rank": 261,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -969,8 +969,8 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 208,
-   "of": 419
+   "rank": 210,
+   "of": 420
   },
   {
    "group": "Career",
@@ -978,8 +978,8 @@
    "stat": "WAR",
    "value": -1.06,
    "digits": 2,
-   "rank": 418,
-   "of": 419
+   "rank": 419,
+   "of": 420
   },
   {
    "group": "Career",
@@ -987,8 +987,8 @@
    "stat": "VOR",
    "value": -89.3,
    "digits": 1,
-   "rank": 418,
-   "of": 419
+   "rank": 419,
+   "of": 420
   },
   {
    "group": "Career",
@@ -996,8 +996,8 @@
    "stat": "PAA",
    "value": -108.8,
    "digits": 1,
-   "rank": 414,
-   "of": 419
+   "rank": 415,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1006,7 +1006,7 @@
    "value": 23.06,
    "digits": 2,
    "rank": 191,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1014,8 +1014,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 5.19,
    "digits": 2,
-   "rank": 241,
-   "of": 252
+   "rank": 245,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1023,8 +1023,8 @@
    "stat": "Bench Points",
    "value": 133.06,
    "digits": 2,
-   "rank": 114,
-   "of": 506
+   "rank": 115,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1041,7 +1041,7 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 33,
+   "rank": 34,
    "of": 66
   },
   {
@@ -1099,7 +1099,7 @@
    "stat": "Points",
    "value": 34.38,
    "digits": 2,
-   "rank": 37,
+   "rank": 38,
    "of": 68,
    "franchise": 3
   },
@@ -1109,7 +1109,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 22,
+   "rank": 24,
    "of": 68,
    "franchise": 3
   },
@@ -1199,8 +1199,8 @@
    "stat": "Points, 2025",
    "value": 33.94,
    "digits": 2,
-   "rank": 652,
-   "of": 1007,
+   "rank": 661,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1209,8 +1209,8 @@
    "stat": "Points, 2023",
    "value": 17.96,
    "digits": 2,
-   "rank": 759,
-   "of": 1007,
+   "rank": 766,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1219,15 +1219,15 @@
    "stat": "Points, 2024",
    "value": 5.24,
    "digits": 2,
-   "rank": 921,
-   "of": 1007,
+   "rank": 926,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 2.75,
-  "rank": 235,
-  "of": 419,
+  "rank": 236,
+  "of": 420,
   "war": 0.0,
   "starts": 2.75,
   "black_ink": 0.0,
@@ -1526,6 +1526,11 @@
    [
     "2026",
     8,
+    2.75
+   ],
+   [
+    "2026",
+    9,
     2.75
    ]
   ],

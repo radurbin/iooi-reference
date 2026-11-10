@@ -72,7 +72,7 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "IND",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.92,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 14,
   "pts": 221.66,
   "bench_pts": 3.08,
@@ -123,7 +123,7 @@
    "team": "IND",
    "g": 1,
    "pts": 0.92,
-   "rank": 53
+   "rank": 54
   }
  ],
  "history": [
@@ -1161,13 +1161,29 @@
    "pts": 0.92,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "3257",
    "name": "Jacoby Brissett",
-   "score": 920,
+   "score": 921,
    "gs": 15,
    "pts": 251.56,
    "ppg": 16.77,
@@ -1176,7 +1192,7 @@
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 882,
+   "score": 883,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -1185,29 +1201,29 @@
   {
    "player": "8162",
    "name": "Sam Howell",
-   "score": 866,
+   "score": 867,
    "gs": 9,
    "pts": 154.44,
    "ppg": 17.16,
    "war": 0.26
   },
   {
-   "player": "6011",
-   "name": "Gardner Minshew II",
-   "score": 865,
-   "gs": 11,
-   "pts": 157.42,
-   "ppg": 14.31,
-   "war": 0.07
+   "player": "11559",
+   "name": "Michael Penix Jr.",
+   "score": 857,
+   "gs": 9,
+   "pts": 130.24,
+   "ppg": 14.47,
+   "war": 0.25
   },
   {
    "player": "9228",
    "name": "Bryce Young",
-   "score": 843,
-   "gs": 19,
-   "pts": 264.38,
-   "ppg": 13.91,
-   "war": 0.19
+   "score": 847,
+   "gs": 20,
+   "pts": 284.82,
+   "ppg": 14.24,
+   "war": 0.28
   }
  ],
  "status": {
@@ -1222,8 +1238,8 @@
    "stat": "Points",
    "value": 221.66,
    "digits": 2,
-   "rank": 137,
-   "of": 419
+   "rank": 138,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1231,8 +1247,8 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 180,
-   "of": 419
+   "rank": 182,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1240,8 +1256,8 @@
    "stat": "WAR",
    "value": 0.48,
    "digits": 2,
-   "rank": 113,
-   "of": 419
+   "rank": 115,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1249,8 +1265,8 @@
    "stat": "VOR",
    "value": 40.8,
    "digits": 1,
-   "rank": 114,
-   "of": 419
+   "rank": 115,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1258,8 +1274,8 @@
    "stat": "PAA",
    "value": -10.6,
    "digits": 1,
-   "rank": 224,
-   "of": 419
+   "rank": 219,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1267,8 +1283,8 @@
    "stat": "Best Game",
    "value": 29.6,
    "digits": 2,
-   "rank": 108,
-   "of": 419
+   "rank": 110,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1276,8 +1292,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 15.83,
    "digits": 2,
-   "rank": 52,
-   "of": 252
+   "rank": 53,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1285,8 +1301,8 @@
    "stat": "Bench Points",
    "value": 3.08,
    "digits": 2,
-   "rank": 484,
-   "of": 506
+   "rank": 488,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1322,7 +1338,7 @@
    "value": 221.66,
    "digits": 2,
    "rank": 13,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1332,7 +1348,7 @@
    "value": 14,
    "digits": 0,
    "rank": 12,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1342,7 +1358,7 @@
    "value": 0.48,
    "digits": 2,
    "rank": 11,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -1401,8 +1417,8 @@
    "stat": "Points, 2024",
    "value": 148.98,
    "digits": 2,
-   "rank": 218,
-   "of": 1007,
+   "rank": 233,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1411,15 +1427,15 @@
    "stat": "Points, 2023",
    "value": 72.68,
    "digits": 2,
-   "rank": 445,
-   "of": 1007,
+   "rank": 451,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 8.3,
-  "rank": 144,
-  "of": 419,
+  "rank": 145,
+  "of": 420,
   "war": 4.8,
   "starts": 3.5,
   "black_ink": 0.0,
@@ -1718,6 +1734,11 @@
    [
     "2026",
     8,
+    8.3
+   ],
+   [
+    "2026",
+    9,
     8.3
    ]
   ],

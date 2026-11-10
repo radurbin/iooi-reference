@@ -1503,7 +1503,7 @@
    "season": "2025",
    "franchise": 4,
    "team": "Win one game",
-   "score": 834,
+   "score": 835,
    "w": 3,
    "l": 11,
    "ppg": 100.87,
@@ -1523,31 +1523,31 @@
    "season": "2023",
    "franchise": 3,
    "team": "dantasy football",
-   "score": 804,
+   "score": 803,
    "w": 4,
    "l": 10,
    "ppg": 107.09,
    "result": "Ultimate Loser"
   },
   {
-   "season": "2026",
-   "franchise": 4,
-   "team": "Im Stroud Of You",
-   "score": 507,
-   "w": 3,
-   "l": 5,
-   "ppg": 111.58,
-   "result": null
-  },
-  {
    "season": "2024",
    "franchise": 4,
    "team": "Win one game",
-   "score": 491,
+   "score": 492,
    "w": 6,
    "l": 8,
    "ppg": 116.19,
    "result": "10th"
+  },
+  {
+   "season": "2026",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "score": 490,
+   "w": 2,
+   "l": 7,
+   "ppg": 103.1,
+   "result": null
   }
  ],
  "pickups": [
@@ -1719,7 +1719,7 @@
     "alex"
    ],
    "until": null,
-   "g": 25,
+   "g": 26,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1991,7 +1991,7 @@
     "alex"
    ],
    "until": null,
-   "g": 14,
+   "g": 15,
    "gs": 4,
    "pts": 53.8,
    "wins": 0,
@@ -2208,8 +2208,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 4,
-   "pts": 28.0,
+   "gs": 5,
+   "pts": 44.0,
    "next": 4,
    "next_team": "Win one game"
   },
@@ -2250,8 +2250,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 4,
-   "pts": 28.0,
+   "gs": 5,
+   "pts": 44.0,
    "next": 4,
    "next_team": "Win one game"
   },
@@ -2348,8 +2348,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 4,
-   "pts": 28.0,
+   "gs": 5,
+   "pts": 44.0,
    "next": 4,
    "next_team": "Win one game"
   },
@@ -2446,8 +2446,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 2,
-   "pts": 18.0,
+   "gs": 3,
+   "pts": 34.0,
    "next": 3,
    "next_team": "Kolkata Kommies"
   },
@@ -2792,21 +2792,6 @@
    "value": "13",
    "href": "records.html#team-season-records",
    "season": "2025",
-   "franchise": 2,
-   "team": "Storm FC",
-   "managers": [
-    "alex"
-   ]
-  },
-  {
-   "list": "Highest Score",
-   "scope": 2,
-   "rank": 1,
-   "value": "171.18",
-   "href": "franchise.html?id=2#franchise-records",
-   "season": "2025",
-   "week": 4,
-   "game": "2025-04-2-8",
    "franchise": 2,
    "team": "Storm FC",
    "managers": [

@@ -72,7 +72,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "NYJ",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 48.5,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 37,
+  "g": 38,
   "gs": 4,
   "pts": 53.8,
   "bench_pts": 131.16,
@@ -764,6 +764,22 @@
    "pts": 27.2,
    "proj": 5.66,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-2-11",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": 10.27,
+   "won": true
   }
  ],
  "status": {
@@ -779,7 +795,7 @@
    "value": 53.8,
    "digits": 2,
    "rank": 263,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -788,7 +804,7 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -796,8 +812,8 @@
    "stat": "WAR",
    "value": 0.13,
    "digits": 2,
-   "rank": 176,
-   "of": 419
+   "rank": 178,
+   "of": 420
   },
   {
    "group": "Career",
@@ -805,8 +821,8 @@
    "stat": "VOR",
    "value": 11.4,
    "digits": 1,
-   "rank": 176,
-   "of": 419
+   "rank": 178,
+   "of": 420
   },
   {
    "group": "Career",
@@ -814,8 +830,8 @@
    "stat": "PAA",
    "value": 2.0,
    "digits": 1,
-   "rank": 127,
-   "of": 419
+   "rank": 125,
+   "of": 420
   },
   {
    "group": "Career",
@@ -823,8 +839,8 @@
    "stat": "Best Game",
    "value": 24.2,
    "digits": 2,
-   "rank": 169,
-   "of": 419
+   "rank": 170,
+   "of": 420
   },
   {
    "group": "Career",
@@ -832,8 +848,8 @@
    "stat": "Bench Points",
    "value": 131.16,
    "digits": 2,
-   "rank": 117,
-   "of": 506
+   "rank": 119,
+   "of": 511
   },
   {
    "group": "Career",
@@ -859,7 +875,7 @@
    "stat": "WAR",
    "value": 0.13,
    "digits": 2,
-   "rank": 44,
+   "rank": 45,
    "of": 126
   },
   {
@@ -869,7 +885,7 @@
    "value": 53.8,
    "digits": 2,
    "rank": 30,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -879,7 +895,7 @@
    "value": 4,
    "digits": 0,
    "rank": 32,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -889,7 +905,7 @@
    "value": 0.13,
    "digits": 2,
    "rank": 27,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -928,16 +944,16 @@
    "stat": "Points, 2025",
    "value": 53.8,
    "digits": 2,
-   "rank": 535,
-   "of": 1007,
+   "rank": 540,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 2.3,
-  "rank": 247,
-  "of": 419,
+  "rank": 251,
+  "of": 420,
   "war": 1.3,
   "starts": 1.0,
   "black_ink": 0.0,
@@ -1151,6 +1167,11 @@
    [
     "2026",
     8,
+    2.3
+   ],
+   [
+    "2026",
+    9,
     2.3
    ]
   ],

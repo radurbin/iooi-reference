@@ -40,29 +40,29 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "CHI",
-   "g": 8,
-   "gs": 7,
-   "pts": 98.0,
+   "g": 9,
+   "gs": 8,
+   "pts": 120.2,
    "bench_pts": 19.9,
-   "ppg": 14.0,
+   "ppg": 15.03,
    "best": 23.8,
    "wins": 3,
-   "paa": 0.46,
-   "vor": 10.43,
-   "war": 0.12
+   "paa": 9.02,
+   "vor": 20.12,
+   "war": 0.24
   }
  ],
  "totals": {
-  "g": 25,
-  "gs": 7,
-  "pts": 98.0,
+  "g": 26,
+  "gs": 8,
+  "pts": 120.2,
   "bench_pts": 140.3,
-  "ppg": 14.0,
+  "ppg": 15.03,
   "best": 23.8,
   "wins": 3,
-  "paa": 0.46,
-  "vor": 10.43,
-  "war": 0.12
+  "paa": 9.02,
+  "vor": 20.12,
+  "war": 0.24
  },
  "nfl": [
   {
@@ -515,6 +515,72 @@
    "paa": 5.46,
    "vor": 6.09,
    "war": 0.07197638966484146
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-2-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "WR",
+   "started": true,
+   "pts": 22.2,
+   "proj": 14.62,
+   "won": false,
+   "paa": 8.56,
+   "vor": 9.69,
+   "war": 0.11452400917115167
+  }
+ ],
+ "similar": [
+  {
+   "player": "7049",
+   "name": "Jauan Jennings",
+   "score": 876,
+   "gs": 12,
+   "pts": 167.3,
+   "ppg": 13.94,
+   "war": 0.37
+  },
+  {
+   "player": "10232",
+   "name": "Michael Wilson",
+   "score": 869,
+   "gs": 13,
+   "pts": 187.18,
+   "ppg": 14.4,
+   "war": 0.39
+  },
+  {
+   "player": "1689",
+   "name": "Adam Thielen",
+   "score": 862,
+   "gs": 13,
+   "pts": 200.0,
+   "ppg": 15.38,
+   "war": 0.48
+  },
+  {
+   "player": "8126",
+   "name": "Wan'Dale Robinson",
+   "score": 843,
+   "gs": 12,
+   "pts": 158.8,
+   "ppg": 13.23,
+   "war": 0.32
+  },
+  {
+   "player": "8142",
+   "name": "Alec Pierce",
+   "score": 810,
+   "gs": 10,
+   "pts": 124.6,
+   "ppg": 12.46,
+   "war": 0.22
   }
  ],
  "status": {
@@ -527,46 +593,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 98.0,
+   "value": 120.2,
    "digits": 2,
-   "rank": 221,
-   "of": 419
+   "rank": 208,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 253,
-   "of": 419
+   "rank": 239,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.12,
+   "value": 0.24,
    "digits": 2,
-   "rank": 178,
-   "of": 419
+   "rank": 154,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 10.4,
+   "value": 20.1,
    "digits": 1,
-   "rank": 178,
-   "of": 419
+   "rank": 155,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 0.5,
+   "value": 9.0,
    "digits": 1,
-   "rank": 134,
-   "of": 419
+   "rank": 100,
+   "of": 420
   },
   {
    "group": "Career",
@@ -575,7 +641,16 @@
    "value": 23.8,
    "digits": 2,
    "rank": 183,
-   "of": 419
+   "of": 420
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Points per Start (min. 8 GS)",
+   "value": 15.03,
+   "digits": 2,
+   "rank": 66,
+   "of": 256
   },
   {
    "group": "Career",
@@ -583,42 +658,52 @@
    "stat": "Bench Points",
    "value": 140.3,
    "digits": 2,
-   "rank": 105,
-   "of": 506
+   "rank": 107,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 98.0,
+   "value": 120.2,
    "digits": 2,
-   "rank": 64,
+   "rank": 61,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 68,
+   "rank": 66,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.12,
+   "value": 0.24,
    "digits": 2,
-   "rank": 45,
+   "rank": 39,
    "of": 126
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points",
-   "value": 98.0,
+   "value": 120.2,
    "digits": 2,
+   "rank": 16,
+   "of": 44,
+   "franchise": 11
+  },
+  {
+   "group": "Franchise",
+   "scope": "BubbaNASTIES",
+   "stat": "Games Started",
+   "value": 8,
+   "digits": 0,
    "rank": 19,
    "of": 44,
    "franchise": 11
@@ -626,20 +711,10 @@
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
-   "stat": "Games Started",
-   "value": 7,
-   "digits": 0,
-   "rank": 20,
-   "of": 44,
-   "franchise": 11
-  },
-  {
-   "group": "Franchise",
-   "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": 0.12,
+   "value": 0.24,
    "digits": 2,
-   "rank": 14,
+   "rank": 11,
    "of": 44,
    "franchise": 11
   },
@@ -647,7 +722,7 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points, WRs",
-   "value": 98.0,
+   "value": 120.2,
    "digits": 2,
    "rank": 8,
    "of": 13,
@@ -657,19 +732,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 98.0,
+   "value": 120.2,
    "digits": 2,
-   "rank": 51,
-   "of": 230,
+   "rank": 44,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 98.0,
+   "value": 120.2,
    "digits": 2,
-   "rank": 16,
+   "rank": 13,
    "of": 62,
    "season": "2026"
   },
@@ -677,20 +752,19 @@
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 98.0,
+   "value": 120.2,
    "digits": 2,
-   "rank": 355,
-   "of": 1007,
+   "rank": 304,
+   "of": 1010,
    "season": "2026"
   }
  ],
- "similar": [],
  "hof": {
-  "score": 2.95,
-  "rank": 233,
-  "of": 419,
-  "war": 1.2,
-  "starts": 1.75,
+  "score": 4.4,
+  "rank": 207,
+  "of": 420,
+  "war": 2.4,
+  "starts": 2.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -818,6 +892,11 @@
     "2026",
     8,
     2.95
+   ],
+   [
+    "2026",
+    9,
+    4.4
    ]
   ],
   "benchmark": 100

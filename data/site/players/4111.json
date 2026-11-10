@@ -677,16 +677,16 @@
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 815,
-   "gs": 13,
-   "pts": 57.4,
-   "ppg": 4.42,
-   "war": -0.63
+   "score": 789,
+   "gs": 14,
+   "pts": 66.4,
+   "ppg": 4.74,
+   "war": -0.62
   },
   {
    "player": "12469",
    "name": "Dylan Sampson",
-   "score": 757,
+   "score": 755,
    "gs": 8,
    "pts": 45.15,
    "ppg": 5.64,
@@ -704,7 +704,7 @@
   {
    "player": "8154",
    "name": "Brian Robinson Jr.",
-   "score": 690,
+   "score": 689,
    "gs": 14,
    "pts": 90.1,
    "ppg": 6.44,
@@ -724,7 +724,7 @@
    "value": 14.5,
    "digits": 2,
    "rank": 338,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -732,8 +732,8 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 236,
-   "of": 419
+   "rank": 239,
+   "of": 420
   },
   {
    "group": "Career",
@@ -741,8 +741,8 @@
    "stat": "WAR",
    "value": -0.75,
    "digits": 2,
-   "rank": 412,
-   "of": 419
+   "rank": 413,
+   "of": 420
   },
   {
    "group": "Career",
@@ -750,8 +750,8 @@
    "stat": "VOR",
    "value": -63.2,
    "digits": 1,
-   "rank": 412,
-   "of": 419
+   "rank": 413,
+   "of": 420
   },
   {
    "group": "Career",
@@ -759,8 +759,8 @@
    "stat": "PAA",
    "value": -93.8,
    "digits": 1,
-   "rank": 408,
-   "of": 419
+   "rank": 409,
+   "of": 420
   },
   {
    "group": "Career",
@@ -768,8 +768,8 @@
    "stat": "Best Game",
    "value": 9.2,
    "digits": 2,
-   "rank": 335,
-   "of": 419
+   "rank": 338,
+   "of": 420
   },
   {
    "group": "Career",
@@ -777,8 +777,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 1.81,
    "digits": 2,
-   "rank": 251,
-   "of": 252
+   "rank": 255,
+   "of": 256
   },
   {
    "group": "Career",
@@ -786,8 +786,8 @@
    "stat": "Bench Points",
    "value": 100.5,
    "digits": 2,
-   "rank": 171,
-   "of": 506
+   "rank": 172,
+   "of": 511
   },
   {
    "group": "Career",
@@ -796,7 +796,7 @@
    "value": 14.5,
    "digits": 2,
    "rank": 77,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -805,7 +805,7 @@
    "value": 8,
    "digits": 0,
    "rank": 56,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -813,8 +813,8 @@
    "stat": "WAR",
    "value": -0.75,
    "digits": 2,
-   "rank": 97,
-   "of": 99
+   "rank": 98,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -823,7 +823,7 @@
    "value": 14.5,
    "digits": 2,
    "rank": 36,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -833,7 +833,7 @@
    "value": 8,
    "digits": 0,
    "rank": 20,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -842,8 +842,8 @@
    "stat": "WAR",
    "value": -0.75,
    "digits": 2,
-   "rank": 42,
-   "of": 47,
+   "rank": 43,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -902,8 +902,8 @@
    "stat": "Points, 2023",
    "value": 9.2,
    "digits": 2,
-   "rank": 866,
-   "of": 1007,
+   "rank": 871,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -912,15 +912,15 @@
    "stat": "Points, 2024",
    "value": 5.3,
    "digits": 2,
-   "rank": 919,
-   "of": 1007,
+   "rank": 924,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 2.0,
-  "rank": 255,
-  "of": 419,
+  "rank": 258,
+  "of": 420,
   "war": 0.0,
   "starts": 2.0,
   "black_ink": 0.0,
@@ -1219,6 +1219,11 @@
    [
     "2026",
     8,
+    2.0
+   ],
+   [
+    "2026",
+    9,
     2.0
    ]
   ],

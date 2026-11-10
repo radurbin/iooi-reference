@@ -50,10 +50,26 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "season": "2026",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "nfl": "WAS",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
   }
  ],
  "totals": {
-  "g": 17,
+  "g": 18,
   "gs": 1,
   "pts": 4.7,
   "bench_pts": 25.8,
@@ -404,6 +420,22 @@
    "pts": 3.1,
    "proj": 5.66,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-9-10",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -418,8 +450,8 @@
    "stat": "Points",
    "value": 4.7,
    "digits": 2,
-   "rank": 376,
-   "of": 419
+   "rank": 378,
+   "of": 420
   },
   {
    "group": "Career",
@@ -427,8 +459,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -436,8 +468,8 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 274,
-   "of": 419
+   "rank": 275,
+   "of": 420
   },
   {
    "group": "Career",
@@ -445,8 +477,8 @@
    "stat": "VOR",
    "value": -7.7,
    "digits": 1,
-   "rank": 277,
-   "of": 419
+   "rank": 279,
+   "of": 420
   },
   {
    "group": "Career",
@@ -454,8 +486,8 @@
    "stat": "PAA",
    "value": -8.0,
    "digits": 1,
-   "rank": 192,
-   "of": 419
+   "rank": 191,
+   "of": 420
   },
   {
    "group": "Career",
@@ -463,8 +495,8 @@
    "stat": "Best Game",
    "value": 4.7,
    "digits": 2,
-   "rank": 375,
-   "of": 419
+   "rank": 377,
+   "of": 420
   },
   {
    "group": "Career",
@@ -473,7 +505,7 @@
    "value": 25.8,
    "digits": 2,
    "rank": 370,
-   "of": 506
+   "of": 511
   },
   {
    "group": "Career",
@@ -490,7 +522,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 102,
+   "rank": 104,
    "of": 126
   },
   {
@@ -568,16 +600,16 @@
    "stat": "Points, 2023",
    "value": 4.7,
    "digits": 2,
-   "rank": 930,
-   "of": 1007,
+   "rank": 935,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
-  "of": 419,
+  "rank": 370,
+  "of": 420,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -877,6 +909,11 @@
     "2026",
     8,
     0.25
+   ],
+   [
+    "2026",
+    9,
+    0.25
    ]
   ],
   "benchmark": 100
@@ -1137,14 +1174,14 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 9,
       "kind": "Out",
       "injury": "Foot",
-      "franchise": null,
-      "team": null
+      "franchise": 9,
+      "team": "Clandestine Ball Busters"
      }
     ]
    }
@@ -1280,8 +1317,13 @@
     "kinds": [
      "Out"
     ],
-    "teams": [],
-    "rostered": 0,
+    "teams": [
+     {
+      "franchise": 9,
+      "team": "Clandestine Ball Busters"
+     }
+    ],
+    "rostered": 1,
     "lost": 0.0
    }
   ],

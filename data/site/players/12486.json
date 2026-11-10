@@ -390,7 +390,7 @@
    "value": 16.1,
    "digits": 2,
    "rank": 330,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -398,8 +398,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -407,8 +407,8 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 199,
-   "of": 419
+   "rank": 198,
+   "of": 420
   },
   {
    "group": "Career",
@@ -416,8 +416,8 @@
    "stat": "VOR",
    "value": 4.6,
    "digits": 1,
-   "rank": 199,
-   "of": 419
+   "rank": 198,
+   "of": 420
   },
   {
    "group": "Career",
@@ -425,8 +425,8 @@
    "stat": "PAA",
    "value": -3.5,
    "digits": 1,
-   "rank": 152,
-   "of": 419
+   "rank": 153,
+   "of": 420
   },
   {
    "group": "Career",
@@ -434,8 +434,8 @@
    "stat": "Best Game",
    "value": 16.1,
    "digits": 2,
-   "rank": 269,
-   "of": 419
+   "rank": 271,
+   "of": 420
   },
   {
    "group": "Career",
@@ -443,8 +443,8 @@
    "stat": "Bench Points",
    "value": 54.73,
    "digits": 2,
-   "rank": 267,
-   "of": 506
+   "rank": 271,
+   "of": 511
   },
   {
    "group": "Career",
@@ -461,7 +461,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 58,
+   "rank": 59,
    "of": 66
   },
   {
@@ -470,7 +470,7 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 41,
+   "rank": 39,
    "of": 66
   },
   {
@@ -489,7 +489,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 50,
+   "rank": 51,
    "of": 73,
    "franchise": 10
   },
@@ -539,16 +539,16 @@
    "stat": "Points, 2025",
    "value": 16.1,
    "digits": 2,
-   "rank": 778,
-   "of": 1007,
+   "rank": 784,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 316,
-  "of": 419,
+  "rank": 317,
+  "of": 420,
   "war": 0.5,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -677,6 +677,11 @@
    [
     "2026",
     8,
+    0.75
+   ],
+   [
+    "2026",
+    9,
     0.75
    ]
   ],

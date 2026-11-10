@@ -65,29 +65,29 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "JAX",
-   "g": 8,
-   "gs": 7,
-   "pts": 97.2,
+   "g": 9,
+   "gs": 8,
+   "pts": 111.3,
    "bench_pts": 0.0,
-   "ppg": 13.89,
+   "ppg": 13.91,
    "best": 30.4,
    "wins": 2,
-   "paa": -0.37,
-   "vor": 9.63,
-   "war": 0.11
+   "paa": 0.09,
+   "vor": 11.22,
+   "war": 0.13
   }
  ],
  "totals": {
-  "g": 21,
-  "gs": 9,
-  "pts": 104.8,
+  "g": 22,
+  "gs": 10,
+  "pts": 118.9,
   "bench_pts": 115.0,
-  "ppg": 11.64,
+  "ppg": 11.89,
   "best": 30.4,
   "wins": 4,
-  "paa": -15.86,
-  "vor": -3.97,
-  "war": -0.05
+  "paa": -15.4,
+  "vor": -2.38,
+  "war": -0.03
  },
  "nfl": [
   {
@@ -539,17 +539,45 @@
    "paa": -9.44,
    "vor": -8.81,
    "war": -0.10412347995849808
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": "FLEX",
+   "started": true,
+   "pts": 14.1,
+   "proj": 14.04,
+   "won": false,
+   "paa": 0.46,
+   "vor": 1.59,
+   "war": 0.01879186528195368
   }
  ],
  "similar": [
   {
    "player": "8142",
    "name": "Alec Pierce",
-   "score": 916,
+   "score": 937,
    "gs": 10,
    "pts": 124.6,
    "ppg": 12.46,
    "war": 0.22
+  },
+  {
+   "player": "5947",
+   "name": "Jakobi Meyers",
+   "score": 902,
+   "gs": 13,
+   "pts": 164.3,
+   "ppg": 12.64,
+   "war": 0.14
   },
   {
    "player": "6943",
@@ -561,31 +589,22 @@
    "war": -0.23
   },
   {
-   "player": "5947",
-   "name": "Jakobi Meyers",
-   "score": 869,
-   "gs": 13,
-   "pts": 164.3,
-   "ppg": 12.64,
-   "war": 0.14
-  },
-  {
-   "player": "8676",
-   "name": "Rashid Shaheed",
-   "score": 859,
-   "gs": 14,
-   "pts": 146.6,
-   "ppg": 10.47,
-   "war": -0.15
-  },
-  {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 841,
+   "score": 870,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
    "war": 0.32
+  },
+  {
+   "player": "8676",
+   "name": "Rashid Shaheed",
+   "score": 866,
+   "gs": 14,
+   "pts": 146.6,
+   "ppg": 10.47,
+   "war": -0.15
   }
  ],
  "status": {
@@ -598,46 +617,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 104.8,
+   "value": 118.9,
    "digits": 2,
-   "rank": 217,
-   "of": 419
+   "rank": 209,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 9,
+   "value": 10,
    "digits": 0,
-   "rank": 229,
-   "of": 419
+   "rank": 222,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.03,
    "digits": 2,
-   "rank": 241,
-   "of": 419
+   "rank": 231,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -4.0,
+   "value": -2.4,
    "digits": 1,
-   "rank": 243,
-   "of": 419
+   "rank": 232,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -15.9,
+   "value": -15.4,
    "digits": 1,
-   "rank": 275,
-   "of": 419
+   "rank": 263,
+   "of": 420
   },
   {
    "group": "Career",
@@ -645,17 +664,17 @@
    "stat": "Best Game",
    "value": 30.4,
    "digits": 2,
-   "rank": 100,
-   "of": 419
+   "rank": 102,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 11.64,
+   "value": 11.89,
    "digits": 2,
-   "rank": 132,
-   "of": 252
+   "rank": 128,
+   "of": 256
   },
   {
    "group": "Career",
@@ -663,61 +682,41 @@
    "stat": "Bench Points",
    "value": 115.0,
    "digits": 2,
-   "rank": 145,
-   "of": 506
+   "rank": 149,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 104.8,
+   "value": 118.9,
    "digits": 2,
-   "rank": 63,
+   "rank": 62,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 9,
+   "value": 10,
    "digits": 0,
-   "rank": 64,
+   "rank": 62,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.03,
    "digits": 2,
-   "rank": 55,
+   "rank": 51,
    "of": 126
   },
   {
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "Points",
-   "value": 97.2,
-   "digits": 2,
-   "rank": 25,
-   "of": 82,
-   "franchise": 4
-  },
-  {
-   "group": "Franchise",
-   "scope": "Im Stroud Of You",
-   "stat": "Games Started",
-   "value": 7,
-   "digits": 0,
-   "rank": 30,
-   "of": 82,
-   "franchise": 4
-  },
-  {
-   "group": "Franchise",
-   "scope": "Im Stroud Of You",
-   "stat": "WAR",
-   "value": 0.11,
+   "value": 111.3,
    "digits": 2,
    "rank": 24,
    "of": 82,
@@ -726,8 +725,28 @@
   {
    "group": "Franchise",
    "scope": "Im Stroud Of You",
+   "stat": "Games Started",
+   "value": 8,
+   "digits": 0,
+   "rank": 26,
+   "of": 82,
+   "franchise": 4
+  },
+  {
+   "group": "Franchise",
+   "scope": "Im Stroud Of You",
+   "stat": "WAR",
+   "value": 0.13,
+   "digits": 2,
+   "rank": 23,
+   "of": 82,
+   "franchise": 4
+  },
+  {
+   "group": "Franchise",
+   "scope": "Im Stroud Of You",
    "stat": "Points, WRs",
-   "value": 97.2,
+   "value": 111.3,
    "digits": 2,
    "rank": 10,
    "of": 20,
@@ -797,19 +816,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 97.2,
+   "value": 111.3,
    "digits": 2,
-   "rank": 52,
-   "of": 230,
+   "rank": 50,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 97.2,
+   "value": 111.3,
    "digits": 2,
-   "rank": 17,
+   "rank": 16,
    "of": 62,
    "season": "2026"
   },
@@ -817,10 +836,10 @@
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 97.2,
+   "value": 111.3,
    "digits": 2,
-   "rank": 357,
-   "of": 1007,
+   "rank": 330,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -829,17 +848,17 @@
    "stat": "Points, 2025",
    "value": 7.6,
    "digits": 2,
-   "rank": 887,
-   "of": 1007,
+   "rank": 892,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 2.25,
-  "rank": 248,
-  "of": 419,
+  "score": 2.5,
+  "rank": 244,
+  "of": 420,
   "war": 0.0,
-  "starts": 2.25,
+  "starts": 2.5,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1012,6 +1031,11 @@
     "2026",
     8,
     2.25
+   ],
+   [
+    "2026",
+    9,
+    2.5
    ]
   ],
   "benchmark": 100

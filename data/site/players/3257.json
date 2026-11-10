@@ -6,7 +6,7 @@
  "birth_date": "1992-12-11",
  "honors": [],
  "votes": [],
- "college": "North Carolina State",
+ "college": "NC State",
  "rookie_year": 2016,
  "height": "76",
  "weight": "235",
@@ -75,10 +75,26 @@
    "paa": -21.85,
    "vor": -15.82,
    "war": -0.19
+  },
+  {
+   "season": "2026",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "nfl": "ARI",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
   }
  ],
  "totals": {
-  "g": 23,
+  "g": 24,
   "gs": 15,
   "pts": 251.56,
   "bench_pts": 54.12,
@@ -604,13 +620,29 @@
    "paa": -13.02,
    "vor": -9.59,
    "war": -0.11334213085153194
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-1-12",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "9229",
    "name": "Anthony Richardson Sr.",
-   "score": 920,
+   "score": 921,
    "gs": 14,
    "pts": 221.66,
    "ppg": 15.83,
@@ -619,7 +651,7 @@
   {
    "player": "8162",
    "name": "Sam Howell",
-   "score": 848,
+   "score": 850,
    "gs": 9,
    "pts": 154.44,
    "ppg": 17.16,
@@ -628,7 +660,7 @@
   {
    "player": "12508",
    "name": "Jaxson Dart",
-   "score": 846,
+   "score": 847,
    "gs": 11,
    "pts": 207.7,
    "ppg": 18.88,
@@ -637,7 +669,7 @@
   {
    "player": "1234",
    "name": "Russell Wilson",
-   "score": 827,
+   "score": 830,
    "gs": 23,
    "pts": 365.04,
    "ppg": 15.87,
@@ -646,7 +678,7 @@
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 804,
+   "score": 805,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -665,8 +697,8 @@
    "stat": "Points",
    "value": 251.56,
    "digits": 2,
-   "rank": 124,
-   "of": 419
+   "rank": 125,
+   "of": 420
   },
   {
    "group": "Career",
@@ -674,8 +706,8 @@
    "stat": "Games Started",
    "value": 15,
    "digits": 0,
-   "rank": 172,
-   "of": 419
+   "rank": 174,
+   "of": 420
   },
   {
    "group": "Career",
@@ -684,7 +716,7 @@
    "value": 0.78,
    "digits": 2,
    "rank": 92,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -693,7 +725,7 @@
    "value": 66.3,
    "digits": 1,
    "rank": 92,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -701,8 +733,8 @@
    "stat": "PAA",
    "value": 2.2,
    "digits": 1,
-   "rank": 126,
-   "of": 419
+   "rank": 124,
+   "of": 420
   },
   {
    "group": "Career",
@@ -710,8 +742,8 @@
    "stat": "Best Game",
    "value": 26.0,
    "digits": 2,
-   "rank": 147,
-   "of": 419
+   "rank": 148,
+   "of": 420
   },
   {
    "group": "Career",
@@ -719,8 +751,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 16.77,
    "digits": 2,
-   "rank": 35,
-   "of": 252
+   "rank": 37,
+   "of": 256
   },
   {
    "group": "Career",
@@ -728,8 +760,8 @@
    "stat": "Bench Points",
    "value": 54.12,
    "digits": 2,
-   "rank": 268,
-   "of": 506
+   "rank": 272,
+   "of": 511
   },
   {
    "group": "Career",
@@ -764,7 +796,7 @@
    "stat": "Points",
    "value": 154.68,
    "digits": 2,
-   "rank": 19,
+   "rank": 20,
    "of": 68,
    "franchise": 3
   },
@@ -774,7 +806,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 22,
+   "rank": 24,
    "of": 68,
    "franchise": 3
   },
@@ -904,8 +936,8 @@
    "stat": "Points",
    "value": 96.88,
    "digits": 2,
-   "rank": 53,
-   "of": 230,
+   "rank": 54,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -915,7 +947,7 @@
    "value": 96.88,
    "digits": 2,
    "rank": 16,
-   "of": 35,
+   "of": 36,
    "season": "2026"
   },
   {
@@ -924,8 +956,8 @@
    "stat": "Points, 2025",
    "value": 154.68,
    "digits": 2,
-   "rank": 201,
-   "of": 1007,
+   "rank": 219,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -934,15 +966,15 @@
    "stat": "Points, 2026",
    "value": 96.88,
    "digits": 2,
-   "rank": 358,
-   "of": 1007,
+   "rank": 359,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 11.55,
-  "rank": 118,
-  "of": 419,
+  "rank": 117,
+  "of": 420,
   "war": 7.8,
   "starts": 3.75,
   "black_ink": 0.0,
@@ -1156,6 +1188,11 @@
    [
     "2026",
     8,
+    11.55
+   ],
+   [
+    "2026",
+    9,
     11.55
    ]
   ],

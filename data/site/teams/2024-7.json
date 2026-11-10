@@ -909,10 +909,10 @@
    "original": 2,
    "player": "11604",
    "pos": "TE",
-   "starts_team": 31,
-   "pts_team": 502.5,
-   "starts_league": 31,
-   "pts_league": 502.5,
+   "starts_team": 32,
+   "pts_team": 524.9,
+   "starts_league": 32,
+   "pts_league": 524.9,
    "nfl_pts": 573.0
   },
   {
@@ -928,9 +928,9 @@
    "original": 7,
    "player": "11635",
    "pos": "WR",
-   "starts_team": 31,
+   "starts_team": 32,
    "pts_team": 380.4,
-   "starts_league": 31,
+   "starts_league": 32,
    "pts_league": 380.4,
    "nfl_pts": 458.4
   },
@@ -949,8 +949,8 @@
    "pos": "RB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 22,
-   "pts_league": 367.2,
+   "starts_league": 23,
+   "pts_league": 397.7,
    "nfl_pts": 531.5
   },
   {
@@ -1014,41 +1014,31 @@
    "season": "2025",
    "franchise": 11,
    "team": "BubbaNASTIES",
-   "score": 724,
+   "score": 725,
    "w": 4,
    "l": 10,
    "ppg": 118.09,
    "result": "9th"
   },
   {
-   "season": "2026",
+   "season": "2024",
    "franchise": 12,
-   "team": "Team Win One Game",
-   "score": 666,
-   "w": 1,
-   "l": 7,
-   "ppg": 101.64,
-   "result": null
+   "team": "Happy Feet",
+   "score": 629,
+   "w": 5,
+   "l": 9,
+   "ppg": 125.46,
+   "result": "8th"
   },
   {
    "season": "2026",
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
-   "score": 646,
+   "score": 625,
    "w": 2,
-   "l": 6,
-   "ppg": 107.58,
+   "l": 7,
+   "ppg": 103.1,
    "result": null
-  },
-  {
-   "season": "2024",
-   "franchise": 12,
-   "team": "Happy Feet",
-   "score": 627,
-   "w": 5,
-   "l": 9,
-   "ppg": 125.46,
-   "result": "8th"
   },
   {
    "season": "2024",
@@ -1059,6 +1049,16 @@
    "l": 9,
    "ppg": 121.37,
    "result": "11th"
+  },
+  {
+   "season": "2026",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "score": 598,
+   "w": 1,
+   "l": 8,
+   "ppg": 98.62,
+   "result": null
   }
  ],
  "pickups": [
@@ -1141,8 +1141,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 8,
-   "pts": 40.8,
+   "gs": 9,
+   "pts": 63.8,
    "next": 4,
    "next_team": "Win one game"
   },
@@ -1183,8 +1183,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 22,
-   "pts": 367.2,
+   "gs": 23,
+   "pts": 397.7,
    "next": 9,
    "next_team": "Football?"
   },
@@ -1225,8 +1225,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 2,
-   "pts": 16.2,
+   "gs": 3,
+   "pts": 24.2,
    "next": 12,
    "next_team": "Happy Feet"
   },

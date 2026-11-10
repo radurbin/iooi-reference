@@ -429,7 +429,7 @@
    "value": 13.0,
    "digits": 2,
    "rank": 344,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -437,8 +437,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 327,
-   "of": 419
+   "rank": 328,
+   "of": 420
   },
   {
    "group": "Career",
@@ -446,8 +446,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 281,
-   "of": 419
+   "rank": 283,
+   "of": 420
   },
   {
    "group": "Career",
@@ -455,8 +455,8 @@
    "stat": "VOR",
    "value": -8.2,
    "digits": 1,
-   "rank": 282,
-   "of": 419
+   "rank": 284,
+   "of": 420
   },
   {
    "group": "Career",
@@ -464,8 +464,8 @@
    "stat": "PAA",
    "value": -14.0,
    "digits": 1,
-   "rank": 259,
-   "of": 419
+   "rank": 254,
+   "of": 420
   },
   {
    "group": "Career",
@@ -473,8 +473,8 @@
    "stat": "Best Game",
    "value": 9.2,
    "digits": 2,
-   "rank": 335,
-   "of": 419
+   "rank": 338,
+   "of": 420
   },
   {
    "group": "Career",
@@ -482,8 +482,8 @@
    "stat": "Bench Points",
    "value": 86.0,
    "digits": 2,
-   "rank": 204,
-   "of": 506
+   "rank": 208,
+   "of": 511
   },
   {
    "group": "Career",
@@ -519,7 +519,7 @@
    "value": 13.0,
    "digits": 2,
    "rank": 47,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -529,7 +529,7 @@
    "value": 2,
    "digits": 0,
    "rank": 45,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -538,8 +538,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 45,
-   "of": 65,
+   "rank": 47,
+   "of": 67,
    "franchise": 9
   },
   {
@@ -578,16 +578,16 @@
    "stat": "Points, 2025",
    "value": 13.0,
    "digits": 2,
-   "rank": 816,
-   "of": 1007,
+   "rank": 821,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.5,
-  "rank": 341,
-  "of": 419,
+  "rank": 342,
+  "of": 420,
   "war": 0.0,
   "starts": 0.5,
   "black_ink": 0.0,
@@ -716,6 +716,11 @@
    [
     "2026",
     8,
+    0.5
+   ],
+   [
+    "2026",
+    9,
     0.5
    ]
   ],

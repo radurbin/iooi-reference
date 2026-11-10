@@ -794,16 +794,16 @@
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 911,
-   "gs": 13,
-   "pts": 57.4,
-   "ppg": 4.42,
-   "war": -0.63
+   "score": 930,
+   "gs": 14,
+   "pts": 66.4,
+   "ppg": 4.74,
+   "war": -0.62
   },
   {
    "player": "8154",
    "name": "Brian Robinson Jr.",
-   "score": 882,
+   "score": 883,
    "gs": 14,
    "pts": 90.1,
    "ppg": 6.44,
@@ -812,7 +812,7 @@
   {
    "player": "5284",
    "name": "Jeff Wilson",
-   "score": 849,
+   "score": 850,
    "gs": 10,
    "pts": 35.2,
    "ppg": 3.52,
@@ -821,20 +821,20 @@
   {
    "player": "12469",
    "name": "Dylan Sampson",
-   "score": 825,
+   "score": 828,
    "gs": 8,
    "pts": 45.15,
    "ppg": 5.64,
    "war": -0.28
   },
   {
-   "player": "6130",
-   "name": "Devin Singletary",
-   "score": 778,
-   "gs": 15,
-   "pts": 123.9,
-   "ppg": 8.26,
-   "war": -0.22
+   "player": "9511",
+   "name": "Keaton Mitchell",
+   "score": 780,
+   "gs": 8,
+   "pts": 58.5,
+   "ppg": 7.31,
+   "war": -0.18
   }
  ],
  "status": {
@@ -849,8 +849,8 @@
    "stat": "Points",
    "value": 82.5,
    "digits": 2,
-   "rank": 230,
-   "of": 419
+   "rank": 231,
+   "of": 420
   },
   {
    "group": "Career",
@@ -858,8 +858,8 @@
    "stat": "Games Started",
    "value": 16,
    "digits": 0,
-   "rank": 165,
-   "of": 419
+   "rank": 167,
+   "of": 420
   },
   {
    "group": "Career",
@@ -867,8 +867,8 @@
    "stat": "WAR",
    "value": -1.03,
    "digits": 2,
-   "rank": 417,
-   "of": 419
+   "rank": 418,
+   "of": 420
   },
   {
    "group": "Career",
@@ -876,8 +876,8 @@
    "stat": "VOR",
    "value": -86.8,
    "digits": 1,
-   "rank": 417,
-   "of": 419
+   "rank": 418,
+   "of": 420
   },
   {
    "group": "Career",
@@ -886,7 +886,7 @@
    "value": -122.0,
    "digits": 1,
    "rank": 417,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -894,8 +894,8 @@
    "stat": "Best Game",
    "value": 17.2,
    "digits": 2,
-   "rank": 258,
-   "of": 419
+   "rank": 260,
+   "of": 420
   },
   {
    "group": "Career",
@@ -903,8 +903,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 5.16,
    "digits": 2,
-   "rank": 242,
-   "of": 252
+   "rank": 246,
+   "of": 256
   },
   {
    "group": "Career",
@@ -912,8 +912,8 @@
    "stat": "Bench Points",
    "value": 50.7,
    "digits": 2,
-   "rank": 280,
-   "of": 506
+   "rank": 284,
+   "of": 511
   },
   {
    "group": "Career",
@@ -921,8 +921,8 @@
    "stat": "Points",
    "value": 82.5,
    "digits": 2,
-   "rank": 55,
-   "of": 99
+   "rank": 56,
+   "of": 100
   },
   {
    "group": "Career",
@@ -931,7 +931,7 @@
    "value": 16,
    "digits": 0,
    "rank": 34,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
@@ -939,8 +939,8 @@
    "stat": "WAR",
    "value": -1.03,
    "digits": 2,
-   "rank": 99,
-   "of": 99
+   "rank": 100,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -949,7 +949,7 @@
    "value": 82.5,
    "digits": 2,
    "rank": 16,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -959,7 +959,7 @@
    "value": 16,
    "digits": 0,
    "rank": 13,
-   "of": 47,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -968,8 +968,8 @@
    "stat": "WAR",
    "value": -1.03,
    "digits": 2,
-   "rank": 47,
-   "of": 47,
+   "rank": 48,
+   "of": 48,
    "franchise": 12
   },
   {
@@ -1008,15 +1008,15 @@
    "stat": "Points, 2023",
    "value": 82.5,
    "digits": 2,
-   "rank": 394,
-   "of": 1007,
+   "rank": 401,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 4.0,
-  "rank": 208,
-  "of": 419,
+  "rank": 211,
+  "of": 420,
   "war": 0.0,
   "starts": 4.0,
   "black_ink": 0.0,
@@ -1315,6 +1315,11 @@
    [
     "2026",
     8,
+    4.0
+   ],
+   [
+    "2026",
+    9,
     4.0
    ]
   ],

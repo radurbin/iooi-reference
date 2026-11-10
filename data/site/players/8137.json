@@ -74,7 +74,7 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "DAL",
-   "g": 8,
+   "g": 9,
    "gs": 8,
    "pts": 105.8,
    "bench_pts": 0.0,
@@ -87,7 +87,7 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 41,
   "pts": 605.7,
   "bench_pts": 125.1,
@@ -1212,22 +1212,38 @@
    "paa": -6.34,
    "vor": -5.71,
    "war": -0.06748525205028649
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 943,
-   "gs": 39,
-   "pts": 576.0,
-   "ppg": 14.77,
-   "war": 1.4
+   "score": 972,
+   "gs": 40,
+   "pts": 592.8,
+   "ppg": 14.82,
+   "war": 1.45
   },
   {
    "player": "7525",
    "name": "DeVonta Smith",
-   "score": 896,
+   "score": 898,
    "gs": 43,
    "pts": 598.8,
    "ppg": 13.93,
@@ -1236,7 +1252,7 @@
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 872,
+   "score": 873,
    "gs": 40,
    "pts": 640.7,
    "ppg": 16.02,
@@ -1245,20 +1261,20 @@
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 861,
+   "score": 863,
    "gs": 38,
    "pts": 539.5,
    "ppg": 14.2,
    "war": 1.03
   },
   {
-   "player": "4983",
-   "name": "DJ Moore",
-   "score": 858,
-   "gs": 41,
-   "pts": 562.68,
-   "ppg": 13.72,
-   "war": 0.95
+   "player": "1479",
+   "name": "Keenan Allen",
+   "score": 851,
+   "gs": 35,
+   "pts": 547.16,
+   "ppg": 15.63,
+   "war": 1.67
   }
  ],
  "status": {
@@ -1273,8 +1289,8 @@
    "stat": "Points",
    "value": 605.7,
    "digits": 2,
-   "rank": 42,
-   "of": 419
+   "rank": 43,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1282,8 +1298,8 @@
    "stat": "Games Started",
    "value": 41,
    "digits": 0,
-   "rank": 44,
-   "of": 419
+   "rank": 46,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1291,8 +1307,8 @@
    "stat": "WAR",
    "value": 1.53,
    "digits": 2,
-   "rank": 60,
-   "of": 419
+   "rank": 59,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1300,8 +1316,8 @@
    "stat": "VOR",
    "value": 129.1,
    "digits": 1,
-   "rank": 60,
-   "of": 419
+   "rank": 59,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1310,7 +1326,7 @@
    "value": 53.1,
    "digits": 1,
    "rank": 47,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1318,8 +1334,8 @@
    "stat": "Best Game",
    "value": 33.4,
    "digits": 2,
-   "rank": 68,
-   "of": 419
+   "rank": 69,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1327,8 +1343,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 14.77,
    "digits": 2,
-   "rank": 68,
-   "of": 252
+   "rank": 71,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1336,8 +1352,8 @@
    "stat": "Bench Points",
    "value": 125.1,
    "digits": 2,
-   "rank": 129,
-   "of": 506
+   "rank": 130,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1354,7 +1370,7 @@
    "stat": "Games Started",
    "value": 41,
    "digits": 0,
-   "rank": 9,
+   "rank": 11,
    "of": 126
   },
   {
@@ -1363,7 +1379,7 @@
    "stat": "WAR",
    "value": 1.53,
    "digits": 2,
-   "rank": 15,
+   "rank": 14,
    "of": 126
   },
   {
@@ -1472,8 +1488,8 @@
    "stat": "Points",
    "value": 105.8,
    "digits": 2,
-   "rank": 46,
-   "of": 230,
+   "rank": 52,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -1482,7 +1498,7 @@
    "stat": "Points",
    "value": 105.8,
    "digits": 2,
-   "rank": 15,
+   "rank": 17,
    "of": 62,
    "season": "2026"
   },
@@ -1493,7 +1509,7 @@
    "value": 253.7,
    "digits": 2,
    "rank": 55,
-   "of": 1007,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1502,8 +1518,8 @@
    "stat": "Points, 2024",
    "value": 137.0,
    "digits": 2,
-   "rank": 250,
-   "of": 1007,
+   "rank": 259,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1512,8 +1528,8 @@
    "stat": "Points, 2023",
    "value": 109.2,
    "digits": 2,
-   "rank": 328,
-   "of": 1007,
+   "rank": 336,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1522,15 +1538,15 @@
    "stat": "Points, 2026",
    "value": 105.8,
    "digits": 2,
-   "rank": 335,
-   "of": 1007,
+   "rank": 341,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 28.55,
-  "rank": 53,
-  "of": 419,
+  "rank": 55,
+  "of": 420,
   "war": 15.3,
   "starts": 10.25,
   "black_ink": 0.0,
@@ -1830,6 +1846,11 @@
     "2026",
     8,
     28.55
+   ],
+   [
+    "2026",
+    9,
+    28.55
    ]
   ],
   "benchmark": 100
@@ -1884,7 +1905,7 @@
     "season": "2026",
     "nfl": "DAL",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 0.71,
     "injuries": [
      "Hamstring"
     ],
@@ -1894,14 +1915,14 @@
     "kinds": [
      "Questionable"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 9,
       "kind": "Questionable",
       "injury": "Hamstring",
-      "franchise": null,
-      "team": null
+      "franchise": 6,
+      "team": "got that DAWG"
      }
     ]
    }
@@ -1945,9 +1966,14 @@
     "kinds": [
      "Questionable"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 6,
+      "team": "got that DAWG"
+     }
+    ],
+    "rostered": 1,
+    "lost": 0.71
    }
   ],
   "now": {

@@ -1274,10 +1274,10 @@
    "original": 3,
    "player": "11560",
    "pos": "QB",
-   "starts_team": 35,
-   "pts_team": 597.76,
-   "starts_league": 35,
-   "pts_league": 597.76,
+   "starts_team": 36,
+   "pts_team": 611.02,
+   "starts_league": 36,
+   "pts_league": 611.02,
    "nfl_pts": 660.16
   },
   {
@@ -1293,10 +1293,10 @@
    "original": 10,
    "player": "11624",
    "pos": "WR",
-   "starts_team": 10,
-   "pts_team": 71.1,
-   "starts_league": 16,
-   "pts_league": 150.0,
+   "starts_team": 11,
+   "pts_team": 81.9,
+   "starts_league": 17,
+   "pts_league": 160.8,
    "nfl_pts": 366.9
   },
   {
@@ -1312,10 +1312,10 @@
    "original": 3,
    "player": "11586",
    "pos": "RB",
-   "starts_team": 7,
-   "pts_team": 70.3,
-   "starts_league": 7,
-   "pts_league": 70.3,
+   "starts_team": 8,
+   "pts_team": 83.2,
+   "starts_league": 8,
+   "pts_league": 83.2,
    "nfl_pts": 247.8
   },
   {
@@ -1378,7 +1378,7 @@
    "season": "2023",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 863,
+   "score": 861,
    "w": 6,
    "l": 8,
    "ppg": 127.61,
@@ -1386,33 +1386,33 @@
   },
   {
    "season": "2026",
-   "franchise": 9,
-   "team": "Clandestine Ball Busters",
-   "score": 828,
-   "w": 3,
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "score": 840,
+   "w": 5,
+   "l": 4,
+   "ppg": 137.23,
+   "result": null
+  },
+  {
+   "season": "2026",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "score": 770,
+   "w": 4,
    "l": 5,
-   "ppg": 134.35,
+   "ppg": 132.62,
    "result": null
   },
   {
    "season": "2024",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "score": 766,
+   "score": 764,
    "w": 5,
    "l": 9,
    "ppg": 124.17,
    "result": "7th"
-  },
-  {
-   "season": "2025",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
-   "score": 763,
-   "w": 7,
-   "l": 7,
-   "ppg": 130.72,
-   "result": "8th"
   }
  ],
  "pickups": [
@@ -1835,7 +1835,7 @@
     "elis"
    ],
    "until": null,
-   "g": 27,
+   "g": 28,
    "gs": 6,
    "pts": 45.8,
    "wins": 0,
@@ -1869,8 +1869,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 25,
-   "pts": 214.0,
+   "gs": 26,
+   "pts": 220.0,
    "next": 9,
    "next_team": "Football?"
   },
@@ -2065,8 +2065,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 21,
-   "pts": 194.9,
+   "gs": 22,
+   "pts": 201.4,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2135,8 +2135,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 9,
-   "pts": 104.8,
+   "gs": 10,
+   "pts": 118.9,
    "next": 8,
    "next_team": "BBL KIZZY"
   },
@@ -2149,8 +2149,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 3,
-   "pts": 36.2,
+   "gs": 4,
+   "pts": 43.0,
    "next": 8,
    "next_team": "BBL KIZZY"
   },
@@ -2191,8 +2191,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 6,
-   "pts": 48.3,
+   "gs": 7,
+   "pts": 65.9,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2275,8 +2275,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 16,
-   "pts": 165.0,
+   "gs": 17,
+   "pts": 177.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },

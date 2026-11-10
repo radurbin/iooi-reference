@@ -33,10 +33,10 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "LAR",
-   "g": 3,
+   "g": 4,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 10.0,
+   "bench_pts": 12.3,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -46,10 +46,10 @@
   }
  ],
  "totals": {
-  "g": 16,
+  "g": 17,
   "gs": 1,
   "pts": 4.2,
-  "bench_pts": 88.5,
+  "bench_pts": 90.8,
   "ppg": 4.2,
   "best": 4.2,
   "wins": 1,
@@ -388,6 +388,22 @@
    "pts": 2.4,
    "proj": 9.87,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-5-7",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 2.3,
+   "proj": 8.37,
+   "won": false
   }
  ],
  "status": {
@@ -402,8 +418,8 @@
    "stat": "Points",
    "value": 4.2,
    "digits": 2,
-   "rank": 380,
-   "of": 419
+   "rank": 382,
+   "of": 420
   },
   {
    "group": "Career",
@@ -411,8 +427,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -420,8 +436,8 @@
    "stat": "WAR",
    "value": -0.07,
    "digits": 2,
-   "rank": 256,
-   "of": 419
+   "rank": 259,
+   "of": 420
   },
   {
    "group": "Career",
@@ -429,8 +445,8 @@
    "stat": "VOR",
    "value": -6.2,
    "digits": 1,
-   "rank": 265,
-   "of": 419
+   "rank": 267,
+   "of": 420
   },
   {
    "group": "Career",
@@ -438,8 +454,8 @@
    "stat": "PAA",
    "value": -5.8,
    "digits": 1,
-   "rank": 171,
-   "of": 419
+   "rank": 170,
+   "of": 420
   },
   {
    "group": "Career",
@@ -447,17 +463,17 @@
    "stat": "Best Game",
    "value": 4.2,
    "digits": 2,
-   "rank": 378,
-   "of": 419
+   "rank": 380,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 88.5,
+   "value": 90.8,
    "digits": 2,
-   "rank": 197,
-   "of": 506
+   "rank": 194,
+   "of": 511
   },
   {
    "group": "Career",
@@ -512,7 +528,7 @@
    "stat": "WAR",
    "value": -0.07,
    "digits": 2,
-   "rank": 27,
+   "rank": 26,
    "of": 44,
    "franchise": 11
   },
@@ -552,16 +568,16 @@
    "stat": "Points, 2023",
    "value": 4.2,
    "digits": 2,
-   "rank": 936,
-   "of": 1007,
+   "rank": 941,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
-  "of": 419,
+  "rank": 370,
+  "of": 420,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -860,6 +876,11 @@
    [
     "2026",
     8,
+    0.25
+   ],
+   [
+    "2026",
+    9,
     0.25
    ]
   ],

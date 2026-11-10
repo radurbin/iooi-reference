@@ -88,29 +88,29 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "CIN",
-   "g": 8,
-   "gs": 7,
-   "pts": 103.3,
+   "g": 9,
+   "gs": 8,
+   "pts": 114.7,
    "bench_pts": 0.0,
-   "ppg": 14.76,
+   "ppg": 14.34,
    "best": 21.5,
-   "wins": 4,
-   "paa": -13.47,
-   "vor": 47.09,
-   "war": 0.56
+   "wins": 5,
+   "paa": -15.6,
+   "vor": 50.46,
+   "war": 0.6
   }
  ],
  "totals": {
-  "g": 52,
-  "gs": 33,
-  "pts": 486.4,
+  "g": 53,
+  "gs": 34,
+  "pts": 497.8,
   "bench_pts": 106.5,
-  "ppg": 14.74,
+  "ppg": 14.64,
   "best": 32.9,
-  "wins": 19,
-  "paa": 8.08,
-  "vor": 192.1,
-  "war": 2.27
+  "wins": 20,
+  "paa": 5.95,
+  "vor": 195.47,
+  "war": 2.31
  },
  "nfl": [
   {
@@ -1111,40 +1111,59 @@
    "paa": 2.1,
    "vor": 10.77,
    "war": 0.12728829502304473
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-4-6",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": "RB",
+   "started": true,
+   "pts": 11.4,
+   "proj": 17.56,
+   "won": true,
+   "paa": -2.13,
+   "vor": 3.37,
+   "war": 0.039829299371184845
   }
  ],
  "similar": [
   {
    "player": "7543",
    "name": "Travis Etienne Jr.",
-   "score": 937,
+   "score": 959,
    "gs": 36,
    "pts": 525.9,
    "ppg": 14.61,
    "war": 2.32
   },
   {
-   "player": "7594",
-   "name": "Chuba Hubbard",
-   "score": 870,
-   "gs": 32,
-   "pts": 526.3,
-   "ppg": 16.45,
-   "war": 2.78
-  },
-  {
    "player": "8136",
    "name": "Rachaad White",
-   "score": 869,
-   "gs": 29,
-   "pts": 413.0,
-   "ppg": 14.24,
-   "war": 1.62
+   "score": 867,
+   "gs": 30,
+   "pts": 422.1,
+   "ppg": 14.07,
+   "war": 1.64
+  },
+  {
+   "player": "7594",
+   "name": "Chuba Hubbard",
+   "score": 863,
+   "gs": 33,
+   "pts": 541.5,
+   "ppg": 16.41,
+   "war": 2.87
   },
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 863,
+   "score": 846,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -1153,11 +1172,11 @@
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 810,
-   "gs": 42,
-   "pts": 561.0,
-   "ppg": 13.36,
-   "war": 2.01
+   "score": 820,
+   "gs": 43,
+   "pts": 585.4,
+   "ppg": 13.61,
+   "war": 2.2
   }
  ],
  "status": {
@@ -1170,46 +1189,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 486.4,
+   "value": 497.8,
    "digits": 2,
-   "rank": 63,
-   "of": 419
+   "rank": 62,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
-   "rank": 70,
-   "of": 419
+   "rank": 68,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.27,
+   "value": 2.31,
    "digits": 2,
-   "rank": 36,
-   "of": 419
+   "rank": 37,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 192.1,
+   "value": 195.5,
    "digits": 1,
-   "rank": 36,
-   "of": 419
+   "rank": 37,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 8.1,
+   "value": 6.0,
    "digits": 1,
-   "rank": 103,
-   "of": 419
+   "rank": 108,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1217,17 +1236,17 @@
    "stat": "Best Game",
    "value": 32.9,
    "digits": 2,
-   "rank": 74,
-   "of": 419
+   "rank": 75,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 14.74,
+   "value": 14.64,
    "digits": 2,
-   "rank": 70,
-   "of": 252
+   "rank": 73,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1235,35 +1254,35 @@
    "stat": "Bench Points",
    "value": 106.5,
    "digits": 2,
-   "rank": 162,
-   "of": 506
+   "rank": 164,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 486.4,
+   "value": 497.8,
    "digits": 2,
    "rank": 20,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
    "rank": 18,
-   "of": 99
+   "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 2.27,
+   "value": 2.31,
    "digits": 2,
-   "rank": 17,
-   "of": 99
+   "rank": 18,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -1281,7 +1300,7 @@
    "stat": "Games Started",
    "value": 4,
    "digits": 0,
-   "rank": 35,
+   "rank": 36,
    "of": 68,
    "franchise": 3
   },
@@ -1309,9 +1328,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "Points",
-   "value": 311.6,
+   "value": 323.0,
    "digits": 2,
-   "rank": 8,
+   "rank": 7,
    "of": 40,
    "franchise": 6
   },
@@ -1319,7 +1338,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "Games Started",
-   "value": 20,
+   "value": 21,
    "digits": 0,
    "rank": 12,
    "of": 40,
@@ -1329,7 +1348,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 1.7,
+   "value": 1.74,
    "digits": 2,
    "rank": 4,
    "of": 40,
@@ -1339,7 +1358,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "Points, RBs",
-   "value": 311.6,
+   "value": 323.0,
    "digits": 2,
    "rank": 3,
    "of": 10,
@@ -1352,7 +1371,7 @@
    "value": 170.7,
    "digits": 2,
    "rank": 14,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1362,7 +1381,7 @@
    "value": 9,
    "digits": 0,
    "rank": 19,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1372,7 +1391,7 @@
    "value": 1.03,
    "digits": 2,
    "rank": 7,
-   "of": 75,
+   "of": 76,
    "franchise": 2
   },
   {
@@ -1449,20 +1468,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 103.3,
+   "value": 114.7,
    "digits": 2,
-   "rank": 48,
-   "of": 230,
+   "rank": 46,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 103.3,
+   "value": 114.7,
    "digits": 2,
    "rank": 17,
-   "of": 57,
+   "of": 58,
    "season": "2026"
   },
   {
@@ -1471,8 +1490,8 @@
    "stat": "Points, 2025",
    "value": 208.3,
    "digits": 2,
-   "rank": 106,
-   "of": 1007,
+   "rank": 107,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1481,18 +1500,18 @@
    "stat": "Points, 2024",
    "value": 166.3,
    "digits": 2,
-   "rank": 173,
-   "of": 1007,
+   "rank": 185,
+   "of": 1010,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 103.3,
+   "value": 114.7,
    "digits": 2,
-   "rank": 342,
-   "of": 1007,
+   "rank": 320,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1501,17 +1520,17 @@
    "stat": "Points, 2023",
    "value": 8.5,
    "digits": 2,
-   "rank": 876,
-   "of": 1007,
+   "rank": 881,
+   "of": 1010,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 30.95,
+  "score": 31.6,
   "rank": 47,
-  "of": 419,
-  "war": 22.7,
-  "starts": 8.25,
+  "of": 420,
+  "war": 23.1,
+  "starts": 8.5,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1809,6 +1828,11 @@
     "2026",
     8,
     30.95
+   ],
+   [
+    "2026",
+    9,
+    31.6
    ]
   ],
   "benchmark": 100

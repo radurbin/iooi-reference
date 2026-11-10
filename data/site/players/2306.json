@@ -447,8 +447,8 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 255,
-   "of": 419
+   "rank": 256,
+   "of": 420
   },
   {
    "group": "Career",
@@ -457,7 +457,7 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -465,8 +465,8 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 193,
-   "of": 419
+   "rank": 191,
+   "of": 420
   },
   {
    "group": "Career",
@@ -474,8 +474,8 @@
    "stat": "VOR",
    "value": 5.4,
    "digits": 1,
-   "rank": 194,
-   "of": 419
+   "rank": 192,
+   "of": 420
   },
   {
    "group": "Career",
@@ -483,8 +483,8 @@
    "stat": "PAA",
    "value": -9.4,
    "digits": 1,
-   "rank": 204,
-   "of": 419
+   "rank": 202,
+   "of": 420
   },
   {
    "group": "Career",
@@ -492,8 +492,8 @@
    "stat": "Best Game",
    "value": 26.24,
    "digits": 2,
-   "rank": 144,
-   "of": 419
+   "rank": 145,
+   "of": 420
   },
   {
    "group": "Career",
@@ -501,8 +501,8 @@
    "stat": "Bench Points",
    "value": 164.9,
    "digits": 2,
-   "rank": 74,
-   "of": 506
+   "rank": 75,
+   "of": 511
   },
   {
    "group": "Career",
@@ -528,7 +528,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 40,
+   "rank": 38,
    "of": 66
   },
   {
@@ -538,7 +538,7 @@
    "value": 58.84,
    "digits": 2,
    "rank": 24,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -548,7 +548,7 @@
    "value": 4,
    "digits": 0,
    "rank": 27,
-   "of": 51,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -557,8 +557,8 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 24,
-   "of": 51,
+   "rank": 25,
+   "of": 52,
    "franchise": 7
   },
   {
@@ -577,8 +577,8 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 84,
-   "of": 230,
+   "rank": 93,
+   "of": 233,
    "season": "2026"
   },
   {
@@ -588,7 +588,7 @@
    "value": 58.84,
    "digits": 2,
    "rank": 23,
-   "of": 35,
+   "of": 36,
    "season": "2026"
   },
   {
@@ -597,16 +597,16 @@
    "stat": "Points, 2026",
    "value": 58.84,
    "digits": 2,
-   "rank": 503,
-   "of": 1007,
+   "rank": 512,
+   "of": 1010,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.6,
-  "rank": 281,
-  "of": 419,
+  "rank": 282,
+  "of": 420,
   "war": 0.6,
   "starts": 1.0,
   "black_ink": 0.0,
@@ -785,6 +785,11 @@
    [
     "2026",
     8,
+    1.6
+   ],
+   [
+    "2026",
+    9,
     1.6
    ]
   ],

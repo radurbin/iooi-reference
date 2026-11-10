@@ -1539,17 +1539,27 @@
    "season": "2026",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 722,
-   "w": 4,
+   "score": 746,
+   "w": 5,
    "l": 4,
-   "ppg": 142.03,
+   "ppg": 143.32,
+   "result": null
+  },
+  {
+   "season": "2026",
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 741,
+   "w": 6,
+   "l": 3,
+   "ppg": 143.7,
    "result": null
   },
   {
    "season": "2025",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "score": 719,
+   "score": 721,
    "w": 11,
    "l": 3,
    "ppg": 143.65,
@@ -1559,7 +1569,7 @@
    "season": "2024",
    "franchise": 5,
    "team": "i’m Stroud of you",
-   "score": 700,
+   "score": 701,
    "w": 9,
    "l": 5,
    "ppg": 140.69,
@@ -1574,16 +1584,6 @@
    "l": 4,
    "ppg": 151.19,
    "result": "Champion"
-  },
-  {
-   "season": "2026",
-   "franchise": 2,
-   "team": "Storm FC",
-   "score": 688,
-   "w": 5,
-   "l": 3,
-   "ppg": 138.72,
-   "result": null
   }
  ],
  "pickups": [
@@ -2154,8 +2154,8 @@
     "riley",
     "emily"
    ],
-   "gs": 19,
-   "pts": 115.0,
+   "gs": 20,
+   "pts": 131.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2244,8 +2244,8 @@
     "riley",
     "emily"
    ],
-   "gs": 2,
-   "pts": 39.0,
+   "gs": 3,
+   "pts": 53.0,
    "next": 7,
    "next_team": "the dart side 🛸"
   },
@@ -2364,8 +2364,8 @@
     "riley",
     "emily"
    ],
-   "gs": 7,
-   "pts": 61.0,
+   "gs": 8,
+   "pts": 67.7,
    "next": 9,
    "next_team": "Clandestine Ball Busters"
   },
@@ -2379,8 +2379,8 @@
     "riley",
     "emily"
    ],
-   "gs": 14,
-   "pts": 89.0,
+   "gs": 15,
+   "pts": 105.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2394,8 +2394,8 @@
     "riley",
     "emily"
    ],
-   "gs": 9,
-   "pts": 84.0,
+   "gs": 10,
+   "pts": 90.0,
    "next": 11,
    "next_team": "BubbaNASTIES"
   },

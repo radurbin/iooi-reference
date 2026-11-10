@@ -68,7 +68,7 @@
    "team": "DAL",
    "g": 6,
    "pts": 13.1,
-   "rank": 132
+   "rank": 133
   }
  ],
  "history": [
@@ -121,8 +121,8 @@
    "stat": "Points",
    "value": 6.4,
    "digits": 2,
-   "rank": 366,
-   "of": 419
+   "rank": 369,
+   "of": 420
   },
   {
    "group": "Career",
@@ -130,8 +130,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -139,8 +139,8 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 241,
-   "of": 419
+   "rank": 245,
+   "of": 420
   },
   {
    "group": "Career",
@@ -148,8 +148,8 @@
    "stat": "VOR",
    "value": -4.2,
    "digits": 1,
-   "rank": 246,
-   "of": 419
+   "rank": 250,
+   "of": 420
   },
   {
    "group": "Career",
@@ -157,8 +157,8 @@
    "stat": "PAA",
    "value": -7.8,
    "digits": 1,
-   "rank": 190,
-   "of": 419
+   "rank": 189,
+   "of": 420
   },
   {
    "group": "Career",
@@ -166,8 +166,8 @@
    "stat": "Best Game",
    "value": 6.4,
    "digits": 2,
-   "rank": 360,
-   "of": 419
+   "rank": 362,
+   "of": 420
   },
   {
    "group": "Career",
@@ -175,7 +175,7 @@
    "stat": "Points",
    "value": 6.4,
    "digits": 2,
-   "rank": 102,
+   "rank": 103,
    "of": 126
   },
   {
@@ -184,7 +184,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 102,
+   "rank": 104,
    "of": 126
   },
   {
@@ -193,7 +193,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 55,
+   "rank": 57,
    "of": 126
   },
   {
@@ -212,7 +212,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 53,
+   "rank": 55,
    "of": 68,
    "franchise": 3
   },
@@ -262,16 +262,16 @@
    "stat": "Points, 2025",
    "value": 6.4,
    "digits": 2,
-   "rank": 906,
-   "of": 1007,
+   "rank": 912,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
-  "of": 419,
+  "rank": 370,
+  "of": 420,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -385,6 +385,11 @@
    [
     "2026",
     8,
+    0.25
+   ],
+   [
+    "2026",
+    9,
     0.25
    ]
   ],

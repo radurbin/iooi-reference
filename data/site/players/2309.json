@@ -765,7 +765,7 @@
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 940,
+   "score": 941,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -774,25 +774,16 @@
   {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 929,
+   "score": 930,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
    "war": 0.06
   },
   {
-   "player": "8167",
-   "name": "Christian Watson",
-   "score": 927,
-   "gs": 22,
-   "pts": 244.6,
-   "ppg": 11.12,
-   "war": -0.23
-  },
-  {
    "player": "10222",
    "name": "Jayden Reed",
-   "score": 911,
+   "score": 912,
    "gs": 18,
    "pts": 222.6,
    "ppg": 12.37,
@@ -801,11 +792,20 @@
   {
    "player": "10213",
    "name": "Tre Tucker",
-   "score": 872,
-   "gs": 15,
-   "pts": 155.9,
-   "ppg": 10.39,
-   "war": -0.14
+   "score": 893,
+   "gs": 16,
+   "pts": 166.9,
+   "ppg": 10.43,
+   "war": -0.16
+  },
+  {
+   "player": "8167",
+   "name": "Christian Watson",
+   "score": 893,
+   "gs": 23,
+   "pts": 274.7,
+   "ppg": 11.94,
+   "war": -0.03
   }
  ],
  "status": {
@@ -820,8 +820,8 @@
    "stat": "Points",
    "value": 217.2,
    "digits": 2,
-   "rank": 141,
-   "of": 419
+   "rank": 142,
+   "of": 420
   },
   {
    "group": "Career",
@@ -829,8 +829,8 @@
    "stat": "Games Started",
    "value": 19,
    "digits": 0,
-   "rank": 150,
-   "of": 419
+   "rank": 151,
+   "of": 420
   },
   {
    "group": "Career",
@@ -839,7 +839,7 @@
    "value": -0.14,
    "digits": 2,
    "rank": 319,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -847,8 +847,8 @@
    "stat": "VOR",
    "value": -12.2,
    "digits": 1,
-   "rank": 329,
-   "of": 419
+   "rank": 326,
+   "of": 420
   },
   {
    "group": "Career",
@@ -857,7 +857,7 @@
    "value": -38.3,
    "digits": 1,
    "rank": 350,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -865,8 +865,8 @@
    "stat": "Best Game",
    "value": 27.6,
    "digits": 2,
-   "rank": 126,
-   "of": 419
+   "rank": 127,
+   "of": 420
   },
   {
    "group": "Career",
@@ -874,8 +874,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.43,
    "digits": 2,
-   "rank": 137,
-   "of": 252
+   "rank": 139,
+   "of": 256
   },
   {
    "group": "Career",
@@ -883,8 +883,8 @@
    "stat": "Bench Points",
    "value": 117.9,
    "digits": 2,
-   "rank": 139,
-   "of": 506
+   "rank": 144,
+   "of": 511
   },
   {
    "group": "Career",
@@ -910,7 +910,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 87,
+   "rank": 85,
    "of": 126
   },
   {
@@ -919,7 +919,7 @@
    "stat": "Points",
    "value": 138.3,
    "digits": 2,
-   "rank": 15,
+   "rank": 17,
    "of": 82,
    "franchise": 4
   },
@@ -929,7 +929,7 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 15,
+   "rank": 16,
    "of": 82,
    "franchise": 4
   },
@@ -949,7 +949,7 @@
    "stat": "Points, WRs",
    "value": 138.3,
    "digits": 2,
-   "rank": 6,
+   "rank": 7,
    "of": 20,
    "franchise": 4
   },
@@ -969,7 +969,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 18,
+   "rank": 19,
    "of": 77,
    "franchise": 1
   },
@@ -1039,8 +1039,8 @@
    "stat": "Points, 2023",
    "value": 138.3,
    "digits": 2,
-   "rank": 248,
-   "of": 1007,
+   "rank": 257,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1049,15 +1049,15 @@
    "stat": "Points, 2024",
    "value": 78.9,
    "digits": 2,
-   "rank": 408,
-   "of": 1007,
+   "rank": 419,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 4.75,
-  "rank": 199,
-  "of": 419,
+  "rank": 202,
+  "of": 420,
   "war": 0.0,
   "starts": 4.75,
   "black_ink": 0.0,
@@ -1356,6 +1356,11 @@
    [
     "2026",
     8,
+    4.75
+   ],
+   [
+    "2026",
+    9,
     4.75
    ]
   ],

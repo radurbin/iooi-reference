@@ -107,8 +107,8 @@
    "stat": "Points",
    "value": -0.2,
    "digits": 2,
-   "rank": 419,
-   "of": 419
+   "rank": 420,
+   "of": 420
   },
   {
    "group": "Career",
@@ -116,8 +116,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 355,
-   "of": 419
+   "rank": 360,
+   "of": 420
   },
   {
    "group": "Career",
@@ -125,8 +125,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 281,
-   "of": 419
+   "rank": 283,
+   "of": 420
   },
   {
    "group": "Career",
@@ -134,8 +134,8 @@
    "stat": "VOR",
    "value": -8.8,
    "digits": 1,
-   "rank": 291,
-   "of": 419
+   "rank": 293,
+   "of": 420
   },
   {
    "group": "Career",
@@ -143,8 +143,8 @@
    "stat": "PAA",
    "value": -15.6,
    "digits": 1,
-   "rank": 270,
-   "of": 419
+   "rank": 267,
+   "of": 420
   },
   {
    "group": "Career",
@@ -152,8 +152,8 @@
    "stat": "Best Game",
    "value": -0.2,
    "digits": 2,
-   "rank": 419,
-   "of": 419
+   "rank": 420,
+   "of": 420
   },
   {
    "group": "Career",
@@ -161,8 +161,8 @@
    "stat": "Points",
    "value": -0.2,
    "digits": 2,
-   "rank": 99,
-   "of": 99
+   "rank": 100,
+   "of": 100
   },
   {
    "group": "Career",
@@ -170,8 +170,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 83,
-   "of": 99
+   "rank": 85,
+   "of": 100
   },
   {
    "group": "Career",
@@ -179,8 +179,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 80,
-   "of": 99
+   "rank": 81,
+   "of": 100
   },
   {
    "group": "Franchise",
@@ -198,7 +198,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 60,
+   "rank": 61,
    "of": 82,
    "franchise": 4
   },
@@ -248,16 +248,16 @@
    "stat": "Points, 2025",
    "value": -0.2,
    "digits": 2,
-   "rank": 1003,
-   "of": 1007,
+   "rank": 1007,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 366,
-  "of": 419,
+  "rank": 370,
+  "of": 420,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -366,6 +366,11 @@
    [
     "2026",
     8,
+    0.25
+   ],
+   [
+    "2026",
+    9,
     0.25
    ]
   ],

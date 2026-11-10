@@ -912,27 +912,27 @@
  ],
  "similar": [
   {
-   "player": "8167",
-   "name": "Christian Watson",
-   "score": 942,
-   "gs": 22,
-   "pts": 244.6,
-   "ppg": 11.12,
-   "war": -0.23
-  },
-  {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 940,
+   "score": 941,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
    "war": -0.14
   },
   {
+   "player": "10213",
+   "name": "Tre Tucker",
+   "score": 900,
+   "gs": 16,
+   "pts": 166.9,
+   "ppg": 10.43,
+   "war": -0.16
+  },
+  {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 884,
+   "score": 887,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -941,20 +941,20 @@
   {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 883,
+   "score": 887,
    "gs": 25,
    "pts": 260.8,
    "ppg": 10.43,
    "war": -0.2
   },
   {
-   "player": "8134",
-   "name": "Khalil Shakir",
-   "score": 880,
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "score": 881,
    "gs": 25,
-   "pts": 266.9,
-   "ppg": 10.68,
-   "war": -0.14
+   "pts": 274.8,
+   "ppg": 10.99,
+   "war": -0.18
   }
  ],
  "status": {
@@ -968,8 +968,8 @@
    "stat": "Points",
    "value": 215.66,
    "digits": 2,
-   "rank": 144,
-   "of": 419
+   "rank": 146,
+   "of": 420
   },
   {
    "group": "Career",
@@ -977,8 +977,8 @@
    "stat": "Games Started",
    "value": 20,
    "digits": 0,
-   "rank": 141,
-   "of": 419
+   "rank": 144,
+   "of": 420
   },
   {
    "group": "Career",
@@ -986,8 +986,8 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 375,
-   "of": 419
+   "rank": 376,
+   "of": 420
   },
   {
    "group": "Career",
@@ -995,8 +995,8 @@
    "stat": "VOR",
    "value": -25.0,
    "digits": 1,
-   "rank": 375,
-   "of": 419
+   "rank": 376,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1004,8 +1004,8 @@
    "stat": "PAA",
    "value": -59.9,
    "digits": 1,
-   "rank": 381,
-   "of": 419
+   "rank": 382,
+   "of": 420
   },
   {
    "group": "Career",
@@ -1014,7 +1014,7 @@
    "value": 21.96,
    "digits": 2,
    "rank": 200,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1022,8 +1022,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.78,
    "digits": 2,
-   "rank": 148,
-   "of": 252
+   "rank": 150,
+   "of": 256
   },
   {
    "group": "Career",
@@ -1031,8 +1031,8 @@
    "stat": "Bench Points",
    "value": 48.8,
    "digits": 2,
-   "rank": 290,
-   "of": 506
+   "rank": 294,
+   "of": 511
   },
   {
    "group": "Career",
@@ -1049,7 +1049,7 @@
    "stat": "Games Started",
    "value": 20,
    "digits": 0,
-   "rank": 41,
+   "rank": 42,
    "of": 126
   },
   {
@@ -1077,7 +1077,7 @@
    "stat": "Games Started",
    "value": 19,
    "digits": 0,
-   "rank": 11,
+   "rank": 12,
    "of": 44,
    "franchise": 11
   },
@@ -1117,7 +1117,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 60,
+   "rank": 61,
    "of": 82,
    "franchise": 4
   },
@@ -1207,8 +1207,8 @@
    "stat": "Points, 2023",
    "value": 150.26,
    "digits": 2,
-   "rank": 213,
-   "of": 1007,
+   "rank": 227,
+   "of": 1010,
    "season": "2023"
   },
   {
@@ -1217,8 +1217,8 @@
    "stat": "Points, 2024",
    "value": 55.0,
    "digits": 2,
-   "rank": 529,
-   "of": 1007,
+   "rank": 535,
+   "of": 1010,
    "season": "2024"
   },
   {
@@ -1227,15 +1227,15 @@
    "stat": "Points, 2025",
    "value": 10.4,
    "digits": 2,
-   "rank": 851,
-   "of": 1007,
+   "rank": 857,
+   "of": 1010,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 5.0,
-  "rank": 195,
-  "of": 419,
+  "rank": 198,
+  "of": 420,
   "war": 0.0,
   "starts": 5.0,
   "black_ink": 0.0,
@@ -1534,6 +1534,11 @@
    [
     "2026",
     8,
+    5.0
+   ],
+   [
+    "2026",
+    9,
     5.0
    ]
   ],

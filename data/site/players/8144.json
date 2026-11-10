@@ -88,29 +88,29 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "NO",
-   "g": 8,
-   "gs": 7,
-   "pts": 126.1,
+   "g": 9,
+   "gs": 8,
+   "pts": 142.9,
    "bench_pts": 0.0,
-   "ppg": 18.01,
+   "ppg": 17.86,
    "best": 28.2,
-   "wins": 3,
-   "paa": 28.08,
-   "vor": 38.53,
-   "war": 0.46
+   "wins": 4,
+   "paa": 31.24,
+   "vor": 42.82,
+   "war": 0.51
   }
  ],
  "totals": {
-  "g": 59,
-  "gs": 39,
-  "pts": 576.0,
+  "g": 60,
+  "gs": 40,
+  "pts": 592.8,
   "bench_pts": 87.1,
-  "ppg": 14.77,
+  "ppg": 14.82,
   "best": 36.8,
-  "wins": 17,
-  "paa": 40.99,
-  "vor": 118.78,
-  "war": 1.4
+  "wins": 18,
+  "paa": 44.15,
+  "vor": 123.07,
+  "war": 1.45
  },
  "nfl": [
   {
@@ -1254,53 +1254,72 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "date": "2026-11-05",
+   "game": "2026-09-9-10",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": "WR",
+   "started": true,
+   "pts": 16.8,
+   "proj": 15.48,
+   "won": true,
+   "paa": 3.16,
+   "vor": 4.29,
+   "war": 0.05070257991168635
   }
  ],
  "similar": [
   {
    "player": "8137",
    "name": "George Pickens",
-   "score": 943,
+   "score": 972,
    "gs": 41,
    "pts": 605.7,
    "ppg": 14.77,
    "war": 1.53
   },
   {
-   "player": "8146",
-   "name": "Garrett Wilson",
-   "score": 907,
-   "gs": 38,
-   "pts": 539.5,
-   "ppg": 14.2,
-   "war": 1.03
-  },
-  {
    "player": "7525",
    "name": "DeVonta Smith",
-   "score": 885,
+   "score": 896,
    "gs": 43,
    "pts": 598.8,
    "ppg": 13.93,
    "war": 1.15
   },
   {
+   "player": "8146",
+   "name": "Garrett Wilson",
+   "score": 887,
+   "gs": 38,
+   "pts": 539.5,
+   "ppg": 14.2,
+   "war": 1.03
+  },
+  {
    "player": "1479",
    "name": "Keenan Allen",
-   "score": 881,
+   "score": 869,
    "gs": 35,
    "pts": 547.16,
    "ppg": 15.63,
    "war": 1.67
   },
   {
-   "player": "4983",
-   "name": "DJ Moore",
-   "score": 878,
-   "gs": 41,
-   "pts": 562.68,
-   "ppg": 13.72,
-   "war": 0.95
+   "player": "2216",
+   "name": "Mike Evans",
+   "score": 863,
+   "gs": 40,
+   "pts": 640.7,
+   "ppg": 16.02,
+   "war": 1.95
   }
  ],
  "status": {
@@ -1313,46 +1332,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 576.0,
+   "value": 592.8,
    "digits": 2,
    "rank": 45,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 39,
+   "value": 40,
    "digits": 0,
-   "rank": 51,
-   "of": 419
+   "rank": 48,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.4,
+   "value": 1.45,
    "digits": 2,
    "rank": 64,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 118.8,
+   "value": 123.1,
    "digits": 1,
    "rank": 64,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 41.0,
+   "value": 44.1,
    "digits": 1,
    "rank": 54,
-   "of": 419
+   "of": 420
   },
   {
    "group": "Career",
@@ -1360,17 +1379,17 @@
    "stat": "Best Game",
    "value": 36.8,
    "digits": 2,
-   "rank": 46,
-   "of": 419
+   "rank": 47,
+   "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 14.77,
+   "value": 14.82,
    "digits": 2,
    "rank": 69,
-   "of": 252
+   "of": 256
   },
   {
    "group": "Career",
@@ -1378,14 +1397,14 @@
    "stat": "Bench Points",
    "value": 87.1,
    "digits": 2,
-   "rank": 201,
-   "of": 506
+   "rank": 206,
+   "of": 511
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 576.0,
+   "value": 592.8,
    "digits": 2,
    "rank": 14,
    "of": 126
@@ -1394,16 +1413,16 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 39,
+   "value": 40,
    "digits": 0,
-   "rank": 15,
+   "rank": 13,
    "of": 126
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.4,
+   "value": 1.45,
    "digits": 2,
    "rank": 16,
    "of": 126
@@ -1412,37 +1431,37 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points",
-   "value": 496.6,
+   "value": 513.4,
    "digits": 2,
    "rank": 2,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
    "rank": 3,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 1.35,
+   "value": 1.4,
    "digits": 2,
    "rank": 7,
-   "of": 65,
+   "of": 67,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points, WRs",
-   "value": 496.6,
+   "value": 513.4,
    "digits": 2,
    "rank": 1,
    "of": 16,
@@ -1552,19 +1571,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 126.1,
+   "value": 142.9,
    "digits": 2,
-   "rank": 36,
-   "of": 230,
+   "rank": 37,
+   "of": 233,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 126.1,
+   "value": 142.9,
    "digits": 2,
-   "rank": 8,
+   "rank": 9,
    "of": 62,
    "season": "2026"
   },
@@ -1574,8 +1593,8 @@
    "stat": "Points, 2025",
    "value": 204.1,
    "digits": 2,
-   "rank": 113,
-   "of": 1007,
+   "rank": 115,
+   "of": 1010,
    "season": "2025"
   },
   {
@@ -1584,18 +1603,18 @@
    "stat": "Points, 2023",
    "value": 187.8,
    "digits": 2,
-   "rank": 140,
-   "of": 1007,
+   "rank": 143,
+   "of": 1010,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 126.1,
+   "value": 142.9,
    "digits": 2,
-   "rank": 277,
-   "of": 1007,
+   "rank": 243,
+   "of": 1010,
    "season": "2026"
   },
   {
@@ -1604,17 +1623,17 @@
    "stat": "Points, 2024",
    "value": 58.0,
    "digits": 2,
-   "rank": 507,
-   "of": 1007,
+   "rank": 516,
+   "of": 1010,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 23.75,
-  "rank": 66,
-  "of": 419,
-  "war": 14.0,
-  "starts": 9.75,
+  "score": 24.5,
+  "rank": 64,
+  "of": 420,
+  "war": 14.5,
+  "starts": 10.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1912,6 +1931,11 @@
     "2026",
     8,
     23.75
+   ],
+   [
+    "2026",
+    9,
+    24.5
    ]
   ],
   "benchmark": 100
