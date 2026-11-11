@@ -1231,7 +1231,7 @@ SCORING_LABELS = {
 }
 
 
-def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year):
+def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year, on_roster, latest):
     # Points above average: each start measured against the average starter at that position that week.
     by_week = defaultdict(list)
     for game in game_log:
@@ -1279,7 +1279,11 @@ def build_awards(seasons, season_rows, game_log, players, raw_players, rookie_ye
             for pid, pts in s["nfl"]["weeks"].get(str(week), {}).get("points", {}).items():
                 if rookie_year.get(pid) == int(season):
                     totals[pid] += pts
-        holders = {pid: rid for (week, rid), side in s["sides"].items() if week == s["last_week"] for pid in side["players"]}
+        # Who holds him: the current rosters while the season is in progress, the final week's rosters once it is over.
+        if season == latest and not complete:
+            holders = {pid: fid for fid, held in on_roster.items() for pid in held}
+        else:
+            holders = {pid: rid for (week, rid), side in s["sides"].items() if week == s["last_week"] for pid in side["players"]}
         young = []
         for pos in ("QB", "RB", "WR", "TE", "K"):
             ranked = sorted(((pts, pid) for pid, pts in totals.items() if (raw_players.get(pid) or {}).get("position") == pos), reverse=True)
@@ -1862,7 +1866,7 @@ def main():
     dump(SITE / "head_to_head.json", head_to_head(game_log))
     dump(SITE / "trades.json", trades)
     rookie_year = {pid: year for pid, p in raw_players.items() if (year := rookie_year_of(p, state)) is not None}
-    awards, honors, votes = build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year)
+    awards, honors, votes = build_awards(seasons, season_rows, game_log, players, raw_players, rookie_year, on_roster, latest)
     dump(SITE / "awards.json", awards)
     dump(SITE / "young_sexy.json", young_sexy_race(seasons, players, raw_players, rookie_year, drafted, on_roster, latest))
     for pid, info in players.items():

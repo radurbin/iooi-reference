@@ -43,7 +43,7 @@ page("Awards", async (main) => {
         { label: "Ultimate Loser", render: (a) => team(a.ultimate_loser) },
       ],
     }), h("p", { class: "note" }, `${L.current_season} is in progress; its entries are leaders so far.`)),
-    section("Young Sexy Awards", h("p", { class: "note" }, ["Article XI: the top-scoring NFL rookie at each position over weeks 1-17, under iooi scoring. The team shown held his rights at season's end. Full standings, every season: ", h("a", { href: "young_sexy.html" }, "Young Sexy Race"), "."]),
+    section("Young Sexy Awards", h("p", { class: "note" }, ["Article XI: the top-scoring NFL rookie at each position over weeks 1-17, under iooi scoring. The team shown held his rights at season's end, or holds them now for the season in progress. Full standings, every season: ", h("a", { href: "young_sexy.html" }, "Young Sexy Race"), "."]),
       statTable({
         sortable: false, groupBy: (r) => r.season,
         rows: awards.flatMap((a) => a.young_sexy.map((y) => ({ ...y, season: a.season, complete: a.complete }))),
