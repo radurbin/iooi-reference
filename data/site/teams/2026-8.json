@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 32,
+  "transactions": 36,
   "trades": 7,
   "seed": 7,
   "efficiency": 0.855,
@@ -777,6 +777,54 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "13833",
+   "pos": "K",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "12504",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "12718",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1372,7 +1420,7 @@
    "managers": [
     "evan"
    ],
-   "until": null,
+   "until": "2026-11-10",
    "g": 4,
    "gs": 1,
    "pts": 7.7,
@@ -1491,7 +1539,7 @@
    "managers": [
     "evan"
    ],
-   "until": null,
+   "until": "2026-11-10",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -1510,6 +1558,74 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "type": "claim",
+   "player": "12504",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "type": "claim",
+   "player": "12718",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "signing",
+   "player": "LAR",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "signing",
+   "player": "13833",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1854,6 +1970,62 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "player": "11581",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "player": "11647",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "DEN",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "2747",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1866,12 +2038,15 @@
   "12048": "George Holani",
   "12484": "Jayden Higgins",
   "12491": "Corey Kiner",
+  "12504": "Kaleb Johnson",
   "12518": "Tyler Warren",
   "12522": "Cam Ward",
   "12540": "Chimere Dike",
+  "12718": "Konata Mumpfield",
   "13285": "Malachi Fields",
   "13294": "Makai Lemon",
   "13435": "Joe Royer",
+  "13833": "Dominic Zvada",
   "2747": "Jason Myers",
   "3257": "Jacoby Brissett",
   "3634": "Kalif Raymond",
@@ -2051,8 +2226,8 @@
    "opp_record": "5-4",
    "opp_seed": 4,
    "chance": 0.574,
-   "proj": 145.49,
-   "opp_proj": 128.64
+   "proj": 156.45,
+   "opp_proj": 129.32
   },
   {
    "week": 11,

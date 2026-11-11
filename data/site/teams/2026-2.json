@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 28,
+  "transactions": 29,
   "trades": 7,
   "seed": 3,
   "efficiency": 0.8695,
@@ -762,6 +762,22 @@
    "paa": -8.25,
    "vor": -7.11,
    "war": -0.08
+  },
+  {
+   "player": "11579",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1526,6 +1542,23 @@
    "pts": 0.0,
    "wins": 0,
    "best": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "type": "claim",
+   "player": "11579",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -1810,10 +1843,25 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "player": "8110",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
   "11566": "Jayden Daniels",
+  "11579": "Audric Estime",
   "11584": "Bucky Irving",
   "11610": "Malik Washington",
   "11625": "Adonai Mitchell",
@@ -1989,8 +2037,8 @@
    "opp_record": "8-1",
    "opp_seed": 1,
    "chance": 0.304,
-   "proj": 133.08,
-   "opp_proj": 156.6
+   "proj": 134.44,
+   "opp_proj": 159.83
   },
   {
    "week": 11,

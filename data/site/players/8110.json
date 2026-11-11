@@ -139,6 +139,12 @@
    "from": 5,
    "from_team": "St. Brown v. Board",
    "trade": "1264304706734260224"
+  },
+  {
+   "date": "2026-11-10",
+   "type": "released",
+   "from": 2,
+   "from_team": "Storm FC"
   }
  ],
  "nicknames": [
@@ -1244,8 +1250,7 @@
   }
  ],
  "status": {
-  "code": "rostered",
-  "franchise": 2
+  "code": "free_agent"
  },
  "split_draft": null,
  "ranks": [
@@ -1951,11 +1956,6 @@
     "lost": 0.0
    }
   ],
-  "now": {
-   "status": "Out",
-   "injury": "Knee",
-   "since": null,
-   "streak": 0
-  }
+  "now": null
  }
 }

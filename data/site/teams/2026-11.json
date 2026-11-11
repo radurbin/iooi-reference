@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 6,
+  "transactions": 8,
   "trades": 0,
   "seed": 9,
   "efficiency": 0.8238,
@@ -567,6 +567,38 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "12491",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "7042",
+   "pos": "K",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -873,6 +905,40 @@
    "pts": 10.0,
    "wins": 1,
    "best": 9.0
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "type": "claim",
+   "player": "12491",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "type": "claim",
+   "player": "7042",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -945,11 +1011,40 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "player": "13405",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "player": "9504",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
   "11637": "Keon Coleman",
   "12483": "Jack Bech",
+  "12491": "Corey Kiner",
   "12519": "Luther Burden III",
   "12545": "Tyler Shough",
   "13269": "Fernando Mendoza",
@@ -963,6 +1058,7 @@
   "421": "Matthew Stafford",
   "6790": "D'Andre Swift",
   "6794": "Justin Jefferson",
+  "7042": "Tyler Bass",
   "7543": "Travis Etienne Jr.",
   "8131": "Isaiah Likely",
   "8134": "Khalil Shakir",
@@ -1112,8 +1208,8 @@
    "opp_record": "4-5",
    "opp_seed": 6,
    "chance": 0.368,
-   "proj": 108.23,
-   "opp_proj": 131.13
+   "proj": 106.53,
+   "opp_proj": 133.17
   },
   {
    "week": 11,

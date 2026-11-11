@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 33,
+  "transactions": 34,
   "trades": 3,
   "seed": 1,
   "efficiency": 0.8665,
@@ -823,6 +823,22 @@
    "paa": -4.08,
    "vor": -7.11,
    "war": -0.08
+  },
+  {
+   "player": "BAL",
+   "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1556,7 +1572,7 @@
     "riley",
     "emily"
    ],
-   "until": null,
+   "until": "2026-11-11",
    "g": 1,
    "gs": 1,
    "pts": 8.0,
@@ -1576,6 +1592,24 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "signing",
+   "player": "BAL",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1957,6 +1991,21 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "NO",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1994,6 +2043,7 @@
   "9225": "Tank Bigsby",
   "9228": "Bryce Young",
   "96": "Aaron Rodgers",
+  "BAL": "Baltimore Ravens",
   "BUF": "Buffalo Bills",
   "CIN": "Cincinnati Bengals",
   "JAX": "Jacksonville Jaguars",
@@ -2158,8 +2208,8 @@
    "opp_record": "6-3",
    "opp_seed": 3,
    "chance": 0.696,
-   "proj": 156.6,
-   "opp_proj": 133.08
+   "proj": 159.83,
+   "opp_proj": 134.44
   },
   {
    "week": 11,

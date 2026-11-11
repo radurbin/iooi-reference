@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 61,
+  "transactions": 64,
   "trades": 5,
   "seed": 2,
   "efficiency": 0.9156,
@@ -837,6 +837,22 @@
    "paa": -2.82,
    "vor": -7.11,
    "war": -0.08
+  },
+  {
+   "player": "11593",
+   "pos": "TE",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1801,7 +1817,7 @@
    "managers": [
     "ritesh"
    ],
-   "until": null,
+   "until": "2026-11-11",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -1820,6 +1836,40 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "signing",
+   "player": "7562",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "until": "2026-11-11",
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "signing",
+   "player": "11593",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -2334,6 +2384,34 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "13350",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "7562",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2343,6 +2421,7 @@
   "11576": "Braelon Allen",
   "11583": "Jonathon Brooks",
   "11589": "Trey Benson",
+  "11593": "Brevyn Spann-Ford",
   "11792": "Will Reichard",
   "12185": "Spencer Shrader",
   "12494": "Kyle McCord",
@@ -2581,8 +2660,8 @@
    "opp_record": "2-7",
    "opp_seed": 11,
    "chance": 0.718,
-   "proj": 137.34,
-   "opp_proj": 64.8
+   "proj": 150.33,
+   "opp_proj": 55.74
   },
   {
    "week": 11,

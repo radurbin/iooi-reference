@@ -1,0 +1,174 @@
+{
+ "id": "12634",
+ "name": "Jordan Watkins",
+ "pos": "WR",
+ "nfl_team": "SF",
+ "birth_date": "2002-02-15",
+ "honors": [],
+ "votes": [],
+ "college": "Ole Miss",
+ "rookie_year": 2025,
+ "height": "71",
+ "weight": "196",
+ "drafted": null,
+ "career": [],
+ "totals": {
+  "g": 0,
+  "gs": 0,
+  "pts": 0.0,
+  "bench_pts": 0.0,
+  "ppg": null,
+  "best": null,
+  "wins": 0,
+  "paa": 0.0,
+  "vor": 0.0,
+  "war": 0.0
+ },
+ "nfl": [
+  {
+   "season": "2025",
+   "team": "SF",
+   "g": 4,
+   "pts": 4.6,
+   "rank": 196
+  },
+  {
+   "season": "2026",
+   "team": "SF",
+   "g": 6,
+   "pts": 38.4,
+   "rank": 89
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-10",
+   "type": "claimed",
+   "to": 10,
+   "to_team": "Maddison Beer’s Boys",
+   "from": null,
+   "from_team": null,
+   "trade": null
+  }
+ ],
+ "nicknames": [],
+ "log": [],
+ "status": {
+  "code": "rostered",
+  "franchise": 10
+ },
+ "split_draft": null,
+ "ranks": [],
+ "similar": [],
+ "hof": null,
+ "black_ink": null,
+ "records_held": [],
+ "injuries": {
+  "seasons": [
+   {
+    "season": "2025",
+    "nfl": "SF",
+    "missed": 7,
+    "lost": 0.0,
+    "injuries": [
+     "Calf",
+     "Ankle"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "kinds": [
+     "Doubtful",
+     "Inactive",
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 1,
+      "kind": "Doubtful",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 2,
+      "kind": "Inactive",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 3,
+      "kind": "Out",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 4,
+      "kind": "Out",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 5,
+      "kind": "Out",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 6,
+      "kind": "Out",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 7,
+      "kind": "Inactive",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
+     }
+    ]
+   }
+  ],
+  "stints": [
+   {
+    "season": "2025",
+    "from": 1,
+    "to": 7,
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "missed": 7,
+    "nfl": "SF",
+    "injury": "Calf",
+    "kinds": [
+     "Doubtful",
+     "Inactive",
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   }
+  ],
+  "now": null
+ }
+}

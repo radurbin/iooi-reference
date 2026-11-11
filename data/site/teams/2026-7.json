@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 26,
+  "transactions": 30,
   "trades": 1,
   "seed": 6,
   "efficiency": 0.887,
@@ -747,6 +747,38 @@
    "paa": -6.42,
    "vor": -8.11,
    "war": -0.1
+  },
+  {
+   "player": "3286",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "IND",
+   "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1446,7 +1478,7 @@
    "managers": [
     "anargha"
    ],
-   "until": null,
+   "until": "2026-11-08",
    "g": 1,
    "gs": 1,
    "pts": 16.0,
@@ -1463,8 +1495,59 @@
    "managers": [
     "anargha"
    ],
-   "until": null,
+   "until": "2026-11-11",
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-08",
+   "season": "2026",
+   "type": "claim",
+   "player": "2306",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "until": "2026-11-11",
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "signing",
+   "player": "IND",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "signing",
+   "player": "3286",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1751,6 +1834,48 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-08",
+   "season": "2026",
+   "player": "KC",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "2306",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "13150",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1774,6 +1899,7 @@
   "13411": "Zavion Thomas",
   "2306": "Jameis Winston",
   "3214": "Hunter Henry",
+  "3286": "Demarcus Robinson",
   "3294": "Dak Prescott",
   "3451": "Ka'imi Fairbairn",
   "4454": "Kendrick Bourne",
@@ -1785,6 +1911,7 @@
   "9493": "Puka Nacua",
   "CHI": "Chicago Bears",
   "CLE": "Cleveland Browns",
+  "IND": "Indianapolis Colts",
   "KC": "Kansas City Chiefs",
   "LAR": "Los Angeles Rams",
   "NO": "New Orleans Saints",
@@ -1944,8 +2071,8 @@
    "opp_record": "4-5",
    "opp_seed": 9,
    "chance": 0.632,
-   "proj": 131.13,
-   "opp_proj": 108.23
+   "proj": 133.17,
+   "opp_proj": 106.53
   },
   {
    "week": 11,

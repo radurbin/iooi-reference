@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 40,
+  "transactions": 42,
   "trades": 7,
   "seed": 11,
   "efficiency": 0.8399,
@@ -702,6 +702,37 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "TEN",
+   "pos": "DEF",
+   "nfl": "TEN",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
+  },
+  {
+   "player": "12634",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1452,6 +1483,40 @@
    "pts": 0.0,
    "wins": 0,
    "best": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "type": "claim",
+   "player": "12634",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "managers": [
+    "elis"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-10",
+   "season": "2026",
+   "type": "claim",
+   "player": "TEN",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "managers": [
+    "elis"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -1882,6 +1947,7 @@
   "12509": "Tre' Harris",
   "12522": "Cam Ward",
   "12547": "Kyle Williams",
+  "12634": "Jordan Watkins",
   "13275": "Ty Simpson",
   "13293": "Ja'Kobi Lane",
   "13335": "Cole Payton",
@@ -1901,7 +1967,8 @@
   "9482": "Michael Mayer",
   "9754": "Quentin Johnston",
   "9756": "Jordan Addison",
-  "NE": "New England Patriots"
+  "NE": "New England Patriots",
+  "TEN": "Tennessee Titans"
  },
  "best_games": [
   {
@@ -2041,8 +2108,8 @@
    "opp_record": "7-2",
    "opp_seed": 2,
    "chance": 0.282,
-   "proj": 64.8,
-   "opp_proj": 137.34
+   "proj": 55.74,
+   "opp_proj": 150.33
   },
   {
    "week": 11,

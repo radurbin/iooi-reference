@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 27,
+  "transactions": 29,
   "trades": 1,
   "seed": 5,
   "efficiency": 0.9043,
@@ -702,6 +702,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "12494",
+   "pos": "QB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1284,8 +1300,25 @@
    "managers": [
     "sam"
    ],
-   "until": null,
+   "until": "2026-11-11",
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "type": "claim",
+   "player": "12494",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1576,6 +1609,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "3161",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1587,6 +1634,7 @@
   "12469": "Dylan Sampson",
   "12474": "Woody Marks",
   "12493": "Oronde Gadsden",
+  "12494": "Kyle McCord",
   "12510": "Jalen Milroe",
   "12517": "Colston Loveland",
   "12524": "Shedeur Sanders",
@@ -1784,8 +1832,8 @@
    "opp_record": "4-5",
    "opp_seed": 8,
    "chance": 0.61,
-   "proj": 143.12,
-   "opp_proj": 134.35
+   "proj": 143.52,
+   "opp_proj": 134.4
   },
   {
    "week": 11,

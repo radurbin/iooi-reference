@@ -102,6 +102,15 @@
    "type": "released",
    "from": 11,
    "from_team": "BubbaNASTIES"
+  },
+  {
+   "date": "2026-11-11",
+   "type": "signed",
+   "to": 7,
+   "to_team": "the dart side 🛸💍",
+   "from": null,
+   "from_team": null,
+   "trade": null
   }
  ],
  "nicknames": [],
@@ -408,7 +417,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "rostered",
+  "franchise": 7
  },
  "split_draft": null,
  "ranks": [
