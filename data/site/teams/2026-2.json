@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 29,
+  "transactions": 30,
   "trades": 7,
   "seed": 3,
   "efficiency": 0.8695,
@@ -1519,7 +1519,7 @@
    "managers": [
     "alex"
    ],
-   "until": null,
+   "until": "2026-11-11",
    "g": 1,
    "gs": 1,
    "pts": 18.0,
@@ -1857,6 +1857,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-11",
+   "season": "2026",
+   "player": "NYG",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2037,8 +2051,8 @@
    "opp_record": "8-1",
    "opp_seed": 1,
    "chance": 0.304,
-   "proj": 134.43,
-   "opp_proj": 159.46
+   "proj": 126.27,
+   "opp_proj": 160.88
   },
   {
    "week": 11,

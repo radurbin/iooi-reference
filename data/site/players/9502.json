@@ -2035,6 +2035,7 @@
     "missed": 6,
     "lost": 3.24,
     "injuries": [
+     "Hand",
      "Knee"
     ],
     "weeks": [
@@ -2053,28 +2054,28 @@
      {
       "week": 1,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "Hand",
       "franchise": 6,
       "team": "got that DAWG"
      },
      {
       "week": 2,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "Hand",
       "franchise": 6,
       "team": "got that DAWG"
      },
      {
       "week": 3,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "Hand",
       "franchise": 6,
       "team": "got that DAWG"
      },
      {
       "week": 4,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "Hand",
       "franchise": 6,
       "team": "got that DAWG"
      },
@@ -2242,7 +2243,7 @@
     ],
     "missed": 6,
     "nfl": "HOU",
-    "injury": "Knee",
+    "injury": "Hand",
     "kinds": [
      "IR"
     ],
@@ -2260,6 +2261,11 @@
     "lost": 3.24
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Hand",
+   "since": null,
+   "streak": 0
+  }
  }
 }
