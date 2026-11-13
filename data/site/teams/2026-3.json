@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 64,
+  "transactions": 65,
   "trades": 5,
   "seed": 2,
   "efficiency": 0.9156,
@@ -841,6 +841,22 @@
   {
    "player": "11593",
    "pos": "TE",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "11638",
+   "pos": "WR",
    "nfl": null,
    "g": 0,
    "gs": 0,
@@ -1834,7 +1850,7 @@
    "managers": [
     "ritesh"
    ],
-   "until": null,
+   "until": "2026-11-13",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -1863,6 +1879,23 @@
    "season": "2026",
    "type": "signing",
    "player": "11593",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-13",
+   "season": "2026",
+   "type": "signing",
+   "player": "11638",
    "franchise": 3,
    "team": "Kolkata Kommies",
    "managers": [
@@ -2412,6 +2445,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-13",
+   "season": "2026",
+   "player": "13394",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2422,6 +2469,7 @@
   "11583": "Jonathon Brooks",
   "11589": "Trey Benson",
   "11593": "Brevyn Spann-Ford",
+  "11638": "Ricky Pearsall",
   "11792": "Will Reichard",
   "12185": "Spencer Shrader",
   "12494": "Kyle McCord",

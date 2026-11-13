@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 30,
+  "transactions": 31,
   "trades": 7,
   "seed": 3,
   "efficiency": 0.8695,
@@ -1559,6 +1559,23 @@
    "pts": 0.0,
    "wins": 0,
    "best": null
+  },
+  {
+   "date": "2026-11-13",
+   "season": "2026",
+   "type": "signing",
+   "player": "KC",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -2051,8 +2068,8 @@
    "opp_record": "8-1",
    "opp_seed": 1,
    "chance": 0.304,
-   "proj": 122.25,
-   "opp_proj": 160.85
+   "proj": 128.8,
+   "opp_proj": 160.93
   },
   {
    "week": 11,

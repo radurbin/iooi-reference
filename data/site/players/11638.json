@@ -115,6 +115,15 @@
    "type": "released",
    "from": 1,
    "from_team": "Mojo Dojo Casa Team 💍"
+  },
+  {
+   "date": "2026-11-13",
+   "type": "signed",
+   "to": 3,
+   "to_team": "Kolkata Kommies",
+   "from": null,
+   "from_team": null,
+   "trade": null
   }
  ],
  "nicknames": [
@@ -805,7 +814,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "rostered",
+  "franchise": 3
  },
  "split_draft": null,
  "ranks": [
@@ -1152,6 +1162,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "IR",
+   "injury": "Knee - PCL",
+   "since": null,
+   "streak": 8
+  }
  }
 }
