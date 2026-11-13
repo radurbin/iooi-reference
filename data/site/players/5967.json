@@ -191,6 +191,15 @@
    "from": 7,
    "from_team": "the dart side 🛸",
    "trade": "1392568421903798272"
+  },
+  {
+   "date": "2026-11-10",
+   "type": "traded",
+   "to": 1,
+   "to_team": "Mojo Dojo Casa Team 💍",
+   "from": 4,
+   "from_team": "Im Stroud Of You",
+   "trade": "1425994609305059328"
   }
  ],
  "nicknames": [
@@ -1348,7 +1357,7 @@
  ],
  "status": {
   "code": "rostered",
-  "franchise": 4
+  "franchise": 1
  },
  "split_draft": null,
  "ranks": [
@@ -2058,6 +2067,11 @@
     "lost": 3.78
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Finger",
+   "since": null,
+   "streak": 0
+  }
  }
 }

@@ -27,8 +27,8 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 34,
-  "trades": 3,
+  "transactions": 35,
+  "trades": 4,
   "seed": 1,
   "efficiency": 0.8665,
   "luck": 1.27,
@@ -356,7 +356,7 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 8.98,
-   "vor": 13.45,
+   "vor": 13.4,
    "war": 0.16
   },
   {
@@ -386,8 +386,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -3.5,
-   "vor": 0.67,
-   "war": 0.01
+   "vor": -2.75,
+   "war": -0.03
   },
   {
    "player": "12514",
@@ -416,7 +416,7 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -7.89,
-   "vor": -11.63,
+   "vor": -11.66,
    "war": -0.14
   },
   {
@@ -431,7 +431,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -0.95,
-   "vor": -0.91,
+   "vor": -0.92,
    "war": -0.01
   },
   {
@@ -446,8 +446,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -2.4,
-   "vor": 0.89,
-   "war": 0.01
+   "vor": -0.25,
+   "war": -0.0
   },
   {
    "player": "5846",
@@ -476,8 +476,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 0.58,
-   "vor": -1.11,
-   "war": -0.01
+   "vor": -2.25,
+   "war": -0.03
   },
   {
    "player": "CIN",
@@ -491,8 +491,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -6.5,
-   "vor": -4.11,
-   "war": -0.05
+   "vor": -5.25,
+   "war": -0.06
   },
   {
    "player": "BUF",
@@ -506,8 +506,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -6.25,
-   "vor": -6.11,
-   "war": -0.07
+   "vor": -7.25,
+   "war": -0.09
   },
   {
    "player": "12489",
@@ -806,8 +806,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -2.82,
-   "vor": -7.11,
-   "war": -0.08
+   "vor": -8.25,
+   "war": -0.1
   },
   {
    "player": "SF",
@@ -821,12 +821,28 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -4.08,
-   "vor": -7.11,
-   "war": -0.08
+   "vor": -8.25,
+   "war": -0.1
   },
   {
    "player": "BAL",
    "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "5967",
+   "pos": "RB",
    "nfl": null,
    "g": 0,
    "gs": 0,
@@ -1060,6 +1076,17 @@
  ],
  "draft_kind": "rookie",
  "trades": [
+  {
+   "id": "1425994609305059328",
+   "date": "2026-11-10",
+   "with": [
+    {
+     "franchise": 4,
+     "team": "Im Stroud Of You"
+    }
+   ],
+   "got": 1
+  },
   {
    "id": "1410700135544942592",
    "date": "2026-09-29",
@@ -1464,7 +1491,7 @@
     "riley",
     "emily"
    ],
-   "until": null,
+   "until": "2026-11-10",
    "g": 4,
    "gs": 0,
    "pts": 0.0,
@@ -2034,6 +2061,7 @@
   "5844": "T.J. Hockenson",
   "5846": "DK Metcalf",
   "5947": "Jakobi Meyers",
+  "5967": "Tony Pollard",
   "6786": "CeeDee Lamb",
   "7021": "Rico Dowdle",
   "8130": "Trey McBride",
@@ -2208,8 +2236,8 @@
    "opp_record": "6-3",
    "opp_seed": 3,
    "chance": 0.696,
-   "proj": 160.88,
-   "opp_proj": 126.27
+   "proj": 160.85,
+   "opp_proj": 122.25
   },
   {
    "week": 11,

@@ -984,7 +984,7 @@
    {
     "season": "2026",
     "nfl": "NYG",
-    "missed": 6,
+    "missed": 7,
     "lost": 19.8,
     "injuries": [
      "Knee",
@@ -996,7 +996,8 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1044,6 +1045,13 @@
       "injury": "Knee - Meniscus",
       "franchise": 7,
       "team": "the dart side 🛸💍"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Knee - Meniscus",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1075,16 +1083,17 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 9,
+    "to": 10,
     "weeks": [
      3,
      4,
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "NYG",
     "injury": "Knee",
     "kinds": [
@@ -1104,7 +1113,7 @@
    "status": "IR",
    "injury": "Knee - Meniscus",
    "since": null,
-   "streak": 6
+   "streak": 7
   }
  }
 }

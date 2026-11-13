@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 32,
+  "transactions": 33,
   "trades": 4,
   "seed": 8,
   "efficiency": 0.842,
@@ -311,7 +311,7 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 13.55,
-   "vor": 15.75,
+   "vor": 15.7,
    "war": 0.19
   },
   {
@@ -356,8 +356,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -1.97,
-   "vor": 2.45,
-   "war": 0.03
+   "vor": -3.25,
+   "war": -0.04
   },
   {
    "player": "1373",
@@ -401,8 +401,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -2.75,
-   "vor": -7.33,
-   "war": -0.09
+   "vor": -10.75,
+   "war": -0.13
   },
   {
    "player": "13286",
@@ -431,7 +431,7 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -5.92,
-   "vor": -7.02,
+   "vor": -7.04,
    "war": -0.08
   },
   {
@@ -521,7 +521,7 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -15.08,
-   "vor": -15.42,
+   "vor": -15.44,
    "war": -0.18
   },
   {
@@ -536,8 +536,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -6.25,
-   "vor": -5.11,
-   "war": -0.06
+   "vor": -6.25,
+   "war": -0.07
   },
   {
    "player": "13330",
@@ -793,6 +793,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "5119",
+   "pos": "K",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1368,7 +1384,7 @@
     "tanner",
     "joe"
    ],
-   "until": null,
+   "until": "2026-11-12",
    "g": 5,
    "gs": 5,
    "pts": 61.8,
@@ -1604,6 +1620,24 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-12",
+   "season": "2026",
+   "type": "signing",
+   "player": "5119",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1970,6 +2004,21 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-12",
+   "season": "2026",
+   "player": "6650",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1997,6 +2046,7 @@
   "4046": "Patrick Mahomes",
   "4227": "Harrison Butker",
   "4993": "Mike Gesicki",
+  "5119": "Jason Sanders",
   "6650": "Chase McLaughlin",
   "6806": "J.K. Dobbins",
   "7523": "Trevor Lawrence",
@@ -2135,8 +2185,8 @@
    "opp_record": "5-4",
    "opp_seed": 5,
    "chance": 0.39,
-   "proj": 134.23,
-   "opp_proj": 148.22
+   "proj": 139.16,
+   "opp_proj": 140.59
   },
   {
    "week": 11,

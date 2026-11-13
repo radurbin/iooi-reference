@@ -153,9 +153,9 @@
   {
    "season": "2026",
    "team": "WAS",
-   "g": 7,
-   "pts": 90.3,
-   "rank": 26
+   "g": 8,
+   "pts": 110.6,
+   "rank": 19
   }
  ],
  "history": [
@@ -1450,7 +1450,7 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 29,
+   "rank": 28,
    "of": 82,
    "franchise": 4
   },
@@ -2106,7 +2106,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 1,
-    "lost": 0.39,
+    "lost": 1.31,
     "injuries": [
      "Hamstring"
     ],
@@ -2182,7 +2182,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.39
+    "lost": 1.31
    }
   ],
   "now": null

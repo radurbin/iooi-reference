@@ -26,8 +26,8 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 23,
-  "trades": 2,
+  "transactions": 24,
+  "trades": 3,
   "seed": 10,
   "efficiency": 0.8592,
   "luck": 0.64,
@@ -310,7 +310,7 @@
    "bench_pts": 5.0,
    "wins": 1,
    "paa": 10.63,
-   "vor": 11.05,
+   "vor": 11.0,
    "war": 0.13
   },
   {
@@ -415,8 +415,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 1.08,
-   "vor": 4.78,
-   "war": 0.06
+   "vor": 2.5,
+   "war": 0.03
   },
   {
    "player": "5872",
@@ -460,7 +460,7 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -5.55,
-   "vor": -6.12,
+   "vor": -6.14,
    "war": -0.07
   },
   {
@@ -475,8 +475,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -3.4,
-   "vor": -8.22,
-   "war": -0.1
+   "vor": -10.5,
+   "war": -0.12
   },
   {
    "player": "3214",
@@ -520,8 +520,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -12.67,
-   "vor": -13.22,
-   "war": -0.16
+   "vor": -15.5,
+   "war": -0.18
   },
   {
    "player": "13268",
@@ -670,8 +670,24 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -4.08,
-   "vor": -7.11,
-   "war": -0.08
+   "vor": -8.25,
+   "war": -0.1
+  },
+  {
+   "player": "7021",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -920,6 +936,17 @@
  ],
  "draft_kind": "rookie",
  "trades": [
+  {
+   "id": "1425994609305059328",
+   "date": "2026-11-10",
+   "with": [
+    {
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team 💍"
+    }
+   ],
+   "got": 2
+  },
   {
    "id": "1395526250725924864",
    "date": "2026-08-18",
@@ -1508,6 +1535,7 @@
   "5967": "Tony Pollard",
   "650": "Nick Folk",
   "6797": "Justin Herbert",
+  "7021": "Rico Dowdle",
   "7567": "Kenny Gainwell",
   "7839": "Evan McPherson",
   "8142": "Alec Pierce",
@@ -1642,8 +1670,8 @@
    "opp_record": "1-8",
    "opp_seed": 12,
    "chance": 0.597,
-   "proj": 90.7,
-   "opp_proj": 91.97
+   "proj": 87.51,
+   "opp_proj": 97.87
   },
   {
    "week": 11,

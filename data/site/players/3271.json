@@ -528,7 +528,7 @@
    "stat": "WAR",
    "value": -0.07,
    "digits": 2,
-   "rank": 26,
+   "rank": 25,
    "of": 44,
    "franchise": 11
   },
@@ -1207,6 +1207,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Illness",
+   "since": null,
+   "streak": 0
+  }
  }
 }

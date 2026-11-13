@@ -1036,14 +1036,15 @@
    {
     "season": "2026",
     "nfl": "WAS",
-    "missed": 2,
+    "missed": 3,
     "lost": 4.58,
     "injuries": [
      "Groin"
     ],
     "weeks": [
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1063,6 +1064,13 @@
       "injury": "Groin",
       "franchise": 5,
       "team": "St. Brown VS Board💍"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1071,12 +1079,13 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 9,
+    "to": 10,
     "weeks": [
      8,
-     9
+     9,
+     10
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "WAS",
     "injury": "Groin",
     "kinds": [
@@ -1096,7 +1105,7 @@
    "status": "IR",
    "injury": "Groin",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

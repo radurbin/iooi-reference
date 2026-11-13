@@ -8,7 +8,7 @@
  "current": "2026",
  "latest": {
   "season": "2026",
-  "week": 9
+  "week": 10
  },
  "out_now": [
   {
@@ -72,6 +72,18 @@
    "season_missed": 7
   },
   {
+   "player": "12508",
+   "name": "Jaxson Dart",
+   "pos": "QB",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "IR",
+   "injury": "Knee - Meniscus",
+   "since": null,
+   "streak": 7,
+   "season_missed": 7
+  },
+  {
    "player": "10222",
    "name": "Jayden Reed",
    "pos": "WR",
@@ -82,18 +94,6 @@
    "since": null,
    "streak": 7,
    "season_missed": 7
-  },
-  {
-   "player": "12508",
-   "name": "Jaxson Dart",
-   "pos": "QB",
-   "franchise": 7,
-   "team": "the dart side 🛸💍",
-   "status": "IR",
-   "injury": "Knee - Meniscus",
-   "since": null,
-   "streak": 6,
-   "season_missed": 6
   },
   {
    "player": "11583",
@@ -192,13 +192,13 @@
    "season_missed": 3
   },
   {
-   "player": "4881",
-   "name": "Lamar Jackson",
-   "pos": "QB",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
+   "player": "12533",
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
    "status": "IR",
-   "injury": "Thumb",
+   "injury": "Groin",
    "since": null,
    "streak": 3,
    "season_missed": 3
@@ -228,16 +228,16 @@
    "season_missed": 3
   },
   {
-   "player": "12533",
-   "name": "Jacory Croskey-Merritt",
-   "pos": "RB",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
+   "player": "5927",
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
    "status": "IR",
-   "injury": "Groin",
+   "injury": "Knee",
    "since": null,
-   "streak": 2,
-   "season_missed": 2
+   "streak": 3,
+   "season_missed": 4
   },
   {
    "player": "12489",
@@ -245,18 +245,6 @@
    "pos": "RB",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "status": "IR",
-   "injury": "Knee",
-   "since": null,
-   "streak": 2,
-   "season_missed": 3
-  },
-  {
-   "player": "5927",
-   "name": "Terry McLaurin",
-   "pos": "WR",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
    "status": "IR",
    "injury": "Knee",
    "since": null,
@@ -312,6 +300,18 @@
    "season_missed": 0
   },
   {
+   "player": "4881",
+   "name": "Lamar Jackson",
+   "pos": "QB",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "status": "IR",
+   "injury": "Thumb",
+   "since": null,
+   "streak": 0,
+   "season_missed": 3
+  },
+  {
    "player": "8161",
    "name": "Malik Willis",
    "pos": "QB",
@@ -334,6 +334,18 @@
    "since": null,
    "streak": 0,
    "season_missed": 0
+  },
+  {
+   "player": "9493",
+   "name": "Puka Nacua",
+   "pos": "WR",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "IR",
+   "injury": "Knee - MCL",
+   "since": null,
+   "streak": 0,
+   "season_missed": 2
   },
   {
    "player": "12534",
@@ -420,18 +432,6 @@
    "season_missed": 0
   },
   {
-   "player": "9493",
-   "name": "Puka Nacua",
-   "pos": "WR",
-   "franchise": 7,
-   "team": "the dart side 🛸💍",
-   "status": "Out",
-   "injury": "Knee - MCL",
-   "since": null,
-   "streak": 0,
-   "season_missed": 2
-  },
-  {
    "player": "5849",
    "name": "Kyler Murray",
    "pos": "QB",
@@ -454,18 +454,6 @@
    "since": null,
    "streak": 1,
    "season_missed": 1
-  },
-  {
-   "player": "7611",
-   "name": "Rhamondre Stevenson",
-   "pos": "RB",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
-   "status": "Doubtful",
-   "injury": "Knee",
-   "since": null,
-   "streak": 0,
-   "season_missed": 0
   },
   {
    "player": "5892",
@@ -588,18 +576,6 @@
    "season_missed": 1
   },
   {
-   "player": "4035",
-   "name": "Alvin Kamara",
-   "pos": "RB",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
-   "status": "Questionable",
-   "injury": "Back",
-   "since": null,
-   "streak": 0,
-   "season_missed": 1
-  },
-  {
    "player": "7547",
    "name": "Amon-Ra St. Brown",
    "pos": "WR",
@@ -708,30 +684,6 @@
    "season_missed": 0
   },
   {
-   "player": "3163",
-   "name": "Jared Goff",
-   "pos": "QB",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
-   "status": "Questionable",
-   "injury": "Chest",
-   "since": null,
-   "streak": 0,
-   "season_missed": 0
-  },
-  {
-   "player": "6797",
-   "name": "Justin Herbert",
-   "pos": "QB",
-   "franchise": 4,
-   "team": "Im Stroud Of You",
-   "status": "Questionable",
-   "injury": "Finger",
-   "since": null,
-   "streak": 0,
-   "season_missed": 0
-  },
-  {
    "player": "11635",
    "name": "Ladd McConkey",
    "pos": "WR",
@@ -780,6 +732,18 @@
    "season_missed": 4
   },
   {
+   "player": "7611",
+   "name": "Rhamondre Stevenson",
+   "pos": "RB",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "status": "Questionable",
+   "injury": "Knee",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
    "player": "11729",
    "name": "Sione Vaki",
    "pos": "RB",
@@ -804,16 +768,40 @@
    "season_missed": 0
   },
   {
-   "player": "9502",
-   "name": "Tank Dell",
-   "pos": "WR",
-   "franchise": 8,
-   "team": "BBL KIZZY",
+   "player": "5967",
+   "name": "Tony Pollard",
+   "pos": "RB",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
    "status": "Questionable",
-   "injury": "Hand",
+   "injury": "Finger",
    "since": null,
    "streak": 0,
-   "season_missed": 6
+   "season_missed": 0
+  },
+  {
+   "player": "12509",
+   "name": "Tre' Harris",
+   "pos": "WR",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "status": "Questionable",
+   "injury": "Shoulder",
+   "since": null,
+   "streak": 0,
+   "season_missed": 1
+  },
+  {
+   "player": "3271",
+   "name": "Tyler Higbee",
+   "pos": "TE",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "Questionable",
+   "injury": "Illness",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
   },
   {
    "player": "12474",
@@ -2559,7 +2547,6 @@
    "injuries": [
     "Knee",
     "Calf",
-    "Hand",
     "Concussion",
     "Chest"
    ],
@@ -3182,7 +3169,7 @@
    "name": "Cam Skattebo",
    "pos": "RB",
    "missed": 9,
-   "lost": 62.39,
+   "lost": 64.58,
    "injuries": [
     "Knee",
     "Hamstring"
@@ -3215,6 +3202,23 @@
    "franchises": 2
   },
   {
+   "player": "11566",
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "missed": 11,
+   "lost": 58.88,
+   "injuries": [
+    "Elbow",
+    "Knee",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
    "player": "6806",
    "name": "J.K. Dobbins",
    "pos": "RB",
@@ -3230,23 +3234,6 @@
    ],
    "seasons": 3,
    "franchises": 2
-  },
-  {
-   "player": "11566",
-   "name": "Jayden Daniels",
-   "pos": "QB",
-   "missed": 11,
-   "lost": 58.28,
-   "injuries": [
-    "Elbow",
-    "Knee",
-    "Hamstring"
-   ],
-   "kinds": [
-    "Out"
-   ],
-   "seasons": 2,
-   "franchises": 1
   },
   {
    "player": "4068",
@@ -5346,7 +5333,7 @@
    "finish": null,
    "games": 39,
    "players": 12,
-   "lost": 38.38,
+   "lost": 38.98,
    "worst": {
     "player": "7525",
     "name": "DeVonta Smith",
@@ -5587,7 +5574,7 @@
    "finish": null,
    "games": 27,
    "players": 13,
-   "lost": 23.1,
+   "lost": 25.76,
    "worst": {
     "player": "8155",
     "name": "Breece Hall",
@@ -5614,9 +5601,9 @@
    "franchise": 2,
    "name": "Storm FC",
    "games": 199,
-   "lost": 291.04,
+   "lost": 291.64,
    "seasons": 4,
-   "per_season": 72.76,
+   "per_season": 72.91,
    "worst": "2025"
   },
   {
@@ -5704,9 +5691,9 @@
    "franchise": 12,
    "name": "Team Win One Game",
    "games": 201,
-   "lost": 394.82,
+   "lost": 397.48,
    "seasons": 4,
-   "per_season": 98.7,
+   "per_season": 99.37,
    "worst": "2025"
   }
  ],
@@ -5715,9 +5702,9 @@
    "key": "alex",
    "name": "Alex",
    "games": 199,
-   "lost": 291.04,
+   "lost": 291.64,
    "seasons": 4,
-   "per_season": 72.76,
+   "per_season": 72.91,
    "worst": "2025"
   },
   {
@@ -5742,9 +5729,9 @@
    "key": "charlie",
    "name": "Charlie",
    "games": 27,
-   "lost": 23.1,
+   "lost": 25.76,
    "seasons": 1,
-   "per_season": 23.1,
+   "per_season": 25.76,
    "worst": "2026"
   },
   {
@@ -5859,15 +5846,15 @@
  "injuries": [
   {
    "injury": "Knee",
-   "games": 427,
+   "games": 431,
    "players": 78,
-   "stints": 101
+   "stints": 103
   },
   {
    "injury": "Hamstring",
    "games": 259,
    "players": 80,
-   "stints": 105
+   "stints": 104
   },
   {
    "injury": "Ankle",
@@ -5960,12 +5947,6 @@
    "stints": 2
   },
   {
-   "injury": "Hand",
-   "games": 20,
-   "players": 6,
-   "stints": 5
-  },
-  {
    "injury": "Illness",
    "games": 20,
    "players": 11,
@@ -6006,6 +5987,12 @@
    "games": 16,
    "players": 7,
    "stints": 7
+  },
+  {
+   "injury": "Hand",
+   "games": 16,
+   "players": 5,
+   "stints": 4
   },
   {
    "injury": "Wrist",
@@ -6100,15 +6087,15 @@
    "season": "2026",
    "QB": {
     "games": 35,
-    "lost": 73.62
+    "lost": 74.22
    },
    "RB": {
     "games": 102,
-    "lost": 270.73
+    "lost": 272.47
    },
    "WR": {
     "games": 145,
-    "lost": 91.29
+    "lost": 92.21
    },
    "TE": {
     "games": 24,
@@ -6196,7 +6183,7 @@
  },
  "totals": {
   "games": 1857,
-  "lost": 3235.18,
+  "lost": 3238.44,
   "players": 318
  }
 }

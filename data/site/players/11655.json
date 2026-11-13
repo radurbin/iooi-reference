@@ -775,7 +775,7 @@
    "stat": "WAR",
    "value": 0.12,
    "digits": 2,
-   "rank": 179,
+   "rank": 178,
    "of": 420
   },
   {
@@ -784,7 +784,7 @@
    "stat": "VOR",
    "value": 10.0,
    "digits": 1,
-   "rank": 182,
+   "rank": 180,
    "of": 420
   },
   {
@@ -1181,13 +1181,14 @@
    {
     "season": "2026",
     "nfl": "NYG",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Hamstring"
     ],
     "weeks": [
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1196,6 +1197,13 @@
     "games": [
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Hamstring",
       "franchise": null,
@@ -1232,11 +1240,12 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 9,
+    "to": 10,
     "weeks": [
-     9
+     9,
+     10
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "NYG",
     "injury": "Hamstring",
     "kinds": [

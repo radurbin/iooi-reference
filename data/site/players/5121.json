@@ -312,7 +312,7 @@
    {
     "season": "2026",
     "nfl": "NYG",
-    "missed": 4,
+    "missed": 5,
     "lost": 0.0,
     "injuries": [
      "Foot"
@@ -321,7 +321,8 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -351,6 +352,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Foot",
       "franchise": null,
@@ -444,14 +452,15 @@
    {
     "season": "2026",
     "from": 5,
-    "to": 9,
+    "to": 10,
     "weeks": [
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "NYG",
     "injury": "Foot",
     "kinds": [
