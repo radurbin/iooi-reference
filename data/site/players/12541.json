@@ -698,8 +698,8 @@
     "missed": 8,
     "lost": 0.0,
     "injuries": [
-     "Hamstring",
-     "Back"
+     "Back",
+     "Hamstring"
     ],
     "weeks": [
      1,
@@ -720,28 +720,28 @@
      {
       "week": 1,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Back",
       "franchise": null,
       "team": null
      },
      {
       "week": 2,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Back",
       "franchise": null,
       "team": null
      },
      {
       "week": 3,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Back",
       "franchise": null,
       "team": null
      },
      {
       "week": 4,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Back",
       "franchise": null,
       "team": null
      },
@@ -814,7 +814,7 @@
     ],
     "missed": 7,
     "nfl": "LV",
-    "injury": "Hamstring",
+    "injury": "Back",
     "kinds": [
      "IR"
     ],

@@ -2,7 +2,7 @@
  "id": "5848",
  "name": "Marquise Brown",
  "pos": "WR",
- "nfl_team": "PHI",
+ "nfl_team": null,
  "birth_date": "1997-06-04",
  "honors": [],
  "votes": [],
@@ -961,7 +961,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "out",
+  "last_nfl": "2026"
  },
  "split_draft": null,
  "ranks": [
