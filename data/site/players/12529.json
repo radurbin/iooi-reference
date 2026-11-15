@@ -826,7 +826,7 @@
  ],
  "hof": {
   "score": 7.0,
-  "rank": 164,
+  "rank": 163,
   "of": 420,
   "war": 4.0,
   "starts": 3.0,
@@ -973,7 +973,7 @@
    {
     "season": "2026",
     "nfl": "NE",
-    "missed": 3,
+    "missed": 4,
     "lost": 0.0,
     "injuries": [
      "Illness",
@@ -982,9 +982,11 @@
     "weeks": [
      1,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
+     "IR",
      "Out",
      "Questionable"
     ],
@@ -1010,6 +1012,13 @@
       "injury": "Illness",
       "franchise": 5,
       "team": "St. Brown VS Board💍"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Illness",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1040,15 +1049,17 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 9,
+    "to": 10,
     "weeks": [
      8,
-     9
+     9,
+     10
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "NE",
     "injury": "Illness",
     "kinds": [
+     "IR",
      "Out",
      "Questionable"
     ],
@@ -1063,10 +1074,10 @@
    }
   ],
   "now": {
-   "status": "Out",
+   "status": "IR",
    "injury": "Illness",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

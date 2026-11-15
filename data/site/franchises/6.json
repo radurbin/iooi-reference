@@ -341,8 +341,8 @@
     "best": 19.1,
     "wins": 8,
     "paa": 25.07,
-    "vor": 31.48,
-    "war": 0.37
+    "vor": 22.04,
+    "war": 0.26
    },
    {
     "player": "5859",
@@ -664,8 +664,8 @@
      "best": 19.1,
      "wins": 8,
      "paa": 25.07,
-     "vor": 31.48,
-     "war": 0.37
+     "vor": 22.04,
+     "war": 0.26
     },
     {
      "player": "6650",
@@ -1368,16 +1368,16 @@
     "team": "got that DAWG",
     "games": 33,
     "players": 11,
-    "lost": 19.56,
-    "rank": 10,
+    "lost": 14.82,
+    "rank": 11,
     "games_rank": 2,
     "of": 12,
     "worst": {
-     "player": "5859",
-     "name": "A.J. Brown",
+     "player": "2216",
+     "name": "Mike Evans",
      "pos": "WR",
-     "missed": 6,
-     "lost": 4.74
+     "missed": 2,
+     "lost": 4.64
     },
     "w": 5,
     "l": 4
@@ -1555,9 +1555,8 @@
     "name": "A.J. Brown",
     "pos": "WR",
     "missed": 7,
-    "lost": 8.83,
+    "lost": 4.09,
     "injuries": [
-     "Knee",
      "Ankle",
      "Hamstring"
     ],
@@ -1675,9 +1674,9 @@
    "franchise": 6,
    "name": "got that DAWG",
    "games": 188,
-   "lost": 223.7,
+   "lost": 218.96,
    "seasons": 4,
-   "per_season": 55.92,
+   "per_season": 54.74,
    "worst": "2025"
   }
  }

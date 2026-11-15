@@ -734,7 +734,7 @@
    "toilet_w": 0,
    "toilet_l": 0,
    "finish": null,
-   "transactions": 29,
+   "transactions": 30,
    "trades": 1,
    "seed": 5,
    "efficiency": 0.9043,
@@ -761,7 +761,7 @@
    "toilet_w": 0,
    "toilet_l": 0,
    "finish": null,
-   "transactions": 30,
+   "transactions": 31,
    "trades": 1,
    "seed": 6,
    "efficiency": 0.887,
@@ -842,7 +842,7 @@
    "toilet_w": 0,
    "toilet_l": 0,
    "finish": null,
-   "transactions": 8,
+   "transactions": 9,
    "trades": 0,
    "seed": 9,
    "efficiency": 0.8238,
@@ -2919,30 +2919,6 @@
    },
    {
     "season": "2026",
-    "franchise": 6,
-    "team": "got that DAWG",
-    "managers": [
-     "makenzy"
-    ],
-    "w": 5,
-    "l": 4,
-    "finish": null,
-    "games": 33,
-    "players": 11,
-    "lost": 19.56,
-    "worst": {
-     "player": "5859",
-     "name": "A.J. Brown",
-     "pos": "WR",
-     "missed": 6,
-     "lost": 4.74
-    },
-    "rank": 10,
-    "games_rank": 2,
-    "of": 12
-   },
-   {
-    "season": "2026",
     "franchise": 3,
     "team": "Kolkata Kommies",
     "managers": [
@@ -2961,8 +2937,32 @@
      "missed": 3,
      "lost": 8.55
     },
-    "rank": 11,
+    "rank": 10,
     "games_rank": 9,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 6,
+    "team": "got that DAWG",
+    "managers": [
+     "makenzy"
+    ],
+    "w": 5,
+    "l": 4,
+    "finish": null,
+    "games": 33,
+    "players": 11,
+    "lost": 14.82,
+    "worst": {
+     "player": "2216",
+     "name": "Mike Evans",
+     "pos": "WR",
+     "missed": 2,
+     "lost": 4.64
+    },
+    "rank": 11,
+    "games_rank": 2,
     "of": 12
    },
    {

@@ -1242,7 +1242,7 @@
    "stat": "WAR",
    "value": 0.5,
    "digits": 2,
-   "rank": 110,
+   "rank": 109,
    "of": 420
   },
   {
@@ -1251,7 +1251,7 @@
    "stat": "VOR",
    "value": 42.3,
    "digits": 1,
-   "rank": 110,
+   "rank": 109,
    "of": 420
   },
   {
@@ -1343,7 +1343,7 @@
    "stat": "WAR",
    "value": -0.02,
    "digits": 2,
-   "rank": 32,
+   "rank": 31,
    "of": 40,
    "franchise": 6
   },
@@ -1490,7 +1490,7 @@
  ],
  "hof": {
   "score": 10.75,
-  "rank": 120,
+  "rank": 119,
   "of": 420,
   "war": 5.0,
   "starts": 3.75,
@@ -1970,7 +1970,7 @@
    {
     "season": "2026",
     "nfl": "DET",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Back"
@@ -1983,7 +1983,8 @@
      5,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -2045,6 +2046,13 @@
       "injury": "Back",
       "franchise": 6,
       "team": "got that DAWG"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Back",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2130,7 +2138,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -2139,9 +2147,10 @@
      5,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "DET",
     "injury": "Back",
     "kinds": [
@@ -2161,7 +2170,7 @@
    "status": "IR",
    "injury": "Back",
    "since": null,
-   "streak": 8
+   "streak": 9
   }
  }
 }

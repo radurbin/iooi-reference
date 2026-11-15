@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 29,
+  "transactions": 30,
   "trades": 1,
   "seed": 5,
   "efficiency": 0.9043,
@@ -295,8 +295,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": -0.76,
-   "vor": -0.08,
-   "war": -0.0
+   "vor": -10.7,
+   "war": -0.13
   },
   {
    "player": "6904",
@@ -702,6 +702,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "BUF",
+   "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   },
   {
    "player": "12494",
@@ -1147,7 +1163,7 @@
    "managers": [
     "sam"
    ],
-   "until": null,
+   "until": "2026-11-15",
    "g": 8,
    "gs": 0,
    "pts": 0.0,
@@ -1312,6 +1328,23 @@
    "season": "2026",
    "type": "claim",
    "player": "12494",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-15",
+   "season": "2026",
+   "type": "signing",
+   "player": "BUF",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "managers": [
@@ -1623,6 +1656,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-15",
+   "season": "2026",
+   "player": "13347",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1659,6 +1706,7 @@
   "8180": "Jalen Nailor",
   "9221": "Jahmyr Gibbs",
   "9226": "De'Von Achane",
+  "BUF": "Buffalo Bills",
   "LV": "Las Vegas Raiders",
   "SEA": "Seattle Seahawks"
  },
@@ -1832,8 +1880,8 @@
    "opp_record": "4-5",
    "opp_seed": 8,
    "chance": 0.61,
-   "proj": 142.9,
-   "opp_proj": 139.27
+   "proj": 146.8,
+   "opp_proj": 140.23
   },
   {
    "week": 11,

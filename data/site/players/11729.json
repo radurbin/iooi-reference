@@ -59,9 +59,9 @@
   {
    "season": "2026",
    "team": "DET",
-   "g": 8,
-   "pts": 29.9,
-   "rank": 68
+   "g": 9,
+   "pts": 34.0,
+   "rank": 62
   }
  ],
  "history": [
@@ -223,7 +223,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 275,
+   "rank": 274,
    "of": 420
   },
   {
@@ -232,7 +232,7 @@
    "stat": "VOR",
    "value": -7.4,
    "digits": 1,
-   "rank": 278,
+   "rank": 276,
    "of": 420
   },
   {
@@ -363,7 +363,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 370,
+  "rank": 369,
   "of": 420,
   "war": 0.0,
   "starts": 0.25,
@@ -563,11 +563,6 @@
     "lost": 0.0
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Ankle",
-   "since": null,
-   "streak": 0
-  }
+  "now": null
  }
 }

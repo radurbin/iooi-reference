@@ -32,8 +32,8 @@
    "status": "IR",
    "injury": "Back",
    "since": null,
-   "streak": 8,
-   "season_missed": 8
+   "streak": 9,
+   "season_missed": 9
   },
   {
    "player": "12484",
@@ -144,18 +144,6 @@
    "season_missed": 5
   },
   {
-   "player": "7543",
-   "name": "Travis Etienne Jr.",
-   "pos": "RB",
-   "franchise": 11,
-   "team": "BubbaNASTIES",
-   "status": "IR",
-   "injury": "Hamstring",
-   "since": null,
-   "streak": 5,
-   "season_missed": 5
-  },
-  {
    "player": "6904",
    "name": "Jalen Hurts",
    "pos": "QB",
@@ -178,6 +166,18 @@
    "since": null,
    "streak": 4,
    "season_missed": 5
+  },
+  {
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "status": "IR",
+   "injury": "Shoulder",
+   "since": null,
+   "streak": 4,
+   "season_missed": 4
   },
   {
    "player": "8154",
@@ -228,18 +228,6 @@
    "season_missed": 3
   },
   {
-   "player": "8121",
-   "name": "Romeo Doubs",
-   "pos": "WR",
-   "franchise": 10,
-   "team": "Maddison Beer’s Boys",
-   "status": "IR",
-   "injury": "Shoulder",
-   "since": null,
-   "streak": 3,
-   "season_missed": 3
-  },
-  {
    "player": "5927",
    "name": "Terry McLaurin",
    "pos": "WR",
@@ -247,6 +235,18 @@
    "team": "Kolkata Kommies",
    "status": "IR",
    "injury": "Knee",
+   "since": null,
+   "streak": 3,
+   "season_missed": 4
+  },
+  {
+   "player": "12529",
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "IR",
+   "injury": "Illness",
    "since": null,
    "streak": 3,
    "season_missed": 4
@@ -286,18 +286,6 @@
    "since": null,
    "streak": 1,
    "season_missed": 3
-  },
-  {
-   "player": "13347",
-   "name": "Demond Claiborne",
-   "pos": "RB",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
-   "status": "IR",
-   "injury": "Knee",
-   "since": null,
-   "streak": 0,
-   "season_missed": 0
   },
   {
    "player": "6011",
@@ -372,6 +360,18 @@
    "season_missed": 5
   },
   {
+   "player": "5892",
+   "name": "David Montgomery",
+   "pos": "RB",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "status": "Out",
+   "injury": "Groin",
+   "since": null,
+   "streak": 3,
+   "season_missed": 3
+  },
+  {
    "player": "7525",
    "name": "DeVonta Smith",
    "pos": "WR",
@@ -394,18 +394,6 @@
    "since": null,
    "streak": 2,
    "season_missed": 2
-  },
-  {
-   "player": "12529",
-   "name": "TreVeyon Henderson",
-   "pos": "RB",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
-   "status": "Out",
-   "injury": "Illness",
-   "since": null,
-   "streak": 2,
-   "season_missed": 3
   },
   {
    "player": "13279",
@@ -492,6 +480,18 @@
    "season_missed": 0
   },
   {
+   "player": "8151",
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Out",
+   "injury": "Groin",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
    "player": "11628",
    "name": "Marvin Harrison Jr.",
    "pos": "WR",
@@ -528,28 +528,16 @@
    "season_missed": 0
   },
   {
-   "player": "5892",
-   "name": "David Montgomery",
+   "player": "7543",
+   "name": "Travis Etienne Jr.",
    "pos": "RB",
-   "franchise": 8,
-   "team": "BBL KIZZY",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
    "status": "Questionable",
-   "injury": "Groin",
+   "injury": "Hamstring",
    "since": null,
-   "streak": 3,
-   "season_missed": 3
-  },
-  {
-   "player": "5859",
-   "name": "A.J. Brown",
-   "pos": "WR",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "status": "Questionable",
-   "injury": "Knee",
-   "since": null,
-   "streak": 2,
-   "season_missed": 6
+   "streak": 5,
+   "season_missed": 5
   },
   {
    "player": "8146",
@@ -588,18 +576,6 @@
    "season_missed": 4
   },
   {
-   "player": "7547",
-   "name": "Amon-Ra St. Brown",
-   "pos": "WR",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
-   "status": "Questionable",
-   "injury": "Ribs",
-   "since": null,
-   "streak": 0,
-   "season_missed": 0
-  },
-  {
    "player": "13346",
    "name": "Denzel Boston",
    "pos": "WR",
@@ -607,6 +583,18 @@
    "team": "the dart side 🛸💍",
    "status": "Questionable",
    "injury": "Toe",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
+   "player": "11564",
+   "name": "Drake Maye",
+   "pos": "QB",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "status": "Questionable",
+   "injury": "Ankle",
    "since": null,
    "streak": 0,
    "season_missed": 0
@@ -622,18 +610,6 @@
    "since": null,
    "streak": 0,
    "season_missed": 1
-  },
-  {
-   "player": "8151",
-   "name": "Kenneth Walker III",
-   "pos": "RB",
-   "franchise": 2,
-   "team": "Storm FC",
-   "status": "Questionable",
-   "injury": "Groin",
-   "since": null,
-   "streak": 0,
-   "season_missed": 0
   },
   {
    "player": "11635",
@@ -672,25 +648,13 @@
    "season_missed": 4
   },
   {
-   "player": "7611",
-   "name": "Rhamondre Stevenson",
-   "pos": "RB",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
+   "player": "7600",
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "franchise": 2,
+   "team": "Storm FC",
    "status": "Questionable",
-   "injury": "Knee",
-   "since": null,
-   "streak": 0,
-   "season_missed": 0
-  },
-  {
-   "player": "11729",
-   "name": "Sione Vaki",
-   "pos": "RB",
-   "franchise": 10,
-   "team": "Maddison Beer’s Boys",
-   "status": "Questionable",
-   "injury": "Ankle",
+   "injury": "Illness",
    "since": null,
    "streak": 0,
    "season_missed": 0
@@ -5245,7 +5209,7 @@
     "missed": 3,
     "lost": 8.55
    },
-   "rank": 11,
+   "rank": 10,
    "games_rank": 9,
    "of": 12
   },
@@ -5309,15 +5273,15 @@
    "finish": null,
    "games": 33,
    "players": 11,
-   "lost": 19.56,
+   "lost": 14.82,
    "worst": {
-    "player": "5859",
-    "name": "A.J. Brown",
+    "player": "2216",
+    "name": "Mike Evans",
     "pos": "WR",
-    "missed": 6,
-    "lost": 4.74
+    "missed": 2,
+    "lost": 4.64
    },
-   "rank": 10,
+   "rank": 11,
    "games_rank": 2,
    "of": 12
   },
@@ -5517,9 +5481,9 @@
    "franchise": 6,
    "name": "got that DAWG",
    "games": 188,
-   "lost": 223.7,
+   "lost": 218.96,
    "seasons": 4,
-   "per_season": 55.92,
+   "per_season": 54.74,
    "worst": "2025"
   },
   {
@@ -5672,9 +5636,9 @@
    "key": "makenzy",
    "name": "Makenzy",
    "games": 188,
-   "lost": 223.7,
+   "lost": 218.96,
    "seasons": 4,
-   "per_season": 55.92,
+   "per_season": 54.74,
    "worst": "2025"
   },
   {
@@ -5726,9 +5690,9 @@
  "injuries": [
   {
    "injury": "Knee",
-   "games": 431,
-   "players": 78,
-   "stints": 103
+   "games": 427,
+   "players": 77,
+   "stints": 102
   },
   {
    "injury": "Hamstring",
@@ -5975,7 +5939,7 @@
    },
    "WR": {
     "games": 145,
-    "lost": 92.21
+    "lost": 87.47
    },
    "TE": {
     "games": 24,
@@ -6063,7 +6027,7 @@
  },
  "totals": {
   "games": 1857,
-  "lost": 3238.44,
+  "lost": 3233.7,
   "players": 318
  }
 }

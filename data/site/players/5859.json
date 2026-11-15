@@ -125,7 +125,7 @@
   {
    "season": "2026",
    "team": "NE",
-   "g": 3,
+   "g": 4,
    "pts": 19.1,
    "rank": 115
   }
@@ -1475,7 +1475,7 @@
    "stat": "WAR",
    "value": 0.32,
    "digits": 2,
-   "rank": 17,
+   "rank": 16,
    "of": 40,
    "franchise": 6
   },
@@ -2037,9 +2037,8 @@
     "season": "2026",
     "nfl": "NE",
     "missed": 6,
-    "lost": 4.74,
+    "lost": 0.0,
     "injuries": [
-     "Knee",
      "Ankle"
     ],
     "weeks": [
@@ -2060,28 +2059,28 @@
      {
       "week": 2,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "",
       "franchise": 6,
       "team": "got that DAWG"
      },
      {
       "week": 3,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "",
       "franchise": 6,
       "team": "got that DAWG"
      },
      {
       "week": 4,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "",
       "franchise": 6,
       "team": "got that DAWG"
      },
      {
       "week": 5,
       "kind": "IR",
-      "injury": "Knee",
+      "injury": "",
       "franchise": 6,
       "team": "got that DAWG"
      },
@@ -2162,7 +2161,7 @@
     ],
     "missed": 4,
     "nfl": "NE",
-    "injury": "Knee",
+    "injury": "",
     "kinds": [
      "IR"
     ],
@@ -2173,7 +2172,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 3.16
+    "lost": 0.0
    },
    {
     "season": "2026",
@@ -2197,14 +2196,9 @@
      }
     ],
     "rostered": 2,
-    "lost": 1.58
+    "lost": 0.0
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Knee",
-   "since": null,
-   "streak": 2
-  }
+  "now": null
  }
 }

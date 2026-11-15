@@ -119,7 +119,7 @@
    "toilet_w": 0,
    "toilet_l": 0,
    "finish": null,
-   "transactions": 8,
+   "transactions": 9,
    "trades": 0,
    "seed": 9,
    "efficiency": 0.8238,
@@ -136,7 +136,7 @@
   "pct": 0.451,
   "pf": 6513.56,
   "pa": 6898.9,
-  "transactions": 61,
+  "transactions": 62,
   "trades": 4,
   "toilet_w": 4,
   "toilet_l": 2,
@@ -369,8 +369,8 @@
     "best": 12.0,
     "wins": 9,
     "paa": -59.22,
-    "vor": -57.1,
-    "war": -0.67
+    "vor": -67.72,
+    "war": -0.8
    },
    {
     "player": "9999",
@@ -666,8 +666,8 @@
      "best": 12.0,
      "wins": 9,
      "paa": -59.22,
-     "vor": -57.1,
-     "war": -0.67
+     "vor": -67.72,
+     "war": -0.8
     },
     {
      "player": "17",
@@ -763,7 +763,7 @@
    "claims": 3,
    "signings": 0,
    "adds": 3,
-   "releases": 7,
+   "releases": 8,
    "gs": 2,
    "pts": 10.0
   }

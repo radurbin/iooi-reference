@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 30,
+  "transactions": 31,
   "trades": 1,
   "seed": 6,
   "efficiency": 0.887,
@@ -340,8 +340,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 9.83,
-   "vor": 10.2,
-   "war": 0.12
+   "vor": 4.3,
+   "war": 0.05
   },
   {
    "player": "3451",
@@ -355,8 +355,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 11.88,
-   "vor": 14.54,
-   "war": 0.17
+   "vor": 11.0,
+   "war": 0.13
   },
   {
    "player": "13345",
@@ -475,8 +475,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 3.03,
-   "vor": 0.68,
-   "war": 0.01
+   "vor": -0.5,
+   "war": -0.01
   },
   {
    "player": "CHI",
@@ -749,8 +749,8 @@
    "war": -0.11
   },
   {
-   "player": "3286",
-   "pos": "WR",
+   "player": "IND",
+   "pos": "DEF",
    "nfl": null,
    "g": 0,
    "gs": 0,
@@ -765,8 +765,8 @@
    "joined": true
   },
   {
-   "player": "IND",
-   "pos": "DEF",
+   "player": "13297",
+   "pos": "WR",
    "nfl": null,
    "g": 0,
    "gs": 0,
@@ -1546,6 +1546,23 @@
    "managers": [
     "anargha"
    ],
+   "until": "2026-11-15",
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-15",
+   "season": "2026",
+   "type": "signing",
+   "player": "13297",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
    "until": null,
    "g": 0,
    "gs": 0,
@@ -1876,6 +1893,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-15",
+   "season": "2026",
+   "player": "3286",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1892,6 +1923,7 @@
   "12711": "Tyler Loop",
   "13150": "Darius Cooper",
   "13272": "Carson Beck",
+  "13297": "Reggie Virgil",
   "13306": "Taylen Green",
   "13319": "Oscar Delp",
   "13345": "Jonah Coleman",
@@ -1899,7 +1931,6 @@
   "13411": "Zavion Thomas",
   "2306": "Jameis Winston",
   "3214": "Hunter Henry",
-  "3286": "Demarcus Robinson",
   "3294": "Dak Prescott",
   "3451": "Ka'imi Fairbairn",
   "4454": "Kendrick Bourne",
@@ -2071,8 +2102,8 @@
    "opp_record": "4-5",
    "opp_seed": 9,
    "chance": 0.632,
-   "proj": 129.85,
-   "opp_proj": 105.08
+   "proj": 129.44,
+   "opp_proj": 124.54
   },
   {
    "week": 11,

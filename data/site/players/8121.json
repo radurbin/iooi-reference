@@ -1270,7 +1270,7 @@
    "stat": "WAR",
    "value": -0.18,
    "digits": 2,
-   "rank": 342,
+   "rank": 339,
    "of": 420
   },
   {
@@ -1279,7 +1279,7 @@
    "stat": "VOR",
    "value": -15.1,
    "digits": 1,
-   "rank": 344,
+   "rank": 342,
    "of": 420
   },
   {
@@ -1371,7 +1371,7 @@
    "stat": "WAR",
    "value": -0.18,
    "digits": 2,
-   "rank": 65,
+   "rank": 64,
    "of": 73,
    "franchise": 10
   },
@@ -1858,7 +1858,7 @@
    {
     "season": "2026",
     "nfl": "NE",
-    "missed": 3,
+    "missed": 4,
     "lost": 0.0,
     "injuries": [
      "Shoulder"
@@ -1866,7 +1866,8 @@
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1893,6 +1894,13 @@
       "injury": "Shoulder",
       "franchise": 10,
       "team": "Maddison Beer’s Boys"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Shoulder",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1924,13 +1932,14 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 9,
+    "to": 10,
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "NE",
     "injury": "Shoulder",
     "kinds": [
@@ -1950,7 +1959,7 @@
    "status": "IR",
    "injury": "Shoulder",
    "since": null,
-   "streak": 3
+   "streak": 4
   }
  }
 }

@@ -3449,13 +3449,6 @@
       "injury": "Hamstring"
      },
      {
-      "player": "5859",
-      "name": "A.J. Brown",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "9502",
       "name": "Tank Dell",
       "pos": "WR",
@@ -3468,6 +3461,13 @@
       "pos": "QB",
       "kind": "Out",
       "injury": "Glute"
+     },
+     {
+      "player": "5859",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": ""
      },
      {
       "player": "8205",
@@ -4632,13 +4632,6 @@
       "injury": "Knee"
      },
      {
-      "player": "5859",
-      "name": "A.J. Brown",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "9502",
       "name": "Tank Dell",
       "pos": "WR",
@@ -4658,6 +4651,13 @@
       "pos": "TE",
       "kind": "Out",
       "injury": "Thumb"
+     },
+     {
+      "player": "5859",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": ""
      },
      {
       "player": "8205",
@@ -7959,13 +7959,6 @@
       "injury": "Knee"
      },
      {
-      "player": "5859",
-      "name": "A.J. Brown",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "9502",
       "name": "Tank Dell",
       "pos": "WR",
@@ -7985,6 +7978,13 @@
       "pos": "TE",
       "kind": "Out",
       "injury": "Thumb"
+     },
+     {
+      "player": "5859",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": ""
      },
      {
       "player": "8205",
@@ -9444,18 +9444,18 @@
     ],
     "injured": [
      {
-      "player": "5859",
-      "name": "A.J. Brown",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "9502",
       "name": "Tank Dell",
       "pos": "WR",
       "kind": "IR",
       "injury": "Knee"
+     },
+     {
+      "player": "5859",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": ""
      },
      {
       "player": "8205",
@@ -17897,13 +17897,6 @@
       "injury": "Ribs"
      },
      {
-      "player": "5859",
-      "name": "A.J. Brown",
-      "pos": "WR",
-      "kind": "Out",
-      "injury": "Ankle"
-     },
-     {
       "player": "8137",
       "name": "George Pickens",
       "pos": "WR",
@@ -17923,6 +17916,13 @@
       "pos": "QB",
       "kind": "Out",
       "injury": "Quadricep"
+     },
+     {
+      "player": "5859",
+      "name": "A.J. Brown",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Ankle"
      },
      {
       "player": "8205",

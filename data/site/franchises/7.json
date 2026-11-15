@@ -159,7 +159,7 @@
    "toilet_w": 0,
    "toilet_l": 0,
    "finish": null,
-   "transactions": 30,
+   "transactions": 31,
    "trades": 1,
    "seed": 6,
    "efficiency": 0.887,
@@ -176,7 +176,7 @@
   "pct": 0.51,
   "pf": 6884.2,
   "pa": 6567.18,
-  "transactions": 96,
+  "transactions": 97,
   "trades": 11,
   "toilet_w": 0,
   "toilet_l": 2,
@@ -411,8 +411,8 @@
     "best": 15.2,
     "wins": 10,
     "paa": 9.94,
-    "vor": 17.12,
-    "war": 0.2
+    "vor": 11.22,
+    "war": 0.13
    },
    {
     "player": "5987",
@@ -708,8 +708,8 @@
      "best": 15.2,
      "wins": 10,
      "paa": 9.94,
-     "vor": 17.12,
-     "war": 0.2
+     "vor": 11.22,
+     "war": 0.13
     },
     {
      "player": "2747",
@@ -803,9 +803,9 @@
    "season": "2026",
    "trades": 1,
    "claims": 5,
-   "signings": 17,
-   "adds": 22,
-   "releases": 23,
+   "signings": 18,
+   "adds": 23,
+   "releases": 24,
    "gs": 22,
    "pts": 225.04
   }

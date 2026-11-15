@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 8,
+  "transactions": 9,
   "trades": 0,
   "seed": 9,
   "efficiency": 0.8238,
@@ -340,8 +340,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": -36.46,
-   "vor": -35.78,
-   "war": -0.42
+   "vor": -46.4,
+   "war": -0.55
   },
   {
    "player": "9500",
@@ -899,7 +899,7 @@
    "managers": [
     "brandon"
    ],
-   "until": null,
+   "until": "2026-11-15",
    "g": 4,
    "gs": 2,
    "pts": 10.0,
@@ -1030,6 +1030,20 @@
    "date": "2026-11-10",
    "season": "2026",
    "player": "9504",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "managers": [
+    "brandon"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-15",
+   "season": "2026",
+   "player": "SF",
    "franchise": 11,
    "team": "BubbaNASTIES",
    "managers": [
@@ -1208,8 +1222,8 @@
    "opp_record": "4-5",
    "opp_seed": 6,
    "chance": 0.368,
-   "proj": 105.08,
-   "opp_proj": 129.85
+   "proj": 124.54,
+   "opp_proj": 129.44
   },
   {
    "week": 11,
