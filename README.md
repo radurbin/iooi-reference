@@ -56,6 +56,15 @@ injury note for the current week into the season's file (Sleeper only shows a no
 kept as the season goes). Anything still unnamed can be named by hand in `data/manual/injury_notes.json`; the build
 lists each unnamed absence on an iooi roster as a notice on the daily job's summary page.
 
+### Bye weeks
+
+Which NFL teams have no game each week comes from Sleeper's public season schedule
+(`api.sleeper.com/schedule/nfl/regular/<season>`), kept as `data/raw/<season>/byes.json`. The build used to work it out
+from the stat lines instead, which only holds once a week is over: midweek, a team that had not kicked off yet left
+exactly the same gap as a team on a bye, and a Sunday-night team was called "on a bye" in the storylines. Without the
+schedule file the build falls back to that guess, but only for weeks that are finished. A season kept after it ended is
+not fetched again, and a failed or short download keeps the last good copy.
+
 ### Clinching and the 6th seed
 
 `scripts/clinch.py` marks teams that have clinched a playoff spot or a first-round bye (the x and y on the home page

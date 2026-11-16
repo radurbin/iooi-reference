@@ -96,6 +96,12 @@ def fired_subs(starters, players, subs, played, points, official=None, kicked_of
     return lineup, swaps + made
 
 
+def nfl_byes(season):
+    """NFL teams on a bye each week, from the season's schedule (fetch.py): {week: set(team)}. Empty if not fetched."""
+    path = RAW / season / "byes.json"
+    return {int(w): set(teams) for w, teams in load(path)["weeks"].items()} if path.exists() else {}
+
+
 def trim_nfl(season, final_scoring, changes):
     """Score every NFL player's stat line and projection under league rules."""
     out_path = NFL / f"{season}.json"
@@ -135,12 +141,33 @@ def trim_nfl(season, final_scoring, changes):
             # NFL teams that have played this week, so a player who scored 0 shows 0 rather than "not yet".
             "played": sorted({r["team"] for r in rows if (r["stats"].get("gp") or 0) > 0 and r.get("team")}),
         }
-    # NFL bye weeks: a player is on a bye when the team he last played for (or next plays for) has no game that week.
+    # NFL bye weeks: a player is on a bye when the team he was with that week had no game. The season's schedule says
+    # which teams those are. Without it a bye is inferred from the stat lines, which only holds once the week is over:
+    # until then a team that has not kicked off leaves the same gap as a team on a bye.
+    byes = nfl_byes(season)
+    state = load(RAW / "nfl_state.json") if (RAW / "nfl_state.json").exists() else {}
+    playing = int(state["week"]) if state.get("season") == season and state.get("season_type") == "regular" else 0
+
+    def team_then(his, week):
+        """The team he was with in a week he has no stat line for: that of the nearest week he has one."""
+        return his[min(his, key=lambda w: (abs(w - week), w > week))]
+
+    def on_bye(week, bye_teams):
+        """Players with no stat line in a week whose team had no game that week."""
+        return sorted(pid for pid, his in team_in.items() if week not in his and team_then(his, week) in bye_teams)
+
     for key, entry in weeks.items():
         week = int(key)
-        playing = {teams[week] for teams in team_in.values() if week in teams}
-        entry["bye"] = sorted(pid for pid, teams in team_in.items()
-                              if week not in teams and teams[min(teams, key=lambda w: (abs(w - week), w > week))] not in playing)
+        if week in byes:
+            entry["bye"] = on_bye(week, byes[week])
+        elif playing and week >= playing:
+            entry["bye"] = []   # still being played: a team with no stat line yet has not kicked off, which is not a bye
+        else:
+            played = {his[week] for his in team_in.values() if week in his}
+            entry["bye"] = sorted(pid for pid, his in team_in.items() if week not in his and team_then(his, week) not in played)
+    # The week ahead, before it starts, so its storylines can call a bye a bye too.
+    if upcoming and upcoming["week"] in byes:
+        upcoming["bye"] = on_bye(upcoming["week"], byes[upcoming["week"]])
     # NFL team(s) each player appeared for, in order, so a season line can say who he played for.
     teams = {pid: list(dict.fromkeys(by_week[w] for w in sorted(by_week))) for pid, by_week in sorted(team_in.items())}
     data = {"season": season, "weeks": weeks, "teams": teams, **({"upcoming": upcoming} if upcoming else {})}

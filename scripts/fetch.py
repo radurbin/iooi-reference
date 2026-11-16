@@ -26,6 +26,7 @@ import json
 import time
 import urllib.error
 import urllib.request
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -191,6 +192,34 @@ def fetch_injuries(season, complete, force):
     print(f"{season}: injuries for {len(weeks)} weeks")
 
 
+def fetch_byes(season, complete, force):
+    """The NFL teams on a bye each week, from Sleeper's public season schedule, in data/raw/<season>/byes.json.
+
+    The build can only tell a bye from a missing stat line once a week is over; before that, a team that has not
+    kicked off leaves exactly the same gap, which is how a Sunday-night team once got called "on a bye" in the
+    storylines. The schedule says outright which teams have no game. A season kept after it ended is not fetched again,
+    and a failed or short download never replaces a good file.
+    """
+    path = RAW / season / "byes.json"
+    if path.exists() and not force and json.loads(path.read_text()).get("complete"):
+        return
+    try:
+        games = get(f"schedule/nfl/regular/{season}", base=STATS_API)
+        weeks = defaultdict(set)
+        for game in games:
+            weeks[int(game["week"])].update((game["home"], game["away"]))
+        teams = set().union(*weeks.values())
+        # A schedule that is not published yet is a handful of games, not a season: every team plays 17 of the 18 weeks.
+        if sorted(weeks) != list(NFL_WEEKS) or len(teams) != 32 or any(sum(t in w for w in weeks.values()) != 17 for t in teams):
+            raise ValueError("schedule not complete")
+    except Exception as e:   # never fatal: the rest of the refresh goes on
+        print(f"::warning::{season} bye weeks not refreshed ({e}); keeping the copy on disk")
+        return
+    save(path, {"season": season, "complete": complete, "source": "Sleeper's public season schedule",
+                "weeks": {str(w): sorted(teams - weeks[w]) for w in sorted(weeks)}})
+    print(f"{season}: bye weeks from the schedule")
+
+
 def newest_league():
     """The league id of the newest season.
 
@@ -241,6 +270,7 @@ def main():
             week = min(nfl_state["week"], NFL_WEEKS[-1]) if nfl_state["season_type"] == "regular" else NFL_WEEKS[-1]
             fetch_nfl_weeks(season, week, week - 1, args.force)
         injury_seasons.append((season, league["status"] == "complete"))
+        fetch_byes(season, league["status"] == "complete", args.force)
         league_id = league.get("previous_league_id")
 
     players_path = RAW / "players_nfl.json"
