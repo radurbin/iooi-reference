@@ -37,7 +37,7 @@
    "team": "LAR",
    "g": 6,
    "pts": 0.0,
-   "rank": 133
+   "rank": 137
   }
  ],
  "history": [
@@ -75,13 +75,14 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Hand"
     ],
     "weeks": [
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -94,6 +95,13 @@
       "injury": "Hand",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Hand",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -102,11 +110,12 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 9,
+    "to": 10,
     "weeks": [
-     9
+     9,
+     10
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "LAR",
     "injury": "Hand",
     "kinds": [

@@ -96,8 +96,8 @@
    "best": 7.0,
    "wins": 1,
    "paa": -26.16,
-   "vor": -21.73,
-   "war": -0.26
+   "vor": -11.8,
+   "war": -0.14
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 23.8,
   "wins": 6,
   "paa": -71.32,
-  "vor": -42.53,
-  "war": -0.5
+  "vor": -32.6,
+  "war": -0.39
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "LAC",
    "g": 7,
    "pts": 50.6,
-   "rank": 74
+   "rank": 77
   }
  ],
  "history": [
@@ -1087,8 +1087,8 @@
    "proj": 11.05,
    "won": true,
    "paa": -9.99,
-   "vor": -8.81,
-   "war": -0.10412347995849808
+   "vor": -5.5,
+   "war": -0.06500330757908505
   },
   {
    "season": "2026",
@@ -1122,8 +1122,8 @@
    "proj": 9.09,
    "won": false,
    "paa": -6.62,
-   "vor": -5.51,
-   "war": -0.06512149541104703
+   "vor": -2.2,
+   "war": -0.026001323031634025
   },
   {
    "season": "2026",
@@ -1141,8 +1141,8 @@
    "proj": 8.63,
    "won": false,
    "paa": -9.55,
-   "vor": -7.41,
-   "war": -0.08757718348382187
+   "vor": -4.1,
+   "war": -0.04845701110440886
   },
   {
    "season": "2026",
@@ -1229,7 +1229,7 @@
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 956,
+   "score": 950,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
@@ -1238,7 +1238,7 @@
   {
    "player": "2374",
    "name": "Tyler Lockett",
-   "score": 953,
+   "score": 945,
    "gs": 15,
    "pts": 132.1,
    "ppg": 8.81,
@@ -1247,29 +1247,29 @@
   {
    "player": "9500",
    "name": "Josh Downs",
-   "score": 901,
+   "score": 906,
    "gs": 18,
    "pts": 155.5,
    "ppg": 8.64,
-   "war": -0.7
+   "war": -0.51
   },
   {
    "player": "11646",
    "name": "Jalen Coker",
-   "score": 891,
+   "score": 885,
    "gs": 9,
    "pts": 74.8,
    "ppg": 8.31,
-   "war": -0.39
+   "war": -0.16
   },
   {
    "player": "11624",
    "name": "Xavier Worthy",
-   "score": 887,
+   "score": 885,
    "gs": 17,
    "pts": 160.8,
    "ppg": 9.46,
-   "war": -0.45
+   "war": -0.25
   }
  ],
  "status": {
@@ -1300,18 +1300,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.5,
+   "value": -0.39,
    "digits": 2,
-   "rank": 397,
+   "rank": 392,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -42.5,
+   "value": -32.6,
    "digits": 1,
-   "rank": 397,
+   "rank": 392,
    "of": 420
   },
   {
@@ -1372,9 +1372,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.5,
+   "value": -0.39,
    "digits": 2,
-   "rank": 118,
+   "rank": 119,
    "of": 126
   },
   {
@@ -1403,7 +1403,7 @@
    "stat": "WAR",
    "value": -0.25,
    "digits": 2,
-   "rank": 71,
+   "rank": 73,
    "of": 76,
    "franchise": 2
   },
@@ -1441,9 +1441,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.25,
+   "value": -0.13,
    "digits": 2,
-   "rank": 69,
+   "rank": 61,
    "of": 73,
    "franchise": 10
   },
@@ -1580,7 +1580,7 @@
  ],
  "hof": {
   "score": 3.5,
-  "rank": 218,
+  "rank": 217,
   "of": 420,
   "war": 0.0,
   "starts": 3.5,

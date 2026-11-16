@@ -84,7 +84,7 @@
    "team": "CIN",
    "g": 2,
    "pts": 4.9,
-   "rank": 167
+   "rank": 172
   }
  ],
  "history": [
@@ -476,7 +476,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 317,
+   "rank": 324,
    "of": 420
   },
   {
@@ -485,7 +485,7 @@
    "stat": "VOR",
    "value": -11.7,
    "digits": 1,
-   "rank": 319,
+   "rank": 326,
    "of": 420
   },
   {
@@ -539,7 +539,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 85,
+   "rank": 94,
    "of": 126
   },
   {
@@ -873,7 +873,7 @@
    {
     "season": "2026",
     "nfl": "CIN",
-    "missed": 6,
+    "missed": 7,
     "lost": 0.0,
     "injuries": [
      "Thumb"
@@ -884,7 +884,8 @@
      5,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -932,6 +933,13 @@
       "injury": "Thumb",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Thumb",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -957,16 +965,17 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 9,
+    "to": 10,
     "weeks": [
      3,
      4,
      5,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "CIN",
     "injury": "Thumb",
     "kinds": [

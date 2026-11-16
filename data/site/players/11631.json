@@ -68,8 +68,8 @@
    "best": 9.7,
    "wins": 1,
    "paa": -16.77,
-   "vor": -13.52,
-   "war": -0.16
+   "vor": -6.9,
+   "war": -0.08
   }
  ],
  "totals": {
@@ -81,8 +81,8 @@
   "best": 32.5,
   "wins": 7,
   "paa": -73.95,
-  "vor": -16.82,
-  "war": -0.2
+  "vor": -10.2,
+  "war": -0.12
  },
  "nfl": [
   {
@@ -102,9 +102,9 @@
   {
    "season": "2026",
    "team": "JAX",
-   "g": 8,
-   "pts": 35.2,
-   "rank": 95
+   "g": 9,
+   "pts": 41.1,
+   "rank": 93
   }
  ],
  "history": [
@@ -777,8 +777,8 @@
    "proj": 9.08,
    "won": false,
    "paa": -11.82,
-   "vor": -10.71,
-   "war": -0.12657916803127292
+   "vor": -7.4,
+   "war": -0.0874589956518599
   },
   {
    "season": "2026",
@@ -796,8 +796,8 @@
    "proj": 7.74,
    "won": true,
    "paa": -4.95,
-   "vor": -2.81,
-   "war": -0.03321078078131437
+   "vor": 0.5,
+   "war": 0.005909391598098642
   },
   {
    "season": "2026",
@@ -888,12 +888,12 @@
    "gs": 26,
    "pts": 276.7,
    "ppg": 10.64,
-   "war": -0.18
+   "war": -0.1
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 963,
+   "score": 951,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -902,29 +902,29 @@
   {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 957,
+   "score": 950,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": -0.18
+   "war": 0.02
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 887,
+   "score": 884,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
    "war": -0.3
   },
   {
-   "player": "8167",
-   "name": "Christian Watson",
-   "score": 879,
-   "gs": 23,
-   "pts": 274.7,
-   "ppg": 11.94,
-   "war": -0.03
+   "player": "11620",
+   "name": "Rome Odunze",
+   "score": 880,
+   "gs": 24,
+   "pts": 220.3,
+   "ppg": 9.18,
+   "war": -0.48
   }
  ],
  "status": {
@@ -955,18 +955,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.12,
    "digits": 2,
-   "rank": 349,
+   "rank": 310,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -16.8,
+   "value": -10.2,
    "digits": 1,
-   "rank": 349,
+   "rank": 313,
    "of": 420
   },
   {
@@ -1027,9 +1027,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.12,
    "digits": 2,
-   "rank": 101,
+   "rank": 88,
    "of": 126
   },
   {
@@ -1056,9 +1056,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.12,
    "digits": 2,
-   "rank": 36,
+   "rank": 35,
    "of": 48,
    "franchise": 12
   },
@@ -1165,7 +1165,7 @@
  ],
  "hof": {
   "score": 8.25,
-  "rank": 145,
+  "rank": 148,
   "of": 420,
   "war": 0.0,
   "starts": 6.25,

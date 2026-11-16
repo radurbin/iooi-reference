@@ -139,7 +139,7 @@
    "team": "ATL",
    "g": 6,
    "pts": 58.4,
-   "rank": 42
+   "rank": 44
   }
  ],
  "history": [
@@ -1201,16 +1201,16 @@
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 891,
+   "score": 889,
    "gs": 14,
    "pts": 66.4,
    "ppg": 4.74,
-   "war": -0.62
+   "war": -0.67
   },
   {
    "player": "6151",
    "name": "Miles Sanders",
-   "score": 883,
+   "score": 881,
    "gs": 16,
    "pts": 82.5,
    "ppg": 5.16,
@@ -1228,20 +1228,20 @@
   {
    "player": "9511",
    "name": "Keaton Mitchell",
-   "score": 879,
+   "score": 880,
    "gs": 8,
    "pts": 58.5,
    "ppg": 7.31,
-   "war": -0.18
+   "war": -0.21
   },
   {
    "player": "6130",
    "name": "Devin Singletary",
-   "score": 876,
+   "score": 877,
    "gs": 16,
    "pts": 131.9,
    "ppg": 8.24,
-   "war": -0.22
+   "war": -0.28
   }
  ],
  "status": {
@@ -1274,7 +1274,7 @@
    "stat": "WAR",
    "value": -0.42,
    "digits": 2,
-   "rank": 390,
+   "rank": 393,
    "of": 420
   },
   {
@@ -1283,7 +1283,7 @@
    "stat": "VOR",
    "value": -35.1,
    "digits": 1,
-   "rank": 390,
+   "rank": 393,
    "of": 420
   },
   {
@@ -1522,7 +1522,7 @@
  ],
  "hof": {
   "score": 3.5,
-  "rank": 218,
+  "rank": 217,
   "of": 420,
   "war": 0.0,
   "starts": 3.5,
@@ -1915,15 +1915,16 @@
    {
     "season": "2026",
     "nfl": "ATL",
-    "missed": 3,
-    "lost": 5.1,
+    "missed": 4,
+    "lost": 0.0,
     "injuries": [
      "Hamstring"
     ],
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR",
@@ -1951,6 +1952,13 @@
       "injury": "Hamstring",
       "franchise": 9,
       "team": "Clandestine Ball Busters"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2028,13 +2036,14 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 9,
+    "to": 10,
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "ATL",
     "injury": "Hamstring",
     "kinds": [
@@ -2048,14 +2057,14 @@
      }
     ],
     "rostered": 3,
-    "lost": 5.1
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Hamstring",
    "since": null,
-   "streak": 3
+   "streak": 4
   }
  }
 }

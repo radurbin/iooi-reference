@@ -80,8 +80,8 @@
    "best": 22.5,
    "wins": 2,
    "paa": -2.68,
-   "vor": 11.1,
-   "war": 0.13
+   "vor": 8.95,
+   "war": 0.11
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 22.5,
   "wins": 16,
   "paa": -98.67,
-  "vor": -66.42,
-  "war": -0.79
+  "vor": -68.57,
+  "war": -0.81
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "BUF",
-   "g": 8,
-   "pts": 84.9,
-   "rank": 11
+   "g": 9,
+   "pts": 92.7,
+   "rank": 9
   }
  ],
  "history": [
@@ -1103,8 +1103,8 @@
    "proj": 12.14,
    "won": true,
    "paa": 9.91,
-   "vor": 13.24,
-   "war": 0.15648068951765204
+   "vor": 12.81,
+   "war": 0.1513986127432872
   },
   {
    "season": "2026",
@@ -1122,8 +1122,8 @@
    "proj": 13.23,
    "won": false,
    "paa": -8.86,
-   "vor": -5.46,
-   "war": -0.06453055625123717
+   "vor": -5.89,
+   "war": -0.069612633025602
   },
   {
    "season": "2026",
@@ -1141,8 +1141,8 @@
    "proj": 12.2,
    "won": false,
    "paa": -9.42,
-   "vor": -7.56,
-   "war": -0.08935000096325146
+   "vor": -7.99,
+   "war": -0.09443207773761629
   },
   {
    "season": "2026",
@@ -1176,8 +1176,8 @@
    "proj": 11.08,
    "won": true,
    "paa": -0.06,
-   "vor": 1.54,
-   "war": 0.01820092612214382
+   "vor": 1.11,
+   "war": 0.013118849347778986
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 10.46,
    "won": false,
    "paa": 5.75,
-   "vor": 9.34,
-   "war": 0.11038743505248262
+   "vor": 8.91,
+   "war": 0.1053053582781178
   },
   {
    "season": "2026",
@@ -1239,34 +1239,34 @@
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.62
+   "war": -0.64
   },
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 831,
+   "score": 832,
    "gs": 33,
    "pts": 301.5,
    "ppg": 9.14,
-   "war": -0.28
+   "war": -0.31
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 720,
+   "score": 718,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.25
+   "war": -0.26
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 687,
+   "score": 686,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.27
+   "war": 0.25
   },
   {
    "player": "6826",
@@ -1306,7 +1306,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.79,
+   "value": -0.81,
    "digits": 2,
    "rank": 414,
    "of": 420
@@ -1315,9 +1315,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -66.4,
+   "value": -68.6,
    "digits": 1,
-   "rank": 414,
+   "rank": 415,
    "of": 420
   },
   {
@@ -1378,7 +1378,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.79,
+   "value": -0.81,
    "digits": 2,
    "rank": 52,
    "of": 52
@@ -1407,7 +1407,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.78,
+   "value": -0.8,
    "digits": 2,
    "rank": 67,
    "of": 67,
@@ -1546,7 +1546,7 @@
  ],
  "hof": {
   "score": 9.5,
-  "rank": 136,
+  "rank": 135,
   "of": 420,
   "war": 0.0,
   "starts": 9.5,

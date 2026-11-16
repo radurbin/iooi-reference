@@ -73,8 +73,8 @@
    "best": 20.9,
    "wins": 2,
    "paa": -3.72,
-   "vor": 18.61,
-   "war": 0.22
+   "vor": 13.3,
+   "war": 0.16
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 20.9,
   "wins": 3,
   "paa": -45.56,
-  "vor": -0.54,
-  "war": -0.01
+  "vor": -5.85,
+  "war": -0.07
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "SEA",
    "g": 8,
    "pts": 87.4,
-   "rank": 26
+   "rank": 29
   }
  ],
  "history": [
@@ -562,8 +562,8 @@
    "proj": 14.18,
    "won": true,
    "paa": -0.25,
-   "vor": 7.17,
-   "war": 0.08474067551673452
+   "vor": 5.4,
+   "war": 0.06382142925946534
   },
   {
    "season": "2026",
@@ -581,8 +581,8 @@
    "proj": 14.48,
    "won": false,
    "paa": -6.8,
-   "vor": -1.43,
-   "war": -0.016900859970562114
+   "vor": -3.2,
+   "war": -0.03782010622783131
   },
   {
    "season": "2026",
@@ -600,8 +600,8 @@
    "proj": 11.4,
    "won": true,
    "paa": 3.33,
-   "vor": 12.87,
-   "war": 0.15210773973505903
+   "vor": 11.1,
+   "war": 0.13118849347778985
   },
   {
    "season": "2026",
@@ -624,25 +624,25 @@
   {
    "player": "9511",
    "name": "Keaton Mitchell",
-   "score": 926,
+   "score": 927,
    "gs": 8,
    "pts": 58.5,
    "ppg": 7.31,
-   "war": -0.18
+   "war": -0.21
   },
   {
    "player": "11586",
    "name": "Blake Corum",
-   "score": 877,
+   "score": 879,
    "gs": 8,
    "pts": 83.2,
    "ppg": 10.4,
-   "war": 0.22
+   "war": 0.07
   },
   {
    "player": "3164",
    "name": "Ezekiel Elliott",
-   "score": 877,
+   "score": 876,
    "gs": 11,
    "pts": 112.1,
    "ppg": 10.19,
@@ -664,7 +664,7 @@
    "gs": 11,
    "pts": 115.75,
    "ppg": 10.52,
-   "war": 0.21
+   "war": 0.15
   }
  ],
  "status": {
@@ -694,18 +694,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.01,
+   "value": -0.07,
    "digits": 2,
-   "rank": 218,
+   "rank": 262,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -0.5,
+   "value": -5.8,
    "digits": 1,
-   "rank": 220,
+   "rank": 266,
    "of": 420
   },
   {
@@ -766,9 +766,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.01,
+   "value": -0.07,
    "digits": 2,
-   "rank": 62,
+   "rank": 72,
    "of": 100
   },
   {
@@ -797,7 +797,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 62,
+   "rank": 61,
    "of": 82,
    "franchise": 4
   },
@@ -875,9 +875,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.21,
+   "value": 0.15,
    "digits": 2,
-   "rank": 20,
+   "rank": 23,
    "of": 58,
    "franchise": 5
   },

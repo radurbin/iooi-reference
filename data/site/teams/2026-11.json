@@ -235,8 +235,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 25.6,
-   "vor": 97.03,
-   "war": 1.15
+   "vor": 81.1,
+   "war": 0.96
   },
   {
    "player": "3198",
@@ -250,8 +250,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 16.08,
-   "vor": 87.51,
-   "war": 1.03
+   "vor": 71.58,
+   "war": 0.85
   },
   {
    "player": "12519",
@@ -265,8 +265,8 @@
    "bench_pts": 19.9,
    "wins": 3,
    "paa": 9.02,
-   "vor": 20.12,
-   "war": 0.24
+   "vor": 46.6,
+   "war": 0.55
   },
   {
    "player": "6794",
@@ -280,8 +280,8 @@
    "bench_pts": 8.4,
    "wins": 3,
    "paa": 2.74,
-   "vor": 11.84,
-   "war": 0.14
+   "vor": 31.7,
+   "war": 0.37
   },
   {
    "player": "421",
@@ -310,8 +310,8 @@
    "bench_pts": 47.4,
    "wins": 2,
    "paa": 22.79,
-   "vor": 35.1,
-   "war": 0.41
+   "vor": 32.95,
+   "war": 0.39
   },
   {
    "player": "1466",
@@ -325,8 +325,8 @@
    "bench_pts": 25.1,
    "wins": 3,
    "paa": -4.66,
-   "vor": 9.48,
-   "war": 0.11
+   "vor": 6.47,
+   "war": 0.08
   },
   {
    "player": "4195",
@@ -340,13 +340,13 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": -36.46,
-   "vor": -46.4,
-   "war": -0.55
+   "vor": -39.92,
+   "war": -0.47
   },
   {
    "player": "9500",
    "pos": "WR",
-   "nfl": "IND",
+   "nfl": "IND/KC",
    "g": 9,
    "gs": 5,
    "pts": 42.2,
@@ -355,8 +355,8 @@
    "bench_pts": 34.5,
    "wins": 2,
    "paa": -25.2,
-   "vor": -20.35,
-   "war": -0.24
+   "vor": -3.8,
+   "war": -0.04
   },
   {
    "player": "12545",
@@ -385,8 +385,8 @@
    "bench_pts": 8.0,
    "wins": 3,
    "paa": -18.57,
-   "vor": -20.75,
-   "war": -0.25
+   "vor": -17.46,
+   "war": -0.21
   },
   {
    "player": "7543",
@@ -400,8 +400,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -15.65,
-   "vor": 9.81,
-   "war": 0.12
+   "vor": 4.5,
+   "war": 0.05
   },
   {
    "player": "8134",
@@ -415,8 +415,8 @@
    "bench_pts": 55.0,
    "wins": 0,
    "paa": -5.58,
-   "vor": -3.82,
-   "war": -0.05
+   "vor": 2.8,
+   "war": 0.03
   },
   {
    "player": "SF",
@@ -430,8 +430,8 @@
    "bench_pts": 21.0,
    "wins": 1,
    "paa": 0.6,
-   "vor": -6.5,
-   "war": -0.08
+   "vor": -5.56,
+   "war": -0.07
   },
   {
    "player": "11637",
@@ -445,8 +445,8 @@
    "bench_pts": 63.7,
    "wins": 0,
    "paa": -7.09,
-   "vor": -4.81,
-   "war": -0.06
+   "vor": -1.5,
+   "war": -0.02
   },
   {
    "player": "12483",
@@ -526,7 +526,7 @@
   {
    "player": "1479",
    "pos": "WR",
-   "nfl": "IND",
+   "nfl": "IND/SF",
    "g": 9,
    "gs": 0,
    "pts": 0.0,
@@ -774,7 +774,7 @@
    "pts_team": 0.0,
    "starts_league": 0,
    "pts_league": 0.0,
-   "nfl_pts": 2.32
+   "nfl_pts": 16.84
   },
   {
    "round": 2,
@@ -793,7 +793,7 @@
    "pts_team": 0.0,
    "starts_league": 0,
    "pts_league": 0.0,
-   "nfl_pts": 66.9
+   "nfl_pts": 68.0
   },
   {
    "round": 3,
@@ -812,7 +812,7 @@
    "pts_team": 0.0,
    "starts_league": 0,
    "pts_league": 0.0,
-   "nfl_pts": 10.9
+   "nfl_pts": 11.6
   },
   {
    "round": 4,
@@ -1222,8 +1222,8 @@
    "opp_record": "4-5",
    "opp_seed": 6,
    "chance": 0.368,
-   "proj": 124.54,
-   "opp_proj": 129.44
+   "proj": 124.91,
+   "opp_proj": 124.68
   },
   {
    "week": 11,
@@ -1261,17 +1261,34 @@
  "injuries": {
   "games": 12,
   "players": 4,
-  "lost": 35.8,
-  "rank": 6,
+  "lost": 7.11,
+  "rank": 11,
   "games_rank": 11,
   "of": 12,
   "rows": [
+   {
+    "player": "6794",
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 4.76,
+    "injuries": [
+     "Ankle"
+    ],
+    "weeks": [
+     4
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 6
+   },
    {
     "player": "7543",
     "name": "Travis Etienne Jr.",
     "pos": "RB",
     "missed": 5,
-    "lost": 34.7,
+    "lost": 2.35,
     "injuries": [
      "Hamstring"
     ],
@@ -1286,23 +1303,6 @@
      "IR"
     ],
     "gs": 3
-   },
-   {
-    "player": "6794",
-    "name": "Justin Jefferson",
-    "pos": "WR",
-    "missed": 1,
-    "lost": 1.1,
-    "injuries": [
-     "Ankle"
-    ],
-    "weeks": [
-     4
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 6
    },
    {
     "player": "12483",

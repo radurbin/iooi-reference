@@ -77,7 +77,7 @@
    "team": "SEA",
    "g": 6,
    "pts": 4.2,
-   "rank": 97
+   "rank": 98
   }
  ],
  "history": [
@@ -459,7 +459,7 @@
    "stat": "WAR",
    "value": -0.29,
    "digits": 2,
-   "rank": 375,
+   "rank": 378,
    "of": 420
   },
   {
@@ -468,7 +468,7 @@
    "stat": "VOR",
    "value": -24.1,
    "digits": 1,
-   "rank": 375,
+   "rank": 378,
    "of": 420
   },
   {
@@ -522,7 +522,7 @@
    "stat": "WAR",
    "value": -0.29,
    "digits": 2,
-   "rank": 45,
+   "rank": 44,
    "of": 52
   },
   {
@@ -551,7 +551,7 @@
    "stat": "WAR",
    "value": -0.29,
    "digits": 2,
-   "rank": 74,
+   "rank": 75,
    "of": 76,
    "franchise": 2
   },
@@ -599,7 +599,7 @@
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 317,
+  "rank": 318,
   "of": 420,
   "war": 0.0,
   "starts": 0.75,
@@ -787,7 +787,7 @@
    {
     "season": "2026",
     "nfl": "SEA",
-    "missed": 3,
+    "missed": 4,
     "lost": 0.0,
     "injuries": [
      "Shoulder"
@@ -795,7 +795,8 @@
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -818,6 +819,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Shoulder",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Shoulder",
       "franchise": null,
@@ -854,13 +862,14 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 9,
+    "to": 10,
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "SEA",
     "injury": "Shoulder",
     "kinds": [

@@ -57,8 +57,8 @@
    "best": 26.8,
    "wins": 1,
    "paa": 14.14,
-   "vor": 17.54,
-   "war": 0.21
+   "vor": 17.11,
+   "war": 0.2
   }
  ],
  "totals": {
@@ -70,7 +70,7 @@
   "best": 26.8,
   "wins": 3,
   "paa": -19.02,
-  "vor": -5.04,
+  "vor": -5.47,
   "war": -0.06
  },
  "nfl": [
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "NO",
-   "g": 8,
-   "pts": 82.4,
-   "rank": 15
+   "g": 9,
+   "pts": 87.2,
+   "rank": 12
   }
  ],
  "history": [
@@ -516,8 +516,8 @@
    "proj": 10.28,
    "won": true,
    "paa": 14.14,
-   "vor": 17.54,
-   "war": 0.20730145726130034
+   "vor": 17.11,
+   "war": 0.20221938048693552
   },
   {
    "season": "2026",
@@ -633,34 +633,34 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.1
+   "war": -0.11
   },
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 880,
+   "score": 879,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.18
-  },
-  {
-   "player": "7600",
-   "name": "Pat Freiermuth",
-   "score": 768,
-   "gs": 18,
-   "pts": 167.8,
-   "ppg": 9.32,
-   "war": -0.14
+   "war": -0.19
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 765,
+   "score": 768,
    "gs": 12,
    "pts": 131.4,
    "ppg": 10.95,
-   "war": 0.25
+   "war": 0.21
+  },
+  {
+   "player": "7600",
+   "name": "Pat Freiermuth",
+   "score": 767,
+   "gs": 18,
+   "pts": 167.8,
+   "ppg": 9.32,
+   "war": -0.16
   }
  ],
  "status": {
@@ -693,16 +693,16 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 253,
+   "rank": 258,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -5.0,
+   "value": -5.5,
    "digits": 1,
-   "rank": 254,
+   "rank": 261,
    "of": 420
   },
   {
@@ -794,7 +794,7 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 47,
+   "rank": 48,
    "of": 82,
    "franchise": 4
   },
@@ -832,7 +832,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.01,
+   "value": 0.0,
    "digits": 2,
    "rank": 43,
    "of": 68,

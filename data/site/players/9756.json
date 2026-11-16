@@ -96,8 +96,8 @@
    "best": 13.1,
    "wins": 0,
    "paa": -18.07,
-   "vor": -15.23,
-   "war": -0.18
+   "vor": -5.3,
+   "war": -0.06
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 39.3,
   "wins": 16,
   "paa": -17.87,
-  "vor": 29.57,
-  "war": 0.35
+  "vor": 39.5,
+  "war": 0.47
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "MIN",
    "g": 7,
    "pts": 55.6,
-   "rank": 67
+   "rank": 70
   }
  ],
  "history": [
@@ -1154,8 +1154,8 @@
    "proj": 8.42,
    "won": false,
    "paa": -9.19,
-   "vor": -8.11,
-   "war": -0.09585033172115996
+   "vor": -4.8,
+   "war": -0.05673015934174696
   },
   {
    "season": "2026",
@@ -1173,8 +1173,8 @@
    "proj": 9.64,
    "won": false,
    "paa": -0.04,
-   "vor": 0.59,
-   "war": 0.006973082085756397
+   "vor": 3.9,
+   "war": 0.0460932544651694
   },
   {
    "season": "2026",
@@ -1192,55 +1192,55 @@
    "proj": 9.51,
    "won": false,
    "paa": -8.84,
-   "vor": -7.71,
-   "war": -0.09112281844268105
+   "vor": -4.4,
+   "war": -0.05200264606326805
   }
  ],
  "similar": [
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 905,
+   "score": 912,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
    "war": 0.56
   },
   {
-   "player": "12526",
-   "name": "Tetairoa McMillan",
-   "score": 900,
-   "gs": 22,
-   "pts": 292.4,
-   "ppg": 13.29,
-   "war": 0.52
+   "player": "8167",
+   "name": "Christian Watson",
+   "score": 888,
+   "gs": 23,
+   "pts": 274.7,
+   "ppg": 11.94,
+   "war": 0.33
   },
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 886,
+   "score": 887,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
    "war": 0.46
   },
   {
+   "player": "12526",
+   "name": "Tetairoa McMillan",
+   "score": 885,
+   "gs": 22,
+   "pts": 292.4,
+   "ppg": 13.29,
+   "war": 0.83
+  },
+  {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 872,
+   "score": 874,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.49
-  },
-  {
-   "player": "8167",
-   "name": "Christian Watson",
-   "score": 870,
-   "gs": 23,
-   "pts": 274.7,
-   "ppg": 11.94,
-   "war": -0.03
+   "war": 0.53
   }
  ],
  "status": {
@@ -1271,18 +1271,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.35,
+   "value": 0.47,
    "digits": 2,
-   "rank": 131,
+   "rank": 117,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 29.6,
+   "value": 39.5,
    "digits": 1,
-   "rank": 131,
+   "rank": 118,
    "of": 420
   },
   {
@@ -1343,9 +1343,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.35,
+   "value": 0.47,
    "digits": 2,
-   "rank": 35,
+   "rank": 34,
    "of": 126
   },
   {
@@ -1374,7 +1374,7 @@
    "stat": "WAR",
    "value": 0.53,
    "digits": 2,
-   "rank": 9,
+   "rank": 10,
    "of": 67,
    "franchise": 8
   },
@@ -1412,9 +1412,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.18,
+   "value": -0.06,
    "digits": 2,
-   "rank": 64,
+   "rank": 45,
    "of": 73,
    "franchise": 10
   },
@@ -1550,10 +1550,10 @@
   }
  ],
  "hof": {
-  "score": 10.0,
-  "rank": 128,
+  "score": 11.2,
+  "rank": 119,
   "of": 420,
-  "war": 3.5,
+  "war": 4.7,
   "starts": 6.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1846,17 +1846,17 @@
    [
     "2026",
     7,
-    10.3
+    10.7
    ],
    [
     "2026",
     8,
-    10.65
+    11.45
    ],
    [
     "2026",
     9,
-    10.0
+    11.2
    ]
   ],
   "benchmark": 100
@@ -1901,13 +1901,15 @@
    {
     "season": "2026",
     "nfl": "MIN",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
-     "Hamstring"
+     "Hamstring",
+     "Thumb"
     ],
     "weeks": [
-     5
+     5,
+     10
     ],
     "kinds": [
      "Questionable"
@@ -1920,6 +1922,13 @@
       "injury": "Hamstring",
       "franchise": 8,
       "team": "BBL KIZZY"
+     },
+     {
+      "week": 10,
+      "kind": "Questionable",
+      "injury": "Thumb",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1969,13 +1978,30 @@
     ],
     "rostered": 1,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "MIN",
+    "injury": "Thumb",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
-   "status": "Questionable",
+   "status": "Out",
    "injury": "Thumb",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

@@ -155,7 +155,7 @@
    "team": "IND",
    "g": 2,
    "pts": 12.2,
-   "rank": 137
+   "rank": 145
   }
  ],
  "history": [
@@ -1158,11 +1158,11 @@
   {
    "player": "9487",
    "name": "Parker Washington",
-   "score": 937,
+   "score": 957,
    "gs": 10,
    "pts": 118.9,
    "ppg": 11.89,
-   "war": -0.03
+   "war": 0.28
   },
   {
    "player": "5947",
@@ -1176,11 +1176,11 @@
   {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 921,
+   "score": 917,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
-   "war": 0.32
+   "war": 0.39
   },
   {
    "player": "7049",
@@ -1194,7 +1194,7 @@
   {
    "player": "6943",
    "name": "Gabe Davis",
-   "score": 845,
+   "score": 848,
    "gs": 12,
    "pts": 129.1,
    "ppg": 10.76,
@@ -1231,7 +1231,7 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 155,
+   "rank": 159,
    "of": 420
   },
   {
@@ -1240,7 +1240,7 @@
    "stat": "VOR",
    "value": 18.6,
    "digits": 1,
-   "rank": 155,
+   "rank": 159,
    "of": 420
   },
   {
@@ -1303,7 +1303,7 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 40,
+   "rank": 43,
    "of": 126
   },
   {
@@ -1332,7 +1332,7 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 19,
+   "rank": 20,
    "of": 82,
    "franchise": 4
   },
@@ -1379,7 +1379,7 @@
  ],
  "hof": {
   "score": 4.7,
-  "rank": 203,
+  "rank": 205,
   "of": 420,
   "war": 2.2,
   "starts": 2.5,
@@ -1754,8 +1754,8 @@
    {
     "season": "2026",
     "nfl": "IND",
-    "missed": 7,
-    "lost": 0.0,
+    "missed": 8,
+    "lost": 10.99,
     "injuries": [
      "Heel"
     ],
@@ -1766,7 +1766,8 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1821,6 +1822,13 @@
       "injury": "Heel",
       "franchise": 4,
       "team": "Im Stroud Of You"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Heel",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1874,7 +1882,7 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 9,
+    "to": 10,
     "weeks": [
      3,
      4,
@@ -1882,9 +1890,10 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 7,
+    "missed": 8,
     "nfl": "IND",
     "injury": "Heel",
     "kinds": [
@@ -1897,14 +1906,14 @@
      }
     ],
     "rostered": 7,
-    "lost": 0.0
+    "lost": 10.99
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Heel",
    "since": null,
-   "streak": 7
+   "streak": 8
   }
  }
 }

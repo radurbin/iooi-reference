@@ -54,7 +54,7 @@
    "team": "SF",
    "g": 1,
    "pts": 0.0,
-   "rank": 193
+   "rank": 199
   }
  ],
  "history": [
@@ -232,7 +232,7 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -244,7 +244,8 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -299,6 +300,13 @@
       "injury": "Ankle",
       "franchise": 3,
       "team": "Kolkata Kommies"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -307,7 +315,7 @@
    {
     "season": "2026",
     "from": 2,
-    "to": 9,
+    "to": 10,
     "weeks": [
      2,
      3,
@@ -315,9 +323,10 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
-    "missed": 7,
+    "missed": 8,
     "nfl": "SF",
     "injury": "Ankle",
     "kinds": [
@@ -337,7 +346,7 @@
    "status": "IR",
    "injury": "Ankle",
    "since": null,
-   "streak": 7
+   "streak": 8
   }
  }
 }

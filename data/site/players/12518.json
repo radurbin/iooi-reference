@@ -50,8 +50,8 @@
    "best": 21.5,
    "wins": 3,
    "paa": -5.7,
-   "vor": 5.8,
-   "war": 0.07
+   "vor": 3.65,
+   "war": 0.04
   }
  ],
  "totals": {
@@ -63,8 +63,8 @@
   "best": 21.5,
   "wins": 12,
   "paa": 13.23,
-  "vor": 43.38,
-  "war": 0.51
+  "vor": 41.23,
+  "war": 0.49
  },
  "nfl": [
   {
@@ -77,9 +77,9 @@
   {
    "season": "2026",
    "team": "IND",
-   "g": 7,
-   "pts": 84.4,
-   "rank": 12
+   "g": 8,
+   "pts": 86.9,
+   "rank": 14
   }
  ],
  "history": [
@@ -421,8 +421,8 @@
    "proj": 13.82,
    "won": true,
    "paa": 1.63,
-   "vor": 1.04,
-   "war": 0.012291534524045175
+   "vor": 0.61,
+   "war": 0.007209457749680343
   },
   {
    "season": "2026",
@@ -440,8 +440,8 @@
    "proj": 11.35,
    "won": false,
    "paa": 1.91,
-   "vor": 5.24,
-   "war": 0.06193042394807377
+   "vor": 4.81,
+   "war": 0.05684834717370893
   },
   {
    "season": "2026",
@@ -491,8 +491,8 @@
    "proj": 10.6,
    "won": true,
    "paa": 8.67,
-   "vor": 12.24,
-   "war": 0.14466190632145476
+   "vor": 11.81,
+   "war": 0.13957982954708992
   },
   {
    "season": "2026",
@@ -510,8 +510,8 @@
    "proj": null,
    "won": false,
    "paa": -10.86,
-   "vor": -9.26,
-   "war": -0.10944193239678685
+   "vor": -9.69,
+   "war": -0.11452400917115167
   },
   {
    "season": "2026",
@@ -545,8 +545,8 @@
    "proj": 10.72,
    "won": true,
    "paa": -7.05,
-   "vor": -3.46,
-   "war": -0.0408929898588426
+   "vor": -3.89,
+   "war": -0.04597506663320743
   },
   {
    "season": "2026",
@@ -569,34 +569,34 @@
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 928,
+   "score": 927,
    "gs": 15,
    "pts": 175.85,
    "ppg": 11.72,
-   "war": 0.45
+   "war": 0.41
   },
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 920,
+   "score": 918,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.31
+   "war": 0.28
   },
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 915,
+   "score": 917,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.62
+   "war": 0.57
   },
   {
    "player": "5844",
    "name": "T.J. Hockenson",
-   "score": 845,
+   "score": 844,
    "gs": 17,
    "pts": 226.9,
    "ppg": 13.35,
@@ -605,7 +605,7 @@
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 839,
+   "score": 837,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
@@ -640,18 +640,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.51,
+   "value": 0.49,
    "digits": 2,
-   "rank": 108,
+   "rank": 113,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 43.4,
+   "value": 41.2,
    "digits": 1,
-   "rank": 108,
+   "rank": 113,
    "of": 420
   },
   {
@@ -712,7 +712,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 0.51,
+   "value": 0.49,
    "digits": 2,
    "rank": 9,
    "of": 52
@@ -741,9 +741,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.51,
+   "value": 0.48,
    "digits": 2,
-   "rank": 10,
+   "rank": 11,
    "of": 67,
    "franchise": 8
   },
@@ -819,10 +819,10 @@
   }
  ],
  "hof": {
-  "score": 9.6,
-  "rank": 135,
+  "score": 9.4,
+  "rank": 138,
   "of": 420,
-  "war": 5.1,
+  "war": 4.9,
   "starts": 4.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -915,47 +915,47 @@
    [
     "2026",
     1,
-    8.1
+    8.0
    ],
    [
     "2026",
     2,
-    8.95
+    8.85
    ],
    [
     "2026",
     3,
-    8.95
+    8.85
    ],
    [
     "2026",
     4,
-    8.95
+    8.85
    ],
    [
     "2026",
     5,
-    10.6
+    10.5
    ],
    [
     "2026",
     6,
-    9.75
+    9.55
    ],
    [
     "2026",
     7,
-    9.75
+    9.55
    ],
    [
     "2026",
     8,
-    9.6
+    9.4
    ],
    [
     "2026",
     9,
-    9.6
+    9.4
    ]
   ],
   "benchmark": 100
@@ -968,7 +968,7 @@
     "season": "2026",
     "nfl": "IND",
     "missed": 2,
-    "lost": 5.6,
+    "lost": 2.34,
     "injuries": [
      "Groin"
     ],
@@ -1022,7 +1022,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 5.6
+    "lost": 2.34
    }
   ],
   "now": null

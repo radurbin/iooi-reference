@@ -1094,34 +1094,34 @@
   {
    "player": "12527",
    "name": "Ashton Jeanty",
-   "score": 919,
+   "score": 927,
    "gs": 21,
    "pts": 330.4,
    "ppg": 15.73,
-   "war": 1.83
+   "war": 1.66
   },
   {
    "player": "8228",
    "name": "Jaylen Warren",
-   "score": 916,
+   "score": 914,
    "gs": 20,
    "pts": 302.3,
    "ppg": 15.12,
-   "war": 1.57
+   "war": 1.4
   },
   {
    "player": "8136",
    "name": "Rachaad White",
-   "score": 872,
+   "score": 873,
    "gs": 30,
    "pts": 422.1,
    "ppg": 14.07,
-   "war": 1.64
+   "war": 1.55
   },
   {
    "player": "7021",
    "name": "Rico Dowdle",
-   "score": 851,
+   "score": 850,
    "gs": 17,
    "pts": 263.2,
    "ppg": 15.48,
@@ -1130,7 +1130,7 @@
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 839,
+   "score": 838,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -1166,7 +1166,7 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 58,
+   "rank": 59,
    "of": 420
   },
   {
@@ -1175,7 +1175,7 @@
    "stat": "VOR",
    "value": 131.1,
    "digits": 1,
-   "rank": 58,
+   "rank": 60,
    "of": 420
   },
   {
@@ -1238,7 +1238,7 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 26,
+   "rank": 24,
    "of": 100
   },
   {
@@ -1374,7 +1374,7 @@
  ],
  "hof": {
   "score": 25.5,
-  "rank": 61,
+  "rank": 64,
   "of": 420,
   "war": 15.5,
   "starts": 6.0,
@@ -1861,8 +1861,8 @@
    {
     "season": "2026",
     "nfl": "ARI",
-    "missed": 9,
-    "lost": 3.07,
+    "missed": 10,
+    "lost": 1.3,
     "injuries": [
      "Foot"
     ],
@@ -1875,7 +1875,8 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1940,6 +1941,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Foot",
       "franchise": null,
@@ -2015,7 +2023,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -2025,9 +2033,10 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 9,
+    "missed": 10,
     "nfl": "ARI",
     "injury": "Foot",
     "kinds": [
@@ -2040,7 +2049,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 3.07
+    "lost": 1.3
    }
   ],
   "now": null

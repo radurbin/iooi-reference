@@ -32,8 +32,8 @@
    "best": 21.5,
    "wins": 2,
    "paa": 11.77,
-   "vor": 25.94,
-   "war": 0.31
+   "vor": 22.4,
+   "war": 0.26
   }
  ],
  "totals": {
@@ -45,8 +45,8 @@
   "best": 21.5,
   "wins": 2,
   "paa": 11.77,
-  "vor": 25.94,
-  "war": 0.31
+  "vor": 22.4,
+  "war": 0.26
  },
  "nfl": [
   {
@@ -54,7 +54,7 @@
    "team": "DEN",
    "g": 5,
    "pts": 67.6,
-   "rank": 34
+   "rank": 36
   }
  ],
  "history": [
@@ -200,8 +200,8 @@
    "proj": 12.83,
    "won": true,
    "paa": 4.8,
-   "vor": 13.47,
-   "war": 0.15919900965277742
+   "vor": 11.7,
+   "war": 0.1382797633955082
   },
   {
    "season": "2026",
@@ -219,8 +219,8 @@
    "proj": 15.89,
    "won": true,
    "paa": 6.97,
-   "vor": 12.47,
-   "war": 0.14738022645658014
+   "vor": 10.7,
+   "war": 0.12646098019931093
   }
  ],
  "status": {
@@ -251,18 +251,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.31,
+   "value": 0.26,
    "digits": 2,
-   "rank": 137,
+   "rank": 152,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 25.9,
+   "value": 22.4,
    "digits": 1,
-   "rank": 139,
+   "rank": 152,
    "of": 420
   },
   {
@@ -314,9 +314,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.31,
+   "value": 0.26,
    "digits": 2,
-   "rank": 46,
+   "rank": 47,
    "of": 100
   },
   {
@@ -343,9 +343,9 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.31,
+   "value": 0.26,
    "digits": 2,
-   "rank": 16,
+   "rank": 17,
    "of": 52,
    "franchise": 7
   },
@@ -392,10 +392,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 3.6,
-  "rank": 217,
+  "score": 3.1,
+  "rank": 226,
   "of": 420,
-  "war": 3.1,
+  "war": 2.6,
   "starts": 0.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -438,12 +438,12 @@
    [
     "2026",
     8,
-    1.85
+    1.65
    ],
    [
     "2026",
     9,
-    3.6
+    3.1
    ]
   ],
   "benchmark": 100
@@ -456,7 +456,7 @@
     "season": "2026",
     "nfl": "DEN",
     "missed": 4,
-    "lost": 21.96,
+    "lost": 14.88,
     "injuries": [
      "Ankle"
     ],
@@ -526,7 +526,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 21.96
+    "lost": 14.88
    }
   ],
   "now": null

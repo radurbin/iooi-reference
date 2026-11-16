@@ -75,9 +75,9 @@
   {
    "season": "2026",
    "team": "CLE",
-   "g": 4,
-   "pts": 32.9,
-   "rank": 67
+   "g": 5,
+   "pts": 41.0,
+   "rank": 60
   }
  ],
  "history": [
@@ -552,11 +552,11 @@
   {
    "player": "9511",
    "name": "Keaton Mitchell",
-   "score": 896,
+   "score": 897,
    "gs": 8,
    "pts": 58.5,
    "ppg": 7.31,
-   "war": -0.18
+   "war": -0.21
   },
   {
    "player": "8154",
@@ -570,16 +570,16 @@
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 876,
+   "score": 873,
    "gs": 14,
    "pts": 66.4,
    "ppg": 4.74,
-   "war": -0.62
+   "war": -0.67
   },
   {
    "player": "5284",
    "name": "Jeff Wilson",
-   "score": 847,
+   "score": 846,
    "gs": 10,
    "pts": 35.2,
    "ppg": 3.52,
@@ -588,7 +588,7 @@
   {
    "player": "6151",
    "name": "Miles Sanders",
-   "score": 828,
+   "score": 827,
    "gs": 16,
    "pts": 82.5,
    "ppg": 5.16,
@@ -625,7 +625,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 371,
+   "rank": 373,
    "of": 420
   },
   {
@@ -634,7 +634,7 @@
    "stat": "VOR",
    "value": -23.6,
    "digits": 1,
-   "rank": 373,
+   "rank": 374,
    "of": 420
   },
   {
@@ -697,7 +697,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 93,
+   "rank": 91,
    "of": 100
   },
   {
@@ -955,7 +955,7 @@
     "season": "2026",
     "nfl": "CLE",
     "missed": 5,
-    "lost": 1.0,
+    "lost": 0.0,
     "injuries": [
      "Knee"
     ],
@@ -1057,7 +1057,7 @@
      }
     ],
     "rostered": 5,
-    "lost": 1.0
+    "lost": 0.0
    }
   ],
   "now": null

@@ -64,8 +64,8 @@
    "best": 0.0,
    "wins": 0,
    "paa": -14.79,
-   "vor": -12.51,
-   "war": -0.15
+   "vor": -9.2,
+   "war": -0.11
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 0.0,
   "wins": 0,
   "paa": -14.79,
-  "vor": -12.51,
-  "war": -0.15
+  "vor": -9.2,
+  "war": -0.11
  },
  "nfl": [
   {
@@ -100,7 +100,7 @@
    "team": "PIT",
    "g": 5,
    "pts": 46.3,
-   "rank": 78
+   "rank": 85
   }
  ],
  "history": [
@@ -450,8 +450,8 @@
    "proj": 9.02,
    "won": false,
    "paa": -14.79,
-   "vor": -12.51,
-   "war": -0.14785297778442802
+   "vor": -9.2,
+   "war": -0.108732805405015
   },
   {
    "season": "2026",
@@ -546,18 +546,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.11,
    "digits": 2,
-   "rank": 325,
+   "rank": 299,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -12.5,
+   "value": -9.2,
    "digits": 1,
-   "rank": 326,
+   "rank": 303,
    "of": 420
   },
   {
@@ -609,9 +609,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.11,
    "digits": 2,
-   "rank": 88,
+   "rank": 82,
    "of": 126
   },
   {
@@ -638,9 +638,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.11,
    "digits": 2,
-   "rank": 31,
+   "rank": 30,
    "of": 48,
    "franchise": 12
   },
@@ -1053,15 +1053,16 @@
    {
     "season": "2026",
     "nfl": "PIT",
-    "missed": 3,
-    "lost": 0.0,
+    "missed": 4,
+    "lost": 0.18,
     "injuries": [
      "Finger"
     ],
     "weeks": [
      6,
      7,
-     8
+     8,
+     10
     ],
     "kinds": [
      "IR"
@@ -1088,6 +1089,13 @@
       "injury": "Finger",
       "franchise": 12,
       "team": "Team Win One Game"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Finger",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1156,13 +1164,14 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 8,
+    "to": 10,
     "weeks": [
      6,
      7,
-     8
+     8,
+     10
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "PIT",
     "injury": "Finger",
     "kinds": [
@@ -1175,14 +1184,14 @@
      }
     ],
     "rostered": 3,
-    "lost": 0.0
+    "lost": 0.18
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Finger",
    "since": null,
-   "streak": 3
+   "streak": 4
   }
  }
 }

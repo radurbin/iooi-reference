@@ -469,7 +469,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 151,
+   "rank": 156,
    "of": 420
   },
   {
@@ -478,7 +478,7 @@
    "stat": "VOR",
    "value": 19.9,
    "digits": 1,
-   "rank": 154,
+   "rank": 157,
    "of": 420
   },
   {
@@ -836,7 +836,7 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Pectoral"
@@ -849,7 +849,8 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
     "kinds": [
      "PUP"
@@ -911,6 +912,13 @@
       "injury": "Pectoral",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 10,
+      "kind": "PUP",
+      "injury": "Pectoral",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -941,7 +949,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -950,9 +958,10 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "SF",
     "injury": "Pectoral",
     "kinds": [

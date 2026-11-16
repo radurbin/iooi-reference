@@ -82,8 +82,8 @@
    "best": 7.6,
    "wins": 1,
    "paa": -12.33,
-   "vor": -0.43,
-   "war": -0.01
+   "vor": -2.2,
+   "war": -0.03
   },
   {
    "season": "2026",
@@ -127,8 +127,8 @@
   "best": 7.6,
   "wins": 1,
   "paa": -12.33,
-  "vor": -0.43,
-  "war": -0.01
+  "vor": -2.2,
+  "war": -0.03
  },
  "nfl": [
   {
@@ -143,7 +143,7 @@
    "team": "CAR",
    "g": 2,
    "pts": 10.2,
-   "rank": 94
+   "rank": 97
   }
  ],
  "history": [
@@ -690,8 +690,8 @@
    "proj": 10.82,
    "won": true,
    "paa": -12.33,
-   "vor": -0.43,
-   "war": -0.005082076774364831
+   "vor": -2.2,
+   "war": -0.026001323031634025
   },
   {
    "season": "2026",
@@ -818,18 +818,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.01,
+   "value": -0.03,
    "digits": 2,
-   "rank": 218,
+   "rank": 238,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -0.4,
+   "value": -2.2,
    "digits": 1,
-   "rank": 218,
+   "rank": 238,
    "of": 420
   },
   {
@@ -881,9 +881,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.01,
+   "value": -0.03,
    "digits": 2,
-   "rank": 62,
+   "rank": 66,
    "of": 100
   },
   {
@@ -910,9 +910,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.01,
+   "value": -0.03,
    "digits": 2,
-   "rank": 38,
+   "rank": 41,
    "of": 73,
    "franchise": 10
   },
@@ -1460,7 +1460,7 @@
    {
     "season": "2026",
     "nfl": "CAR",
-    "missed": 6,
+    "missed": 7,
     "lost": 0.0,
     "injuries": [
      "Groin",
@@ -1472,7 +1472,8 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1520,6 +1521,13 @@
       "injury": "Abdomen",
       "franchise": 1,
       "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1625,16 +1633,17 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 9,
+    "to": 10,
     "weeks": [
      3,
      4,
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "CAR",
     "injury": "Groin",
     "kinds": [
@@ -1662,7 +1671,7 @@
    "status": "IR",
    "injury": "Abdomen",
    "since": null,
-   "streak": 6
+   "streak": 7
   }
  }
 }

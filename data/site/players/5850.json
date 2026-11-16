@@ -80,8 +80,8 @@
    "best": 25.3,
    "wins": 2,
    "paa": -0.4,
-   "vor": 23.31,
-   "war": 0.28
+   "vor": 18.0,
+   "war": 0.21
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 32.0,
   "wins": 32,
   "paa": 59.89,
-  "vor": 265.76,
-  "war": 3.14
+  "vor": 260.45,
+  "war": 3.08
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "GB",
    "g": 3,
    "pts": 47.4,
-   "rank": 50
+   "rank": 54
   }
  ],
  "history": [
@@ -1207,8 +1207,8 @@
    "proj": 13.14,
    "won": true,
    "paa": 3.63,
-   "vor": 13.17,
-   "war": 0.1556533746939182
+   "vor": 11.4,
+   "war": 0.13473412843664903
   },
   {
    "season": "2026",
@@ -1226,8 +1226,8 @@
    "proj": 17.54,
    "won": true,
    "paa": 8.6,
-   "vor": 17.27,
-   "war": 0.20411038579832708
+   "vor": 15.5,
+   "war": 0.1831911395410579
   },
   {
    "season": "2026",
@@ -1245,55 +1245,55 @@
    "proj": 16.77,
    "won": false,
    "paa": -12.63,
-   "vor": -7.13,
-   "war": -0.08426792418888664
+   "vor": -8.9,
+   "war": -0.10518717044615583
   }
  ],
  "similar": [
   {
-   "player": "8155",
-   "name": "Breece Hall",
-   "score": 935,
-   "gs": 46,
-   "pts": 667.96,
-   "ppg": 14.52,
-   "war": 2.82
-  },
-  {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 929,
+   "score": 938,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
-   "war": 3.55
+   "war": 3.38
+  },
+  {
+   "player": "8155",
+   "name": "Breece Hall",
+   "score": 934,
+   "gs": 46,
+   "pts": 667.96,
+   "ppg": 14.52,
+   "war": 2.75
   },
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 881,
+   "score": 891,
    "gs": 48,
    "pts": 757.8,
    "ppg": 15.79,
-   "war": 3.76
+   "war": 3.57
   },
   {
    "player": "6790",
    "name": "D'Andre Swift",
-   "score": 870,
+   "score": 864,
    "gs": 51,
    "pts": 718.2,
    "ppg": 14.08,
-   "war": 2.89
+   "war": 2.7
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 816,
+   "score": 802,
    "gs": 43,
    "pts": 585.4,
    "ppg": 13.61,
-   "war": 2.2
+   "war": 2.01
   }
  ],
  "status": {
@@ -1324,7 +1324,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.14,
+   "value": 3.08,
    "digits": 2,
    "rank": 24,
    "of": 420
@@ -1333,7 +1333,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 265.8,
+   "value": 260.4,
    "digits": 1,
    "rank": 24,
    "of": 420
@@ -1396,7 +1396,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 3.14,
+   "value": 3.08,
    "digits": 2,
    "rank": 11,
    "of": 100
@@ -1425,9 +1425,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 3.15,
+   "value": 3.08,
    "digits": 2,
-   "rank": 2,
+   "rank": 3,
    "of": 67,
    "franchise": 8
   },
@@ -1563,10 +1563,10 @@
   }
  ],
  "hof": {
-  "score": 42.65,
-  "rank": 28,
+  "score": 42.05,
+  "rank": 30,
   "of": 420,
-  "war": 31.4,
+  "war": 30.8,
   "starts": 11.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1859,17 +1859,17 @@
    [
     "2026",
     7,
-    40.95
+    40.75
    ],
    [
     "2026",
     8,
-    43.3
+    42.8
    ],
    [
     "2026",
     9,
-    42.65
+    42.05
    ]
   ],
   "benchmark": 100
@@ -1963,6 +1963,31 @@
       "team": "BBL KIZZY"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "GB",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Finger"
+    ],
+    "weeks": [
+     10
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 10,
+      "kind": "Out",
+      "injury": "Finger",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -2012,13 +2037,30 @@
     ],
     "rostered": 1,
     "lost": 7.22
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "GB",
+    "injury": "Finger",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Finger",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

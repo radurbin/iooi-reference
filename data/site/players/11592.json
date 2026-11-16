@@ -44,7 +44,7 @@
    "team": "CIN",
    "g": 6,
    "pts": 13.6,
-   "rank": 66
+   "rank": 67
   }
  ],
  "history": [
@@ -315,14 +315,15 @@
    {
     "season": "2026",
     "nfl": "CIN",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Knee - ACL"
     ],
     "weeks": [
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -338,6 +339,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Knee - ACL",
       "franchise": null,
@@ -405,12 +413,13 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 9,
+    "to": 10,
     "weeks": [
      8,
-     9
+     9,
+     10
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "CIN",
     "injury": "Knee - ACL",
     "kinds": [

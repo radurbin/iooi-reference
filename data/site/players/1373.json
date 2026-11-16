@@ -155,9 +155,9 @@
   {
    "season": "2026",
    "team": "NYJ",
-   "g": 9,
-   "pts": 134.42,
-   "rank": 17
+   "g": 10,
+   "pts": 140.34,
+   "rank": 16
   }
  ],
  "history": [
@@ -1342,7 +1342,7 @@
    "stat": "WAR",
    "value": 0.33,
    "digits": 2,
-   "rank": 132,
+   "rank": 139,
    "of": 420
   },
   {
@@ -1351,7 +1351,7 @@
    "stat": "VOR",
    "value": 28.1,
    "digits": 1,
-   "rank": 132,
+   "rank": 139,
    "of": 420
   },
   {
@@ -1443,7 +1443,7 @@
    "stat": "WAR",
    "value": 0.04,
    "digits": 2,
-   "rank": 27,
+   "rank": 26,
    "of": 67,
    "franchise": 9
   },
@@ -1620,7 +1620,7 @@
  ],
  "hof": {
   "score": 15.8,
-  "rank": 93,
+  "rank": 94,
   "of": 420,
   "war": 3.3,
   "starts": 8.5,
@@ -2040,6 +2040,11 @@
     "lost": 0.11
    }
   ],
-  "now": null
+  "now": {
+   "status": "Out",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 0
+  }
  }
 }

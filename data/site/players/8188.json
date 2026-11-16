@@ -84,7 +84,7 @@
    "team": "KC",
    "g": 4,
    "pts": 44.9,
-   "rank": 81
+   "rank": 89
   }
  ],
  "history": [
@@ -326,7 +326,7 @@
    {
     "season": "2026",
     "nfl": "KC",
-    "missed": 4,
+    "missed": 5,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -335,7 +335,8 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -365,6 +366,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Ankle",
       "franchise": null,
@@ -434,14 +442,15 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 9,
+    "to": 10,
     "weeks": [
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "KC",
     "injury": "Ankle",
     "kinds": [

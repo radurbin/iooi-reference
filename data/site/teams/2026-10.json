@@ -220,8 +220,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 13.27,
-   "vor": 75.16,
-   "war": 0.89
+   "vor": 61.0,
+   "war": 0.72
   },
   {
    "player": "11560",
@@ -250,8 +250,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -2.08,
-   "vor": 18.96,
-   "war": 0.22
+   "vor": 15.09,
+   "war": 0.18
   },
   {
    "player": "3257",
@@ -280,8 +280,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -42.6,
-   "vor": -30.39,
-   "war": -0.36
+   "vor": -0.6,
+   "war": -0.01
   },
   {
    "player": "11586",
@@ -295,8 +295,8 @@
    "bench_pts": 21.3,
    "wins": 1,
    "paa": -28.47,
-   "vor": 25.69,
-   "war": 0.3
+   "vor": 13.3,
+   "war": 0.16
   },
   {
    "player": "8121",
@@ -310,8 +310,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -12.64,
-   "vor": -4.45,
-   "war": -0.05
+   "vor": 12.1,
+   "war": 0.14
   },
   {
    "player": "NE",
@@ -325,8 +325,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 8.75,
-   "vor": 1.5,
-   "war": 0.02
+   "vor": 4.32,
+   "war": 0.05
   },
   {
    "player": "11624",
@@ -340,8 +340,8 @@
    "bench_pts": 32.6,
    "wins": 0,
    "paa": -32.94,
-   "vor": -26.85,
-   "war": -0.32
+   "vor": -10.3,
+   "war": -0.12
   },
   {
    "player": "8259",
@@ -355,8 +355,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -11.14,
-   "vor": -16.9,
-   "war": -0.2
+   "vor": -13.3,
+   "war": -0.16
   },
   {
    "player": "8129",
@@ -370,8 +370,8 @@
    "bench_pts": 4.3,
    "wins": 0,
    "paa": -1.57,
-   "vor": 13.34,
-   "war": 0.16
+   "vor": 9.8,
+   "war": 0.12
   },
   {
    "player": "9480",
@@ -385,8 +385,8 @@
    "bench_pts": 48.4,
    "wins": 0,
    "paa": -0.49,
-   "vor": 4.68,
-   "war": 0.06
+   "vor": 3.82,
+   "war": 0.05
   },
   {
    "player": "9756",
@@ -400,8 +400,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -18.07,
-   "vor": -15.23,
-   "war": -0.18
+   "vor": -5.3,
+   "war": -0.06
   },
   {
    "player": "3451",
@@ -415,8 +415,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -1.08,
-   "vor": -3.8,
-   "war": -0.04
+   "vor": -2.36,
+   "war": -0.03
   },
   {
    "player": "9754",
@@ -430,8 +430,8 @@
    "bench_pts": 34.8,
    "wins": 1,
    "paa": -26.16,
-   "vor": -21.73,
-   "war": -0.26
+   "vor": -11.8,
+   "war": -0.14
   },
   {
    "player": "11581",
@@ -445,8 +445,8 @@
    "bench_pts": 37.5,
    "wins": 1,
    "paa": -15.78,
-   "vor": -5.06,
-   "war": -0.06
+   "vor": -8.6,
+   "war": -0.1
   },
   {
    "player": "9482",
@@ -460,8 +460,8 @@
    "bench_pts": 74.1,
    "wins": 1,
    "paa": 0.53,
-   "vor": -0.06,
-   "war": -0.0
+   "vor": -0.49,
+   "war": -0.01
   },
   {
    "player": "11583",
@@ -475,8 +475,8 @@
    "bench_pts": 2.6,
    "wins": 1,
    "paa": -12.33,
-   "vor": -0.43,
-   "war": -0.01
+   "vor": -2.2,
+   "war": -0.03
   },
   {
    "player": "12509",
@@ -490,8 +490,8 @@
    "bench_pts": 43.6,
    "wins": 0,
    "paa": -11.19,
-   "vor": -8.91,
-   "war": -0.11
+   "vor": -5.6,
+   "war": -0.07
   },
   {
    "player": "13293",
@@ -505,8 +505,8 @@
    "bench_pts": 15.6,
    "wins": 0,
    "paa": -23.73,
-   "vor": -21.97,
-   "war": -0.26
+   "vor": -15.35,
+   "war": -0.18
   },
   {
    "player": "11729",
@@ -520,8 +520,8 @@
    "bench_pts": 23.2,
    "wins": 0,
    "paa": -16.97,
-   "vor": -7.43,
-   "war": -0.09
+   "vor": -9.2,
+   "war": -0.11
   },
   {
    "player": "13275",
@@ -691,7 +691,7 @@
   {
    "player": "6803",
    "pos": "WR",
-   "nfl": null,
+   "nfl": "SF",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -966,7 +966,7 @@
    "pts_team": 0.0,
    "starts_league": 0,
    "pts_league": 0.0,
-   "nfl_pts": 11.5
+   "nfl_pts": 23.9
   },
   {
    "round": 4,
@@ -2108,8 +2108,8 @@
    "opp_record": "7-2",
    "opp_seed": 2,
    "chance": 0.282,
-   "proj": 61.98,
-   "opp_proj": 148.03
+   "proj": 52.18,
+   "opp_proj": 148.32
   },
   {
    "week": 11,
@@ -2147,7 +2147,7 @@
  "injuries": {
   "games": 22,
   "players": 9,
-  "lost": 22.11,
+  "lost": 18.12,
   "rank": 9,
   "games_rank": 10,
   "of": 12,
@@ -2173,24 +2173,23 @@
     "gs": 6
    },
    {
-    "player": "7021",
-    "name": "Rico Dowdle",
-    "pos": "RB",
+    "player": "8121",
+    "name": "Romeo Doubs",
+    "pos": "WR",
     "missed": 3,
-    "lost": 5.43,
+    "lost": 1.44,
     "injuries": [
-     "Toe"
+     "Shoulder"
     ],
     "weeks": [
-     3,
-     4,
-     5
+     7,
+     8,
+     9
     ],
     "kinds": [
-     "Out",
-     "Questionable"
+     "IR"
     ],
-    "gs": 0
+    "gs": 5
    },
    {
     "player": "13380",
@@ -2234,23 +2233,24 @@
     "gs": 2
    },
    {
-    "player": "8121",
-    "name": "Romeo Doubs",
-    "pos": "WR",
+    "player": "7021",
+    "name": "Rico Dowdle",
+    "pos": "RB",
     "missed": 3,
     "lost": 0.0,
     "injuries": [
-     "Shoulder"
+     "Toe"
     ],
     "weeks": [
-     7,
-     8,
-     9
+     3,
+     4,
+     5
     ],
     "kinds": [
-     "IR"
+     "Out",
+     "Questionable"
     ],
-    "gs": 5
+    "gs": 0
    },
    {
     "player": "11583",

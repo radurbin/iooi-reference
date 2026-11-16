@@ -52,8 +52,8 @@
    "best": 5.85,
    "wins": 0,
    "paa": -7.29,
-   "vor": -6.66,
-   "war": -0.08
+   "vor": -3.35,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -65,8 +65,8 @@
   "best": 13.9,
   "wins": 4,
   "paa": -19.96,
-  "vor": -5.41,
-  "war": -0.06
+  "vor": -2.1,
+  "war": -0.02
  },
  "nfl": [
   {
@@ -79,9 +79,9 @@
   {
    "season": "2026",
    "team": "JAX",
-   "g": 8,
-   "pts": 73.5,
-   "rank": 44
+   "g": 9,
+   "pts": 88.0,
+   "rank": 35
   }
  ],
  "history": [
@@ -520,8 +520,8 @@
    "proj": 9.58,
    "won": false,
    "paa": -7.29,
-   "vor": -6.66,
-   "war": -0.07871309608667391
+   "vor": -3.35,
+   "war": -0.0395929237072609
   },
   {
    "season": "2026",
@@ -568,18 +568,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.06,
+   "value": -0.02,
    "digits": 2,
-   "rank": 253,
+   "rank": 234,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -5.4,
+   "value": -2.1,
    "digits": 1,
-   "rank": 258,
+   "rank": 237,
    "of": 420
   },
   {
@@ -631,9 +631,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.06,
+   "value": -0.02,
    "digits": 2,
-   "rank": 62,
+   "rank": 59,
    "of": 126
   },
   {
@@ -660,9 +660,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.03,
    "digits": 2,
-   "rank": 41,
+   "rank": 33,
    "of": 67,
    "franchise": 9
   },
@@ -740,7 +740,7 @@
  "similar": [],
  "hof": {
   "score": 1.25,
-  "rank": 292,
+  "rank": 291,
   "of": 420,
   "war": 0.0,
   "starts": 1.25,

@@ -630,38 +630,38 @@
   {
    "player": "10213",
    "name": "Tre Tucker",
-   "score": 908,
+   "score": 897,
    "gs": 16,
    "pts": 166.9,
    "ppg": 10.43,
-   "war": -0.16
+   "war": 0.04
   },
   {
    "player": "9487",
    "name": "Parker Washington",
-   "score": 901,
+   "score": 871,
    "gs": 10,
    "pts": 118.9,
    "ppg": 11.89,
-   "war": -0.03
-  },
-  {
-   "player": "12514",
-   "name": "Emeka Egbuka",
-   "score": 856,
-   "gs": 8,
-   "pts": 74.3,
-   "ppg": 9.29,
-   "war": -0.17
+   "war": 0.28
   },
   {
    "player": "11624",
    "name": "Xavier Worthy",
-   "score": 854,
+   "score": 860,
    "gs": 17,
    "pts": 160.8,
    "ppg": 9.46,
-   "war": -0.45
+   "war": -0.25
+  },
+  {
+   "player": "12514",
+   "name": "Emeka Egbuka",
+   "score": 854,
+   "gs": 8,
+   "pts": 74.3,
+   "ppg": 9.29,
+   "war": -0.09
   }
  ],
  "status": {
@@ -704,7 +704,7 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 358,
+   "rank": 360,
    "of": 420
   },
   {
@@ -713,7 +713,7 @@
    "stat": "VOR",
    "value": -19.1,
    "digits": 1,
-   "rank": 358,
+   "rank": 360,
    "of": 420
   },
   {
@@ -776,7 +776,7 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 103,
+   "rank": 105,
    "of": 126
   },
   {
@@ -805,7 +805,7 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 68,
+   "rank": 71,
    "of": 73,
    "franchise": 10
   },

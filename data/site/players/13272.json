@@ -23,7 +23,7 @@
    "season": "2026",
    "franchise": 7,
    "team": "the dart side 🛸💍",
-   "nfl": null,
+   "nfl": "ARI",
    "g": 9,
    "gs": 0,
    "pts": 0.0,
@@ -48,7 +48,15 @@
   "vor": 0.0,
   "war": 0.0
  },
- "nfl": [],
+ "nfl": [
+  {
+   "season": "2026",
+   "team": "ARI",
+   "g": 1,
+   "pts": 0.52,
+   "rank": 57
+  }
+ ],
  "history": [
   {
    "date": "2026-08-16",

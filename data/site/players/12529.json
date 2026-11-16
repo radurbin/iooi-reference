@@ -48,8 +48,8 @@
    "best": 5.2,
    "wins": 1,
    "paa": -10.25,
-   "vor": -2.83,
-   "war": -0.03
+   "vor": -4.6,
+   "war": -0.05
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 32.3,
   "wins": 7,
   "paa": -32.84,
-  "vor": 33.88,
-  "war": 0.4
+  "vor": 32.11,
+  "war": 0.38
  },
  "nfl": [
   {
@@ -77,7 +77,7 @@
    "team": "NE",
    "g": 6,
    "pts": 39.0,
-   "rank": 57
+   "rank": 62
   }
  ],
  "history": [
@@ -503,8 +503,8 @@
    "proj": 11.96,
    "won": true,
    "paa": -10.25,
-   "vor": -2.83,
-   "war": -0.03344715644523831
+   "vor": -4.6,
+   "war": -0.0543664027025075
   },
   {
    "season": "2026",
@@ -575,43 +575,43 @@
   {
    "player": "7567",
    "name": "Kenny Gainwell",
-   "score": 979,
+   "score": 980,
    "gs": 13,
    "pts": 148.5,
    "ppg": 11.42,
-   "war": 0.44
+   "war": 0.35
   },
   {
    "player": "8408",
    "name": "Jordan Mason",
-   "score": 959,
+   "score": 958,
    "gs": 10,
    "pts": 115.0,
    "ppg": 11.5,
-   "war": 0.31
+   "war": 0.27
   },
   {
    "player": "12534",
    "name": "Kyle Monangai",
-   "score": 954,
+   "score": 956,
    "gs": 12,
    "pts": 144.7,
    "ppg": 12.06,
-   "war": 0.52
+   "war": 0.43
   },
   {
    "player": "8132",
    "name": "Tyler Allgeier",
-   "score": 938,
+   "score": 935,
    "gs": 11,
    "pts": 115.75,
    "ppg": 10.52,
-   "war": 0.21
+   "war": 0.15
   },
   {
    "player": "8143",
    "name": "Jerome Ford",
-   "score": 930,
+   "score": 931,
    "gs": 12,
    "pts": 149.7,
    "ppg": 12.47,
@@ -646,18 +646,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.4,
+   "value": 0.38,
    "digits": 2,
-   "rank": 124,
+   "rank": 130,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 33.9,
+   "value": 32.1,
    "digits": 1,
-   "rank": 124,
+   "rank": 131,
    "of": 420
   },
   {
@@ -718,9 +718,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.4,
+   "value": 0.38,
    "digits": 2,
-   "rank": 43,
+   "rank": 42,
    "of": 100
   },
   {
@@ -747,9 +747,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.4,
+   "value": 0.38,
    "digits": 2,
-   "rank": 13,
+   "rank": 15,
    "of": 58,
    "franchise": 5
   },
@@ -825,10 +825,10 @@
   }
  ],
  "hof": {
-  "score": 7.0,
-  "rank": 163,
+  "score": 6.8,
+  "rank": 165,
   "of": 420,
-  "war": 4.0,
+  "war": 3.8,
   "starts": 3.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -941,27 +941,27 @@
    [
     "2026",
     5,
-    7.0
+    6.8
    ],
    [
     "2026",
     6,
-    7.0
+    6.8
    ],
    [
     "2026",
     7,
-    7.0
+    6.8
    ],
    [
     "2026",
     8,
-    7.0
+    6.8
    ],
    [
     "2026",
     9,
-    7.0
+    6.8
    ]
   ],
   "benchmark": 100

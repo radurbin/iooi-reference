@@ -67,7 +67,7 @@
    {
     "season": "2026",
     "nfl": "CAR",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Knee"
@@ -80,7 +80,8 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -142,6 +143,13 @@
       "injury": "Knee",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -150,7 +158,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -159,9 +167,10 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "CAR",
     "injury": "Knee",
     "kinds": [

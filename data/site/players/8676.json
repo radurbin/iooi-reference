@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "SEA",
-   "g": 7,
-   "pts": 42.6,
-   "rank": 84
+   "g": 8,
+   "pts": 44.4,
+   "rank": 90
   }
  ],
  "history": [
@@ -1146,15 +1146,6 @@
  ],
  "similar": [
   {
-   "player": "10213",
-   "name": "Tre Tucker",
-   "score": 955,
-   "gs": 16,
-   "pts": 166.9,
-   "ppg": 10.43,
-   "war": -0.16
-  },
-  {
    "player": "6943",
    "name": "Gabe Davis",
    "score": 950,
@@ -1164,22 +1155,22 @@
    "war": -0.23
   },
   {
+   "player": "10213",
+   "name": "Tre Tucker",
+   "score": 944,
+   "gs": 16,
+   "pts": 166.9,
+   "ppg": 10.43,
+   "war": 0.04
+  },
+  {
    "player": "11624",
    "name": "Xavier Worthy",
-   "score": 889,
+   "score": 903,
    "gs": 17,
    "pts": 160.8,
    "ppg": 9.46,
-   "war": -0.45
-  },
-  {
-   "player": "9487",
-   "name": "Parker Washington",
-   "score": 866,
-   "gs": 10,
-   "pts": 118.9,
-   "ppg": 11.89,
-   "war": -0.03
+   "war": -0.25
   },
   {
    "player": "2309",
@@ -1189,6 +1180,15 @@
    "pts": 217.2,
    "ppg": 11.43,
    "war": -0.14
+  },
+  {
+   "player": "4950",
+   "name": "Christian Kirk",
+   "score": 858,
+   "gs": 20,
+   "pts": 215.66,
+   "ppg": 10.78,
+   "war": -0.3
   }
  ],
  "status": {
@@ -1221,7 +1221,7 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 325,
+   "rank": 329,
    "of": 420
   },
   {
@@ -1230,7 +1230,7 @@
    "stat": "VOR",
    "value": -12.6,
    "digits": 1,
-   "rank": 328,
+   "rank": 331,
    "of": 420
   },
   {
@@ -1293,7 +1293,7 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 88,
+   "rank": 97,
    "of": 126
   },
   {
@@ -1429,7 +1429,7 @@
  ],
  "hof": {
   "score": 3.5,
-  "rank": 218,
+  "rank": 217,
   "of": 420,
   "war": 0.0,
   "starts": 3.5,

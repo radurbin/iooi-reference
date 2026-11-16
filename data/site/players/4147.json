@@ -80,8 +80,8 @@
    "best": 3.3,
    "wins": 0,
    "paa": -13.4,
-   "vor": -4.73,
-   "war": -0.06
+   "vor": -6.5,
+   "war": -0.08
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 5.4,
   "wins": 2,
   "paa": -34.43,
-  "vor": -21.88,
-  "war": -0.26
+  "vor": -23.65,
+  "war": -0.28
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "CIN",
-   "g": 8,
-   "pts": 49.5,
-   "rank": 48
+   "g": 9,
+   "pts": 57.8,
+   "rank": 45
   }
  ],
  "history": [
@@ -535,8 +535,8 @@
    "proj": 9.84,
    "won": false,
    "paa": -13.4,
-   "vor": -4.73,
-   "war": -0.05590284451801315
+   "vor": -6.5,
+   "war": -0.07682209077528235
   }
  ],
  "status": {
@@ -566,18 +566,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.26,
+   "value": -0.28,
    "digits": 2,
-   "rank": 364,
+   "rank": 373,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -21.9,
+   "value": -23.6,
    "digits": 1,
-   "rank": 364,
+   "rank": 375,
    "of": 420
   },
   {
@@ -629,9 +629,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.26,
+   "value": -0.28,
    "digits": 2,
-   "rank": 92,
+   "rank": 91,
    "of": 100
   },
   {
@@ -698,9 +698,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.15,
    "digits": 2,
-   "rank": 50,
+   "rank": 51,
    "of": 58,
    "franchise": 5
   },
@@ -808,7 +808,7 @@
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 302,
+  "rank": 304,
   "of": 420,
   "war": 0.0,
   "starts": 1.0,

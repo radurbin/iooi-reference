@@ -98,8 +98,8 @@
    "best": 22.1,
    "wins": 5,
    "paa": -6.65,
-   "vor": -0.05,
-   "war": -0.0
+   "vor": 16.5,
+   "war": 0.2
   }
  ],
  "totals": {
@@ -111,8 +111,8 @@
   "best": 42.8,
   "wins": 32,
   "paa": 83.27,
-  "vor": 170.35,
-  "war": 2.01
+  "vor": 186.9,
+  "war": 2.21
  },
  "nfl": [
   {
@@ -141,7 +141,7 @@
    "team": "LAR",
    "g": 6,
    "pts": 103.5,
-   "rank": 23
+   "rank": 25
   }
  ],
  "history": [
@@ -1123,8 +1123,8 @@
    "proj": 12.63,
    "won": true,
    "paa": -8.09,
-   "vor": -6.91,
-   "war": -0.08166779188572323
+   "vor": -3.6,
+   "war": -0.042547619506310225
   },
   {
    "season": "2026",
@@ -1158,8 +1158,8 @@
    "proj": 14.25,
    "won": true,
    "paa": 7.08,
-   "vor": 8.19,
-   "war": 0.09679583437685575
+   "vor": 11.5,
+   "war": 0.13591600675626875
   },
   {
    "season": "2026",
@@ -1177,8 +1177,8 @@
    "proj": 15.27,
    "won": true,
    "paa": -7.45,
-   "vor": -5.31,
-   "war": -0.06275773877180757
+   "vor": -2.0,
+   "war": -0.023637566392394567
   },
   {
    "season": "2026",
@@ -1196,8 +1196,8 @@
    "proj": 16.11,
    "won": true,
    "paa": 7.31,
-   "vor": 9.59,
-   "war": 0.11334213085153194
+   "vor": 12.9,
+   "war": 0.15246230323094495
   },
   {
    "season": "2026",
@@ -1215,8 +1215,8 @@
    "proj": null,
    "won": true,
    "paa": -5.5,
-   "vor": -5.61,
-   "war": -0.06630337373066676
+   "vor": -2.3,
+   "war": -0.02718320135125375
   },
   {
    "season": "2026",
@@ -1271,20 +1271,20 @@
   {
    "player": "6794",
    "name": "Justin Jefferson",
-   "score": 904,
+   "score": 902,
    "gs": 47,
    "pts": 747.53,
    "ppg": 15.9,
-   "war": 2.42
+   "war": 2.65
   },
   {
    "player": "7569",
    "name": "Nico Collins",
-   "score": 887,
+   "score": 886,
    "gs": 42,
    "pts": 679.9,
    "ppg": 16.19,
-   "war": 2.27
+   "war": 2.5
   },
   {
    "player": "2216",
@@ -1293,25 +1293,25 @@
    "gs": 40,
    "pts": 640.7,
    "ppg": 16.02,
-   "war": 1.95
+   "war": 2.14
   },
   {
    "player": "5859",
    "name": "A.J. Brown",
-   "score": 848,
+   "score": 852,
    "gs": 40,
    "pts": 653.7,
    "ppg": 16.34,
-   "war": 2.2
+   "war": 2.28
   },
   {
    "player": "8137",
    "name": "George Pickens",
-   "score": 824,
+   "score": 835,
    "gs": 41,
    "pts": 605.7,
    "ppg": 14.77,
-   "war": 1.53
+   "war": 1.84
   }
  ],
  "status": {
@@ -1342,18 +1342,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.01,
+   "value": 2.21,
    "digits": 2,
-   "rank": 47,
+   "rank": 40,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 170.3,
+   "value": 186.9,
    "digits": 1,
-   "rank": 47,
+   "rank": 40,
    "of": 420
   },
   {
@@ -1414,9 +1414,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 2.01,
+   "value": 2.21,
    "digits": 2,
-   "rank": 11,
+   "rank": 10,
    "of": 126
   },
   {
@@ -1483,7 +1483,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 1.66,
+   "value": 1.86,
    "digits": 2,
    "rank": 6,
    "of": 77,
@@ -1621,10 +1621,10 @@
   }
  ],
  "hof": {
-  "score": 35.6,
-  "rank": 38,
+  "score": 37.6,
+  "rank": 35,
   "of": 420,
-  "war": 20.1,
+  "war": 22.1,
   "starts": 11.5,
   "black_ink": 0.0,
   "awards": 4.0,
@@ -1887,47 +1887,47 @@
    [
     "2026",
     1,
-    33.8
+    34.2
    ],
    [
     "2026",
     2,
-    33.8
+    34.2
    ],
    [
     "2026",
     3,
-    35.05
+    35.85
    ],
    [
     "2026",
     4,
-    34.7
+    35.8
    ],
    [
     "2026",
     5,
-    36.05
+    37.65
    ],
    [
     "2026",
     6,
-    35.6
+    37.6
    ],
    [
     "2026",
     7,
-    35.6
+    37.6
    ],
    [
     "2026",
     8,
-    35.6
+    37.6
    ],
    [
     "2026",
     9,
-    35.6
+    37.6
    ]
   ],
   "benchmark": 100
@@ -2014,15 +2014,16 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 3,
-    "lost": 14.22,
+    "missed": 4,
+    "lost": 24.15,
     "injuries": [
      "Hamstring"
     ],
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -2049,6 +2050,13 @@
       "injury": "Hamstring",
       "franchise": 1,
       "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2104,13 +2112,14 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 9,
+    "to": 10,
     "weeks": [
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "LAR",
     "injury": "Hamstring",
     "kinds": [
@@ -2123,14 +2132,14 @@
      }
     ],
     "rostered": 3,
-    "lost": 14.22
+    "lost": 24.15
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Hamstring",
    "since": null,
-   "streak": 3
+   "streak": 4
   }
  }
 }

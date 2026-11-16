@@ -89,8 +89,8 @@
    "best": 13.4,
    "wins": 0,
    "paa": -13.26,
-   "vor": 4.14,
-   "war": 0.05
+   "vor": 0.6,
+   "war": 0.01
   }
  ],
  "totals": {
@@ -102,8 +102,8 @@
   "best": 24.0,
   "wins": 3,
   "paa": -37.41,
-  "vor": 26.62,
-  "war": 0.31
+  "vor": 23.08,
+  "war": 0.27
  },
  "nfl": [
   {
@@ -130,9 +130,9 @@
   {
    "season": "2026",
    "team": "MIN",
-   "g": 4,
-   "pts": 31.3,
-   "rank": 68
+   "g": 5,
+   "pts": 38.8,
+   "rank": 63
   }
  ],
  "history": [
@@ -793,8 +793,8 @@
    "proj": 9.78,
    "won": false,
    "paa": -6.53,
-   "vor": 5.37,
-   "war": 0.06346686576357942
+   "vor": 3.6,
+   "war": 0.042547619506310225
   },
   {
    "season": "2026",
@@ -924,37 +924,37 @@
    "proj": 9.42,
    "won": false,
    "paa": -6.73,
-   "vor": -1.23,
-   "war": -0.014537103331322658
+   "vor": -3.0,
+   "war": -0.035456349588591854
   }
  ],
  "similar": [
   {
    "player": "12529",
    "name": "TreVeyon Henderson",
-   "score": 959,
+   "score": 958,
    "gs": 12,
    "pts": 136.4,
    "ppg": 11.37,
-   "war": 0.4
-  },
-  {
-   "player": "7567",
-   "name": "Kenny Gainwell",
-   "score": 939,
-   "gs": 13,
-   "pts": 148.5,
-   "ppg": 11.42,
-   "war": 0.44
+   "war": 0.38
   },
   {
    "player": "12534",
    "name": "Kyle Monangai",
-   "score": 939,
+   "score": 942,
    "gs": 12,
    "pts": 144.7,
    "ppg": 12.06,
-   "war": 0.52
+   "war": 0.43
+  },
+  {
+   "player": "7567",
+   "name": "Kenny Gainwell",
+   "score": 941,
+   "gs": 13,
+   "pts": 148.5,
+   "ppg": 11.42,
+   "war": 0.35
   },
   {
    "player": "8132",
@@ -963,7 +963,7 @@
    "gs": 11,
    "pts": 115.75,
    "ppg": 10.52,
-   "war": 0.21
+   "war": 0.15
   },
   {
    "player": "8143",
@@ -1003,18 +1003,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.31,
+   "value": 0.27,
    "digits": 2,
-   "rank": 137,
+   "rank": 149,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 26.6,
+   "value": 23.1,
    "digits": 1,
-   "rank": 137,
+   "rank": 149,
    "of": 420
   },
   {
@@ -1075,7 +1075,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.31,
+   "value": 0.27,
    "digits": 2,
    "rank": 46,
    "of": 100
@@ -1104,9 +1104,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 0.05,
+   "value": 0.01,
    "digits": 2,
-   "rank": 27,
+   "rank": 35,
    "of": 82,
    "franchise": 4
   },
@@ -1186,7 +1186,7 @@
    "stat": "WAR",
    "value": 0.2,
    "digits": 2,
-   "rank": 22,
+   "rank": 21,
    "of": 73,
    "franchise": 10
   },
@@ -1292,10 +1292,10 @@
   }
  ],
  "hof": {
-  "score": 5.6,
-  "rank": 186,
+  "score": 5.2,
+  "rank": 192,
   "of": 420,
-  "war": 3.1,
+  "war": 2.7,
   "starts": 2.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1528,47 +1528,47 @@
    [
     "2026",
     1,
-    5.55
+    5.35
    ],
    [
     "2026",
     2,
-    5.55
+    5.35
    ],
    [
     "2026",
     3,
-    5.55
+    5.35
    ],
    [
     "2026",
     4,
-    5.55
+    5.35
    ],
    [
     "2026",
     5,
-    5.55
+    5.35
    ],
    [
     "2026",
     6,
-    5.55
+    5.35
    ],
    [
     "2026",
     7,
-    5.55
+    5.35
    ],
    [
     "2026",
     8,
-    5.55
+    5.35
    ],
    [
     "2026",
     9,
-    5.6
+    5.2
    ]
   ],
   "benchmark": 100

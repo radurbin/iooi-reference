@@ -139,7 +139,7 @@
    "team": "NYG",
    "g": 9,
    "pts": 34.7,
-   "rank": 97
+   "rank": 99
   }
  ],
  "history": [
@@ -891,11 +891,11 @@
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 956,
+   "score": 950,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.5
+   "war": -0.39
   },
   {
    "player": "2374",
@@ -909,29 +909,29 @@
   {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 891,
+   "score": 892,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
    "war": -0.74
   },
   {
-   "player": "11646",
-   "name": "Jalen Coker",
-   "score": 884,
-   "gs": 9,
-   "pts": 74.8,
-   "ppg": 8.31,
-   "war": -0.39
-  },
-  {
    "player": "9500",
    "name": "Josh Downs",
-   "score": 880,
+   "score": 885,
    "gs": 18,
    "pts": 155.5,
    "ppg": 8.64,
-   "war": -0.7
+   "war": -0.51
+  },
+  {
+   "player": "11646",
+   "name": "Jalen Coker",
+   "score": 870,
+   "gs": 9,
+   "pts": 74.8,
+   "ppg": 8.31,
+   "war": -0.16
   }
  ],
  "status": {
@@ -963,7 +963,7 @@
    "stat": "WAR",
    "value": -0.52,
    "digits": 2,
-   "rank": 398,
+   "rank": 402,
    "of": 420
   },
   {
@@ -972,7 +972,7 @@
    "stat": "VOR",
    "value": -43.9,
    "digits": 1,
-   "rank": 398,
+   "rank": 402,
    "of": 420
   },
   {
@@ -1035,7 +1035,7 @@
    "stat": "WAR",
    "value": -0.52,
    "digits": 2,
-   "rank": 119,
+   "rank": 122,
    "of": 126
   },
   {
@@ -1181,7 +1181,7 @@
  ],
  "hof": {
   "score": 3.5,
-  "rank": 218,
+  "rank": 217,
   "of": 420,
   "war": 0.0,
   "starts": 3.5,

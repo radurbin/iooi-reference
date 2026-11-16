@@ -96,8 +96,8 @@
    "best": 37.9,
    "wins": 4,
    "paa": 81.4,
-   "vor": 89.73,
-   "war": 1.06
+   "vor": 112.9,
+   "war": 1.33
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 46.5,
   "wins": 22,
   "paa": 305.41,
-  "vor": 390.68,
-  "war": 4.62
+  "vor": 413.85,
+  "war": 4.89
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "LAR",
    "g": 7,
    "pts": 177.3,
-   "rank": 4
+   "rank": 7
   }
  ],
  "history": [
@@ -1095,8 +1095,8 @@
    "proj": 21.02,
    "won": false,
    "paa": 0.21,
-   "vor": 1.39,
-   "war": 0.016428108642714222
+   "vor": 4.7,
+   "war": 0.055548281022127236
   },
   {
    "season": "2026",
@@ -1146,8 +1146,8 @@
    "proj": 19.32,
    "won": true,
    "paa": 13.15,
-   "vor": 15.29,
-   "war": 0.18070919506985644
+   "vor": 18.6,
+   "war": 0.21982936744926948
   },
   {
    "season": "2026",
@@ -1165,8 +1165,8 @@
    "proj": 20.68,
    "won": true,
    "paa": 23.11,
-   "vor": 25.39,
-   "war": 0.30007890535144904
+   "vor": 28.7,
+   "war": 0.33919907773086205
   },
   {
    "season": "2026",
@@ -1184,8 +1184,8 @@
    "proj": 22.68,
    "won": false,
    "paa": 1.6,
-   "vor": 1.49,
-   "war": 0.017609986962333953
+   "vor": 4.8,
+   "war": 0.05673015934174696
   },
   {
    "season": "2026",
@@ -1203,8 +1203,8 @@
    "proj": 22.39,
    "won": false,
    "paa": 8.41,
-   "vor": 9.49,
-   "war": 0.11216025253191222
+   "vor": 12.8,
+   "war": 0.15128042491132523
   },
   {
    "season": "2026",
@@ -1222,8 +1222,8 @@
    "proj": 22.07,
    "won": true,
    "paa": 11.86,
-   "vor": 12.49,
-   "war": 0.14761660212050406
+   "vor": 15.8,
+   "war": 0.18673677449991707
   },
   {
    "season": "2026",
@@ -1241,8 +1241,8 @@
    "proj": 23.61,
    "won": true,
    "paa": 23.06,
-   "vor": 24.19,
-   "war": 0.28589636551601233
+   "vor": 27.5,
+   "war": 0.3250165378954253
   }
  ],
  "similar": [
@@ -1253,25 +1253,25 @@
    "gs": 48,
    "pts": 964.52,
    "ppg": 20.09,
-   "war": 4.68
+   "war": 4.99
   },
   {
    "player": "6786",
    "name": "CeeDee Lamb",
-   "score": 808,
+   "score": 810,
    "gs": 50,
    "pts": 964.9,
    "ppg": 19.3,
-   "war": 4.45
+   "war": 4.8
   },
   {
    "player": "9488",
    "name": "Jaxon Smith-Njigba",
-   "score": 759,
+   "score": 769,
    "gs": 36,
    "pts": 747.06,
    "ppg": 20.75,
-   "war": 3.94
+   "war": 4.29
   },
   {
    "player": "7547",
@@ -1280,16 +1280,16 @@
    "gs": 53,
    "pts": 1009.63,
    "ppg": 19.05,
-   "war": 4.63
+   "war": 4.94
   },
   {
    "player": "6794",
    "name": "Justin Jefferson",
-   "score": 430,
+   "score": 439,
    "gs": 47,
    "pts": 747.53,
    "ppg": 15.9,
-   "war": 2.42
+   "war": 2.65
   }
  ],
  "status": {
@@ -1320,18 +1320,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 4.62,
+   "value": 4.89,
    "digits": 2,
-   "rank": 9,
+   "rank": 8,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 390.7,
+   "value": 413.9,
    "digits": 1,
-   "rank": 9,
+   "rank": 8,
    "of": 420
   },
   {
@@ -1392,7 +1392,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 4.62,
+   "value": 4.89,
    "digits": 2,
    "rank": 3,
    "of": 126
@@ -1421,7 +1421,7 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 4.62,
+   "value": 4.89,
    "digits": 2,
    "rank": 1,
    "of": 52,
@@ -1559,10 +1559,10 @@
   }
  ],
  "hof": {
-  "score": 66.95,
-  "rank": 10,
+  "score": 69.65,
+  "rank": 8,
   "of": 420,
-  "war": 46.2,
+  "war": 48.9,
   "starts": 10.75,
   "black_ink": 0.0,
   "awards": 10.0,
@@ -1825,47 +1825,47 @@
    [
     "2026",
     1,
-    54.95
+    55.35
    ],
    [
     "2026",
     2,
-    54.95
+    55.35
    ],
    [
     "2026",
     3,
-    54.95
+    55.35
    ],
    [
     "2026",
     4,
-    57.0
+    57.8
    ],
    [
     "2026",
     5,
-    60.25
+    61.45
    ],
    [
     "2026",
     6,
-    60.7
+    62.3
    ],
    [
     "2026",
     7,
-    62.05
+    64.05
    ],
    [
     "2026",
     8,
-    63.8
+    66.2
    ],
    [
     "2026",
     9,
-    66.95
+    69.65
    ]
   ],
   "benchmark": 100
@@ -1885,7 +1885,7 @@
    "list": "Career WAR",
    "scope": 7,
    "rank": 1,
-   "value": "4.62",
+   "value": "4.89",
    "href": "franchise.html?id=7#all-time-leaders",
    "player": "9493",
    "franchise": 7
@@ -1978,17 +1978,20 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 2,
-    "lost": 25.64,
+    "missed": 3,
+    "lost": 32.26,
     "injuries": [
-     "Hip"
+     "Hip",
+     "Knee"
     ],
     "weeks": [
      2,
-     3
+     3,
+     10
     ],
     "kinds": [
      "Doubtful",
+     "IR",
      "Questionable"
     ],
     "rostered": 2,
@@ -2006,6 +2009,13 @@
       "injury": "Hip",
       "franchise": 7,
       "team": "the dart side 🛸💍"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2081,14 +2091,31 @@
      }
     ],
     "rostered": 2,
-    "lost": 25.64
+    "lost": 32.26
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "LAR",
+    "injury": "Knee",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Knee - MCL",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

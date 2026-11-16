@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "SEA",
-   "g": 9,
-   "pts": 57.8,
-   "rank": 64
+   "g": 10,
+   "pts": 68.2,
+   "rank": 56
   }
  ],
  "history": [
@@ -1181,47 +1181,47 @@
   {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 947,
+   "score": 948,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
    "war": 0.46
   },
   {
-   "player": "12526",
-   "name": "Tetairoa McMillan",
-   "score": 924,
-   "gs": 22,
-   "pts": 292.4,
-   "ppg": 13.29,
-   "war": 0.52
-  },
-  {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 905,
+   "score": 912,
    "gs": 26,
    "pts": 334.8,
    "ppg": 12.88,
-   "war": 0.35
+   "war": 0.47
   },
   {
-   "player": "10229",
-   "name": "Rashee Rice",
-   "score": 900,
-   "gs": 21,
-   "pts": 311.1,
-   "ppg": 14.81,
-   "war": 0.8
+   "player": "12526",
+   "name": "Tetairoa McMillan",
+   "score": 910,
+   "gs": 22,
+   "pts": 292.4,
+   "ppg": 13.29,
+   "war": 0.83
   },
   {
    "player": "5045",
    "name": "Courtland Sutton",
-   "score": 894,
+   "score": 896,
    "gs": 27,
    "pts": 383.4,
    "ppg": 14.2,
    "war": 0.93
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "score": 877,
+   "gs": 21,
+   "pts": 311.1,
+   "ppg": 14.81,
+   "war": 1.03
   }
  ],
  "status": {
@@ -1254,7 +1254,7 @@
    "stat": "WAR",
    "value": 0.56,
    "digits": 2,
-   "rank": 103,
+   "rank": 106,
    "of": 420
   },
   {
@@ -1263,7 +1263,7 @@
    "stat": "VOR",
    "value": 47.2,
    "digits": 1,
-   "rank": 104,
+   "rank": 106,
    "of": 420
   },
   {
@@ -1326,7 +1326,7 @@
    "stat": "WAR",
    "value": 0.56,
    "digits": 2,
-   "rank": 27,
+   "rank": 30,
    "of": 126
   },
   {
@@ -1462,7 +1462,7 @@
  ],
  "hof": {
   "score": 11.6,
-  "rank": 112,
+  "rank": 114,
   "of": 420,
   "war": 5.6,
   "starts": 6.0,

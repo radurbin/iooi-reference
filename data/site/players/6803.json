@@ -89,7 +89,7 @@
    "season": "2026",
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
-   "nfl": null,
+   "nfl": "SF",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -128,6 +128,13 @@
    "g": 7,
    "pts": 62.4,
    "rank": 99
+  },
+  {
+   "season": "2026",
+   "team": "SF",
+   "g": 1,
+   "pts": 0.0,
+   "rank": 199
   }
  ],
  "history": [
@@ -1082,49 +1089,49 @@
  ],
  "similar": [
   {
-   "player": "12526",
-   "name": "Tetairoa McMillan",
-   "score": 952,
-   "gs": 22,
-   "pts": 292.4,
-   "ppg": 13.29,
-   "war": 0.52
-  },
-  {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 947,
+   "score": 948,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
    "war": 0.56
   },
   {
+   "player": "12526",
+   "name": "Tetairoa McMillan",
+   "score": 918,
+   "gs": 22,
+   "pts": 292.4,
+   "ppg": 13.29,
+   "war": 0.83
+  },
+  {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 912,
+   "score": 916,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
-   "war": 0.31
-  },
-  {
-   "player": "10229",
-   "name": "Rashee Rice",
-   "score": 906,
-   "gs": 21,
-   "pts": 311.1,
-   "ppg": 14.81,
-   "war": 0.8
+   "war": 0.42
   },
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 886,
+   "score": 887,
    "gs": 26,
    "pts": 334.8,
    "ppg": 12.88,
-   "war": 0.35
+   "war": 0.47
+  },
+  {
+   "player": "10229",
+   "name": "Rashee Rice",
+   "score": 877,
+   "gs": 21,
+   "pts": 311.1,
+   "ppg": 14.81,
+   "war": 1.03
   }
  ],
  "status": {
@@ -1157,7 +1164,7 @@
    "stat": "WAR",
    "value": 0.46,
    "digits": 2,
-   "rank": 117,
+   "rank": 120,
    "of": 420
   },
   {
@@ -1166,7 +1173,7 @@
    "stat": "VOR",
    "value": 39.0,
    "digits": 1,
-   "rank": 118,
+   "rank": 121,
    "of": 420
   },
   {
@@ -1220,7 +1227,7 @@
    "stat": "WAR",
    "value": 0.46,
    "digits": 2,
-   "rank": 32,
+   "rank": 35,
    "of": 126
   },
   {
@@ -1249,7 +1256,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 20,
+   "rank": 21,
    "of": 76,
    "franchise": 2
   },
@@ -1366,7 +1373,7 @@
  ],
  "hof": {
   "score": 10.1,
-  "rank": 127,
+  "rank": 130,
   "of": 420,
   "war": 4.6,
   "starts": 5.5,

@@ -220,8 +220,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 81.4,
-   "vor": 89.73,
-   "war": 1.06
+   "vor": 112.9,
+   "war": 1.33
   },
   {
    "player": "3294",
@@ -250,8 +250,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 26.0,
-   "vor": 97.43,
-   "war": 1.15
+   "vor": 81.5,
+   "war": 0.96
   },
   {
    "player": "8228",
@@ -265,8 +265,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": 22.53,
-   "vor": 88.46,
-   "war": 1.05
+   "vor": 74.3,
+   "war": 0.88
   },
   {
    "player": "11604",
@@ -280,8 +280,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 62.98,
-   "vor": 81.28,
-   "war": 0.96
+   "vor": 78.27,
+   "war": 0.93
   },
   {
    "player": "10232",
@@ -295,8 +295,8 @@
    "bench_pts": 36.5,
    "wins": 4,
    "paa": -11.51,
-   "vor": -1.59,
-   "war": -0.02
+   "vor": 21.58,
+   "war": 0.26
   },
   {
    "player": "12512",
@@ -310,8 +310,8 @@
    "bench_pts": 23.3,
    "wins": 3,
    "paa": -32.4,
-   "vor": 24.19,
-   "war": 0.29
+   "vor": 11.8,
+   "war": 0.14
   },
   {
    "player": "2306",
@@ -340,8 +340,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 9.83,
-   "vor": 4.3,
-   "war": 0.05
+   "vor": 7.9,
+   "war": 0.09
   },
   {
    "player": "3451",
@@ -355,8 +355,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 11.88,
-   "vor": 11.0,
-   "war": 0.13
+   "vor": 13.16,
+   "war": 0.16
   },
   {
    "player": "13345",
@@ -370,8 +370,8 @@
    "bench_pts": 25.6,
    "wins": 2,
    "paa": 11.77,
-   "vor": 25.94,
-   "war": 0.31
+   "vor": 22.4,
+   "war": 0.26
   },
   {
    "player": "11635",
@@ -385,8 +385,8 @@
    "bench_pts": 12.6,
    "wins": 2,
    "paa": -44.28,
-   "vor": -36.06,
-   "war": -0.43
+   "vor": -16.2,
+   "war": -0.19
   },
   {
    "player": "PIT",
@@ -400,8 +400,8 @@
    "bench_pts": 45.0,
    "wins": 1,
    "paa": 21.25,
-   "vor": 22.5,
-   "war": 0.27
+   "vor": 23.44,
+   "war": 0.28
   },
   {
    "player": "12508",
@@ -430,8 +430,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 5.6,
-   "vor": 7.75,
-   "war": 0.09
+   "vor": 8.22,
+   "war": 0.1
   },
   {
    "player": "13346",
@@ -445,8 +445,8 @@
    "bench_pts": 90.4,
    "wins": 0,
    "paa": -11.91,
-   "vor": -9.72,
-   "war": -0.11
+   "vor": -3.1,
+   "war": -0.04
   },
   {
    "player": "NO",
@@ -460,8 +460,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -2.75,
-   "vor": -4.5,
-   "war": -0.05
+   "vor": -3.56,
+   "war": -0.04
   },
   {
    "player": "10955",
@@ -475,8 +475,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 3.03,
-   "vor": -0.5,
-   "war": -0.01
+   "vor": 0.22,
+   "war": 0.0
   },
   {
    "player": "CHI",
@@ -490,7 +490,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 1.75,
-   "vor": 0.75,
+   "vor": 1.22,
    "war": 0.01
   },
   {
@@ -505,7 +505,7 @@
    "bench_pts": 70.5,
    "wins": 0,
    "paa": -4.09,
-   "vor": -0.76,
+   "vor": -1.19,
    "war": -0.01
   },
   {
@@ -520,7 +520,7 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": 4.18,
-   "vor": -1.25,
+   "vor": -0.78,
    "war": -0.01
   },
   {
@@ -535,8 +535,8 @@
    "bench_pts": 60.2,
    "wins": 0,
    "paa": -5.37,
-   "vor": -5.96,
-   "war": -0.07
+   "vor": -6.39,
+   "war": -0.08
   },
   {
    "player": "LAR",
@@ -550,7 +550,7 @@
    "bench_pts": 1.0,
    "wins": 0,
    "paa": -3.58,
-   "vor": -5.25,
+   "vor": -4.78,
    "war": -0.06
   },
   {
@@ -586,7 +586,7 @@
   {
    "player": "13272",
    "pos": "QB",
-   "nfl": null,
+   "nfl": "ARI",
    "g": 9,
    "gs": 0,
    "pts": 0.0,
@@ -745,8 +745,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -6.42,
-   "vor": -9.25,
-   "war": -0.11
+   "vor": -8.78,
+   "war": -0.1
   },
   {
    "player": "IND",
@@ -1014,7 +1014,7 @@
    "pts_team": 15.3,
    "starts_league": 2,
    "pts_league": 15.3,
-   "nfl_pts": 105.7
+   "nfl_pts": 108.3
   },
   {
    "round": 1,
@@ -1052,7 +1052,7 @@
    "pts_team": 0.0,
    "starts_league": 0,
    "pts_league": 0.0,
-   "nfl_pts": 0.0
+   "nfl_pts": 0.52
   },
   {
    "round": 3,
@@ -2102,8 +2102,8 @@
    "opp_record": "4-5",
    "opp_seed": 9,
    "chance": 0.632,
-   "proj": 129.44,
-   "opp_proj": 124.54
+   "proj": 124.68,
+   "opp_proj": 124.91
   },
   {
    "week": 11,
@@ -2141,7 +2141,7 @@
  "injuries": {
   "games": 26,
   "players": 10,
-  "lost": 95.55,
+  "lost": 100.06,
   "rank": 1,
   "games_rank": 7,
   "of": 12,
@@ -2151,7 +2151,7 @@
     "name": "Puka Nacua",
     "pos": "WR",
     "missed": 2,
-    "lost": 25.64,
+    "lost": 32.26,
     "injuries": [
      "Hip"
     ],
@@ -2164,45 +2164,6 @@
      "Questionable"
     ],
     "gs": 7
-   },
-   {
-    "player": "11604",
-    "name": "Brock Bowers",
-    "pos": "TE",
-    "missed": 2,
-    "lost": 23.22,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     1,
-     2
-    ],
-    "kinds": [
-     "Doubtful",
-     "Out"
-    ],
-    "gs": 7
-   },
-   {
-    "player": "13345",
-    "name": "Jonah Coleman",
-    "pos": "RB",
-    "missed": 4,
-    "lost": 21.96,
-    "injuries": [
-     "Ankle"
-    ],
-    "weeks": [
-     3,
-     4,
-     5,
-     6
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 2
    },
    {
     "player": "12508",
@@ -2228,28 +2189,50 @@
     "gs": 2
    },
    {
-    "player": "12512",
-    "name": "Quinshon Judkins",
+    "player": "11604",
+    "name": "Brock Bowers",
+    "pos": "TE",
+    "missed": 2,
+    "lost": 18.1,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     1,
+     2
+    ],
+    "kinds": [
+     "Doubtful",
+     "Out"
+    ],
+    "gs": 7
+   },
+   {
+    "player": "13345",
+    "name": "Jonah Coleman",
     "pos": "RB",
-    "missed": 1,
-    "lost": 4.93,
+    "missed": 4,
+    "lost": 14.88,
     "injuries": [
      "Ankle"
     ],
     "weeks": [
+     3,
+     4,
+     5,
      6
     ],
     "kinds": [
-     "Questionable"
+     "IR"
     ],
-    "gs": 7
+    "gs": 2
    },
    {
     "player": "6819",
     "name": "Michael Pittman Jr.",
     "pos": "WR",
     "missed": 5,
-    "lost": 0.0,
+    "lost": 11.4,
     "injuries": [
      "Foot"
     ],
@@ -2265,6 +2248,23 @@
      "Questionable"
     ],
     "gs": 0
+   },
+   {
+    "player": "12512",
+    "name": "Quinshon Judkins",
+    "pos": "RB",
+    "missed": 1,
+    "lost": 3.62,
+    "injuries": [
+     "Ankle"
+    ],
+    "weeks": [
+     6
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "gs": 7
    },
    {
     "player": "13272",

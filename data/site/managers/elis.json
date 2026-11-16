@@ -197,8 +197,8 @@
     "pts": 274.8,
     "best": 29.8,
     "wins": 10,
-    "vor": -15.1,
-    "war": -0.18
+    "vor": 1.45,
+    "war": 0.02
    },
    {
     "player": "7021",
@@ -223,8 +223,8 @@
     "pts": 261.9,
     "best": 23.0,
     "wins": 8,
-    "vor": -41.89,
-    "war": -0.5
+    "vor": -12.1,
+    "war": -0.14
    },
    {
     "player": "7591",
@@ -262,8 +262,8 @@
     "pts": 175.85,
     "best": 24.1,
     "wins": 7,
-    "vor": 38.27,
-    "war": 0.45
+    "vor": 34.4,
+    "war": 0.41
    },
    {
     "player": "5022",
@@ -314,8 +314,8 @@
     "pts": 154.9,
     "best": 31.5,
     "wins": 5,
-    "vor": 64.89,
-    "war": 0.77
+    "vor": 50.73,
+    "war": 0.6
    },
    {
     "player": "CLE",
@@ -379,8 +379,8 @@
     "pts": 128.0,
     "best": 20.0,
     "wins": 6,
-    "vor": 23.46,
-    "war": 0.28
+    "vor": 26.28,
+    "war": 0.31
    },
    {
     "player": "LAC",
@@ -418,8 +418,8 @@
     "pts": 83.2,
     "best": 18.8,
     "wins": 1,
-    "vor": 18.4,
-    "war": 0.22
+    "vor": 6.01,
+    "war": 0.07
    }
   ],
   "by_pos": {
@@ -557,8 +557,8 @@
      "pts": 175.85,
      "best": 24.1,
      "wins": 7,
-     "vor": 38.27,
-     "war": 0.45
+     "vor": 34.4,
+     "war": 0.41
     },
     {
      "player": "5022",
@@ -611,8 +611,8 @@
      "pts": 67.0,
      "best": 17.0,
      "wins": 4,
-     "vor": 21.84,
-     "war": 0.26
+     "vor": 23.28,
+     "war": 0.28
     },
     {
      "player": "1433",
@@ -652,8 +652,8 @@
      "pts": 128.0,
      "best": 20.0,
      "wins": 6,
-     "vor": 23.46,
-     "war": 0.28
+     "vor": 26.28,
+     "war": 0.31
     },
     {
      "player": "LAC",
@@ -753,8 +753,8 @@
    "pts": 175.85,
    "best": 24.1,
    "wins": 7,
-   "vor": 38.27,
-   "war": 0.45
+   "vor": 34.4,
+   "war": 0.41
   },
   {
    "slot": "FLEX",
@@ -1256,7 +1256,7 @@
    "team": "Maddison Beer’s Boys",
    "games": 22,
    "players": 9,
-   "lost": 22.11,
+   "lost": 18.12,
    "rank": 9,
    "of": 12
   }
@@ -1460,6 +1460,37 @@
    ]
   },
   {
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 1.44,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
    "player": "9480",
    "name": "Brenton Strange",
    "pos": "TE",
@@ -1482,37 +1513,6 @@
     },
     {
      "season": "2025",
-     "franchise": 10,
-     "team": "Maddison Beer’s Boys"
-    }
-   ]
-  },
-  {
-   "player": "8121",
-   "name": "Romeo Doubs",
-   "pos": "WR",
-   "missed": 5,
-   "lost": 0.0,
-   "injuries": [
-    "Shoulder",
-    "Concussion"
-   ],
-   "kinds": [
-    "IR",
-    "Out"
-   ],
-   "seasons": [
-    "2024",
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2024",
-     "franchise": 10,
-     "team": "BAHAHAHA"
-    },
-    {
-     "season": "2026",
      "franchise": 10,
      "team": "Maddison Beer’s Boys"
     }
@@ -1614,30 +1614,6 @@
    ]
   },
   {
-   "player": "7021",
-   "name": "Rico Dowdle",
-   "pos": "RB",
-   "missed": 3,
-   "lost": 5.43,
-   "injuries": [
-    "Toe"
-   ],
-   "kinds": [
-    "Out",
-    "Questionable"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 10,
-     "team": "Maddison Beer’s Boys"
-    }
-   ]
-  },
-  {
    "player": "8111",
    "name": "Cade Otton",
    "pos": "TE",
@@ -1693,6 +1669,29 @@
      "season": "2025",
      "franchise": 10,
      "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "7670",
+   "name": "Joshua Palmer",
+   "pos": "WR",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Knee"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2023"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 10,
+     "team": "You Like That?"
     }
    ]
   }

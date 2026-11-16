@@ -976,8 +976,8 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 8,
-    "lost": 0.0,
+    "missed": 9,
+    "lost": 5.67,
     "injuries": [
      "Knee - PCL"
     ],
@@ -989,7 +989,8 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1047,6 +1048,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Knee - PCL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Knee - PCL",
       "franchise": null,
@@ -1135,7 +1143,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -1144,9 +1152,10 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "SF",
     "injury": "Knee - PCL",
     "kinds": [
@@ -1159,14 +1168,14 @@
      }
     ],
     "rostered": 7,
-    "lost": 0.0
+    "lost": 5.67
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Knee - PCL",
    "since": null,
-   "streak": 8
+   "streak": 9
   }
  }
 }

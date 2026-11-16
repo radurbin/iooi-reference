@@ -96,8 +96,8 @@
    "best": 16.4,
    "wins": 0,
    "paa": -14.78,
-   "vor": 12.18,
-   "war": 0.14
+   "vor": 5.1,
+   "war": 0.06
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 27.9,
   "wins": 12,
   "paa": 8.05,
-  "vor": 138.56,
-  "war": 1.64
+  "vor": 131.48,
+  "war": 1.55
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "WAS",
    "g": 8,
    "pts": 83.9,
-   "rank": 27
+   "rank": 30
   }
  ],
  "history": [
@@ -1168,8 +1168,8 @@
    "proj": 7.7,
    "won": false,
    "paa": -11.75,
-   "vor": -4.33,
-   "war": -0.05117533123953424
+   "vor": -6.1,
+   "war": -0.07209457749680342
   },
   {
    "season": "2026",
@@ -1187,8 +1187,8 @@
    "proj": 12.06,
    "won": false,
    "paa": 3.0,
-   "vor": 8.37,
-   "war": 0.09892321535217126
+   "vor": 6.6,
+   "war": 0.07800396909490206
   },
   {
    "season": "2026",
@@ -1222,8 +1222,8 @@
    "proj": 12.06,
    "won": false,
    "paa": -1.6,
-   "vor": 7.07,
-   "war": 0.0835587971971148
+   "vor": 5.3,
+   "war": 0.0626395509398456
   },
   {
    "season": "2026",
@@ -1241,24 +1241,15 @@
    "proj": 12.27,
    "won": false,
    "paa": -4.43,
-   "vor": 1.07,
-   "war": 0.012646098019931095
+   "vor": -0.7,
+   "war": -0.008273148237338098
   }
  ],
  "similar": [
   {
-   "player": "4199",
-   "name": "Aaron Jones Sr.",
-   "score": 872,
-   "gs": 32,
-   "pts": 396.55,
-   "ppg": 12.39,
-   "war": 1.15
-  },
-  {
    "player": "4137",
    "name": "James Conner",
-   "score": 872,
+   "score": 873,
    "gs": 24,
    "pts": 360.2,
    "ppg": 15.01,
@@ -1267,29 +1258,38 @@
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 867,
+   "score": 872,
    "gs": 34,
    "pts": 497.8,
    "ppg": 14.64,
-   "war": 2.31
+   "war": 2.14
+  },
+  {
+   "player": "4199",
+   "name": "Aaron Jones Sr.",
+   "score": 871,
+   "gs": 32,
+   "pts": 396.55,
+   "ppg": 12.39,
+   "war": 1.06
   },
   {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 852,
+   "score": 851,
    "gs": 27,
    "pts": 342.3,
    "ppg": 12.68,
-   "war": 0.99
+   "war": 0.9
   },
   {
    "player": "7543",
    "name": "Travis Etienne Jr.",
-   "score": 835,
+   "score": 832,
    "gs": 36,
    "pts": 525.9,
    "ppg": 14.61,
-   "war": 2.32
+   "war": 2.26
   }
  ],
  "status": {
@@ -1320,18 +1320,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.64,
+   "value": 1.55,
    "digits": 2,
-   "rank": 56,
+   "rank": 59,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 138.6,
+   "value": 131.5,
    "digits": 1,
-   "rank": 56,
+   "rank": 59,
    "of": 420
   },
   {
@@ -1392,7 +1392,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 1.64,
+   "value": 1.55,
    "digits": 2,
    "rank": 24,
    "of": 100
@@ -1421,9 +1421,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.14,
+   "value": 0.06,
    "digits": 2,
-   "rank": 11,
+   "rank": 18,
    "of": 48,
    "franchise": 12
   },
@@ -1463,7 +1463,7 @@
    "stat": "WAR",
    "value": 1.49,
    "digits": 2,
-   "rank": 6,
+   "rank": 7,
    "of": 67,
    "franchise": 9
   },
@@ -1599,10 +1599,10 @@
   }
  ],
  "hof": {
-  "score": 23.9,
-  "rank": 66,
+  "score": 23.0,
+  "rank": 68,
   "of": 420,
-  "war": 16.4,
+  "war": 15.5,
   "starts": 7.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1885,27 +1885,27 @@
    [
     "2026",
     5,
-    21.15
+    20.95
    ],
    [
     "2026",
     6,
-    22.4
+    22.0
    ],
    [
     "2026",
     7,
-    22.4
+    22.0
    ],
    [
     "2026",
     8,
-    23.45
+    22.85
    ],
    [
     "2026",
     9,
-    23.9
+    23.0
    ]
   ],
   "benchmark": 100
@@ -1943,7 +1943,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 1,
-    "lost": 2.46,
+    "lost": 0.69,
     "injuries": [
      "Shoulder"
     ],
@@ -2008,7 +2008,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.46
+    "lost": 0.69
    }
   ],
   "now": null

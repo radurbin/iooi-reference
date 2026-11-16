@@ -96,8 +96,8 @@
    "best": 8.9,
    "wins": 0,
    "paa": -8.67,
-   "vor": 0.87,
-   "war": 0.01
+   "vor": -0.9,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 24.5,
   "wins": 8,
   "paa": -53.47,
-  "vor": 72.2,
-  "war": 0.85
+  "vor": 70.43,
+  "war": 0.83
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "DEN",
    "g": 9,
    "pts": 72.3,
-   "rank": 31
+   "rank": 33
   }
  ],
  "history": [
@@ -1178,8 +1178,8 @@
    "proj": 11.16,
    "won": false,
    "paa": -8.67,
-   "vor": 0.87,
-   "war": 0.010282341380691637
+   "vor": -0.9,
+   "war": -0.010636904876577556
   },
   {
    "season": "2026",
@@ -1218,7 +1218,7 @@
   {
    "player": "4663",
    "name": "Austin Ekeler",
-   "score": 922,
+   "score": 923,
    "gs": 24,
    "pts": 276.4,
    "ppg": 11.52,
@@ -1227,25 +1227,25 @@
   {
    "player": "12512",
    "name": "Quinshon Judkins",
-   "score": 919,
+   "score": 916,
    "gs": 18,
    "pts": 218.9,
    "ppg": 12.16,
-   "war": 0.81
+   "war": 0.66
   },
   {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 892,
+   "score": 893,
    "gs": 27,
    "pts": 342.3,
    "ppg": 12.68,
-   "war": 0.99
+   "war": 0.9
   },
   {
    "player": "4098",
    "name": "Kareem Hunt",
-   "score": 868,
+   "score": 869,
    "gs": 16,
    "pts": 191.3,
    "ppg": 11.96,
@@ -1299,18 +1299,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.85,
+   "value": 0.83,
    "digits": 2,
-   "rank": 86,
+   "rank": 90,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 72.2,
+   "value": 70.4,
    "digits": 1,
-   "rank": 87,
+   "rank": 90,
    "of": 420
   },
   {
@@ -1371,7 +1371,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.85,
+   "value": 0.83,
    "digits": 2,
    "rank": 32,
    "of": 100
@@ -1402,7 +1402,7 @@
    "stat": "WAR",
    "value": 0.27,
    "digits": 2,
-   "rank": 16,
+   "rank": 17,
    "of": 82,
    "franchise": 4
   },
@@ -1442,7 +1442,7 @@
    "stat": "WAR",
    "value": 0.5,
    "digits": 2,
-   "rank": 14,
+   "rank": 13,
    "of": 68,
    "franchise": 3
   },
@@ -1480,9 +1480,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 0.09,
+   "value": 0.07,
    "digits": 2,
-   "rank": 18,
+   "rank": 19,
    "of": 67,
    "franchise": 9
   },
@@ -1618,10 +1618,10 @@
   }
  ],
  "hof": {
-  "score": 14.0,
-  "rank": 100,
+  "score": 13.8,
+  "rank": 103,
   "of": 420,
-  "war": 8.5,
+  "war": 8.3,
   "starts": 5.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1914,17 +1914,17 @@
    [
     "2026",
     7,
-    14.0
+    13.8
    ],
    [
     "2026",
     8,
-    14.0
+    13.8
    ],
    [
     "2026",
     9,
-    14.0
+    13.8
    ]
   ],
   "benchmark": 100

@@ -77,7 +77,7 @@
    "team": "LAR",
    "g": 8,
    "pts": 3.2,
-   "rank": 176
+   "rank": 180
   }
  ],
  "history": [
@@ -461,16 +461,19 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
-     "Quadricep"
+     "Quadricep",
+     "Back"
     ],
     "weeks": [
-     2
+     2,
+     10
     ],
     "kinds": [
-     "Doubtful"
+     "Doubtful",
+     "IR"
     ],
     "rostered": 0,
     "games": [
@@ -478,6 +481,13 @@
       "week": 2,
       "kind": "Doubtful",
       "injury": "Quadricep",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Back",
       "franchise": null,
       "team": null
      }
@@ -521,6 +531,23 @@
     "injury": "Quadricep",
     "kinds": [
      "Doubtful"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "LAR",
+    "injury": "Back",
+    "kinds": [
+     "IR"
     ],
     "teams": [],
     "rostered": 0,

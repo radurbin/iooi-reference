@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "ATL",
-   "g": 7,
-   "pts": 98.26,
-   "rank": 24
+   "g": 8,
+   "pts": 111.0,
+   "rank": 23
   }
  ],
  "history": [
@@ -926,7 +926,7 @@
    "stat": "WAR",
    "value": 0.25,
    "digits": 2,
-   "rank": 149,
+   "rank": 154,
    "of": 420
   },
   {
@@ -935,7 +935,7 @@
    "stat": "VOR",
    "value": 21.3,
    "digits": 1,
-   "rank": 149,
+   "rank": 154,
    "of": 420
   },
   {
@@ -1104,7 +1104,7 @@
  ],
  "hof": {
   "score": 4.75,
-  "rank": 201,
+  "rank": 203,
   "of": 420,
   "war": 2.5,
   "starts": 2.25,
@@ -1411,7 +1411,7 @@
     "season": "2026",
     "nfl": "ATL",
     "missed": 2,
-    "lost": 1.38,
+    "lost": 1.06,
     "injuries": [
      "Knee"
     ],
@@ -1512,7 +1512,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 1.38
+    "lost": 1.06
    }
   ],
   "now": null

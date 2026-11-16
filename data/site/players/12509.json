@@ -48,8 +48,8 @@
    "best": 3.6,
    "wins": 0,
    "paa": -11.19,
-   "vor": -8.91,
-   "war": -0.11
+   "vor": -5.6,
+   "war": -0.07
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 9.4,
   "wins": 2,
   "paa": -67.07,
-  "vor": -57.51,
-  "war": -0.68
+  "vor": -54.2,
+  "war": -0.64
  },
  "nfl": [
   {
@@ -77,7 +77,7 @@
    "team": "LAC",
    "g": 7,
    "pts": 47.2,
-   "rank": 77
+   "rank": 84
   }
  ],
  "history": [
@@ -489,8 +489,8 @@
    "proj": 9.8,
    "won": false,
    "paa": -11.19,
-   "vor": -8.91,
-   "war": -0.1053053582781178
+   "vor": -5.6,
+   "war": -0.06618518589870478
   },
   {
    "season": "2026",
@@ -561,7 +561,7 @@
   {
    "player": "5038",
    "name": "Michael Gallup",
-   "score": 880,
+   "score": 878,
    "gs": 10,
    "pts": 51.2,
    "ppg": 5.12,
@@ -579,7 +579,7 @@
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 673,
+   "score": 674,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
@@ -588,20 +588,20 @@
   {
    "player": "11637",
    "name": "Keon Coleman",
-   "score": 663,
+   "score": 664,
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.3
+   "war": -0.26
   },
   {
    "player": "11646",
    "name": "Jalen Coker",
-   "score": 655,
+   "score": 649,
    "gs": 9,
    "pts": 74.8,
    "ppg": 8.31,
-   "war": -0.39
+   "war": -0.16
   }
  ],
  "status": {
@@ -632,18 +632,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.68,
+   "value": -0.64,
    "digits": 2,
-   "rank": 408,
+   "rank": 407,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -57.5,
+   "value": -54.2,
    "digits": 1,
-   "rank": 408,
+   "rank": 407,
    "of": 420
   },
   {
@@ -704,9 +704,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.68,
+   "value": -0.64,
    "digits": 2,
-   "rank": 123,
+   "rank": 124,
    "of": 126
   },
   {
@@ -773,9 +773,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.07,
    "digits": 2,
-   "rank": 55,
+   "rank": 48,
    "of": 73,
    "franchise": 10
   },

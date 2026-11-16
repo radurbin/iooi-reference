@@ -100,7 +100,7 @@
    "team": "ARI/HOU",
    "g": 7,
    "pts": 39.0,
-   "rank": 88
+   "rank": 94
   }
  ],
  "history": [
@@ -909,7 +909,7 @@
    "stat": "WAR",
    "value": -0.26,
    "digits": 2,
-   "rank": 364,
+   "rank": 367,
    "of": 420
   },
   {
@@ -972,7 +972,7 @@
    "stat": "WAR",
    "value": -0.26,
    "digits": 2,
-   "rank": 105,
+   "rank": 109,
    "of": 126
   },
   {
@@ -1049,7 +1049,7 @@
  "similar": [],
  "hof": {
   "score": 1.75,
-  "rank": 273,
+  "rank": 275,
   "of": 420,
   "war": 0.0,
   "starts": 1.75,
@@ -1327,6 +1327,31 @@
       "team": "Brandon Aubrey"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "HOU",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     10
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 10,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1379,13 +1404,30 @@
     ],
     "rostered": 2,
     "lost": 0.1
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "HOU",
+    "injury": "Hamstring",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Hamstring",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

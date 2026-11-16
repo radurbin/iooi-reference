@@ -32,8 +32,8 @@
    "best": 21.5,
    "wins": 1,
    "paa": -22.78,
-   "vor": -14.47,
-   "war": -0.17
+   "vor": 8.7,
+   "war": 0.1
   }
  ],
  "totals": {
@@ -45,8 +45,8 @@
   "best": 21.5,
   "wins": 1,
   "paa": -22.78,
-  "vor": -14.47,
-  "war": -0.17
+  "vor": 8.7,
+  "war": 0.1
  },
  "nfl": [
   {
@@ -54,7 +54,7 @@
    "team": "TEN",
    "g": 7,
    "pts": 78.8,
-   "rank": 36
+   "rank": 46
   }
  ],
  "history": [
@@ -88,8 +88,8 @@
    "proj": 10.6,
    "won": false,
    "paa": -5.89,
-   "vor": -4.71,
-   "war": -0.055666468854089206
+   "vor": -1.4,
+   "war": -0.016546296474676196
   },
   {
    "season": "2026",
@@ -123,8 +123,8 @@
    "proj": 9.02,
    "won": false,
    "paa": -1.82,
-   "vor": -0.71,
-   "war": -0.00839133606930007
+   "vor": 2.6,
+   "war": 0.030728836310112938
   },
   {
    "season": "2026",
@@ -142,8 +142,8 @@
    "proj": 9.99,
    "won": true,
    "paa": 6.85,
-   "vor": 8.99,
-   "war": 0.10625086093381358
+   "vor": 12.3,
+   "war": 0.1453710333132266
   },
   {
    "season": "2026",
@@ -161,8 +161,8 @@
    "proj": 12.18,
    "won": false,
    "paa": -13.19,
-   "vor": -10.91,
-   "war": -0.12894292467051235
+   "vor": -7.6,
+   "war": -0.08982275229109934
   },
   {
    "season": "2026",
@@ -180,8 +180,8 @@
    "proj": 12.85,
    "won": false,
    "paa": 6.6,
-   "vor": 6.49,
-   "war": 0.07670390294332037
+   "vor": 9.8,
+   "war": 0.11582407532273338
   },
   {
    "season": "2026",
@@ -199,8 +199,8 @@
    "proj": 12.41,
    "won": false,
    "paa": -2.19,
-   "vor": -1.11,
-   "war": -0.013118849347778986
+   "vor": 2.2,
+   "war": 0.026001323031634025
   },
   {
    "season": "2026",
@@ -218,8 +218,8 @@
    "proj": null,
    "won": false,
    "paa": -13.14,
-   "vor": -12.51,
-   "war": -0.14785297778442802
+   "vor": -9.2,
+   "war": -0.108732805405015
   },
   {
    "season": "2026",
@@ -266,18 +266,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.17,
+   "value": 0.1,
    "digits": 2,
-   "rank": 334,
+   "rank": 182,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -14.5,
+   "value": 8.7,
    "digits": 1,
-   "rank": 338,
+   "rank": 183,
    "of": 420
   },
   {
@@ -329,9 +329,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.17,
+   "value": 0.1,
    "digits": 2,
-   "rank": 94,
+   "rank": 49,
    "of": 126
   },
   {
@@ -358,9 +358,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.17,
+   "value": 0.1,
    "digits": 2,
-   "rank": 33,
+   "rank": 14,
    "of": 48,
    "franchise": 12
   },
@@ -407,10 +407,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 1.75,
-  "rank": 273,
+  "score": 2.75,
+  "rank": 235,
   "of": 420,
-  "war": 0.0,
+  "war": 1.0,
   "starts": 1.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -428,37 +428,37 @@
    [
     "2026",
     3,
-    0.5
+    0.6
    ],
    [
     "2026",
     4,
-    1.15
+    2.35
    ],
    [
     "2026",
     5,
-    1.0
+    1.7
    ],
    [
     "2026",
     6,
-    1.25
+    3.15
    ],
    [
     "2026",
     7,
-    1.5
+    3.6
    ],
    [
     "2026",
     8,
-    1.75
+    2.75
    ],
    [
     "2026",
     9,
-    1.75
+    2.75
    ]
   ],
   "benchmark": 100
@@ -470,13 +470,14 @@
    {
     "season": "2026",
     "nfl": "TEN",
-    "missed": 1,
-    "lost": 0.0,
+    "missed": 2,
+    "lost": 2.06,
     "injuries": [
      "Shoulder"
     ],
     "weeks": [
-     8
+     8,
+     10
     ],
     "kinds": [
      "Out"
@@ -489,6 +490,13 @@
       "injury": "Shoulder",
       "franchise": 12,
       "team": "Team Win One Game"
+     },
+     {
+      "week": 10,
+      "kind": "Out",
+      "injury": "Shoulder",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -497,11 +505,12 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 8,
+    "to": 10,
     "weeks": [
-     8
+     8,
+     10
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "TEN",
     "injury": "Shoulder",
     "kinds": [
@@ -514,14 +523,14 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 2.06
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Shoulder",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

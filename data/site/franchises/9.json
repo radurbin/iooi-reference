@@ -176,8 +176,8 @@
     "best": 38.2,
     "wins": 23,
     "paa": 256.34,
-    "vor": 528.35,
-    "war": 6.24
+    "vor": 512.42,
+    "war": 6.06
    },
    {
     "player": "8144",
@@ -189,8 +189,8 @@
     "best": 36.8,
     "wins": 15,
     "paa": 53.52,
-    "vor": 117.77,
-    "war": 1.39
+    "vor": 144.25,
+    "war": 1.7
    },
    {
     "player": "4046",
@@ -215,8 +215,8 @@
     "best": 39.2,
     "wins": 14,
     "paa": 80.9,
-    "vor": 128.82,
-    "war": 1.52
+    "vor": 155.3,
+    "war": 1.84
    },
    {
     "player": "7523",
@@ -254,8 +254,8 @@
     "best": 22.5,
     "wins": 16,
     "paa": -98.67,
-    "vor": -66.42,
-    "war": -0.79
+    "vor": -68.57,
+    "war": -0.81
    },
    {
     "player": "11584",
@@ -267,8 +267,8 @@
     "best": 33.6,
     "wins": 11,
     "paa": 28.13,
-    "vor": 144.29,
-    "war": 1.71
+    "vor": 135.44,
+    "war": 1.6
    },
    {
     "player": "8259",
@@ -280,8 +280,8 @@
     "best": 21.0,
     "wins": 15,
     "paa": 35.12,
-    "vor": 46.18,
-    "war": 0.55
+    "vor": 47.62,
+    "war": 0.56
    },
    {
     "player": "4943",
@@ -384,7 +384,7 @@
     "best": 21.7,
     "wins": 7,
     "paa": 14.68,
-    "vor": 28.22,
+    "vor": 27.79,
     "war": 0.33
    },
    {
@@ -436,8 +436,8 @@
     "best": 20.6,
     "wins": 4,
     "paa": -67.44,
-    "vor": -41.53,
-    "war": -0.49
+    "vor": -31.6,
+    "war": -0.37
    },
    {
     "player": "8148",
@@ -475,8 +475,8 @@
     "best": 18.0,
     "wins": 4,
     "paa": -4.58,
-    "vor": -6.79,
-    "war": -0.08
+    "vor": -5.38,
+    "war": -0.06
    },
    {
     "player": "10866",
@@ -545,8 +545,8 @@
      "best": 38.2,
      "wins": 23,
      "paa": 256.34,
-     "vor": 528.35,
-     "war": 6.24
+     "vor": 512.42,
+     "war": 6.06
     },
     {
      "player": "8136",
@@ -571,8 +571,8 @@
      "best": 33.6,
      "wins": 11,
      "paa": 28.13,
-     "vor": 144.29,
-     "war": 1.71
+     "vor": 135.44,
+     "war": 1.6
     }
    ],
    "WR": [
@@ -586,8 +586,8 @@
      "best": 36.8,
      "wins": 15,
      "paa": 53.52,
-     "vor": 117.77,
-     "war": 1.39
+     "vor": 144.25,
+     "war": 1.7
     },
     {
      "player": "11632",
@@ -599,8 +599,8 @@
      "best": 39.2,
      "wins": 14,
      "paa": 80.9,
-     "vor": 128.82,
-     "war": 1.52
+     "vor": 155.3,
+     "war": 1.84
     },
     {
      "player": "9502",
@@ -627,8 +627,8 @@
      "best": 22.5,
      "wins": 16,
      "paa": -98.67,
-     "vor": -66.42,
-     "war": -0.79
+     "vor": -68.57,
+     "war": -0.81
     },
     {
      "player": "10859",
@@ -640,7 +640,7 @@
      "best": 21.7,
      "wins": 7,
      "paa": 14.68,
-     "vor": 28.22,
+     "vor": 27.79,
      "war": 0.33
     },
     {
@@ -668,8 +668,8 @@
      "best": 21.0,
      "wins": 15,
      "paa": 35.12,
-     "vor": 46.18,
-     "war": 0.55
+     "vor": 47.62,
+     "war": 0.56
     },
     {
      "player": "5119",
@@ -694,8 +694,8 @@
      "best": 18.6,
      "wins": 2,
      "paa": 13.55,
-     "vor": 9.8,
-     "war": 0.12
+     "vor": 13.4,
+     "war": 0.16
     }
    ],
    "DEF": [
@@ -709,8 +709,8 @@
      "best": 18.0,
      "wins": 4,
      "paa": -4.58,
-     "vor": -6.79,
-     "war": -0.08
+     "vor": -5.38,
+     "war": -0.06
     },
     {
      "player": "CIN",
@@ -1287,7 +1287,7 @@
    "list": "Career WAR",
    "scope": 9,
    "rank": 1,
-   "value": "6.24",
+   "value": "6.05",
    "href": "franchise.html?id=9#all-time-leaders",
    "player": "9509",
    "franchise": 9
@@ -1373,16 +1373,16 @@
     "team": "Clandestine Ball Busters",
     "games": 12,
     "players": 5,
-    "lost": 11.52,
+    "lost": 2.91,
     "rank": 12,
     "games_rank": 11,
     "of": 12,
     "worst": {
-     "player": "13287",
-     "name": "Jeremiyah Love",
-     "pos": "RB",
-     "missed": 3,
-     "lost": 6.42
+     "player": "11646",
+     "name": "Jalen Coker",
+     "pos": "WR",
+     "missed": 1,
+     "lost": 1.8
     },
     "w": 4,
     "l": 5
@@ -1624,7 +1624,7 @@
     "name": "Jalen Coker",
     "pos": "WR",
     "missed": 7,
-    "lost": 0.0,
+    "lost": 1.8,
     "injuries": [
      "Quadricep"
     ],
@@ -1677,9 +1677,9 @@
    "franchise": 9,
    "name": "Clandestine Ball Busters",
    "games": 190,
-   "lost": 285.75,
+   "lost": 277.14,
    "seasons": 4,
-   "per_season": 71.44,
+   "per_season": 69.28,
    "worst": "2025"
   }
  }

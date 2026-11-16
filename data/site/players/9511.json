@@ -73,8 +73,8 @@
    "best": 6.5,
    "wins": 1,
    "paa": -8.95,
-   "vor": -1.53,
-   "war": -0.02
+   "vor": -3.3,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 11.1,
   "wins": 4,
   "paa": -47.95,
-  "vor": -15.63,
-  "war": -0.18
+  "vor": -17.4,
+  "war": -0.21
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "LAC",
    "g": 8,
    "pts": 54.7,
-   "rank": 44
+   "rank": 46
   }
  ],
  "history": [
@@ -880,8 +880,8 @@
    "proj": 10.84,
    "won": true,
    "paa": -8.95,
-   "vor": -1.53,
-   "war": -0.018082738290181845
+   "vor": -3.3,
+   "war": -0.03900198454745103
   },
   {
    "season": "2026",
@@ -904,16 +904,16 @@
   {
    "player": "11435",
    "name": "Emanuel Wilson",
-   "score": 926,
+   "score": 927,
    "gs": 8,
    "pts": 67.7,
    "ppg": 8.46,
-   "war": -0.01
+   "war": -0.07
   },
   {
    "player": "12469",
    "name": "Dylan Sampson",
-   "score": 896,
+   "score": 897,
    "gs": 8,
    "pts": 45.15,
    "ppg": 5.64,
@@ -922,7 +922,7 @@
   {
    "player": "8154",
    "name": "Brian Robinson Jr.",
-   "score": 879,
+   "score": 880,
    "gs": 14,
    "pts": 90.1,
    "ppg": 6.44,
@@ -935,7 +935,7 @@
    "gs": 16,
    "pts": 131.9,
    "ppg": 8.24,
-   "war": -0.22
+   "war": -0.28
   },
   {
    "player": "12533",
@@ -944,7 +944,7 @@
    "gs": 16,
    "pts": 140.1,
    "ppg": 8.76,
-   "war": 0.04
+   "war": 0.02
   }
  ],
  "status": {
@@ -974,18 +974,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.18,
+   "value": -0.21,
    "digits": 2,
-   "rank": 339,
+   "rank": 356,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -15.6,
+   "value": -17.4,
    "digits": 1,
-   "rank": 344,
+   "rank": 356,
    "of": 420
   },
   {
@@ -1046,7 +1046,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.18,
+   "value": -0.21,
    "digits": 2,
    "rank": 89,
    "of": 100
@@ -1075,9 +1075,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.02,
+   "value": -0.04,
    "digits": 2,
-   "rank": 37,
+   "rank": 41,
    "of": 67,
    "franchise": 8
   },
@@ -1117,7 +1117,7 @@
    "stat": "WAR",
    "value": -0.16,
    "digits": 2,
-   "rank": 67,
+   "rank": 68,
    "of": 76,
    "franchise": 2
   },

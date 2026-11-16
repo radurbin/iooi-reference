@@ -220,8 +220,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 49.9,
-   "vor": 112.66,
-   "war": 1.33
+   "vor": 98.5,
+   "war": 1.16
   },
   {
    "player": "6801",
@@ -235,8 +235,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 47.4,
-   "vor": 59.72,
-   "war": 0.71
+   "vor": 86.2,
+   "war": 1.02
   },
   {
    "player": "11564",
@@ -265,8 +265,8 @@
    "bench_pts": 4.7,
    "wins": 3,
    "paa": 28.24,
-   "vor": 46.28,
-   "war": 0.55
+   "vor": 43.27,
+   "war": 0.51
   },
   {
    "player": "7569",
@@ -280,8 +280,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": 9.04,
-   "vor": 16.74,
-   "war": 0.2
+   "vor": 36.6,
+   "war": 0.43
   },
   {
    "player": "2747",
@@ -295,8 +295,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": -5.26,
-   "vor": -15.2,
-   "war": -0.18
+   "vor": -8.72,
+   "war": -0.1
   },
   {
    "player": "8161",
@@ -325,8 +325,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -17.82,
-   "vor": -8.86,
-   "war": -0.1
+   "vor": 11.0,
+   "war": 0.13
   },
   {
    "player": "DEN",
@@ -340,8 +340,8 @@
    "bench_pts": 12.0,
    "wins": 4,
    "paa": 4.36,
-   "vor": 0.25,
-   "war": 0.0
+   "vor": 3.54,
+   "war": 0.04
   },
   {
    "player": "12518",
@@ -355,8 +355,8 @@
    "bench_pts": 32.3,
    "wins": 3,
    "paa": -5.7,
-   "vor": 5.8,
-   "war": 0.07
+   "vor": 3.65,
+   "war": 0.04
   },
   {
    "player": "5892",
@@ -370,8 +370,8 @@
    "bench_pts": 1.6,
    "wins": 2,
    "paa": -17.95,
-   "vor": 16.98,
-   "war": 0.2
+   "vor": 9.9,
+   "war": 0.12
   },
   {
    "player": "5850",
@@ -385,8 +385,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -0.4,
-   "vor": 23.31,
-   "war": 0.28
+   "vor": 18.0,
+   "war": 0.21
   },
   {
    "player": "13294",
@@ -400,8 +400,8 @@
    "bench_pts": 45.4,
    "wins": 2,
    "paa": 4.67,
-   "vor": 6.38,
-   "war": 0.08
+   "vor": 13.0,
+   "war": 0.15
   },
   {
    "player": "LAR",
@@ -415,8 +415,8 @@
    "bench_pts": -2.0,
    "wins": 1,
    "paa": 7.67,
-   "vor": 2.5,
-   "war": 0.03
+   "vor": 3.44,
+   "war": 0.04
   },
   {
    "player": "5870",
@@ -460,8 +460,8 @@
    "bench_pts": 43.8,
    "wins": 1,
    "paa": -16.42,
-   "vor": -15.42,
-   "war": -0.18
+   "vor": -8.8,
+   "war": -0.1
   },
   {
    "player": "11647",
@@ -475,8 +475,8 @@
    "bench_pts": 11.1,
    "wins": 0,
    "paa": -5.7,
-   "vor": -0.33,
-   "war": -0.0
+   "vor": -2.1,
+   "war": -0.02
   },
   {
    "player": "9753",
@@ -490,8 +490,8 @@
    "bench_pts": 11.2,
    "wins": 1,
    "paa": -10.2,
-   "vor": -1.53,
-   "war": -0.02
+   "vor": -3.3,
+   "war": -0.04
   },
   {
    "player": "9511",
@@ -505,8 +505,8 @@
    "bench_pts": 34.1,
    "wins": 1,
    "paa": -8.95,
-   "vor": -1.53,
-   "war": -0.02
+   "vor": -3.3,
+   "war": -0.04
   },
   {
    "player": "12484",
@@ -2226,8 +2226,8 @@
    "opp_record": "5-4",
    "opp_seed": 4,
    "chance": 0.574,
-   "proj": 156.34,
-   "opp_proj": 140.52
+   "proj": 156.56,
+   "opp_proj": 141.33
   },
   {
    "week": 11,
@@ -2265,8 +2265,8 @@
  "injuries": {
   "games": 30,
   "players": 10,
-  "lost": 57.97,
-  "rank": 3,
+  "lost": 47.04,
+  "rank": 6,
   "games_rank": 3,
   "of": 12,
   "rows": [
@@ -2275,7 +2275,7 @@
     "name": "Breece Hall",
     "pos": "RB",
     "missed": 3,
-    "lost": 21.51,
+    "lost": 17.07,
     "injuries": [
      "Quadricep"
     ],
@@ -2291,11 +2291,29 @@
     "gs": 0
    },
    {
+    "player": "7569",
+    "name": "Nico Collins",
+    "pos": "WR",
+    "missed": 2,
+    "lost": 14.8,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     2,
+     3
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 6
+   },
+   {
     "player": "9753",
     "name": "Zach Charbonnet",
     "pos": "RB",
     "missed": 7,
-    "lost": 18.41,
+    "lost": 6.3,
     "injuries": [
      "Knee"
     ],
@@ -2315,30 +2333,29 @@
     "gs": 1
    },
    {
-    "player": "5892",
-    "name": "David Montgomery",
-    "pos": "RB",
-    "missed": 3,
-    "lost": 6.33,
+    "player": "10229",
+    "name": "Rashee Rice",
+    "pos": "WR",
+    "missed": 2,
+    "lost": 4.28,
     "injuries": [
-     "Groin"
+     "Hamstring"
     ],
     "weeks": [
      6,
-     7,
-     9
+     7
     ],
     "kinds": [
      "Out"
     ],
-    "gs": 4
+    "gs": 6
    },
    {
     "player": "12518",
     "name": "Tyler Warren",
     "pos": "TE",
     "missed": 2,
-    "lost": 5.6,
+    "lost": 2.34,
     "injuries": [
      "Groin"
     ],
@@ -2353,29 +2370,11 @@
     "gs": 5
    },
    {
-    "player": "7569",
-    "name": "Nico Collins",
-    "pos": "WR",
-    "missed": 2,
-    "lost": 5.58,
-    "injuries": [
-     "Hamstring"
-    ],
-    "weeks": [
-     2,
-     3
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 6
-   },
-   {
     "player": "9502",
     "name": "Tank Dell",
     "pos": "WR",
     "missed": 1,
-    "lost": 0.54,
+    "lost": 1.23,
     "injuries": [
      "Knee"
     ],
@@ -2386,6 +2385,25 @@
      "IR"
     ],
     "gs": 0
+   },
+   {
+    "player": "5892",
+    "name": "David Montgomery",
+    "pos": "RB",
+    "missed": 3,
+    "lost": 1.02,
+    "injuries": [
+     "Groin"
+    ],
+    "weeks": [
+     6,
+     7,
+     9
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 4
    },
    {
     "player": "12484",
@@ -2410,24 +2428,6 @@
      "IR"
     ],
     "gs": 0
-   },
-   {
-    "player": "10229",
-    "name": "Rashee Rice",
-    "pos": "WR",
-    "missed": 2,
-    "lost": 0.0,
-    "injuries": [
-     "Hamstring"
-    ],
-    "weeks": [
-     6,
-     7
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 6
    },
    {
     "player": "9756",

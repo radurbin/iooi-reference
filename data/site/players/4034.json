@@ -120,8 +120,8 @@
    "best": 32.3,
    "wins": 4,
    "paa": 49.9,
-   "vor": 112.66,
-   "war": 1.33
+   "vor": 98.5,
+   "war": 1.16
   }
  ],
  "totals": {
@@ -133,8 +133,8 @@
   "best": 48.7,
   "wins": 24,
   "paa": 391.7,
-  "vor": 599.13,
-  "war": 7.08
+  "vor": 584.97,
+  "war": 6.91
  },
  "nfl": [
   {
@@ -161,9 +161,9 @@
   {
    "season": "2026",
    "team": "SF",
-   "g": 8,
-   "pts": 176.9,
-   "rank": 4
+   "g": 9,
+   "pts": 224.5,
+   "rank": 2
   }
  ],
  "history": [
@@ -1157,8 +1157,8 @@
    "proj": 21.34,
    "won": true,
    "paa": -5.13,
-   "vor": 6.77,
-   "war": 0.08001316223825561
+   "vor": 5.0,
+   "war": 0.059093915980986414
   },
   {
    "season": "2026",
@@ -1176,8 +1176,8 @@
    "proj": 21.22,
    "won": false,
    "paa": 10.22,
-   "vor": 15.57,
-   "war": 0.1840184543647917
+   "vor": 13.8,
+   "war": 0.16309920810752251
   },
   {
    "season": "2026",
@@ -1195,8 +1195,8 @@
    "proj": 22.27,
    "won": true,
    "paa": 6.86,
-   "vor": 15.07,
-   "war": 0.17810906276669305
+   "vor": 13.3,
+   "war": 0.15718981650942387
   },
   {
    "season": "2026",
@@ -1214,8 +1214,8 @@
    "proj": 20.81,
    "won": false,
    "paa": 0.0,
-   "vor": 9.47,
-   "war": 0.11192387686798828
+   "vor": 7.7,
+   "war": 0.09100463061071909
   },
   {
    "season": "2026",
@@ -1233,8 +1233,8 @@
    "proj": 20.52,
    "won": true,
    "paa": 2.95,
-   "vor": 10.37,
-   "war": 0.12256078174456582
+   "vor": 8.6,
+   "war": 0.10164153548729664
   },
   {
    "season": "2026",
@@ -1252,8 +1252,8 @@
    "proj": 22.16,
    "won": false,
    "paa": 18.9,
-   "vor": 24.27,
-   "war": 0.2868418681717081
+   "vor": 22.5,
+   "war": 0.2659226219144389
   },
   {
    "season": "2026",
@@ -1271,8 +1271,8 @@
    "proj": 22.35,
    "won": true,
    "paa": 5.13,
-   "vor": 14.67,
-   "war": 0.17338154948821416
+   "vor": 12.9,
+   "war": 0.15246230323094495
   },
   {
    "season": "2026",
@@ -1306,8 +1306,8 @@
    "proj": 24.02,
    "won": false,
    "paa": 10.97,
-   "vor": 16.47,
-   "war": 0.19465535924136926
+   "vor": 14.7,
+   "war": 0.17373611298410005
   }
  ],
  "similar": [
@@ -1318,43 +1318,43 @@
    "gs": 52,
    "pts": 1070.3,
    "ppg": 20.58,
-   "war": 7.01
+   "war": 6.84
   },
   {
    "player": "9509",
    "name": "Bijan Robinson",
-   "score": 671,
+   "score": 669,
    "gs": 55,
    "pts": 1036.6,
    "ppg": 18.85,
-   "war": 6.24
+   "war": 6.06
   },
   {
    "player": "8150",
    "name": "Kyren Williams",
-   "score": 543,
+   "score": 536,
    "gs": 47,
    "pts": 835.9,
    "ppg": 17.79,
-   "war": 4.85
+   "war": 4.66
   },
   {
    "player": "3198",
    "name": "Derrick Henry",
-   "score": 497,
+   "score": 493,
    "gs": 57,
    "pts": 959.84,
    "ppg": 16.84,
-   "war": 5.13
+   "war": 4.94
   },
   {
    "player": "8138",
    "name": "James Cook III",
-   "score": 478,
+   "score": 472,
    "gs": 48,
    "pts": 822.0,
    "ppg": 17.12,
-   "war": 4.48
+   "war": 4.31
   }
  ],
  "status": {
@@ -1385,18 +1385,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 7.08,
+   "value": 6.91,
    "digits": 2,
-   "rank": 1,
+   "rank": 2,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 599.1,
+   "value": 585.0,
    "digits": 1,
-   "rank": 1,
+   "rank": 2,
    "of": 420
   },
   {
@@ -1448,7 +1448,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 7.08,
+   "value": 6.91,
    "digits": 2,
    "rank": 1,
    "of": 100
@@ -1479,7 +1479,7 @@
    "stat": "WAR",
    "value": 1.04,
    "digits": 2,
-   "rank": 3,
+   "rank": 4,
    "of": 82,
    "franchise": 4
   },
@@ -1517,7 +1517,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 4.43,
+   "value": 4.26,
    "digits": 2,
    "rank": 1,
    "of": 67,
@@ -1599,7 +1599,7 @@
    "stat": "WAR",
    "value": 0.61,
    "digits": 2,
-   "rank": 11,
+   "rank": 12,
    "of": 77,
    "franchise": 1
   },
@@ -1735,10 +1735,10 @@
   }
  ],
  "hof": {
-  "score": 141.8,
+  "score": 140.1,
   "rank": 1,
   "of": 420,
-  "war": 70.8,
+  "war": 69.1,
   "starts": 11.0,
   "black_ink": 18.0,
   "awards": 42.0,
@@ -2001,47 +2001,47 @@
    [
     "2026",
     1,
-    127.55
+    127.35
    ],
    [
     "2026",
     2,
-    129.6
+    129.2
    ],
    [
     "2026",
     3,
-    131.65
+    131.05
    ],
    [
     "2026",
     4,
-    133.0
+    132.2
    ],
    [
     "2026",
     5,
-    134.55
+    133.45
    ],
    [
     "2026",
     6,
-    137.6
+    136.4
    ],
    [
     "2026",
     7,
-    139.65
+    138.15
    ],
    [
     "2026",
     8,
-    139.65
+    138.15
    ],
    [
     "2026",
     9,
-    141.8
+    140.1
    ]
   ],
   "benchmark": 100
@@ -2065,14 +2065,6 @@
   }
  },
  "records_held": [
-  {
-   "list": "Career VOR",
-   "scope": "league",
-   "rank": 1,
-   "value": "599.13",
-   "href": "leaders.html",
-   "player": "4034"
-  },
   {
    "list": "Career PAA",
    "scope": "league",
@@ -2134,7 +2126,7 @@
    "list": "Career WAR",
    "scope": 8,
    "rank": 1,
-   "value": "4.43",
+   "value": "4.26",
    "href": "franchise.html?id=8#all-time-leaders",
    "player": "4034",
    "franchise": 8

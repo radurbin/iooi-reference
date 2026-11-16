@@ -160,7 +160,7 @@
    {
     "season": "2026",
     "nfl": "DAL",
-    "missed": 9,
+    "missed": 10,
     "lost": 0.0,
     "injuries": [
      "Hip"
@@ -174,7 +174,8 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -243,6 +244,13 @@
       "injury": "Hip",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Hip",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -251,7 +259,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -261,9 +269,10 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 9,
+    "missed": 10,
     "nfl": "DAL",
     "injury": "Hip",
     "kinds": [

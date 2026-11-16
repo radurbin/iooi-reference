@@ -96,8 +96,8 @@
    "best": 16.2,
    "wins": 0,
    "paa": -1.57,
-   "vor": 13.34,
-   "war": 0.16
+   "vor": 9.8,
+   "war": 0.12
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 16.2,
   "wins": 3,
   "paa": -32.87,
-  "vor": -8.78,
-  "war": -0.1
+  "vor": -12.32,
+  "war": -0.15
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "PHI",
    "g": 3,
    "pts": 33.7,
-   "rank": 65
+   "rank": 67
   }
  ],
  "history": [
@@ -699,8 +699,8 @@
    "proj": 12.17,
    "won": false,
    "paa": 2.8,
-   "vor": 8.17,
-   "war": 0.09655945871293181
+   "vor": 6.4,
+   "war": 0.07564021245566262
   },
   {
    "season": "2026",
@@ -718,8 +718,8 @@
    "proj": 6.79,
    "won": false,
    "paa": -4.37,
-   "vor": 5.17,
-   "war": 0.06110310912433996
+   "vor": 3.4,
+   "war": 0.04018386286707076
   }
  ],
  "status": {
@@ -750,18 +750,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.15,
    "digits": 2,
-   "rank": 281,
+   "rank": 329,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -8.8,
+   "value": -12.3,
    "digits": 1,
-   "rank": 289,
+   "rank": 329,
    "of": 420
   },
   {
@@ -813,9 +813,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.15,
    "digits": 2,
-   "rank": 81,
+   "rank": 85,
    "of": 100
   },
   {
@@ -842,7 +842,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": 0.16,
+   "value": 0.12,
    "digits": 2,
    "rank": 23,
    "of": 73,

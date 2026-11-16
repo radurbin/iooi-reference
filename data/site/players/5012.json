@@ -80,8 +80,8 @@
    "best": 10.9,
    "wins": 0,
    "paa": -19.18,
-   "vor": -10.68,
-   "war": -0.13
+   "vor": -11.97,
+   "war": -0.14
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 27.1,
   "wins": 13,
   "paa": -68.43,
-  "vor": -21.06,
-  "war": -0.25
+  "vor": -22.35,
+  "war": -0.26
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "BAL",
    "g": 9,
    "pts": 58.9,
-   "rank": 25
+   "rank": 27
   }
  ],
  "history": [
@@ -1112,8 +1112,8 @@
    "proj": 10.51,
    "won": false,
    "paa": -1.69,
-   "vor": 1.64,
-   "war": 0.019382804441763542
+   "vor": 1.21,
+   "war": 0.014300727667398712
   },
   {
    "season": "2026",
@@ -1163,8 +1163,8 @@
    "proj": 10.4,
    "won": false,
    "paa": -8.03,
-   "vor": -4.46,
-   "war": -0.052711773055039886
+   "vor": -4.89,
+   "war": -0.05779384982940471
   },
   {
    "season": "2026",
@@ -1182,8 +1182,8 @@
    "proj": 9.59,
    "won": false,
    "paa": -9.46,
-   "vor": -7.86,
-   "war": -0.09289563592211066
+   "vor": -8.29,
+   "war": -0.09797771269647547
   },
   {
    "season": "2026",
@@ -1238,29 +1238,29 @@
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 797,
+   "score": 795,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.62
+   "war": -0.64
   },
   {
    "player": "10236",
    "name": "Dalton Kincaid",
-   "score": 720,
+   "score": 718,
    "gs": 38,
    "pts": 310.3,
    "ppg": 8.17,
-   "war": -0.79
+   "war": -0.81
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 700,
+   "score": 701,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.27
+   "war": 0.25
   },
   {
    "player": "5022",
@@ -1269,16 +1269,16 @@
    "gs": 33,
    "pts": 301.5,
    "ppg": 9.14,
-   "war": -0.28
+   "war": -0.31
   },
   {
    "player": "10859",
    "name": "Sam LaPorta",
-   "score": 583,
+   "score": 585,
    "gs": 43,
    "pts": 521.5,
    "ppg": 12.13,
-   "war": 1.15
+   "war": 1.12
   }
  ],
  "status": {
@@ -1309,18 +1309,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.25,
+   "value": -0.26,
    "digits": 2,
-   "rank": 361,
+   "rank": 367,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -21.1,
+   "value": -22.4,
    "digits": 1,
-   "rank": 361,
+   "rank": 368,
    "of": 420
   },
   {
@@ -1381,7 +1381,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.25,
+   "value": -0.26,
    "digits": 2,
    "rank": 43,
    "of": 52
@@ -1410,7 +1410,7 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.25,
    "digits": 2,
    "rank": 37,
    "of": 48,
@@ -1549,7 +1549,7 @@
  ],
  "hof": {
   "score": 11.75,
-  "rank": 111,
+  "rank": 112,
   "of": 420,
   "war": 0.0,
   "starts": 11.75,

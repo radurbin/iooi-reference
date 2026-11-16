@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "CLE",
-   "g": 8,
-   "pts": 123.04,
-   "rank": 18
+   "g": 9,
+   "pts": 145.22,
+   "rank": 15
   }
  ],
  "history": [
@@ -829,7 +829,7 @@
    "stat": "WAR",
    "value": -0.32,
    "digits": 2,
-   "rank": 382,
+   "rank": 385,
    "of": 420
   },
   {
@@ -838,7 +838,7 @@
    "stat": "VOR",
    "value": -27.2,
    "digits": 1,
-   "rank": 382,
+   "rank": 387,
    "of": 420
   },
   {
@@ -930,7 +930,7 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 20,
+   "rank": 21,
    "of": 48,
    "franchise": 12
   },
@@ -970,7 +970,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 60,
+   "rank": 61,
    "of": 67,
    "franchise": 9
   },
@@ -1728,7 +1728,7 @@
     "season": "2026",
     "nfl": "CLE",
     "missed": 1,
-    "lost": 2.03,
+    "lost": 2.79,
     "injuries": [
      "Concussion"
     ],
@@ -1907,7 +1907,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.03
+    "lost": 2.79
    }
   ],
   "now": null

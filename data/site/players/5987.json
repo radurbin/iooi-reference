@@ -715,6 +715,15 @@
  ],
  "similar": [
   {
+   "player": "8132",
+   "name": "Tyler Allgeier",
+   "score": 973,
+   "gs": 11,
+   "pts": 115.75,
+   "ppg": 10.52,
+   "war": 0.15
+  },
+  {
    "player": "3164",
    "name": "Ezekiel Elliott",
    "score": 969,
@@ -722,15 +731,6 @@
    "pts": 112.1,
    "ppg": 10.19,
    "war": -0.02
-  },
-  {
-   "player": "8132",
-   "name": "Tyler Allgeier",
-   "score": 967,
-   "gs": 11,
-   "pts": 115.75,
-   "ppg": 10.52,
-   "war": 0.21
   },
   {
    "player": "5248",
@@ -753,11 +753,11 @@
   {
    "player": "12529",
    "name": "TreVeyon Henderson",
-   "score": 928,
+   "score": 929,
    "gs": 12,
    "pts": 136.4,
    "ppg": 11.37,
-   "war": 0.4
+   "war": 0.38
   }
  ],
  "status": {
@@ -790,7 +790,7 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 212,
+   "rank": 221,
    "of": 420
   },
   {
@@ -799,7 +799,7 @@
    "stat": "VOR",
    "value": 1.0,
    "digits": 1,
-   "rank": 212,
+   "rank": 221,
    "of": 420
   },
   {
@@ -1008,7 +1008,7 @@
  ],
  "hof": {
   "score": 3.1,
-  "rank": 228,
+  "rank": 226,
   "of": 420,
   "war": 0.1,
   "starts": 3.0,

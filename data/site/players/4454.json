@@ -100,7 +100,7 @@
    "team": "ARI",
    "g": 8,
    "pts": 52.3,
-   "rank": 69
+   "rank": 73
   }
  ],
  "history": [
@@ -443,7 +443,7 @@
    "stat": "VOR",
    "value": 5.6,
    "digits": 1,
-   "rank": 187,
+   "rank": 189,
    "of": 420
   },
   {
@@ -497,7 +497,7 @@
    "stat": "WAR",
    "value": 0.07,
    "digits": 2,
-   "rank": 47,
+   "rank": 50,
    "of": 126
   },
   {
@@ -526,7 +526,7 @@
    "stat": "WAR",
    "value": 0.07,
    "digits": 2,
-   "rank": 25,
+   "rank": 27,
    "of": 82,
    "franchise": 4
   },
@@ -1046,13 +1046,14 @@
    {
     "season": "2026",
     "nfl": "ARI",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Lower Leg"
     ],
     "weeks": [
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -1061,6 +1062,13 @@
     "games": [
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Lower Leg",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Lower Leg",
       "franchise": null,
@@ -1117,11 +1125,12 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 9,
+    "to": 10,
     "weeks": [
-     9
+     9,
+     10
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "ARI",
     "injury": "Lower Leg",
     "kinds": [

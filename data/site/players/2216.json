@@ -99,8 +99,8 @@
    "best": 26.3,
    "wins": 1,
    "paa": 1.36,
-   "vor": 9.55,
-   "war": 0.11
+   "vor": 26.1,
+   "war": 0.31
   }
  ],
  "totals": {
@@ -112,8 +112,8 @@
   "best": 36.9,
   "wins": 23,
   "paa": 81.64,
-  "vor": 164.85,
-  "war": 1.95
+  "vor": 181.4,
+  "war": 2.14
  },
  "nfl": [
   {
@@ -142,7 +142,7 @@
    "team": "SF",
    "g": 6,
    "pts": 89.0,
-   "rank": 30
+   "rank": 34
   }
  ],
  "history": [
@@ -1149,8 +1149,8 @@
    "proj": 12.92,
    "won": false,
    "paa": -6.88,
-   "vor": -4.11,
-   "war": -0.04857519893637084
+   "vor": -0.8,
+   "war": -0.009455026556957827
   },
   {
    "season": "2026",
@@ -1168,8 +1168,8 @@
    "proj": 12.58,
    "won": false,
    "paa": -1.22,
-   "vor": -0.11,
-   "war": -0.0013000661515817013
+   "vor": 3.2,
+   "war": 0.03782010622783131
   },
   {
    "season": "2026",
@@ -1187,8 +1187,8 @@
    "proj": 14.09,
    "won": false,
    "paa": -2.05,
-   "vor": 0.09,
-   "war": 0.0010636904876577555
+   "vor": 3.4,
+   "war": 0.04018386286707076
   },
   {
    "season": "2026",
@@ -1206,8 +1206,8 @@
    "proj": 13.48,
    "won": true,
    "paa": 11.51,
-   "vor": 13.79,
-   "war": 0.16298102027556052
+   "vor": 17.1,
+   "war": 0.20210119265497356
   },
   {
    "season": "2026",
@@ -1225,8 +1225,8 @@
    "proj": 16.57,
    "won": false,
    "paa": 0.0,
-   "vor": -0.11,
-   "war": -0.0013000661515817013
+   "vor": 3.2,
+   "war": 0.03782010622783131
   },
   {
    "season": "2026",
@@ -1281,38 +1281,38 @@
   {
    "player": "5859",
    "name": "A.J. Brown",
-   "score": 946,
+   "score": 963,
    "gs": 40,
    "pts": 653.7,
    "ppg": 16.34,
-   "war": 2.2
+   "war": 2.28
   },
   {
    "player": "7569",
    "name": "Nico Collins",
-   "score": 917,
+   "score": 913,
    "gs": 42,
    "pts": 679.9,
    "ppg": 16.19,
-   "war": 2.27
+   "war": 2.5
   },
   {
    "player": "8137",
    "name": "George Pickens",
-   "score": 873,
+   "score": 887,
    "gs": 41,
    "pts": 605.7,
    "ppg": 14.77,
-   "war": 1.53
+   "war": 1.84
   },
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 863,
+   "score": 880,
    "gs": 40,
    "pts": 592.8,
    "ppg": 14.82,
-   "war": 1.45
+   "war": 1.77
   },
   {
    "player": "2133",
@@ -1321,7 +1321,7 @@
    "gs": 46,
    "pts": 708.7,
    "ppg": 15.41,
-   "war": 2.01
+   "war": 2.21
   }
  ],
  "status": {
@@ -1352,18 +1352,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.95,
+   "value": 2.14,
    "digits": 2,
-   "rank": 49,
+   "rank": 44,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 164.8,
+   "value": 181.4,
    "digits": 1,
-   "rank": 49,
+   "rank": 44,
    "of": 420
   },
   {
@@ -1424,7 +1424,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.95,
+   "value": 2.14,
    "digits": 2,
    "rank": 12,
    "of": 126
@@ -1493,9 +1493,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.11,
+   "value": 0.31,
    "digits": 2,
-   "rank": 23,
+   "rank": 19,
    "of": 40,
    "franchise": 6
   },
@@ -1575,7 +1575,7 @@
    "stat": "WAR",
    "value": 0.67,
    "digits": 2,
-   "rank": 8,
+   "rank": 10,
    "of": 77,
    "franchise": 1
   },
@@ -1711,10 +1711,10 @@
   }
  ],
  "hof": {
-  "score": 36.5,
-  "rank": 37,
+  "score": 38.4,
+  "rank": 34,
   "of": 420,
-  "war": 19.5,
+  "war": 21.4,
   "starts": 10.0,
   "black_ink": 0.0,
   "awards": 7.0,
@@ -1982,42 +1982,42 @@
    [
     "2026",
     2,
-    33.9
+    34.3
    ],
    [
     "2026",
     3,
-    34.15
+    34.85
    ],
    [
     "2026",
     4,
-    34.4
+    35.5
    ],
    [
     "2026",
     5,
-    36.25
+    37.85
    ],
    [
     "2026",
     6,
-    36.5
+    38.4
    ],
    [
     "2026",
     7,
-    36.5
+    38.4
    ],
    [
     "2026",
     8,
-    36.5
+    38.4
    ],
    [
     "2026",
     9,
-    36.5
+    38.4
    ]
   ],
   "benchmark": 100
@@ -2161,14 +2161,16 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 2,
-    "lost": 4.64,
+    "missed": 3,
+    "lost": 11.26,
     "injuries": [
-     "Ribs"
+     "Ribs",
+     "Achilles"
     ],
     "weeks": [
      7,
-     9
+     9,
+     10
     ],
     "kinds": [
      "Out"
@@ -2188,6 +2190,13 @@
       "injury": "Ribs",
       "franchise": 6,
       "team": "got that DAWG"
+     },
+     {
+      "week": 10,
+      "kind": "Out",
+      "injury": "Achilles",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2275,12 +2284,13 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 9,
+    "to": 10,
     "weeks": [
      7,
-     9
+     9,
+     10
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "SF",
     "injury": "Ribs",
     "kinds": [
@@ -2293,14 +2303,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 4.64
+    "lost": 11.26
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Achilles",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

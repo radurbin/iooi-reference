@@ -41,8 +41,8 @@
    "best": 7.9,
    "wins": 1,
    "paa": -9.6,
-   "vor": -0.13,
-   "war": -0.0
+   "vor": -1.9,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -54,8 +54,8 @@
   "best": 27.0,
   "wins": 6,
   "paa": -91.31,
-  "vor": 3.22,
-  "war": 0.04
+  "vor": 1.45,
+  "war": 0.02
  },
  "nfl": [
   {
@@ -70,7 +70,7 @@
    "team": "WAS",
    "g": 5,
    "pts": 51.6,
-   "rank": 45
+   "rank": 48
   }
  ],
  "history": [
@@ -510,8 +510,8 @@
    "proj": 14.78,
    "won": true,
    "paa": -9.6,
-   "vor": -0.13,
-   "war": -0.0015364418155056469
+   "vor": -1.9,
+   "war": -0.022455688072774836
   },
   {
    "season": "2026",
@@ -598,11 +598,11 @@
   {
    "player": "6130",
    "name": "Devin Singletary",
-   "score": 953,
+   "score": 948,
    "gs": 16,
    "pts": 131.9,
    "ppg": 8.24,
-   "war": -0.22
+   "war": -0.28
   },
   {
    "player": "6845",
@@ -669,18 +669,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.04,
+   "value": 0.02,
    "digits": 2,
-   "rank": 198,
+   "rank": 214,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 3.2,
+   "value": 1.4,
    "digits": 1,
-   "rank": 199,
+   "rank": 218,
    "of": 420
   },
   {
@@ -741,9 +741,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.04,
+   "value": 0.02,
    "digits": 2,
-   "rank": 57,
+   "rank": 58,
    "of": 100
   },
   {
@@ -772,7 +772,7 @@
    "stat": "WAR",
    "value": 0.04,
    "digits": 2,
-   "rank": 35,
+   "rank": 38,
    "of": 76,
    "franchise": 2
   },
@@ -810,9 +810,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.0,
+   "value": -0.02,
    "digits": 2,
-   "rank": 32,
+   "rank": 36,
    "of": 58,
    "franchise": 5
   },
@@ -888,10 +888,10 @@
   }
  ],
  "hof": {
-  "score": 4.4,
-  "rank": 207,
+  "score": 4.2,
+  "rank": 211,
   "of": 420,
-  "war": 0.4,
+  "war": 0.2,
   "starts": 4.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -999,32 +999,32 @@
    [
     "2026",
     4,
-    4.4
+    4.2
    ],
    [
     "2026",
     5,
-    4.4
+    4.2
    ],
    [
     "2026",
     6,
-    4.4
+    4.2
    ],
    [
     "2026",
     7,
-    4.4
+    4.2
    ],
    [
     "2026",
     8,
-    4.4
+    4.2
    ],
    [
     "2026",
     9,
-    4.4
+    4.2
    ]
   ],
   "benchmark": 100
@@ -1037,7 +1037,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 3,
-    "lost": 4.58,
+    "lost": 1.04,
     "injuries": [
      "Groin"
     ],
@@ -1098,7 +1098,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 4.58
+    "lost": 1.04
    }
   ],
   "now": {

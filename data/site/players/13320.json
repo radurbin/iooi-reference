@@ -54,7 +54,7 @@
    "team": "ATL",
    "g": 8,
    "pts": 16.8,
-   "rank": 121
+   "rank": 126
   }
  ],
  "history": [
@@ -242,13 +242,14 @@
    {
     "season": "2026",
     "nfl": "ATL",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Hamstring"
     ],
     "weeks": [
-     9
+     9,
+     10
     ],
     "kinds": [
      "Out"
@@ -261,6 +262,13 @@
       "injury": "Hamstring",
       "franchise": 6,
       "team": "got that DAWG"
+     },
+     {
+      "week": 10,
+      "kind": "Out",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -269,11 +277,12 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 9,
+    "to": 10,
     "weeks": [
-     9
+     9,
+     10
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "ATL",
     "injury": "Hamstring",
     "kinds": [
@@ -293,7 +302,7 @@
    "status": "Out",
    "injury": "Hamstring",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

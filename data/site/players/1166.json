@@ -87,7 +87,7 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "nfl": "LV",
+   "nfl": "LV/MIN",
    "g": 9,
    "gs": 8,
    "pts": 153.88,
@@ -136,9 +136,9 @@
   },
   {
    "season": "2026",
-   "team": "LV",
-   "g": 9,
-   "pts": 174.5,
+   "team": "LV/MIN",
+   "g": 10,
+   "pts": 190.18,
    "rank": 6
   }
  ],
@@ -1172,7 +1172,7 @@
    "stat": "WAR",
    "value": 0.95,
    "digits": 2,
-   "rank": 79,
+   "rank": 81,
    "of": 420
   },
   {
@@ -1181,7 +1181,7 @@
    "stat": "VOR",
    "value": 80.2,
    "digits": 1,
-   "rank": 80,
+   "rank": 81,
    "of": 420
   },
   {
@@ -1273,7 +1273,7 @@
    "stat": "WAR",
    "value": 0.02,
    "digits": 2,
-   "rank": 40,
+   "rank": 41,
    "of": 68,
    "franchise": 3
   },
@@ -1490,7 +1490,7 @@
  ],
  "hof": {
   "score": 17.25,
-  "rank": 85,
+  "rank": 86,
   "of": 420,
   "war": 9.5,
   "starts": 7.75,

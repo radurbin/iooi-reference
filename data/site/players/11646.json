@@ -73,8 +73,8 @@
    "best": 15.7,
    "wins": 3,
    "paa": -27.87,
-   "vor": -21.26,
-   "war": -0.25
+   "vor": -1.4,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 15.7,
   "wins": 3,
   "paa": -45.45,
-  "vor": -33.16,
-  "war": -0.39
+  "vor": -13.3,
+  "war": -0.16
  },
  "nfl": [
   {
@@ -107,9 +107,9 @@
   {
    "season": "2026",
    "team": "CAR",
-   "g": 7,
-   "pts": 87.6,
-   "rank": 31
+   "g": 8,
+   "pts": 88.0,
+   "rank": 35
   }
  ],
  "history": [
@@ -601,8 +601,8 @@
    "proj": 12.9,
    "won": true,
    "paa": -0.68,
-   "vor": 2.09,
-   "war": 0.02470125688005232
+   "vor": 5.4,
+   "war": 0.06382142925946534
   },
   {
    "season": "2026",
@@ -620,8 +620,8 @@
    "proj": 14.7,
    "won": false,
    "paa": -9.82,
-   "vor": -8.71,
-   "war": -0.10294160163887835
+   "vor": -5.4,
+   "war": -0.06382142925946534
   },
   {
    "season": "2026",
@@ -671,8 +671,8 @@
    "proj": 12.88,
    "won": true,
    "paa": 3.3,
-   "vor": 3.19,
-   "war": 0.03770191839586933
+   "vor": 6.5,
+   "war": 0.07682209077528235
   },
   {
    "season": "2026",
@@ -690,8 +690,8 @@
    "proj": 15.66,
    "won": false,
    "paa": -11.69,
-   "vor": -10.61,
-   "war": -0.12539728971165318
+   "vor": -7.3,
+   "war": -0.08627711733224017
   },
   {
    "season": "2026",
@@ -709,8 +709,8 @@
    "proj": 15.94,
    "won": false,
    "paa": -2.04,
-   "vor": -1.41,
-   "war": -0.01666448430663817
+   "vor": 1.9,
+   "war": 0.022455688072774836
   },
   {
    "season": "2026",
@@ -728,55 +728,55 @@
    "proj": 13.77,
    "won": true,
    "paa": -6.94,
-   "vor": -5.81,
-   "war": -0.06866713036990621
+   "vor": -2.5,
+   "war": -0.029546957990493207
   }
  ],
  "similar": [
   {
    "player": "11637",
    "name": "Keon Coleman",
-   "score": 971,
+   "score": 970,
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.3
+   "war": -0.26
   },
   {
    "player": "12514",
    "name": "Emeka Egbuka",
-   "score": 916,
+   "score": 926,
    "gs": 8,
    "pts": 74.3,
    "ppg": 9.29,
-   "war": -0.17
+   "war": -0.09
   },
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 891,
+   "score": 885,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.5
+   "war": -0.39
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 884,
+   "score": 870,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
    "war": -0.52
   },
   {
-   "player": "8119",
-   "name": "Jahan Dotson",
-   "score": 859,
-   "gs": 11,
-   "pts": 73.5,
-   "ppg": 6.68,
-   "war": -0.74
+   "player": "2374",
+   "name": "Tyler Lockett",
+   "score": 845,
+   "gs": 15,
+   "pts": 132.1,
+   "ppg": 8.81,
+   "war": -0.57
   }
  ],
  "status": {
@@ -807,18 +807,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.39,
+   "value": -0.16,
    "digits": 2,
-   "rank": 388,
+   "rank": 335,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -33.2,
+   "value": -13.3,
    "digits": 1,
-   "rank": 389,
+   "rank": 335,
    "of": 420
   },
   {
@@ -879,9 +879,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.39,
+   "value": -0.16,
    "digits": 2,
-   "rank": 115,
+   "rank": 99,
    "of": 126
   },
   {
@@ -908,9 +908,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.34,
+   "value": -0.11,
    "digits": 2,
-   "rank": 64,
+   "rank": 49,
    "of": 67,
    "franchise": 9
   },
@@ -950,7 +950,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 53,
+   "rank": 54,
    "of": 77,
    "franchise": 1
   },
@@ -1057,7 +1057,7 @@
  ],
  "hof": {
   "score": 2.25,
-  "rank": 251,
+  "rank": 252,
   "of": 420,
   "war": 0.0,
   "starts": 2.25,
@@ -1358,7 +1358,7 @@
     "season": "2026",
     "nfl": "CAR",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 1.8,
     "injuries": [
      "Quadricep"
     ],
@@ -1454,7 +1454,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 1.8
    }
   ],
   "now": null

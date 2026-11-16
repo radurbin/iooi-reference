@@ -64,8 +64,8 @@
    "best": 7.7,
    "wins": 0,
    "paa": -7.09,
-   "vor": -4.81,
-   "war": -0.06
+   "vor": -1.5,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 18.0,
   "wins": 3,
   "paa": -44.06,
-  "vor": -25.71,
-  "war": -0.3
+  "vor": -22.4,
+  "war": -0.26
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "BUF",
-   "g": 8,
-   "pts": 71.4,
-   "rank": 46
+   "g": 9,
+   "pts": 73.5,
+   "rank": 49
   }
  ],
  "history": [
@@ -763,8 +763,8 @@
    "proj": 11.16,
    "won": false,
    "paa": -7.09,
-   "vor": -4.81,
-   "war": -0.05684834717370893
+   "vor": -1.5,
+   "war": -0.017728174794295927
   },
   {
    "season": "2026",
@@ -835,34 +835,34 @@
   {
    "player": "11646",
    "name": "Jalen Coker",
-   "score": 971,
+   "score": 970,
    "gs": 9,
    "pts": 74.8,
    "ppg": 8.31,
-   "war": -0.39
+   "war": -0.16
   },
   {
    "player": "12514",
    "name": "Emeka Egbuka",
-   "score": 915,
+   "score": 913,
    "gs": 8,
    "pts": 74.3,
    "ppg": 9.29,
-   "war": -0.17
+   "war": -0.09
   },
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 865,
+   "score": 869,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.5
+   "war": -0.39
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 863,
+   "score": 861,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
@@ -871,7 +871,7 @@
   {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 851,
+   "score": 850,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
@@ -906,18 +906,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.3,
+   "value": -0.26,
    "digits": 2,
-   "rank": 376,
+   "rank": 367,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -25.7,
+   "value": -22.4,
    "digits": 1,
-   "rank": 379,
+   "rank": 369,
    "of": 420
   },
   {
@@ -978,7 +978,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.3,
+   "value": -0.26,
    "digits": 2,
    "rank": 109,
    "of": 126
@@ -1007,9 +1007,9 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": -0.3,
+   "value": -0.26,
    "digits": 2,
-   "rank": 40,
+   "rank": 39,
    "of": 44,
    "franchise": 11
   },

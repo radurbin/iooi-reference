@@ -690,7 +690,7 @@
    "stat": "WAR",
    "value": -0.01,
    "digits": 2,
-   "rank": 218,
+   "rank": 229,
    "of": 420
   },
   {
@@ -699,7 +699,7 @@
    "stat": "VOR",
    "value": -0.6,
    "digits": 1,
-   "rank": 223,
+   "rank": 231,
    "of": 420
   },
   {
@@ -1308,6 +1308,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "ARI",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Elbow"
+    ],
+    "weeks": [
+     10
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Elbow",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1353,13 +1378,30 @@
     "teams": [],
     "rostered": 0,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "ARI",
+    "injury": "Elbow",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Elbow",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

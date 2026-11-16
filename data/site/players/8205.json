@@ -1169,11 +1169,11 @@
   {
    "player": "12507",
    "name": "Omarion Hampton",
-   "score": 966,
+   "score": 975,
    "gs": 14,
    "pts": 177.9,
    "ppg": 12.71,
-   "war": 0.71
+   "war": 0.61
   },
   {
    "player": "4098",
@@ -1194,22 +1194,22 @@
    "war": 0.32
   },
   {
+   "player": "12512",
+   "name": "Quinshon Judkins",
+   "score": 933,
+   "gs": 18,
+   "pts": 218.9,
+   "ppg": 12.16,
+   "war": 0.66
+  },
+  {
    "player": "12534",
    "name": "Kyle Monangai",
    "score": 927,
    "gs": 12,
    "pts": 144.7,
    "ppg": 12.06,
-   "war": 0.52
-  },
-  {
-   "player": "12512",
-   "name": "Quinshon Judkins",
-   "score": 925,
-   "gs": 18,
-   "pts": 218.9,
-   "ppg": 12.16,
-   "war": 0.81
+   "war": 0.43
   }
  ],
  "status": {
@@ -1242,7 +1242,7 @@
    "stat": "WAR",
    "value": 0.5,
    "digits": 2,
-   "rank": 109,
+   "rank": 111,
    "of": 420
   },
   {
@@ -1251,7 +1251,7 @@
    "stat": "VOR",
    "value": 42.3,
    "digits": 1,
-   "rank": 109,
+   "rank": 112,
    "of": 420
   },
   {
@@ -1314,7 +1314,7 @@
    "stat": "WAR",
    "value": 0.5,
    "digits": 2,
-   "rank": 38,
+   "rank": 36,
    "of": 100
   },
   {
@@ -1343,7 +1343,7 @@
    "stat": "WAR",
    "value": -0.02,
    "digits": 2,
-   "rank": 31,
+   "rank": 32,
    "of": 40,
    "franchise": 6
   },
@@ -1383,7 +1383,7 @@
    "stat": "WAR",
    "value": 0.53,
    "digits": 2,
-   "rank": 11,
+   "rank": 13,
    "of": 58,
    "franchise": 5
   },
@@ -1490,7 +1490,7 @@
  ],
  "hof": {
   "score": 10.75,
-  "rank": 119,
+  "rank": 122,
   "of": 420,
   "war": 5.0,
   "starts": 3.75,

@@ -123,7 +123,7 @@
    "team": "TB",
    "g": 6,
    "pts": 52.58,
-   "rank": 34
+   "rank": 35
   }
  ],
  "history": [
@@ -1347,7 +1347,7 @@
    "stat": "WAR",
    "value": 1.44,
    "digits": 2,
-   "rank": 65,
+   "rank": 64,
    "of": 420
   },
   {
@@ -1356,7 +1356,7 @@
    "stat": "VOR",
    "value": 121.5,
    "digits": 1,
-   "rank": 65,
+   "rank": 64,
    "of": 420
   },
   {
@@ -1585,7 +1585,7 @@
  ],
  "hof": {
   "score": 26.15,
-  "rank": 59,
+  "rank": 61,
   "of": 420,
   "war": 14.4,
   "starts": 11.75,
@@ -1977,6 +1977,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Lower Leg",
+   "since": null,
+   "streak": 0
+  }
  }
 }

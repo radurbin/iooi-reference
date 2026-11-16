@@ -57,8 +57,8 @@
    "best": 16.4,
    "wins": 2,
    "paa": -9.11,
-   "vor": -7.03,
-   "war": -0.08
+   "vor": 2.9,
+   "war": 0.03
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 16.4,
   "wins": 2,
   "paa": -9.11,
-  "vor": -7.03,
-  "war": -0.08
+  "vor": 2.9,
+  "war": 0.03
  },
  "nfl": [
   {
@@ -91,9 +91,9 @@
   {
    "season": "2026",
    "team": "NO",
-   "g": 8,
-   "pts": 89.5,
-   "rank": 28
+   "g": 9,
+   "pts": 92.9,
+   "rank": 30
   }
  ],
  "history": [
@@ -698,8 +698,8 @@
    "proj": 10.02,
    "won": false,
    "paa": -6.72,
-   "vor": -5.61,
-   "war": -0.06630337373066676
+   "vor": -2.3,
+   "war": -0.02718320135125375
   },
   {
    "season": "2026",
@@ -749,8 +749,8 @@
    "proj": 10.64,
    "won": true,
    "paa": -5.2,
-   "vor": -5.31,
-   "war": -0.06275773877180757
+   "vor": -2.0,
+   "war": -0.023637566392394567
   },
   {
    "season": "2026",
@@ -768,8 +768,8 @@
    "proj": 10.16,
    "won": true,
    "paa": 2.81,
-   "vor": 3.89,
-   "war": 0.04597506663320743
+   "vor": 7.2,
+   "war": 0.08509523901262045
   },
   {
    "season": "2026",
@@ -832,18 +832,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.08,
+   "value": 0.03,
    "digits": 2,
-   "rank": 269,
+   "rank": 207,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -7.0,
+   "value": 2.9,
    "digits": 1,
-   "rank": 272,
+   "rank": 207,
    "of": 420
   },
   {
@@ -895,9 +895,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.08,
+   "value": 0.03,
    "digits": 2,
-   "rank": 66,
+   "rank": 54,
    "of": 126
   },
   {
@@ -924,9 +924,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.08,
+   "value": 0.03,
    "digits": 2,
-   "rank": 51,
+   "rank": 33,
    "of": 82,
    "franchise": 4
   },
@@ -973,10 +973,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 0.75,
-  "rank": 317,
+  "score": 1.05,
+  "rank": 303,
   "of": 420,
-  "war": 0.0,
+  "war": 0.3,
   "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1184,17 +1184,17 @@
    [
     "2026",
     7,
-    0.75
+    1.05
    ],
    [
     "2026",
     8,
-    0.75
+    1.05
    ],
    [
     "2026",
     9,
-    0.75
+    1.05
    ]
   ],
   "benchmark": 100

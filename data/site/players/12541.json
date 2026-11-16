@@ -383,7 +383,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 281,
+   "rank": 287,
    "of": 420
   },
   {
@@ -392,7 +392,7 @@
    "stat": "VOR",
    "value": -8.2,
    "digits": 1,
-   "rank": 282,
+   "rank": 287,
    "of": 420
   },
   {
@@ -446,7 +446,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 69,
+   "rank": 76,
    "of": 126
   },
   {
@@ -475,7 +475,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 62,
+   "rank": 64,
    "of": 76,
    "franchise": 2
   },
@@ -695,7 +695,7 @@
    {
     "season": "2026",
     "nfl": "LV",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Back",
@@ -709,11 +709,13 @@
      5,
      6,
      7,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR",
-     "Inactive"
+     "Inactive",
+     "Questionable"
     ],
     "rostered": 0,
     "games": [
@@ -772,6 +774,13 @@
       "injury": "Back",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 10,
+      "kind": "Questionable",
+      "injury": "Back",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -825,15 +834,17 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 9,
+    "to": 10,
     "weeks": [
-     9
+     9,
+     10
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "LV",
     "injury": "Back",
     "kinds": [
-     "Inactive"
+     "Inactive",
+     "Questionable"
     ],
     "teams": [],
     "rostered": 0,

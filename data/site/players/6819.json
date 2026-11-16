@@ -125,7 +125,7 @@
    "team": "PIT",
    "g": 3,
    "pts": 17.4,
-   "rank": 119
+   "rank": 125
   }
  ],
  "history": [
@@ -1198,43 +1198,43 @@
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 926,
+   "score": 931,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.49
-  },
-  {
-   "player": "9997",
-   "name": "Zay Flowers",
-   "score": 905,
-   "gs": 37,
-   "pts": 493.7,
-   "ppg": 13.34,
-   "war": 0.8
+   "war": 0.53
   },
   {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
-   "score": 893,
+   "score": 890,
    "gs": 36,
    "pts": 503.25,
    "ppg": 13.98,
-   "war": 1.02
+   "war": 1.06
   },
   {
-   "player": "2449",
-   "name": "Stefon Diggs",
-   "score": 865,
-   "gs": 33,
-   "pts": 490.52,
-   "ppg": 14.86,
-   "war": 1.14
+   "player": "9997",
+   "name": "Zay Flowers",
+   "score": 887,
+   "gs": 37,
+   "pts": 493.7,
+   "ppg": 13.34,
+   "war": 1.07
+  },
+  {
+   "player": "11635",
+   "name": "Ladd McConkey",
+   "score": 856,
+   "gs": 32,
+   "pts": 380.4,
+   "ppg": 11.89,
+   "war": 0.44
   },
   {
    "player": "5045",
    "name": "Courtland Sutton",
-   "score": 851,
+   "score": 852,
    "gs": 27,
    "pts": 383.4,
    "ppg": 14.2,
@@ -1343,7 +1343,7 @@
    "stat": "WAR",
    "value": 0.72,
    "digits": 2,
-   "rank": 26,
+   "rank": 28,
    "of": 126
   },
   {
@@ -1479,7 +1479,7 @@
  ],
  "hof": {
   "score": 17.45,
-  "rank": 83,
+  "rank": 84,
   "of": 420,
   "war": 7.2,
   "starts": 8.25,
@@ -1846,8 +1846,8 @@
    {
     "season": "2026",
     "nfl": "PIT",
-    "missed": 5,
-    "lost": 0.0,
+    "missed": 6,
+    "lost": 11.4,
     "injuries": [
      "Foot"
     ],
@@ -1856,7 +1856,8 @@
      5,
      6,
      7,
-     8
+     8,
+     10
     ],
     "kinds": [
      "IR",
@@ -1898,6 +1899,13 @@
       "injury": "Foot",
       "franchise": 7,
       "team": "the dart side 🛸💍"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1967,19 +1975,20 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 2.28
    },
    {
     "season": "2026",
     "from": 5,
-    "to": 8,
+    "to": 10,
     "weeks": [
      5,
      6,
      7,
-     8
+     8,
+     10
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "PIT",
     "injury": "Foot",
     "kinds": [
@@ -1992,14 +2001,14 @@
      }
     ],
     "rostered": 4,
-    "lost": 0.0
+    "lost": 9.12
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Foot",
    "since": null,
-   "streak": 4
+   "streak": 5
   }
  }
 }
