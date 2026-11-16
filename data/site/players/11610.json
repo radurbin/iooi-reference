@@ -57,8 +57,8 @@
    "best": 12.2,
    "wins": 2,
    "paa": -9.48,
-   "vor": 0.5,
-   "war": 0.01
+   "vor": -1.74,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 12.2,
   "wins": 3,
   "paa": -38.38,
-  "vor": -20.7,
-  "war": -0.24
+  "vor": -22.94,
+  "war": -0.27
  },
  "nfl": [
   {
@@ -93,7 +93,7 @@
    "team": "MIA",
    "g": 9,
    "pts": 91.56,
-   "rank": 32
+   "rank": 33
   }
  ],
  "history": [
@@ -754,8 +754,8 @@
    "proj": 11.58,
    "won": true,
    "paa": -2.59,
-   "vor": 3.0,
-   "war": 0.035456349588591854
+   "vor": 1.88,
+   "war": 0.022219312408850892
   },
   {
    "season": "2026",
@@ -789,8 +789,8 @@
    "proj": 9.76,
    "won": true,
    "paa": -6.89,
-   "vor": -2.5,
-   "war": -0.029546957990493207
+   "vor": -3.62,
+   "war": -0.042783995170234165
   },
   {
    "season": "2026",
@@ -853,18 +853,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.27,
    "digits": 2,
-   "rank": 363,
+   "rank": 369,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -20.7,
+   "value": -22.9,
    "digits": 1,
-   "rank": 363,
+   "rank": 370,
    "of": 420
   },
   {
@@ -916,9 +916,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.27,
    "digits": 2,
-   "rank": 106,
+   "rank": 108,
    "of": 126
   },
   {
@@ -945,9 +945,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.27,
    "digits": 2,
-   "rank": 72,
+   "rank": 73,
    "of": 76,
    "franchise": 2
   },

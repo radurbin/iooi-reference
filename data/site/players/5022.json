@@ -96,8 +96,8 @@
    "best": 23.7,
    "wins": 4,
    "paa": -1.97,
-   "vor": 7.66,
-   "war": 0.09
+   "vor": 13.48,
+   "war": 0.16
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 27.0,
   "wins": 17,
   "paa": -58.35,
-  "vor": -26.14,
-  "war": -0.31
+  "vor": -20.32,
+  "war": -0.24
  },
  "nfl": [
   {
@@ -1091,8 +1091,8 @@
    "proj": 9.96,
    "won": true,
    "paa": 15.03,
-   "vor": 14.01,
-   "war": 0.16558115257872394
+   "vor": 14.98,
+   "war": 0.1770453722790353
   },
   {
    "season": "2026",
@@ -1110,8 +1110,8 @@
    "proj": 10.17,
    "won": false,
    "paa": -11.19,
-   "vor": -8.29,
-   "war": -0.09797771269647547
+   "vor": -7.32,
+   "war": -0.08651349299616412
   },
   {
    "season": "2026",
@@ -1177,8 +1177,8 @@
    "proj": 10.51,
    "won": false,
    "paa": 1.24,
-   "vor": 2.41,
-   "war": 0.028483267502835453
+   "vor": 3.38,
+   "war": 0.039947487203146816
   },
   {
    "season": "2026",
@@ -1196,8 +1196,8 @@
    "proj": 11.52,
    "won": true,
    "paa": 0.09,
-   "vor": 1.61,
-   "war": 0.019028240945877628
+   "vor": 2.58,
+   "war": 0.030492460646188994
   },
   {
    "season": "2026",
@@ -1215,8 +1215,8 @@
    "proj": 10.27,
    "won": true,
    "paa": -5.55,
-   "vor": -2.39,
-   "war": -0.02824689183891151
+   "vor": -1.42,
+   "war": -0.01678267213860014
   },
   {
    "season": "2026",
@@ -1234,19 +1234,28 @@
    "proj": 9.74,
    "won": true,
    "paa": -1.59,
-   "vor": 0.31,
-   "war": 0.003663822790821158
+   "vor": 1.28,
+   "war": 0.015128042491132523
   }
  ],
  "similar": [
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 835,
+   "score": 834,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.64
+   "war": -0.59
+  },
+  {
+   "player": "8110",
+   "name": "Jake Ferguson",
+   "score": 833,
+   "gs": 34,
+   "pts": 350.0,
+   "ppg": 10.29,
+   "war": 0.29
   },
   {
    "player": "10236",
@@ -1255,21 +1264,12 @@
    "gs": 38,
    "pts": 310.3,
    "ppg": 8.17,
-   "war": -0.81
-  },
-  {
-   "player": "8110",
-   "name": "Jake Ferguson",
-   "score": 826,
-   "gs": 34,
-   "pts": 350.0,
-   "ppg": 10.29,
-   "war": 0.25
+   "war": -0.75
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 734,
+   "score": 743,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
@@ -1282,7 +1282,7 @@
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.26
+   "war": -0.23
   }
  ],
  "status": {
@@ -1323,18 +1323,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.24,
    "digits": 2,
-   "rank": 382,
+   "rank": 362,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -26.1,
+   "value": -20.3,
    "digits": 1,
-   "rank": 382,
+   "rank": 364,
    "of": 420
   },
   {
@@ -1395,9 +1395,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.24,
    "digits": 2,
-   "rank": 45,
+   "rank": 44,
    "of": 52
   },
   {
@@ -1464,9 +1464,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.09,
+   "value": 0.16,
    "digits": 2,
-   "rank": 23,
+   "rank": 22,
    "of": 40,
    "franchise": 6
   },
@@ -1506,7 +1506,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 65,
+   "rank": 64,
    "of": 73,
    "franchise": 10
   },
@@ -1643,7 +1643,7 @@
  ],
  "hof": {
   "score": 8.25,
-  "rank": 148,
+  "rank": 147,
   "of": 420,
   "war": 0.0,
   "starts": 8.25,
@@ -2103,7 +2103,7 @@
     "season": "2026",
     "nfl": "PHI",
     "missed": 2,
-    "lost": 2.22,
+    "lost": 4.16,
     "injuries": [
      "Knee"
     ],
@@ -2255,7 +2255,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 2.22
+    "lost": 4.16
    }
   ],
   "now": null

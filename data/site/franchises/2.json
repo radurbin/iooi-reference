@@ -250,8 +250,8 @@
     "best": 32.7,
     "wins": 11,
     "paa": -30.6,
-    "vor": 27.5,
-    "war": 0.33
+    "vor": 17.42,
+    "war": 0.21
    },
    {
     "player": "1945",
@@ -263,8 +263,8 @@
     "best": 24.0,
     "wins": 12,
     "paa": 36.09,
-    "vor": 54.74,
-    "war": 0.65
+    "vor": 54.41,
+    "war": 0.64
    },
    {
     "player": "8151",
@@ -302,8 +302,8 @@
     "best": 23.9,
     "wins": 7,
     "paa": 8.19,
-    "vor": 40.18,
-    "war": 0.47
+    "vor": 44.06,
+    "war": 0.52
    },
    {
     "player": "12507",
@@ -380,8 +380,8 @@
     "best": 22.98,
     "wins": 7,
     "paa": -50.98,
-    "vor": -4.92,
-    "war": -0.06
+    "vor": -10.52,
+    "war": -0.12
    },
    {
     "player": "8259",
@@ -595,8 +595,8 @@
      "best": 32.7,
      "wins": 11,
      "paa": -30.6,
-     "vor": 27.5,
-     "war": 0.33
+     "vor": 17.42,
+     "war": 0.21
     }
    ],
    "TE": [
@@ -623,8 +623,8 @@
      "best": 23.9,
      "wins": 7,
      "paa": 8.19,
-     "vor": 40.18,
-     "war": 0.47
+     "vor": 44.06,
+     "war": 0.52
     },
     {
      "player": "5001",
@@ -651,8 +651,8 @@
      "best": 24.0,
      "wins": 12,
      "paa": 36.09,
-     "vor": 54.74,
-     "war": 0.65
+     "vor": 54.41,
+     "war": 0.64
     },
     {
      "player": "8259",
@@ -1357,7 +1357,7 @@
     "team": "Storm FC",
     "games": 39,
     "players": 12,
-    "lost": 87.49,
+    "lost": 64.52,
     "rank": 2,
     "games_rank": 1,
     "of": 12,
@@ -1366,7 +1366,7 @@
      "name": "DeVonta Smith",
      "pos": "WR",
      "missed": 5,
-     "lost": 42.15
+     "lost": 36.5
     },
     "w": 6,
     "l": 3
@@ -1547,7 +1547,7 @@
     "name": "Jordyn Tyson",
     "pos": "WR",
     "missed": 7,
-    "lost": 19.6,
+    "lost": 11.76,
     "injuries": [
      "Hamstring"
     ],
@@ -1622,7 +1622,7 @@
     "name": "Pat Bryant",
     "pos": "WR",
     "missed": 6,
-    "lost": 1.28,
+    "lost": 0.0,
     "injuries": [
      "Ankle",
      "Hamstring",
@@ -1658,9 +1658,9 @@
    "franchise": 2,
    "name": "Storm FC",
    "games": 199,
-   "lost": 340.15,
+   "lost": 317.18,
    "seasons": 4,
-   "per_season": 85.04,
+   "per_season": 79.3,
    "worst": "2025"
   }
  }

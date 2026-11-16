@@ -112,8 +112,8 @@
    "best": 16.4,
    "wins": 1,
    "paa": -8.03,
-   "vor": 9.0,
-   "war": 0.11
+   "vor": 4.52,
+   "war": 0.05
   }
  ],
  "totals": {
@@ -125,8 +125,8 @@
   "best": 36.0,
   "wins": 22,
   "paa": 47.68,
-  "vor": 109.52,
-  "war": 1.29
+  "vor": 105.04,
+  "war": 1.24
  },
  "nfl": [
   {
@@ -1179,8 +1179,8 @@
    "proj": 12.69,
    "won": true,
    "paa": -6.15,
-   "vor": -0.7,
-   "war": -0.008273148237338098
+   "vor": -1.82,
+   "war": -0.021510185417079056
   },
   {
    "season": "2026",
@@ -1214,8 +1214,8 @@
    "proj": 9.31,
    "won": false,
    "paa": 4.0,
-   "vor": 7.2,
-   "war": 0.08509523901262045
+   "vor": 6.08,
+   "war": 0.07185820183287948
   },
   {
    "season": "2026",
@@ -1249,8 +1249,8 @@
    "proj": 12.56,
    "won": false,
    "paa": -0.34,
-   "vor": 3.6,
-   "war": 0.042547619506310225
+   "vor": 2.48,
+   "war": 0.029310582326569263
   },
   {
    "season": "2026",
@@ -1268,24 +1268,24 @@
    "proj": 12.86,
    "won": false,
    "paa": -5.54,
-   "vor": -1.1,
-   "war": -0.013000661515817013
+   "vor": -2.22,
+   "war": -0.026237698695557973
   }
  ],
  "similar": [
   {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
-   "score": 903,
+   "score": 905,
    "gs": 36,
    "pts": 503.25,
    "ppg": 13.98,
-   "war": 1.06
+   "war": 1.04
   },
   {
    "player": "1479",
    "name": "Keenan Allen",
-   "score": 887,
+   "score": 881,
    "gs": 35,
    "pts": 547.16,
    "ppg": 15.63,
@@ -1298,21 +1298,21 @@
    "gs": 38,
    "pts": 539.5,
    "ppg": 14.2,
-   "war": 1.34
+   "war": 1.23
   },
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 859,
+   "score": 857,
    "gs": 37,
    "pts": 493.7,
    "ppg": 13.34,
-   "war": 1.07
+   "war": 0.98
   },
   {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 850,
+   "score": 855,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
@@ -1347,18 +1347,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.29,
+   "value": 1.24,
    "digits": 2,
-   "rank": 70,
+   "rank": 69,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 109.5,
+   "value": 105.0,
    "digits": 1,
-   "rank": 70,
+   "rank": 69,
    "of": 420
   },
   {
@@ -1419,9 +1419,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.29,
+   "value": 1.24,
    "digits": 2,
-   "rank": 20,
+   "rank": 19,
    "of": 126
   },
   {
@@ -1450,7 +1450,7 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 28,
+   "rank": 29,
    "of": 82,
    "franchise": 4
   },
@@ -1488,9 +1488,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.11,
+   "value": 0.05,
    "digits": 2,
-   "rank": 13,
+   "rank": 18,
    "of": 48,
    "franchise": 12
   },
@@ -1706,10 +1706,10 @@
   }
  ],
  "hof": {
-  "score": 21.15,
-  "rank": 72,
+  "score": 20.65,
+  "rank": 73,
   "of": 420,
-  "war": 12.9,
+  "war": 12.4,
   "starts": 8.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1987,32 +1987,32 @@
    [
     "2026",
     4,
-    19.3
+    19.2
    ],
    [
     "2026",
     5,
-    19.3
+    19.2
    ],
    [
     "2026",
     6,
-    20.35
+    20.15
    ],
    [
     "2026",
     7,
-    20.35
+    20.15
    ],
    [
     "2026",
     8,
-    21.1
+    20.7
    ],
    [
     "2026",
     9,
-    21.15
+    20.65
    ]
   ],
   "benchmark": 100
@@ -2106,7 +2106,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 1,
-    "lost": 4.62,
+    "lost": 3.5,
     "injuries": [
      "Hamstring"
     ],
@@ -2182,7 +2182,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 4.62
+    "lost": 3.5
    }
   ],
   "now": null

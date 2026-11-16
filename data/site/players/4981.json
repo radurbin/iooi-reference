@@ -961,38 +961,29 @@
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 970,
+   "score": 971,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
-   "war": 0.0
+   "war": -0.01
   },
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 898,
+   "score": 911,
    "gs": 32,
    "pts": 380.4,
    "ppg": 11.89,
-   "war": 0.44
+   "war": 0.36
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 832,
+   "score": 831,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.53
-  },
-  {
-   "player": "7526",
-   "name": "Jaylen Waddle",
-   "score": 814,
-   "gs": 41,
-   "pts": 432.3,
-   "ppg": 10.54,
-   "war": -0.32
+   "war": 0.52
   },
   {
    "player": "8134",
@@ -1001,7 +992,16 @@
    "gs": 26,
    "pts": 276.7,
    "ppg": 10.64,
-   "war": -0.1
+   "war": -0.12
+  },
+  {
+   "player": "7526",
+   "name": "Jaylen Waddle",
+   "score": 808,
+   "gs": 41,
+   "pts": 432.3,
+   "ppg": 10.54,
+   "war": -0.44
   }
  ],
  "status": {
@@ -1033,7 +1033,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 287,
+   "rank": 284,
    "of": 420
   },
   {
@@ -1042,7 +1042,7 @@
    "stat": "VOR",
    "value": -8.6,
    "digits": 1,
-   "rank": 293,
+   "rank": 291,
    "of": 420
   },
   {
@@ -1105,7 +1105,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 76,
+   "rank": 73,
    "of": 126
   },
   {
@@ -1134,7 +1134,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 63,
+   "rank": 62,
    "of": 76,
    "franchise": 2
   },
@@ -1241,7 +1241,7 @@
  ],
  "hof": {
   "score": 8.25,
-  "rank": 148,
+  "rank": 147,
   "of": 420,
   "war": 0.0,
   "starts": 8.25,

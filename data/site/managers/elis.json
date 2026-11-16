@@ -197,8 +197,8 @@
     "pts": 274.8,
     "best": 29.8,
     "wins": 10,
-    "vor": 1.45,
-    "war": 0.02
+    "vor": -4.15,
+    "war": -0.05
    },
    {
     "player": "7021",
@@ -223,8 +223,8 @@
     "pts": 261.9,
     "best": 23.0,
     "wins": 8,
-    "vor": -12.1,
-    "war": -0.14
+    "vor": -22.18,
+    "war": -0.26
    },
    {
     "player": "7591",
@@ -262,8 +262,8 @@
     "pts": 175.85,
     "best": 24.1,
     "wins": 7,
-    "vor": 34.4,
-    "war": 0.41
+    "vor": 43.13,
+    "war": 0.51
    },
    {
     "player": "5022",
@@ -557,8 +557,8 @@
      "pts": 175.85,
      "best": 24.1,
      "wins": 7,
-     "vor": 34.4,
-     "war": 0.41
+     "vor": 43.13,
+     "war": 0.51
     },
     {
      "player": "5022",
@@ -611,8 +611,8 @@
      "pts": 67.0,
      "best": 17.0,
      "wins": 4,
-     "vor": 23.28,
-     "war": 0.28
+     "vor": 23.06,
+     "war": 0.27
     },
     {
      "player": "1433",
@@ -753,8 +753,8 @@
    "pts": 175.85,
    "best": 24.1,
    "wins": 7,
-   "vor": 34.4,
-   "war": 0.41
+   "vor": 43.13,
+   "war": 0.51
   },
   {
    "slot": "FLEX",
@@ -1256,7 +1256,7 @@
    "team": "Maddison Beer’s Boys",
    "games": 22,
    "players": 9,
-   "lost": 18.12,
+   "lost": 16.68,
    "rank": 9,
    "of": 12
   }
@@ -1460,37 +1460,6 @@
    ]
   },
   {
-   "player": "8121",
-   "name": "Romeo Doubs",
-   "pos": "WR",
-   "missed": 5,
-   "lost": 1.44,
-   "injuries": [
-    "Shoulder",
-    "Concussion"
-   ],
-   "kinds": [
-    "IR",
-    "Out"
-   ],
-   "seasons": [
-    "2024",
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2024",
-     "franchise": 10,
-     "team": "BAHAHAHA"
-    },
-    {
-     "season": "2026",
-     "franchise": 10,
-     "team": "Maddison Beer’s Boys"
-    }
-   ]
-  },
-  {
    "player": "9480",
    "name": "Brenton Strange",
    "pos": "TE",
@@ -1513,6 +1482,37 @@
     },
     {
      "season": "2025",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2026",
      "franchise": 10,
      "team": "Maddison Beer’s Boys"
     }

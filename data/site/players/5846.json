@@ -98,8 +98,8 @@
    "best": 7.6,
    "wins": 0,
    "paa": -5.99,
-   "vor": -1.6,
-   "war": -0.02
+   "vor": -2.72,
+   "war": -0.03
   }
  ],
  "totals": {
@@ -111,8 +111,8 @@
   "best": 37.4,
   "wins": 17,
   "paa": -12.03,
-  "vor": 44.75,
-  "war": 0.53
+  "vor": 43.63,
+  "war": 0.52
  },
  "nfl": [
   {
@@ -140,8 +140,8 @@
    "season": "2026",
    "team": "PIT",
    "g": 9,
-   "pts": 79.5,
-   "rank": 44
+   "pts": 94.9,
+   "rank": 30
   }
  ],
  "history": [
@@ -1204,8 +1204,8 @@
    "proj": 12.16,
    "won": false,
    "paa": -5.99,
-   "vor": -1.6,
-   "war": -0.018910053113915654
+   "vor": -2.72,
+   "war": -0.032147090293656616
   },
   {
    "season": "2026",
@@ -1244,7 +1244,7 @@
   {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 931,
+   "score": 930,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
@@ -1253,25 +1253,25 @@
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 900,
+   "score": 897,
    "gs": 32,
    "pts": 380.4,
    "ppg": 11.89,
-   "war": 0.44
+   "war": 0.36
   },
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 874,
+   "score": 873,
    "gs": 26,
    "pts": 334.8,
    "ppg": 12.88,
-   "war": 0.47
+   "war": 0.43
   },
   {
    "player": "5045",
    "name": "Courtland Sutton",
-   "score": 867,
+   "score": 866,
    "gs": 27,
    "pts": 383.4,
    "ppg": 14.2,
@@ -1280,11 +1280,11 @@
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 854,
+   "score": 853,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
-   "war": 0.0
+   "war": -0.01
   }
  ],
  "status": {
@@ -1315,7 +1315,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.53,
+   "value": 0.52,
    "digits": 2,
    "rank": 109,
    "of": 420
@@ -1324,7 +1324,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 44.8,
+   "value": 43.6,
    "digits": 1,
    "rank": 109,
    "of": 420
@@ -1387,9 +1387,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.53,
+   "value": 0.52,
    "digits": 2,
-   "rank": 32,
+   "rank": 31,
    "of": 126
   },
   {
@@ -1456,9 +1456,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": -0.02,
+   "value": -0.03,
    "digits": 2,
-   "rank": 48,
+   "rank": 49,
    "of": 77,
    "franchise": 1
   },
@@ -1594,10 +1594,10 @@
   }
  ],
  "hof": {
-  "score": 13.05,
-  "rank": 107,
+  "score": 12.95,
+  "rank": 108,
   "of": 420,
-  "war": 5.3,
+  "war": 5.2,
   "starts": 7.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1890,17 +1890,17 @@
    [
     "2026",
     7,
-    13.05
+    12.95
    ],
    [
     "2026",
     8,
-    13.05
+    12.95
    ],
    [
     "2026",
     9,
-    13.05
+    12.95
    ]
   ],
   "benchmark": 100

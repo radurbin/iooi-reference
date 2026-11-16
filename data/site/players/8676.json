@@ -1146,6 +1146,15 @@
  ],
  "similar": [
   {
+   "player": "10213",
+   "name": "Tre Tucker",
+   "score": 950,
+   "gs": 16,
+   "pts": 166.9,
+   "ppg": 10.43,
+   "war": -0.03
+  },
+  {
    "player": "6943",
    "name": "Gabe Davis",
    "score": 950,
@@ -1155,22 +1164,13 @@
    "war": -0.23
   },
   {
-   "player": "10213",
-   "name": "Tre Tucker",
-   "score": 944,
-   "gs": 16,
-   "pts": 166.9,
-   "ppg": 10.43,
-   "war": 0.04
-  },
-  {
    "player": "11624",
    "name": "Xavier Worthy",
-   "score": 903,
+   "score": 900,
    "gs": 17,
    "pts": 160.8,
    "ppg": 9.46,
-   "war": -0.25
+   "war": -0.32
   },
   {
    "player": "2309",
@@ -1221,7 +1221,7 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 329,
+   "rank": 330,
    "of": 420
   },
   {
@@ -1230,7 +1230,7 @@
    "stat": "VOR",
    "value": -12.6,
    "digits": 1,
-   "rank": 331,
+   "rank": 333,
    "of": 420
   },
   {
@@ -1293,7 +1293,7 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 97,
+   "rank": 96,
    "of": 126
   },
   {

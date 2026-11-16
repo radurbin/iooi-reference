@@ -80,8 +80,8 @@
    "best": 22.5,
    "wins": 2,
    "paa": -2.68,
-   "vor": 8.95,
-   "war": 0.11
+   "vor": 13.8,
+   "war": 0.16
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 22.5,
   "wins": 16,
   "paa": -98.67,
-  "vor": -68.57,
-  "war": -0.81
+  "vor": -63.72,
+  "war": -0.75
  },
  "nfl": [
   {
@@ -1103,8 +1103,8 @@
    "proj": 12.14,
    "won": true,
    "paa": 9.91,
-   "vor": 12.81,
-   "war": 0.1513986127432872
+   "vor": 13.78,
+   "war": 0.16286283244359856
   },
   {
    "season": "2026",
@@ -1122,8 +1122,8 @@
    "proj": 13.23,
    "won": false,
    "paa": -8.86,
-   "vor": -5.89,
-   "war": -0.069612633025602
+   "vor": -4.92,
+   "war": -0.05814841332529063
   },
   {
    "season": "2026",
@@ -1141,8 +1141,8 @@
    "proj": 12.2,
    "won": false,
    "paa": -9.42,
-   "vor": -7.99,
-   "war": -0.09443207773761629
+   "vor": -7.02,
+   "war": -0.08296785803730493
   },
   {
    "season": "2026",
@@ -1176,8 +1176,8 @@
    "proj": 11.08,
    "won": true,
    "paa": -0.06,
-   "vor": 1.11,
-   "war": 0.013118849347778986
+   "vor": 2.08,
+   "war": 0.02458306904809035
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 10.46,
    "won": false,
    "paa": 5.75,
-   "vor": 8.91,
-   "war": 0.1053053582781178
+   "vor": 9.88,
+   "war": 0.11676957797842917
   },
   {
    "season": "2026",
@@ -1235,11 +1235,11 @@
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 921,
+   "score": 922,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.64
+   "war": -0.59
   },
   {
    "player": "5022",
@@ -1248,25 +1248,25 @@
    "gs": 33,
    "pts": 301.5,
    "ppg": 9.14,
-   "war": -0.31
+   "war": -0.24
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 718,
+   "score": 722,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.26
+   "war": -0.23
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 686,
+   "score": 693,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.25
+   "war": 0.29
   },
   {
    "player": "6826",
@@ -1306,18 +1306,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.81,
+   "value": -0.75,
    "digits": 2,
-   "rank": 414,
+   "rank": 413,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -68.6,
+   "value": -63.7,
    "digits": 1,
-   "rank": 415,
+   "rank": 414,
    "of": 420
   },
   {
@@ -1378,7 +1378,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.81,
+   "value": -0.75,
    "digits": 2,
    "rank": 52,
    "of": 52
@@ -1407,7 +1407,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.8,
+   "value": -0.75,
    "digits": 2,
    "rank": 67,
    "of": 67,

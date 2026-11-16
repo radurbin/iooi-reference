@@ -235,8 +235,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 47.4,
-   "vor": 86.2,
-   "war": 1.02
+   "vor": 77.24,
+   "war": 0.91
   },
   {
    "player": "11564",
@@ -265,8 +265,8 @@
    "bench_pts": 4.7,
    "wins": 3,
    "paa": 28.24,
-   "vor": 43.27,
-   "war": 0.51
+   "vor": 50.06,
+   "war": 0.59
   },
   {
    "player": "7569",
@@ -280,8 +280,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": 9.04,
-   "vor": 36.6,
-   "war": 0.43
+   "vor": 29.88,
+   "war": 0.35
   },
   {
    "player": "2747",
@@ -295,8 +295,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": -5.26,
-   "vor": -8.72,
-   "war": -0.1
+   "vor": -9.71,
+   "war": -0.11
   },
   {
    "player": "8161",
@@ -325,8 +325,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -17.82,
-   "vor": 11.0,
-   "war": 0.13
+   "vor": 4.28,
+   "war": 0.05
   },
   {
    "player": "DEN",
@@ -355,8 +355,8 @@
    "bench_pts": 32.3,
    "wins": 3,
    "paa": -5.7,
-   "vor": 3.65,
-   "war": 0.04
+   "vor": 8.5,
+   "war": 0.1
   },
   {
    "player": "5892",
@@ -400,8 +400,8 @@
    "bench_pts": 45.4,
    "wins": 2,
    "paa": 4.67,
-   "vor": 13.0,
-   "war": 0.15
+   "vor": 10.76,
+   "war": 0.13
   },
   {
    "player": "LAR",
@@ -460,8 +460,8 @@
    "bench_pts": 43.8,
    "wins": 1,
    "paa": -16.42,
-   "vor": -8.8,
-   "war": -0.1
+   "vor": -11.04,
+   "war": -0.13
   },
   {
    "player": "11647",
@@ -2227,7 +2227,7 @@
    "opp_seed": 4,
    "chance": 0.574,
    "proj": 156.56,
-   "opp_proj": 141.33
+   "opp_proj": 141.42
   },
   {
    "week": 11,
@@ -2265,8 +2265,8 @@
  "injuries": {
   "games": 30,
   "players": 10,
-  "lost": 47.04,
-  "rank": 6,
+  "lost": 43.38,
+  "rank": 5,
   "games_rank": 3,
   "of": 12,
   "rows": [
@@ -2295,7 +2295,7 @@
     "name": "Nico Collins",
     "pos": "WR",
     "missed": 2,
-    "lost": 14.8,
+    "lost": 12.56,
     "injuries": [
      "Hamstring"
     ],
@@ -2333,29 +2333,11 @@
     "gs": 1
    },
    {
-    "player": "10229",
-    "name": "Rashee Rice",
-    "pos": "WR",
-    "missed": 2,
-    "lost": 4.28,
-    "injuries": [
-     "Hamstring"
-    ],
-    "weeks": [
-     6,
-     7
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 6
-   },
-   {
     "player": "12518",
     "name": "Tyler Warren",
     "pos": "TE",
     "missed": 2,
-    "lost": 2.34,
+    "lost": 4.28,
     "injuries": [
      "Groin"
     ],
@@ -2370,21 +2352,22 @@
     "gs": 5
    },
    {
-    "player": "9502",
-    "name": "Tank Dell",
+    "player": "10229",
+    "name": "Rashee Rice",
     "pos": "WR",
-    "missed": 1,
-    "lost": 1.23,
+    "missed": 2,
+    "lost": 2.04,
     "injuries": [
-     "Knee"
+     "Hamstring"
     ],
     "weeks": [
-     6
+     6,
+     7
     ],
     "kinds": [
-     "IR"
+     "Out"
     ],
-    "gs": 0
+    "gs": 6
    },
    {
     "player": "5892",
@@ -2404,6 +2387,23 @@
      "Out"
     ],
     "gs": 4
+   },
+   {
+    "player": "9502",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 0.11,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     6
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 0
    },
    {
     "player": "12484",

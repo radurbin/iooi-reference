@@ -84,8 +84,8 @@
    "best": 7.8,
    "wins": 2,
    "paa": -13.88,
-   "vor": -5.0,
-   "war": -0.06
+   "vor": -7.24,
+   "war": -0.09
   }
  ],
  "totals": {
@@ -97,8 +97,8 @@
   "best": 38.5,
   "wins": 19,
   "paa": 108.19,
-  "vor": 193.05,
-  "war": 2.28
+  "vor": 190.81,
+  "war": 2.26
  },
  "nfl": [
   {
@@ -1112,8 +1112,8 @@
    "proj": 16.86,
    "won": true,
    "paa": -8.09,
-   "vor": -3.6,
-   "war": -0.042547619506310225
+   "vor": -4.72,
+   "war": -0.055784656686051176
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 14.92,
    "won": true,
    "paa": -5.79,
-   "vor": -1.4,
-   "war": -0.016546296474676196
+   "vor": -2.52,
+   "war": -0.029783333654417155
   },
   {
    "season": "2026",
@@ -1251,47 +1251,47 @@
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 963,
+   "score": 957,
    "gs": 40,
    "pts": 640.7,
    "ppg": 16.02,
-   "war": 2.14
+   "war": 2.08
   },
   {
    "player": "7569",
    "name": "Nico Collins",
-   "score": 937,
+   "score": 943,
    "gs": 42,
    "pts": 679.9,
    "ppg": 16.19,
-   "war": 2.5
+   "war": 2.42
   },
   {
    "player": "2133",
    "name": "Davante Adams",
-   "score": 852,
+   "score": 851,
    "gs": 46,
    "pts": 708.7,
    "ppg": 15.41,
-   "war": 2.21
-  },
-  {
-   "player": "8137",
-   "name": "George Pickens",
-   "score": 852,
-   "gs": 41,
-   "pts": 605.7,
-   "ppg": 14.77,
-   "war": 1.84
+   "war": 2.14
   },
   {
    "player": "6801",
    "name": "Tee Higgins",
-   "score": 850,
+   "score": 851,
    "gs": 34,
    "pts": 571.6,
    "ppg": 16.81,
-   "war": 2.35
+   "war": 2.25
+  },
+  {
+   "player": "8137",
+   "name": "George Pickens",
+   "score": 842,
+   "gs": 41,
+   "pts": 605.7,
+   "ppg": 14.77,
+   "war": 1.73
   }
  ],
  "status": {
@@ -1332,16 +1332,16 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.28,
+   "value": 2.26,
    "digits": 2,
-   "rank": 38,
+   "rank": 37,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 193.1,
+   "value": 190.8,
    "digits": 1,
    "rank": 38,
    "of": 420
@@ -1404,9 +1404,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 2.28,
+   "value": 2.26,
    "digits": 2,
-   "rank": 9,
+   "rank": 8,
    "of": 126
   },
   {
@@ -1473,7 +1473,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.4,
+   "value": 0.37,
    "digits": 2,
    "rank": 15,
    "of": 40,
@@ -1651,10 +1651,10 @@
   }
  ],
  "hof": {
-  "score": 35.8,
+  "score": 35.6,
   "rank": 38,
   "of": 420,
-  "war": 22.8,
+  "war": 22.6,
   "starts": 10.0,
   "black_ink": 0.0,
   "awards": 3.0,
@@ -1917,47 +1917,47 @@
    [
     "2026",
     1,
-    35.75
+    35.55
    ],
    [
     "2026",
     2,
-    35.75
+    35.55
    ],
    [
     "2026",
     3,
-    35.75
+    35.55
    ],
    [
     "2026",
     4,
-    35.75
+    35.55
    ],
    [
     "2026",
     5,
-    35.75
+    35.55
    ],
    [
     "2026",
     6,
-    35.75
+    35.55
    ],
    [
     "2026",
     7,
-    35.8
+    35.6
    ],
    [
     "2026",
     8,
-    35.8
+    35.6
    ],
    [
     "2026",
     9,
-    35.8
+    35.6
    ]
   ],
   "benchmark": 100

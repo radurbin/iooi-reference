@@ -189,8 +189,8 @@
     "best": 36.8,
     "wins": 15,
     "paa": 53.52,
-    "vor": 144.25,
-    "war": 1.7
+    "vor": 135.29,
+    "war": 1.6
    },
    {
     "player": "4046",
@@ -215,8 +215,8 @@
     "best": 39.2,
     "wins": 14,
     "paa": 80.9,
-    "vor": 155.3,
-    "war": 1.84
+    "vor": 146.34,
+    "war": 1.73
    },
    {
     "player": "7523",
@@ -254,8 +254,8 @@
     "best": 22.5,
     "wins": 16,
     "paa": -98.67,
-    "vor": -68.57,
-    "war": -0.81
+    "vor": -63.72,
+    "war": -0.75
    },
    {
     "player": "11584",
@@ -280,7 +280,7 @@
     "best": 21.0,
     "wins": 15,
     "paa": 35.12,
-    "vor": 47.62,
+    "vor": 47.4,
     "war": 0.56
    },
    {
@@ -384,8 +384,8 @@
     "best": 21.7,
     "wins": 7,
     "paa": 14.68,
-    "vor": 27.79,
-    "war": 0.33
+    "vor": 28.76,
+    "war": 0.34
    },
    {
     "player": "2133",
@@ -436,8 +436,8 @@
     "best": 20.6,
     "wins": 4,
     "paa": -67.44,
-    "vor": -31.6,
-    "war": -0.37
+    "vor": -34.96,
+    "war": -0.41
    },
    {
     "player": "8148",
@@ -586,8 +586,8 @@
      "best": 36.8,
      "wins": 15,
      "paa": 53.52,
-     "vor": 144.25,
-     "war": 1.7
+     "vor": 135.29,
+     "war": 1.6
     },
     {
      "player": "11632",
@@ -599,8 +599,8 @@
      "best": 39.2,
      "wins": 14,
      "paa": 80.9,
-     "vor": 155.3,
-     "war": 1.84
+     "vor": 146.34,
+     "war": 1.73
     },
     {
      "player": "9502",
@@ -627,8 +627,8 @@
      "best": 22.5,
      "wins": 16,
      "paa": -98.67,
-     "vor": -68.57,
-     "war": -0.81
+     "vor": -63.72,
+     "war": -0.75
     },
     {
      "player": "10859",
@@ -640,8 +640,8 @@
      "best": 21.7,
      "wins": 7,
      "paa": 14.68,
-     "vor": 27.79,
-     "war": 0.33
+     "vor": 28.76,
+     "war": 0.34
     },
     {
      "player": "10871",
@@ -668,7 +668,7 @@
      "best": 21.0,
      "wins": 15,
      "paa": 35.12,
-     "vor": 47.62,
+     "vor": 47.4,
      "war": 0.56
     },
     {
@@ -694,8 +694,8 @@
      "best": 18.6,
      "wins": 2,
      "paa": 13.55,
-     "vor": 13.4,
-     "war": 0.16
+     "vor": 12.85,
+     "war": 0.15
     }
    ],
    "DEF": [
@@ -1373,16 +1373,16 @@
     "team": "Clandestine Ball Busters",
     "games": 12,
     "players": 5,
-    "lost": 2.91,
+    "lost": 1.79,
     "rank": 12,
     "games_rank": 11,
     "of": 12,
     "worst": {
-     "player": "11646",
-     "name": "Jalen Coker",
-     "pos": "WR",
-     "missed": 1,
-     "lost": 1.8
+     "player": "13287",
+     "name": "Jeremiyah Love",
+     "pos": "RB",
+     "missed": 3,
+     "lost": 1.11
     },
     "w": 4,
     "l": 5
@@ -1624,7 +1624,7 @@
     "name": "Jalen Coker",
     "pos": "WR",
     "missed": 7,
-    "lost": 1.8,
+    "lost": 0.68,
     "injuries": [
      "Quadricep"
     ],
@@ -1677,9 +1677,9 @@
    "franchise": 9,
    "name": "Clandestine Ball Busters",
    "games": 190,
-   "lost": 277.14,
+   "lost": 276.02,
    "seasons": 4,
-   "per_season": 69.28,
+   "per_season": 69.0,
    "worst": "2025"
   }
  }

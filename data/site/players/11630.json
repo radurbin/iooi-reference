@@ -64,8 +64,8 @@
    "best": 0.0,
    "wins": 0,
    "paa": -14.79,
-   "vor": -9.2,
-   "war": -0.11
+   "vor": -10.32,
+   "war": -0.12
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 0.0,
   "wins": 0,
   "paa": -14.79,
-  "vor": -9.2,
-  "war": -0.11
+  "vor": -10.32,
+  "war": -0.12
  },
  "nfl": [
   {
@@ -450,8 +450,8 @@
    "proj": 9.02,
    "won": false,
    "paa": -14.79,
-   "vor": -9.2,
-   "war": -0.108732805405015
+   "vor": -10.32,
+   "war": -0.12196984258475597
   },
   {
    "season": "2026",
@@ -546,18 +546,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.12,
    "digits": 2,
-   "rank": 299,
+   "rank": 305,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -9.2,
+   "value": -10.3,
    "digits": 1,
-   "rank": 303,
+   "rank": 310,
    "of": 420
   },
   {
@@ -609,9 +609,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.12,
    "digits": 2,
-   "rank": 82,
+   "rank": 83,
    "of": 126
   },
   {
@@ -638,9 +638,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.12,
    "digits": 2,
-   "rank": 30,
+   "rank": 32,
    "of": 48,
    "franchise": 12
   },
@@ -1054,7 +1054,7 @@
     "season": "2026",
     "nfl": "PIT",
     "missed": 4,
-    "lost": 0.18,
+    "lost": 0.0,
     "injuries": [
      "Finger"
     ],
@@ -1184,7 +1184,7 @@
      }
     ],
     "rostered": 3,
-    "lost": 0.18
+    "lost": 0.0
    }
   ],
   "now": {

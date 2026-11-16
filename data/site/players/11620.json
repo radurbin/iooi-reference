@@ -80,8 +80,8 @@
    "best": 12.7,
    "wins": 1,
    "paa": -16.72,
-   "vor": -2.7,
-   "war": -0.03
+   "vor": -6.06,
+   "war": -0.07
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 20.6,
   "wins": 11,
   "paa": -107.23,
-  "vor": -40.9,
-  "war": -0.48
+  "vor": -44.26,
+  "war": -0.52
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "CHI",
    "g": 9,
    "pts": 90.3,
-   "rank": 33
+   "rank": 34
   }
  ],
  "history": [
@@ -783,8 +783,8 @@
    "proj": 11.12,
    "won": true,
    "paa": -6.49,
-   "vor": -2.0,
-   "war": -0.023637566392394567
+   "vor": -3.12,
+   "war": -0.036874603572135525
   },
   {
    "season": "2026",
@@ -850,8 +850,8 @@
    "proj": 9.67,
    "won": false,
    "paa": -9.79,
-   "vor": -4.2,
-   "war": -0.049638889424028595
+   "vor": -5.32,
+   "war": -0.06287592660376955
   },
   {
    "season": "2026",
@@ -901,8 +901,8 @@
    "proj": 10.03,
    "won": false,
    "paa": -0.44,
-   "vor": 3.5,
-   "war": 0.041365741186690494
+   "vor": 2.38,
+   "war": 0.028128704006949532
   },
   {
    "season": "2026",
@@ -925,16 +925,16 @@
   {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 880,
+   "score": 878,
    "gs": 25,
    "pts": 260.8,
    "ppg": 10.43,
-   "war": -0.12
+   "war": -0.15
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 878,
+   "score": 876,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -947,12 +947,12 @@
    "gs": 18,
    "pts": 155.5,
    "ppg": 8.64,
-   "war": -0.51
+   "war": -0.57
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 856,
+   "score": 854,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -961,11 +961,11 @@
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 856,
+   "score": 854,
    "gs": 26,
    "pts": 276.7,
    "ppg": 10.64,
-   "war": -0.1
+   "war": -0.12
   }
  ],
  "status": {
@@ -996,18 +996,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.48,
+   "value": -0.52,
    "digits": 2,
-   "rank": 398,
+   "rank": 400,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -40.9,
+   "value": -44.3,
    "digits": 1,
-   "rank": 398,
+   "rank": 401,
    "of": 420
   },
   {
@@ -1068,7 +1068,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.48,
+   "value": -0.52,
    "digits": 2,
    "rank": 120,
    "of": 126
@@ -1137,7 +1137,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.37,
+   "value": -0.41,
    "digits": 2,
    "rank": 65,
    "of": 67,

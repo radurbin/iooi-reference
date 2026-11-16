@@ -89,8 +89,8 @@
    "best": 5.2,
    "wins": 1,
    "paa": -16.42,
-   "vor": -8.8,
-   "war": -0.1
+   "vor": -11.04,
+   "war": -0.13
   }
  ],
  "totals": {
@@ -102,8 +102,8 @@
   "best": 5.2,
   "wins": 2,
   "paa": -38.06,
-  "vor": -26.3,
-  "war": -0.31
+  "vor": -28.54,
+  "war": -0.34
  },
  "nfl": [
   {
@@ -593,8 +593,8 @@
    "proj": 9.35,
    "won": true,
    "paa": -8.42,
-   "vor": -4.0,
-   "war": -0.047275132784789134
+   "vor": -5.12,
+   "war": -0.06051216996453009
   },
   {
    "season": "2026",
@@ -644,8 +644,8 @@
    "proj": 4.8,
    "won": false,
    "paa": -8.0,
-   "vor": -4.8,
-   "war": -0.05673015934174696
+   "vor": -5.92,
+   "war": -0.06996719652148792
   }
  ],
  "status": {
@@ -675,18 +675,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.34,
    "digits": 2,
-   "rank": 382,
+   "rank": 388,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -26.3,
+   "value": -28.5,
    "digits": 1,
-   "rank": 383,
+   "rank": 388,
    "of": 420
   },
   {
@@ -738,9 +738,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.34,
    "digits": 2,
-   "rank": 115,
+   "rank": 116,
    "of": 126
   },
   {
@@ -767,9 +767,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.13,
    "digits": 2,
-   "rank": 60,
+   "rank": 61,
    "of": 67,
    "franchise": 8
   },
@@ -887,7 +887,7 @@
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 304,
+  "rank": 302,
   "of": 420,
   "war": 0.0,
   "starts": 1.0,

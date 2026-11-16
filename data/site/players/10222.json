@@ -80,8 +80,8 @@
    "best": 5.0,
    "wins": 0,
    "paa": -8.69,
-   "vor": -4.2,
-   "war": -0.05
+   "vor": -5.32,
+   "war": -0.06
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 33.1,
   "wins": 6,
   "paa": -26.33,
-  "vor": 14.75,
-  "war": 0.17
+  "vor": 13.63,
+  "war": 0.16
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "GB",
    "g": 2,
    "pts": 6.4,
-   "rank": 165
+   "rank": 166
   }
  ],
  "history": [
@@ -1015,8 +1015,8 @@
    "proj": 12.14,
    "won": false,
    "paa": -8.69,
-   "vor": -4.2,
-   "war": -0.049638889424028595
+   "vor": -5.32,
+   "war": -0.06287592660376955
   },
   {
    "season": "2026",
@@ -1151,16 +1151,16 @@
   {
    "player": "8148",
    "name": "Jameson Williams",
-   "score": 969,
+   "score": 972,
    "gs": 18,
    "pts": 224.1,
    "ppg": 12.45,
-   "war": 0.34
+   "war": 0.31
   },
   {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 969,
+   "score": 970,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
@@ -1169,7 +1169,7 @@
   {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 910,
+   "score": 911,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -1178,20 +1178,20 @@
   {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 899,
+   "score": 901,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
-   "war": 0.42
+   "war": 0.38
   },
   {
-   "player": "5947",
-   "name": "Jakobi Meyers",
-   "score": 883,
-   "gs": 13,
-   "pts": 164.3,
-   "ppg": 12.64,
-   "war": 0.14
+   "player": "8167",
+   "name": "Christian Watson",
+   "score": 884,
+   "gs": 23,
+   "pts": 274.7,
+   "ppg": 11.94,
+   "war": 0.21
   }
  ],
  "status": {
@@ -1222,18 +1222,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.17,
+   "value": 0.16,
    "digits": 2,
-   "rank": 168,
+   "rank": 169,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 14.8,
+   "value": 13.6,
    "digits": 1,
-   "rank": 168,
+   "rank": 169,
    "of": 420
   },
   {
@@ -1294,7 +1294,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.17,
+   "value": 0.16,
    "digits": 2,
    "rank": 44,
    "of": 126
@@ -1323,9 +1323,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.17,
+   "value": 0.16,
    "digits": 2,
-   "rank": 9,
+   "rank": 10,
    "of": 48,
    "franchise": 12
   },
@@ -1461,10 +1461,10 @@
   }
  ],
  "hof": {
-  "score": 6.2,
-  "rank": 182,
+  "score": 6.1,
+  "rank": 183,
   "of": 420,
-  "war": 1.7,
+  "war": 1.6,
   "starts": 4.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1727,47 +1727,47 @@
    [
     "2026",
     1,
-    6.2
+    6.1
    ],
    [
     "2026",
     2,
-    6.2
+    6.1
    ],
    [
     "2026",
     3,
-    6.2
+    6.1
    ],
    [
     "2026",
     4,
-    6.2
+    6.1
    ],
    [
     "2026",
     5,
-    6.2
+    6.1
    ],
    [
     "2026",
     6,
-    6.2
+    6.1
    ],
    [
     "2026",
     7,
-    6.2
+    6.1
    ],
    [
     "2026",
     8,
-    6.2
+    6.1
    ],
    [
     "2026",
     9,
-    6.2
+    6.1
    ]
   ],
   "benchmark": 100

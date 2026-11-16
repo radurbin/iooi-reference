@@ -266,8 +266,8 @@
    "bench_pts": 0.0,
    "wins": 8,
    "paa": 59.92,
-   "vor": 77.09,
-   "war": 0.91
+   "vor": 85.82,
+   "war": 1.01
   },
   {
    "player": "9228",
@@ -296,8 +296,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": 48.79,
-   "vor": 75.8,
-   "war": 0.9
+   "vor": 69.08,
+   "war": 0.82
   },
   {
    "player": "8146",
@@ -311,8 +311,8 @@
    "bench_pts": 0.0,
    "wins": 7,
    "paa": 2.54,
-   "vor": 40.1,
-   "war": 0.47
+   "vor": 31.14,
+   "war": 0.37
   },
   {
    "player": "4866",
@@ -341,8 +341,8 @@
    "bench_pts": 41.0,
    "wins": 5,
    "paa": -6.65,
-   "vor": 16.5,
-   "war": 0.2
+   "vor": 10.9,
+   "war": 0.13
   },
   {
    "player": "11792",
@@ -356,8 +356,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 8.98,
-   "vor": 11.1,
-   "war": 0.13
+   "vor": 10.55,
+   "war": 0.12
   },
   {
    "player": "96",
@@ -401,8 +401,8 @@
    "bench_pts": 60.9,
    "wins": 2,
    "paa": -11.52,
-   "vor": -1.0,
-   "war": -0.01
+   "vor": -3.24,
+   "war": -0.04
   },
   {
    "player": "5189",
@@ -416,8 +416,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -7.89,
-   "vor": -13.04,
-   "war": -0.15
+   "vor": -13.37,
+   "war": -0.16
   },
   {
    "player": "1945",
@@ -431,7 +431,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -0.95,
-   "vor": -1.38,
+   "vor": -1.49,
    "war": -0.02
   },
   {
@@ -461,8 +461,8 @@
    "bench_pts": 71.9,
    "wins": 0,
    "paa": -5.99,
-   "vor": -1.6,
-   "war": -0.02
+   "vor": -2.72,
+   "war": -0.03
   },
   {
    "player": "TB",
@@ -2236,8 +2236,8 @@
    "opp_record": "6-3",
    "opp_seed": 3,
    "chance": 0.696,
-   "proj": 160.51,
-   "opp_proj": 114.93
+   "proj": 160.61,
+   "opp_proj": 115.01
   },
   {
    "week": 11,
@@ -2275,8 +2275,8 @@
  "injuries": {
   "games": 27,
   "players": 12,
-  "lost": 54.64,
-  "rank": 5,
+  "lost": 38.5,
+  "rank": 6,
   "games_rank": 5,
   "of": 12,
   "rows": [
@@ -2285,7 +2285,7 @@
     "name": "Davante Adams",
     "pos": "WR",
     "missed": 3,
-    "lost": 24.15,
+    "lost": 20.79,
     "injuries": [
      "Hamstring"
     ],
@@ -2298,48 +2298,6 @@
      "IR"
     ],
     "gs": 5
-   },
-   {
-    "player": "13296",
-    "name": "Caleb Douglas",
-    "pos": "WR",
-    "missed": 3,
-    "lost": 8.49,
-    "injuries": [
-     "Ankle"
-    ],
-    "weeks": [
-     3,
-     4,
-     5
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 0
-   },
-   {
-    "player": "11638",
-    "name": "Ricky Pearsall",
-    "pos": "WR",
-    "missed": 7,
-    "lost": 5.67,
-    "injuries": [
-     "Knee - PCL"
-    ],
-    "weeks": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     6,
-     7
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 0
    },
    {
     "player": "12489",
@@ -2363,11 +2321,30 @@
     "gs": 0
    },
    {
+    "player": "13296",
+    "name": "Caleb Douglas",
+    "pos": "WR",
+    "missed": 3,
+    "lost": 5.13,
+    "injuries": [
+     "Ankle"
+    ],
+    "weeks": [
+     3,
+     4,
+     5
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 0
+   },
+   {
     "player": "8146",
     "name": "Garrett Wilson",
     "pos": "WR",
     "missed": 1,
-    "lost": 5.17,
+    "lost": 4.05,
     "injuries": [
      "Concussion"
     ],
@@ -2384,7 +2361,7 @@
     "name": "Emeka Egbuka",
     "pos": "WR",
     "missed": 2,
-    "lost": 3.98,
+    "lost": 1.74,
     "injuries": [
      "Concussion",
      "Foot"
@@ -2416,16 +2393,22 @@
     "gs": 0
    },
    {
-    "player": "12536",
-    "name": "Jaylin Noel",
+    "player": "11638",
+    "name": "Ricky Pearsall",
     "pos": "WR",
-    "missed": 1,
-    "lost": 0.39,
+    "missed": 7,
+    "lost": 0.0,
     "injuries": [
-     "Toe"
+     "Knee - PCL"
     ],
     "weeks": [
-     9
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
     ],
     "kinds": [
      "IR"
@@ -2483,6 +2466,23 @@
     ],
     "kinds": [
      "Doubtful"
+    ],
+    "gs": 0
+   },
+   {
+    "player": "12536",
+    "name": "Jaylin Noel",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Toe"
+    ],
+    "weeks": [
+     9
+    ],
+    "kinds": [
+     "IR"
     ],
     "gs": 0
    },

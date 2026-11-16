@@ -914,11 +914,20 @@
   {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 942,
+   "score": 941,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
    "war": -0.14
+  },
+  {
+   "player": "10213",
+   "name": "Tre Tucker",
+   "score": 891,
+   "gs": 16,
+   "pts": 166.9,
+   "ppg": 10.43,
+   "war": -0.03
   },
   {
    "player": "1426",
@@ -930,31 +939,22 @@
    "war": -0.37
   },
   {
-   "player": "10213",
-   "name": "Tre Tucker",
-   "score": 886,
-   "gs": 16,
-   "pts": 166.9,
-   "ppg": 10.43,
-   "war": 0.04
-  },
-  {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 884,
+   "score": 885,
    "gs": 25,
    "pts": 260.8,
    "ppg": 10.43,
-   "war": -0.12
+   "war": -0.15
   },
   {
-   "player": "9502",
-   "name": "Tank Dell",
+   "player": "8121",
+   "name": "Romeo Doubs",
    "score": 875,
-   "gs": 19,
-   "pts": 232.3,
-   "ppg": 12.23,
-   "war": 0.06
+   "gs": 25,
+   "pts": 274.8,
+   "ppg": 10.99,
+   "war": -0.05
   }
  ],
  "status": {
@@ -986,7 +986,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 379,
+   "rank": 380,
    "of": 420
   },
   {
@@ -995,7 +995,7 @@
    "stat": "VOR",
    "value": -25.0,
    "digits": 1,
-   "rank": 379,
+   "rank": 380,
    "of": 420
   },
   {
@@ -1058,7 +1058,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 113,
+   "rank": 112,
    "of": 126
   },
   {
@@ -1234,7 +1234,7 @@
  ],
  "hof": {
   "score": 5.0,
-  "rank": 198,
+  "rank": 197,
   "of": 420,
   "war": 0.0,
   "starts": 5.0,

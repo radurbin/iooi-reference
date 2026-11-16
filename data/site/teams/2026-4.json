@@ -235,8 +235,8 @@
    "bench_pts": 21.0,
    "wins": 3,
    "paa": 33.32,
-   "vor": 70.9,
-   "war": 0.84
+   "vor": 61.94,
+   "war": 0.73
   },
   {
    "player": "5967",
@@ -265,8 +265,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 0.09,
-   "vor": 37.7,
-   "war": 0.45
+   "vor": 28.74,
+   "war": 0.34
   },
   {
    "player": "6797",
@@ -295,8 +295,8 @@
    "bench_pts": 15.2,
    "wins": 3,
    "paa": -13.57,
-   "vor": -0.44,
-   "war": -0.01
+   "vor": 5.38,
+   "war": 0.06
   },
   {
    "player": "7839",
@@ -310,7 +310,7 @@
    "bench_pts": 5.0,
    "wins": 1,
    "paa": 10.63,
-   "vor": 8.7,
+   "vor": 8.15,
    "war": 0.1
   },
   {
@@ -325,8 +325,8 @@
    "bench_pts": 62.6,
    "wins": 2,
    "paa": -21.41,
-   "vor": 2.4,
-   "war": 0.03
+   "vor": -3.2,
+   "war": -0.04
   },
   {
    "player": "12534",
@@ -370,8 +370,8 @@
    "bench_pts": 59.0,
    "wins": 2,
    "paa": -9.11,
-   "vor": 2.9,
-   "war": 0.03
+   "vor": -0.46,
+   "war": -0.01
   },
   {
    "player": "2505",
@@ -385,8 +385,8 @@
    "bench_pts": 51.8,
    "wins": 0,
    "paa": 0.66,
-   "vor": 5.72,
-   "war": 0.07
+   "vor": 7.66,
+   "war": 0.09
   },
   {
    "player": "8408",
@@ -430,8 +430,8 @@
    "bench_pts": 45.7,
    "wins": 0,
    "paa": 1.98,
-   "vor": 6.4,
-   "war": 0.08
+   "vor": 5.28,
+   "war": 0.06
   },
   {
    "player": "4037",
@@ -445,8 +445,8 @@
    "bench_pts": 43.2,
    "wins": 1,
    "paa": -25.32,
-   "vor": -12.5,
-   "war": -0.15
+   "vor": -15.86,
+   "war": -0.19
   },
   {
    "player": "650",
@@ -460,8 +460,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -5.55,
-   "vor": -7.06,
-   "war": -0.08
+   "vor": -7.28,
+   "war": -0.09
   },
   {
    "player": "CAR",
@@ -490,8 +490,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -3.07,
-   "vor": -4.09,
-   "war": -0.05
+   "vor": -3.12,
+   "war": -0.04
   },
   {
    "player": "13414",
@@ -1670,7 +1670,7 @@
    "opp_record": "1-8",
    "opp_seed": 12,
    "chance": 0.597,
-   "proj": 88.78,
+   "proj": 88.96,
    "opp_proj": 101.85
   },
   {
@@ -1709,8 +1709,8 @@
  "injuries": {
   "games": 29,
   "players": 6,
-  "lost": 60.25,
-  "rank": 3,
+  "lost": 48.53,
+  "rank": 4,
   "games_rank": 4,
   "of": 12,
   "rows": [
@@ -1741,7 +1741,7 @@
     "name": "Deebo Samuel Sr.",
     "pos": "WR",
     "missed": 3,
-    "lost": 16.14,
+    "lost": 12.78,
     "injuries": [
      "Hamstring"
     ],
@@ -1760,7 +1760,7 @@
     "name": "Alec Pierce",
     "pos": "WR",
     "missed": 7,
-    "lost": 10.99,
+    "lost": 3.15,
     "injuries": [
      "Heel"
     ],
@@ -1772,23 +1772,6 @@
      7,
      8,
      9
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 0
-   },
-   {
-    "player": "4177",
-    "name": "Mack Hollins",
-    "pos": "WR",
-    "missed": 1,
-    "lost": 0.52,
-    "injuries": [
-     "Calf"
-    ],
-    "weeks": [
-     5
     ],
     "kinds": [
      "IR"
@@ -1839,6 +1822,23 @@
      "IR"
     ],
     "gs": 2
+   },
+   {
+    "player": "4177",
+    "name": "Mack Hollins",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Calf"
+    ],
+    "weeks": [
+     5
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 0
    }
   ],
   "by_week": [

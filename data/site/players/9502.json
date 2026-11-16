@@ -1225,20 +1225,20 @@
   {
    "player": "10222",
    "name": "Jayden Reed",
-   "score": 969,
+   "score": 970,
    "gs": 18,
    "pts": 222.6,
    "ppg": 12.37,
-   "war": 0.17
+   "war": 0.16
   },
   {
    "player": "8148",
    "name": "Jameson Williams",
-   "score": 943,
+   "score": 947,
    "gs": 18,
    "pts": 224.1,
    "ppg": 12.45,
-   "war": 0.34
+   "war": 0.31
   },
   {
    "player": "2309",
@@ -1252,20 +1252,20 @@
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 896,
+   "score": 904,
    "gs": 23,
    "pts": 274.7,
    "ppg": 11.94,
-   "war": 0.33
+   "war": 0.21
   },
   {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 885,
+   "score": 888,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
-   "war": 0.42
+   "war": 0.38
   }
  ],
  "status": {
@@ -1298,7 +1298,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 191,
+   "rank": 189,
    "of": 420
   },
   {
@@ -1307,7 +1307,7 @@
    "stat": "VOR",
    "value": 4.8,
    "digits": 1,
-   "rank": 196,
+   "rank": 195,
    "of": 420
   },
   {
@@ -1370,7 +1370,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 51,
+   "rank": 50,
    "of": 126
   },
   {
@@ -1476,7 +1476,7 @@
  ],
  "hof": {
   "score": 5.35,
-  "rank": 188,
+  "rank": 190,
   "of": 420,
   "war": 0.6,
   "starts": 4.75,
@@ -2033,7 +2033,7 @@
     "season": "2026",
     "nfl": "HOU",
     "missed": 6,
-    "lost": 7.38,
+    "lost": 0.66,
     "injuries": [
      "Knee"
     ],
@@ -2257,7 +2257,7 @@
      }
     ],
     "rostered": 6,
-    "lost": 7.38
+    "lost": 0.66
    }
   ],
   "now": null

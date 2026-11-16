@@ -64,8 +64,8 @@
    "best": 23.0,
    "wins": 0,
    "paa": 0.66,
-   "vor": 5.72,
-   "war": 0.07
+   "vor": 7.66,
+   "war": 0.09
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 23.0,
   "wins": 8,
   "paa": -67.12,
-  "vor": -47.72,
-  "war": -0.56
+  "vor": -45.78,
+  "war": -0.54
  },
  "nfl": [
   {
@@ -100,7 +100,7 @@
    "team": "CAR",
    "g": 9,
    "pts": 81.3,
-   "rank": 18
+   "rank": 19
   }
  ],
  "history": [
@@ -856,8 +856,8 @@
    "proj": 7.66,
    "won": false,
    "paa": -10.75,
-   "vor": -7.59,
-   "war": -0.08970456445913738
+   "vor": -6.62,
+   "war": -0.07824034475882602
   },
   {
    "season": "2026",
@@ -875,15 +875,15 @@
    "proj": 6.54,
    "won": false,
    "paa": 11.41,
-   "vor": 13.31,
-   "war": 0.15730800434138584
+   "vor": 14.28,
+   "war": 0.1687722240416972
   }
  ],
  "similar": [
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 949,
+   "score": 946,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -892,11 +892,11 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 822,
+   "score": 820,
    "gs": 18,
    "pts": 167.8,
    "ppg": 9.32,
-   "war": -0.16
+   "war": -0.12
   },
   {
    "player": "3214",
@@ -905,21 +905,21 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.11
+   "war": -0.08
   },
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 713,
+   "score": 714,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.19
+   "war": -0.18
   },
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 709,
+   "score": 711,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -954,18 +954,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.56,
+   "value": -0.54,
    "digits": 2,
-   "rank": 403,
+   "rank": 402,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -47.7,
+   "value": -45.8,
    "digits": 1,
-   "rank": 403,
+   "rank": 402,
    "of": 420
   },
   {
@@ -1026,7 +1026,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.56,
+   "value": -0.54,
    "digits": 2,
    "rank": 48,
    "of": 52
@@ -1055,9 +1055,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.22,
+   "value": -0.2,
    "digits": 2,
-   "rank": 72,
+   "rank": 68,
    "of": 82,
    "franchise": 4
   },
@@ -1204,7 +1204,7 @@
  ],
  "hof": {
   "score": 5.25,
-  "rank": 191,
+  "rank": 192,
   "of": 420,
   "war": 0.0,
   "starts": 5.25,

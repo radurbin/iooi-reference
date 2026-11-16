@@ -57,8 +57,8 @@
    "best": 16.4,
    "wins": 2,
    "paa": -9.11,
-   "vor": 2.9,
-   "war": 0.03
+   "vor": -0.46,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 16.4,
   "wins": 2,
   "paa": -9.11,
-  "vor": 2.9,
-  "war": 0.03
+  "vor": -0.46,
+  "war": -0.01
  },
  "nfl": [
   {
@@ -93,7 +93,7 @@
    "team": "NO",
    "g": 9,
    "pts": 92.9,
-   "rank": 30
+   "rank": 31
   }
  ],
  "history": [
@@ -698,8 +698,8 @@
    "proj": 10.02,
    "won": false,
    "paa": -6.72,
-   "vor": -2.3,
-   "war": -0.02718320135125375
+   "vor": -3.42,
+   "war": -0.04042023853099471
   },
   {
    "season": "2026",
@@ -749,8 +749,8 @@
    "proj": 10.64,
    "won": true,
    "paa": -5.2,
-   "vor": -2.0,
-   "war": -0.023637566392394567
+   "vor": -3.12,
+   "war": -0.036874603572135525
   },
   {
    "season": "2026",
@@ -768,8 +768,8 @@
    "proj": 10.16,
    "won": true,
    "paa": 2.81,
-   "vor": 7.2,
-   "war": 0.08509523901262045
+   "vor": 6.08,
+   "war": 0.07185820183287948
   },
   {
    "season": "2026",
@@ -832,18 +832,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.03,
+   "value": -0.01,
    "digits": 2,
-   "rank": 207,
+   "rank": 225,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 2.9,
+   "value": -0.5,
    "digits": 1,
-   "rank": 207,
+   "rank": 225,
    "of": 420
   },
   {
@@ -895,7 +895,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.03,
+   "value": -0.01,
    "digits": 2,
    "rank": 54,
    "of": 126
@@ -924,9 +924,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 0.03,
+   "value": -0.01,
    "digits": 2,
-   "rank": 33,
+   "rank": 41,
    "of": 82,
    "franchise": 4
   },
@@ -973,10 +973,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 1.05,
-  "rank": 303,
+  "score": 0.75,
+  "rank": 317,
   "of": 420,
-  "war": 0.3,
+  "war": 0.0,
   "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1184,17 +1184,17 @@
    [
     "2026",
     7,
-    1.05
+    0.75
    ],
    [
     "2026",
     8,
-    1.05
+    0.75
    ],
    [
     "2026",
     9,
-    1.05
+    0.75
    ]
   ],
   "benchmark": 100

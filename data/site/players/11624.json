@@ -80,8 +80,8 @@
    "best": 11.0,
    "wins": 0,
    "paa": -32.94,
-   "vor": -10.3,
-   "war": -0.12
+   "vor": -15.9,
+   "war": -0.19
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 20.8,
   "wins": 5,
   "paa": -67.78,
-  "vor": -21.2,
-  "war": -0.25
+  "vor": -26.8,
+  "war": -0.32
  },
  "nfl": [
   {
@@ -806,8 +806,8 @@
    "proj": 10.52,
    "won": false,
    "paa": -8.12,
-   "vor": -3.7,
-   "war": -0.04372949782592995
+   "vor": -4.82,
+   "war": -0.05696653500567091
   },
   {
    "season": "2026",
@@ -825,8 +825,8 @@
    "proj": 9.8,
    "won": false,
    "paa": -3.65,
-   "vor": 1.8,
-   "war": 0.021273809753155112
+   "vor": 0.68,
+   "war": 0.008036772573414154
   },
   {
    "season": "2026",
@@ -876,8 +876,8 @@
    "proj": 11.21,
    "won": false,
    "paa": -9.49,
-   "vor": -5.1,
-   "war": -0.060275794300606145
+   "vor": -6.22,
+   "war": -0.0735128314803471
   },
   {
    "season": "2026",
@@ -895,8 +895,8 @@
    "proj": 9.54,
    "won": false,
    "paa": -8.84,
-   "vor": -4.9,
-   "war": -0.05791203766136669
+   "vor": -6.02,
+   "war": -0.07114907484110765
   },
   {
    "season": "2026",
@@ -914,8 +914,8 @@
    "proj": 10.37,
    "won": false,
    "paa": -2.84,
-   "vor": 1.6,
-   "war": 0.018910053113915654
+   "vor": 0.48,
+   "war": 0.005673015934174696
   }
  ],
  "similar": [
@@ -926,12 +926,12 @@
    "gs": 18,
    "pts": 155.5,
    "ppg": 8.64,
-   "war": -0.51
+   "war": -0.57
   },
   {
    "player": "2374",
    "name": "Tyler Lockett",
-   "score": 911,
+   "score": 918,
    "gs": 15,
    "pts": 132.1,
    "ppg": 8.81,
@@ -944,12 +944,12 @@
    "gs": 16,
    "pts": 166.9,
    "ppg": 10.43,
-   "war": 0.04
+   "war": -0.03
   },
   {
    "player": "8676",
    "name": "Rashid Shaheed",
-   "score": 903,
+   "score": 900,
    "gs": 14,
    "pts": 146.6,
    "ppg": 10.47,
@@ -958,11 +958,11 @@
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 885,
+   "score": 886,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.39
+   "war": -0.43
   }
  ],
  "status": {
@@ -993,18 +993,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.25,
+   "value": -0.32,
    "digits": 2,
-   "rank": 364,
+   "rank": 384,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -21.2,
+   "value": -26.8,
    "digits": 1,
-   "rank": 364,
+   "rank": 384,
    "of": 420
   },
   {
@@ -1065,9 +1065,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.25,
+   "value": -0.32,
    "digits": 2,
-   "rank": 107,
+   "rank": 114,
    "of": 126
   },
   {
@@ -1174,7 +1174,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.4,
+   "value": -0.47,
    "digits": 2,
    "rank": 73,
    "of": 73,
@@ -1283,7 +1283,7 @@
  ],
  "hof": {
   "score": 4.25,
-  "rank": 209,
+  "rank": 208,
   "of": 420,
   "war": 0.0,
   "starts": 4.25,

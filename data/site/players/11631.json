@@ -68,8 +68,8 @@
    "best": 9.7,
    "wins": 1,
    "paa": -16.77,
-   "vor": -6.9,
-   "war": -0.08
+   "vor": -9.14,
+   "war": -0.11
   }
  ],
  "totals": {
@@ -81,8 +81,8 @@
   "best": 32.5,
   "wins": 7,
   "paa": -73.95,
-  "vor": -10.2,
-  "war": -0.12
+  "vor": -12.44,
+  "war": -0.15
  },
  "nfl": [
   {
@@ -777,8 +777,8 @@
    "proj": 9.08,
    "won": false,
    "paa": -11.82,
-   "vor": -7.4,
-   "war": -0.0874589956518599
+   "vor": -8.52,
+   "war": -0.10069603283160085
   },
   {
    "season": "2026",
@@ -796,8 +796,8 @@
    "proj": 7.74,
    "won": true,
    "paa": -4.95,
-   "vor": 0.5,
-   "war": 0.005909391598098642
+   "vor": -0.62,
+   "war": -0.007327645581642316
   },
   {
    "season": "2026",
@@ -888,12 +888,12 @@
    "gs": 26,
    "pts": 276.7,
    "ppg": 10.64,
-   "war": -0.1
+   "war": -0.12
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 951,
+   "score": 955,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -902,16 +902,16 @@
   {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 950,
+   "score": 953,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": 0.02
+   "war": -0.05
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 884,
+   "score": 885,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -920,11 +920,11 @@
   {
    "player": "11620",
    "name": "Rome Odunze",
-   "score": 880,
+   "score": 878,
    "gs": 24,
    "pts": 220.3,
    "ppg": 9.18,
-   "war": -0.48
+   "war": -0.52
   }
  ],
  "status": {
@@ -955,18 +955,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.15,
    "digits": 2,
-   "rank": 310,
+   "rank": 330,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -10.2,
+   "value": -12.4,
    "digits": 1,
-   "rank": 313,
+   "rank": 332,
    "of": 420
   },
   {
@@ -1027,9 +1027,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.15,
    "digits": 2,
-   "rank": 88,
+   "rank": 96,
    "of": 126
   },
   {
@@ -1056,7 +1056,7 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.15,
    "digits": 2,
    "rank": 35,
    "of": 48,
@@ -1165,7 +1165,7 @@
  ],
  "hof": {
   "score": 8.25,
-  "rank": 148,
+  "rank": 147,
   "of": 420,
   "war": 0.0,
   "starts": 6.25,

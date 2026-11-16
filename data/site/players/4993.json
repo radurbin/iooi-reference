@@ -73,8 +73,8 @@
    "best": 3.1,
    "wins": 1,
    "paa": -8.49,
-   "vor": -6.59,
-   "war": -0.08
+   "vor": -5.62,
+   "war": -0.07
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 7.0,
   "wins": 2,
   "paa": -43.3,
-  "vor": -41.13,
-  "war": -0.49
+  "vor": -40.16,
+  "war": -0.47
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "CIN",
    "g": 9,
    "pts": 82.1,
-   "rank": 17
+   "rank": 18
   }
  ],
  "history": [
@@ -515,8 +515,8 @@
    "proj": 10.08,
    "won": true,
    "paa": -8.49,
-   "vor": -6.59,
-   "war": -0.0778857812629401
+   "vor": -5.62,
+   "war": -0.06642156156262874
   }
  ],
  "status": {
@@ -547,18 +547,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.49,
+   "value": -0.47,
    "digits": 2,
-   "rank": 399,
+   "rank": 397,
    "of": 420
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -41.1,
+   "value": -40.2,
    "digits": 1,
-   "rank": 399,
+   "rank": 398,
    "of": 420
   },
   {
@@ -610,7 +610,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.49,
+   "value": -0.47,
    "digits": 2,
    "rank": 47,
    "of": 52
@@ -679,9 +679,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.08,
+   "value": -0.07,
    "digits": 2,
-   "rank": 43,
+   "rank": 42,
    "of": 67,
    "franchise": 9
   },
