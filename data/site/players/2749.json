@@ -696,49 +696,49 @@
  ],
  "similar": [
   {
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "score": 975,
+   "gs": 14,
+   "pts": 220.1,
+   "ppg": 15.72,
+   "war": 1.0
+  },
+  {
    "player": "7021",
    "name": "Rico Dowdle",
-   "score": 932,
+   "score": 933,
    "gs": 17,
    "pts": 263.2,
    "ppg": 15.48,
    "war": 1.34
   },
   {
-   "player": "12481",
-   "name": "Cam Skattebo",
-   "score": 908,
-   "gs": 13,
-   "pts": 191.1,
-   "ppg": 14.7,
-   "war": 0.84
+   "player": "12490",
+   "name": "Bhayshul Tuten",
+   "score": 896,
+   "gs": 12,
+   "pts": 177.8,
+   "ppg": 14.82,
+   "war": 0.68
   },
   {
    "player": "8228",
    "name": "Jaylen Warren",
-   "score": 875,
-   "gs": 20,
-   "pts": 302.3,
-   "ppg": 15.12,
-   "war": 1.4
-  },
-  {
-   "player": "12490",
-   "name": "Bhayshul Tuten",
-   "score": 844,
-   "gs": 11,
-   "pts": 154.9,
-   "ppg": 14.08,
-   "war": 0.6
+   "score": 859,
+   "gs": 21,
+   "pts": 312.1,
+   "ppg": 14.86,
+   "war": 1.33
   },
   {
    "player": "12527",
    "name": "Ashton Jeanty",
-   "score": 841,
-   "gs": 21,
-   "pts": 330.4,
-   "ppg": 15.73,
-   "war": 1.66
+   "score": 831,
+   "gs": 22,
+   "pts": 341.7,
+   "ppg": 15.53,
+   "war": 1.6
   }
  ],
  "status": {
@@ -754,7 +754,7 @@
    "value": 238.3,
    "digits": 2,
    "rank": 131,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -762,8 +762,8 @@
    "stat": "Games Started",
    "value": 15,
    "digits": 0,
-   "rank": 174,
-   "of": 420
+   "rank": 176,
+   "of": 424
   },
   {
    "group": "Career",
@@ -771,8 +771,8 @@
    "stat": "WAR",
    "value": 0.97,
    "digits": 2,
-   "rank": 79,
-   "of": 420
+   "rank": 82,
+   "of": 424
   },
   {
    "group": "Career",
@@ -780,8 +780,8 @@
    "stat": "VOR",
    "value": 82.4,
    "digits": 1,
-   "rank": 79,
-   "of": 420
+   "rank": 82,
+   "of": 424
   },
   {
    "group": "Career",
@@ -790,7 +790,7 @@
    "value": 37.2,
    "digits": 1,
    "rank": 57,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -799,7 +799,7 @@
    "value": 45.2,
    "digits": 2,
    "rank": 12,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -816,8 +816,8 @@
    "stat": "Bench Points",
    "value": 96.4,
    "digits": 2,
-   "rank": 177,
-   "of": 511
+   "rank": 178,
+   "of": 515
   },
   {
    "group": "Career",
@@ -843,7 +843,7 @@
    "stat": "WAR",
    "value": 0.97,
    "digits": 2,
-   "rank": 29,
+   "rank": 30,
    "of": 100
   },
   {
@@ -862,7 +862,7 @@
    "stat": "Games Started",
    "value": 15,
    "digits": 0,
-   "rank": 15,
+   "rank": 16,
    "of": 40,
    "franchise": 6
   },
@@ -932,8 +932,8 @@
    "stat": "Points, 2023",
    "value": 229.0,
    "digits": 2,
-   "rank": 78,
-   "of": 1010,
+   "rank": 80,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -942,15 +942,15 @@
    "stat": "Points, 2024",
    "value": 9.3,
    "digits": 2,
-   "rank": 870,
-   "of": 1010,
+   "rank": 876,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 16.45,
-  "rank": 88,
-  "of": 420,
+  "rank": 89,
+  "of": 424,
   "war": 9.7,
   "starts": 3.75,
   "black_ink": 0.0,
@@ -1254,6 +1254,11 @@
    [
     "2026",
     9,
+    16.45
+   ],
+   [
+    "2026",
+    10,
     16.45
    ]
   ],

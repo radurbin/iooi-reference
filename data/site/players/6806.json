@@ -88,7 +88,7 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "DEN",
-   "g": 9,
+   "g": 10,
    "gs": 1,
    "pts": 8.9,
    "bench_pts": 63.4,
@@ -96,12 +96,12 @@
    "best": 8.9,
    "wins": 0,
    "paa": -8.67,
-   "vor": -0.9,
-   "war": -0.01
+   "vor": -1.59,
+   "war": -0.02
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 22,
   "pts": 270.6,
   "bench_pts": 95.3,
@@ -109,8 +109,8 @@
   "best": 24.5,
   "wins": 8,
   "paa": -53.47,
-  "vor": 70.43,
-  "war": 0.83
+  "vor": 69.74,
+  "war": 0.82
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "DEN",
    "g": 9,
    "pts": 72.3,
-   "rank": 33
+   "rank": 34
   }
  ],
  "history": [
@@ -1178,8 +1178,8 @@
    "proj": 11.16,
    "won": false,
    "paa": -8.67,
-   "vor": -0.9,
-   "war": -0.010636904876577556
+   "vor": -1.59,
+   "war": -0.01879186528195368
   },
   {
    "season": "2026",
@@ -1212,40 +1212,56 @@
    "pts": 3.6,
    "proj": 10.57,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
+   "player": "12512",
+   "name": "Quinshon Judkins",
+   "score": 939,
+   "gs": 19,
+   "pts": 236.0,
+   "ppg": 12.42,
+   "war": 0.68
+  },
+  {
    "player": "4663",
    "name": "Austin Ekeler",
-   "score": 923,
+   "score": 925,
    "gs": 24,
    "pts": 276.4,
    "ppg": 11.52,
    "war": 0.46
   },
   {
-   "player": "12512",
-   "name": "Quinshon Judkins",
-   "score": 916,
-   "gs": 18,
-   "pts": 218.9,
-   "ppg": 12.16,
-   "war": 0.66
-  },
-  {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 893,
+   "score": 895,
    "gs": 27,
    "pts": 342.3,
    "ppg": 12.68,
-   "war": 0.9
+   "war": 0.87
   },
   {
    "player": "4098",
    "name": "Kareem Hunt",
-   "score": 869,
+   "score": 871,
    "gs": 16,
    "pts": 191.3,
    "ppg": 11.96,
@@ -1254,7 +1270,7 @@
   {
    "player": "8205",
    "name": "Isiah Pacheco",
-   "score": 855,
+   "score": 857,
    "gs": 15,
    "pts": 189.5,
    "ppg": 12.63,
@@ -1283,8 +1299,8 @@
    "stat": "Points",
    "value": 270.6,
    "digits": 2,
-   "rank": 117,
-   "of": 420
+   "rank": 118,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1292,26 +1308,26 @@
    "stat": "Games Started",
    "value": 22,
    "digits": 0,
-   "rank": 131,
-   "of": 420
+   "rank": 133,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.83,
+   "value": 0.82,
    "digits": 2,
-   "rank": 89,
-   "of": 420
+   "rank": 90,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 70.4,
+   "value": 69.7,
    "digits": 1,
-   "rank": 89,
-   "of": 420
+   "rank": 90,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1319,8 +1335,8 @@
    "stat": "PAA",
    "value": -53.5,
    "digits": 1,
-   "rank": 369,
-   "of": 420
+   "rank": 371,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1328,8 +1344,8 @@
    "stat": "Best Game",
    "value": 24.5,
    "digits": 2,
-   "rank": 169,
-   "of": 420
+   "rank": 170,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1337,7 +1353,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 12.3,
    "digits": 2,
-   "rank": 120,
+   "rank": 121,
    "of": 256
   },
   {
@@ -1346,8 +1362,8 @@
    "stat": "Bench Points",
    "value": 95.3,
    "digits": 2,
-   "rank": 182,
-   "of": 511
+   "rank": 183,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1371,7 +1387,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.83,
+   "value": 0.82,
    "digits": 2,
    "rank": 32,
    "of": 100
@@ -1402,7 +1418,7 @@
    "stat": "WAR",
    "value": 0.27,
    "digits": 2,
-   "rank": 17,
+   "rank": 16,
    "of": 82,
    "franchise": 4
   },
@@ -1462,7 +1478,7 @@
    "stat": "Points",
    "value": 58.7,
    "digits": 2,
-   "rank": 31,
+   "rank": 32,
    "of": 67,
    "franchise": 9
   },
@@ -1480,9 +1496,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 0.07,
+   "value": 0.06,
    "digits": 2,
-   "rank": 19,
+   "rank": 22,
    "of": 67,
    "franchise": 9
   },
@@ -1562,8 +1578,8 @@
    "stat": "Points",
    "value": 8.9,
    "digits": 2,
-   "rank": 195,
-   "of": 233,
+   "rank": 201,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1582,8 +1598,8 @@
    "stat": "Points, 2024",
    "value": 143.1,
    "digits": 2,
-   "rank": 241,
-   "of": 1010,
+   "rank": 247,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1592,8 +1608,8 @@
    "stat": "Points, 2025",
    "value": 106.9,
    "digits": 2,
-   "rank": 339,
-   "of": 1010,
+   "rank": 343,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1602,8 +1618,8 @@
    "stat": "Points, 2023",
    "value": 11.7,
    "digits": 2,
-   "rank": 842,
-   "of": 1010,
+   "rank": 848,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1612,16 +1628,16 @@
    "stat": "Points, 2026",
    "value": 8.9,
    "digits": 2,
-   "rank": 876,
-   "of": 1010,
+   "rank": 882,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 13.8,
-  "rank": 102,
-  "of": 420,
-  "war": 8.3,
+  "score": 13.7,
+  "rank": 104,
+  "of": 424,
+  "war": 8.2,
   "starts": 5.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1914,17 +1930,22 @@
    [
     "2026",
     7,
-    13.8
+    13.7
    ],
    [
     "2026",
     8,
-    13.8
+    13.7
    ],
    [
     "2026",
     9,
-    13.8
+    13.7
+   ],
+   [
+    "2026",
+    10,
+    13.7
    ]
   ],
   "benchmark": 100

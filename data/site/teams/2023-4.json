@@ -1357,11 +1357,11 @@
    "original": 4,
    "player": "6797",
    "pos": "QB",
-   "starts_team": 51,
-   "pts_team": 827.24,
-   "starts_league": 51,
-   "pts_league": 827.24,
-   "nfl_pts": 866.94
+   "starts_team": 52,
+   "pts_team": 844.2,
+   "starts_league": 52,
+   "pts_league": 844.2,
+   "nfl_pts": 883.9
   },
   {
    "round": 2,
@@ -1397,8 +1397,8 @@
    "pos": "RB",
    "starts_team": 16,
    "pts_team": 237.6,
-   "starts_league": 42,
-   "pts_league": 540.3,
+   "starts_league": 43,
+   "pts_league": 565.1,
    "nfl_pts": 732.9
   },
   {
@@ -1473,8 +1473,8 @@
    "pos": "TE",
    "starts_team": 3,
    "pts_team": 12.2,
-   "starts_league": 18,
-   "pts_league": 167.8,
+   "starts_league": 19,
+   "pts_league": 179.3,
    "nfl_pts": 414.9
   },
   {
@@ -1532,7 +1532,7 @@
    "pts_team": 0.0,
    "starts_league": 0,
    "pts_league": 0.0,
-   "nfl_pts": 346.3
+   "nfl_pts": 353.5
   },
   {
    "round": 11,
@@ -1766,27 +1766,17 @@
    "season": "2024",
    "franchise": 10,
    "team": "BAHAHAHA",
-   "score": 883,
+   "score": 887,
    "w": 6,
    "l": 8,
    "ppg": 127.5,
    "result": "4th"
   },
   {
-   "season": "2026",
-   "franchise": 11,
-   "team": "BubbaNASTIES",
-   "score": 858,
-   "w": 4,
-   "l": 5,
-   "ppg": 132.62,
-   "result": null
-  },
-  {
    "season": "2023",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 817,
+   "score": 820,
    "w": 6,
    "l": 8,
    "ppg": 127.61,
@@ -1806,11 +1796,21 @@
    "season": "2024",
    "franchise": 12,
    "team": "Happy Feet",
-   "score": 801,
+   "score": 805,
    "w": 5,
    "l": 9,
    "ppg": 125.46,
    "result": "8th"
+  },
+  {
+   "season": "2026",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "score": 753,
+   "w": 5,
+   "l": 5,
+   "ppg": 133.78,
+   "result": null
   }
  ],
  "pickups": [
@@ -2652,8 +2652,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 15,
-   "pts": 155.6,
+   "gs": 16,
+   "pts": 167.1,
    "next": 7,
    "next_team": "young sexy central"
   },
@@ -2764,8 +2764,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 2,
-   "pts": 23.0,
+   "gs": 3,
+   "pts": 17.0,
    "next": 3,
    "next_team": "Kolkata Kommies"
   },
@@ -3034,22 +3034,6 @@
   }
  ],
  "record_entries": [
-  {
-   "list": "Highest RB Scores",
-   "scope": "league",
-   "rank": 10,
-   "value": "41.70",
-   "href": "records.html#highest-player-scores-by-position",
-   "player": "4034",
-   "season": "2023",
-   "week": 15,
-   "game": "2023-15-2-4",
-   "franchise": 4,
-   "team": "Cooper Scoopers",
-   "managers": [
-    "tony"
-   ]
-  },
   {
    "list": "Highest DEF Scores",
    "scope": "league",

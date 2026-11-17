@@ -24,7 +24,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "SF",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.0,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 0.0,
@@ -215,6 +215,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -250,7 +266,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 7,
+    "rostered": 8,
     "games": [
      {
       "week": 2,
@@ -305,8 +321,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Ankle",
-      "franchise": null,
-      "team": null
+      "franchise": 3,
+      "team": "Kolkata Kommies"
      }
     ]
    }
@@ -338,7 +354,7 @@
       "team": "Kolkata Kommies"
      }
     ],
-    "rostered": 7,
+    "rostered": 8,
     "lost": 0.0
    }
   ],

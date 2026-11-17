@@ -110,7 +110,7 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "MIA",
-   "g": 9,
+   "g": 10,
    "gs": 3,
    "pts": 28.0,
    "bench_pts": 0.0,
@@ -118,12 +118,12 @@
    "best": 14.3,
    "wins": 2,
    "paa": -21.55,
-   "vor": -1.4,
-   "war": -0.02
+   "vor": -3.47,
+   "war": -0.04
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 37,
   "pts": 673.2,
   "bench_pts": 117.7,
@@ -131,8 +131,8 @@
   "best": 40.5,
   "wins": 23,
   "paa": 149.33,
-  "vor": 335.38,
-  "war": 3.96
+  "vor": 333.31,
+  "war": 3.94
  },
  "nfl": [
   {
@@ -1168,8 +1168,8 @@
    "proj": 18.0,
    "won": false,
    "paa": -8.23,
-   "vor": 1.9,
-   "war": 0.022455688072774836
+   "vor": 1.21,
+   "war": 0.014300727667398712
   },
   {
    "season": "2026",
@@ -1187,8 +1187,8 @@
    "proj": 18.19,
    "won": true,
    "paa": 0.92,
-   "vor": 4.5,
-   "war": 0.053184524382887774
+   "vor": 3.81,
+   "war": 0.04502956397751165
   },
   {
    "season": "2026",
@@ -1206,8 +1206,8 @@
    "proj": 17.79,
    "won": true,
    "paa": -14.24,
-   "vor": -7.8,
-   "war": -0.0921865089303388
+   "vor": -8.49,
+   "war": -0.10034146933571494
   },
   {
    "season": "2026",
@@ -1304,9 +1304,34 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
+  {
+   "player": "7594",
+   "name": "Chuba Hubbard",
+   "score": 823,
+   "gs": 34,
+   "pts": 578.4,
+   "ppg": 17.01,
+   "war": 2.95
+  },
   {
    "player": "8151",
    "name": "Kenneth Walker III",
@@ -1314,43 +1339,34 @@
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
-   "war": 3.38
+   "war": 3.32
   },
   {
    "player": "4035",
    "name": "Alvin Kamara",
-   "score": 776,
+   "score": 781,
    "gs": 30,
    "pts": 532.8,
    "ppg": 17.76,
    "war": 2.88
   },
   {
-   "player": "8138",
-   "name": "James Cook III",
-   "score": 762,
-   "gs": 48,
-   "pts": 822.0,
-   "ppg": 17.12,
-   "war": 4.31
-  },
-  {
    "player": "8150",
    "name": "Kyren Williams",
-   "score": 761,
-   "gs": 47,
-   "pts": 835.9,
-   "ppg": 17.79,
-   "war": 4.66
+   "score": 752,
+   "gs": 48,
+   "pts": 842.3,
+   "ppg": 17.55,
+   "war": 4.54
   },
   {
-   "player": "7594",
-   "name": "Chuba Hubbard",
-   "score": 759,
-   "gs": 33,
-   "pts": 541.5,
-   "ppg": 16.41,
-   "war": 2.7
+   "player": "5850",
+   "name": "Josh Jacobs",
+   "score": 747,
+   "gs": 45,
+   "pts": 685.5,
+   "ppg": 15.23,
+   "war": 3.05
   }
  ],
  "status": {
@@ -1365,8 +1381,8 @@
    "stat": "Points",
    "value": 673.2,
    "digits": 2,
-   "rank": 34,
-   "of": 420
+   "rank": 38,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1374,26 +1390,26 @@
    "stat": "Games Started",
    "value": 37,
    "digits": 0,
-   "rank": 57,
-   "of": 420
+   "rank": 60,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.96,
+   "value": 3.94,
    "digits": 2,
-   "rank": 16,
-   "of": 420
+   "rank": 17,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 335.4,
+   "value": 333.3,
    "digits": 1,
-   "rank": 16,
-   "of": 420
+   "rank": 17,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1401,8 +1417,8 @@
    "stat": "PAA",
    "value": 149.3,
    "digits": 1,
-   "rank": 17,
-   "of": 420
+   "rank": 16,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1410,8 +1426,8 @@
    "stat": "Best Game",
    "value": 40.5,
    "digits": 2,
-   "rank": 26,
-   "of": 420
+   "rank": 27,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1419,7 +1435,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 18.19,
    "digits": 2,
-   "rank": 19,
+   "rank": 20,
    "of": 256
   },
   {
@@ -1428,8 +1444,8 @@
    "stat": "Bench Points",
    "value": 117.7,
    "digits": 2,
-   "rank": 145,
-   "of": 511
+   "rank": 146,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1437,7 +1453,7 @@
    "stat": "Points",
    "value": 673.2,
    "digits": 2,
-   "rank": 12,
+   "rank": 13,
    "of": 100
   },
   {
@@ -1453,7 +1469,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 3.96,
+   "value": 3.94,
    "digits": 2,
    "rank": 8,
    "of": 100
@@ -1484,7 +1500,7 @@
    "stat": "WAR",
    "value": 0.32,
    "digits": 2,
-   "rank": 14,
+   "rank": 15,
    "of": 77,
    "franchise": 1
   },
@@ -1505,7 +1521,7 @@
    "value": 624.7,
    "digits": 2,
    "rank": 4,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1515,17 +1531,17 @@
    "value": 35,
    "digits": 0,
    "rank": 5,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 3.64,
+   "value": 3.62,
    "digits": 2,
    "rank": 4,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1604,8 +1620,8 @@
    "stat": "Points",
    "value": 28.0,
    "digits": 2,
-   "rank": 149,
-   "of": 233,
+   "rank": 154,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1614,7 +1630,7 @@
    "stat": "Points",
    "value": 28.0,
    "digits": 2,
-   "rank": 39,
+   "rank": 40,
    "of": 58,
    "season": "2026"
   },
@@ -1625,7 +1641,7 @@
    "value": 327.3,
    "digits": 2,
    "rank": 14,
-   "of": 1010,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1634,8 +1650,8 @@
    "stat": "Points, 2024",
    "value": 244.2,
    "digits": 2,
-   "rank": 64,
-   "of": 1010,
+   "rank": 66,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1644,8 +1660,8 @@
    "stat": "Points, 2023",
    "value": 73.7,
    "digits": 2,
-   "rank": 443,
-   "of": 1010,
+   "rank": 448,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1654,16 +1670,16 @@
    "stat": "Points, 2026",
    "value": 28.0,
    "digits": 2,
-   "rank": 690,
-   "of": 1010,
+   "rank": 695,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 58.85,
-  "rank": 15,
-  "of": 420,
-  "war": 39.6,
+  "score": 58.65,
+  "rank": 17,
+  "of": 424,
+  "war": 39.4,
   "starts": 9.25,
   "black_ink": 0.0,
   "awards": 10.0,
@@ -1926,47 +1942,52 @@
    [
     "2026",
     1,
-    58.75
+    58.65
    ],
    [
     "2026",
     2,
-    59.6
+    59.4
    ],
    [
     "2026",
     3,
-    58.85
+    58.65
    ],
    [
     "2026",
     4,
-    58.85
+    58.65
    ],
    [
     "2026",
     5,
-    58.85
+    58.65
    ],
    [
     "2026",
     6,
-    58.85
+    58.65
    ],
    [
     "2026",
     7,
-    58.85
+    58.65
    ],
    [
     "2026",
     8,
-    58.85
+    58.65
    ],
    [
     "2026",
     9,
-    58.85
+    58.65
+   ],
+   [
+    "2026",
+    10,
+    58.65
    ]
   ],
   "benchmark": 100
@@ -2047,7 +2068,7 @@
     "season": "2026",
     "nfl": "MIA",
     "missed": 6,
-    "lost": 44.5,
+    "lost": 49.26,
     "injuries": [
      "Knee - ACL"
     ],
@@ -2062,7 +2083,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 5,
+    "rostered": 6,
     "games": [
      {
       "week": 4,
@@ -2103,8 +2124,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Knee - ACL",
-      "franchise": null,
-      "team": null
+      "franchise": 5,
+      "team": "St. Brown VS Board💍"
      }
     ]
    }
@@ -2207,8 +2228,8 @@
       "team": "St. Brown VS Board💍"
      }
     ],
-    "rostered": 5,
-    "lost": 44.5
+    "rostered": 6,
+    "lost": 49.26
    }
   ],
   "now": {

@@ -72,7 +72,7 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "GB",
-   "g": 9,
+   "g": 10,
    "gs": 3,
    "pts": 47.4,
    "bench_pts": 0.0,
@@ -80,12 +80,12 @@
    "best": 25.3,
    "wins": 2,
    "paa": -0.4,
-   "vor": 18.0,
-   "war": 0.21
+   "vor": 15.93,
+   "war": 0.19
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 45,
   "pts": 685.5,
   "bench_pts": 16.8,
@@ -93,8 +93,8 @@
   "best": 32.0,
   "wins": 32,
   "paa": 59.89,
-  "vor": 260.45,
-  "war": 3.08
+  "vor": 258.38,
+  "war": 3.05
  },
  "nfl": [
   {
@@ -1207,8 +1207,8 @@
    "proj": 13.14,
    "won": true,
    "paa": 3.63,
-   "vor": 11.4,
-   "war": 0.13473412843664903
+   "vor": 10.71,
+   "war": 0.12657916803127292
   },
   {
    "season": "2026",
@@ -1226,8 +1226,8 @@
    "proj": 17.54,
    "won": true,
    "paa": 8.6,
-   "vor": 15.5,
-   "war": 0.1831911395410579
+   "vor": 14.81,
+   "war": 0.17503617913568179
   },
   {
    "season": "2026",
@@ -1245,37 +1245,53 @@
    "proj": 16.77,
    "won": false,
    "paa": -12.63,
-   "vor": -8.9,
-   "war": -0.10518717044615583
+   "vor": -9.59,
+   "war": -0.11334213085153194
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 938,
+   "score": 942,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
-   "war": 3.38
+   "war": 3.32
   },
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 934,
-   "gs": 46,
-   "pts": 667.96,
-   "ppg": 14.52,
-   "war": 2.75
+   "score": 938,
+   "gs": 47,
+   "pts": 684.61,
+   "ppg": 14.57,
+   "war": 2.8
   },
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 891,
-   "gs": 48,
-   "pts": 757.8,
-   "ppg": 15.79,
-   "war": 3.57
+   "score": 878,
+   "gs": 49,
+   "pts": 771.7,
+   "ppg": 15.75,
+   "war": 3.54
   },
   {
    "player": "6790",
@@ -1284,16 +1300,16 @@
    "gs": 51,
    "pts": 718.2,
    "ppg": 14.08,
-   "war": 2.7
+   "war": 2.63
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 802,
-   "gs": 43,
-   "pts": 585.4,
-   "ppg": 13.61,
-   "war": 2.01
+   "score": 803,
+   "gs": 44,
+   "pts": 594.7,
+   "ppg": 13.52,
+   "war": 1.93
   }
  ],
  "status": {
@@ -1308,8 +1324,8 @@
    "stat": "Points",
    "value": 685.5,
    "digits": 2,
-   "rank": 32,
-   "of": 420
+   "rank": 33,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1318,25 +1334,25 @@
    "value": 45,
    "digits": 0,
    "rank": 31,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.08,
+   "value": 3.05,
    "digits": 2,
-   "rank": 24,
-   "of": 420
+   "rank": 25,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 260.4,
+   "value": 258.4,
    "digits": 1,
-   "rank": 24,
-   "of": 420
+   "rank": 25,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1344,8 +1360,8 @@
    "stat": "PAA",
    "value": 59.9,
    "digits": 1,
-   "rank": 43,
-   "of": 420
+   "rank": 44,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1353,8 +1369,8 @@
    "stat": "Best Game",
    "value": 32.0,
    "digits": 2,
-   "rank": 85,
-   "of": 420
+   "rank": 86,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1362,7 +1378,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 15.23,
    "digits": 2,
-   "rank": 62,
+   "rank": 64,
    "of": 256
   },
   {
@@ -1371,8 +1387,8 @@
    "stat": "Bench Points",
    "value": 16.8,
    "digits": 2,
-   "rank": 403,
-   "of": 511
+   "rank": 407,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1396,7 +1412,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 3.08,
+   "value": 3.05,
    "digits": 2,
    "rank": 11,
    "of": 100
@@ -1408,7 +1424,7 @@
    "value": 685.5,
    "digits": 2,
    "rank": 1,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1418,17 +1434,17 @@
    "value": 45,
    "digits": 0,
    "rank": 1,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 3.08,
+   "value": 3.06,
    "digits": 2,
    "rank": 3,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1507,8 +1523,8 @@
    "stat": "Points",
    "value": 47.4,
    "digits": 2,
-   "rank": 113,
-   "of": 233,
+   "rank": 122,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1517,7 +1533,7 @@
    "stat": "Points",
    "value": 47.4,
    "digits": 2,
-   "rank": 28,
+   "rank": 30,
    "of": 58,
    "season": "2026"
   },
@@ -1527,8 +1543,8 @@
    "stat": "Points, 2024",
    "value": 259.9,
    "digits": 2,
-   "rank": 51,
-   "of": 1010,
+   "rank": 53,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1537,8 +1553,8 @@
    "stat": "Points, 2025",
    "value": 213.9,
    "digits": 2,
-   "rank": 98,
-   "of": 1010,
+   "rank": 102,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1547,8 +1563,8 @@
    "stat": "Points, 2023",
    "value": 164.3,
    "digits": 2,
-   "rank": 193,
-   "of": 1010,
+   "rank": 202,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1557,16 +1573,16 @@
    "stat": "Points, 2026",
    "value": 47.4,
    "digits": 2,
-   "rank": 578,
-   "of": 1010,
+   "rank": 587,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 42.05,
+  "score": 41.75,
   "rank": 30,
-  "of": 420,
-  "war": 30.8,
+  "of": 424,
+  "war": 30.5,
   "starts": 11.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1859,17 +1875,22 @@
    [
     "2026",
     7,
-    40.75
+    40.65
    ],
    [
     "2026",
     8,
-    42.8
+    42.7
    ],
    [
     "2026",
     9,
-    42.05
+    41.75
+   ],
+   [
+    "2026",
+    10,
+    41.75
    ]
   ],
   "benchmark": 100
@@ -1968,7 +1989,7 @@
     "season": "2026",
     "nfl": "GB",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 5.32,
     "injuries": [
      "Finger"
     ],
@@ -1978,14 +1999,14 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 10,
       "kind": "Out",
       "injury": "Finger",
-      "franchise": null,
-      "team": null
+      "franchise": 8,
+      "team": "BBL KIZZY"
      }
     ]
    }
@@ -2051,9 +2072,14 @@
     "kinds": [
      "Out"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 8,
+      "team": "BBL KIZZY"
+     }
+    ],
+    "rostered": 1,
+    "lost": 5.32
    }
   ],
   "now": {

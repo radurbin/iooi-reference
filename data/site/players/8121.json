@@ -72,7 +72,7 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "NE",
-   "g": 9,
+   "g": 10,
    "gs": 5,
    "pts": 58.1,
    "bench_pts": 0.0,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 25,
   "pts": 274.8,
   "bench_pts": 240.2,
@@ -123,7 +123,7 @@
    "team": "NE",
    "g": 6,
    "pts": 58.1,
-   "rank": 65
+   "rank": 67
   }
  ],
  "history": [
@@ -1181,49 +1181,65 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 965,
-   "gs": 26,
-   "pts": 276.7,
-   "ppg": 10.64,
-   "war": -0.12
-  },
-  {
-   "player": "11631",
-   "name": "Brian Thomas Jr.",
-   "score": 953,
-   "gs": 25,
-   "pts": 260.8,
-   "ppg": 10.43,
+   "score": 945,
+   "gs": 27,
+   "pts": 284.5,
+   "ppg": 10.54,
    "war": -0.15
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 937,
+   "score": 939,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
    "war": -0.37
   },
   {
+   "player": "11631",
+   "name": "Brian Thomas Jr.",
+   "score": 938,
+   "gs": 26,
+   "pts": 266.7,
+   "ppg": 10.26,
+   "war": -0.2
+  },
+  {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 908,
-   "gs": 23,
-   "pts": 274.7,
-   "ppg": 11.94,
-   "war": 0.21
+   "score": 933,
+   "gs": 24,
+   "pts": 281.4,
+   "ppg": 11.72,
+   "war": 0.16
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 875,
+   "score": 877,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -1252,8 +1268,8 @@
    "stat": "Points",
    "value": 274.8,
    "digits": 2,
-   "rank": 114,
-   "of": 420
+   "rank": 115,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1261,8 +1277,8 @@
    "stat": "Games Started",
    "value": 25,
    "digits": 0,
-   "rank": 109,
-   "of": 420
+   "rank": 113,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1271,7 +1287,7 @@
    "value": -0.05,
    "digits": 2,
    "rank": 249,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1280,7 +1296,7 @@
    "value": -4.2,
    "digits": 1,
    "rank": 252,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1288,8 +1304,8 @@
    "stat": "PAA",
    "value": -60.6,
    "digits": 1,
-   "rank": 383,
-   "of": 420
+   "rank": 388,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1297,8 +1313,8 @@
    "stat": "Best Game",
    "value": 29.8,
    "digits": 2,
-   "rank": 108,
-   "of": 420
+   "rank": 109,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1306,7 +1322,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.99,
    "digits": 2,
-   "rank": 148,
+   "rank": 146,
    "of": 256
   },
   {
@@ -1316,7 +1332,7 @@
    "value": 240.2,
    "digits": 2,
    "rank": 32,
-   "of": 511
+   "of": 515
   },
   {
    "group": "Career",
@@ -1324,8 +1340,8 @@
    "stat": "Points",
    "value": 274.8,
    "digits": 2,
-   "rank": 37,
-   "of": 126
+   "rank": 38,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1333,8 +1349,8 @@
    "stat": "Games Started",
    "value": 25,
    "digits": 0,
-   "rank": 32,
-   "of": 126
+   "rank": 34,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1342,8 +1358,8 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 62,
-   "of": 126
+   "rank": 61,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1352,7 +1368,7 @@
    "value": 274.8,
    "digits": 2,
    "rank": 8,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1362,7 +1378,7 @@
    "value": 25,
    "digits": 0,
    "rank": 6,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1372,7 +1388,7 @@
    "value": -0.05,
    "digits": 2,
    "rank": 42,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1451,8 +1467,8 @@
    "stat": "Points",
    "value": 58.1,
    "digits": 2,
-   "rank": 94,
-   "of": 233,
+   "rank": 105,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1461,8 +1477,8 @@
    "stat": "Points",
    "value": 58.1,
    "digits": 2,
-   "rank": 27,
-   "of": 62,
+   "rank": 29,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1471,8 +1487,8 @@
    "stat": "Points, 2025",
    "value": 93.0,
    "digits": 2,
-   "rank": 367,
-   "of": 1010,
+   "rank": 377,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1481,8 +1497,8 @@
    "stat": "Points, 2024",
    "value": 65.8,
    "digits": 2,
-   "rank": 480,
-   "of": 1010,
+   "rank": 484,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1491,8 +1507,8 @@
    "stat": "Points, 2026",
    "value": 58.1,
    "digits": 2,
-   "rank": 515,
-   "of": 1010,
+   "rank": 526,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1501,15 +1517,15 @@
    "stat": "Points, 2023",
    "value": 57.9,
    "digits": 2,
-   "rank": 521,
-   "of": 1010,
+   "rank": 532,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 6.25,
-  "rank": 179,
-  "of": 420,
+  "rank": 180,
+  "of": 424,
   "war": 0.0,
   "starts": 6.25,
   "black_ink": 0.0,
@@ -1814,6 +1830,11 @@
     "2026",
     9,
     6.25
+   ],
+   [
+    "2026",
+    10,
+    6.25
    ]
   ],
   "benchmark": 100
@@ -1872,7 +1893,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 3,
+    "rostered": 4,
     "games": [
      {
       "week": 7,
@@ -1899,8 +1920,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Shoulder",
-      "franchise": null,
-      "team": null
+      "franchise": 10,
+      "team": "Maddison Beer’s Boys"
      }
     ]
    }
@@ -1951,7 +1972,7 @@
       "team": "Maddison Beer’s Boys"
      }
     ],
-    "rostered": 3,
+    "rostered": 4,
     "lost": 0.0
    }
   ],

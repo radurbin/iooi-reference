@@ -32,15 +32,15 @@
    "best": 24.0,
    "wins": 2,
    "paa": -24.7,
-   "vor": 8.8,
-   "war": 0.1
+   "vor": 5.35,
+   "war": 0.06
   },
   {
    "season": "2026",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "ARI",
-   "g": 4,
+   "g": 5,
    "gs": 1,
    "pts": 3.2,
    "bench_pts": 0.0,
@@ -48,12 +48,12 @@
    "best": 3.2,
    "wins": 0,
    "paa": -13.5,
-   "vor": -6.6,
-   "war": -0.08
+   "vor": -7.29,
+   "war": -0.09
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 6,
   "pts": 61.0,
   "bench_pts": 0.0,
@@ -61,8 +61,8 @@
   "best": 24.0,
   "wins": 2,
   "paa": -38.2,
-  "vor": 2.2,
-  "war": 0.03
+  "vor": -1.94,
+  "war": -0.02
  },
  "nfl": [
   {
@@ -136,8 +136,8 @@
    "proj": 12.92,
    "won": false,
    "paa": -5.83,
-   "vor": 4.3,
-   "war": 0.05082076774364832
+   "vor": 3.61,
+   "war": 0.042665807338272195
   },
   {
    "season": "2026",
@@ -155,8 +155,8 @@
    "proj": 13.8,
    "won": false,
    "paa": -4.98,
-   "vor": -1.4,
-   "war": -0.016546296474676196
+   "vor": -2.09,
+   "war": -0.02470125688005232
   },
   {
    "season": "2026",
@@ -174,8 +174,8 @@
    "proj": 15.86,
    "won": true,
    "paa": 7.76,
-   "vor": 14.2,
-   "war": 0.1678267213860014
+   "vor": 13.51,
+   "war": 0.1596717609806253
   },
   {
    "season": "2026",
@@ -193,8 +193,8 @@
    "proj": 17.54,
    "won": false,
    "paa": -9.6,
-   "vor": -1.9,
-   "war": -0.022455688072774836
+   "vor": -2.59,
+   "war": -0.030610648478150964
   },
   {
    "season": "2026",
@@ -212,8 +212,8 @@
    "proj": 14.04,
    "won": true,
    "paa": -12.05,
-   "vor": -6.4,
-   "war": -0.07564021245566262
+   "vor": -7.09,
+   "war": -0.08379517286103874
   },
   {
    "season": "2026",
@@ -263,8 +263,8 @@
    "proj": null,
    "won": false,
    "paa": -13.5,
-   "vor": -6.6,
-   "war": -0.07800396909490206
+   "vor": -7.29,
+   "war": -0.0861589295002782
   },
   {
    "season": "2026",
@@ -281,6 +281,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -296,7 +312,7 @@
    "value": 61.0,
    "digits": 2,
    "rank": 252,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -304,26 +320,26 @@
    "stat": "Games Started",
    "value": 6,
    "digits": 0,
-   "rank": 267,
-   "of": 420
+   "rank": 269,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.03,
+   "value": -0.02,
    "digits": 2,
-   "rank": 204,
-   "of": 420
+   "rank": 232,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 2.2,
+   "value": -1.9,
    "digits": 1,
-   "rank": 207,
-   "of": 420
+   "rank": 235,
+   "of": 424
   },
   {
    "group": "Career",
@@ -331,8 +347,8 @@
    "stat": "PAA",
    "value": -38.2,
    "digits": 1,
-   "rank": 349,
-   "of": 420
+   "rank": 350,
+   "of": 424
   },
   {
    "group": "Career",
@@ -340,8 +356,8 @@
    "stat": "Best Game",
    "value": 24.0,
    "digits": 2,
-   "rank": 173,
-   "of": 420
+   "rank": 174,
+   "of": 424
   },
   {
    "group": "Career",
@@ -365,9 +381,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.03,
+   "value": -0.02,
    "digits": 2,
-   "rank": 56,
+   "rank": 63,
    "of": 100
   },
   {
@@ -376,7 +392,7 @@
    "stat": "Points",
    "value": 57.8,
    "digits": 2,
-   "rank": 29,
+   "rank": 30,
    "of": 76,
    "franchise": 2
   },
@@ -394,9 +410,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.06,
    "digits": 2,
-   "rank": 31,
+   "rank": 33,
    "of": 76,
    "franchise": 2
   },
@@ -426,7 +442,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 55,
+   "rank": 56,
    "of": 67,
    "franchise": 9
   },
@@ -434,9 +450,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.08,
+   "value": -0.09,
    "digits": 2,
-   "rank": 44,
+   "rank": 45,
    "of": 67,
    "franchise": 9
   },
@@ -456,8 +472,8 @@
    "stat": "Points",
    "value": 61.0,
    "digits": 2,
-   "rank": 90,
-   "of": 233,
+   "rank": 99,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -466,7 +482,7 @@
    "stat": "Points",
    "value": 61.0,
    "digits": 2,
-   "rank": 23,
+   "rank": 25,
    "of": 58,
    "season": "2026"
   },
@@ -476,17 +492,17 @@
    "stat": "Points, 2026",
    "value": 61.0,
    "digits": 2,
-   "rank": 498,
-   "of": 1010,
+   "rank": 507,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.8,
-  "rank": 273,
-  "of": 420,
-  "war": 0.3,
+  "score": 1.5,
+  "rank": 287,
+  "of": 424,
+  "war": 0.0,
   "starts": 1.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -494,47 +510,52 @@
    [
     "2026",
     1,
-    0.75
+    0.65
    ],
    [
     "2026",
     2,
-    0.8
+    0.7
    ],
    [
     "2026",
     3,
-    2.75
+    2.55
    ],
    [
     "2026",
     4,
-    2.8
+    2.5
    ],
    [
     "2026",
     5,
-    2.25
+    1.85
    ],
    [
     "2026",
     6,
-    2.25
+    1.85
    ],
    [
     "2026",
     7,
-    2.25
+    1.85
    ],
    [
     "2026",
     8,
-    1.8
+    1.5
    ],
    [
     "2026",
     9,
-    1.8
+    1.5
+   ],
+   [
+    "2026",
+    10,
+    1.5
    ]
   ],
   "benchmark": 100
@@ -547,7 +568,7 @@
     "season": "2026",
     "nfl": "ARI",
     "missed": 4,
-    "lost": 1.11,
+    "lost": 0.0,
     "injuries": [
      "Ankle"
     ],
@@ -561,7 +582,7 @@
      "IR",
      "Out"
     ],
-    "rostered": 3,
+    "rostered": 4,
     "games": [
      {
       "week": 6,
@@ -588,8 +609,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Ankle",
-      "franchise": null,
-      "team": null
+      "franchise": 9,
+      "team": "Clandestine Ball Busters"
      }
     ]
    }
@@ -616,7 +637,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 0.74
+    "lost": 0.0
    },
    {
     "season": "2026",
@@ -638,8 +659,8 @@
       "team": "Clandestine Ball Busters"
      }
     ],
-    "rostered": 1,
-    "lost": 0.37
+    "rostered": 2,
+    "lost": 0.0
    }
   ],
   "now": {

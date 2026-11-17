@@ -76,10 +76,10 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "NE",
-   "g": 9,
+   "g": 10,
    "gs": 2,
    "pts": 13.4,
-   "bench_pts": 5.7,
+   "bench_pts": 10.4,
    "ppg": 6.7,
    "best": 7.8,
    "wins": 2,
@@ -89,10 +89,10 @@
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 40,
   "pts": 653.7,
-  "bench_pts": 58.6,
+  "bench_pts": 63.3,
   "ppg": 16.34,
   "best": 38.5,
   "wins": 19,
@@ -127,7 +127,7 @@
    "team": "NE",
    "g": 4,
    "pts": 23.8,
-   "rank": 113
+   "rank": 114
   }
  ],
  "history": [
@@ -1245,53 +1245,69 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 4.7,
+   "proj": 14.38,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 957,
+   "score": 959,
    "gs": 40,
    "pts": 640.7,
    "ppg": 16.02,
    "war": 2.08
   },
   {
-   "player": "7569",
-   "name": "Nico Collins",
-   "score": 943,
+   "player": "8137",
+   "name": "George Pickens",
+   "score": 922,
    "gs": 42,
-   "pts": 679.9,
-   "ppg": 16.19,
-   "war": 2.42
+   "pts": 649.2,
+   "ppg": 15.46,
+   "war": 2.12
   },
   {
-   "player": "2133",
-   "name": "Davante Adams",
-   "score": 851,
-   "gs": 46,
-   "pts": 708.7,
-   "ppg": 15.41,
-   "war": 2.14
+   "player": "7569",
+   "name": "Nico Collins",
+   "score": 903,
+   "gs": 43,
+   "pts": 704.3,
+   "ppg": 16.38,
+   "war": 2.59
   },
   {
    "player": "6801",
    "name": "Tee Higgins",
-   "score": 851,
-   "gs": 34,
-   "pts": 571.6,
-   "ppg": 16.81,
-   "war": 2.25
+   "score": 878,
+   "gs": 35,
+   "pts": 583.2,
+   "ppg": 16.66,
+   "war": 2.26
   },
   {
-   "player": "8137",
-   "name": "George Pickens",
-   "score": 842,
-   "gs": 41,
-   "pts": 605.7,
-   "ppg": 14.77,
-   "war": 1.73
+   "player": "2133",
+   "name": "Davante Adams",
+   "score": 853,
+   "gs": 46,
+   "pts": 708.7,
+   "ppg": 15.41,
+   "war": 2.14
   }
  ],
  "status": {
@@ -1316,8 +1332,8 @@
    "stat": "Points",
    "value": 653.7,
    "digits": 2,
-   "rank": 39,
-   "of": 420
+   "rank": 40,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1325,8 +1341,8 @@
    "stat": "Games Started",
    "value": 40,
    "digits": 0,
-   "rank": 48,
-   "of": 420
+   "rank": 50,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1334,8 +1350,8 @@
    "stat": "WAR",
    "value": 2.26,
    "digits": 2,
-   "rank": 37,
-   "of": 420
+   "rank": 39,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1343,8 +1359,8 @@
    "stat": "VOR",
    "value": 190.8,
    "digits": 1,
-   "rank": 38,
-   "of": 420
+   "rank": 40,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1352,8 +1368,8 @@
    "stat": "PAA",
    "value": 108.2,
    "digits": 1,
-   "rank": 24,
-   "of": 420
+   "rank": 27,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1361,8 +1377,8 @@
    "stat": "Best Game",
    "value": 38.5,
    "digits": 2,
-   "rank": 37,
-   "of": 420
+   "rank": 38,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1377,10 +1393,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 58.6,
+   "value": 63.3,
    "digits": 2,
-   "rank": 260,
-   "of": 511
+   "rank": 255,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1388,8 +1404,8 @@
    "stat": "Points",
    "value": 653.7,
    "digits": 2,
-   "rank": 9,
-   "of": 126
+   "rank": 10,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1397,8 +1413,8 @@
    "stat": "Games Started",
    "value": 40,
    "digits": 0,
-   "rank": 13,
-   "of": 126
+   "rank": 14,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1407,7 +1423,7 @@
    "value": 2.26,
    "digits": 2,
    "rank": 8,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1435,7 +1451,7 @@
    "stat": "WAR",
    "value": 0.76,
    "digits": 2,
-   "rank": 8,
+   "rank": 9,
    "of": 68,
    "franchise": 3
   },
@@ -1455,7 +1471,7 @@
    "stat": "Points",
    "value": 169.0,
    "digits": 2,
-   "rank": 16,
+   "rank": 17,
    "of": 40,
    "franchise": 6
   },
@@ -1475,7 +1491,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 15,
+   "rank": 17,
    "of": 40,
    "franchise": 6
   },
@@ -1496,7 +1512,7 @@
    "value": 280.4,
    "digits": 2,
    "rank": 7,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1505,8 +1521,8 @@
    "stat": "Games Started",
    "value": 15,
    "digits": 0,
-   "rank": 14,
-   "of": 73,
+   "rank": 15,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1516,7 +1532,7 @@
    "value": 1.12,
    "digits": 2,
    "rank": 6,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1595,8 +1611,8 @@
    "stat": "Points",
    "value": 13.4,
    "digits": 2,
-   "rank": 180,
-   "of": 233,
+   "rank": 186,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1605,8 +1621,8 @@
    "stat": "Points",
    "value": 13.4,
    "digits": 2,
-   "rank": 49,
-   "of": 62,
+   "rank": 50,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1616,7 +1632,7 @@
    "value": 280.4,
    "digits": 2,
    "rank": 35,
-   "of": 1010,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1625,8 +1641,8 @@
    "stat": "Points, 2024",
    "value": 204.3,
    "digits": 2,
-   "rank": 114,
-   "of": 1010,
+   "rank": 120,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1635,8 +1651,8 @@
    "stat": "Points, 2025",
    "value": 155.6,
    "digits": 2,
-   "rank": 216,
-   "of": 1010,
+   "rank": 225,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1645,15 +1661,15 @@
    "stat": "Points, 2026",
    "value": 13.4,
    "digits": 2,
-   "rank": 815,
-   "of": 1010,
+   "rank": 821,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 35.6,
-  "rank": 38,
-  "of": 420,
+  "rank": 42,
+  "of": 424,
   "war": 22.6,
   "starts": 10.0,
   "black_ink": 0.0,
@@ -1957,6 +1973,11 @@
    [
     "2026",
     9,
+    35.6
+   ],
+   [
+    "2026",
+    10,
     35.6
    ]
   ],

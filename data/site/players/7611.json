@@ -72,29 +72,29 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NE",
-   "g": 9,
+   "g": 10,
    "gs": 4,
    "pts": 40.9,
-   "bench_pts": 83.0,
+   "bench_pts": 85.1,
    "ppg": 10.23,
    "best": 16.3,
    "wins": 3,
    "paa": -19.34,
-   "vor": 1.7,
-   "war": 0.02
+   "vor": -1.06,
+   "war": -0.01
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 27,
   "pts": 342.3,
-  "bench_pts": 219.4,
+  "bench_pts": 221.5,
   "ppg": 12.68,
   "best": 23.5,
   "wins": 13,
   "paa": -39.45,
-  "vor": 76.44,
-  "war": 0.9
+  "vor": 73.68,
+  "war": 0.87
  },
  "nfl": [
   {
@@ -1042,8 +1042,8 @@
    "proj": 18.1,
    "won": false,
    "paa": -3.63,
-   "vor": 6.5,
-   "war": 0.07682209077528235
+   "vor": 5.81,
+   "war": 0.06866713036990621
   },
   {
    "season": "2026",
@@ -1061,8 +1061,8 @@
    "proj": 13.47,
    "won": true,
    "paa": -9.18,
-   "vor": -5.6,
-   "war": -0.06618518589870478
+   "vor": -6.29,
+   "war": -0.07434014630408091
   },
   {
    "season": "2026",
@@ -1128,8 +1128,8 @@
    "proj": 16.41,
    "won": true,
    "paa": -8.4,
-   "vor": -4.8,
-   "war": -0.05673015934174696
+   "vor": -5.49,
+   "war": -0.06488511974712309
   },
   {
    "season": "2026",
@@ -1179,33 +1179,49 @@
    "proj": 15.2,
    "won": true,
    "paa": 1.87,
-   "vor": 5.6,
-   "war": 0.06618518589870478
+   "vor": 4.91,
+   "war": 0.05803022549332866
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 2.1,
+   "proj": 13.57,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "4199",
    "name": "Aaron Jones Sr.",
-   "score": 900,
+   "score": 902,
    "gs": 32,
    "pts": 396.55,
    "ppg": 12.39,
-   "war": 1.06
+   "war": 1.03
   },
   {
    "player": "6806",
    "name": "J.K. Dobbins",
-   "score": 893,
+   "score": 895,
    "gs": 22,
    "pts": 270.6,
    "ppg": 12.3,
-   "war": 0.83
+   "war": 0.82
   },
   {
    "player": "4663",
    "name": "Austin Ekeler",
-   "score": 880,
+   "score": 884,
    "gs": 24,
    "pts": 276.4,
    "ppg": 11.52,
@@ -1214,7 +1230,7 @@
   {
    "player": "7528",
    "name": "Najee Harris",
-   "score": 880,
+   "score": 883,
    "gs": 29,
    "pts": 323.5,
    "ppg": 11.16,
@@ -1223,11 +1239,11 @@
   {
    "player": "8136",
    "name": "Rachaad White",
-   "score": 851,
-   "gs": 30,
-   "pts": 422.1,
-   "ppg": 14.07,
-   "war": 1.55
+   "score": 854,
+   "gs": 31,
+   "pts": 429.4,
+   "ppg": 13.85,
+   "war": 1.48
   }
  ],
  "status": {
@@ -1243,7 +1259,7 @@
    "value": 342.3,
    "digits": 2,
    "rank": 92,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1251,26 +1267,26 @@
    "stat": "Games Started",
    "value": 27,
    "digits": 0,
-   "rank": 100,
-   "of": 420
+   "rank": 101,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.87,
    "digits": 2,
-   "rank": 85,
-   "of": 420
+   "rank": 88,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 76.4,
+   "value": 73.7,
    "digits": 1,
-   "rank": 85,
-   "of": 420
+   "rank": 88,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1278,8 +1294,8 @@
    "stat": "PAA",
    "value": -39.5,
    "digits": 1,
-   "rank": 353,
-   "of": 420
+   "rank": 354,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1287,8 +1303,8 @@
    "stat": "Best Game",
    "value": 23.5,
    "digits": 2,
-   "rank": 186,
-   "of": 420
+   "rank": 187,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1296,17 +1312,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 12.68,
    "digits": 2,
-   "rank": 111,
+   "rank": 110,
    "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 219.4,
+   "value": 221.5,
    "digits": 2,
-   "rank": 38,
-   "of": 511
+   "rank": 39,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1330,9 +1346,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.87,
    "digits": 2,
-   "rank": 30,
+   "rank": 31,
    "of": 100
   },
   {
@@ -1359,7 +1375,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.59,
+   "value": 0.56,
    "digits": 2,
    "rank": 12,
    "of": 68,
@@ -1461,8 +1477,8 @@
    "stat": "Points",
    "value": 40.9,
    "digits": 2,
-   "rank": 125,
-   "of": 233,
+   "rank": 134,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1471,7 +1487,7 @@
    "stat": "Points",
    "value": 40.9,
    "digits": 2,
-   "rank": 34,
+   "rank": 38,
    "of": 58,
    "season": "2026"
   },
@@ -1481,8 +1497,8 @@
    "stat": "Points, 2024",
    "value": 158.1,
    "digits": 2,
-   "rank": 212,
-   "of": 1010,
+   "rank": 218,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1491,8 +1507,8 @@
    "stat": "Points, 2023",
    "value": 143.3,
    "digits": 2,
-   "rank": 240,
-   "of": 1010,
+   "rank": 246,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1501,16 +1517,16 @@
    "stat": "Points, 2026",
    "value": 40.9,
    "digits": 2,
-   "rank": 618,
-   "of": 1010,
+   "rank": 627,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 15.75,
-  "rank": 94,
-  "of": 420,
-  "war": 9.0,
+  "score": 15.45,
+  "rank": 97,
+  "of": 424,
+  "war": 8.7,
   "starts": 6.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1773,47 +1789,52 @@
    [
     "2026",
     1,
-    15.6
+    15.5
    ],
    [
     "2026",
     2,
-    15.15
+    15.05
    ],
    [
     "2026",
     3,
-    15.15
+    15.05
    ],
    [
     "2026",
     4,
-    15.15
+    15.05
    ],
    [
     "2026",
     5,
-    15.15
+    15.05
    ],
    [
     "2026",
     6,
-    14.9
+    14.6
    ],
    [
     "2026",
     7,
-    14.9
+    14.6
    ],
    [
     "2026",
     8,
-    14.9
+    14.6
    ],
    [
     "2026",
     9,
-    15.75
+    15.45
+   ],
+   [
+    "2026",
+    10,
+    15.45
    ]
   ],
   "benchmark": 100

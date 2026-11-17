@@ -88,10 +88,10 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "LV",
-   "g": 9,
+   "g": 10,
    "gs": 1,
    "pts": 9.2,
-   "bench_pts": 74.1,
+   "bench_pts": 78.0,
    "ppg": 9.2,
    "best": 9.2,
    "wins": 1,
@@ -101,10 +101,10 @@
   }
  ],
  "totals": {
-  "g": 26,
+  "g": 27,
   "gs": 3,
   "pts": 11.2,
-  "bench_pts": 131.6,
+  "bench_pts": 135.5,
   "ppg": 3.73,
   "best": 9.2,
   "wins": 2,
@@ -638,6 +638,22 @@
    "pts": 4.7,
    "proj": 8.0,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 3.9,
+   "proj": 6.08,
+   "won": false
   }
  ],
  "status": {
@@ -652,8 +668,8 @@
    "stat": "Points",
    "value": 11.2,
    "digits": 2,
-   "rank": 349,
-   "of": 420
+   "rank": 353,
+   "of": 424
   },
   {
    "group": "Career",
@@ -661,8 +677,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 299,
-   "of": 420
+   "rank": 301,
+   "of": 424
   },
   {
    "group": "Career",
@@ -670,8 +686,8 @@
    "stat": "WAR",
    "value": -0.2,
    "digits": 2,
-   "rank": 351,
-   "of": 420
+   "rank": 355,
+   "of": 424
   },
   {
    "group": "Career",
@@ -679,8 +695,8 @@
    "stat": "VOR",
    "value": -16.9,
    "digits": 1,
-   "rank": 351,
-   "of": 420
+   "rank": 356,
+   "of": 424
   },
   {
    "group": "Career",
@@ -689,7 +705,7 @@
    "value": -12.6,
    "digits": 1,
    "rank": 242,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -697,17 +713,17 @@
    "stat": "Best Game",
    "value": 9.2,
    "digits": 2,
-   "rank": 338,
-   "of": 420
+   "rank": 341,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 131.6,
+   "value": 135.5,
    "digits": 2,
-   "rank": 118,
-   "of": 511
+   "rank": 116,
+   "of": 515
   },
   {
    "group": "Career",
@@ -715,7 +731,7 @@
    "stat": "Points",
    "value": 11.2,
    "digits": 2,
-   "rank": 41,
+   "rank": 42,
    "of": 52
   },
   {
@@ -733,7 +749,7 @@
    "stat": "WAR",
    "value": -0.2,
    "digits": 2,
-   "rank": 41,
+   "rank": 40,
    "of": 52
   },
   {
@@ -742,8 +758,8 @@
    "stat": "Points",
    "value": 9.2,
    "digits": 2,
-   "rank": 56,
-   "of": 73,
+   "rank": 57,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -753,7 +769,7 @@
    "value": 1,
    "digits": 0,
    "rank": 51,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -763,7 +779,7 @@
    "value": 0.01,
    "digits": 2,
    "rank": 34,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -782,8 +798,8 @@
    "stat": "Points",
    "value": 2.0,
    "digits": 2,
-   "rank": 53,
-   "of": 58,
+   "rank": 55,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -793,7 +809,7 @@
    "value": 2,
    "digits": 0,
    "rank": 31,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -802,8 +818,8 @@
    "stat": "WAR",
    "value": -0.2,
    "digits": 2,
-   "rank": 55,
-   "of": 58,
+   "rank": 57,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -812,8 +828,8 @@
    "stat": "Points, TEs",
    "value": 2.0,
    "digits": 2,
-   "rank": 6,
-   "of": 6,
+   "rank": 7,
+   "of": 7,
    "franchise": 5
   },
   {
@@ -862,8 +878,8 @@
    "stat": "Points",
    "value": 9.2,
    "digits": 2,
-   "rank": 193,
-   "of": 233,
+   "rank": 199,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -872,8 +888,8 @@
    "stat": "Points",
    "value": 9.2,
    "digits": 2,
-   "rank": 23,
-   "of": 28,
+   "rank": 24,
+   "of": 29,
    "season": "2026"
   },
   {
@@ -882,8 +898,8 @@
    "stat": "Points, 2026",
    "value": 9.2,
    "digits": 2,
-   "rank": 871,
-   "of": 1010,
+   "rank": 877,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -892,8 +908,8 @@
    "stat": "Points, 2025",
    "value": 2.0,
    "digits": 2,
-   "rank": 972,
-   "of": 1010,
+   "rank": 977,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -902,16 +918,16 @@
    "stat": "Points, 2023",
    "value": 0.0,
    "digits": 2,
-   "rank": 995,
-   "of": 1010,
+   "rank": 1002,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 317,
-  "of": 420,
+  "rank": 319,
+  "of": 424,
   "war": 0.0,
   "starts": 0.75,
   "black_ink": 0.0,
@@ -1215,6 +1231,11 @@
    [
     "2026",
     9,
+    0.75
+   ],
+   [
+    "2026",
+    10,
     0.75
    ]
   ],

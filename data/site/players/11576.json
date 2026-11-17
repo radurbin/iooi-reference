@@ -56,29 +56,29 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NYJ",
-   "g": 9,
+   "g": 10,
    "gs": 5,
    "pts": 91.7,
-   "bench_pts": 26.8,
+   "bench_pts": 33.2,
    "ppg": 18.34,
    "best": 25.4,
    "wins": 4,
    "paa": 11.08,
-   "vor": 42.7,
-   "war": 0.5
+   "vor": 39.25,
+   "war": 0.46
   }
  ],
  "totals": {
-  "g": 43,
+  "g": 44,
   "gs": 5,
   "pts": 91.7,
-  "bench_pts": 120.4,
+  "bench_pts": 126.8,
   "ppg": 18.34,
   "best": 25.4,
   "wins": 4,
   "paa": 11.08,
-  "vor": 42.7,
-  "war": 0.5
+  "vor": 39.25,
+  "war": 0.46
  },
  "nfl": [
   {
@@ -720,8 +720,8 @@
    "proj": 14.28,
    "won": true,
    "paa": -7.4,
-   "vor": 0.3,
-   "war": 0.003545634958859185
+   "vor": -0.39,
+   "war": -0.004609325446516941
   },
   {
    "season": "2026",
@@ -739,8 +739,8 @@
    "proj": 17.24,
    "won": false,
    "paa": 5.55,
-   "vor": 11.2,
-   "war": 0.13237037179740957
+   "vor": 10.51,
+   "war": 0.12421541139203345
   },
   {
    "season": "2026",
@@ -758,8 +758,8 @@
    "proj": 15.16,
    "won": true,
    "paa": 0.7,
-   "vor": 4.3,
-   "war": 0.05082076774364832
+   "vor": 3.61,
+   "war": 0.042665807338272195
   },
   {
    "season": "2026",
@@ -777,8 +777,8 @@
    "proj": 17.69,
    "won": true,
    "paa": 3.53,
-   "vor": 11.3,
-   "war": 0.13355225011702931
+   "vor": 10.61,
+   "war": 0.12539728971165318
   },
   {
    "season": "2026",
@@ -796,8 +796,8 @@
    "proj": 18.2,
    "won": true,
    "paa": 8.7,
-   "vor": 15.6,
-   "war": 0.1843730178606776
+   "vor": 14.91,
+   "war": 0.1762180574553015
   },
   {
    "season": "2026",
@@ -814,6 +814,22 @@
    "pts": 6.2,
    "proj": 11.45,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 6.4,
+   "proj": 8.8,
+   "won": true
   }
  ],
  "status": {
@@ -828,8 +844,8 @@
    "stat": "Points",
    "value": 91.7,
    "digits": 2,
-   "rank": 225,
-   "of": 420
+   "rank": 226,
+   "of": 424
   },
   {
    "group": "Career",
@@ -838,25 +854,25 @@
    "value": 5,
    "digits": 0,
    "rank": 275,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.5,
+   "value": 0.46,
    "digits": 2,
-   "rank": 112,
-   "of": 420
+   "rank": 118,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 42.7,
+   "value": 39.2,
    "digits": 1,
-   "rank": 112,
-   "of": 420
+   "rank": 118,
+   "of": 424
   },
   {
    "group": "Career",
@@ -865,7 +881,7 @@
    "value": 11.1,
    "digits": 1,
    "rank": 94,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -873,17 +889,17 @@
    "stat": "Best Game",
    "value": 25.4,
    "digits": 2,
-   "rank": 157,
-   "of": 420
+   "rank": 158,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 120.4,
+   "value": 126.8,
    "digits": 2,
-   "rank": 140,
-   "of": 511
+   "rank": 132,
+   "of": 515
   },
   {
    "group": "Career",
@@ -891,7 +907,7 @@
    "stat": "Points",
    "value": 91.7,
    "digits": 2,
-   "rank": 53,
+   "rank": 54,
    "of": 100
   },
   {
@@ -907,9 +923,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.5,
+   "value": 0.46,
    "digits": 2,
-   "rank": 36,
+   "rank": 38,
    "of": 100
   },
   {
@@ -928,7 +944,7 @@
    "stat": "Games Started",
    "value": 5,
    "digits": 0,
-   "rank": 32,
+   "rank": 33,
    "of": 68,
    "franchise": 3
   },
@@ -936,9 +952,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.5,
+   "value": 0.46,
    "digits": 2,
-   "rank": 13,
+   "rank": 14,
    "of": 68,
    "franchise": 3
   },
@@ -958,8 +974,8 @@
    "stat": "Points",
    "value": 91.7,
    "digits": 2,
-   "rank": 57,
-   "of": 233,
+   "rank": 66,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -968,7 +984,7 @@
    "stat": "Points",
    "value": 91.7,
    "digits": 2,
-   "rank": 18,
+   "rank": 21,
    "of": 58,
    "season": "2026"
   },
@@ -978,17 +994,17 @@
    "stat": "Points, 2026",
    "value": 91.7,
    "digits": 2,
-   "rank": 373,
-   "of": 1010,
+   "rank": 382,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 6.25,
-  "rank": 179,
-  "of": 420,
-  "war": 5.0,
+  "score": 5.85,
+  "rank": 186,
+  "of": 424,
+  "war": 4.6,
   "starts": 1.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1186,27 +1202,32 @@
    [
     "2026",
     5,
-    1.9
+    1.7
    ],
    [
     "2026",
     6,
-    2.65
+    2.35
    ],
    [
     "2026",
     7,
-    4.2
+    3.9
    ],
    [
     "2026",
     8,
-    6.25
+    5.85
    ],
    [
     "2026",
     9,
-    6.25
+    5.85
+   ],
+   [
+    "2026",
+    10,
+    5.85
    ]
   ],
   "benchmark": 100

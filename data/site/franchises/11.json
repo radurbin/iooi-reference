@@ -105,15 +105,15 @@
    "season": "2026",
    "franchise": 11,
    "team": "BubbaNASTIES",
-   "w": 4,
+   "w": 5,
    "l": 5,
    "t": 0,
-   "pf": 1193.62,
-   "pa": 1263.61,
-   "max_pf": 1448.86,
-   "all_play_w": 47,
-   "all_play_l": 52,
-   "expected_w": 4.27,
+   "pf": 1337.84,
+   "pa": 1371.65,
+   "max_pf": 1619.08,
+   "all_play_w": 52,
+   "all_play_l": 58,
+   "expected_w": 4.73,
    "playoff_w": 0,
    "playoff_l": 0,
    "toilet_w": 0,
@@ -121,21 +121,21 @@
    "finish": null,
    "transactions": 9,
    "trades": 0,
-   "seed": 9,
-   "efficiency": 0.8238,
-   "luck": -0.27,
-   "ppg": 132.62,
-   "pct": 0.444,
+   "seed": 8,
+   "efficiency": 0.8263,
+   "luck": 0.27,
+   "ppg": 133.78,
+   "pct": 0.5,
    "result": null
   }
  ],
  "totals": {
-  "w": 23,
+  "w": 24,
   "l": 28,
   "t": 0,
-  "pct": 0.451,
-  "pf": 6513.56,
-  "pa": 6898.9,
+  "pct": 0.462,
+  "pf": 6657.78,
+  "pa": 7006.94,
   "transactions": 62,
   "trades": 4,
   "toilet_w": 4,
@@ -155,72 +155,72 @@
     "player": "3198",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 57,
-    "pts": 959.84,
+    "g": 61,
+    "gs": 58,
+    "pts": 979.84,
     "best": 45.6,
-    "wins": 27,
-    "paa": 156.77,
-    "vor": 417.88,
-    "war": 4.94
+    "wins": 28,
+    "paa": 157.98,
+    "vor": 421.18,
+    "war": 4.98
    },
    {
     "player": "8183",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 46,
-    "pts": 893.06,
+    "g": 61,
+    "gs": 47,
+    "pts": 924.92,
     "best": 36.92,
-    "wins": 26,
-    "paa": 123.35,
-    "vor": 290.62,
-    "war": 3.43
+    "wins": 27,
+    "paa": 137.56,
+    "vor": 326.05,
+    "war": 3.85
    },
    {
     "player": "6794",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 47,
-    "pts": 747.53,
+    "g": 61,
+    "gs": 48,
+    "pts": 763.93,
     "best": 36.4,
-    "wins": 23,
-    "paa": 105.59,
-    "vor": 217.66,
-    "war": 2.57
+    "wins": 24,
+    "paa": 108.77,
+    "vor": 223.74,
+    "war": 2.64
    },
    {
     "player": "6790",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 51,
     "pts": 718.2,
     "best": 34.2,
     "wins": 25,
     "paa": 2.37,
-    "vor": 228.38,
-    "war": 2.7
+    "vor": 222.17,
+    "war": 2.63
    },
    {
     "player": "1466",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 54,
-    "pts": 669.25,
+    "g": 61,
+    "gs": 55,
+    "pts": 674.25,
     "best": 35.9,
-    "wins": 26,
-    "paa": 88.51,
-    "vor": 147.23,
-    "war": 1.74
+    "wins": 27,
+    "paa": 85.99,
+    "vor": 143.51,
+    "war": 1.7
    },
    {
     "player": "1479",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 35,
     "pts": 547.16,
     "best": 45.46,
@@ -233,14 +233,14 @@
     "player": "421",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 25,
-    "gs": 21,
-    "pts": 397.58,
+    "g": 26,
+    "gs": 22,
+    "pts": 417.54,
     "best": 30.88,
-    "wins": 9,
-    "paa": 41.89,
-    "vor": 145.28,
-    "war": 1.72
+    "wins": 10,
+    "paa": 44.2,
+    "vor": 165.05,
+    "war": 1.95
    },
    {
     "player": "2216",
@@ -256,6 +256,19 @@
     "war": 1.1
    },
    {
+    "player": "7543",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 26,
+    "gs": 19,
+    "pts": 273.1,
+    "best": 31.5,
+    "wins": 10,
+    "paa": -4.41,
+    "vor": 102.29,
+    "war": 1.21
+   },
+   {
     "player": "1264",
     "pos": "K",
     "years": "2023-2025",
@@ -267,19 +280,6 @@
     "paa": 10.38,
     "vor": 17.13,
     "war": 0.2
-   },
-   {
-    "player": "7543",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 25,
-    "gs": 18,
-    "pts": 265.9,
-    "best": 31.5,
-    "wins": 9,
-    "paa": 7.18,
-    "vor": 107.65,
-    "war": 1.27
    },
    {
     "player": "4950",
@@ -298,46 +298,46 @@
     "player": "DET",
     "pos": "DEF",
     "years": "2024-2026",
-    "g": 36,
-    "gs": 33,
-    "pts": 171.0,
+    "g": 37,
+    "gs": 34,
+    "pts": 184.0,
     "best": 20.0,
-    "wins": 15,
-    "paa": -64.51,
-    "vor": -50.44,
-    "war": -0.6
-   },
-   {
-    "player": "8134",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 26,
-    "gs": 15,
-    "pts": 156.0,
-    "best": 20.8,
-    "wins": 4,
-    "paa": -31.87,
-    "vor": -2.44,
-    "war": -0.03
+    "wins": 16,
+    "paa": -61.24,
+    "vor": -45.22,
+    "war": -0.53
    },
    {
     "player": "9500",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 18,
-    "pts": 155.5,
+    "g": 61,
+    "gs": 19,
+    "pts": 170.8,
     "best": 19.4,
-    "wins": 8,
-    "paa": -85.74,
-    "vor": -48.6,
-    "war": -0.57
+    "wins": 9,
+    "paa": -83.66,
+    "vor": -43.62,
+    "war": -0.52
+   },
+   {
+    "player": "8134",
+    "pos": "WR",
+    "years": "2025-2026",
+    "g": 27,
+    "gs": 16,
+    "pts": 163.8,
+    "best": 20.8,
+    "wins": 5,
+    "paa": -37.29,
+    "vor": -4.96,
+    "war": -0.06
    },
    {
     "player": "8676",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 14,
     "pts": 146.6,
     "best": 21.4,
@@ -350,7 +350,7 @@
     "player": "12519",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 8,
     "pts": 120.2,
     "best": 23.8,
@@ -363,7 +363,7 @@
     "player": "4195",
     "pos": "K",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 20,
     "pts": 115.2,
     "best": 12.0,
@@ -402,7 +402,7 @@
     "player": "8131",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 46,
+    "g": 47,
     "gs": 6,
     "pts": 90.0,
     "best": 32.4,
@@ -415,7 +415,7 @@
     "player": "11637",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 43,
+    "g": 44,
     "gs": 8,
     "pts": 65.4,
     "best": 18.0,
@@ -441,14 +441,14 @@
     "player": "12545",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 3,
     "pts": 41.38,
     "best": 23.9,
     "wins": 1,
     "paa": -10.95,
-    "vor": 1.33,
-    "war": 0.02
+    "vor": 6.97,
+    "war": 0.08
    },
    {
     "player": "4574",
@@ -483,27 +483,27 @@
      "player": "8183",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 46,
-     "pts": 893.06,
+     "g": 61,
+     "gs": 47,
+     "pts": 924.92,
      "best": 36.92,
-     "wins": 26,
-     "paa": 123.35,
-     "vor": 290.62,
-     "war": 3.43
+     "wins": 27,
+     "paa": 137.56,
+     "vor": 326.05,
+     "war": 3.85
     },
     {
      "player": "421",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 25,
-     "gs": 21,
-     "pts": 397.58,
+     "g": 26,
+     "gs": 22,
+     "pts": 417.54,
      "best": 30.88,
-     "wins": 9,
-     "paa": 41.89,
-     "vor": 145.28,
-     "war": 1.72
+     "wins": 10,
+     "paa": 44.2,
+     "vor": 165.05,
+     "war": 1.95
     },
     {
      "player": "9999",
@@ -524,40 +524,40 @@
      "player": "3198",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 57,
-     "pts": 959.84,
+     "g": 61,
+     "gs": 58,
+     "pts": 979.84,
      "best": 45.6,
-     "wins": 27,
-     "paa": 156.77,
-     "vor": 417.88,
-     "war": 4.94
+     "wins": 28,
+     "paa": 157.98,
+     "vor": 421.18,
+     "war": 4.98
     },
     {
      "player": "6790",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 51,
      "pts": 718.2,
      "best": 34.2,
      "wins": 25,
      "paa": 2.37,
-     "vor": 228.38,
-     "war": 2.7
+     "vor": 222.17,
+     "war": 2.63
     },
     {
      "player": "7543",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 25,
-     "gs": 18,
-     "pts": 265.9,
+     "g": 26,
+     "gs": 19,
+     "pts": 273.1,
      "best": 31.5,
-     "wins": 9,
-     "paa": 7.18,
-     "vor": 107.65,
-     "war": 1.27
+     "wins": 10,
+     "paa": -4.41,
+     "vor": 102.29,
+     "war": 1.21
     }
    ],
    "WR": [
@@ -565,20 +565,20 @@
      "player": "6794",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 47,
-     "pts": 747.53,
+     "g": 61,
+     "gs": 48,
+     "pts": 763.93,
      "best": 36.4,
-     "wins": 23,
-     "paa": 105.59,
-     "vor": 217.66,
-     "war": 2.57
+     "wins": 24,
+     "paa": 108.77,
+     "vor": 223.74,
+     "war": 2.64
     },
     {
      "player": "1479",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 35,
      "pts": 547.16,
      "best": 45.46,
@@ -606,20 +606,20 @@
      "player": "1466",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 54,
-     "pts": 669.25,
+     "g": 61,
+     "gs": 55,
+     "pts": 674.25,
      "best": 35.9,
-     "wins": 26,
-     "paa": 88.51,
-     "vor": 147.23,
-     "war": 1.74
+     "wins": 27,
+     "paa": 85.99,
+     "vor": 143.51,
+     "war": 1.7
     },
     {
      "player": "8131",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 46,
+     "g": 47,
      "gs": 6,
      "pts": 90.0,
      "best": 32.4,
@@ -660,7 +660,7 @@
      "player": "4195",
      "pos": "K",
      "years": "2025-2026",
-     "g": 26,
+     "g": 27,
      "gs": 20,
      "pts": 115.2,
      "best": 12.0,
@@ -688,14 +688,14 @@
      "player": "DET",
      "pos": "DEF",
      "years": "2024-2026",
-     "g": 36,
-     "gs": 33,
-     "pts": 171.0,
+     "g": 37,
+     "gs": 34,
+     "pts": 184.0,
      "best": 20.0,
-     "wins": 15,
-     "paa": -64.51,
-     "vor": -50.44,
-     "war": -0.6
+     "wins": 16,
+     "paa": -61.24,
+     "vor": -45.22,
+     "war": -0.53
     },
     {
      "player": "SEA",
@@ -744,8 +744,8 @@
    "signings": 14,
    "adds": 16,
    "releases": 17,
-   "gs": 44,
-   "pts": 255.32
+   "gs": 45,
+   "pts": 268.32
   },
   {
    "season": "2025",
@@ -764,8 +764,8 @@
    "signings": 0,
    "adds": 3,
    "releases": 8,
-   "gs": 2,
-   "pts": 10.0
+   "gs": 3,
+   "pts": 17.7
   }
  ],
  "best_games": [
@@ -887,6 +887,17 @@
    "game": "2024-14-5-11",
    "season": "2024",
    "week": 14,
+   "franchise": 11,
+   "team": "BubbaNASTIES"
+  },
+  {
+   "player": "8183",
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "pts": 31.86,
+   "game": "2026-10-7-11",
+   "season": "2026",
+   "week": 10,
    "franchise": 11,
    "team": "BubbaNASTIES"
   },
@@ -1030,17 +1041,6 @@
    "game": "2025-01-1-11",
    "season": "2025",
    "week": 1,
-   "franchise": 11,
-   "team": "BubbaNASTIES"
-  },
-  {
-   "player": "2216",
-   "name": "Mike Evans",
-   "pos": "WR",
-   "pts": 29.1,
-   "game": "2023-02-9-11",
-   "season": "2023",
-   "week": 2,
    "franchise": 11,
    "team": "BubbaNASTIES"
   }
@@ -1241,7 +1241,7 @@
    "list": "Career Points",
    "scope": 11,
    "rank": 1,
-   "value": "959.84",
+   "value": "979.84",
    "href": "franchise.html?id=11#all-time-leaders",
    "player": "3198",
    "franchise": 11
@@ -1250,7 +1250,7 @@
    "list": "Career Starts",
    "scope": 11,
    "rank": 1,
-   "value": "57",
+   "value": "58",
    "href": "franchise.html?id=11#all-time-leaders",
    "player": "3198",
    "franchise": 11
@@ -1259,7 +1259,7 @@
    "list": "Career WAR",
    "scope": 11,
    "rank": 1,
-   "value": "4.94",
+   "value": "4.97",
    "href": "franchise.html?id=11#all-time-leaders",
    "player": "3198",
    "franchise": 11
@@ -1344,9 +1344,9 @@
     "team": "BubbaNASTIES",
     "games": 12,
     "players": 4,
-    "lost": 5.99,
+    "lost": 3.64,
     "rank": 11,
-    "games_rank": 11,
+    "games_rank": 12,
     "of": 12,
     "worst": {
      "player": "6794",
@@ -1355,7 +1355,7 @@
      "missed": 1,
      "lost": 3.64
     },
-    "w": 4,
+    "w": 5,
     "l": 5
    }
   ],
@@ -1473,22 +1473,6 @@
     ]
    },
    {
-    "player": "7543",
-    "name": "Travis Etienne Jr.",
-    "pos": "RB",
-    "missed": 5,
-    "lost": 2.35,
-    "injuries": [
-     "Hamstring"
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "seasons": [
-     "2026"
-    ]
-   },
-   {
     "player": "12483",
     "name": "Jack Bech",
     "pos": "WR",
@@ -1524,6 +1508,22 @@
     "seasons": [
      "2024",
      "2025"
+    ]
+   },
+   {
+    "player": "7543",
+    "name": "Travis Etienne Jr.",
+    "pos": "RB",
+    "missed": 5,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "seasons": [
+     "2026"
     ]
    },
    {
@@ -1638,9 +1638,9 @@
    "franchise": 11,
    "name": "BubbaNASTIES",
    "games": 99,
-   "lost": 199.85,
+   "lost": 197.5,
    "seasons": 4,
-   "per_season": 49.96,
+   "per_season": 49.38,
    "worst": "2025"
   }
  }

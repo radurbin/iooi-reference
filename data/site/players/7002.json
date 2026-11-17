@@ -49,29 +49,29 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NO",
-   "g": 9,
-   "gs": 1,
-   "pts": 26.8,
+   "g": 10,
+   "gs": 2,
+   "pts": 31.6,
    "bench_pts": 55.6,
-   "ppg": 26.8,
+   "ppg": 15.8,
    "best": 26.8,
-   "wins": 1,
-   "paa": 14.14,
-   "vor": 18.08,
-   "war": 0.21
+   "wins": 2,
+   "paa": 11.42,
+   "vor": 14.16,
+   "war": 0.17
   }
  ],
  "totals": {
-  "g": 28,
-  "gs": 8,
-  "pts": 68.5,
+  "g": 29,
+  "gs": 9,
+  "pts": 73.3,
   "bench_pts": 176.3,
-  "ppg": 8.56,
+  "ppg": 8.14,
   "best": 26.8,
-  "wins": 3,
-  "paa": -19.02,
-  "vor": -4.5,
-  "war": -0.05
+  "wins": 4,
+  "paa": -21.74,
+  "vor": -8.42,
+  "war": -0.1
  },
  "nfl": [
   {
@@ -614,13 +614,32 @@
    "pts": 11.4,
    "proj": 10.43,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": "TE",
+   "started": true,
+   "pts": 4.8,
+   "proj": 8.34,
+   "won": true,
+   "paa": -2.72,
+   "vor": -3.92,
+   "war": -0.04632963012909335
   }
  ],
  "similar": [
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 974,
+   "score": 977,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -629,7 +648,7 @@
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 935,
+   "score": 938,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
@@ -638,7 +657,7 @@
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 879,
+   "score": 911,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
@@ -647,16 +666,16 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 768,
-   "gs": 18,
-   "pts": 167.8,
-   "ppg": 9.32,
-   "war": -0.12
+   "score": 750,
+   "gs": 19,
+   "pts": 179.3,
+   "ppg": 9.44,
+   "war": -0.09
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 762,
+   "score": 735,
    "gs": 12,
    "pts": 131.4,
    "ppg": 10.95,
@@ -673,46 +692,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 68.5,
+   "value": 73.3,
    "digits": 2,
-   "rank": 245,
-   "of": 420
+   "rank": 242,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 8,
+   "value": 9,
    "digits": 0,
-   "rank": 239,
-   "of": 420
+   "rank": 235,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.1,
    "digits": 2,
-   "rank": 249,
-   "of": 420
+   "rank": 283,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -4.5,
+   "value": -8.4,
    "digits": 1,
-   "rank": 257,
-   "of": 420
+   "rank": 286,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -19.0,
+   "value": -21.7,
    "digits": 1,
-   "rank": 282,
-   "of": 420
+   "rank": 291,
+   "of": 424
   },
   {
    "group": "Career",
@@ -720,16 +739,16 @@
    "stat": "Best Game",
    "value": 26.8,
    "digits": 2,
-   "rank": 138,
-   "of": 420
+   "rank": 139,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 8.56,
+   "value": 8.14,
    "digits": 2,
-   "rank": 197,
+   "rank": 208,
    "of": 256
   },
   {
@@ -738,14 +757,14 @@
    "stat": "Bench Points",
    "value": 176.3,
    "digits": 2,
-   "rank": 66,
-   "of": 511
+   "rank": 68,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Points",
-   "value": 68.5,
+   "value": 73.3,
    "digits": 2,
    "rank": 26,
    "of": 52
@@ -754,7 +773,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 8,
+   "value": 9,
    "digits": 0,
    "rank": 25,
    "of": 52
@@ -763,9 +782,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.1,
    "digits": 2,
-   "rank": 26,
+   "rank": 32,
    "of": 52
   },
   {
@@ -812,7 +831,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Points",
-   "value": 63.7,
+   "value": 68.5,
    "digits": 2,
    "rank": 26,
    "of": 68,
@@ -822,9 +841,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 30,
+   "rank": 25,
    "of": 68,
    "franchise": 3
   },
@@ -832,9 +851,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.01,
+   "value": -0.03,
    "digits": 2,
-   "rank": 43,
+   "rank": 46,
    "of": 68,
    "franchise": 3
   },
@@ -842,7 +861,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Points, TEs",
-   "value": 63.7,
+   "value": 68.5,
    "digits": 2,
    "rank": 3,
    "of": 4,
@@ -892,20 +911,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 26.8,
+   "value": 31.6,
    "digits": 2,
-   "rank": 150,
-   "of": 233,
+   "rank": 147,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 TEs",
    "stat": "Points",
-   "value": 26.8,
+   "value": 31.6,
    "digits": 2,
    "rank": 17,
-   "of": 28,
+   "of": 29,
    "season": "2026"
   },
   {
@@ -914,18 +933,18 @@
    "stat": "Points, 2025",
    "value": 36.9,
    "digits": 2,
-   "rank": 644,
-   "of": 1010,
+   "rank": 652,
+   "of": 1019,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 26.8,
+   "value": 31.6,
    "digits": 2,
-   "rank": 694,
-   "of": 1010,
+   "rank": 676,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -934,17 +953,17 @@
    "stat": "Points, 2024",
    "value": 4.8,
    "digits": 2,
-   "rank": 934,
-   "of": 1010,
+   "rank": 940,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 2.0,
-  "rank": 257,
-  "of": 420,
+  "score": 2.25,
+  "rank": 255,
+  "of": 424,
   "war": 0.0,
-  "starts": 2.0,
+  "starts": 2.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1132,6 +1151,11 @@
     "2026",
     9,
     2.0
+   ],
+   [
+    "2026",
+    10,
+    2.25
    ]
   ],
   "benchmark": 100

@@ -96,8 +96,8 @@
    "best": 16.2,
    "wins": 0,
    "paa": -1.57,
-   "vor": 9.8,
-   "war": 0.12
+   "vor": 8.42,
+   "war": 0.1
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 16.2,
   "wins": 3,
   "paa": -32.87,
-  "vor": -12.32,
-  "war": -0.15
+  "vor": -13.7,
+  "war": -0.16
  },
  "nfl": [
   {
@@ -699,8 +699,8 @@
    "proj": 12.17,
    "won": false,
    "paa": 2.8,
-   "vor": 6.4,
-   "war": 0.07564021245566262
+   "vor": 5.71,
+   "war": 0.06748525205028649
   },
   {
    "season": "2026",
@@ -718,8 +718,8 @@
    "proj": 6.79,
    "won": false,
    "paa": -4.37,
-   "vor": 3.4,
-   "war": 0.04018386286707076
+   "vor": 2.71,
+   "war": 0.03202890246169464
   }
  ],
  "status": {
@@ -735,7 +735,7 @@
    "value": 49.6,
    "digits": 2,
    "rank": 270,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -743,26 +743,26 @@
    "stat": "Games Started",
    "value": 6,
    "digits": 0,
-   "rank": 267,
-   "of": 420
+   "rank": 269,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.16,
    "digits": 2,
-   "rank": 330,
-   "of": 420
+   "rank": 337,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -12.3,
+   "value": -13.7,
    "digits": 1,
-   "rank": 330,
-   "of": 420
+   "rank": 342,
+   "of": 424
   },
   {
    "group": "Career",
@@ -770,8 +770,8 @@
    "stat": "PAA",
    "value": -32.9,
    "digits": 1,
-   "rank": 331,
-   "of": 420
+   "rank": 332,
+   "of": 424
   },
   {
    "group": "Career",
@@ -779,8 +779,8 @@
    "stat": "Best Game",
    "value": 16.2,
    "digits": 2,
-   "rank": 269,
-   "of": 420
+   "rank": 271,
+   "of": 424
   },
   {
    "group": "Career",
@@ -788,8 +788,8 @@
    "stat": "Bench Points",
    "value": 67.9,
    "digits": 2,
-   "rank": 239,
-   "of": 511
+   "rank": 241,
+   "of": 515
   },
   {
    "group": "Career",
@@ -813,7 +813,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.15,
+   "value": -0.16,
    "digits": 2,
    "rank": 85,
    "of": 100
@@ -825,7 +825,7 @@
    "value": 29.4,
    "digits": 2,
    "rank": 39,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -834,18 +834,18 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 44,
-   "of": 73,
+   "rank": 45,
+   "of": 74,
    "franchise": 10
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": 0.12,
+   "value": 0.1,
    "digits": 2,
-   "rank": 23,
-   "of": 73,
+   "rank": 26,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -924,8 +924,8 @@
    "stat": "Points",
    "value": 29.4,
    "digits": 2,
-   "rank": 146,
-   "of": 233,
+   "rank": 151,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -934,7 +934,7 @@
    "stat": "Points",
    "value": 29.4,
    "digits": 2,
-   "rank": 37,
+   "rank": 39,
    "of": 58,
    "season": "2026"
   },
@@ -944,8 +944,8 @@
    "stat": "Points, 2026",
    "value": 29.4,
    "digits": 2,
-   "rank": 681,
-   "of": 1010,
+   "rank": 686,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -954,16 +954,16 @@
    "stat": "Points, 2023",
    "value": 20.2,
    "digits": 2,
-   "rank": 758,
-   "of": 1010,
+   "rank": 762,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.5,
-  "rank": 283,
-  "of": 420,
+  "rank": 287,
+  "of": 424,
   "war": 0.0,
   "starts": 1.5,
   "black_ink": 0.0,
@@ -1267,6 +1267,11 @@
    [
     "2026",
     9,
+    1.5
+   ],
+   [
+    "2026",
+    10,
     1.5
    ]
   ],

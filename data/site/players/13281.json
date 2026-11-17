@@ -24,10 +24,10 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "NO",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 5.0,
+   "bench_pts": 24.0,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -37,10 +37,10 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 5.0,
+  "bench_pts": 24.0,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -54,7 +54,7 @@
    "team": "NO",
    "g": 2,
    "pts": 24.0,
-   "rank": 111
+   "rank": 112
   }
  ],
  "history": [
@@ -215,6 +215,22 @@
    "pts": 5.0,
    "proj": 4.82,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 19.0,
+   "proj": 9.07,
+   "won": false
   }
  ],
  "status": {
@@ -227,10 +243,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 5.0,
+   "value": 24.0,
    "digits": 2,
-   "rank": 469,
-   "of": 511
+   "rank": 382,
+   "of": 515
   }
  ],
  "similar": [],

@@ -457,18 +457,9 @@
  ],
  "similar": [
   {
-   "player": "12495",
-   "name": "Ollie Gordon II",
-   "score": 894,
-   "gs": 14,
-   "pts": 66.4,
-   "ppg": 4.74,
-   "war": -0.67
-  },
-  {
    "player": "4111",
    "name": "D'Onta Foreman",
-   "score": 888,
+   "score": 889,
    "gs": 8,
    "pts": 14.5,
    "ppg": 1.81,
@@ -477,7 +468,7 @@
   {
    "player": "6151",
    "name": "Miles Sanders",
-   "score": 850,
+   "score": 852,
    "gs": 16,
    "pts": 82.5,
    "ppg": 5.16,
@@ -486,16 +477,25 @@
   {
    "player": "12469",
    "name": "Dylan Sampson",
-   "score": 846,
+   "score": 848,
    "gs": 8,
    "pts": 45.15,
    "ppg": 5.64,
    "war": -0.28
   },
   {
+   "player": "12495",
+   "name": "Ollie Gordon II",
+   "score": 841,
+   "gs": 15,
+   "pts": 83.9,
+   "ppg": 5.59,
+   "war": -0.6
+  },
+  {
    "player": "8154",
    "name": "Brian Robinson Jr.",
-   "score": 796,
+   "score": 798,
    "gs": 14,
    "pts": 90.1,
    "ppg": 6.44,
@@ -524,8 +524,8 @@
    "stat": "Points",
    "value": 35.2,
    "digits": 2,
-   "rank": 287,
-   "of": 420
+   "rank": 291,
+   "of": 424
   },
   {
    "group": "Career",
@@ -533,8 +533,8 @@
    "stat": "Games Started",
    "value": 10,
    "digits": 0,
-   "rank": 222,
-   "of": 420
+   "rank": 224,
+   "of": 424
   },
   {
    "group": "Career",
@@ -542,8 +542,8 @@
    "stat": "WAR",
    "value": -0.83,
    "digits": 2,
-   "rank": 416,
-   "of": 420
+   "rank": 420,
+   "of": 424
   },
   {
    "group": "Career",
@@ -551,8 +551,8 @@
    "stat": "VOR",
    "value": -70.6,
    "digits": 1,
-   "rank": 416,
-   "of": 420
+   "rank": 420,
+   "of": 424
   },
   {
    "group": "Career",
@@ -560,8 +560,8 @@
    "stat": "PAA",
    "value": -94.3,
    "digits": 1,
-   "rank": 410,
-   "of": 420
+   "rank": 414,
+   "of": 424
   },
   {
    "group": "Career",
@@ -569,8 +569,8 @@
    "stat": "Best Game",
    "value": 10.3,
    "digits": 2,
-   "rank": 329,
-   "of": 420
+   "rank": 333,
+   "of": 424
   },
   {
    "group": "Career",
@@ -587,8 +587,8 @@
    "stat": "Bench Points",
    "value": 4.6,
    "digits": 2,
-   "rank": 475,
-   "of": 511
+   "rank": 479,
+   "of": 515
   },
   {
    "group": "Career",
@@ -596,7 +596,7 @@
    "stat": "Points",
    "value": 35.2,
    "digits": 2,
-   "rank": 68,
+   "rank": 70,
    "of": 100
   },
   {
@@ -605,7 +605,7 @@
    "stat": "Games Started",
    "value": 10,
    "digits": 0,
-   "rank": 54,
+   "rank": 55,
    "of": 100
   },
   {
@@ -623,7 +623,7 @@
    "stat": "Points",
    "value": 35.2,
    "digits": 2,
-   "rank": 37,
+   "rank": 38,
    "of": 68,
    "franchise": 3
   },
@@ -653,7 +653,7 @@
    "stat": "Points, RBs",
    "value": 35.2,
    "digits": 2,
-   "rank": 10,
+   "rank": 11,
    "of": 15,
    "franchise": 3
   },
@@ -683,15 +683,15 @@
    "stat": "Points, 2023",
    "value": 35.2,
    "digits": 2,
-   "rank": 652,
-   "of": 1010,
+   "rank": 659,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 2.5,
-  "rank": 243,
-  "of": 420,
+  "rank": 244,
+  "of": 424,
   "war": 0.0,
   "starts": 2.5,
   "black_ink": 0.0,
@@ -995,6 +995,11 @@
    [
     "2026",
     9,
+    2.5
+   ],
+   [
+    "2026",
+    10,
     2.5
    ]
   ],

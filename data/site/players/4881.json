@@ -76,7 +76,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "BAL",
-   "g": 9,
+   "g": 10,
    "gs": 5,
    "pts": 80.98,
    "bench_pts": 0.0,
@@ -84,12 +84,12 @@
    "best": 25.66,
    "wins": 4,
    "paa": -4.57,
-   "vor": 14.23,
-   "war": 0.17
+   "vor": 23.63,
+   "war": 0.28
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 47,
   "pts": 944.6,
   "bench_pts": 0.0,
@@ -97,8 +97,8 @@
   "best": 34.44,
   "wins": 30,
   "paa": 166.55,
-  "vor": 336.29,
-  "war": 3.97
+  "vor": 345.69,
+  "war": 4.09
  },
  "nfl": [
   {
@@ -1126,8 +1126,8 @@
    "proj": 19.94,
    "won": false,
    "paa": 7.17,
-   "vor": 12.31,
-   "war": 0.14548922114518856
+   "vor": 14.19,
+   "war": 0.16770853355403945
   },
   {
    "season": "2026",
@@ -1145,8 +1145,8 @@
    "proj": 20.88,
    "won": true,
    "paa": -2.54,
-   "vor": 1.85,
-   "war": 0.021864748912964974
+   "vor": 3.73,
+   "war": 0.044084061321815866
   },
   {
    "season": "2026",
@@ -1164,8 +1164,8 @@
    "proj": 24.86,
    "won": true,
    "paa": 3.72,
-   "vor": 7.69,
-   "war": 0.09088644277875711
+   "vor": 9.57,
+   "war": 0.113105755187608
   },
   {
    "season": "2026",
@@ -1183,8 +1183,8 @@
    "proj": 22.32,
    "won": true,
    "paa": 3.86,
-   "vor": 5.73,
-   "war": 0.06772162771421043
+   "vor": 7.61,
+   "war": 0.08994094012306134
   },
   {
    "season": "2026",
@@ -1250,8 +1250,8 @@
    "proj": 20.62,
    "won": true,
    "paa": -16.78,
-   "vor": -13.35,
-   "war": -0.15778075566923372
+   "vor": -11.47,
+   "war": -0.13556144326038286
   },
   {
    "season": "2026",
@@ -1268,53 +1268,69 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
+   "player": "8183",
+   "name": "Brock Purdy",
+   "score": 955,
+   "gs": 47,
+   "pts": 924.92,
+   "ppg": 19.68,
+   "war": 3.85
+  },
+  {
    "player": "6904",
    "name": "Jalen Hurts",
-   "score": 916,
+   "score": 919,
    "gs": 50,
    "pts": 1004.6,
    "ppg": 20.09,
-   "war": 4.29
-  },
-  {
-   "player": "8183",
-   "name": "Brock Purdy",
-   "score": 898,
-   "gs": 46,
-   "pts": 893.06,
-   "ppg": 19.41,
-   "war": 3.43
-  },
-  {
-   "player": "3163",
-   "name": "Jared Goff",
-   "score": 859,
-   "gs": 48,
-   "pts": 892.1,
-   "ppg": 18.59,
-   "war": 3.34
+   "war": 4.4
   },
   {
    "player": "3294",
    "name": "Dak Prescott",
-   "score": 852,
-   "gs": 44,
-   "pts": 848.2,
-   "ppg": 19.28,
-   "war": 3.27
+   "score": 918,
+   "gs": 45,
+   "pts": 883.02,
+   "ppg": 19.62,
+   "war": 3.74
+  },
+  {
+   "player": "3163",
+   "name": "Jared Goff",
+   "score": 880,
+   "gs": 49,
+   "pts": 912.62,
+   "ppg": 18.62,
+   "war": 3.63
   },
   {
    "player": "4046",
    "name": "Patrick Mahomes",
-   "score": 849,
-   "gs": 51,
-   "pts": 943.26,
-   "ppg": 18.5,
-   "war": 3.36
+   "score": 877,
+   "gs": 52,
+   "pts": 978.88,
+   "ppg": 18.82,
+   "war": 3.82
   }
  ],
  "status": {
@@ -1329,8 +1345,8 @@
    "stat": "Points",
    "value": 944.6,
    "digits": 2,
-   "rank": 10,
-   "of": 420
+   "rank": 11,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1338,26 +1354,26 @@
    "stat": "Games Started",
    "value": 47,
    "digits": 0,
-   "rank": 23,
-   "of": 420
+   "rank": 25,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.97,
+   "value": 4.09,
    "digits": 2,
    "rank": 15,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 336.3,
+   "value": 345.7,
    "digits": 1,
    "rank": 15,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1366,7 +1382,7 @@
    "value": 166.6,
    "digits": 1,
    "rank": 14,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1374,8 +1390,8 @@
    "stat": "Best Game",
    "value": 34.44,
    "digits": 2,
-   "rank": 61,
-   "of": 420
+   "rank": 65,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1383,7 +1399,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 20.1,
    "digits": 2,
-   "rank": 6,
+   "rank": 8,
    "of": 256
   },
   {
@@ -1392,8 +1408,8 @@
    "stat": "Points",
    "value": 944.6,
    "digits": 2,
-   "rank": 3,
-   "of": 66
+   "rank": 4,
+   "of": 68
   },
   {
    "group": "Career",
@@ -1402,16 +1418,16 @@
    "value": 47,
    "digits": 0,
    "rank": 8,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 3.97,
+   "value": 4.09,
    "digits": 2,
    "rank": 3,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -1437,9 +1453,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.88,
+   "value": 0.99,
    "digits": 2,
-   "rank": 7,
+   "rank": 6,
    "of": 68,
    "franchise": 3
   },
@@ -1459,8 +1475,8 @@
    "stat": "Points",
    "value": 666.18,
    "digits": 2,
-   "rank": 2,
-   "of": 67,
+   "rank": 3,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1470,7 +1486,7 @@
    "value": 30,
    "digits": 0,
    "rank": 4,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1480,7 +1496,7 @@
    "value": 3.11,
    "digits": 2,
    "rank": 2,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1490,7 +1506,7 @@
    "value": 666.18,
    "digits": 2,
    "rank": 1,
-   "of": 9,
+   "of": 10,
    "franchise": 8
   },
   {
@@ -1559,8 +1575,8 @@
    "stat": "Points",
    "value": 80.98,
    "digits": 2,
-   "rank": 68,
-   "of": 233,
+   "rank": 71,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1570,7 +1586,7 @@
    "value": 80.98,
    "digits": 2,
    "rank": 20,
-   "of": 36,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -1580,7 +1596,7 @@
    "value": 371.3,
    "digits": 2,
    "rank": 4,
-   "of": 1010,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1590,7 +1606,7 @@
    "value": 294.88,
    "digits": 2,
    "rank": 30,
-   "of": 1010,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1599,8 +1615,8 @@
    "stat": "Points, 2025",
    "value": 197.44,
    "digits": 2,
-   "rank": 126,
-   "of": 1010,
+   "rank": 134,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1609,16 +1625,16 @@
    "stat": "Points, 2026",
    "value": 80.98,
    "digits": 2,
-   "rank": 410,
-   "of": 1010,
+   "rank": 413,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 59.45,
-  "rank": 14,
-  "of": 420,
-  "war": 39.7,
+  "score": 60.65,
+  "rank": 13,
+  "of": 424,
+  "war": 40.9,
   "starts": 11.75,
   "black_ink": 2.0,
   "awards": 6.0,
@@ -1881,47 +1897,52 @@
    [
     "2026",
     1,
-    58.25
+    58.45
    ],
    [
     "2026",
     2,
-    58.7
+    59.2
    ],
    [
     "2026",
     3,
-    59.85
+    60.55
    ],
    [
     "2026",
     4,
-    60.8
+    61.7
    ],
    [
     "2026",
     5,
-    60.8
+    61.7
    ],
    [
     "2026",
     6,
-    60.8
+    61.7
    ],
    [
     "2026",
     7,
-    60.8
+    61.7
    ],
    [
     "2026",
     8,
-    59.45
+    60.65
    ],
    [
     "2026",
     9,
-    59.45
+    60.65
+   ],
+   [
+    "2026",
+    10,
+    60.65
    ]
   ],
   "benchmark": 100
@@ -1992,20 +2013,23 @@
    {
     "season": "2026",
     "nfl": "BAL",
-    "missed": 3,
-    "lost": 8.55,
+    "missed": 4,
+    "lost": 18.92,
     "injuries": [
-     "Ankle"
+     "Ankle",
+     "Thumb"
     ],
     "weeks": [
      5,
      6,
-     7
+     7,
+     10
     ],
     "kinds": [
+     "IR",
      "Out"
     ],
-    "rostered": 3,
+    "rostered": 4,
     "games": [
      {
       "week": 5,
@@ -2025,6 +2049,13 @@
       "week": 7,
       "kind": "Out",
       "injury": "Ankle",
+      "franchise": 3,
+      "team": "Kolkata Kommies"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Thumb",
       "franchise": 3,
       "team": "Kolkata Kommies"
      }
@@ -2100,14 +2131,36 @@
      }
     ],
     "rostered": 3,
-    "lost": 8.55
+    "lost": 14.19
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "BAL",
+    "injury": "Thumb",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [
+     {
+      "franchise": 3,
+      "team": "Kolkata Kommies"
+     }
+    ],
+    "rostered": 1,
+    "lost": 4.73
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Thumb",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

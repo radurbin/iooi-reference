@@ -1439,10 +1439,10 @@
    "original": 1,
    "player": "4984",
    "pos": "QB",
-   "starts_team": 56,
-   "pts_team": 1320.02,
-   "starts_league": 56,
-   "pts_league": 1320.02,
+   "starts_team": 57,
+   "pts_team": 1342.86,
+   "starts_league": 57,
+   "pts_league": 1342.86,
    "nfl_pts": 1342.86
   },
   {
@@ -1459,10 +1459,10 @@
    "original": 1,
    "player": "9228",
    "pos": "QB",
-   "starts_team": 20,
-   "pts_team": 284.82,
-   "starts_league": 20,
-   "pts_league": 284.82,
+   "starts_team": 21,
+   "pts_team": 293.02,
+   "starts_league": 21,
+   "pts_league": 293.02,
    "nfl_pts": 669.68
   },
   {
@@ -1481,8 +1481,8 @@
    "pos": "WR",
    "starts_team": 6,
    "pts_team": 79.4,
-   "starts_league": 40,
-   "pts_league": 592.8,
+   "starts_league": 41,
+   "pts_league": 598.8,
    "nfl_pts": 711.8
   },
   {
@@ -1581,8 +1581,8 @@
    "pos": "WR",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 18,
-   "pts_league": 224.1,
+   "starts_league": 19,
+   "pts_league": 233.1,
    "nfl_pts": 607.4
   },
   {
@@ -1701,8 +1701,8 @@
    "pos": "RB",
    "starts_team": 2,
    "pts_team": 15.8,
-   "starts_league": 11,
-   "pts_league": 115.75,
+   "starts_league": 12,
+   "pts_league": 117.65,
    "nfl_pts": 450.85
   },
   {
@@ -1759,10 +1759,10 @@
    "original": 1,
    "player": "8130",
    "pos": "TE",
-   "starts_team": 43,
-   "pts_team": 739.8,
-   "starts_league": 43,
-   "pts_league": 739.8,
+   "starts_team": 44,
+   "pts_team": 748.5,
+   "starts_league": 44,
+   "pts_league": 748.5,
    "nfl_pts": 874.8
   },
   {
@@ -1799,11 +1799,11 @@
    "original": 1,
    "player": "BAL",
    "pos": "DEF",
-   "starts_team": 5,
-   "pts_team": 58.0,
-   "starts_league": 27,
-   "pts_league": 217.0,
-   "nfl_pts": 367.0
+   "starts_team": 6,
+   "pts_team": 62.0,
+   "starts_league": 28,
+   "pts_league": 221.0,
+   "nfl_pts": 371.0
   },
   {
    "round": 20,
@@ -1908,40 +1908,30 @@
  ],
  "similar": [
   {
+   "season": "2026",
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 798,
+   "w": 6,
+   "l": 4,
+   "ppg": 142.2,
+   "result": null
+  },
+  {
    "season": "2024",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 789,
+   "score": 790,
    "w": 9,
    "l": 5,
    "ppg": 131.79,
    "result": "6th"
   },
   {
-   "season": "2026",
-   "franchise": 9,
-   "team": "Clandestine Ball Busters",
-   "score": 779,
-   "w": 4,
-   "l": 5,
-   "ppg": 133.21,
-   "result": null
-  },
-  {
-   "season": "2026",
-   "franchise": 2,
-   "team": "Storm FC",
-   "score": 745,
-   "w": 6,
-   "l": 3,
-   "ppg": 143.7,
-   "result": null
-  },
-  {
    "season": "2024",
    "franchise": 5,
    "team": "i’m Stroud of you",
-   "score": 732,
+   "score": 733,
    "w": 9,
    "l": 5,
    "ppg": 140.69,
@@ -1951,11 +1941,21 @@
    "season": "2025",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "score": 728,
+   "score": 730,
    "w": 7,
    "l": 7,
    "ppg": 130.72,
    "result": "8th"
+  },
+  {
+   "season": "2023",
+   "franchise": 8,
+   "team": "Breece is the Word",
+   "score": 728,
+   "w": 7,
+   "l": 7,
+   "ppg": 128.19,
+   "result": "5th"
   }
  ],
  "pickups": [
@@ -2295,10 +2295,10 @@
     "emily"
    ],
    "until": null,
-   "g": 52,
-   "gs": 43,
-   "pts": 739.8,
-   "wins": 31,
+   "g": 53,
+   "gs": 44,
+   "pts": 748.5,
+   "wins": 32,
    "best": 37.4
   },
   {
@@ -2652,7 +2652,7 @@
     "riley",
     "emily"
    ],
-   "gs": 13,
+   "gs": 14,
    "pts": 148.5,
    "next": 9,
    "next_team": "The McCaffrican Americans"
@@ -2802,8 +2802,8 @@
     "riley",
     "emily"
    ],
-   "gs": 33,
-   "pts": 171.0,
+   "gs": 34,
+   "pts": 184.0,
    "next": 11,
    "next_team": "BubbaNASTIES"
   },
@@ -2907,8 +2907,8 @@
     "riley",
     "emily"
    ],
-   "gs": 12,
-   "pts": 103.0,
+   "gs": 13,
+   "pts": 121.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2952,8 +2952,8 @@
     "riley",
     "emily"
    ],
-   "gs": 23,
-   "pts": 139.0,
+   "gs": 24,
+   "pts": 143.0,
    "next": 5,
    "next_team": "your gibbs small"
   },

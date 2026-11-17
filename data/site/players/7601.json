@@ -715,8 +715,8 @@
    "stat": "Points",
    "value": 25.5,
    "digits": 2,
-   "rank": 309,
-   "of": 420
+   "rank": 310,
+   "of": 424
   },
   {
    "group": "Career",
@@ -724,8 +724,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 328,
-   "of": 420
+   "rank": 333,
+   "of": 424
   },
   {
    "group": "Career",
@@ -734,7 +734,7 @@
    "value": 0.01,
    "digits": 2,
    "rank": 215,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -742,8 +742,8 @@
    "stat": "VOR",
    "value": 0.8,
    "digits": 1,
-   "rank": 218,
-   "of": 420
+   "rank": 217,
+   "of": 424
   },
   {
    "group": "Career",
@@ -751,8 +751,8 @@
    "stat": "PAA",
    "value": -4.9,
    "digits": 1,
-   "rank": 163,
-   "of": 420
+   "rank": 166,
+   "of": 424
   },
   {
    "group": "Career",
@@ -760,8 +760,8 @@
    "stat": "Best Game",
    "value": 16.2,
    "digits": 2,
-   "rank": 269,
-   "of": 420
+   "rank": 271,
+   "of": 424
   },
   {
    "group": "Career",
@@ -769,8 +769,8 @@
    "stat": "Bench Points",
    "value": 65.5,
    "digits": 2,
-   "rank": 245,
-   "of": 511
+   "rank": 248,
+   "of": 515
   },
   {
    "group": "Career",
@@ -779,7 +779,7 @@
    "value": 25.5,
    "digits": 2,
    "rank": 88,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -787,8 +787,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 93,
-   "of": 126
+   "rank": 95,
+   "of": 127
   },
   {
    "group": "Career",
@@ -796,8 +796,8 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 51,
-   "of": 126
+   "rank": 52,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -865,16 +865,16 @@
    "stat": "Points, 2023",
    "value": 25.5,
    "digits": 2,
-   "rank": 705,
-   "of": 1010,
+   "rank": 712,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.6,
-  "rank": 338,
-  "of": 420,
+  "rank": 343,
+  "of": 424,
   "war": 0.1,
   "starts": 0.5,
   "black_ink": 0.0,
@@ -1178,6 +1178,11 @@
    [
     "2026",
     9,
+    0.6
+   ],
+   [
+    "2026",
+    10,
     0.6
    ]
   ],

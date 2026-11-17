@@ -92,29 +92,29 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "NO",
-   "g": 9,
-   "gs": 3,
-   "pts": 33.9,
+   "g": 10,
+   "gs": 4,
+   "pts": 41.1,
    "bench_pts": 0.0,
-   "ppg": 11.3,
+   "ppg": 10.28,
    "best": 15.7,
-   "wins": 3,
-   "paa": -15.65,
-   "vor": 4.5,
-   "war": 0.05
+   "wins": 4,
+   "paa": -27.24,
+   "vor": -0.86,
+   "war": -0.01
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 36,
-  "pts": 525.9,
+  "g": 61,
+  "gs": 37,
+  "pts": 533.1,
   "bench_pts": 130.1,
-  "ppg": 14.61,
+  "ppg": 14.41,
   "best": 36.4,
-  "wins": 19,
-  "paa": 22.5,
-  "vor": 191.11,
-  "war": 2.26
+  "wins": 20,
+  "paa": 10.91,
+  "vor": 185.75,
+  "war": 2.2
  },
  "nfl": [
   {
@@ -1095,8 +1095,8 @@
    "proj": 17.45,
    "won": true,
    "paa": -4.23,
-   "vor": 5.9,
-   "war": 0.06973082085756398
+   "vor": 5.21,
+   "war": 0.061575860452187846
   },
   {
    "season": "2026",
@@ -1114,8 +1114,8 @@
    "proj": 13.04,
    "won": true,
    "paa": -5.48,
-   "vor": -1.9,
-   "war": -0.022455688072774836
+   "vor": -2.59,
+   "war": -0.030610648478150964
   },
   {
    "season": "2026",
@@ -1133,8 +1133,8 @@
    "proj": 12.55,
    "won": true,
    "paa": -5.94,
-   "vor": 0.5,
-   "war": 0.005909391598098642
+   "vor": -0.19,
+   "war": -0.002245568807277484
   },
   {
    "season": "2026",
@@ -1231,53 +1231,72 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-7-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": "RB",
+   "started": true,
+   "pts": 7.2,
+   "proj": 9.31,
+   "won": true,
+   "paa": -11.59,
+   "vor": -3.29,
+   "war": -0.03888379671548906
   }
  ],
  "similar": [
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 956,
-   "gs": 34,
-   "pts": 497.8,
-   "ppg": 14.64,
-   "war": 2.14
-  },
-  {
-   "player": "7594",
-   "name": "Chuba Hubbard",
-   "score": 864,
-   "gs": 33,
-   "pts": 541.5,
-   "ppg": 16.41,
-   "war": 2.7
+   "score": 946,
+   "gs": 35,
+   "pts": 527.1,
+   "ppg": 15.06,
+   "war": 2.3
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 854,
-   "gs": 43,
-   "pts": 585.4,
-   "ppg": 13.61,
-   "war": 2.01
-  },
-  {
-   "player": "8136",
-   "name": "Rachaad White",
-   "score": 832,
-   "gs": 30,
-   "pts": 422.1,
-   "ppg": 14.07,
-   "war": 1.55
+   "score": 857,
+   "gs": 44,
+   "pts": 594.7,
+   "ppg": 13.52,
+   "war": 1.93
   },
   {
    "player": "5967",
    "name": "Tony Pollard",
-   "score": 825,
-   "gs": 42,
-   "pts": 540.3,
-   "ppg": 12.86,
-   "war": 1.56
+   "score": 854,
+   "gs": 43,
+   "pts": 565.1,
+   "ppg": 13.14,
+   "war": 1.67
+  },
+  {
+   "player": "5892",
+   "name": "David Montgomery",
+   "score": 841,
+   "gs": 44,
+   "pts": 568.84,
+   "ppg": 12.93,
+   "war": 1.79
+  },
+  {
+   "player": "8136",
+   "name": "Rachaad White",
+   "score": 833,
+   "gs": 31,
+   "pts": 429.4,
+   "ppg": 13.85,
+   "war": 1.48
   }
  ],
  "status": {
@@ -1300,46 +1319,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 525.9,
+   "value": 533.1,
    "digits": 2,
-   "rank": 57,
-   "of": 420
+   "rank": 56,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 36,
+   "value": 37,
    "digits": 0,
-   "rank": 62,
-   "of": 420
+   "rank": 60,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.26,
+   "value": 2.2,
    "digits": 2,
-   "rank": 37,
-   "of": 420
+   "rank": 42,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 191.1,
+   "value": 185.8,
    "digits": 1,
-   "rank": 37,
-   "of": 420
+   "rank": 44,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 22.5,
+   "value": 10.9,
    "digits": 1,
-   "rank": 72,
-   "of": 420
+   "rank": 95,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1347,16 +1366,16 @@
    "stat": "Best Game",
    "value": 36.4,
    "digits": 2,
-   "rank": 48,
-   "of": 420
+   "rank": 51,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 14.61,
+   "value": 14.41,
    "digits": 2,
-   "rank": 74,
+   "rank": 76,
    "of": 256
   },
   {
@@ -1365,71 +1384,71 @@
    "stat": "Bench Points",
    "value": 130.1,
    "digits": 2,
-   "rank": 124,
-   "of": 511
+   "rank": 126,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 525.9,
+   "value": 533.1,
    "digits": 2,
-   "rank": 19,
+   "rank": 18,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 36,
+   "value": 37,
    "digits": 0,
-   "rank": 17,
-   "of": 100
-  },
-  {
-   "group": "Career",
-   "scope": "All RBs",
-   "stat": "WAR",
-   "value": 2.26,
-   "digits": 2,
    "rank": 16,
    "of": 100
   },
   {
+   "group": "Career",
+   "scope": "All RBs",
+   "stat": "WAR",
+   "value": 2.2,
+   "digits": 2,
+   "rank": 17,
+   "of": 100
+  },
+  {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points",
-   "value": 265.9,
+   "value": 273.1,
    "digits": 2,
-   "rank": 10,
-   "of": 44,
+   "rank": 9,
+   "of": 45,
    "franchise": 11
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Games Started",
-   "value": 18,
+   "value": 19,
    "digits": 0,
-   "rank": 13,
-   "of": 44,
+   "rank": 12,
+   "of": 45,
    "franchise": 11
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": 1.27,
+   "value": 1.21,
    "digits": 2,
    "rank": 8,
-   "of": 44,
+   "of": 45,
    "franchise": 11
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points, RBs",
-   "value": 265.9,
+   "value": 273.1,
    "digits": 2,
    "rank": 3,
    "of": 7,
@@ -1451,7 +1470,7 @@
    "stat": "Games Started",
    "value": 18,
    "digits": 0,
-   "rank": 9,
+   "rank": 10,
    "of": 68,
    "franchise": 3
   },
@@ -1461,7 +1480,7 @@
    "stat": "WAR",
    "value": 0.99,
    "digits": 2,
-   "rank": 5,
+   "rank": 6,
    "of": 68,
    "franchise": 3
   },
@@ -1539,19 +1558,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 33.9,
+   "value": 41.1,
    "digits": 2,
-   "rank": 140,
-   "of": 233,
+   "rank": 133,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 33.9,
+   "value": 41.1,
    "digits": 2,
-   "rank": 35,
+   "rank": 37,
    "of": 58,
    "season": "2026"
   },
@@ -1561,8 +1580,8 @@
    "stat": "Points, 2025",
    "value": 232.0,
    "digits": 2,
-   "rank": 74,
-   "of": 1010,
+   "rank": 75,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1571,8 +1590,8 @@
    "stat": "Points, 2023",
    "value": 163.9,
    "digits": 2,
-   "rank": 195,
-   "of": 1010,
+   "rank": 203,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1581,27 +1600,27 @@
    "stat": "Points, 2024",
    "value": 96.1,
    "digits": 2,
-   "rank": 361,
-   "of": 1010,
+   "rank": 370,
+   "of": 1019,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 33.9,
+   "value": 41.1,
    "digits": 2,
-   "rank": 662,
-   "of": 1010,
+   "rank": 625,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 34.6,
-  "rank": 41,
-  "of": 420,
-  "war": 22.6,
-  "starts": 9.0,
+  "score": 34.25,
+  "rank": 46,
+  "of": 424,
+  "war": 22.0,
+  "starts": 9.25,
   "black_ink": 0.0,
   "awards": 3.0,
   "history": [
@@ -1863,47 +1882,52 @@
    [
     "2026",
     1,
-    34.3
+    34.2
    ],
    [
     "2026",
     2,
-    34.25
+    34.15
    ],
    [
     "2026",
     3,
-    34.6
+    34.3
    ],
    [
     "2026",
     4,
-    34.6
+    34.3
    ],
    [
     "2026",
     5,
-    34.6
+    34.3
    ],
    [
     "2026",
     6,
-    34.6
+    34.3
    ],
    [
     "2026",
     7,
-    34.6
+    34.3
    ],
    [
     "2026",
     8,
-    34.6
+    34.3
    ],
    [
     "2026",
     9,
-    34.6
+    34.3
+   ],
+   [
+    "2026",
+    10,
+    34.25
    ]
   ],
   "benchmark": 100
@@ -1949,7 +1973,7 @@
     "season": "2026",
     "nfl": "NO",
     "missed": 5,
-    "lost": 2.35,
+    "lost": 0.0,
     "injuries": [
      "Hamstring"
     ],
@@ -2051,7 +2075,7 @@
      }
     ],
     "rostered": 5,
-    "lost": 2.35
+    "lost": 0.0
    }
   ],
   "now": null

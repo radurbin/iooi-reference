@@ -146,14 +146,14 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "w": 4,
-   "l": 5,
+   "l": 6,
    "t": 0,
-   "pf": 1370.96,
-   "pa": 1277.77,
-   "max_pf": 1545.58,
-   "all_play_w": 62,
-   "all_play_l": 37,
-   "expected_w": 5.64,
+   "pf": 1479.0,
+   "pa": 1421.99,
+   "max_pf": 1669.8,
+   "all_play_w": 64,
+   "all_play_l": 46,
+   "expected_w": 5.82,
    "playoff_w": 0,
    "playoff_l": 0,
    "toilet_w": 0,
@@ -162,20 +162,20 @@
    "transactions": 31,
    "trades": 1,
    "seed": 6,
-   "efficiency": 0.887,
-   "luck": -1.64,
-   "ppg": 152.33,
-   "pct": 0.444,
+   "efficiency": 0.8857,
+   "luck": -1.82,
+   "ppg": 147.9,
+   "pct": 0.4,
    "result": null
   }
  ],
  "totals": {
   "w": 26,
-  "l": 25,
+  "l": 26,
   "t": 0,
-  "pct": 0.51,
-  "pf": 6884.2,
-  "pa": 6567.18,
+  "pct": 0.5,
+  "pf": 6992.24,
+  "pa": 6711.4,
   "transactions": 97,
   "trades": 11,
   "toilet_w": 0,
@@ -197,7 +197,7 @@
     "player": "9493",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 59,
+    "g": 60,
     "gs": 43,
     "pts": 893.6,
     "best": 46.5,
@@ -210,40 +210,40 @@
     "player": "3294",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 44,
-    "pts": 848.2,
+    "g": 61,
+    "gs": 45,
+    "pts": 883.02,
     "best": 37.86,
     "wins": 25,
-    "paa": 118.91,
-    "vor": 276.57,
-    "war": 3.27
+    "paa": 136.08,
+    "vor": 316.84,
+    "war": 3.74
    },
    {
     "player": "11604",
     "pos": "TE",
     "years": "2024-2026",
-    "g": 43,
-    "gs": 32,
-    "pts": 524.9,
+    "g": 44,
+    "gs": 33,
+    "pts": 528.7,
     "best": 43.3,
     "wins": 13,
-    "paa": 175.56,
-    "vor": 223.86,
-    "war": 2.65
+    "paa": 171.84,
+    "vor": 218.94,
+    "war": 2.59
    },
    {
     "player": "6813",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 24,
-    "pts": 514.5,
+    "g": 27,
+    "gs": 25,
+    "pts": 528.4,
     "best": 51.1,
     "wins": 15,
-    "paa": 162.17,
-    "vor": 297.45,
-    "war": 3.52
+    "paa": 157.28,
+    "vor": 294.65,
+    "war": 3.48
    },
    {
     "player": "3321",
@@ -262,7 +262,7 @@
     "player": "6819",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 33,
     "pts": 445.1,
     "best": 27.5,
@@ -275,7 +275,7 @@
     "player": "11635",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 43,
+    "g": 44,
     "gs": 32,
     "pts": 380.4,
     "best": 29.4,
@@ -314,14 +314,14 @@
     "player": "8228",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 19,
-    "pts": 295.8,
+    "g": 27,
+    "gs": 20,
+    "pts": 305.6,
     "best": 38.3,
     "wins": 12,
-    "paa": 17.33,
-    "vor": 122.91,
-    "war": 1.45
+    "paa": 8.34,
+    "vor": 116.7,
+    "war": 1.38
    },
    {
     "player": "4037",
@@ -337,6 +337,19 @@
     "war": 0.57
    },
    {
+    "player": "12512",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 27,
+    "gs": 19,
+    "pts": 236.0,
+    "best": 26.4,
+    "wins": 12,
+    "paa": -50.36,
+    "vor": 57.59,
+    "war": 0.68
+   },
+   {
     "player": "5967",
     "pos": "RB",
     "years": "2024-2025",
@@ -348,19 +361,6 @@
     "paa": -61.9,
     "vor": 46.2,
     "war": 0.55
-   },
-   {
-    "player": "12512",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 26,
-    "gs": 18,
-    "pts": 218.9,
-    "best": 26.4,
-    "wins": 12,
-    "paa": -48.67,
-    "vor": 55.81,
-    "war": 0.66
    },
    {
     "player": "7839",
@@ -379,20 +379,20 @@
     "player": "12508",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 11,
     "pts": 207.7,
     "best": 28.42,
     "wins": 8,
     "paa": 14.95,
-    "vor": 77.68,
-    "war": 0.92
+    "vor": 81.44,
+    "war": 0.96
    },
    {
     "player": "10232",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 16,
+    "g": 17,
     "gs": 11,
     "pts": 174.38,
     "best": 33.5,
@@ -469,15 +469,15 @@
    {
     "player": "IND",
     "pos": "DEF",
-    "years": "2023-2024",
-    "g": 18,
-    "gs": 15,
-    "pts": 73.0,
-    "best": 16.0,
+    "years": "2023-2026",
+    "g": 19,
+    "gs": 16,
+    "pts": 91.0,
+    "best": 18.0,
     "wins": 2,
-    "paa": -35.13,
-    "vor": -18.83,
-    "war": -0.22
+    "paa": -26.86,
+    "vor": -8.61,
+    "war": -0.1
    },
    {
     "player": "GB",
@@ -502,14 +502,14 @@
     "best": 26.24,
     "wins": 2,
     "paa": -9.44,
-    "vor": 5.44,
-    "war": 0.06
+    "vor": 12.96,
+    "war": 0.15
    },
    {
     "player": "3214",
     "pos": "TE",
     "years": "2025-2026",
-    "g": 25,
+    "g": 26,
     "gs": 7,
     "pts": 58.2,
     "best": 13.9,
@@ -525,14 +525,14 @@
      "player": "3294",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 44,
-     "pts": 848.2,
+     "g": 61,
+     "gs": 45,
+     "pts": 883.02,
      "best": 37.86,
      "wins": 25,
-     "paa": 118.91,
-     "vor": 276.57,
-     "war": 3.27
+     "paa": 136.08,
+     "vor": 316.84,
+     "war": 3.74
     },
     {
      "player": "1234",
@@ -551,14 +551,14 @@
      "player": "12508",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 26,
+     "g": 27,
      "gs": 11,
      "pts": 207.7,
      "best": 28.42,
      "wins": 8,
      "paa": 14.95,
-     "vor": 77.68,
-     "war": 0.92
+     "vor": 81.44,
+     "war": 0.96
     }
    ],
    "RB": [
@@ -566,14 +566,14 @@
      "player": "6813",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 24,
-     "pts": 514.5,
+     "g": 27,
+     "gs": 25,
+     "pts": 528.4,
      "best": 51.1,
      "wins": 15,
-     "paa": 162.17,
-     "vor": 297.45,
-     "war": 3.52
+     "paa": 157.28,
+     "vor": 294.65,
+     "war": 3.48
     },
     {
      "player": "7528",
@@ -592,14 +592,14 @@
      "player": "8228",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 19,
-     "pts": 295.8,
+     "g": 27,
+     "gs": 20,
+     "pts": 305.6,
      "best": 38.3,
      "wins": 12,
-     "paa": 17.33,
-     "vor": 122.91,
-     "war": 1.45
+     "paa": 8.34,
+     "vor": 116.7,
+     "war": 1.38
     }
    ],
    "WR": [
@@ -607,7 +607,7 @@
      "player": "9493",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 59,
+     "g": 60,
      "gs": 43,
      "pts": 893.6,
      "best": 46.5,
@@ -633,7 +633,7 @@
      "player": "6819",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 33,
      "pts": 445.1,
      "best": 27.5,
@@ -648,14 +648,14 @@
      "player": "11604",
      "pos": "TE",
      "years": "2024-2026",
-     "g": 43,
-     "gs": 32,
-     "pts": 524.9,
+     "g": 44,
+     "gs": 33,
+     "pts": 528.7,
      "best": 43.3,
      "wins": 13,
-     "paa": 175.56,
-     "vor": 223.86,
-     "war": 2.65
+     "paa": 171.84,
+     "vor": 218.94,
+     "war": 2.59
     },
     {
      "player": "7600",
@@ -729,15 +729,15 @@
     {
      "player": "IND",
      "pos": "DEF",
-     "years": "2023-2024",
-     "g": 18,
-     "gs": 15,
-     "pts": 73.0,
-     "best": 16.0,
+     "years": "2023-2026",
+     "g": 19,
+     "gs": 16,
+     "pts": 91.0,
+     "best": 18.0,
      "wins": 2,
-     "paa": -35.13,
-     "vor": -18.83,
-     "war": -0.22
+     "paa": -26.86,
+     "vor": -8.61,
+     "war": -0.1
     },
     {
      "player": "GB",
@@ -756,7 +756,7 @@
      "player": "PIT",
      "pos": "DEF",
      "years": "2025-2026",
-     "g": 15,
+     "g": 16,
      "gs": 3,
      "pts": 50.0,
      "best": 20.0,
@@ -806,8 +806,8 @@
    "signings": 18,
    "adds": 23,
    "releases": 24,
-   "gs": 22,
-   "pts": 225.04
+   "gs": 25,
+   "pts": 250.54
   }
  ],
  "best_games": [
@@ -955,6 +955,17 @@
    "team": "young sexy central"
   },
   {
+   "player": "3294",
+   "name": "Dak Prescott",
+   "pos": "QB",
+   "pts": 34.82,
+   "game": "2026-10-7-11",
+   "season": "2026",
+   "week": 10,
+   "franchise": 7,
+   "team": "the dart side 🛸💍"
+  },
+  {
    "player": "6813",
    "name": "Jonathan Taylor",
    "pos": "RB",
@@ -1074,17 +1085,6 @@
    "week": 4,
    "franchise": 7,
    "team": "brock bow to me 😤"
-  },
-  {
-   "player": "3321",
-   "name": "Tyreek Hill",
-   "pos": "WR",
-   "pts": 30.7,
-   "game": "2023-03-7-8",
-   "season": "2023",
-   "week": 3,
-   "franchise": 7,
-   "team": "young sexy central"
   }
  ],
  "records": [
@@ -1305,7 +1305,7 @@
    "list": "Career Starts",
    "scope": 7,
    "rank": 1,
-   "value": "44",
+   "value": "45",
    "href": "franchise.html?id=7#all-time-leaders",
    "player": "3294",
    "franchise": 7
@@ -1438,21 +1438,21 @@
    {
     "season": "2026",
     "team": "the dart side 🛸💍",
-    "games": 26,
-    "players": 10,
-    "lost": 94.16,
+    "games": 31,
+    "players": 11,
+    "lost": 126.63,
     "rank": 1,
-    "games_rank": 7,
+    "games_rank": 5,
     "of": 12,
     "worst": {
      "player": "9493",
      "name": "Puka Nacua",
      "pos": "WR",
-     "missed": 2,
-     "lost": 30.02
+     "missed": 3,
+     "lost": 45.03
     },
     "w": 4,
-    "l": 5
+    "l": 6
    }
   ],
   "players": [
@@ -1499,8 +1499,8 @@
     "player": "9493",
     "name": "Puka Nacua",
     "pos": "WR",
-    "missed": 8,
-    "lost": 78.09,
+    "missed": 9,
+    "lost": 93.1,
     "injuries": [
      "Knee",
      "Hip",
@@ -1522,8 +1522,8 @@
     "player": "12508",
     "name": "Jaxson Dart",
     "pos": "QB",
-    "missed": 8,
-    "lost": 30.86,
+    "missed": 9,
+    "lost": 47.32,
     "injuries": [
      "Knee",
      "Concussion",
@@ -1559,8 +1559,8 @@
     "player": "6819",
     "name": "Michael Pittman Jr.",
     "pos": "WR",
-    "missed": 7,
-    "lost": 9.64,
+    "missed": 8,
+    "lost": 10.8,
     "injuries": [
      "Foot",
      "Shoulder",
@@ -1655,7 +1655,7 @@
     "name": "Jonah Coleman",
     "pos": "RB",
     "missed": 4,
-    "lost": 14.88,
+    "lost": 12.12,
     "injuries": [
      "Ankle"
     ],
@@ -1683,6 +1683,25 @@
     "seasons": [
      "2023",
      "2024"
+    ]
+   },
+   {
+    "player": "11635",
+    "name": "Ladd McConkey",
+    "pos": "WR",
+    "missed": 3,
+    "lost": 3.26,
+    "injuries": [
+     "Knee",
+     "Foot",
+     "Back"
+    ],
+    "kinds": [
+     "Questionable"
+    ],
+    "seasons": [
+     "2024",
+     "2026"
     ]
    },
    {
@@ -1718,32 +1737,15 @@
     "seasons": [
      "2025"
     ]
-   },
-   {
-    "player": "12501",
-    "name": "Matthew Golden",
-    "pos": "WR",
-    "missed": 3,
-    "lost": 0.0,
-    "injuries": [
-     "Shoulder",
-     "Wrist"
-    ],
-    "kinds": [
-     "Questionable"
-    ],
-    "seasons": [
-     "2025"
-    ]
    }
   ],
   "total": {
    "franchise": 7,
    "name": "the dart side 🛸💍",
-   "games": 121,
-   "lost": 317.57,
+   "games": 126,
+   "lost": 350.04,
    "seasons": 4,
-   "per_season": 79.39,
+   "per_season": 87.51,
    "worst": "2024"
   }
  }

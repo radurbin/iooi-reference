@@ -40,10 +40,10 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "LV",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 19.2,
+   "bench_pts": 22.2,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -53,10 +53,10 @@
   }
  ],
  "totals": {
-  "g": 26,
+  "g": 27,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 61.6,
+  "bench_pts": 64.6,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -77,7 +77,7 @@
    "team": "LV",
    "g": 6,
    "pts": 22.2,
-   "rank": 114
+   "rank": 115
   }
  ],
  "history": [
@@ -510,6 +510,22 @@
    "pts": 1.9,
    "proj": 3.88,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-7-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 3.0,
+   "proj": 3.85,
+   "won": true
   }
  ],
  "status": {
@@ -522,10 +538,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 61.6,
+   "value": 64.6,
    "digits": 2,
-   "rank": 254,
-   "of": 511
+   "rank": 252,
+   "of": 515
   }
  ],
  "similar": [],

@@ -1198,8 +1198,8 @@
    "pos": "WR",
    "starts_team": 3,
    "pts_team": 38.8,
-   "starts_league": 36,
-   "pts_league": 747.06,
+   "starts_league": 37,
+   "pts_league": 778.16,
    "nfl_pts": 1008.06
   },
   {
@@ -1218,8 +1218,8 @@
    "pos": "QB",
    "starts_team": 8,
    "pts_team": 149.74,
-   "starts_league": 31,
-   "pts_league": 487.06,
+   "starts_league": 32,
+   "pts_league": 502.74,
    "nfl_pts": 610.58
   },
   {
@@ -1438,8 +1438,8 @@
    "pos": "RB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 33,
-   "pts_league": 541.5,
+   "starts_league": 34,
+   "pts_league": 578.4,
    "nfl_pts": 734.5
   },
   {
@@ -1480,7 +1480,7 @@
    "pts_team": 90.0,
    "starts_league": 19,
    "pts_league": 127.0,
-   "nfl_pts": 336.0
+   "nfl_pts": 343.0
   },
   {
    "round": 20,
@@ -1510,7 +1510,7 @@
    "season": "2023",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 864,
+   "score": 866,
    "w": 7,
    "l": 7,
    "ppg": 128.17,
@@ -1518,39 +1518,39 @@
   },
   {
    "season": "2026",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "score": 808,
-   "w": 5,
-   "l": 4,
-   "ppg": 143.32,
-   "result": null
-  },
-  {
-   "season": "2026",
    "franchise": 7,
    "team": "the dart side 🛸💍",
-   "score": 753,
+   "score": 799,
    "w": 4,
-   "l": 5,
-   "ppg": 152.33,
+   "l": 6,
+   "ppg": 147.9,
    "result": null
   },
   {
    "season": "2023",
    "franchise": 8,
    "team": "Breece is the Word",
-   "score": 748,
+   "score": 754,
    "w": 7,
    "l": 7,
    "ppg": 128.19,
    "result": "5th"
   },
   {
+   "season": "2026",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "score": 754,
+   "w": 6,
+   "l": 4,
+   "ppg": 149.16,
+   "result": null
+  },
+  {
    "season": "2023",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 726,
+   "score": 734,
    "w": 6,
    "l": 8,
    "ppg": 127.61,
@@ -1924,8 +1924,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 33,
-   "pts": 541.5,
+   "gs": 34,
+   "pts": 578.4,
    "next": 6,
    "next_team": "got that DAWG"
   },
@@ -1954,8 +1954,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 34,
-   "pts": 185.0,
+   "gs": 35,
+   "pts": 198.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2014,8 +2014,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 4,
-   "pts": 43.0,
+   "gs": 5,
+   "pts": 50.5,
    "next": 8,
    "next_team": "BBL KIZZY"
   },
@@ -2320,7 +2320,7 @@
   {
    "list": "Biggest Blowouts",
    "scope": "league",
-   "rank": 8,
+   "rank": 9,
    "value": "88.66",
    "href": "records.html",
    "season": "2023",

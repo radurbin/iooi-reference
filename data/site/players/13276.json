@@ -24,7 +24,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "NYJ",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 62.6,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 62.6,
@@ -54,7 +54,7 @@
    "team": "NYJ",
    "g": 6,
    "pts": 62.6,
-   "rank": 62
+   "rank": 63
   }
  ],
  "history": [
@@ -215,6 +215,22 @@
    "pts": 13.8,
    "proj": 13.42,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": 8.57,
+   "won": false
   }
  ],
  "status": {
@@ -229,8 +245,8 @@
    "stat": "Bench Points",
    "value": 62.6,
    "digits": 2,
-   "rank": 252,
-   "of": 511
+   "rank": 257,
+   "of": 515
   }
  ],
  "similar": [],

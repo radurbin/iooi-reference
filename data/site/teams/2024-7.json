@@ -909,10 +909,10 @@
    "original": 2,
    "player": "11604",
    "pos": "TE",
-   "starts_team": 32,
-   "pts_team": 524.9,
-   "starts_league": 32,
-   "pts_league": 524.9,
+   "starts_team": 33,
+   "pts_team": 528.7,
+   "starts_league": 33,
+   "pts_league": 528.7,
    "nfl_pts": 576.8
   },
   {
@@ -1014,37 +1014,37 @@
    "season": "2025",
    "franchise": 11,
    "team": "BubbaNASTIES",
-   "score": 725,
+   "score": 724,
    "w": 4,
    "l": 10,
    "ppg": 118.09,
    "result": "9th"
   },
   {
+   "season": "2026",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "score": 669,
+   "w": 2,
+   "l": 8,
+   "ppg": 102.12,
+   "result": null
+  },
+  {
    "season": "2024",
    "franchise": 12,
    "team": "Happy Feet",
-   "score": 629,
+   "score": 628,
    "w": 5,
    "l": 9,
    "ppg": 125.46,
    "result": "8th"
   },
   {
-   "season": "2026",
-   "franchise": 10,
-   "team": "Maddison Beer’s Boys",
-   "score": 625,
-   "w": 2,
-   "l": 7,
-   "ppg": 103.1,
-   "result": null
-  },
-  {
    "season": "2024",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "score": 603,
+   "score": 605,
    "w": 5,
    "l": 9,
    "ppg": 121.37,
@@ -1052,12 +1052,12 @@
   },
   {
    "season": "2026",
-   "franchise": 12,
-   "team": "Team Win One Game",
-   "score": 598,
-   "w": 1,
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "score": 603,
+   "w": 2,
    "l": 8,
-   "ppg": 98.62,
+   "ppg": 99.26,
    "result": null
   }
  ],
@@ -1141,8 +1141,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 9,
-   "pts": 63.8,
+   "gs": 10,
+   "pts": 68.2,
    "next": 4,
    "next_team": "Win one game"
   },

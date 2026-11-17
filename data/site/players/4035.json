@@ -77,10 +77,10 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NO",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 78.4,
+   "bench_pts": 95.0,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -90,10 +90,10 @@
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 30,
   "pts": 532.8,
-  "bench_pts": 122.2,
+  "bench_pts": 138.8,
   "ppg": 17.76,
   "best": 44.0,
   "wins": 25,
@@ -128,7 +128,7 @@
    "team": "NO",
    "g": 8,
    "pts": 95.0,
-   "rank": 27
+   "rank": 28
   }
  ],
  "history": [
@@ -1213,22 +1213,38 @@
    "pts": 8.5,
    "proj": 13.75,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 16.6,
+   "proj": 6.75,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "7594",
    "name": "Chuba Hubbard",
-   "score": 900,
-   "gs": 33,
-   "pts": 541.5,
-   "ppg": 16.41,
-   "war": 2.7
+   "score": 910,
+   "gs": 34,
+   "pts": 578.4,
+   "ppg": 17.01,
+   "war": 2.95
   },
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 854,
+   "score": 856,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -1237,29 +1253,29 @@
   {
    "player": "11584",
    "name": "Bucky Irving",
-   "score": 808,
+   "score": 807,
    "gs": 23,
    "pts": 397.7,
    "ppg": 17.29,
-   "war": 2.19
-  },
-  {
-   "player": "9226",
-   "name": "De'Von Achane",
-   "score": 776,
-   "gs": 37,
-   "pts": 673.2,
-   "ppg": 18.19,
-   "war": 3.96
+   "war": 2.12
   },
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 772,
-   "gs": 34,
-   "pts": 497.8,
-   "ppg": 14.64,
-   "war": 2.14
+   "score": 801,
+   "gs": 35,
+   "pts": 527.1,
+   "ppg": 15.06,
+   "war": 2.3
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "score": 781,
+   "gs": 37,
+   "pts": 673.2,
+   "ppg": 18.19,
+   "war": 3.94
   }
  ],
  "status": {
@@ -1274,8 +1290,8 @@
    "stat": "Points",
    "value": 532.8,
    "digits": 2,
-   "rank": 56,
-   "of": 420
+   "rank": 57,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1283,8 +1299,8 @@
    "stat": "Games Started",
    "value": 30,
    "digits": 0,
-   "rank": 91,
-   "of": 420
+   "rank": 92,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1292,8 +1308,8 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 26,
-   "of": 420
+   "rank": 27,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1301,8 +1317,8 @@
    "stat": "VOR",
    "value": 243.4,
    "digits": 1,
-   "rank": 26,
-   "of": 420
+   "rank": 27,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1310,8 +1326,8 @@
    "stat": "PAA",
    "value": 110.3,
    "digits": 1,
-   "rank": 23,
-   "of": 420
+   "rank": 24,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1320,7 +1336,7 @@
    "value": 44.0,
    "digits": 2,
    "rank": 16,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1328,17 +1344,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 17.76,
    "digits": 2,
-   "rank": 24,
+   "rank": 22,
    "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 122.2,
+   "value": 138.8,
    "digits": 2,
-   "rank": 136,
-   "of": 511
+   "rank": 111,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1346,7 +1362,7 @@
    "stat": "Points",
    "value": 532.8,
    "digits": 2,
-   "rank": 18,
+   "rank": 19,
    "of": 100
   },
   {
@@ -1355,7 +1371,7 @@
    "stat": "Games Started",
    "value": 30,
    "digits": 0,
-   "rank": 21,
+   "rank": 22,
    "of": 100
   },
   {
@@ -1364,7 +1380,7 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 12,
+   "rank": 13,
    "of": 100
   },
   {
@@ -1374,7 +1390,7 @@
    "value": 532.8,
    "digits": 2,
    "rank": 6,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1384,7 +1400,7 @@
    "value": 30,
    "digits": 0,
    "rank": 4,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1394,7 +1410,7 @@
    "value": 2.87,
    "digits": 2,
    "rank": 4,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1473,8 +1489,8 @@
    "stat": "Points, 2024",
    "value": 248.3,
    "digits": 2,
-   "rank": 61,
-   "of": 1010,
+   "rank": 63,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1483,8 +1499,8 @@
    "stat": "Points, 2023",
    "value": 226.1,
    "digits": 2,
-   "rank": 81,
-   "of": 1010,
+   "rank": 82,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1493,15 +1509,15 @@
    "stat": "Points, 2025",
    "value": 58.4,
    "digits": 2,
-   "rank": 514,
-   "of": 1010,
+   "rank": 525,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 45.3,
-  "rank": 24,
-  "of": 420,
+  "rank": 26,
+  "of": 424,
   "war": 28.8,
   "starts": 7.5,
   "black_ink": 0.0,
@@ -1806,29 +1822,17 @@
     "2026",
     9,
     45.3
+   ],
+   [
+    "2026",
+    10,
+    45.3
    ]
   ],
   "benchmark": 100
  },
  "black_ink": null,
- "records_held": [
-  {
-   "list": "Best Player Game",
-   "scope": 8,
-   "rank": 1,
-   "value": "44.00",
-   "href": "franchise.html?id=8#franchise-records",
-   "player": "4035",
-   "season": "2024",
-   "week": 2,
-   "game": "2024-02-8-10",
-   "franchise": 8,
-   "team": "Breece is the Word",
-   "managers": [
-    "evan"
-   ]
-  }
- ],
+ "records_held": [],
  "injuries": {
   "seasons": [
    {
@@ -1925,7 +1929,7 @@
     "season": "2026",
     "nfl": "NO",
     "missed": 1,
-    "lost": 2.07,
+    "lost": 1.38,
     "injuries": [
      "Knee"
     ],
@@ -2017,7 +2021,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.07
+    "lost": 1.38
    }
   ],
   "now": null

@@ -104,29 +104,29 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "ATL",
-   "g": 9,
-   "gs": 9,
-   "pts": 130.05,
+   "g": 10,
+   "gs": 10,
+   "pts": 146.95,
    "bench_pts": 0.0,
-   "ppg": 14.45,
+   "ppg": 14.7,
    "best": 29.9,
-   "wins": 5,
-   "paa": 5.25,
-   "vor": 37.17,
-   "war": 0.44
+   "wins": 6,
+   "paa": 8.93,
+   "vor": 43.75,
+   "war": 0.52
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 48,
-  "pts": 651.15,
+  "g": 61,
+  "gs": 49,
+  "pts": 668.05,
   "bench_pts": 45.18,
-  "ppg": 13.57,
+  "ppg": 13.63,
   "best": 38.8,
-  "wins": 25,
-  "paa": 1.11,
-  "vor": 109.12,
-  "war": 1.29
+  "wins": 26,
+  "paa": 4.79,
+  "vor": 115.7,
+  "war": 1.37
  },
  "nfl": [
   {
@@ -1331,13 +1331,32 @@
    "paa": -1.84,
    "vor": 1.48,
    "war": 0.01749179913037198
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": "WR",
+   "started": true,
+   "pts": 16.9,
+   "proj": 16.26,
+   "won": true,
+   "paa": 3.68,
+   "vor": 6.58,
+   "war": 0.07776759343097812
   }
  ],
  "similar": [
   {
    "player": "7525",
    "name": "DeVonta Smith",
-   "score": 885,
+   "score": 861,
    "gs": 43,
    "pts": 598.8,
    "ppg": 13.93,
@@ -1346,38 +1365,38 @@
   {
    "player": "4983",
    "name": "DJ Moore",
-   "score": 846,
-   "gs": 42,
-   "pts": 569.38,
-   "ppg": 13.56,
-   "war": 1.01
-  },
-  {
-   "player": "8137",
-   "name": "George Pickens",
-   "score": 812,
-   "gs": 41,
-   "pts": 605.7,
-   "ppg": 14.77,
-   "war": 1.73
+   "score": 852,
+   "gs": 43,
+   "pts": 588.88,
+   "ppg": 13.69,
+   "war": 1.12
   },
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 797,
-   "gs": 40,
-   "pts": 592.8,
-   "ppg": 14.82,
-   "war": 1.66
+   "score": 811,
+   "gs": 41,
+   "pts": 598.8,
+   "ppg": 14.6,
+   "war": 1.61
   },
   {
    "player": "2133",
    "name": "Davante Adams",
-   "score": 784,
+   "score": 801,
    "gs": 46,
    "pts": 708.7,
    "ppg": 15.41,
    "war": 2.14
+  },
+  {
+   "player": "8146",
+   "name": "Garrett Wilson",
+   "score": 771,
+   "gs": 39,
+   "pts": 555.1,
+   "ppg": 14.23,
+   "war": 1.29
   }
  ],
  "status": {
@@ -1390,46 +1409,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 651.15,
+   "value": 668.05,
    "digits": 2,
-   "rank": 40,
-   "of": 420
+   "rank": 39,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 48,
+   "value": 49,
    "digits": 0,
    "rank": 18,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.29,
+   "value": 1.37,
    "digits": 2,
-   "rank": 67,
-   "of": 420
+   "rank": 65,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 109.1,
+   "value": 115.7,
    "digits": 1,
-   "rank": 67,
-   "of": 420
+   "rank": 65,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 1.1,
+   "value": 4.8,
    "digits": 1,
-   "rank": 131,
-   "of": 420
+   "rank": 110,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1437,16 +1456,16 @@
    "stat": "Best Game",
    "value": 38.8,
    "digits": 2,
-   "rank": 35,
-   "of": 420
+   "rank": 36,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 13.57,
+   "value": 13.63,
    "digits": 2,
-   "rank": 94,
+   "rank": 93,
    "of": 256
   },
   {
@@ -1455,35 +1474,35 @@
    "stat": "Bench Points",
    "value": 45.18,
    "digits": 2,
-   "rank": 302,
-   "of": 511
+   "rank": 306,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 651.15,
+   "value": 668.05,
    "digits": 2,
-   "rank": 10,
-   "of": 126
+   "rank": 9,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 48,
+   "value": 49,
    "digits": 0,
    "rank": 3,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.29,
+   "value": 1.37,
    "digits": 2,
    "rank": 17,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1531,8 +1550,8 @@
    "stat": "Points",
    "value": 0.0,
    "digits": 2,
-   "rank": 50,
-   "of": 52,
+   "rank": 51,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1542,7 +1561,7 @@
    "value": 1,
    "digits": 0,
    "rank": 42,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1551,8 +1570,8 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 46,
-   "of": 52,
+   "rank": 48,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1562,7 +1581,7 @@
    "value": 0.0,
    "digits": 2,
    "rank": 11,
-   "of": 12,
+   "of": 13,
    "franchise": 7
   },
   {
@@ -1609,37 +1628,37 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Points",
-   "value": 130.05,
+   "value": 146.95,
    "digits": 2,
-   "rank": 19,
-   "of": 58,
+   "rank": 15,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Games Started",
-   "value": 9,
+   "value": 10,
    "digits": 0,
-   "rank": 21,
-   "of": 58,
+   "rank": 20,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.44,
+   "value": 0.52,
    "digits": 2,
    "rank": 13,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Points, WRs",
-   "value": 130.05,
+   "value": 146.95,
    "digits": 2,
    "rank": 7,
    "of": 11,
@@ -1709,20 +1728,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 130.05,
+   "value": 146.95,
    "digits": 2,
    "rank": 41,
-   "of": 233,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 130.05,
+   "value": 146.95,
    "digits": 2,
    "rank": 11,
-   "of": 62,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1731,8 +1750,8 @@
    "stat": "Points, 2024",
    "value": 222.5,
    "digits": 2,
-   "rank": 88,
-   "of": 1010,
+   "rank": 90,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1741,18 +1760,18 @@
    "stat": "Points, 2025",
    "value": 187.1,
    "digits": 2,
-   "rank": 146,
-   "of": 1010,
+   "rank": 153,
+   "of": 1019,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 130.05,
+   "value": 146.95,
    "digits": 2,
-   "rank": 275,
-   "of": 1010,
+   "rank": 242,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1761,17 +1780,17 @@
    "stat": "Points, 2023",
    "value": 111.5,
    "digits": 2,
-   "rank": 329,
-   "of": 1010,
+   "rank": 334,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 24.9,
-  "rank": 65,
-  "of": 420,
-  "war": 12.9,
-  "starts": 12.0,
+  "score": 25.95,
+  "rank": 64,
+  "of": 424,
+  "war": 13.7,
+  "starts": 12.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -2074,6 +2093,11 @@
     "2026",
     9,
     24.9
+   ],
+   [
+    "2026",
+    10,
+    25.95
    ]
   ],
   "benchmark": 100

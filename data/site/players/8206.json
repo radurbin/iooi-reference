@@ -144,8 +144,8 @@
    "stat": "Bench Points",
    "value": 4.28,
    "digits": 2,
-   "rank": 476,
-   "of": 511
+   "rank": 480,
+   "of": 515
   }
  ],
  "similar": [],
@@ -344,7 +344,7 @@
    {
     "season": "2026",
     "nfl": "BAL",
-    "missed": 9,
+    "missed": 10,
     "lost": 0.0,
     "injuries": [
      "Undisclosed"
@@ -358,7 +358,8 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
@@ -423,6 +424,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Undisclosed",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 10,
       "kind": "IR",
       "injury": "Undisclosed",
       "franchise": null,
@@ -492,7 +500,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -502,9 +510,10 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 9,
+    "missed": 10,
     "nfl": "BAL",
     "injury": "Undisclosed",
     "kinds": [

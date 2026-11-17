@@ -66,13 +66,13 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "w": 5,
-   "l": 4,
+   "l": 5,
    "t": 0,
-   "pf": 1235.06,
-   "pa": 1284.57,
+   "pf": 1402.75,
+   "pa": 1486.33,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.556,
+   "pct": 0.5,
    "transactions": 36,
    "trades": 7,
    "partial_season": false,
@@ -81,13 +81,13 @@
  ],
  "totals": {
   "w": 37,
-  "l": 14,
+  "l": 15,
   "t": 0,
-  "pf": 7119.24,
-  "pa": 6454.97,
+  "pf": 7286.93,
+  "pa": 6656.73,
   "playoff_w": 3,
   "playoff_l": 3,
-  "pct": 0.725,
+  "pct": 0.712,
   "transactions": 153,
   "trades": 21
  },
@@ -103,13 +103,26 @@
     "name": "Josh Jacobs",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 45,
     "pts": 685.5,
     "best": 32.0,
     "wins": 32,
-    "vor": 260.45,
-    "war": 3.08
+    "vor": 258.38,
+    "war": 3.05
+   },
+   {
+    "player": "4217",
+    "name": "George Kittle",
+    "pos": "TE",
+    "years": "2023-2026",
+    "g": 61,
+    "gs": 45,
+    "pts": 675.9,
+    "best": 27.7,
+    "wins": 31,
+    "vor": 238.56,
+    "war": 2.82
    },
    {
     "player": "4881",
@@ -125,43 +138,30 @@
     "war": 3.1
    },
    {
-    "player": "4217",
-    "name": "George Kittle",
-    "pos": "TE",
-    "years": "2023-2026",
-    "g": 60,
-    "gs": 44,
-    "pts": 662.5,
-    "best": 27.7,
-    "wins": 31,
-    "vor": 233.88,
-    "war": 2.76
+    "player": "4034",
+    "name": "Christian McCaffrey",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 27,
+    "gs": 24,
+    "pts": 615.95,
+    "best": 47.6,
+    "wins": 16,
+    "vor": 392.69,
+    "war": 4.64
    },
    {
     "player": "6801",
     "name": "Tee Higgins",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 34,
-    "pts": 571.6,
+    "g": 61,
+    "gs": 35,
+    "pts": 583.2,
     "best": 40.1,
     "wins": 24,
-    "vor": 190.19,
-    "war": 2.25
-   },
-   {
-    "player": "4034",
-    "name": "Christian McCaffrey",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 26,
-    "gs": 23,
-    "pts": 568.35,
-    "best": 39.1,
-    "wins": 16,
-    "vor": 361.1,
-    "war": 4.27
+    "vor": 191.47,
+    "war": 2.26
    },
    {
     "player": "4035",
@@ -181,26 +181,26 @@
     "name": "Drake Maye",
     "pos": "QB",
     "years": "2024-2026",
-    "g": 43,
-    "gs": 25,
-    "pts": 497.5,
+    "g": 44,
+    "gs": 26,
+    "pts": 500.62,
     "best": 40.16,
     "wins": 19,
-    "vor": 194.1,
-    "war": 2.29
+    "vor": 200.79,
+    "war": 2.37
    },
    {
     "player": "8155",
     "name": "Breece Hall",
     "pos": "RB",
-    "years": "2023-2024",
-    "g": 38,
-    "gs": 28,
-    "pts": 433.6,
+    "years": "2023-2026",
+    "g": 39,
+    "gs": 29,
+    "pts": 450.25,
     "best": 43.1,
     "wins": 20,
-    "vor": 156.82,
-    "war": 1.85
+    "vor": 162.98,
+    "war": 1.93
    },
    {
     "player": "9756",
@@ -220,7 +220,7 @@
     "name": "Tyler Warren",
     "pos": "TE",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 18,
     "pts": 207.2,
     "best": 21.5,
@@ -255,30 +255,30 @@
     "war": 0.37
    },
    {
-    "player": "5870",
-    "name": "Daniel Jones",
-    "pos": "QB",
-    "years": "2025-2026",
-    "g": 26,
-    "gs": 13,
-    "pts": 193.08,
-    "best": 23.18,
-    "wins": 9,
-    "vor": 40.1,
-    "war": 0.47
-   },
-   {
     "player": "10229",
     "name": "Rashee Rice",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 43,
-    "gs": 13,
-    "pts": 185.1,
+    "g": 44,
+    "gs": 14,
+    "pts": 198.3,
     "best": 29.1,
     "wins": 9,
-    "vor": 39.33,
-    "war": 0.46
+    "vor": 42.21,
+    "war": 0.5
+   },
+   {
+    "player": "5870",
+    "name": "Daniel Jones",
+    "pos": "QB",
+    "years": "2025-2026",
+    "g": 27,
+    "gs": 13,
+    "pts": 193.08,
+    "best": 23.18,
+    "wins": 9,
+    "vor": 43.86,
+    "war": 0.52
    },
    {
     "player": "DEN",
@@ -346,6 +346,19 @@
     "war": -0.44
    },
    {
+    "player": "7569",
+    "name": "Nico Collins",
+    "pos": "WR",
+    "years": "2026",
+    "g": 10,
+    "gs": 7,
+    "pts": 116.2,
+    "best": 30.8,
+    "wins": 3,
+    "vor": 43.96,
+    "war": 0.52
+   },
+   {
     "player": "4144",
     "name": "Jonnu Smith",
     "pos": "TE",
@@ -359,30 +372,17 @@
     "war": 0.42
    },
    {
-    "player": "7569",
-    "name": "Nico Collins",
-    "pos": "WR",
-    "years": "2026",
-    "g": 9,
-    "gs": 6,
-    "pts": 91.8,
-    "best": 30.8,
-    "wins": 3,
-    "vor": 29.88,
-    "war": 0.35
-   },
-   {
     "player": "8161",
     "name": "Malik Willis",
     "pos": "QB",
     "years": "2026",
-    "g": 9,
+    "g": 10,
     "gs": 6,
     "pts": 76.8,
     "best": 26.82,
     "wins": 3,
-    "vor": -3.3,
-    "war": -0.04
+    "vor": 7.98,
+    "war": 0.09
    },
    {
     "player": "BUF",
@@ -444,13 +444,13 @@
      "name": "Drake Maye",
      "pos": "QB",
      "years": "2024-2026",
-     "g": 43,
-     "gs": 25,
-     "pts": 497.5,
+     "g": 44,
+     "gs": 26,
+     "pts": 500.62,
      "best": 40.16,
      "wins": 19,
-     "vor": 194.1,
-     "war": 2.29
+     "vor": 200.79,
+     "war": 2.37
     },
     {
      "player": "421",
@@ -472,26 +472,26 @@
      "name": "Josh Jacobs",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 45,
      "pts": 685.5,
      "best": 32.0,
      "wins": 32,
-     "vor": 260.45,
-     "war": 3.08
+     "vor": 258.38,
+     "war": 3.05
     },
     {
      "player": "4034",
      "name": "Christian McCaffrey",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 23,
-     "pts": 568.35,
-     "best": 39.1,
+     "g": 27,
+     "gs": 24,
+     "pts": 615.95,
+     "best": 47.6,
      "wins": 16,
-     "vor": 361.1,
-     "war": 4.27
+     "vor": 392.69,
+     "war": 4.64
     },
     {
      "player": "4035",
@@ -513,13 +513,13 @@
      "name": "Tee Higgins",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 34,
-     "pts": 571.6,
+     "g": 61,
+     "gs": 35,
+     "pts": 583.2,
      "best": 40.1,
      "wins": 24,
-     "vor": 190.19,
-     "war": 2.25
+     "vor": 191.47,
+     "war": 2.26
     },
     {
      "player": "9756",
@@ -539,13 +539,13 @@
      "name": "Rashee Rice",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 43,
-     "gs": 13,
-     "pts": 185.1,
+     "g": 44,
+     "gs": 14,
+     "pts": 198.3,
      "best": 29.1,
      "wins": 9,
-     "vor": 39.33,
-     "war": 0.46
+     "vor": 42.21,
+     "war": 0.5
     }
    ],
    "TE": [
@@ -554,20 +554,20 @@
      "name": "George Kittle",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 44,
-     "pts": 662.5,
+     "g": 61,
+     "gs": 45,
+     "pts": 675.9,
      "best": 27.7,
      "wins": 31,
-     "vor": 233.88,
-     "war": 2.76
+     "vor": 238.56,
+     "war": 2.82
     },
     {
      "player": "12518",
      "name": "Tyler Warren",
      "pos": "TE",
      "years": "2025-2026",
-     "g": 26,
+     "g": 27,
      "gs": 18,
      "pts": 207.2,
      "best": 21.5,
@@ -694,13 +694,13 @@
    "name": "Josh Jacobs",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 60,
+   "g": 61,
    "gs": 45,
    "pts": 685.5,
    "best": 32.0,
    "wins": 32,
-   "vor": 260.45,
-   "war": 3.08
+   "vor": 258.38,
+   "war": 3.05
   },
   {
    "slot": "RB",
@@ -708,13 +708,13 @@
    "name": "Christian McCaffrey",
    "pos": "RB",
    "years": "2025-2026",
-   "g": 26,
-   "gs": 23,
-   "pts": 568.35,
-   "best": 39.1,
+   "g": 27,
+   "gs": 24,
+   "pts": 615.95,
+   "best": 47.6,
    "wins": 16,
-   "vor": 361.1,
-   "war": 4.27
+   "vor": 392.69,
+   "war": 4.64
   },
   {
    "slot": "WR",
@@ -722,13 +722,13 @@
    "name": "Tee Higgins",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 34,
-   "pts": 571.6,
+   "g": 61,
+   "gs": 35,
+   "pts": 583.2,
    "best": 40.1,
    "wins": 24,
-   "vor": 190.19,
-   "war": 2.25
+   "vor": 191.47,
+   "war": 2.26
   },
   {
    "slot": "WR",
@@ -750,13 +750,13 @@
    "name": "George Kittle",
    "pos": "TE",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 44,
-   "pts": 662.5,
+   "g": 61,
+   "gs": 45,
+   "pts": 675.9,
    "best": 27.7,
    "wins": 31,
-   "vor": 233.88,
-   "war": 2.76
+   "vor": 238.56,
+   "war": 2.82
   },
   {
    "slot": "FLEX",
@@ -778,13 +778,13 @@
    "name": "Drake Maye",
    "pos": "QB",
    "years": "2024-2026",
-   "g": 43,
-   "gs": 25,
-   "pts": 497.5,
+   "g": 44,
+   "gs": 26,
+   "pts": 500.62,
    "best": 40.16,
    "wins": 19,
-   "vor": 194.1,
-   "war": 2.29
+   "vor": 200.79,
+   "war": 2.37
   },
   {
    "slot": "K",
@@ -816,6 +816,17 @@
   }
  ],
  "best_games": [
+  {
+   "player": "4034",
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "pts": 47.6,
+   "game": "2026-10-6-8",
+   "season": "2026",
+   "week": 10,
+   "franchise": 8,
+   "team": "BBL KIZZY"
+  },
   {
    "player": "4035",
    "name": "Alvin Kamara",
@@ -1079,17 +1090,6 @@
    "week": 1,
    "franchise": 8,
    "team": "BBL KIZZY"
-  },
-  {
-   "player": "7569",
-   "name": "Nico Collins",
-   "pos": "WR",
-   "pts": 30.8,
-   "game": "2026-04-5-8",
-   "season": "2026",
-   "week": 4,
-   "franchise": 8,
-   "team": "BBL KIZZY"
   }
  ],
  "records_held": [
@@ -1263,10 +1263,10 @@
    "season": "2026",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "games": 30,
-   "players": 10,
-   "lost": 43.38,
-   "rank": 5,
+   "games": 34,
+   "players": 12,
+   "lost": 42.91,
+   "rank": 6,
    "of": 12
   }
  ],
@@ -1399,6 +1399,29 @@
    ]
   },
   {
+   "player": "12484",
+   "name": "Jayden Higgins",
+   "pos": "WR",
+   "missed": 9,
+   "lost": 0.0,
+   "injuries": [
+    "Knee - ACL"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
    "player": "4217",
    "name": "George Kittle",
    "pos": "TE",
@@ -1435,7 +1458,7 @@
    "name": "Zach Charbonnet",
    "pos": "RB",
    "missed": 8,
-   "lost": 8.61,
+   "lost": 3.78,
    "injuries": [
     "Knee",
     "Foot"
@@ -1455,29 +1478,6 @@
      "franchise": 8,
      "team": "BBL KIZZY"
     },
-    {
-     "season": "2026",
-     "franchise": 8,
-     "team": "BBL KIZZY"
-    }
-   ]
-  },
-  {
-   "player": "12484",
-   "name": "Jayden Higgins",
-   "pos": "WR",
-   "missed": 8,
-   "lost": 0.0,
-   "injuries": [
-    "Knee - ACL"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
     {
      "season": "2026",
      "franchise": 8,
@@ -1539,6 +1539,45 @@
    ]
   },
   {
+   "player": "5850",
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 22.59,
+   "injuries": [
+    "Quadricep",
+    "Knee",
+    "Finger"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 8,
+     "team": "Breece is the Word"
+    },
+    {
+     "season": "2025",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    },
+    {
+     "season": "2026",
+     "franchise": 8,
+     "team": "BBL KIZZY"
+    }
+   ]
+  },
+  {
    "player": "8408",
    "name": "Jordan Mason",
    "pos": "RB",
@@ -1573,7 +1612,7 @@
    "name": "Breece Hall",
    "pos": "RB",
    "missed": 4,
-   "lost": 22.73,
+   "lost": 20.66,
    "injuries": [
     "Quadricep",
     "Knee"
@@ -1601,31 +1640,24 @@
    ]
   },
   {
-   "player": "5850",
-   "name": "Josh Jacobs",
+   "player": "5892",
+   "name": "David Montgomery",
    "pos": "RB",
    "missed": 4,
-   "lost": 17.27,
+   "lost": 0.0,
    "injuries": [
-    "Quadricep",
-    "Knee"
+    "Groin"
    ],
    "kinds": [
-    "Doubtful",
+    "Out",
     "Questionable"
    ],
    "seasons": [
-    "2023",
-    "2025"
+    "2026"
    ],
    "teams": [
     {
-     "season": "2023",
-     "franchise": 8,
-     "team": "Breece is the Word"
-    },
-    {
-     "season": "2025",
+     "season": "2026",
      "franchise": 8,
      "team": "BBL KIZZY"
     }
@@ -1663,29 +1695,6 @@
    "lost": 19.56,
    "injuries": [
     "Foot"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2025"
-   ],
-   "teams": [
-    {
-     "season": "2025",
-     "franchise": 8,
-     "team": "BBL KIZZY"
-    }
-   ]
-  },
-  {
-   "player": "5870",
-   "name": "Daniel Jones",
-   "pos": "QB",
-   "missed": 3,
-   "lost": 18.15,
-   "injuries": [
-    "Fibula"
    ],
    "kinds": [
     "IR"

@@ -40,7 +40,7 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "CHI",
-   "g": 9,
+   "g": 10,
    "gs": 8,
    "pts": 76.2,
    "bench_pts": 7.1,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 26,
+  "g": 27,
   "gs": 12,
   "pts": 131.4,
   "bench_pts": 93.4,
@@ -569,6 +569,22 @@
    "paa": -2.19,
    "vor": 0.68,
    "war": 0.008036772573414154
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
@@ -584,7 +600,7 @@
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 905,
+   "score": 906,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
@@ -593,16 +609,16 @@
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 888,
-   "gs": 15,
-   "pts": 175.85,
-   "ppg": 11.72,
-   "war": 0.51
+   "score": 847,
+   "gs": 16,
+   "pts": 191.95,
+   "ppg": 12.0,
+   "war": 0.6
   },
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 837,
+   "score": 838,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
@@ -611,7 +627,7 @@
   {
    "player": "4144",
    "name": "Jonnu Smith",
-   "score": 802,
+   "score": 800,
    "gs": 10,
    "pts": 133.2,
    "ppg": 13.32,
@@ -630,8 +646,8 @@
    "stat": "Points",
    "value": 131.4,
    "digits": 2,
-   "rank": 198,
-   "of": 420
+   "rank": 201,
+   "of": 424
   },
   {
    "group": "Career",
@@ -639,8 +655,8 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 199,
-   "of": 420
+   "rank": 201,
+   "of": 424
   },
   {
    "group": "Career",
@@ -648,8 +664,8 @@
    "stat": "WAR",
    "value": 0.3,
    "digits": 2,
-   "rank": 144,
-   "of": 420
+   "rank": 145,
+   "of": 424
   },
   {
    "group": "Career",
@@ -658,7 +674,7 @@
    "value": 25.5,
    "digits": 1,
    "rank": 145,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -666,8 +682,8 @@
    "stat": "PAA",
    "value": 4.3,
    "digits": 1,
-   "rank": 114,
-   "of": 420
+   "rank": 113,
+   "of": 424
   },
   {
    "group": "Career",
@@ -675,8 +691,8 @@
    "stat": "Best Game",
    "value": 21.4,
    "digits": 2,
-   "rank": 206,
-   "of": 420
+   "rank": 209,
+   "of": 424
   },
   {
    "group": "Career",
@@ -684,7 +700,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.95,
    "digits": 2,
-   "rank": 149,
+   "rank": 148,
    "of": 256
   },
   {
@@ -693,8 +709,8 @@
    "stat": "Bench Points",
    "value": 93.4,
    "digits": 2,
-   "rank": 187,
-   "of": 511
+   "rank": 188,
+   "of": 515
   },
   {
    "group": "Career",
@@ -729,8 +745,8 @@
    "stat": "Points",
    "value": 131.4,
    "digits": 2,
-   "rank": 18,
-   "of": 58,
+   "rank": 19,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -739,8 +755,8 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 14,
-   "of": 58,
+   "rank": 15,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -750,7 +766,7 @@
    "value": 0.31,
    "digits": 2,
    "rank": 18,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -760,7 +776,7 @@
    "value": 131.4,
    "digits": 2,
    "rank": 3,
-   "of": 6,
+   "of": 7,
    "franchise": 5
   },
   {
@@ -789,8 +805,8 @@
    "stat": "Points",
    "value": 76.2,
    "digits": 2,
-   "rank": 76,
-   "of": 233,
+   "rank": 82,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -799,8 +815,8 @@
    "stat": "Points",
    "value": 76.2,
    "digits": 2,
-   "rank": 7,
-   "of": 28,
+   "rank": 8,
+   "of": 29,
    "season": "2026"
   },
   {
@@ -809,8 +825,8 @@
    "stat": "Points, 2026",
    "value": 76.2,
    "digits": 2,
-   "rank": 434,
-   "of": 1010,
+   "rank": 440,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -819,15 +835,15 @@
    "stat": "Points, 2025",
    "value": 55.2,
    "digits": 2,
-   "rank": 533,
-   "of": 1010,
+   "rank": 543,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 6.0,
   "rank": 184,
-  "of": 420,
+  "of": 424,
   "war": 3.0,
   "starts": 3.0,
   "black_ink": 0.0,
@@ -961,6 +977,11 @@
    [
     "2026",
     9,
+    6.0
+   ],
+   [
+    "2026",
+    10,
     6.0
    ]
   ],

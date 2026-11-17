@@ -24,37 +24,37 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "BAL",
-   "g": 9,
-   "gs": 2,
-   "pts": 3.05,
+   "g": 10,
+   "gs": 3,
+   "pts": 12.15,
    "bench_pts": 15.6,
-   "ppg": 1.53,
-   "best": 3.05,
+   "ppg": 4.05,
+   "best": 9.1,
    "wins": 0,
-   "paa": -23.73,
-   "vor": -17.59,
-   "war": -0.21
+   "paa": -27.85,
+   "vor": -18.81,
+   "war": -0.22
   }
  ],
  "totals": {
-  "g": 9,
-  "gs": 2,
-  "pts": 3.05,
+  "g": 10,
+  "gs": 3,
+  "pts": 12.15,
   "bench_pts": 15.6,
-  "ppg": 1.53,
-  "best": 3.05,
+  "ppg": 4.05,
+  "best": 9.1,
   "wins": 0,
-  "paa": -23.73,
-  "vor": -17.59,
-  "war": -0.21
+  "paa": -27.85,
+  "vor": -18.81,
+  "war": -0.22
  },
  "nfl": [
   {
    "season": "2026",
    "team": "BAL",
-   "g": 5,
-   "pts": 18.65,
-   "rank": 120
+   "g": 6,
+   "pts": 27.75,
+   "rank": 108
   }
  ],
  "history": [
@@ -221,6 +221,25 @@
    "paa": -13.64,
    "vor": -10.32,
    "war": -0.12196984258475597
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": "FLEX",
+   "started": true,
+   "pts": 9.1,
+   "proj": 5.62,
+   "won": false,
+   "paa": -4.12,
+   "vor": -1.22,
+   "war": -0.014418915499360686
   }
  ],
  "status": {
@@ -233,55 +252,55 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 3.05,
+   "value": 12.15,
    "digits": 2,
-   "rank": 390,
-   "of": 420
+   "rank": 350,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 328,
-   "of": 420
+   "rank": 301,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.21,
+   "value": -0.22,
    "digits": 2,
-   "rank": 355,
-   "of": 420
+   "rank": 363,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -17.6,
+   "value": -18.8,
    "digits": 1,
-   "rank": 356,
-   "of": 420
+   "rank": 363,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -23.7,
+   "value": -27.9,
    "digits": 1,
-   "rank": 296,
-   "of": 420
+   "rank": 316,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Best Game",
-   "value": 3.05,
+   "value": 9.1,
    "digits": 2,
-   "rank": 389,
-   "of": 420
+   "rank": 346,
+   "of": 424
   },
   {
    "group": "Career",
@@ -289,73 +308,73 @@
    "stat": "Bench Points",
    "value": 15.6,
    "digits": 2,
-   "rank": 409,
-   "of": 511
+   "rank": 413,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 3.05,
+   "value": 12.15,
    "digits": 2,
-   "rank": 109,
-   "of": 126
+   "rank": 98,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 93,
-   "of": 126
+   "rank": 84,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.21,
+   "value": -0.22,
    "digits": 2,
-   "rank": 102,
-   "of": 126
+   "rank": 104,
+   "of": 127
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points",
-   "value": 3.05,
+   "value": 12.15,
    "digits": 2,
-   "rank": 68,
-   "of": 73,
+   "rank": 52,
+   "of": 74,
    "franchise": 10
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 44,
-   "of": 73,
+   "rank": 39,
+   "of": 74,
    "franchise": 10
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.21,
+   "value": -0.22,
    "digits": 2,
-   "rank": 68,
-   "of": 73,
+   "rank": 69,
+   "of": 74,
    "franchise": 10
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points, WRs",
-   "value": 3.05,
+   "value": 12.15,
    "digits": 2,
-   "rank": 17,
+   "rank": 13,
    "of": 18,
    "franchise": 10
   },
@@ -363,40 +382,40 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 3.05,
+   "value": 12.15,
    "digits": 2,
-   "rank": 219,
-   "of": 233,
+   "rank": 190,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 3.05,
+   "value": 12.15,
    "digits": 2,
-   "rank": 59,
-   "of": 62,
+   "rank": 51,
+   "of": 63,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 3.05,
+   "value": 12.15,
    "digits": 2,
-   "rank": 957,
-   "of": 1010,
+   "rank": 838,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 0.5,
-  "rank": 342,
-  "of": 420,
+  "score": 0.75,
+  "rank": 319,
+  "of": 424,
   "war": 0.0,
-  "starts": 0.5,
+  "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -444,6 +463,11 @@
     "2026",
     9,
     0.5
+   ],
+   [
+    "2026",
+    10,
+    0.75
    ]
   ],
   "benchmark": 100

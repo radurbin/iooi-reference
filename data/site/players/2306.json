@@ -57,8 +57,8 @@
    "best": 26.24,
    "wins": 2,
    "paa": -9.44,
-   "vor": 5.44,
-   "war": 0.06
+   "vor": 12.96,
+   "war": 0.15
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 26.24,
   "wins": 2,
   "paa": -9.44,
-  "vor": 5.44,
-  "war": 0.06
+  "vor": 12.96,
+  "war": 0.15
  },
  "nfl": [
   {
@@ -390,8 +390,8 @@
    "proj": 14.08,
    "won": false,
    "paa": -11.0,
-   "vor": -7.03,
-   "war": -0.0830860458692669
+   "vor": -5.15,
+   "war": -0.06086673346041602
   },
   {
    "season": "2026",
@@ -409,8 +409,8 @@
    "proj": 14.99,
    "won": true,
    "paa": 4.28,
-   "vor": 6.15,
-   "war": 0.0726855166566133
+   "vor": 8.03,
+   "war": 0.09490482906546419
   },
   {
    "season": "2026",
@@ -428,8 +428,8 @@
    "proj": 14.06,
    "won": true,
    "paa": 6.45,
-   "vor": 12.89,
-   "war": 0.152344115398983
+   "vor": 14.77,
+   "war": 0.17456342780783388
   },
   {
    "season": "2026",
@@ -447,8 +447,8 @@
    "proj": 13.03,
    "won": false,
    "paa": -9.17,
-   "vor": -6.57,
-   "war": -0.07764940559901616
+   "vor": -4.69,
+   "war": -0.055430093190165265
   }
  ],
  "status": {
@@ -463,7 +463,7 @@
    "value": 58.84,
    "digits": 2,
    "rank": 256,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -472,25 +472,25 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.06,
+   "value": 0.15,
    "digits": 2,
-   "rank": 189,
-   "of": 420
+   "rank": 174,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 5.4,
+   "value": 13.0,
    "digits": 1,
-   "rank": 190,
-   "of": 420
+   "rank": 174,
+   "of": 424
   },
   {
    "group": "Career",
@@ -498,8 +498,8 @@
    "stat": "PAA",
    "value": -9.4,
    "digits": 1,
-   "rank": 202,
-   "of": 420
+   "rank": 205,
+   "of": 424
   },
   {
    "group": "Career",
@@ -507,8 +507,8 @@
    "stat": "Best Game",
    "value": 26.24,
    "digits": 2,
-   "rank": 145,
-   "of": 420
+   "rank": 146,
+   "of": 424
   },
   {
    "group": "Career",
@@ -516,8 +516,8 @@
    "stat": "Bench Points",
    "value": 164.9,
    "digits": 2,
-   "rank": 75,
-   "of": 511
+   "rank": 77,
+   "of": 515
   },
   {
    "group": "Career",
@@ -526,7 +526,7 @@
    "value": 58.84,
    "digits": 2,
    "rank": 44,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -535,16 +535,16 @@
    "value": 4,
    "digits": 0,
    "rank": 46,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.06,
+   "value": 0.15,
    "digits": 2,
-   "rank": 38,
-   "of": 66
+   "rank": 37,
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -553,7 +553,7 @@
    "value": 58.84,
    "digits": 2,
    "rank": 24,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -563,17 +563,17 @@
    "value": 4,
    "digits": 0,
    "rank": 27,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.06,
+   "value": 0.15,
    "digits": 2,
-   "rank": 25,
-   "of": 52,
+   "rank": 20,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -583,7 +583,7 @@
    "value": 58.84,
    "digits": 2,
    "rank": 4,
-   "of": 4,
+   "of": 5,
    "franchise": 7
   },
   {
@@ -592,8 +592,8 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 93,
-   "of": 233,
+   "rank": 104,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -602,8 +602,8 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 23,
-   "of": 36,
+   "rank": 25,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -612,17 +612,17 @@
    "stat": "Points, 2026",
    "value": 58.84,
    "digits": 2,
-   "rank": 512,
-   "of": 1010,
+   "rank": 523,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.6,
-  "rank": 282,
-  "of": 420,
-  "war": 0.6,
+  "score": 2.5,
+  "rank": 244,
+  "of": 424,
+  "war": 1.5,
   "starts": 1.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -780,32 +780,37 @@
    [
     "2026",
     4,
-    0.5
+    0.8
    ],
    [
     "2026",
     5,
-    2.15
+    2.85
    ],
    [
     "2026",
     6,
-    1.6
+    2.5
    ],
    [
     "2026",
     7,
-    1.6
+    2.5
    ],
    [
     "2026",
     8,
-    1.6
+    2.5
    ],
    [
     "2026",
     9,
-    1.6
+    2.5
+   ],
+   [
+    "2026",
+    10,
+    2.5
    ]
   ],
   "benchmark": 100

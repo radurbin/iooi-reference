@@ -81,29 +81,29 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "BUF",
-   "g": 9,
-   "gs": 2,
-   "pts": 21.2,
+   "g": 10,
+   "gs": 3,
+   "pts": 29.0,
    "bench_pts": 55.0,
-   "ppg": 10.6,
+   "ppg": 9.67,
    "best": 11.4,
-   "wins": 0,
-   "paa": -5.58,
-   "vor": 0.56,
-   "war": 0.01
+   "wins": 1,
+   "paa": -11.0,
+   "vor": -1.96,
+   "war": -0.02
   }
  ],
  "totals": {
-  "g": 47,
-  "gs": 26,
-  "pts": 276.7,
+  "g": 48,
+  "gs": 27,
+  "pts": 284.5,
   "bench_pts": 145.4,
-  "ppg": 10.64,
+  "ppg": 10.54,
   "best": 21.6,
-  "wins": 9,
-  "paa": -67.48,
-  "vor": -10.44,
-  "war": -0.12
+  "wins": 10,
+  "paa": -72.9,
+  "vor": -12.96,
+  "war": -0.15
  },
  "nfl": [
   {
@@ -1004,22 +1004,41 @@
    "paa": -3.84,
    "vor": -0.52,
    "war": -0.0061457672620225876
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-7-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": "FLEX",
+   "started": true,
+   "pts": 7.8,
+   "proj": 10.04,
+   "won": true,
+   "paa": -5.42,
+   "vor": -2.52,
+   "war": -0.029783333654417155
   }
  ],
  "similar": [
   {
    "player": "11631",
    "name": "Brian Thomas Jr.",
-   "score": 970,
-   "gs": 25,
-   "pts": 260.8,
-   "ppg": 10.43,
-   "war": -0.15
+   "score": 966,
+   "gs": 26,
+   "pts": 266.7,
+   "ppg": 10.26,
+   "war": -0.2
   },
   {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 965,
+   "score": 945,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
@@ -1028,7 +1047,7 @@
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 949,
+   "score": 941,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -1037,20 +1056,20 @@
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 874,
-   "gs": 23,
-   "pts": 274.7,
-   "ppg": 11.94,
-   "war": 0.21
+   "score": 883,
+   "gs": 24,
+   "pts": 281.4,
+   "ppg": 11.72,
+   "war": 0.16
   },
   {
-   "player": "4950",
-   "name": "Christian Kirk",
-   "score": 862,
-   "gs": 20,
-   "pts": 215.66,
-   "ppg": 10.78,
-   "war": -0.3
+   "player": "11620",
+   "name": "Rome Odunze",
+   "score": 854,
+   "gs": 24,
+   "pts": 220.3,
+   "ppg": 9.18,
+   "war": -0.52
   }
  ],
  "status": {
@@ -1063,46 +1082,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 276.7,
+   "value": 284.5,
    "digits": 2,
-   "rank": 112,
-   "of": 420
+   "rank": 111,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 26,
+   "value": 27,
    "digits": 0,
-   "rank": 106,
-   "of": 420
+   "rank": 101,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.15,
    "digits": 2,
-   "rank": 305,
-   "of": 420
+   "rank": 332,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -10.4,
+   "value": -13.0,
    "digits": 1,
-   "rank": 315,
-   "of": 420
+   "rank": 335,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -67.5,
+   "value": -72.9,
    "digits": 1,
-   "rank": 390,
-   "of": 420
+   "rank": 400,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1110,16 +1129,16 @@
    "stat": "Best Game",
    "value": 21.6,
    "digits": 2,
-   "rank": 201,
-   "of": 420
+   "rank": 204,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 10.64,
+   "value": 10.54,
    "digits": 2,
-   "rank": 153,
+   "rank": 155,
    "of": 256
   },
   {
@@ -1128,73 +1147,73 @@
    "stat": "Bench Points",
    "value": 145.4,
    "digits": 2,
-   "rank": 97,
-   "of": 511
+   "rank": 98,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 276.7,
+   "value": 284.5,
    "digits": 2,
    "rank": 36,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 26,
+   "value": 27,
    "digits": 0,
-   "rank": 30,
-   "of": 126
+   "rank": 29,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.15,
    "digits": 2,
-   "rank": 83,
-   "of": 126
+   "rank": 95,
+   "of": 127
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points",
-   "value": 156.0,
+   "value": 163.8,
    "digits": 2,
-   "rank": 13,
-   "of": 44,
+   "rank": 14,
+   "of": 45,
    "franchise": 11
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Games Started",
-   "value": 15,
+   "value": 16,
    "digits": 0,
-   "rank": 16,
-   "of": 44,
+   "rank": 15,
+   "of": 45,
    "franchise": 11
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": -0.03,
+   "value": -0.06,
    "digits": 2,
-   "rank": 22,
-   "of": 44,
+   "rank": 25,
+   "of": 45,
    "franchise": 11
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points, WRs",
-   "value": 156.0,
+   "value": 163.8,
    "digits": 2,
-   "rank": 5,
+   "rank": 6,
    "of": 13,
    "franchise": 11
   },
@@ -1214,7 +1233,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 55,
+   "rank": 56,
    "of": 76,
    "franchise": 2
   },
@@ -1322,20 +1341,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 21.2,
+   "value": 29.0,
    "digits": 2,
-   "rank": 161,
-   "of": 233,
+   "rank": 152,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 21.2,
+   "value": 29.0,
    "digits": 2,
-   "rank": 41,
-   "of": 62,
+   "rank": 39,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1344,8 +1363,8 @@
    "stat": "Points, 2025",
    "value": 134.8,
    "digits": 2,
-   "rank": 262,
-   "of": 1010,
+   "rank": 269,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1354,27 +1373,27 @@
    "stat": "Points, 2024",
    "value": 120.7,
    "digits": 2,
-   "rank": 303,
-   "of": 1010,
+   "rank": 310,
+   "of": 1019,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 21.2,
+   "value": 29.0,
    "digits": 2,
-   "rank": 745,
-   "of": 1010,
+   "rank": 689,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 6.5,
-  "rank": 173,
-  "of": 420,
+  "score": 6.75,
+  "rank": 165,
+  "of": 424,
   "war": 0.0,
-  "starts": 6.5,
+  "starts": 6.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1622,6 +1641,11 @@
     "2026",
     9,
     6.5
+   ],
+   [
+    "2026",
+    10,
+    6.75
    ]
   ],
   "benchmark": 100

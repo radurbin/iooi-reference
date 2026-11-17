@@ -1128,9 +1128,9 @@
    "pos": "RB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 14,
-   "pts_league": 177.9,
-   "nfl_pts": 215.6
+   "starts_league": 15,
+   "pts_league": 197.6,
+   "nfl_pts": 235.3
   },
   {
    "round": 4,
@@ -1306,29 +1306,29 @@
  "similar": [
   {
    "season": "2026",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
-   "score": 848,
-   "w": 5,
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 844,
+   "w": 6,
    "l": 4,
-   "ppg": 140.83,
+   "ppg": 142.2,
    "result": null
   },
   {
    "season": "2026",
-   "franchise": 2,
-   "team": "Storm FC",
-   "score": 813,
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "score": 833,
    "w": 6,
-   "l": 3,
-   "ppg": 143.7,
+   "l": 4,
+   "ppg": 143.5,
    "result": null
   },
   {
    "season": "2024",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 794,
+   "score": 800,
    "w": 9,
    "l": 5,
    "ppg": 131.79,
@@ -1338,21 +1338,21 @@
    "season": "2023",
    "franchise": 7,
    "team": "young sexy central",
-   "score": 772,
+   "score": 778,
    "w": 10,
    "l": 4,
    "ppg": 128.09,
    "result": "4th"
   },
   {
-   "season": "2026",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "score": 761,
-   "w": 5,
-   "l": 4,
-   "ppg": 143.32,
-   "result": null
+   "season": "2024",
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 715,
+   "w": 9,
+   "l": 5,
+   "ppg": 131.74,
+   "result": "5th"
   }
  ],
  "pickups": [
@@ -1566,7 +1566,7 @@
     "joe"
    ],
    "until": null,
-   "g": 17,
+   "g": 18,
    "gs": 4,
    "pts": 52.62,
    "wins": 1,
@@ -1758,8 +1758,8 @@
     "tanner",
     "joe"
    ],
-   "gs": 11,
-   "pts": 92.0,
+   "gs": 12,
+   "pts": 110.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -1893,8 +1893,8 @@
     "tanner",
     "joe"
    ],
-   "gs": 2,
-   "pts": -3.0,
+   "gs": 3,
+   "pts": 1.0,
    "next": 3,
    "next_team": "Kolkata Kommies"
   }

@@ -40,7 +40,7 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "HOU",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 67.1,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 26,
+  "g": 27,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 133.2,
@@ -510,6 +510,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -524,8 +540,8 @@
    "stat": "Bench Points",
    "value": 133.2,
    "digits": 2,
-   "rank": 113,
-   "of": 511
+   "rank": 118,
+   "of": 515
   }
  ],
  "similar": [],
@@ -549,7 +565,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 9,
@@ -562,8 +578,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Toe",
-      "franchise": null,
-      "team": null
+      "franchise": 1,
+      "team": "Mojo Dojo Casa Team 💍"
      }
     ]
    }
@@ -589,7 +605,7 @@
       "team": "Mojo Dojo Casa Team 💍"
      }
     ],
-    "rostered": 1,
+    "rostered": 2,
     "lost": 0.0
    }
   ],

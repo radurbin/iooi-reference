@@ -123,14 +123,14 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "w": 4,
-   "l": 5,
+   "l": 6,
    "t": 0,
-   "pf": 1198.87,
-   "pa": 1198.72,
-   "max_pf": 1423.88,
-   "all_play_w": 50,
-   "all_play_l": 49,
-   "expected_w": 4.55,
+   "pf": 1352.27,
+   "pa": 1366.28,
+   "max_pf": 1604.48,
+   "all_play_w": 57,
+   "all_play_l": 53,
+   "expected_w": 5.18,
    "playoff_w": 0,
    "playoff_l": 0,
    "toilet_w": 0,
@@ -138,21 +138,21 @@
    "finish": null,
    "transactions": 33,
    "trades": 4,
-   "seed": 8,
-   "efficiency": 0.842,
-   "luck": -0.55,
-   "ppg": 133.21,
-   "pct": 0.444,
+   "seed": 9,
+   "efficiency": 0.8428,
+   "luck": -1.18,
+   "ppg": 135.23,
+   "pct": 0.4,
    "result": null
   }
  ],
  "totals": {
   "w": 24,
-  "l": 27,
+  "l": 28,
   "t": 0,
-  "pct": 0.471,
-  "pf": 6390.38,
-  "pa": 6436.16,
+  "pct": 0.462,
+  "pf": 6543.78,
+  "pa": 6603.72,
   "transactions": 119,
   "trades": 24,
   "toilet_w": 2,
@@ -170,66 +170,66 @@
     "player": "9509",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 55,
-    "pts": 1036.6,
+    "g": 61,
+    "gs": 56,
+    "pts": 1055.9,
     "best": 38.2,
     "wins": 23,
-    "paa": 256.34,
-    "vor": 512.42,
-    "war": 6.06
+    "paa": 256.85,
+    "vor": 515.02,
+    "war": 6.09
    },
    {
     "player": "8144",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 54,
-    "gs": 34,
-    "pts": 513.4,
+    "g": 55,
+    "gs": 35,
+    "pts": 519.4,
     "best": 36.8,
     "wins": 15,
-    "paa": 53.52,
-    "vor": 135.29,
-    "war": 1.6
+    "paa": 46.3,
+    "vor": 130.97,
+    "war": 1.55
    },
    {
     "player": "4046",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 22,
-    "pts": 431.46,
-    "best": 31.48,
+    "g": 27,
+    "gs": 23,
+    "pts": 467.08,
+    "best": 35.62,
     "wins": 12,
-    "paa": 55.58,
-    "vor": 163.94,
-    "war": 1.94
-   },
-   {
-    "player": "11632",
-    "pos": "WR",
-    "years": "2024-2026",
-    "g": 43,
-    "gs": 25,
-    "pts": 423.4,
-    "best": 39.2,
-    "wins": 14,
-    "paa": 80.9,
-    "vor": 146.34,
-    "war": 1.73
+    "paa": 73.55,
+    "vor": 203.13,
+    "war": 2.4
    },
    {
     "player": "7523",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 21,
-    "pts": 421.6,
+    "g": 27,
+    "gs": 22,
+    "pts": 448.78,
     "best": 44.3,
     "wins": 11,
-    "paa": 66.56,
-    "vor": 165.56,
-    "war": 1.96
+    "paa": 76.09,
+    "vor": 196.31,
+    "war": 2.32
+   },
+   {
+    "player": "11632",
+    "pos": "WR",
+    "years": "2024-2026",
+    "g": 44,
+    "gs": 26,
+    "pts": 432.3,
+    "best": 39.2,
+    "wins": 14,
+    "paa": 76.58,
+    "vor": 144.92,
+    "war": 1.71
    },
    {
     "player": "8136",
@@ -248,14 +248,14 @@
     "player": "10236",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 38,
-    "pts": 310.3,
+    "g": 61,
+    "gs": 39,
+    "pts": 318.1,
     "best": 22.5,
     "wins": 16,
-    "paa": -98.67,
-    "vor": -63.72,
-    "war": -0.75
+    "paa": -98.39,
+    "vor": -64.64,
+    "war": -0.76
    },
    {
     "player": "11584",
@@ -267,8 +267,8 @@
     "best": 33.6,
     "wins": 11,
     "paa": 28.13,
-    "vor": 135.44,
-    "war": 1.6
+    "vor": 131.99,
+    "war": 1.56
    },
    {
     "player": "8259",
@@ -388,6 +388,19 @@
     "war": 0.34
    },
    {
+    "player": "5119",
+    "pos": "K",
+    "years": "2023-2026",
+    "g": 23,
+    "gs": 15,
+    "pts": 107.9,
+    "best": 14.9,
+    "wins": 6,
+    "paa": -22.31,
+    "vor": -18.97,
+    "war": -0.22
+   },
+   {
     "player": "2133",
     "pos": "WR",
     "years": "2023",
@@ -414,23 +427,10 @@
     "war": -0.28
    },
    {
-    "player": "5119",
-    "pos": "K",
-    "years": "2023-2024",
-    "g": 22,
-    "gs": 14,
-    "pts": 93.0,
-    "best": 13.0,
-    "wins": 6,
-    "paa": -27.49,
-    "vor": -24.08,
-    "war": -0.28
-   },
-   {
     "player": "11620",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 22,
+    "g": 23,
     "gs": 12,
     "pts": 91.4,
     "best": 20.6,
@@ -498,27 +498,27 @@
      "player": "4046",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 22,
-     "pts": 431.46,
-     "best": 31.48,
+     "g": 27,
+     "gs": 23,
+     "pts": 467.08,
+     "best": 35.62,
      "wins": 12,
-     "paa": 55.58,
-     "vor": 163.94,
-     "war": 1.94
+     "paa": 73.55,
+     "vor": 203.13,
+     "war": 2.4
     },
     {
      "player": "7523",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 21,
-     "pts": 421.6,
+     "g": 27,
+     "gs": 22,
+     "pts": 448.78,
      "best": 44.3,
      "wins": 11,
-     "paa": 66.56,
-     "vor": 165.56,
-     "war": 1.96
+     "paa": 76.09,
+     "vor": 196.31,
+     "war": 2.32
     },
     {
      "player": "4943",
@@ -539,14 +539,14 @@
      "player": "9509",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 55,
-     "pts": 1036.6,
+     "g": 61,
+     "gs": 56,
+     "pts": 1055.9,
      "best": 38.2,
      "wins": 23,
-     "paa": 256.34,
-     "vor": 512.42,
-     "war": 6.06
+     "paa": 256.85,
+     "vor": 515.02,
+     "war": 6.09
     },
     {
      "player": "8136",
@@ -571,8 +571,8 @@
      "best": 33.6,
      "wins": 11,
      "paa": 28.13,
-     "vor": 135.44,
-     "war": 1.6
+     "vor": 131.99,
+     "war": 1.56
     }
    ],
    "WR": [
@@ -580,27 +580,27 @@
      "player": "8144",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 54,
-     "gs": 34,
-     "pts": 513.4,
+     "g": 55,
+     "gs": 35,
+     "pts": 519.4,
      "best": 36.8,
      "wins": 15,
-     "paa": 53.52,
-     "vor": 135.29,
-     "war": 1.6
+     "paa": 46.3,
+     "vor": 130.97,
+     "war": 1.55
     },
     {
      "player": "11632",
      "pos": "WR",
      "years": "2024-2026",
-     "g": 43,
-     "gs": 25,
-     "pts": 423.4,
+     "g": 44,
+     "gs": 26,
+     "pts": 432.3,
      "best": 39.2,
      "wins": 14,
-     "paa": 80.9,
-     "vor": 146.34,
-     "war": 1.73
+     "paa": 76.58,
+     "vor": 144.92,
+     "war": 1.71
     },
     {
      "player": "9502",
@@ -621,14 +621,14 @@
      "player": "10236",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 38,
-     "pts": 310.3,
+     "g": 61,
+     "gs": 39,
+     "pts": 318.1,
      "best": 22.5,
      "wins": 16,
-     "paa": -98.67,
-     "vor": -63.72,
-     "war": -0.75
+     "paa": -98.39,
+     "vor": -64.64,
+     "war": -0.76
     },
     {
      "player": "10859",
@@ -674,15 +674,15 @@
     {
      "player": "5119",
      "pos": "K",
-     "years": "2023-2024",
-     "g": 22,
-     "gs": 14,
-     "pts": 93.0,
-     "best": 13.0,
+     "years": "2023-2026",
+     "g": 23,
+     "gs": 15,
+     "pts": 107.9,
+     "best": 14.9,
      "wins": 6,
-     "paa": -27.49,
-     "vor": -24.08,
-     "war": -0.28
+     "paa": -22.31,
+     "vor": -18.97,
+     "war": -0.22
     },
     {
      "player": "6650",
@@ -713,6 +713,19 @@
      "war": -0.06
     },
     {
+     "player": "MIN",
+     "pos": "DEF",
+     "years": "2026",
+     "g": 6,
+     "gs": 6,
+     "pts": 59.0,
+     "best": 21.0,
+     "wins": 2,
+     "paa": 9.3,
+     "vor": 12.32,
+     "war": 0.15
+    },
+    {
      "player": "CIN",
      "pos": "DEF",
      "years": "2023-2024",
@@ -724,19 +737,6 @@
      "paa": -32.51,
      "vor": -26.24,
      "war": -0.31
-    },
-    {
-     "player": "LV",
-     "pos": "DEF",
-     "years": "2023",
-     "g": 6,
-     "gs": 6,
-     "pts": 52.0,
-     "best": 18.0,
-     "wins": 4,
-     "paa": 3.67,
-     "vor": 8.14,
-     "war": 0.1
     }
    ]
   }
@@ -759,8 +759,8 @@
    "signings": 14,
    "adds": 19,
    "releases": 24,
-   "gs": 58,
-   "pts": 480.4
+   "gs": 59,
+   "pts": 480.8
   },
   {
    "season": "2025",
@@ -779,8 +779,8 @@
    "signings": 16,
    "adds": 25,
    "releases": 25,
-   "gs": 17,
-   "pts": 130.3
+   "gs": 19,
+   "pts": 166.2
   }
  ],
  "best_games": [
@@ -869,6 +869,17 @@
    "game": "2025-06-6-9",
    "season": "2025",
    "week": 6,
+   "franchise": 9,
+   "team": "Clandestine Ball Busters"
+  },
+  {
+   "player": "4046",
+   "name": "Patrick Mahomes",
+   "pos": "QB",
+   "pts": 35.62,
+   "game": "2026-10-5-9",
+   "season": "2026",
+   "week": 10,
    "franchise": 9,
    "team": "Clandestine Ball Busters"
   },
@@ -1045,17 +1056,6 @@
    "game": "2026-02-7-9",
    "season": "2026",
    "week": 2,
-   "franchise": 9,
-   "team": "Clandestine Ball Busters"
-  },
-  {
-   "player": "11632",
-   "name": "Malik Nabers",
-   "pos": "WR",
-   "pts": 29.1,
-   "game": "2026-05-6-9",
-   "season": "2026",
-   "week": 5,
    "franchise": 9,
    "team": "Clandestine Ball Busters"
   }
@@ -1269,7 +1269,7 @@
    "list": "Career Points",
    "scope": 9,
    "rank": 1,
-   "value": "1036.60",
+   "value": "1055.90",
    "href": "franchise.html?id=9#all-time-leaders",
    "player": "9509",
    "franchise": 9
@@ -1278,7 +1278,7 @@
    "list": "Career Starts",
    "scope": 9,
    "rank": 1,
-   "value": "55",
+   "value": "56",
    "href": "franchise.html?id=9#all-time-leaders",
    "player": "9509",
    "franchise": 9
@@ -1287,7 +1287,7 @@
    "list": "Career WAR",
    "scope": 9,
    "rank": 1,
-   "value": "6.05",
+   "value": "6.09",
    "href": "franchise.html?id=9#all-time-leaders",
    "player": "9509",
    "franchise": 9
@@ -1371,21 +1371,21 @@
    {
     "season": "2026",
     "team": "Clandestine Ball Busters",
-    "games": 12,
-    "players": 5,
-    "lost": 1.79,
+    "games": 15,
+    "players": 6,
+    "lost": 0.68,
     "rank": 12,
     "games_rank": 11,
     "of": 12,
     "worst": {
-     "player": "13287",
-     "name": "Jeremiyah Love",
-     "pos": "RB",
-     "missed": 3,
-     "lost": 1.11
+     "player": "11646",
+     "name": "Jalen Coker",
+     "pos": "WR",
+     "missed": 1,
+     "lost": 0.68
     },
     "w": 4,
-    "l": 5
+    "l": 6
    }
   ],
   "players": [
@@ -1676,10 +1676,10 @@
   "total": {
    "franchise": 9,
    "name": "Clandestine Ball Busters",
-   "games": 190,
-   "lost": 276.02,
+   "games": 193,
+   "lost": 274.91,
    "seasons": 4,
-   "per_season": 69.0,
+   "per_season": 68.73,
    "worst": "2025"
   }
  }

@@ -836,10 +836,10 @@
    "original": 12,
    "player": "12481",
    "pos": "RB",
-   "starts_team": 13,
-   "pts_team": 191.1,
-   "starts_league": 13,
-   "pts_league": 191.1,
+   "starts_team": 14,
+   "pts_team": 220.1,
+   "starts_league": 14,
+   "pts_league": 220.1,
    "nfl_pts": 236.9
   },
   {
@@ -880,7 +880,7 @@
    "pts_team": 25.6,
    "starts_league": 8,
    "pts_league": 29.2,
-   "nfl_pts": 111.8
+   "nfl_pts": 125.4
   },
   {
    "round": 3,
@@ -958,8 +958,8 @@
    "pos": "RB",
    "starts_team": 12,
    "pts_team": 37.6,
-   "starts_league": 14,
-   "pts_league": 66.4,
+   "starts_league": 15,
+   "pts_league": 83.9,
    "nfl_pts": 159.8
   },
   {
@@ -980,7 +980,7 @@
    "pts_team": 0.0,
    "starts_league": 8,
    "pts_league": 57.15,
-   "nfl_pts": 171.85
+   "nfl_pts": 173.55
   }
  ],
  "draft_kind": "rookie",
@@ -1024,27 +1024,37 @@
    "season": "2026",
    "franchise": 4,
    "team": "Im Stroud Of You",
-   "score": 645,
+   "score": 646,
    "w": 3,
-   "l": 6,
-   "ppg": 115.24,
+   "l": 7,
+   "ppg": 112.88,
+   "result": null
+  },
+  {
+   "season": "2026",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "score": 472,
+   "w": 2,
+   "l": 8,
+   "ppg": 102.12,
    "result": null
   },
   {
    "season": "2026",
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
-   "score": 564,
+   "score": 432,
    "w": 2,
-   "l": 7,
-   "ppg": 103.1,
+   "l": 8,
+   "ppg": 99.26,
    "result": null
   },
   {
    "season": "2024",
    "franchise": 4,
    "team": "Win one game",
-   "score": 368,
+   "score": 370,
    "w": 6,
    "l": 8,
    "ppg": 116.19,
@@ -1059,16 +1069,6 @@
    "l": 8,
    "ppg": 119.28,
    "result": "10th"
-  },
-  {
-   "season": "2024",
-   "franchise": 9,
-   "team": "Clandestine Ball Busters",
-   "score": 319,
-   "w": 5,
-   "l": 9,
-   "ppg": 121.37,
-   "result": "11th"
   }
  ],
  "pickups": [],
@@ -1400,22 +1400,6 @@
    "season": "2025",
    "week": 14,
    "game": "2025-14-10-12",
-   "franchise": 12,
-   "team": "Happy Feet",
-   "managers": [
-    "colin",
-    "dan"
-   ]
-  },
-  {
-   "list": "Lowest Team Scores",
-   "scope": "league",
-   "rank": 10,
-   "value": "64.74",
-   "href": "records.html",
-   "season": "2025",
-   "week": 13,
-   "game": "2025-13-9-12",
    "franchise": 12,
    "team": "Happy Feet",
    "managers": [

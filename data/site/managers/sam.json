@@ -65,14 +65,14 @@
    "season": "2026",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
-   "w": 5,
+   "w": 6,
    "l": 4,
    "t": 0,
-   "pf": 1267.47,
-   "pa": 1153.56,
+   "pf": 1435.03,
+   "pa": 1306.96,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.556,
+   "pct": 0.6,
    "transactions": 30,
    "trades": 1,
    "partial_season": false,
@@ -80,14 +80,14 @@
   }
  ],
  "totals": {
-  "w": 35,
+  "w": 36,
   "l": 16,
   "t": 0,
-  "pf": 7288.59,
-  "pa": 6286.06,
+  "pf": 7456.15,
+  "pa": 6439.46,
   "playoff_w": 4,
   "playoff_l": 3,
-  "pct": 0.686,
+  "pct": 0.692,
   "transactions": 148,
   "trades": 18
  },
@@ -105,65 +105,65 @@
     "name": "Jahmyr Gibbs",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 52,
-    "pts": 1070.3,
+    "g": 61,
+    "gs": 53,
+    "pts": 1116.7,
     "best": 55.4,
-    "wins": 35,
-    "vor": 579.07,
-    "war": 6.84
+    "wins": 36,
+    "vor": 609.46,
+    "war": 7.2
    },
    {
     "player": "7547",
     "name": "Amon-Ra St. Brown",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 53,
-    "pts": 1009.63,
+    "g": 61,
+    "gs": 54,
+    "pts": 1035.43,
     "best": 41.4,
-    "wins": 36,
-    "vor": 409.07,
-    "war": 4.83
+    "wins": 37,
+    "vor": 424.55,
+    "war": 5.02
    },
    {
     "player": "6904",
     "name": "Jalen Hurts",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 50,
     "pts": 1004.6,
     "best": 35.14,
     "wins": 36,
-    "vor": 362.57,
-    "war": 4.29
+    "vor": 371.97,
+    "war": 4.4
    },
    {
     "player": "9226",
     "name": "De'Von Achane",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 51,
+    "g": 52,
     "gs": 35,
     "pts": 624.7,
     "best": 40.5,
     "wins": 22,
-    "vor": 308.04,
-    "war": 3.64
+    "vor": 305.97,
+    "war": 3.62
    },
    {
     "player": "11533",
     "name": "Brandon Aubrey",
     "pos": "K",
     "years": "2023-2026",
-    "g": 52,
-    "gs": 47,
-    "pts": 500.5,
+    "g": 53,
+    "gs": 48,
+    "pts": 511.9,
     "best": 24.0,
-    "wins": 29,
-    "vor": 104.62,
-    "war": 1.24
+    "wins": 30,
+    "vor": 106.23,
+    "war": 1.26
    },
    {
     "player": "9758",
@@ -183,13 +183,13 @@
     "name": "Bo Nix",
     "pos": "QB",
     "years": "2024-2026",
-    "g": 43,
+    "g": 44,
     "gs": 25,
     "pts": 430.42,
     "best": 39.96,
     "wins": 14,
-    "vor": 125.87,
-    "war": 1.49
+    "vor": 142.79,
+    "war": 1.69
    },
    {
     "player": "8146",
@@ -209,13 +209,13 @@
     "name": "Tetairoa McMillan",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 22,
-    "pts": 292.4,
+    "g": 27,
+    "gs": 23,
+    "pts": 298.9,
     "best": 45.2,
-    "wins": 12,
-    "vor": 61.44,
-    "war": 0.73
+    "wins": 13,
+    "vor": 57.62,
+    "war": 0.68
    },
    {
     "player": "4033",
@@ -274,13 +274,26 @@
     "name": "Wan'Dale Robinson",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 56,
+    "g": 57,
     "gs": 12,
     "pts": 158.8,
     "best": 32.1,
     "wins": 8,
     "vor": 31.06,
     "war": 0.37
+   },
+   {
+    "player": "8112",
+    "name": "Drake London",
+    "pos": "WR",
+    "years": "2026",
+    "g": 10,
+    "gs": 10,
+    "pts": 146.95,
+    "best": 29.9,
+    "wins": 6,
+    "vor": 43.75,
+    "war": 0.52
    },
    {
     "player": "8110",
@@ -313,20 +326,20 @@
     "name": "TreVeyon Henderson",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 12,
     "pts": 136.4,
     "best": 32.3,
     "wins": 7,
-    "vor": 32.11,
-    "war": 0.38
+    "vor": 31.42,
+    "war": 0.37
    },
    {
     "player": "12517",
     "name": "Colston Loveland",
     "pos": "TE",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 12,
     "pts": 131.4,
     "best": 21.4,
@@ -335,30 +348,17 @@
     "war": 0.3
    },
    {
-    "player": "8112",
-    "name": "Drake London",
-    "pos": "WR",
-    "years": "2026",
-    "g": 9,
-    "gs": 9,
-    "pts": 130.05,
-    "best": 29.9,
-    "wins": 5,
-    "vor": 37.17,
-    "war": 0.44
-   },
-   {
     "player": "SEA",
     "name": "Seattle Seahawks",
     "pos": "DEF",
     "years": "2025-2026",
-    "g": 15,
-    "gs": 12,
-    "pts": 119.0,
+    "g": 16,
+    "gs": 13,
+    "pts": 131.0,
     "best": 28.0,
-    "wins": 7,
-    "vor": 29.24,
-    "war": 0.35
+    "wins": 8,
+    "vor": 33.46,
+    "war": 0.4
    },
    {
     "player": "PIT",
@@ -404,7 +404,7 @@
     "name": "Marvin Harrison Jr.",
     "pos": "WR",
     "years": "2024",
-    "g": 43,
+    "g": 44,
     "gs": 7,
     "pts": 59.9,
     "best": 17.4,
@@ -433,13 +433,13 @@
      "name": "Jalen Hurts",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 50,
      "pts": 1004.6,
      "best": 35.14,
      "wins": 36,
-     "vor": 362.57,
-     "war": 4.29
+     "vor": 371.97,
+     "war": 4.4
     },
     {
      "player": "9758",
@@ -459,13 +459,13 @@
      "name": "Bo Nix",
      "pos": "QB",
      "years": "2024-2026",
-     "g": 43,
+     "g": 44,
      "gs": 25,
      "pts": 430.42,
      "best": 39.96,
      "wins": 14,
-     "vor": 125.87,
-     "war": 1.49
+     "vor": 142.79,
+     "war": 1.69
     }
    ],
    "RB": [
@@ -474,26 +474,26 @@
      "name": "Jahmyr Gibbs",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 52,
-     "pts": 1070.3,
+     "g": 61,
+     "gs": 53,
+     "pts": 1116.7,
      "best": 55.4,
-     "wins": 35,
-     "vor": 579.07,
-     "war": 6.84
+     "wins": 36,
+     "vor": 609.46,
+     "war": 7.2
     },
     {
      "player": "9226",
      "name": "De'Von Achane",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 51,
+     "g": 52,
      "gs": 35,
      "pts": 624.7,
      "best": 40.5,
      "wins": 22,
-     "vor": 308.04,
-     "war": 3.64
+     "vor": 305.97,
+     "war": 3.62
     },
     {
      "player": "8205",
@@ -515,13 +515,13 @@
      "name": "Amon-Ra St. Brown",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 53,
-     "pts": 1009.63,
+     "g": 61,
+     "gs": 54,
+     "pts": 1035.43,
      "best": 41.4,
-     "wins": 36,
-     "vor": 409.07,
-     "war": 4.83
+     "wins": 37,
+     "vor": 424.55,
+     "war": 5.02
     },
     {
      "player": "8146",
@@ -541,13 +541,13 @@
      "name": "Tetairoa McMillan",
      "pos": "WR",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 22,
-     "pts": 292.4,
+     "g": 27,
+     "gs": 23,
+     "pts": 298.9,
      "best": 45.2,
-     "wins": 12,
-     "vor": 61.44,
-     "war": 0.73
+     "wins": 13,
+     "vor": 57.62,
+     "war": 0.68
     }
    ],
    "TE": [
@@ -582,7 +582,7 @@
      "name": "Colston Loveland",
      "pos": "TE",
      "years": "2025-2026",
-     "g": 26,
+     "g": 27,
      "gs": 12,
      "pts": 131.4,
      "best": 21.4,
@@ -597,13 +597,13 @@
      "name": "Brandon Aubrey",
      "pos": "K",
      "years": "2023-2026",
-     "g": 52,
-     "gs": 47,
-     "pts": 500.5,
+     "g": 53,
+     "gs": 48,
+     "pts": 511.9,
      "best": 24.0,
-     "wins": 29,
-     "vor": 104.62,
-     "war": 1.24
+     "wins": 30,
+     "vor": 106.23,
+     "war": 1.26
     },
     {
      "player": "4195",
@@ -638,13 +638,13 @@
      "name": "Seattle Seahawks",
      "pos": "DEF",
      "years": "2025-2026",
-     "g": 15,
-     "gs": 12,
-     "pts": 119.0,
+     "g": 16,
+     "gs": 13,
+     "pts": 131.0,
      "best": 28.0,
-     "wins": 7,
-     "vor": 29.24,
-     "war": 0.35
+     "wins": 8,
+     "vor": 33.46,
+     "war": 0.4
     },
     {
      "player": "PIT",
@@ -682,13 +682,13 @@
    "name": "Jalen Hurts",
    "pos": "QB",
    "years": "2023-2026",
-   "g": 60,
+   "g": 61,
    "gs": 50,
    "pts": 1004.6,
    "best": 35.14,
    "wins": 36,
-   "vor": 362.57,
-   "war": 4.29
+   "vor": 371.97,
+   "war": 4.4
   },
   {
    "slot": "RB",
@@ -696,13 +696,13 @@
    "name": "Jahmyr Gibbs",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 52,
-   "pts": 1070.3,
+   "g": 61,
+   "gs": 53,
+   "pts": 1116.7,
    "best": 55.4,
-   "wins": 35,
-   "vor": 579.07,
-   "war": 6.84
+   "wins": 36,
+   "vor": 609.46,
+   "war": 7.2
   },
   {
    "slot": "RB",
@@ -710,13 +710,13 @@
    "name": "De'Von Achane",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 51,
+   "g": 52,
    "gs": 35,
    "pts": 624.7,
    "best": 40.5,
    "wins": 22,
-   "vor": 308.04,
-   "war": 3.64
+   "vor": 305.97,
+   "war": 3.62
   },
   {
    "slot": "WR",
@@ -724,13 +724,13 @@
    "name": "Amon-Ra St. Brown",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 53,
-   "pts": 1009.63,
+   "g": 61,
+   "gs": 54,
+   "pts": 1035.43,
    "best": 41.4,
-   "wins": 36,
-   "vor": 409.07,
-   "war": 4.83
+   "wins": 37,
+   "vor": 424.55,
+   "war": 5.02
   },
   {
    "slot": "WR",
@@ -766,13 +766,13 @@
    "name": "Tetairoa McMillan",
    "pos": "WR",
    "years": "2025-2026",
-   "g": 26,
-   "gs": 22,
-   "pts": 292.4,
+   "g": 27,
+   "gs": 23,
+   "pts": 298.9,
    "best": 45.2,
-   "wins": 12,
-   "vor": 61.44,
-   "war": 0.73
+   "wins": 13,
+   "vor": 57.62,
+   "war": 0.68
   },
   {
    "slot": "SUPER_FLEX",
@@ -794,13 +794,13 @@
    "name": "Brandon Aubrey",
    "pos": "K",
    "years": "2023-2026",
-   "g": 52,
-   "gs": 47,
-   "pts": 500.5,
+   "g": 53,
+   "gs": 48,
+   "pts": 511.9,
    "best": 24.0,
-   "wins": 29,
-   "vor": 104.62,
-   "war": 1.24
+   "wins": 30,
+   "vor": 106.23,
+   "war": 1.26
   },
   {
    "slot": "DEF",
@@ -808,13 +808,13 @@
    "name": "Seattle Seahawks",
    "pos": "DEF",
    "years": "2025-2026",
-   "g": 15,
-   "gs": 12,
-   "pts": 119.0,
+   "g": 16,
+   "gs": 13,
+   "pts": 131.0,
    "best": 28.0,
-   "wins": 7,
-   "vor": 29.24,
-   "war": 0.35
+   "wins": 8,
+   "vor": 33.46,
+   "war": 0.4
   }
  ],
  "best_games": [
@@ -828,6 +828,17 @@
    "week": 12,
    "franchise": 5,
    "team": "St. Brown v. Board"
+  },
+  {
+   "player": "9221",
+   "name": "Jahmyr Gibbs",
+   "pos": "RB",
+   "pts": 46.4,
+   "game": "2026-10-5-9",
+   "season": "2026",
+   "week": 10,
+   "franchise": 5,
+   "team": "St. Brown VS Board💍"
   },
   {
    "player": "12526",
@@ -1081,17 +1092,6 @@
    "week": 5,
    "franchise": 5,
    "team": "i’m Stroud of you"
-  },
-  {
-   "player": "7547",
-   "name": "Amon-Ra St. Brown",
-   "pos": "WR",
-   "pts": 31.4,
-   "game": "2025-12-3-5",
-   "season": "2025",
-   "week": 12,
-   "franchise": 5,
-   "team": "St. Brown v. Board"
   }
  ],
  "records_held": [
@@ -1265,9 +1265,9 @@
    "season": "2026",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
-   "games": 26,
-   "players": 7,
-   "lost": 57.98,
+   "games": 30,
+   "players": 8,
+   "lost": 69.22,
    "rank": 3,
    "of": 12
   }
@@ -1305,6 +1305,37 @@
    ]
   },
   {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "missed": 7,
+   "lost": 56.44,
+   "injuries": [
+    "Knee - ACL",
+    "Knee"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2023",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2023",
+     "franchise": 5,
+     "team": "your gibbs small"
+    },
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
    "player": "11565",
    "name": "J.J. McCarthy",
    "pos": "QB",
@@ -1332,37 +1363,6 @@
      "season": "2025",
      "franchise": 5,
      "team": "St. Brown VS Board"
-    }
-   ]
-  },
-  {
-   "player": "9226",
-   "name": "De'Von Achane",
-   "pos": "RB",
-   "missed": 6,
-   "lost": 51.68,
-   "injuries": [
-    "Knee - ACL",
-    "Knee"
-   ],
-   "kinds": [
-    "IR",
-    "Questionable"
-   ],
-   "seasons": [
-    "2023",
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2023",
-     "franchise": 5,
-     "team": "your gibbs small"
-    },
-    {
-     "season": "2026",
-     "franchise": 5,
-     "team": "St. Brown VS Board💍"
     }
    ]
   },
@@ -1427,7 +1427,7 @@
    "name": "Jalen Hurts",
    "pos": "QB",
    "missed": 5,
-   "lost": 21.25,
+   "lost": 28.77,
    "injuries": [
     "Calf",
     "Concussion"
@@ -1484,6 +1484,42 @@
    ]
   },
   {
+   "player": "11628",
+   "name": "Marvin Harrison Jr.",
+   "pos": "WR",
+   "missed": 5,
+   "lost": 0.2,
+   "injuries": [
+    "Illness",
+    "Heel",
+    "Hamstring"
+   ],
+   "kinds": [
+    "Out"
+   ],
+   "seasons": [
+    "2025",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "St. Brown v. Board"
+    },
+    {
+     "season": "2025",
+     "franchise": 5,
+     "team": "Brandon Aubrey"
+    },
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
    "player": "12469",
    "name": "Dylan Sampson",
    "pos": "RB",
@@ -1507,35 +1543,6 @@
    ]
   },
   {
-   "player": "11628",
-   "name": "Marvin Harrison Jr.",
-   "pos": "WR",
-   "missed": 4,
-   "lost": 0.2,
-   "injuries": [
-    "Illness",
-    "Heel"
-   ],
-   "kinds": [
-    "Out"
-   ],
-   "seasons": [
-    "2025"
-   ],
-   "teams": [
-    {
-     "season": "2025",
-     "franchise": 5,
-     "team": "St. Brown v. Board"
-    },
-    {
-     "season": "2025",
-     "franchise": 5,
-     "team": "Brandon Aubrey"
-    }
-   ]
-  },
-  {
    "player": "10444",
    "name": "Cedric Tillman",
    "pos": "WR",
@@ -1555,6 +1562,55 @@
      "season": "2025",
      "franchise": 5,
      "team": "St. Brown v. Board"
+    }
+   ]
+  },
+  {
+   "player": "12529",
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Illness",
+    "Ankle"
+   ],
+   "kinds": [
+    "IR",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
+   "player": "12533",
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "missed": 3,
+   "lost": 0.0,
+   "injuries": [
+    "Groin"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
     }
    ]
   },
@@ -1615,31 +1671,6 @@
    ]
   },
   {
-   "player": "12529",
-   "name": "TreVeyon Henderson",
-   "pos": "RB",
-   "missed": 3,
-   "lost": 0.0,
-   "injuries": [
-    "Illness",
-    "Ankle"
-   ],
-   "kinds": [
-    "Out",
-    "Questionable"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 5,
-     "team": "St. Brown VS Board💍"
-    }
-   ]
-  },
-  {
    "player": "9221",
    "name": "Jahmyr Gibbs",
    "pos": "RB",
@@ -1651,30 +1682,6 @@
    "kinds": [
     "Out",
     "Questionable"
-   ],
-   "seasons": [
-    "2023"
-   ],
-   "teams": [
-    {
-     "season": "2023",
-     "franchise": 5,
-     "team": "your diggs small"
-    }
-   ]
-  },
-  {
-   "player": "4663",
-   "name": "Austin Ekeler",
-   "pos": "RB",
-   "missed": 2,
-   "lost": 5.54,
-   "injuries": [
-    "Ankle"
-   ],
-   "kinds": [
-    "Doubtful",
-    "Out"
    ],
    "seasons": [
     "2023"

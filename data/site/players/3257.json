@@ -48,7 +48,7 @@
    "season": "2026",
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
-   "nfl": "ARI",
+   "nfl": "ARI/BAL",
    "g": 5,
    "gs": 5,
    "pts": 86.0,
@@ -57,14 +57,14 @@
    "best": 26.0,
    "wins": 2,
    "paa": -2.56,
-   "vor": 19.25,
-   "war": 0.23
+   "vor": 28.65,
+   "war": 0.34
   },
   {
    "season": "2026",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "nfl": "ARI",
+   "nfl": "ARI/BAL",
    "g": 3,
    "gs": 2,
    "pts": 10.88,
@@ -73,18 +73,18 @@
    "best": 7.12,
    "wins": 1,
    "paa": -21.85,
-   "vor": -15.82,
-   "war": -0.19
+   "vor": -12.06,
+   "war": -0.14
   },
   {
    "season": "2026",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "nfl": "ARI",
-   "g": 1,
+   "nfl": "ARI/BAL",
+   "g": 2,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 0.0,
+   "bench_pts": 12.0,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -94,16 +94,16 @@
   }
  ],
  "totals": {
-  "g": 24,
+  "g": 25,
   "gs": 15,
   "pts": 251.56,
-  "bench_pts": 54.12,
+  "bench_pts": 66.12,
   "ppg": 16.77,
   "best": 26.0,
   "wins": 6,
   "paa": 2.2,
-  "vor": 66.27,
-  "war": 0.78
+  "vor": 79.43,
+  "war": 0.94
  },
  "nfl": [
   {
@@ -129,10 +129,10 @@
   },
   {
    "season": "2026",
-   "team": "ARI",
-   "g": 8,
-   "pts": 114.06,
-   "rank": 21
+   "team": "ARI/BAL",
+   "g": 9,
+   "pts": 126.06,
+   "rank": 20
   }
  ],
  "history": [
@@ -488,8 +488,8 @@
    "proj": 11.95,
    "won": true,
    "paa": -1.41,
-   "vor": 3.73,
-   "war": 0.044084061321815866
+   "vor": 5.61,
+   "war": 0.06630337373066676
   },
   {
    "season": "2026",
@@ -507,8 +507,8 @@
    "proj": 11.78,
    "won": true,
    "paa": -11.14,
-   "vor": -6.75,
-   "war": -0.07977678657433167
+   "vor": -4.87,
+   "war": -0.05755747416548077
   },
   {
    "season": "2026",
@@ -526,8 +526,8 @@
    "proj": 15.67,
    "won": false,
    "paa": 8.68,
-   "vor": 12.65,
-   "war": 0.14950760743189564
+   "vor": 14.53,
+   "war": 0.17172691984074653
   },
   {
    "season": "2026",
@@ -545,8 +545,8 @@
    "proj": 15.78,
    "won": false,
    "paa": -4.38,
-   "vor": -2.51,
-   "war": -0.02966514582245518
+   "vor": -0.63,
+   "war": -0.007445833413604289
   },
   {
    "season": "2026",
@@ -564,8 +564,8 @@
    "proj": 18.13,
    "won": false,
    "paa": 5.69,
-   "vor": 12.13,
-   "war": 0.14336184016987305
+   "vor": 14.01,
+   "war": 0.16558115257872394
   },
   {
    "season": "2026",
@@ -583,8 +583,8 @@
    "proj": 13.68,
    "won": false,
    "paa": -8.83,
-   "vor": -6.23,
-   "war": -0.07363101931230909
+   "vor": -4.35,
+   "war": -0.05141170690345818
   },
   {
    "season": "2026",
@@ -618,8 +618,8 @@
    "proj": 18.23,
    "won": true,
    "paa": -13.02,
-   "vor": -9.59,
-   "war": -0.11334213085153194
+   "vor": -7.71,
+   "war": -0.09112281844268105
   },
   {
    "season": "2026",
@@ -636,35 +636,51 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 12.0,
+   "proj": 13.11,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "9229",
    "name": "Anthony Richardson Sr.",
-   "score": 921,
+   "score": 908,
    "gs": 14,
    "pts": 221.66,
    "ppg": 15.83,
    "war": 0.48
   },
   {
+   "player": "12508",
+   "name": "Jaxson Dart",
+   "score": 849,
+   "gs": 11,
+   "pts": 207.7,
+   "ppg": 18.88,
+   "war": 0.96
+  },
+  {
    "player": "8162",
    "name": "Sam Howell",
-   "score": 850,
+   "score": 841,
    "gs": 9,
    "pts": 154.44,
    "ppg": 17.16,
    "war": 0.26
-  },
-  {
-   "player": "12508",
-   "name": "Jaxson Dart",
-   "score": 847,
-   "gs": 11,
-   "pts": 207.7,
-   "ppg": 18.88,
-   "war": 0.92
   },
   {
    "player": "1234",
@@ -676,13 +692,13 @@
    "war": 0.73
   },
   {
-   "player": "2028",
-   "name": "Derek Carr",
-   "score": 805,
-   "gs": 14,
-   "pts": 201.28,
-   "ppg": 14.38,
-   "war": 0.0
+   "player": "7591",
+   "name": "Justin Fields",
+   "score": 812,
+   "gs": 24,
+   "pts": 401.96,
+   "ppg": 16.75,
+   "war": 1.04
   }
  ],
  "status": {
@@ -697,8 +713,8 @@
    "stat": "Points",
    "value": 251.56,
    "digits": 2,
-   "rank": 125,
-   "of": 420
+   "rank": 127,
+   "of": 424
   },
   {
    "group": "Career",
@@ -706,26 +722,26 @@
    "stat": "Games Started",
    "value": 15,
    "digits": 0,
-   "rank": 174,
-   "of": 420
+   "rank": 176,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.78,
+   "value": 0.94,
    "digits": 2,
-   "rank": 91,
-   "of": 420
+   "rank": 85,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 66.3,
+   "value": 79.4,
    "digits": 1,
-   "rank": 91,
-   "of": 420
+   "rank": 85,
+   "of": 424
   },
   {
    "group": "Career",
@@ -734,7 +750,7 @@
    "value": 2.2,
    "digits": 1,
    "rank": 124,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -742,8 +758,8 @@
    "stat": "Best Game",
    "value": 26.0,
    "digits": 2,
-   "rank": 148,
-   "of": 420
+   "rank": 149,
+   "of": 424
   },
   {
    "group": "Career",
@@ -751,17 +767,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 16.77,
    "digits": 2,
-   "rank": 37,
+   "rank": 35,
    "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 54.12,
+   "value": 66.12,
    "digits": 2,
-   "rank": 272,
-   "of": 511
+   "rank": 247,
+   "of": 515
   },
   {
    "group": "Career",
@@ -770,7 +786,7 @@
    "value": 251.56,
    "digits": 2,
    "rank": 29,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -779,16 +795,16 @@
    "value": 15,
    "digits": 0,
    "rank": 29,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.78,
+   "value": 0.94,
    "digits": 2,
    "rank": 24,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -806,7 +822,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 24,
+   "rank": 25,
    "of": 68,
    "franchise": 3
   },
@@ -816,7 +832,7 @@
    "stat": "WAR",
    "value": 0.74,
    "digits": 2,
-   "rank": 9,
+   "rank": 10,
    "of": 68,
    "franchise": 3
   },
@@ -836,8 +852,8 @@
    "stat": "Points",
    "value": 10.88,
    "digits": 2,
-   "rank": 52,
-   "of": 67,
+   "rank": 53,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -846,18 +862,18 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 39,
-   "of": 67,
+   "rank": 40,
+   "of": 69,
    "franchise": 8
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.19,
+   "value": -0.14,
    "digits": 2,
-   "rank": 66,
-   "of": 67,
+   "rank": 65,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -866,8 +882,8 @@
    "stat": "Points, QBs",
    "value": 10.88,
    "digits": 2,
-   "rank": 8,
-   "of": 9,
+   "rank": 9,
+   "of": 10,
    "franchise": 8
   },
   {
@@ -876,8 +892,8 @@
    "stat": "Points",
    "value": 86.0,
    "digits": 2,
-   "rank": 24,
-   "of": 73,
+   "rank": 25,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -887,17 +903,17 @@
    "value": 5,
    "digits": 0,
    "rank": 31,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": 0.23,
+   "value": 0.34,
    "digits": 2,
-   "rank": 20,
-   "of": 73,
+   "rank": 16,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -936,8 +952,8 @@
    "stat": "Points",
    "value": 96.88,
    "digits": 2,
-   "rank": 54,
-   "of": 233,
+   "rank": 63,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -946,8 +962,8 @@
    "stat": "Points",
    "value": 96.88,
    "digits": 2,
-   "rank": 16,
-   "of": 36,
+   "rank": 18,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -956,8 +972,8 @@
    "stat": "Points, 2025",
    "value": 154.68,
    "digits": 2,
-   "rank": 219,
-   "of": 1010,
+   "rank": 228,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -966,16 +982,16 @@
    "stat": "Points, 2026",
    "value": 96.88,
    "digits": 2,
-   "rank": 359,
-   "of": 1010,
+   "rank": 368,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 11.55,
-  "rank": 116,
-  "of": 420,
-  "war": 7.8,
+  "score": 13.15,
+  "rank": 109,
+  "of": 424,
+  "war": 9.4,
   "starts": 3.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1153,47 +1169,52 @@
    [
     "2026",
     1,
-    10.15
+    10.35
    ],
    [
     "2026",
     2,
-    9.6
+    10.0
    ],
    [
     "2026",
     3,
-    11.35
+    11.95
    ],
    [
     "2026",
     4,
-    11.3
+    12.2
    ],
    [
     "2026",
     5,
-    12.95
+    14.05
    ],
    [
     "2026",
     6,
-    12.5
+    13.8
    ],
    [
     "2026",
     7,
-    12.5
+    13.8
    ],
    [
     "2026",
     8,
-    11.55
+    13.15
    ],
    [
     "2026",
     9,
-    11.55
+    13.15
+   ],
+   [
+    "2026",
+    10,
+    13.15
    ]
   ],
   "benchmark": 100

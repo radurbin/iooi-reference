@@ -24,7 +24,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "DEN",
-   "g": 9,
+   "g": 10,
    "gs": 2,
    "pts": 42.0,
    "bench_pts": 25.6,
@@ -32,12 +32,12 @@
    "best": 21.5,
    "wins": 2,
    "paa": 11.77,
-   "vor": 22.4,
-   "war": 0.26
+   "vor": 21.02,
+   "war": 0.25
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 2,
   "pts": 42.0,
   "bench_pts": 25.6,
@@ -45,8 +45,8 @@
   "best": 21.5,
   "wins": 2,
   "paa": 11.77,
-  "vor": 22.4,
-  "war": 0.26
+  "vor": 21.02,
+  "war": 0.25
  },
  "nfl": [
   {
@@ -54,7 +54,7 @@
    "team": "DEN",
    "g": 5,
    "pts": 67.6,
-   "rank": 36
+   "rank": 37
   }
  ],
  "history": [
@@ -200,8 +200,8 @@
    "proj": 12.83,
    "won": true,
    "paa": 4.8,
-   "vor": 11.7,
-   "war": 0.1382797633955082
+   "vor": 11.01,
+   "war": 0.1301248029901321
   },
   {
    "season": "2026",
@@ -219,8 +219,24 @@
    "proj": 15.89,
    "won": true,
    "paa": 6.97,
-   "vor": 10.7,
-   "war": 0.12646098019931093
+   "vor": 10.01,
+   "war": 0.1183060197939348
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-7-11",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -235,8 +251,8 @@
    "stat": "Points",
    "value": 42.0,
    "digits": 2,
-   "rank": 276,
-   "of": 420
+   "rank": 279,
+   "of": 424
   },
   {
    "group": "Career",
@@ -244,26 +260,26 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 328,
-   "of": 420
+   "rank": 333,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.26,
+   "value": 0.25,
    "digits": 2,
-   "rank": 151,
-   "of": 420
+   "rank": 153,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 22.4,
+   "value": 21.0,
    "digits": 1,
-   "rank": 151,
-   "of": 420
+   "rank": 153,
+   "of": 424
   },
   {
    "group": "Career",
@@ -271,8 +287,8 @@
    "stat": "PAA",
    "value": 11.8,
    "digits": 1,
-   "rank": 90,
-   "of": 420
+   "rank": 92,
+   "of": 424
   },
   {
    "group": "Career",
@@ -280,8 +296,8 @@
    "stat": "Best Game",
    "value": 21.5,
    "digits": 2,
-   "rank": 203,
-   "of": 420
+   "rank": 206,
+   "of": 424
   },
   {
    "group": "Career",
@@ -289,8 +305,8 @@
    "stat": "Bench Points",
    "value": 25.6,
    "digits": 2,
-   "rank": 371,
-   "of": 511
+   "rank": 376,
+   "of": 515
   },
   {
    "group": "Career",
@@ -298,7 +314,7 @@
    "stat": "Points",
    "value": 42.0,
    "digits": 2,
-   "rank": 66,
+   "rank": 67,
    "of": 100
   },
   {
@@ -307,16 +323,16 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 78,
+   "rank": 79,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.26,
+   "value": 0.25,
    "digits": 2,
-   "rank": 47,
+   "rank": 45,
    "of": 100
   },
   {
@@ -326,7 +342,7 @@
    "value": 42.0,
    "digits": 2,
    "rank": 29,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -335,18 +351,18 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 35,
-   "of": 52,
+   "rank": 36,
+   "of": 54,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.26,
+   "value": 0.25,
    "digits": 2,
    "rank": 17,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -365,8 +381,8 @@
    "stat": "Points",
    "value": 42.0,
    "digits": 2,
-   "rank": 120,
-   "of": 233,
+   "rank": 129,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -375,7 +391,7 @@
    "stat": "Points",
    "value": 42.0,
    "digits": 2,
-   "rank": 32,
+   "rank": 34,
    "of": 58,
    "season": "2026"
   },
@@ -385,17 +401,17 @@
    "stat": "Points, 2026",
    "value": 42.0,
    "digits": 2,
-   "rank": 607,
-   "of": 1010,
+   "rank": 616,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 3.1,
-  "rank": 226,
-  "of": 420,
-  "war": 2.6,
+  "score": 3.0,
+  "rank": 230,
+  "of": 424,
+  "war": 2.5,
   "starts": 0.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -438,12 +454,17 @@
    [
     "2026",
     8,
-    1.65
+    1.55
    ],
    [
     "2026",
     9,
-    3.1
+    3.0
+   ],
+   [
+    "2026",
+    10,
+    3.0
    ]
   ],
   "benchmark": 100
@@ -456,7 +477,7 @@
     "season": "2026",
     "nfl": "DEN",
     "missed": 4,
-    "lost": 14.88,
+    "lost": 12.12,
     "injuries": [
      "Ankle"
     ],
@@ -526,7 +547,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 14.88
+    "lost": 12.12
    }
   ],
   "now": null

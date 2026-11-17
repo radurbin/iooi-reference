@@ -33,7 +33,7 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "MIA",
-   "g": 9,
+   "g": 10,
    "gs": 6,
    "pts": 76.8,
    "bench_pts": 32.04,
@@ -41,12 +41,12 @@
    "best": 26.82,
    "wins": 3,
    "paa": -27.95,
-   "vor": -3.3,
-   "war": -0.04
+   "vor": 7.98,
+   "war": 0.09
   }
  ],
  "totals": {
-  "g": 14,
+  "g": 15,
   "gs": 6,
   "pts": 76.8,
   "bench_pts": 70.4,
@@ -54,8 +54,8 @@
   "best": 26.82,
   "wins": 3,
   "paa": -27.95,
-  "vor": -3.3,
-  "war": -0.04
+  "vor": 7.98,
+  "war": 0.09
  },
  "nfl": [
   {
@@ -250,8 +250,8 @@
    "proj": 18.55,
    "won": false,
    "paa": -5.06,
-   "vor": -0.67,
-   "war": -0.00791858474145218
+   "vor": 1.21,
+   "war": 0.014300727667398712
   },
   {
    "season": "2026",
@@ -269,8 +269,8 @@
    "proj": 16.15,
    "won": true,
    "paa": -6.42,
-   "vor": -2.45,
-   "war": -0.028956018830683345
+   "vor": -0.57,
+   "war": -0.006736706421832451
   },
   {
    "season": "2026",
@@ -288,8 +288,8 @@
    "proj": 12.99,
    "won": false,
    "paa": -12.52,
-   "vor": -10.65,
-   "war": -0.12587004103950108
+   "vor": -8.77,
+   "war": -0.10365072863065017
   },
   {
    "season": "2026",
@@ -307,8 +307,8 @@
    "proj": 15.63,
    "won": true,
    "paa": -0.11,
-   "vor": 6.33,
-   "war": 0.0748128976319288
+   "vor": 8.21,
+   "war": 0.0970322100407797
   },
   {
    "season": "2026",
@@ -342,8 +342,8 @@
    "proj": 15.14,
    "won": true,
    "paa": 8.53,
-   "vor": 13.47,
-   "war": 0.15919900965277742
+   "vor": 15.35,
+   "war": 0.1814183220616283
   },
   {
    "season": "2026",
@@ -377,8 +377,24 @@
    "proj": 17.85,
    "won": false,
    "paa": -12.37,
-   "vor": -9.33,
-   "war": -0.11026924722052066
+   "vor": -7.45,
+   "war": -0.08804993481166977
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -393,8 +409,8 @@
    "stat": "Points",
    "value": 76.8,
    "digits": 2,
-   "rank": 235,
-   "of": 420
+   "rank": 236,
+   "of": 424
   },
   {
    "group": "Career",
@@ -402,26 +418,26 @@
    "stat": "Games Started",
    "value": 6,
    "digits": 0,
-   "rank": 267,
-   "of": 420
+   "rank": 269,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.04,
+   "value": 0.09,
    "digits": 2,
-   "rank": 239,
-   "of": 420
+   "rank": 187,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -3.3,
+   "value": 8.0,
    "digits": 1,
-   "rank": 243,
-   "of": 420
+   "rank": 187,
+   "of": 424
   },
   {
    "group": "Career",
@@ -430,7 +446,7 @@
    "value": -27.9,
    "digits": 1,
    "rank": 318,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -438,8 +454,8 @@
    "stat": "Best Game",
    "value": 26.82,
    "digits": 2,
-   "rank": 137,
-   "of": 420
+   "rank": 138,
+   "of": 424
   },
   {
    "group": "Career",
@@ -447,8 +463,8 @@
    "stat": "Bench Points",
    "value": 70.4,
    "digits": 2,
-   "rank": 234,
-   "of": 511
+   "rank": 235,
+   "of": 515
   },
   {
    "group": "Career",
@@ -457,7 +473,7 @@
    "value": 76.8,
    "digits": 2,
    "rank": 42,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -466,16 +482,16 @@
    "value": 6,
    "digits": 0,
    "rank": 43,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": -0.04,
+   "value": 0.09,
    "digits": 2,
-   "rank": 48,
-   "of": 66
+   "rank": 39,
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -484,7 +500,7 @@
    "value": 76.8,
    "digits": 2,
    "rank": 22,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -493,18 +509,18 @@
    "stat": "Games Started",
    "value": 6,
    "digits": 0,
-   "rank": 23,
-   "of": 67,
+   "rank": 24,
+   "of": 69,
    "franchise": 8
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.04,
+   "value": 0.09,
    "digits": 2,
-   "rank": 41,
-   "of": 67,
+   "rank": 28,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -514,7 +530,7 @@
    "value": 76.8,
    "digits": 2,
    "rank": 6,
-   "of": 9,
+   "of": 10,
    "franchise": 8
   },
   {
@@ -523,8 +539,8 @@
    "stat": "Points",
    "value": 76.8,
    "digits": 2,
-   "rank": 74,
-   "of": 233,
+   "rank": 79,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -534,7 +550,7 @@
    "value": 76.8,
    "digits": 2,
    "rank": 21,
-   "of": 36,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -543,17 +559,17 @@
    "stat": "Points, 2026",
    "value": 76.8,
    "digits": 2,
-   "rank": 429,
-   "of": 1010,
+   "rank": 434,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.5,
-  "rank": 283,
-  "of": 420,
-  "war": 0.0,
+  "score": 2.4,
+  "rank": 252,
+  "of": 424,
+  "war": 0.9,
   "starts": 1.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -731,12 +747,12 @@
    [
     "2026",
     2,
-    0.25
+    0.35
    ],
    [
     "2026",
     3,
-    0.5
+    0.6
    ],
    [
     "2026",
@@ -756,17 +772,22 @@
    [
     "2026",
     7,
-    1.95
+    3.05
    ],
    [
     "2026",
     8,
-    1.95
+    3.05
    ],
    [
     "2026",
     9,
-    1.5
+    2.4
+   ],
+   [
+    "2026",
+    10,
+    2.4
    ]
   ],
   "benchmark": 100
@@ -779,7 +800,7 @@
     "season": "2026",
     "nfl": "MIA",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 2.13,
     "injuries": [
      "Groin"
     ],
@@ -789,14 +810,14 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 10,
       "kind": "IR",
       "injury": "Groin",
-      "franchise": null,
-      "team": null
+      "franchise": 8,
+      "team": "BBL KIZZY"
      }
     ]
    }
@@ -815,9 +836,14 @@
     "kinds": [
      "IR"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 8,
+      "team": "BBL KIZZY"
+     }
+    ],
+    "rostered": 1,
+    "lost": 2.13
    }
   ],
   "now": {

@@ -73,8 +73,8 @@
    "best": 13.9,
    "wins": 0,
    "paa": -2.05,
-   "vor": 0.55,
-   "war": 0.01
+   "vor": 2.43,
+   "war": 0.03
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 16.74,
   "wins": 2,
   "paa": -9.81,
-  "vor": 3.09,
-  "war": 0.04
+  "vor": 4.97,
+  "war": 0.06
  },
  "nfl": [
   {
@@ -422,8 +422,8 @@
    "proj": 12.83,
    "won": false,
    "paa": -2.05,
-   "vor": 0.55,
-   "war": 0.006500330757908506
+   "vor": 2.43,
+   "war": 0.0287196431667594
   },
   {
    "season": "2026",
@@ -453,8 +453,8 @@
    "stat": "Points",
    "value": 40.12,
    "digits": 2,
-   "rank": 280,
-   "of": 420
+   "rank": 285,
+   "of": 424
   },
   {
    "group": "Career",
@@ -462,26 +462,26 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 299,
-   "of": 420
+   "rank": 301,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.04,
+   "value": 0.06,
    "digits": 2,
-   "rank": 199,
-   "of": 420
+   "rank": 192,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 3.1,
+   "value": 5.0,
    "digits": 1,
-   "rank": 203,
-   "of": 420
+   "rank": 196,
+   "of": 424
   },
   {
    "group": "Career",
@@ -489,8 +489,8 @@
    "stat": "PAA",
    "value": -9.8,
    "digits": 1,
-   "rank": 206,
-   "of": 420
+   "rank": 209,
+   "of": 424
   },
   {
    "group": "Career",
@@ -498,8 +498,8 @@
    "stat": "Best Game",
    "value": 16.74,
    "digits": 2,
-   "rank": 265,
-   "of": 420
+   "rank": 267,
+   "of": 424
   },
   {
    "group": "Career",
@@ -507,8 +507,8 @@
    "stat": "Bench Points",
    "value": 33.72,
    "digits": 2,
-   "rank": 344,
-   "of": 511
+   "rank": 345,
+   "of": 515
   },
   {
    "group": "Career",
@@ -516,8 +516,8 @@
    "stat": "Points",
    "value": 40.12,
    "digits": 2,
-   "rank": 48,
-   "of": 66
+   "rank": 49,
+   "of": 68
   },
   {
    "group": "Career",
@@ -526,16 +526,16 @@
    "value": 3,
    "digits": 0,
    "rank": 48,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.04,
+   "value": 0.06,
    "digits": 2,
-   "rank": 40,
-   "of": 66
+   "rank": 41,
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -583,8 +583,8 @@
    "stat": "Points",
    "value": 9.48,
    "digits": 2,
-   "rank": 55,
-   "of": 73,
+   "rank": 56,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -594,7 +594,7 @@
    "value": 1,
    "digits": 0,
    "rank": 51,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -604,7 +604,7 @@
    "value": -0.03,
    "digits": 2,
    "rank": 40,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -623,8 +623,8 @@
    "stat": "Points",
    "value": 13.9,
    "digits": 2,
-   "rank": 39,
-   "of": 58,
+   "rank": 40,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -633,18 +633,18 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 39,
-   "of": 58,
+   "rank": 40,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.01,
+   "value": 0.03,
    "digits": 2,
-   "rank": 30,
-   "of": 58,
+   "rank": 29,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -653,8 +653,8 @@
    "stat": "Points, QBs",
    "value": 13.9,
    "digits": 2,
-   "rank": 6,
-   "of": 9,
+   "rank": 7,
+   "of": 10,
    "franchise": 5
   },
   {
@@ -703,8 +703,8 @@
    "stat": "Points",
    "value": 13.9,
    "digits": 2,
-   "rank": 179,
-   "of": 233,
+   "rank": 185,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -713,8 +713,8 @@
    "stat": "Points",
    "value": 13.9,
    "digits": 2,
-   "rank": 34,
-   "of": 36,
+   "rank": 35,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -723,8 +723,8 @@
    "stat": "Points, 2025",
    "value": 16.74,
    "digits": 2,
-   "rank": 780,
-   "of": 1010,
+   "rank": 787,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -733,8 +733,8 @@
    "stat": "Points, 2026",
    "value": 13.9,
    "digits": 2,
-   "rank": 810,
-   "of": 1010,
+   "rank": 816,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -743,17 +743,17 @@
    "stat": "Points, 2024",
    "value": 9.48,
    "digits": 2,
-   "rank": 868,
-   "of": 1010,
+   "rank": 874,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.15,
-  "rank": 299,
-  "of": 420,
-  "war": 0.4,
+  "score": 1.35,
+  "rank": 292,
+  "of": 424,
+  "war": 0.6,
   "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -946,22 +946,27 @@
    [
     "2026",
     6,
-    1.15
+    1.35
    ],
    [
     "2026",
     7,
-    1.15
+    1.35
    ],
    [
     "2026",
     8,
-    1.15
+    1.35
    ],
    [
     "2026",
     9,
-    1.15
+    1.35
+   ],
+   [
+    "2026",
+    10,
+    1.35
    ]
   ],
   "benchmark": 100
@@ -1026,6 +1031,31 @@
       "team": "BAHAHAHA"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "BAL",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Toe"
+    ],
+    "weeks": [
+     10
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1062,6 +1092,23 @@
     ],
     "rostered": 5,
     "lost": 3.95
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "BAL",
+    "injury": "Toe",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": null

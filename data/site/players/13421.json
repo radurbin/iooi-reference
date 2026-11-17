@@ -24,10 +24,10 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NE",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 50.5,
+   "bench_pts": 52.1,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -37,10 +37,10 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 50.5,
+  "bench_pts": 52.1,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -215,6 +215,22 @@
    "pts": 8.2,
    "proj": 7.55,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 1.6,
+   "proj": 5.98,
+   "won": true
   }
  ],
  "status": {
@@ -227,10 +243,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 50.5,
+   "value": 52.1,
    "digits": 2,
-   "rank": 286,
-   "of": 511
+   "rank": 283,
+   "of": 515
   }
  ],
  "similar": [],

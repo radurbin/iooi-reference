@@ -56,29 +56,29 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "CLE",
-   "g": 6,
-   "gs": 3,
-   "pts": 36.68,
+   "g": 7,
+   "gs": 4,
+   "pts": 58.86,
    "bench_pts": 29.98,
-   "ppg": 12.23,
-   "best": 13.62,
-   "wins": 1,
-   "paa": -14.28,
-   "vor": -3.37,
-   "war": -0.04
+   "ppg": 14.72,
+   "best": 22.18,
+   "wins": 2,
+   "paa": -9.75,
+   "vor": 12.98,
+   "war": 0.15
   }
  ],
  "totals": {
-  "g": 34,
-  "gs": 12,
-  "pts": 140.3,
+  "g": 35,
+  "gs": 13,
+  "pts": 162.48,
   "bench_pts": 89.88,
-  "ppg": 11.69,
-  "best": 21.16,
-  "wins": 7,
-  "paa": -63.07,
-  "vor": -27.19,
-  "war": -0.32
+  "ppg": 12.5,
+  "best": 22.18,
+  "wins": 8,
+  "paa": -58.54,
+  "vor": -10.84,
+  "war": -0.13
  },
  "nfl": [
   {
@@ -662,8 +662,8 @@
    "proj": 14.46,
    "won": true,
    "paa": -1.6,
-   "vor": 0.27,
-   "war": 0.0031910714629732667
+   "vor": 2.15,
+   "war": 0.02541038387182416
   },
   {
    "season": "2026",
@@ -681,8 +681,8 @@
    "proj": 14.2,
    "won": false,
    "paa": -6.99,
-   "vor": -0.55,
-   "war": -0.006500330757908506
+   "vor": 1.33,
+   "war": 0.015718981650942387
   },
   {
    "season": "2026",
@@ -700,8 +700,8 @@
    "proj": 14.29,
    "won": false,
    "paa": -5.69,
-   "vor": -3.09,
-   "war": -0.03652004007624961
+   "vor": -1.21,
+   "war": -0.014300727667398712
   },
   {
    "season": "2026",
@@ -750,40 +750,50 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-4-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": "QB",
+   "started": true,
+   "pts": 22.18,
+   "proj": 15.48,
+   "won": true,
+   "paa": 4.53,
+   "vor": 10.71,
+   "war": 0.12657916803127292
   }
  ],
  "similar": [
   {
+   "player": "6011",
+   "name": "Gardner Minshew II",
+   "score": 990,
+   "gs": 13,
+   "pts": 164.56,
+   "ppg": 12.66,
+   "war": -0.12
+  },
+  {
    "player": "4179",
    "name": "Joshua Dobbs",
-   "score": 938,
+   "score": 916,
    "gs": 9,
    "pts": 109.08,
    "ppg": 12.12,
    "war": -0.28
   },
   {
-   "player": "9999",
-   "name": "Will Levis",
-   "score": 914,
-   "gs": 11,
-   "pts": 114.72,
-   "ppg": 10.43,
-   "war": -0.47
-  },
-  {
-   "player": "6011",
-   "name": "Gardner Minshew II",
-   "score": 864,
-   "gs": 12,
-   "pts": 164.56,
-   "ppg": 13.71,
-   "war": -0.01
-  },
-  {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 816,
+   "score": 877,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -792,11 +802,20 @@
   {
    "player": "11559",
    "name": "Michael Penix Jr.",
-   "score": 800,
-   "gs": 9,
-   "pts": 130.24,
-   "ppg": 14.47,
-   "war": 0.25
+   "score": 861,
+   "gs": 10,
+   "pts": 142.98,
+   "ppg": 14.3,
+   "war": 0.33
+  },
+  {
+   "player": "9999",
+   "name": "Will Levis",
+   "score": 854,
+   "gs": 11,
+   "pts": 114.72,
+   "ppg": 10.43,
+   "war": -0.47
   }
  ],
  "status": {
@@ -809,63 +828,63 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 140.3,
+   "value": 162.48,
    "digits": 2,
-   "rank": 191,
-   "of": 420
+   "rank": 177,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
-   "rank": 199,
-   "of": 420
+   "rank": 194,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.32,
+   "value": -0.13,
    "digits": 2,
-   "rank": 384,
-   "of": 420
+   "rank": 317,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -27.2,
+   "value": -10.8,
    "digits": 1,
-   "rank": 385,
-   "of": 420
+   "rank": 322,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -63.1,
+   "value": -58.5,
    "digits": 1,
-   "rank": 384,
-   "of": 420
+   "rank": 383,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Best Game",
-   "value": 21.16,
+   "value": 22.18,
    "digits": 2,
-   "rank": 210,
-   "of": 420
+   "rank": 201,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 11.69,
+   "value": 12.5,
    "digits": 2,
-   "rank": 134,
+   "rank": 114,
    "of": 256
   },
   {
@@ -874,71 +893,71 @@
    "stat": "Bench Points",
    "value": 89.88,
    "digits": 2,
-   "rank": 198,
-   "of": 511
+   "rank": 199,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 140.3,
+   "value": 162.48,
    "digits": 2,
-   "rank": 35,
-   "of": 66
+   "rank": 34,
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
    "rank": 32,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": -0.32,
+   "value": -0.13,
    "digits": 2,
-   "rank": 62,
-   "of": 66
+   "rank": 58,
+   "of": 68
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points",
-   "value": 36.68,
+   "value": 58.86,
    "digits": 2,
-   "rank": 30,
-   "of": 48,
+   "rank": 22,
+   "of": 49,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Games Started",
-   "value": 3,
+   "value": 4,
    "digits": 0,
    "rank": 29,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.04,
+   "value": 0.15,
    "digits": 2,
-   "rank": 21,
-   "of": 48,
+   "rank": 13,
+   "of": 49,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points, QBs",
-   "value": 36.68,
+   "value": 58.86,
    "digits": 2,
    "rank": 4,
    "of": 6,
@@ -950,7 +969,7 @@
    "stat": "Points",
    "value": 103.62,
    "digits": 2,
-   "rank": 19,
+   "rank": 20,
    "of": 67,
    "franchise": 9
   },
@@ -1028,20 +1047,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 36.68,
+   "value": 58.86,
    "digits": 2,
-   "rank": 133,
-   "of": 233,
+   "rank": 103,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 36.68,
+   "value": 58.86,
    "digits": 2,
-   "rank": 27,
-   "of": 36,
+   "rank": 24,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -1050,18 +1069,18 @@
    "stat": "Points, 2023",
    "value": 86.8,
    "digits": 2,
-   "rank": 388,
-   "of": 1010,
+   "rank": 396,
+   "of": 1019,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 36.68,
+   "value": 58.86,
    "digits": 2,
-   "rank": 645,
-   "of": 1010,
+   "rank": 522,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1070,17 +1089,17 @@
    "stat": "Points, 2024",
    "value": 16.82,
    "digits": 2,
-   "rank": 779,
-   "of": 1010,
+   "rank": 786,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 3.0,
-  "rank": 229,
-  "of": 420,
+  "score": 3.25,
+  "rank": 225,
+  "of": 424,
   "war": 0.0,
-  "starts": 3.0,
+  "starts": 3.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1383,6 +1402,11 @@
     "2026",
     9,
     3.0
+   ],
+   [
+    "2026",
+    10,
+    3.25
    ]
   ],
   "benchmark": 100
@@ -1728,7 +1752,7 @@
     "season": "2026",
     "nfl": "CLE",
     "missed": 1,
-    "lost": 2.79,
+    "lost": 4.67,
     "injuries": [
      "Concussion"
     ],
@@ -1907,7 +1931,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.79
+    "lost": 4.67
    }
   ],
   "now": null

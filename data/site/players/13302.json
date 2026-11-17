@@ -24,7 +24,7 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": null,
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.0,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 0.0,
@@ -207,6 +207,22 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-4-12",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -224,7 +240,7 @@
    {
     "season": "2026",
     "nfl": "BAL",
-    "missed": 9,
+    "missed": 10,
     "lost": 0.0,
     "injuries": [
      "Neck"
@@ -238,12 +254,13 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
     "kinds": [
      "IR"
     ],
-    "rostered": 9,
+    "rostered": 10,
     "games": [
      {
       "week": 1,
@@ -307,6 +324,13 @@
       "injury": "Neck",
       "franchise": 4,
       "team": "Im Stroud Of You"
+     },
+     {
+      "week": 10,
+      "kind": "IR",
+      "injury": "Neck",
+      "franchise": 4,
+      "team": "Im Stroud Of You"
      }
     ]
    }
@@ -315,7 +339,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 9,
+    "to": 10,
     "weeks": [
      1,
      2,
@@ -325,9 +349,10 @@
      6,
      7,
      8,
-     9
+     9,
+     10
     ],
-    "missed": 9,
+    "missed": 10,
     "nfl": "BAL",
     "injury": "Neck",
     "kinds": [
@@ -339,7 +364,7 @@
       "team": "Im Stroud Of You"
      }
     ],
-    "rostered": 9,
+    "rostered": 10,
     "lost": 0.0
    }
   ],
@@ -347,7 +372,7 @@
    "status": "IR",
    "injury": "Neck",
    "since": null,
-   "streak": 9
+   "streak": 10
   }
  }
 }

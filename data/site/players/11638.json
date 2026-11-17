@@ -68,10 +68,26 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "season": "2026",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "nfl": null,
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
   }
  ],
  "totals": {
-  "g": 42,
+  "g": 43,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 164.7,
@@ -811,6 +827,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -825,8 +857,8 @@
    "stat": "Bench Points",
    "value": 164.7,
    "digits": 2,
-   "rank": 78,
-   "of": 511
+   "rank": 80,
+   "of": 515
   }
  ],
  "similar": [],
@@ -995,7 +1027,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 7,
+    "rostered": 8,
     "games": [
      {
       "week": 1,
@@ -1057,8 +1089,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Knee - PCL",
-      "franchise": null,
-      "team": null
+      "franchise": 3,
+      "team": "Kolkata Kommies"
      }
     ]
    }
@@ -1165,9 +1197,13 @@
      {
       "franchise": 1,
       "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "franchise": 3,
+      "team": "Kolkata Kommies"
      }
     ],
-    "rostered": 7,
+    "rostered": 8,
     "lost": 0.0
    }
   ],

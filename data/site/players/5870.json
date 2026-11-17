@@ -104,29 +104,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "IND",
-   "g": 9,
+   "g": 10,
    "gs": 2,
    "pts": 17.46,
-   "bench_pts": 68.32,
+   "bench_pts": 74.04,
    "ppg": 8.73,
    "best": 9.14,
    "wins": 1,
    "paa": -16.25,
-   "vor": -9.24,
-   "war": -0.11
+   "vor": -5.48,
+   "war": -0.06
   }
  ],
  "totals": {
-  "g": 49,
+  "g": 50,
   "gs": 22,
   "pts": 314.82,
-  "bench_pts": 191.16,
+  "bench_pts": 196.88,
   "ppg": 14.31,
   "best": 30.74,
   "wins": 12,
   "paa": -54.93,
-  "vor": 39.44,
-  "war": 0.47
+  "vor": 43.2,
+  "war": 0.51
  },
  "nfl": [
   {
@@ -155,7 +155,7 @@
    "team": "IND",
    "g": 10,
    "pts": 91.5,
-   "rank": 26
+   "rank": 27
   }
  ],
  "history": [
@@ -959,8 +959,8 @@
    "proj": 13.84,
    "won": true,
    "paa": -9.35,
-   "vor": -4.21,
-   "war": -0.049757077255990566
+   "vor": -2.33,
+   "war": -0.02753776484713967
   },
   {
    "season": "2026",
@@ -1010,8 +1010,8 @@
    "proj": 16.59,
    "won": false,
    "paa": -6.9,
-   "vor": -5.03,
-   "war": -0.05944847947687234
+   "vor": -3.15,
+   "war": -0.03722916706802144
   },
   {
    "season": "2026",
@@ -1092,17 +1092,33 @@
    "pts": 12.1,
    "proj": 14.99,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 5.72,
+   "proj": 12.72,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "9228",
    "name": "Bryce Young",
-   "score": 950,
-   "gs": 20,
-   "pts": 284.82,
-   "ppg": 14.24,
-   "war": 0.28
+   "score": 965,
+   "gs": 21,
+   "pts": 293.02,
+   "ppg": 13.95,
+   "war": 0.41
   },
   {
    "player": "96",
@@ -1111,12 +1127,12 @@
    "gs": 24,
    "pts": 322.32,
    "ppg": 13.43,
-   "war": 0.37
+   "war": 0.41
   },
   {
    "player": "1234",
    "name": "Russell Wilson",
-   "score": 886,
+   "score": 890,
    "gs": 23,
    "pts": 365.04,
    "ppg": 15.87,
@@ -1125,16 +1141,16 @@
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 863,
+   "score": 860,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
-   "war": 0.89
+   "war": 1.03
   },
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 825,
+   "score": 827,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -1153,8 +1169,8 @@
    "stat": "Points",
    "value": 314.82,
    "digits": 2,
-   "rank": 100,
-   "of": 420
+   "rank": 103,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1162,26 +1178,26 @@
    "stat": "Games Started",
    "value": 22,
    "digits": 0,
-   "rank": 131,
-   "of": 420
+   "rank": 133,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.51,
    "digits": 2,
-   "rank": 117,
-   "of": 420
+   "rank": 112,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 39.4,
+   "value": 43.2,
    "digits": 1,
-   "rank": 117,
-   "of": 420
+   "rank": 112,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1189,8 +1205,8 @@
    "stat": "PAA",
    "value": -54.9,
    "digits": 1,
-   "rank": 372,
-   "of": 420
+   "rank": 374,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1198,8 +1214,8 @@
    "stat": "Best Game",
    "value": 30.74,
    "digits": 2,
-   "rank": 100,
-   "of": 420
+   "rank": 101,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1214,10 +1230,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 191.16,
+   "value": 196.88,
    "digits": 2,
    "rank": 53,
-   "of": 511
+   "of": 515
   },
   {
    "group": "Career",
@@ -1226,7 +1242,7 @@
    "value": 314.82,
    "digits": 2,
    "rank": 27,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -1235,16 +1251,16 @@
    "value": 22,
    "digits": 0,
    "rank": 27,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.51,
    "digits": 2,
-   "rank": 27,
-   "of": 66
+   "rank": 26,
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -1253,7 +1269,7 @@
    "value": 36.56,
    "digits": 2,
    "rank": 25,
-   "of": 44,
+   "of": 45,
    "franchise": 11
   },
   {
@@ -1263,7 +1279,7 @@
    "value": 2,
    "digits": 0,
    "rank": 28,
-   "of": 44,
+   "of": 45,
    "franchise": 11
   },
   {
@@ -1273,7 +1289,7 @@
    "value": 0.14,
    "digits": 2,
    "rank": 13,
-   "of": 44,
+   "of": 45,
    "franchise": 11
   },
   {
@@ -1312,7 +1328,7 @@
    "stat": "WAR",
    "value": -0.22,
    "digits": 2,
-   "rank": 73,
+   "rank": 72,
    "of": 82,
    "franchise": 4
   },
@@ -1332,8 +1348,8 @@
    "stat": "Points",
    "value": 193.08,
    "digits": 2,
-   "rank": 13,
-   "of": 67,
+   "rank": 14,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1342,18 +1358,18 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 15,
-   "of": 67,
+   "rank": 16,
+   "of": 69,
    "franchise": 8
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.52,
    "digits": 2,
    "rank": 11,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1363,7 +1379,7 @@
    "value": 193.08,
    "digits": 2,
    "rank": 5,
-   "of": 9,
+   "of": 10,
    "franchise": 8
   },
   {
@@ -1472,8 +1488,8 @@
    "stat": "Points",
    "value": 17.46,
    "digits": 2,
-   "rank": 167,
-   "of": 233,
+   "rank": 173,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1482,8 +1498,8 @@
    "stat": "Points",
    "value": 17.46,
    "digits": 2,
-   "rank": 33,
-   "of": 36,
+   "rank": 34,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -1492,8 +1508,8 @@
    "stat": "Points, 2025",
    "value": 175.62,
    "digits": 2,
-   "rank": 167,
-   "of": 1010,
+   "rank": 180,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1502,8 +1518,8 @@
    "stat": "Points, 2024",
    "value": 66.68,
    "digits": 2,
-   "rank": 476,
-   "of": 1010,
+   "rank": 480,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1512,8 +1528,8 @@
    "stat": "Points, 2023",
    "value": 55.06,
    "digits": 2,
-   "rank": 534,
-   "of": 1010,
+   "rank": 544,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1522,16 +1538,16 @@
    "stat": "Points, 2026",
    "value": 17.46,
    "digits": 2,
-   "rank": 769,
-   "of": 1010,
+   "rank": 775,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 10.2,
-  "rank": 128,
-  "of": 420,
-  "war": 4.7,
+  "score": 10.6,
+  "rank": 124,
+  "of": 424,
+  "war": 5.1,
   "starts": 5.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1794,47 +1810,52 @@
    [
     "2026",
     1,
-    10.55
+    10.75
    ],
    [
     "2026",
     2,
-    10.55
+    10.75
    ],
    [
     "2026",
     3,
-    10.55
+    10.75
    ],
    [
     "2026",
     4,
-    10.2
+    10.6
    ],
    [
     "2026",
     5,
-    10.2
+    10.6
    ],
    [
     "2026",
     6,
-    10.2
+    10.6
    ],
    [
     "2026",
     7,
-    10.2
+    10.6
    ],
    [
     "2026",
     8,
-    10.2
+    10.6
    ],
    [
     "2026",
     9,
-    10.2
+    10.6
+   ],
+   [
+    "2026",
+    10,
+    10.6
    ]
   ],
   "benchmark": 100

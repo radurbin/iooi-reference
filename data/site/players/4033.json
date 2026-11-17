@@ -139,7 +139,7 @@
   {
    "season": "2026",
    "team": "LAC",
-   "g": 2,
+   "g": 3,
    "pts": 12.7,
    "rank": 68
   }
@@ -1047,7 +1047,7 @@
   {
    "player": "5844",
    "name": "T.J. Hockenson",
-   "score": 919,
+   "score": 920,
    "gs": 17,
    "pts": 226.9,
    "ppg": 13.35,
@@ -1056,34 +1056,34 @@
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 894,
+   "score": 893,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
    "war": 0.67
   },
   {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 851,
+   "gs": 16,
+   "pts": 191.95,
+   "ppg": 12.0,
+   "war": 0.6
+  },
+  {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 842,
+   "score": 841,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
    "war": 0.54
   },
   {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 810,
-   "gs": 15,
-   "pts": 175.85,
-   "ppg": 11.72,
-   "war": 0.51
-  },
-  {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 793,
+   "score": 792,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
@@ -1101,8 +1101,8 @@
    "stat": "Points",
    "value": 261.4,
    "digits": 2,
-   "rank": 122,
-   "of": 420
+   "rank": 123,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1110,8 +1110,8 @@
    "stat": "Games Started",
    "value": 20,
    "digits": 0,
-   "rank": 144,
-   "of": 420
+   "rank": 146,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1120,7 +1120,7 @@
    "value": 0.76,
    "digits": 2,
    "rank": 92,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1129,7 +1129,7 @@
    "value": 64.6,
    "digits": 1,
    "rank": 92,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1137,8 +1137,8 @@
    "stat": "PAA",
    "value": 31.2,
    "digits": 1,
-   "rank": 62,
-   "of": 420
+   "rank": 64,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1146,8 +1146,8 @@
    "stat": "Best Game",
    "value": 26.2,
    "digits": 2,
-   "rank": 146,
-   "of": 420
+   "rank": 147,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1155,7 +1155,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.07,
    "digits": 2,
-   "rank": 105,
+   "rank": 106,
    "of": 256
   },
   {
@@ -1164,8 +1164,8 @@
    "stat": "Bench Points",
    "value": 150.1,
    "digits": 2,
-   "rank": 91,
-   "of": 511
+   "rank": 94,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1201,7 +1201,7 @@
    "value": 261.4,
    "digits": 2,
    "rank": 10,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1211,7 +1211,7 @@
    "value": 20,
    "digits": 0,
    "rank": 10,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1221,7 +1221,7 @@
    "value": 0.77,
    "digits": 2,
    "rank": 9,
-   "of": 58,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1231,7 +1231,7 @@
    "value": 261.4,
    "digits": 2,
    "rank": 1,
-   "of": 6,
+   "of": 7,
    "franchise": 5
   },
   {
@@ -1300,8 +1300,8 @@
    "stat": "Points, 2024",
    "value": 129.6,
    "digits": 2,
-   "rank": 277,
-   "of": 1010,
+   "rank": 283,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1310,8 +1310,8 @@
    "stat": "Points, 2023",
    "value": 80.5,
    "digits": 2,
-   "rank": 412,
-   "of": 1010,
+   "rank": 415,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1320,15 +1320,15 @@
    "stat": "Points, 2025",
    "value": 51.3,
    "digits": 2,
-   "rank": 553,
-   "of": 1010,
+   "rank": 562,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 16.6,
-  "rank": 87,
-  "of": 420,
+  "rank": 88,
+  "of": 424,
   "war": 7.6,
   "starts": 5.0,
   "black_ink": 0.0,
@@ -1633,6 +1633,11 @@
     "2026",
     9,
     16.6
+   ],
+   [
+    "2026",
+    10,
+    16.6
    ]
   ],
   "benchmark": 100
@@ -1756,7 +1761,6 @@
     "missed": 6,
     "lost": 0.0,
     "injuries": [
-     "Lower Leg",
      "Fibula"
     ],
     "weeks": [
@@ -1775,35 +1779,35 @@
      {
       "week": 3,
       "kind": "IR",
-      "injury": "Lower Leg",
+      "injury": "Fibula",
       "franchise": null,
       "team": null
      },
      {
       "week": 4,
       "kind": "IR",
-      "injury": "Lower Leg",
+      "injury": "Fibula",
       "franchise": null,
       "team": null
      },
      {
       "week": 5,
       "kind": "IR",
-      "injury": "Lower Leg",
+      "injury": "Fibula",
       "franchise": null,
       "team": null
      },
      {
       "week": 6,
       "kind": "IR",
-      "injury": "Lower Leg",
+      "injury": "Fibula",
       "franchise": null,
       "team": null
      },
      {
       "week": 8,
       "kind": "IR",
-      "injury": "Lower Leg",
+      "injury": "Fibula",
       "franchise": null,
       "team": null
      },
@@ -1941,7 +1945,7 @@
     ],
     "missed": 6,
     "nfl": "LAC",
-    "injury": "Lower Leg",
+    "injury": "Fibula",
     "kinds": [
      "IR"
     ],

@@ -1339,10 +1339,10 @@
    "original": 8,
    "player": "11564",
    "pos": "QB",
-   "starts_team": 25,
-   "pts_team": 497.5,
-   "starts_league": 25,
-   "pts_league": 497.5,
+   "starts_team": 26,
+   "pts_team": 500.62,
+   "starts_league": 26,
+   "pts_league": 500.62,
    "nfl_pts": 701.86
   },
   {
@@ -1433,10 +1433,10 @@
    "season": "2026",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "score": 710,
-   "w": 8,
+   "score": 717,
+   "w": 9,
    "l": 1,
-   "ppg": 157.08,
+   "ppg": 156.06,
    "result": null
   },
   {
@@ -1450,34 +1450,34 @@
    "result": "Champion"
   },
   {
+   "season": "2026",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "score": 561,
+   "w": 8,
+   "l": 2,
+   "ppg": 164.39,
+   "result": null
+  },
+  {
    "season": "2025",
    "franchise": 7,
    "team": "the dart side 🛸",
-   "score": 506,
+   "score": 507,
    "w": 10,
    "l": 4,
    "ppg": 151.19,
    "result": "Champion"
   },
   {
-   "season": "2026",
+   "season": "2024",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 413,
-   "w": 6,
-   "l": 3,
-   "ppg": 143.7,
-   "result": null
-  },
-  {
-   "season": "2026",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
-   "score": 395,
-   "w": 7,
-   "l": 2,
-   "ppg": 165.5,
-   "result": null
+   "score": 378,
+   "w": 9,
+   "l": 5,
+   "ppg": 131.74,
+   "result": "5th"
   }
  ],
  "pickups": [
@@ -2129,8 +2129,8 @@
    "managers": [
     "evan"
    ],
-   "gs": 9,
-   "pts": 94.0,
+   "gs": 10,
+   "pts": 99.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2409,8 +2409,8 @@
    "managers": [
     "evan"
    ],
-   "gs": 16,
-   "pts": 166.9,
+   "gs": 17,
+   "pts": 168.8,
    "next": 11,
    "next_team": "BubbaNASTIES"
   },
@@ -2479,8 +2479,8 @@
    "managers": [
     "evan"
    ],
-   "gs": 8,
-   "pts": 78.9,
+   "gs": 9,
+   "pts": 87.0,
    "next": 10,
    "next_team": "BAHAHAHA"
   },
@@ -2577,8 +2577,8 @@
    "managers": [
     "evan"
    ],
-   "gs": 7,
-   "pts": 65.9,
+   "gs": 8,
+   "pts": 74.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2815,7 +2815,7 @@
   {
    "list": "Highest RB Scores",
    "scope": "league",
-   "rank": 7,
+   "rank": 9,
    "value": "44.00",
    "href": "records.html#highest-player-scores-by-position",
    "player": "4035",
@@ -3056,22 +3056,6 @@
    "value": "+2.82",
    "href": "franchise.html?id=8#franchise-records",
    "season": "2024",
-   "franchise": 8,
-   "team": "Breece is the Word",
-   "managers": [
-    "evan"
-   ]
-  },
-  {
-   "list": "Best Player Game",
-   "scope": 8,
-   "rank": 1,
-   "value": "44.00",
-   "href": "franchise.html?id=8#franchise-records",
-   "player": "4035",
-   "season": "2024",
-   "week": 2,
-   "game": "2024-02-8-10",
    "franchise": 8,
    "team": "Breece is the Word",
    "managers": [

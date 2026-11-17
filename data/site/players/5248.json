@@ -606,9 +606,18 @@
    "war": 0.04
   },
   {
+   "player": "8132",
+   "name": "Tyler Allgeier",
+   "score": 978,
+   "gs": 12,
+   "pts": 117.65,
+   "ppg": 9.8,
+   "war": 0.02
+  },
+  {
    "player": "3164",
    "name": "Ezekiel Elliott",
-   "score": 960,
+   "score": 961,
    "gs": 11,
    "pts": 112.1,
    "ppg": 10.19,
@@ -624,22 +633,13 @@
    "war": 0.01
   },
   {
-   "player": "8132",
-   "name": "Tyler Allgeier",
+   "player": "7567",
+   "name": "Kenny Gainwell",
    "score": 945,
-   "gs": 11,
-   "pts": 115.75,
-   "ppg": 10.52,
-   "war": 0.15
-  },
-  {
-   "player": "12533",
-   "name": "Jacory Croskey-Merritt",
-   "score": 911,
-   "gs": 16,
-   "pts": 140.1,
-   "ppg": 8.76,
-   "war": 0.02
+   "gs": 14,
+   "pts": 148.5,
+   "ppg": 10.61,
+   "war": 0.2
   }
  ],
  "status": {
@@ -654,8 +654,8 @@
    "stat": "Points",
    "value": 129.2,
    "digits": 2,
-   "rank": 201,
-   "of": 420
+   "rank": 202,
+   "of": 424
   },
   {
    "group": "Career",
@@ -663,8 +663,8 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 191,
-   "of": 420
+   "rank": 194,
+   "of": 424
   },
   {
    "group": "Career",
@@ -673,7 +673,7 @@
    "value": -0.02,
    "digits": 2,
    "rank": 232,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -682,7 +682,7 @@
    "value": -1.4,
    "digits": 1,
    "rank": 232,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -690,8 +690,8 @@
    "stat": "PAA",
    "value": -40.8,
    "digits": 1,
-   "rank": 355,
-   "of": 420
+   "rank": 356,
+   "of": 424
   },
   {
    "group": "Career",
@@ -699,8 +699,8 @@
    "stat": "Best Game",
    "value": 29.4,
    "digits": 2,
-   "rank": 112,
-   "of": 420
+   "rank": 113,
+   "of": 424
   },
   {
    "group": "Career",
@@ -708,7 +708,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 9.94,
    "digits": 2,
-   "rank": 170,
+   "rank": 169,
    "of": 256
   },
   {
@@ -717,8 +717,8 @@
    "stat": "Bench Points",
    "value": 113.6,
    "digits": 2,
-   "rank": 150,
-   "of": 511
+   "rank": 152,
+   "of": 515
   },
   {
    "group": "Career",
@@ -735,7 +735,7 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 44,
+   "rank": 46,
    "of": 100
   },
   {
@@ -753,7 +753,7 @@
    "stat": "Points",
    "value": 129.2,
    "digits": 2,
-   "rank": 18,
+   "rank": 19,
    "of": 82,
    "franchise": 4
   },
@@ -773,7 +773,7 @@
    "stat": "WAR",
    "value": -0.01,
    "digits": 2,
-   "rank": 40,
+   "rank": 38,
    "of": 82,
    "franchise": 4
   },
@@ -833,8 +833,8 @@
    "stat": "Points, 2023",
    "value": 92.9,
    "digits": 2,
-   "rank": 370,
-   "of": 1010,
+   "rank": 380,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -843,15 +843,15 @@
    "stat": "Points, 2024",
    "value": 36.3,
    "digits": 2,
-   "rank": 646,
-   "of": 1010,
+   "rank": 653,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 3.25,
-  "rank": 224,
-  "of": 420,
+  "rank": 225,
+  "of": 424,
   "war": 0.0,
   "starts": 3.25,
   "black_ink": 0.0,
@@ -1155,6 +1155,11 @@
    [
     "2026",
     9,
+    3.25
+   ],
+   [
+    "2026",
+    10,
     3.25
    ]
   ],

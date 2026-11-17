@@ -65,14 +65,14 @@
    "season": "2026",
    "franchise": 11,
    "team": "BubbaNASTIES",
-   "w": 4,
+   "w": 5,
    "l": 5,
    "t": 0,
-   "pf": 1193.62,
-   "pa": 1263.61,
+   "pf": 1337.84,
+   "pa": 1371.65,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.444,
+   "pct": 0.5,
    "transactions": 9,
    "trades": 0,
    "partial_season": false,
@@ -80,14 +80,14 @@
   }
  ],
  "totals": {
-  "w": 23,
+  "w": 24,
   "l": 28,
   "t": 0,
-  "pf": 6513.56,
-  "pa": 6898.9,
+  "pf": 6657.78,
+  "pa": 7006.94,
   "playoff_w": 2,
   "playoff_l": 1,
-  "pct": 0.451,
+  "pct": 0.462,
   "transactions": 62,
   "trades": 4
  },
@@ -103,72 +103,72 @@
     "name": "Derrick Henry",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 57,
-    "pts": 959.84,
+    "g": 61,
+    "gs": 58,
+    "pts": 979.84,
     "best": 45.6,
-    "wins": 27,
-    "vor": 417.88,
-    "war": 4.94
+    "wins": 28,
+    "vor": 421.18,
+    "war": 4.98
    },
    {
     "player": "8183",
     "name": "Brock Purdy",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 46,
-    "pts": 893.06,
+    "g": 61,
+    "gs": 47,
+    "pts": 924.92,
     "best": 36.92,
-    "wins": 26,
-    "vor": 290.62,
-    "war": 3.43
+    "wins": 27,
+    "vor": 326.05,
+    "war": 3.85
    },
    {
     "player": "6794",
     "name": "Justin Jefferson",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 47,
-    "pts": 747.53,
+    "g": 61,
+    "gs": 48,
+    "pts": 763.93,
     "best": 36.4,
-    "wins": 23,
-    "vor": 217.66,
-    "war": 2.57
+    "wins": 24,
+    "vor": 223.74,
+    "war": 2.64
    },
    {
     "player": "6790",
     "name": "D'Andre Swift",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 51,
     "pts": 718.2,
     "best": 34.2,
     "wins": 25,
-    "vor": 228.38,
-    "war": 2.7
+    "vor": 222.17,
+    "war": 2.63
    },
    {
     "player": "1466",
     "name": "Travis Kelce",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 54,
-    "pts": 669.25,
+    "g": 61,
+    "gs": 55,
+    "pts": 674.25,
     "best": 35.9,
-    "wins": 26,
-    "vor": 147.23,
-    "war": 1.74
+    "wins": 27,
+    "vor": 143.51,
+    "war": 1.7
    },
    {
     "player": "1479",
     "name": "Keenan Allen",
     "pos": "WR",
     "years": "2023-2025",
-    "g": 60,
+    "g": 61,
     "gs": 35,
     "pts": 547.16,
     "best": 45.46,
@@ -181,13 +181,13 @@
     "name": "Matthew Stafford",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 25,
-    "gs": 21,
-    "pts": 397.58,
+    "g": 26,
+    "gs": 22,
+    "pts": 417.54,
     "best": 30.88,
-    "wins": 9,
-    "vor": 145.28,
-    "war": 1.72
+    "wins": 10,
+    "vor": 165.05,
+    "war": 1.95
    },
    {
     "player": "2216",
@@ -203,6 +203,19 @@
     "war": 1.1
    },
    {
+    "player": "7543",
+    "name": "Travis Etienne Jr.",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 26,
+    "gs": 19,
+    "pts": 273.1,
+    "best": 31.5,
+    "wins": 10,
+    "vor": 102.29,
+    "war": 1.21
+   },
+   {
     "player": "1264",
     "name": "Justin Tucker",
     "pos": "K",
@@ -214,19 +227,6 @@
     "wins": 18,
     "vor": 17.13,
     "war": 0.2
-   },
-   {
-    "player": "7543",
-    "name": "Travis Etienne Jr.",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 25,
-    "gs": 18,
-    "pts": 265.9,
-    "best": 31.5,
-    "wins": 9,
-    "vor": 107.65,
-    "war": 1.27
    },
    {
     "player": "4950",
@@ -246,46 +246,46 @@
     "name": "Detroit Lions",
     "pos": "DEF",
     "years": "2024-2026",
-    "g": 36,
-    "gs": 33,
-    "pts": 171.0,
+    "g": 37,
+    "gs": 34,
+    "pts": 184.0,
     "best": 20.0,
-    "wins": 15,
-    "vor": -50.44,
-    "war": -0.6
-   },
-   {
-    "player": "8134",
-    "name": "Khalil Shakir",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 26,
-    "gs": 15,
-    "pts": 156.0,
-    "best": 20.8,
-    "wins": 4,
-    "vor": -2.44,
-    "war": -0.03
+    "wins": 16,
+    "vor": -45.22,
+    "war": -0.53
    },
    {
     "player": "9500",
     "name": "Josh Downs",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 18,
-    "pts": 155.5,
+    "g": 61,
+    "gs": 19,
+    "pts": 170.8,
     "best": 19.4,
-    "wins": 8,
-    "vor": -48.6,
-    "war": -0.57
+    "wins": 9,
+    "vor": -43.62,
+    "war": -0.52
+   },
+   {
+    "player": "8134",
+    "name": "Khalil Shakir",
+    "pos": "WR",
+    "years": "2025-2026",
+    "g": 27,
+    "gs": 16,
+    "pts": 163.8,
+    "best": 20.8,
+    "wins": 5,
+    "vor": -4.96,
+    "war": -0.06
    },
    {
     "player": "8676",
     "name": "Rashid Shaheed",
     "pos": "WR",
     "years": "2023-2025",
-    "g": 60,
+    "g": 61,
     "gs": 14,
     "pts": 146.6,
     "best": 21.4,
@@ -298,7 +298,7 @@
     "name": "Luther Burden III",
     "pos": "WR",
     "years": "2026",
-    "g": 26,
+    "g": 27,
     "gs": 8,
     "pts": 120.2,
     "best": 23.8,
@@ -311,7 +311,7 @@
     "name": "Jake Elliott",
     "pos": "K",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 20,
     "pts": 115.2,
     "best": 12.0,
@@ -350,7 +350,7 @@
     "name": "Isaiah Likely",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 46,
+    "g": 47,
     "gs": 6,
     "pts": 90.0,
     "best": 32.4,
@@ -363,7 +363,7 @@
     "name": "Keon Coleman",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 43,
+    "g": 44,
     "gs": 8,
     "pts": 65.4,
     "best": 18.0,
@@ -389,13 +389,13 @@
     "name": "Tyler Shough",
     "pos": "QB",
     "years": "2026",
-    "g": 26,
+    "g": 27,
     "gs": 3,
     "pts": 41.38,
     "best": 23.9,
     "wins": 1,
-    "vor": 1.33,
-    "war": 0.02
+    "vor": 6.97,
+    "war": 0.08
    },
    {
     "player": "4574",
@@ -431,26 +431,26 @@
      "name": "Brock Purdy",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 46,
-     "pts": 893.06,
+     "g": 61,
+     "gs": 47,
+     "pts": 924.92,
      "best": 36.92,
-     "wins": 26,
-     "vor": 290.62,
-     "war": 3.43
+     "wins": 27,
+     "vor": 326.05,
+     "war": 3.85
     },
     {
      "player": "421",
      "name": "Matthew Stafford",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 25,
-     "gs": 21,
-     "pts": 397.58,
+     "g": 26,
+     "gs": 22,
+     "pts": 417.54,
      "best": 30.88,
-     "wins": 9,
-     "vor": 145.28,
-     "war": 1.72
+     "wins": 10,
+     "vor": 165.05,
+     "war": 1.95
     },
     {
      "player": "9999",
@@ -472,39 +472,39 @@
      "name": "Derrick Henry",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 57,
-     "pts": 959.84,
+     "g": 61,
+     "gs": 58,
+     "pts": 979.84,
      "best": 45.6,
-     "wins": 27,
-     "vor": 417.88,
-     "war": 4.94
+     "wins": 28,
+     "vor": 421.18,
+     "war": 4.98
     },
     {
      "player": "6790",
      "name": "D'Andre Swift",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 51,
      "pts": 718.2,
      "best": 34.2,
      "wins": 25,
-     "vor": 228.38,
-     "war": 2.7
+     "vor": 222.17,
+     "war": 2.63
     },
     {
      "player": "7543",
      "name": "Travis Etienne Jr.",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 25,
-     "gs": 18,
-     "pts": 265.9,
+     "g": 26,
+     "gs": 19,
+     "pts": 273.1,
      "best": 31.5,
-     "wins": 9,
-     "vor": 107.65,
-     "war": 1.27
+     "wins": 10,
+     "vor": 102.29,
+     "war": 1.21
     }
    ],
    "WR": [
@@ -513,20 +513,20 @@
      "name": "Justin Jefferson",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 47,
-     "pts": 747.53,
+     "g": 61,
+     "gs": 48,
+     "pts": 763.93,
      "best": 36.4,
-     "wins": 23,
-     "vor": 217.66,
-     "war": 2.57
+     "wins": 24,
+     "vor": 223.74,
+     "war": 2.64
     },
     {
      "player": "1479",
      "name": "Keenan Allen",
      "pos": "WR",
      "years": "2023-2025",
-     "g": 60,
+     "g": 61,
      "gs": 35,
      "pts": 547.16,
      "best": 45.46,
@@ -554,20 +554,20 @@
      "name": "Travis Kelce",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 54,
-     "pts": 669.25,
+     "g": 61,
+     "gs": 55,
+     "pts": 674.25,
      "best": 35.9,
-     "wins": 26,
-     "vor": 147.23,
-     "war": 1.74
+     "wins": 27,
+     "vor": 143.51,
+     "war": 1.7
     },
     {
      "player": "8131",
      "name": "Isaiah Likely",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 46,
+     "g": 47,
      "gs": 6,
      "pts": 90.0,
      "best": 32.4,
@@ -608,7 +608,7 @@
      "name": "Jake Elliott",
      "pos": "K",
      "years": "2025-2026",
-     "g": 26,
+     "g": 27,
      "gs": 20,
      "pts": 115.2,
      "best": 12.0,
@@ -636,13 +636,13 @@
      "name": "Detroit Lions",
      "pos": "DEF",
      "years": "2024-2026",
-     "g": 36,
-     "gs": 33,
-     "pts": 171.0,
+     "g": 37,
+     "gs": 34,
+     "pts": 184.0,
      "best": 20.0,
-     "wins": 15,
-     "vor": -50.44,
-     "war": -0.6
+     "wins": 16,
+     "vor": -45.22,
+     "war": -0.53
     },
     {
      "player": "SEA",
@@ -680,13 +680,13 @@
    "name": "Brock Purdy",
    "pos": "QB",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 46,
-   "pts": 893.06,
+   "g": 61,
+   "gs": 47,
+   "pts": 924.92,
    "best": 36.92,
-   "wins": 26,
-   "vor": 290.62,
-   "war": 3.43
+   "wins": 27,
+   "vor": 326.05,
+   "war": 3.85
   },
   {
    "slot": "RB",
@@ -694,13 +694,13 @@
    "name": "Derrick Henry",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 57,
-   "pts": 959.84,
+   "g": 61,
+   "gs": 58,
+   "pts": 979.84,
    "best": 45.6,
-   "wins": 27,
-   "vor": 417.88,
-   "war": 4.94
+   "wins": 28,
+   "vor": 421.18,
+   "war": 4.98
   },
   {
    "slot": "RB",
@@ -708,13 +708,13 @@
    "name": "D'Andre Swift",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 60,
+   "g": 61,
    "gs": 51,
    "pts": 718.2,
    "best": 34.2,
    "wins": 25,
-   "vor": 228.38,
-   "war": 2.7
+   "vor": 222.17,
+   "war": 2.63
   },
   {
    "slot": "WR",
@@ -722,13 +722,13 @@
    "name": "Justin Jefferson",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 47,
-   "pts": 747.53,
+   "g": 61,
+   "gs": 48,
+   "pts": 763.93,
    "best": 36.4,
-   "wins": 23,
-   "vor": 217.66,
-   "war": 2.57
+   "wins": 24,
+   "vor": 223.74,
+   "war": 2.64
   },
   {
    "slot": "WR",
@@ -736,7 +736,7 @@
    "name": "Keenan Allen",
    "pos": "WR",
    "years": "2023-2025",
-   "g": 60,
+   "g": 61,
    "gs": 35,
    "pts": 547.16,
    "best": 45.46,
@@ -750,13 +750,13 @@
    "name": "Travis Kelce",
    "pos": "TE",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 54,
-   "pts": 669.25,
+   "g": 61,
+   "gs": 55,
+   "pts": 674.25,
    "best": 35.9,
-   "wins": 26,
-   "vor": 147.23,
-   "war": 1.74
+   "wins": 27,
+   "vor": 143.51,
+   "war": 1.7
   },
   {
    "slot": "FLEX",
@@ -778,13 +778,13 @@
    "name": "Matthew Stafford",
    "pos": "QB",
    "years": "2025-2026",
-   "g": 25,
-   "gs": 21,
-   "pts": 397.58,
+   "g": 26,
+   "gs": 22,
+   "pts": 417.54,
    "best": 30.88,
-   "wins": 9,
-   "vor": 145.28,
-   "war": 1.72
+   "wins": 10,
+   "vor": 165.05,
+   "war": 1.95
   },
   {
    "slot": "K",
@@ -806,13 +806,13 @@
    "name": "Detroit Lions",
    "pos": "DEF",
    "years": "2024-2026",
-   "g": 36,
-   "gs": 33,
-   "pts": 171.0,
+   "g": 37,
+   "gs": 34,
+   "pts": 184.0,
    "best": 20.0,
-   "wins": 15,
-   "vor": -50.44,
-   "war": -0.6
+   "wins": 16,
+   "vor": -45.22,
+   "war": -0.53
   }
  ],
  "best_games": [
@@ -934,6 +934,17 @@
    "game": "2024-14-5-11",
    "season": "2024",
    "week": 14,
+   "franchise": 11,
+   "team": "BubbaNASTIES"
+  },
+  {
+   "player": "8183",
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "pts": 31.86,
+   "game": "2026-10-7-11",
+   "season": "2026",
+   "week": 10,
    "franchise": 11,
    "team": "BubbaNASTIES"
   },
@@ -1077,17 +1088,6 @@
    "game": "2025-01-1-11",
    "season": "2025",
    "week": 1,
-   "franchise": 11,
-   "team": "BubbaNASTIES"
-  },
-  {
-   "player": "2216",
-   "name": "Mike Evans",
-   "pos": "WR",
-   "pts": 29.1,
-   "game": "2023-02-9-11",
-   "season": "2023",
-   "week": 2,
    "franchise": 11,
    "team": "BubbaNASTIES"
   }
@@ -1239,7 +1239,7 @@
    "team": "BubbaNASTIES",
    "games": 12,
    "players": 4,
-   "lost": 5.99,
+   "lost": 3.64,
    "rank": 11,
    "of": 12
   }
@@ -1430,29 +1430,6 @@
    ]
   },
   {
-   "player": "7543",
-   "name": "Travis Etienne Jr.",
-   "pos": "RB",
-   "missed": 5,
-   "lost": 2.35,
-   "injuries": [
-    "Hamstring"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 11,
-     "team": "BubbaNASTIES"
-    }
-   ]
-  },
-  {
    "player": "12483",
    "name": "Jack Bech",
    "pos": "WR",
@@ -1509,6 +1486,29 @@
     },
     {
      "season": "2025",
+     "franchise": 11,
+     "team": "BubbaNASTIES"
+    }
+   ]
+  },
+  {
+   "player": "7543",
+   "name": "Travis Etienne Jr.",
+   "pos": "RB",
+   "missed": 5,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
      "franchise": 11,
      "team": "BubbaNASTIES"
     }

@@ -1086,7 +1086,7 @@
   {
    "player": "4663",
    "name": "Austin Ekeler",
-   "score": 904,
+   "score": 905,
    "gs": 24,
    "pts": 276.4,
    "ppg": 11.52,
@@ -1095,38 +1095,38 @@
   {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 880,
+   "score": 883,
    "gs": 27,
    "pts": 342.3,
    "ppg": 12.68,
-   "war": 0.9
+   "war": 0.87
   },
   {
    "player": "4199",
    "name": "Aaron Jones Sr.",
-   "score": 859,
+   "score": 863,
    "gs": 32,
    "pts": 396.55,
    "ppg": 12.39,
-   "war": 1.06
+   "war": 1.03
   },
   {
    "player": "6806",
    "name": "J.K. Dobbins",
-   "score": 845,
+   "score": 848,
    "gs": 22,
    "pts": 270.6,
    "ppg": 12.3,
-   "war": 0.83
+   "war": 0.82
   },
   {
    "player": "12512",
    "name": "Quinshon Judkins",
-   "score": 783,
-   "gs": 18,
-   "pts": 218.9,
-   "ppg": 12.16,
-   "war": 0.66
+   "score": 800,
+   "gs": 19,
+   "pts": 236.0,
+   "ppg": 12.42,
+   "war": 0.68
   }
  ],
  "status": {
@@ -1141,8 +1141,8 @@
    "stat": "Points",
    "value": 323.5,
    "digits": 2,
-   "rank": 96,
-   "of": 420
+   "rank": 98,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1150,8 +1150,8 @@
    "stat": "Games Started",
    "value": 29,
    "digits": 0,
-   "rank": 94,
-   "of": 420
+   "rank": 97,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1159,8 +1159,8 @@
    "stat": "WAR",
    "value": 0.41,
    "digits": 2,
-   "rank": 126,
-   "of": 420
+   "rank": 124,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1169,7 +1169,7 @@
    "value": 34.8,
    "digits": 1,
    "rank": 126,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1177,8 +1177,8 @@
    "stat": "PAA",
    "value": -65.6,
    "digits": 1,
-   "rank": 386,
-   "of": 420
+   "rank": 390,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1186,8 +1186,8 @@
    "stat": "Best Game",
    "value": 24.9,
    "digits": 2,
-   "rank": 167,
-   "of": 420
+   "rank": 168,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1195,7 +1195,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.16,
    "digits": 2,
-   "rank": 144,
+   "rank": 142,
    "of": 256
   },
   {
@@ -1204,8 +1204,8 @@
    "stat": "Bench Points",
    "value": 43.9,
    "digits": 2,
-   "rank": 306,
-   "of": 511
+   "rank": 309,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1231,7 +1231,7 @@
    "stat": "WAR",
    "value": 0.41,
    "digits": 2,
-   "rank": 41,
+   "rank": 40,
    "of": 100
   },
   {
@@ -1241,7 +1241,7 @@
    "value": 323.5,
    "digits": 2,
    "rank": 9,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1251,7 +1251,7 @@
    "value": 29,
    "digits": 0,
    "rank": 6,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1261,7 +1261,7 @@
    "value": 0.41,
    "digits": 2,
    "rank": 14,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1320,8 +1320,8 @@
    "stat": "Points, 2023",
    "value": 169.9,
    "digits": 2,
-   "rank": 178,
-   "of": 1010,
+   "rank": 189,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1330,15 +1330,15 @@
    "stat": "Points, 2024",
    "value": 153.6,
    "digits": 2,
-   "rank": 222,
-   "of": 1010,
+   "rank": 230,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 11.35,
-  "rank": 117,
-  "of": 420,
+  "rank": 119,
+  "of": 424,
   "war": 4.1,
   "starts": 7.25,
   "black_ink": 0.0,
@@ -1642,6 +1642,11 @@
    [
     "2026",
     9,
+    11.35
+   ],
+   [
+    "2026",
+    10,
     11.35
    ]
   ],

@@ -72,7 +72,7 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "CLE",
-   "g": 1,
+   "g": 2,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 23.68,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 21,
+  "g": 22,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 100.81,
@@ -489,6 +489,22 @@
    "pts": 23.68,
    "proj": 13.02,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -504,7 +520,7 @@
    "value": 100.81,
    "digits": 2,
    "rank": 171,
-   "of": 511
+   "of": 515
   }
  ],
  "similar": [],

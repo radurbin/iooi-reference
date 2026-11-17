@@ -66,13 +66,13 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "w": 4,
-   "l": 5,
+   "l": 6,
    "t": 0,
-   "pf": 1198.87,
-   "pa": 1198.72,
+   "pf": 1352.27,
+   "pa": 1366.28,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.444,
+   "pct": 0.4,
    "transactions": 33,
    "trades": 4,
    "partial_season": false,
@@ -81,13 +81,13 @@
  ],
  "totals": {
   "w": 24,
-  "l": 27,
+  "l": 28,
   "t": 0,
-  "pf": 6390.38,
-  "pa": 6436.16,
+  "pf": 6543.78,
+  "pa": 6603.72,
   "playoff_w": 0,
   "playoff_l": 2,
-  "pct": 0.471,
+  "pct": 0.462,
   "transactions": 119,
   "trades": 24
  },
@@ -101,65 +101,65 @@
     "name": "Bijan Robinson",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 55,
-    "pts": 1036.6,
+    "g": 61,
+    "gs": 56,
+    "pts": 1055.9,
     "best": 38.2,
     "wins": 23,
-    "vor": 512.42,
-    "war": 6.06
+    "vor": 515.02,
+    "war": 6.09
    },
    {
     "player": "8144",
     "name": "Chris Olave",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 54,
-    "gs": 34,
-    "pts": 513.4,
+    "g": 55,
+    "gs": 35,
+    "pts": 519.4,
     "best": 36.8,
     "wins": 15,
-    "vor": 135.29,
-    "war": 1.6
+    "vor": 130.97,
+    "war": 1.55
    },
    {
     "player": "4046",
     "name": "Patrick Mahomes",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 22,
-    "pts": 431.46,
-    "best": 31.48,
+    "g": 27,
+    "gs": 23,
+    "pts": 467.08,
+    "best": 35.62,
     "wins": 12,
-    "vor": 163.94,
-    "war": 1.94
-   },
-   {
-    "player": "11632",
-    "name": "Malik Nabers",
-    "pos": "WR",
-    "years": "2024-2026",
-    "g": 43,
-    "gs": 25,
-    "pts": 423.4,
-    "best": 39.2,
-    "wins": 14,
-    "vor": 146.34,
-    "war": 1.73
+    "vor": 203.13,
+    "war": 2.4
    },
    {
     "player": "7523",
     "name": "Trevor Lawrence",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 21,
-    "pts": 421.6,
+    "g": 27,
+    "gs": 22,
+    "pts": 448.78,
     "best": 44.3,
     "wins": 11,
-    "vor": 165.56,
-    "war": 1.96
+    "vor": 196.31,
+    "war": 2.32
+   },
+   {
+    "player": "11632",
+    "name": "Malik Nabers",
+    "pos": "WR",
+    "years": "2024-2026",
+    "g": 44,
+    "gs": 26,
+    "pts": 432.3,
+    "best": 39.2,
+    "wins": 14,
+    "vor": 144.92,
+    "war": 1.71
    },
    {
     "player": "8136",
@@ -179,13 +179,13 @@
     "name": "Dalton Kincaid",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 38,
-    "pts": 310.3,
+    "g": 61,
+    "gs": 39,
+    "pts": 318.1,
     "best": 22.5,
     "wins": 16,
-    "vor": -63.72,
-    "war": -0.75
+    "vor": -64.64,
+    "war": -0.76
    },
    {
     "player": "11584",
@@ -197,8 +197,8 @@
     "pts": 308.3,
     "best": 33.6,
     "wins": 11,
-    "vor": 135.44,
-    "war": 1.6
+    "vor": 131.99,
+    "war": 1.56
    },
    {
     "player": "8259",
@@ -318,6 +318,19 @@
     "war": 0.34
    },
    {
+    "player": "5119",
+    "name": "Jason Sanders",
+    "pos": "K",
+    "years": "2023-2026",
+    "g": 23,
+    "gs": 15,
+    "pts": 107.9,
+    "best": 14.9,
+    "wins": 6,
+    "vor": -18.97,
+    "war": -0.22
+   },
+   {
     "player": "2133",
     "name": "Davante Adams",
     "pos": "WR",
@@ -344,24 +357,11 @@
     "war": -0.28
    },
    {
-    "player": "5119",
-    "name": "Jason Sanders",
-    "pos": "K",
-    "years": "2023-2024",
-    "g": 22,
-    "gs": 14,
-    "pts": 93.0,
-    "best": 13.0,
-    "wins": 6,
-    "vor": -24.08,
-    "war": -0.28
-   },
-   {
     "player": "11620",
     "name": "Rome Odunze",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 22,
+    "g": 23,
     "gs": 12,
     "pts": 91.4,
     "best": 20.6,
@@ -429,26 +429,26 @@
      "name": "Patrick Mahomes",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 22,
-     "pts": 431.46,
-     "best": 31.48,
+     "g": 27,
+     "gs": 23,
+     "pts": 467.08,
+     "best": 35.62,
      "wins": 12,
-     "vor": 163.94,
-     "war": 1.94
+     "vor": 203.13,
+     "war": 2.4
     },
     {
      "player": "7523",
      "name": "Trevor Lawrence",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 21,
-     "pts": 421.6,
+     "g": 27,
+     "gs": 22,
+     "pts": 448.78,
      "best": 44.3,
      "wins": 11,
-     "vor": 165.56,
-     "war": 1.96
+     "vor": 196.31,
+     "war": 2.32
     },
     {
      "player": "4943",
@@ -470,13 +470,13 @@
      "name": "Bijan Robinson",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 55,
-     "pts": 1036.6,
+     "g": 61,
+     "gs": 56,
+     "pts": 1055.9,
      "best": 38.2,
      "wins": 23,
-     "vor": 512.42,
-     "war": 6.06
+     "vor": 515.02,
+     "war": 6.09
     },
     {
      "player": "8136",
@@ -501,8 +501,8 @@
      "pts": 308.3,
      "best": 33.6,
      "wins": 11,
-     "vor": 135.44,
-     "war": 1.6
+     "vor": 131.99,
+     "war": 1.56
     }
    ],
    "WR": [
@@ -511,26 +511,26 @@
      "name": "Chris Olave",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 54,
-     "gs": 34,
-     "pts": 513.4,
+     "g": 55,
+     "gs": 35,
+     "pts": 519.4,
      "best": 36.8,
      "wins": 15,
-     "vor": 135.29,
-     "war": 1.6
+     "vor": 130.97,
+     "war": 1.55
     },
     {
      "player": "11632",
      "name": "Malik Nabers",
      "pos": "WR",
      "years": "2024-2026",
-     "g": 43,
-     "gs": 25,
-     "pts": 423.4,
+     "g": 44,
+     "gs": 26,
+     "pts": 432.3,
      "best": 39.2,
      "wins": 14,
-     "vor": 146.34,
-     "war": 1.73
+     "vor": 144.92,
+     "war": 1.71
     },
     {
      "player": "9502",
@@ -552,13 +552,13 @@
      "name": "Dalton Kincaid",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 38,
-     "pts": 310.3,
+     "g": 61,
+     "gs": 39,
+     "pts": 318.1,
      "best": 22.5,
      "wins": 16,
-     "vor": -63.72,
-     "war": -0.75
+     "vor": -64.64,
+     "war": -0.76
     },
     {
      "player": "10859",
@@ -605,14 +605,14 @@
      "player": "5119",
      "name": "Jason Sanders",
      "pos": "K",
-     "years": "2023-2024",
-     "g": 22,
-     "gs": 14,
-     "pts": 93.0,
-     "best": 13.0,
+     "years": "2023-2026",
+     "g": 23,
+     "gs": 15,
+     "pts": 107.9,
+     "best": 14.9,
      "wins": 6,
-     "vor": -24.08,
-     "war": -0.28
+     "vor": -18.97,
+     "war": -0.22
     },
     {
      "player": "6650",
@@ -643,6 +643,19 @@
      "war": -0.06
     },
     {
+     "player": "MIN",
+     "name": "Minnesota Vikings",
+     "pos": "DEF",
+     "years": "2026",
+     "g": 6,
+     "gs": 6,
+     "pts": 59.0,
+     "best": 21.0,
+     "wins": 2,
+     "vor": 12.32,
+     "war": 0.15
+    },
+    {
      "player": "CIN",
      "name": "Cincinnati Bengals",
      "pos": "DEF",
@@ -654,19 +667,6 @@
      "wins": 3,
      "vor": -26.24,
      "war": -0.31
-    },
-    {
-     "player": "LV",
-     "name": "Las Vegas Raiders",
-     "pos": "DEF",
-     "years": "2023",
-     "g": 6,
-     "gs": 6,
-     "pts": 52.0,
-     "best": 18.0,
-     "wins": 4,
-     "vor": 8.14,
-     "war": 0.1
     }
    ]
   }
@@ -678,13 +678,13 @@
    "name": "Patrick Mahomes",
    "pos": "QB",
    "years": "2025-2026",
-   "g": 26,
-   "gs": 22,
-   "pts": 431.46,
-   "best": 31.48,
+   "g": 27,
+   "gs": 23,
+   "pts": 467.08,
+   "best": 35.62,
    "wins": 12,
-   "vor": 163.94,
-   "war": 1.94
+   "vor": 203.13,
+   "war": 2.4
   },
   {
    "slot": "RB",
@@ -692,13 +692,13 @@
    "name": "Bijan Robinson",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 55,
-   "pts": 1036.6,
+   "g": 61,
+   "gs": 56,
+   "pts": 1055.9,
    "best": 38.2,
    "wins": 23,
-   "vor": 512.42,
-   "war": 6.06
+   "vor": 515.02,
+   "war": 6.09
   },
   {
    "slot": "RB",
@@ -720,13 +720,13 @@
    "name": "Chris Olave",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 54,
-   "gs": 34,
-   "pts": 513.4,
+   "g": 55,
+   "gs": 35,
+   "pts": 519.4,
    "best": 36.8,
    "wins": 15,
-   "vor": 135.29,
-   "war": 1.6
+   "vor": 130.97,
+   "war": 1.55
   },
   {
    "slot": "WR",
@@ -734,13 +734,13 @@
    "name": "Malik Nabers",
    "pos": "WR",
    "years": "2024-2026",
-   "g": 43,
-   "gs": 25,
-   "pts": 423.4,
+   "g": 44,
+   "gs": 26,
+   "pts": 432.3,
    "best": 39.2,
    "wins": 14,
-   "vor": 146.34,
-   "war": 1.73
+   "vor": 144.92,
+   "war": 1.71
   },
   {
    "slot": "TE",
@@ -748,13 +748,13 @@
    "name": "Dalton Kincaid",
    "pos": "TE",
    "years": "2023-2026",
-   "g": 60,
-   "gs": 38,
-   "pts": 310.3,
+   "g": 61,
+   "gs": 39,
+   "pts": 318.1,
    "best": 22.5,
    "wins": 16,
-   "vor": -63.72,
-   "war": -0.75
+   "vor": -64.64,
+   "war": -0.76
   },
   {
    "slot": "FLEX",
@@ -767,8 +767,8 @@
    "pts": 308.3,
    "best": 33.6,
    "wins": 11,
-   "vor": 135.44,
-   "war": 1.6
+   "vor": 131.99,
+   "war": 1.56
   },
   {
    "slot": "SUPER_FLEX",
@@ -776,13 +776,13 @@
    "name": "Trevor Lawrence",
    "pos": "QB",
    "years": "2025-2026",
-   "g": 26,
-   "gs": 21,
-   "pts": 421.6,
+   "g": 27,
+   "gs": 22,
+   "pts": 448.78,
    "best": 44.3,
    "wins": 11,
-   "vor": 165.56,
-   "war": 1.96
+   "vor": 196.31,
+   "war": 2.32
   },
   {
    "slot": "K",
@@ -899,6 +899,17 @@
    "game": "2025-06-6-9",
    "season": "2025",
    "week": 6,
+   "franchise": 9,
+   "team": "Clandestine Ball Busters"
+  },
+  {
+   "player": "4046",
+   "name": "Patrick Mahomes",
+   "pos": "QB",
+   "pts": 35.62,
+   "game": "2026-10-5-9",
+   "season": "2026",
+   "week": 10,
    "franchise": 9,
    "team": "Clandestine Ball Busters"
   },
@@ -1077,17 +1088,6 @@
    "week": 2,
    "franchise": 9,
    "team": "Clandestine Ball Busters"
-  },
-  {
-   "player": "11632",
-   "name": "Malik Nabers",
-   "pos": "WR",
-   "pts": 29.1,
-   "game": "2026-05-6-9",
-   "season": "2026",
-   "week": 5,
-   "franchise": 9,
-   "team": "Clandestine Ball Busters"
   }
  ],
  "records_held": [
@@ -1243,9 +1243,9 @@
    "season": "2026",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "games": 12,
-   "players": 5,
-   "lost": 1.79,
+   "games": 15,
+   "players": 6,
+   "lost": 0.68,
    "rank": 12,
    "of": 12
   }

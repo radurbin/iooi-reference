@@ -72,29 +72,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "SEA",
-   "g": 9,
+   "g": 10,
    "gs": 1,
    "pts": 6.5,
-   "bench_pts": 11.2,
+   "bench_pts": 22.6,
    "ppg": 6.5,
    "best": 6.5,
    "wins": 1,
    "paa": -10.2,
-   "vor": -3.3,
-   "war": -0.04
+   "vor": -3.99,
+   "war": -0.05
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 8,
   "pts": 101.95,
-  "bench_pts": 332.3,
+  "bench_pts": 343.7,
   "ppg": 12.74,
   "best": 25.7,
   "wins": 4,
   "paa": -9.25,
-  "vor": 25.64,
-  "war": 0.3
+  "vor": 24.95,
+  "war": 0.29
  },
  "nfl": [
   {
@@ -1118,8 +1118,8 @@
    "proj": 8.77,
    "won": true,
    "paa": -10.2,
-   "vor": -3.3,
-   "war": -0.03900198454745103
+   "vor": -3.99,
+   "war": -0.047156944952827164
   },
   {
    "season": "2026",
@@ -1136,53 +1136,69 @@
    "pts": 11.2,
    "proj": 11.01,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 11.4,
+   "proj": 13.78,
+   "won": false
   }
  ],
  "similar": [
   {
+   "player": "11586",
+   "name": "Blake Corum",
+   "score": 935,
+   "gs": 9,
+   "pts": 105.8,
+   "ppg": 11.76,
+   "war": 0.16
+  },
+  {
    "player": "8143",
    "name": "Jerome Ford",
-   "score": 920,
+   "score": 921,
    "gs": 12,
    "pts": 149.7,
    "ppg": 12.47,
    "war": 0.32
   },
   {
-   "player": "8408",
-   "name": "Jordan Mason",
-   "score": 916,
-   "gs": 10,
-   "pts": 115.0,
-   "ppg": 11.5,
-   "war": 0.27
-  },
-  {
    "player": "12534",
    "name": "Kyle Monangai",
-   "score": 911,
+   "score": 913,
    "gs": 12,
    "pts": 144.7,
    "ppg": 12.06,
-   "war": 0.43
+   "war": 0.4
   },
   {
    "player": "12529",
    "name": "TreVeyon Henderson",
-   "score": 888,
+   "score": 889,
    "gs": 12,
    "pts": 136.4,
    "ppg": 11.37,
-   "war": 0.38
+   "war": 0.37
   },
   {
-   "player": "12490",
-   "name": "Bhayshul Tuten",
-   "score": 886,
+   "player": "8408",
+   "name": "Jordan Mason",
+   "score": 889,
    "gs": 11,
-   "pts": 154.9,
-   "ppg": 14.08,
-   "war": 0.6
+   "pts": 122.5,
+   "ppg": 11.14,
+   "war": 0.22
   }
  ],
  "status": {
@@ -1197,8 +1213,8 @@
    "stat": "Points",
    "value": 101.95,
    "digits": 2,
-   "rank": 220,
-   "of": 420
+   "rank": 221,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1206,26 +1222,26 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 239,
-   "of": 420
+   "rank": 242,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.3,
+   "value": 0.29,
    "digits": 2,
-   "rank": 144,
-   "of": 420
+   "rank": 148,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 25.6,
+   "value": 24.9,
    "digits": 1,
-   "rank": 144,
-   "of": 420
+   "rank": 148,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1233,8 +1249,8 @@
    "stat": "PAA",
    "value": -9.2,
    "digits": 1,
-   "rank": 201,
-   "of": 420
+   "rank": 204,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1242,8 +1258,8 @@
    "stat": "Best Game",
    "value": 25.7,
    "digits": 2,
-   "rank": 154,
-   "of": 420
+   "rank": 155,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1258,10 +1274,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 332.3,
+   "value": 343.7,
    "digits": 2,
-   "rank": 10,
-   "of": 511
+   "rank": 9,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1269,7 +1285,7 @@
    "stat": "Points",
    "value": 101.95,
    "digits": 2,
-   "rank": 52,
+   "rank": 53,
    "of": 100
   },
   {
@@ -1278,16 +1294,16 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 56,
+   "rank": 57,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.3,
+   "value": 0.29,
    "digits": 2,
-   "rank": 45,
+   "rank": 44,
    "of": 100
   },
   {
@@ -1296,8 +1312,8 @@
    "stat": "Points",
    "value": 15.85,
    "digits": 2,
-   "rank": 47,
-   "of": 67,
+   "rank": 48,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1306,18 +1322,18 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 39,
-   "of": 67,
+   "rank": 40,
+   "of": 69,
    "franchise": 8
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.03,
+   "value": -0.04,
    "digits": 2,
-   "rank": 38,
-   "of": 67,
+   "rank": 42,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1436,8 +1452,8 @@
    "stat": "Points",
    "value": 6.5,
    "digits": 2,
-   "rank": 204,
-   "of": 233,
+   "rank": 211,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1456,8 +1472,8 @@
    "stat": "Points, 2024",
    "value": 59.4,
    "digits": 2,
-   "rank": 505,
-   "of": 1010,
+   "rank": 516,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1466,8 +1482,8 @@
    "stat": "Points, 2023",
    "value": 26.7,
    "digits": 2,
-   "rank": 695,
-   "of": 1010,
+   "rank": 700,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1476,8 +1492,8 @@
    "stat": "Points, 2025",
    "value": 9.35,
    "digits": 2,
-   "rank": 869,
-   "of": 1010,
+   "rank": 875,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1486,16 +1502,16 @@
    "stat": "Points, 2026",
    "value": 6.5,
    "digits": 2,
-   "rank": 909,
-   "of": 1010,
+   "rank": 916,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 5.0,
-  "rank": 197,
-  "of": 420,
-  "war": 3.0,
+  "score": 4.9,
+  "rank": 201,
+  "of": 424,
+  "war": 2.9,
   "starts": 2.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1793,12 +1809,17 @@
    [
     "2026",
     8,
-    5.0
+    4.9
    ],
    [
     "2026",
     9,
-    5.0
+    4.9
+   ],
+   [
+    "2026",
+    10,
+    4.9
    ]
   ],
   "benchmark": 100
@@ -1861,7 +1882,7 @@
     "season": "2026",
     "nfl": "SEA",
     "missed": 7,
-    "lost": 6.3,
+    "lost": 1.47,
     "injuries": [
      "Knee"
     ],
@@ -2004,7 +2025,7 @@
      }
     ],
     "rostered": 7,
-    "lost": 6.3
+    "lost": 1.47
    }
   ],
   "now": null

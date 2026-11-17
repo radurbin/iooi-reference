@@ -75,7 +75,7 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "MIN",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 88.8,
@@ -88,7 +88,7 @@
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 17,
   "pts": 226.9,
   "bench_pts": 278.8,
@@ -1177,22 +1177,47 @@
    "pts": 8.8,
    "proj": 11.12,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 919,
+   "score": 920,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
    "war": 0.76
   },
   {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 878,
+   "gs": 16,
+   "pts": 191.95,
+   "ppg": 12.0,
+   "war": 0.6
+  },
+  {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 853,
+   "score": 852,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
@@ -1201,25 +1226,16 @@
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 846,
+   "score": 844,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
    "war": 0.54
   },
   {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 845,
-   "gs": 15,
-   "pts": 175.85,
-   "ppg": 11.72,
-   "war": 0.51
-  },
-  {
    "player": "4144",
    "name": "Jonnu Smith",
-   "score": 815,
+   "score": 817,
    "gs": 10,
    "pts": 133.2,
    "ppg": 13.32,
@@ -1238,8 +1254,8 @@
    "stat": "Points",
    "value": 226.9,
    "digits": 2,
-   "rank": 135,
-   "of": 420
+   "rank": 139,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1247,8 +1263,8 @@
    "stat": "Games Started",
    "value": 17,
    "digits": 0,
-   "rank": 163,
-   "of": 420
+   "rank": 165,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1256,8 +1272,8 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 101,
-   "of": 420
+   "rank": 104,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1265,8 +1281,8 @@
    "stat": "VOR",
    "value": 52.1,
    "digits": 1,
-   "rank": 101,
-   "of": 420
+   "rank": 104,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1274,8 +1290,8 @@
    "stat": "PAA",
    "value": 43.6,
    "digits": 1,
-   "rank": 55,
-   "of": 420
+   "rank": 54,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1283,8 +1299,8 @@
    "stat": "Best Game",
    "value": 30.4,
    "digits": 2,
-   "rank": 102,
-   "of": 420
+   "rank": 103,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1301,8 +1317,8 @@
    "stat": "Bench Points",
    "value": 278.8,
    "digits": 2,
-   "rank": 18,
-   "of": 511
+   "rank": 19,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1437,8 +1453,8 @@
    "stat": "Points, 2023",
    "value": 219.0,
    "digits": 2,
-   "rank": 93,
-   "of": 1010,
+   "rank": 96,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1447,8 +1463,8 @@
    "stat": "Points, 2025",
    "value": 4.6,
    "digits": 2,
-   "rank": 936,
-   "of": 1010,
+   "rank": 942,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1457,15 +1473,15 @@
    "stat": "Points, 2024",
    "value": 3.3,
    "digits": 2,
-   "rank": 949,
-   "of": 1010,
+   "rank": 955,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 17.45,
-  "rank": 84,
-  "of": 420,
+  "rank": 85,
+  "of": 424,
   "war": 6.2,
   "starts": 4.25,
   "black_ink": 1.0,
@@ -1770,6 +1786,11 @@
     "2026",
     9,
     17.45
+   ],
+   [
+    "2026",
+    10,
+    17.45
    ]
   ],
   "benchmark": 100
@@ -1913,7 +1934,7 @@
     "season": "2026",
     "nfl": "MIN",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 2.38,
     "injuries": [
      "Wrist"
     ],
@@ -1923,14 +1944,14 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 10,
       "kind": "Out",
       "injury": "Wrist",
-      "franchise": null,
-      "team": null
+      "franchise": 1,
+      "team": "Mojo Dojo Casa Team 💍"
      }
     ]
    }
@@ -2021,9 +2042,14 @@
     "kinds": [
      "Out"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 1,
+      "team": "Mojo Dojo Casa Team 💍"
+     }
+    ],
+    "rostered": 1,
+    "lost": 2.38
    }
   ],
   "now": {

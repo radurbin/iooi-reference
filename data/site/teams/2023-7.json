@@ -959,10 +959,10 @@
    "original": 7,
    "player": "3294",
    "pos": "QB",
-   "starts_team": 44,
-   "pts_team": 848.2,
-   "starts_league": 44,
-   "pts_league": 848.2,
+   "starts_team": 45,
+   "pts_team": 883.02,
+   "starts_league": 45,
+   "pts_league": 883.02,
    "nfl_pts": 955.04
   },
   {
@@ -1037,8 +1037,8 @@
    "pos": "WR",
    "starts_team": 1,
    "pts_team": 0.0,
-   "starts_league": 48,
-   "pts_league": 651.15,
+   "starts_league": 49,
+   "pts_league": 668.05,
    "nfl_pts": 740.43
   },
   {
@@ -1056,8 +1056,8 @@
    "pos": "TE",
    "starts_team": 12,
    "pts_team": 95.7,
-   "starts_league": 21,
-   "pts_league": 159.5,
+   "starts_league": 22,
+   "pts_league": 163.9,
    "nfl_pts": 273.7
   },
   {
@@ -1132,8 +1132,8 @@
    "pos": "K",
    "starts_team": 29,
    "pts_team": 209.0,
-   "starts_league": 38,
-   "pts_league": 312.1,
+   "starts_league": 39,
+   "pts_league": 319.1,
    "nfl_pts": 435.1
   },
   {
@@ -1322,8 +1322,8 @@
    "pos": "DEF",
    "starts_team": 12,
    "pts_team": 70.0,
-   "starts_league": 37,
-   "pts_league": 216.0,
+   "starts_league": 38,
+   "pts_league": 220.0,
    "nfl_pts": 395.0
   }
  ],
@@ -1378,31 +1378,31 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 792,
+   "score": 790,
    "w": 6,
-   "l": 3,
-   "ppg": 143.7,
+   "l": 4,
+   "ppg": 142.2,
    "result": null
-  },
-  {
-   "season": "2024",
-   "franchise": 2,
-   "team": "Storm FC",
-   "score": 775,
-   "w": 9,
-   "l": 5,
-   "ppg": 131.74,
-   "result": "5th"
   },
   {
    "season": "2025",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "score": 772,
+   "score": 778,
    "w": 9,
    "l": 5,
    "ppg": 130.17,
    "result": "6th"
+  },
+  {
+   "season": "2024",
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 776,
+   "w": 9,
+   "l": 5,
+   "ppg": 131.74,
+   "result": "5th"
   },
   {
    "season": "2023",
@@ -1587,8 +1587,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 25,
-   "pts": 146.0,
+   "gs": 26,
+   "pts": 150.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },

@@ -1274,9 +1274,9 @@
    "original": 3,
    "player": "11560",
    "pos": "QB",
-   "starts_team": 36,
+   "starts_team": 37,
    "pts_team": 611.02,
-   "starts_league": 36,
+   "starts_league": 37,
    "pts_league": 611.02,
    "nfl_pts": 660.16
   },
@@ -1293,9 +1293,9 @@
    "original": 10,
    "player": "11624",
    "pos": "WR",
-   "starts_team": 11,
+   "starts_team": 12,
    "pts_team": 81.9,
-   "starts_league": 17,
+   "starts_league": 18,
    "pts_league": 160.8,
    "nfl_pts": 366.9
   },
@@ -1312,10 +1312,10 @@
    "original": 3,
    "player": "11586",
    "pos": "RB",
-   "starts_team": 8,
-   "pts_team": 83.2,
-   "starts_league": 8,
-   "pts_league": 83.2,
+   "starts_team": 9,
+   "pts_team": 105.8,
+   "starts_league": 9,
+   "pts_league": 105.8,
    "nfl_pts": 270.4
   },
   {
@@ -1368,7 +1368,7 @@
    "season": "2023",
    "franchise": 4,
    "team": "Cooper Scoopers",
-   "score": 883,
+   "score": 887,
    "w": 6,
    "l": 8,
    "ppg": 122.34,
@@ -1388,31 +1388,31 @@
    "season": "2026",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "score": 840,
+   "score": 791,
    "w": 5,
-   "l": 4,
-   "ppg": 137.23,
-   "result": null
-  },
-  {
-   "season": "2026",
-   "franchise": 11,
-   "team": "BubbaNASTIES",
-   "score": 770,
-   "w": 4,
    "l": 5,
-   "ppg": 132.62,
+   "ppg": 140.28,
    "result": null
   },
   {
    "season": "2024",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "score": 764,
+   "score": 766,
    "w": 5,
    "l": 9,
    "ppg": 124.17,
    "result": "7th"
+  },
+  {
+   "season": "2025",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "score": 762,
+   "w": 7,
+   "l": 7,
+   "ppg": 130.72,
+   "result": "8th"
   }
  ],
  "pickups": [
@@ -1835,7 +1835,7 @@
     "elis"
    ],
    "until": null,
-   "g": 28,
+   "g": 29,
    "gs": 6,
    "pts": 45.8,
    "wins": 0,
@@ -2135,8 +2135,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 10,
-   "pts": 118.9,
+   "gs": 11,
+   "pts": 147.1,
    "next": 8,
    "next_team": "BBL KIZZY"
   },
@@ -2149,8 +2149,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 4,
-   "pts": 43.0,
+   "gs": 5,
+   "pts": 50.5,
    "next": 8,
    "next_team": "BBL KIZZY"
   },
@@ -2163,8 +2163,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 5,
-   "pts": 40.0,
+   "gs": 6,
+   "pts": 47.7,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2191,8 +2191,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 7,
-   "pts": 65.9,
+   "gs": 8,
+   "pts": 74.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2275,8 +2275,8 @@
    "managers": [
     "elis"
    ],
-   "gs": 17,
-   "pts": 177.0,
+   "gs": 18,
+   "pts": 189.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },

@@ -941,16 +941,16 @@
   {
    "player": "7002",
    "name": "Juwan Johnson",
-   "score": 974,
-   "gs": 8,
-   "pts": 68.5,
-   "ppg": 8.56,
-   "war": -0.05
+   "score": 977,
+   "gs": 9,
+   "pts": 73.3,
+   "ppg": 8.14,
+   "war": -0.1
   },
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 927,
+   "score": 928,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
@@ -966,22 +966,22 @@
    "war": -0.18
   },
   {
-   "player": "7600",
-   "name": "Pat Freiermuth",
-   "score": 760,
-   "gs": 18,
-   "pts": 167.8,
-   "ppg": 9.32,
-   "war": -0.12
-  },
-  {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 738,
+   "score": 737,
    "gs": 12,
    "pts": 131.4,
    "ppg": 10.95,
    "war": 0.3
+  },
+  {
+   "player": "7600",
+   "name": "Pat Freiermuth",
+   "score": 737,
+   "gs": 19,
+   "pts": 179.3,
+   "ppg": 9.44,
+   "war": -0.09
   }
  ],
  "status": {
@@ -996,7 +996,7 @@
    "value": 66.3,
    "digits": 2,
    "rank": 249,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1004,8 +1004,8 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 239,
-   "of": 420
+   "rank": 242,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1013,8 +1013,8 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 297,
-   "of": 420
+   "rank": 296,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1022,8 +1022,8 @@
    "stat": "VOR",
    "value": -9.0,
    "digits": 1,
-   "rank": 299,
-   "of": 420
+   "rank": 298,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1031,8 +1031,8 @@
    "stat": "PAA",
    "value": -20.1,
    "digits": 1,
-   "rank": 288,
-   "of": 420
+   "rank": 286,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1040,8 +1040,8 @@
    "stat": "Best Game",
    "value": 20.6,
    "digits": 2,
-   "rank": 218,
-   "of": 420
+   "rank": 221,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1049,7 +1049,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 8.29,
    "digits": 2,
-   "rank": 204,
+   "rank": 202,
    "of": 256
   },
   {
@@ -1058,8 +1058,8 @@
    "stat": "Bench Points",
    "value": 218.4,
    "digits": 2,
-   "rank": 39,
-   "of": 511
+   "rank": 40,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1076,7 +1076,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 25,
+   "rank": 26,
    "of": 52
   },
   {
@@ -1085,7 +1085,7 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 33,
+   "rank": 34,
    "of": 52
   },
   {
@@ -1174,8 +1174,8 @@
    "stat": "Points, 2025",
    "value": 40.3,
    "digits": 2,
-   "rank": 620,
-   "of": 1010,
+   "rank": 628,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1184,15 +1184,15 @@
    "stat": "Points, 2024",
    "value": 26.0,
    "digits": 2,
-   "rank": 699,
-   "of": 1010,
+   "rank": 706,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 2.0,
-  "rank": 257,
-  "of": 420,
+  "rank": 261,
+  "of": 424,
   "war": 0.0,
   "starts": 2.0,
   "black_ink": 0.0,
@@ -1476,6 +1476,11 @@
    [
     "2026",
     9,
+    2.0
+   ],
+   [
+    "2026",
+    10,
     2.0
    ]
   ],

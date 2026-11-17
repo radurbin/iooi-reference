@@ -88,29 +88,29 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "BUF",
-   "g": 9,
-   "gs": 5,
-   "pts": 40.4,
+   "g": 10,
+   "gs": 6,
+   "pts": 59.9,
    "bench_pts": 21.0,
-   "ppg": 8.08,
-   "best": 16.7,
+   "ppg": 9.98,
+   "best": 19.5,
    "wins": 3,
-   "paa": -29.93,
-   "vor": -11.2,
-   "war": -0.13
+   "paa": -23.65,
+   "vor": -2.02,
+   "war": -0.02
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 42,
-  "pts": 569.38,
+  "g": 61,
+  "gs": 43,
+  "pts": 588.88,
   "bench_pts": 129.5,
-  "ppg": 13.56,
+  "ppg": 13.69,
   "best": 49.0,
   "wins": 17,
-  "paa": -6.69,
-  "vor": 85.48,
-  "war": 1.01
+  "paa": -0.41,
+  "vor": 94.66,
+  "war": 1.12
  },
  "nfl": [
   {
@@ -1288,13 +1288,32 @@
    "paa": -6.94,
    "vor": -3.62,
    "war": -0.042783995170234165
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": "WR",
+   "started": true,
+   "pts": 19.5,
+   "proj": 12.06,
+   "won": false,
+   "paa": 6.28,
+   "vor": 9.18,
+   "war": 0.10849642974109105
   }
  ],
  "similar": [
   {
    "player": "7525",
    "name": "DeVonta Smith",
-   "score": 936,
+   "score": 969,
    "gs": 43,
    "pts": 598.8,
    "ppg": 13.93,
@@ -1303,38 +1322,38 @@
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 896,
-   "gs": 38,
-   "pts": 539.5,
-   "ppg": 14.2,
-   "war": 1.23
+   "score": 902,
+   "gs": 39,
+   "pts": 555.1,
+   "ppg": 14.23,
+   "war": 1.29
+  },
+  {
+   "player": "8144",
+   "name": "Chris Olave",
+   "score": 885,
+   "gs": 41,
+   "pts": 598.8,
+   "ppg": 14.6,
+   "war": 1.61
   },
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 874,
-   "gs": 37,
-   "pts": 493.7,
-   "ppg": 13.34,
-   "war": 0.98
-  },
-  {
-   "player": "5872",
-   "name": "Deebo Samuel Sr.",
-   "score": 860,
-   "gs": 36,
-   "pts": 503.25,
-   "ppg": 13.98,
-   "war": 1.04
+   "score": 866,
+   "gs": 38,
+   "pts": 505.1,
+   "ppg": 13.29,
+   "war": 0.99
   },
   {
    "player": "8112",
    "name": "Drake London",
-   "score": 846,
-   "gs": 48,
-   "pts": 651.15,
-   "ppg": 13.57,
-   "war": 1.29
+   "score": 852,
+   "gs": 49,
+   "pts": 668.05,
+   "ppg": 13.63,
+   "war": 1.37
   }
  ],
  "status": {
@@ -1347,46 +1366,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 569.38,
+   "value": 588.88,
    "digits": 2,
-   "rank": 48,
-   "of": 420
+   "rank": 47,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 42,
+   "value": 43,
    "digits": 0,
-   "rank": 43,
-   "of": 420
+   "rank": 40,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.01,
+   "value": 1.12,
    "digits": 2,
-   "rank": 76,
-   "of": 420
+   "rank": 73,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 85.5,
+   "value": 94.7,
    "digits": 1,
-   "rank": 76,
-   "of": 420
+   "rank": 73,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -6.7,
+   "value": -0.4,
    "digits": 1,
-   "rank": 178,
-   "of": 420
+   "rank": 134,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1395,15 +1414,15 @@
    "value": 49.0,
    "digits": 2,
    "rank": 5,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 13.56,
+   "value": 13.69,
    "digits": 2,
-   "rank": 95,
+   "rank": 92,
    "of": 256
   },
   {
@@ -1412,35 +1431,35 @@
    "stat": "Bench Points",
    "value": 129.5,
    "digits": 2,
-   "rank": 127,
-   "of": 511
+   "rank": 130,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 569.38,
+   "value": 588.88,
    "digits": 2,
-   "rank": 16,
-   "of": 126
+   "rank": 15,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 42,
+   "value": 43,
    "digits": 0,
-   "rank": 9,
-   "of": 126
+   "rank": 7,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.01,
+   "value": 1.12,
    "digits": 2,
-   "rank": 22,
-   "of": 126
+   "rank": 21,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1448,8 +1467,8 @@
    "stat": "Points",
    "value": 34.6,
    "digits": 2,
-   "rank": 33,
-   "of": 67,
+   "rank": 34,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1458,8 +1477,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 39,
-   "of": 67,
+   "rank": 40,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1468,8 +1487,8 @@
    "stat": "WAR",
    "value": 0.13,
    "digits": 2,
-   "rank": 23,
-   "of": 67,
+   "rank": 24,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1489,7 +1508,7 @@
    "value": 387.7,
    "digits": 2,
    "rank": 5,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1498,8 +1517,8 @@
    "stat": "Games Started",
    "value": 25,
    "digits": 0,
-   "rank": 8,
-   "of": 48,
+   "rank": 9,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1508,8 +1527,8 @@
    "stat": "WAR",
    "value": 1.0,
    "digits": 2,
-   "rank": 3,
-   "of": 48,
+   "rank": 4,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1526,9 +1545,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points",
-   "value": 147.08,
+   "value": 166.58,
    "digits": 2,
-   "rank": 18,
+   "rank": 17,
    "of": 76,
    "franchise": 2
   },
@@ -1536,7 +1555,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Games Started",
-   "value": 15,
+   "value": 16,
    "digits": 0,
    "rank": 13,
    "of": 76,
@@ -1546,9 +1565,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.01,
    "digits": 2,
-   "rank": 66,
+   "rank": 42,
    "of": 76,
    "franchise": 2
   },
@@ -1556,7 +1575,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points, WRs",
-   "value": 147.08,
+   "value": 166.58,
    "digits": 2,
    "rank": 4,
    "of": 19,
@@ -1626,20 +1645,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 40.4,
+   "value": 59.9,
    "digits": 2,
-   "rank": 126,
-   "of": 233,
+   "rank": 101,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 40.4,
+   "value": 59.9,
    "digits": 2,
-   "rank": 32,
-   "of": 62,
+   "rank": 28,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1648,8 +1667,8 @@
    "stat": "Points, 2023",
    "value": 266.9,
    "digits": 2,
-   "rank": 47,
-   "of": 1010,
+   "rank": 48,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1658,8 +1677,8 @@
    "stat": "Points, 2024",
    "value": 155.4,
    "digits": 2,
-   "rank": 217,
-   "of": 1010,
+   "rank": 226,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1668,27 +1687,27 @@
    "stat": "Points, 2025",
    "value": 106.68,
    "digits": 2,
-   "rank": 340,
-   "of": 1010,
+   "rank": 344,
+   "of": 1019,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 40.4,
+   "value": 59.9,
    "digits": 2,
-   "rank": 619,
-   "of": 1010,
+   "rank": 513,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 20.6,
-  "rank": 74,
-  "of": 420,
-  "war": 10.1,
-  "starts": 10.5,
+  "score": 21.95,
+  "rank": 73,
+  "of": 424,
+  "war": 11.2,
+  "starts": 10.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1991,6 +2010,11 @@
     "2026",
     9,
     20.6
+   ],
+   [
+    "2026",
+    10,
+    21.95
    ]
   ],
   "benchmark": 100

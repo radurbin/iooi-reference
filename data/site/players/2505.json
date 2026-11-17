@@ -56,29 +56,29 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "CAR",
-   "g": 9,
-   "gs": 2,
-   "pts": 25.1,
+   "g": 10,
+   "gs": 3,
+   "pts": 29.5,
    "bench_pts": 51.8,
-   "ppg": 12.55,
+   "ppg": 9.83,
    "best": 23.0,
    "wins": 0,
-   "paa": 0.66,
-   "vor": 7.66,
-   "war": 0.09
+   "paa": -2.46,
+   "vor": 3.34,
+   "war": 0.04
   }
  ],
  "totals": {
-  "g": 43,
-  "gs": 21,
-  "pts": 159.5,
+  "g": 44,
+  "gs": 22,
+  "pts": 163.9,
   "bench_pts": 76.2,
-  "ppg": 7.6,
+  "ppg": 7.45,
   "best": 23.0,
   "wins": 8,
-  "paa": -67.12,
-  "vor": -45.78,
-  "war": -0.54
+  "paa": -70.24,
+  "vor": -50.1,
+  "war": -0.59
  },
  "nfl": [
   {
@@ -877,13 +877,32 @@
    "paa": 11.41,
    "vor": 14.28,
    "war": 0.1687722240416972
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-4-12",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": "TE",
+   "started": true,
+   "pts": 4.4,
+   "proj": 8.92,
+   "won": false,
+   "paa": -3.12,
+   "vor": -4.32,
+   "war": -0.05105714340757227
   }
  ],
  "similar": [
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 946,
+   "score": 964,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -892,38 +911,38 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 820,
-   "gs": 18,
-   "pts": 167.8,
-   "ppg": 9.32,
-   "war": -0.12
+   "score": 792,
+   "gs": 19,
+   "pts": 179.3,
+   "ppg": 9.44,
+   "war": -0.09
   },
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 758,
+   "score": 735,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
    "war": -0.08
   },
   {
+   "player": "7002",
+   "name": "Juwan Johnson",
+   "score": 710,
+   "gs": 9,
+   "pts": 73.3,
+   "ppg": 8.14,
+   "war": -0.1
+  },
+  {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 714,
+   "score": 697,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
    "war": -0.18
-  },
-  {
-   "player": "1339",
-   "name": "Zach Ertz",
-   "score": 711,
-   "gs": 8,
-   "pts": 66.3,
-   "ppg": 8.29,
-   "war": -0.11
   }
  ],
  "status": {
@@ -936,46 +955,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 159.5,
+   "value": 163.9,
    "digits": 2,
    "rank": 176,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 21,
+   "value": 22,
    "digits": 0,
-   "rank": 139,
-   "of": 420
+   "rank": 133,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.54,
+   "value": -0.59,
    "digits": 2,
-   "rank": 402,
-   "of": 420
+   "rank": 408,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -45.8,
+   "value": -50.1,
    "digits": 1,
-   "rank": 402,
-   "of": 420
+   "rank": 410,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -67.1,
+   "value": -70.2,
    "digits": 1,
-   "rank": 388,
-   "of": 420
+   "rank": 397,
+   "of": 424
   },
   {
    "group": "Career",
@@ -983,16 +1002,16 @@
    "stat": "Best Game",
    "value": 23.0,
    "digits": 2,
-   "rank": 192,
-   "of": 420
+   "rank": 193,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 7.6,
+   "value": 7.45,
    "digits": 2,
-   "rank": 218,
+   "rank": 220,
    "of": 256
   },
   {
@@ -1001,32 +1020,32 @@
    "stat": "Bench Points",
    "value": 76.2,
    "digits": 2,
-   "rank": 225,
-   "of": 511
+   "rank": 227,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Points",
-   "value": 159.5,
+   "value": 163.9,
    "digits": 2,
-   "rank": 20,
+   "rank": 19,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 21,
+   "value": 22,
    "digits": 0,
-   "rank": 13,
+   "rank": 12,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.54,
+   "value": -0.59,
    "digits": 2,
    "rank": 48,
    "of": 52
@@ -1035,9 +1054,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "Points",
-   "value": 63.8,
+   "value": 68.2,
    "digits": 2,
-   "rank": 29,
+   "rank": 28,
    "of": 82,
    "franchise": 4
   },
@@ -1045,9 +1064,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "Games Started",
-   "value": 9,
+   "value": 10,
    "digits": 0,
-   "rank": 24,
+   "rank": 21,
    "of": 82,
    "franchise": 4
   },
@@ -1055,9 +1074,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.25,
    "digits": 2,
-   "rank": 68,
+   "rank": 74,
    "of": 82,
    "franchise": 4
   },
@@ -1065,7 +1084,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "Points, TEs",
-   "value": 63.8,
+   "value": 68.2,
    "digits": 2,
    "rank": 2,
    "of": 12,
@@ -1078,7 +1097,7 @@
    "value": 95.7,
    "digits": 2,
    "rank": 21,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1088,7 +1107,7 @@
    "value": 12,
    "digits": 0,
    "rank": 18,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1097,8 +1116,8 @@
    "stat": "WAR",
    "value": -0.34,
    "digits": 2,
-   "rank": 51,
-   "of": 52,
+   "rank": 53,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1155,20 +1174,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 25.1,
+   "value": 29.5,
    "digits": 2,
-   "rank": 152,
-   "of": 233,
+   "rank": 150,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 TEs",
    "stat": "Points",
-   "value": 25.1,
+   "value": 29.5,
    "digits": 2,
    "rank": 18,
-   "of": 28,
+   "of": 29,
    "season": "2026"
   },
   {
@@ -1177,8 +1196,8 @@
    "stat": "Points, 2023",
    "value": 95.7,
    "digits": 2,
-   "rank": 362,
-   "of": 1010,
+   "rank": 371,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1187,27 +1206,27 @@
    "stat": "Points, 2025",
    "value": 38.7,
    "digits": 2,
-   "rank": 634,
-   "of": 1010,
+   "rank": 643,
+   "of": 1019,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 25.1,
+   "value": 29.5,
    "digits": 2,
-   "rank": 708,
-   "of": 1010,
+   "rank": 685,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 5.25,
-  "rank": 192,
-  "of": 420,
+  "score": 5.5,
+  "rank": 190,
+  "of": 424,
   "war": 0.0,
-  "starts": 5.25,
+  "starts": 5.5,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1510,6 +1529,11 @@
     "2026",
     9,
     5.25
+   ],
+   [
+    "2026",
+    10,
+    5.5
    ]
   ],
   "benchmark": 100

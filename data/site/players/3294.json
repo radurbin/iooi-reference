@@ -75,29 +75,29 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "DAL",
-   "g": 9,
-   "gs": 9,
-   "pts": 169.94,
+   "g": 10,
+   "gs": 10,
+   "pts": 204.76,
    "bench_pts": 0.0,
-   "ppg": 18.88,
-   "best": 30.16,
+   "ppg": 20.48,
+   "best": 34.82,
    "wins": 4,
-   "paa": 13.97,
-   "vor": 49.79,
-   "war": 0.59
+   "paa": 31.14,
+   "vor": 90.06,
+   "war": 1.06
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 44,
-  "pts": 848.2,
+  "g": 61,
+  "gs": 45,
+  "pts": 883.02,
   "bench_pts": 54.0,
-  "ppg": 19.28,
+  "ppg": 19.62,
   "best": 37.86,
   "wins": 25,
-  "paa": 118.91,
-  "vor": 276.57,
-  "war": 3.27
+  "paa": 136.08,
+  "vor": 316.84,
+  "war": 3.74
  },
  "nfl": [
   {
@@ -1072,8 +1072,8 @@
    "proj": 17.51,
    "won": false,
    "paa": -3.89,
-   "vor": 1.25,
-   "war": 0.014773478995246603
+   "vor": 3.13,
+   "war": 0.036992791404097496
   },
   {
    "season": "2026",
@@ -1091,8 +1091,8 @@
    "proj": 19.21,
    "won": false,
    "paa": 12.42,
-   "vor": 16.81,
-   "war": 0.19867374552807632
+   "vor": 18.69,
+   "war": 0.22089305793692723
   },
   {
    "season": "2026",
@@ -1110,8 +1110,8 @@
    "proj": 18.69,
    "won": false,
    "paa": 2.02,
-   "vor": 5.99,
-   "war": 0.07079451134522173
+   "vor": 7.87,
+   "war": 0.09301382375407262
   },
   {
    "season": "2026",
@@ -1129,8 +1129,8 @@
    "proj": 17.75,
    "won": true,
    "paa": 3.08,
-   "vor": 4.95,
-   "war": 0.058502976821176556
+   "vor": 6.83,
+   "war": 0.08072228923002744
   },
   {
    "season": "2026",
@@ -1148,8 +1148,8 @@
    "proj": 20.65,
    "won": true,
    "paa": -7.15,
-   "vor": -0.71,
-   "war": -0.00839133606930007
+   "vor": 1.17,
+   "war": 0.01382797633955082
   },
   {
    "season": "2026",
@@ -1167,8 +1167,8 @@
    "proj": 19.18,
    "won": false,
    "paa": -4.73,
-   "vor": -2.13,
-   "war": -0.025174008207900212
+   "vor": -0.25,
+   "war": -0.002954695799049321
   },
   {
    "season": "2026",
@@ -1186,8 +1186,8 @@
    "proj": 15.68,
    "won": false,
    "paa": 5.19,
-   "vor": 10.13,
-   "war": 0.11972427377747849
+   "vor": 12.01,
+   "war": 0.14194358618632938
   },
   {
    "season": "2026",
@@ -1205,8 +1205,8 @@
    "proj": 22.57,
    "won": true,
    "paa": 3.72,
-   "vor": 7.15,
-   "war": 0.08450429985281058
+   "vor": 9.03,
+   "war": 0.10672361226166147
   },
   {
    "season": "2026",
@@ -1224,55 +1224,74 @@
    "proj": 19.43,
    "won": true,
    "paa": 3.31,
-   "vor": 6.35,
-   "war": 0.07504927329585274
+   "vor": 8.23,
+   "war": 0.09726858570470365
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-7-11",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": "QB",
+   "started": true,
+   "pts": 34.82,
+   "proj": 18.23,
+   "won": false,
+   "paa": 17.17,
+   "vor": 23.35,
+   "war": 0.2759685876312066
   }
  ],
  "similar": [
   {
    "player": "8183",
    "name": "Brock Purdy",
-   "score": 945,
-   "gs": 46,
-   "pts": 893.06,
-   "ppg": 19.41,
-   "war": 3.43
-  },
-  {
-   "player": "3163",
-   "name": "Jared Goff",
-   "score": 913,
-   "gs": 48,
-   "pts": 892.1,
-   "ppg": 18.59,
-   "war": 3.34
-  },
-  {
-   "player": "4046",
-   "name": "Patrick Mahomes",
-   "score": 852,
-   "gs": 51,
-   "pts": 943.26,
-   "ppg": 18.5,
-   "war": 3.36
+   "score": 951,
+   "gs": 47,
+   "pts": 924.92,
+   "ppg": 19.68,
+   "war": 3.85
   },
   {
    "player": "4881",
    "name": "Lamar Jackson",
-   "score": 852,
+   "score": 918,
    "gs": 47,
    "pts": 944.6,
    "ppg": 20.1,
-   "war": 3.97
+   "war": 4.09
+  },
+  {
+   "player": "3163",
+   "name": "Jared Goff",
+   "score": 906,
+   "gs": 49,
+   "pts": 912.62,
+   "ppg": 18.62,
+   "war": 3.63
+  },
+  {
+   "player": "4046",
+   "name": "Patrick Mahomes",
+   "score": 854,
+   "gs": 52,
+   "pts": 978.88,
+   "ppg": 18.82,
+   "war": 3.82
   },
   {
    "player": "6770",
    "name": "Joe Burrow",
-   "score": 844,
-   "gs": 37,
-   "pts": 732.2,
-   "ppg": 19.79,
-   "war": 3.01
+   "score": 843,
+   "gs": 38,
+   "pts": 765.46,
+   "ppg": 20.14,
+   "war": 3.42
   }
  ],
  "status": {
@@ -1285,46 +1304,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 848.2,
+   "value": 883.02,
    "digits": 2,
-   "rank": 16,
-   "of": 420
+   "rank": 15,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 44,
+   "value": 45,
    "digits": 0,
-   "rank": 33,
-   "of": 420
+   "rank": 31,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.27,
+   "value": 3.74,
    "digits": 2,
-   "rank": 23,
-   "of": 420
+   "rank": 20,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 276.6,
+   "value": 316.8,
    "digits": 1,
-   "rank": 23,
-   "of": 420
+   "rank": 20,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 118.9,
+   "value": 136.1,
    "digits": 1,
-   "rank": 22,
-   "of": 420
+   "rank": 20,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1332,16 +1351,16 @@
    "stat": "Best Game",
    "value": 37.86,
    "digits": 2,
-   "rank": 42,
-   "of": 420
+   "rank": 43,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 19.28,
+   "value": 19.62,
    "digits": 2,
-   "rank": 13,
+   "rank": 11,
    "of": 256
   },
   {
@@ -1350,74 +1369,74 @@
    "stat": "Bench Points",
    "value": 54.0,
    "digits": 2,
-   "rank": 273,
-   "of": 511
+   "rank": 278,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 848.2,
-   "digits": 2,
-   "rank": 8,
-   "of": 66
-  },
-  {
-   "group": "Career",
-   "scope": "All QBs",
-   "stat": "Games Started",
-   "value": 44,
-   "digits": 0,
-   "rank": 11,
-   "of": 66
-  },
-  {
-   "group": "Career",
-   "scope": "All QBs",
-   "stat": "WAR",
-   "value": 3.27,
+   "value": 883.02,
    "digits": 2,
    "rank": 7,
-   "of": 66
+   "of": 68
+  },
+  {
+   "group": "Career",
+   "scope": "All QBs",
+   "stat": "Games Started",
+   "value": 45,
+   "digits": 0,
+   "rank": 11,
+   "of": 68
+  },
+  {
+   "group": "Career",
+   "scope": "All QBs",
+   "stat": "WAR",
+   "value": 3.74,
+   "digits": 2,
+   "rank": 6,
+   "of": 68
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points",
-   "value": 848.2,
+   "value": 883.02,
    "digits": 2,
    "rank": 2,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Games Started",
-   "value": 44,
+   "value": 45,
    "digits": 0,
    "rank": 1,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 3.28,
+   "value": 3.75,
    "digits": 2,
-   "rank": 3,
-   "of": 52,
+   "rank": 2,
+   "of": 54,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points, QBs",
-   "value": 848.2,
+   "value": 883.02,
    "digits": 2,
    "rank": 1,
-   "of": 4,
+   "of": 5,
    "franchise": 7
   },
   {
@@ -1484,20 +1503,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 169.94,
+   "value": 204.76,
    "digits": 2,
-   "rank": 16,
-   "of": 233,
+   "rank": 10,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 169.94,
+   "value": 204.76,
    "digits": 2,
-   "rank": 5,
-   "of": 36,
+   "rank": 4,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -1507,7 +1526,7 @@
    "value": 304.12,
    "digits": 2,
    "rank": 25,
-   "of": 1010,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1517,17 +1536,17 @@
    "value": 283.56,
    "digits": 2,
    "rank": 34,
-   "of": 1010,
+   "of": 1019,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 169.94,
+   "value": 204.76,
    "digits": 2,
-   "rank": 177,
-   "of": 1010,
+   "rank": 119,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1536,17 +1555,17 @@
    "stat": "Points, 2024",
    "value": 90.58,
    "digits": 2,
-   "rank": 377,
-   "of": 1010,
+   "rank": 386,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 50.7,
+  "score": 55.65,
   "rank": 19,
-  "of": 420,
-  "war": 32.7,
-  "starts": 11.0,
+  "of": 424,
+  "war": 37.4,
+  "starts": 11.25,
   "black_ink": 0.0,
   "awards": 7.0,
   "history": [
@@ -1808,47 +1827,52 @@
    [
     "2026",
     1,
-    43.0
+    43.2
    ],
    [
     "2026",
     2,
-    45.15
+    45.65
    ],
    [
     "2026",
     3,
-    46.1
+    46.8
    ],
    [
     "2026",
     4,
-    46.95
+    47.85
    ],
    [
     "2026",
     5,
-    47.1
+    48.3
    ],
    [
     "2026",
     6,
-    47.15
+    48.45
    ],
    [
     "2026",
     7,
-    48.6
+    50.1
    ],
    [
     "2026",
     8,
-    49.65
+    51.45
    ],
    [
     "2026",
     9,
-    50.7
+    52.7
+   ],
+   [
+    "2026",
+    10,
+    55.65
    ]
   ],
   "benchmark": 100
@@ -1859,7 +1883,7 @@
    "list": "Career Starts",
    "scope": 7,
    "rank": 1,
-   "value": "44",
+   "value": "45",
    "href": "franchise.html?id=7#all-time-leaders",
    "player": "3294",
    "franchise": 7

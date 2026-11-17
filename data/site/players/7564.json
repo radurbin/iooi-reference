@@ -78,29 +78,29 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "CIN",
-   "g": 9,
-   "gs": 8,
-   "pts": 164.7,
+   "g": 10,
+   "gs": 9,
+   "pts": 198.8,
    "bench_pts": 0.0,
-   "ppg": 20.59,
-   "best": 32.6,
-   "wins": 6,
-   "paa": 52.3,
-   "vor": 82.14,
-   "war": 0.97
+   "ppg": 22.09,
+   "best": 34.1,
+   "wins": 7,
+   "paa": 73.18,
+   "vor": 105.92,
+   "war": 1.25
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 48,
-  "pts": 964.52,
+  "g": 61,
+  "gs": 49,
+  "pts": 998.62,
   "bench_pts": 79.1,
-  "ppg": 20.09,
+  "ppg": 20.38,
   "best": 55.4,
-  "wins": 18,
-  "paa": 297.95,
-  "vor": 413.46,
-  "war": 4.89
+  "wins": 19,
+  "paa": 318.83,
+  "vor": 437.24,
+  "war": 5.17
  },
  "nfl": [
   {
@@ -1289,31 +1289,50 @@
    "paa": 17.86,
    "vor": 21.18,
    "war": 0.25032182809545844
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": "WR",
+   "started": true,
+   "pts": 34.1,
+   "proj": 19.96,
+   "won": true,
+   "paa": 20.88,
+   "vor": 23.78,
+   "war": 0.2810506644055714
   }
  ],
  "similar": [
   {
    "player": "6786",
    "name": "CeeDee Lamb",
-   "score": 921,
-   "gs": 50,
-   "pts": 964.9,
-   "ppg": 19.3,
-   "war": 4.69
+   "score": 892,
+   "gs": 51,
+   "pts": 985.1,
+   "ppg": 19.32,
+   "war": 4.8
   },
   {
    "player": "7547",
    "name": "Amon-Ra St. Brown",
-   "score": 867,
-   "gs": 53,
-   "pts": 1009.63,
-   "ppg": 19.05,
-   "war": 4.83
+   "score": 862,
+   "gs": 54,
+   "pts": 1035.43,
+   "ppg": 19.17,
+   "war": 5.02
   },
   {
    "player": "9493",
    "name": "Puka Nacua",
-   "score": 867,
+   "score": 827,
    "gs": 43,
    "pts": 893.6,
    "ppg": 20.78,
@@ -1322,20 +1341,20 @@
   {
    "player": "9488",
    "name": "Jaxon Smith-Njigba",
-   "score": 646,
-   "gs": 36,
-   "pts": 747.06,
-   "ppg": 20.75,
-   "war": 4.17
+   "score": 649,
+   "gs": 37,
+   "pts": 778.16,
+   "ppg": 21.03,
+   "war": 4.42
   },
   {
    "player": "6794",
    "name": "Justin Jefferson",
-   "score": 433,
-   "gs": 47,
-   "pts": 747.53,
-   "ppg": 15.9,
-   "war": 2.57
+   "score": 402,
+   "gs": 48,
+   "pts": 763.93,
+   "ppg": 15.92,
+   "war": 2.64
   }
  ],
  "status": {
@@ -1348,46 +1367,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 964.52,
+   "value": 998.62,
    "digits": 2,
-   "rank": 8,
-   "of": 420
+   "rank": 7,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 48,
+   "value": 49,
    "digits": 0,
    "rank": 18,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 4.89,
+   "value": 5.17,
    "digits": 2,
-   "rank": 6,
-   "of": 420
+   "rank": 5,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 413.5,
+   "value": 437.2,
    "digits": 1,
-   "rank": 6,
-   "of": 420
+   "rank": 5,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 297.9,
+   "value": 318.8,
    "digits": 1,
-   "rank": 5,
-   "of": 420
+   "rank": 4,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1396,15 +1415,15 @@
    "value": 55.4,
    "digits": 2,
    "rank": 1,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 20.09,
+   "value": 20.38,
    "digits": 2,
-   "rank": 7,
+   "rank": 6,
    "of": 256
   },
   {
@@ -1413,43 +1432,43 @@
    "stat": "Bench Points",
    "value": 79.1,
    "digits": 2,
-   "rank": 219,
-   "of": 511
+   "rank": 221,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 964.52,
+   "value": 998.62,
    "digits": 2,
-   "rank": 3,
-   "of": 126
+   "rank": 2,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 48,
+   "value": 49,
    "digits": 0,
    "rank": 3,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 4.89,
+   "value": 5.17,
    "digits": 2,
    "rank": 1,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Points",
-   "value": 164.7,
+   "value": 198.8,
    "digits": 2,
-   "rank": 17,
+   "rank": 13,
    "of": 68,
    "franchise": 3
   },
@@ -1457,9 +1476,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Games Started",
-   "value": 8,
+   "value": 9,
    "digits": 0,
-   "rank": 24,
+   "rank": 22,
    "of": 68,
    "franchise": 3
   },
@@ -1467,9 +1486,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 0.97,
+   "value": 1.25,
    "digits": 2,
-   "rank": 6,
+   "rank": 5,
    "of": 68,
    "franchise": 3
   },
@@ -1477,9 +1496,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Points, WRs",
-   "value": 164.7,
+   "value": 198.8,
    "digits": 2,
-   "rank": 6,
+   "rank": 5,
    "of": 12,
    "franchise": 3
   },
@@ -1490,7 +1509,7 @@
    "value": 799.82,
    "digits": 2,
    "rank": 1,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1500,7 +1519,7 @@
    "value": 40,
    "digits": 0,
    "rank": 4,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1510,7 +1529,7 @@
    "value": 3.92,
    "digits": 2,
    "rank": 1,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1587,20 +1606,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 164.7,
+   "value": 198.8,
    "digits": 2,
-   "rank": 21,
-   "of": 233,
+   "rank": 11,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 164.7,
+   "value": 198.8,
    "digits": 2,
-   "rank": 5,
-   "of": 62,
+   "rank": 3,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1610,7 +1629,7 @@
    "value": 358.2,
    "digits": 2,
    "rank": 7,
-   "of": 1010,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1619,9 +1638,19 @@
    "stat": "Points, 2023",
    "value": 246.42,
    "digits": 2,
-   "rank": 62,
-   "of": 1010,
+   "rank": 64,
+   "of": 1019,
    "season": "2023"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 198.8,
+   "digits": 2,
+   "rank": 131,
+   "of": 1019,
+   "season": "2026"
   },
   {
    "group": "Season",
@@ -1629,27 +1658,17 @@
    "stat": "Points, 2025",
    "value": 195.2,
    "digits": 2,
-   "rank": 132,
-   "of": 1010,
+   "rank": 139,
+   "of": 1019,
    "season": "2025"
-  },
-  {
-   "group": "Season",
-   "scope": "All single seasons",
-   "stat": "Points, 2026",
-   "value": 164.7,
-   "digits": 2,
-   "rank": 192,
-   "of": 1010,
-   "season": "2026"
   }
  ],
  "hof": {
-  "score": 87.9,
+  "score": 90.95,
   "rank": 4,
-  "of": 420,
-  "war": 48.9,
-  "starts": 12.0,
+  "of": 424,
+  "war": 51.7,
+  "starts": 12.25,
   "black_ink": 3.0,
   "awards": 24.0,
   "history": [
@@ -1952,6 +1971,11 @@
     "2026",
     9,
     87.9
+   ],
+   [
+    "2026",
+    10,
+    90.95
    ]
   ],
   "benchmark": 100

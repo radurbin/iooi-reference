@@ -40,7 +40,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "LAR",
-   "g": 9,
+   "g": 10,
    "gs": 1,
    "pts": 1.9,
    "bench_pts": 17.4,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 26,
+  "g": 27,
   "gs": 1,
   "pts": 1.9,
   "bench_pts": 69.5,
@@ -513,6 +513,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -527,8 +543,8 @@
    "stat": "Points",
    "value": 1.9,
    "digits": 2,
-   "rank": 403,
-   "of": 420
+   "rank": 405,
+   "of": 424
   },
   {
    "group": "Career",
@@ -536,8 +552,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 360,
-   "of": 420
+   "rank": 362,
+   "of": 424
   },
   {
    "group": "Career",
@@ -545,8 +561,8 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 272,
-   "of": 420
+   "rank": 269,
+   "of": 424
   },
   {
    "group": "Career",
@@ -554,8 +570,8 @@
    "stat": "VOR",
    "value": -6.8,
    "digits": 1,
-   "rank": 275,
-   "of": 420
+   "rank": 272,
+   "of": 424
   },
   {
    "group": "Career",
@@ -564,7 +580,7 @@
    "value": -10.8,
    "digits": 1,
    "rank": 221,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -572,8 +588,8 @@
    "stat": "Best Game",
    "value": 1.9,
    "digits": 2,
-   "rank": 401,
-   "of": 420
+   "rank": 403,
+   "of": 424
   },
   {
    "group": "Career",
@@ -581,8 +597,8 @@
    "stat": "Bench Points",
    "value": 69.5,
    "digits": 2,
-   "rank": 236,
-   "of": 511
+   "rank": 237,
+   "of": 515
   },
   {
    "group": "Career",
@@ -599,7 +615,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 44,
+   "rank": 45,
    "of": 52
   },
   {
@@ -608,7 +624,7 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 29,
+   "rank": 28,
    "of": 52
   },
   {
@@ -627,7 +643,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 55,
+   "rank": 56,
    "of": 76,
    "franchise": 2
   },
@@ -637,7 +653,7 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 57,
+   "rank": 58,
    "of": 76,
    "franchise": 2
   },
@@ -657,8 +673,8 @@
    "stat": "Points",
    "value": 1.9,
    "digits": 2,
-   "rank": 221,
-   "of": 233,
+   "rank": 227,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -667,8 +683,8 @@
    "stat": "Points",
    "value": 1.9,
    "digits": 2,
-   "rank": 26,
-   "of": 28,
+   "rank": 27,
+   "of": 29,
    "season": "2026"
   },
   {
@@ -677,16 +693,16 @@
    "stat": "Points, 2026",
    "value": 1.9,
    "digits": 2,
-   "rank": 976,
-   "of": 1010,
+   "rank": 982,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 369,
-  "of": 420,
+  "rank": 371,
+  "of": 424,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -821,6 +837,11 @@
     "2026",
     9,
     0.25
+   ],
+   [
+    "2026",
+    10,
+    0.25
    ]
   ],
   "benchmark": 100
@@ -849,7 +870,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 6,
+    "rostered": 7,
     "games": [
      {
       "week": 4,
@@ -897,8 +918,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Ankle",
-      "franchise": null,
-      "team": null
+      "franchise": 2,
+      "team": "Storm FC"
      }
     ]
    }
@@ -929,7 +950,7 @@
       "team": "Storm FC"
      }
     ],
-    "rostered": 6,
+    "rostered": 7,
     "lost": 0.0
    }
   ],

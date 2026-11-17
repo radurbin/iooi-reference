@@ -11,12 +11,29 @@
  "height": "71",
  "weight": "196",
  "drafted": null,
- "career": [],
+ "career": [
+  {
+   "season": "2026",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "nfl": "SF",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 6.9,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
+  }
+ ],
  "totals": {
-  "g": 0,
+  "g": 1,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 0.0,
+  "bench_pts": 6.9,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -52,13 +69,40 @@
   }
  ],
  "nicknames": [],
- "log": [],
+ "log": [
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 6.9,
+   "proj": 5.7,
+   "won": false
+  }
+ ],
  "status": {
   "code": "rostered",
   "franchise": 10
  },
  "split_draft": null,
- "ranks": [],
+ "ranks": [
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Bench Points",
+   "value": 6.9,
+   "digits": 2,
+   "rank": 460,
+   "of": 515
+  }
+ ],
  "similar": [],
  "hof": null,
  "black_ink": null,

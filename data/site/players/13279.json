@@ -24,7 +24,7 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "TEN",
-   "g": 9,
+   "g": 10,
    "gs": 7,
    "pts": 73.1,
    "bench_pts": 5.7,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 7,
   "pts": 73.1,
   "bench_pts": 5.7,
@@ -236,6 +236,22 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-4-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -250,8 +266,8 @@
    "stat": "Points",
    "value": 73.1,
    "digits": 2,
-   "rank": 241,
-   "of": 420
+   "rank": 243,
+   "of": 424
   },
   {
    "group": "Career",
@@ -260,7 +276,7 @@
    "value": 7,
    "digits": 0,
    "rank": 257,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -269,7 +285,7 @@
    "value": 0.01,
    "digits": 2,
    "rank": 215,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -277,8 +293,8 @@
    "stat": "VOR",
    "value": 0.9,
    "digits": 1,
-   "rank": 217,
-   "of": 420
+   "rank": 216,
+   "of": 424
   },
   {
    "group": "Career",
@@ -286,8 +302,8 @@
    "stat": "PAA",
    "value": -22.8,
    "digits": 1,
-   "rank": 294,
-   "of": 420
+   "rank": 295,
+   "of": 424
   },
   {
    "group": "Career",
@@ -295,8 +311,8 @@
    "stat": "Best Game",
    "value": 21.5,
    "digits": 2,
-   "rank": 203,
-   "of": 420
+   "rank": 206,
+   "of": 424
   },
   {
    "group": "Career",
@@ -304,8 +320,8 @@
    "stat": "Bench Points",
    "value": 5.7,
    "digits": 2,
-   "rank": 465,
-   "of": 511
+   "rank": 470,
+   "of": 515
   },
   {
    "group": "Career",
@@ -314,7 +330,7 @@
    "value": 73.1,
    "digits": 2,
    "rank": 68,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -323,7 +339,7 @@
    "value": 7,
    "digits": 0,
    "rank": 71,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -331,8 +347,8 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 51,
-   "of": 126
+   "rank": 52,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -341,7 +357,7 @@
    "value": 73.1,
    "digits": 2,
    "rank": 18,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -351,7 +367,7 @@
    "value": 7,
    "digits": 0,
    "rank": 22,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -360,8 +376,8 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 20,
-   "of": 48,
+   "rank": 21,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -380,8 +396,8 @@
    "stat": "Points",
    "value": 73.1,
    "digits": 2,
-   "rank": 78,
-   "of": 233,
+   "rank": 83,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -390,8 +406,8 @@
    "stat": "Points",
    "value": 73.1,
    "digits": 2,
-   "rank": 22,
-   "of": 62,
+   "rank": 23,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -400,16 +416,16 @@
    "stat": "Points, 2026",
    "value": 73.1,
    "digits": 2,
-   "rank": 447,
-   "of": 1010,
+   "rank": 452,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.85,
-  "rank": 272,
-  "of": 420,
+  "rank": 275,
+  "of": 424,
   "war": 0.1,
   "starts": 1.75,
   "black_ink": 0.0,
@@ -459,6 +475,11 @@
     "2026",
     9,
     1.85
+   ],
+   [
+    "2026",
+    10,
+    1.85
    ]
   ],
   "benchmark": 100
@@ -471,7 +492,7 @@
     "season": "2026",
     "nfl": "TEN",
     "missed": 2,
-    "lost": 0.94,
+    "lost": 1.88,
     "injuries": [
      "Shoulder"
     ],
@@ -482,7 +503,7 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 8,
@@ -495,8 +516,8 @@
       "week": 10,
       "kind": "Out",
       "injury": "Shoulder",
-      "franchise": null,
-      "team": null
+      "franchise": 12,
+      "team": "Team Win One Game"
      }
     ]
    }
@@ -522,8 +543,8 @@
       "team": "Team Win One Game"
      }
     ],
-    "rostered": 1,
-    "lost": 0.94
+    "rostered": 2,
+    "lost": 1.88
    }
   ],
   "now": {

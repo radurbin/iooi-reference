@@ -24,10 +24,10 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "MIA",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 62.1,
+   "bench_pts": 72.2,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -37,10 +37,10 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 62.1,
+  "bench_pts": 72.2,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -215,6 +215,22 @@
    "pts": 13.0,
    "proj": 8.91,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 10.1,
+   "proj": 9.26,
+   "won": true
   }
  ],
  "status": {
@@ -227,10 +243,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 62.1,
+   "value": 72.2,
    "digits": 2,
-   "rank": 253,
-   "of": 511
+   "rank": 234,
+   "of": 515
   }
  ],
  "similar": [],

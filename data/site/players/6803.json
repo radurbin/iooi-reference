@@ -90,7 +90,7 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "SF",
-   "g": 1,
+   "g": 2,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.0,
@@ -103,7 +103,7 @@
   }
  ],
  "totals": {
-  "g": 52,
+  "g": 53,
   "gs": 22,
   "pts": 306.1,
   "bench_pts": 0.0,
@@ -1085,13 +1085,29 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 948,
+   "score": 949,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
@@ -1100,16 +1116,16 @@
   {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 932,
-   "gs": 22,
-   "pts": 292.4,
-   "ppg": 13.29,
-   "war": 0.73
+   "score": 921,
+   "gs": 23,
+   "pts": 298.9,
+   "ppg": 13.0,
+   "war": 0.68
   },
   {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 915,
+   "score": 916,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
@@ -1118,20 +1134,20 @@
   {
    "player": "10229",
    "name": "Rashee Rice",
-   "score": 887,
-   "gs": 21,
-   "pts": 311.1,
-   "ppg": 14.81,
-   "war": 0.95
+   "score": 888,
+   "gs": 22,
+   "pts": 324.3,
+   "ppg": 14.74,
+   "war": 0.99
   },
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 887,
-   "gs": 26,
+   "score": 849,
+   "gs": 27,
    "pts": 334.8,
-   "ppg": 12.88,
-   "war": 0.43
+   "ppg": 12.4,
+   "war": 0.31
   }
  ],
  "status": {
@@ -1146,8 +1162,8 @@
    "stat": "Points",
    "value": 306.1,
    "digits": 2,
-   "rank": 104,
-   "of": 420
+   "rank": 105,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1155,8 +1171,8 @@
    "stat": "Games Started",
    "value": 22,
    "digits": 0,
-   "rank": 131,
-   "of": 420
+   "rank": 133,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1164,8 +1180,8 @@
    "stat": "WAR",
    "value": 0.46,
    "digits": 2,
-   "rank": 119,
-   "of": 420
+   "rank": 118,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1174,7 +1190,7 @@
    "value": 39.0,
    "digits": 1,
    "rank": 120,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1182,8 +1198,8 @@
    "stat": "PAA",
    "value": 6.3,
    "digits": 1,
-   "rank": 107,
-   "of": 420
+   "rank": 106,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1191,8 +1207,8 @@
    "stat": "Best Game",
    "value": 32.9,
    "digits": 2,
-   "rank": 75,
-   "of": 420
+   "rank": 77,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1200,7 +1216,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.91,
    "digits": 2,
-   "rank": 90,
+   "rank": 89,
    "of": 256
   },
   {
@@ -1210,7 +1226,7 @@
    "value": 306.1,
    "digits": 2,
    "rank": 34,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -1218,8 +1234,8 @@
    "stat": "Games Started",
    "value": 22,
    "digits": 0,
-   "rank": 39,
-   "of": 126
+   "rank": 40,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1228,7 +1244,7 @@
    "value": 0.46,
    "digits": 2,
    "rank": 33,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1356,8 +1372,8 @@
    "stat": "Points, 2023",
    "value": 243.7,
    "digits": 2,
-   "rank": 65,
-   "of": 1010,
+   "rank": 67,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1366,15 +1382,15 @@
    "stat": "Points, 2024",
    "value": 62.4,
    "digits": 2,
-   "rank": 496,
-   "of": 1010,
+   "rank": 504,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 10.1,
-  "rank": 130,
-  "of": 420,
+  "rank": 128,
+  "of": 424,
   "war": 4.6,
   "starts": 5.5,
   "black_ink": 0.0,
@@ -1678,6 +1694,11 @@
    [
     "2026",
     9,
+    10.1
+   ],
+   [
+    "2026",
+    10,
     10.1
    ]
   ],

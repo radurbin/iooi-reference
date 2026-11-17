@@ -72,29 +72,29 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "NYG",
-   "g": 8,
+   "g": 9,
    "gs": 3,
    "pts": 24.2,
-   "bench_pts": 4.7,
+   "bench_pts": 5.1,
    "ppg": 8.07,
    "best": 15.0,
    "wins": 0,
    "paa": -20.28,
-   "vor": -5.2,
-   "war": -0.06
+   "vor": -7.27,
+   "war": -0.09
   }
  ],
  "totals": {
-  "g": 43,
+  "g": 44,
   "gs": 16,
   "pts": 131.9,
-  "bench_pts": 155.14,
+  "bench_pts": 155.54,
   "ppg": 8.24,
   "best": 19.8,
   "wins": 4,
   "paa": -92.78,
-  "vor": -23.92,
-  "war": -0.28
+  "vor": -25.99,
+  "war": -0.31
  },
  "nfl": [
   {
@@ -813,8 +813,8 @@
    "proj": 4.82,
    "won": false,
    "paa": -12.18,
-   "vor": -8.6,
-   "war": -0.10164153548729664
+   "vor": -9.29,
+   "war": -0.10979649589267275
   },
   {
    "season": "2026",
@@ -896,8 +896,8 @@
    "proj": 4.77,
    "won": false,
    "paa": -2.57,
-   "vor": 5.2,
-   "war": 0.061457672620225876
+   "vor": 4.51,
+   "war": 0.053302712214849744
   },
   {
    "season": "2026",
@@ -931,19 +931,35 @@
    "proj": 15.9,
    "won": false,
    "paa": -5.53,
-   "vor": -1.8,
-   "war": -0.021273809753155112
+   "vor": -2.49,
+   "war": -0.029428770158531237
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-4-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 0.4,
+   "proj": 9.0,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "12533",
    "name": "Jacory Croskey-Merritt",
-   "score": 948,
+   "score": 947,
    "gs": 16,
    "pts": 140.1,
    "ppg": 8.76,
-   "war": 0.02
+   "war": 0.01
   },
   {
    "player": "5248",
@@ -957,7 +973,7 @@
   {
    "player": "8154",
    "name": "Brian Robinson Jr.",
-   "score": 877,
+   "score": 879,
    "gs": 14,
    "pts": 90.1,
    "ppg": 6.44,
@@ -973,13 +989,13 @@
    "war": 0.04
   },
   {
-   "player": "11435",
-   "name": "Emanuel Wilson",
-   "score": 852,
-   "gs": 8,
-   "pts": 67.7,
-   "ppg": 8.46,
-   "war": -0.07
+   "player": "8132",
+   "name": "Tyler Allgeier",
+   "score": 876,
+   "gs": 12,
+   "pts": 117.65,
+   "ppg": 9.8,
+   "war": 0.02
   }
  ],
  "status": {
@@ -994,8 +1010,8 @@
    "stat": "Points",
    "value": 131.9,
    "digits": 2,
-   "rank": 197,
-   "of": 420
+   "rank": 200,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1003,26 +1019,26 @@
    "stat": "Games Started",
    "value": 16,
    "digits": 0,
-   "rank": 167,
-   "of": 420
+   "rank": 169,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.28,
+   "value": -0.31,
    "digits": 2,
-   "rank": 372,
-   "of": 420
+   "rank": 386,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -23.9,
+   "value": -26.0,
    "digits": 1,
-   "rank": 376,
-   "of": 420
+   "rank": 386,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1030,8 +1046,8 @@
    "stat": "PAA",
    "value": -92.8,
    "digits": 1,
-   "rank": 408,
-   "of": 420
+   "rank": 412,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1039,8 +1055,8 @@
    "stat": "Best Game",
    "value": 19.8,
    "digits": 2,
-   "rank": 229,
-   "of": 420
+   "rank": 232,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1048,17 +1064,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 8.24,
    "digits": 2,
-   "rank": 205,
+   "rank": 203,
    "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 155.14,
+   "value": 155.54,
    "digits": 2,
    "rank": 88,
-   "of": 511
+   "of": 515
   },
   {
    "group": "Career",
@@ -1082,9 +1098,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.28,
+   "value": -0.31,
    "digits": 2,
-   "rank": 91,
+   "rank": 95,
    "of": 100
   },
   {
@@ -1093,8 +1109,8 @@
    "stat": "Points",
    "value": 24.2,
    "digits": 2,
-   "rank": 34,
-   "of": 48,
+   "rank": 35,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1103,18 +1119,18 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 29,
-   "of": 48,
+   "rank": 30,
+   "of": 49,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.06,
+   "value": -0.09,
    "digits": 2,
-   "rank": 23,
-   "of": 48,
+   "rank": 26,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1123,7 +1139,7 @@
    "stat": "Points, RBs",
    "value": 24.2,
    "digits": 2,
-   "rank": 10,
+   "rank": 11,
    "of": 14,
    "franchise": 12
   },
@@ -1134,7 +1150,7 @@
    "value": 107.7,
    "digits": 2,
    "rank": 19,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1144,7 +1160,7 @@
    "value": 13,
    "digits": 0,
    "rank": 17,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1153,8 +1169,8 @@
    "stat": "WAR",
    "value": -0.22,
    "digits": 2,
-   "rank": 48,
-   "of": 52,
+   "rank": 51,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1213,8 +1229,8 @@
    "stat": "Points",
    "value": 24.2,
    "digits": 2,
-   "rank": 157,
-   "of": 233,
+   "rank": 162,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1223,7 +1239,7 @@
    "stat": "Points",
    "value": 24.2,
    "digits": 2,
-   "rank": 41,
+   "rank": 44,
    "of": 58,
    "season": "2026"
   },
@@ -1233,8 +1249,8 @@
    "stat": "Points, 2023",
    "value": 58.9,
    "digits": 2,
-   "rank": 511,
-   "of": 1010,
+   "rank": 521,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1243,8 +1259,8 @@
    "stat": "Points, 2024",
    "value": 48.8,
    "digits": 2,
-   "rank": 569,
-   "of": 1010,
+   "rank": 581,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1253,15 +1269,15 @@
    "stat": "Points, 2026",
    "value": 24.2,
    "digits": 2,
-   "rank": 718,
-   "of": 1010,
+   "rank": 723,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 4.0,
   "rank": 211,
-  "of": 420,
+  "of": 424,
   "war": 0.0,
   "starts": 4.0,
   "black_ink": 0.0,
@@ -1565,6 +1581,11 @@
    [
     "2026",
     9,
+    4.0
+   ],
+   [
+    "2026",
+    10,
     4.0
    ]
   ],

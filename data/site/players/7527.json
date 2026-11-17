@@ -896,7 +896,7 @@
   {
    "player": "10217",
    "name": "Clayton Tune",
-   "score": 722,
+   "score": 723,
    "gs": 8,
    "pts": 7.22,
    "ppg": 0.9,
@@ -905,38 +905,38 @@
   {
    "player": "9999",
    "name": "Will Levis",
-   "score": 658,
+   "score": 661,
    "gs": 11,
    "pts": 114.72,
    "ppg": 10.43,
    "war": -0.47
   },
   {
-   "player": "4017",
-   "name": "Deshaun Watson",
-   "score": 573,
-   "gs": 12,
-   "pts": 140.3,
-   "ppg": 11.69,
-   "war": -0.32
-  },
-  {
    "player": "4179",
    "name": "Joshua Dobbs",
-   "score": 548,
+   "score": 552,
    "gs": 9,
    "pts": 109.08,
    "ppg": 12.12,
    "war": -0.28
   },
   {
+   "player": "4017",
+   "name": "Deshaun Watson",
+   "score": 519,
+   "gs": 13,
+   "pts": 162.48,
+   "ppg": 12.5,
+   "war": -0.13
+  },
+  {
    "player": "6011",
    "name": "Gardner Minshew II",
-   "score": 438,
-   "gs": 12,
+   "score": 509,
+   "gs": 13,
    "pts": 164.56,
-   "ppg": 13.71,
-   "war": -0.01
+   "ppg": 12.66,
+   "war": -0.12
   }
  ],
  "status": {
@@ -961,7 +961,7 @@
    "value": 57.14,
    "digits": 2,
    "rank": 261,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -969,8 +969,8 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 210,
-   "of": 420
+   "rank": 212,
+   "of": 424
   },
   {
    "group": "Career",
@@ -978,8 +978,8 @@
    "stat": "WAR",
    "value": -1.06,
    "digits": 2,
-   "rank": 419,
-   "of": 420
+   "rank": 423,
+   "of": 424
   },
   {
    "group": "Career",
@@ -987,8 +987,8 @@
    "stat": "VOR",
    "value": -89.3,
    "digits": 1,
-   "rank": 419,
-   "of": 420
+   "rank": 423,
+   "of": 424
   },
   {
    "group": "Career",
@@ -996,8 +996,8 @@
    "stat": "PAA",
    "value": -108.8,
    "digits": 1,
-   "rank": 415,
-   "of": 420
+   "rank": 419,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1005,8 +1005,8 @@
    "stat": "Best Game",
    "value": 23.06,
    "digits": 2,
-   "rank": 191,
-   "of": 420
+   "rank": 192,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1014,7 +1014,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 5.19,
    "digits": 2,
-   "rank": 245,
+   "rank": 247,
    "of": 256
   },
   {
@@ -1023,8 +1023,8 @@
    "stat": "Bench Points",
    "value": 133.06,
    "digits": 2,
-   "rank": 115,
-   "of": 511
+   "rank": 120,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1033,7 +1033,7 @@
    "value": 57.14,
    "digits": 2,
    "rank": 45,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -1042,7 +1042,7 @@
    "value": 11,
    "digits": 0,
    "rank": 34,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -1050,8 +1050,8 @@
    "stat": "WAR",
    "value": -1.06,
    "digits": 2,
-   "rank": 65,
-   "of": 66
+   "rank": 67,
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -1059,7 +1059,7 @@
    "stat": "Points",
    "value": 22.76,
    "digits": 2,
-   "rank": 45,
+   "rank": 46,
    "of": 82,
    "franchise": 4
   },
@@ -1099,7 +1099,7 @@
    "stat": "Points",
    "value": 34.38,
    "digits": 2,
-   "rank": 38,
+   "rank": 39,
    "of": 68,
    "franchise": 3
   },
@@ -1109,7 +1109,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 24,
+   "rank": 25,
    "of": 68,
    "franchise": 3
   },
@@ -1199,8 +1199,8 @@
    "stat": "Points, 2025",
    "value": 33.94,
    "digits": 2,
-   "rank": 661,
-   "of": 1010,
+   "rank": 666,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1209,8 +1209,8 @@
    "stat": "Points, 2023",
    "value": 17.96,
    "digits": 2,
-   "rank": 766,
-   "of": 1010,
+   "rank": 770,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1219,15 +1219,15 @@
    "stat": "Points, 2024",
    "value": 5.24,
    "digits": 2,
-   "rank": 926,
-   "of": 1010,
+   "rank": 933,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 2.75,
-  "rank": 235,
-  "of": 420,
+  "rank": 237,
+  "of": 424,
   "war": 0.0,
   "starts": 2.75,
   "black_ink": 0.0,
@@ -1531,6 +1531,11 @@
    [
     "2026",
     9,
+    2.75
+   ],
+   [
+    "2026",
+    10,
     2.75
    ]
   ],

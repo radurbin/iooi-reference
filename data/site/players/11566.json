@@ -79,29 +79,29 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "WAS",
-   "g": 9,
-   "gs": 6,
-   "pts": 118.3,
+   "g": 10,
+   "gs": 7,
+   "pts": 140.16,
    "bench_pts": 0.0,
-   "ppg": 19.72,
+   "ppg": 20.02,
    "best": 33.16,
    "wins": 4,
-   "paa": 13.16,
-   "vor": 38.2,
-   "war": 0.45
+   "paa": 17.37,
+   "vor": 59.87,
+   "war": 0.71
   }
  ],
  "totals": {
-  "g": 43,
-  "gs": 32,
-  "pts": 553.9,
+  "g": 44,
+  "gs": 33,
+  "pts": 575.76,
   "bench_pts": 0.0,
-  "ppg": 17.31,
+  "ppg": 17.45,
   "best": 34.42,
   "wins": 15,
-  "paa": 11.54,
-  "vor": 164.52,
-  "war": 1.94
+  "paa": 15.75,
+  "vor": 186.19,
+  "war": 2.2
  },
  "nfl": [
   {
@@ -797,8 +797,8 @@
    "proj": 17.35,
    "won": false,
    "paa": -0.33,
-   "vor": 4.81,
-   "war": 0.05684834717370893
+   "vor": 6.69,
+   "war": 0.07906765958255983
   },
   {
    "season": "2026",
@@ -816,8 +816,8 @@
    "proj": 20.67,
    "won": false,
    "paa": -2.3,
-   "vor": 2.09,
-   "war": 0.02470125688005232
+   "vor": 3.97,
+   "war": 0.046920569288903216
   },
   {
    "season": "2026",
@@ -867,8 +867,8 @@
    "proj": 17.24,
    "won": true,
    "paa": 13.37,
-   "vor": 19.81,
-   "war": 0.23413009511666816
+   "vor": 21.69,
+   "war": 0.2563494075255191
   },
   {
    "season": "2026",
@@ -886,8 +886,8 @@
    "proj": 18.11,
    "won": true,
    "paa": 5.45,
-   "vor": 8.05,
-   "war": 0.09514120472938814
+   "vor": 9.93,
+   "war": 0.11736051713823901
   },
   {
    "season": "2026",
@@ -921,8 +921,8 @@
    "proj": 18.72,
    "won": true,
    "paa": -1.6,
-   "vor": 1.83,
-   "war": 0.02162837324904103
+   "vor": 3.71,
+   "war": 0.04384768565789192
   },
   {
    "season": "2026",
@@ -940,55 +940,74 @@
    "proj": 18.62,
    "won": true,
    "paa": -1.43,
-   "vor": 1.61,
-   "war": 0.019028240945877628
+   "vor": 3.49,
+   "war": 0.041247553354728524
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": "QB",
+   "started": true,
+   "pts": 21.86,
+   "proj": 18.98,
+   "won": false,
+   "paa": 4.21,
+   "vor": 10.39,
+   "war": 0.12279715740848979
   }
  ],
  "similar": [
   {
    "player": "11560",
    "name": "Caleb Williams",
-   "score": 914,
-   "gs": 36,
+   "score": 906,
+   "gs": 37,
    "pts": 611.02,
-   "ppg": 16.97,
-   "war": 2.08
-  },
-  {
-   "player": "11563",
-   "name": "Bo Nix",
-   "score": 834,
-   "gs": 25,
-   "pts": 430.42,
-   "ppg": 17.22,
-   "war": 1.49
-  },
-  {
-   "player": "7523",
-   "name": "Trevor Lawrence",
-   "score": 831,
-   "gs": 38,
-   "pts": 687.56,
-   "ppg": 18.09,
-   "war": 2.41
+   "ppg": 16.51,
+   "war": 2.07
   },
   {
    "player": "9758",
    "name": "C.J. Stroud",
-   "score": 823,
-   "gs": 40,
-   "pts": 655.78,
-   "ppg": 16.39,
-   "war": 1.52
+   "score": 828,
+   "gs": 41,
+   "pts": 676.52,
+   "ppg": 16.5,
+   "war": 1.81
   },
   {
-   "player": "1166",
-   "name": "Kirk Cousins",
-   "score": 813,
-   "gs": 31,
-   "pts": 487.06,
-   "ppg": 15.71,
-   "war": 0.95
+   "player": "11564",
+   "name": "Drake Maye",
+   "score": 827,
+   "gs": 26,
+   "pts": 500.62,
+   "ppg": 19.25,
+   "war": 2.37
+  },
+  {
+   "player": "7523",
+   "name": "Trevor Lawrence",
+   "score": 825,
+   "gs": 39,
+   "pts": 714.74,
+   "ppg": 18.33,
+   "war": 2.77
+  },
+  {
+   "player": "11563",
+   "name": "Bo Nix",
+   "score": 812,
+   "gs": 25,
+   "pts": 430.42,
+   "ppg": 17.22,
+   "war": 1.69
   }
  ],
  "status": {
@@ -1001,46 +1020,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 553.9,
+   "value": 575.76,
    "digits": 2,
-   "rank": 51,
-   "of": 420
+   "rank": 50,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 32,
+   "value": 33,
    "digits": 0,
-   "rank": 81,
-   "of": 420
+   "rank": 77,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.94,
+   "value": 2.2,
    "digits": 2,
-   "rank": 50,
-   "of": 420
+   "rank": 42,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 164.5,
+   "value": 186.2,
    "digits": 1,
-   "rank": 50,
-   "of": 420
+   "rank": 43,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 11.5,
+   "value": 15.8,
    "digits": 1,
-   "rank": 91,
-   "of": 420
+   "rank": 81,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1048,50 +1067,50 @@
    "stat": "Best Game",
    "value": 34.42,
    "digits": 2,
-   "rank": 62,
-   "of": 420
+   "rank": 66,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 17.31,
+   "value": 17.45,
    "digits": 2,
-   "rank": 27,
+   "rank": 24,
    "of": 256
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 553.9,
+   "value": 575.76,
    "digits": 2,
    "rank": 16,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 32,
+   "value": 33,
    "digits": 0,
-   "rank": 18,
-   "of": 66
+   "rank": 17,
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 1.94,
+   "value": 2.2,
    "digits": 2,
-   "rank": 15,
-   "of": 66
+   "rank": 14,
+   "of": 68
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points",
-   "value": 484.24,
+   "value": 506.1,
    "digits": 2,
    "rank": 3,
    "of": 76,
@@ -1101,7 +1120,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Games Started",
-   "value": 29,
+   "value": 30,
    "digits": 0,
    "rank": 3,
    "of": 76,
@@ -1111,9 +1130,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 1.56,
+   "value": 1.82,
    "digits": 2,
-   "rank": 4,
+   "rank": 2,
    "of": 76,
    "franchise": 2
   },
@@ -1121,7 +1140,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points, QBs",
-   "value": 484.24,
+   "value": 506.1,
    "digits": 2,
    "rank": 2,
    "of": 11,
@@ -1211,20 +1230,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 118.3,
+   "value": 140.16,
    "digits": 2,
-   "rank": 45,
-   "of": 233,
+   "rank": 44,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 118.3,
+   "value": 140.16,
    "digits": 2,
-   "rank": 14,
-   "of": 36,
+   "rank": 13,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -1234,17 +1253,17 @@
    "value": 319.82,
    "digits": 2,
    "rank": 17,
-   "of": 1010,
+   "of": 1019,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 118.3,
+   "value": 140.16,
    "digits": 2,
-   "rank": 310,
-   "of": 1010,
+   "rank": 258,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1253,17 +1272,17 @@
    "stat": "Points, 2025",
    "value": 115.78,
    "digits": 2,
-   "rank": 317,
-   "of": 1010,
+   "rank": 325,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 33.4,
-  "rank": 43,
-  "of": 420,
-  "war": 19.4,
-  "starts": 8.0,
+  "score": 36.25,
+  "rank": 41,
+  "of": 424,
+  "war": 22.0,
+  "starts": 8.25,
   "black_ink": 0.0,
   "awards": 6.0,
   "history": [
@@ -1440,47 +1459,52 @@
    [
     "2026",
     1,
-    28.25
+    28.45
    ],
    [
     "2026",
     2,
-    28.7
+    29.2
    ],
    [
     "2026",
     3,
-    28.7
+    29.2
    ],
    [
     "2026",
     4,
-    28.7
+    29.2
    ],
    [
     "2026",
     5,
-    31.35
+    32.05
    ],
    [
     "2026",
     6,
-    32.5
+    33.4
    ],
    [
     "2026",
     7,
-    32.5
+    33.4
    ],
    [
     "2026",
     8,
-    33.05
+    34.15
    ],
    [
     "2026",
     9,
-    33.4
+    34.8
+   ],
+   [
+    "2026",
+    10,
+    36.25
    ]
   ],
   "benchmark": 100
@@ -1584,7 +1608,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 2,
-    "lost": 13.34,
+    "lost": 17.1,
     "injuries": [
      "Elbow"
     ],
@@ -1729,7 +1753,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 13.34
+    "lost": 17.1
    }
   ],
   "now": null

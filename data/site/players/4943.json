@@ -81,7 +81,7 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "SEA",
-   "g": 9,
+   "g": 10,
    "gs": 2,
    "pts": 24.84,
    "bench_pts": 68.58,
@@ -89,12 +89,12 @@
    "best": 13.62,
    "wins": 0,
    "paa": -6.33,
-   "vor": -1.86,
-   "war": -0.02
+   "vor": 1.9,
+   "war": 0.02
   }
  ],
  "totals": {
-  "g": 43,
+  "g": 44,
   "gs": 23,
   "pts": 400.74,
   "bench_pts": 203.78,
@@ -102,8 +102,8 @@
   "best": 34.58,
   "wins": 9,
   "paa": 12.78,
-  "vor": 124.32,
-  "war": 1.47
+  "vor": 128.08,
+  "war": 1.51
  },
  "nfl": [
   {
@@ -132,7 +132,7 @@
    "team": "SEA",
    "g": 7,
    "pts": 93.42,
-   "rank": 25
+   "rank": 26
   }
  ],
  "history": [
@@ -846,8 +846,8 @@
    "proj": 16.19,
    "won": false,
    "paa": -1.6,
-   "vor": 0.27,
-   "war": 0.0031910714629732667
+   "vor": 2.15,
+   "war": 0.02541038387182416
   },
   {
    "season": "2026",
@@ -881,8 +881,8 @@
    "proj": 13.73,
    "won": false,
    "paa": -4.73,
-   "vor": -2.13,
-   "war": -0.025174008207900212
+   "vor": -0.25,
+   "war": -0.002954695799049321
   },
   {
    "season": "2026",
@@ -931,22 +931,38 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "11563",
    "name": "Bo Nix",
-   "score": 957,
+   "score": 951,
    "gs": 25,
    "pts": 430.42,
    "ppg": 17.22,
-   "war": 1.49
+   "war": 1.69
   },
   {
    "player": "7591",
    "name": "Justin Fields",
-   "score": 921,
+   "score": 920,
    "gs": 24,
    "pts": 401.96,
    "ppg": 16.75,
@@ -955,7 +971,7 @@
   {
    "player": "1234",
    "name": "Russell Wilson",
-   "score": 850,
+   "score": 851,
    "gs": 23,
    "pts": 365.04,
    "ppg": 15.87,
@@ -964,20 +980,20 @@
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 818,
+   "score": 827,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
-   "war": 0.89
+   "war": 1.03
   },
   {
-   "player": "1166",
-   "name": "Kirk Cousins",
-   "score": 800,
-   "gs": 31,
-   "pts": 487.06,
-   "ppg": 15.71,
-   "war": 0.95
+   "player": "11564",
+   "name": "Drake Maye",
+   "score": 810,
+   "gs": 26,
+   "pts": 500.62,
+   "ppg": 19.25,
+   "war": 2.37
   }
  ],
  "status": {
@@ -993,7 +1009,7 @@
    "value": 400.74,
    "digits": 2,
    "rank": 79,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1001,26 +1017,26 @@
    "stat": "Games Started",
    "value": 23,
    "digits": 0,
-   "rank": 125,
-   "of": 420
+   "rank": 126,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.47,
+   "value": 1.51,
    "digits": 2,
    "rank": 63,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 124.3,
+   "value": 128.1,
    "digits": 1,
    "rank": 63,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1028,8 +1044,8 @@
    "stat": "PAA",
    "value": 12.8,
    "digits": 1,
-   "rank": 88,
-   "of": 420
+   "rank": 89,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1037,8 +1053,8 @@
    "stat": "Best Game",
    "value": 34.58,
    "digits": 2,
-   "rank": 60,
-   "of": 420
+   "rank": 64,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1046,7 +1062,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 17.42,
    "digits": 2,
-   "rank": 26,
+   "rank": 25,
    "of": 256
   },
   {
@@ -1056,7 +1072,7 @@
    "value": 203.78,
    "digits": 2,
    "rank": 45,
-   "of": 511
+   "of": 515
   },
   {
    "group": "Career",
@@ -1065,7 +1081,7 @@
    "value": 400.74,
    "digits": 2,
    "rank": 23,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -1074,16 +1090,16 @@
    "value": 23,
    "digits": 0,
    "rank": 25,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 1.47,
+   "value": 1.51,
    "digits": 2,
-   "rank": 18,
-   "of": 66
+   "rank": 19,
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -1109,7 +1125,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.35,
+   "value": 0.39,
    "digits": 2,
    "rank": 16,
    "of": 40,
@@ -1141,7 +1157,7 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 12,
+   "rank": 13,
    "of": 67,
    "franchise": 9
   },
@@ -1211,8 +1227,8 @@
    "stat": "Points",
    "value": 24.84,
    "digits": 2,
-   "rank": 154,
-   "of": 233,
+   "rank": 161,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1222,7 +1238,7 @@
    "value": 24.84,
    "digits": 2,
    "rank": 32,
-   "of": 36,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -1231,8 +1247,8 @@
    "stat": "Points, 2024",
    "value": 231.3,
    "digits": 2,
-   "rank": 76,
-   "of": 1010,
+   "rank": 77,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1241,8 +1257,8 @@
    "stat": "Points, 2025",
    "value": 144.6,
    "digits": 2,
-   "rank": 236,
-   "of": 1010,
+   "rank": 244,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1251,16 +1267,16 @@
    "stat": "Points, 2026",
    "value": 24.84,
    "digits": 2,
-   "rank": 713,
-   "of": 1010,
+   "rank": 720,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 20.45,
-  "rank": 76,
-  "of": 420,
-  "war": 14.7,
+  "score": 20.85,
+  "rank": 75,
+  "of": 424,
+  "war": 15.1,
   "starts": 5.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1453,32 +1469,37 @@
    [
     "2026",
     4,
-    20.4
+    20.7
    ],
    [
     "2026",
     5,
-    20.4
+    20.7
    ],
    [
     "2026",
     6,
-    20.45
+    20.85
    ],
    [
     "2026",
     7,
-    20.45
+    20.85
    ],
    [
     "2026",
     8,
-    20.45
+    20.85
    ],
    [
     "2026",
     9,
-    20.45
+    20.85
+   ],
+   [
+    "2026",
+    10,
+    20.85
    ]
   ],
   "benchmark": 100
@@ -1491,7 +1512,7 @@
     "season": "2026",
     "nfl": "SEA",
     "missed": 3,
-    "lost": 0.0,
+    "lost": 5.64,
     "injuries": [
      "Glute",
      "Quadricep",
@@ -1505,7 +1526,7 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 2,
+    "rostered": 3,
     "games": [
      {
       "week": 2,
@@ -1525,8 +1546,8 @@
       "week": 10,
       "kind": "Out",
       "injury": "Ribs",
-      "franchise": null,
-      "team": null
+      "franchise": 6,
+      "team": "got that DAWG"
      }
     ]
    }
@@ -1552,7 +1573,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 1.88
    },
    {
     "season": "2026",
@@ -1574,8 +1595,8 @@
       "team": "got that DAWG"
      }
     ],
-    "rostered": 1,
-    "lost": 0.0
+    "rostered": 2,
+    "lost": 3.76
    }
   ],
   "now": {

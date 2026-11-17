@@ -40,10 +40,10 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "NYJ",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 46.7,
+   "bench_pts": 52.7,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -53,10 +53,10 @@
   }
  ],
  "totals": {
-  "g": 26,
+  "g": 27,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 135.6,
+  "bench_pts": 141.6,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -507,6 +507,22 @@
    "pts": 2.1,
    "proj": 7.62,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 6.0,
+   "proj": 5.54,
+   "won": true
   }
  ],
  "status": {
@@ -519,10 +535,10 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 135.6,
+   "value": 141.6,
    "digits": 2,
-   "rank": 111,
-   "of": 511
+   "rank": 105,
+   "of": 515
   }
  ],
  "similar": [],

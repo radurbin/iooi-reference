@@ -100,7 +100,7 @@
    "team": "LAR",
    "g": 7,
    "pts": 21.0,
-   "rank": 116
+   "rank": 117
   }
  ],
  "history": [
@@ -502,8 +502,8 @@
    "stat": "Points",
    "value": 19.9,
    "digits": 2,
-   "rank": 322,
-   "of": 420
+   "rank": 325,
+   "of": 424
   },
   {
    "group": "Career",
@@ -511,8 +511,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 328,
-   "of": 420
+   "rank": 333,
+   "of": 424
   },
   {
    "group": "Career",
@@ -521,7 +521,7 @@
    "value": -0.05,
    "digits": 2,
    "rank": 249,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -530,7 +530,7 @@
    "value": -4.2,
    "digits": 1,
    "rank": 252,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -538,8 +538,8 @@
    "stat": "PAA",
    "value": -8.3,
    "digits": 1,
-   "rank": 193,
-   "of": 420
+   "rank": 197,
+   "of": 424
   },
   {
    "group": "Career",
@@ -547,8 +547,8 @@
    "stat": "Best Game",
    "value": 12.5,
    "digits": 2,
-   "rank": 309,
-   "of": 420
+   "rank": 312,
+   "of": 424
   },
   {
    "group": "Career",
@@ -556,8 +556,8 @@
    "stat": "Bench Points",
    "value": 97.8,
    "digits": 2,
-   "rank": 175,
-   "of": 511
+   "rank": 176,
+   "of": 515
   },
   {
    "group": "Career",
@@ -566,7 +566,7 @@
    "value": 19.9,
    "digits": 2,
    "rank": 93,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -574,8 +574,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 93,
-   "of": 126
+   "rank": 95,
+   "of": 127
   },
   {
    "group": "Career",
@@ -583,8 +583,8 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 62,
-   "of": 126
+   "rank": 61,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -592,8 +592,8 @@
    "stat": "Points",
    "value": 7.4,
    "digits": 2,
-   "rank": 57,
-   "of": 67,
+   "rank": 58,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -603,7 +603,7 @@
    "value": 1,
    "digits": 0,
    "rank": 53,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -612,8 +612,8 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 53,
-   "of": 67,
+   "rank": 54,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -633,7 +633,7 @@
    "value": 12.5,
    "digits": 2,
    "rank": 51,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -643,7 +643,7 @@
    "value": 1,
    "digits": 0,
    "rank": 51,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -653,7 +653,7 @@
    "value": 0.01,
    "digits": 2,
    "rank": 34,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -712,8 +712,8 @@
    "stat": "Points, 2024",
    "value": 12.5,
    "digits": 2,
-   "rank": 828,
-   "of": 1010,
+   "rank": 834,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -722,16 +722,16 @@
    "stat": "Points, 2023",
    "value": 7.4,
    "digits": 2,
-   "rank": 897,
-   "of": 1010,
+   "rank": 904,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.5,
-  "rank": 342,
-  "of": 420,
+  "rank": 346,
+  "of": 424,
   "war": 0.0,
   "starts": 0.5,
   "black_ink": 0.0,
@@ -1030,6 +1030,11 @@
    [
     "2026",
     9,
+    0.5
+   ],
+   [
+    "2026",
+    10,
     0.5
    ]
   ],

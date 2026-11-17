@@ -92,29 +92,29 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "DAL",
-   "g": 6,
-   "gs": 6,
-   "pts": 131.0,
+   "g": 7,
+   "gs": 7,
+   "pts": 151.2,
    "bench_pts": 0.0,
-   "ppg": 21.83,
+   "ppg": 21.6,
    "best": 41.4,
-   "wins": 5,
-   "paa": 48.79,
-   "vor": 69.08,
-   "war": 0.82
+   "wins": 6,
+   "paa": 55.77,
+   "vor": 78.96,
+   "war": 0.93
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 50,
-  "pts": 964.9,
+  "g": 61,
+  "gs": 51,
+  "pts": 985.1,
   "bench_pts": 41.0,
-  "ppg": 19.3,
+  "ppg": 19.32,
   "best": 41.4,
-  "wins": 21,
-  "paa": 274.58,
-  "vor": 396.42,
-  "war": 4.69
+  "wins": 22,
+  "paa": 281.56,
+  "vor": 406.3,
+  "war": 4.8
  },
  "nfl": [
   {
@@ -1291,31 +1291,50 @@
    "paa": 19.86,
    "vor": 23.18,
    "war": 0.273959394487853
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "WR",
+   "started": true,
+   "pts": 20.2,
+   "proj": 20.0,
+   "won": true,
+   "paa": 6.98,
+   "vor": 9.88,
+   "war": 0.11676957797842917
   }
  ],
  "similar": [
   {
-   "player": "7564",
-   "name": "Ja'Marr Chase",
-   "score": 921,
-   "gs": 48,
-   "pts": 964.52,
-   "ppg": 20.09,
-   "war": 4.89
-  },
-  {
    "player": "7547",
    "name": "Amon-Ra St. Brown",
-   "score": 919,
-   "gs": 53,
-   "pts": 1009.63,
-   "ppg": 19.05,
-   "war": 4.83
+   "score": 913,
+   "gs": 54,
+   "pts": 1035.43,
+   "ppg": 19.17,
+   "war": 5.02
+  },
+  {
+   "player": "7564",
+   "name": "Ja'Marr Chase",
+   "score": 892,
+   "gs": 49,
+   "pts": 998.62,
+   "ppg": 20.38,
+   "war": 5.17
   },
   {
    "player": "9493",
    "name": "Puka Nacua",
-   "score": 810,
+   "score": 791,
    "gs": 43,
    "pts": 893.6,
    "ppg": 20.78,
@@ -1324,20 +1343,20 @@
   {
    "player": "9488",
    "name": "Jaxon Smith-Njigba",
-   "score": 618,
-   "gs": 36,
-   "pts": 747.06,
-   "ppg": 20.75,
-   "war": 4.17
+   "score": 630,
+   "gs": 37,
+   "pts": 778.16,
+   "ppg": 21.03,
+   "war": 4.42
   },
   {
    "player": "6794",
    "name": "Justin Jefferson",
-   "score": 487,
-   "gs": 47,
-   "pts": 747.53,
-   "ppg": 15.9,
-   "war": 2.57
+   "score": 493,
+   "gs": 48,
+   "pts": 763.93,
+   "ppg": 15.92,
+   "war": 2.64
   }
  ],
  "status": {
@@ -1360,46 +1379,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 964.9,
+   "value": 985.1,
    "digits": 2,
-   "rank": 7,
-   "of": 420
+   "rank": 8,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 50,
+   "value": 51,
    "digits": 0,
-   "rank": 12,
-   "of": 420
+   "rank": 9,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 4.69,
+   "value": 4.8,
    "digits": 2,
-   "rank": 9,
-   "of": 420
+   "rank": 8,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 396.4,
+   "value": 406.3,
    "digits": 1,
-   "rank": 9,
-   "of": 420
+   "rank": 8,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 274.6,
+   "value": 281.6,
    "digits": 1,
    "rank": 7,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1407,14 +1426,14 @@
    "stat": "Best Game",
    "value": 41.4,
    "digits": 2,
-   "rank": 22,
-   "of": 420
+   "rank": 23,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 19.3,
+   "value": 19.32,
    "digits": 2,
    "rank": 12,
    "of": 256
@@ -1425,35 +1444,35 @@
    "stat": "Bench Points",
    "value": 41.0,
    "digits": 2,
-   "rank": 318,
-   "of": 511
+   "rank": 320,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 964.9,
+   "value": 985.1,
    "digits": 2,
-   "rank": 2,
-   "of": 126
+   "rank": 3,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 50,
+   "value": 51,
    "digits": 0,
    "rank": 2,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 4.69,
+   "value": 4.8,
    "digits": 2,
-   "rank": 4,
-   "of": 126
+   "rank": 3,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1502,7 +1521,7 @@
    "value": 71.0,
    "digits": 2,
    "rank": 19,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1511,8 +1530,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 29,
-   "of": 48,
+   "rank": 30,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1522,7 +1541,7 @@
    "value": 0.47,
    "digits": 2,
    "rank": 6,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1539,7 +1558,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points",
-   "value": 131.0,
+   "value": 151.2,
    "digits": 2,
    "rank": 16,
    "of": 77,
@@ -1549,9 +1568,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Games Started",
-   "value": 6,
+   "value": 7,
    "digits": 0,
-   "rank": 22,
+   "rank": 21,
    "of": 77,
    "franchise": 1
   },
@@ -1559,7 +1578,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 0.82,
+   "value": 0.93,
    "digits": 2,
    "rank": 8,
    "of": 77,
@@ -1569,7 +1588,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points, WRs",
-   "value": 131.0,
+   "value": 151.2,
    "digits": 2,
    "rank": 6,
    "of": 18,
@@ -1639,20 +1658,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 202.0,
+   "value": 222.2,
    "digits": 2,
    "rank": 5,
-   "of": 233,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 202.0,
+   "value": 222.2,
    "digits": 2,
    "rank": 2,
-   "of": 62,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1662,7 +1681,7 @@
    "value": 308.1,
    "digits": 2,
    "rank": 21,
-   "of": 1010,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1671,18 +1690,18 @@
    "stat": "Points, 2024",
    "value": 263.4,
    "digits": 2,
-   "rank": 50,
-   "of": 1010,
+   "rank": 52,
+   "of": 1019,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 202.0,
+   "value": 222.2,
    "digits": 2,
-   "rank": 119,
-   "of": 1010,
+   "rank": 92,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1691,17 +1710,17 @@
    "stat": "Points, 2025",
    "value": 191.4,
    "digits": 2,
-   "rank": 139,
-   "of": 1010,
+   "rank": 146,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 65.4,
+  "score": 66.75,
   "rank": 11,
-  "of": 420,
-  "war": 46.9,
-  "starts": 12.5,
+  "of": 424,
+  "war": 48.0,
+  "starts": 12.75,
   "black_ink": 0.0,
   "awards": 6.0,
   "history": [
@@ -2004,6 +2023,11 @@
     "2026",
     9,
     65.4
+   ],
+   [
+    "2026",
+    10,
+    66.75
    ]
   ],
   "benchmark": 100

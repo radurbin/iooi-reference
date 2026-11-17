@@ -41,37 +41,37 @@
    "best": 21.4,
    "wins": 0,
    "paa": 3.66,
-   "vor": 8.05,
-   "war": 0.1
+   "vor": 9.93,
+   "war": 0.12
   },
   {
    "season": "2026",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "SEA",
-   "g": 1,
-   "gs": 1,
-   "pts": 13.1,
+   "g": 2,
+   "gs": 2,
+   "pts": 29.3,
    "bench_pts": 0.0,
-   "ppg": 13.1,
-   "best": 13.1,
-   "wins": 0,
-   "paa": -3.29,
-   "vor": -0.25,
-   "war": -0.0
+   "ppg": 14.65,
+   "best": 16.2,
+   "wins": 1,
+   "paa": -4.74,
+   "vor": 6.36,
+   "war": 0.08
   }
  ],
  "totals": {
-  "g": 6,
-  "gs": 2,
-  "pts": 34.5,
+  "g": 7,
+  "gs": 3,
+  "pts": 50.7,
   "bench_pts": 40.86,
-  "ppg": 17.25,
+  "ppg": 16.9,
   "best": 21.4,
-  "wins": 0,
-  "paa": 0.37,
-  "vor": 7.8,
-  "war": 0.09
+  "wins": 1,
+  "paa": -1.08,
+  "vor": 16.29,
+  "war": 0.19
  },
  "nfl": [
   {
@@ -210,8 +210,8 @@
    "proj": 13.0,
    "won": false,
    "paa": 3.66,
-   "vor": 8.05,
-   "war": 0.09514120472938814
+   "vor": 9.93,
+   "war": 0.11736051713823901
   },
   {
    "season": "2026",
@@ -245,8 +245,27 @@
    "proj": 16.96,
    "won": false,
    "paa": -3.29,
-   "vor": -0.25,
-   "war": -0.002954695799049321
+   "vor": 1.63,
+   "war": 0.019264616609801572
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": "QB",
+   "started": true,
+   "pts": 16.2,
+   "proj": 15.92,
+   "won": true,
+   "paa": -1.45,
+   "vor": 4.73,
+   "war": 0.05590284451801315
   }
  ],
  "status": {
@@ -259,46 +278,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 34.5,
+   "value": 50.7,
    "digits": 2,
-   "rank": 289,
-   "of": 420
+   "rank": 268,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 328,
-   "of": 420
+   "rank": 301,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.09,
+   "value": 0.19,
    "digits": 2,
-   "rank": 185,
-   "of": 420
+   "rank": 168,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 7.8,
+   "value": 16.3,
    "digits": 1,
-   "rank": 185,
-   "of": 420
+   "rank": 168,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 0.4,
+   "value": -1.1,
    "digits": 1,
-   "rank": 134,
-   "of": 420
+   "rank": 141,
+   "of": 424
   },
   {
    "group": "Career",
@@ -306,8 +325,8 @@
    "stat": "Best Game",
    "value": 21.4,
    "digits": 2,
-   "rank": 206,
-   "of": 420
+   "rank": 209,
+   "of": 424
   },
   {
    "group": "Career",
@@ -315,35 +334,35 @@
    "stat": "Bench Points",
    "value": 40.86,
    "digits": 2,
-   "rank": 320,
-   "of": 511
+   "rank": 322,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 34.5,
+   "value": 50.7,
    "digits": 2,
-   "rank": 50,
-   "of": 66
+   "rank": 46,
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 52,
-   "of": 66
+   "rank": 48,
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.09,
+   "value": 0.19,
    "digits": 2,
-   "rank": 37,
-   "of": 66
+   "rank": 36,
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -351,8 +370,8 @@
    "stat": "Points",
    "value": 21.4,
    "digits": 2,
-   "rank": 35,
-   "of": 48,
+   "rank": 36,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -361,18 +380,18 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 40,
-   "of": 48,
+   "rank": 41,
+   "of": 49,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.12,
    "digits": 2,
-   "rank": 13,
-   "of": 48,
+   "rank": 15,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -389,80 +408,80 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Points",
-   "value": 13.1,
+   "value": 29.3,
    "digits": 2,
-   "rank": 40,
-   "of": 58,
+   "rank": 29,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Games Started",
-   "value": 1,
+   "value": 2,
    "digits": 0,
-   "rank": 39,
-   "of": 58,
+   "rank": 31,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.0,
+   "value": 0.08,
    "digits": 2,
-   "rank": 32,
-   "of": 58,
+   "rank": 27,
+   "of": 60,
    "franchise": 5
   },
   {
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "Points, QBs",
-   "value": 13.1,
+   "value": 29.3,
    "digits": 2,
-   "rank": 7,
-   "of": 9,
+   "rank": 4,
+   "of": 10,
    "franchise": 5
   },
   {
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 34.5,
+   "value": 50.7,
    "digits": 2,
-   "rank": 138,
-   "of": 233,
+   "rank": 116,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 34.5,
+   "value": 50.7,
    "digits": 2,
-   "rank": 29,
-   "of": 36,
+   "rank": 27,
+   "of": 39,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 34.5,
+   "value": 50.7,
    "digits": 2,
-   "rank": 656,
-   "of": 1010,
+   "rank": 567,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.4,
-  "rank": 289,
-  "of": 420,
-  "war": 0.9,
-  "starts": 0.5,
+  "score": 2.65,
+  "rank": 243,
+  "of": 424,
+  "war": 1.9,
+  "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -574,42 +593,47 @@
    [
     "2026",
     2,
-    1.25
+    1.45
    ],
    [
     "2026",
     3,
-    1.25
+    1.45
    ],
    [
     "2026",
     4,
-    1.25
+    1.45
    ],
    [
     "2026",
     5,
-    1.25
+    1.45
    ],
    [
     "2026",
     6,
-    1.25
+    1.45
    ],
    [
     "2026",
     7,
-    1.25
+    1.45
    ],
    [
     "2026",
     8,
-    1.25
+    1.45
    ],
    [
     "2026",
     9,
-    1.4
+    1.9
+   ],
+   [
+    "2026",
+    10,
+    2.65
    ]
   ],
   "benchmark": 100

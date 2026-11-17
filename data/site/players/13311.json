@@ -24,7 +24,7 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "MIA",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 30.9,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 9,
+  "g": 10,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 30.9,
@@ -227,6 +227,22 @@
    "pts": 1.5,
    "proj": 7.1,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -241,8 +257,8 @@
    "stat": "Bench Points",
    "value": 30.9,
    "digits": 2,
-   "rank": 358,
-   "of": 511
+   "rank": 359,
+   "of": 515
   }
  ],
  "similar": [],
@@ -265,14 +281,14 @@
     "kinds": [
      "Doubtful"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 10,
       "kind": "Doubtful",
       "injury": "Knee",
-      "franchise": null,
-      "team": null
+      "franchise": 9,
+      "team": "Clandestine Ball Busters"
      }
     ]
    }
@@ -291,8 +307,13 @@
     "kinds": [
      "Doubtful"
     ],
-    "teams": [],
-    "rostered": 0,
+    "teams": [
+     {
+      "franchise": 9,
+      "team": "Clandestine Ball Busters"
+     }
+    ],
+    "rostered": 1,
     "lost": 0.0
    }
   ],

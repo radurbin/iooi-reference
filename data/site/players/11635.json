@@ -60,7 +60,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "LAC",
-   "g": 9,
+   "g": 10,
    "gs": 6,
    "pts": 39.0,
    "bench_pts": 12.6,
@@ -73,7 +73,7 @@
   }
  ],
  "totals": {
-  "g": 43,
+  "g": 44,
   "gs": 32,
   "pts": 380.4,
   "bench_pts": 57.2,
@@ -104,7 +104,7 @@
    "team": "LAC",
    "g": 6,
    "pts": 51.6,
-   "rank": 75
+   "rank": 77
   }
  ],
  "history": [
@@ -899,13 +899,29 @@
    "paa": -13.64,
    "vor": -10.32,
    "war": -0.12196984258475597
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-7-11",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 931,
+   "score": 933,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
@@ -914,7 +930,7 @@
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 911,
+   "score": 914,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -923,7 +939,7 @@
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 897,
+   "score": 899,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
@@ -932,16 +948,16 @@
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 854,
-   "gs": 26,
+   "score": 886,
+   "gs": 27,
    "pts": 334.8,
-   "ppg": 12.88,
-   "war": 0.43
+   "ppg": 12.4,
+   "war": 0.31
   },
   {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 850,
+   "score": 853,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
@@ -961,7 +977,7 @@
    "value": 380.4,
    "digits": 2,
    "rank": 84,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -969,8 +985,8 @@
    "stat": "Games Started",
    "value": 32,
    "digits": 0,
-   "rank": 81,
-   "of": 420
+   "rank": 84,
+   "of": 424
   },
   {
    "group": "Career",
@@ -978,8 +994,8 @@
    "stat": "WAR",
    "value": 0.36,
    "digits": 2,
-   "rank": 134,
-   "of": 420
+   "rank": 138,
+   "of": 424
   },
   {
    "group": "Career",
@@ -987,8 +1003,8 @@
    "stat": "VOR",
    "value": 30.8,
    "digits": 1,
-   "rank": 134,
-   "of": 420
+   "rank": 138,
+   "of": 424
   },
   {
    "group": "Career",
@@ -997,7 +1013,7 @@
    "value": -46.1,
    "digits": 1,
    "rank": 361,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1005,8 +1021,8 @@
    "stat": "Best Game",
    "value": 29.4,
    "digits": 2,
-   "rank": 112,
-   "of": 420
+   "rank": 113,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1014,7 +1030,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.89,
    "digits": 2,
-   "rank": 129,
+   "rank": 130,
    "of": 256
   },
   {
@@ -1023,8 +1039,8 @@
    "stat": "Bench Points",
    "value": 57.2,
    "digits": 2,
-   "rank": 265,
-   "of": 511
+   "rank": 270,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1033,7 +1049,7 @@
    "value": 380.4,
    "digits": 2,
    "rank": 29,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -1042,7 +1058,7 @@
    "value": 32,
    "digits": 0,
    "rank": 25,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -1051,7 +1067,7 @@
    "value": 0.36,
    "digits": 2,
    "rank": 39,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1060,7 +1076,7 @@
    "value": 380.4,
    "digits": 2,
    "rank": 7,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1069,8 +1085,8 @@
    "stat": "Games Started",
    "value": 32,
    "digits": 0,
-   "rank": 4,
-   "of": 52,
+   "rank": 5,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1080,7 +1096,7 @@
    "value": 0.37,
    "digits": 2,
    "rank": 15,
-   "of": 52,
+   "of": 54,
    "franchise": 7
   },
   {
@@ -1090,7 +1106,7 @@
    "value": 380.4,
    "digits": 2,
    "rank": 4,
-   "of": 12,
+   "of": 13,
    "franchise": 7
   },
   {
@@ -1139,8 +1155,8 @@
    "stat": "Points",
    "value": 39.0,
    "digits": 2,
-   "rank": 128,
-   "of": 233,
+   "rank": 137,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1149,8 +1165,8 @@
    "stat": "Points",
    "value": 39.0,
    "digits": 2,
-   "rank": 33,
-   "of": 62,
+   "rank": 34,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1159,8 +1175,8 @@
    "stat": "Points, 2025",
    "value": 178.4,
    "digits": 2,
-   "rank": 160,
-   "of": 1010,
+   "rank": 175,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1169,8 +1185,8 @@
    "stat": "Points, 2024",
    "value": 163.0,
    "digits": 2,
-   "rank": 198,
-   "of": 1010,
+   "rank": 206,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1179,15 +1195,15 @@
    "stat": "Points, 2026",
    "value": 39.0,
    "digits": 2,
-   "rank": 627,
-   "of": 1010,
+   "rank": 636,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 15.6,
-  "rank": 96,
-  "of": 420,
+  "rank": 95,
+  "of": 424,
   "war": 3.6,
   "starts": 8.0,
   "black_ink": 0.0,
@@ -1407,6 +1423,11 @@
     "2026",
     9,
     15.6
+   ],
+   [
+    "2026",
+    10,
+    15.6
    ]
   ],
   "benchmark": 100
@@ -1443,23 +1464,32 @@
    {
     "season": "2026",
     "nfl": "LAC",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
-     "Foot"
+     "Foot",
+     "Back"
     ],
     "weeks": [
-     5
+     5,
+     10
     ],
     "kinds": [
      "Questionable"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 5,
       "kind": "Questionable",
       "injury": "Foot",
+      "franchise": 7,
+      "team": "the dart side 🛸💍"
+     },
+     {
+      "week": 10,
+      "kind": "Questionable",
+      "injury": "Back",
       "franchise": 7,
       "team": "the dart side 🛸💍"
      }
@@ -1510,13 +1540,35 @@
     ],
     "rostered": 1,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 10,
+    "to": 10,
+    "weeks": [
+     10
+    ],
+    "missed": 1,
+    "nfl": "LAC",
+    "injury": "Back",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [
+     {
+      "franchise": 7,
+      "team": "the dart side 🛸💍"
+     }
+    ],
+    "rostered": 1,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Back",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

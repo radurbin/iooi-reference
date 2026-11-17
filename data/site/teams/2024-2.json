@@ -1211,8 +1211,8 @@
    "pos": "QB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 2,
-   "pts_league": 3.3,
+   "starts_league": 3,
+   "pts_league": 21.02,
    "nfl_pts": 170.0
   },
   {
@@ -1328,7 +1328,7 @@
    "season": "2023",
    "franchise": 7,
    "team": "young sexy central",
-   "score": 775,
+   "score": 776,
    "w": 10,
    "l": 4,
    "ppg": 128.09,
@@ -1338,7 +1338,7 @@
    "season": "2024",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 754,
+   "score": 756,
    "w": 9,
    "l": 5,
    "ppg": 131.79,
@@ -1348,17 +1348,17 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 741,
+   "score": 721,
    "w": 6,
-   "l": 3,
-   "ppg": 143.7,
+   "l": 4,
+   "ppg": 142.2,
    "result": null
   },
   {
    "season": "2025",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "score": 709,
+   "score": 715,
    "w": 9,
    "l": 5,
    "ppg": 130.17,
@@ -1368,7 +1368,7 @@
    "season": "2023",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team",
-   "score": 682,
+   "score": 683,
    "w": 7,
    "l": 7,
    "ppg": 134.85,
@@ -1438,7 +1438,7 @@
     "alex"
    ],
    "until": null,
-   "g": 43,
+   "g": 44,
    "gs": 6,
    "pts": 40.1,
    "wins": 3,
@@ -2060,8 +2060,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 29,
-   "pts": 269.1,
+   "gs": 30,
+   "pts": 274.1,
    "next": 12,
    "next_team": "Happy Feet"
   },
@@ -2074,8 +2074,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 19,
-   "pts": 119.0,
+   "gs": 20,
+   "pts": 123.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   },
@@ -2158,8 +2158,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 8,
-   "pts": 89.0,
+   "gs": 9,
+   "pts": 94.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2256,8 +2256,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 10,
-   "pts": 83.0,
+   "gs": 11,
+   "pts": 101.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2424,10 +2424,10 @@
    "managers": [
     "alex"
    ],
-   "gs": 0,
-   "pts": 0.0,
-   "next": null,
-   "next_team": null
+   "gs": 1,
+   "pts": -6.0,
+   "next": 10,
+   "next_team": "Maddison Beer’s Boys"
   },
   {
    "date": "2024-12-21",

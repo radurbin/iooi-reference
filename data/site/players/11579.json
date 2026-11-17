@@ -52,13 +52,29 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "season": "2026",
+   "franchise": 2,
+   "team": "Storm FC",
+   "nfl": "CLE/NO",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 4.3,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
   }
  ],
  "totals": {
-  "g": 19,
+  "g": 20,
   "gs": 1,
   "pts": 5.5,
-  "bench_pts": 57.2,
+  "bench_pts": 61.5,
   "ppg": 5.5,
   "best": 5.5,
   "wins": 1,
@@ -440,6 +456,22 @@
    "pts": 16.8,
    "proj": 8.1,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 4.3,
+   "proj": 8.54,
+   "won": false
   }
  ],
  "status": {
@@ -454,8 +486,8 @@
    "stat": "Points",
    "value": 5.5,
    "digits": 2,
-   "rank": 372,
-   "of": 420
+   "rank": 376,
+   "of": 424
   },
   {
    "group": "Career",
@@ -463,8 +495,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 360,
-   "of": 420
+   "rank": 362,
+   "of": 424
   },
   {
    "group": "Career",
@@ -473,7 +505,7 @@
    "value": -0.04,
    "digits": 2,
    "rank": 239,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -482,7 +514,7 @@
    "value": -3.7,
    "digits": 1,
    "rank": 246,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -490,8 +522,8 @@
    "stat": "PAA",
    "value": -9.6,
    "digits": 1,
-   "rank": 204,
-   "of": 420
+   "rank": 207,
+   "of": 424
   },
   {
    "group": "Career",
@@ -499,17 +531,17 @@
    "stat": "Best Game",
    "value": 5.5,
    "digits": 2,
-   "rank": 368,
-   "of": 420
+   "rank": 372,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 57.2,
+   "value": 61.5,
    "digits": 2,
-   "rank": 265,
-   "of": 511
+   "rank": 261,
+   "of": 515
   },
   {
    "group": "Career",
@@ -526,7 +558,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 85,
+   "rank": 86,
    "of": 100
   },
   {
@@ -535,7 +567,7 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 67,
+   "rank": 68,
    "of": 100
   },
   {
@@ -604,16 +636,16 @@
    "stat": "Points, 2024",
    "value": 5.5,
    "digits": 2,
-   "rank": 921,
-   "of": 1010,
+   "rank": 928,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 369,
-  "of": 420,
+  "rank": 371,
+  "of": 424,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -832,6 +864,11 @@
    [
     "2026",
     9,
+    0.25
+   ],
+   [
+    "2026",
+    10,
     0.25
    ]
   ],

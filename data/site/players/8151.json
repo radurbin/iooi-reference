@@ -72,7 +72,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "KC",
-   "g": 9,
+   "g": 10,
    "gs": 8,
    "pts": 212.3,
    "bench_pts": 0.0,
@@ -80,12 +80,12 @@
    "best": 38.1,
    "wins": 5,
    "paa": 84.05,
-   "vor": 133.9,
-   "war": 1.58
+   "vor": 128.38,
+   "war": 1.52
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 45,
   "pts": 714.45,
   "bench_pts": 22.0,
@@ -93,8 +93,8 @@
   "best": 38.1,
   "wins": 24,
   "paa": 74.15,
-  "vor": 286.35,
-  "war": 3.38
+  "vor": 280.83,
+  "war": 3.32
  },
  "nfl": [
   {
@@ -1110,8 +1110,8 @@
    "proj": 15.29,
    "won": false,
    "paa": 16.47,
-   "vor": 26.6,
-   "war": 0.31437963301884775
+   "vor": 25.91,
+   "war": 0.30622467261347164
   },
   {
    "season": "2026",
@@ -1129,8 +1129,8 @@
    "proj": 18.72,
    "won": false,
    "paa": 12.82,
-   "vor": 16.4,
-   "war": 0.19382804441763543
+   "vor": 15.71,
+   "war": 0.18567308401225932
   },
   {
    "season": "2026",
@@ -1148,8 +1148,8 @@
    "proj": 22.0,
    "won": true,
    "paa": 6.86,
-   "vor": 13.3,
-   "war": 0.15718981650942387
+   "vor": 12.61,
+   "war": 0.14903485610404774
   },
   {
    "season": "2026",
@@ -1167,8 +1167,8 @@
    "proj": 21.62,
    "won": false,
    "paa": 15.6,
-   "vor": 23.3,
-   "war": 0.27537764847139673
+   "vor": 22.61,
+   "war": 0.26722268806602056
   },
   {
    "season": "2026",
@@ -1202,8 +1202,8 @@
    "proj": 24.61,
    "won": true,
    "paa": 16.4,
-   "vor": 20.0,
-   "war": 0.23637566392394566
+   "vor": 19.31,
+   "war": 0.22822070351856952
   },
   {
    "season": "2026",
@@ -1221,8 +1221,8 @@
    "proj": 21.12,
    "won": true,
    "paa": -6.47,
-   "vor": 1.3,
-   "war": 0.015364418155056469
+   "vor": 0.61,
+   "war": 0.007209457749680343
   },
   {
    "season": "2026",
@@ -1240,8 +1240,8 @@
    "proj": 23.01,
    "won": true,
    "paa": -2.2,
-   "vor": 4.7,
-   "war": 0.055548281022127236
+   "vor": 4.01,
+   "war": 0.047393320616751104
   },
   {
    "season": "2026",
@@ -1259,55 +1259,71 @@
    "proj": 23.56,
    "won": true,
    "paa": 24.57,
-   "vor": 28.3,
-   "war": 0.33447156445238313
+   "vor": 27.61,
+   "war": 0.32631660404700696
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-1-2",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 938,
+   "score": 942,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
-   "war": 3.08
+   "war": 3.05
   },
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 932,
-   "gs": 48,
-   "pts": 757.8,
-   "ppg": 15.79,
-   "war": 3.57
+   "score": 913,
+   "gs": 49,
+   "pts": 771.7,
+   "ppg": 15.75,
+   "war": 3.54
   },
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 873,
-   "gs": 46,
-   "pts": 667.96,
-   "ppg": 14.52,
-   "war": 2.75
+   "score": 887,
+   "gs": 47,
+   "pts": 684.61,
+   "ppg": 14.57,
+   "war": 2.8
   },
   {
    "player": "6790",
    "name": "D'Andre Swift",
-   "score": 825,
+   "score": 827,
    "gs": 51,
    "pts": 718.2,
    "ppg": 14.08,
-   "war": 2.7
+   "war": 2.63
   },
   {
-   "player": "8138",
-   "name": "James Cook III",
-   "score": 819,
-   "gs": 48,
-   "pts": 822.0,
-   "ppg": 17.12,
-   "war": 4.31
+   "player": "4866",
+   "name": "Saquon Barkley",
+   "score": 806,
+   "gs": 50,
+   "pts": 838.2,
+   "ppg": 16.76,
+   "war": 4.3
   }
  ],
  "status": {
@@ -1332,8 +1348,8 @@
    "stat": "Points",
    "value": 714.45,
    "digits": 2,
-   "rank": 29,
-   "of": 420
+   "rank": 30,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1342,25 +1358,25 @@
    "value": 45,
    "digits": 0,
    "rank": 31,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.38,
+   "value": 3.32,
    "digits": 2,
-   "rank": 20,
-   "of": 420
+   "rank": 24,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 286.4,
+   "value": 280.8,
    "digits": 1,
-   "rank": 20,
-   "of": 420
+   "rank": 24,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1368,8 +1384,8 @@
    "stat": "PAA",
    "value": 74.2,
    "digits": 1,
-   "rank": 38,
-   "of": 420
+   "rank": 39,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1377,8 +1393,8 @@
    "stat": "Best Game",
    "value": 38.1,
    "digits": 2,
-   "rank": 40,
-   "of": 420
+   "rank": 41,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1395,8 +1411,8 @@
    "stat": "Bench Points",
    "value": 22.0,
    "digits": 2,
-   "rank": 385,
-   "of": 511
+   "rank": 390,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1420,7 +1436,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 3.38,
+   "value": 3.32,
    "digits": 2,
    "rank": 10,
    "of": 100
@@ -1441,7 +1457,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 22,
+   "rank": 23,
    "of": 76,
    "franchise": 2
   },
@@ -1449,9 +1465,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 1.58,
+   "value": 1.52,
    "digits": 2,
-   "rank": 3,
+   "rank": 4,
    "of": 76,
    "franchise": 2
   },
@@ -1472,7 +1488,7 @@
    "value": 502.15,
    "digits": 2,
    "rank": 3,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1482,7 +1498,7 @@
    "value": 37,
    "digits": 0,
    "rank": 1,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1492,7 +1508,7 @@
    "value": 1.8,
    "digits": 2,
    "rank": 4,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1571,8 +1587,8 @@
    "stat": "Points",
    "value": 212.3,
    "digits": 2,
-   "rank": 3,
-   "of": 233,
+   "rank": 7,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1581,7 +1597,7 @@
    "stat": "Points",
    "value": 212.3,
    "digits": 2,
-   "rank": 2,
+   "rank": 4,
    "of": 58,
    "season": "2026"
   },
@@ -1591,8 +1607,8 @@
    "stat": "Points, 2026",
    "value": 212.3,
    "digits": 2,
-   "rank": 100,
-   "of": 1010,
+   "rank": 104,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1601,8 +1617,8 @@
    "stat": "Points, 2023",
    "value": 173.8,
    "digits": 2,
-   "rank": 171,
-   "of": 1010,
+   "rank": 182,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1611,8 +1627,8 @@
    "stat": "Points, 2024",
    "value": 167.3,
    "digits": 2,
-   "rank": 184,
-   "of": 1010,
+   "rank": 196,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1621,16 +1637,16 @@
    "stat": "Points, 2025",
    "value": 161.05,
    "digits": 2,
-   "rank": 201,
-   "of": 1010,
+   "rank": 211,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 45.05,
-  "rank": 25,
-  "of": 420,
-  "war": 33.8,
+  "score": 44.45,
+  "rank": 27,
+  "of": 424,
+  "war": 33.2,
   "starts": 11.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1893,47 +1909,52 @@
    [
     "2026",
     1,
-    30.7
+    30.6
    ],
    [
     "2026",
     2,
-    32.85
+    32.65
    ],
    [
     "2026",
     3,
-    34.7
+    34.4
    ],
    [
     "2026",
     4,
-    37.65
+    37.35
    ],
    [
     "2026",
     5,
-    37.65
+    37.35
    ],
    [
     "2026",
     6,
-    40.3
+    39.9
    ],
    [
     "2026",
     7,
-    40.65
+    40.25
    ],
    [
     "2026",
     8,
-    41.5
+    40.9
    ],
    [
     "2026",
     9,
-    45.05
+    44.45
+   ],
+   [
+    "2026",
+    10,
+    44.45
    ]
   ],
   "benchmark": 100
@@ -2041,7 +2062,7 @@
     "season": "2026",
     "nfl": "KC",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 16.05,
     "injuries": [
      "Groin"
     ],
@@ -2051,14 +2072,14 @@
     "kinds": [
      "Questionable"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 10,
       "kind": "Questionable",
       "injury": "Groin",
-      "franchise": null,
-      "team": null
+      "franchise": 2,
+      "team": "Storm FC"
      }
     ]
    }
@@ -2147,9 +2168,14 @@
     "kinds": [
      "Questionable"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 2,
+      "team": "Storm FC"
+     }
+    ],
+    "rostered": 1,
+    "lost": 16.05
    }
   ],
   "now": {

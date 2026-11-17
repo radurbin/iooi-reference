@@ -127,15 +127,15 @@
    "season": "2026",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "w": 8,
+   "w": 9,
    "l": 1,
    "t": 0,
-   "pf": 1413.74,
-   "pa": 1134.36,
-   "max_pf": 1631.59,
-   "all_play_w": 74,
-   "all_play_l": 25,
-   "expected_w": 6.73,
+   "pf": 1560.58,
+   "pa": 1263.0,
+   "max_pf": 1795.05,
+   "all_play_w": 80,
+   "all_play_l": 30,
+   "expected_w": 7.27,
    "playoff_w": 0,
    "playoff_l": 0,
    "toilet_w": 0,
@@ -144,20 +144,20 @@
    "transactions": 35,
    "trades": 4,
    "seed": 1,
-   "efficiency": 0.8665,
-   "luck": 1.27,
-   "ppg": 157.08,
-   "pct": 0.889,
+   "efficiency": 0.8694,
+   "luck": 1.73,
+   "ppg": 156.06,
+   "pct": 0.9,
    "result": null
   }
  ],
  "totals": {
-  "w": 33,
+  "w": 34,
   "l": 18,
   "t": 0,
-  "pct": 0.647,
-  "pf": 7249.68,
-  "pa": 6427.48,
+  "pct": 0.654,
+  "pf": 7396.52,
+  "pa": 6556.12,
   "transactions": 164,
   "trades": 31,
   "toilet_w": 0,
@@ -177,46 +177,46 @@
     "player": "4984",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 56,
-    "pts": 1320.02,
+    "g": 61,
+    "gs": 57,
+    "pts": 1342.86,
     "best": 51.88,
-    "wins": 38,
-    "paa": 382.28,
-    "vor": 598.82,
-    "war": 7.08
+    "wins": 39,
+    "paa": 387.47,
+    "vor": 625.23,
+    "war": 7.39
    },
    {
     "player": "8130",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 53,
-    "gs": 43,
-    "pts": 739.8,
+    "g": 54,
+    "gs": 44,
+    "pts": 748.5,
     "best": 37.4,
-    "wins": 31,
-    "paa": 270.02,
-    "vor": 334.94,
+    "wins": 32,
+    "paa": 271.19,
+    "vor": 334.92,
     "war": 3.96
    },
    {
     "player": "4866",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 49,
+    "g": 50,
     "gs": 43,
     "pts": 715.7,
     "best": 46.2,
     "wins": 31,
     "paa": 94.33,
-    "vor": 319.52,
-    "war": 3.78
+    "vor": 315.38,
+    "war": 3.73
    },
    {
     "player": "2133",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 54,
+    "g": 55,
     "gs": 40,
     "pts": 604.6,
     "best": 42.8,
@@ -229,14 +229,14 @@
     "player": "8138",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 22,
-    "pts": 418.3,
+    "g": 27,
+    "gs": 23,
+    "pts": 441.8,
     "best": 33.6,
-    "wins": 18,
-    "paa": 93.92,
-    "vor": 219.64,
-    "war": 2.6
+    "wins": 19,
+    "paa": 98.63,
+    "vor": 227.13,
+    "war": 2.68
    },
    {
     "player": "1373",
@@ -255,14 +255,14 @@
     "player": "8150",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 26,
-    "gs": 23,
-    "pts": 400.5,
+    "g": 27,
+    "gs": 24,
+    "pts": 406.9,
     "best": 39.8,
-    "wins": 18,
-    "paa": 60.72,
-    "vor": 192.04,
-    "war": 2.27
+    "wins": 19,
+    "paa": 48.33,
+    "vor": 181.74,
+    "war": 2.15
    },
    {
     "player": "4137",
@@ -281,20 +281,20 @@
     "player": "9228",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
-    "gs": 20,
-    "pts": 284.82,
+    "g": 61,
+    "gs": 21,
+    "pts": 293.02,
     "best": 31.64,
-    "wins": 15,
-    "paa": -48.71,
-    "vor": 23.34,
-    "war": 0.28
+    "wins": 16,
+    "paa": -58.16,
+    "vor": 35.11,
+    "war": 0.41
    },
    {
     "player": "5844",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 17,
     "pts": 226.9,
     "best": 30.4,
@@ -317,6 +317,19 @@
     "war": 0.22
    },
    {
+    "player": "8146",
+    "pos": "WR",
+    "years": "2025-2026",
+    "g": 27,
+    "gs": 14,
+    "pts": 206.3,
+    "best": 26.7,
+    "wins": 11,
+    "paa": 12.9,
+    "vor": 60.42,
+    "war": 0.71
+   },
+   {
     "player": "10937",
     "pos": "K",
     "years": "2023-2024",
@@ -328,19 +341,6 @@
     "paa": -0.37,
     "vor": -0.53,
     "war": -0.01
-   },
-   {
-    "player": "8146",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 26,
-    "gs": 13,
-    "pts": 190.7,
-    "best": 26.7,
-    "wins": 10,
-    "paa": 10.52,
-    "vor": 55.14,
-    "war": 0.65
    },
    {
     "player": "7525",
@@ -359,7 +359,7 @@
     "player": "5947",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 13,
     "pts": 164.3,
     "best": 20.5,
@@ -372,14 +372,14 @@
     "player": "6786",
     "pos": "WR",
     "years": "2026",
-    "g": 6,
-    "gs": 6,
-    "pts": 131.0,
+    "g": 7,
+    "gs": 7,
+    "pts": 151.2,
     "best": 41.4,
-    "wins": 5,
-    "paa": 48.79,
-    "vor": 69.08,
-    "war": 0.82
+    "wins": 6,
+    "paa": 55.77,
+    "vor": 78.96,
+    "war": 0.93
    },
    {
     "player": "2216",
@@ -398,20 +398,33 @@
     "player": "96",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 19,
+    "g": 20,
     "gs": 9,
     "pts": 121.34,
     "best": 22.1,
     "wins": 6,
     "paa": -33.78,
-    "vor": 14.28,
-    "war": 0.17
+    "vor": 18.04,
+    "war": 0.21
+   },
+   {
+    "player": "11792",
+    "pos": "K",
+    "years": "2024-2026",
+    "g": 11,
+    "gs": 10,
+    "pts": 104.1,
+    "best": 20.1,
+    "wins": 7,
+    "paa": 9.28,
+    "vor": 13.81,
+    "war": 0.16
    },
    {
     "player": "3321",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 33,
+    "g": 34,
     "gs": 7,
     "pts": 102.8,
     "best": 28.1,
@@ -421,10 +434,23 @@
     "war": 0.26
    },
    {
+    "player": "5967",
+    "pos": "RB",
+    "years": "2023-2026",
+    "g": 7,
+    "gs": 7,
+    "pts": 99.9,
+    "best": 24.8,
+    "wins": 5,
+    "paa": 1.68,
+    "vor": 25.93,
+    "war": 0.31
+   },
+   {
     "player": "5846",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 34,
+    "g": 35,
     "gs": 9,
     "pts": 94.5,
     "best": 16.5,
@@ -445,19 +471,6 @@
     "paa": 42.7,
     "vor": 51.58,
     "war": 0.61
-   },
-   {
-    "player": "11792",
-    "pos": "K",
-    "years": "2024-2026",
-    "g": 10,
-    "gs": 9,
-    "pts": 91.5,
-    "best": 20.1,
-    "wins": 6,
-    "paa": 6.4,
-    "vor": 11.0,
-    "war": 0.13
    },
    {
     "player": "8144",
@@ -484,19 +497,6 @@
     "paa": -24.29,
     "vor": -14.7,
     "war": -0.17
-   },
-   {
-    "player": "5967",
-    "pos": "RB",
-    "years": "2023",
-    "g": 6,
-    "gs": 6,
-    "pts": 75.1,
-    "best": 22.3,
-    "wins": 4,
-    "paa": -4.33,
-    "vor": 11.62,
-    "war": 0.14
    }
   ],
   "by_pos": {
@@ -505,14 +505,14 @@
      "player": "4984",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 56,
-     "pts": 1320.02,
+     "g": 61,
+     "gs": 57,
+     "pts": 1342.86,
      "best": 51.88,
-     "wins": 38,
-     "paa": 382.28,
-     "vor": 598.82,
-     "war": 7.08
+     "wins": 39,
+     "paa": 387.47,
+     "vor": 625.23,
+     "war": 7.39
     },
     {
      "player": "1373",
@@ -531,14 +531,14 @@
      "player": "9228",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
-     "gs": 20,
-     "pts": 284.82,
+     "g": 61,
+     "gs": 21,
+     "pts": 293.02,
      "best": 31.64,
-     "wins": 15,
-     "paa": -48.71,
-     "vor": 23.34,
-     "war": 0.28
+     "wins": 16,
+     "paa": -58.16,
+     "vor": 35.11,
+     "war": 0.41
     }
    ],
    "RB": [
@@ -546,40 +546,40 @@
      "player": "4866",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 49,
+     "g": 50,
      "gs": 43,
      "pts": 715.7,
      "best": 46.2,
      "wins": 31,
      "paa": 94.33,
-     "vor": 319.52,
-     "war": 3.78
+     "vor": 315.38,
+     "war": 3.73
     },
     {
      "player": "8138",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 22,
-     "pts": 418.3,
+     "g": 27,
+     "gs": 23,
+     "pts": 441.8,
      "best": 33.6,
-     "wins": 18,
-     "paa": 93.92,
-     "vor": 219.64,
-     "war": 2.6
+     "wins": 19,
+     "paa": 98.63,
+     "vor": 227.13,
+     "war": 2.68
     },
     {
      "player": "8150",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 23,
-     "pts": 400.5,
+     "g": 27,
+     "gs": 24,
+     "pts": 406.9,
      "best": 39.8,
-     "wins": 18,
-     "paa": 60.72,
-     "vor": 192.04,
-     "war": 2.27
+     "wins": 19,
+     "paa": 48.33,
+     "vor": 181.74,
+     "war": 2.15
     }
    ],
    "WR": [
@@ -587,7 +587,7 @@
      "player": "2133",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 54,
+     "g": 55,
      "gs": 40,
      "pts": 604.6,
      "best": 42.8,
@@ -613,14 +613,14 @@
      "player": "8146",
      "pos": "WR",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 13,
-     "pts": 190.7,
+     "g": 27,
+     "gs": 14,
+     "pts": 206.3,
      "best": 26.7,
-     "wins": 10,
-     "paa": 10.52,
-     "vor": 55.14,
-     "war": 0.65
+     "wins": 11,
+     "paa": 12.9,
+     "vor": 60.42,
+     "war": 0.71
     }
    ],
    "TE": [
@@ -628,20 +628,20 @@
      "player": "8130",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 53,
-     "gs": 43,
-     "pts": 739.8,
+     "g": 54,
+     "gs": 44,
+     "pts": 748.5,
      "best": 37.4,
-     "wins": 31,
-     "paa": 270.02,
-     "vor": 334.94,
+     "wins": 32,
+     "paa": 271.19,
+     "vor": 334.92,
      "war": 3.96
     },
     {
      "player": "5844",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 17,
      "pts": 226.9,
      "best": 30.4,
@@ -682,14 +682,14 @@
      "player": "11792",
      "pos": "K",
      "years": "2024-2026",
-     "g": 10,
-     "gs": 9,
-     "pts": 91.5,
+     "g": 11,
+     "gs": 10,
+     "pts": 104.1,
      "best": 20.1,
-     "wins": 6,
-     "paa": 6.4,
-     "vor": 11.0,
-     "war": 0.13
+     "wins": 7,
+     "paa": 9.28,
+     "vor": 13.81,
+     "war": 0.16
     },
     {
      "player": "7042",
@@ -722,15 +722,15 @@
     {
      "player": "BAL",
      "pos": "DEF",
-     "years": "2023",
-     "g": 5,
-     "gs": 5,
-     "pts": 58.0,
+     "years": "2023-2026",
+     "g": 6,
+     "gs": 6,
+     "pts": 62.0,
      "best": 17.0,
-     "wins": 2,
-     "paa": 14.83,
-     "vor": 21.45,
-     "war": 0.25
+     "wins": 3,
+     "paa": 9.1,
+     "vor": 17.67,
+     "war": 0.21
     },
     {
      "player": "MIN",
@@ -756,8 +756,8 @@
    "signings": 24,
    "adds": 32,
    "releases": 30,
-   "gs": 69,
-   "pts": 996.46
+   "gs": 70,
+   "pts": 1005.16
   },
   {
    "season": "2024",
@@ -786,8 +786,8 @@
    "signings": 22,
    "adds": 26,
    "releases": 26,
-   "gs": 18,
-   "pts": 123.8
+   "gs": 20,
+   "pts": 140.4
   }
  ],
  "best_games": [
@@ -1276,7 +1276,7 @@
    "list": "Career Points",
    "scope": 1,
    "rank": 1,
-   "value": "1320.02",
+   "value": "1342.86",
    "href": "franchise.html?id=1#all-time-leaders",
    "player": "4984",
    "franchise": 1
@@ -1285,7 +1285,7 @@
    "list": "Career Starts",
    "scope": 1,
    "rank": 1,
-   "value": "56",
+   "value": "57",
    "href": "franchise.html?id=1#all-time-leaders",
    "player": "4984",
    "franchise": 1
@@ -1294,7 +1294,7 @@
    "list": "Career WAR",
    "scope": 1,
    "rank": 1,
-   "value": "7.07",
+   "value": "7.38",
    "href": "franchise.html?id=1#all-time-leaders",
    "player": "4984",
    "franchise": 1
@@ -1394,47 +1394,29 @@
    {
     "season": "2026",
     "team": "Mojo Dojo Casa Team 💍",
-    "games": 27,
-    "players": 12,
-    "lost": 38.5,
-    "rank": 6,
+    "games": 31,
+    "players": 13,
+    "lost": 45.05,
+    "rank": 5,
     "games_rank": 5,
     "of": 12,
     "worst": {
      "player": "2133",
      "name": "Davante Adams",
      "pos": "WR",
-     "missed": 3,
-     "lost": 20.79
+     "missed": 4,
+     "lost": 27.72
     },
-    "w": 8,
+    "w": 9,
     "l": 1
    }
   ],
   "players": [
    {
-    "player": "6803",
-    "name": "Brandon Aiyuk",
-    "pos": "WR",
-    "missed": 22,
-    "lost": 0.0,
-    "injuries": [
-     "Knee - ACL, MCL"
-    ],
-    "kinds": [
-     "IR",
-     "PUP"
-    ],
-    "seasons": [
-     "2024",
-     "2025"
-    ]
-   },
-   {
     "player": "11583",
     "name": "Jonathon Brooks",
     "pos": "RB",
-    "missed": 22,
+    "missed": 23,
     "lost": 0.0,
     "injuries": [
      "Knee",
@@ -1452,6 +1434,24 @@
      "2024",
      "2025",
      "2026"
+    ]
+   },
+   {
+    "player": "6803",
+    "name": "Brandon Aiyuk",
+    "pos": "WR",
+    "missed": 22,
+    "lost": 0.0,
+    "injuries": [
+     "Knee - ACL, MCL"
+    ],
+    "kinds": [
+     "IR",
+     "PUP"
+    ],
+    "seasons": [
+     "2024",
+     "2025"
     ]
    },
    {
@@ -1481,7 +1481,7 @@
     "name": "James Conner",
     "pos": "RB",
     "missed": 15,
-    "lost": 81.22,
+    "lost": 80.53,
     "injuries": [
      "Foot",
      "Back"
@@ -1532,6 +1532,51 @@
     ]
    },
    {
+    "player": "5844",
+    "name": "T.J. Hockenson",
+    "pos": "TE",
+    "missed": 10,
+    "lost": 6.6,
+    "injuries": [
+     "Knee",
+     "Ribs",
+     "Shoulder",
+     "Wrist"
+    ],
+    "kinds": [
+     "IR",
+     "Out",
+     "PUP"
+    ],
+    "seasons": [
+     "2023",
+     "2024",
+     "2025",
+     "2026"
+    ]
+   },
+   {
+    "player": "2133",
+    "name": "Davante Adams",
+    "pos": "WR",
+    "missed": 9,
+    "lost": 54.36,
+    "injuries": [
+     "Hamstring",
+     "Knee"
+    ],
+    "kinds": [
+     "Doubtful",
+     "IR",
+     "Out"
+    ],
+    "seasons": [
+     "2024",
+     "2025",
+     "2026"
+    ]
+   },
+   {
     "player": "8146",
     "name": "Garrett Wilson",
     "pos": "WR",
@@ -1547,49 +1592,6 @@
      "Out"
     ],
     "seasons": [
-     "2025",
-     "2026"
-    ]
-   },
-   {
-    "player": "5844",
-    "name": "T.J. Hockenson",
-    "pos": "TE",
-    "missed": 9,
-    "lost": 4.22,
-    "injuries": [
-     "Knee",
-     "Ribs",
-     "Shoulder"
-    ],
-    "kinds": [
-     "IR",
-     "Out",
-     "PUP"
-    ],
-    "seasons": [
-     "2023",
-     "2024",
-     "2025"
-    ]
-   },
-   {
-    "player": "2133",
-    "name": "Davante Adams",
-    "pos": "WR",
-    "missed": 8,
-    "lost": 47.43,
-    "injuries": [
-     "Hamstring",
-     "Knee"
-    ],
-    "kinds": [
-     "Doubtful",
-     "IR",
-     "Out"
-    ],
-    "seasons": [
-     "2024",
      "2025",
      "2026"
     ]
@@ -1705,10 +1707,10 @@
   "total": {
    "franchise": 1,
    "name": "Mojo Dojo Casa Team 💍",
-   "games": 202,
-   "lost": 268.53,
+   "games": 206,
+   "lost": 275.08,
    "seasons": 4,
-   "per_season": 67.13,
+   "per_season": 68.77,
    "worst": "2025"
   }
  }

@@ -1048,10 +1048,10 @@
    "original": 2,
    "player": "9509",
    "pos": "RB",
-   "starts_team": 55,
-   "pts_team": 1036.6,
-   "starts_league": 55,
-   "pts_league": 1036.6,
+   "starts_team": 56,
+   "pts_team": 1055.9,
+   "starts_league": 56,
+   "pts_league": 1055.9,
    "nfl_pts": 1110.3
   },
   {
@@ -1069,8 +1069,8 @@
    "pos": "RB",
    "starts_team": 6,
    "pts_team": 148.0,
-   "starts_league": 44,
-   "pts_league": 1007.45,
+   "starts_league": 45,
+   "pts_league": 1055.05,
    "nfl_pts": 1072.25
   },
   {
@@ -1107,8 +1107,8 @@
    "pos": "QB",
    "starts_team": 9,
    "pts_team": 103.62,
-   "starts_league": 12,
-   "pts_league": 140.3,
+   "starts_league": 13,
+   "pts_league": 162.48,
    "nfl_pts": 308.74
   },
   {
@@ -1145,8 +1145,8 @@
    "pos": "RB",
    "starts_team": 21,
    "pts_team": 222.9,
-   "starts_league": 43,
-   "pts_league": 585.4,
+   "starts_league": 44,
+   "pts_league": 594.7,
    "nfl_pts": 734.4
   },
   {
@@ -1164,8 +1164,8 @@
    "pos": "WR",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 23,
-   "pts_league": 274.7,
+   "starts_league": 24,
+   "pts_league": 281.4,
    "nfl_pts": 525.6
   },
   {
@@ -1200,10 +1200,10 @@
    "original": 9,
    "player": "10236",
    "pos": "TE",
-   "starts_team": 38,
-   "pts_team": 310.3,
-   "starts_league": 38,
-   "pts_league": 310.3,
+   "starts_team": 39,
+   "pts_team": 318.1,
+   "starts_league": 39,
+   "pts_league": 318.1,
    "nfl_pts": 446.7
   },
   {
@@ -1221,8 +1221,8 @@
    "pos": "RB",
    "starts_team": 26,
    "pts_team": 377.8,
-   "starts_league": 30,
-   "pts_league": 422.1,
+   "starts_league": 31,
+   "pts_league": 429.4,
    "nfl_pts": 675.0
   },
   {
@@ -1487,27 +1487,17 @@
    "season": "2025",
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
-   "score": 887,
+   "score": 888,
    "w": 6,
    "l": 8,
    "ppg": 121.85,
    "result": "7th"
   },
   {
-   "season": "2026",
-   "franchise": 9,
-   "team": "Clandestine Ball Busters",
-   "score": 813,
-   "w": 4,
-   "l": 5,
-   "ppg": 133.21,
-   "result": null
-  },
-  {
    "season": "2024",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "score": 807,
+   "score": 809,
    "w": 5,
    "l": 9,
    "ppg": 121.37,
@@ -1517,7 +1507,7 @@
    "season": "2024",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "score": 803,
+   "score": 804,
    "w": 5,
    "l": 9,
    "ppg": 124.17,
@@ -1527,11 +1517,21 @@
    "season": "2024",
    "franchise": 11,
    "team": "BubbaNASTIES",
-   "score": 800,
+   "score": 802,
    "w": 6,
    "l": 8,
    "ppg": 123.05,
    "result": "9th"
+  },
+  {
+   "season": "2024",
+   "franchise": 4,
+   "team": "Win one game",
+   "score": 798,
+   "w": 6,
+   "l": 8,
+   "ppg": 116.19,
+   "result": "10th"
   }
  ],
  "pickups": [
@@ -1851,8 +1851,8 @@
     "tanner",
     "joe"
    ],
-   "gs": 3,
-   "pts": 34.0,
+   "gs": 4,
+   "pts": 28.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   },
@@ -1911,7 +1911,7 @@
     "tanner",
     "joe"
    ],
-   "gs": 12,
+   "gs": 13,
    "pts": 142.7,
    "next": 4,
    "next_team": "Win one game"

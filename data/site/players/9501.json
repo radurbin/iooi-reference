@@ -81,10 +81,10 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NE",
-   "g": 3,
+   "g": 4,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 37.1,
+   "bench_pts": 38.5,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -94,10 +94,10 @@
   }
  ],
  "totals": {
-  "g": 52,
+  "g": 53,
   "gs": 3,
   "pts": 26.6,
-  "bench_pts": 298.5,
+  "bench_pts": 299.9,
   "ppg": 8.87,
   "best": 11.9,
   "wins": 1,
@@ -1009,6 +1009,22 @@
    "pts": 15.2,
    "proj": 8.78,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 1.4,
+   "proj": 8.62,
+   "won": true
   }
  ],
  "status": {
@@ -1023,8 +1039,8 @@
    "stat": "Points",
    "value": 26.6,
    "digits": 2,
-   "rank": 304,
-   "of": 420
+   "rank": 305,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1032,8 +1048,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 299,
-   "of": 420
+   "rank": 301,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1041,8 +1057,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 284,
-   "of": 420
+   "rank": 283,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1051,7 +1067,7 @@
    "value": -8.5,
    "digits": 1,
    "rank": 289,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1059,8 +1075,8 @@
    "stat": "PAA",
    "value": -10.1,
    "digits": 1,
-   "rank": 211,
-   "of": 420
+   "rank": 212,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1068,17 +1084,17 @@
    "stat": "Best Game",
    "value": 11.9,
    "digits": 2,
-   "rank": 318,
-   "of": 420
+   "rank": 321,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 298.5,
+   "value": 299.9,
    "digits": 2,
    "rank": 15,
-   "of": 511
+   "of": 515
   },
   {
    "group": "Career",
@@ -1087,7 +1103,7 @@
    "value": 26.6,
    "digits": 2,
    "rank": 87,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -1095,8 +1111,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 83,
-   "of": 126
+   "rank": 84,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1104,8 +1120,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 73,
-   "of": 126
+   "rank": 71,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1123,7 +1139,7 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 40,
+   "rank": 41,
    "of": 76,
    "franchise": 2
   },
@@ -1133,7 +1149,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 63,
+   "rank": 65,
    "of": 76,
    "franchise": 2
   },
@@ -1173,16 +1189,16 @@
    "stat": "Points, 2024",
    "value": 26.6,
    "digits": 2,
-   "rank": 696,
-   "of": 1010,
+   "rank": 701,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 317,
-  "of": 420,
+  "rank": 319,
+  "of": 424,
   "war": 0.0,
   "starts": 0.75,
   "black_ink": 0.0,
@@ -1486,6 +1502,11 @@
    [
     "2026",
     9,
+    0.75
+   ],
+   [
+    "2026",
+    10,
     0.75
    ]
   ],

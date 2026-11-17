@@ -1537,29 +1537,29 @@
  "similar": [
   {
    "season": "2026",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "score": 746,
-   "w": 5,
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 758,
+   "w": 6,
    "l": 4,
-   "ppg": 143.32,
+   "ppg": 142.2,
    "result": null
   },
   {
    "season": "2026",
-   "franchise": 2,
-   "team": "Storm FC",
-   "score": 741,
+   "franchise": 6,
+   "team": "got that DAWG",
+   "score": 740,
    "w": 6,
-   "l": 3,
-   "ppg": 143.7,
+   "l": 4,
+   "ppg": 149.16,
    "result": null
   },
   {
    "season": "2025",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "score": 721,
+   "score": 720,
    "w": 11,
    "l": 3,
    "ppg": 143.65,
@@ -1569,7 +1569,7 @@
    "season": "2024",
    "franchise": 5,
    "team": "i’m Stroud of you",
-   "score": 701,
+   "score": 709,
    "w": 9,
    "l": 5,
    "ppg": 140.69,
@@ -2154,8 +2154,8 @@
     "riley",
     "emily"
    ],
-   "gs": 20,
-   "pts": 131.0,
+   "gs": 21,
+   "pts": 144.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2244,8 +2244,8 @@
     "riley",
     "emily"
    ],
-   "gs": 3,
-   "pts": 53.0,
+   "gs": 4,
+   "pts": 58.0,
    "next": 7,
    "next_team": "the dart side 🛸"
   },
@@ -2274,8 +2274,8 @@
     "riley",
     "emily"
    ],
-   "gs": 21,
-   "pts": 130.0,
+   "gs": 22,
+   "pts": 134.0,
    "next": 3,
    "next_team": "Kolkata Kommies"
   },
@@ -2319,8 +2319,8 @@
     "riley",
     "emily"
    ],
-   "gs": 11,
-   "pts": 86.0,
+   "gs": 12,
+   "pts": 104.0,
    "next": 9,
    "next_team": "Clandestine Ball Busters"
   },
@@ -2364,8 +2364,8 @@
     "riley",
     "emily"
    ],
-   "gs": 8,
-   "pts": 67.7,
+   "gs": 9,
+   "pts": 68.1,
    "next": 9,
    "next_team": "Clandestine Ball Busters"
   },
@@ -2379,8 +2379,8 @@
     "riley",
     "emily"
    ],
-   "gs": 15,
-   "pts": 105.0,
+   "gs": 16,
+   "pts": 118.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2394,8 +2394,8 @@
     "riley",
     "emily"
    ],
-   "gs": 10,
-   "pts": 90.0,
+   "gs": 11,
+   "pts": 111.0,
    "next": 11,
    "next_team": "BubbaNASTIES"
   },
@@ -2623,28 +2623,12 @@
   {
    "list": "Biggest Blowouts",
    "scope": "league",
-   "rank": 9,
+   "rank": 10,
    "value": "80.58",
    "href": "records.html",
    "season": "2024",
    "week": 1,
    "game": "2024-01-1-11",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team",
-   "managers": [
-    "riley",
-    "emily"
-   ]
-  },
-  {
-   "list": "Biggest Blowouts",
-   "scope": "league",
-   "rank": 10,
-   "value": "80.04",
-   "href": "records.html",
-   "season": "2024",
-   "week": 15,
-   "game": "2024-15-1-2",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team",
    "managers": [
@@ -2662,23 +2646,6 @@
    "season": "2024",
    "week": 14,
    "game": "2024-14-1-4",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team",
-   "managers": [
-    "riley",
-    "emily"
-   ]
-  },
-  {
-   "list": "Highest Player Scores",
-   "scope": "league",
-   "rank": 10,
-   "value": "46.20",
-   "href": "records.html",
-   "player": "4866",
-   "season": "2024",
-   "week": 12,
-   "game": "2024-12-1-11",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team",
    "managers": [
@@ -2723,30 +2690,13 @@
   {
    "list": "Highest RB Scores",
    "scope": "league",
-   "rank": 4,
+   "rank": 6,
    "value": "46.20",
    "href": "records.html#highest-player-scores-by-position",
    "player": "4866",
    "season": "2024",
    "week": 12,
    "game": "2024-12-1-11",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team",
-   "managers": [
-    "riley",
-    "emily"
-   ]
-  },
-  {
-   "list": "Highest WR Scores",
-   "scope": "league",
-   "rank": 10,
-   "value": "42.80",
-   "href": "records.html#highest-player-scores-by-position",
-   "player": "2133",
-   "season": "2024",
-   "week": 15,
-   "game": "2024-15-1-2",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team",
    "managers": [
@@ -2960,18 +2910,6 @@
    "value": "183.84",
    "href": "leaders.html",
    "player": "4984",
-   "season": "2024",
-   "franchises": [
-    1
-   ]
-  },
-  {
-   "list": "Single-Season PAA",
-   "scope": "league",
-   "rank": 10,
-   "value": "122.99",
-   "href": "leaders.html",
-   "player": "4866",
    "season": "2024",
    "franchises": [
     1

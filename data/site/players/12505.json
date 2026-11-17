@@ -42,7 +42,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "KC",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 21.8,
@@ -55,7 +55,7 @@
   }
  ],
  "totals": {
-  "g": 26,
+  "g": 27,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 21.8,
@@ -79,7 +79,7 @@
    "team": "KC",
    "g": 9,
    "pts": 21.8,
-   "rank": 115
+   "rank": 116
   }
  ],
  "history": [
@@ -509,6 +509,22 @@
    "pts": 3.8,
    "proj": 1.7,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-7-11",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": 0.08,
+   "won": false
   }
  ],
  "status": {
@@ -523,8 +539,8 @@
    "stat": "Bench Points",
    "value": 21.8,
    "digits": 2,
-   "rank": 387,
-   "of": 511
+   "rank": 392,
+   "of": 515
   }
  ],
  "similar": [],

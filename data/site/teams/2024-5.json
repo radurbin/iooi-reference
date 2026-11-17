@@ -1208,7 +1208,7 @@
    "season": "2025",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team",
-   "score": 840,
+   "score": 843,
    "w": 10,
    "l": 4,
    "ppg": 139.3,
@@ -1218,7 +1218,7 @@
    "season": "2025",
    "franchise": 5,
    "team": "St. Brown VS Board",
-   "score": 788,
+   "score": 789,
    "w": 10,
    "l": 4,
    "ppg": 146.05,
@@ -1228,11 +1228,21 @@
    "season": "2025",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 733,
+   "score": 734,
    "w": 7,
    "l": 7,
    "ppg": 132.89,
    "result": "5th"
+  },
+  {
+   "season": "2023",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team",
+   "score": 733,
+   "w": 7,
+   "l": 7,
+   "ppg": 134.85,
+   "result": "3rd"
   },
   {
    "season": "2025",
@@ -1243,16 +1253,6 @@
    "l": 7,
    "ppg": 130.72,
    "result": "8th"
-  },
-  {
-   "season": "2023",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team",
-   "score": 732,
-   "w": 7,
-   "l": 7,
-   "ppg": 134.85,
-   "result": "3rd"
   }
  ],
  "pickups": [
@@ -1626,8 +1626,8 @@
    "managers": [
     "sam"
    ],
-   "gs": 15,
-   "pts": 166.0,
+   "gs": 16,
+   "pts": 171.0,
    "next": 6,
    "next_team": "got that DAWG"
   },

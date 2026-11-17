@@ -1075,25 +1075,16 @@
   {
    "player": "11584",
    "name": "Bucky Irving",
-   "score": 887,
+   "score": 889,
    "gs": 23,
    "pts": 397.7,
    "ppg": 17.29,
-   "war": 2.19
-  },
-  {
-   "player": "7594",
-   "name": "Chuba Hubbard",
-   "score": 868,
-   "gs": 33,
-   "pts": 541.5,
-   "ppg": 16.41,
-   "war": 2.7
+   "war": 2.12
   },
   {
    "player": "4035",
    "name": "Alvin Kamara",
-   "score": 854,
+   "score": 856,
    "gs": 30,
    "pts": 532.8,
    "ppg": 17.76,
@@ -1102,20 +1093,29 @@
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 847,
-   "gs": 34,
-   "pts": 497.8,
-   "ppg": 14.64,
-   "war": 2.14
+   "score": 845,
+   "gs": 35,
+   "pts": 527.1,
+   "ppg": 15.06,
+   "war": 2.3
   },
   {
    "player": "4137",
    "name": "James Conner",
-   "score": 838,
+   "score": 841,
    "gs": 24,
    "pts": 360.2,
    "ppg": 15.01,
    "war": 1.55
+  },
+  {
+   "player": "12527",
+   "name": "Ashton Jeanty",
+   "score": 832,
+   "gs": 22,
+   "pts": 341.7,
+   "ppg": 15.53,
+   "war": 1.6
   }
  ],
  "status": {
@@ -1141,7 +1141,7 @@
    "value": 460.3,
    "digits": 2,
    "rank": 68,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1150,7 +1150,7 @@
    "value": 28,
    "digits": 0,
    "rank": 98,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1158,8 +1158,8 @@
    "stat": "WAR",
    "value": 2.15,
    "digits": 2,
-   "rank": 42,
-   "of": 420
+   "rank": 45,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1167,8 +1167,8 @@
    "stat": "VOR",
    "value": 182.1,
    "digits": 1,
-   "rank": 42,
-   "of": 420
+   "rank": 45,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1177,7 +1177,7 @@
    "value": 78.1,
    "digits": 1,
    "rank": 36,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1185,8 +1185,8 @@
    "stat": "Best Game",
    "value": 35.3,
    "digits": 2,
-   "rank": 57,
-   "of": 420
+   "rank": 61,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1194,7 +1194,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 16.44,
    "digits": 2,
-   "rank": 40,
+   "rank": 43,
    "of": 256
   },
   {
@@ -1231,7 +1231,7 @@
    "value": 460.3,
    "digits": 2,
    "rank": 4,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1241,7 +1241,7 @@
    "value": 28,
    "digits": 0,
    "rank": 4,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1251,7 +1251,7 @@
    "value": 2.16,
    "digits": 2,
    "rank": 2,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1310,8 +1310,8 @@
    "stat": "Points, 2024",
    "value": 236.7,
    "digits": 2,
-   "rank": 70,
-   "of": 1010,
+   "rank": 72,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1320,15 +1320,15 @@
    "stat": "Points, 2023",
    "value": 223.6,
    "digits": 2,
-   "rank": 85,
-   "of": 1010,
+   "rank": 87,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 28.5,
-  "rank": 57,
-  "of": 420,
+  "rank": 56,
+  "of": 424,
   "war": 21.5,
   "starts": 7.0,
   "black_ink": 0.0,
@@ -1632,6 +1632,11 @@
    [
     "2026",
     9,
+    28.5
+   ],
+   [
+    "2026",
+    10,
     28.5
    ]
   ],

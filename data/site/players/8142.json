@@ -104,7 +104,7 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "IND",
-   "g": 9,
+   "g": 10,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 12.2,
@@ -117,7 +117,7 @@
   }
  ],
  "totals": {
-  "g": 56,
+  "g": 57,
   "gs": 10,
   "pts": 124.6,
   "bench_pts": 241.0,
@@ -1152,31 +1152,47 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-4-12",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
-   "player": "9487",
-   "name": "Parker Washington",
-   "score": 958,
-   "gs": 10,
-   "pts": 118.9,
-   "ppg": 11.89,
-   "war": 0.18
-  },
-  {
    "player": "5947",
    "name": "Jakobi Meyers",
-   "score": 926,
+   "score": 927,
    "gs": 13,
    "pts": 164.3,
    "ppg": 12.64,
    "war": 0.14
   },
   {
+   "player": "9487",
+   "name": "Parker Washington",
+   "score": 922,
+   "gs": 11,
+   "pts": 147.1,
+   "ppg": 13.37,
+   "war": 0.39
+  },
+  {
    "player": "8126",
    "name": "Wan'Dale Robinson",
-   "score": 918,
+   "score": 920,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
@@ -1185,7 +1201,7 @@
   {
    "player": "7049",
    "name": "Jauan Jennings",
-   "score": 875,
+   "score": 876,
    "gs": 12,
    "pts": 167.3,
    "ppg": 13.94,
@@ -1194,7 +1210,7 @@
   {
    "player": "6943",
    "name": "Gabe Davis",
-   "score": 847,
+   "score": 850,
    "gs": 12,
    "pts": 129.1,
    "ppg": 10.76,
@@ -1213,8 +1229,8 @@
    "stat": "Points",
    "value": 124.6,
    "digits": 2,
-   "rank": 207,
-   "of": 420
+   "rank": 208,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1222,8 +1238,8 @@
    "stat": "Games Started",
    "value": 10,
    "digits": 0,
-   "rank": 222,
-   "of": 420
+   "rank": 224,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1232,7 +1248,7 @@
    "value": 0.22,
    "digits": 2,
    "rank": 158,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1240,8 +1256,8 @@
    "stat": "VOR",
    "value": 18.6,
    "digits": 1,
-   "rank": 158,
-   "of": 420
+   "rank": 159,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1249,8 +1265,8 @@
    "stat": "PAA",
    "value": 0.9,
    "digits": 1,
-   "rank": 133,
-   "of": 420
+   "rank": 129,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1258,8 +1274,8 @@
    "stat": "Best Game",
    "value": 24.6,
    "digits": 2,
-   "rank": 168,
-   "of": 420
+   "rank": 169,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1267,7 +1283,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 12.46,
    "digits": 2,
-   "rank": 115,
+   "rank": 116,
    "of": 256
   },
   {
@@ -1277,7 +1293,7 @@
    "value": 241.0,
    "digits": 2,
    "rank": 31,
-   "of": 511
+   "of": 515
   },
   {
    "group": "Career",
@@ -1285,8 +1301,8 @@
    "stat": "Points",
    "value": 124.6,
    "digits": 2,
-   "rank": 60,
-   "of": 126
+   "rank": 61,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1294,8 +1310,8 @@
    "stat": "Games Started",
    "value": 10,
    "digits": 0,
-   "rank": 62,
-   "of": 126
+   "rank": 63,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1303,8 +1319,8 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 41,
-   "of": 126
+   "rank": 42,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1312,7 +1328,7 @@
    "stat": "Points",
    "value": 124.6,
    "digits": 2,
-   "rank": 20,
+   "rank": 21,
    "of": 82,
    "franchise": 4
   },
@@ -1342,7 +1358,7 @@
    "stat": "Points, WRs",
    "value": 124.6,
    "digits": 2,
-   "rank": 8,
+   "rank": 9,
    "of": 20,
    "franchise": 4
   },
@@ -1372,15 +1388,15 @@
    "stat": "Points, 2025",
    "value": 124.6,
    "digits": 2,
-   "rank": 288,
-   "of": 1010,
+   "rank": 295,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 4.7,
-  "rank": 204,
-  "of": 420,
+  "rank": 206,
+  "of": 424,
   "war": 2.2,
   "starts": 2.5,
   "black_ink": 0.0,
@@ -1685,6 +1701,11 @@
     "2026",
     9,
     4.7
+   ],
+   [
+    "2026",
+    10,
+    4.7
    ]
   ],
   "benchmark": 100
@@ -1755,7 +1776,7 @@
     "season": "2026",
     "nfl": "IND",
     "missed": 8,
-    "lost": 3.15,
+    "lost": 3.6,
     "injuries": [
      "Heel"
     ],
@@ -1772,7 +1793,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 7,
+    "rostered": 8,
     "games": [
      {
       "week": 3,
@@ -1827,8 +1848,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Heel",
-      "franchise": null,
-      "team": null
+      "franchise": 4,
+      "team": "Im Stroud Of You"
      }
     ]
    }
@@ -1905,8 +1926,8 @@
       "team": "Im Stroud Of You"
      }
     ],
-    "rostered": 7,
-    "lost": 3.15
+    "rostered": 8,
+    "lost": 3.6
    }
   ],
   "now": {

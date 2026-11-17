@@ -88,29 +88,29 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "MIN",
-   "g": 4,
-   "gs": 3,
+   "g": 5,
+   "gs": 4,
    "pts": 22.3,
    "bench_pts": 0.0,
-   "ppg": 7.43,
+   "ppg": 5.58,
    "best": 13.1,
    "wins": 0,
-   "paa": -18.07,
-   "vor": -8.66,
-   "war": -0.1
+   "paa": -31.29,
+   "vor": -18.98,
+   "war": -0.22
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 26,
+  "g": 61,
+  "gs": 27,
   "pts": 334.8,
   "bench_pts": 245.0,
-  "ppg": 12.88,
+  "ppg": 12.4,
   "best": 39.3,
   "wins": 16,
-  "paa": -17.87,
-  "vor": 36.14,
-  "war": 0.43
+  "paa": -31.09,
+  "vor": 25.82,
+  "war": 0.31
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "MIN",
    "g": 7,
    "pts": 55.6,
-   "rank": 70
+   "rank": 71
   }
  ],
  "history": [
@@ -1194,53 +1194,72 @@
    "paa": -8.84,
    "vor": -5.52,
    "war": -0.065239683243009
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-3-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": "WR",
+   "started": true,
+   "pts": 0.0,
+   "proj": null,
+   "won": false,
+   "paa": -13.22,
+   "vor": -10.32,
+   "war": -0.12196984258475597
   }
  ],
  "similar": [
   {
-   "player": "4039",
-   "name": "Cooper Kupp",
-   "score": 910,
+   "player": "8167",
+   "name": "Christian Watson",
+   "score": 904,
    "gs": 24,
-   "pts": 334.7,
-   "ppg": 13.95,
-   "war": 0.56
+   "pts": 281.4,
+   "ppg": 11.72,
+   "war": 0.16
+  },
+  {
+   "player": "11635",
+   "name": "Ladd McConkey",
+   "score": 886,
+   "gs": 32,
+   "pts": 380.4,
+   "ppg": 11.89,
+   "war": 0.36
   },
   {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 891,
-   "gs": 22,
-   "pts": 292.4,
-   "ppg": 13.29,
-   "war": 0.73
-  },
-  {
-   "player": "6803",
-   "name": "Brandon Aiyuk",
-   "score": 887,
-   "gs": 22,
-   "pts": 306.1,
-   "ppg": 13.91,
-   "war": 0.46
-  },
-  {
-   "player": "8167",
-   "name": "Christian Watson",
    "score": 884,
    "gs": 23,
-   "pts": 274.7,
-   "ppg": 11.94,
-   "war": 0.21
+   "pts": 298.9,
+   "ppg": 13.0,
+   "war": 0.68
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 873,
+   "score": 874,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
    "war": 0.52
+  },
+  {
+   "player": "5927",
+   "name": "Terry McLaurin",
+   "score": 871,
+   "gs": 32,
+   "pts": 375.2,
+   "ppg": 11.72,
+   "war": -0.01
   }
  ],
  "status": {
@@ -1255,44 +1274,44 @@
    "stat": "Points",
    "value": 334.8,
    "digits": 2,
-   "rank": 93,
-   "of": 420
+   "rank": 94,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 26,
+   "value": 27,
    "digits": 0,
-   "rank": 106,
-   "of": 420
+   "rank": 101,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.43,
+   "value": 0.31,
    "digits": 2,
-   "rank": 123,
-   "of": 420
+   "rank": 144,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 36.1,
+   "value": 25.8,
    "digits": 1,
-   "rank": 124,
-   "of": 420
+   "rank": 144,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -17.9,
+   "value": -31.1,
    "digits": 1,
-   "rank": 277,
-   "of": 420
+   "rank": 325,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1300,16 +1319,16 @@
    "stat": "Best Game",
    "value": 39.3,
    "digits": 2,
-   "rank": 32,
-   "of": 420
+   "rank": 33,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 12.88,
+   "value": 12.4,
    "digits": 2,
-   "rank": 107,
+   "rank": 118,
    "of": 256
   },
   {
@@ -1319,7 +1338,7 @@
    "value": 245.0,
    "digits": 2,
    "rank": 29,
-   "of": 511
+   "of": 515
   },
   {
    "group": "Career",
@@ -1328,25 +1347,25 @@
    "value": 334.8,
    "digits": 2,
    "rank": 31,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 26,
+   "value": 27,
    "digits": 0,
-   "rank": 30,
-   "of": 126
+   "rank": 29,
+   "of": 127
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.43,
+   "value": 0.31,
    "digits": 2,
-   "rank": 35,
-   "of": 126
+   "rank": 40,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1355,7 +1374,7 @@
    "value": 312.5,
    "digits": 2,
    "rank": 9,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1364,8 +1383,8 @@
    "stat": "Games Started",
    "value": 23,
    "digits": 0,
-   "rank": 8,
-   "of": 67,
+   "rank": 9,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1375,7 +1394,7 @@
    "value": 0.53,
    "digits": 2,
    "rank": 10,
-   "of": 67,
+   "of": 69,
    "franchise": 8
   },
   {
@@ -1395,27 +1414,27 @@
    "value": 22.3,
    "digits": 2,
    "rank": 42,
-   "of": 73,
+   "of": 74,
    "franchise": 10
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Games Started",
-   "value": 3,
+   "value": 4,
    "digits": 0,
-   "rank": 38,
-   "of": 73,
+   "rank": 36,
+   "of": 74,
    "franchise": 10
   },
   {
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.1,
+   "value": -0.22,
    "digits": 2,
-   "rank": 54,
-   "of": 73,
+   "rank": 69,
+   "of": 74,
    "franchise": 10
   },
   {
@@ -1494,8 +1513,8 @@
    "stat": "Points",
    "value": 22.3,
    "digits": 2,
-   "rank": 160,
-   "of": 233,
+   "rank": 165,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1504,8 +1523,8 @@
    "stat": "Points",
    "value": 22.3,
    "digits": 2,
-   "rank": 40,
-   "of": 62,
+   "rank": 41,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1514,8 +1533,8 @@
    "stat": "Points, 2024",
    "value": 134.7,
    "digits": 2,
-   "rank": 264,
-   "of": 1010,
+   "rank": 271,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1524,8 +1543,8 @@
    "stat": "Points, 2023",
    "value": 102.9,
    "digits": 2,
-   "rank": 348,
-   "of": 1010,
+   "rank": 356,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1534,8 +1553,8 @@
    "stat": "Points, 2025",
    "value": 74.9,
    "digits": 2,
-   "rank": 440,
-   "of": 1010,
+   "rank": 446,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1544,17 +1563,17 @@
    "stat": "Points, 2026",
    "value": 22.3,
    "digits": 2,
-   "rank": 738,
-   "of": 1010,
+   "rank": 743,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 10.8,
-  "rank": 122,
-  "of": 420,
-  "war": 4.3,
-  "starts": 6.5,
+  "score": 9.85,
+  "rank": 134,
+  "of": 424,
+  "war": 3.1,
+  "starts": 6.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1857,6 +1876,11 @@
     "2026",
     9,
     10.8
+   ],
+   [
+    "2026",
+    10,
+    9.85
    ]
   ],
   "benchmark": 100
@@ -1914,7 +1938,7 @@
     "kinds": [
      "Questionable"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 5,
@@ -1927,8 +1951,8 @@
       "week": 10,
       "kind": "Questionable",
       "injury": "Thumb",
-      "franchise": null,
-      "team": null
+      "franchise": 10,
+      "team": "Maddison Beer’s Boys"
      }
     ]
    }
@@ -1992,8 +2016,13 @@
     "kinds": [
      "Questionable"
     ],
-    "teams": [],
-    "rostered": 0,
+    "teams": [
+     {
+      "franchise": 10,
+      "team": "Maddison Beer’s Boys"
+     }
+    ],
+    "rostered": 1,
     "lost": 0.0
    }
   ],

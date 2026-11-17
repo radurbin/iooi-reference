@@ -740,8 +740,8 @@
    "stat": "Points",
    "value": 2.1,
    "digits": 2,
-   "rank": 399,
-   "of": 420
+   "rank": 400,
+   "of": 424
   },
   {
    "group": "Career",
@@ -749,8 +749,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 360,
-   "of": 420
+   "rank": 362,
+   "of": 424
   },
   {
    "group": "Career",
@@ -758,8 +758,8 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 297,
-   "of": 420
+   "rank": 296,
+   "of": 424
   },
   {
    "group": "Career",
@@ -767,8 +767,8 @@
    "stat": "VOR",
    "value": -9.6,
    "digits": 1,
-   "rank": 303,
-   "of": 420
+   "rank": 301,
+   "of": 424
   },
   {
    "group": "Career",
@@ -777,7 +777,7 @@
    "value": -11.0,
    "digits": 1,
    "rank": 224,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -785,8 +785,8 @@
    "stat": "Best Game",
    "value": 2.1,
    "digits": 2,
-   "rank": 398,
-   "of": 420
+   "rank": 399,
+   "of": 424
   },
   {
    "group": "Career",
@@ -794,8 +794,8 @@
    "stat": "Bench Points",
    "value": 113.3,
    "digits": 2,
-   "rank": 151,
-   "of": 511
+   "rank": 153,
+   "of": 515
   },
   {
    "group": "Career",
@@ -804,7 +804,7 @@
    "value": 2.1,
    "digits": 2,
    "rank": 113,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -813,7 +813,7 @@
    "value": 1,
    "digits": 0,
    "rank": 104,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -821,8 +821,8 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 79,
-   "of": 126
+   "rank": 77,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -830,8 +830,8 @@
    "stat": "Points",
    "value": 2.1,
    "digits": 2,
-   "rank": 44,
-   "of": 48,
+   "rank": 45,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -840,8 +840,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 40,
-   "of": 48,
+   "rank": 41,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -850,8 +850,8 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 29,
-   "of": 48,
+   "rank": 28,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -890,16 +890,16 @@
    "stat": "Points, 2024",
    "value": 2.1,
    "digits": 2,
-   "rank": 970,
-   "of": 1010,
+   "rank": 975,
+   "of": 1019,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 369,
-  "of": 420,
+  "rank": 371,
+  "of": 424,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -1118,6 +1118,11 @@
    [
     "2026",
     9,
+    0.25
+   ],
+   [
+    "2026",
+    10,
     0.25
    ]
   ],

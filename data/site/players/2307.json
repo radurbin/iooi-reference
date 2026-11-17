@@ -57,8 +57,8 @@
    "best": 5.44,
    "wins": 0,
    "paa": -9.78,
-   "vor": -7.91,
-   "war": -0.09
+   "vor": -6.03,
+   "war": -0.07
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 23.26,
   "wins": 1,
   "paa": -8.31,
-  "vor": 15.71,
-  "war": 0.19
+  "vor": 17.59,
+  "war": 0.21
  },
  "nfl": [
   {
@@ -413,8 +413,8 @@
    "proj": null,
    "won": false,
    "paa": -9.78,
-   "vor": -7.91,
-   "war": -0.09348657508192051
+   "vor": -6.03,
+   "war": -0.07126726267306963
   },
   {
    "season": "2026",
@@ -460,8 +460,8 @@
    "stat": "Points",
    "value": 74.98,
    "digits": 2,
-   "rank": 237,
-   "of": 420
+   "rank": 239,
+   "of": 424
   },
   {
    "group": "Career",
@@ -470,25 +470,25 @@
    "value": 5,
    "digits": 0,
    "rank": 275,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.21,
    "digits": 2,
-   "rank": 164,
-   "of": 420
+   "rank": 162,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 15.7,
+   "value": 17.6,
    "digits": 1,
-   "rank": 164,
-   "of": 420
+   "rank": 165,
+   "of": 424
   },
   {
    "group": "Career",
@@ -496,8 +496,8 @@
    "stat": "PAA",
    "value": -8.3,
    "digits": 1,
-   "rank": 195,
-   "of": 420
+   "rank": 199,
+   "of": 424
   },
   {
    "group": "Career",
@@ -505,8 +505,8 @@
    "stat": "Best Game",
    "value": 23.26,
    "digits": 2,
-   "rank": 189,
-   "of": 420
+   "rank": 190,
+   "of": 424
   },
   {
    "group": "Career",
@@ -514,8 +514,8 @@
    "stat": "Bench Points",
    "value": 41.86,
    "digits": 2,
-   "rank": 316,
-   "of": 511
+   "rank": 319,
+   "of": 515
   },
   {
    "group": "Career",
@@ -524,7 +524,7 @@
    "value": 74.98,
    "digits": 2,
    "rank": 43,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
@@ -533,16 +533,16 @@
    "value": 5,
    "digits": 0,
    "rank": 44,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.21,
    "digits": 2,
    "rank": 35,
-   "of": 66
+   "of": 68
   },
   {
    "group": "Franchise",
@@ -550,7 +550,7 @@
    "stat": "Points",
    "value": 23.26,
    "digits": 2,
-   "rank": 44,
+   "rank": 45,
    "of": 82,
    "franchise": 4
   },
@@ -590,7 +590,7 @@
    "stat": "Points",
    "value": 51.72,
    "digits": 2,
-   "rank": 33,
+   "rank": 34,
    "of": 76,
    "franchise": 2
   },
@@ -600,7 +600,7 @@
    "stat": "Games Started",
    "value": 4,
    "digits": 0,
-   "rank": 32,
+   "rank": 33,
    "of": 76,
    "franchise": 2
   },
@@ -608,9 +608,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.05,
+   "value": 0.07,
    "digits": 2,
-   "rank": 33,
+   "rank": 32,
    "of": 76,
    "franchise": 2
   },
@@ -650,8 +650,8 @@
    "stat": "Points",
    "value": 5.44,
    "digits": 2,
-   "rank": 209,
-   "of": 233,
+   "rank": 216,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -660,8 +660,8 @@
    "stat": "Points",
    "value": 5.44,
    "digits": 2,
-   "rank": 36,
-   "of": 36,
+   "rank": 38,
+   "of": 39,
    "season": "2026"
   },
   {
@@ -670,8 +670,8 @@
    "stat": "Points, 2025",
    "value": 69.54,
    "digits": 2,
-   "rank": 465,
-   "of": 1010,
+   "rank": 471,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -680,17 +680,17 @@
    "stat": "Points, 2026",
    "value": 5.44,
    "digits": 2,
-   "rank": 922,
-   "of": 1010,
+   "rank": 929,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 3.15,
-  "rank": 225,
-  "of": 420,
-  "war": 1.9,
+  "score": 3.35,
+  "rank": 224,
+  "of": 424,
+  "war": 2.1,
   "starts": 1.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -783,32 +783,37 @@
    [
     "2026",
     4,
-    3.15
+    3.35
    ],
    [
     "2026",
     5,
-    3.15
+    3.35
    ],
    [
     "2026",
     6,
-    3.15
+    3.35
    ],
    [
     "2026",
     7,
-    3.15
+    3.35
    ],
    [
     "2026",
     8,
-    3.15
+    3.35
    ],
    [
     "2026",
     9,
-    3.15
+    3.35
+   ],
+   [
+    "2026",
+    10,
+    3.35
    ]
   ],
   "benchmark": 100
@@ -895,7 +900,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 2,
-    "lost": 0.0,
+    "lost": 0.02,
     "injuries": [
      "Knee"
     ],
@@ -989,7 +994,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 0.0
+    "lost": 0.02
    }
   ],
   "now": null

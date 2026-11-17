@@ -72,29 +72,29 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "MIN",
-   "g": 9,
+   "g": 10,
    "gs": 4,
    "pts": 53.5,
-   "bench_pts": 40.9,
+   "bench_pts": 54.5,
    "ppg": 13.38,
    "best": 21.2,
    "wins": 2,
    "paa": -5.1,
-   "vor": 14.3,
-   "war": 0.17
+   "vor": 11.54,
+   "war": 0.14
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 32,
   "pts": 396.55,
-  "bench_pts": 122.7,
+  "bench_pts": 136.3,
   "ppg": 12.39,
   "best": 26.7,
   "wins": 15,
   "paa": -54.07,
-  "vor": 89.92,
-  "war": 1.06
+  "vor": 87.16,
+  "war": 1.03
  },
  "nfl": [
   {
@@ -1064,8 +1064,8 @@
    "proj": 15.47,
    "won": false,
    "paa": -0.58,
-   "vor": 3.0,
-   "war": 0.035456349588591854
+   "vor": 2.31,
+   "war": 0.027301389183215726
   },
   {
    "season": "2026",
@@ -1083,8 +1083,8 @@
    "proj": 14.49,
    "won": false,
    "paa": -0.34,
-   "vor": 6.1,
-   "war": 0.07209457749680342
+   "vor": 5.41,
+   "war": 0.0639396170914273
   },
   {
    "season": "2026",
@@ -1118,8 +1118,8 @@
    "proj": 16.81,
    "won": true,
    "paa": 5.75,
-   "vor": 11.4,
-   "war": 0.13473412843664903
+   "vor": 10.71,
+   "war": 0.12657916803127292
   },
   {
    "season": "2026",
@@ -1185,33 +1185,49 @@
    "proj": 11.13,
    "won": true,
    "paa": -9.93,
-   "vor": -6.2,
-   "war": -0.07327645581642316
+   "vor": -6.89,
+   "war": -0.08143141622179928
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 13.6,
+   "proj": 10.23,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 900,
+   "score": 902,
    "gs": 27,
    "pts": 342.3,
    "ppg": 12.68,
-   "war": 0.9
+   "war": 0.87
   },
   {
    "player": "8136",
    "name": "Rachaad White",
-   "score": 871,
-   "gs": 30,
-   "pts": 422.1,
-   "ppg": 14.07,
-   "war": 1.55
+   "score": 888,
+   "gs": 31,
+   "pts": 429.4,
+   "ppg": 13.85,
+   "war": 1.48
   },
   {
    "player": "7528",
    "name": "Najee Harris",
-   "score": 859,
+   "score": 863,
    "gs": 29,
    "pts": 323.5,
    "ppg": 11.16,
@@ -1220,7 +1236,7 @@
   {
    "player": "4663",
    "name": "Austin Ekeler",
-   "score": 805,
+   "score": 809,
    "gs": 24,
    "pts": 276.4,
    "ppg": 11.52,
@@ -1229,11 +1245,11 @@
   {
    "player": "6806",
    "name": "J.K. Dobbins",
-   "score": 798,
+   "score": 801,
    "gs": 22,
    "pts": 270.6,
    "ppg": 12.3,
-   "war": 0.83
+   "war": 0.82
   }
  ],
  "status": {
@@ -1249,7 +1265,7 @@
    "value": 396.55,
    "digits": 2,
    "rank": 81,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1257,26 +1273,26 @@
    "stat": "Games Started",
    "value": 32,
    "digits": 0,
-   "rank": 81,
-   "of": 420
+   "rank": 84,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.06,
+   "value": 1.03,
    "digits": 2,
-   "rank": 73,
-   "of": 420
+   "rank": 77,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 89.9,
+   "value": 87.2,
    "digits": 1,
-   "rank": 73,
-   "of": 420
+   "rank": 77,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1284,8 +1300,8 @@
    "stat": "PAA",
    "value": -54.1,
    "digits": 1,
-   "rank": 370,
-   "of": 420
+   "rank": 373,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1293,8 +1309,8 @@
    "stat": "Best Game",
    "value": 26.7,
    "digits": 2,
-   "rank": 140,
-   "of": 420
+   "rank": 141,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1302,17 +1318,17 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 12.39,
    "digits": 2,
-   "rank": 118,
+   "rank": 119,
    "of": 256
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 122.7,
+   "value": 136.3,
    "digits": 2,
-   "rank": 135,
-   "of": 511
+   "rank": 115,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1336,7 +1352,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 1.06,
+   "value": 1.03,
    "digits": 2,
    "rank": 28,
    "of": 100
@@ -1365,7 +1381,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 1.07,
+   "value": 1.04,
    "digits": 2,
    "rank": 6,
    "of": 40,
@@ -1447,8 +1463,8 @@
    "stat": "Points",
    "value": 53.5,
    "digits": 2,
-   "rank": 103,
-   "of": 233,
+   "rank": 112,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1457,7 +1473,7 @@
    "stat": "Points",
    "value": 53.5,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 58,
    "season": "2026"
   },
@@ -1467,8 +1483,8 @@
    "stat": "Points, 2024",
    "value": 217.4,
    "digits": 2,
-   "rank": 96,
-   "of": 1010,
+   "rank": 99,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1477,8 +1493,8 @@
    "stat": "Points, 2023",
    "value": 76.4,
    "digits": 2,
-   "rank": 432,
-   "of": 1010,
+   "rank": 438,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1487,8 +1503,8 @@
    "stat": "Points, 2026",
    "value": 53.5,
    "digits": 2,
-   "rank": 542,
-   "of": 1010,
+   "rank": 551,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1497,16 +1513,16 @@
    "stat": "Points, 2025",
    "value": 49.25,
    "digits": 2,
-   "rank": 563,
-   "of": 1010,
+   "rank": 575,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 18.6,
-  "rank": 81,
-  "of": 420,
-  "war": 10.6,
+  "score": 18.3,
+  "rank": 82,
+  "of": 424,
+  "war": 10.3,
   "starts": 8.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1774,42 +1790,47 @@
    [
     "2026",
     2,
-    16.55
+    16.45
    ],
    [
     "2026",
     3,
-    17.5
+    17.3
    ],
    [
     "2026",
     4,
-    17.5
+    17.3
    ],
    [
     "2026",
     5,
-    19.15
+    18.85
    ],
    [
     "2026",
     6,
-    19.15
+    18.85
    ],
    [
     "2026",
     7,
-    19.15
+    18.85
    ],
    [
     "2026",
     8,
-    19.15
+    18.85
    ],
    [
     "2026",
     9,
-    18.6
+    18.3
+   ],
+   [
+    "2026",
+    10,
+    18.3
    ]
   ],
   "benchmark": 100

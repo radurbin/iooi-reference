@@ -88,7 +88,7 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "ATL",
-   "g": 8,
+   "g": 9,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 31.3,
@@ -101,7 +101,7 @@
   }
  ],
  "totals": {
-  "g": 59,
+  "g": 60,
   "gs": 14,
   "pts": 90.1,
   "bench_pts": 336.6,
@@ -1195,22 +1195,38 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 889,
-   "gs": 14,
-   "pts": 66.4,
-   "ppg": 4.74,
-   "war": -0.67
+   "score": 941,
+   "gs": 15,
+   "pts": 83.9,
+   "ppg": 5.59,
+   "war": -0.6
   },
   {
    "player": "6151",
    "name": "Miles Sanders",
-   "score": 881,
+   "score": 883,
    "gs": 16,
    "pts": 82.5,
    "ppg": 5.16,
@@ -1219,7 +1235,7 @@
   {
    "player": "12469",
    "name": "Dylan Sampson",
-   "score": 881,
+   "score": 882,
    "gs": 8,
    "pts": 45.15,
    "ppg": 5.64,
@@ -1228,7 +1244,7 @@
   {
    "player": "9511",
    "name": "Keaton Mitchell",
-   "score": 880,
+   "score": 881,
    "gs": 8,
    "pts": 58.5,
    "ppg": 7.31,
@@ -1237,11 +1253,11 @@
   {
    "player": "6130",
    "name": "Devin Singletary",
-   "score": 877,
+   "score": 879,
    "gs": 16,
    "pts": 131.9,
    "ppg": 8.24,
-   "war": -0.28
+   "war": -0.31
   }
  ],
  "status": {
@@ -1256,8 +1272,8 @@
    "stat": "Points",
    "value": 90.1,
    "digits": 2,
-   "rank": 226,
-   "of": 420
+   "rank": 227,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1265,8 +1281,8 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 182,
-   "of": 420
+   "rank": 184,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1274,8 +1290,8 @@
    "stat": "WAR",
    "value": -0.42,
    "digits": 2,
-   "rank": 391,
-   "of": 420
+   "rank": 395,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1283,8 +1299,8 @@
    "stat": "VOR",
    "value": -35.1,
    "digits": 1,
-   "rank": 391,
-   "of": 420
+   "rank": 395,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1292,8 +1308,8 @@
    "stat": "PAA",
    "value": -104.5,
    "digits": 1,
-   "rank": 412,
-   "of": 420
+   "rank": 416,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1301,8 +1317,8 @@
    "stat": "Best Game",
    "value": 17.9,
    "digits": 2,
-   "rank": 256,
-   "of": 420
+   "rank": 259,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1319,8 +1335,8 @@
    "stat": "Bench Points",
    "value": 336.6,
    "digits": 2,
-   "rank": 9,
-   "of": 511
+   "rank": 10,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1328,7 +1344,7 @@
    "stat": "Points",
    "value": 90.1,
    "digits": 2,
-   "rank": 54,
+   "rank": 55,
    "of": 100
   },
   {
@@ -1337,7 +1353,7 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 40,
+   "rank": 42,
    "of": 100
   },
   {
@@ -1356,7 +1372,7 @@
    "value": 83.1,
    "digits": 2,
    "rank": 15,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1365,8 +1381,8 @@
    "stat": "Games Started",
    "value": 13,
    "digits": 0,
-   "rank": 14,
-   "of": 48,
+   "rank": 15,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1375,8 +1391,8 @@
    "stat": "WAR",
    "value": -0.37,
    "digits": 2,
-   "rank": 40,
-   "of": 48,
+   "rank": 41,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1395,8 +1411,8 @@
    "stat": "Points",
    "value": 7.0,
    "digits": 2,
-   "rank": 47,
-   "of": 58,
+   "rank": 49,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1405,8 +1421,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 39,
-   "of": 58,
+   "rank": 40,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1415,8 +1431,8 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 39,
-   "of": 58,
+   "rank": 41,
+   "of": 60,
    "franchise": 5
   },
   {
@@ -1495,8 +1511,8 @@
    "stat": "Points, 2024",
    "value": 44.1,
    "digits": 2,
-   "rank": 596,
-   "of": 1010,
+   "rank": 605,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1505,8 +1521,8 @@
    "stat": "Points, 2025",
    "value": 39.0,
    "digits": 2,
-   "rank": 627,
-   "of": 1010,
+   "rank": 636,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1515,15 +1531,15 @@
    "stat": "Points, 2023",
    "value": 7.0,
    "digits": 2,
-   "rank": 905,
-   "of": 1010,
+   "rank": 912,
+   "of": 1019,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 3.5,
-  "rank": 217,
-  "of": 420,
+  "rank": 218,
+  "of": 424,
   "war": 0.0,
   "starts": 3.5,
   "black_ink": 0.0,
@@ -1828,6 +1844,11 @@
     "2026",
     9,
     3.5
+   ],
+   [
+    "2026",
+    10,
+    3.5
    ]
   ],
   "benchmark": 100
@@ -1930,7 +1951,7 @@
      "IR",
      "Out"
     ],
-    "rostered": 3,
+    "rostered": 4,
     "games": [
      {
       "week": 7,
@@ -1957,8 +1978,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Hamstring",
-      "franchise": null,
-      "team": null
+      "franchise": 9,
+      "team": "Clandestine Ball Busters"
      }
     ]
    }
@@ -2056,7 +2077,7 @@
       "team": "Clandestine Ball Busters"
      }
     ],
-    "rostered": 3,
+    "rostered": 4,
     "lost": 0.0
    }
   ],

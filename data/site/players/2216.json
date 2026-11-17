@@ -91,7 +91,7 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "SF",
-   "g": 9,
+   "g": 10,
    "gs": 5,
    "pts": 72.1,
    "bench_pts": 16.9,
@@ -104,7 +104,7 @@
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 40,
   "pts": 640.7,
   "bench_pts": 16.9,
@@ -1275,53 +1275,69 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-6-8",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "5859",
    "name": "A.J. Brown",
-   "score": 957,
+   "score": 959,
    "gs": 40,
    "pts": 653.7,
    "ppg": 16.34,
    "war": 2.26
   },
   {
-   "player": "7569",
-   "name": "Nico Collins",
-   "score": 915,
-   "gs": 42,
-   "pts": 679.9,
-   "ppg": 16.19,
-   "war": 2.42
-  },
-  {
    "player": "8137",
    "name": "George Pickens",
-   "score": 882,
-   "gs": 41,
-   "pts": 605.7,
-   "ppg": 14.77,
-   "war": 1.73
+   "score": 943,
+   "gs": 42,
+   "pts": 649.2,
+   "ppg": 15.46,
+   "war": 2.12
+  },
+  {
+   "player": "6801",
+   "name": "Tee Higgins",
+   "score": 874,
+   "gs": 35,
+   "pts": 583.2,
+   "ppg": 16.66,
+   "war": 2.26
+  },
+  {
+   "player": "7569",
+   "name": "Nico Collins",
+   "score": 873,
+   "gs": 43,
+   "pts": 704.3,
+   "ppg": 16.38,
+   "war": 2.59
   },
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 874,
-   "gs": 40,
-   "pts": 592.8,
-   "ppg": 14.82,
-   "war": 1.66
-  },
-  {
-   "player": "2133",
-   "name": "Davante Adams",
-   "score": 855,
-   "gs": 46,
-   "pts": 708.7,
-   "ppg": 15.41,
-   "war": 2.14
+   "score": 861,
+   "gs": 41,
+   "pts": 598.8,
+   "ppg": 14.6,
+   "war": 1.61
   }
  ],
  "status": {
@@ -1336,8 +1352,8 @@
    "stat": "Points",
    "value": 640.7,
    "digits": 2,
-   "rank": 41,
-   "of": 420
+   "rank": 42,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1345,8 +1361,8 @@
    "stat": "Games Started",
    "value": 40,
    "digits": 0,
-   "rank": 48,
-   "of": 420
+   "rank": 50,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1354,8 +1370,8 @@
    "stat": "WAR",
    "value": 2.08,
    "digits": 2,
-   "rank": 46,
-   "of": 420
+   "rank": 49,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1363,8 +1379,8 @@
    "stat": "VOR",
    "value": 175.8,
    "digits": 1,
-   "rank": 46,
-   "of": 420
+   "rank": 49,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1372,8 +1388,8 @@
    "stat": "PAA",
    "value": 81.6,
    "digits": 1,
-   "rank": 34,
-   "of": 420
+   "rank": 35,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1381,8 +1397,8 @@
    "stat": "Best Game",
    "value": 36.9,
    "digits": 2,
-   "rank": 46,
-   "of": 420
+   "rank": 48,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1399,8 +1415,8 @@
    "stat": "Bench Points",
    "value": 16.9,
    "digits": 2,
-   "rank": 402,
-   "of": 511
+   "rank": 405,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1408,8 +1424,8 @@
    "stat": "Points",
    "value": 640.7,
    "digits": 2,
-   "rank": 11,
-   "of": 126
+   "rank": 12,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1417,8 +1433,8 @@
    "stat": "Games Started",
    "value": 40,
    "digits": 0,
-   "rank": 13,
-   "of": 126
+   "rank": 14,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1426,8 +1442,8 @@
    "stat": "WAR",
    "value": 2.08,
    "digits": 2,
-   "rank": 12,
-   "of": 126
+   "rank": 13,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1436,7 +1452,7 @@
    "value": 372.8,
    "digits": 2,
    "rank": 8,
-   "of": 44,
+   "of": 45,
    "franchise": 11
   },
   {
@@ -1446,7 +1462,7 @@
    "value": 23,
    "digits": 0,
    "rank": 9,
-   "of": 44,
+   "of": 45,
    "franchise": 11
   },
   {
@@ -1456,7 +1472,7 @@
    "value": 1.1,
    "digits": 2,
    "rank": 9,
-   "of": 44,
+   "of": 45,
    "franchise": 11
   },
   {
@@ -1535,7 +1551,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 21,
+   "rank": 22,
    "of": 67,
    "franchise": 9
   },
@@ -1565,7 +1581,7 @@
    "stat": "Games Started",
    "value": 6,
    "digits": 0,
-   "rank": 22,
+   "rank": 24,
    "of": 77,
    "franchise": 1
   },
@@ -1575,7 +1591,7 @@
    "stat": "WAR",
    "value": 0.67,
    "digits": 2,
-   "rank": 9,
+   "rank": 10,
    "of": 77,
    "franchise": 1
   },
@@ -1655,8 +1671,8 @@
    "stat": "Points",
    "value": 72.1,
    "digits": 2,
-   "rank": 79,
-   "of": 233,
+   "rank": 84,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1665,8 +1681,8 @@
    "stat": "Points",
    "value": 72.1,
    "digits": 2,
-   "rank": 23,
-   "of": 62,
+   "rank": 24,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1676,7 +1692,7 @@
    "value": 277.3,
    "digits": 2,
    "rank": 41,
-   "of": 1010,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1685,8 +1701,8 @@
    "stat": "Points, 2024",
    "value": 222.5,
    "digits": 2,
-   "rank": 88,
-   "of": 1010,
+   "rank": 90,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1695,8 +1711,8 @@
    "stat": "Points, 2026",
    "value": 72.1,
    "digits": 2,
-   "rank": 454,
-   "of": 1010,
+   "rank": 459,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1705,15 +1721,15 @@
    "stat": "Points, 2025",
    "value": 68.8,
    "digits": 2,
-   "rank": 468,
-   "of": 1010,
+   "rank": 474,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 37.8,
-  "rank": 34,
-  "of": 420,
+  "rank": 36,
+  "of": 424,
   "war": 20.8,
   "starts": 10.0,
   "black_ink": 0.0,
@@ -2018,6 +2034,11 @@
     "2026",
     9,
     37.8
+   ],
+   [
+    "2026",
+    10,
+    37.8
    ]
   ],
   "benchmark": 100
@@ -2162,7 +2183,7 @@
     "season": "2026",
     "nfl": "SF",
     "missed": 3,
-    "lost": 9.02,
+    "lost": 13.53,
     "injuries": [
      "Ribs",
      "Achilles"
@@ -2175,7 +2196,7 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 2,
+    "rostered": 3,
     "games": [
      {
       "week": 7,
@@ -2195,8 +2216,8 @@
       "week": 10,
       "kind": "Out",
       "injury": "Achilles",
-      "franchise": null,
-      "team": null
+      "franchise": 6,
+      "team": "got that DAWG"
      }
     ]
    }
@@ -2302,8 +2323,8 @@
       "team": "got that DAWG"
      }
     ],
-    "rostered": 2,
-    "lost": 9.02
+    "rostered": 3,
+    "lost": 13.53
    }
   ],
   "now": {

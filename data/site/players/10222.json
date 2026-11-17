@@ -72,7 +72,7 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "GB",
-   "g": 9,
+   "g": 10,
    "gs": 1,
    "pts": 5.0,
    "bench_pts": 1.4,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 18,
   "pts": 222.6,
   "bench_pts": 196.9,
@@ -1145,18 +1145,25 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-4-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
-  {
-   "player": "8148",
-   "name": "Jameson Williams",
-   "score": 972,
-   "gs": 18,
-   "pts": 224.1,
-   "ppg": 12.45,
-   "war": 0.31
-  },
   {
    "player": "9502",
    "name": "Tank Dell",
@@ -1167,9 +1174,18 @@
    "war": 0.06
   },
   {
+   "player": "8148",
+   "name": "Jameson Williams",
+   "score": 967,
+   "gs": 19,
+   "pts": 233.1,
+   "ppg": 12.27,
+   "war": 0.29
+  },
+  {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 911,
+   "score": 912,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -1178,20 +1194,20 @@
   {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 901,
+   "score": 902,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
    "war": 0.38
   },
   {
-   "player": "8167",
-   "name": "Christian Watson",
-   "score": 884,
-   "gs": 23,
-   "pts": 274.7,
-   "ppg": 11.94,
-   "war": 0.21
+   "player": "5947",
+   "name": "Jakobi Meyers",
+   "score": 885,
+   "gs": 13,
+   "pts": 164.3,
+   "ppg": 12.64,
+   "war": 0.14
   }
  ],
  "status": {
@@ -1206,8 +1222,8 @@
    "stat": "Points",
    "value": 222.6,
    "digits": 2,
-   "rank": 137,
-   "of": 420
+   "rank": 140,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1215,8 +1231,8 @@
    "stat": "Games Started",
    "value": 18,
    "digits": 0,
-   "rank": 157,
-   "of": 420
+   "rank": 161,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1224,8 +1240,8 @@
    "stat": "WAR",
    "value": 0.16,
    "digits": 2,
-   "rank": 169,
-   "of": 420
+   "rank": 170,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1233,8 +1249,8 @@
    "stat": "VOR",
    "value": 13.6,
    "digits": 1,
-   "rank": 169,
-   "of": 420
+   "rank": 171,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1243,7 +1259,7 @@
    "value": -26.3,
    "digits": 1,
    "rank": 310,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
@@ -1251,8 +1267,8 @@
    "stat": "Best Game",
    "value": 33.1,
    "digits": 2,
-   "rank": 73,
-   "of": 420
+   "rank": 75,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1260,7 +1276,7 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 12.37,
    "digits": 2,
-   "rank": 119,
+   "rank": 120,
    "of": 256
   },
   {
@@ -1269,8 +1285,8 @@
    "stat": "Bench Points",
    "value": 196.9,
    "digits": 2,
-   "rank": 51,
-   "of": 511
+   "rank": 52,
+   "of": 515
   },
   {
    "group": "Career",
@@ -1279,7 +1295,7 @@
    "value": 222.6,
    "digits": 2,
    "rank": 44,
-   "of": 126
+   "of": 127
   },
   {
    "group": "Career",
@@ -1287,8 +1303,8 @@
    "stat": "Games Started",
    "value": 18,
    "digits": 0,
-   "rank": 46,
-   "of": 126
+   "rank": 48,
+   "of": 127
   },
   {
    "group": "Career",
@@ -1296,8 +1312,8 @@
    "stat": "WAR",
    "value": 0.16,
    "digits": 2,
-   "rank": 44,
-   "of": 126
+   "rank": 43,
+   "of": 127
   },
   {
    "group": "Franchise",
@@ -1306,7 +1322,7 @@
    "value": 222.6,
    "digits": 2,
    "rank": 11,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1316,7 +1332,7 @@
    "value": 18,
    "digits": 0,
    "rank": 12,
-   "of": 48,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1325,8 +1341,8 @@
    "stat": "WAR",
    "value": 0.16,
    "digits": 2,
-   "rank": 10,
-   "of": 48,
+   "rank": 11,
+   "of": 49,
    "franchise": 12
   },
   {
@@ -1405,8 +1421,8 @@
    "stat": "Points",
    "value": 5.0,
    "digits": 2,
-   "rank": 212,
-   "of": 233,
+   "rank": 219,
+   "of": 242,
    "season": "2026"
   },
   {
@@ -1415,8 +1431,8 @@
    "stat": "Points",
    "value": 5.0,
    "digits": 2,
-   "rank": 56,
-   "of": 62,
+   "rank": 57,
+   "of": 63,
    "season": "2026"
   },
   {
@@ -1425,8 +1441,8 @@
    "stat": "Points, 2024",
    "value": 156.7,
    "digits": 2,
-   "rank": 215,
-   "of": 1010,
+   "rank": 222,
+   "of": 1019,
    "season": "2024"
   },
   {
@@ -1435,8 +1451,8 @@
    "stat": "Points, 2023",
    "value": 47.4,
    "digits": 2,
-   "rank": 578,
-   "of": 1010,
+   "rank": 587,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1445,8 +1461,8 @@
    "stat": "Points, 2025",
    "value": 13.5,
    "digits": 2,
-   "rank": 814,
-   "of": 1010,
+   "rank": 820,
+   "of": 1019,
    "season": "2025"
   },
   {
@@ -1455,15 +1471,15 @@
    "stat": "Points, 2026",
    "value": 5.0,
    "digits": 2,
-   "rank": 930,
-   "of": 1010,
+   "rank": 937,
+   "of": 1019,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 6.1,
   "rank": 183,
-  "of": 420,
+  "of": 424,
   "war": 1.6,
   "starts": 4.5,
   "black_ink": 0.0,
@@ -1768,6 +1784,11 @@
     "2026",
     9,
     6.1
+   ],
+   [
+    "2026",
+    10,
+    6.1
    ]
   ],
   "benchmark": 100
@@ -1920,7 +1941,7 @@
      "IR",
      "Out"
     ],
-    "rostered": 7,
+    "rostered": 8,
     "games": [
      {
       "week": 3,
@@ -1975,8 +1996,8 @@
       "week": 10,
       "kind": "IR",
       "injury": "Neck",
-      "franchise": null,
-      "team": null
+      "franchise": 12,
+      "team": "Team Win One Game"
      }
     ]
    }
@@ -2066,7 +2087,7 @@
       "team": "Team Win One Game"
      }
     ],
-    "rostered": 7,
+    "rostered": 8,
     "lost": 0.0
    }
   ],

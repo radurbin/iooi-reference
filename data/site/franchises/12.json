@@ -132,15 +132,15 @@
    "season": "2026",
    "franchise": 12,
    "team": "Team Win One Game",
-   "w": 1,
+   "w": 2,
    "l": 8,
    "t": 0,
-   "pf": 887.58,
-   "pa": 1326.69,
-   "max_pf": 1039.98,
-   "all_play_w": 18,
-   "all_play_l": 81,
-   "expected_w": 1.64,
+   "pf": 1021.16,
+   "pa": 1418.39,
+   "max_pf": 1200.46,
+   "all_play_w": 22,
+   "all_play_l": 88,
+   "expected_w": 2.0,
    "playoff_w": 0,
    "playoff_l": 0,
    "toilet_w": 0,
@@ -148,21 +148,21 @@
    "finish": null,
    "transactions": 38,
    "trades": 4,
-   "seed": 12,
-   "efficiency": 0.8535,
-   "luck": -0.64,
-   "ppg": 98.62,
-   "pct": 0.111,
+   "seed": 11,
+   "efficiency": 0.8506,
+   "luck": 0.0,
+   "ppg": 102.12,
+   "pct": 0.2,
    "result": null
   }
  ],
  "totals": {
-  "w": 13,
+  "w": 14,
   "l": 38,
   "t": 0,
-  "pct": 0.255,
-  "pf": 5458.63,
-  "pa": 6665.02,
+  "pct": 0.269,
+  "pf": 5592.21,
+  "pa": 6756.72,
   "transactions": 64,
   "trades": 14,
   "toilet_w": 2,
@@ -195,20 +195,20 @@
     "player": "4892",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 47,
     "pts": 731.28,
     "best": 28.02,
     "wins": 12,
     "paa": -56.13,
-    "vor": 121.46,
-    "war": 1.44
+    "vor": 132.74,
+    "war": 1.57
    },
    {
     "player": "5012",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 47,
     "pts": 437.9,
     "best": 27.1,
@@ -221,14 +221,14 @@
     "player": "5849",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 27,
     "pts": 407.58,
     "best": 28.74,
     "wins": 7,
     "paa": -59.82,
-    "vor": 75.6,
-    "war": 0.89
+    "vor": 86.88,
+    "war": 1.03
    },
    {
     "player": "4983",
@@ -257,6 +257,19 @@
     "war": -0.81
    },
    {
+    "player": "11539",
+    "pos": "K",
+    "years": "2024-2026",
+    "g": 39,
+    "gs": 30,
+    "pts": 274.1,
+    "best": 19.0,
+    "wins": 8,
+    "paa": 6.75,
+    "vor": 21.6,
+    "war": 0.26
+   },
+   {
     "player": "SF",
     "pos": "DEF",
     "years": "2023-2025",
@@ -270,30 +283,17 @@
     "war": -0.47
    },
    {
-    "player": "11539",
-    "pos": "K",
-    "years": "2024-2026",
-    "g": 38,
-    "gs": 29,
-    "pts": 269.1,
-    "best": 19.0,
-    "wins": 7,
-    "paa": 11.47,
-    "vor": 26.39,
-    "war": 0.31
-   },
-   {
     "player": "11631",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 43,
-    "gs": 25,
-    "pts": 260.8,
+    "g": 44,
+    "gs": 26,
+    "pts": 266.7,
     "best": 32.5,
-    "wins": 7,
-    "paa": -73.95,
-    "vor": -12.44,
-    "war": -0.15
+    "wins": 8,
+    "paa": -81.27,
+    "vor": -16.86,
+    "war": -0.2
    },
    {
     "player": "6813",
@@ -312,7 +312,7 @@
     "player": "10222",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 60,
+    "g": 61,
     "gs": 18,
     "pts": 222.6,
     "best": 33.1,
@@ -320,6 +320,19 @@
     "paa": -26.33,
     "vor": 13.63,
     "war": 0.16
+   },
+   {
+    "player": "12481",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 27,
+    "gs": 14,
+    "pts": 220.1,
+    "best": 31.0,
+    "wins": 3,
+    "paa": 0.06,
+    "vor": 84.64,
+    "war": 1.0
    },
    {
     "player": "4227",
@@ -333,19 +346,6 @@
     "paa": -8.16,
     "vor": -5.63,
     "war": -0.07
-   },
-   {
-    "player": "12481",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 26,
-    "gs": 13,
-    "pts": 191.1,
-    "best": 31.0,
-    "wins": 2,
-    "paa": -10.15,
-    "vor": 70.96,
-    "war": 0.84
    },
    {
     "player": "4663",
@@ -403,7 +403,7 @@
     "player": "13279",
     "pos": "WR",
     "years": "2026",
-    "g": 9,
+    "g": 10,
     "gs": 7,
     "pts": 73.1,
     "best": 21.5,
@@ -426,17 +426,56 @@
     "war": 0.47
    },
    {
+    "player": "2449",
+    "pos": "WR",
+    "years": "2026",
+    "g": 7,
+    "gs": 5,
+    "pts": 66.1,
+    "best": 20.3,
+    "wins": 2,
+    "paa": -0.95,
+    "vor": 14.5,
+    "war": 0.17
+   },
+   {
     "player": "10859",
     "pos": "TE",
     "years": "2026",
-    "g": 6,
-    "gs": 5,
-    "pts": 58.8,
+    "g": 7,
+    "gs": 6,
+    "pts": 61.4,
     "best": 22.4,
+    "wins": 2,
+    "paa": -5.72,
+    "vor": 9.08,
+    "war": 0.11
+   },
+   {
+    "player": "4017",
+    "pos": "QB",
+    "years": "2026",
+    "g": 7,
+    "gs": 4,
+    "pts": 58.86,
+    "best": 22.18,
+    "wins": 2,
+    "paa": -9.75,
+    "vor": 12.98,
+    "war": 0.15
+   },
+   {
+    "player": "8136",
+    "pos": "RB",
+    "years": "2026",
+    "g": 7,
+    "gs": 5,
+    "pts": 51.6,
+    "best": 16.4,
     "wins": 1,
-    "paa": -0.8,
-    "vor": 15.2,
-    "war": 0.18
+    "paa": -26.27,
+    "vor": -0.85,
+    "war": -0.01
    },
    {
     "player": "5038",
@@ -463,45 +502,6 @@
     "paa": 4.7,
     "vor": 13.15,
     "war": 0.16
-   },
-   {
-    "player": "8155",
-    "pos": "RB",
-    "years": "2026",
-    "g": 5,
-    "gs": 3,
-    "pts": 47.6,
-    "best": 22.0,
-    "wins": 0,
-    "paa": -1.95,
-    "vor": 18.2,
-    "war": 0.22
-   },
-   {
-    "player": "2449",
-    "pos": "WR",
-    "years": "2026",
-    "g": 6,
-    "gs": 4,
-    "pts": 45.8,
-    "best": 16.4,
-    "wins": 1,
-    "paa": -8.03,
-    "vor": 4.52,
-    "war": 0.05
-   },
-   {
-    "player": "12469",
-    "pos": "RB",
-    "years": "2025",
-    "g": 17,
-    "gs": 8,
-    "pts": 45.15,
-    "best": 17.3,
-    "wins": 1,
-    "paa": -69.63,
-    "vor": -23.57,
-    "war": -0.28
    }
   ],
   "by_pos": {
@@ -510,27 +510,27 @@
      "player": "4892",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 47,
      "pts": 731.28,
      "best": 28.02,
      "wins": 12,
      "paa": -56.13,
-     "vor": 121.46,
-     "war": 1.44
+     "vor": 132.74,
+     "war": 1.57
     },
     {
      "player": "5849",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 27,
      "pts": 407.58,
      "best": 28.74,
      "wins": 7,
      "paa": -59.82,
-     "vor": 75.6,
-     "war": 0.89
+     "vor": 86.88,
+     "war": 1.03
     },
     {
      "player": "6768",
@@ -564,14 +564,14 @@
      "player": "12481",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 13,
-     "pts": 191.1,
+     "g": 27,
+     "gs": 14,
+     "pts": 220.1,
      "best": 31.0,
-     "wins": 2,
-     "paa": -10.15,
-     "vor": 70.96,
-     "war": 0.84
+     "wins": 3,
+     "paa": 0.06,
+     "vor": 84.64,
+     "war": 1.0
     },
     {
      "player": "4663",
@@ -618,14 +618,14 @@
      "player": "11631",
      "pos": "WR",
      "years": "2024-2026",
-     "g": 43,
-     "gs": 25,
-     "pts": 260.8,
+     "g": 44,
+     "gs": 26,
+     "pts": 266.7,
      "best": 32.5,
-     "wins": 7,
-     "paa": -73.95,
-     "vor": -12.44,
-     "war": -0.15
+     "wins": 8,
+     "paa": -81.27,
+     "vor": -16.86,
+     "war": -0.2
     }
    ],
    "TE": [
@@ -633,7 +633,7 @@
      "player": "5012",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 60,
+     "g": 61,
      "gs": 47,
      "pts": 437.9,
      "best": 27.1,
@@ -646,20 +646,20 @@
      "player": "10859",
      "pos": "TE",
      "years": "2026",
-     "g": 6,
-     "gs": 5,
-     "pts": 58.8,
+     "g": 7,
+     "gs": 6,
+     "pts": 61.4,
      "best": 22.4,
-     "wins": 1,
-     "paa": -0.8,
-     "vor": 15.2,
-     "war": 0.18
+     "wins": 2,
+     "paa": -5.72,
+     "vor": 9.08,
+     "war": 0.11
     },
     {
      "player": "7553",
      "pos": "TE",
      "years": "2026",
-     "g": 9,
+     "g": 10,
      "gs": 5,
      "pts": 40.3,
      "best": 23.0,
@@ -674,14 +674,14 @@
      "player": "11539",
      "pos": "K",
      "years": "2024-2026",
-     "g": 38,
-     "gs": 29,
-     "pts": 269.1,
+     "g": 39,
+     "gs": 30,
+     "pts": 274.1,
      "best": 19.0,
-     "wins": 7,
-     "paa": 11.47,
-     "vor": 26.39,
-     "war": 0.31
+     "wins": 8,
+     "paa": 6.75,
+     "vor": 21.6,
+     "war": 0.26
     },
     {
      "player": "4227",
@@ -700,7 +700,7 @@
      "player": "2020",
      "pos": "K",
      "years": "2026",
-     "g": 4,
+     "g": 5,
      "gs": 3,
      "pts": 35.4,
      "best": 15.2,
@@ -771,8 +771,8 @@
    "signings": 2,
    "adds": 2,
    "releases": 7,
-   "gs": 30,
-   "pts": 281.1
+   "gs": 31,
+   "pts": 286.1
   },
   {
    "season": "2025",
@@ -791,8 +791,8 @@
    "signings": 13,
    "adds": 19,
    "releases": 26,
-   "gs": 24,
-   "pts": 174.82
+   "gs": 27,
+   "pts": 201.0
   }
  ],
  "best_games": [
@@ -872,6 +872,17 @@
    "week": 2,
    "franchise": 12,
    "team": "Happy Feet"
+  },
+  {
+   "player": "13337",
+   "name": "Emmett Johnson",
+   "pos": "RB",
+   "pts": 37.3,
+   "game": "2026-10-4-12",
+   "season": "2026",
+   "week": 10,
+   "franchise": 12,
+   "team": "Team Win One Game"
   },
   {
    "player": "6786",
@@ -962,6 +973,17 @@
    "team": "Happy Feet"
   },
   {
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "pts": 29.0,
+   "game": "2026-10-4-12",
+   "season": "2026",
+   "week": 10,
+   "franchise": 12,
+   "team": "Team Win One Game"
+  },
+  {
    "player": "5849",
    "name": "Kyler Murray",
    "pos": "QB",
@@ -1046,28 +1068,6 @@
    "game": "2023-04-2-12",
    "season": "2023",
    "week": 4,
-   "franchise": 12,
-   "team": "Happy Feet"
-  },
-  {
-   "player": "10222",
-   "name": "Jayden Reed",
-   "pos": "WR",
-   "pts": 27.1,
-   "game": "2024-04-9-12",
-   "season": "2024",
-   "week": 4,
-   "franchise": 12,
-   "team": "Happy Feet"
-  },
-  {
-   "player": "5012",
-   "name": "Mark Andrews",
-   "pos": "TE",
-   "pts": 27.1,
-   "game": "2025-03-10-12",
-   "season": "2025",
-   "week": 3,
    "franchise": 12,
    "team": "Happy Feet"
   }
@@ -1470,20 +1470,20 @@
    {
     "season": "2026",
     "team": "Team Win One Game",
-    "games": 27,
-    "players": 13,
-    "lost": 23.15,
+    "games": 32,
+    "players": 14,
+    "lost": 27.05,
     "rank": 8,
-    "games_rank": 5,
+    "games_rank": 4,
     "of": 12,
     "worst": {
      "player": "8155",
      "name": "Breece Hall",
      "pos": "RB",
      "missed": 2,
-     "lost": 11.38
+     "lost": 10.0
     },
-    "w": 1,
+    "w": 2,
     "l": 8
    }
   ],
@@ -1492,13 +1492,13 @@
     "player": "5849",
     "name": "Kyler Murray",
     "pos": "QB",
-    "missed": 22,
-    "lost": 77.73,
+    "missed": 23,
+    "lost": 81.57,
     "injuries": [
      "Foot",
      "Knee",
-     "Concussion",
-     "Hamstring"
+     "Hamstring",
+     "Concussion"
     ],
     "kinds": [
      "IR",
@@ -1535,7 +1535,7 @@
     "player": "10222",
     "name": "Jayden Reed",
     "pos": "WR",
-    "missed": 18,
+    "missed": 19,
     "lost": 1.12,
     "injuries": [
      "Foot",
@@ -1649,7 +1649,7 @@
     "name": "Cam Skattebo",
     "pos": "RB",
     "missed": 9,
-    "lost": 62.81,
+    "lost": 62.12,
     "injuries": [
      "Knee",
      "Hamstring"
@@ -1780,10 +1780,10 @@
   "total": {
    "franchise": 12,
    "name": "Team Win One Game",
-   "games": 201,
-   "lost": 394.87,
+   "games": 206,
+   "lost": 398.77,
    "seasons": 4,
-   "per_season": 98.72,
+   "per_season": 99.69,
    "worst": "2025"
   }
  }

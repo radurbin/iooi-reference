@@ -72,29 +72,29 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "BUF",
-   "g": 9,
-   "gs": 5,
-   "pts": 57.4,
+   "g": 10,
+   "gs": 6,
+   "pts": 65.2,
    "bench_pts": 27.5,
-   "ppg": 11.48,
+   "ppg": 10.87,
    "best": 22.5,
    "wins": 2,
-   "paa": -2.68,
-   "vor": 13.8,
-   "war": 0.16
+   "paa": -2.4,
+   "vor": 12.88,
+   "war": 0.15
   }
  ],
  "totals": {
-  "g": 60,
-  "gs": 38,
-  "pts": 310.3,
+  "g": 61,
+  "gs": 39,
+  "pts": 318.1,
   "bench_pts": 119.3,
-  "ppg": 8.17,
+  "ppg": 8.16,
   "best": 22.5,
   "wins": 16,
-  "paa": -98.67,
-  "vor": -63.72,
-  "war": -0.75
+  "paa": -98.39,
+  "vor": -64.64,
+  "war": -0.76
  },
  "nfl": [
   {
@@ -1229,13 +1229,32 @@
    "pts": 5.8,
    "proj": 9.56,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "date": "2026-11-12",
+   "game": "2026-10-5-9",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": "TE",
+   "started": true,
+   "pts": 7.8,
+   "proj": 9.68,
+   "won": false,
+   "paa": 0.28,
+   "vor": -0.92,
+   "war": -0.010873280540501502
   }
  ],
  "similar": [
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 922,
+   "score": 933,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
@@ -1244,7 +1263,7 @@
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 832,
+   "score": 819,
    "gs": 33,
    "pts": 301.5,
    "ppg": 9.14,
@@ -1253,7 +1272,7 @@
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 722,
+   "score": 739,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
@@ -1262,20 +1281,20 @@
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 693,
+   "score": 687,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
    "war": 0.29
   },
   {
-   "player": "6826",
-   "name": "Cole Kmet",
-   "score": 643,
+   "player": "2505",
+   "name": "Darren Waller",
+   "score": 629,
    "gs": 22,
-   "pts": 161.0,
-   "ppg": 7.32,
-   "war": -0.74
+   "pts": 163.9,
+   "ppg": 7.45,
+   "war": -0.59
   }
  ],
  "status": {
@@ -1288,46 +1307,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 310.3,
+   "value": 318.1,
    "digits": 2,
-   "rank": 103,
-   "of": 420
+   "rank": 102,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 38,
+   "value": 39,
    "digits": 0,
    "rank": 53,
-   "of": 420
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.75,
+   "value": -0.76,
    "digits": 2,
-   "rank": 413,
-   "of": 420
+   "rank": 418,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -63.7,
+   "value": -64.6,
    "digits": 1,
-   "rank": 414,
-   "of": 420
+   "rank": 418,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -98.7,
+   "value": -98.4,
    "digits": 1,
-   "rank": 411,
-   "of": 420
+   "rank": 415,
+   "of": 424
   },
   {
    "group": "Career",
@@ -1335,16 +1354,16 @@
    "stat": "Best Game",
    "value": 22.5,
    "digits": 2,
-   "rank": 195,
-   "of": 420
+   "rank": 197,
+   "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 8.17,
+   "value": 8.16,
    "digits": 2,
-   "rank": 208,
+   "rank": 206,
    "of": 256
   },
   {
@@ -1353,14 +1372,14 @@
    "stat": "Bench Points",
    "value": 119.3,
    "digits": 2,
-   "rank": 142,
-   "of": 511
+   "rank": 143,
+   "of": 515
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Points",
-   "value": 310.3,
+   "value": 318.1,
    "digits": 2,
    "rank": 9,
    "of": 52
@@ -1369,7 +1388,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 38,
+   "value": 39,
    "digits": 0,
    "rank": 7,
    "of": 52
@@ -1378,7 +1397,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.75,
+   "value": -0.76,
    "digits": 2,
    "rank": 52,
    "of": 52
@@ -1387,7 +1406,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points",
-   "value": 310.3,
+   "value": 318.1,
    "digits": 2,
    "rank": 7,
    "of": 67,
@@ -1397,7 +1416,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Games Started",
-   "value": 38,
+   "value": 39,
    "digits": 0,
    "rank": 2,
    "of": 67,
@@ -1407,7 +1426,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.75,
+   "value": -0.76,
    "digits": 2,
    "rank": 67,
    "of": 67,
@@ -1417,7 +1436,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points, TEs",
-   "value": 310.3,
+   "value": 318.1,
    "digits": 2,
    "rank": 1,
    "of": 8,
@@ -1487,20 +1506,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 57.4,
+   "value": 65.2,
    "digits": 2,
-   "rank": 97,
-   "of": 233,
+   "rank": 92,
+   "of": 242,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 TEs",
    "stat": "Points",
-   "value": 57.4,
+   "value": 65.2,
    "digits": 2,
-   "rank": 12,
-   "of": 28,
+   "rank": 11,
+   "of": 29,
    "season": "2026"
   },
   {
@@ -1509,8 +1528,8 @@
    "stat": "Points, 2023",
    "value": 127.8,
    "digits": 2,
-   "rank": 281,
-   "of": 1010,
+   "rank": 288,
+   "of": 1019,
    "season": "2023"
   },
   {
@@ -1519,18 +1538,18 @@
    "stat": "Points, 2024",
    "value": 91.5,
    "digits": 2,
-   "rank": 374,
-   "of": 1010,
+   "rank": 383,
+   "of": 1019,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 57.4,
+   "value": 65.2,
    "digits": 2,
-   "rank": 523,
-   "of": 1010,
+   "rank": 486,
+   "of": 1019,
    "season": "2026"
   },
   {
@@ -1539,17 +1558,17 @@
    "stat": "Points, 2025",
    "value": 33.6,
    "digits": 2,
-   "rank": 663,
-   "of": 1010,
+   "rank": 667,
+   "of": 1019,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 9.5,
-  "rank": 135,
-  "of": 420,
+  "score": 9.75,
+  "rank": 136,
+  "of": 424,
   "war": 0.0,
-  "starts": 9.5,
+  "starts": 9.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1852,6 +1871,11 @@
     "2026",
     9,
     9.5
+   ],
+   [
+    "2026",
+    10,
+    9.75
    ]
   ],
   "benchmark": 100
