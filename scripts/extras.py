@@ -8,6 +8,8 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from build import year_span   # how a run of seasons reads is settled in the build pass
+
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "data" / "site"
 MANUAL = ROOT / "data" / "manual"
@@ -629,7 +631,7 @@ def all_time_teams(players, careers, league):
             taken.add(pid)
             r = rows[pid]
             team.append({"slot": slot, "player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "gs": r["gs"], "pts": r2(r["pts"]), "war": r2(r["war"]),
-                         "years": f"{min(r['seasons'])}-{max(r['seasons'])}" if len(r["seasons"]) > 1 else min(r["seasons"]), "franchises": r["franchises"]})
+                         "years": year_span(r["seasons"]), "franchises": r["franchises"]})
         return team
 
     def collect(keep):
@@ -1008,7 +1010,7 @@ def manager_lists(manager, players, logs):
         starts = [a for a in mine if a["started"]]
         if starts:
             seasons = sorted({a["season"] for a in starts})
-            rows.append({"player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "years": seasons[0] if len(seasons) == 1 else f"{seasons[0]}-{seasons[-1]}",
+            rows.append({"player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "years": year_span(seasons),
                          "g": len(mine), "gs": len(starts), "pts": r2(sum(a["pts"] for a in starts)), "best": max(a["pts"] for a in starts),
                          "wins": sum(1 for a in starts if a["won"]), "vor": r2(sum(a.get("vor") or 0 for a in starts)), "war": r2(sum(a.get("war") or 0 for a in starts))})
     rows.sort(key=lambda r: -r["pts"])
@@ -1804,7 +1806,7 @@ def ring_of_honor(franchises, careers, logs, players, games, awards, status):
                      "honors": sum(n * RING_WEIGHTS[k] for k, n in honors.items())}
             parts = {k: float(Decimal(str(round(v, 6))).quantize(Decimal("0.1"), ROUND_HALF_UP)) for k, v in parts.items()}
             rows.append({"player": pid, "name": players[pid]["name"], "pos": players[pid]["pos"], "score": round(sum(parts.values()), 1), **parts,
-                         "years": seasons[0] if len(seasons) == 1 else f"{seasons[0]}-{seasons[-1]}", "seasons": len(seasons), "gs": gs,
+                         "years": year_span(seasons), "seasons": len(seasons), "gs": gs,
                          "pts": r2(sum(c["pts"] for c in mine)), "career_war": r2(war), "playoff_gs": playoff,
                          "title_counts": dict(titles), "honor_counts": dict(honors), "here": status[pid].get("franchise") == fid and status[pid]["code"] == "rostered"})
         rows.sort(key=lambda r: (-r["score"], -r["gs"]))

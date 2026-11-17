@@ -1115,10 +1115,15 @@ def value_sum(starts):
     return {"paa": r2(sum(a["paa"] for a in starts)), "vor": r2(sum(a["vor"] for a in starts)), "war": r2(sum(a["war"] for a in starts))}
 
 
-def year_span(rows):
-    """"2023" for one season, "2023-2026" for several (first and last season on an iooi roster)."""
-    first, last = min(a["season"] for a in rows), max(a["season"] for a in rows)
-    return first if first == last else f"{first}-{last}"
+def year_span(seasons):
+    """The seasons on a list, as runs: "2023", "2023-2025", or "2023, 2026" when he left and came back."""
+    runs = []
+    for year in sorted({int(s) for s in seasons}):
+        if runs and year == runs[-1][1] + 1:
+            runs[-1][1] = year
+        else:
+            runs.append([year, year])
+    return ", ".join(str(first) if first == last else f"{first}-{last}" for first, last in runs)
 
 
 def margin_list(game_log, widest, n=25):
@@ -1140,7 +1145,7 @@ def build_leaders(appearances, players):
         base = {"player": pid, "pos": players[pid]["pos"]}
         teams = lambda group: list(dict.fromkeys(a["franchise"] for a in group))   # in the order he played for them
         career.append({**base, "gs": len(starts), "pts": r2(sum(a["pts"] for a in starts)), **value_sum(starts), "franchises": teams(starts),
-                       "years": year_span(rows), "best": max(a["pts"] for a in starts),
+                       "years": year_span(a["season"] for a in rows), "best": max(a["pts"] for a in starts),
                        "wins": sum(1 for a in starts if a["won"]), "losses": sum(1 for a in starts if not a["won"]),
                        "bench_pts": r2(sum(a["pts"] for a in rows if not a["started"] and a["game"]))})
         by_season = defaultdict(list)
@@ -1163,7 +1168,7 @@ def franchise_leaders(fid, appearances, players):
         mine = [a for a in apps if a["franchise"] == fid]
         starts = [a for a in mine if a["started"]]
         if starts:
-            rows.append({"player": pid, "pos": players[pid]["pos"], "years": year_span(mine), "g": len(mine), "gs": len(starts),
+            rows.append({"player": pid, "pos": players[pid]["pos"], "years": year_span(a["season"] for a in mine), "g": len(mine), "gs": len(starts),
                          "pts": r2(sum(a["pts"] for a in starts)), "best": max(a["pts"] for a in starts), "wins": sum(1 for a in starts if a["won"]), **value_sum(starts)})
     rows.sort(key=lambda r: -r["pts"])
     return {"overall": rows[:25], "by_pos": {pos: [r for r in rows if r["pos"] == pos][:3] for pos in REPLACEMENT_RANK}}
