@@ -2,7 +2,7 @@
  "id": "11748",
  "name": "Bub Means",
  "pos": "WR",
- "nfl_team": "KC",
+ "nfl_team": null,
  "birth_date": "2001-01-10",
  "honors": [],
  "votes": [],
@@ -103,7 +103,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "out",
+  "last_nfl": "2024"
  },
  "split_draft": null,
  "ranks": [

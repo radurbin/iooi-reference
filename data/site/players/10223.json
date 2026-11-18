@@ -2,7 +2,7 @@
  "id": "10223",
  "name": "Eric Gray",
  "pos": "RB",
- "nfl_team": "NYG",
+ "nfl_team": null,
  "birth_date": "1999-11-04",
  "honors": [],
  "votes": [],
@@ -125,7 +125,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "out",
+  "last_nfl": "2025"
  },
  "split_draft": null,
  "ranks": [],
