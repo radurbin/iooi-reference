@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 30,
+  "transactions": 32,
   "trades": 1,
   "seed": 4,
   "efficiency": 0.9097,
@@ -750,6 +750,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "8210",
+   "pos": "TE",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1262,7 +1278,7 @@
    "managers": [
     "sam"
    ],
-   "until": null,
+   "until": "2026-11-18",
    "g": 5,
    "gs": 1,
    "pts": 10.7,
@@ -1383,6 +1399,23 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "type": "signing",
+   "player": "8210",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1701,6 +1734,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "player": "3271",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1735,6 +1782,7 @@
   "8112": "Drake London",
   "8126": "Wan'Dale Robinson",
   "8180": "Jalen Nailor",
+  "8210": "Chig Okonkwo",
   "9221": "Jahmyr Gibbs",
   "9226": "De'Von Achane",
   "BUF": "Buffalo Bills",
@@ -1939,8 +1987,8 @@
    "opp_record": "8-2",
    "opp_seed": 2,
    "chance": 0.488,
-   "proj": 126.63,
-   "opp_proj": 126.56
+   "proj": 136.97,
+   "opp_proj": 126.51
   },
   {
    "week": 12,

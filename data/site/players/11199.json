@@ -210,6 +210,15 @@
    "type": "released",
    "from": 3,
    "from_team": "Kolkata Kommies"
+  },
+  {
+   "date": "2026-11-18",
+   "type": "signed",
+   "to": 9,
+   "to_team": "Clandestine Ball Busters",
+   "from": null,
+   "from_team": null,
+   "trade": null
   }
  ],
  "nicknames": [],
@@ -363,7 +372,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "rostered",
+  "franchise": 9
  },
  "split_draft": null,
  "ranks": [

@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 33,
+  "transactions": 34,
   "trades": 4,
   "seed": 9,
   "efficiency": 0.8428,
@@ -826,6 +826,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "11199",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1622,7 +1638,7 @@
     "tanner",
     "joe"
    ],
-   "until": null,
+   "until": "2026-11-18",
    "g": 2,
    "gs": 1,
    "pts": 3.1,
@@ -1664,6 +1680,24 @@
    "pts": 14.9,
    "wins": 0,
    "best": 14.9
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "type": "signing",
+   "player": "11199",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -2041,12 +2075,28 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "player": "4993",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
   "10236": "Dalton Kincaid",
   "10859": "Sam LaPorta",
   "11157": "Brycen Tremayne",
+  "11199": "Emari Demercado",
   "11584": "Bucky Irving",
   "11608": "Isaiah Williams",
   "11620": "Rome Odunze",
@@ -2207,8 +2257,8 @@
    "opp_record": "5-5",
    "opp_seed": 8,
    "chance": 0.501,
-   "proj": 109.23,
-   "opp_proj": 138.4
+   "proj": 126.15,
+   "opp_proj": 137.83
   },
   {
    "week": 12,
