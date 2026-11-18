@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 36,
+  "transactions": 39,
   "trades": 7,
   "seed": 7,
   "efficiency": 0.865,
@@ -840,6 +840,54 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "6650",
+   "pos": "K",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "12499",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "10218",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1603,7 +1651,7 @@
    "managers": [
     "evan"
    ],
-   "until": null,
+   "until": "2026-11-18",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -1620,7 +1668,7 @@
    "managers": [
     "evan"
    ],
-   "until": null,
+   "until": "2026-11-17",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -1654,12 +1702,63 @@
    "managers": [
     "evan"
    ],
-   "until": null,
+   "until": "2026-11-18",
    "g": 1,
    "gs": 1,
    "pts": 2.0,
    "wins": 0,
    "best": 2.0
+  },
+  {
+   "date": "2026-11-17",
+   "season": "2026",
+   "type": "claim",
+   "player": "10218",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "type": "signing",
+   "player": "6650",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "type": "signing",
+   "player": "12499",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -2056,9 +2155,52 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-17",
+   "season": "2026",
+   "player": "12718",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "player": "13833",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "player": "12504",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
+  "10218": "Xavier Hutchinson",
   "10219": "Chris Rodriguez Jr.",
   "10229": "Rashee Rice",
   "11564": "Drake Maye",
@@ -2068,6 +2210,7 @@
   "12048": "George Holani",
   "12484": "Jayden Higgins",
   "12491": "Corey Kiner",
+  "12499": "Elic Ayomanor",
   "12504": "Kaleb Johnson",
   "12518": "Tyler Warren",
   "12522": "Cam Ward",
@@ -2086,6 +2229,7 @@
   "5850": "Josh Jacobs",
   "5870": "Daniel Jones",
   "5892": "David Montgomery",
+  "6650": "Chase McLaughlin",
   "6801": "Tee Higgins",
   "7569": "Nico Collins",
   "8155": "Breece Hall",
@@ -2304,8 +2448,8 @@
    "opp_record": "2-8",
    "opp_seed": 11,
    "chance": 0.75,
-   "proj": 118.13,
-   "opp_proj": 76.89
+   "proj": 138.9,
+   "opp_proj": 76.92
   },
   {
    "week": 12,

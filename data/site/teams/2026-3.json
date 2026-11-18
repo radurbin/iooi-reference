@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 65,
+  "transactions": 66,
   "trades": 5,
   "seed": 2,
   "efficiency": 0.9184,
@@ -885,6 +885,22 @@
    "paa": -2.82,
    "vor": -7.78,
    "war": -0.09
+  },
+  {
+   "player": "11292",
+   "pos": "QB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1905,7 +1921,7 @@
    "managers": [
     "ritesh"
    ],
-   "until": null,
+   "until": "2026-11-18",
    "g": 1,
    "gs": 0,
    "pts": 0.0,
@@ -1924,6 +1940,23 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "type": "signing",
+   "player": "11292",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -2480,10 +2513,25 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "player": "11593",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
   "11199": "Emari Demercado",
+  "11292": "Tommy DeVito",
   "11559": "Michael Penix Jr.",
   "11575": "Ray Davis",
   "11576": "Braelon Allen",
@@ -2741,8 +2789,8 @@
    "opp_record": "6-4",
    "opp_seed": 4,
    "chance": 0.512,
-   "proj": 108.24,
-   "opp_proj": 136.93
+   "proj": 126.56,
+   "opp_proj": 126.63
   },
   {
    "week": 12,

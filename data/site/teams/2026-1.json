@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 35,
+  "transactions": 36,
   "trades": 4,
   "seed": 1,
   "efficiency": 0.8694,
@@ -871,6 +871,22 @@
    "paa": -4.08,
    "vor": -7.78,
    "war": -0.09
+  },
+  {
+   "player": "DEN",
+   "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1661,12 +1677,30 @@
     "riley",
     "emily"
    ],
-   "until": null,
+   "until": "2026-11-18",
    "g": 1,
    "gs": 1,
    "pts": 4.0,
    "wins": 1,
    "best": 4.0
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "type": "signing",
+   "player": "DEN",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -2059,6 +2093,21 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "player": "BAL",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "managers": [
+    "riley",
+    "emily"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2100,6 +2149,7 @@
   "BAL": "Baltimore Ravens",
   "BUF": "Buffalo Bills",
   "CIN": "Cincinnati Bengals",
+  "DEN": "Denver Broncos",
   "JAX": "Jacksonville Jaguars",
   "KC": "Kansas City Chiefs",
   "NO": "New Orleans Saints",
@@ -2262,8 +2312,8 @@
    "opp_record": "3-7",
    "opp_seed": 10,
    "chance": 0.825,
-   "proj": 159.12,
-   "opp_proj": 85.8
+   "proj": 164.09,
+   "opp_proj": 94.41
   },
   {
    "week": 12,

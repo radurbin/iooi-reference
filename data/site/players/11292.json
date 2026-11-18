@@ -110,6 +110,15 @@
    "type": "released",
    "from": 4,
    "from_team": "Win one game"
+  },
+  {
+   "date": "2026-11-18",
+   "type": "signed",
+   "to": 3,
+   "to_team": "Kolkata Kommies",
+   "from": null,
+   "from_team": null,
+   "trade": null
   }
  ],
  "nicknames": [],
@@ -327,7 +336,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "rostered",
+  "franchise": 3
  },
  "split_draft": null,
  "ranks": [
