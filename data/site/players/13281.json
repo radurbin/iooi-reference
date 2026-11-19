@@ -261,7 +261,7 @@
     "missed": 7,
     "lost": 11.76,
     "injuries": [
-     "Hamstring"
+     "Chest"
     ],
     "weeks": [
      1,
@@ -280,49 +280,49 @@
      {
       "week": 1,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Chest",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 2,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Chest",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 3,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Chest",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 4,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Chest",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 5,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Chest",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 6,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Chest",
       "franchise": 2,
       "team": "Storm FC"
      },
      {
       "week": 7,
       "kind": "IR",
-      "injury": "Hamstring",
+      "injury": "Chest",
       "franchise": 2,
       "team": "Storm FC"
      }
@@ -345,7 +345,7 @@
     ],
     "missed": 7,
     "nfl": "NO",
-    "injury": "Hamstring",
+    "injury": "Chest",
     "kinds": [
      "IR"
     ],
@@ -359,6 +359,11 @@
     "lost": 11.76
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Chest",
+   "since": null,
+   "streak": 0
+  }
  }
 }

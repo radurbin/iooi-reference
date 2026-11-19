@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 38,
+  "transactions": 39,
   "trades": 4,
   "seed": 11,
   "efficiency": 0.8506,
@@ -826,6 +826,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "CHI",
+   "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1556,12 +1572,29 @@
    "managers": [
     "charlie"
    ],
-   "until": null,
+   "until": "2026-11-18",
    "g": 1,
    "gs": 1,
    "pts": 4.0,
    "wins": 1,
    "best": 4.0
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "type": "signing",
+   "player": "CHI",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "managers": [
+    "charlie"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -1928,6 +1961,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-18",
+   "season": "2026",
+   "player": "GB",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "managers": [
+    "charlie"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1970,6 +2017,7 @@
   "8155": "Breece Hall",
   "8188": "Tyquan Thornton",
   "BAL": "Baltimore Ravens",
+  "CHI": "Chicago Bears",
   "GB": "Green Bay Packers",
   "NE": "New England Patriots"
  },
@@ -2095,8 +2143,8 @@
    "opp_record": "5-5",
    "opp_seed": 7,
    "chance": 0.25,
-   "proj": 76.81,
-   "opp_proj": 138.71
+   "proj": 115.81,
+   "opp_proj": 138.89
   },
   {
    "week": 12,

@@ -60,6 +60,12 @@
    "kind": "rookie",
    "label": "4.01",
    "overall": 37
+  },
+  {
+   "date": "2026-11-18",
+   "type": "released",
+   "from": 4,
+   "from_team": "Im Stroud Of You"
   }
  ],
  "nicknames": [],
@@ -226,8 +232,7 @@
   }
  ],
  "status": {
-  "code": "rostered",
-  "franchise": 4
+  "code": "free_agent"
  },
  "split_draft": null,
  "ranks": [],
@@ -368,11 +373,6 @@
     "lost": 0.0
    }
   ],
-  "now": {
-   "status": "IR",
-   "injury": "Neck",
-   "since": null,
-   "streak": 10
-  }
+  "now": null
  }
 }
