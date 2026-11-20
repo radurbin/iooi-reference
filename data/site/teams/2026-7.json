@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 31,
+  "transactions": 32,
   "trades": 1,
   "seed": 6,
   "efficiency": 0.8857,
@@ -795,6 +795,22 @@
    "paa": -6.42,
    "vor": -8.1,
    "war": -0.1
+  },
+  {
+   "player": "3634",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1594,12 +1610,29 @@
    "managers": [
     "anargha"
    ],
-   "until": null,
+   "until": "2026-11-20",
    "g": 1,
    "gs": 1,
    "pts": 0.0,
    "wins": 0,
    "best": 0.0
+  },
+  {
+   "date": "2026-11-20",
+   "season": "2026",
+   "type": "signing",
+   "player": "3634",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -1938,6 +1971,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-20",
+   "season": "2026",
+   "player": "13297",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1964,6 +2011,7 @@
   "3214": "Hunter Henry",
   "3294": "Dak Prescott",
   "3451": "Ka'imi Fairbairn",
+  "3634": "Kalif Raymond",
   "4454": "Kendrick Bourne",
   "6783": "Jerry Jeudy",
   "6813": "Jonathan Taylor",
@@ -2133,8 +2181,8 @@
    "opp_record": "6-4",
    "opp_seed": 5,
    "chance": 0.527,
-   "proj": 119.03,
-   "opp_proj": 140.81
+   "proj": 126.42,
+   "opp_proj": 140.87
   },
   {
    "week": 12,

@@ -86,6 +86,15 @@
    "type": "released",
    "from": 8,
    "from_team": "BBL KIZZY"
+  },
+  {
+   "date": "2026-11-20",
+   "type": "signed",
+   "to": 7,
+   "to_team": "the dart side 🛸💍",
+   "from": null,
+   "from_team": null,
+   "trade": null
   }
  ],
  "nicknames": [],
@@ -140,7 +149,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "rostered",
+  "franchise": 7
  },
  "split_draft": null,
  "ranks": [
