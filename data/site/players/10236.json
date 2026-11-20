@@ -80,8 +80,8 @@
    "best": 22.5,
    "wins": 2,
    "paa": -2.4,
-   "vor": 12.88,
-   "war": 0.15
+   "vor": -1.4,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 22.5,
   "wins": 16,
   "paa": -98.39,
-  "vor": -64.64,
-  "war": -0.76
+  "vor": -78.92,
+  "war": -0.93
  },
  "nfl": [
   {
@@ -1103,8 +1103,8 @@
    "proj": 12.14,
    "won": true,
    "paa": 9.91,
-   "vor": 13.78,
-   "war": 0.16286283244359856
+   "vor": 11.4,
+   "war": 0.13473412843664903
   },
   {
    "season": "2026",
@@ -1122,8 +1122,8 @@
    "proj": 13.23,
    "won": false,
    "paa": -8.86,
-   "vor": -4.92,
-   "war": -0.05814841332529063
+   "vor": -7.3,
+   "war": -0.08627711733224017
   },
   {
    "season": "2026",
@@ -1141,8 +1141,8 @@
    "proj": 12.2,
    "won": false,
    "paa": -9.42,
-   "vor": -7.02,
-   "war": -0.08296785803730493
+   "vor": -9.4,
+   "war": -0.11109656204425447
   },
   {
    "season": "2026",
@@ -1176,8 +1176,8 @@
    "proj": 11.08,
    "won": true,
    "paa": -0.06,
-   "vor": 2.08,
-   "war": 0.02458306904809035
+   "vor": -0.3,
+   "war": -0.003545634958859185
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 10.46,
    "won": false,
    "paa": 5.75,
-   "vor": 9.88,
-   "war": 0.11676957797842917
+   "vor": 7.5,
+   "war": 0.08864087397147963
   },
   {
    "season": "2026",
@@ -1246,55 +1246,55 @@
    "proj": 9.68,
    "won": false,
    "paa": 0.28,
-   "vor": -0.92,
-   "war": -0.010873280540501502
+   "vor": -3.3,
+   "war": -0.03900198454745103
   }
  ],
  "similar": [
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 933,
+   "score": 927,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.59
+   "war": -0.73
   },
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 819,
+   "score": 815,
    "gs": 33,
    "pts": 301.5,
    "ppg": 9.14,
-   "war": -0.24
+   "war": -0.41
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 739,
+   "score": 725,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.23
+   "war": -0.31
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 687,
+   "score": 666,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.29
+   "war": 0.18
   },
   {
    "player": "2505",
    "name": "Darren Waller",
-   "score": 629,
+   "score": 626,
    "gs": 22,
    "pts": 163.9,
    "ppg": 7.45,
-   "war": -0.59
+   "war": -0.68
   }
  ],
  "status": {
@@ -1325,18 +1325,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.76,
+   "value": -0.93,
    "digits": 2,
-   "rank": 418,
+   "rank": 421,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -64.6,
+   "value": -78.9,
    "digits": 1,
-   "rank": 418,
+   "rank": 421,
    "of": 424
   },
   {
@@ -1397,7 +1397,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.76,
+   "value": -0.93,
    "digits": 2,
    "rank": 52,
    "of": 52
@@ -1426,7 +1426,7 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.76,
+   "value": -0.93,
    "digits": 2,
    "rank": 67,
    "of": 67,
@@ -1565,7 +1565,7 @@
  ],
  "hof": {
   "score": 9.75,
-  "rank": 136,
+  "rank": 133,
   "of": 424,
   "war": 0.0,
   "starts": 9.75,

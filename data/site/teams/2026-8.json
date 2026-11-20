@@ -283,8 +283,8 @@
    "bench_pts": 4.7,
    "wins": 3,
    "paa": 34.12,
-   "vor": 54.74,
-   "war": 0.65
+   "vor": 35.7,
+   "war": 0.42
   },
   {
    "player": "7569",
@@ -358,8 +358,8 @@
    "bench_pts": 12.0,
    "wins": 4,
    "paa": 4.36,
-   "vor": 3.54,
-   "war": 0.04
+   "vor": 8.3,
+   "war": 0.1
   },
   {
    "player": "12518",
@@ -373,8 +373,8 @@
    "bench_pts": 34.8,
    "wins": 3,
    "paa": -5.7,
-   "vor": 8.5,
-   "war": 0.1
+   "vor": -3.4,
+   "war": -0.04
   },
   {
    "player": "5892",
@@ -418,8 +418,8 @@
    "bench_pts": -2.0,
    "wins": 1,
    "paa": 15.94,
-   "vor": 13.66,
-   "war": 0.16
+   "vor": 15.7,
+   "war": 0.19
   },
   {
    "player": "13294",
@@ -2448,8 +2448,8 @@
    "opp_record": "2-8",
    "opp_seed": 11,
    "chance": 0.75,
-   "proj": 138.89,
-   "opp_proj": 115.81
+   "proj": 140.81,
+   "opp_proj": 115.92
   },
   {
    "week": 12,
@@ -2479,7 +2479,7 @@
  "injuries": {
   "games": 34,
   "players": 12,
-  "lost": 42.91,
+  "lost": 41.9,
   "rank": 6,
   "games_rank": 3,
   "of": 12,
@@ -2509,7 +2509,7 @@
     "name": "Nico Collins",
     "pos": "WR",
     "missed": 2,
-    "lost": 12.56,
+    "lost": 12.1,
     "injuries": [
      "Hamstring"
     ],
@@ -2540,23 +2540,25 @@
     "gs": 3
    },
    {
-    "player": "12518",
-    "name": "Tyler Warren",
-    "pos": "TE",
-    "missed": 2,
-    "lost": 4.28,
+    "player": "5892",
+    "name": "David Montgomery",
+    "pos": "RB",
+    "missed": 4,
+    "lost": 3.84,
     "injuries": [
      "Groin"
     ],
     "weeks": [
      6,
-     7
+     7,
+     9,
+     10
     ],
     "kinds": [
      "Out",
      "Questionable"
     ],
-    "gs": 5
+    "gs": 4
    },
    {
     "player": "8161",
@@ -2618,23 +2620,6 @@
     "gs": 1
    },
    {
-    "player": "9502",
-    "name": "Tank Dell",
-    "pos": "WR",
-    "missed": 1,
-    "lost": 0.11,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     6
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 0
-   },
-   {
     "player": "12484",
     "name": "Jayden Higgins",
     "pos": "WR",
@@ -2660,25 +2645,23 @@
     "gs": 0
    },
    {
-    "player": "5892",
-    "name": "David Montgomery",
-    "pos": "RB",
-    "missed": 4,
+    "player": "12518",
+    "name": "Tyler Warren",
+    "pos": "TE",
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Groin"
     ],
     "weeks": [
      6,
-     7,
-     9,
-     10
+     7
     ],
     "kinds": [
      "Out",
      "Questionable"
     ],
-    "gs": 4
+    "gs": 5
    },
    {
     "player": "9756",
@@ -2711,6 +2694,23 @@
     ],
     "kinds": [
      "Questionable"
+    ],
+    "gs": 0
+   },
+   {
+    "player": "9502",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     6
+    ],
+    "kinds": [
+     "IR"
     ],
     "gs": 0
    }

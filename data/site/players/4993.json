@@ -73,8 +73,8 @@
    "best": 3.1,
    "wins": 1,
    "paa": -8.49,
-   "vor": -5.62,
-   "war": -0.07
+   "vor": -8.0,
+   "war": -0.09
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 7.0,
   "wins": 2,
   "paa": -43.3,
-  "vor": -40.16,
-  "war": -0.47
+  "vor": -42.54,
+  "war": -0.5
  },
  "nfl": [
   {
@@ -521,8 +521,8 @@
    "proj": 10.08,
    "won": true,
    "paa": -8.49,
-   "vor": -5.62,
-   "war": -0.06642156156262874
+   "vor": -8.0,
+   "war": -0.09455026556957827
   },
   {
    "season": "2026",
@@ -568,18 +568,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.47,
+   "value": -0.5,
    "digits": 2,
-   "rank": 400,
+   "rank": 402,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -40.2,
+   "value": -42.5,
    "digits": 1,
-   "rank": 401,
+   "rank": 402,
    "of": 424
   },
   {
@@ -631,7 +631,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.47,
+   "value": -0.5,
    "digits": 2,
    "rank": 47,
    "of": 52
@@ -700,9 +700,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.09,
    "digits": 2,
-   "rank": 42,
+   "rank": 44,
    "of": 67,
    "franchise": 9
   },

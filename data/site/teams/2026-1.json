@@ -284,8 +284,8 @@
    "bench_pts": 0.0,
    "wins": 9,
    "paa": 61.09,
-   "vor": 85.8,
-   "war": 1.01
+   "vor": 62.0,
+   "war": 0.73
   },
   {
    "player": "9228",
@@ -419,8 +419,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -3.5,
-   "vor": -1.34,
-   "war": -0.02
+   "vor": 0.7,
+   "war": 0.01
   },
   {
    "player": "12514",
@@ -479,8 +479,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -2.4,
-   "vor": 0.22,
-   "war": 0.0
+   "vor": 0.9,
+   "war": 0.01
   },
   {
    "player": "5846",
@@ -509,8 +509,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 0.58,
-   "vor": -1.78,
-   "war": -0.02
+   "vor": -1.1,
+   "war": -0.01
   },
   {
    "player": "BAL",
@@ -524,7 +524,7 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -5.73,
-   "vor": -3.78,
+   "vor": -3.1,
    "war": -0.04
   },
   {
@@ -539,8 +539,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -6.5,
-   "vor": -4.78,
-   "war": -0.06
+   "vor": -4.1,
+   "war": -0.05
   },
   {
    "player": "BUF",
@@ -554,8 +554,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -6.25,
-   "vor": -6.78,
-   "war": -0.08
+   "vor": -6.1,
+   "war": -0.07
   },
   {
    "player": "12489",
@@ -854,8 +854,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -2.82,
-   "vor": -7.78,
-   "war": -0.09
+   "vor": -7.1,
+   "war": -0.08
   },
   {
    "player": "SF",
@@ -869,8 +869,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -4.08,
-   "vor": -7.78,
-   "war": -0.09
+   "vor": -7.1,
+   "war": -0.08
   },
   {
    "player": "DEN",
@@ -2312,8 +2312,8 @@
    "opp_record": "3-7",
    "opp_seed": 10,
    "chance": 0.825,
-   "proj": 163.06,
-   "opp_proj": 93.33
+   "proj": 164.6,
+   "opp_proj": 93.92
   },
   {
    "week": 12,
@@ -2343,7 +2343,7 @@
  "injuries": {
   "games": 31,
   "players": 13,
-  "lost": 45.05,
+  "lost": 42.67,
   "rank": 5,
   "games_rank": 5,
   "of": 12,
@@ -2422,23 +2422,6 @@
     "kinds": [
      "IR",
      "Questionable"
-    ],
-    "gs": 0
-   },
-   {
-    "player": "5844",
-    "name": "T.J. Hockenson",
-    "pos": "TE",
-    "missed": 1,
-    "lost": 2.38,
-    "injuries": [
-     "Wrist"
-    ],
-    "weeks": [
-     10
-    ],
-    "kinds": [
-     "Out"
     ],
     "gs": 0
    },
@@ -2571,6 +2554,23 @@
     ],
     "kinds": [
      "Doubtful"
+    ],
+    "gs": 0
+   },
+   {
+    "player": "5844",
+    "name": "T.J. Hockenson",
+    "pos": "TE",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Wrist"
+    ],
+    "weeks": [
+     10
+    ],
+    "kinds": [
+     "Out"
     ],
     "gs": 0
    },

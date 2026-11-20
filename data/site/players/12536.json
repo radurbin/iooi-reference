@@ -77,7 +77,7 @@
    "team": "HOU",
    "g": 7,
    "pts": 67.1,
-   "rank": 59
+   "rank": 60
   }
  ],
  "history": [
@@ -553,14 +553,15 @@
    {
     "season": "2026",
     "nfl": "HOU",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Toe"
     ],
     "weeks": [
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -580,6 +581,13 @@
       "injury": "Toe",
       "franchise": 1,
       "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -588,12 +596,13 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 10,
+    "to": 11,
     "weeks": [
      9,
-     10
+     10,
+     11
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "HOU",
     "injury": "Toe",
     "kinds": [
@@ -613,7 +622,7 @@
    "status": "IR",
    "injury": "Toe",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

@@ -155,7 +155,7 @@
    "team": "IND",
    "g": 2,
    "pts": 12.2,
-   "rank": 145
+   "rank": 146
   }
  ],
  "history": [
@@ -1247,7 +1247,7 @@
    "stat": "WAR",
    "value": 0.22,
    "digits": 2,
-   "rank": 158,
+   "rank": 155,
    "of": 424
   },
   {
@@ -1256,7 +1256,7 @@
    "stat": "VOR",
    "value": 18.6,
    "digits": 1,
-   "rank": 159,
+   "rank": 156,
    "of": 424
   },
   {
@@ -1395,7 +1395,7 @@
  ],
  "hof": {
   "score": 4.7,
-  "rank": 206,
+  "rank": 205,
   "of": 424,
   "war": 2.2,
   "starts": 2.5,
@@ -1775,7 +1775,7 @@
    {
     "season": "2026",
     "nfl": "IND",
-    "missed": 8,
+    "missed": 9,
     "lost": 3.6,
     "injuries": [
      "Heel"
@@ -1788,7 +1788,8 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -1850,6 +1851,13 @@
       "injury": "Heel",
       "franchise": 4,
       "team": "Im Stroud Of You"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Heel",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1903,7 +1911,7 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 10,
+    "to": 11,
     "weeks": [
      3,
      4,
@@ -1912,9 +1920,10 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "IND",
     "injury": "Heel",
     "kinds": [
@@ -1934,7 +1943,7 @@
    "status": "IR",
    "injury": "Heel",
    "since": null,
-   "streak": 8
+   "streak": 9
   }
  }
 }

@@ -937,47 +937,47 @@
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 871,
+   "score": 899,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.67
+   "war": 0.42
   },
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 832,
+   "score": 839,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.54
+   "war": 0.4
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 800,
+   "score": 798,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.29
+   "war": 0.18
+  },
+  {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 792,
+   "gs": 16,
+   "pts": 191.95,
+   "ppg": 12.0,
+   "war": 0.32
   },
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 792,
+   "score": 790,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
    "war": 0.76
-  },
-  {
-   "player": "5001",
-   "name": "Dalton Schultz",
-   "score": 790,
-   "gs": 16,
-   "pts": 176.7,
-   "ppg": 11.04,
-   "war": 0.35
   }
  ],
  "status": {
@@ -1009,7 +1009,7 @@
    "stat": "WAR",
    "value": 0.3,
    "digits": 2,
-   "rank": 145,
+   "rank": 144,
    "of": 424
   },
   {
@@ -1018,7 +1018,7 @@
    "stat": "VOR",
    "value": 25.3,
    "digits": 1,
-   "rank": 146,
+   "rank": 145,
    "of": 424
   },
   {
@@ -1081,7 +1081,7 @@
    "stat": "WAR",
    "value": 0.3,
    "digits": 2,
-   "rank": 14,
+   "rank": 12,
    "of": 52
   },
   {
@@ -1217,7 +1217,7 @@
  ],
  "hof": {
   "score": 9.25,
-  "rank": 142,
+  "rank": 140,
   "of": 424,
   "war": 3.0,
   "starts": 6.25,

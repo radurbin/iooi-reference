@@ -906,6 +906,31 @@
       "team": "St. Brown VS Board"
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "HOU",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Concussion"
+    ],
+    "weeks": [
+     11
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 11,
+      "kind": "Out",
+      "injury": "Concussion",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -930,13 +955,30 @@
     ],
     "rostered": 1,
     "lost": 1.03
+   },
+   {
+    "season": "2026",
+    "from": 11,
+    "to": 11,
+    "weeks": [
+     11
+    ],
+    "missed": 1,
+    "nfl": "HOU",
+    "injury": "Concussion",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Concussion",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

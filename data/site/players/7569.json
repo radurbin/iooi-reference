@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "HOU",
-   "g": 7,
-   "pts": 116.2,
-   "rank": 20
+   "g": 8,
+   "pts": 131.0,
+   "rank": 16
   }
  ],
  "history": [
@@ -1373,7 +1373,7 @@
    "stat": "WAR",
    "value": 2.59,
    "digits": 2,
-   "rank": 34,
+   "rank": 33,
    "of": 424
   },
   {
@@ -1474,7 +1474,7 @@
    "stat": "WAR",
    "value": 0.52,
    "digits": 2,
-   "rank": 11,
+   "rank": 10,
    "of": 69,
    "franchise": 8
   },
@@ -2131,7 +2131,7 @@
     "season": "2026",
     "nfl": "HOU",
     "missed": 2,
-    "lost": 12.56,
+    "lost": 12.1,
     "injuries": [
      "Hamstring"
     ],
@@ -2280,7 +2280,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 12.56
+    "lost": 12.1
    }
   ],
   "now": null

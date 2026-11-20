@@ -358,8 +358,8 @@
    "bench_pts": 9.8,
    "wins": 4,
    "paa": -1.97,
-   "vor": 13.48,
-   "war": 0.16
+   "vor": -0.8,
+   "war": -0.01
   },
   {
    "player": "4199",
@@ -388,8 +388,8 @@
    "bench_pts": 19.0,
    "wins": 3,
    "paa": 9.2,
-   "vor": 16.66,
-   "war": 0.2
+   "vor": 18.7,
+   "war": 0.22
   },
   {
    "player": "8148",
@@ -418,8 +418,8 @@
    "bench_pts": 37.8,
    "wins": 2,
    "paa": -18.03,
-   "vor": -8.78,
-   "war": -0.1
+   "vor": -18.3,
+   "war": -0.22
   },
   {
    "player": "4943",
@@ -463,8 +463,8 @@
    "bench_pts": 17.0,
    "wins": 3,
    "paa": -30.9,
-   "vor": -41.46,
-   "war": -0.49
+   "vor": -36.7,
+   "war": -0.43
   },
   {
    "player": "9757",
@@ -1381,8 +1381,8 @@
    "opp_record": "2-8",
    "opp_seed": 12,
    "chance": 0.705,
-   "proj": 127.94,
-   "opp_proj": 61.64
+   "proj": 143.84,
+   "opp_proj": 61.93
   },
   {
    "week": 12,
@@ -1412,7 +1412,7 @@
  "injuries": {
   "games": 37,
   "players": 11,
-  "lost": 35.5,
+  "lost": 30.79,
   "rank": 7,
   "games_rank": 2,
   "of": 12,
@@ -1493,45 +1493,6 @@
     "gs": 8
    },
    {
-    "player": "5022",
-    "name": "Dallas Goedert",
-    "pos": "TE",
-    "missed": 2,
-    "lost": 4.16,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     3,
-     4
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 6
-   },
-   {
-    "player": "9502",
-    "name": "Tank Dell",
-    "pos": "WR",
-    "missed": 5,
-    "lost": 0.55,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     1,
-     2,
-     3,
-     4,
-     5
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 0
-   },
-   {
     "player": "8205",
     "name": "Isiah Pacheco",
     "pos": "RB",
@@ -1582,6 +1543,27 @@
     "gs": 2
    },
    {
+    "player": "9502",
+    "name": "Tank Dell",
+    "pos": "WR",
+    "missed": 5,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 0
+   },
+   {
     "player": "11626",
     "name": "Xavier Legette",
     "pos": "WR",
@@ -1600,6 +1582,24 @@
      "Questionable"
     ],
     "gs": 0
+   },
+   {
+    "player": "5022",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "missed": 2,
+    "lost": 0.0,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     3,
+     4
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 6
    },
    {
     "player": "12498",

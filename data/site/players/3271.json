@@ -41,8 +41,8 @@
    "best": 10.7,
    "wins": 1,
    "paa": 3.17,
-   "vor": 1.98,
-   "war": 0.02
+   "vor": -0.4,
+   "war": -0.0
   }
  ],
  "totals": {
@@ -54,8 +54,8 @@
   "best": 10.7,
   "wins": 2,
   "paa": -2.65,
-  "vor": -4.2,
-  "war": -0.05
+  "vor": -6.58,
+  "war": -0.08
  },
  "nfl": [
   {
@@ -427,8 +427,8 @@
    "proj": 8.53,
    "won": true,
    "paa": 3.17,
-   "vor": 1.98,
-   "war": 0.02340119072847062
+   "vor": -0.4,
+   "war": -0.004727513278478914
   }
  ],
  "status": {
@@ -458,18 +458,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.08,
    "digits": 2,
-   "rank": 249,
+   "rank": 267,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -4.2,
+   "value": -6.6,
    "digits": 1,
-   "rank": 254,
+   "rank": 267,
    "of": 424
   },
   {
@@ -521,7 +521,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.08,
    "digits": 2,
    "rank": 26,
    "of": 52
@@ -552,7 +552,7 @@
    "stat": "WAR",
    "value": -0.07,
    "digits": 2,
-   "rank": 27,
+   "rank": 28,
    "of": 45,
    "franchise": 11
   },
@@ -590,9 +590,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.02,
+   "value": 0.0,
    "digits": 2,
-   "rank": 30,
+   "rank": 33,
    "of": 60,
    "franchise": 5
   },

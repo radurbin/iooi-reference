@@ -266,7 +266,7 @@
    "stat": "WAR",
    "value": -0.13,
    "digits": 2,
-   "rank": 317,
+   "rank": 315,
    "of": 424
   },
   {
@@ -275,7 +275,7 @@
    "stat": "VOR",
    "value": -10.9,
    "digits": 1,
-   "rank": 324,
+   "rank": 321,
    "of": 424
   },
   {
@@ -531,6 +531,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Back",
+   "since": null,
+   "streak": 0
+  }
  }
 }

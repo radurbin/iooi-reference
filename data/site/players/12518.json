@@ -50,8 +50,8 @@
    "best": 21.5,
    "wins": 3,
    "paa": -5.7,
-   "vor": 8.5,
-   "war": 0.1
+   "vor": -3.4,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -63,8 +63,8 @@
   "best": 21.5,
   "wins": 12,
   "paa": 13.23,
-  "vor": 46.08,
-  "war": 0.54
+  "vor": 34.18,
+  "war": 0.4
  },
  "nfl": [
   {
@@ -77,9 +77,9 @@
   {
    "season": "2026",
    "team": "IND",
-   "g": 8,
-   "pts": 86.9,
-   "rank": 15
+   "g": 9,
+   "pts": 90.1,
+   "rank": 11
   }
  ],
  "history": [
@@ -421,8 +421,8 @@
    "proj": 13.82,
    "won": true,
    "paa": 1.63,
-   "vor": 1.58,
-   "war": 0.01867367744999171
+   "vor": -0.8,
+   "war": -0.009455026556957827
   },
   {
    "season": "2026",
@@ -440,8 +440,8 @@
    "proj": 11.35,
    "won": false,
    "paa": 1.91,
-   "vor": 5.78,
-   "war": 0.0683125668740203
+   "vor": 3.4,
+   "war": 0.04018386286707076
   },
   {
    "season": "2026",
@@ -491,8 +491,8 @@
    "proj": 10.6,
    "won": true,
    "paa": 8.67,
-   "vor": 12.78,
-   "war": 0.15104404924740128
+   "vor": 10.4,
+   "war": 0.12291534524045175
   },
   {
    "season": "2026",
@@ -510,8 +510,8 @@
    "proj": null,
    "won": false,
    "paa": -10.86,
-   "vor": -8.72,
-   "war": -0.10305978947084032
+   "vor": -11.1,
+   "war": -0.13118849347778985
   },
   {
    "season": "2026",
@@ -545,8 +545,8 @@
    "proj": 10.72,
    "won": true,
    "paa": -7.05,
-   "vor": -2.92,
-   "war": -0.034510846932896064
+   "vor": -5.3,
+   "war": -0.0626395509398456
   },
   {
    "season": "2026",
@@ -585,47 +585,47 @@
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 941,
+   "score": 940,
    "gs": 16,
    "pts": 191.95,
    "ppg": 12.0,
-   "war": 0.6
-  },
-  {
-   "player": "5001",
-   "name": "Dalton Schultz",
-   "score": 921,
-   "gs": 16,
-   "pts": 176.7,
-   "ppg": 11.04,
-   "war": 0.35
+   "war": 0.32
   },
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 915,
+   "score": 920,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.67
+   "war": 0.42
+  },
+  {
+   "player": "5001",
+   "name": "Dalton Schultz",
+   "score": 916,
+   "gs": 16,
+   "pts": 176.7,
+   "ppg": 11.04,
+   "war": 0.18
+  },
+  {
+   "player": "4066",
+   "name": "Evan Engram",
+   "score": 839,
+   "gs": 25,
+   "pts": 280.4,
+   "ppg": 11.22,
+   "war": 0.3
   },
   {
    "player": "5844",
    "name": "T.J. Hockenson",
-   "score": 844,
+   "score": 837,
    "gs": 17,
    "pts": 226.9,
    "ppg": 13.35,
    "war": 0.62
-  },
-  {
-   "player": "4033",
-   "name": "David Njoku",
-   "score": 841,
-   "gs": 20,
-   "pts": 261.4,
-   "ppg": 13.07,
-   "war": 0.76
   }
  ],
  "status": {
@@ -656,18 +656,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.54,
+   "value": 0.4,
    "digits": 2,
-   "rank": 109,
+   "rank": 125,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 46.1,
+   "value": 34.2,
    "digits": 1,
-   "rank": 109,
+   "rank": 125,
    "of": 424
   },
   {
@@ -728,9 +728,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 0.54,
+   "value": 0.4,
    "digits": 2,
-   "rank": 10,
+   "rank": 9,
    "of": 52
   },
   {
@@ -757,9 +757,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.54,
+   "value": 0.4,
    "digits": 2,
-   "rank": 9,
+   "rank": 14,
    "of": 69,
    "franchise": 8
   },
@@ -835,10 +835,10 @@
   }
  ],
  "hof": {
-  "score": 9.9,
-  "rank": 133,
+  "score": 8.5,
+  "rank": 148,
   "of": 424,
-  "war": 5.4,
+  "war": 4.0,
   "starts": 4.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -931,52 +931,52 @@
    [
     "2026",
     1,
-    8.1
+    7.8
    ],
    [
     "2026",
     2,
-    9.05
+    8.45
    ],
    [
     "2026",
     3,
-    9.05
+    8.45
    ],
    [
     "2026",
     4,
-    9.05
+    8.45
    ],
    [
     "2026",
     5,
-    10.8
+    10.0
    ],
    [
     "2026",
     6,
-    10.05
+    8.95
    ],
    [
     "2026",
     7,
-    10.05
+    8.95
    ],
    [
     "2026",
     8,
-    9.9
+    8.5
    ],
    [
     "2026",
     9,
-    9.9
+    8.5
    ],
    [
     "2026",
     10,
-    9.9
+    8.5
    ]
   ],
   "benchmark": 100
@@ -989,7 +989,7 @@
     "season": "2026",
     "nfl": "IND",
     "missed": 2,
-    "lost": 4.28,
+    "lost": 0.0,
     "injuries": [
      "Groin"
     ],
@@ -1043,7 +1043,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 4.28
+    "lost": 0.0
    }
   ],
   "now": null

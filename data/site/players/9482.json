@@ -96,8 +96,8 @@
    "best": 9.2,
    "wins": 1,
    "paa": 0.53,
-   "vor": 0.48,
-   "war": 0.01
+   "vor": -1.9,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 9.2,
   "wins": 2,
   "paa": -12.61,
-  "vor": -16.94,
-  "war": -0.2
+  "vor": -19.32,
+  "war": -0.23
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "LV",
    "g": 10,
    "pts": 87.2,
-   "rank": 13
+   "rank": 14
   }
  ],
  "history": [
@@ -508,8 +508,8 @@
    "proj": 8.52,
    "won": true,
    "paa": 0.53,
-   "vor": 0.48,
-   "war": 0.005673015934174696
+   "vor": -1.9,
+   "war": -0.022455688072774836
   },
   {
    "season": "2026",
@@ -684,18 +684,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.23,
    "digits": 2,
-   "rank": 355,
+   "rank": 362,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -16.9,
+   "value": -19.3,
    "digits": 1,
-   "rank": 356,
+   "rank": 364,
    "of": 424
   },
   {
@@ -747,7 +747,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.2,
+   "value": -0.23,
    "digits": 2,
    "rank": 40,
    "of": 52
@@ -776,9 +776,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": 0.01,
+   "value": -0.02,
    "digits": 2,
-   "rank": 34,
+   "rank": 39,
    "of": 74,
    "franchise": 10
   },
@@ -818,7 +818,7 @@
    "stat": "WAR",
    "value": -0.2,
    "digits": 2,
-   "rank": 57,
+   "rank": 56,
    "of": 60,
    "franchise": 5
   },

@@ -96,8 +96,8 @@
    "best": 23.7,
    "wins": 4,
    "paa": -1.97,
-   "vor": 13.48,
-   "war": 0.16
+   "vor": -0.8,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 27.0,
   "wins": 17,
   "paa": -58.35,
-  "vor": -20.32,
-  "war": -0.24
+  "vor": -34.6,
+  "war": -0.41
  },
  "nfl": [
   {
@@ -1091,8 +1091,8 @@
    "proj": 9.96,
    "won": true,
    "paa": 15.03,
-   "vor": 14.98,
-   "war": 0.1770453722790353
+   "vor": 12.6,
+   "war": 0.14891666827208577
   },
   {
    "season": "2026",
@@ -1110,8 +1110,8 @@
    "proj": 10.17,
    "won": false,
    "paa": -11.19,
-   "vor": -7.32,
-   "war": -0.08651349299616412
+   "vor": -9.7,
+   "war": -0.11464219700311364
   },
   {
    "season": "2026",
@@ -1177,8 +1177,8 @@
    "proj": 10.51,
    "won": false,
    "paa": 1.24,
-   "vor": 3.38,
-   "war": 0.039947487203146816
+   "vor": 1.0,
+   "war": 0.011818783196197283
   },
   {
    "season": "2026",
@@ -1196,8 +1196,8 @@
    "proj": 11.52,
    "won": true,
    "paa": 0.09,
-   "vor": 2.58,
-   "war": 0.030492460646188994
+   "vor": 0.2,
+   "war": 0.002363756639239457
   },
   {
    "season": "2026",
@@ -1215,8 +1215,8 @@
    "proj": 10.27,
    "won": true,
    "paa": -5.55,
-   "vor": -1.42,
-   "war": -0.01678267213860014
+   "vor": -3.8,
+   "war": -0.04491137614554967
   },
   {
    "season": "2026",
@@ -1234,8 +1234,8 @@
    "proj": 9.74,
    "won": true,
    "paa": -1.59,
-   "vor": 1.28,
-   "war": 0.015128042491132523
+   "vor": -1.1,
+   "war": -0.013000661515817013
   },
   {
    "season": "2026",
@@ -1258,34 +1258,34 @@
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 835,
+   "score": 837,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.59
+   "war": -0.73
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 833,
+   "score": 818,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.29
+   "war": 0.18
   },
   {
    "player": "10236",
    "name": "Dalton Kincaid",
-   "score": 819,
+   "score": 815,
    "gs": 39,
    "pts": 318.1,
    "ppg": 8.16,
-   "war": -0.76
+   "war": -0.93
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 743,
+   "score": 718,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
@@ -1294,11 +1294,11 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 700,
+   "score": 699,
    "gs": 19,
    "pts": 179.3,
    "ppg": 9.44,
-   "war": -0.09
+   "war": -0.23
   }
  ],
  "status": {
@@ -1339,18 +1339,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.41,
    "digits": 2,
-   "rank": 366,
+   "rank": 395,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -20.3,
+   "value": -34.6,
    "digits": 1,
-   "rank": 367,
+   "rank": 395,
    "of": 424
   },
   {
@@ -1411,9 +1411,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.24,
+   "value": -0.41,
    "digits": 2,
-   "rank": 43,
+   "rank": 46,
    "of": 52
   },
   {
@@ -1480,9 +1480,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.16,
+   "value": -0.01,
    "digits": 2,
-   "rank": 22,
+   "rank": 29,
    "of": 40,
    "franchise": 6
   },
@@ -1522,7 +1522,7 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 63,
+   "rank": 62,
    "of": 74,
    "franchise": 10
   },
@@ -1659,7 +1659,7 @@
  ],
  "hof": {
   "score": 8.25,
-  "rank": 150,
+  "rank": 151,
   "of": 424,
   "war": 0.0,
   "starts": 8.25,
@@ -2124,7 +2124,7 @@
     "season": "2026",
     "nfl": "PHI",
     "missed": 2,
-    "lost": 4.16,
+    "lost": 0.0,
     "injuries": [
      "Knee"
     ],
@@ -2276,7 +2276,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 4.16
+    "lost": 0.0
    }
   ],
   "now": null

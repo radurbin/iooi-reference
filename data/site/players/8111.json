@@ -805,47 +805,47 @@
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 931,
+   "score": 922,
    "gs": 12,
    "pts": 131.4,
    "ppg": 10.95,
-   "war": 0.3
+   "war": 0.08
   },
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 874,
+   "score": 876,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.35
+   "war": 0.18
+  },
+  {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 876,
+   "gs": 16,
+   "pts": 191.95,
+   "ppg": 12.0,
+   "war": 0.32
   },
   {
    "player": "4144",
    "name": "Jonnu Smith",
-   "score": 865,
+   "score": 864,
    "gs": 10,
    "pts": 133.2,
    "ppg": 13.32,
    "war": 0.38
   },
   {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 853,
-   "gs": 16,
-   "pts": 191.95,
-   "ppg": 12.0,
-   "war": 0.6
-  },
-  {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 824,
+   "score": 834,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.54
+   "war": 0.4
   }
  ],
  "status": {
@@ -887,7 +887,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 155,
+   "rank": 153,
    "of": 424
   },
   {
@@ -896,7 +896,7 @@
    "stat": "VOR",
    "value": 20.4,
    "digits": 1,
-   "rank": 155,
+   "rank": 153,
    "of": 424
   },
   {
@@ -959,7 +959,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 17,
+   "rank": 14,
    "of": 52
   },
   {
@@ -1095,7 +1095,7 @@
  ],
  "hof": {
   "score": 5.15,
-  "rank": 196,
+  "rank": 195,
   "of": 424,
   "war": 2.4,
   "starts": 2.75,

@@ -114,9 +114,9 @@
   {
    "season": "2026",
    "team": "HOU",
-   "g": 9,
-   "pts": 62.9,
-   "rank": 62
+   "g": 10,
+   "pts": 74.9,
+   "rank": 49
   }
  ],
  "history": [
@@ -931,7 +931,7 @@
    "stat": "WAR",
    "value": -0.12,
    "digits": 2,
-   "rank": 303,
+   "rank": 301,
    "of": 424
   },
   {
@@ -940,7 +940,7 @@
    "stat": "VOR",
    "value": -10.1,
    "digits": 1,
-   "rank": 308,
+   "rank": 306,
    "of": 424
   },
   {
@@ -1642,6 +1642,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Hip",
+   "since": null,
+   "streak": 0
+  }
  }
 }

@@ -1625,18 +1625,18 @@
     ],
     "injured": [
      {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "8205",
       "name": "Isiah Pacheco",
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
+     },
+     {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    }
@@ -3456,13 +3456,6 @@
       "injury": "Glute"
      },
      {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "5859",
       "name": "A.J. Brown",
       "pos": "WR",
@@ -3475,6 +3468,13 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
+     },
+     {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    },
@@ -4625,20 +4625,6 @@
     ],
     "injured": [
      {
-      "player": "5022",
-      "name": "Dallas Goedert",
-      "pos": "TE",
-      "kind": "Out",
-      "injury": "Knee"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "11626",
       "name": "Xavier Legette",
       "pos": "WR",
@@ -4653,6 +4639,13 @@
       "injury": "Thumb"
      },
      {
+      "player": "5022",
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "kind": "Out",
+      "injury": "Knee"
+     },
+     {
       "player": "5859",
       "name": "A.J. Brown",
       "pos": "WR",
@@ -4665,6 +4658,13 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
+     },
+     {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    }
@@ -7952,20 +7952,6 @@
     ],
     "injured": [
      {
-      "player": "5022",
-      "name": "Dallas Goedert",
-      "pos": "TE",
-      "kind": "Out",
-      "injury": "Knee"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "11626",
       "name": "Xavier Legette",
       "pos": "WR",
@@ -7980,6 +7966,13 @@
       "injury": "Thumb"
      },
      {
+      "player": "5022",
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "kind": "Out",
+      "injury": "Knee"
+     },
+     {
       "player": "5859",
       "name": "A.J. Brown",
       "pos": "WR",
@@ -7992,6 +7985,13 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
+     },
+     {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    },
@@ -9444,13 +9444,6 @@
     ],
     "injured": [
      {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "5859",
       "name": "A.J. Brown",
       "pos": "WR",
@@ -9463,6 +9456,13 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
+     },
+     {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    },
@@ -11030,13 +11030,6 @@
       "injury": "Quadricep"
      },
      {
-      "player": "12518",
-      "name": "Tyler Warren",
-      "pos": "TE",
-      "kind": "Questionable",
-      "injury": "Groin"
-     },
-     {
       "player": "10229",
       "name": "Rashee Rice",
       "pos": "WR",
@@ -11044,17 +11037,17 @@
       "injury": "Hamstring"
      },
      {
+      "player": "5892",
+      "name": "David Montgomery",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Groin"
+     },
+     {
       "player": "9753",
       "name": "Zach Charbonnet",
       "pos": "RB",
       "kind": "PUP",
-      "injury": "Knee"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
       "injury": "Knee"
      },
      {
@@ -11065,11 +11058,18 @@
       "injury": "Knee - ACL"
      },
      {
-      "player": "5892",
-      "name": "David Montgomery",
-      "pos": "RB",
-      "kind": "Out",
+      "player": "12518",
+      "name": "Tyler Warren",
+      "pos": "TE",
+      "kind": "Questionable",
       "injury": "Groin"
+     },
+     {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    }
@@ -14498,18 +14498,18 @@
       "injury": "Quadricep"
      },
      {
-      "player": "12518",
-      "name": "Tyler Warren",
-      "pos": "TE",
-      "kind": "Out",
-      "injury": "Groin"
-     },
-     {
       "player": "10229",
       "name": "Rashee Rice",
       "pos": "WR",
       "kind": "Out",
       "injury": "Hamstring"
+     },
+     {
+      "player": "5892",
+      "name": "David Montgomery",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Groin"
      },
      {
       "player": "9753",
@@ -14526,9 +14526,9 @@
       "injury": "Knee - ACL"
      },
      {
-      "player": "5892",
-      "name": "David Montgomery",
-      "pos": "RB",
+      "player": "12518",
+      "name": "Tyler Warren",
+      "pos": "TE",
       "kind": "Out",
       "injury": "Groin"
      }
@@ -17555,6 +17555,13 @@
     ],
     "injured": [
      {
+      "player": "5892",
+      "name": "David Montgomery",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Groin"
+     },
+     {
       "player": "11581",
       "name": "MarShawn Lloyd",
       "pos": "RB",
@@ -17567,13 +17574,6 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Knee - ACL"
-     },
-     {
-      "player": "5892",
-      "name": "David Montgomery",
-      "pos": "RB",
-      "kind": "Out",
-      "injury": "Groin"
      }
     ]
    }
@@ -18765,13 +18765,6 @@
       "injury": "Hamstring"
      },
      {
-      "player": "5844",
-      "name": "T.J. Hockenson",
-      "pos": "TE",
-      "kind": "Out",
-      "injury": "Wrist"
-     },
-     {
       "player": "11583",
       "name": "Jonathon Brooks",
       "pos": "RB",
@@ -18784,6 +18777,13 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Toe"
+     },
+     {
+      "player": "5844",
+      "name": "T.J. Hockenson",
+      "pos": "TE",
+      "kind": "Out",
+      "injury": "Wrist"
      }
     ]
    },
@@ -20328,18 +20328,18 @@
       "injury": "Groin"
      },
      {
-      "player": "12484",
-      "name": "Jayden Higgins",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee - ACL"
-     },
-     {
       "player": "5892",
       "name": "David Montgomery",
       "pos": "RB",
       "kind": "Questionable",
       "injury": "Groin"
+     },
+     {
+      "player": "12484",
+      "name": "Jayden Higgins",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee - ACL"
      }
     ]
    }

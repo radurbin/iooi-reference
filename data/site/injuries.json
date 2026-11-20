@@ -8,21 +8,9 @@
  "current": "2026",
  "latest": {
   "season": "2026",
-  "week": 10
+  "week": 11
  },
  "out_now": [
-  {
-   "player": "8205",
-   "name": "Isiah Pacheco",
-   "pos": "RB",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "status": "IR",
-   "injury": "Back",
-   "since": null,
-   "streak": 9,
-   "season_missed": 9
-  },
   {
    "player": "12484",
    "name": "Jayden Higgins",
@@ -31,6 +19,30 @@
    "team": "BBL KIZZY",
    "status": "IR",
    "injury": "Knee - ACL",
+   "since": null,
+   "streak": 10,
+   "season_missed": 10
+  },
+  {
+   "player": "8142",
+   "name": "Alec Pierce",
+   "pos": "WR",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "status": "IR",
+   "injury": "Heel",
+   "since": null,
+   "streak": 9,
+   "season_missed": 9
+  },
+  {
+   "player": "8205",
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "IR",
+   "injury": "Back",
    "since": null,
    "streak": 9,
    "season_missed": 9
@@ -46,18 +58,6 @@
    "since": null,
    "streak": 9,
    "season_missed": 9
-  },
-  {
-   "player": "8142",
-   "name": "Alec Pierce",
-   "pos": "WR",
-   "franchise": 4,
-   "team": "Im Stroud Of You",
-   "status": "IR",
-   "injury": "Heel",
-   "since": null,
-   "streak": 8,
-   "season_missed": 8
   },
   {
    "player": "13417",
@@ -216,6 +216,18 @@
    "season_missed": 3
   },
   {
+   "player": "12536",
+   "name": "Jaylin Noel",
+   "pos": "WR",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "IR",
+   "injury": "Toe",
+   "since": null,
+   "streak": 3,
+   "season_missed": 3
+  },
+  {
    "player": "5927",
    "name": "Terry McLaurin",
    "pos": "WR",
@@ -238,18 +250,6 @@
    "since": null,
    "streak": 3,
    "season_missed": 4
-  },
-  {
-   "player": "12536",
-   "name": "Jaylin Noel",
-   "pos": "WR",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team 💍",
-   "status": "IR",
-   "injury": "Toe",
-   "since": null,
-   "streak": 2,
-   "season_missed": 2
   },
   {
    "player": "13287",
@@ -372,6 +372,18 @@
    "season_missed": 3
   },
   {
+   "player": "11628",
+   "name": "Marvin Harrison Jr.",
+   "pos": "WR",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "Out",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
    "player": "4943",
    "name": "Sam Darnold",
    "pos": "QB",
@@ -420,13 +432,13 @@
    "season_missed": 1
   },
   {
-   "player": "11628",
-   "name": "Marvin Harrison Jr.",
-   "pos": "WR",
+   "player": "12474",
+   "name": "Woody Marks",
+   "pos": "RB",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "status": "Out",
-   "injury": "Hamstring",
+   "injury": "Concussion",
    "since": null,
    "streak": 1,
    "season_missed": 1
@@ -444,28 +456,28 @@
    "season_missed": 0
   },
   {
-   "player": "12474",
-   "name": "Woody Marks",
+   "player": "13276",
+   "name": "Omar Cooper Jr.",
+   "pos": "WR",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Out",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 0,
+   "season_missed": 4
+  },
+  {
+   "player": "13424",
+   "name": "Seth McGowan",
    "pos": "RB",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "status": "Out",
-   "injury": "Concussion",
+   "injury": "Hamstring",
    "since": null,
    "streak": 0,
    "season_missed": 0
-  },
-  {
-   "player": "7525",
-   "name": "DeVonta Smith",
-   "pos": "WR",
-   "franchise": 2,
-   "team": "Storm FC",
-   "status": "Questionable",
-   "injury": "Hamstring",
-   "since": null,
-   "streak": 3,
-   "season_missed": 5
   },
   {
    "player": "2216",
@@ -540,18 +552,6 @@
    "season_missed": 1
   },
   {
-   "player": "9508",
-   "name": "Tyjae Spears",
-   "pos": "RB",
-   "franchise": 2,
-   "team": "Storm FC",
-   "status": "Questionable",
-   "injury": "Knee",
-   "since": null,
-   "streak": 1,
-   "season_missed": 1
-  },
-  {
    "player": "4892",
    "name": "Baker Mayfield",
    "pos": "QB",
@@ -595,6 +595,18 @@
    "team": "Mojo Dojo Casa Team 💍",
    "status": "Questionable",
    "injury": "Shoulder",
+   "since": null,
+   "streak": 0,
+   "season_missed": 3
+  },
+  {
+   "player": "13272",
+   "name": "Carson Beck",
+   "pos": "QB",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "Questionable",
+   "injury": "Back",
    "since": null,
    "streak": 0,
    "season_missed": 3
@@ -696,16 +708,16 @@
    "season_missed": 7
   },
   {
-   "player": "13276",
-   "name": "Omar Cooper Jr.",
+   "player": "9504",
+   "name": "Kayshon Boutte",
    "pos": "WR",
-   "franchise": 2,
-   "team": "Storm FC",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
    "status": "Questionable",
-   "injury": "Ankle",
+   "injury": "Hip",
    "since": null,
    "streak": 0,
-   "season_missed": 4
+   "season_missed": 0
   },
   {
    "player": "11729",
@@ -718,6 +730,18 @@
    "since": null,
    "streak": 0,
    "season_missed": 0
+  },
+  {
+   "player": "9508",
+   "name": "Tyjae Spears",
+   "pos": "RB",
+   "franchise": 2,
+   "team": "Storm FC",
+   "status": "Questionable",
+   "injury": "Knee",
+   "since": null,
+   "streak": 0,
+   "season_missed": 1
   },
   {
    "player": "3321",
@@ -2458,7 +2482,7 @@
    "name": "Tank Dell",
    "pos": "WR",
    "missed": 29,
-   "lost": 13.91,
+   "lost": 13.25,
    "injuries": [
     "Knee",
     "Calf",
@@ -3170,7 +3194,7 @@
    "name": "Nico Collins",
    "pos": "WR",
    "missed": 10,
-   "lost": 55.12,
+   "lost": 54.66,
    "injuries": [
     "Hamstring",
     "Calf",
@@ -5225,7 +5249,7 @@
    "finish": null,
    "games": 31,
    "players": 13,
-   "lost": 45.05,
+   "lost": 42.67,
    "worst": {
     "player": "2133",
     "name": "Davante Adams",
@@ -5345,7 +5369,7 @@
    "finish": null,
    "games": 37,
    "players": 11,
-   "lost": 35.5,
+   "lost": 30.79,
    "worst": {
     "player": "2216",
     "name": "Mike Evans",
@@ -5369,7 +5393,7 @@
    "finish": null,
    "games": 31,
    "players": 11,
-   "lost": 126.63,
+   "lost": 121.87,
    "worst": {
     "player": "9493",
     "name": "Puka Nacua",
@@ -5393,7 +5417,7 @@
    "finish": null,
    "games": 34,
    "players": 12,
-   "lost": 42.91,
+   "lost": 41.9,
    "worst": {
     "player": "8155",
     "name": "Breece Hall",
@@ -5508,9 +5532,9 @@
    "franchise": 1,
    "name": "Mojo Dojo Casa Team 💍",
    "games": 206,
-   "lost": 275.08,
+   "lost": 272.7,
    "seasons": 4,
-   "per_season": 68.77,
+   "per_season": 68.18,
    "worst": "2025"
   },
   {
@@ -5553,27 +5577,27 @@
    "franchise": 6,
    "name": "got that DAWG",
    "games": 192,
-   "lost": 239.64,
+   "lost": 234.93,
    "seasons": 4,
-   "per_season": 59.91,
+   "per_season": 58.73,
    "worst": "2025"
   },
   {
    "franchise": 7,
    "name": "the dart side 🛸💍",
    "games": 126,
-   "lost": 350.04,
+   "lost": 345.28,
    "seasons": 4,
-   "per_season": 87.51,
+   "per_season": 86.32,
    "worst": "2024"
   },
   {
    "franchise": 8,
    "name": "BBL KIZZY",
    "games": 152,
-   "lost": 290.94,
+   "lost": 289.93,
    "seasons": 4,
-   "per_season": 72.73,
+   "per_season": 72.48,
    "worst": "2024"
   },
   {
@@ -5627,9 +5651,9 @@
    "key": "anargha",
    "name": "Anargha",
    "games": 126,
-   "lost": 350.04,
+   "lost": 345.28,
    "seasons": 4,
-   "per_season": 87.51,
+   "per_season": 86.32,
    "worst": "2024"
   },
   {
@@ -5681,18 +5705,18 @@
    "key": "emily",
    "name": "Emily",
    "games": 206,
-   "lost": 275.08,
+   "lost": 272.7,
    "seasons": 4,
-   "per_season": 68.77,
+   "per_season": 68.18,
    "worst": "2025"
   },
   {
    "key": "evan",
    "name": "Evan",
    "games": 152,
-   "lost": 290.94,
+   "lost": 289.93,
    "seasons": 4,
-   "per_season": 72.73,
+   "per_season": 72.48,
    "worst": "2024"
   },
   {
@@ -5708,18 +5732,18 @@
    "key": "makenzy",
    "name": "Makenzy",
    "games": 192,
-   "lost": 239.64,
+   "lost": 234.93,
    "seasons": 4,
-   "per_season": 59.91,
+   "per_season": 58.73,
    "worst": "2025"
   },
   {
    "key": "riley",
    "name": "Riley",
    "games": 206,
-   "lost": 275.08,
+   "lost": 272.7,
    "seasons": 4,
-   "per_season": 68.77,
+   "per_season": 68.18,
    "worst": "2025"
   },
   {
@@ -6007,15 +6031,15 @@
    },
    "RB": {
     "games": 113,
-    "lost": 149.87
+    "lost": 153.71
    },
    "WR": {
     "games": 165,
-    "lost": 211.59
+    "lost": 210.47
    },
    "TE": {
     "games": 26,
-    "lost": 30.86
+    "lost": 15.28
    }
   }
  ],
@@ -6099,7 +6123,7 @@
  },
  "totals": {
   "games": 1896,
-  "lost": 3295.62,
+  "lost": 3282.76,
   "players": 320
  }
 }
