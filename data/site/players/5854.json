@@ -142,6 +142,12 @@
    "from": null,
    "from_team": null,
    "trade": null
+  },
+  {
+   "date": "2026-11-21",
+   "type": "released",
+   "from": 5,
+   "from_team": "St. Brown VS Board💍"
   }
  ],
  "nicknames": [],
@@ -269,8 +275,7 @@
   }
  ],
  "status": {
-  "code": "rostered",
-  "franchise": 5
+  "code": "free_agent"
  },
  "split_draft": null,
  "ranks": [

@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 32,
+  "transactions": 33,
   "trades": 1,
   "seed": 4,
   "efficiency": 0.9097,
@@ -766,6 +766,22 @@
    "vor": null,
    "war": null,
    "joined": true
+  },
+  {
+   "player": "5995",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1346,7 +1362,7 @@
    "managers": [
     "sam"
    ],
-   "until": null,
+   "until": "2026-11-21",
    "g": 2,
    "gs": 2,
    "pts": 29.3,
@@ -1409,6 +1425,23 @@
    "season": "2026",
    "type": "signing",
    "player": "8210",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-21",
+   "season": "2026",
+   "type": "signing",
+   "player": "5995",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "managers": [
@@ -1748,6 +1781,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-21",
+   "season": "2026",
+   "player": "5854",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1775,6 +1822,7 @@
   "3271": "Tyler Higbee",
   "4147": "Samaje Perine",
   "5854": "Drew Lock",
+  "5995": "Justice Hill",
   "6904": "Jalen Hurts",
   "7083": "Tyler Huntley",
   "7527": "Mac Jones",
@@ -1987,8 +2035,8 @@
    "opp_record": "8-2",
    "opp_seed": 2,
    "chance": 0.488,
-   "proj": 136.59,
-   "opp_proj": 127.17
+   "proj": 137.05,
+   "opp_proj": 127.63
   },
   {
    "week": 12,
