@@ -55,8 +55,8 @@
    "best": 27.7,
    "wins": 0,
    "paa": -7.73,
-   "vor": 5.56,
-   "war": 0.07
+   "vor": 1.29,
+   "war": 0.02
   }
  ],
  "totals": {
@@ -68,8 +68,8 @@
   "best": 28.42,
   "wins": 8,
   "paa": 14.95,
-  "vor": 81.44,
-  "war": 0.96
+  "vor": 77.17,
+  "war": 0.91
  },
  "nfl": [
   {
@@ -84,7 +84,7 @@
    "team": "NYG",
    "g": 2,
    "pts": 28.5,
-   "rank": 39
+   "rank": 40
   }
  ],
  "history": [
@@ -414,8 +414,8 @@
    "proj": 18.96,
    "won": false,
    "paa": 9.21,
-   "vor": 16.23,
-   "war": 0.19181885127428192
+   "vor": 14.09,
+   "war": 0.16652665523441973
   },
   {
    "season": "2026",
@@ -433,8 +433,8 @@
    "proj": 18.18,
    "won": false,
    "paa": -16.94,
-   "vor": -10.67,
-   "war": -0.126106416703425
+   "vor": -12.8,
+   "war": -0.15128042491132523
   },
   {
    "season": "2026",
@@ -569,16 +569,16 @@
   {
    "player": "3257",
    "name": "Jacoby Brissett",
-   "score": 849,
+   "score": 848,
    "gs": 15,
    "pts": 251.56,
    "ppg": 16.77,
-   "war": 0.94
+   "war": 0.76
   },
   {
    "player": "8162",
    "name": "Sam Howell",
-   "score": 845,
+   "score": 847,
    "gs": 9,
    "pts": 154.44,
    "ppg": 17.16,
@@ -587,7 +587,7 @@
   {
    "player": "9229",
    "name": "Anthony Richardson Sr.",
-   "score": 792,
+   "score": 794,
    "gs": 14,
    "pts": 221.66,
    "ppg": 15.83,
@@ -596,11 +596,11 @@
   {
    "player": "4943",
    "name": "Sam Darnold",
-   "score": 726,
+   "score": 725,
    "gs": 23,
    "pts": 400.74,
    "ppg": 17.42,
-   "war": 1.51
+   "war": 1.46
   },
   {
    "player": "7591",
@@ -640,18 +640,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.96,
+   "value": 0.91,
    "digits": 2,
-   "rank": 82,
+   "rank": 86,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 81.4,
+   "value": 77.2,
    "digits": 1,
-   "rank": 82,
+   "rank": 86,
    "of": 424
   },
   {
@@ -712,9 +712,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.96,
+   "value": 0.91,
    "digits": 2,
-   "rank": 23,
+   "rank": 22,
    "of": 68
   },
   {
@@ -741,7 +741,7 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.97,
+   "value": 0.92,
    "digits": 2,
    "rank": 7,
    "of": 54,
@@ -819,10 +819,10 @@
   }
  ],
  "hof": {
-  "score": 22.35,
-  "rank": 71,
+  "score": 21.85,
+  "rank": 72,
   "of": 424,
-  "war": 9.6,
+  "war": 9.1,
   "starts": 2.75,
   "black_ink": 0.0,
   "awards": 10.0,
@@ -915,52 +915,52 @@
    [
     "2026",
     1,
-    23.4
+    23.1
    ],
    [
     "2026",
     2,
-    22.35
+    21.85
    ],
    [
     "2026",
     3,
-    22.35
+    21.85
    ],
    [
     "2026",
     4,
-    22.35
+    21.85
    ],
    [
     "2026",
     5,
-    22.35
+    21.85
    ],
    [
     "2026",
     6,
-    22.35
+    21.85
    ],
    [
     "2026",
     7,
-    22.35
+    21.85
    ],
    [
     "2026",
     8,
-    22.35
+    21.85
    ],
    [
     "2026",
     9,
-    22.35
+    21.85
    ],
    [
     "2026",
     10,
-    22.35
+    21.85
    ]
   ],
   "benchmark": 100
@@ -1005,8 +1005,8 @@
    {
     "season": "2026",
     "nfl": "NYG",
-    "missed": 7,
-    "lost": 36.26,
+    "missed": 8,
+    "lost": 21.28,
     "injuries": [
      "Knee",
      "Knee - Meniscus"
@@ -1018,7 +1018,8 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -1073,6 +1074,13 @@
       "injury": "Knee - Meniscus",
       "franchise": 7,
       "team": "the dart side 🛸💍"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee - Meniscus",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1104,7 +1112,7 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 10,
+    "to": 11,
     "weeks": [
      3,
      4,
@@ -1112,9 +1120,10 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 7,
+    "missed": 8,
     "nfl": "NYG",
     "injury": "Knee",
     "kinds": [
@@ -1127,14 +1136,14 @@
      }
     ],
     "rostered": 7,
-    "lost": 36.26
+    "lost": 21.28
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Knee - Meniscus",
    "since": null,
-   "streak": 7
+   "streak": 8
   }
  }
 }

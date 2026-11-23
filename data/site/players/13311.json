@@ -52,9 +52,9 @@
   {
    "season": "2026",
    "team": "MIA",
-   "g": 8,
-   "pts": 30.9,
-   "rank": 104
+   "g": 9,
+   "pts": 34.2,
+   "rank": 105
   }
  ],
  "history": [
@@ -317,6 +317,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Chest",
+   "since": null,
+   "streak": 1
+  }
  }
 }

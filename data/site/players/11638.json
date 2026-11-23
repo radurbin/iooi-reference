@@ -1008,8 +1008,8 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 9,
-    "lost": 0.0,
+    "missed": 10,
+    "lost": 6.0,
     "injuries": [
      "Knee - PCL"
     ],
@@ -1022,7 +1022,8 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -1091,6 +1092,13 @@
       "injury": "Knee - PCL",
       "franchise": 3,
       "team": "Kolkata Kommies"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee - PCL",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1175,7 +1183,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 10,
+    "to": 11,
     "weeks": [
      1,
      2,
@@ -1185,9 +1193,10 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 9,
+    "missed": 10,
     "nfl": "SF",
     "injury": "Knee - PCL",
     "kinds": [
@@ -1204,14 +1213,14 @@
      }
     ],
     "rostered": 8,
-    "lost": 0.0
+    "lost": 6.0
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Knee - PCL",
    "since": null,
-   "streak": 9
+   "streak": 10
   }
  }
 }

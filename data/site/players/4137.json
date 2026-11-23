@@ -1094,20 +1094,20 @@
   {
    "player": "12527",
    "name": "Ashton Jeanty",
-   "score": 951,
+   "score": 940,
    "gs": 22,
    "pts": 341.7,
    "ppg": 15.53,
-   "war": 1.6
+   "war": 1.82
   },
   {
    "player": "8228",
    "name": "Jaylen Warren",
-   "score": 929,
+   "score": 935,
    "gs": 21,
    "pts": 312.1,
    "ppg": 14.86,
-   "war": 1.33
+   "war": 1.55
   },
   {
    "player": "7021",
@@ -1125,12 +1125,12 @@
    "gs": 31,
    "pts": 429.4,
    "ppg": 13.85,
-   "war": 1.48
+   "war": 1.6
   },
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 841,
+   "score": 842,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -1238,7 +1238,7 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 24,
+   "rank": 25,
    "of": 100
   },
   {
@@ -1374,7 +1374,7 @@
  ],
  "hof": {
   "score": 25.5,
-  "rank": 65,
+  "rank": 66,
   "of": 424,
   "war": 15.5,
   "starts": 6.0,
@@ -1866,8 +1866,8 @@
    {
     "season": "2026",
     "nfl": "ARI",
-    "missed": 10,
-    "lost": 0.61,
+    "missed": 11,
+    "lost": 2.63,
     "injuries": [
      "Foot"
     ],
@@ -1881,7 +1881,8 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -1957,6 +1958,13 @@
       "injury": "Foot",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Foot",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2028,7 +2036,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 10,
+    "to": 11,
     "weeks": [
      1,
      2,
@@ -2039,9 +2047,10 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 10,
+    "missed": 11,
     "nfl": "ARI",
     "injury": "Foot",
     "kinds": [
@@ -2054,7 +2063,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.61
+    "lost": 2.63
    }
   ],
   "now": null

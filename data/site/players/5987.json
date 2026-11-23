@@ -733,24 +733,6 @@
    "war": -0.02
   },
   {
-   "player": "7567",
-   "name": "Kenny Gainwell",
-   "score": 954,
-   "gs": 14,
-   "pts": 148.5,
-   "ppg": 10.61,
-   "war": 0.2
-  },
-  {
-   "player": "8132",
-   "name": "Tyler Allgeier",
-   "score": 954,
-   "gs": 12,
-   "pts": 117.65,
-   "ppg": 9.8,
-   "war": 0.02
-  },
-  {
    "player": "6845",
    "name": "Zack Moss",
    "score": 953,
@@ -758,6 +740,24 @@
    "pts": 140.5,
    "ppg": 10.04,
    "war": 0.04
+  },
+  {
+   "player": "8132",
+   "name": "Tyler Allgeier",
+   "score": 952,
+   "gs": 12,
+   "pts": 117.65,
+   "ppg": 9.8,
+   "war": 0.12
+  },
+  {
+   "player": "8408",
+   "name": "Jordan Mason",
+   "score": 947,
+   "gs": 11,
+   "pts": 122.5,
+   "ppg": 11.14,
+   "war": 0.29
   }
  ],
  "status": {
@@ -790,7 +790,7 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 215,
+   "rank": 217,
    "of": 424
   },
   {
@@ -799,7 +799,7 @@
    "stat": "VOR",
    "value": 1.0,
    "digits": 1,
-   "rank": 215,
+   "rank": 218,
    "of": 424
   },
   {
@@ -862,7 +862,7 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 59,
+   "rank": 62,
    "of": 100
   },
   {
@@ -891,7 +891,7 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 27,
+   "rank": 26,
    "of": 54,
    "franchise": 7
   },
@@ -931,7 +931,7 @@
    "stat": "WAR",
    "value": -0.03,
    "digits": 2,
-   "rank": 38,
+   "rank": 39,
    "of": 60,
    "franchise": 5
   },
@@ -1008,7 +1008,7 @@
  ],
  "hof": {
   "score": 3.1,
-  "rank": 229,
+  "rank": 231,
   "of": 424,
   "war": 0.1,
   "starts": 3.0,

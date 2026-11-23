@@ -73,8 +73,8 @@
    "best": 13.9,
    "wins": 0,
    "paa": -2.05,
-   "vor": 2.43,
-   "war": 0.03
+   "vor": 0.29,
+   "war": 0.0
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 16.74,
   "wins": 2,
   "paa": -9.81,
-  "vor": 4.97,
-  "war": 0.06
+  "vor": 2.83,
+  "war": 0.03
  },
  "nfl": [
   {
@@ -116,7 +116,7 @@
    "team": "BAL",
    "g": 5,
    "pts": 56.48,
-   "rank": 33
+   "rank": 35
   }
  ],
  "history": [
@@ -422,8 +422,8 @@
    "proj": 12.83,
    "won": false,
    "paa": -2.05,
-   "vor": 2.43,
-   "war": 0.0287196431667594
+   "vor": 0.29,
+   "war": 0.003427447126897212
   },
   {
    "season": "2026",
@@ -469,18 +469,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.06,
+   "value": 0.03,
    "digits": 2,
-   "rank": 192,
+   "rank": 207,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 5.0,
+   "value": 2.8,
    "digits": 1,
-   "rank": 196,
+   "rank": 207,
    "of": 424
   },
   {
@@ -532,7 +532,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.06,
+   "value": 0.03,
    "digits": 2,
    "rank": 41,
    "of": 68
@@ -603,7 +603,7 @@
    "stat": "WAR",
    "value": -0.03,
    "digits": 2,
-   "rank": 40,
+   "rank": 42,
    "of": 74,
    "franchise": 10
   },
@@ -641,9 +641,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.03,
+   "value": 0.0,
    "digits": 2,
-   "rank": 29,
+   "rank": 33,
    "of": 60,
    "franchise": 5
   },
@@ -750,10 +750,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 1.35,
-  "rank": 292,
+  "score": 1.05,
+  "rank": 304,
   "of": 424,
-  "war": 0.6,
+  "war": 0.3,
   "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -946,27 +946,27 @@
    [
     "2026",
     6,
-    1.35
+    1.05
    ],
    [
     "2026",
     7,
-    1.35
+    1.05
    ],
    [
     "2026",
     8,
-    1.35
+    1.05
    ],
    [
     "2026",
     9,
-    1.35
+    1.05
    ],
    [
     "2026",
     10,
-    1.35
+    1.05
    ]
   ],
   "benchmark": 100
@@ -1035,13 +1035,14 @@
    {
     "season": "2026",
     "nfl": "BAL",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Toe"
     ],
     "weeks": [
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -1050,6 +1051,13 @@
     "games": [
      {
       "week": 10,
+      "kind": "IR",
+      "injury": "Toe",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
       "kind": "IR",
       "injury": "Toe",
       "franchise": null,
@@ -1096,11 +1104,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "BAL",
     "injury": "Toe",
     "kinds": [

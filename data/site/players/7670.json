@@ -134,7 +134,7 @@
    "team": "BUF",
    "g": 6,
    "pts": 29.2,
-   "rank": 108
+   "rank": 111
   }
  ],
  "history": [
@@ -777,15 +777,16 @@
    {
     "season": "2026",
     "nfl": "BUF",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
-     "Shoulder",
-     "Hamstring"
+     "Hamstring",
+     "Shoulder"
     ],
     "weeks": [
      5,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR",
@@ -802,6 +803,13 @@
      },
      {
       "week": 10,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
       "kind": "IR",
       "injury": "Hamstring",
       "franchise": null,
@@ -940,11 +948,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "BUF",
     "injury": "Hamstring",
     "kinds": [

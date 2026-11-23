@@ -41,8 +41,8 @@
    "best": 21.4,
    "wins": 0,
    "paa": 3.66,
-   "vor": 9.93,
-   "war": 0.12
+   "vor": 7.79,
+   "war": 0.09
   },
   {
    "season": "2026",
@@ -57,8 +57,8 @@
    "best": 16.2,
    "wins": 1,
    "paa": -4.74,
-   "vor": 6.36,
-   "war": 0.08
+   "vor": 2.08,
+   "war": 0.02
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 21.4,
   "wins": 1,
   "paa": -1.08,
-  "vor": 16.29,
-  "war": 0.19
+  "vor": 9.87,
+  "war": 0.12
  },
  "nfl": [
   {
@@ -100,7 +100,7 @@
    "team": "SEA",
    "g": 4,
    "pts": 63.68,
-   "rank": 32
+   "rank": 34
   }
  ],
  "history": [
@@ -216,8 +216,8 @@
    "proj": 13.0,
    "won": false,
    "paa": 3.66,
-   "vor": 9.93,
-   "war": 0.11736051713823901
+   "vor": 7.79,
+   "war": 0.09206832109837684
   },
   {
    "season": "2026",
@@ -251,8 +251,8 @@
    "proj": 16.96,
    "won": false,
    "paa": -3.29,
-   "vor": 1.63,
-   "war": 0.019264616609801572
+   "vor": -0.51,
+   "war": -0.006027579430060615
   },
   {
    "season": "2026",
@@ -270,8 +270,8 @@
    "proj": 15.92,
    "won": true,
    "paa": -1.45,
-   "vor": 4.73,
-   "war": 0.05590284451801315
+   "vor": 2.59,
+   "war": 0.030610648478150964
   }
  ],
  "status": {
@@ -301,18 +301,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.12,
    "digits": 2,
-   "rank": 165,
+   "rank": 181,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 16.3,
+   "value": 9.9,
    "digits": 1,
-   "rank": 165,
+   "rank": 183,
    "of": 424
   },
   {
@@ -364,9 +364,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.12,
    "digits": 2,
-   "rank": 36,
+   "rank": 37,
    "of": 68
   },
   {
@@ -393,9 +393,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.12,
+   "value": 0.09,
    "digits": 2,
-   "rank": 15,
+   "rank": 16,
    "of": 49,
    "franchise": 12
   },
@@ -433,9 +433,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.02,
    "digits": 2,
-   "rank": 27,
+   "rank": 29,
    "of": 60,
    "franchise": 5
   },
@@ -482,10 +482,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 2.65,
-  "rank": 243,
+  "score": 1.95,
+  "rank": 274,
   "of": 424,
-  "war": 1.9,
+  "war": 1.2,
   "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -598,47 +598,47 @@
    [
     "2026",
     2,
-    1.45
+    1.15
    ],
    [
     "2026",
     3,
-    1.45
+    1.15
    ],
    [
     "2026",
     4,
-    1.45
+    1.15
    ],
    [
     "2026",
     5,
-    1.45
+    1.15
    ],
    [
     "2026",
     6,
-    1.45
+    1.15
    ],
    [
     "2026",
     7,
-    1.45
+    1.15
    ],
    [
     "2026",
     8,
-    1.45
+    1.15
    ],
    [
     "2026",
     9,
-    1.9
+    1.4
    ],
    [
     "2026",
     10,
-    2.65
+    1.95
    ]
   ],
   "benchmark": 100

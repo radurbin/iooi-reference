@@ -98,8 +98,8 @@
    "best": 26.9,
    "wins": 4,
    "paa": -11.51,
-   "vor": 13.74,
-   "war": 0.16
+   "vor": 21.16,
+   "war": 0.25
   }
  ],
  "totals": {
@@ -111,8 +111,8 @@
   "best": 33.5,
   "wins": 9,
   "paa": 15.32,
-  "vor": 48.49,
-  "war": 0.57
+  "vor": 55.91,
+  "war": 0.66
  },
  "nfl": [
   {
@@ -141,7 +141,7 @@
    "team": "ARI",
    "g": 9,
    "pts": 122.48,
-   "rank": 19
+   "rank": 21
   }
  ],
  "history": [
@@ -931,8 +931,8 @@
    "proj": 9.94,
    "won": false,
    "paa": -11.48,
-   "vor": -6.52,
-   "war": -0.07705846643920629
+   "vor": -5.46,
+   "war": -0.06453055625123717
   },
   {
    "season": "2026",
@@ -966,8 +966,8 @@
    "proj": 14.53,
    "won": true,
    "paa": 1.85,
-   "vor": 6.18,
-   "war": 0.07304008015249921
+   "vor": 7.24,
+   "war": 0.08556799034046833
   },
   {
    "season": "2026",
@@ -985,8 +985,8 @@
    "proj": 16.23,
    "won": true,
    "paa": -6.01,
-   "vor": -1.54,
-   "war": -0.01820092612214382
+   "vor": -0.48,
+   "war": -0.005673015934174696
   },
   {
    "season": "2026",
@@ -1004,8 +1004,8 @@
    "proj": 13.6,
    "won": false,
    "paa": -5.2,
-   "vor": -3.12,
-   "war": -0.036874603572135525
+   "vor": -2.06,
+   "war": -0.024346693384166406
   },
   {
    "season": "2026",
@@ -1023,8 +1023,8 @@
    "proj": 12.59,
    "won": false,
    "paa": -2.79,
-   "vor": 0.48,
-   "war": 0.005673015934174696
+   "vor": 1.54,
+   "war": 0.01820092612214382
   },
   {
    "season": "2026",
@@ -1042,8 +1042,8 @@
    "proj": 15.41,
    "won": true,
    "paa": 13.76,
-   "vor": 16.58,
-   "war": 0.19595542539295094
+   "vor": 17.64,
+   "war": 0.20848333558092008
   },
   {
    "season": "2026",
@@ -1061,8 +1061,8 @@
    "proj": null,
    "won": true,
    "paa": -1.64,
-   "vor": 1.68,
-   "war": 0.019855555769611434
+   "vor": 2.74,
+   "war": 0.03238346595758056
   },
   {
    "season": "2026",
@@ -1085,7 +1085,7 @@
   {
    "player": "7049",
    "name": "Jauan Jennings",
-   "score": 944,
+   "score": 934,
    "gs": 12,
    "pts": 167.3,
    "ppg": 13.94,
@@ -1094,28 +1094,28 @@
   {
    "player": "1689",
    "name": "Adam Thielen",
-   "score": 927,
+   "score": 922,
    "gs": 13,
    "pts": 200.0,
    "ppg": 15.38,
    "war": 0.48
   },
   {
-   "player": "8126",
-   "name": "Wan'Dale Robinson",
-   "score": 903,
-   "gs": 12,
-   "pts": 158.8,
-   "ppg": 13.23,
-   "war": 0.37
-  },
-  {
    "player": "9487",
    "name": "Parker Washington",
-   "score": 902,
+   "score": 904,
    "gs": 11,
    "pts": 147.1,
    "ppg": 13.37,
+   "war": 0.5
+  },
+  {
+   "player": "8126",
+   "name": "Wan'Dale Robinson",
+   "score": 898,
+   "gs": 12,
+   "pts": 158.8,
+   "ppg": 13.23,
    "war": 0.39
   },
   {
@@ -1125,7 +1125,7 @@
    "gs": 8,
    "pts": 120.2,
    "ppg": 15.03,
-   "war": 0.44
+   "war": 0.55
   }
  ],
  "status": {
@@ -1156,18 +1156,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.57,
+   "value": 0.66,
    "digits": 2,
-   "rank": 105,
+   "rank": 103,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 48.5,
+   "value": 55.9,
    "digits": 1,
-   "rank": 105,
+   "rank": 103,
    "of": 424
   },
   {
@@ -1228,7 +1228,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.57,
+   "value": 0.66,
    "digits": 2,
    "rank": 29,
    "of": 127
@@ -1297,9 +1297,9 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.7,
+   "value": 0.79,
    "digits": 2,
-   "rank": 10,
+   "rank": 9,
    "of": 54,
    "franchise": 7
   },
@@ -1435,10 +1435,10 @@
   }
  ],
  "hof": {
-  "score": 12.95,
-  "rank": 110,
+  "score": 13.85,
+  "rank": 105,
   "of": 424,
-  "war": 5.7,
+  "war": 6.6,
   "starts": 3.25,
   "black_ink": 0.0,
   "awards": 4.0,
@@ -1706,47 +1706,47 @@
    [
     "2026",
     2,
-    9.05
+    9.25
    ],
    [
     "2026",
     3,
-    9.05
+    9.25
    ],
    [
     "2026",
     4,
-    10.1
+    10.3
    ],
    [
     "2026",
     5,
-    10.15
+    10.55
    ],
    [
     "2026",
     6,
-    10.0
+    10.5
    ],
    [
     "2026",
     7,
-    10.35
+    10.95
    ],
    [
     "2026",
     8,
-    12.5
+    13.3
    ],
    [
     "2026",
     9,
-    12.95
+    13.85
    ],
    [
     "2026",
     10,
-    12.95
+    13.85
    ]
   ],
   "benchmark": 100
@@ -1808,13 +1808,14 @@
    {
     "season": "2026",
     "nfl": "ARI",
-    "missed": 1,
-    "lost": 3.29,
+    "missed": 2,
+    "lost": 4.35,
     "injuries": [
      "Neck"
     ],
     "weeks": [
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -1827,6 +1828,13 @@
       "injury": "Neck",
       "franchise": 7,
       "team": "the dart side 🛸💍"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Neck",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1882,11 +1890,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "ARI",
     "injury": "Neck",
     "kinds": [
@@ -1899,14 +1908,14 @@
      }
     ],
     "rostered": 1,
-    "lost": 3.29
+    "lost": 4.35
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Neck",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

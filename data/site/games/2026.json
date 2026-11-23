@@ -159,18 +159,18 @@
     ],
     "injured": [
      {
-      "player": "11618",
-      "name": "Jalen McMillan",
-      "pos": "WR",
-      "kind": "Doubtful",
-      "injury": "Knee"
-     },
-     {
       "player": "11638",
       "name": "Ricky Pearsall",
       "pos": "WR",
       "kind": "IR",
       "injury": "Knee - PCL"
+     },
+     {
+      "player": "11618",
+      "name": "Jalen McMillan",
+      "pos": "WR",
+      "kind": "Doubtful",
+      "injury": "Knee"
      }
     ]
    },
@@ -496,17 +496,17 @@
     ],
     "injured": [
      {
-      "player": "13281",
-      "name": "Jordyn Tyson",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Hamstring"
-     },
-     {
       "player": "12497",
       "name": "Tory Horton",
       "pos": "WR",
       "kind": "Questionable",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "13281",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "kind": "IR",
       "injury": "Hamstring"
      }
     ]
@@ -818,13 +818,6 @@
     ],
     "injured": [
      {
-      "player": "11559",
-      "name": "Michael Penix Jr.",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Knee"
-     },
-     {
       "player": "4035",
       "name": "Alvin Kamara",
       "pos": "RB",
@@ -836,6 +829,13 @@
       "name": "Trey Benson",
       "pos": "RB",
       "kind": "IR",
+      "injury": "Knee"
+     },
+     {
+      "player": "11559",
+      "name": "Michael Penix Jr.",
+      "pos": "QB",
+      "kind": "Out",
       "injury": "Knee"
      }
     ]
@@ -1625,18 +1625,18 @@
     ],
     "injured": [
      {
-      "player": "8205",
-      "name": "Isiah Pacheco",
-      "pos": "RB",
-      "kind": "IR",
-      "injury": "Back"
-     },
-     {
       "player": "9502",
       "name": "Tank Dell",
       "pos": "WR",
       "kind": "IR",
       "injury": "Knee"
+     },
+     {
+      "player": "8205",
+      "name": "Isiah Pacheco",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Back"
      }
     ]
    }
@@ -2454,18 +2454,18 @@
     ],
     "injured": [
      {
-      "player": "13281",
-      "name": "Jordyn Tyson",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Hamstring"
-     },
-     {
       "player": "13276",
       "name": "Omar Cooper Jr.",
       "pos": "WR",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "13281",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Hamstring"
      }
     ]
    },
@@ -2619,17 +2619,17 @@
     ],
     "injured": [
      {
-      "player": "11559",
-      "name": "Michael Penix Jr.",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Knee"
-     },
-     {
       "player": "11589",
       "name": "Trey Benson",
       "pos": "RB",
       "kind": "IR",
+      "injury": "Knee"
+     },
+     {
+      "player": "11559",
+      "name": "Michael Penix Jr.",
+      "pos": "QB",
+      "kind": "Out",
       "injury": "Knee"
      },
      {
@@ -3449,6 +3449,13 @@
       "injury": "Hamstring"
      },
      {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
+     },
+     {
       "player": "4943",
       "name": "Sam Darnold",
       "pos": "QB",
@@ -3468,13 +3475,6 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
      }
     ]
    },
@@ -4446,13 +4446,6 @@
       "injury": "Elbow"
      },
      {
-      "player": "13281",
-      "name": "Jordyn Tyson",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Hamstring"
-     },
-     {
       "player": "13276",
       "name": "Omar Cooper Jr.",
       "pos": "WR",
@@ -4472,6 +4465,13 @@
       "pos": "RB",
       "kind": "Doubtful",
       "injury": "Stinger"
+     },
+     {
+      "player": "13281",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Hamstring"
      }
     ]
    },
@@ -4625,6 +4625,20 @@
     ],
     "injured": [
      {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
+     },
+     {
+      "player": "5022",
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "kind": "Out",
+      "injury": "Knee"
+     },
+     {
       "player": "11626",
       "name": "Xavier Legette",
       "pos": "WR",
@@ -4639,13 +4653,6 @@
       "injury": "Thumb"
      },
      {
-      "player": "5022",
-      "name": "Dallas Goedert",
-      "pos": "TE",
-      "kind": "Out",
-      "injury": "Knee"
-     },
-     {
       "player": "5859",
       "name": "A.J. Brown",
       "pos": "WR",
@@ -4658,13 +4665,6 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
      }
     ]
    }
@@ -5008,18 +5008,18 @@
       "injury": "Hip"
      },
      {
-      "player": "12508",
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "13345",
       "name": "Jonah Coleman",
       "pos": "RB",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "12508",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    }
@@ -5701,6 +5701,13 @@
       "injury": "Hamstring"
      },
      {
+      "player": "7021",
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Toe"
+     },
+     {
       "player": "11583",
       "name": "Jonathon Brooks",
       "pos": "RB",
@@ -5727,13 +5734,6 @@
       "pos": "WR",
       "kind": "Out",
       "injury": "Hamstring"
-     },
-     {
-      "player": "7021",
-      "name": "Rico Dowdle",
-      "pos": "RB",
-      "kind": "Out",
-      "injury": "Toe"
      }
     ]
    }
@@ -6365,6 +6365,13 @@
       "injury": "Hamstring"
      },
      {
+      "player": "7021",
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Toe"
+     },
+     {
       "player": "11583",
       "name": "Jonathon Brooks",
       "pos": "RB",
@@ -6384,13 +6391,6 @@
       "pos": "WR",
       "kind": "Out",
       "injury": "Quadricep"
-     },
-     {
-      "player": "7021",
-      "name": "Rico Dowdle",
-      "pos": "RB",
-      "kind": "Out",
-      "injury": "Toe"
      }
     ]
    }
@@ -6555,13 +6555,6 @@
     ],
     "injured": [
      {
-      "player": "11566",
-      "name": "Jayden Daniels",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Elbow"
-     },
-     {
       "player": "7525",
       "name": "DeVonta Smith",
       "pos": "WR",
@@ -6569,11 +6562,11 @@
       "injury": "Hamstring"
      },
      {
-      "player": "13281",
-      "name": "Jordyn Tyson",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Hamstring"
+      "player": "11566",
+      "name": "Jayden Daniels",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Elbow"
      },
      {
       "player": "13276",
@@ -6595,6 +6588,13 @@
       "pos": "TE",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "13281",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Hamstring"
      }
     ]
    },
@@ -6740,6 +6740,13 @@
       "injury": "Quadricep"
      },
      {
+      "player": "8136",
+      "name": "Rachaad White",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Shoulder"
+     },
+     {
       "player": "10222",
       "name": "Jayden Reed",
       "pos": "WR",
@@ -6759,13 +6766,6 @@
       "pos": "QB",
       "kind": "Out",
       "injury": "Thumb"
-     },
-     {
-      "player": "8136",
-      "name": "Rachaad White",
-      "pos": "RB",
-      "kind": "Out",
-      "injury": "Shoulder"
      }
     ]
    }
@@ -7428,18 +7428,18 @@
       "injury": "Ankle"
      },
      {
-      "player": "12483",
-      "name": "Jack Bech",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Forearm"
-     },
-     {
       "player": "7543",
       "name": "Travis Etienne Jr.",
       "pos": "RB",
       "kind": "IR",
       "injury": "Hamstring"
+     },
+     {
+      "player": "12483",
+      "name": "Jack Bech",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Forearm"
      }
     ]
    }
@@ -7952,6 +7952,20 @@
     ],
     "injured": [
      {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
+     },
+     {
+      "player": "5022",
+      "name": "Dallas Goedert",
+      "pos": "TE",
+      "kind": "Out",
+      "injury": "Knee"
+     },
+     {
       "player": "11626",
       "name": "Xavier Legette",
       "pos": "WR",
@@ -7966,13 +7980,6 @@
       "injury": "Thumb"
      },
      {
-      "player": "5022",
-      "name": "Dallas Goedert",
-      "pos": "TE",
-      "kind": "Out",
-      "injury": "Knee"
-     },
-     {
       "player": "5859",
       "name": "A.J. Brown",
       "pos": "WR",
@@ -7985,13 +7992,6 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
      }
     ]
    },
@@ -8145,18 +8145,18 @@
     ],
     "injured": [
      {
-      "player": "12508",
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "13345",
       "name": "Jonah Coleman",
       "pos": "RB",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "12508",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Knee"
      }
     ]
    }
@@ -8329,18 +8329,18 @@
       "injury": "Ankle"
      },
      {
-      "player": "11638",
-      "name": "Ricky Pearsall",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee - PCL"
-     },
-     {
       "player": "4866",
       "name": "Saquon Barkley",
       "pos": "RB",
       "kind": "Out",
       "injury": "Hamstring"
+     },
+     {
+      "player": "11638",
+      "name": "Ricky Pearsall",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee - PCL"
      },
      {
       "player": "9225",
@@ -8686,13 +8686,6 @@
       "injury": "Hamstring"
      },
      {
-      "player": "13281",
-      "name": "Jordyn Tyson",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Hamstring"
-     },
-     {
       "player": "4983",
       "name": "DJ Moore",
       "pos": "WR",
@@ -8705,13 +8698,6 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Ankle"
-     },
-     {
-      "player": "2307",
-      "name": "Marcus Mariota",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Knee"
      },
      {
       "player": "11625",
@@ -8733,6 +8719,20 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "13281",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "2307",
+      "name": "Marcus Mariota",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Knee"
      }
     ]
    },
@@ -8890,18 +8890,18 @@
       "injury": "Heel"
      },
      {
-      "player": "13302",
-      "name": "Adam Randall",
-      "pos": "RB",
-      "kind": "IR",
-      "injury": "Neck"
-     },
-     {
       "player": "4177",
       "name": "Mack Hollins",
       "pos": "WR",
       "kind": "IR",
       "injury": "Calf"
+     },
+     {
+      "player": "13302",
+      "name": "Adam Randall",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Neck"
      },
      {
       "player": "8408",
@@ -9254,6 +9254,13 @@
       "injury": "Hamstring"
      },
      {
+      "player": "7021",
+      "name": "Rico Dowdle",
+      "pos": "RB",
+      "kind": "Questionable",
+      "injury": "Toe"
+     },
+     {
       "player": "13293",
       "name": "Ja'Kobi Lane",
       "pos": "WR",
@@ -9266,13 +9273,6 @@
       "pos": "WR",
       "kind": "Out",
       "injury": "Quadricep"
-     },
-     {
-      "player": "7021",
-      "name": "Rico Dowdle",
-      "pos": "RB",
-      "kind": "Questionable",
-      "injury": "Toe"
      },
      {
       "player": "9754",
@@ -9444,6 +9444,13 @@
     ],
     "injured": [
      {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee"
+     },
+     {
       "player": "5859",
       "name": "A.J. Brown",
       "pos": "WR",
@@ -9456,13 +9463,6 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Back"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
      }
     ]
    },
@@ -9776,18 +9776,18 @@
     ],
     "injured": [
      {
-      "player": "12508",
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "13345",
       "name": "Jonah Coleman",
       "pos": "RB",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "12508",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Knee"
      },
      {
       "player": "6819",
@@ -10304,18 +10304,18 @@
     ],
     "injured": [
      {
-      "player": "12483",
-      "name": "Jack Bech",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Forearm"
-     },
-     {
       "player": "7543",
       "name": "Travis Etienne Jr.",
       "pos": "RB",
       "kind": "IR",
       "injury": "Hamstring"
+     },
+     {
+      "player": "12483",
+      "name": "Jack Bech",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Forearm"
      }
     ]
    }
@@ -10481,18 +10481,18 @@
     ],
     "injured": [
      {
-      "player": "11638",
-      "name": "Ricky Pearsall",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee - PCL"
-     },
-     {
       "player": "4866",
       "name": "Saquon Barkley",
       "pos": "RB",
       "kind": "Out",
       "injury": "Hamstring"
+     },
+     {
+      "player": "11638",
+      "name": "Ricky Pearsall",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Knee - PCL"
      }
     ]
    },
@@ -10830,25 +10830,11 @@
     ],
     "injured": [
      {
-      "player": "13281",
-      "name": "Jordyn Tyson",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Hamstring"
-     },
-     {
       "player": "4983",
       "name": "DJ Moore",
       "pos": "WR",
       "kind": "Questionable",
       "injury": "Shoulder"
-     },
-     {
-      "player": "2307",
-      "name": "Marcus Mariota",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Knee"
      },
      {
       "player": "11625",
@@ -10870,6 +10856,20 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "13281",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "2307",
+      "name": "Marcus Mariota",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Knee"
      }
     ]
    },
@@ -11030,13 +11030,6 @@
       "injury": "Quadricep"
      },
      {
-      "player": "10229",
-      "name": "Rashee Rice",
-      "pos": "WR",
-      "kind": "Out",
-      "injury": "Hamstring"
-     },
-     {
       "player": "5892",
       "name": "David Montgomery",
       "pos": "RB",
@@ -11048,6 +11041,20 @@
       "name": "Zach Charbonnet",
       "pos": "RB",
       "kind": "PUP",
+      "injury": "Knee"
+     },
+     {
+      "player": "10229",
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Hamstring"
+     },
+     {
+      "player": "9502",
+      "name": "Tank Dell",
+      "pos": "WR",
+      "kind": "IR",
       "injury": "Knee"
      },
      {
@@ -11063,13 +11070,6 @@
       "pos": "TE",
       "kind": "Questionable",
       "injury": "Groin"
-     },
-     {
-      "player": "9502",
-      "name": "Tank Dell",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Knee"
      }
     ]
    }
@@ -11739,13 +11739,6 @@
     ],
     "injured": [
      {
-      "player": "12508",
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "kind": "IR",
-      "injury": "Knee"
-     },
-     {
       "player": "13345",
       "name": "Jonah Coleman",
       "pos": "RB",
@@ -11758,6 +11751,13 @@
       "pos": "RB",
       "kind": "Questionable",
       "injury": "Ankle"
+     },
+     {
+      "player": "12508",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Knee"
      },
      {
       "player": "6819",
@@ -11932,18 +11932,18 @@
     ],
     "injured": [
      {
-      "player": "13286",
-      "name": "Jadarian Price",
-      "pos": "RB",
-      "kind": "IR",
-      "injury": "Chest"
-     },
-     {
       "player": "13287",
       "name": "Jeremiyah Love",
       "pos": "RB",
       "kind": "Out",
       "injury": "Ankle"
+     },
+     {
+      "player": "13286",
+      "name": "Jadarian Price",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Chest"
      }
     ]
    },
@@ -12430,18 +12430,18 @@
     ],
     "injured": [
      {
-      "player": "12483",
-      "name": "Jack Bech",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Forearm"
-     },
-     {
       "player": "7543",
       "name": "Travis Etienne Jr.",
       "pos": "RB",
       "kind": "IR",
       "injury": "Hamstring"
+     },
+     {
+      "player": "12483",
+      "name": "Jack Bech",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Forearm"
      }
     ]
    }
@@ -12614,18 +12614,18 @@
       "injury": "Hamstring"
      },
      {
-      "player": "12514",
-      "name": "Emeka Egbuka",
-      "pos": "WR",
-      "kind": "Out",
-      "injury": "Concussion"
-     },
-     {
       "player": "4137",
       "name": "James Conner",
       "pos": "RB",
       "kind": "IR",
       "injury": "Foot"
+     },
+     {
+      "player": "12514",
+      "name": "Emeka Egbuka",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Concussion"
      },
      {
       "player": "11638",
@@ -12969,13 +12969,6 @@
       "injury": "Hamstring"
      },
      {
-      "player": "13281",
-      "name": "Jordyn Tyson",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Hamstring"
-     },
-     {
       "player": "12487",
       "name": "Terrance Ferguson",
       "pos": "TE",
@@ -12988,6 +12981,13 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Ankle"
+     },
+     {
+      "player": "13281",
+      "name": "Jordyn Tyson",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Hamstring"
      }
     ]
    },
@@ -13795,13 +13795,6 @@
     ],
     "injured": [
      {
-      "player": "13286",
-      "name": "Jadarian Price",
-      "pos": "RB",
-      "kind": "IR",
-      "injury": "Chest"
-     },
-     {
       "player": "13287",
       "name": "Jeremiyah Love",
       "pos": "RB",
@@ -13814,6 +13807,13 @@
       "pos": "RB",
       "kind": "Out",
       "injury": "Hamstring"
+     },
+     {
+      "player": "13286",
+      "name": "Jadarian Price",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Chest"
      }
     ]
    }
@@ -14138,18 +14138,18 @@
     ],
     "injured": [
      {
-      "player": "12483",
-      "name": "Jack Bech",
-      "pos": "WR",
-      "kind": "IR",
-      "injury": "Forearm"
-     },
-     {
       "player": "7543",
       "name": "Travis Etienne Jr.",
       "pos": "RB",
       "kind": "IR",
       "injury": "Hamstring"
+     },
+     {
+      "player": "12483",
+      "name": "Jack Bech",
+      "pos": "WR",
+      "kind": "IR",
+      "injury": "Forearm"
      }
     ]
    }
@@ -14498,13 +14498,6 @@
       "injury": "Quadricep"
      },
      {
-      "player": "10229",
-      "name": "Rashee Rice",
-      "pos": "WR",
-      "kind": "Out",
-      "injury": "Hamstring"
-     },
-     {
       "player": "5892",
       "name": "David Montgomery",
       "pos": "RB",
@@ -14517,6 +14510,13 @@
       "pos": "RB",
       "kind": "Out",
       "injury": "Knee"
+     },
+     {
+      "player": "10229",
+      "name": "Rashee Rice",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Hamstring"
      },
      {
       "player": "12484",
@@ -15232,18 +15232,18 @@
       "injury": "Calf"
      },
      {
-      "player": "12529",
-      "name": "TreVeyon Henderson",
-      "pos": "RB",
-      "kind": "Questionable",
-      "injury": "Illness"
-     },
-     {
       "player": "12533",
       "name": "Jacory Croskey-Merritt",
       "pos": "RB",
       "kind": "IR",
       "injury": "Groin"
+     },
+     {
+      "player": "12529",
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "kind": "Questionable",
+      "injury": "Illness"
      }
     ]
    }
@@ -16707,18 +16707,18 @@
       "injury": "Knee"
      },
      {
-      "player": "11583",
-      "name": "Jonathon Brooks",
-      "pos": "RB",
-      "kind": "IR",
-      "injury": "Abdomen"
-     },
-     {
       "player": "12536",
       "name": "Jaylin Noel",
       "pos": "WR",
       "kind": "IR",
       "injury": "Toe"
+     },
+     {
+      "player": "11583",
+      "name": "Jonathon Brooks",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Abdomen"
      }
     ]
    },
@@ -16862,13 +16862,6 @@
     ],
     "injured": [
      {
-      "player": "4017",
-      "name": "Deshaun Watson",
-      "pos": "QB",
-      "kind": "Questionable",
-      "injury": "Concussion"
-     },
-     {
       "player": "12481",
       "name": "Cam Skattebo",
       "pos": "RB",
@@ -16876,11 +16869,11 @@
       "injury": "Hamstring"
      },
      {
-      "player": "5849",
-      "name": "Kyler Murray",
+      "player": "4017",
+      "name": "Deshaun Watson",
       "pos": "QB",
-      "kind": "Out",
-      "injury": "Hamstring"
+      "kind": "Questionable",
+      "injury": "Concussion"
      },
      {
       "player": "10222",
@@ -16888,6 +16881,13 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Neck"
+     },
+     {
+      "player": "5849",
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Hamstring"
      },
      {
       "player": "8122",
@@ -17904,18 +17904,18 @@
       "injury": "Ribs"
      },
      {
-      "player": "4943",
-      "name": "Sam Darnold",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Quadricep"
-     },
-     {
       "player": "13320",
       "name": "Zachariah Branch",
       "pos": "WR",
       "kind": "Out",
       "injury": "Hamstring"
+     },
+     {
+      "player": "4943",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Quadricep"
      },
      {
       "player": "5859",
@@ -18108,18 +18108,18 @@
       "injury": "Calf"
      },
      {
-      "player": "12529",
-      "name": "TreVeyon Henderson",
-      "pos": "RB",
-      "kind": "Out",
-      "injury": "Illness"
-     },
-     {
       "player": "12533",
       "name": "Jacory Croskey-Merritt",
       "pos": "RB",
       "kind": "IR",
       "injury": "Groin"
+     },
+     {
+      "player": "12529",
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "kind": "Out",
+      "injury": "Illness"
      }
     ]
    },
@@ -18440,18 +18440,18 @@
       "injury": "Ankle"
      },
      {
-      "player": "8135",
-      "name": "Treylon Burks",
-      "pos": "WR",
-      "kind": "Out",
-      "injury": "Foot"
-     },
-     {
       "player": "8154",
       "name": "Brian Robinson Jr.",
       "pos": "RB",
       "kind": "IR",
       "injury": "Hamstring"
+     },
+     {
+      "player": "8135",
+      "name": "Treylon Burks",
+      "pos": "WR",
+      "kind": "Out",
+      "injury": "Foot"
      }
     ]
    },
@@ -18765,11 +18765,11 @@
       "injury": "Hamstring"
      },
      {
-      "player": "11583",
-      "name": "Jonathon Brooks",
-      "pos": "RB",
-      "kind": "IR",
-      "injury": "Groin"
+      "player": "5844",
+      "name": "T.J. Hockenson",
+      "pos": "TE",
+      "kind": "Out",
+      "injury": "Wrist"
      },
      {
       "player": "12536",
@@ -18779,11 +18779,11 @@
       "injury": "Toe"
      },
      {
-      "player": "5844",
-      "name": "T.J. Hockenson",
-      "pos": "TE",
-      "kind": "Out",
-      "injury": "Wrist"
+      "player": "11583",
+      "name": "Jonathon Brooks",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Groin"
      }
     ]
    },
@@ -19580,13 +19580,6 @@
     ],
     "injured": [
      {
-      "player": "5849",
-      "name": "Kyler Murray",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Hamstring"
-     },
-     {
       "player": "13279",
       "name": "Carnell Tate",
       "pos": "WR",
@@ -19606,6 +19599,13 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Finger"
+     },
+     {
+      "player": "5849",
+      "name": "Kyler Murray",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Hamstring"
      },
      {
       "player": "6011",
@@ -19784,6 +19784,13 @@
       "injury": "Knee - ACL"
      },
      {
+      "player": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "kind": "IR",
+      "injury": "Groin"
+     },
+     {
       "player": "11628",
       "name": "Marvin Harrison Jr.",
       "pos": "WR",
@@ -19796,13 +19803,6 @@
       "pos": "RB",
       "kind": "IR",
       "injury": "Illness"
-     },
-     {
-      "player": "12533",
-      "name": "Jacory Croskey-Merritt",
-      "pos": "RB",
-      "kind": "IR",
-      "injury": "Groin"
      }
     ]
    },
@@ -19959,18 +19959,18 @@
       "injury": "Ankle"
      },
      {
-      "player": "13311",
-      "name": "Chris Bell",
-      "pos": "WR",
-      "kind": "Doubtful",
-      "injury": "Knee"
-     },
-     {
       "player": "8154",
       "name": "Brian Robinson Jr.",
       "pos": "RB",
       "kind": "IR",
       "injury": "Hamstring"
+     },
+     {
+      "player": "13311",
+      "name": "Chris Bell",
+      "pos": "WR",
+      "kind": "Doubtful",
+      "injury": "Knee"
      }
     ]
    }
@@ -20142,18 +20142,18 @@
       "injury": "Achilles"
      },
      {
-      "player": "4943",
-      "name": "Sam Darnold",
-      "pos": "QB",
-      "kind": "Out",
-      "injury": "Ribs"
-     },
-     {
       "player": "13320",
       "name": "Zachariah Branch",
       "pos": "WR",
       "kind": "Out",
       "injury": "Hamstring"
+     },
+     {
+      "player": "4943",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "kind": "Out",
+      "injury": "Ribs"
      },
      {
       "player": "8205",
@@ -20321,13 +20321,6 @@
       "injury": "Finger"
      },
      {
-      "player": "8161",
-      "name": "Malik Willis",
-      "pos": "QB",
-      "kind": "IR",
-      "injury": "Groin"
-     },
-     {
       "player": "5892",
       "name": "David Montgomery",
       "pos": "RB",
@@ -20340,6 +20333,13 @@
       "pos": "WR",
       "kind": "IR",
       "injury": "Knee - ACL"
+     },
+     {
+      "player": "8161",
+      "name": "Malik Willis",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Groin"
      }
     ]
    }
@@ -20506,18 +20506,18 @@
       "injury": "Knee"
      },
      {
-      "player": "12508",
-      "name": "Jaxson Dart",
-      "pos": "QB",
-      "kind": "IR",
-      "injury": "Knee - Meniscus"
-     },
-     {
       "player": "10232",
       "name": "Michael Wilson",
       "pos": "WR",
       "kind": "IR",
       "injury": "Neck"
+     },
+     {
+      "player": "12508",
+      "name": "Jaxson Dart",
+      "pos": "QB",
+      "kind": "IR",
+      "injury": "Knee - Meniscus"
      },
      {
       "player": "6819",

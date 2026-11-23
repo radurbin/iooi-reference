@@ -48,8 +48,8 @@
    "best": 10.4,
    "wins": 2,
    "paa": -11.52,
-   "vor": -3.24,
-   "war": -0.04
+   "vor": -1.12,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -61,8 +61,8 @@
   "best": 23.5,
   "wins": 7,
   "paa": -25.29,
-  "vor": -9.94,
-  "war": -0.12
+  "vor": -7.82,
+  "war": -0.09
  },
  "nfl": [
   {
@@ -75,9 +75,9 @@
   {
    "season": "2026",
    "team": "TB",
-   "g": 7,
-   "pts": 78.3,
-   "rank": 47
+   "g": 8,
+   "pts": 82.1,
+   "rank": 46
   }
  ],
  "history": [
@@ -429,8 +429,8 @@
    "proj": 10.81,
    "won": true,
    "paa": -4.88,
-   "vor": 0.08,
-   "war": 0.0009455026556957827
+   "vor": 1.14,
+   "war": 0.013473412843664902
   },
   {
    "season": "2026",
@@ -544,8 +544,8 @@
    "proj": 10.46,
    "won": true,
    "paa": -6.64,
-   "vor": -3.32,
-   "war": -0.03923836021137498
+   "vor": -2.26,
+   "war": -0.026710450023405857
   },
   {
    "season": "2026",
@@ -568,25 +568,25 @@
   {
    "player": "11637",
    "name": "Keon Coleman",
-   "score": 915,
+   "score": 914,
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.28
+   "war": -0.27
   },
   {
    "player": "11646",
    "name": "Jalen Coker",
-   "score": 862,
+   "score": 864,
    "gs": 10,
    "pts": 75.2,
    "ppg": 7.52,
-   "war": -0.35
+   "war": -0.27
   },
   {
    "player": "6943",
    "name": "Gabe Davis",
-   "score": 857,
+   "score": 856,
    "gs": 12,
    "pts": 129.1,
    "ppg": 10.76,
@@ -595,16 +595,16 @@
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 847,
+   "score": 848,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.43
+   "war": -0.39
   },
   {
    "player": "8676",
    "name": "Rashid Shaheed",
-   "score": 839,
+   "score": 838,
    "gs": 14,
    "pts": 146.6,
    "ppg": 10.47,
@@ -639,18 +639,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.09,
    "digits": 2,
-   "rank": 301,
+   "rank": 276,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -9.9,
+   "value": -7.8,
    "digits": 1,
-   "rank": 304,
+   "rank": 283,
    "of": 424
   },
   {
@@ -711,9 +711,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.09,
    "digits": 2,
-   "rank": 81,
+   "rank": 70,
    "of": 127
   },
   {
@@ -740,9 +740,9 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.09,
    "digits": 2,
-   "rank": 71,
+   "rank": 67,
    "of": 77,
    "franchise": 1
   },
@@ -819,7 +819,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 261,
+  "rank": 260,
   "of": 424,
   "war": 0.0,
   "starts": 2.0,
@@ -972,7 +972,7 @@
     "season": "2026",
     "nfl": "TB",
     "missed": 2,
-    "lost": 1.74,
+    "lost": 2.0,
     "injuries": [
      "Concussion",
      "Foot"
@@ -1025,7 +1025,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 1.74
+    "lost": 2.0
    }
   ],
   "now": null

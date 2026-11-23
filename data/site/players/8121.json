@@ -80,8 +80,8 @@
    "best": 23.8,
    "wins": 1,
    "paa": -12.64,
-   "vor": 6.5,
-   "war": 0.08
+   "vor": 11.8,
+   "war": 0.14
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 29.8,
   "wins": 10,
   "paa": -60.63,
-  "vor": -4.15,
-  "war": -0.05
+  "vor": 1.15,
+  "war": 0.01
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "NE",
    "g": 6,
    "pts": 58.1,
-   "rank": 67
+   "rank": 72
   }
  ],
  "history": [
@@ -1055,8 +1055,8 @@
    "proj": 9.04,
    "won": true,
    "paa": -2.68,
-   "vor": 2.28,
-   "war": 0.026946825687329805
+   "vor": 3.34,
+   "war": 0.03947473587529893
   },
   {
    "season": "2026",
@@ -1074,8 +1074,8 @@
    "proj": 9.38,
    "won": false,
    "paa": -5.72,
-   "vor": -2.42,
-   "war": -0.028601455334797424
+   "vor": -1.36,
+   "war": -0.016073545146828308
   },
   {
    "season": "2026",
@@ -1093,8 +1093,8 @@
    "proj": 9.0,
    "won": false,
    "paa": 9.15,
-   "vor": 13.48,
-   "war": 0.15931719748473938
+   "vor": 14.54,
+   "war": 0.1718451076727085
   },
   {
    "season": "2026",
@@ -1112,8 +1112,8 @@
    "proj": 12.91,
    "won": false,
    "paa": -12.19,
-   "vor": -7.72,
-   "war": -0.09124100627464303
+   "vor": -6.66,
+   "war": -0.07871309608667391
   },
   {
    "season": "2026",
@@ -1131,8 +1131,8 @@
    "proj": 9.41,
    "won": false,
    "paa": -1.2,
-   "vor": 0.88,
-   "war": 0.01040052921265361
+   "vor": 1.94,
+   "war": 0.022928439400622728
   },
   {
    "season": "2026",
@@ -1203,43 +1203,43 @@
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 945,
+   "score": 944,
    "gs": 27,
    "pts": 284.5,
    "ppg": 10.54,
-   "war": -0.15
+   "war": -0.12
+  },
+  {
+   "player": "11631",
+   "name": "Brian Thomas Jr.",
+   "score": 936,
+   "gs": 26,
+   "pts": 266.7,
+   "ppg": 10.26,
+   "war": -0.16
   },
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 939,
+   "score": 930,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
    "war": -0.37
   },
   {
-   "player": "11631",
-   "name": "Brian Thomas Jr.",
-   "score": 938,
-   "gs": 26,
-   "pts": 266.7,
-   "ppg": 10.26,
-   "war": -0.2
-  },
-  {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 933,
+   "score": 926,
    "gs": 24,
    "pts": 281.4,
    "ppg": 11.72,
-   "war": 0.16
+   "war": 0.29
   },
   {
    "player": "4950",
    "name": "Christian Kirk",
-   "score": 877,
+   "score": 873,
    "gs": 20,
    "pts": 215.66,
    "ppg": 10.78,
@@ -1284,18 +1284,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.05,
+   "value": 0.01,
    "digits": 2,
-   "rank": 249,
+   "rank": 217,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -4.2,
+   "value": 1.1,
    "digits": 1,
-   "rank": 252,
+   "rank": 217,
    "of": 424
   },
   {
@@ -1356,9 +1356,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.05,
+   "value": 0.01,
    "digits": 2,
-   "rank": 61,
+   "rank": 54,
    "of": 127
   },
   {
@@ -1385,9 +1385,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.05,
+   "value": 0.01,
    "digits": 2,
-   "rank": 42,
+   "rank": 34,
    "of": 74,
    "franchise": 10
   },
@@ -1523,10 +1523,10 @@
   }
  ],
  "hof": {
-  "score": 6.25,
-  "rank": 179,
+  "score": 6.35,
+  "rank": 181,
   "of": 424,
-  "war": 0.0,
+  "war": 0.1,
   "starts": 6.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1804,7 +1804,7 @@
    [
     "2026",
     4,
-    6.05
+    6.45
    ],
    [
     "2026",
@@ -1814,27 +1814,27 @@
    [
     "2026",
     6,
-    6.25
+    6.35
    ],
    [
     "2026",
     7,
-    6.25
+    6.35
    ],
    [
     "2026",
     8,
-    6.25
+    6.35
    ],
    [
     "2026",
     9,
-    6.25
+    6.35
    ],
    [
     "2026",
     10,
-    6.25
+    6.35
    ]
   ],
   "benchmark": 100
@@ -1880,7 +1880,7 @@
     "season": "2026",
     "nfl": "NE",
     "missed": 4,
-    "lost": 0.0,
+    "lost": 1.68,
     "injuries": [
      "Shoulder"
     ],
@@ -1973,7 +1973,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 0.0
+    "lost": 1.68
    }
   ],
   "now": {

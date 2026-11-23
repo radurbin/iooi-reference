@@ -126,9 +126,9 @@
   {
    "season": "2026",
    "team": "NO",
-   "g": 8,
-   "pts": 95.0,
-   "rank": 28
+   "g": 9,
+   "pts": 102.3,
+   "rank": 29
   }
  ],
  "history": [
@@ -1235,16 +1235,16 @@
   {
    "player": "7594",
    "name": "Chuba Hubbard",
-   "score": 910,
+   "score": 904,
    "gs": 34,
    "pts": 578.4,
    "ppg": 17.01,
-   "war": 2.95
+   "war": 3.16
   },
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 856,
+   "score": 858,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -1253,29 +1253,29 @@
   {
    "player": "11584",
    "name": "Bucky Irving",
-   "score": 807,
+   "score": 821,
    "gs": 23,
    "pts": 397.7,
    "ppg": 17.29,
-   "war": 2.12
+   "war": 2.34
   },
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 801,
+   "score": 810,
    "gs": 35,
    "pts": 527.1,
    "ppg": 15.06,
-   "war": 2.3
+   "war": 2.51
   },
   {
    "player": "9226",
    "name": "De'Von Achane",
-   "score": 781,
+   "score": 778,
    "gs": 37,
    "pts": 673.2,
    "ppg": 18.19,
-   "war": 3.94
+   "war": 4.01
   }
  ],
  "status": {
@@ -1308,7 +1308,7 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 27,
+   "rank": 28,
    "of": 424
   },
   {
@@ -1317,7 +1317,7 @@
    "stat": "VOR",
    "value": 243.4,
    "digits": 1,
-   "rank": 27,
+   "rank": 28,
    "of": 424
   },
   {
@@ -1380,7 +1380,7 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 13,
+   "rank": 14,
    "of": 100
   },
   {
@@ -1929,7 +1929,7 @@
     "season": "2026",
     "nfl": "NO",
     "missed": 1,
-    "lost": 1.38,
+    "lost": 2.9,
     "injuries": [
      "Knee"
     ],
@@ -2021,7 +2021,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 1.38
+    "lost": 2.9
    }
   ],
   "now": null

@@ -80,8 +80,8 @@
    "best": 15.6,
    "wins": 0,
    "paa": 1.98,
-   "vor": 5.28,
-   "war": 0.06
+   "vor": 6.34,
+   "war": 0.07
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 35.8,
   "wins": 13,
   "paa": 25.52,
-  "vor": 88.18,
-  "war": 1.04
+  "vor": 89.24,
+  "war": 1.05
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "SF",
-   "g": 6,
-   "pts": 87.5,
-   "rank": 38
+   "g": 7,
+   "pts": 95.4,
+   "rank": 41
   }
  ],
  "history": [
@@ -1107,8 +1107,8 @@
    "proj": 11.44,
    "won": false,
    "paa": 1.98,
-   "vor": 5.28,
-   "war": 0.06240317527592166
+   "vor": 6.34,
+   "war": 0.07493108546389078
   },
   {
    "season": "2026",
@@ -1231,25 +1231,25 @@
    "gs": 38,
    "pts": 505.1,
    "ppg": 13.29,
-   "war": 0.99
+   "war": 1.09
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 908,
+   "score": 898,
    "gs": 39,
    "pts": 555.1,
    "ppg": 14.23,
-   "war": 1.29
+   "war": 1.41
   },
   {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 898,
+   "score": 894,
    "gs": 34,
    "pts": 510.82,
    "ppg": 15.02,
-   "war": 1.36
+   "war": 1.42
   },
   {
    "player": "6819",
@@ -1263,11 +1263,11 @@
   {
    "player": "4983",
    "name": "DJ Moore",
-   "score": 837,
+   "score": 836,
    "gs": 43,
    "pts": 588.88,
    "ppg": 13.69,
-   "war": 1.12
+   "war": 1.19
   }
  ],
  "status": {
@@ -1298,18 +1298,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.04,
+   "value": 1.05,
    "digits": 2,
-   "rank": 74,
+   "rank": 77,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 88.2,
+   "value": 89.2,
    "digits": 1,
-   "rank": 74,
+   "rank": 77,
    "of": 424
   },
   {
@@ -1370,9 +1370,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.04,
+   "value": 1.05,
    "digits": 2,
-   "rank": 22,
+   "rank": 24,
    "of": 127
   },
   {
@@ -1399,7 +1399,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 1.04,
+   "value": 1.05,
    "digits": 2,
    "rank": 3,
    "of": 82,
@@ -1537,10 +1537,10 @@
   }
  ],
  "hof": {
-  "score": 19.4,
+  "score": 19.5,
   "rank": 79,
   "of": 424,
-  "war": 10.4,
+  "war": 10.5,
   "starts": 9.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1813,42 +1813,42 @@
    [
     "2026",
     3,
-    19.4
+    19.5
    ],
    [
     "2026",
     4,
-    19.4
+    19.5
    ],
    [
     "2026",
     5,
-    19.4
+    19.5
    ],
    [
     "2026",
     6,
-    19.4
+    19.5
    ],
    [
     "2026",
     7,
-    19.4
+    19.5
    ],
    [
     "2026",
     8,
-    19.4
+    19.5
    ],
    [
     "2026",
     9,
-    19.4
+    19.5
    ],
    [
     "2026",
     10,
-    19.4
+    19.5
    ]
   ],
   "benchmark": 100
@@ -1944,7 +1944,7 @@
     "season": "2026",
     "nfl": "SF",
     "missed": 3,
-    "lost": 12.78,
+    "lost": 13.11,
     "injuries": [
      "Hamstring"
     ],
@@ -2072,7 +2072,7 @@
      }
     ],
     "rostered": 3,
-    "lost": 12.78
+    "lost": 13.11
    }
   ],
   "now": null

@@ -75,8 +75,8 @@
    "best": 20.3,
    "wins": 2,
    "paa": -5.91,
-   "vor": -6.6,
-   "war": -0.08
+   "vor": -2.24,
+   "war": -0.03
   }
  ],
  "totals": {
@@ -88,8 +88,8 @@
   "best": 23.9,
   "wins": 16,
   "paa": -14.34,
-  "vor": 15.34,
-  "war": 0.18
+  "vor": 19.7,
+  "war": 0.23
  },
  "nfl": [
   {
@@ -118,7 +118,7 @@
    "team": "DAL",
    "g": 9,
    "pts": 56.1,
-   "rank": 29
+   "rank": 31
   }
  ],
  "history": [
@@ -1061,8 +1061,8 @@
    "proj": 9.08,
    "won": false,
    "paa": -6.07,
-   "vor": -8.5,
-   "war": -0.10045965716767691
+   "vor": -7.41,
+   "war": -0.08757718348382187
   },
   {
    "season": "2026",
@@ -1080,8 +1080,8 @@
    "proj": 9.63,
    "won": false,
    "paa": 7.71,
-   "vor": 9.2,
-   "war": 0.108732805405015
+   "vor": 10.29,
+   "war": 0.12161527908887004
   },
   {
    "season": "2026",
@@ -1147,8 +1147,8 @@
    "proj": 9.15,
    "won": true,
    "paa": -6.06,
-   "vor": -6.3,
-   "war": -0.07445833413604289
+   "vor": -5.21,
+   "war": -0.061575860452187846
   },
   {
    "season": "2026",
@@ -1198,24 +1198,24 @@
    "proj": 8.3,
    "won": true,
    "paa": -1.49,
-   "vor": -1.0,
-   "war": -0.011818783196197283
+   "vor": 0.09,
+   "war": 0.0010636904876577555
   }
  ],
  "similar": [
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 818,
+   "score": 825,
    "gs": 33,
    "pts": 301.5,
    "ppg": 9.14,
-   "war": -0.41
+   "war": -0.33
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 798,
+   "score": 799,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
@@ -1224,29 +1224,29 @@
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 720,
+   "score": 728,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.73
+   "war": -0.66
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 704,
+   "score": 703,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.31
+   "war": -0.28
   },
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 698,
+   "score": 695,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.42
+   "war": 0.54
   }
  ],
  "status": {
@@ -1276,18 +1276,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.18,
+   "value": 0.23,
    "digits": 2,
-   "rank": 167,
+   "rank": 159,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 15.3,
+   "value": 19.7,
    "digits": 1,
-   "rank": 167,
+   "rank": 160,
    "of": 424
   },
   {
@@ -1348,9 +1348,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 0.18,
+   "value": 0.23,
    "digits": 2,
-   "rank": 15,
+   "rank": 16,
    "of": 52
   },
   {
@@ -1377,7 +1377,7 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.41,
+   "value": 0.46,
    "digits": 2,
    "rank": 15,
    "of": 76,
@@ -1555,10 +1555,10 @@
   }
  ],
  "hof": {
-  "score": 12.3,
-  "rank": 112,
+  "score": 12.8,
+  "rank": 111,
   "of": 424,
-  "war": 1.8,
+  "war": 2.3,
   "starts": 8.5,
   "black_ink": 0.0,
   "awards": 2.0,
@@ -1816,52 +1816,52 @@
    [
     "2026",
     1,
-    11.35
+    11.45
    ],
    [
     "2026",
     2,
-    12.7
+    12.9
    ],
    [
     "2026",
     3,
-    12.7
+    12.9
    ],
    [
     "2026",
     4,
-    12.7
+    12.9
    ],
    [
     "2026",
     5,
-    12.7
+    12.9
    ],
    [
     "2026",
     6,
-    12.15
+    12.55
    ],
    [
     "2026",
     7,
-    12.15
+    12.55
    ],
    [
     "2026",
     8,
-    12.15
+    12.55
    ],
    [
     "2026",
     9,
-    12.3
+    12.8
    ],
    [
     "2026",
     10,
-    12.3
+    12.8
    ]
   ],
   "benchmark": 100
@@ -1916,13 +1916,14 @@
    {
     "season": "2026",
     "nfl": "DAL",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Knee"
     ],
     "weeks": [
-     10
+     10,
+     11
     ],
     "kinds": [
      "Out"
@@ -1931,6 +1932,13 @@
     "games": [
      {
       "week": 10,
+      "kind": "Out",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
       "kind": "Out",
       "injury": "Knee",
       "franchise": null,
@@ -1988,11 +1996,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "DAL",
     "injury": "Knee",
     "kinds": [

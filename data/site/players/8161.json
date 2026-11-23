@@ -41,8 +41,8 @@
    "best": 26.82,
    "wins": 3,
    "paa": -27.95,
-   "vor": 7.98,
-   "war": 0.09
+   "vor": -4.86,
+   "war": -0.06
   }
  ],
  "totals": {
@@ -54,8 +54,8 @@
   "best": 26.82,
   "wins": 3,
   "paa": -27.95,
-  "vor": 7.98,
-  "war": 0.09
+  "vor": -4.86,
+  "war": -0.06
  },
  "nfl": [
   {
@@ -84,7 +84,7 @@
    "team": "MIA",
    "g": 8,
    "pts": 108.84,
-   "rank": 24
+   "rank": 25
   }
  ],
  "history": [
@@ -250,8 +250,8 @@
    "proj": 18.55,
    "won": false,
    "paa": -5.06,
-   "vor": 1.21,
-   "war": 0.014300727667398712
+   "vor": -0.93,
+   "war": -0.010991468372463474
   },
   {
    "season": "2026",
@@ -269,8 +269,8 @@
    "proj": 16.15,
    "won": true,
    "paa": -6.42,
-   "vor": -0.57,
-   "war": -0.006736706421832451
+   "vor": -2.71,
+   "war": -0.03202890246169464
   },
   {
    "season": "2026",
@@ -288,8 +288,8 @@
    "proj": 12.99,
    "won": false,
    "paa": -12.52,
-   "vor": -8.77,
-   "war": -0.10365072863065017
+   "vor": -10.91,
+   "war": -0.12894292467051235
   },
   {
    "season": "2026",
@@ -307,8 +307,8 @@
    "proj": 15.63,
    "won": true,
    "paa": -0.11,
-   "vor": 8.21,
-   "war": 0.0970322100407797
+   "vor": 6.07,
+   "war": 0.07174001400091752
   },
   {
    "season": "2026",
@@ -342,8 +342,8 @@
    "proj": 15.14,
    "won": true,
    "paa": 8.53,
-   "vor": 15.35,
-   "war": 0.1814183220616283
+   "vor": 13.21,
+   "war": 0.15612612602176612
   },
   {
    "season": "2026",
@@ -377,8 +377,8 @@
    "proj": 17.85,
    "won": false,
    "paa": -12.37,
-   "vor": -7.45,
-   "war": -0.08804993481166977
+   "vor": -9.59,
+   "war": -0.11334213085153194
   },
   {
    "season": "2026",
@@ -425,18 +425,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.09,
+   "value": -0.06,
    "digits": 2,
-   "rank": 187,
+   "rank": 258,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 8.0,
+   "value": -4.9,
    "digits": 1,
-   "rank": 187,
+   "rank": 259,
    "of": 424
   },
   {
@@ -488,9 +488,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.09,
+   "value": -0.06,
    "digits": 2,
-   "rank": 39,
+   "rank": 49,
    "of": 68
   },
   {
@@ -517,9 +517,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.09,
+   "value": -0.06,
    "digits": 2,
-   "rank": 28,
+   "rank": 53,
    "of": 69,
    "franchise": 8
   },
@@ -566,10 +566,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 2.4,
-  "rank": 252,
+  "score": 1.5,
+  "rank": 287,
   "of": 424,
-  "war": 0.9,
+  "war": 0.0,
   "starts": 1.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -747,12 +747,12 @@
    [
     "2026",
     2,
-    0.35
+    0.25
    ],
    [
     "2026",
     3,
-    0.6
+    0.5
    ],
    [
     "2026",
@@ -772,22 +772,22 @@
    [
     "2026",
     7,
-    3.05
+    1.85
    ],
    [
     "2026",
     8,
-    3.05
+    1.85
    ],
    [
     "2026",
     9,
-    2.4
+    1.5
    ],
    [
     "2026",
     10,
-    2.4
+    1.5
    ]
   ],
   "benchmark": 100
@@ -799,13 +799,14 @@
    {
     "season": "2026",
     "nfl": "MIA",
-    "missed": 1,
-    "lost": 2.13,
+    "missed": 2,
+    "lost": 0.0,
     "injuries": [
      "Groin"
     ],
     "weeks": [
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -818,6 +819,13 @@
       "injury": "Groin",
       "franchise": 8,
       "team": "BBL KIZZY"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -826,11 +834,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "MIA",
     "injury": "Groin",
     "kinds": [
@@ -843,14 +852,14 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.13
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Groin",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

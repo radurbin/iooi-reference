@@ -190,8 +190,8 @@
     "best": 38.7,
     "wins": 16,
     "paa": -17.52,
-    "vor": 175.53,
-    "war": 2.07
+    "vor": 160.57,
+    "war": 1.9
    },
    {
     "player": "3163",
@@ -281,8 +281,8 @@
     "best": 29.8,
     "wins": 10,
     "paa": -60.63,
-    "vor": -4.15,
-    "war": -0.05
+    "vor": 1.15,
+    "war": 0.01
    },
    {
     "player": "7021",
@@ -307,8 +307,8 @@
     "best": 23.0,
     "wins": 8,
     "paa": -101.85,
-    "vor": -32.5,
-    "war": -0.38
+    "vor": -21.9,
+    "war": -0.26
    },
    {
     "player": "7591",
@@ -333,8 +333,8 @@
     "best": 24.1,
     "wins": 7,
     "paa": 17.07,
-    "vor": 26.71,
-    "war": 0.32
+    "vor": 37.61,
+    "war": 0.44
    },
    {
     "player": "4098",
@@ -359,8 +359,8 @@
     "best": 31.5,
     "wins": 5,
     "paa": -5.89,
-    "vor": 57.62,
-    "war": 0.68
+    "vor": 75.8,
+    "war": 0.9
    },
    {
     "player": "5022",
@@ -463,8 +463,8 @@
     "best": 20.0,
     "wins": 6,
     "paa": 27.4,
-    "vor": 30.36,
-    "war": 0.36
+    "vor": 27.96,
+    "war": 0.33
    },
    {
     "player": "11586",
@@ -476,8 +476,8 @@
     "best": 22.6,
     "wins": 1,
     "paa": -38.79,
-    "vor": 13.29,
-    "war": 0.16
+    "vor": 29.45,
+    "war": 0.35
    },
    {
     "player": "LAC",
@@ -502,8 +502,8 @@
     "best": 26.0,
     "wins": 2,
     "paa": -2.56,
-    "vor": 28.65,
-    "war": 0.34
+    "vor": 17.96,
+    "war": 0.21
    }
   ],
   "by_pos": {
@@ -518,8 +518,8 @@
      "best": 38.7,
      "wins": 16,
      "paa": -17.52,
-     "vor": 175.53,
-     "war": 2.07
+     "vor": 160.57,
+     "war": 1.9
     },
     {
      "player": "3163",
@@ -641,8 +641,8 @@
      "best": 24.1,
      "wins": 7,
      "paa": 17.07,
-     "vor": 26.71,
-     "war": 0.32
+     "vor": 37.61,
+     "war": 0.44
     },
     {
      "player": "5022",
@@ -695,8 +695,8 @@
      "best": 17.0,
      "wins": 4,
      "paa": 23.22,
-     "vor": 23.06,
-     "war": 0.27
+     "vor": 23.56,
+     "war": 0.28
     },
     {
      "player": "1433",
@@ -736,8 +736,8 @@
      "best": 20.0,
      "wins": 6,
      "paa": 27.4,
-     "vor": 30.36,
-     "war": 0.36
+     "vor": 27.96,
+     "war": 0.33
     },
     {
      "player": "LAC",
@@ -1416,7 +1416,7 @@
     "team": "Maddison Beer’s Boys",
     "games": 24,
     "players": 10,
-    "lost": 22.32,
+    "lost": 17.37,
     "rank": 10,
     "games_rank": 10,
     "of": 12,
@@ -1425,7 +1425,7 @@
      "name": "Caleb Williams",
      "pos": "QB",
      "missed": 3,
-     "lost": 22.32
+     "lost": 14.1
     },
     "w": 2,
     "l": 8
@@ -1489,6 +1489,25 @@
     ]
    },
    {
+    "player": "8121",
+    "name": "Romeo Doubs",
+    "pos": "WR",
+    "missed": 6,
+    "lost": 1.68,
+    "injuries": [
+     "Shoulder",
+     "Concussion"
+    ],
+    "kinds": [
+     "IR",
+     "Out"
+    ],
+    "seasons": [
+     "2024",
+     "2026"
+    ]
+   },
+   {
     "player": "5022",
     "name": "Dallas Goedert",
     "pos": "TE",
@@ -1505,25 +1524,6 @@
     "seasons": [
      "2023",
      "2024"
-    ]
-   },
-   {
-    "player": "8121",
-    "name": "Romeo Doubs",
-    "pos": "WR",
-    "missed": 6,
-    "lost": 0.0,
-    "injuries": [
-     "Shoulder",
-     "Concussion"
-    ],
-    "kinds": [
-     "IR",
-     "Out"
-    ],
-    "seasons": [
-     "2024",
-     "2026"
     ]
    },
    {
@@ -1632,9 +1632,26 @@
     "name": "Caleb Williams",
     "pos": "QB",
     "missed": 3,
-    "lost": 22.32,
+    "lost": 14.1,
     "injuries": [
      "Hamstring"
+    ],
+    "kinds": [
+     "Out",
+     "Questionable"
+    ],
+    "seasons": [
+     "2026"
+    ]
+   },
+   {
+    "player": "7021",
+    "name": "Rico Dowdle",
+    "pos": "RB",
+    "missed": 3,
+    "lost": 1.59,
+    "injuries": [
+     "Toe"
     ],
     "kinds": [
      "Out",
@@ -1678,31 +1695,15 @@
     "seasons": [
      "2025"
     ]
-   },
-   {
-    "player": "7670",
-    "name": "Joshua Palmer",
-    "pos": "WR",
-    "missed": 3,
-    "lost": 0.0,
-    "injuries": [
-     "Knee"
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "seasons": [
-     "2023"
-    ]
    }
   ],
   "total": {
    "franchise": 10,
    "name": "Maddison Beer’s Boys",
    "games": 120,
-   "lost": 313.14,
+   "lost": 308.19,
    "seasons": 4,
-   "per_season": 78.28,
+   "per_season": 77.05,
    "worst": "2025"
   }
  }

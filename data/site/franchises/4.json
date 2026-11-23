@@ -194,8 +194,8 @@
     "best": 30.2,
     "wins": 18,
     "paa": -31.71,
-    "vor": 190.45,
-    "war": 2.25
+    "vor": 171.21,
+    "war": 2.02
    },
    {
     "player": "5892",
@@ -220,8 +220,8 @@
     "best": 35.8,
     "wins": 13,
     "paa": 25.52,
-    "vor": 88.18,
-    "war": 1.04
+    "vor": 89.24,
+    "war": 1.05
    },
    {
     "player": "5967",
@@ -233,8 +233,8 @@
     "best": 39.0,
     "wins": 6,
     "paa": 7.87,
-    "vor": 68.95,
-    "war": 0.81
+    "vor": 83.09,
+    "war": 0.98
    },
    {
     "player": "9758",
@@ -246,8 +246,8 @@
     "best": 35.56,
     "wins": 4,
     "paa": 17.82,
-    "vor": 86.97,
-    "war": 1.03
+    "vor": 67.74,
+    "war": 0.8
    },
    {
     "player": "421",
@@ -337,8 +337,8 @@
     "best": 40.9,
     "wins": 4,
     "paa": -48.5,
-    "vor": -1.82,
-    "war": -0.02
+    "vor": 4.54,
+    "war": 0.05
    },
    {
     "player": "6826",
@@ -363,8 +363,8 @@
     "best": 32.4,
     "wins": 3,
     "paa": 32.1,
-    "vor": 63.62,
-    "war": 0.75
+    "vor": 73.16,
+    "war": 0.86
    },
    {
     "player": "12534",
@@ -376,8 +376,8 @@
     "best": 31.0,
     "wins": 4,
     "paa": -25.27,
-    "vor": 34.02,
-    "war": 0.4
+    "vor": 42.1,
+    "war": 0.5
    },
    {
     "player": "7567",
@@ -389,8 +389,8 @@
     "best": 31.4,
     "wins": 3,
     "paa": -46.67,
-    "vor": 21.53,
-    "war": 0.25
+    "vor": 31.63,
+    "war": 0.37
    },
    {
     "player": "9487",
@@ -402,8 +402,8 @@
     "best": 30.4,
     "wins": 2,
     "paa": 15.07,
-    "vor": 46.62,
-    "war": 0.55
+    "vor": 56.16,
+    "war": 0.66
    },
    {
     "player": "2309",
@@ -522,8 +522,8 @@
      "best": 30.2,
      "wins": 18,
      "paa": -31.71,
-     "vor": 190.45,
-     "war": 2.25
+     "vor": 171.21,
+     "war": 2.02
     },
     {
      "player": "9758",
@@ -535,8 +535,8 @@
      "best": 35.56,
      "wins": 4,
      "paa": 17.82,
-     "vor": 86.97,
-     "war": 1.03
+     "vor": 67.74,
+     "war": 0.8
     },
     {
      "player": "421",
@@ -576,8 +576,8 @@
      "best": 39.0,
      "wins": 6,
      "paa": 7.87,
-     "vor": 68.95,
-     "war": 0.81
+     "vor": 83.09,
+     "war": 0.98
     },
     {
      "player": "4034",
@@ -604,8 +604,8 @@
      "best": 35.8,
      "wins": 13,
      "paa": 25.52,
-     "vor": 88.18,
-     "war": 1.04
+     "vor": 89.24,
+     "war": 1.05
     },
     {
      "player": "2449",
@@ -658,8 +658,8 @@
      "best": 23.0,
      "wins": 1,
      "paa": -36.28,
-     "vor": -28.38,
-     "war": -0.34
+     "vor": -25.11,
+     "war": -0.3
     },
     {
      "player": "5001",
@@ -671,8 +671,8 @@
      "best": 26.0,
      "wins": 3,
      "paa": -13.57,
-     "vor": -8.9,
-     "war": -0.11
+     "vor": -2.36,
+     "war": -0.03
     }
    ],
    "K": [
@@ -1305,7 +1305,7 @@
    "list": "Career WAR",
    "scope": 4,
    "rank": 1,
-   "value": "2.24",
+   "value": "2.01",
    "href": "franchise.html?id=4#all-time-leaders",
    "player": "6797",
    "franchise": 4
@@ -1376,8 +1376,8 @@
     "team": "Im Stroud Of You",
     "games": 31,
     "players": 6,
-    "lost": 45.53,
-    "rank": 4,
+    "lost": 51.2,
+    "rank": 6,
     "games_rank": 5,
     "of": 12,
     "worst": {
@@ -1385,7 +1385,7 @@
      "name": "Kyle Monangai",
      "pos": "RB",
      "missed": 5,
-     "lost": 29.15
+     "lost": 25.55
     },
     "w": 3,
     "l": 7
@@ -1411,6 +1411,25 @@
     ]
    },
    {
+    "player": "8142",
+    "name": "Alec Pierce",
+    "pos": "WR",
+    "missed": 10,
+    "lost": 13.76,
+    "injuries": [
+     "Heel",
+     "Concussion"
+    ],
+    "kinds": [
+     "IR",
+     "Out"
+    ],
+    "seasons": [
+     "2025",
+     "2026"
+    ]
+   },
+   {
     "player": "9229",
     "name": "Anthony Richardson Sr.",
     "pos": "QB",
@@ -1424,25 +1443,6 @@
     ],
     "seasons": [
      "2025"
-    ]
-   },
-   {
-    "player": "8142",
-    "name": "Alec Pierce",
-    "pos": "WR",
-    "missed": 10,
-    "lost": 5.28,
-    "injuries": [
-     "Heel",
-     "Concussion"
-    ],
-    "kinds": [
-     "IR",
-     "Out"
-    ],
-    "seasons": [
-     "2025",
-     "2026"
     ]
    },
    {
@@ -1499,7 +1499,7 @@
     "name": "Deebo Samuel Sr.",
     "pos": "WR",
     "missed": 7,
-    "lost": 24.18,
+    "lost": 24.51,
     "injuries": [
      "Hamstring",
      "Shoulder",
@@ -1534,23 +1534,6 @@
     ]
    },
    {
-    "player": "12534",
-    "name": "Kyle Monangai",
-    "pos": "RB",
-    "missed": 5,
-    "lost": 29.15,
-    "injuries": [
-     "Thumb"
-    ],
-    "kinds": [
-     "Out",
-     "Questionable"
-    ],
-    "seasons": [
-     "2026"
-    ]
-   },
-   {
     "player": "5892",
     "name": "David Montgomery",
     "pos": "RB",
@@ -1568,6 +1551,23 @@
     "seasons": [
      "2023",
      "2024"
+    ]
+   },
+   {
+    "player": "12534",
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "missed": 5,
+    "lost": 25.55,
+    "injuries": [
+     "Thumb"
+    ],
+    "kinds": [
+     "Out",
+     "Questionable"
+    ],
+    "seasons": [
+     "2026"
     ]
    },
    {
@@ -1666,9 +1666,9 @@
    "franchise": 4,
    "name": "Im Stroud Of You",
    "games": 138,
-   "lost": 238.02,
+   "lost": 243.69,
    "seasons": 4,
-   "per_season": 59.51,
+   "per_season": 60.92,
    "worst": "2024"
   }
  }

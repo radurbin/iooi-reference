@@ -496,7 +496,7 @@
    "stat": "WAR",
    "value": -0.21,
    "digits": 2,
-   "rank": 358,
+   "rank": 360,
    "of": 424
   },
   {
@@ -505,7 +505,7 @@
    "stat": "VOR",
    "value": -17.7,
    "digits": 1,
-   "rank": 358,
+   "rank": 360,
    "of": 424
   },
   {
@@ -559,7 +559,7 @@
    "stat": "WAR",
    "value": -0.21,
    "digits": 2,
-   "rank": 103,
+   "rank": 104,
    "of": 127
   },
   {
@@ -588,7 +588,7 @@
    "stat": "WAR",
    "value": -0.21,
    "digits": 2,
-   "rank": 68,
+   "rank": 70,
    "of": 74,
    "franchise": 10
   },
@@ -885,7 +885,7 @@
    {
     "season": "2026",
     "nfl": "NYG",
-    "missed": 9,
+    "missed": 10,
     "lost": 0.0,
     "injuries": [
      "Knee"
@@ -899,7 +899,8 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -968,6 +969,13 @@
       "injury": "Knee",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1021,7 +1029,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 10,
+    "to": 11,
     "weeks": [
      1,
      2,
@@ -1031,9 +1039,10 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 9,
+    "missed": 10,
     "nfl": "NYG",
     "injury": "Knee",
     "kinds": [

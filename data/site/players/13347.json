@@ -54,7 +54,7 @@
    "team": "MIN",
    "g": 4,
    "pts": 4.7,
-   "rank": 110
+   "rank": 114
   }
  ],
  "history": [
@@ -246,13 +246,14 @@
    {
     "season": "2026",
     "nfl": "MIN",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Knee"
     ],
     "weeks": [
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -265,6 +266,13 @@
       "injury": "Knee",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -273,11 +281,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "MIN",
     "injury": "Knee",
     "kinds": [

@@ -101,8 +101,8 @@
    "best": 15.8,
    "wins": 5,
    "paa": -33.95,
-   "vor": 0.46,
-   "war": 0.01
+   "vor": 12.58,
+   "war": 0.15
   }
  ],
  "totals": {
@@ -114,8 +114,8 @@
   "best": 46.2,
   "wins": 35,
   "paa": 128.23,
-  "vor": 363.82,
-  "war": 4.3
+  "vor": 375.94,
+  "war": 4.44
  },
  "nfl": [
   {
@@ -142,9 +142,9 @@
   {
    "season": "2026",
    "team": "PHI",
-   "g": 7,
-   "pts": 65.6,
-   "rank": 39
+   "g": 8,
+   "pts": 80.8,
+   "rank": 36
   }
  ],
  "history": [
@@ -1167,8 +1167,8 @@
    "proj": 18.03,
    "won": true,
    "paa": -9.43,
-   "vor": 0.01,
-   "war": 0.00011818783196197284
+   "vor": 2.03,
+   "war": 0.023992129888280485
   },
   {
    "season": "2026",
@@ -1186,8 +1186,8 @@
    "proj": 18.33,
    "won": true,
    "paa": -9.98,
-   "vor": -7.09,
-   "war": -0.08379517286103874
+   "vor": -5.07,
+   "war": -0.059921230804720234
   },
   {
    "season": "2026",
@@ -1205,8 +1205,8 @@
    "proj": 17.68,
    "won": true,
    "paa": -5.74,
-   "vor": 0.01,
-   "war": 0.00011818783196197284
+   "vor": 2.03,
+   "war": 0.023992129888280485
   },
   {
    "season": "2026",
@@ -1272,8 +1272,8 @@
    "proj": 15.79,
    "won": false,
    "paa": -1.77,
-   "vor": 5.31,
-   "war": 0.06275773877180757
+   "vor": 7.33,
+   "war": 0.08663168082812608
   },
   {
    "season": "2026",
@@ -1291,8 +1291,8 @@
    "proj": 14.97,
    "won": true,
    "paa": -3.0,
-   "vor": 3.21,
-   "war": 0.03793829405979328
+   "vor": 5.23,
+   "war": 0.0618122361161118
   },
   {
    "season": "2026",
@@ -1310,8 +1310,8 @@
    "proj": 14.15,
    "won": true,
    "paa": -4.03,
-   "vor": -0.99,
-   "war": -0.01170059536423531
+   "vor": 1.03,
+   "war": 0.012173346692083203
   },
   {
    "season": "2026",
@@ -1334,47 +1334,47 @@
   {
    "player": "8138",
    "name": "James Cook III",
-   "score": 963,
+   "score": 958,
    "gs": 49,
    "pts": 845.5,
    "ppg": 17.26,
-   "war": 4.4
+   "war": 4.62
   },
   {
    "player": "8150",
    "name": "Kyren Williams",
-   "score": 934,
+   "score": 927,
    "gs": 48,
    "pts": 842.3,
    "ppg": 17.55,
-   "war": 4.54
+   "war": 4.78
   },
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 868,
+   "score": 880,
    "gs": 49,
    "pts": 771.7,
    "ppg": 15.75,
-   "war": 3.54
+   "war": 3.78
   },
   {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 806,
+   "score": 813,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
-   "war": 3.32
+   "war": 3.51
   },
   {
    "player": "3198",
    "name": "Derrick Henry",
-   "score": 800,
+   "score": 795,
    "gs": 58,
    "pts": 979.84,
    "ppg": 16.89,
-   "war": 4.98
+   "war": 5.22
   }
  ],
  "status": {
@@ -1405,18 +1405,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 4.3,
+   "value": 4.44,
    "digits": 2,
-   "rank": 14,
+   "rank": 13,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 363.8,
+   "value": 375.9,
    "digits": 1,
-   "rank": 14,
+   "rank": 13,
    "of": 424
   },
   {
@@ -1477,7 +1477,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 4.3,
+   "value": 4.44,
    "digits": 2,
    "rank": 7,
    "of": 100
@@ -1508,7 +1508,7 @@
    "stat": "WAR",
    "value": 0.57,
    "digits": 2,
-   "rank": 8,
+   "rank": 9,
    "of": 82,
    "franchise": 4
   },
@@ -1546,7 +1546,7 @@
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 3.73,
+   "value": 3.87,
    "digits": 2,
    "rank": 2,
    "of": 77,
@@ -1684,10 +1684,10 @@
   }
  ],
  "hof": {
-  "score": 69.5,
+  "score": 70.9,
   "rank": 8,
   "of": 424,
-  "war": 43.0,
+  "war": 44.4,
   "starts": 12.5,
   "black_ink": 4.0,
   "awards": 10.0,
@@ -1950,52 +1950,52 @@
    [
     "2026",
     1,
-    68.15
+    68.45
    ],
    [
     "2026",
     2,
-    67.6
+    68.1
    ],
    [
     "2026",
     3,
-    67.85
+    68.55
    ],
    [
     "2026",
     4,
-    67.85
+    68.55
    ],
    [
     "2026",
     5,
-    67.85
+    68.55
    ],
    [
     "2026",
     6,
-    67.85
+    68.55
    ],
    [
     "2026",
     7,
-    68.7
+    69.7
    ],
    [
     "2026",
     8,
-    69.35
+    70.55
    ],
    [
     "2026",
     9,
-    69.5
+    70.9
    ],
    [
     "2026",
     10,
-    69.5
+    70.9
    ]
   ],
   "benchmark": 100
@@ -2060,7 +2060,7 @@
     "season": "2026",
     "nfl": "PHI",
     "missed": 2,
-    "lost": 0.0,
+    "lost": 3.26,
     "injuries": [
      "Hamstring"
     ],
@@ -2138,9 +2138,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 0.0
+    "lost": 3.26
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Arm",
+   "since": null,
+   "streak": 0
+  }
  }
 }

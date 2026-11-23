@@ -106,8 +106,8 @@
     "pts": 611.02,
     "best": 38.7,
     "wins": 16,
-    "vor": 175.53,
-    "war": 2.07
+    "vor": 160.57,
+    "war": 1.9
    },
    {
     "player": "3163",
@@ -197,8 +197,8 @@
     "pts": 274.8,
     "best": 29.8,
     "wins": 10,
-    "vor": -4.15,
-    "war": -0.05
+    "vor": 1.15,
+    "war": 0.01
    },
    {
     "player": "7021",
@@ -223,8 +223,8 @@
     "pts": 261.9,
     "best": 23.0,
     "wins": 8,
-    "vor": -32.5,
-    "war": -0.38
+    "vor": -21.9,
+    "war": -0.26
    },
    {
     "player": "7591",
@@ -249,8 +249,8 @@
     "pts": 191.95,
     "best": 24.1,
     "wins": 7,
-    "vor": 26.71,
-    "war": 0.32
+    "vor": 37.61,
+    "war": 0.44
    },
    {
     "player": "4098",
@@ -275,8 +275,8 @@
     "pts": 177.8,
     "best": 31.5,
     "wins": 5,
-    "vor": 57.62,
-    "war": 0.68
+    "vor": 75.8,
+    "war": 0.9
    },
    {
     "player": "5022",
@@ -379,8 +379,8 @@
     "pts": 128.0,
     "best": 20.0,
     "wins": 6,
-    "vor": 30.36,
-    "war": 0.36
+    "vor": 27.96,
+    "war": 0.33
    },
    {
     "player": "11586",
@@ -392,8 +392,8 @@
     "pts": 105.8,
     "best": 22.6,
     "wins": 1,
-    "vor": 13.29,
-    "war": 0.16
+    "vor": 29.45,
+    "war": 0.35
    },
    {
     "player": "LAC",
@@ -418,8 +418,8 @@
     "pts": 86.0,
     "best": 26.0,
     "wins": 2,
-    "vor": 28.65,
-    "war": 0.34
+    "vor": 17.96,
+    "war": 0.21
    }
   ],
   "by_pos": {
@@ -434,8 +434,8 @@
      "pts": 611.02,
      "best": 38.7,
      "wins": 16,
-     "vor": 175.53,
-     "war": 2.07
+     "vor": 160.57,
+     "war": 1.9
     },
     {
      "player": "3163",
@@ -557,8 +557,8 @@
      "pts": 191.95,
      "best": 24.1,
      "wins": 7,
-     "vor": 26.71,
-     "war": 0.32
+     "vor": 37.61,
+     "war": 0.44
     },
     {
      "player": "5022",
@@ -611,8 +611,8 @@
      "pts": 67.0,
      "best": 17.0,
      "wins": 4,
-     "vor": 23.06,
-     "war": 0.27
+     "vor": 23.56,
+     "war": 0.28
     },
     {
      "player": "1433",
@@ -652,8 +652,8 @@
      "pts": 128.0,
      "best": 20.0,
      "wins": 6,
-     "vor": 30.36,
-     "war": 0.36
+     "vor": 27.96,
+     "war": 0.33
     },
     {
      "player": "LAC",
@@ -683,8 +683,8 @@
    "pts": 611.02,
    "best": 38.7,
    "wins": 16,
-   "vor": 175.53,
-   "war": 2.07
+   "vor": 160.57,
+   "war": 1.9
   },
   {
    "slot": "RB",
@@ -753,8 +753,8 @@
    "pts": 191.95,
    "best": 24.1,
    "wins": 7,
-   "vor": 26.71,
-   "war": 0.32
+   "vor": 37.61,
+   "war": 0.44
   },
   {
    "slot": "FLEX",
@@ -1256,7 +1256,7 @@
    "team": "Maddison Beer’s Boys",
    "games": 24,
    "players": 10,
-   "lost": 22.32,
+   "lost": 17.37,
    "rank": 10,
    "of": 12
   }
@@ -1360,6 +1360,37 @@
    ]
   },
   {
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "pos": "WR",
+   "missed": 6,
+   "lost": 1.68,
+   "injuries": [
+    "Shoulder",
+    "Concussion"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2024",
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2024",
+     "franchise": 10,
+     "team": "BAHAHAHA"
+    },
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
    "player": "5022",
    "name": "Dallas Goedert",
    "pos": "TE",
@@ -1392,37 +1423,6 @@
      "season": "2024",
      "franchise": 10,
      "team": "Comeback Papa"
-    }
-   ]
-  },
-  {
-   "player": "8121",
-   "name": "Romeo Doubs",
-   "pos": "WR",
-   "missed": 6,
-   "lost": 0.0,
-   "injuries": [
-    "Shoulder",
-    "Concussion"
-   ],
-   "kinds": [
-    "IR",
-    "Out"
-   ],
-   "seasons": [
-    "2024",
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2024",
-     "franchise": 10,
-     "team": "BAHAHAHA"
-    },
-    {
-     "season": "2026",
-     "franchise": 10,
-     "team": "Maddison Beer’s Boys"
     }
    ]
   },
@@ -1594,9 +1594,33 @@
    "name": "Caleb Williams",
    "pos": "QB",
    "missed": 3,
-   "lost": 22.32,
+   "lost": 14.1,
    "injuries": [
     "Hamstring"
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 10,
+     "team": "Maddison Beer’s Boys"
+    }
+   ]
+  },
+  {
+   "player": "7021",
+   "name": "Rico Dowdle",
+   "pos": "RB",
+   "missed": 3,
+   "lost": 1.59,
+   "injuries": [
+    "Toe"
    ],
    "kinds": [
     "Out",
@@ -1669,29 +1693,6 @@
      "season": "2025",
      "franchise": 10,
      "team": "Maddison Beer’s Boys"
-    }
-   ]
-  },
-  {
-   "player": "7670",
-   "name": "Joshua Palmer",
-   "pos": "WR",
-   "missed": 3,
-   "lost": 0.0,
-   "injuries": [
-    "Knee"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2023"
-   ],
-   "teams": [
-    {
-     "season": "2023",
-     "franchise": 10,
-     "team": "You Like That?"
     }
    ]
   }

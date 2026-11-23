@@ -373,7 +373,7 @@
    {
     "season": "2026",
     "nfl": "KC",
-    "missed": 4,
+    "missed": 5,
     "lost": 0.0,
     "injuries": [
      "Hamstring"
@@ -382,7 +382,8 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -416,6 +417,13 @@
       "injury": "Hamstring",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -424,14 +432,15 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 10,
+    "to": 11,
     "weeks": [
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "KC",
     "injury": "Hamstring",
     "kinds": [

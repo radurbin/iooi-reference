@@ -96,8 +96,8 @@
    "best": 13.1,
    "wins": 0,
    "paa": -31.29,
-   "vor": -18.98,
-   "war": -0.22
+   "vor": -14.74,
+   "war": -0.17
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 39.3,
   "wins": 16,
   "paa": -31.09,
-  "vor": 25.82,
-  "war": 0.31
+  "vor": 30.06,
+  "war": 0.36
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "MIN",
    "g": 7,
    "pts": 55.6,
-   "rank": 71
+   "rank": 74
   }
  ],
  "history": [
@@ -1154,8 +1154,8 @@
    "proj": 8.42,
    "won": false,
    "paa": -9.19,
-   "vor": -5.92,
-   "war": -0.06996719652148792
+   "vor": -4.86,
+   "war": -0.0574392863335188
   },
   {
    "season": "2026",
@@ -1173,8 +1173,8 @@
    "proj": 9.64,
    "won": false,
    "paa": -0.04,
-   "vor": 2.78,
-   "war": 0.032856217285428445
+   "vor": 3.84,
+   "war": 0.04538412747339757
   },
   {
    "season": "2026",
@@ -1192,8 +1192,8 @@
    "proj": 9.51,
    "won": false,
    "paa": -8.84,
-   "vor": -5.52,
-   "war": -0.065239683243009
+   "vor": -4.46,
+   "war": -0.052711773055039886
   },
   {
    "season": "2026",
@@ -1211,19 +1211,19 @@
    "proj": null,
    "won": false,
    "paa": -13.22,
-   "vor": -10.32,
-   "war": -0.12196984258475597
+   "vor": -9.26,
+   "war": -0.10944193239678685
   }
  ],
  "similar": [
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 904,
+   "score": 906,
    "gs": 24,
    "pts": 281.4,
    "ppg": 11.72,
-   "war": 0.16
+   "war": 0.29
   },
   {
    "player": "11635",
@@ -1232,34 +1232,34 @@
    "gs": 32,
    "pts": 380.4,
    "ppg": 11.89,
-   "war": 0.36
+   "war": 0.44
   },
   {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 884,
+   "score": 879,
    "gs": 23,
    "pts": 298.9,
    "ppg": 13.0,
-   "war": 0.68
+   "war": 0.79
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 874,
+   "score": 876,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.52
+   "war": 0.53
   },
   {
-   "player": "5927",
-   "name": "Terry McLaurin",
-   "score": 871,
-   "gs": 32,
-   "pts": 375.2,
-   "ppg": 11.72,
-   "war": -0.01
+   "player": "4039",
+   "name": "Cooper Kupp",
+   "score": 870,
+   "gs": 24,
+   "pts": 334.7,
+   "ppg": 13.95,
+   "war": 0.56
   }
  ],
  "status": {
@@ -1290,18 +1290,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.31,
+   "value": 0.36,
    "digits": 2,
-   "rank": 143,
+   "rank": 135,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 25.8,
+   "value": 30.1,
    "digits": 1,
-   "rank": 143,
+   "rank": 136,
    "of": 424
   },
   {
@@ -1362,7 +1362,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.31,
+   "value": 0.36,
    "digits": 2,
    "rank": 40,
    "of": 127
@@ -1393,7 +1393,7 @@
    "stat": "WAR",
    "value": 0.53,
    "digits": 2,
-   "rank": 9,
+   "rank": 11,
    "of": 69,
    "franchise": 8
   },
@@ -1431,9 +1431,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.22,
+   "value": -0.17,
    "digits": 2,
-   "rank": 69,
+   "rank": 68,
    "of": 74,
    "franchise": 10
   },
@@ -1569,10 +1569,10 @@
   }
  ],
  "hof": {
-  "score": 9.85,
-  "rank": 131,
+  "score": 10.35,
+  "rank": 129,
   "of": 424,
-  "war": 3.1,
+  "war": 3.6,
   "starts": 6.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1865,22 +1865,22 @@
    [
     "2026",
     7,
-    10.6
+    10.7
    ],
    [
     "2026",
     8,
-    11.15
+    11.45
    ],
    [
     "2026",
     9,
-    10.8
+    11.1
    ],
    [
     "2026",
     10,
-    9.85
+    10.35
    ]
   ],
   "benchmark": 100
@@ -1925,17 +1925,19 @@
    {
     "season": "2026",
     "nfl": "MIN",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
-     "Hamstring",
-     "Thumb"
+     "Thumb",
+     "Hamstring"
     ],
     "weeks": [
      5,
-     10
+     10,
+     11
     ],
     "kinds": [
+     "Out",
      "Questionable"
     ],
     "rostered": 2,
@@ -1953,6 +1955,13 @@
       "injury": "Thumb",
       "franchise": 10,
       "team": "Maddison Beer’s Boys"
+     },
+     {
+      "week": 11,
+      "kind": "Out",
+      "injury": "Thumb",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2006,14 +2015,16 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "MIN",
     "injury": "Thumb",
     "kinds": [
+     "Out",
      "Questionable"
     ],
     "teams": [
@@ -2030,7 +2041,7 @@
    "status": "Out",
    "injury": "Thumb",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

@@ -125,9 +125,9 @@
   {
    "season": "2026",
    "team": "IND/SF",
-   "g": 9,
-   "pts": 95.2,
-   "rank": 29
+   "g": 10,
+   "pts": 102.0,
+   "rank": 30
   }
  ],
  "history": [
@@ -1231,47 +1231,47 @@
   {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 919,
+   "score": 926,
    "gs": 34,
    "pts": 510.82,
    "ppg": 15.02,
-   "war": 1.36
-  },
-  {
-   "player": "6801",
-   "name": "Tee Higgins",
-   "score": 867,
-   "gs": 35,
-   "pts": 583.2,
-   "ppg": 16.66,
-   "war": 2.26
+   "war": 1.42
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 856,
+   "score": 865,
    "gs": 39,
    "pts": 555.1,
    "ppg": 14.23,
-   "war": 1.29
+   "war": 1.41
   },
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 852,
+   "score": 853,
    "gs": 41,
    "pts": 598.8,
    "ppg": 14.6,
-   "war": 1.61
+   "war": 1.72
+  },
+  {
+   "player": "6801",
+   "name": "Tee Higgins",
+   "score": 852,
+   "gs": 35,
+   "pts": 583.2,
+   "ppg": 16.66,
+   "war": 2.38
   },
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 844,
+   "score": 840,
    "gs": 40,
    "pts": 640.7,
    "ppg": 16.02,
-   "war": 2.08
+   "war": 2.14
   }
  ],
  "status": {
@@ -1304,7 +1304,7 @@
    "stat": "WAR",
    "value": 1.67,
    "digits": 2,
-   "rank": 56,
+   "rank": 57,
    "of": 424
   },
   {
@@ -1313,7 +1313,7 @@
    "stat": "VOR",
    "value": 141.3,
    "digits": 1,
-   "rank": 56,
+   "rank": 57,
    "of": 424
   },
   {
@@ -1376,7 +1376,7 @@
    "stat": "WAR",
    "value": 1.67,
    "digits": 2,
-   "rank": 15,
+   "rank": 16,
    "of": 127
   },
   {
@@ -1512,7 +1512,7 @@
  ],
  "hof": {
   "score": 31.45,
-  "rank": 49,
+  "rank": 50,
   "of": 424,
   "war": 16.7,
   "starts": 8.75,

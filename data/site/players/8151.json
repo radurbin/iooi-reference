@@ -80,8 +80,8 @@
    "best": 38.1,
    "wins": 5,
    "paa": 84.05,
-   "vor": 128.38,
-   "war": 1.52
+   "vor": 144.54,
+   "war": 1.71
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 38.1,
   "wins": 24,
   "paa": 74.15,
-  "vor": 280.83,
-  "war": 3.32
+  "vor": 296.99,
+  "war": 3.51
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "KC",
    "g": 8,
    "pts": 212.3,
-   "rank": 4
+   "rank": 5
   }
  ],
  "history": [
@@ -1110,8 +1110,8 @@
    "proj": 15.29,
    "won": false,
    "paa": 16.47,
-   "vor": 25.91,
-   "war": 0.30622467261347164
+   "vor": 27.93,
+   "war": 0.3300986146697901
   },
   {
    "season": "2026",
@@ -1129,8 +1129,8 @@
    "proj": 18.72,
    "won": false,
    "paa": 12.82,
-   "vor": 15.71,
-   "war": 0.18567308401225932
+   "vor": 17.73,
+   "war": 0.20954702606857784
   },
   {
    "season": "2026",
@@ -1148,8 +1148,8 @@
    "proj": 22.0,
    "won": true,
    "paa": 6.86,
-   "vor": 12.61,
-   "war": 0.14903485610404774
+   "vor": 14.63,
+   "war": 0.17290879816036628
   },
   {
    "season": "2026",
@@ -1167,8 +1167,8 @@
    "proj": 21.62,
    "won": false,
    "paa": 15.6,
-   "vor": 22.61,
-   "war": 0.26722268806602056
+   "vor": 24.63,
+   "war": 0.2910966301223391
   },
   {
    "season": "2026",
@@ -1202,8 +1202,8 @@
    "proj": 24.61,
    "won": true,
    "paa": 16.4,
-   "vor": 19.31,
-   "war": 0.22822070351856952
+   "vor": 21.33,
+   "war": 0.25209464557488803
   },
   {
    "season": "2026",
@@ -1221,8 +1221,8 @@
    "proj": 21.12,
    "won": true,
    "paa": -6.47,
-   "vor": 0.61,
-   "war": 0.007209457749680343
+   "vor": 2.63,
+   "war": 0.031083399805998856
   },
   {
    "season": "2026",
@@ -1240,8 +1240,8 @@
    "proj": 23.01,
    "won": true,
    "paa": -2.2,
-   "vor": 4.01,
-   "war": 0.047393320616751104
+   "vor": 6.03,
+   "war": 0.07126726267306963
   },
   {
    "season": "2026",
@@ -1259,8 +1259,8 @@
    "proj": 23.56,
    "won": true,
    "paa": 24.57,
-   "vor": 27.61,
-   "war": 0.32631660404700696
+   "vor": 29.63,
+   "war": 0.3501905461033255
   },
   {
    "season": "2026",
@@ -1283,47 +1283,47 @@
   {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 942,
+   "score": 933,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
-   "war": 3.05
+   "war": 3.13
   },
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 913,
+   "score": 911,
    "gs": 49,
    "pts": 771.7,
    "ppg": 15.75,
-   "war": 3.54
+   "war": 3.78
   },
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 887,
+   "score": 881,
    "gs": 47,
    "pts": 684.61,
    "ppg": 14.57,
-   "war": 2.8
+   "war": 2.9
   },
   {
    "player": "6790",
    "name": "D'Andre Swift",
-   "score": 827,
+   "score": 829,
    "gs": 51,
    "pts": 718.2,
    "ppg": 14.08,
-   "war": 2.63
+   "war": 2.84
   },
   {
    "player": "4866",
    "name": "Saquon Barkley",
-   "score": 806,
+   "score": 813,
    "gs": 50,
    "pts": 838.2,
    "ppg": 16.76,
-   "war": 4.3
+   "war": 4.44
   }
  ],
  "status": {
@@ -1364,18 +1364,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.32,
+   "value": 3.51,
    "digits": 2,
-   "rank": 24,
+   "rank": 21,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 280.8,
+   "value": 297.0,
    "digits": 1,
-   "rank": 24,
+   "rank": 21,
    "of": 424
   },
   {
@@ -1436,7 +1436,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 3.32,
+   "value": 3.51,
    "digits": 2,
    "rank": 10,
    "of": 100
@@ -1465,9 +1465,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 1.52,
+   "value": 1.71,
    "digits": 2,
-   "rank": 4,
+   "rank": 3,
    "of": 76,
    "franchise": 2
   },
@@ -1643,10 +1643,10 @@
   }
  ],
  "hof": {
-  "score": 44.45,
-  "rank": 26,
+  "score": 46.35,
+  "rank": 23,
   "of": 424,
-  "war": 33.2,
+  "war": 35.1,
   "starts": 11.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1909,52 +1909,52 @@
    [
     "2026",
     1,
-    30.6
+    30.8
    ],
    [
     "2026",
     2,
-    32.65
+    33.15
    ],
    [
     "2026",
     3,
-    34.4
+    35.1
    ],
    [
     "2026",
     4,
-    37.35
+    38.35
    ],
    [
     "2026",
     5,
-    37.35
+    38.35
    ],
    [
     "2026",
     6,
-    39.9
+    41.1
    ],
    [
     "2026",
     7,
-    40.25
+    41.65
    ],
    [
     "2026",
     8,
-    40.9
+    42.6
    ],
    [
     "2026",
     9,
-    44.45
+    46.35
    ],
    [
     "2026",
     10,
-    44.45
+    46.35
    ]
   ],
   "benchmark": 100
@@ -2061,15 +2061,17 @@
    {
     "season": "2026",
     "nfl": "KC",
-    "missed": 1,
-    "lost": 16.05,
+    "missed": 2,
+    "lost": 18.07,
     "injuries": [
      "Groin"
     ],
     "weeks": [
-     10
+     10,
+     11
     ],
     "kinds": [
+     "Out",
      "Questionable"
     ],
     "rostered": 1,
@@ -2080,6 +2082,13 @@
       "injury": "Groin",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 11,
+      "kind": "Out",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2158,14 +2167,16 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "KC",
     "injury": "Groin",
     "kinds": [
+     "Out",
      "Questionable"
     ],
     "teams": [
@@ -2175,14 +2186,14 @@
      }
     ],
     "rostered": 1,
-    "lost": 16.05
+    "lost": 18.07
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Groin",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }

@@ -80,8 +80,8 @@
    "best": 22.0,
    "wins": 0,
    "paa": -1.95,
-   "vor": 16.13,
-   "war": 0.19
+   "vor": 22.19,
+   "war": 0.26
   },
   {
    "season": "2026",
@@ -96,8 +96,8 @@
    "best": 16.65,
    "wins": 0,
    "paa": -2.14,
-   "vor": 6.16,
-   "war": 0.07
+   "vor": 8.18,
+   "war": 0.1
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 43.1,
   "wins": 28,
   "paa": 18.34,
-  "vor": 237.02,
-  "war": 2.8
+  "vor": 245.1,
+  "war": 2.9
  },
  "nfl": [
   {
@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "NYJ",
-   "g": 5,
-   "pts": 77.45,
-   "rank": 32
+   "g": 6,
+   "pts": 98.45,
+   "rank": 30
   }
  ],
  "history": [
@@ -1159,8 +1159,8 @@
    "proj": 17.15,
    "won": false,
    "paa": 2.07,
-   "vor": 11.51,
-   "war": 0.13603419458823074
+   "vor": 13.53,
+   "war": 0.15990813664454923
   },
   {
    "season": "2026",
@@ -1178,8 +1178,8 @@
    "proj": 15.89,
    "won": false,
    "paa": 2.42,
-   "vor": 5.31,
-   "war": 0.06275773877180757
+   "vor": 7.33,
+   "war": 0.08663168082812608
   },
   {
    "season": "2026",
@@ -1197,8 +1197,8 @@
    "proj": 17.23,
    "won": false,
    "paa": -6.44,
-   "vor": -0.69,
-   "war": -0.008154960405376124
+   "vor": 1.33,
+   "war": 0.015718981650942387
   },
   {
    "season": "2026",
@@ -1312,55 +1312,55 @@
    "proj": 13.21,
    "won": false,
    "paa": -2.14,
-   "vor": 6.16,
-   "war": 0.07280370448857527
+   "vor": 8.18,
+   "war": 0.09667764654489377
   }
  ],
  "similar": [
   {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 938,
+   "score": 940,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
-   "war": 3.05
+   "war": 3.13
   },
   {
    "player": "6790",
    "name": "D'Andre Swift",
-   "score": 919,
+   "score": 922,
    "gs": 51,
    "pts": 718.2,
    "ppg": 14.08,
-   "war": 2.63
+   "war": 2.84
   },
   {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 887,
+   "score": 881,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
-   "war": 3.32
-  },
-  {
-   "player": "6813",
-   "name": "Jonathan Taylor",
-   "score": 854,
-   "gs": 49,
-   "pts": 771.7,
-   "ppg": 15.75,
-   "war": 3.54
+   "war": 3.51
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 840,
+   "score": 854,
    "gs": 44,
    "pts": 594.7,
    "ppg": 13.52,
-   "war": 1.93
+   "war": 2.16
+  },
+  {
+   "player": "6813",
+   "name": "Jonathan Taylor",
+   "score": 844,
+   "gs": 49,
+   "pts": 771.7,
+   "ppg": 15.75,
+   "war": 3.78
   }
  ],
  "status": {
@@ -1391,18 +1391,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.8,
+   "value": 2.9,
    "digits": 2,
-   "rank": 29,
+   "rank": 27,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 237.0,
+   "value": 245.1,
    "digits": 1,
-   "rank": 29,
+   "rank": 27,
    "of": 424
   },
   {
@@ -1463,9 +1463,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 2.8,
+   "value": 2.9,
    "digits": 2,
-   "rank": 14,
+   "rank": 13,
    "of": 100
   },
   {
@@ -1532,7 +1532,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 1.93,
+   "value": 1.96,
    "digits": 2,
    "rank": 8,
    "of": 69,
@@ -1572,7 +1572,7 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.19,
+   "value": 0.26,
    "digits": 2,
    "rank": 9,
    "of": 49,
@@ -1710,10 +1710,10 @@
   }
  ],
  "hof": {
-  "score": 39.75,
+  "score": 40.75,
   "rank": 32,
   "of": 424,
-  "war": 28.0,
+  "war": 29.0,
   "starts": 11.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1976,52 +1976,52 @@
    [
     "2026",
     1,
-    37.7
+    38.0
    ],
    [
     "2026",
     2,
-    38.65
+    39.05
    ],
    [
     "2026",
     3,
-    38.8
+    39.5
    ],
    [
     "2026",
     4,
-    38.8
+    39.5
    ],
    [
     "2026",
     5,
-    38.8
+    39.5
    ],
    [
     "2026",
     6,
-    38.8
+    39.5
    ],
    [
     "2026",
     7,
-    38.8
+    39.5
    ],
    [
     "2026",
     8,
-    38.8
+    39.5
    ],
    [
     "2026",
     9,
-    38.8
+    39.5
    ],
    [
     "2026",
     10,
-    39.75
+    40.75
    ]
   ],
   "benchmark": 100
@@ -2059,7 +2059,7 @@
     "season": "2026",
     "nfl": "NYJ",
     "missed": 5,
-    "lost": 25.0,
+    "lost": 39.7,
     "injuries": [
      "Quadricep"
     ],
@@ -2166,7 +2166,7 @@
      }
     ],
     "rostered": 5,
-    "lost": 25.0
+    "lost": 39.7
    }
   ],
   "now": null

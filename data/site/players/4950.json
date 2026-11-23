@@ -107,7 +107,7 @@
    "team": "SF",
    "g": 1,
    "pts": 0.0,
-   "rank": 200
+   "rank": 203
   }
  ],
  "history": [
@@ -914,7 +914,7 @@
   {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 942,
+   "score": 943,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -923,11 +923,11 @@
   {
    "player": "10213",
    "name": "Tre Tucker",
-   "score": 899,
+   "score": 894,
    "gs": 17,
    "pts": 168.8,
    "ppg": 9.93,
-   "war": -0.13
+   "war": -0.05
   },
   {
    "player": "1426",
@@ -939,22 +939,22 @@
    "war": -0.37
   },
   {
-   "player": "8121",
-   "name": "Romeo Doubs",
-   "score": 877,
-   "gs": 25,
-   "pts": 274.8,
-   "ppg": 10.99,
-   "war": -0.05
-  },
-  {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 876,
+   "score": 877,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
    "war": 0.06
+  },
+  {
+   "player": "8121",
+   "name": "Romeo Doubs",
+   "score": 873,
+   "gs": 25,
+   "pts": 274.8,
+   "ppg": 10.99,
+   "war": 0.01
   }
  ],
  "status": {
@@ -986,7 +986,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 379,
+   "rank": 382,
    "of": 424
   },
   {
@@ -995,7 +995,7 @@
    "stat": "VOR",
    "value": -25.0,
    "digits": 1,
-   "rank": 379,
+   "rank": 382,
    "of": 424
   },
   {
@@ -1058,7 +1058,7 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 112,
+   "rank": 113,
    "of": 127
   },
   {
@@ -1127,7 +1127,7 @@
    "stat": "WAR",
    "value": 0.0,
    "digits": 2,
-   "rank": 34,
+   "rank": 37,
    "of": 82,
    "franchise": 4
   },
@@ -1234,7 +1234,7 @@
  ],
  "hof": {
   "score": 5.0,
-  "rank": 197,
+  "rank": 198,
   "of": 424,
   "war": 0.0,
   "starts": 5.0,
@@ -1735,7 +1735,7 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Knee - Meniscus",
@@ -1750,7 +1750,8 @@
      5,
      6,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -1808,6 +1809,13 @@
      },
      {
       "week": 10,
+      "kind": "IR",
+      "injury": "Knee - Meniscus",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
       "kind": "IR",
       "injury": "Knee - Meniscus",
       "franchise": null,
@@ -1942,14 +1950,15 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 10,
+    "to": 11,
     "weeks": [
      9,
-     10
+     10,
+     11
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "SF",
-    "injury": "Knee",
+    "injury": "Knee - Meniscus",
     "kinds": [
      "IR"
     ],

@@ -77,7 +77,7 @@
    "team": "SF",
    "g": 1,
    "pts": 0.0,
-   "rank": 113
+   "rank": 114
   }
  ],
  "history": [
@@ -195,7 +195,7 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 198,
+   "rank": 201,
    "of": 424
   },
   {
@@ -204,7 +204,7 @@
    "stat": "VOR",
    "value": 4.3,
    "digits": 1,
-   "rank": 199,
+   "rank": 203,
    "of": 424
   },
   {
@@ -326,7 +326,7 @@
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 319,
+  "rank": 320,
   "of": 424,
   "war": 0.5,
   "starts": 0.25,
@@ -453,7 +453,7 @@
    {
     "season": "2026",
     "nfl": "SF",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Knee"
@@ -466,7 +466,8 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -528,6 +529,13 @@
       "injury": "Knee",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -536,7 +544,7 @@
    {
     "season": "2026",
     "from": 2,
-    "to": 10,
+    "to": 11,
     "weeks": [
      2,
      3,
@@ -545,9 +553,10 @@
      6,
      7,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "SF",
     "injury": "Knee",
     "kinds": [

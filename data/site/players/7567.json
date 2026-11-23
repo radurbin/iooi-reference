@@ -73,8 +73,8 @@
    "best": 16.5,
    "wins": 2,
    "paa": -38.59,
-   "vor": -11.05,
-   "war": -0.13
+   "vor": -0.95,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 31.4,
   "wins": 4,
   "paa": -53.67,
-  "vor": 16.75,
-  "war": 0.2
+  "vor": 26.85,
+  "war": 0.32
  },
  "nfl": [
   {
@@ -114,8 +114,8 @@
   {
    "season": "2026",
    "team": "TB",
-   "g": 9,
-   "pts": 71.4,
+   "g": 10,
+   "pts": 81.7,
    "rank": 35
   }
  ],
@@ -618,8 +618,8 @@
    "proj": 9.52,
    "won": true,
    "paa": -9.8,
-   "vor": -6.89,
-   "war": -0.08143141622179928
+   "vor": -4.87,
+   "war": -0.05755747416548077
   },
   {
    "season": "2026",
@@ -637,8 +637,8 @@
    "proj": 7.75,
    "won": true,
    "paa": -7.37,
-   "vor": -0.29,
-   "war": -0.003427447126897212
+   "vor": 1.73,
+   "war": 0.0204464949294213
   },
   {
    "season": "2026",
@@ -656,8 +656,8 @@
    "proj": 7.71,
    "won": false,
    "paa": -0.2,
-   "vor": 6.01,
-   "war": 0.07103088700914567
+   "vor": 8.03,
+   "war": 0.09490482906546419
   },
   {
    "season": "2026",
@@ -675,8 +675,8 @@
    "proj": 7.72,
    "won": false,
    "paa": -2.43,
-   "vor": 0.61,
-   "war": 0.007209457749680343
+   "vor": 2.63,
+   "war": 0.031083399805998856
   },
   {
    "season": "2026",
@@ -694,15 +694,15 @@
    "proj": null,
    "won": false,
    "paa": -18.79,
-   "vor": -10.49,
-   "war": -0.1239790357281095
+   "vor": -8.47,
+   "war": -0.100105093671791
   }
  ],
  "similar": [
   {
    "player": "6845",
    "name": "Zack Moss",
-   "score": 959,
+   "score": 950,
    "gs": 14,
    "pts": 140.5,
    "ppg": 10.04,
@@ -711,29 +711,20 @@
   {
    "player": "5987",
    "name": "Alexander Mattison",
-   "score": 954,
+   "score": 945,
    "gs": 12,
    "pts": 126.6,
    "ppg": 10.55,
    "war": 0.01
   },
   {
-   "player": "5248",
-   "name": "Gus Edwards",
-   "score": 945,
-   "gs": 13,
-   "pts": 129.2,
-   "ppg": 9.94,
-   "war": -0.02
-  },
-  {
    "player": "12529",
    "name": "TreVeyon Henderson",
-   "score": 938,
+   "score": 941,
    "gs": 12,
    "pts": 136.4,
    "ppg": 11.37,
-   "war": 0.37
+   "war": 0.4
   },
   {
    "player": "8408",
@@ -742,7 +733,16 @@
    "gs": 11,
    "pts": 122.5,
    "ppg": 11.14,
-   "war": 0.22
+   "war": 0.29
+  },
+  {
+   "player": "5248",
+   "name": "Gus Edwards",
+   "score": 936,
+   "gs": 13,
+   "pts": 129.2,
+   "ppg": 9.94,
+   "war": -0.02
   }
  ],
  "status": {
@@ -773,18 +773,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.2,
+   "value": 0.32,
    "digits": 2,
-   "rank": 163,
+   "rank": 144,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 16.8,
+   "value": 26.9,
    "digits": 1,
-   "rank": 164,
+   "rank": 146,
    "of": 424
   },
   {
@@ -845,9 +845,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.2,
+   "value": 0.32,
    "digits": 2,
-   "rank": 49,
+   "rank": 44,
    "of": 100
   },
   {
@@ -874,9 +874,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 0.26,
+   "value": 0.38,
    "digits": 2,
-   "rank": 17,
+   "rank": 15,
    "of": 82,
    "franchise": 4
   },
@@ -1022,10 +1022,10 @@
   }
  ],
  "hof": {
-  "score": 5.5,
-  "rank": 188,
+  "score": 6.7,
+  "rank": 174,
   "of": 424,
-  "war": 2.0,
+  "war": 3.2,
   "starts": 3.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1308,27 +1308,27 @@
    [
     "2026",
     6,
-    5.0
+    5.2
    ],
    [
     "2026",
     7,
-    5.15
+    5.65
    ],
    [
     "2026",
     8,
-    6.1
+    6.9
    ],
    [
     "2026",
     9,
-    6.45
+    7.45
    ],
    [
     "2026",
     10,
-    5.5
+    6.7
    ]
   ],
   "benchmark": 100

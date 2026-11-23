@@ -61,7 +61,7 @@
    "team": "NYJ",
    "g": 10,
    "pts": 50.2,
-   "rank": 79
+   "rank": 83
   }
  ],
  "history": [
@@ -154,6 +154,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "NYJ",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Ribs"
+    ],
+    "weeks": [
+     11
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 11,
+      "kind": "Out",
+      "injury": "Ribs",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -171,6 +196,23 @@
     "kinds": [
      "Out",
      "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 11,
+    "to": 11,
+    "weeks": [
+     11
+    ],
+    "missed": 1,
+    "nfl": "NYJ",
+    "injury": "Ribs",
+    "kinds": [
+     "Out"
     ],
     "teams": [],
     "rostered": 0,

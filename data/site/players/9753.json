@@ -80,8 +80,8 @@
    "best": 6.5,
    "wins": 1,
    "paa": -10.2,
-   "vor": -3.99,
-   "war": -0.05
+   "vor": -1.97,
+   "war": -0.02
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 25.7,
   "wins": 4,
   "paa": -9.25,
-  "vor": 24.95,
-  "war": 0.29
+  "vor": 26.97,
+  "war": 0.32
  },
  "nfl": [
   {
@@ -1118,8 +1118,8 @@
    "proj": 8.77,
    "won": true,
    "paa": -10.2,
-   "vor": -3.99,
-   "war": -0.047156944952827164
+   "vor": -1.97,
+   "war": -0.02328300289650865
   },
   {
    "season": "2026",
@@ -1158,11 +1158,11 @@
   {
    "player": "11586",
    "name": "Blake Corum",
-   "score": 935,
+   "score": 937,
    "gs": 9,
    "pts": 105.8,
    "ppg": 11.76,
-   "war": 0.16
+   "war": 0.35
   },
   {
    "player": "8143",
@@ -1176,20 +1176,11 @@
   {
    "player": "12534",
    "name": "Kyle Monangai",
-   "score": 913,
+   "score": 911,
    "gs": 12,
    "pts": 144.7,
    "ppg": 12.06,
-   "war": 0.4
-  },
-  {
-   "player": "12529",
-   "name": "TreVeyon Henderson",
-   "score": 889,
-   "gs": 12,
-   "pts": 136.4,
-   "ppg": 11.37,
-   "war": 0.37
+   "war": 0.5
   },
   {
    "player": "8408",
@@ -1198,7 +1189,16 @@
    "gs": 11,
    "pts": 122.5,
    "ppg": 11.14,
-   "war": 0.22
+   "war": 0.29
+  },
+  {
+   "player": "12529",
+   "name": "TreVeyon Henderson",
+   "score": 889,
+   "gs": 12,
+   "pts": 136.4,
+   "ppg": 11.37,
+   "war": 0.4
   }
  ],
  "status": {
@@ -1229,18 +1229,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.29,
+   "value": 0.32,
    "digits": 2,
-   "rank": 146,
+   "rank": 144,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 24.9,
+   "value": 27.0,
    "digits": 1,
-   "rank": 146,
+   "rank": 144,
    "of": 424
   },
   {
@@ -1301,7 +1301,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.29,
+   "value": 0.32,
    "digits": 2,
    "rank": 44,
    "of": 100
@@ -1330,9 +1330,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.04,
+   "value": -0.01,
    "digits": 2,
-   "rank": 42,
+   "rank": 34,
    "of": 69,
    "franchise": 8
   },
@@ -1508,10 +1508,10 @@
   }
  ],
  "hof": {
-  "score": 4.9,
-  "rank": 200,
+  "score": 5.2,
+  "rank": 194,
   "of": 424,
-  "war": 2.9,
+  "war": 3.2,
   "starts": 2.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1809,17 +1809,17 @@
    [
     "2026",
     8,
-    4.9
+    5.2
    ],
    [
     "2026",
     9,
-    4.9
+    5.2
    ],
    [
     "2026",
     10,
-    4.9
+    5.2
    ]
   ],
   "benchmark": 100
@@ -1882,7 +1882,7 @@
     "season": "2026",
     "nfl": "SEA",
     "missed": 7,
-    "lost": 1.47,
+    "lost": 15.61,
     "injuries": [
      "Knee"
     ],
@@ -2025,7 +2025,7 @@
      }
     ],
     "rostered": 7,
-    "lost": 1.47
+    "lost": 15.61
    }
   ],
   "now": null

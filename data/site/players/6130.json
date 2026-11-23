@@ -80,8 +80,8 @@
    "best": 15.0,
    "wins": 0,
    "paa": -20.28,
-   "vor": -7.27,
-   "war": -0.09
+   "vor": -1.21,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 19.8,
   "wins": 4,
   "paa": -92.78,
-  "vor": -25.99,
-  "war": -0.31
+  "vor": -19.93,
+  "war": -0.24
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "NYG",
-   "g": 6,
-   "pts": 43.7,
-   "rank": 56
+   "g": 7,
+   "pts": 45.8,
+   "rank": 57
   }
  ],
  "history": [
@@ -813,8 +813,8 @@
    "proj": 4.82,
    "won": false,
    "paa": -12.18,
-   "vor": -9.29,
-   "war": -0.10979649589267275
+   "vor": -7.27,
+   "war": -0.08592255383635425
   },
   {
    "season": "2026",
@@ -896,8 +896,8 @@
    "proj": 4.77,
    "won": false,
    "paa": -2.57,
-   "vor": 4.51,
-   "war": 0.053302712214849744
+   "vor": 6.53,
+   "war": 0.07717665427116827
   },
   {
    "season": "2026",
@@ -931,8 +931,8 @@
    "proj": 15.9,
    "won": false,
    "paa": -5.53,
-   "vor": -2.49,
-   "war": -0.029428770158531237
+   "vor": -0.47,
+   "war": -0.005554828102212723
   },
   {
    "season": "2026",
@@ -955,47 +955,47 @@
   {
    "player": "12533",
    "name": "Jacory Croskey-Merritt",
-   "score": 947,
+   "score": 953,
    "gs": 16,
    "pts": 140.1,
    "ppg": 8.76,
-   "war": 0.01
+   "war": 0.03
   },
   {
    "player": "5248",
    "name": "Gus Edwards",
-   "score": 879,
+   "score": 882,
    "gs": 13,
    "pts": 129.2,
    "ppg": 9.94,
    "war": -0.02
   },
   {
-   "player": "8154",
-   "name": "Brian Robinson Jr.",
-   "score": 879,
-   "gs": 14,
-   "pts": 90.1,
-   "ppg": 6.44,
-   "war": -0.42
-  },
-  {
    "player": "6845",
    "name": "Zack Moss",
-   "score": 877,
+   "score": 880,
    "gs": 14,
    "pts": 140.5,
    "ppg": 10.04,
    "war": 0.04
   },
   {
+   "player": "8154",
+   "name": "Brian Robinson Jr.",
+   "score": 878,
+   "gs": 14,
+   "pts": 90.1,
+   "ppg": 6.44,
+   "war": -0.42
+  },
+  {
    "player": "8132",
    "name": "Tyler Allgeier",
-   "score": 876,
+   "score": 875,
    "gs": 12,
    "pts": 117.65,
    "ppg": 9.8,
-   "war": 0.02
+   "war": 0.12
   }
  ],
  "status": {
@@ -1026,18 +1026,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.24,
    "digits": 2,
-   "rank": 382,
+   "rank": 366,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -26.0,
+   "value": -19.9,
    "digits": 1,
-   "rank": 382,
+   "rank": 366,
    "of": 424
   },
   {
@@ -1098,9 +1098,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.24,
    "digits": 2,
-   "rank": 95,
+   "rank": 90,
    "of": 100
   },
   {
@@ -1127,9 +1127,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.01,
    "digits": 2,
-   "rank": 25,
+   "rank": 23,
    "of": 49,
    "franchise": 12
   },
@@ -1276,7 +1276,7 @@
  ],
  "hof": {
   "score": 4.0,
-  "rank": 210,
+  "rank": 213,
   "of": 424,
   "war": 0.0,
   "starts": 4.0,

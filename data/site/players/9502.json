@@ -164,7 +164,7 @@
    "team": "HOU",
    "g": 4,
    "pts": 38.5,
-   "rank": 95
+   "rank": 99
   }
  ],
  "history": [
@@ -1241,25 +1241,25 @@
   {
    "player": "10222",
    "name": "Jayden Reed",
-   "score": 970,
+   "score": 969,
    "gs": 18,
    "pts": 222.6,
    "ppg": 12.37,
-   "war": 0.16
+   "war": 0.17
   },
   {
    "player": "8148",
    "name": "Jameson Williams",
-   "score": 959,
+   "score": 953,
    "gs": 19,
    "pts": 233.1,
    "ppg": 12.27,
-   "war": 0.29
+   "war": 0.33
   },
   {
    "player": "2309",
    "name": "Amari Cooper",
-   "score": 931,
+   "score": 932,
    "gs": 19,
    "pts": 217.2,
    "ppg": 11.43,
@@ -1268,20 +1268,20 @@
   {
    "player": "4037",
    "name": "Chris Godwin Jr.",
-   "score": 890,
+   "score": 887,
    "gs": 19,
    "pts": 256.4,
    "ppg": 13.49,
-   "war": 0.38
+   "war": 0.42
   },
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 884,
+   "score": 879,
    "gs": 24,
    "pts": 281.4,
    "ppg": 11.72,
-   "war": 0.16
+   "war": 0.29
   }
  ],
  "status": {
@@ -1314,7 +1314,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 192,
+   "rank": 196,
    "of": 424
   },
   {
@@ -1323,7 +1323,7 @@
    "stat": "VOR",
    "value": 4.8,
    "digits": 1,
-   "rank": 197,
+   "rank": 199,
    "of": 424
   },
   {
@@ -1386,7 +1386,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 50,
+   "rank": 52,
    "of": 127
   },
   {
@@ -1415,7 +1415,7 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 21,
+   "rank": 22,
    "of": 67,
    "franchise": 9
   },
@@ -1492,7 +1492,7 @@
  ],
  "hof": {
   "score": 5.35,
-  "rank": 191,
+  "rank": 192,
   "of": 424,
   "war": 0.6,
   "starts": 4.75,
@@ -2054,7 +2054,7 @@
     "season": "2026",
     "nfl": "HOU",
     "missed": 6,
-    "lost": 0.0,
+    "lost": 2.22,
     "injuries": [
      "Knee"
     ],
@@ -2278,7 +2278,7 @@
      }
     ],
     "rostered": 6,
-    "lost": 0.0
+    "lost": 2.22
    }
   ],
   "now": null

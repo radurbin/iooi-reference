@@ -91,7 +91,7 @@
    "team": "DAL",
    "g": 9,
    "pts": 9.3,
-   "rank": 155
+   "rank": 158
   }
  ],
  "history": [
@@ -579,7 +579,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 272,
+   "rank": 276,
    "of": 424
   },
   {
@@ -588,7 +588,7 @@
    "stat": "VOR",
    "value": -7.2,
    "digits": 1,
-   "rank": 272,
+   "rank": 276,
    "of": 424
   },
   {
@@ -642,7 +642,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 69,
+   "rank": 70,
    "of": 127
   },
   {
@@ -671,7 +671,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 54,
+   "rank": 55,
    "of": 68,
    "franchise": 3
   },
@@ -719,7 +719,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 371,
+  "rank": 370,
   "of": 424,
   "war": 0.0,
   "starts": 0.25,
@@ -1148,13 +1148,14 @@
    {
     "season": "2026",
     "nfl": "DAL",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Ankle"
     ],
     "weeks": [
-     10
+     10,
+     11
     ],
     "kinds": [
      "Out"
@@ -1163,6 +1164,13 @@
     "games": [
      {
       "week": 10,
+      "kind": "Out",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
       "kind": "Out",
       "injury": "Ankle",
       "franchise": null,
@@ -1222,11 +1230,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 11,
     "weeks": [
-     10
+     10,
+     11
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "DAL",
     "injury": "Ankle",
     "kinds": [

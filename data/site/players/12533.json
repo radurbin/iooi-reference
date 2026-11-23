@@ -41,8 +41,8 @@
    "best": 7.9,
    "wins": 1,
    "paa": -9.6,
-   "vor": -2.59,
-   "war": -0.03
+   "vor": -0.57,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -54,8 +54,8 @@
   "best": 27.0,
   "wins": 6,
   "paa": -91.31,
-  "vor": 0.76,
-  "war": 0.01
+  "vor": 2.78,
+  "war": 0.03
  },
  "nfl": [
   {
@@ -70,7 +70,7 @@
    "team": "WAS",
    "g": 5,
    "pts": 51.6,
-   "rank": 51
+   "rank": 53
   }
  ],
  "history": [
@@ -510,8 +510,8 @@
    "proj": 14.78,
    "won": true,
    "paa": -9.6,
-   "vor": -2.59,
-   "war": -0.030610648478150964
+   "vor": -0.57,
+   "war": -0.006736706421832451
   },
   {
    "season": "2026",
@@ -614,11 +614,11 @@
   {
    "player": "6130",
    "name": "Devin Singletary",
-   "score": 947,
+   "score": 953,
    "gs": 16,
    "pts": 131.9,
    "ppg": 8.24,
-   "war": -0.31
+   "war": -0.24
   },
   {
    "player": "6845",
@@ -641,20 +641,20 @@
   {
    "player": "8132",
    "name": "Tyler Allgeier",
-   "score": 906,
+   "score": 905,
    "gs": 12,
    "pts": 117.65,
    "ppg": 9.8,
-   "war": 0.02
+   "war": 0.12
   },
   {
-   "player": "7567",
-   "name": "Kenny Gainwell",
-   "score": 880,
-   "gs": 14,
-   "pts": 148.5,
-   "ppg": 10.61,
-   "war": 0.2
+   "player": "3164",
+   "name": "Ezekiel Elliott",
+   "score": 877,
+   "gs": 11,
+   "pts": 112.1,
+   "ppg": 10.19,
+   "war": -0.02
   }
  ],
  "status": {
@@ -685,18 +685,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.01,
+   "value": 0.03,
    "digits": 2,
-   "rank": 215,
+   "rank": 207,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 0.8,
+   "value": 2.8,
    "digits": 1,
-   "rank": 218,
+   "rank": 208,
    "of": 424
   },
   {
@@ -757,7 +757,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.01,
+   "value": 0.03,
    "digits": 2,
    "rank": 59,
    "of": 100
@@ -788,7 +788,7 @@
    "stat": "WAR",
    "value": 0.04,
    "digits": 2,
-   "rank": 36,
+   "rank": 38,
    "of": 76,
    "franchise": 2
   },
@@ -826,9 +826,9 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": -0.03,
+   "value": -0.01,
    "digits": 2,
-   "rank": 38,
+   "rank": 36,
    "of": 60,
    "franchise": 5
   },
@@ -904,10 +904,10 @@
   }
  ],
  "hof": {
-  "score": 4.1,
-  "rank": 209,
+  "score": 4.3,
+  "rank": 210,
   "of": 424,
-  "war": 0.1,
+  "war": 0.3,
   "starts": 4.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1015,37 +1015,37 @@
    [
     "2026",
     4,
-    4.1
+    4.3
    ],
    [
     "2026",
     5,
-    4.1
+    4.3
    ],
    [
     "2026",
     6,
-    4.1
+    4.3
    ],
    [
     "2026",
     7,
-    4.1
+    4.3
    ],
    [
     "2026",
     8,
-    4.1
+    4.3
    ],
    [
     "2026",
     9,
-    4.1
+    4.3
    ],
    [
     "2026",
     10,
-    4.1
+    4.3
    ]
   ],
   "benchmark": 100
@@ -1058,7 +1058,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 3,
-    "lost": 0.0,
+    "lost": 5.55,
     "injuries": [
      "Groin"
     ],
@@ -1119,7 +1119,7 @@
      }
     ],
     "rostered": 3,
-    "lost": 0.0
+    "lost": 5.55
    }
   ],
   "now": {

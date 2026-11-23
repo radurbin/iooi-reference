@@ -100,7 +100,7 @@
    "team": "TB",
    "g": 2,
    "pts": 0.0,
-   "rank": 200
+   "rank": 203
   }
  ],
  "history": [
@@ -758,7 +758,7 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 292,
+   "rank": 298,
    "of": 424
   },
   {
@@ -767,7 +767,7 @@
    "stat": "VOR",
    "value": -9.6,
    "digits": 1,
-   "rank": 299,
+   "rank": 306,
    "of": 424
   },
   {
@@ -821,7 +821,7 @@
    "stat": "WAR",
    "value": -0.11,
    "digits": 2,
-   "rank": 77,
+   "rank": 80,
    "of": 127
   },
   {
@@ -898,7 +898,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 371,
+  "rank": 370,
   "of": 424,
   "war": 0.0,
   "starts": 0.25,
@@ -1307,7 +1307,7 @@
    {
     "season": "2026",
     "nfl": "TB",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
      "Knee",
@@ -1320,7 +1320,8 @@
      6,
      7,
      8,
-     9
+     9,
+     11
     ],
     "kinds": [
      "Doubtful",
@@ -1372,6 +1373,13 @@
      },
      {
       "week": 9,
+      "kind": "IR",
+      "injury": "Knee - PCL",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 11,
       "kind": "IR",
       "injury": "Knee - PCL",
       "franchise": null,
@@ -1487,16 +1495,17 @@
    {
     "season": "2026",
     "from": 4,
-    "to": 9,
+    "to": 11,
     "weeks": [
      4,
      5,
      6,
      7,
      8,
-     9
+     9,
+     11
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "TB",
     "injury": "Knee",
     "kinds": [

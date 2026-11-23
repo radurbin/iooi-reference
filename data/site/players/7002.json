@@ -57,8 +57,8 @@
    "best": 26.8,
    "wins": 2,
    "paa": 11.42,
-   "vor": 9.4,
-   "war": 0.11
+   "vor": 11.58,
+   "war": 0.14
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 26.8,
   "wins": 4,
   "paa": -21.74,
-  "vor": -13.18,
-  "war": -0.16
+  "vor": -11.0,
+  "war": -0.13
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "NO",
-   "g": 9,
+   "g": 10,
    "pts": 87.2,
-   "rank": 14
+   "rank": 17
   }
  ],
  "history": [
@@ -516,8 +516,8 @@
    "proj": 10.28,
    "won": true,
    "paa": 14.14,
-   "vor": 15.7,
-   "war": 0.18555489618029733
+   "vor": 16.79,
+   "war": 0.1984373698641524
   },
   {
    "season": "2026",
@@ -631,15 +631,15 @@
    "proj": 8.34,
    "won": true,
    "paa": -2.72,
-   "vor": -6.3,
-   "war": -0.07445833413604289
+   "vor": -5.21,
+   "war": -0.061575860452187846
   }
  ],
  "similar": [
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 974,
+   "score": 976,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -652,7 +652,7 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.14
+   "war": -0.11
   },
   {
    "player": "12493",
@@ -661,7 +661,7 @@
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.2
+   "war": -0.19
   },
   {
    "player": "7600",
@@ -670,16 +670,16 @@
    "gs": 19,
    "pts": 179.3,
    "ppg": 9.44,
-   "war": -0.23
+   "war": -0.16
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 744,
+   "score": 740,
    "gs": 12,
    "pts": 131.4,
    "ppg": 10.95,
-   "war": 0.08
+   "war": 0.18
   }
  ],
  "status": {
@@ -710,18 +710,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.16,
+   "value": -0.13,
    "digits": 2,
-   "rank": 335,
+   "rank": 319,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -13.2,
+   "value": -11.0,
    "digits": 1,
-   "rank": 335,
+   "rank": 323,
    "of": 424
   },
   {
@@ -782,9 +782,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.16,
+   "value": -0.13,
    "digits": 2,
-   "rank": 35,
+   "rank": 34,
    "of": 52
   },
   {
@@ -813,7 +813,7 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 46,
+   "rank": 48,
    "of": 82,
    "franchise": 4
   },
@@ -851,9 +851,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": -0.09,
+   "value": -0.06,
    "digits": 2,
-   "rank": 56,
+   "rank": 53,
    "of": 68,
    "franchise": 3
   },
@@ -960,7 +960,7 @@
  ],
  "hof": {
   "score": 2.25,
-  "rank": 255,
+  "rank": 254,
   "of": 424,
   "war": 0.0,
   "starts": 2.25,
@@ -1227,6 +1227,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 0
+  }
  }
 }

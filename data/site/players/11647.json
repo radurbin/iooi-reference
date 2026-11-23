@@ -64,8 +64,8 @@
    "best": 7.7,
    "wins": 0,
    "paa": -5.7,
-   "vor": -2.79,
-   "war": -0.03
+   "vor": -0.77,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 19.7,
   "wins": 3,
   "paa": -26.95,
-  "vor": 10.32,
-  "war": 0.12
+  "vor": 12.34,
+  "war": 0.15
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "LAC",
-   "g": 9,
-   "pts": 53.25,
-   "rank": 50
+   "g": 10,
+   "pts": 61.35,
+   "rank": 46
   }
  ],
  "history": [
@@ -711,8 +711,8 @@
    "proj": 7.76,
    "won": false,
    "paa": -5.7,
-   "vor": -2.79,
-   "war": -0.03297440511739042
+   "vor": -0.77,
+   "war": -0.00910046306107191
   },
   {
    "season": "2026",
@@ -790,18 +790,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.12,
+   "value": 0.15,
    "digits": 2,
-   "rank": 180,
+   "rank": 173,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 10.3,
+   "value": 12.3,
    "digits": 1,
-   "rank": 182,
+   "rank": 176,
    "of": 424
   },
   {
@@ -853,7 +853,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.12,
+   "value": 0.15,
    "digits": 2,
    "rank": 51,
    "of": 100
@@ -882,9 +882,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.03,
+   "value": -0.01,
    "digits": 2,
-   "rank": 39,
+   "rank": 34,
    "of": 69,
    "franchise": 8
   },
@@ -1001,10 +1001,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 2.95,
-  "rank": 234,
+  "score": 3.25,
+  "rank": 227,
   "of": 424,
-  "war": 1.2,
+  "war": 1.5,
   "starts": 1.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1207,27 +1207,27 @@
    [
     "2026",
     6,
-    2.95
+    3.25
    ],
    [
     "2026",
     7,
-    2.95
+    3.25
    ],
    [
     "2026",
     8,
-    2.95
+    3.25
    ],
    [
     "2026",
     9,
-    2.95
+    3.25
    ],
    [
     "2026",
     10,
-    2.95
+    3.25
    ]
   ],
   "benchmark": 100

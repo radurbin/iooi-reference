@@ -114,8 +114,8 @@
    "best": 23.68,
    "wins": 0,
    "paa": -3.92,
-   "vor": 11.22,
-   "war": 0.13
+   "vor": 6.95,
+   "war": 0.08
   }
  ],
  "totals": {
@@ -127,8 +127,8 @@
   "best": 29.96,
   "wins": 20,
   "paa": -107.18,
-  "vor": 31.82,
-  "war": 0.38
+  "vor": 27.55,
+  "war": 0.33
  },
  "nfl": [
   {
@@ -155,9 +155,9 @@
   {
    "season": "2026",
    "team": "NYJ",
-   "g": 10,
-   "pts": 140.34,
-   "rank": 16
+   "g": 11,
+   "pts": 159.88,
+   "rank": 15
   }
  ],
  "history": [
@@ -1194,8 +1194,8 @@
    "proj": 13.47,
    "won": false,
    "paa": -9.31,
-   "vor": -0.99,
-   "war": -0.01170059536423531
+   "vor": -3.12,
+   "war": -0.036874603572135525
   },
   {
    "season": "2026",
@@ -1229,8 +1229,8 @@
    "proj": 15.75,
    "won": false,
    "paa": 5.39,
-   "vor": 12.21,
-   "war": 0.14430734282556884
+   "vor": 10.07,
+   "war": 0.11901514678570665
   },
   {
    "season": "2026",
@@ -1285,20 +1285,20 @@
   {
    "player": "1166",
    "name": "Kirk Cousins",
-   "score": 829,
+   "score": 842,
    "gs": 32,
    "pts": 502.74,
    "ppg": 15.71,
-   "war": 1.18
+   "war": 0.95
   },
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 825,
+   "score": 830,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
-   "war": 1.03
+   "war": 0.88
   },
   {
    "player": "96",
@@ -1307,7 +1307,7 @@
    "gs": 24,
    "pts": 322.32,
    "ppg": 13.43,
-   "war": 0.41
+   "war": 0.36
   },
   {
    "player": "5870",
@@ -1316,12 +1316,12 @@
    "gs": 22,
    "pts": 314.82,
    "ppg": 14.31,
-   "war": 0.51
+   "war": 0.46
   },
   {
    "player": "1234",
    "name": "Russell Wilson",
-   "score": 758,
+   "score": 756,
    "gs": 23,
    "pts": 365.04,
    "ppg": 15.87,
@@ -1356,18 +1356,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.38,
+   "value": 0.33,
    "digits": 2,
-   "rank": 130,
+   "rank": 140,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 31.8,
+   "value": 27.6,
    "digits": 1,
-   "rank": 132,
+   "rank": 142,
    "of": 424
   },
   {
@@ -1428,9 +1428,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 0.38,
+   "value": 0.33,
    "digits": 2,
-   "rank": 31,
+   "rank": 30,
    "of": 68
   },
   {
@@ -1457,9 +1457,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.03,
    "digits": 2,
-   "rank": 20,
+   "rank": 28,
    "of": 67,
    "franchise": 9
   },
@@ -1635,10 +1635,10 @@
   }
  ],
  "hof": {
-  "score": 16.3,
-  "rank": 92,
+  "score": 15.8,
+  "rank": 96,
   "of": 424,
-  "war": 3.8,
+  "war": 3.3,
   "starts": 8.5,
   "black_ink": 0.0,
   "awards": 4.0,
@@ -1921,32 +1921,32 @@
    [
     "2026",
     5,
-    14.55
+    14.35
    ],
    [
     "2026",
     6,
-    14.55
+    14.35
    ],
    [
     "2026",
     7,
-    16.3
+    15.8
    ],
    [
     "2026",
     8,
-    16.3
+    15.8
    ],
    [
     "2026",
     9,
-    16.3
+    15.8
    ],
    [
     "2026",
     10,
-    16.3
+    15.8
    ]
   ],
   "benchmark": 100

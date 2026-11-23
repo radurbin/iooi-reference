@@ -85,8 +85,8 @@
    "best": 25.42,
    "wins": 4,
    "paa": -6.24,
-   "vor": 24.97,
-   "war": 0.3
+   "vor": 14.28,
+   "war": 0.17
   }
  ],
  "totals": {
@@ -98,8 +98,8 @@
   "best": 35.14,
   "wins": 36,
   "paa": 169.01,
-  "vor": 371.97,
-  "war": 4.4
+  "vor": 361.28,
+  "war": 4.27
  },
  "nfl": [
   {
@@ -128,7 +128,7 @@
    "team": "PHI",
    "g": 5,
    "pts": 82.32,
-   "rank": 28
+   "rank": 29
   }
  ],
  "history": [
@@ -1163,8 +1163,8 @@
    "proj": 21.15,
    "won": false,
    "paa": 6.93,
-   "vor": 13.95,
-   "war": 0.1648720255869521
+   "vor": 11.82,
+   "war": 0.13969801737905188
   },
   {
    "season": "2026",
@@ -1182,8 +1182,8 @@
    "proj": 21.11,
    "won": true,
    "paa": -1.08,
-   "vor": 5.19,
-   "war": 0.061339484788263905
+   "vor": 3.05,
+   "war": 0.03604728874840171
   },
   {
    "season": "2026",
@@ -1201,8 +1201,8 @@
    "proj": 18.21,
    "won": true,
    "paa": -4.3,
-   "vor": 1.55,
-   "war": 0.01831911395410579
+   "vor": -0.59,
+   "war": -0.006973082085756397
   },
   {
    "season": "2026",
@@ -1220,8 +1220,8 @@
    "proj": 16.51,
    "won": true,
    "paa": -1.2,
-   "vor": 2.55,
-   "war": 0.030137897150303072
+   "vor": 0.41,
+   "war": 0.004845701110440886
   },
   {
    "season": "2026",
@@ -1239,8 +1239,8 @@
    "proj": 14.76,
    "won": true,
    "paa": -6.59,
-   "vor": 1.73,
-   "war": 0.0204464949294213
+   "vor": -0.41,
+   "war": -0.004845701110440886
   },
   {
    "season": "2026",
@@ -1331,43 +1331,43 @@
    "gs": 47,
    "pts": 944.6,
    "ppg": 20.1,
-   "war": 4.09
+   "war": 3.96
   },
   {
    "player": "8183",
    "name": "Brock Purdy",
-   "score": 886,
+   "score": 875,
    "gs": 47,
    "pts": 924.92,
    "ppg": 19.68,
-   "war": 3.85
+   "war": 3.63
   },
   {
    "player": "4046",
    "name": "Patrick Mahomes",
-   "score": 880,
+   "score": 867,
    "gs": 52,
    "pts": 978.88,
    "ppg": 18.82,
-   "war": 3.82
+   "war": 3.59
   },
   {
    "player": "3294",
    "name": "Dak Prescott",
-   "score": 842,
+   "score": 828,
    "gs": 45,
    "pts": 883.02,
    "ppg": 19.62,
-   "war": 3.74
+   "war": 3.49
   },
   {
    "player": "3163",
    "name": "Jared Goff",
-   "score": 840,
+   "score": 827,
    "gs": 49,
    "pts": 912.62,
    "ppg": 18.62,
-   "war": 3.63
+   "war": 3.4
   }
  ],
  "status": {
@@ -1398,18 +1398,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 4.4,
+   "value": 4.27,
    "digits": 2,
-   "rank": 12,
+   "rank": 14,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 372.0,
+   "value": 361.3,
    "digits": 1,
-   "rank": 13,
+   "rank": 14,
    "of": 424
   },
   {
@@ -1461,7 +1461,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 4.4,
+   "value": 4.27,
    "digits": 2,
    "rank": 2,
    "of": 68
@@ -1490,7 +1490,7 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 4.4,
+   "value": 4.27,
    "digits": 2,
    "rank": 3,
    "of": 60,
@@ -1628,10 +1628,10 @@
   }
  ],
  "hof": {
-  "score": 66.5,
-  "rank": 11,
+  "score": 65.2,
+  "rank": 12,
   "of": 424,
-  "war": 44.0,
+  "war": 42.7,
   "starts": 12.5,
   "black_ink": 0.0,
   "awards": 10.0,
@@ -1894,52 +1894,52 @@
    [
     "2026",
     1,
-    64.2
+    63.9
    ],
    [
     "2026",
     2,
-    65.05
+    64.55
    ],
    [
     "2026",
     3,
-    65.5
+    64.7
    ],
    [
     "2026",
     4,
-    66.05
+    64.95
    ],
    [
     "2026",
     5,
-    66.5
+    65.2
    ],
    [
     "2026",
     6,
-    66.5
+    65.2
    ],
    [
     "2026",
     7,
-    66.5
+    65.2
    ],
    [
     "2026",
     8,
-    66.5
+    65.2
    ],
    [
     "2026",
     9,
-    66.5
+    65.2
    ],
    [
     "2026",
     10,
-    66.5
+    65.2
    ]
   ],
   "benchmark": 100
@@ -1976,8 +1976,8 @@
    {
     "season": "2026",
     "nfl": "PHI",
-    "missed": 4,
-    "lost": 19.96,
+    "missed": 5,
+    "lost": 11.4,
     "injuries": [
      "Calf"
     ],
@@ -1985,7 +1985,8 @@
      6,
      7,
      8,
-     9
+     9,
+     11
     ],
     "kinds": [
      "IR"
@@ -2019,6 +2020,13 @@
       "injury": "Calf",
       "franchise": 5,
       "team": "St. Brown VS Board💍"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2049,14 +2057,15 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 9,
+    "to": 11,
     "weeks": [
      6,
      7,
      8,
-     9
+     9,
+     11
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "PHI",
     "injury": "Calf",
     "kinds": [
@@ -2069,14 +2078,14 @@
      }
     ],
     "rostered": 4,
-    "lost": 19.96
+    "lost": 11.4
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Calf",
    "since": null,
-   "streak": 4
+   "streak": 5
   }
  }
 }

@@ -96,8 +96,8 @@
    "best": 19.5,
    "wins": 3,
    "paa": -23.65,
-   "vor": -2.02,
-   "war": -0.02
+   "vor": 4.34,
+   "war": 0.05
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 49.0,
   "wins": 17,
   "paa": -0.41,
-  "vor": 94.66,
-  "war": 1.12
+  "vor": 101.02,
+  "war": 1.19
  },
  "nfl": [
   {
@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "BUF",
-   "g": 7,
-   "pts": 80.9,
-   "rank": 44
+   "g": 8,
+   "pts": 104.0,
+   "rank": 28
   }
  ],
  "history": [
@@ -1162,8 +1162,8 @@
    "proj": 13.19,
    "won": false,
    "paa": -15.28,
-   "vor": -10.32,
-   "war": -0.12196984258475597
+   "vor": -9.26,
+   "war": -0.10944193239678685
   },
   {
    "season": "2026",
@@ -1181,8 +1181,8 @@
    "proj": 12.41,
    "won": true,
    "paa": 0.58,
-   "vor": 3.88,
-   "war": 0.045856878801245456
+   "vor": 4.94,
+   "war": 0.058384788989214585
   },
   {
    "season": "2026",
@@ -1200,8 +1200,8 @@
    "proj": 13.89,
    "won": false,
    "paa": -11.85,
-   "vor": -7.52,
-   "war": -0.08887724963540357
+   "vor": -6.46,
+   "war": -0.07634933944743445
   },
   {
    "season": "2026",
@@ -1267,8 +1267,8 @@
    "proj": 14.04,
    "won": true,
    "paa": 3.56,
-   "vor": 6.38,
-   "war": 0.07540383679173866
+   "vor": 7.44,
+   "war": 0.08793174697970779
   },
   {
    "season": "2026",
@@ -1286,8 +1286,8 @@
    "proj": 12.8,
    "won": true,
    "paa": -6.94,
-   "vor": -3.62,
-   "war": -0.042783995170234165
+   "vor": -2.56,
+   "war": -0.030256084982265046
   },
   {
    "season": "2026",
@@ -1305,55 +1305,55 @@
    "proj": 12.06,
    "won": false,
    "paa": 6.28,
-   "vor": 9.18,
-   "war": 0.10849642974109105
+   "vor": 10.24,
+   "war": 0.12102433992906018
   }
  ],
  "similar": [
   {
    "player": "7525",
    "name": "DeVonta Smith",
-   "score": 969,
+   "score": 972,
    "gs": 43,
    "pts": 598.8,
    "ppg": 13.93,
-   "war": 1.26
+   "war": 1.31
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 902,
+   "score": 899,
    "gs": 39,
    "pts": 555.1,
    "ppg": 14.23,
-   "war": 1.29
+   "war": 1.41
   },
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 885,
+   "score": 880,
    "gs": 41,
    "pts": 598.8,
    "ppg": 14.6,
-   "war": 1.61
+   "war": 1.72
   },
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 866,
+   "score": 867,
    "gs": 38,
    "pts": 505.1,
    "ppg": 13.29,
-   "war": 0.99
+   "war": 1.09
   },
   {
    "player": "8112",
    "name": "Drake London",
-   "score": 852,
+   "score": 850,
    "gs": 49,
    "pts": 668.05,
    "ppg": 13.63,
-   "war": 1.37
+   "war": 1.49
   }
  ],
  "status": {
@@ -1384,18 +1384,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.12,
+   "value": 1.19,
    "digits": 2,
-   "rank": 73,
+   "rank": 72,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 94.7,
+   "value": 101.0,
    "digits": 1,
-   "rank": 73,
+   "rank": 72,
    "of": 424
   },
   {
@@ -1456,7 +1456,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.12,
+   "value": 1.19,
    "digits": 2,
    "rank": 21,
    "of": 127
@@ -1487,7 +1487,7 @@
    "stat": "WAR",
    "value": 0.13,
    "digits": 2,
-   "rank": 24,
+   "rank": 26,
    "of": 69,
    "franchise": 8
   },
@@ -1565,9 +1565,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": -0.01,
+   "value": 0.06,
    "digits": 2,
-   "rank": 42,
+   "rank": 34,
    "of": 76,
    "franchise": 2
   },
@@ -1703,10 +1703,10 @@
   }
  ],
  "hof": {
-  "score": 21.95,
-  "rank": 73,
+  "score": 22.65,
+  "rank": 71,
   "of": 424,
-  "war": 11.2,
+  "war": 11.9,
   "starts": 10.75,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1974,47 +1974,47 @@
    [
     "2026",
     2,
-    19.7
+    19.8
    ],
    [
     "2026",
     3,
-    20.45
+    20.65
    ],
    [
     "2026",
     4,
-    19.8
+    20.2
    ],
    [
     "2026",
     5,
-    19.8
+    20.2
    ],
    [
     "2026",
     6,
-    19.8
+    20.2
    ],
    [
     "2026",
     7,
-    19.8
+    20.2
    ],
    [
     "2026",
     8,
-    20.75
+    21.25
    ],
    [
     "2026",
     9,
-    20.6
+    21.2
    ],
    [
     "2026",
     10,
-    21.95
+    22.65
    ]
   ],
   "benchmark": 100
@@ -2027,7 +2027,7 @@
     "season": "2026",
     "nfl": "BUF",
     "missed": 2,
-    "lost": 2.48,
+    "lost": 7.48,
     "injuries": [
      "Shoulder"
     ],
@@ -2079,9 +2079,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 2.48
+    "lost": 7.48
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Knee",
+   "since": null,
+   "streak": 0
+  }
  }
 }

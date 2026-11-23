@@ -2,7 +2,7 @@
  "id": "2197",
  "name": "Brandin Cooks",
  "pos": "WR",
- "nfl_team": "SF",
+ "nfl_team": null,
  "birth_date": "1993-09-25",
  "honors": [],
  "votes": [],
@@ -107,7 +107,7 @@
    "team": "SF",
    "g": 5,
    "pts": 16.8,
-   "rank": 127
+   "rank": 134
   }
  ],
  "history": [
@@ -544,7 +544,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "out",
+  "last_nfl": "2026"
  },
  "split_draft": null,
  "ranks": [
@@ -572,7 +573,7 @@
    "stat": "WAR",
    "value": -0.16,
    "digits": 2,
-   "rank": 335,
+   "rank": 339,
    "of": 424
   },
   {
@@ -581,7 +582,7 @@
    "stat": "VOR",
    "value": -13.4,
    "digits": 1,
-   "rank": 336,
+   "rank": 341,
    "of": 424
   },
   {
@@ -712,7 +713,7 @@
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 304,
+  "rank": 306,
   "of": 424,
   "war": 0.0,
   "starts": 1.0,

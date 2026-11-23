@@ -124,9 +124,9 @@
   {
    "season": "2026",
    "team": "MIN",
-   "g": 8,
-   "pts": 88.8,
-   "rank": 12
+   "g": 9,
+   "pts": 100.3,
+   "rank": 8
   }
  ],
  "history": [
@@ -1199,7 +1199,7 @@
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 919,
+   "score": 920,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
@@ -1208,29 +1208,29 @@
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 859,
+   "score": 871,
    "gs": 16,
    "pts": 191.95,
    "ppg": 12.0,
-   "war": 0.32
+   "war": 0.44
   },
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 845,
+   "score": 852,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.42
+   "war": 0.54
   },
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 837,
+   "score": 841,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.4
+   "war": 0.47
   },
   {
    "player": "4144",
@@ -1281,7 +1281,7 @@
    "stat": "VOR",
    "value": 52.1,
    "digits": 1,
-   "rank": 104,
+   "rank": 105,
    "of": 424
   },
   {
@@ -1934,7 +1934,7 @@
     "season": "2026",
     "nfl": "MIN",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 1.13,
     "injuries": [
      "Wrist"
     ],
@@ -2049,7 +2049,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 1.13
    }
   ],
   "now": null

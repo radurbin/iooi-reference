@@ -118,8 +118,8 @@
    "best": 14.3,
    "wins": 2,
    "paa": -21.55,
-   "vor": -3.47,
-   "war": -0.04
+   "vor": 2.59,
+   "war": 0.03
   }
  ],
  "totals": {
@@ -131,8 +131,8 @@
   "best": 40.5,
   "wins": 23,
   "paa": 149.33,
-  "vor": 333.31,
-  "war": 3.94
+  "vor": 339.37,
+  "war": 4.01
  },
  "nfl": [
   {
@@ -1168,8 +1168,8 @@
    "proj": 18.0,
    "won": false,
    "paa": -8.23,
-   "vor": 1.21,
-   "war": 0.014300727667398712
+   "vor": 3.23,
+   "war": 0.038174669723717226
   },
   {
    "season": "2026",
@@ -1187,8 +1187,8 @@
    "proj": 18.19,
    "won": true,
    "paa": 0.92,
-   "vor": 3.81,
-   "war": 0.04502956397751165
+   "vor": 5.83,
+   "war": 0.06890350603383016
   },
   {
    "season": "2026",
@@ -1206,8 +1206,8 @@
    "proj": 17.79,
    "won": true,
    "paa": -14.24,
-   "vor": -8.49,
-   "war": -0.10034146933571494
+   "vor": -6.47,
+   "war": -0.07646752727939642
   },
   {
    "season": "2026",
@@ -1326,47 +1326,47 @@
   {
    "player": "7594",
    "name": "Chuba Hubbard",
-   "score": 823,
+   "score": 839,
    "gs": 34,
    "pts": 578.4,
    "ppg": 17.01,
-   "war": 2.95
+   "war": 3.16
   },
   {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 787,
+   "score": 793,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
-   "war": 3.32
+   "war": 3.51
   },
   {
    "player": "4035",
    "name": "Alvin Kamara",
-   "score": 781,
+   "score": 778,
    "gs": 30,
    "pts": 532.8,
    "ppg": 17.76,
    "war": 2.88
   },
   {
-   "player": "8150",
-   "name": "Kyren Williams",
-   "score": 752,
-   "gs": 48,
-   "pts": 842.3,
-   "ppg": 17.55,
-   "war": 4.54
-  },
-  {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 747,
+   "score": 749,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
-   "war": 3.05
+   "war": 3.13
+  },
+  {
+   "player": "8150",
+   "name": "Kyren Williams",
+   "score": 745,
+   "gs": 48,
+   "pts": 842.3,
+   "ppg": 17.55,
+   "war": 4.78
   }
  ],
  "status": {
@@ -1397,18 +1397,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.94,
+   "value": 4.01,
    "digits": 2,
-   "rank": 16,
+   "rank": 15,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 333.3,
+   "value": 339.4,
    "digits": 1,
-   "rank": 16,
+   "rank": 15,
    "of": 424
   },
   {
@@ -1469,7 +1469,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 3.94,
+   "value": 4.01,
    "digits": 2,
    "rank": 8,
    "of": 100
@@ -1538,7 +1538,7 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 3.62,
+   "value": 3.69,
    "digits": 2,
    "rank": 4,
    "of": 60,
@@ -1676,10 +1676,10 @@
   }
  ],
  "hof": {
-  "score": 58.65,
+  "score": 59.35,
   "rank": 17,
   "of": 424,
-  "war": 39.4,
+  "war": 40.1,
   "starts": 9.25,
   "black_ink": 0.0,
   "awards": 10.0,
@@ -1942,52 +1942,52 @@
    [
     "2026",
     1,
-    58.65
+    58.95
    ],
    [
     "2026",
     2,
-    59.4
+    59.9
    ],
    [
     "2026",
     3,
-    58.65
+    59.35
    ],
    [
     "2026",
     4,
-    58.65
+    59.35
    ],
    [
     "2026",
     5,
-    58.65
+    59.35
    ],
    [
     "2026",
     6,
-    58.65
+    59.35
    ],
    [
     "2026",
     7,
-    58.65
+    59.35
    ],
    [
     "2026",
     8,
-    58.65
+    59.35
    ],
    [
     "2026",
     9,
-    58.65
+    59.35
    ],
    [
     "2026",
     10,
-    58.65
+    59.35
    ]
   ],
   "benchmark": 100
@@ -2067,8 +2067,8 @@
    {
     "season": "2026",
     "nfl": "MIA",
-    "missed": 6,
-    "lost": 49.26,
+    "missed": 7,
+    "lost": 61.38,
     "injuries": [
      "Knee - ACL"
     ],
@@ -2078,7 +2078,8 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -2126,6 +2127,13 @@
       "injury": "Knee - ACL",
       "franchise": 5,
       "team": "St. Brown VS Board💍"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee - ACL",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2207,16 +2215,17 @@
    {
     "season": "2026",
     "from": 4,
-    "to": 10,
+    "to": 11,
     "weeks": [
      4,
      5,
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "MIA",
     "injury": "Knee - ACL",
     "kinds": [
@@ -2229,14 +2238,14 @@
      }
     ],
     "rostered": 6,
-    "lost": 49.26
+    "lost": 61.38
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Knee - ACL",
    "since": null,
-   "streak": 6
+   "streak": 7
   }
  }
 }

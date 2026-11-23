@@ -64,8 +64,8 @@
    "best": 22.18,
    "wins": 2,
    "paa": -9.75,
-   "vor": 12.98,
-   "war": 0.15
+   "vor": 4.43,
+   "war": 0.05
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 22.18,
   "wins": 8,
   "paa": -58.54,
-  "vor": -10.84,
-  "war": -0.13
+  "vor": -19.39,
+  "war": -0.23
  },
  "nfl": [
   {
@@ -100,7 +100,7 @@
    "team": "CLE",
    "g": 9,
    "pts": 145.22,
-   "rank": 15
+   "rank": 18
   }
  ],
  "history": [
@@ -662,8 +662,8 @@
    "proj": 14.46,
    "won": true,
    "paa": -1.6,
-   "vor": 2.15,
-   "war": 0.02541038387182416
+   "vor": 0.01,
+   "war": 0.00011818783196197284
   },
   {
    "season": "2026",
@@ -681,8 +681,8 @@
    "proj": 14.2,
    "won": false,
    "paa": -6.99,
-   "vor": 1.33,
-   "war": 0.015718981650942387
+   "vor": -0.8,
+   "war": -0.009455026556957827
   },
   {
    "season": "2026",
@@ -700,8 +700,8 @@
    "proj": 14.29,
    "won": false,
    "paa": -5.69,
-   "vor": -1.21,
-   "war": -0.014300727667398712
+   "vor": -3.35,
+   "war": -0.0395929237072609
   },
   {
    "season": "2026",
@@ -767,24 +767,24 @@
    "proj": 15.48,
    "won": true,
    "paa": 4.53,
-   "vor": 10.71,
-   "war": 0.12657916803127292
+   "vor": 8.57,
+   "war": 0.10128697199141072
   }
  ],
  "similar": [
   {
    "player": "6011",
    "name": "Gardner Minshew II",
-   "score": 990,
+   "score": 987,
    "gs": 13,
    "pts": 164.56,
    "ppg": 12.66,
-   "war": -0.12
+   "war": -0.17
   },
   {
    "player": "4179",
    "name": "Joshua Dobbs",
-   "score": 916,
+   "score": 919,
    "gs": 9,
    "pts": 109.08,
    "ppg": 12.12,
@@ -793,7 +793,7 @@
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 877,
+   "score": 874,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -802,16 +802,16 @@
   {
    "player": "11559",
    "name": "Michael Penix Jr.",
-   "score": 861,
+   "score": 859,
    "gs": 10,
    "pts": 142.98,
    "ppg": 14.3,
-   "war": 0.33
+   "war": 0.23
   },
   {
    "player": "9999",
    "name": "Will Levis",
-   "score": 854,
+   "score": 858,
    "gs": 11,
    "pts": 114.72,
    "ppg": 10.43,
@@ -846,18 +846,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.23,
    "digits": 2,
-   "rank": 315,
+   "rank": 363,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -10.8,
+   "value": -19.4,
    "digits": 1,
-   "rank": 319,
+   "rank": 365,
    "of": 424
   },
   {
@@ -918,9 +918,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.23,
    "digits": 2,
-   "rank": 58,
+   "rank": 62,
    "of": 68
   },
   {
@@ -947,9 +947,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.15,
+   "value": 0.05,
    "digits": 2,
-   "rank": 13,
+   "rank": 20,
    "of": 49,
    "franchise": 12
   },
@@ -989,7 +989,7 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 61,
+   "rank": 62,
    "of": 67,
    "franchise": 9
   },
@@ -1096,7 +1096,7 @@
  ],
  "hof": {
   "score": 3.25,
-  "rank": 225,
+  "rank": 227,
   "of": 424,
   "war": 0.0,
   "starts": 3.25,
@@ -1752,7 +1752,7 @@
     "season": "2026",
     "nfl": "CLE",
     "missed": 1,
-    "lost": 4.67,
+    "lost": 2.53,
     "injuries": [
      "Concussion"
     ],
@@ -1931,7 +1931,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 4.67
+    "lost": 2.53
    }
   ],
   "now": null

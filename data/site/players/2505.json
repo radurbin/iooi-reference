@@ -64,8 +64,8 @@
    "best": 23.0,
    "wins": 0,
    "paa": -2.46,
-   "vor": -3.8,
-   "war": -0.04
+   "vor": -0.53,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 23.0,
   "wins": 8,
   "paa": -70.24,
-  "vor": -57.24,
-  "war": -0.68
+  "vor": -53.97,
+  "war": -0.64
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "CAR",
-   "g": 9,
-   "pts": 81.3,
-   "rank": 19
+   "g": 10,
+   "pts": 88.5,
+   "rank": 16
   }
  ],
  "history": [
@@ -856,8 +856,8 @@
    "proj": 7.66,
    "won": false,
    "paa": -10.75,
-   "vor": -9.0,
-   "war": -0.10636904876577555
+   "vor": -7.91,
+   "war": -0.09348657508192051
   },
   {
    "season": "2026",
@@ -875,8 +875,8 @@
    "proj": 6.54,
    "won": false,
    "paa": 11.41,
-   "vor": 11.9,
-   "war": 0.14064352003474767
+   "vor": 12.99,
+   "war": 0.1535259937186027
   },
   {
    "season": "2026",
@@ -894,15 +894,15 @@
    "proj": 8.92,
    "won": false,
    "paa": -3.12,
-   "vor": -6.7,
-   "war": -0.0791858474145218
+   "vor": -5.61,
+   "war": -0.06630337373066676
   }
  ],
  "similar": [
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 982,
+   "score": 974,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -911,38 +911,38 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 796,
+   "score": 793,
    "gs": 19,
    "pts": 179.3,
    "ppg": 9.44,
-   "war": -0.23
+   "war": -0.16
   },
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 729,
+   "score": 732,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.14
+   "war": -0.11
   },
   {
    "player": "7002",
    "name": "Juwan Johnson",
-   "score": 705,
+   "score": 707,
    "gs": 9,
    "pts": 73.3,
    "ppg": 8.14,
-   "war": -0.16
+   "war": -0.13
   },
   {
-   "player": "5022",
-   "name": "Dallas Goedert",
+   "player": "12493",
+   "name": "Oronde Gadsden",
    "score": 694,
-   "gs": 33,
-   "pts": 301.5,
-   "ppg": 9.14,
-   "war": -0.41
+   "gs": 8,
+   "pts": 57.15,
+   "ppg": 7.14,
+   "war": -0.19
   }
  ],
  "status": {
@@ -973,18 +973,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.68,
+   "value": -0.64,
    "digits": 2,
-   "rank": 413,
+   "rank": 411,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -57.2,
+   "value": -54.0,
    "digits": 1,
-   "rank": 413,
+   "rank": 411,
    "of": 424
   },
   {
@@ -1045,9 +1045,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.68,
+   "value": -0.64,
    "digits": 2,
-   "rank": 49,
+   "rank": 48,
    "of": 52
   },
   {
@@ -1074,9 +1074,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.33,
+   "value": -0.3,
    "digits": 2,
-   "rank": 79,
+   "rank": 78,
    "of": 82,
    "franchise": 4
   },
@@ -1223,7 +1223,7 @@
  ],
  "hof": {
   "score": 5.5,
-  "rank": 188,
+  "rank": 190,
   "of": 424,
   "war": 0.0,
   "starts": 5.5,
@@ -1751,11 +1751,6 @@
     "lost": 3.28
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Knee",
-   "since": null,
-   "streak": 0
-  }
+  "now": null
  }
 }

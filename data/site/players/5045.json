@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "DEN",
-   "g": 9,
+   "g": 10,
    "pts": 65.1,
-   "rank": 61
+   "rank": 65
   }
  ],
  "history": [
@@ -1238,7 +1238,7 @@
   {
    "player": "4039",
    "name": "Cooper Kupp",
-   "score": 898,
+   "score": 899,
    "gs": 24,
    "pts": 334.7,
    "ppg": 13.95,
@@ -1247,20 +1247,29 @@
   {
    "player": "10229",
    "name": "Rashee Rice",
-   "score": 879,
+   "score": 877,
    "gs": 22,
    "pts": 324.3,
    "ppg": 14.74,
-   "war": 0.99
+   "war": 1.07
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 868,
+   "score": 870,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.52
+   "war": 0.53
+  },
+  {
+   "player": "12526",
+   "name": "Tetairoa McMillan",
+   "score": 854,
+   "gs": 23,
+   "pts": 298.9,
+   "ppg": 13.0,
+   "war": 0.79
   },
   {
    "player": "6819",
@@ -1270,15 +1279,6 @@
    "pts": 445.1,
    "ppg": 13.49,
    "war": 0.72
-  },
-  {
-   "player": "12526",
-   "name": "Tetairoa McMillan",
-   "score": 850,
-   "gs": 23,
-   "pts": 298.9,
-   "ppg": 13.0,
-   "war": 0.68
   }
  ],
  "status": {
@@ -1321,7 +1321,7 @@
    "stat": "WAR",
    "value": 0.93,
    "digits": 2,
-   "rank": 85,
+   "rank": 84,
    "of": 424
   },
   {
@@ -1330,7 +1330,7 @@
    "stat": "VOR",
    "value": 78.5,
    "digits": 1,
-   "rank": 86,
+   "rank": 84,
    "of": 424
   },
   {
@@ -1422,7 +1422,7 @@
    "stat": "WAR",
    "value": -0.03,
    "digits": 2,
-   "rank": 45,
+   "rank": 46,
    "of": 68,
    "franchise": 3
   },
@@ -1569,7 +1569,7 @@
  ],
  "hof": {
   "score": 16.05,
-  "rank": 93,
+  "rank": 95,
   "of": 424,
   "war": 9.3,
   "starts": 6.75,

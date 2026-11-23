@@ -73,8 +73,8 @@
    "best": 15.7,
    "wins": 3,
    "paa": -40.69,
-   "vor": -18.04,
-   "war": -0.21
+   "vor": -10.62,
+   "war": -0.13
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 15.7,
   "wins": 3,
   "paa": -58.27,
-  "vor": -29.94,
-  "war": -0.35
+  "vor": -22.52,
+  "war": -0.27
  },
  "nfl": [
   {
@@ -107,9 +107,9 @@
   {
    "season": "2026",
    "team": "CAR",
-   "g": 8,
-   "pts": 88.0,
-   "rank": 36
+   "g": 9,
+   "pts": 96.7,
+   "rank": 39
   }
  ],
  "history": [
@@ -601,8 +601,8 @@
    "proj": 12.9,
    "won": true,
    "paa": -0.68,
-   "vor": 4.28,
-   "war": 0.05058439207972438
+   "vor": 5.34,
+   "war": 0.06311230226769349
   },
   {
    "season": "2026",
@@ -620,8 +620,8 @@
    "proj": 14.7,
    "won": false,
    "paa": -9.82,
-   "vor": -6.52,
-   "war": -0.07705846643920629
+   "vor": -5.46,
+   "war": -0.06453055625123717
   },
   {
    "season": "2026",
@@ -671,8 +671,8 @@
    "proj": 12.88,
    "won": true,
    "paa": 3.3,
-   "vor": 5.38,
-   "war": 0.06358505359554138
+   "vor": 6.44,
+   "war": 0.07611296378351051
   },
   {
    "season": "2026",
@@ -690,8 +690,8 @@
    "proj": 15.66,
    "won": false,
    "paa": -11.69,
-   "vor": -8.42,
-   "war": -0.09951415451198113
+   "vor": -7.36,
+   "war": -0.08698624432401202
   },
   {
    "season": "2026",
@@ -709,8 +709,8 @@
    "proj": 15.94,
    "won": false,
    "paa": -2.04,
-   "vor": 0.78,
-   "war": 0.009218650893033881
+   "vor": 1.84,
+   "war": 0.021746561081003004
   },
   {
    "season": "2026",
@@ -728,8 +728,8 @@
    "proj": 13.77,
    "won": true,
    "paa": -6.94,
-   "vor": -3.62,
-   "war": -0.042783995170234165
+   "vor": -2.56,
+   "war": -0.030256084982265046
   },
   {
    "season": "2026",
@@ -747,24 +747,24 @@
    "proj": 13.2,
    "won": false,
    "paa": -12.82,
-   "vor": -9.92,
-   "war": -0.11724232930627705
+   "vor": -8.86,
+   "war": -0.10471441911830792
   }
  ],
  "similar": [
   {
    "player": "11637",
    "name": "Keon Coleman",
-   "score": 937,
+   "score": 938,
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.28
+   "war": -0.27
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 910,
+   "score": 904,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
@@ -773,7 +773,7 @@
   {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 907,
+   "score": 897,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
@@ -782,20 +782,20 @@
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 895,
+   "score": 894,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.43
+   "war": -0.39
   },
   {
    "player": "12514",
    "name": "Emeka Egbuka",
-   "score": 862,
+   "score": 864,
    "gs": 8,
    "pts": 74.3,
    "ppg": 9.29,
-   "war": -0.12
+   "war": -0.09
   }
  ],
  "status": {
@@ -826,18 +826,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.35,
+   "value": -0.27,
    "digits": 2,
-   "rank": 389,
+   "rank": 373,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -29.9,
+   "value": -22.5,
    "digits": 1,
-   "rank": 390,
+   "rank": 374,
    "of": 424
   },
   {
@@ -898,9 +898,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.35,
+   "value": -0.27,
    "digits": 2,
-   "rank": 116,
+   "rank": 109,
    "of": 127
   },
   {
@@ -927,9 +927,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.3,
+   "value": -0.22,
    "digits": 2,
-   "rank": 62,
+   "rank": 59,
    "of": 67,
    "franchise": 9
   },
@@ -1076,7 +1076,7 @@
  ],
  "hof": {
   "score": 2.5,
-  "rank": 244,
+  "rank": 246,
   "of": 424,
   "war": 0.0,
   "starts": 2.5,
@@ -1382,7 +1382,7 @@
     "season": "2026",
     "nfl": "CAR",
     "missed": 1,
-    "lost": 0.68,
+    "lost": 1.48,
     "injuries": [
      "Quadricep"
     ],
@@ -1478,9 +1478,14 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.68
+    "lost": 1.48
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "",
+   "since": null,
+   "streak": 0
+  }
  }
 }

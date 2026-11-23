@@ -32,8 +32,8 @@
    "best": 12.7,
    "wins": 1,
    "paa": -7.32,
-   "vor": 4.02,
-   "war": 0.05
+   "vor": 8.06,
+   "war": 0.1
   }
  ],
  "totals": {
@@ -45,8 +45,8 @@
   "best": 12.7,
   "wins": 1,
   "paa": -7.32,
-  "vor": 4.02,
-  "war": 0.05
+  "vor": 8.06,
+  "war": 0.1
  },
  "nfl": [
   {
@@ -54,7 +54,7 @@
    "team": "SEA",
    "g": 6,
    "pts": 48.5,
-   "rank": 53
+   "rank": 55
   }
  ],
  "history": [
@@ -228,8 +228,8 @@
    "proj": 10.56,
    "won": true,
    "paa": -0.83,
-   "vor": 2.21,
-   "war": 0.026119510863595995
+   "vor": 4.23,
+   "war": 0.04999345291991451
   },
   {
    "season": "2026",
@@ -247,8 +247,8 @@
    "proj": 9.97,
    "won": false,
    "paa": -6.49,
-   "vor": 1.81,
-   "war": 0.021391997585117083
+   "vor": 3.83,
+   "war": 0.0452659396414356
   }
  ],
  "status": {
@@ -279,18 +279,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.05,
+   "value": 0.1,
    "digits": 2,
-   "rank": 198,
+   "rank": 187,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 4.0,
+   "value": 8.1,
    "digits": 1,
-   "rank": 201,
+   "rank": 189,
    "of": 424
   },
   {
@@ -342,9 +342,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.05,
+   "value": 0.1,
    "digits": 2,
-   "rank": 54,
+   "rank": 55,
    "of": 100
   },
   {
@@ -371,9 +371,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 0.05,
+   "value": 0.1,
    "digits": 2,
-   "rank": 25,
+   "rank": 18,
    "of": 67,
    "franchise": 9
   },
@@ -420,10 +420,10 @@
  ],
  "similar": [],
  "hof": {
-  "score": 1.0,
-  "rank": 304,
+  "score": 1.5,
+  "rank": 287,
   "of": 424,
-  "war": 0.5,
+  "war": 1.0,
   "starts": 0.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -471,12 +471,12 @@
    [
     "2026",
     9,
-    0.55
+    0.75
    ],
    [
     "2026",
     10,
-    1.0
+    1.5
    ]
   ],
   "benchmark": 100

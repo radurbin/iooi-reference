@@ -2152,7 +2152,7 @@
     {
      "player": "9221",
      "name": "Jahmyr Gibbs",
-     "value": 2.11,
+     "value": 2.33,
      "teams": [
       {
        "franchise": 5,
@@ -2163,7 +2163,7 @@
     {
      "player": "9488",
      "name": "Jaxon Smith-Njigba",
-     "value": 1.91,
+     "value": 2.04,
      "teams": [
       {
        "franchise": 3,
@@ -2174,7 +2174,7 @@
     {
      "player": "4034",
      "name": "Christian McCaffrey",
-     "value": 1.54,
+     "value": 1.75,
      "teams": [
       {
        "franchise": 8,
@@ -2185,7 +2185,7 @@
     {
      "player": "8151",
      "name": "Kenneth Walker III",
-     "value": 1.52,
+     "value": 1.71,
      "teams": [
       {
        "franchise": 2,
@@ -2194,13 +2194,13 @@
      ]
     },
     {
-     "player": "4984",
-     "name": "Josh Allen",
-     "value": 1.49,
+     "player": "9509",
+     "name": "Bijan Robinson",
+     "value": 1.55,
      "teams": [
       {
-       "franchise": 1,
-       "team": "Mojo Dojo Casa Team 💍"
+       "franchise": 9,
+       "team": "Clandestine Ball Busters"
       }
      ]
     }
@@ -2832,40 +2832,16 @@
     "finish": null,
     "games": 31,
     "players": 11,
-    "lost": 121.87,
+    "lost": 147.75,
     "worst": {
      "player": "9493",
      "name": "Puka Nacua",
      "pos": "WR",
      "missed": 3,
-     "lost": 45.03
+     "lost": 48.21
     },
     "rank": 1,
     "games_rank": 5,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 2,
-    "team": "Storm FC",
-    "managers": [
-     "alex"
-    ],
-    "w": 6,
-    "l": 4,
-    "finish": null,
-    "games": 41,
-    "players": 13,
-    "lost": 84.35,
-    "worst": {
-     "player": "7525",
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "missed": 5,
-     "lost": 36.5
-    },
-    "rank": 2,
-    "games_rank": 1,
     "of": 12
    },
    {
@@ -2880,40 +2856,64 @@
     "finish": null,
     "games": 30,
     "players": 8,
-    "lost": 69.22,
+    "lost": 78.33,
     "worst": {
      "player": "9226",
      "name": "De'Von Achane",
      "pos": "RB",
      "missed": 6,
-     "lost": 49.26
+     "lost": 61.38
     },
-    "rank": 3,
+    "rank": 2,
     "games_rank": 8,
     "of": 12
    },
    {
     "season": "2026",
-    "franchise": 4,
-    "team": "Im Stroud Of You",
+    "franchise": 8,
+    "team": "BBL KIZZY",
     "managers": [
-     "tony"
+     "evan"
     ],
-    "w": 3,
-    "l": 7,
+    "w": 5,
+    "l": 5,
     "finish": null,
-    "games": 31,
-    "players": 6,
-    "lost": 45.53,
+    "games": 34,
+    "players": 12,
+    "lost": 77.46,
     "worst": {
-     "player": "12534",
-     "name": "Kyle Monangai",
+     "player": "8155",
+     "name": "Breece Hall",
      "pos": "RB",
+     "missed": 3,
+     "lost": 23.82
+    },
+    "rank": 3,
+    "games_rank": 3,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 2,
+    "team": "Storm FC",
+    "managers": [
+     "alex"
+    ],
+    "w": 6,
+    "l": 4,
+    "finish": null,
+    "games": 41,
+    "players": 13,
+    "lost": 76.35,
+    "worst": {
+     "player": "7525",
+     "name": "DeVonta Smith",
+     "pos": "WR",
      "missed": 5,
-     "lost": 29.15
+     "lost": 33.3
     },
     "rank": 4,
-    "games_rank": 5,
+    "games_rank": 1,
     "of": 12
    },
    {
@@ -2929,13 +2929,13 @@
     "finish": null,
     "games": 31,
     "players": 13,
-    "lost": 42.67,
+    "lost": 66.04,
     "worst": {
      "player": "2133",
      "name": "Davante Adams",
      "pos": "WR",
      "missed": 4,
-     "lost": 27.72
+     "lost": 31.96
     },
     "rank": 5,
     "games_rank": 5,
@@ -2943,26 +2943,26 @@
    },
    {
     "season": "2026",
-    "franchise": 8,
-    "team": "BBL KIZZY",
+    "franchise": 4,
+    "team": "Im Stroud Of You",
     "managers": [
-     "evan"
+     "tony"
     ],
-    "w": 5,
-    "l": 5,
+    "w": 3,
+    "l": 7,
     "finish": null,
-    "games": 34,
-    "players": 12,
-    "lost": 41.9,
+    "games": 31,
+    "players": 6,
+    "lost": 51.2,
     "worst": {
-     "player": "8155",
-     "name": "Breece Hall",
+     "player": "12534",
+     "name": "Kyle Monangai",
      "pos": "RB",
-     "missed": 3,
-     "lost": 15.0
+     "missed": 5,
+     "lost": 25.55
     },
     "rank": 6,
-    "games_rank": 3,
+    "games_rank": 5,
     "of": 12
    },
    {
@@ -2977,13 +2977,13 @@
     "finish": null,
     "games": 37,
     "players": 11,
-    "lost": 30.79,
+    "lost": 36.67,
     "worst": {
      "player": "2216",
      "name": "Mike Evans",
      "pos": "WR",
      "missed": 3,
-     "lost": 13.53
+     "lost": 20.19
     },
     "rank": 7,
     "games_rank": 2,
@@ -3001,13 +3001,13 @@
     "finish": null,
     "games": 32,
     "players": 14,
-    "lost": 27.05,
+    "lost": 34.45,
     "worst": {
      "player": "8155",
      "name": "Breece Hall",
      "pos": "RB",
      "missed": 2,
-     "lost": 10.0
+     "lost": 15.88
     },
     "rank": 8,
     "games_rank": 4,
@@ -3025,13 +3025,13 @@
     "finish": null,
     "games": 27,
     "players": 10,
-    "lost": 25.1,
+    "lost": 17.95,
     "worst": {
      "player": "4881",
      "name": "Lamar Jackson",
      "pos": "QB",
      "missed": 4,
-     "lost": 18.92
+     "lost": 10.36
     },
     "rank": 9,
     "games_rank": 9,
@@ -3049,40 +3049,16 @@
     "finish": null,
     "games": 24,
     "players": 10,
-    "lost": 22.32,
+    "lost": 17.37,
     "worst": {
      "player": "11560",
      "name": "Caleb Williams",
      "pos": "QB",
      "missed": 3,
-     "lost": 22.32
+     "lost": 14.1
     },
     "rank": 10,
     "games_rank": 10,
-    "of": 12
-   },
-   {
-    "season": "2026",
-    "franchise": 11,
-    "team": "BubbaNASTIES",
-    "managers": [
-     "brandon"
-    ],
-    "w": 5,
-    "l": 5,
-    "finish": null,
-    "games": 12,
-    "players": 4,
-    "lost": 3.64,
-    "worst": {
-     "player": "6794",
-     "name": "Justin Jefferson",
-     "pos": "WR",
-     "missed": 1,
-     "lost": 3.64
-    },
-    "rank": 11,
-    "games_rank": 12,
     "of": 12
    },
    {
@@ -3098,16 +3074,40 @@
     "finish": null,
     "games": 15,
     "players": 6,
-    "lost": 0.68,
+    "lost": 13.32,
     "worst": {
-     "player": "11646",
-     "name": "Jalen Coker",
-     "pos": "WR",
-     "missed": 1,
-     "lost": 0.68
+     "player": "13287",
+     "name": "Jeremiyah Love",
+     "pos": "RB",
+     "missed": 4,
+     "lost": 6.8
+    },
+    "rank": 11,
+    "games_rank": 11,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 11,
+    "team": "BubbaNASTIES",
+    "managers": [
+     "brandon"
+    ],
+    "w": 5,
+    "l": 5,
+    "finish": null,
+    "games": 12,
+    "players": 4,
+    "lost": 12.43,
+    "worst": {
+     "player": "7543",
+     "name": "Travis Etienne Jr.",
+     "pos": "RB",
+     "missed": 5,
+     "lost": 7.75
     },
     "rank": 12,
-    "games_rank": 11,
+    "games_rank": 12,
     "of": 12
    }
   ],
@@ -3212,7 +3212,7 @@
     "pos": "WR",
     "season": "2026",
     "missed": 8,
-    "lost": 3.6,
+    "lost": 12.08,
     "injuries": [
      "Heel"
     ],
@@ -3233,6 +3233,40 @@
      {
       "franchise": 4,
       "team": "Im Stroud Of You"
+     }
+    ]
+   },
+   {
+    "player": "11638",
+    "name": "Ricky Pearsall",
+    "pos": "WR",
+    "season": "2026",
+    "missed": 8,
+    "lost": 6.0,
+    "injuries": [
+     "Knee - PCL"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     10
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "teams": [
+     {
+      "franchise": 1,
+      "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "franchise": 3,
+      "team": "Kolkata Kommies"
      }
     ]
    },
@@ -3302,46 +3336,12 @@
     ]
    },
    {
-    "player": "11638",
-    "name": "Ricky Pearsall",
-    "pos": "WR",
-    "season": "2026",
-    "missed": 8,
-    "lost": 0.0,
-    "injuries": [
-     "Knee - PCL"
-    ],
-    "weeks": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     6,
-     7,
-     10
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "teams": [
-     {
-      "franchise": 1,
-      "team": "Mojo Dojo Casa Team 💍"
-     },
-     {
-      "franchise": 3,
-      "team": "Kolkata Kommies"
-     }
-    ]
-   },
-   {
     "player": "12508",
     "name": "Jaxson Dart",
     "pos": "QB",
     "season": "2026",
     "missed": 7,
-    "lost": 36.26,
+    "lost": 21.28,
     "injuries": [
      "Knee",
      "Knee - Meniscus"
@@ -3366,41 +3366,12 @@
     ]
    },
    {
-    "player": "13281",
-    "name": "Jordyn Tyson",
-    "pos": "WR",
-    "season": "2026",
-    "missed": 7,
-    "lost": 11.76,
-    "injuries": [
-     "Hamstring"
-    ],
-    "weeks": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     6,
-     7
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "teams": [
-     {
-      "franchise": 2,
-      "team": "Storm FC"
-     }
-    ]
-   },
-   {
     "player": "9753",
     "name": "Zach Charbonnet",
     "pos": "RB",
     "season": "2026",
     "missed": 7,
-    "lost": 1.47,
+    "lost": 15.61,
     "injuries": [
      "Knee"
     ],
@@ -3421,6 +3392,35 @@
      {
       "franchise": 8,
       "team": "BBL KIZZY"
+     }
+    ]
+   },
+   {
+    "player": "13281",
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "season": "2026",
+    "missed": 7,
+    "lost": 0.0,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "teams": [
+     {
+      "franchise": 2,
+      "team": "Storm FC"
      }
     ]
    }

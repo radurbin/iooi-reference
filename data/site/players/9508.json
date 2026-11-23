@@ -80,8 +80,8 @@
    "best": 1.9,
    "wins": 1,
    "paa": -11.5,
-   "vor": -8.59,
-   "war": -0.1
+   "vor": -6.57,
+   "war": -0.08
   },
   {
    "season": "2026",
@@ -109,8 +109,8 @@
   "best": 9.2,
   "wins": 1,
   "paa": -33.16,
-  "vor": -14.56,
-  "war": -0.17
+  "vor": -12.54,
+  "war": -0.15
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "TEN",
    "g": 7,
    "pts": 33.1,
-   "rank": 69
+   "rank": 70
   }
  ],
  "history": [
@@ -1099,8 +1099,8 @@
    "proj": 9.36,
    "won": true,
    "paa": -11.5,
-   "vor": -8.59,
-   "war": -0.10152334765533466
+   "vor": -6.57,
+   "war": -0.07764940559901616
   },
   {
    "season": "2026",
@@ -1195,18 +1195,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.17,
+   "value": -0.15,
    "digits": 2,
-   "rank": 343,
+   "rank": 334,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -14.6,
+   "value": -12.5,
    "digits": 1,
-   "rank": 344,
+   "rank": 335,
    "of": 424
   },
   {
@@ -1258,9 +1258,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.17,
+   "value": -0.15,
    "digits": 2,
-   "rank": 87,
+   "rank": 88,
    "of": 100
   },
   {
@@ -1287,9 +1287,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.18,
+   "value": -0.16,
    "digits": 2,
-   "rank": 56,
+   "rank": 54,
    "of": 67,
    "franchise": 9
   },
@@ -1397,7 +1397,7 @@
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 304,
+  "rank": 306,
   "of": 424,
   "war": 0.0,
   "starts": 1.0,
@@ -1819,15 +1819,17 @@
    {
     "season": "2026",
     "nfl": "TEN",
-    "missed": 1,
+    "missed": 2,
     "lost": 0.0,
     "injuries": [
      "Knee"
     ],
     "weeks": [
-     8
+     8,
+     11
     ],
     "kinds": [
+     "IR",
      "Out"
     ],
     "rostered": 1,
@@ -1838,6 +1840,13 @@
       "injury": "Knee",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1936,13 +1945,30 @@
     ],
     "rostered": 1,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 11,
+    "to": 11,
+    "weeks": [
+     11
+    ],
+    "missed": 1,
+    "nfl": "TEN",
+    "injury": "Knee",
+    "kinds": [
+     "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "IR",
    "injury": "Knee",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

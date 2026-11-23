@@ -96,8 +96,8 @@
    "best": 17.72,
    "wins": 0,
    "paa": 0.07,
-   "vor": 6.25,
-   "war": 0.07
+   "vor": 4.11,
+   "war": 0.05
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 17.72,
   "wins": 2,
   "paa": -25.73,
-  "vor": -13.41,
-  "war": -0.16
+  "vor": -15.55,
+  "war": -0.18
  },
  "nfl": [
   {
@@ -123,9 +123,9 @@
   {
    "season": "2026",
    "team": "NYG",
-   "g": 5,
-   "pts": 52.6,
-   "rank": 34
+   "g": 6,
+   "pts": 69.02,
+   "rank": 33
   }
  ],
  "history": [
@@ -868,8 +868,8 @@
    "proj": 16.06,
    "won": false,
    "paa": 0.07,
-   "vor": 6.25,
-   "war": 0.07386739497623303
+   "vor": 4.11,
+   "war": 0.04857519893637084
   }
  ],
  "status": {
@@ -900,18 +900,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.16,
+   "value": -0.18,
    "digits": 2,
-   "rank": 335,
+   "rank": 348,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -13.4,
+   "value": -15.6,
    "digits": 1,
-   "rank": 337,
+   "rank": 351,
    "of": 424
   },
   {
@@ -963,9 +963,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": -0.16,
+   "value": -0.18,
    "digits": 2,
-   "rank": 62,
+   "rank": 61,
    "of": 68
   },
   {
@@ -992,9 +992,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.07,
+   "value": 0.05,
    "digits": 2,
-   "rank": 30,
+   "rank": 31,
    "of": 69,
    "franchise": 8
   },
@@ -1112,7 +1112,7 @@
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 319,
+  "rank": 320,
   "of": 424,
   "war": 0.0,
   "starts": 0.75,

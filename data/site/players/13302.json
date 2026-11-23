@@ -245,7 +245,7 @@
    {
     "season": "2026",
     "nfl": "BAL",
-    "missed": 10,
+    "missed": 11,
     "lost": 0.0,
     "injuries": [
      "Neck"
@@ -260,10 +260,12 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
-     "IR"
+     "IR",
+     "Inactive"
     ],
     "rostered": 10,
     "games": [
@@ -336,6 +338,13 @@
       "injury": "Neck",
       "franchise": 4,
       "team": "Im Stroud Of You"
+     },
+     {
+      "week": 11,
+      "kind": "Inactive",
+      "injury": "Neck",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -344,7 +353,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 10,
+    "to": 11,
     "weeks": [
      1,
      2,
@@ -355,13 +364,15 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 10,
+    "missed": 11,
     "nfl": "BAL",
     "injury": "Neck",
     "kinds": [
-     "IR"
+     "IR",
+     "Inactive"
     ],
     "teams": [
      {

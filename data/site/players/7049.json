@@ -82,9 +82,9 @@
   {
    "season": "2026",
    "team": "MIN",
-   "g": 6,
-   "pts": 11.4,
-   "rank": 151
+   "g": 7,
+   "pts": 16.4,
+   "rank": 137
   }
  ],
  "history": [
@@ -654,31 +654,31 @@
  ],
  "similar": [
   {
-   "player": "9487",
-   "name": "Parker Washington",
-   "score": 950,
-   "gs": 11,
-   "pts": 147.1,
-   "ppg": 13.37,
-   "war": 0.39
-  },
-  {
    "player": "8126",
    "name": "Wan'Dale Robinson",
    "score": 949,
    "gs": 12,
    "pts": 158.8,
    "ppg": 13.23,
-   "war": 0.37
+   "war": 0.39
+  },
+  {
+   "player": "9487",
+   "name": "Parker Washington",
+   "score": 946,
+   "gs": 11,
+   "pts": 147.1,
+   "ppg": 13.37,
+   "war": 0.5
   },
   {
    "player": "10232",
    "name": "Michael Wilson",
-   "score": 944,
+   "score": 934,
    "gs": 13,
    "pts": 187.18,
    "ppg": 14.4,
-   "war": 0.57
+   "war": 0.66
   },
   {
    "player": "5947",
@@ -728,7 +728,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 133,
+   "rank": 134,
    "of": 424
   },
   {
@@ -800,7 +800,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 37,
+   "rank": 39,
    "of": 127
   },
   {
@@ -829,7 +829,7 @@
    "stat": "WAR",
    "value": 0.37,
    "digits": 2,
-   "rank": 15,
+   "rank": 16,
    "of": 82,
    "franchise": 4
   },
@@ -906,7 +906,7 @@
  ],
  "hof": {
   "score": 6.7,
-  "rank": 168,
+  "rank": 174,
   "of": 424,
   "war": 3.7,
   "starts": 3.0,

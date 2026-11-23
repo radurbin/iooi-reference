@@ -414,7 +414,7 @@
    {
     "season": "2026",
     "nfl": "LAC",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
      "Groin"
@@ -426,7 +426,8 @@
      6,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR",
@@ -482,6 +483,13 @@
       "injury": "Groin",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -490,7 +498,7 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 10,
+    "to": 11,
     "weeks": [
      3,
      4,
@@ -498,9 +506,10 @@
      6,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 7,
+    "missed": 8,
     "nfl": "LAC",
     "injury": "Groin",
     "kinds": [

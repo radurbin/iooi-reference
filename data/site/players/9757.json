@@ -112,8 +112,8 @@
    "best": 11.0,
    "wins": 0,
    "paa": -2.4,
-   "vor": 0.51,
-   "war": 0.01
+   "vor": 2.53,
+   "war": 0.03
   }
  ],
  "totals": {
@@ -125,8 +125,8 @@
   "best": 11.0,
   "wins": 0,
   "paa": -24.05,
-  "vor": -11.77,
-  "war": -0.14
+  "vor": -9.75,
+  "war": -0.12
  },
  "nfl": [
   {
@@ -155,7 +155,7 @@
    "team": "NO",
    "g": 6,
    "pts": 44.3,
-   "rank": 55
+   "rank": 59
   }
  ],
  "history": [
@@ -804,8 +804,8 @@
    "proj": 10.26,
    "won": false,
    "paa": -2.4,
-   "vor": 0.51,
-   "war": 0.006027579430060615
+   "vor": 2.53,
+   "war": 0.029901521486379125
   },
   {
    "season": "2026",
@@ -900,18 +900,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.14,
+   "value": -0.12,
    "digits": 2,
-   "rank": 323,
+   "rank": 310,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -11.8,
+   "value": -9.8,
    "digits": 1,
-   "rank": 326,
+   "rank": 310,
    "of": 424
   },
   {
@@ -963,7 +963,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": -0.14,
+   "value": -0.12,
    "digits": 2,
    "rank": 84,
    "of": 100
@@ -992,9 +992,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.01,
+   "value": 0.03,
    "digits": 2,
-   "rank": 27,
+   "rank": 26,
    "of": 40,
    "franchise": 6
   },
@@ -1112,7 +1112,7 @@
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 319,
+  "rank": 320,
   "of": 424,
   "war": 0.0,
   "starts": 0.75,

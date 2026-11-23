@@ -54,7 +54,7 @@
    "team": "NYJ",
    "g": 6,
    "pts": 62.6,
-   "rank": 63
+   "rank": 67
   }
  ],
  "history": [
@@ -258,8 +258,8 @@
    {
     "season": "2026",
     "nfl": "NYJ",
-    "missed": 4,
-    "lost": 0.44,
+    "missed": 5,
+    "lost": 4.68,
     "injuries": [
      "Ankle"
     ],
@@ -267,10 +267,12 @@
      2,
      3,
      4,
-     5
+     5,
+     11
     ],
     "kinds": [
-     "IR"
+     "IR",
+     "Out"
     ],
     "rostered": 4,
     "games": [
@@ -301,6 +303,13 @@
       "injury": "Ankle",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 11,
+      "kind": "Out",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -329,14 +338,31 @@
      }
     ],
     "rostered": 4,
-    "lost": 0.44
+    "lost": 4.68
+   },
+   {
+    "season": "2026",
+    "from": 11,
+    "to": 11,
+    "weeks": [
+     11
+    ],
+    "missed": 1,
+    "nfl": "NYJ",
+    "injury": "Ankle",
+    "kinds": [
+     "Out"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Ankle",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

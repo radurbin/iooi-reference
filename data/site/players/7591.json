@@ -137,9 +137,9 @@
   {
    "season": "2026",
    "team": "KC",
-   "g": 3,
+   "g": 4,
    "pts": -1.8,
-   "rank": 73
+   "rank": 74
   }
  ],
  "history": [
@@ -1257,49 +1257,49 @@
  ],
  "similar": [
   {
+   "player": "11563",
+   "name": "Bo Nix",
+   "score": 926,
+   "gs": 25,
+   "pts": 430.42,
+   "ppg": 17.22,
+   "war": 1.46
+  },
+  {
+   "player": "4943",
+   "name": "Sam Darnold",
+   "score": 924,
+   "gs": 23,
+   "pts": 400.74,
+   "ppg": 17.42,
+   "war": 1.46
+  },
+  {
    "player": "1234",
    "name": "Russell Wilson",
-   "score": 923,
+   "score": 922,
    "gs": 23,
    "pts": 365.04,
    "ppg": 15.87,
    "war": 0.73
   },
   {
-   "player": "4943",
-   "name": "Sam Darnold",
-   "score": 920,
-   "gs": 23,
-   "pts": 400.74,
-   "ppg": 17.42,
-   "war": 1.51
-  },
-  {
-   "player": "11563",
-   "name": "Bo Nix",
-   "score": 900,
-   "gs": 25,
-   "pts": 430.42,
-   "ppg": 17.22,
-   "war": 1.69
-  },
-  {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 886,
+   "score": 883,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
-   "war": 1.03
+   "war": 0.88
   },
   {
    "player": "1166",
    "name": "Kirk Cousins",
-   "score": 833,
+   "score": 834,
    "gs": 32,
    "pts": 502.74,
    "ppg": 15.71,
-   "war": 1.18
+   "war": 0.95
   }
  ],
  "status": {
@@ -1341,7 +1341,7 @@
    "stat": "WAR",
    "value": 1.04,
    "digits": 2,
-   "rank": 74,
+   "rank": 78,
    "of": 424
   },
   {
@@ -1350,7 +1350,7 @@
    "stat": "VOR",
    "value": 87.9,
    "digits": 1,
-   "rank": 75,
+   "rank": 78,
    "of": 424
   },
   {
@@ -1413,7 +1413,7 @@
    "stat": "WAR",
    "value": 1.04,
    "digits": 2,
-   "rank": 21,
+   "rank": 20,
    "of": 68
   },
   {
@@ -1482,7 +1482,7 @@
    "stat": "WAR",
    "value": 0.41,
    "digits": 2,
-   "rank": 12,
+   "rank": 13,
    "of": 74,
    "franchise": 10
   },

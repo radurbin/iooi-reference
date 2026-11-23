@@ -80,8 +80,8 @@
    "best": 3.7,
    "wins": 1,
    "paa": -8.7,
-   "vor": -6.62,
-   "war": -0.08
+   "vor": -5.56,
+   "war": -0.07
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 27.3,
   "wins": 12,
   "paa": -55.37,
-  "vor": -0.77,
-  "war": -0.01
+  "vor": 0.29,
+  "war": 0.0
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "WAS",
    "g": 5,
    "pts": 46.0,
-   "rank": 87
+   "rank": 90
   }
  ],
  "history": [
@@ -1160,8 +1160,8 @@
    "proj": 11.61,
    "won": true,
    "paa": -8.7,
-   "vor": -6.62,
-   "war": -0.07824034475882602
+   "vor": -5.56,
+   "war": -0.06571243457085689
   },
   {
    "season": "2026",
@@ -1232,7 +1232,7 @@
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 972,
+   "score": 971,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -1241,38 +1241,38 @@
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 933,
+   "score": 923,
    "gs": 32,
    "pts": 380.4,
    "ppg": 11.89,
-   "war": 0.36
+   "war": 0.44
   },
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 871,
+   "score": 868,
    "gs": 27,
    "pts": 334.8,
    "ppg": 12.4,
-   "war": 0.31
+   "war": 0.36
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 856,
+   "score": 857,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
-   "war": 0.52
+   "war": 0.53
   },
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 840,
+   "score": 841,
    "gs": 27,
    "pts": 284.5,
    "ppg": 10.54,
-   "war": -0.15
+   "war": -0.12
   }
  ],
  "status": {
@@ -1313,18 +1313,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.01,
+   "value": 0.0,
    "digits": 2,
-   "rank": 224,
+   "rank": 223,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -0.8,
+   "value": 0.3,
    "digits": 1,
-   "rank": 230,
+   "rank": 224,
    "of": 424
   },
   {
@@ -1385,9 +1385,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.01,
+   "value": 0.0,
    "digits": 2,
-   "rank": 54,
+   "rank": 56,
    "of": 127
   },
   {
@@ -1414,9 +1414,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": -0.02,
+   "value": -0.01,
    "digits": 2,
-   "rank": 42,
+   "rank": 43,
    "of": 68,
    "franchise": 3
   },
@@ -1553,7 +1553,7 @@
  ],
  "hof": {
   "score": 8.0,
-  "rank": 155,
+  "rank": 156,
   "of": 424,
   "war": 0.0,
   "starts": 8.0,

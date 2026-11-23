@@ -32,8 +32,8 @@
    "best": 0.52,
    "wins": 0,
    "paa": -17.13,
-   "vor": -10.95,
-   "war": -0.13
+   "vor": -13.09,
+   "war": -0.15
   }
  ],
  "totals": {
@@ -45,8 +45,8 @@
   "best": 0.52,
   "wins": 0,
   "paa": -17.13,
-  "vor": -10.95,
-  "war": -0.13
+  "vor": -13.09,
+  "war": -0.15
  },
  "nfl": [
   {
@@ -54,7 +54,7 @@
    "team": "ARI",
    "g": 1,
    "pts": 0.52,
-   "rank": 58
+   "rank": 59
   }
  ],
  "history": [
@@ -232,8 +232,8 @@
    "proj": 10.31,
    "won": false,
    "paa": -17.13,
-   "vor": -10.95,
-   "war": -0.12941567599836024
+   "vor": -13.09,
+   "war": -0.15470787203822245
   }
  ],
  "status": {
@@ -264,18 +264,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.15,
    "digits": 2,
-   "rank": 315,
+   "rank": 334,
    "of": 424
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -10.9,
+   "value": -13.1,
    "digits": 1,
-   "rank": 321,
+   "rank": 338,
    "of": 424
   },
   {
@@ -318,9 +318,9 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.15,
    "digits": 2,
-   "rank": 58,
+   "rank": 59,
    "of": 68
   },
   {
@@ -347,9 +347,9 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.15,
    "digits": 2,
-   "rank": 46,
+   "rank": 48,
    "of": 54,
    "franchise": 7
   },
@@ -397,7 +397,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 371,
+  "rank": 370,
   "of": 424,
   "war": 0.0,
   "starts": 0.25,
@@ -464,7 +464,7 @@
    {
     "season": "2026",
     "nfl": "ARI",
-    "missed": 3,
+    "missed": 4,
     "lost": 0.0,
     "injuries": [
      "Back"
@@ -472,7 +472,8 @@
     "weeks": [
      6,
      7,
-     8
+     8,
+     11
     ],
     "kinds": [
      "Inactive",
@@ -500,6 +501,13 @@
       "injury": "Back",
       "franchise": 7,
       "team": "the dart side 🛸💍"
+     },
+     {
+      "week": 11,
+      "kind": "Questionable",
+      "injury": "Back",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -529,13 +537,30 @@
     ],
     "rostered": 3,
     "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 11,
+    "to": 11,
+    "weeks": [
+     11
+    ],
+    "missed": 1,
+    "nfl": "ARI",
+    "injury": "Back",
+    "kinds": [
+     "Questionable"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
    }
   ],
   "now": {
    "status": "Out",
    "injury": "Back",
    "since": null,
-   "streak": 0
+   "streak": 1
   }
  }
 }

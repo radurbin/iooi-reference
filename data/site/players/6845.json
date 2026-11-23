@@ -719,7 +719,7 @@
   {
    "player": "5248",
    "name": "Gus Edwards",
-   "score": 978,
+   "score": 979,
    "gs": 13,
    "pts": 129.2,
    "ppg": 9.94,
@@ -728,20 +728,11 @@
   {
    "player": "8132",
    "name": "Tyler Allgeier",
-   "score": 959,
+   "score": 958,
    "gs": 12,
    "pts": 117.65,
    "ppg": 9.8,
-   "war": 0.02
-  },
-  {
-   "player": "7567",
-   "name": "Kenny Gainwell",
-   "score": 959,
-   "gs": 14,
-   "pts": 148.5,
-   "ppg": 10.61,
-   "war": 0.2
+   "war": 0.12
   },
   {
    "player": "5987",
@@ -751,6 +742,15 @@
    "pts": 126.6,
    "ppg": 10.55,
    "war": 0.01
+  },
+  {
+   "player": "7567",
+   "name": "Kenny Gainwell",
+   "score": 950,
+   "gs": 14,
+   "pts": 148.5,
+   "ppg": 10.61,
+   "war": 0.32
   },
   {
    "player": "3164",
@@ -792,7 +792,7 @@
    "stat": "WAR",
    "value": 0.04,
    "digits": 2,
-   "rank": 202,
+   "rank": 204,
    "of": 424
   },
   {
@@ -801,7 +801,7 @@
    "stat": "VOR",
    "value": 3.5,
    "digits": 1,
-   "rank": 202,
+   "rank": 204,
    "of": 424
   },
   {
@@ -864,7 +864,7 @@
    "stat": "WAR",
    "value": 0.04,
    "digits": 2,
-   "rank": 55,
+   "rank": 58,
    "of": 100
   },
   {
@@ -893,7 +893,7 @@
    "stat": "WAR",
    "value": 0.1,
    "digits": 2,
-   "rank": 24,
+   "rank": 25,
    "of": 82,
    "franchise": 4
   },
@@ -1050,7 +1050,7 @@
  ],
  "hof": {
   "score": 3.9,
-  "rank": 212,
+  "rank": 215,
   "of": 424,
   "war": 0.4,
   "starts": 3.5,

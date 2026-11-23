@@ -130,9 +130,9 @@
   {
    "season": "2026",
    "team": "PIT",
-   "g": 6,
-   "pts": 55.1,
-   "rank": 49
+   "g": 7,
+   "pts": 63.0,
+   "rank": 45
   }
  ],
  "history": [
@@ -961,49 +961,49 @@
  ],
  "similar": [
   {
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "score": 934,
+   "gs": 14,
+   "pts": 220.1,
+   "ppg": 15.72,
+   "war": 1.19
+  },
+  {
    "player": "2749",
    "name": "Raheem Mostert",
-   "score": 933,
+   "score": 934,
    "gs": 15,
    "pts": 238.3,
    "ppg": 15.89,
    "war": 0.97
   },
   {
-   "player": "12481",
-   "name": "Cam Skattebo",
-   "score": 922,
-   "gs": 14,
-   "pts": 220.1,
-   "ppg": 15.72,
-   "war": 1.0
-  },
-  {
    "player": "8228",
    "name": "Jaylen Warren",
-   "score": 913,
+   "score": 909,
    "gs": 21,
    "pts": 312.1,
    "ppg": 14.86,
-   "war": 1.33
+   "war": 1.55
   },
   {
    "player": "12527",
    "name": "Ashton Jeanty",
-   "score": 888,
+   "score": 877,
    "gs": 22,
    "pts": 341.7,
    "ppg": 15.53,
-   "war": 1.6
+   "war": 1.82
   },
   {
    "player": "12490",
    "name": "Bhayshul Tuten",
-   "score": 854,
+   "score": 870,
    "gs": 12,
    "pts": 177.8,
    "ppg": 14.82,
-   "war": 0.68
+   "war": 0.9
   }
  ],
  "status": {
@@ -1036,7 +1036,7 @@
    "stat": "WAR",
    "value": 1.34,
    "digits": 2,
-   "rank": 67,
+   "rank": 69,
    "of": 424
   },
   {
@@ -1045,7 +1045,7 @@
    "stat": "VOR",
    "value": 113.6,
    "digits": 1,
-   "rank": 67,
+   "rank": 69,
    "of": 424
   },
   {
@@ -1108,7 +1108,7 @@
    "stat": "WAR",
    "value": 1.34,
    "digits": 2,
-   "rank": 26,
+   "rank": 27,
    "of": 100
   },
   {
@@ -1214,7 +1214,7 @@
  ],
  "hof": {
   "score": 17.65,
-  "rank": 84,
+  "rank": 83,
   "of": 424,
   "war": 13.4,
   "starts": 4.25,
@@ -1477,7 +1477,7 @@
     "season": "2026",
     "nfl": "PIT",
     "missed": 3,
-    "lost": 0.0,
+    "lost": 1.59,
     "injuries": [
      "Toe"
     ],
@@ -1557,7 +1557,7 @@
      }
     ],
     "rostered": 3,
-    "lost": 0.0
+    "lost": 1.59
    }
   ],
   "now": null
