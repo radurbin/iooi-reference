@@ -127,6 +127,12 @@
    "from": null,
    "from_team": null,
    "trade": null
+  },
+  {
+   "date": "2026-11-24",
+   "type": "released",
+   "from": 12,
+   "from_team": "Team Win One Game"
   }
  ],
  "nicknames": [],
@@ -696,8 +702,7 @@
   }
  ],
  "status": {
-  "code": "rostered",
-  "franchise": 12
+  "code": "free_agent"
  },
  "split_draft": null,
  "ranks": [
@@ -1456,11 +1461,6 @@
     "lost": 0.0
    }
   ],
-  "now": {
-   "status": "IR",
-   "injury": "Elbow",
-   "since": null,
-   "streak": 2
-  }
+  "now": null
  }
 }

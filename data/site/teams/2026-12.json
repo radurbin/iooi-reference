@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 39,
+  "transactions": 40,
   "trades": 4,
   "seed": 11,
   "efficiency": 0.8599,
@@ -1582,7 +1582,7 @@
    "managers": [
     "charlie"
    ],
-   "until": null,
+   "until": "2026-11-24",
    "g": 3,
    "gs": 2,
    "pts": 7.14,
@@ -2002,6 +2002,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-24",
+   "season": "2026",
+   "player": "6011",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "managers": [
+    "charlie"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2170,8 +2184,8 @@
    "opp_record": "2-9",
    "opp_seed": 12,
    "chance": 0.512,
-   "proj": 109.47,
-   "opp_proj": 87.1
+   "proj": 109.6,
+   "opp_proj": 85.82
   },
   {
    "week": 13,
