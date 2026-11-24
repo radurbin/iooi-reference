@@ -74,7 +74,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": null,
-   "g": 1,
+   "g": 2,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.0,
@@ -87,7 +87,7 @@
   }
  ],
  "totals": {
-  "g": 43,
+  "g": 44,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 164.7,
@@ -843,6 +843,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -857,7 +873,7 @@
    "stat": "Bench Points",
    "value": 164.7,
    "digits": 2,
-   "rank": 80,
+   "rank": 81,
    "of": 515
   }
  ],
@@ -1009,7 +1025,7 @@
     "season": "2026",
     "nfl": "SF",
     "missed": 10,
-    "lost": 6.0,
+    "lost": 6.75,
     "injuries": [
      "Knee - PCL"
     ],
@@ -1028,7 +1044,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 8,
+    "rostered": 9,
     "games": [
      {
       "week": 1,
@@ -1097,8 +1113,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Knee - PCL",
-      "franchise": null,
-      "team": null
+      "franchise": 3,
+      "team": "Kolkata Kommies"
      }
     ]
    }
@@ -1212,8 +1228,8 @@
       "team": "Kolkata Kommies"
      }
     ],
-    "rostered": 8,
-    "lost": 6.0
+    "rostered": 9,
+    "lost": 6.75
    }
   ],
   "now": {

@@ -66,13 +66,13 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "w": 2,
-   "l": 8,
+   "l": 9,
    "t": 0,
-   "pf": 992.59,
-   "pa": 1392.78,
+   "pf": 1028.53,
+   "pa": 1568.98,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.2,
+   "pct": 0.182,
    "transactions": 42,
    "trades": 7,
    "partial_season": false,
@@ -81,13 +81,13 @@
  ],
  "totals": {
   "w": 21,
-  "l": 31,
+  "l": 32,
   "t": 0,
-  "pf": 6280.14,
-  "pa": 6901.7,
+  "pf": 6316.08,
+  "pa": 7077.9,
   "playoff_w": 1,
   "playoff_l": 4,
-  "pct": 0.404,
+  "pct": 0.396,
   "transactions": 118,
   "trades": 9
  },
@@ -101,13 +101,13 @@
     "name": "Caleb Williams",
     "pos": "QB",
     "years": "2024-2026",
-    "g": 44,
-    "gs": 37,
-    "pts": 611.02,
+    "g": 45,
+    "gs": 38,
+    "pts": 625.76,
     "best": 38.7,
     "wins": 16,
-    "vor": 160.57,
-    "war": 1.9
+    "vor": 161.7,
+    "war": 1.91
    },
    {
     "player": "3163",
@@ -192,13 +192,26 @@
     "name": "Romeo Doubs",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 61,
+    "g": 62,
     "gs": 25,
     "pts": 274.8,
     "best": 29.8,
     "wins": 10,
     "vor": 1.15,
     "war": 0.01
+   },
+   {
+    "player": "7526",
+    "name": "Jaylen Waddle",
+    "pos": "WR",
+    "years": "2024-2026",
+    "g": 45,
+    "gs": 28,
+    "pts": 271.0,
+    "best": 23.0,
+    "wins": 8,
+    "vor": -22.06,
+    "war": -0.26
    },
    {
     "player": "7021",
@@ -212,19 +225,6 @@
     "wins": 6,
     "vor": 113.57,
     "war": 1.34
-   },
-   {
-    "player": "7526",
-    "name": "Jaylen Waddle",
-    "pos": "WR",
-    "years": "2024-2026",
-    "g": 44,
-    "gs": 27,
-    "pts": 261.9,
-    "best": 23.0,
-    "wins": 8,
-    "vor": -21.9,
-    "war": -0.26
    },
    {
     "player": "7591",
@@ -244,13 +244,13 @@
     "name": "Harold Fannin Jr.",
     "pos": "TE",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 16,
+    "g": 28,
+    "gs": 17,
     "pts": 191.95,
     "best": 24.1,
     "wins": 7,
-    "vor": 37.61,
-    "war": 0.44
+    "vor": 24.41,
+    "war": 0.29
    },
    {
     "player": "4098",
@@ -270,13 +270,13 @@
     "name": "Bhayshul Tuten",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 12,
-    "pts": 177.8,
+    "g": 28,
+    "gs": 13,
+    "pts": 187.1,
     "best": 31.5,
     "wins": 5,
-    "vor": 75.8,
-    "war": 0.9
+    "vor": 76.63,
+    "war": 0.91
    },
    {
     "player": "5022",
@@ -387,13 +387,26 @@
     "name": "Blake Corum",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 32,
-    "gs": 9,
+    "g": 33,
+    "gs": 10,
     "pts": 105.8,
     "best": 22.6,
     "wins": 1,
-    "vor": 29.45,
-    "war": 0.35
+    "vor": 20.98,
+    "war": 0.25
+   },
+   {
+    "player": "11624",
+    "name": "Xavier Worthy",
+    "pos": "WR",
+    "years": "2024, 2026",
+    "g": 20,
+    "gs": 13,
+    "pts": 93.7,
+    "best": 20.8,
+    "wins": 2,
+    "vor": -41.32,
+    "war": -0.49
    },
    {
     "player": "LAC",
@@ -407,19 +420,6 @@
     "wins": 3,
     "vor": 7.6,
     "war": 0.09
-   },
-   {
-    "player": "3257",
-    "name": "Jacoby Brissett",
-    "pos": "QB",
-    "years": "2026",
-    "g": 5,
-    "gs": 5,
-    "pts": 86.0,
-    "best": 26.0,
-    "wins": 2,
-    "vor": 17.96,
-    "war": 0.21
    }
   ],
   "by_pos": {
@@ -429,13 +429,13 @@
      "name": "Caleb Williams",
      "pos": "QB",
      "years": "2024-2026",
-     "g": 44,
-     "gs": 37,
-     "pts": 611.02,
+     "g": 45,
+     "gs": 38,
+     "pts": 625.76,
      "best": 38.7,
      "wins": 16,
-     "vor": 160.57,
-     "war": 1.9
+     "vor": 161.7,
+     "war": 1.91
     },
     {
      "player": "3163",
@@ -552,13 +552,13 @@
      "name": "Harold Fannin Jr.",
      "pos": "TE",
      "years": "2025-2026",
-     "g": 27,
-     "gs": 16,
+     "g": 28,
+     "gs": 17,
      "pts": 191.95,
      "best": 24.1,
      "wins": 7,
-     "vor": 37.61,
-     "war": 0.44
+     "vor": 24.41,
+     "war": 0.29
     },
     {
      "player": "5022",
@@ -611,8 +611,8 @@
      "pts": 67.0,
      "best": 17.0,
      "wins": 4,
-     "vor": 23.56,
-     "war": 0.28
+     "vor": 24.64,
+     "war": 0.29
     },
     {
      "player": "1433",
@@ -678,13 +678,13 @@
    "name": "Caleb Williams",
    "pos": "QB",
    "years": "2024-2026",
-   "g": 44,
-   "gs": 37,
-   "pts": 611.02,
+   "g": 45,
+   "gs": 38,
+   "pts": 625.76,
    "best": 38.7,
    "wins": 16,
-   "vor": 160.57,
-   "war": 1.9
+   "vor": 161.7,
+   "war": 1.91
   },
   {
    "slot": "RB",
@@ -748,13 +748,13 @@
    "name": "Harold Fannin Jr.",
    "pos": "TE",
    "years": "2025-2026",
-   "g": 27,
-   "gs": 16,
+   "g": 28,
+   "gs": 17,
    "pts": 191.95,
    "best": 24.1,
    "wins": 7,
-   "vor": 37.61,
-   "war": 0.44
+   "vor": 24.41,
+   "war": 0.29
   },
   {
    "slot": "FLEX",
@@ -1254,7 +1254,7 @@
    "season": "2026",
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
-   "games": 24,
+   "games": 25,
    "players": 10,
    "lost": 17.37,
    "rank": 10,

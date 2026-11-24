@@ -1357,10 +1357,10 @@
    "original": 4,
    "player": "6797",
    "pos": "QB",
-   "starts_team": 52,
-   "pts_team": 844.2,
-   "starts_league": 52,
-   "pts_league": 844.2,
+   "starts_team": 53,
+   "pts_team": 867.44,
+   "starts_league": 53,
+   "pts_league": 867.44,
    "nfl_pts": 907.14
   },
   {
@@ -1378,8 +1378,8 @@
    "pos": "RB",
    "starts_team": 7,
    "pts_team": 122.5,
-   "starts_league": 50,
-   "pts_league": 838.2,
+   "starts_league": 51,
+   "pts_league": 853.4,
    "nfl_pts": 869.4
   },
   {
@@ -1397,8 +1397,8 @@
    "pos": "RB",
    "starts_team": 16,
    "pts_team": 237.6,
-   "starts_league": 43,
-   "pts_league": 565.1,
+   "starts_league": 44,
+   "pts_league": 578.2,
    "nfl_pts": 746.0
   },
   {
@@ -1414,10 +1414,10 @@
    "original": 4,
    "player": "5872",
    "pos": "WR",
-   "starts_team": 36,
-   "pts_team": 503.25,
-   "starts_league": 36,
-   "pts_league": 503.25,
+   "starts_team": 37,
+   "pts_team": 511.15,
+   "starts_league": 37,
+   "pts_league": 511.15,
    "nfl_pts": 676.85
   },
   {
@@ -1473,8 +1473,8 @@
    "pos": "TE",
    "starts_team": 3,
    "pts_team": 12.2,
-   "starts_league": 19,
-   "pts_league": 179.3,
+   "starts_league": 20,
+   "pts_league": 188.4,
    "nfl_pts": 424.0
   },
   {
@@ -1492,8 +1492,8 @@
    "pos": "RB",
    "starts_team": 40,
    "pts_team": 519.74,
-   "starts_league": 44,
-   "pts_league": 568.84,
+   "starts_league": 45,
+   "pts_league": 586.84,
    "nfl_pts": 648.04
   },
   {
@@ -1682,8 +1682,8 @@
    "pos": "DEF",
    "starts_team": 11,
    "pts_team": 122.0,
-   "starts_league": 24,
-   "pts_league": 234.0,
+   "starts_league": 25,
+   "pts_league": 248.0,
    "nfl_pts": 450.0
   },
   {
@@ -1720,8 +1720,8 @@
    "pos": "QB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 47,
-   "pts_league": 731.28,
+   "starts_league": 48,
+   "pts_league": 750.96,
    "nfl_pts": 943.0
   }
  ],
@@ -1766,7 +1766,7 @@
    "season": "2024",
    "franchise": 10,
    "team": "BAHAHAHA",
-   "score": 887,
+   "score": 890,
    "w": 6,
    "l": 8,
    "ppg": 127.5,
@@ -1776,10 +1776,20 @@
    "season": "2023",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 820,
+   "score": 822,
    "w": 6,
    "l": 8,
    "ppg": 127.61,
+   "result": "8th"
+  },
+  {
+   "season": "2024",
+   "franchise": 12,
+   "team": "Happy Feet",
+   "score": 809,
+   "w": 5,
+   "l": 9,
+   "ppg": 125.46,
    "result": "8th"
   },
   {
@@ -1793,23 +1803,13 @@
    "result": "9th"
   },
   {
-   "season": "2024",
-   "franchise": 12,
-   "team": "Happy Feet",
-   "score": 805,
-   "w": 5,
-   "l": 9,
-   "ppg": 125.46,
-   "result": "8th"
-  },
-  {
    "season": "2026",
-   "franchise": 11,
-   "team": "BubbaNASTIES",
-   "score": 753,
-   "w": 5,
-   "l": 5,
-   "ppg": 133.78,
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "score": 771,
+   "w": 4,
+   "l": 7,
+   "ppg": 132.79,
    "result": null
   }
  ],
@@ -2386,8 +2386,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 47,
-   "pts": 731.28,
+   "gs": 48,
+   "pts": 750.96,
    "next": 12,
    "next_team": "Happy Feet"
   },
@@ -2652,8 +2652,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 16,
-   "pts": 167.1,
+   "gs": 17,
+   "pts": 176.2,
    "next": 7,
    "next_team": "young sexy central"
   },
@@ -2708,8 +2708,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 13,
-   "pts": 112.0,
+   "gs": 14,
+   "pts": 126.0,
    "next": 8,
    "next_team": "Breece is the Word"
   },
@@ -2764,8 +2764,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 3,
-   "pts": 17.0,
+   "gs": 4,
+   "pts": 8.0,
    "next": 3,
    "next_team": "Kolkata Kommies"
   },
@@ -2806,8 +2806,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 11,
-   "pts": 97.0,
+   "gs": 12,
+   "pts": 96.0,
    "next": 2,
    "next_team": "Storm FC"
   },

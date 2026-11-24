@@ -90,29 +90,29 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "TB",
-   "g": 5,
-   "gs": 4,
-   "pts": 89.4,
+   "g": 6,
+   "gs": 5,
+   "pts": 110.2,
    "bench_pts": 0.0,
-   "ppg": 22.35,
+   "ppg": 22.04,
    "best": 30.5,
-   "wins": 4,
-   "paa": 28.2,
-   "vor": 55.52,
-   "war": 0.66
+   "wins": 5,
+   "paa": 34.82,
+   "vor": 67.85,
+   "war": 0.8
   }
  ],
  "totals": {
-  "g": 44,
-  "gs": 23,
-  "pts": 397.7,
+  "g": 45,
+  "gs": 24,
+  "pts": 418.5,
   "bench_pts": 112.2,
-  "ppg": 17.29,
+  "ppg": 17.44,
   "best": 33.6,
-  "wins": 15,
-  "paa": 56.33,
-  "vor": 197.61,
-  "war": 2.34
+  "wins": 16,
+  "paa": 62.95,
+  "vor": 209.94,
+  "war": 2.48
  },
  "nfl": [
   {
@@ -974,13 +974,32 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": "RB",
+   "started": true,
+   "pts": 20.8,
+   "proj": 20.22,
+   "won": true,
+   "paa": 6.62,
+   "vor": 12.33,
+   "war": 0.1457255968091125
   }
  ],
  "similar": [
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 886,
+   "score": 896,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -989,38 +1008,38 @@
   {
    "player": "12527",
    "name": "Ashton Jeanty",
-   "score": 864,
-   "gs": 22,
-   "pts": 341.7,
-   "ppg": 15.53,
-   "war": 1.82
-  },
-  {
-   "player": "4137",
-   "name": "James Conner",
-   "score": 824,
-   "gs": 24,
-   "pts": 360.2,
-   "ppg": 15.01,
-   "war": 1.55
+   "score": 895,
+   "gs": 23,
+   "pts": 370.7,
+   "ppg": 16.12,
+   "war": 2.06
   },
   {
    "player": "4035",
    "name": "Alvin Kamara",
-   "score": 821,
+   "score": 853,
    "gs": 30,
    "pts": 532.8,
    "ppg": 17.76,
    "war": 2.88
   },
   {
+   "player": "4137",
+   "name": "James Conner",
+   "score": 805,
+   "gs": 24,
+   "pts": 360.2,
+   "ppg": 15.01,
+   "war": 1.55
+  },
+  {
    "player": "8228",
    "name": "Jaylen Warren",
-   "score": 804,
-   "gs": 21,
-   "pts": 312.1,
-   "ppg": 14.86,
-   "war": 1.55
+   "score": 763,
+   "gs": 22,
+   "pts": 317.9,
+   "ppg": 14.45,
+   "war": 1.51
   }
  ],
  "status": {
@@ -1033,46 +1052,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 397.7,
+   "value": 418.5,
    "digits": 2,
-   "rank": 80,
-   "of": 424
+   "rank": 76,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 23,
+   "value": 24,
    "digits": 0,
-   "rank": 126,
-   "of": 424
+   "rank": 118,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.34,
+   "value": 2.48,
    "digits": 2,
-   "rank": 38,
-   "of": 424
+   "rank": 36,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 197.6,
+   "value": 209.9,
    "digits": 1,
-   "rank": 38,
-   "of": 424
+   "rank": 36,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 56.3,
+   "value": 63.0,
    "digits": 1,
-   "rank": 47,
-   "of": 424
+   "rank": 42,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1080,17 +1099,17 @@
    "stat": "Best Game",
    "value": 33.6,
    "digits": 2,
-   "rank": 70,
-   "of": 424
+   "rank": 71,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 17.29,
+   "value": 17.44,
    "digits": 2,
-   "rank": 28,
-   "of": 256
+   "rank": 25,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1105,7 +1124,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 397.7,
+   "value": 418.5,
    "digits": 2,
    "rank": 23,
    "of": 100
@@ -1114,16 +1133,16 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 23,
+   "value": 24,
    "digits": 0,
-   "rank": 28,
+   "rank": 26,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 2.34,
+   "value": 2.48,
    "digits": 2,
    "rank": 17,
    "of": 100
@@ -1132,39 +1151,39 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points",
-   "value": 89.4,
+   "value": 110.2,
    "digits": 2,
-   "rank": 24,
-   "of": 76,
+   "rank": 23,
+   "of": 77,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Games Started",
-   "value": 4,
+   "value": 5,
    "digits": 0,
-   "rank": 33,
-   "of": 76,
+   "rank": 30,
+   "of": 77,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.66,
+   "value": 0.8,
    "digits": 2,
-   "rank": 10,
-   "of": 76,
+   "rank": 9,
+   "of": 77,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points, RBs",
-   "value": 89.4,
+   "value": 110.2,
    "digits": 2,
-   "rank": 9,
+   "rank": 8,
    "of": 15,
    "franchise": 2
   },
@@ -1175,7 +1194,7 @@
    "value": 308.3,
    "digits": 2,
    "rank": 8,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1185,7 +1204,7 @@
    "value": 19,
    "digits": 0,
    "rank": 10,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1194,8 +1213,8 @@
    "stat": "WAR",
    "value": 1.68,
    "digits": 2,
-   "rank": 5,
-   "of": 67,
+   "rank": 6,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1205,7 +1224,7 @@
    "value": 308.3,
    "digits": 2,
    "rank": 3,
-   "of": 11,
+   "of": 12,
    "franchise": 9
   },
   {
@@ -1252,30 +1271,30 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 175.8,
+   "value": 196.6,
    "digits": 2,
-   "rank": 25,
-   "of": 242,
+   "rank": 20,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 175.8,
+   "value": 196.6,
    "digits": 2,
-   "rank": 11,
-   "of": 58,
+   "rank": 9,
+   "of": 60,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 175.8,
+   "value": 196.6,
    "digits": 2,
-   "rank": 179,
-   "of": 1019,
+   "rank": 142,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1284,8 +1303,8 @@
    "stat": "Points, 2025",
    "value": 119.4,
    "digits": 2,
-   "rank": 313,
-   "of": 1019,
+   "rank": 316,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1294,17 +1313,17 @@
    "stat": "Points, 2024",
    "value": 102.5,
    "digits": 2,
-   "rank": 357,
-   "of": 1019,
+   "rank": 359,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 31.15,
-  "rank": 51,
-  "of": 424,
-  "war": 23.4,
-  "starts": 5.75,
+  "score": 32.8,
+  "rank": 50,
+  "of": 426,
+  "war": 24.8,
+  "starts": 6.0,
   "black_ink": 0.0,
   "awards": 2.0,
   "history": [
@@ -1527,6 +1546,11 @@
     "2026",
     10,
     31.15
+   ],
+   [
+    "2026",
+    11,
+    32.8
    ]
   ],
   "benchmark": 100

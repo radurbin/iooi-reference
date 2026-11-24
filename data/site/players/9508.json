@@ -88,7 +88,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "TEN",
-   "g": 4,
+   "g": 5,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 4.2,
@@ -101,7 +101,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 4,
   "pts": 22.3,
   "bench_pts": 331.8,
@@ -1165,6 +1165,22 @@
    "pts": 4.2,
    "proj": 6.17,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -1179,8 +1195,8 @@
    "stat": "Points",
    "value": 22.3,
    "digits": 2,
-   "rank": 316,
-   "of": 424
+   "rank": 318,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1189,7 +1205,7 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1197,8 +1213,8 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 334,
-   "of": 424
+   "rank": 337,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1206,8 +1222,8 @@
    "stat": "VOR",
    "value": -12.5,
    "digits": 1,
-   "rank": 335,
-   "of": 424
+   "rank": 338,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1215,8 +1231,8 @@
    "stat": "PAA",
    "value": -33.2,
    "digits": 1,
-   "rank": 335,
-   "of": 424
+   "rank": 332,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1224,8 +1240,8 @@
    "stat": "Best Game",
    "value": 9.2,
    "digits": 2,
-   "rank": 341,
-   "of": 424
+   "rank": 342,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1233,7 +1249,7 @@
    "stat": "Bench Points",
    "value": 331.8,
    "digits": 2,
-   "rank": 11,
+   "rank": 12,
    "of": 515
   },
   {
@@ -1270,7 +1286,7 @@
    "value": 22.3,
    "digits": 2,
    "rank": 42,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1280,7 +1296,7 @@
    "value": 4,
    "digits": 0,
    "rank": 36,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1289,8 +1305,8 @@
    "stat": "WAR",
    "value": -0.16,
    "digits": 2,
-   "rank": 54,
-   "of": 67,
+   "rank": 55,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1300,7 +1316,7 @@
    "value": 22.3,
    "digits": 2,
    "rank": 8,
-   "of": 11,
+   "of": 12,
    "franchise": 9
   },
   {
@@ -1349,8 +1365,8 @@
    "stat": "Points",
    "value": 1.9,
    "digits": 2,
-   "rank": 227,
-   "of": 242,
+   "rank": 234,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1359,8 +1375,8 @@
    "stat": "Points",
    "value": 1.9,
    "digits": 2,
-   "rank": 56,
-   "of": 58,
+   "rank": 58,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1369,8 +1385,8 @@
    "stat": "Points, 2025",
    "value": 17.6,
    "digits": 2,
-   "rank": 773,
-   "of": 1019,
+   "rank": 779,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1379,8 +1395,8 @@
    "stat": "Points, 2024",
    "value": 2.8,
    "digits": 2,
-   "rank": 967,
-   "of": 1019,
+   "rank": 972,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1389,16 +1405,16 @@
    "stat": "Points, 2026",
    "value": 1.9,
    "digits": 2,
-   "rank": 982,
-   "of": 1019,
+   "rank": 989,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 306,
-  "of": 424,
+  "rank": 308,
+  "of": 426,
   "war": 0.0,
   "starts": 1.0,
   "black_ink": 0.0,
@@ -1708,6 +1724,11 @@
     "2026",
     10,
     1.0
+   ],
+   [
+    "2026",
+    11,
+    1.0
    ]
   ],
   "benchmark": 100
@@ -1832,7 +1853,7 @@
      "IR",
      "Out"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 8,
@@ -1845,8 +1866,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Knee",
-      "franchise": null,
-      "team": null
+      "franchise": 2,
+      "team": "Storm FC"
      }
     ]
    }
@@ -1959,8 +1980,13 @@
     "kinds": [
      "IR"
     ],
-    "teams": [],
-    "rostered": 0,
+    "teams": [
+     {
+      "franchise": 2,
+      "team": "Storm FC"
+     }
+    ],
+    "rostered": 1,
     "lost": 0.0
    }
   ],

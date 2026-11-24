@@ -42,29 +42,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "IND",
-   "g": 10,
+   "g": 11,
    "gs": 5,
    "pts": 52.1,
-   "bench_pts": 34.8,
+   "bench_pts": 38.0,
    "ppg": 10.42,
    "best": 21.5,
    "wins": 3,
    "paa": -5.7,
-   "vor": 2.05,
-   "war": 0.02
+   "vor": 0.6,
+   "war": 0.01
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 18,
   "pts": 207.2,
-  "bench_pts": 55.7,
+  "bench_pts": 58.9,
   "ppg": 11.51,
   "best": 21.5,
   "wins": 12,
   "paa": 13.23,
-  "vor": 39.63,
-  "war": 0.47
+  "vor": 38.18,
+  "war": 0.45
  },
  "nfl": [
   {
@@ -79,7 +79,7 @@
    "team": "IND",
    "g": 9,
    "pts": 90.1,
-   "rank": 13
+   "rank": 14
   }
  ],
  "history": [
@@ -421,8 +421,8 @@
    "proj": 13.82,
    "won": true,
    "paa": 1.63,
-   "vor": 0.29,
-   "war": 0.003427447126897212
+   "vor": 0.0,
+   "war": 0.0
   },
   {
    "season": "2026",
@@ -440,8 +440,8 @@
    "proj": 11.35,
    "won": false,
    "paa": 1.91,
-   "vor": 4.49,
-   "war": 0.053066336550925804
+   "vor": 4.2,
+   "war": 0.049638889424028595
   },
   {
    "season": "2026",
@@ -491,8 +491,8 @@
    "proj": 10.6,
    "won": true,
    "paa": 8.67,
-   "vor": 11.49,
-   "war": 0.13579781892430678
+   "vor": 11.2,
+   "war": 0.13237037179740957
   },
   {
    "season": "2026",
@@ -510,8 +510,8 @@
    "proj": null,
    "won": false,
    "paa": -10.86,
-   "vor": -10.01,
-   "war": -0.1183060197939348
+   "vor": -10.3,
+   "war": -0.12173346692083203
   },
   {
    "season": "2026",
@@ -545,8 +545,8 @@
    "proj": 10.72,
    "won": true,
    "paa": -7.05,
-   "vor": -4.21,
-   "war": -0.049757077255990566
+   "vor": -4.5,
+   "war": -0.053184524382887774
   },
   {
    "season": "2026",
@@ -579,26 +579,42 @@
    "pts": 2.5,
    "proj": 12.71,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 3.2,
+   "proj": 10.78,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 942,
-   "gs": 16,
+   "score": 951,
+   "gs": 17,
    "pts": 191.95,
-   "ppg": 12.0,
-   "war": 0.44
+   "ppg": 11.29,
+   "war": 0.29
   },
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 918,
+   "score": 919,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.54
+   "war": 0.51
   },
   {
    "player": "5001",
@@ -607,25 +623,25 @@
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.25
+   "war": 0.23
+  },
+  {
+   "player": "12517",
+   "name": "Colston Loveland",
+   "score": 857,
+   "gs": 13,
+   "pts": 143.3,
+   "ppg": 11.02,
+   "war": 0.17
   },
   {
    "player": "5844",
    "name": "T.J. Hockenson",
-   "score": 841,
+   "score": 840,
    "gs": 17,
    "pts": 226.9,
    "ppg": 13.35,
    "war": 0.62
-  },
-  {
-   "player": "4066",
-   "name": "Evan Engram",
-   "score": 836,
-   "gs": 25,
-   "pts": 280.4,
-   "ppg": 11.22,
-   "war": 0.3
   }
  ],
  "status": {
@@ -640,8 +656,8 @@
    "stat": "Points",
    "value": 207.2,
    "digits": 2,
-   "rank": 153,
-   "of": 424
+   "rank": 155,
+   "of": 426
   },
   {
    "group": "Career",
@@ -649,26 +665,26 @@
    "stat": "Games Started",
    "value": 18,
    "digits": 0,
-   "rank": 161,
-   "of": 424
+   "rank": 163,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.45,
    "digits": 2,
-   "rank": 119,
-   "of": 424
+   "rank": 126,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 39.6,
+   "value": 38.2,
    "digits": 1,
-   "rank": 119,
-   "of": 424
+   "rank": 126,
+   "of": 426
   },
   {
    "group": "Career",
@@ -676,8 +692,8 @@
    "stat": "PAA",
    "value": 13.2,
    "digits": 1,
-   "rank": 87,
-   "of": 424
+   "rank": 88,
+   "of": 426
   },
   {
    "group": "Career",
@@ -685,8 +701,8 @@
    "stat": "Best Game",
    "value": 21.5,
    "digits": 2,
-   "rank": 206,
-   "of": 424
+   "rank": 207,
+   "of": 426
   },
   {
    "group": "Career",
@@ -694,16 +710,16 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.51,
    "digits": 2,
-   "rank": 138,
-   "of": 256
+   "rank": 135,
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 55.7,
+   "value": 58.9,
    "digits": 2,
-   "rank": 273,
+   "rank": 268,
    "of": 515
   },
   {
@@ -728,7 +744,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 0.47,
+   "value": 0.45,
    "digits": 2,
    "rank": 9,
    "of": 52
@@ -739,7 +755,7 @@
    "stat": "Points",
    "value": 207.2,
    "digits": 2,
-   "rank": 10,
+   "rank": 11,
    "of": 69,
    "franchise": 8
   },
@@ -757,9 +773,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.46,
+   "value": 0.45,
    "digits": 2,
-   "rank": 12,
+   "rank": 13,
    "of": 69,
    "franchise": 8
   },
@@ -799,8 +815,8 @@
    "stat": "Points",
    "value": 52.1,
    "digits": 2,
-   "rank": 114,
-   "of": 242,
+   "rank": 122,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -810,7 +826,7 @@
    "value": 52.1,
    "digits": 2,
    "rank": 14,
-   "of": 29,
+   "of": 30,
    "season": "2026"
   },
   {
@@ -819,8 +835,8 @@
    "stat": "Points, 2025",
    "value": 155.1,
    "digits": 2,
-   "rank": 227,
-   "of": 1019,
+   "rank": 233,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -829,16 +845,16 @@
    "stat": "Points, 2026",
    "value": 52.1,
    "digits": 2,
-   "rank": 554,
-   "of": 1019,
+   "rank": 562,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 9.2,
-  "rank": 143,
-  "of": 424,
-  "war": 4.7,
+  "score": 9.0,
+  "rank": 145,
+  "of": 426,
+  "war": 4.5,
   "starts": 4.5,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -931,52 +947,57 @@
    [
     "2026",
     1,
-    8.0
+    7.9
    ],
    [
     "2026",
     2,
-    8.75
+    8.65
    ],
    [
     "2026",
     3,
-    8.75
+    8.65
    ],
    [
     "2026",
     4,
-    8.75
+    8.65
    ],
    [
     "2026",
     5,
-    10.4
+    10.3
    ],
    [
     "2026",
     6,
-    9.45
+    9.25
    ],
    [
     "2026",
     7,
-    9.45
+    9.25
    ],
    [
     "2026",
     8,
-    9.2
+    9.0
    ],
    [
     "2026",
     9,
-    9.2
+    9.0
    ],
    [
     "2026",
     10,
-    9.2
+    9.0
+   ],
+   [
+    "2026",
+    11,
+    9.0
    ]
   ],
   "benchmark": 100

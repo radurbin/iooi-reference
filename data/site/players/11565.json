@@ -88,29 +88,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "NYG",
-   "g": 4,
-   "gs": 1,
-   "pts": 17.72,
+   "g": 5,
+   "gs": 2,
+   "pts": 34.14,
    "bench_pts": 17.96,
-   "ppg": 17.72,
+   "ppg": 17.07,
    "best": 17.72,
    "wins": 0,
-   "paa": 0.07,
-   "vor": 4.11,
-   "war": 0.05
+   "paa": -0.14,
+   "vor": 6.93,
+   "war": 0.08
   }
  ],
  "totals": {
-  "g": 40,
-  "gs": 3,
-  "pts": 21.02,
+  "g": 41,
+  "gs": 4,
+  "pts": 37.44,
   "bench_pts": 132.06,
-  "ppg": 7.01,
+  "ppg": 9.36,
   "best": 17.72,
   "wins": 2,
-  "paa": -25.73,
-  "vor": -15.55,
-  "war": -0.18
+  "paa": -25.94,
+  "vor": -12.73,
+  "war": -0.15
  },
  "nfl": [
   {
@@ -870,6 +870,25 @@
    "paa": 0.07,
    "vor": 4.11,
    "war": 0.04857519893637084
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": "QB",
+   "started": true,
+   "pts": 16.42,
+   "proj": 13.53,
+   "won": false,
+   "paa": -0.21,
+   "vor": 2.82,
+   "war": 0.03332896861327634
   }
  ],
  "status": {
@@ -882,46 +901,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 21.02,
+   "value": 37.44,
    "digits": 2,
-   "rank": 321,
-   "of": 424
+   "rank": 290,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 3,
+   "value": 4,
    "digits": 0,
-   "rank": 301,
-   "of": 424
+   "rank": 285,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.18,
+   "value": -0.15,
    "digits": 2,
-   "rank": 348,
-   "of": 424
+   "rank": 337,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -15.6,
+   "value": -12.7,
    "digits": 1,
-   "rank": 351,
-   "of": 424
+   "rank": 341,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -25.7,
+   "value": -25.9,
    "digits": 1,
-   "rank": 306,
-   "of": 424
+   "rank": 307,
+   "of": 426
   },
   {
    "group": "Career",
@@ -929,8 +948,8 @@
    "stat": "Best Game",
    "value": 17.72,
    "digits": 2,
-   "rank": 260,
-   "of": 424
+   "rank": 261,
+   "of": 426
   },
   {
    "group": "Career",
@@ -938,43 +957,43 @@
    "stat": "Bench Points",
    "value": 132.06,
    "digits": 2,
-   "rank": 122,
+   "rank": 124,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 21.02,
+   "value": 37.44,
    "digits": 2,
-   "rank": 56,
+   "rank": 51,
    "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 3,
+   "value": 4,
    "digits": 0,
-   "rank": 48,
+   "rank": 46,
    "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": -0.18,
+   "value": -0.15,
    "digits": 2,
-   "rank": 61,
+   "rank": 59,
    "of": 68
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points",
-   "value": 17.72,
+   "value": 34.14,
    "digits": 2,
-   "rank": 46,
+   "rank": 35,
    "of": 69,
    "franchise": 8
   },
@@ -982,9 +1001,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Games Started",
-   "value": 1,
+   "value": 2,
    "digits": 0,
-   "rank": 53,
+   "rank": 40,
    "of": 69,
    "franchise": 8
   },
@@ -992,9 +1011,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 0.05,
+   "value": 0.08,
    "digits": 2,
-   "rank": 31,
+   "rank": 29,
    "of": 69,
    "franchise": 8
   },
@@ -1002,7 +1021,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points, QBs",
-   "value": 17.72,
+   "value": 34.14,
    "digits": 2,
    "rank": 8,
    "of": 10,
@@ -1014,8 +1033,8 @@
    "stat": "Points",
    "value": 3.3,
    "digits": 2,
-   "rank": 53,
-   "of": 60,
+   "rank": 54,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1024,8 +1043,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 31,
-   "of": 60,
+   "rank": 32,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1034,8 +1053,8 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 58,
-   "of": 60,
+   "rank": 59,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1072,19 +1091,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 17.72,
+   "value": 34.14,
    "digits": 2,
-   "rank": 172,
-   "of": 242,
+   "rank": 147,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 17.72,
+   "value": 34.14,
    "digits": 2,
-   "rank": 33,
+   "rank": 31,
    "of": 39,
    "season": "2026"
   },
@@ -1092,10 +1111,10 @@
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 17.72,
+   "value": 34.14,
    "digits": 2,
-   "rank": 772,
-   "of": 1019,
+   "rank": 666,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1104,18 +1123,18 @@
    "stat": "Points, 2025",
    "value": 3.3,
    "digits": 2,
-   "rank": 955,
-   "of": 1019,
+   "rank": 960,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 0.75,
-  "rank": 320,
-  "of": 424,
+  "score": 1.0,
+  "rank": 308,
+  "of": 426,
   "war": 0.0,
-  "starts": 0.75,
+  "starts": 1.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1338,6 +1357,11 @@
     "2026",
     10,
     0.75
+   ],
+   [
+    "2026",
+    11,
+    1.0
    ]
   ],
   "benchmark": 100

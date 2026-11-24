@@ -40,7 +40,7 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "ARI",
-   "g": 5,
+   "g": 6,
    "gs": 1,
    "pts": 3.2,
    "bench_pts": 0.0,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 10,
+  "g": 11,
   "gs": 6,
   "pts": 61.0,
   "bench_pts": 0.0,
@@ -70,7 +70,7 @@
    "team": "ARI",
    "g": 6,
    "pts": 61.0,
-   "rank": 47
+   "rank": 48
   }
  ],
  "history": [
@@ -297,6 +297,22 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -311,8 +327,8 @@
    "stat": "Points",
    "value": 61.0,
    "digits": 2,
-   "rank": 252,
-   "of": 424
+   "rank": 254,
+   "of": 426
   },
   {
    "group": "Career",
@@ -320,8 +336,8 @@
    "stat": "Games Started",
    "value": 6,
    "digits": 0,
-   "rank": 269,
-   "of": 424
+   "rank": 270,
+   "of": 426
   },
   {
    "group": "Career",
@@ -329,8 +345,8 @@
    "stat": "WAR",
    "value": 0.12,
    "digits": 2,
-   "rank": 181,
-   "of": 424
+   "rank": 184,
+   "of": 426
   },
   {
    "group": "Career",
@@ -338,8 +354,8 @@
    "stat": "VOR",
    "value": 10.2,
    "digits": 1,
-   "rank": 181,
-   "of": 424
+   "rank": 184,
+   "of": 426
   },
   {
    "group": "Career",
@@ -348,7 +364,7 @@
    "value": -38.2,
    "digits": 1,
    "rank": 350,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -356,8 +372,8 @@
    "stat": "Best Game",
    "value": 24.0,
    "digits": 2,
-   "rank": 174,
-   "of": 424
+   "rank": 175,
+   "of": 426
   },
   {
    "group": "Career",
@@ -365,7 +381,7 @@
    "stat": "Points",
    "value": 61.0,
    "digits": 2,
-   "rank": 61,
+   "rank": 63,
    "of": 100
   },
   {
@@ -383,7 +399,7 @@
    "stat": "WAR",
    "value": 0.12,
    "digits": 2,
-   "rank": 52,
+   "rank": 53,
    "of": 100
   },
   {
@@ -393,7 +409,7 @@
    "value": 57.8,
    "digits": 2,
    "rank": 30,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -402,8 +418,8 @@
    "stat": "Games Started",
    "value": 5,
    "digits": 0,
-   "rank": 29,
-   "of": 76,
+   "rank": 30,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -412,8 +428,8 @@
    "stat": "WAR",
    "value": 0.18,
    "digits": 2,
-   "rank": 26,
-   "of": 76,
+   "rank": 27,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -432,8 +448,8 @@
    "stat": "Points",
    "value": 3.2,
    "digits": 2,
-   "rank": 60,
-   "of": 67,
+   "rank": 62,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -443,7 +459,7 @@
    "value": 1,
    "digits": 0,
    "rank": 56,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -452,8 +468,8 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 40,
-   "of": 67,
+   "rank": 41,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -462,8 +478,8 @@
    "stat": "Points, RBs",
    "value": 3.2,
    "digits": 2,
-   "rank": 11,
-   "of": 11,
+   "rank": 12,
+   "of": 12,
    "franchise": 9
   },
   {
@@ -472,8 +488,8 @@
    "stat": "Points",
    "value": 61.0,
    "digits": 2,
-   "rank": 99,
-   "of": 242,
+   "rank": 108,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -482,8 +498,8 @@
    "stat": "Points",
    "value": 61.0,
    "digits": 2,
-   "rank": 25,
-   "of": 58,
+   "rank": 28,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -492,16 +508,16 @@
    "stat": "Points, 2026",
    "value": 61.0,
    "digits": 2,
-   "rank": 507,
-   "of": 1019,
+   "rank": 516,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 2.7,
-  "rank": 244,
-  "of": 424,
+  "rank": 246,
+  "of": 426,
   "war": 1.2,
   "starts": 1.5,
   "black_ink": 0.0,
@@ -556,6 +572,11 @@
     "2026",
     10,
     2.7
+   ],
+   [
+    "2026",
+    11,
+    2.7
    ]
   ],
   "benchmark": 100
@@ -568,7 +589,7 @@
     "season": "2026",
     "nfl": "ARI",
     "missed": 5,
-    "lost": 6.8,
+    "lost": 8.5,
     "injuries": [
      "Ankle"
     ],
@@ -583,7 +604,7 @@
      "IR",
      "Out"
     ],
-    "rostered": 4,
+    "rostered": 5,
     "games": [
      {
       "week": 6,
@@ -617,8 +638,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Ankle",
-      "franchise": null,
-      "team": null
+      "franchise": 9,
+      "team": "Clandestine Ball Busters"
      }
     ]
    }
@@ -668,8 +689,8 @@
       "team": "Clandestine Ball Busters"
      }
     ],
-    "rostered": 2,
-    "lost": 3.4
+    "rostered": 3,
+    "lost": 5.1
    }
   ],
   "now": {

@@ -1092,49 +1092,49 @@
  ],
  "similar": [
   {
-   "player": "12527",
-   "name": "Ashton Jeanty",
-   "score": 940,
-   "gs": 22,
-   "pts": 341.7,
-   "ppg": 15.53,
-   "war": 1.82
-  },
-  {
    "player": "8228",
    "name": "Jaylen Warren",
-   "score": 935,
-   "gs": 21,
-   "pts": 312.1,
-   "ppg": 14.86,
-   "war": 1.55
+   "score": 941,
+   "gs": 22,
+   "pts": 317.9,
+   "ppg": 14.45,
+   "war": 1.51
+  },
+  {
+   "player": "12527",
+   "name": "Ashton Jeanty",
+   "score": 905,
+   "gs": 23,
+   "pts": 370.7,
+   "ppg": 16.12,
+   "war": 2.06
   },
   {
    "player": "7021",
    "name": "Rico Dowdle",
-   "score": 853,
-   "gs": 17,
-   "pts": 263.2,
-   "ppg": 15.48,
+   "score": 874,
+   "gs": 18,
+   "pts": 271.1,
+   "ppg": 15.06,
    "war": 1.34
-  },
-  {
-   "player": "8136",
-   "name": "Rachaad White",
-   "score": 852,
-   "gs": 31,
-   "pts": 429.4,
-   "ppg": 13.85,
-   "war": 1.6
   },
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 842,
+   "score": 843,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
    "war": 2.15
+  },
+  {
+   "player": "7611",
+   "name": "Rhamondre Stevenson",
+   "score": 832,
+   "gs": 27,
+   "pts": 342.3,
+   "ppg": 12.68,
+   "war": 0.97
   }
  ],
  "status": {
@@ -1148,8 +1148,8 @@
    "stat": "Points",
    "value": 360.2,
    "digits": 2,
-   "rank": 89,
-   "of": 424
+   "rank": 90,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1157,8 +1157,8 @@
    "stat": "Games Started",
    "value": 24,
    "digits": 0,
-   "rank": 117,
-   "of": 424
+   "rank": 118,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1166,8 +1166,8 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 61,
-   "of": 424
+   "rank": 59,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1175,8 +1175,8 @@
    "stat": "VOR",
    "value": 131.1,
    "digits": 1,
-   "rank": 61,
-   "of": 424
+   "rank": 59,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1184,8 +1184,8 @@
    "stat": "PAA",
    "value": 36.0,
    "digits": 1,
-   "rank": 59,
-   "of": 424
+   "rank": 60,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1193,8 +1193,8 @@
    "stat": "Best Game",
    "value": 30.8,
    "digits": 2,
-   "rank": 100,
-   "of": 424
+   "rank": 101,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1202,8 +1202,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 15.01,
    "digits": 2,
-   "rank": 70,
-   "of": 256
+   "rank": 68,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1211,7 +1211,7 @@
    "stat": "Bench Points",
    "value": 98.0,
    "digits": 2,
-   "rank": 174,
+   "rank": 176,
    "of": 515
   },
   {
@@ -1220,7 +1220,7 @@
    "stat": "Points",
    "value": 360.2,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 100
   },
   {
@@ -1238,7 +1238,7 @@
    "stat": "WAR",
    "value": 1.55,
    "digits": 2,
-   "rank": 25,
+   "rank": 24,
    "of": 100
   },
   {
@@ -1248,7 +1248,7 @@
    "value": 360.2,
    "digits": 2,
    "rank": 8,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
@@ -1258,7 +1258,7 @@
    "value": 24,
    "digits": 0,
    "rank": 6,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
@@ -1268,7 +1268,7 @@
    "value": 1.55,
    "digits": 2,
    "rank": 7,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
@@ -1347,8 +1347,8 @@
    "stat": "Points, 2024",
    "value": 242.7,
    "digits": 2,
-   "rank": 69,
-   "of": 1019,
+   "rank": 70,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1357,8 +1357,8 @@
    "stat": "Points, 2023",
    "value": 90.9,
    "digits": 2,
-   "rank": 385,
-   "of": 1019,
+   "rank": 387,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1367,15 +1367,15 @@
    "stat": "Points, 2025",
    "value": 26.6,
    "digits": 2,
-   "rank": 701,
-   "of": 1019,
+   "rank": 704,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 25.5,
   "rank": 66,
-  "of": 424,
+  "of": 426,
   "war": 15.5,
   "starts": 6.0,
   "black_ink": 0.0,
@@ -1684,6 +1684,11 @@
    [
     "2026",
     10,
+    25.5
+   ],
+   [
+    "2026",
+    11,
     25.5
    ]
   ],

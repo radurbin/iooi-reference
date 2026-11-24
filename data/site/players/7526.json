@@ -72,29 +72,29 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "DEN",
-   "g": 10,
-   "gs": 10,
-   "pts": 82.2,
+   "g": 11,
+   "gs": 11,
+   "pts": 91.3,
    "bench_pts": 0.0,
-   "ppg": 8.22,
+   "ppg": 8.3,
    "best": 21.8,
    "wins": 2,
-   "paa": -55.82,
-   "vor": -10.4,
+   "paa": -59.88,
+   "vor": -10.56,
    "war": -0.12
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 42,
-  "pts": 432.3,
+  "g": 62,
+  "gs": 43,
+  "pts": 441.4,
   "bench_pts": 161.07,
-  "ppg": 10.29,
+  "ppg": 10.27,
   "best": 25.1,
   "wins": 12,
-  "paa": -141.88,
-  "vor": -36.75,
-  "war": -0.43
+  "paa": -145.94,
+  "vor": -36.91,
+  "war": -0.44
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "DEN",
    "g": 10,
    "pts": 91.3,
-   "rank": 43
+   "rank": 44
   }
  ],
  "history": [
@@ -1275,13 +1275,32 @@
    "paa": -13.22,
    "vor": -9.26,
    "war": -0.10944193239678685
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-6-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": "WR",
+   "started": true,
+   "pts": 9.1,
+   "proj": 11.14,
+   "won": false,
+   "paa": -4.06,
+   "vor": -0.16,
+   "war": -0.0018910053113915654
   }
  ],
  "similar": [
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 789,
+   "score": 773,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -1290,7 +1309,7 @@
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 761,
+   "score": 746,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
@@ -1299,29 +1318,29 @@
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 724,
-   "gs": 32,
-   "pts": 380.4,
-   "ppg": 11.89,
-   "war": 0.44
+   "score": 707,
+   "gs": 33,
+   "pts": 401.1,
+   "ppg": 12.15,
+   "war": 0.57
   },
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 668,
+   "score": 655,
    "gs": 27,
    "pts": 284.5,
    "ppg": 10.54,
    "war": -0.12
   },
   {
-   "player": "5846",
-   "name": "DK Metcalf",
-   "score": 659,
-   "gs": 31,
-   "pts": 408.1,
-   "ppg": 13.16,
-   "war": 0.53
+   "player": "9756",
+   "name": "Jordan Addison",
+   "score": 653,
+   "gs": 28,
+   "pts": 334.8,
+   "ppg": 11.96,
+   "war": 0.25
   }
  ],
  "status": {
@@ -1344,46 +1363,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 432.3,
+   "value": 441.4,
    "digits": 2,
-   "rank": 72,
-   "of": 424
+   "rank": 73,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 42,
+   "value": 43,
    "digits": 0,
-   "rank": 46,
-   "of": 424
+   "rank": 44,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.43,
+   "value": -0.44,
    "digits": 2,
-   "rank": 399,
-   "of": 424
+   "rank": 402,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -36.8,
+   "value": -36.9,
    "digits": 1,
-   "rank": 399,
-   "of": 424
+   "rank": 402,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -141.9,
+   "value": -145.9,
    "digits": 1,
-   "rank": 423,
-   "of": 424
+   "rank": 425,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1391,17 +1410,17 @@
    "stat": "Best Game",
    "value": 25.1,
    "digits": 2,
-   "rank": 160,
-   "of": 424
+   "rank": 161,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 10.29,
+   "value": 10.27,
    "digits": 2,
-   "rank": 160,
-   "of": 256
+   "rank": 163,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1409,35 +1428,35 @@
    "stat": "Bench Points",
    "value": 161.07,
    "digits": 2,
-   "rank": 84,
+   "rank": 86,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 432.3,
+   "value": 441.4,
    "digits": 2,
-   "rank": 24,
-   "of": 127
+   "rank": 25,
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 42,
+   "value": 43,
    "digits": 0,
-   "rank": 11,
-   "of": 127
+   "rank": 10,
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.43,
+   "value": -0.44,
    "digits": 2,
-   "rank": 120,
-   "of": 127
+   "rank": 123,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1465,7 +1484,7 @@
    "stat": "WAR",
    "value": -0.18,
    "digits": 2,
-   "rank": 61,
+   "rank": 60,
    "of": 68,
    "franchise": 3
   },
@@ -1483,9 +1502,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points",
-   "value": 261.9,
+   "value": 271.0,
    "digits": 2,
-   "rank": 10,
+   "rank": 9,
    "of": 74,
    "franchise": 10
   },
@@ -1493,9 +1512,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Games Started",
-   "value": 27,
+   "value": 28,
    "digits": 0,
-   "rank": 5,
+   "rank": 4,
    "of": 74,
    "franchise": 10
   },
@@ -1505,7 +1524,7 @@
    "stat": "WAR",
    "value": -0.26,
    "digits": 2,
-   "rank": 72,
+   "rank": 69,
    "of": 74,
    "franchise": 10
   },
@@ -1513,7 +1532,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points, WRs",
-   "value": 261.9,
+   "value": 271.0,
    "digits": 2,
    "rank": 5,
    "of": 18,
@@ -1583,20 +1602,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 82.2,
+   "value": 91.3,
    "digits": 2,
-   "rank": 69,
-   "of": 242,
+   "rank": 68,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 82.2,
+   "value": 91.3,
    "digits": 2,
    "rank": 21,
-   "of": 63,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -1605,8 +1624,8 @@
    "stat": "Points, 2023",
    "value": 170.4,
    "digits": 2,
-   "rank": 188,
-   "of": 1019,
+   "rank": 195,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1615,9 +1634,19 @@
    "stat": "Points, 2025",
    "value": 93.1,
    "digits": 2,
-   "rank": 376,
-   "of": 1019,
+   "rank": 378,
+   "of": 1025,
    "season": "2025"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 91.3,
+   "digits": 2,
+   "rank": 385,
+   "of": 1025,
+   "season": "2026"
   },
   {
    "group": "Season",
@@ -1625,27 +1654,17 @@
    "stat": "Points, 2024",
    "value": 86.6,
    "digits": 2,
-   "rank": 397,
-   "of": 1019,
+   "rank": 404,
+   "of": 1025,
    "season": "2024"
-  },
-  {
-   "group": "Season",
-   "scope": "All single seasons",
-   "stat": "Points, 2026",
-   "value": 82.2,
-   "digits": 2,
-   "rank": 408,
-   "of": 1019,
-   "season": "2026"
   }
  ],
  "hof": {
-  "score": 10.5,
-  "rank": 126,
-  "of": 424,
+  "score": 10.75,
+  "rank": 127,
+  "of": 426,
   "war": 0.0,
-  "starts": 10.5,
+  "starts": 10.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1953,6 +1972,11 @@
     "2026",
     10,
     10.5
+   ],
+   [
+    "2026",
+    11,
+    10.75
    ]
   ],
   "benchmark": 100

@@ -621,16 +621,25 @@
   {
    "player": "8676",
    "name": "Rashid Shaheed",
-   "score": 951,
+   "score": 952,
    "gs": 14,
    "pts": 146.6,
    "ppg": 10.47,
    "war": -0.15
   },
   {
+   "player": "13279",
+   "name": "Carnell Tate",
+   "score": 888,
+   "gs": 8,
+   "pts": 88.4,
+   "ppg": 11.05,
+   "war": 0.17
+  },
+  {
    "player": "10213",
    "name": "Tre Tucker",
-   "score": 876,
+   "score": 877,
    "gs": 17,
    "pts": 168.8,
    "ppg": 9.93,
@@ -639,7 +648,7 @@
   {
    "player": "12514",
    "name": "Emeka Egbuka",
-   "score": 856,
+   "score": 857,
    "gs": 8,
    "pts": 74.3,
    "ppg": 9.29,
@@ -653,15 +662,6 @@
    "pts": 124.6,
    "ppg": 12.46,
    "war": 0.22
-  },
-  {
-   "player": "5947",
-   "name": "Jakobi Meyers",
-   "score": 846,
-   "gs": 13,
-   "pts": 164.3,
-   "ppg": 12.64,
-   "war": 0.14
   }
  ],
  "status": {
@@ -687,7 +687,7 @@
    "value": 129.1,
    "digits": 2,
    "rank": 204,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -695,8 +695,8 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 201,
-   "of": 424
+   "rank": 204,
+   "of": 426
   },
   {
    "group": "Career",
@@ -704,8 +704,8 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 363,
-   "of": 424
+   "rank": 362,
+   "of": 426
   },
   {
    "group": "Career",
@@ -713,8 +713,8 @@
    "stat": "VOR",
    "value": -19.1,
    "digits": 1,
-   "rank": 363,
-   "of": 424
+   "rank": 362,
+   "of": 426
   },
   {
    "group": "Career",
@@ -723,7 +723,7 @@
    "value": -40.5,
    "digits": 1,
    "rank": 355,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -731,8 +731,8 @@
    "stat": "Best Game",
    "value": 23.7,
    "digits": 2,
-   "rank": 186,
-   "of": 424
+   "rank": 187,
+   "of": 426
   },
   {
    "group": "Career",
@@ -740,8 +740,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.76,
    "digits": 2,
-   "rank": 151,
-   "of": 256
+   "rank": 150,
+   "of": 258
   },
   {
    "group": "Career",
@@ -749,7 +749,7 @@
    "stat": "Bench Points",
    "value": 80.8,
    "digits": 2,
-   "rank": 218,
+   "rank": 219,
    "of": 515
   },
   {
@@ -759,7 +759,7 @@
    "value": 129.1,
    "digits": 2,
    "rank": 60,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -768,7 +768,7 @@
    "value": 12,
    "digits": 0,
    "rank": 58,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -776,8 +776,8 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 105,
-   "of": 127
+   "rank": 106,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -795,7 +795,7 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 18,
+   "rank": 20,
    "of": 74,
    "franchise": 10
   },
@@ -805,7 +805,7 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 71,
+   "rank": 68,
    "of": 74,
    "franchise": 10
   },
@@ -845,15 +845,15 @@
    "stat": "Points, 2023",
    "value": 129.1,
    "digits": 2,
-   "rank": 285,
-   "of": 1019,
+   "rank": 288,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 3.0,
-  "rank": 234,
-  "of": 424,
+  "rank": 235,
+  "of": 426,
   "war": 0.0,
   "starts": 3.0,
   "black_ink": 0.0,
@@ -1162,6 +1162,11 @@
    [
     "2026",
     10,
+    3.0
+   ],
+   [
+    "2026",
+    11,
     3.0
    ]
   ],

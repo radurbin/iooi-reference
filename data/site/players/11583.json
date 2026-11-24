@@ -106,7 +106,7 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "CAR",
-   "g": 3,
+   "g": 4,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.0,
@@ -119,7 +119,7 @@
   }
  ],
  "totals": {
-  "g": 35,
+  "g": 36,
   "gs": 1,
   "pts": 7.6,
   "bench_pts": 10.1,
@@ -804,6 +804,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -818,8 +834,8 @@
    "stat": "Points",
    "value": 7.6,
    "digits": 2,
-   "rank": 369,
-   "of": 424
+   "rank": 371,
+   "of": 426
   },
   {
    "group": "Career",
@@ -827,8 +843,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 362,
-   "of": 424
+   "rank": 365,
+   "of": 426
   },
   {
    "group": "Career",
@@ -837,7 +853,7 @@
    "value": -0.01,
    "digits": 2,
    "rank": 228,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -845,8 +861,8 @@
    "stat": "VOR",
    "value": -0.9,
    "digits": 1,
-   "rank": 232,
-   "of": 424
+   "rank": 231,
+   "of": 426
   },
   {
    "group": "Career",
@@ -855,7 +871,7 @@
    "value": -12.3,
    "digits": 1,
    "rank": 240,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -863,8 +879,8 @@
    "stat": "Best Game",
    "value": 7.6,
    "digits": 2,
-   "rank": 360,
-   "of": 424
+   "rank": 361,
+   "of": 426
   },
   {
    "group": "Career",
@@ -872,7 +888,7 @@
    "stat": "Bench Points",
    "value": 10.1,
    "digits": 2,
-   "rank": 439,
+   "rank": 441,
    "of": 515
   },
   {
@@ -881,7 +897,7 @@
    "stat": "Points",
    "value": 7.6,
    "digits": 2,
-   "rank": 85,
+   "rank": 86,
    "of": 100
   },
   {
@@ -890,7 +906,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 86,
+   "rank": 87,
    "of": 100
   },
   {
@@ -918,7 +934,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 51,
+   "rank": 52,
    "of": 74,
    "franchise": 10
   },
@@ -948,8 +964,8 @@
    "stat": "Points",
    "value": 7.6,
    "digits": 2,
-   "rank": 207,
-   "of": 242,
+   "rank": 211,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -958,8 +974,8 @@
    "stat": "Points",
    "value": 7.6,
    "digits": 2,
-   "rank": 50,
-   "of": 58,
+   "rank": 51,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -968,16 +984,16 @@
    "stat": "Points, 2026",
    "value": 7.6,
    "digits": 2,
-   "rank": 899,
-   "of": 1019,
+   "rank": 903,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 370,
-  "of": 424,
+  "rank": 374,
+  "of": 426,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -1201,6 +1217,11 @@
    [
     "2026",
     10,
+    0.25
+   ],
+   [
+    "2026",
+    11,
     0.25
    ]
   ],
@@ -1500,7 +1521,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 6,
+    "rostered": 7,
     "games": [
      {
       "week": 3,
@@ -1555,8 +1576,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Groin",
-      "franchise": null,
-      "team": null
+      "franchise": 1,
+      "team": "Mojo Dojo Casa Team 💍"
      }
     ]
    }
@@ -1693,7 +1714,7 @@
       "team": "Mojo Dojo Casa Team 💍"
      }
     ],
-    "rostered": 6,
+    "rostered": 7,
     "lost": 0.0
    }
   ],

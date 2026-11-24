@@ -24,7 +24,7 @@
    "franchise": 6,
    "team": "got that DAWG",
    "nfl": "ATL",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 16.8,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 10,
+  "g": 11,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 16.8,
@@ -231,6 +231,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-6-10",
+   "kind": "regular",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "opp": 10,
+   "opp_team": "Maddison Beer’s Boys",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -245,7 +261,7 @@
    "stat": "Bench Points",
    "value": 16.8,
    "digits": 2,
-   "rank": 407,
+   "rank": 410,
    "of": 515
   }
  ],

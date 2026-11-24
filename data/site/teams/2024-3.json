@@ -1201,10 +1201,10 @@
    "original": 10,
    "player": "11576",
    "pos": "RB",
-   "starts_team": 5,
-   "pts_team": 91.7,
-   "starts_league": 5,
-   "pts_league": 91.7,
+   "starts_team": 6,
+   "pts_team": 102.7,
+   "starts_league": 6,
+   "pts_league": 102.7,
    "nfl_pts": 232.1
   }
  ],
@@ -1238,17 +1238,27 @@
    "season": "2025",
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
-   "score": 882,
+   "score": 883,
    "w": 6,
    "l": 8,
    "ppg": 121.85,
    "result": "7th"
   },
   {
+   "season": "2026",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "score": 880,
+   "w": 4,
+   "l": 7,
+   "ppg": 132.79,
+   "result": null
+  },
+  {
    "season": "2024",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "score": 850,
+   "score": 853,
    "w": 5,
    "l": 9,
    "ppg": 121.37,
@@ -1258,7 +1268,7 @@
    "season": "2024",
    "franchise": 11,
    "team": "BubbaNASTIES",
-   "score": 830,
+   "score": 831,
    "w": 6,
    "l": 8,
    "ppg": 123.05,
@@ -1268,21 +1278,11 @@
    "season": "2023",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 819,
+   "score": 820,
    "w": 6,
    "l": 8,
    "ppg": 127.61,
    "result": "8th"
-  },
-  {
-   "season": "2026",
-   "franchise": 9,
-   "team": "Clandestine Ball Busters",
-   "score": 808,
-   "w": 4,
-   "l": 6,
-   "ppg": 135.23,
-   "result": null
   }
  ],
  "pickups": [
@@ -1797,8 +1797,8 @@
    "managers": [
     "ritesh"
    ],
-   "gs": 11,
-   "pts": 96.7,
+   "gs": 12,
+   "pts": 114.4,
    "next": 10,
    "next_team": "Justin Treherbert Jr"
   },
@@ -1881,8 +1881,8 @@
    "managers": [
     "ritesh"
    ],
-   "gs": 2,
-   "pts": 4.0,
+   "gs": 3,
+   "pts": -5.0,
    "next": 2,
    "next_team": "Storm FC"
   },

@@ -17,10 +17,10 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "SF",
-   "g": 1,
+   "g": 2,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 6.9,
+   "bench_pts": 9.8,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -30,10 +30,10 @@
   }
  ],
  "totals": {
-  "g": 1,
+  "g": 2,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 6.9,
+  "bench_pts": 9.8,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -85,6 +85,22 @@
    "pts": 6.9,
    "proj": 5.7,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-6-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": null,
+   "started": false,
+   "pts": 2.9,
+   "proj": 1.16,
+   "won": false
   }
  ],
  "status": {
@@ -97,9 +113,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 6.9,
+   "value": 9.8,
    "digits": 2,
-   "rank": 460,
+   "rank": 442,
    "of": 515
   }
  ],

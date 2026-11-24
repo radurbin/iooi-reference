@@ -14,14 +14,14 @@
    "season": "2026",
    "franchise": 12,
    "team": "Team Win One Game",
-   "w": 2,
+   "w": 3,
    "l": 8,
    "t": 0,
-   "pf": 1021.16,
-   "pa": 1418.39,
+   "pf": 1154.44,
+   "pa": 1548.01,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.2,
+   "pct": 0.273,
    "transactions": 39,
    "trades": 4,
    "partial_season": false,
@@ -29,14 +29,14 @@
   }
  ],
  "totals": {
-  "w": 2,
+  "w": 3,
   "l": 8,
   "t": 0,
-  "pf": 1021.16,
-  "pa": 1418.39,
+  "pf": 1154.44,
+  "pa": 1548.01,
   "playoff_w": 0,
   "playoff_l": 0,
-  "pct": 0.2,
+  "pct": 0.273,
   "transactions": 39,
   "trades": 4
  },
@@ -50,20 +50,46 @@
     "name": "Cam Skattebo",
     "pos": "RB",
     "years": "2026",
-    "g": 10,
-    "gs": 8,
-    "pts": 109.2,
+    "g": 11,
+    "gs": 9,
+    "pts": 116.4,
     "best": 29.0,
+    "wins": 3,
+    "vor": 40.17,
+    "war": 0.47
+   },
+   {
+    "player": "13279",
+    "name": "Carnell Tate",
+    "pos": "WR",
+    "years": "2026",
+    "g": 11,
+    "gs": 8,
+    "pts": 88.4,
+    "best": 21.5,
     "wins": 2,
-    "vor": 41.44,
-    "war": 0.49
+    "vor": 14.32,
+    "war": 0.17
+   },
+   {
+    "player": "11539",
+    "name": "Jake Bates",
+    "pos": "K",
+    "years": "2026",
+    "g": 11,
+    "gs": 8,
+    "pts": 79.7,
+    "best": 18.8,
+    "wins": 3,
+    "vor": 7.7,
+    "war": 0.09
    },
    {
     "player": "5849",
     "name": "Kyler Murray",
     "pos": "QB",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 6,
     "pts": 76.48,
     "best": 20.3,
@@ -72,30 +98,43 @@
     "war": -0.06
    },
    {
-    "player": "13279",
-    "name": "Carnell Tate",
-    "pos": "WR",
+    "player": "13337",
+    "name": "Emmett Johnson",
+    "pos": "RB",
     "years": "2026",
-    "g": 10,
-    "gs": 7,
-    "pts": 73.1,
-    "best": 21.5,
-    "wins": 1,
-    "vor": 8.28,
-    "war": 0.1
+    "g": 11,
+    "gs": 4,
+    "pts": 75.9,
+    "best": 37.3,
+    "wins": 3,
+    "vor": 42.02,
+    "war": 0.5
    },
    {
-    "player": "11539",
-    "name": "Jake Bates",
-    "pos": "K",
+    "player": "2449",
+    "name": "Stefon Diggs",
+    "pos": "WR",
     "years": "2026",
-    "g": 10,
+    "g": 8,
+    "gs": 6,
+    "pts": 74.6,
+    "best": 20.3,
+    "wins": 3,
+    "vor": 19.04,
+    "war": 0.23
+   },
+   {
+    "player": "4892",
+    "name": "Baker Mayfield",
+    "pos": "QB",
+    "years": "2026",
+    "g": 11,
     "gs": 7,
-    "pts": 71.1,
-    "best": 18.8,
-    "wins": 2,
-    "vor": 4.32,
-    "war": 0.05
+    "pts": 72.26,
+    "best": 19.68,
+    "wins": 1,
+    "vor": -22.98,
+    "war": -0.27
    },
    {
     "player": "6786",
@@ -111,37 +150,24 @@
     "war": 0.51
    },
    {
-    "player": "2449",
-    "name": "Stefon Diggs",
-    "pos": "WR",
-    "years": "2026",
-    "g": 7,
-    "gs": 5,
-    "pts": 66.1,
-    "best": 20.3,
-    "wins": 2,
-    "vor": 19.8,
-    "war": 0.23
-   },
-   {
     "player": "10859",
     "name": "Sam LaPorta",
     "pos": "TE",
     "years": "2026",
-    "g": 7,
-    "gs": 6,
-    "pts": 61.4,
+    "g": 8,
+    "gs": 7,
+    "pts": 70.6,
     "best": 22.4,
-    "wins": 2,
-    "vor": 1.34,
-    "war": 0.02
+    "wins": 3,
+    "vor": -1.5,
+    "war": -0.02
    },
    {
     "player": "4017",
     "name": "Deshaun Watson",
     "pos": "QB",
     "years": "2026",
-    "g": 7,
+    "g": 8,
     "gs": 4,
     "pts": 58.86,
     "best": 22.18,
@@ -150,43 +176,17 @@
     "war": 0.05
    },
    {
-    "player": "4892",
-    "name": "Baker Mayfield",
-    "pos": "QB",
-    "years": "2026",
-    "g": 10,
-    "gs": 6,
-    "pts": 52.58,
-    "best": 12.58,
-    "wins": 0,
-    "vor": -29.05,
-    "war": -0.34
-   },
-   {
     "player": "8136",
     "name": "Rachaad White",
     "pos": "RB",
     "years": "2026",
-    "g": 7,
-    "gs": 5,
+    "g": 8,
+    "gs": 6,
     "pts": 51.6,
     "best": 16.4,
-    "wins": 1,
-    "vor": 9.25,
-    "war": 0.11
-   },
-   {
-    "player": "13337",
-    "name": "Emmett Johnson",
-    "pos": "RB",
-    "years": "2026",
-    "g": 10,
-    "gs": 3,
-    "pts": 49.3,
-    "best": 37.3,
     "wins": 2,
-    "vor": 23.89,
-    "war": 0.28
+    "vor": 0.78,
+    "war": 0.01
    },
    {
     "player": "8155",
@@ -219,33 +219,46 @@
     "name": "Kyle Pitts Sr.",
     "pos": "TE",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 5,
     "pts": 40.3,
     "best": 23.0,
     "wins": 0,
-    "vor": -9.75,
-    "war": -0.12
+    "vor": -11.2,
+    "war": -0.13
    },
    {
     "player": "2020",
     "name": "Cairo Santos",
     "pos": "K",
     "years": "2026",
-    "g": 5,
+    "g": 6,
     "gs": 3,
     "pts": 35.4,
     "best": 15.2,
     "wins": 0,
-    "vor": 6.78,
-    "war": 0.08
+    "vor": 8.4,
+    "war": 0.1
+   },
+   {
+    "player": "13301",
+    "name": "Antonio Williams",
+    "pos": "WR",
+    "years": "2026",
+    "g": 11,
+    "gs": 3,
+    "pts": 32.1,
+    "best": 21.2,
+    "wins": 1,
+    "vor": 4.32,
+    "war": 0.05
    },
    {
     "player": "6130",
     "name": "Devin Singletary",
     "pos": "RB",
     "years": "2026",
-    "g": 9,
+    "g": 10,
     "gs": 3,
     "pts": 24.2,
     "best": 15.0,
@@ -271,7 +284,7 @@
     "name": "Brian Thomas Jr.",
     "pos": "WR",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 3,
     "pts": 17.4,
     "best": 9.7,
@@ -284,33 +297,33 @@
     "name": "Mark Andrews",
     "pos": "TE",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 3,
     "pts": 17.1,
     "best": 10.9,
     "wins": 0,
-    "vor": -12.93,
-    "war": -0.15
+    "vor": -13.8,
+    "war": -0.16
    },
    {
-    "player": "13301",
-    "name": "Antonio Williams",
-    "pos": "WR",
+    "player": "CHI",
+    "name": "Chicago Bears",
+    "pos": "DEF",
     "years": "2026",
-    "g": 10,
-    "gs": 2,
-    "pts": 10.9,
-    "best": 5.5,
-    "wins": 0,
-    "vor": -7.62,
-    "war": -0.09
+    "g": 1,
+    "gs": 1,
+    "pts": 17.0,
+    "best": 17.0,
+    "wins": 1,
+    "vor": 9.5,
+    "war": 0.11
    },
    {
     "player": "6011",
     "name": "Gardner Minshew II",
     "pos": "QB",
     "years": "2026",
-    "g": 2,
+    "g": 3,
     "gs": 2,
     "pts": 7.14,
     "best": 7.14,
@@ -336,7 +349,7 @@
     "name": "Jayden Reed",
     "pos": "WR",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 1,
     "pts": 5.0,
     "best": 5.0,
@@ -356,19 +369,6 @@
     "wins": 1,
     "vor": -3.5,
     "war": -0.04
-   },
-   {
-    "player": "13150",
-    "name": "Darius Cooper",
-    "pos": "WR",
-    "years": "2026",
-    "g": 3,
-    "gs": 1,
-    "pts": 1.9,
-    "best": 1.9,
-    "wins": 0,
-    "vor": -7.36,
-    "war": -0.09
    }
   ],
   "by_pos": {
@@ -378,7 +378,7 @@
      "name": "Kyler Murray",
      "pos": "QB",
      "years": "2026",
-     "g": 10,
+     "g": 11,
      "gs": 6,
      "pts": 76.48,
      "best": 20.3,
@@ -387,30 +387,30 @@
      "war": -0.06
     },
     {
+     "player": "4892",
+     "name": "Baker Mayfield",
+     "pos": "QB",
+     "years": "2026",
+     "g": 11,
+     "gs": 7,
+     "pts": 72.26,
+     "best": 19.68,
+     "wins": 1,
+     "vor": -22.98,
+     "war": -0.27
+    },
+    {
      "player": "4017",
      "name": "Deshaun Watson",
      "pos": "QB",
      "years": "2026",
-     "g": 7,
+     "g": 8,
      "gs": 4,
      "pts": 58.86,
      "best": 22.18,
      "wins": 2,
      "vor": 4.43,
      "war": 0.05
-    },
-    {
-     "player": "4892",
-     "name": "Baker Mayfield",
-     "pos": "QB",
-     "years": "2026",
-     "g": 10,
-     "gs": 6,
-     "pts": 52.58,
-     "best": 12.58,
-     "wins": 0,
-     "vor": -29.05,
-     "war": -0.34
     }
    ],
    "RB": [
@@ -419,39 +419,39 @@
      "name": "Cam Skattebo",
      "pos": "RB",
      "years": "2026",
-     "g": 10,
-     "gs": 8,
-     "pts": 109.2,
+     "g": 11,
+     "gs": 9,
+     "pts": 116.4,
      "best": 29.0,
-     "wins": 2,
-     "vor": 41.44,
-     "war": 0.49
-    },
-    {
-     "player": "8136",
-     "name": "Rachaad White",
-     "pos": "RB",
-     "years": "2026",
-     "g": 7,
-     "gs": 5,
-     "pts": 51.6,
-     "best": 16.4,
-     "wins": 1,
-     "vor": 9.25,
-     "war": 0.11
+     "wins": 3,
+     "vor": 40.17,
+     "war": 0.47
     },
     {
      "player": "13337",
      "name": "Emmett Johnson",
      "pos": "RB",
      "years": "2026",
-     "g": 10,
-     "gs": 3,
-     "pts": 49.3,
+     "g": 11,
+     "gs": 4,
+     "pts": 75.9,
      "best": 37.3,
+     "wins": 3,
+     "vor": 42.02,
+     "war": 0.5
+    },
+    {
+     "player": "8136",
+     "name": "Rachaad White",
+     "pos": "RB",
+     "years": "2026",
+     "g": 8,
+     "gs": 6,
+     "pts": 51.6,
+     "best": 16.4,
      "wins": 2,
-     "vor": 23.89,
-     "war": 0.28
+     "vor": 0.78,
+     "war": 0.01
     }
    ],
    "WR": [
@@ -460,13 +460,26 @@
      "name": "Carnell Tate",
      "pos": "WR",
      "years": "2026",
-     "g": 10,
-     "gs": 7,
-     "pts": 73.1,
+     "g": 11,
+     "gs": 8,
+     "pts": 88.4,
      "best": 21.5,
-     "wins": 1,
-     "vor": 8.28,
-     "war": 0.1
+     "wins": 2,
+     "vor": 14.32,
+     "war": 0.17
+    },
+    {
+     "player": "2449",
+     "name": "Stefon Diggs",
+     "pos": "WR",
+     "years": "2026",
+     "g": 8,
+     "gs": 6,
+     "pts": 74.6,
+     "best": 20.3,
+     "wins": 3,
+     "vor": 19.04,
+     "war": 0.23
     },
     {
      "player": "6786",
@@ -480,19 +493,6 @@
      "wins": 0,
      "vor": 43.22,
      "war": 0.51
-    },
-    {
-     "player": "2449",
-     "name": "Stefon Diggs",
-     "pos": "WR",
-     "years": "2026",
-     "g": 7,
-     "gs": 5,
-     "pts": 66.1,
-     "best": 20.3,
-     "wins": 2,
-     "vor": 19.8,
-     "war": 0.23
     }
    ],
    "TE": [
@@ -501,39 +501,39 @@
      "name": "Sam LaPorta",
      "pos": "TE",
      "years": "2026",
-     "g": 7,
-     "gs": 6,
-     "pts": 61.4,
+     "g": 8,
+     "gs": 7,
+     "pts": 70.6,
      "best": 22.4,
-     "wins": 2,
-     "vor": 1.34,
-     "war": 0.02
+     "wins": 3,
+     "vor": -1.5,
+     "war": -0.02
     },
     {
      "player": "7553",
      "name": "Kyle Pitts Sr.",
      "pos": "TE",
      "years": "2026",
-     "g": 10,
+     "g": 11,
      "gs": 5,
      "pts": 40.3,
      "best": 23.0,
      "wins": 0,
-     "vor": -9.75,
-     "war": -0.12
+     "vor": -11.2,
+     "war": -0.13
     },
     {
      "player": "5012",
      "name": "Mark Andrews",
      "pos": "TE",
      "years": "2026",
-     "g": 10,
+     "g": 11,
      "gs": 3,
      "pts": 17.1,
      "best": 10.9,
      "wins": 0,
-     "vor": -12.93,
-     "war": -0.15
+     "vor": -13.8,
+     "war": -0.16
     }
    ],
    "K": [
@@ -542,26 +542,26 @@
      "name": "Jake Bates",
      "pos": "K",
      "years": "2026",
-     "g": 10,
-     "gs": 7,
-     "pts": 71.1,
+     "g": 11,
+     "gs": 8,
+     "pts": 79.7,
      "best": 18.8,
-     "wins": 2,
-     "vor": 4.32,
-     "war": 0.05
+     "wins": 3,
+     "vor": 7.7,
+     "war": 0.09
     },
     {
      "player": "2020",
      "name": "Cairo Santos",
      "pos": "K",
      "years": "2026",
-     "g": 5,
+     "g": 6,
      "gs": 3,
      "pts": 35.4,
      "best": 15.2,
      "wins": 0,
-     "vor": 6.78,
-     "war": 0.08
+     "vor": 8.4,
+     "war": 0.1
     }
    ],
    "DEF": [
@@ -579,6 +579,19 @@
      "war": -0.14
     },
     {
+     "player": "CHI",
+     "name": "Chicago Bears",
+     "pos": "DEF",
+     "years": "2026",
+     "g": 1,
+     "gs": 1,
+     "pts": 17.0,
+     "best": 17.0,
+     "wins": 1,
+     "vor": 9.5,
+     "war": 0.11
+    },
+    {
      "player": "NE",
      "name": "New England Patriots",
      "pos": "DEF",
@@ -590,19 +603,6 @@
      "wins": 0,
      "vor": -9.0,
      "war": -0.11
-    },
-    {
-     "player": "GB",
-     "name": "Green Bay Packers",
-     "pos": "DEF",
-     "years": "2026",
-     "g": 1,
-     "gs": 1,
-     "pts": 4.0,
-     "best": 4.0,
-     "wins": 1,
-     "vor": -3.5,
-     "war": -0.04
     }
    ]
   }
@@ -614,7 +614,7 @@
    "name": "Kyler Murray",
    "pos": "QB",
    "years": "2026",
-   "g": 10,
+   "g": 11,
    "gs": 6,
    "pts": 76.48,
    "best": 20.3,
@@ -628,27 +628,27 @@
    "name": "Cam Skattebo",
    "pos": "RB",
    "years": "2026",
-   "g": 10,
-   "gs": 8,
-   "pts": 109.2,
+   "g": 11,
+   "gs": 9,
+   "pts": 116.4,
    "best": 29.0,
-   "wins": 2,
-   "vor": 41.44,
-   "war": 0.49
+   "wins": 3,
+   "vor": 40.17,
+   "war": 0.47
   },
   {
    "slot": "RB",
-   "player": "8136",
-   "name": "Rachaad White",
+   "player": "13337",
+   "name": "Emmett Johnson",
    "pos": "RB",
    "years": "2026",
-   "g": 7,
-   "gs": 5,
-   "pts": 51.6,
-   "best": 16.4,
-   "wins": 1,
-   "vor": 9.25,
-   "war": 0.11
+   "g": 11,
+   "gs": 4,
+   "pts": 75.9,
+   "best": 37.3,
+   "wins": 3,
+   "vor": 42.02,
+   "war": 0.5
   },
   {
    "slot": "WR",
@@ -656,16 +656,44 @@
    "name": "Carnell Tate",
    "pos": "WR",
    "years": "2026",
-   "g": 10,
-   "gs": 7,
-   "pts": 73.1,
+   "g": 11,
+   "gs": 8,
+   "pts": 88.4,
    "best": 21.5,
-   "wins": 1,
-   "vor": 8.28,
-   "war": 0.1
+   "wins": 2,
+   "vor": 14.32,
+   "war": 0.17
   },
   {
    "slot": "WR",
+   "player": "2449",
+   "name": "Stefon Diggs",
+   "pos": "WR",
+   "years": "2026",
+   "g": 8,
+   "gs": 6,
+   "pts": 74.6,
+   "best": 20.3,
+   "wins": 3,
+   "vor": 19.04,
+   "war": 0.23
+  },
+  {
+   "slot": "TE",
+   "player": "10859",
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "years": "2026",
+   "g": 8,
+   "gs": 7,
+   "pts": 70.6,
+   "best": 22.4,
+   "wins": 3,
+   "vor": -1.5,
+   "war": -0.02
+  },
+  {
+   "slot": "FLEX",
    "player": "6786",
    "name": "CeeDee Lamb",
    "pos": "WR",
@@ -679,46 +707,18 @@
    "war": 0.51
   },
   {
-   "slot": "TE",
-   "player": "10859",
-   "name": "Sam LaPorta",
-   "pos": "TE",
-   "years": "2026",
-   "g": 7,
-   "gs": 6,
-   "pts": 61.4,
-   "best": 22.4,
-   "wins": 2,
-   "vor": 1.34,
-   "war": 0.02
-  },
-  {
-   "slot": "FLEX",
-   "player": "2449",
-   "name": "Stefon Diggs",
-   "pos": "WR",
-   "years": "2026",
-   "g": 7,
-   "gs": 5,
-   "pts": 66.1,
-   "best": 20.3,
-   "wins": 2,
-   "vor": 19.8,
-   "war": 0.23
-  },
-  {
    "slot": "SUPER_FLEX",
-   "player": "4017",
-   "name": "Deshaun Watson",
+   "player": "4892",
+   "name": "Baker Mayfield",
    "pos": "QB",
    "years": "2026",
-   "g": 7,
-   "gs": 4,
-   "pts": 58.86,
-   "best": 22.18,
-   "wins": 2,
-   "vor": 4.43,
-   "war": 0.05
+   "g": 11,
+   "gs": 7,
+   "pts": 72.26,
+   "best": 19.68,
+   "wins": 1,
+   "vor": -22.98,
+   "war": -0.27
   },
   {
    "slot": "K",
@@ -726,13 +726,13 @@
    "name": "Jake Bates",
    "pos": "K",
    "years": "2026",
-   "g": 10,
-   "gs": 7,
-   "pts": 71.1,
+   "g": 11,
+   "gs": 8,
+   "pts": 79.7,
    "best": 18.8,
-   "wins": 2,
-   "vor": 4.32,
-   "war": 0.05
+   "wins": 3,
+   "vor": 7.7,
+   "war": 0.09
   },
   {
    "slot": "DEF",
@@ -780,6 +780,17 @@
    "game": "2026-10-4-12",
    "season": "2026",
    "week": 10,
+   "franchise": 12,
+   "team": "Team Win One Game"
+  },
+  {
+   "player": "13337",
+   "name": "Emmett Johnson",
+   "pos": "RB",
+   "pts": 26.6,
+   "game": "2026-11-8-12",
+   "season": "2026",
+   "week": 11,
    "franchise": 12,
    "team": "Team Win One Game"
   },
@@ -850,6 +861,17 @@
    "team": "Happy Feet"
   },
   {
+   "player": "13301",
+   "name": "Antonio Williams",
+   "pos": "WR",
+   "pts": 21.2,
+   "game": "2026-11-8-12",
+   "season": "2026",
+   "week": 11,
+   "franchise": 12,
+   "team": "Team Win One Game"
+  },
+  {
    "player": "12481",
    "name": "Cam Skattebo",
    "pos": "RB",
@@ -905,6 +927,17 @@
    "team": "Team Win One Game"
   },
   {
+   "player": "4892",
+   "name": "Baker Mayfield",
+   "pos": "QB",
+   "pts": 19.68,
+   "game": "2026-11-8-12",
+   "season": "2026",
+   "week": 11,
+   "franchise": 12,
+   "team": "Team Win One Game"
+  },
+  {
    "player": "5849",
    "name": "Kyler Murray",
    "pos": "QB",
@@ -934,6 +967,17 @@
    "game": "2026-04-2-12",
    "season": "2026",
    "week": 4,
+   "franchise": 12,
+   "team": "Team Win One Game"
+  },
+  {
+   "player": "CHI",
+   "name": "Chicago Bears",
+   "pos": "DEF",
+   "pts": 17.0,
+   "game": "2026-11-8-12",
+   "season": "2026",
+   "week": 11,
    "franchise": 12,
    "team": "Team Win One Game"
   },
@@ -980,50 +1024,6 @@
    "week": 2,
    "franchise": 12,
    "team": "Happy Feet"
-  },
-  {
-   "player": "11539",
-   "name": "Jake Bates",
-   "pos": "K",
-   "pts": 15.6,
-   "game": "2026-09-1-12",
-   "season": "2026",
-   "week": 9,
-   "franchise": 12,
-   "team": "Team Win One Game"
-  },
-  {
-   "player": "6786",
-   "name": "CeeDee Lamb",
-   "pos": "WR",
-   "pts": 15.5,
-   "game": "2026-01-10-12",
-   "season": "2026",
-   "week": 1,
-   "franchise": 12,
-   "team": "Happy Feet"
-  },
-  {
-   "player": "2020",
-   "name": "Cairo Santos",
-   "pos": "K",
-   "pts": 15.2,
-   "game": "2026-07-3-12",
-   "season": "2026",
-   "week": 7,
-   "franchise": 12,
-   "team": "Team Win One Game"
-  },
-  {
-   "player": "8136",
-   "name": "Rachaad White",
-   "pos": "RB",
-   "pts": 15.1,
-   "game": "2026-08-6-12",
-   "season": "2026",
-   "week": 8,
-   "franchise": 12,
-   "team": "Team Win One Game"
   }
  ],
  "records_held": [],
@@ -1032,9 +1032,9 @@
    "season": "2026",
    "franchise": 12,
    "team": "Team Win One Game",
-   "games": 32,
+   "games": 34,
    "players": 14,
-   "lost": 34.45,
+   "lost": 32.69,
    "rank": 8,
    "of": 12
   }
@@ -1051,6 +1051,35 @@
    ],
    "kinds": [
     "IR",
+    "Out"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Happy Feet"
+    },
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
+   "player": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "missed": 4,
+   "lost": 0.0,
+   "injuries": [
+    "Hamstring",
+    "Concussion"
+   ],
+   "kinds": [
     "Out"
    ],
    "seasons": [
@@ -1108,35 +1137,6 @@
     "2026"
    ],
    "teams": [
-    {
-     "season": "2026",
-     "franchise": 12,
-     "team": "Team Win One Game"
-    }
-   ]
-  },
-  {
-   "player": "5849",
-   "name": "Kyler Murray",
-   "pos": "QB",
-   "missed": 3,
-   "lost": 0.0,
-   "injuries": [
-    "Hamstring",
-    "Concussion"
-   ],
-   "kinds": [
-    "Out"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 12,
-     "team": "Happy Feet"
-    },
     {
      "season": "2026",
      "franchise": 12,
@@ -1215,6 +1215,29 @@
    ]
   },
   {
+   "player": "6011",
+   "name": "Gardner Minshew II",
+   "pos": "QB",
+   "missed": 2,
+   "lost": 0.0,
+   "injuries": [
+    "Elbow"
+   ],
+   "kinds": [
+    "IR"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 12,
+     "team": "Team Win One Game"
+    }
+   ]
+  },
+  {
    "player": "6768",
    "name": "Tua Tagovailoa",
    "pos": "QB",
@@ -1239,16 +1262,16 @@
    ]
   },
   {
-   "player": "2449",
-   "name": "Stefon Diggs",
-   "pos": "WR",
+   "player": "12481",
+   "name": "Cam Skattebo",
+   "pos": "RB",
    "missed": 1,
-   "lost": 4.56,
+   "lost": 4.46,
    "injuries": [
     "Hamstring"
    ],
    "kinds": [
-    "Out"
+    "Doubtful"
    ],
    "seasons": [
     "2026"
@@ -1262,16 +1285,16 @@
    ]
   },
   {
-   "player": "12481",
-   "name": "Cam Skattebo",
-   "pos": "RB",
+   "player": "2449",
+   "name": "Stefon Diggs",
+   "pos": "WR",
    "missed": 1,
-   "lost": 4.46,
+   "lost": 3.97,
    "injuries": [
     "Hamstring"
    ],
    "kinds": [
-    "Doubtful"
+    "Out"
    ],
    "seasons": [
     "2026"
@@ -1312,35 +1335,12 @@
    "name": "Rachaad White",
    "pos": "RB",
    "missed": 1,
-   "lost": 2.02,
+   "lost": 0.85,
    "injuries": [
     "Shoulder"
    ],
    "kinds": [
     "Out"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 12,
-     "team": "Team Win One Game"
-    }
-   ]
-  },
-  {
-   "player": "6011",
-   "name": "Gardner Minshew II",
-   "pos": "QB",
-   "missed": 1,
-   "lost": 0.0,
-   "injuries": [
-    "Elbow"
-   ],
-   "kinds": [
-    "IR"
    ],
    "seasons": [
     "2026"

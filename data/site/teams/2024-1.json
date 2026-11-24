@@ -1539,20 +1539,10 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 758,
-   "w": 6,
+   "score": 738,
+   "w": 7,
    "l": 4,
-   "ppg": 142.2,
-   "result": null
-  },
-  {
-   "season": "2026",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "score": 740,
-   "w": 6,
-   "l": 4,
-   "ppg": 149.16,
+   "ppg": 140.58,
    "result": null
   },
   {
@@ -1569,17 +1559,27 @@
    "season": "2024",
    "franchise": 5,
    "team": "i’m Stroud of you",
-   "score": 709,
+   "score": 717,
    "w": 9,
    "l": 5,
    "ppg": 140.69,
    "result": "Runner-up"
   },
   {
+   "season": "2026",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "score": 699,
+   "w": 7,
+   "l": 4,
+   "ppg": 151.62,
+   "result": null
+  },
+  {
    "season": "2025",
    "franchise": 7,
    "team": "the dart side 🛸",
-   "score": 693,
+   "score": 694,
    "w": 10,
    "l": 4,
    "ppg": 151.19,
@@ -2124,8 +2124,8 @@
     "riley",
     "emily"
    ],
-   "gs": 6,
-   "pts": 35.0,
+   "gs": 7,
+   "pts": 52.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   },
@@ -2154,8 +2154,8 @@
     "riley",
     "emily"
    ],
-   "gs": 21,
-   "pts": 144.0,
+   "gs": 22,
+   "pts": 156.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2214,8 +2214,8 @@
     "riley",
     "emily"
    ],
-   "gs": 6,
-   "pts": 35.0,
+   "gs": 7,
+   "pts": 52.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   },
@@ -2244,8 +2244,8 @@
     "riley",
     "emily"
    ],
-   "gs": 4,
-   "pts": 58.0,
+   "gs": 5,
+   "pts": 63.0,
    "next": 7,
    "next_team": "the dart side 🛸"
   },
@@ -2349,8 +2349,8 @@
     "riley",
     "emily"
    ],
-   "gs": 5,
-   "pts": 49.0,
+   "gs": 6,
+   "pts": 48.0,
    "next": 9,
    "next_team": "Clandestine Ball Busters"
   },
@@ -2364,8 +2364,8 @@
     "riley",
     "emily"
    ],
-   "gs": 9,
-   "pts": 68.1,
+   "gs": 10,
+   "pts": 76.8,
    "next": 9,
    "next_team": "Clandestine Ball Busters"
   },
@@ -2379,8 +2379,8 @@
     "riley",
     "emily"
    ],
-   "gs": 16,
-   "pts": 118.0,
+   "gs": 17,
+   "pts": 130.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2394,7 +2394,7 @@
     "riley",
     "emily"
    ],
-   "gs": 11,
+   "gs": 12,
    "pts": 111.0,
    "next": 11,
    "next_team": "BubbaNASTIES"
@@ -2613,22 +2613,6 @@
    "season": "2024",
    "week": 15,
    "game": "2024-15-1-2",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team",
-   "managers": [
-    "riley",
-    "emily"
-   ]
-  },
-  {
-   "list": "Biggest Blowouts",
-   "scope": "league",
-   "rank": 10,
-   "value": "80.58",
-   "href": "records.html",
-   "season": "2024",
-   "week": 1,
-   "game": "2024-01-1-11",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team",
    "managers": [
@@ -2894,7 +2878,7 @@
   {
    "list": "Single-Season VOR",
    "scope": "league",
-   "rank": 5,
+   "rank": 6,
    "value": "208.26",
    "href": "leaders.html",
    "player": "4866",

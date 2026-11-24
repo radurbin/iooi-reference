@@ -49,7 +49,7 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "ARI",
-   "g": 2,
+   "g": 3,
    "gs": 2,
    "pts": 7.14,
    "bench_pts": 0.0,
@@ -62,7 +62,7 @@
   }
  ],
  "totals": {
-  "g": 29,
+  "g": 30,
   "gs": 13,
   "pts": 164.56,
   "bench_pts": 82.78,
@@ -630,6 +630,22 @@
    "paa": -17.65,
    "vor": -13.61,
    "war": -0.16085363930024502
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
@@ -645,7 +661,7 @@
   {
    "player": "4179",
    "name": "Joshua Dobbs",
-   "score": 913,
+   "score": 915,
    "gs": 9,
    "pts": 109.08,
    "ppg": 12.12,
@@ -654,7 +670,7 @@
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 885,
+   "score": 886,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -663,7 +679,7 @@
   {
    "player": "11559",
    "name": "Michael Penix Jr.",
-   "score": 871,
+   "score": 872,
    "gs": 10,
    "pts": 142.98,
    "ppg": 14.3,
@@ -691,8 +707,8 @@
    "stat": "Points",
    "value": 164.56,
    "digits": 2,
-   "rank": 174,
-   "of": 424
+   "rank": 177,
+   "of": 426
   },
   {
    "group": "Career",
@@ -701,7 +717,7 @@
    "value": 13,
    "digits": 0,
    "rank": 194,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -709,8 +725,8 @@
    "stat": "WAR",
    "value": -0.17,
    "digits": 2,
-   "rank": 345,
-   "of": 424
+   "rank": 346,
+   "of": 426
   },
   {
    "group": "Career",
@@ -718,8 +734,8 @@
    "stat": "VOR",
    "value": -14.5,
    "digits": 1,
-   "rank": 346,
-   "of": 424
+   "rank": 348,
+   "of": 426
   },
   {
    "group": "Career",
@@ -727,8 +743,8 @@
    "stat": "PAA",
    "value": -36.9,
    "digits": 1,
-   "rank": 344,
-   "of": 424
+   "rank": 343,
+   "of": 426
   },
   {
    "group": "Career",
@@ -736,8 +752,8 @@
    "stat": "Best Game",
    "value": 27.1,
    "digits": 2,
-   "rank": 132,
-   "of": 424
+   "rank": 133,
+   "of": 426
   },
   {
    "group": "Career",
@@ -746,7 +762,7 @@
    "value": 12.66,
    "digits": 2,
    "rank": 111,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
@@ -754,7 +770,7 @@
    "stat": "Bench Points",
    "value": 82.78,
    "digits": 2,
-   "rank": 215,
+   "rank": 216,
    "of": 515
   },
   {
@@ -790,8 +806,8 @@
    "stat": "Points",
    "value": 7.14,
    "digits": 2,
-   "rank": 40,
-   "of": 49,
+   "rank": 41,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -800,8 +816,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 38,
-   "of": 49,
+   "rank": 39,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -810,8 +826,8 @@
    "stat": "WAR",
    "value": -0.24,
    "digits": 2,
-   "rank": 37,
-   "of": 49,
+   "rank": 38,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -830,7 +846,7 @@
    "stat": "Points",
    "value": 157.42,
    "digits": 2,
-   "rank": 18,
+   "rank": 19,
    "of": 40,
    "franchise": 6
   },
@@ -840,7 +856,7 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 20,
+   "rank": 21,
    "of": 40,
    "franchise": 6
   },
@@ -910,8 +926,8 @@
    "stat": "Points",
    "value": 7.14,
    "digits": 2,
-   "rank": 209,
-   "of": 242,
+   "rank": 213,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -930,8 +946,8 @@
    "stat": "Points, 2023",
    "value": 113.82,
    "digits": 2,
-   "rank": 329,
-   "of": 1019,
+   "rank": 334,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -940,8 +956,8 @@
    "stat": "Points, 2024",
    "value": 43.6,
    "digits": 2,
-   "rank": 609,
-   "of": 1019,
+   "rank": 616,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -950,15 +966,15 @@
    "stat": "Points, 2026",
    "value": 7.14,
    "digits": 2,
-   "rank": 908,
-   "of": 1019,
+   "rank": 912,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 3.25,
-  "rank": 227,
-  "of": 424,
+  "rank": 229,
+  "of": 426,
   "war": 0.0,
   "starts": 3.25,
   "black_ink": 0.0,
@@ -1243,6 +1259,11 @@
     "2026",
     10,
     3.25
+   ],
+   [
+    "2026",
+    11,
+    3.25
    ]
   ],
   "benchmark": 100
@@ -1348,7 +1369,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 10,
@@ -1361,8 +1382,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Elbow",
-      "franchise": null,
-      "team": null
+      "franchise": 12,
+      "team": "Team Win One Game"
      }
     ]
    }
@@ -1431,7 +1452,7 @@
       "team": "Team Win One Game"
      }
     ],
-    "rostered": 1,
+    "rostered": 2,
     "lost": 0.0
    }
   ],

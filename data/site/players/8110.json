@@ -75,8 +75,8 @@
    "best": 20.3,
    "wins": 2,
    "paa": -5.91,
-   "vor": -2.24,
-   "war": -0.03
+   "vor": -3.4,
+   "war": -0.04
   }
  ],
  "totals": {
@@ -88,8 +88,8 @@
   "best": 23.9,
   "wins": 16,
   "paa": -14.34,
-  "vor": 19.7,
-  "war": 0.23
+  "vor": 18.54,
+  "war": 0.22
  },
  "nfl": [
   {
@@ -118,7 +118,7 @@
    "team": "DAL",
    "g": 9,
    "pts": 56.1,
-   "rank": 31
+   "rank": 32
   }
  ],
  "history": [
@@ -1061,8 +1061,8 @@
    "proj": 9.08,
    "won": false,
    "paa": -6.07,
-   "vor": -7.41,
-   "war": -0.08757718348382187
+   "vor": -7.7,
+   "war": -0.09100463061071909
   },
   {
    "season": "2026",
@@ -1080,8 +1080,8 @@
    "proj": 9.63,
    "won": false,
    "paa": 7.71,
-   "vor": 10.29,
-   "war": 0.12161527908887004
+   "vor": 10.0,
+   "war": 0.11818783196197283
   },
   {
    "season": "2026",
@@ -1147,8 +1147,8 @@
    "proj": 9.15,
    "won": true,
    "paa": -6.06,
-   "vor": -5.21,
-   "war": -0.061575860452187846
+   "vor": -5.5,
+   "war": -0.06500330757908505
   },
   {
    "season": "2026",
@@ -1198,24 +1198,24 @@
    "proj": 8.3,
    "won": true,
    "paa": -1.49,
-   "vor": 0.09,
-   "war": 0.0010636904876577555
+   "vor": -0.2,
+   "war": -0.002363756639239457
   }
  ],
  "similar": [
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 825,
-   "gs": 33,
-   "pts": 301.5,
-   "ppg": 9.14,
-   "war": -0.33
+   "score": 809,
+   "gs": 34,
+   "pts": 306.3,
+   "ppg": 9.01,
+   "war": -0.42
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 799,
+   "score": 800,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
@@ -1224,29 +1224,29 @@
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 728,
+   "score": 727,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.66
+   "war": -0.68
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 703,
+   "score": 705,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.28
+   "war": -0.29
   },
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 695,
+   "score": 698,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.54
+   "war": 0.51
   }
  ],
  "status": {
@@ -1260,8 +1260,8 @@
    "stat": "Points",
    "value": 350.0,
    "digits": 2,
-   "rank": 90,
-   "of": 424
+   "rank": 91,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1269,26 +1269,26 @@
    "stat": "Games Started",
    "value": 34,
    "digits": 0,
-   "rank": 72,
-   "of": 424
+   "rank": 74,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.23,
+   "value": 0.22,
    "digits": 2,
-   "rank": 159,
-   "of": 424
+   "rank": 160,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 19.7,
+   "value": 18.5,
    "digits": 1,
-   "rank": 160,
-   "of": 424
+   "rank": 161,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1296,8 +1296,8 @@
    "stat": "PAA",
    "value": -14.3,
    "digits": 1,
-   "rank": 260,
-   "of": 424
+   "rank": 259,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1305,8 +1305,8 @@
    "stat": "Best Game",
    "value": 23.9,
    "digits": 2,
-   "rank": 182,
-   "of": 424
+   "rank": 183,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1314,8 +1314,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.29,
    "digits": 2,
-   "rank": 159,
-   "of": 256
+   "rank": 162,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1323,7 +1323,7 @@
    "stat": "Bench Points",
    "value": 143.3,
    "digits": 2,
-   "rank": 103,
+   "rank": 108,
    "of": 515
   },
   {
@@ -1348,7 +1348,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 0.23,
+   "value": 0.22,
    "digits": 2,
    "rank": 16,
    "of": 52
@@ -1359,8 +1359,8 @@
    "stat": "Points",
    "value": 205.5,
    "digits": 2,
-   "rank": 12,
-   "of": 76,
+   "rank": 13,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1370,17 +1370,17 @@
    "value": 18,
    "digits": 0,
    "rank": 11,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.46,
+   "value": 0.45,
    "digits": 2,
    "rank": 15,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1400,7 +1400,7 @@
    "value": 144.5,
    "digits": 2,
    "rank": 16,
-   "of": 60,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1410,7 +1410,7 @@
    "value": 16,
    "digits": 0,
    "rank": 11,
-   "of": 60,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1419,8 +1419,8 @@
    "stat": "WAR",
    "value": -0.23,
    "digits": 2,
-   "rank": 58,
-   "of": 60,
+   "rank": 59,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1430,7 +1430,7 @@
    "value": 144.5,
    "digits": 2,
    "rank": 2,
-   "of": 7,
+   "of": 8,
    "franchise": 5
   },
   {
@@ -1499,8 +1499,8 @@
    "stat": "Points",
    "value": 37.8,
    "digits": 2,
-   "rank": 140,
-   "of": 242,
+   "rank": 142,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1510,7 +1510,7 @@
    "value": 37.8,
    "digits": 2,
    "rank": 16,
-   "of": 29,
+   "of": 30,
    "season": "2026"
   },
   {
@@ -1519,8 +1519,8 @@
    "stat": "Points, 2025",
    "value": 167.7,
    "digits": 2,
-   "rank": 195,
-   "of": 1019,
+   "rank": 201,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1529,8 +1529,8 @@
    "stat": "Points, 2023",
    "value": 88.3,
    "digits": 2,
-   "rank": 391,
-   "of": 1019,
+   "rank": 396,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1539,8 +1539,8 @@
    "stat": "Points, 2024",
    "value": 56.2,
    "digits": 2,
-   "rank": 542,
-   "of": 1019,
+   "rank": 550,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1549,16 +1549,16 @@
    "stat": "Points, 2026",
    "value": 37.8,
    "digits": 2,
-   "rank": 650,
-   "of": 1019,
+   "rank": 652,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 12.8,
+  "score": 12.7,
   "rank": 111,
-  "of": 424,
-  "war": 2.3,
+  "of": 426,
+  "war": 2.2,
   "starts": 8.5,
   "black_ink": 0.0,
   "awards": 2.0,
@@ -1841,27 +1841,32 @@
    [
     "2026",
     6,
-    12.55
+    12.45
    ],
    [
     "2026",
     7,
-    12.55
+    12.45
    ],
    [
     "2026",
     8,
-    12.55
+    12.45
    ],
    [
     "2026",
     9,
-    12.8
+    12.7
    ],
    [
     "2026",
     10,
-    12.8
+    12.7
+   ],
+   [
+    "2026",
+    11,
+    12.7
    ]
   ],
   "benchmark": 100

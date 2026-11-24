@@ -84,7 +84,7 @@
    "team": "CIN",
    "g": 2,
    "pts": 4.9,
-   "rank": 176
+   "rank": 177
   }
  ],
  "history": [
@@ -458,8 +458,8 @@
    "stat": "Points",
    "value": 0.0,
    "digits": 2,
-   "rank": 417,
-   "of": 424
+   "rank": 419,
+   "of": 426
   },
   {
    "group": "Career",
@@ -467,8 +467,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 362,
-   "of": 424
+   "rank": 365,
+   "of": 426
   },
   {
    "group": "Career",
@@ -476,8 +476,8 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 325,
-   "of": 424
+   "rank": 327,
+   "of": 426
   },
   {
    "group": "Career",
@@ -485,8 +485,8 @@
    "stat": "VOR",
    "value": -11.7,
    "digits": 1,
-   "rank": 329,
-   "of": 424
+   "rank": 331,
+   "of": 426
   },
   {
    "group": "Career",
@@ -494,8 +494,8 @@
    "stat": "PAA",
    "value": -8.9,
    "digits": 1,
-   "rank": 202,
-   "of": 424
+   "rank": 200,
+   "of": 426
   },
   {
    "group": "Career",
@@ -503,8 +503,8 @@
    "stat": "Best Game",
    "value": 0.0,
    "digits": 2,
-   "rank": 417,
-   "of": 424
+   "rank": 419,
+   "of": 426
   },
   {
    "group": "Career",
@@ -521,8 +521,8 @@
    "stat": "Points",
    "value": 0.0,
    "digits": 2,
-   "rank": 121,
-   "of": 127
+   "rank": 123,
+   "of": 129
   },
   {
    "group": "Career",
@@ -531,7 +531,7 @@
    "value": 1,
    "digits": 0,
    "rank": 104,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -539,8 +539,8 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 94,
-   "of": 127
+   "rank": 96,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -608,16 +608,16 @@
    "stat": "Points, 2024",
    "value": 0.0,
    "digits": 2,
-   "rank": 1002,
-   "of": 1019,
+   "rank": 1007,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 370,
-  "of": 424,
+  "rank": 374,
+  "of": 426,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -842,6 +842,11 @@
     "2026",
     10,
     0.25
+   ],
+   [
+    "2026",
+    11,
+    0.25
    ]
   ],
   "benchmark": 100
@@ -878,7 +883,7 @@
    {
     "season": "2026",
     "nfl": "CIN",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
      "Thumb"
@@ -890,7 +895,8 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR"
@@ -945,6 +951,13 @@
       "injury": "Thumb",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 11,
+      "kind": "IR",
+      "injury": "Thumb",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -970,7 +983,7 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 10,
+    "to": 11,
     "weeks": [
      3,
      4,
@@ -978,9 +991,10 @@
      7,
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 7,
+    "missed": 8,
     "nfl": "CIN",
     "injury": "Thumb",
     "kinds": [

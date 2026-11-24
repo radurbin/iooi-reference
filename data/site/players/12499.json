@@ -50,13 +50,29 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "season": "2026",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "nfl": "TEN",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 5.7,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
   }
  ],
  "totals": {
-  "g": 18,
+  "g": 19,
   "gs": 2,
   "pts": 13.0,
-  "bench_pts": 86.0,
+  "bench_pts": 91.7,
   "ppg": 6.5,
   "best": 9.2,
   "wins": 1,
@@ -424,6 +440,22 @@
    "pts": 2.7,
    "proj": 5.33,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 5.7,
+   "proj": 10.14,
+   "won": false
   }
  ],
  "status": {
@@ -438,8 +470,8 @@
    "stat": "Points",
    "value": 13.0,
    "digits": 2,
-   "rank": 348,
-   "of": 424
+   "rank": 350,
+   "of": 426
   },
   {
    "group": "Career",
@@ -447,8 +479,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 333,
-   "of": 424
+   "rank": 335,
+   "of": 426
   },
   {
    "group": "Career",
@@ -456,8 +488,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 287,
-   "of": 424
+   "rank": 288,
+   "of": 426
   },
   {
    "group": "Career",
@@ -466,7 +498,7 @@
    "value": -8.2,
    "digits": 1,
    "rank": 288,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -475,7 +507,7 @@
    "value": -14.0,
    "digits": 1,
    "rank": 256,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -483,16 +515,16 @@
    "stat": "Best Game",
    "value": 9.2,
    "digits": 2,
-   "rank": 341,
-   "of": 424
+   "rank": 342,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 86.0,
+   "value": 91.7,
    "digits": 2,
-   "rank": 211,
+   "rank": 197,
    "of": 515
   },
   {
@@ -501,8 +533,8 @@
    "stat": "Points",
    "value": 13.0,
    "digits": 2,
-   "rank": 97,
-   "of": 127
+   "rank": 98,
+   "of": 129
   },
   {
    "group": "Career",
@@ -510,8 +542,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 95,
-   "of": 127
+   "rank": 96,
+   "of": 129
   },
   {
    "group": "Career",
@@ -519,8 +551,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 75,
-   "of": 127
+   "rank": 77,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -529,7 +561,7 @@
    "value": 13.0,
    "digits": 2,
    "rank": 48,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -539,7 +571,7 @@
    "value": 2,
    "digits": 0,
    "rank": 45,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -548,8 +580,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 47,
-   "of": 67,
+   "rank": 48,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -588,16 +620,16 @@
    "stat": "Points, 2025",
    "value": 13.0,
    "digits": 2,
-   "rank": 827,
-   "of": 1019,
+   "rank": 833,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.5,
-  "rank": 346,
-  "of": 424,
+  "rank": 347,
+  "of": 426,
   "war": 0.0,
   "starts": 0.5,
   "black_ink": 0.0,
@@ -736,6 +768,11 @@
    [
     "2026",
     10,
+    0.5
+   ],
+   [
+    "2026",
+    11,
     0.5
    ]
   ],

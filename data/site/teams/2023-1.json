@@ -1439,10 +1439,10 @@
    "original": 1,
    "player": "4984",
    "pos": "QB",
-   "starts_team": 57,
-   "pts_team": 1342.86,
-   "starts_league": 57,
-   "pts_league": 1342.86,
+   "starts_team": 58,
+   "pts_team": 1355.02,
+   "starts_league": 58,
+   "pts_league": 1355.02,
    "nfl_pts": 1355.02
   },
   {
@@ -1459,10 +1459,10 @@
    "original": 1,
    "player": "9228",
    "pos": "QB",
-   "starts_team": 21,
-   "pts_team": 293.02,
-   "starts_league": 21,
-   "pts_league": 293.02,
+   "starts_team": 22,
+   "pts_team": 309.18,
+   "starts_league": 22,
+   "pts_league": 309.18,
    "nfl_pts": 685.84
   },
   {
@@ -1481,8 +1481,8 @@
    "pos": "WR",
    "starts_team": 6,
    "pts_team": 79.4,
-   "starts_league": 41,
-   "pts_league": 598.8,
+   "starts_league": 42,
+   "pts_league": 619.5,
    "nfl_pts": 732.5
   },
   {
@@ -1501,8 +1501,8 @@
    "pos": "WR",
    "starts_team": 14,
    "pts_team": 186.8,
-   "starts_league": 43,
-   "pts_league": 598.8,
+   "starts_league": 44,
+   "pts_league": 607.9,
    "nfl_pts": 700.2
   },
   {
@@ -1563,7 +1563,7 @@
    "pts_team": 4.7,
    "starts_league": 1,
    "pts_league": 4.7,
-   "nfl_pts": 127.45
+   "nfl_pts": 132.45
   },
   {
    "round": 8,
@@ -1581,8 +1581,8 @@
    "pos": "WR",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 19,
-   "pts_league": 233.1,
+   "starts_league": 20,
+   "pts_league": 252.4,
    "nfl_pts": 626.7
   },
   {
@@ -1759,10 +1759,10 @@
    "original": 1,
    "player": "8130",
    "pos": "TE",
-   "starts_team": 44,
-   "pts_team": 748.5,
-   "starts_league": 44,
-   "pts_league": 748.5,
+   "starts_team": 45,
+   "pts_team": 763.4,
+   "starts_league": 45,
+   "pts_league": 763.4,
    "nfl_pts": 889.7
   },
   {
@@ -1908,30 +1908,30 @@
  ],
  "similar": [
   {
-   "season": "2026",
-   "franchise": 2,
-   "team": "Storm FC",
-   "score": 798,
-   "w": 6,
-   "l": 4,
-   "ppg": 142.2,
-   "result": null
-  },
-  {
    "season": "2024",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 790,
+   "score": 792,
    "w": 9,
    "l": 5,
    "ppg": 131.79,
    "result": "6th"
   },
   {
+   "season": "2026",
+   "franchise": 2,
+   "team": "Storm FC",
+   "score": 780,
+   "w": 7,
+   "l": 4,
+   "ppg": 140.58,
+   "result": null
+  },
+  {
    "season": "2024",
    "franchise": 5,
    "team": "i’m Stroud of you",
-   "score": 733,
+   "score": 734,
    "w": 9,
    "l": 5,
    "ppg": 140.69,
@@ -1941,7 +1941,7 @@
    "season": "2025",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "score": 730,
+   "score": 732,
    "w": 7,
    "l": 7,
    "ppg": 130.72,
@@ -1951,7 +1951,7 @@
    "season": "2023",
    "franchise": 8,
    "team": "Breece is the Word",
-   "score": 728,
+   "score": 729,
    "w": 7,
    "l": 7,
    "ppg": 128.19,
@@ -2295,10 +2295,10 @@
     "emily"
    ],
    "until": null,
-   "g": 53,
-   "gs": 44,
-   "pts": 748.5,
-   "wins": 32,
+   "g": 54,
+   "gs": 45,
+   "pts": 763.4,
+   "wins": 33,
    "best": 37.4
   },
   {
@@ -2712,10 +2712,10 @@
     "riley",
     "emily"
    ],
-   "gs": 0,
-   "pts": 0.0,
-   "next": null,
-   "next_team": null
+   "gs": 1,
+   "pts": 5.4,
+   "next": 9,
+   "next_team": "Clandestine Ball Busters"
   },
   {
    "date": "2023-10-18",
@@ -2757,8 +2757,8 @@
     "riley",
     "emily"
    ],
-   "gs": 9,
-   "pts": 81.0,
+   "gs": 10,
+   "pts": 80.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   },
@@ -2802,8 +2802,8 @@
     "riley",
     "emily"
    ],
-   "gs": 34,
-   "pts": 184.0,
+   "gs": 35,
+   "pts": 194.0,
    "next": 11,
    "next_team": "BubbaNASTIES"
   },
@@ -2832,8 +2832,8 @@
     "riley",
     "emily"
    ],
-   "gs": 9,
-   "pts": 81.0,
+   "gs": 10,
+   "pts": 80.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   },
@@ -2982,8 +2982,8 @@
     "riley",
     "emily"
    ],
-   "gs": 6,
-   "pts": 35.0,
+   "gs": 7,
+   "pts": 52.0,
    "next": 4,
    "next_team": "Cooper Scoopers"
   }

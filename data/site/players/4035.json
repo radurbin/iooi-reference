@@ -77,10 +77,10 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NO",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 95.0,
+   "bench_pts": 102.3,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -90,10 +90,10 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 30,
   "pts": 532.8,
-  "bench_pts": 138.8,
+  "bench_pts": 146.1,
   "ppg": 17.76,
   "best": 44.0,
   "wins": 25,
@@ -1229,22 +1229,38 @@
    "pts": 16.6,
    "proj": 6.75,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 7.3,
+   "proj": 7.77,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "7594",
    "name": "Chuba Hubbard",
-   "score": 904,
-   "gs": 34,
-   "pts": 578.4,
-   "ppg": 17.01,
-   "war": 3.16
+   "score": 876,
+   "gs": 35,
+   "pts": 607.1,
+   "ppg": 17.35,
+   "war": 3.4
   },
   {
    "player": "4018",
    "name": "Joe Mixon",
-   "score": 858,
+   "score": 860,
    "gs": 28,
    "pts": 460.3,
    "ppg": 16.44,
@@ -1253,25 +1269,25 @@
   {
    "player": "11584",
    "name": "Bucky Irving",
-   "score": 821,
-   "gs": 23,
-   "pts": 397.7,
-   "ppg": 17.29,
-   "war": 2.34
+   "score": 853,
+   "gs": 24,
+   "pts": 418.5,
+   "ppg": 17.44,
+   "war": 2.48
   },
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 810,
-   "gs": 35,
-   "pts": 527.1,
-   "ppg": 15.06,
-   "war": 2.51
+   "score": 795,
+   "gs": 36,
+   "pts": 536.3,
+   "ppg": 14.9,
+   "war": 2.52
   },
   {
    "player": "9226",
    "name": "De'Von Achane",
-   "score": 778,
+   "score": 781,
    "gs": 37,
    "pts": 673.2,
    "ppg": 18.19,
@@ -1290,8 +1306,8 @@
    "stat": "Points",
    "value": 532.8,
    "digits": 2,
-   "rank": 57,
-   "of": 424
+   "rank": 60,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1299,8 +1315,8 @@
    "stat": "Games Started",
    "value": 30,
    "digits": 0,
-   "rank": 92,
-   "of": 424
+   "rank": 95,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1308,8 +1324,8 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 28,
-   "of": 424
+   "rank": 29,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1317,8 +1333,8 @@
    "stat": "VOR",
    "value": 243.4,
    "digits": 1,
-   "rank": 28,
-   "of": 424
+   "rank": 29,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1326,8 +1342,8 @@
    "stat": "PAA",
    "value": 110.3,
    "digits": 1,
-   "rank": 24,
-   "of": 424
+   "rank": 25,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1336,7 +1352,7 @@
    "value": 44.0,
    "digits": 2,
    "rank": 16,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1345,15 +1361,15 @@
    "value": 17.76,
    "digits": 2,
    "rank": 22,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 138.8,
+   "value": 146.1,
    "digits": 2,
-   "rank": 111,
+   "rank": 101,
    "of": 515
   },
   {
@@ -1362,7 +1378,7 @@
    "stat": "Points",
    "value": 532.8,
    "digits": 2,
-   "rank": 19,
+   "rank": 20,
    "of": 100
   },
   {
@@ -1380,7 +1396,7 @@
    "stat": "WAR",
    "value": 2.88,
    "digits": 2,
-   "rank": 14,
+   "rank": 15,
    "of": 100
   },
   {
@@ -1489,8 +1505,8 @@
    "stat": "Points, 2024",
    "value": 248.3,
    "digits": 2,
-   "rank": 63,
-   "of": 1019,
+   "rank": 64,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1499,8 +1515,8 @@
    "stat": "Points, 2023",
    "value": 226.1,
    "digits": 2,
-   "rank": 82,
-   "of": 1019,
+   "rank": 88,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1509,15 +1525,15 @@
    "stat": "Points, 2025",
    "value": 58.4,
    "digits": 2,
-   "rank": 525,
-   "of": 1019,
+   "rank": 534,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 45.3,
-  "rank": 25,
-  "of": 424,
+  "rank": 27,
+  "of": 426,
   "war": 28.8,
   "starts": 7.5,
   "black_ink": 0.0,
@@ -1826,6 +1842,11 @@
    [
     "2026",
     10,
+    45.3
+   ],
+   [
+    "2026",
+    11,
     45.3
    ]
   ],

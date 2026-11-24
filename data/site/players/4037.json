@@ -74,10 +74,10 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "TB",
-   "g": 10,
+   "g": 11,
    "gs": 3,
    "pts": 15.1,
-   "bench_pts": 43.2,
+   "bench_pts": 47.5,
    "ppg": 5.03,
    "best": 8.4,
    "wins": 1,
@@ -87,10 +87,10 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 19,
   "pts": 256.4,
-  "bench_pts": 179.1,
+  "bench_pts": 183.4,
   "ppg": 13.49,
   "best": 35.5,
   "wins": 7,
@@ -1175,26 +1175,42 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 4.3,
+   "proj": 8.79,
+   "won": false
   }
  ],
  "similar": [
   {
+   "player": "8148",
+   "name": "Jameson Williams",
+   "score": 934,
+   "gs": 20,
+   "pts": 252.4,
+   "ppg": 12.62,
+   "war": 0.45
+  },
+  {
    "player": "6803",
    "name": "Brandon Aiyuk",
-   "score": 917,
+   "score": 919,
    "gs": 22,
    "pts": 306.1,
    "ppg": 13.91,
    "war": 0.46
-  },
-  {
-   "player": "8148",
-   "name": "Jameson Williams",
-   "score": 908,
-   "gs": 19,
-   "pts": 233.1,
-   "ppg": 12.27,
-   "war": 0.33
   },
   {
    "player": "10222",
@@ -1215,13 +1231,13 @@
    "war": 0.06
   },
   {
-   "player": "12526",
-   "name": "Tetairoa McMillan",
-   "score": 885,
-   "gs": 23,
-   "pts": 298.9,
-   "ppg": 13.0,
-   "war": 0.79
+   "player": "4039",
+   "name": "Cooper Kupp",
+   "score": 871,
+   "gs": 24,
+   "pts": 334.7,
+   "ppg": 13.95,
+   "war": 0.56
   }
  ],
  "status": {
@@ -1236,8 +1252,8 @@
    "stat": "Points",
    "value": 256.4,
    "digits": 2,
-   "rank": 126,
-   "of": 424
+   "rank": 127,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1245,8 +1261,8 @@
    "stat": "Games Started",
    "value": 19,
    "digits": 0,
-   "rank": 151,
-   "of": 424
+   "rank": 154,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1254,8 +1270,8 @@
    "stat": "WAR",
    "value": 0.42,
    "digits": 2,
-   "rank": 126,
-   "of": 424
+   "rank": 129,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1263,8 +1279,8 @@
    "stat": "VOR",
    "value": 35.6,
    "digits": 1,
-   "rank": 127,
-   "of": 424
+   "rank": 129,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1272,8 +1288,8 @@
    "stat": "PAA",
    "value": -1.2,
    "digits": 1,
-   "rank": 142,
-   "of": 424
+   "rank": 141,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1281,8 +1297,8 @@
    "stat": "Best Game",
    "value": 35.5,
    "digits": 2,
-   "rank": 60,
-   "of": 424
+   "rank": 61,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1291,15 +1307,15 @@
    "value": 13.49,
    "digits": 2,
    "rank": 95,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 179.1,
+   "value": 183.4,
    "digits": 2,
-   "rank": 65,
+   "rank": 61,
    "of": 515
   },
   {
@@ -1309,7 +1325,7 @@
    "value": 256.4,
    "digits": 2,
    "rank": 41,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1317,8 +1333,8 @@
    "stat": "Games Started",
    "value": 19,
    "digits": 0,
-   "rank": 43,
-   "of": 127
+   "rank": 45,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1326,8 +1342,8 @@
    "stat": "WAR",
    "value": 0.42,
    "digits": 2,
-   "rank": 37,
-   "of": 127
+   "rank": 38,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1336,7 +1352,7 @@
    "value": 15.1,
    "digits": 2,
    "rank": 54,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1345,8 +1361,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 44,
-   "of": 82,
+   "rank": 45,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1355,8 +1371,8 @@
    "stat": "WAR",
    "value": -0.15,
    "digits": 2,
-   "rank": 65,
-   "of": 82,
+   "rank": 66,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1376,7 +1392,7 @@
    "value": 241.3,
    "digits": 2,
    "rank": 11,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1385,8 +1401,8 @@
    "stat": "Games Started",
    "value": 16,
    "digits": 0,
-   "rank": 14,
-   "of": 54,
+   "rank": 15,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1395,8 +1411,8 @@
    "stat": "WAR",
    "value": 0.57,
    "digits": 2,
-   "rank": 12,
-   "of": 54,
+   "rank": 14,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1406,7 +1422,7 @@
    "value": 241.3,
    "digits": 2,
    "rank": 5,
-   "of": 13,
+   "of": 14,
    "franchise": 7
   },
   {
@@ -1455,8 +1471,8 @@
    "stat": "Points",
    "value": 15.1,
    "digits": 2,
-   "rank": 182,
-   "of": 242,
+   "rank": 188,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1465,8 +1481,8 @@
    "stat": "Points",
    "value": 15.1,
    "digits": 2,
-   "rank": 49,
-   "of": 63,
+   "rank": 50,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -1475,8 +1491,8 @@
    "stat": "Points, 2024",
    "value": 137.8,
    "digits": 2,
-   "rank": 265,
-   "of": 1019,
+   "rank": 269,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1485,8 +1501,8 @@
    "stat": "Points, 2023",
    "value": 103.5,
    "digits": 2,
-   "rank": 352,
-   "of": 1019,
+   "rank": 355,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1495,15 +1511,15 @@
    "stat": "Points, 2026",
    "value": 15.1,
    "digits": 2,
-   "rank": 806,
-   "of": 1019,
+   "rank": 812,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 8.95,
-  "rank": 144,
-  "of": 424,
+  "rank": 146,
+  "of": 426,
   "war": 4.2,
   "starts": 4.75,
   "black_ink": 0.0,
@@ -1812,6 +1828,11 @@
    [
     "2026",
     10,
+    8.95
+   ],
+   [
+    "2026",
+    11,
     8.95
    ]
   ],

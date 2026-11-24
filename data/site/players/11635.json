@@ -60,29 +60,29 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "LAC",
-   "g": 10,
-   "gs": 6,
-   "pts": 39.0,
+   "g": 11,
+   "gs": 7,
+   "pts": 59.7,
    "bench_pts": 12.6,
-   "ppg": 6.5,
-   "best": 19.2,
+   "ppg": 8.53,
+   "best": 20.7,
    "wins": 2,
-   "paa": -44.28,
-   "vor": -16.56,
-   "war": -0.2
+   "paa": -36.74,
+   "vor": -5.12,
+   "war": -0.06
   }
  ],
  "totals": {
-  "g": 44,
-  "gs": 32,
-  "pts": 380.4,
+  "g": 45,
+  "gs": 33,
+  "pts": 401.1,
   "bench_pts": 57.2,
-  "ppg": 11.89,
+  "ppg": 12.15,
   "best": 29.4,
   "wins": 14,
-  "paa": -46.12,
-  "vor": 37.14,
-  "war": 0.44
+  "paa": -38.58,
+  "vor": 48.58,
+  "war": 0.57
  },
  "nfl": [
   {
@@ -915,53 +915,72 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "WR",
+   "started": true,
+   "pts": 20.7,
+   "proj": 12.2,
+   "won": false,
+   "paa": 7.54,
+   "vor": 11.44,
+   "war": 0.1352068797644969
   }
  ],
  "similar": [
   {
-   "player": "5927",
-   "name": "Terry McLaurin",
-   "score": 923,
-   "gs": 32,
-   "pts": 375.2,
-   "ppg": 11.72,
-   "war": 0.0
-  },
-  {
-   "player": "4981",
-   "name": "Calvin Ridley",
-   "score": 902,
-   "gs": 33,
-   "pts": 381.8,
-   "ppg": 11.57,
-   "war": -0.1
-  },
-  {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 901,
+   "score": 917,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
    "war": 0.53
   },
   {
-   "player": "9756",
-   "name": "Jordan Addison",
-   "score": 886,
-   "gs": 27,
-   "pts": 334.8,
-   "ppg": 12.4,
-   "war": 0.36
+   "player": "5927",
+   "name": "Terry McLaurin",
+   "score": 892,
+   "gs": 32,
+   "pts": 375.2,
+   "ppg": 11.72,
+   "war": 0.0
   },
   {
    "player": "6819",
    "name": "Michael Pittman Jr.",
-   "score": 858,
+   "score": 891,
    "gs": 33,
    "pts": 445.1,
    "ppg": 13.49,
    "war": 0.72
+  },
+  {
+   "player": "4981",
+   "name": "Calvin Ridley",
+   "score": 876,
+   "gs": 33,
+   "pts": 381.8,
+   "ppg": 11.57,
+   "war": -0.1
+  },
+  {
+   "player": "9756",
+   "name": "Jordan Addison",
+   "score": 872,
+   "gs": 28,
+   "pts": 334.8,
+   "ppg": 11.96,
+   "war": 0.25
   }
  ],
  "status": {
@@ -974,46 +993,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 380.4,
+   "value": 401.1,
    "digits": 2,
-   "rank": 84,
-   "of": 424
+   "rank": 80,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 32,
+   "value": 33,
    "digits": 0,
-   "rank": 84,
-   "of": 424
+   "rank": 81,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.44,
+   "value": 0.57,
    "digits": 2,
-   "rank": 124,
-   "of": 424
+   "rank": 109,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 37.1,
+   "value": 48.6,
    "digits": 1,
-   "rank": 125,
-   "of": 424
+   "rank": 109,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -46.1,
+   "value": -38.6,
    "digits": 1,
-   "rank": 361,
-   "of": 424
+   "rank": 353,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1021,17 +1040,17 @@
    "stat": "Best Game",
    "value": 29.4,
    "digits": 2,
-   "rank": 113,
-   "of": 424
+   "rank": 114,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 11.89,
+   "value": 12.15,
    "digits": 2,
-   "rank": 130,
-   "of": 256
+   "rank": 123,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1039,74 +1058,74 @@
    "stat": "Bench Points",
    "value": 57.2,
    "digits": 2,
-   "rank": 270,
+   "rank": 274,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 380.4,
+   "value": 401.1,
    "digits": 2,
-   "rank": 29,
-   "of": 127
+   "rank": 27,
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 32,
+   "value": 33,
    "digits": 0,
-   "rank": 25,
-   "of": 127
+   "rank": 23,
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.44,
+   "value": 0.57,
    "digits": 2,
-   "rank": 36,
-   "of": 127
+   "rank": 31,
+   "of": 129
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points",
-   "value": 380.4,
+   "value": 401.1,
    "digits": 2,
    "rank": 7,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Games Started",
-   "value": 32,
+   "value": 33,
    "digits": 0,
-   "rank": 5,
-   "of": 54,
+   "rank": 4,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.44,
+   "value": 0.58,
    "digits": 2,
-   "rank": 14,
-   "of": 54,
+   "rank": 13,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points, WRs",
-   "value": 380.4,
+   "value": 401.1,
    "digits": 2,
    "rank": 4,
-   "of": 13,
+   "of": 14,
    "franchise": 7
   },
   {
@@ -1153,20 +1172,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 39.0,
+   "value": 59.7,
    "digits": 2,
-   "rank": 137,
-   "of": 242,
+   "rank": 111,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 39.0,
+   "value": 59.7,
    "digits": 2,
-   "rank": 34,
-   "of": 63,
+   "rank": 31,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -1175,8 +1194,8 @@
    "stat": "Points, 2025",
    "value": 178.4,
    "digits": 2,
-   "rank": 175,
-   "of": 1019,
+   "rank": 182,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1185,27 +1204,27 @@
    "stat": "Points, 2024",
    "value": 163.0,
    "digits": 2,
-   "rank": 206,
-   "of": 1019,
+   "rank": 212,
+   "of": 1025,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 39.0,
+   "value": 59.7,
    "digits": 2,
-   "rank": 636,
-   "of": 1019,
+   "rank": 524,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 16.4,
-  "rank": 90,
-  "of": 424,
-  "war": 4.4,
-  "starts": 8.0,
+  "score": 17.95,
+  "rank": 83,
+  "of": 426,
+  "war": 5.7,
+  "starts": 8.25,
   "black_ink": 0.0,
   "awards": 4.0,
   "history": [
@@ -1428,6 +1447,11 @@
     "2026",
     10,
     16.4
+   ],
+   [
+    "2026",
+    11,
+    17.95
    ]
   ],
   "benchmark": 100

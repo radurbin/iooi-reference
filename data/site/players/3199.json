@@ -387,8 +387,8 @@
    "stat": "Points",
    "value": 58.0,
    "digits": 2,
-   "rank": 258,
-   "of": 424
+   "rank": 260,
+   "of": 426
   },
   {
    "group": "Career",
@@ -396,8 +396,8 @@
    "stat": "Games Started",
    "value": 5,
    "digits": 0,
-   "rank": 275,
-   "of": 424
+   "rank": 276,
+   "of": 426
   },
   {
    "group": "Career",
@@ -405,8 +405,8 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 241,
-   "of": 424
+   "rank": 240,
+   "of": 426
   },
   {
    "group": "Career",
@@ -414,8 +414,8 @@
    "stat": "VOR",
    "value": -3.8,
    "digits": 1,
-   "rank": 249,
-   "of": 424
+   "rank": 248,
+   "of": 426
   },
   {
    "group": "Career",
@@ -423,8 +423,8 @@
    "stat": "PAA",
    "value": -16.8,
    "digits": 1,
-   "rank": 273,
-   "of": 424
+   "rank": 274,
+   "of": 426
   },
   {
    "group": "Career",
@@ -432,8 +432,8 @@
    "stat": "Best Game",
    "value": 13.2,
    "digits": 2,
-   "rank": 301,
-   "of": 424
+   "rank": 302,
+   "of": 426
   },
   {
    "group": "Career",
@@ -441,7 +441,7 @@
    "stat": "Bench Points",
    "value": 31.8,
    "digits": 2,
-   "rank": 354,
+   "rank": 359,
    "of": 515
   },
   {
@@ -451,7 +451,7 @@
    "value": 58.0,
    "digits": 2,
    "rank": 72,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -460,7 +460,7 @@
    "value": 5,
    "digits": 0,
    "rank": 75,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -468,8 +468,8 @@
    "stat": "WAR",
    "value": -0.04,
    "digits": 2,
-   "rank": 60,
-   "of": 127
+   "rank": 61,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -477,7 +477,7 @@
    "stat": "Points",
    "value": 58.0,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 69,
    "franchise": 8
   },
@@ -537,16 +537,16 @@
    "stat": "Points, 2023",
    "value": 58.0,
    "digits": 2,
-   "rank": 527,
-   "of": 1019,
+   "rank": 536,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.25,
-  "rank": 295,
-  "of": 424,
+  "rank": 296,
+  "of": 426,
   "war": 0.0,
   "starts": 1.25,
   "black_ink": 0.0,
@@ -855,6 +855,11 @@
    [
     "2026",
     10,
+    1.25
+   ],
+   [
+    "2026",
+    11,
     1.25
    ]
   ],

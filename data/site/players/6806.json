@@ -88,29 +88,29 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "DEN",
-   "g": 10,
-   "gs": 1,
-   "pts": 8.9,
+   "g": 11,
+   "gs": 2,
+   "pts": 9.0,
    "bench_pts": 63.4,
-   "ppg": 8.9,
+   "ppg": 4.5,
    "best": 8.9,
    "wins": 0,
-   "paa": -8.67,
-   "vor": 0.43,
-   "war": 0.01
+   "paa": -22.75,
+   "vor": -7.94,
+   "war": -0.09
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 22,
-  "pts": 270.6,
+  "g": 62,
+  "gs": 23,
+  "pts": 270.7,
   "bench_pts": 95.3,
-  "ppg": 12.3,
+  "ppg": 11.77,
   "best": 24.5,
   "wins": 8,
-  "paa": -53.47,
-  "vor": 71.76,
-  "war": 0.85
+  "paa": -67.55,
+  "vor": 63.39,
+  "war": 0.75
  },
  "nfl": [
   {
@@ -139,7 +139,7 @@
    "team": "DEN",
    "g": 10,
    "pts": 72.4,
-   "rank": 37
+   "rank": 38
   }
  ],
  "history": [
@@ -1228,53 +1228,72 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": "RB",
+   "started": true,
+   "pts": 0.1,
+   "proj": 9.13,
+   "won": false,
+   "paa": -14.08,
+   "vor": -8.37,
+   "war": -0.09892321535217126
   }
  ],
  "similar": [
   {
-   "player": "12512",
-   "name": "Quinshon Judkins",
-   "score": 942,
-   "gs": 19,
-   "pts": 236.0,
-   "ppg": 12.42,
-   "war": 0.87
-  },
-  {
    "player": "4663",
    "name": "Austin Ekeler",
-   "score": 923,
+   "score": 957,
    "gs": 24,
    "pts": 276.4,
    "ppg": 11.52,
    "war": 0.46
   },
   {
+   "player": "12512",
+   "name": "Quinshon Judkins",
+   "score": 917,
+   "gs": 19,
+   "pts": 236.0,
+   "ppg": 12.42,
+   "war": 0.87
+  },
+  {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 894,
+   "score": 892,
    "gs": 27,
    "pts": 342.3,
    "ppg": 12.68,
    "war": 0.97
   },
   {
+   "player": "7528",
+   "name": "Najee Harris",
+   "score": 878,
+   "gs": 29,
+   "pts": 323.5,
+   "ppg": 11.16,
+   "war": 0.41
+  },
+  {
    "player": "4098",
    "name": "Kareem Hunt",
-   "score": 870,
+   "score": 863,
    "gs": 16,
    "pts": 191.3,
    "ppg": 11.96,
    "war": 0.49
-  },
-  {
-   "player": "12507",
-   "name": "Omarion Hampton",
-   "score": 858,
-   "gs": 15,
-   "pts": 197.6,
-   "ppg": 13.17,
-   "war": 0.82
   }
  ],
  "status": {
@@ -1297,46 +1316,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 270.6,
+   "value": 270.7,
    "digits": 2,
-   "rank": 118,
-   "of": 424
+   "rank": 121,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 22,
+   "value": 23,
    "digits": 0,
-   "rank": 133,
-   "of": 424
+   "rank": 129,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.85,
+   "value": 0.75,
    "digits": 2,
-   "rank": 92,
-   "of": 424
+   "rank": 98,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 71.8,
+   "value": 63.4,
    "digits": 1,
-   "rank": 92,
-   "of": 424
+   "rank": 98,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -53.5,
+   "value": -67.5,
    "digits": 1,
-   "rank": 371,
-   "of": 424
+   "rank": 394,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1344,17 +1363,17 @@
    "stat": "Best Game",
    "value": 24.5,
    "digits": 2,
-   "rank": 170,
-   "of": 424
+   "rank": 171,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 12.3,
+   "value": 11.77,
    "digits": 2,
-   "rank": 121,
-   "of": 256
+   "rank": 129,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1362,23 +1381,23 @@
    "stat": "Bench Points",
    "value": 95.3,
    "digits": 2,
-   "rank": 183,
+   "rank": 184,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 270.6,
+   "value": 270.7,
    "digits": 2,
-   "rank": 31,
+   "rank": 32,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 22,
+   "value": 23,
    "digits": 0,
    "rank": 29,
    "of": 100
@@ -1387,9 +1406,9 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.85,
+   "value": 0.75,
    "digits": 2,
-   "rank": 34,
+   "rank": 35,
    "of": 100
   },
   {
@@ -1399,7 +1418,7 @@
    "value": 57.1,
    "digits": 2,
    "rank": 33,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1409,7 +1428,7 @@
    "value": 4,
    "digits": 0,
    "rank": 41,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1419,7 +1438,7 @@
    "value": 0.27,
    "digits": 2,
    "rank": 17,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1429,7 +1448,7 @@
    "value": 57.1,
    "digits": 2,
    "rank": 10,
-   "of": 15,
+   "of": 16,
    "franchise": 4
   },
   {
@@ -1476,40 +1495,40 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points",
-   "value": 58.7,
+   "value": 58.8,
    "digits": 2,
    "rank": 32,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Games Started",
-   "value": 6,
+   "value": 7,
    "digits": 0,
    "rank": 26,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 0.09,
+   "value": -0.01,
    "digits": 2,
-   "rank": 20,
-   "of": 67,
+   "rank": 32,
+   "of": 68,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points, RBs",
-   "value": 58.7,
+   "value": 58.8,
    "digits": 2,
    "rank": 6,
-   "of": 11,
+   "of": 12,
    "franchise": 9
   },
   {
@@ -1576,20 +1595,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 8.9,
+   "value": 9.0,
    "digits": 2,
-   "rank": 201,
-   "of": 242,
+   "rank": 205,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 8.9,
+   "value": 9.0,
    "digits": 2,
-   "rank": 47,
-   "of": 58,
+   "rank": 48,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1598,8 +1617,8 @@
    "stat": "Points, 2024",
    "value": 143.1,
    "digits": 2,
-   "rank": 247,
-   "of": 1019,
+   "rank": 252,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1608,8 +1627,8 @@
    "stat": "Points, 2025",
    "value": 106.9,
    "digits": 2,
-   "rank": 343,
-   "of": 1019,
+   "rank": 346,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1618,27 +1637,27 @@
    "stat": "Points, 2023",
    "value": 11.7,
    "digits": 2,
-   "rank": 848,
-   "of": 1019,
+   "rank": 853,
+   "of": 1025,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 8.9,
+   "value": 9.0,
    "digits": 2,
-   "rank": 882,
-   "of": 1019,
+   "rank": 884,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 14.0,
-  "rank": 104,
-  "of": 424,
-  "war": 8.5,
-  "starts": 5.5,
+  "score": 13.25,
+  "rank": 107,
+  "of": 426,
+  "war": 7.5,
+  "starts": 5.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1946,6 +1965,11 @@
     "2026",
     10,
     14.0
+   ],
+   [
+    "2026",
+    11,
+    13.25
    ]
   ],
   "benchmark": 100

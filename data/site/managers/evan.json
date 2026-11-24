@@ -66,13 +66,13 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "w": 5,
-   "l": 5,
+   "l": 6,
    "t": 0,
-   "pf": 1402.75,
-   "pa": 1486.33,
+   "pf": 1532.37,
+   "pa": 1619.61,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.5,
+   "pct": 0.455,
    "transactions": 39,
    "trades": 7,
    "partial_season": false,
@@ -81,13 +81,13 @@
  ],
  "totals": {
   "w": 37,
-  "l": 15,
+  "l": 16,
   "t": 0,
-  "pf": 7286.93,
-  "pa": 6656.73,
+  "pf": 7416.55,
+  "pa": 6790.01,
   "playoff_w": 3,
   "playoff_l": 3,
-  "pct": 0.712,
+  "pct": 0.698,
   "transactions": 156,
   "trades": 21
  },
@@ -99,30 +99,30 @@
  "leaders": {
   "overall": [
    {
+    "player": "4217",
+    "name": "George Kittle",
+    "pos": "TE",
+    "years": "2023-2026",
+    "g": 62,
+    "gs": 46,
+    "pts": 694.3,
+    "best": 27.7,
+    "wins": 31,
+    "vor": 234.02,
+    "war": 2.77
+   },
+   {
     "player": "5850",
     "name": "Josh Jacobs",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 61,
+    "g": 62,
     "gs": 45,
     "pts": 685.5,
     "best": 32.0,
     "wins": 32,
     "vor": 264.44,
     "war": 3.13
-   },
-   {
-    "player": "4217",
-    "name": "George Kittle",
-    "pos": "TE",
-    "years": "2023-2026",
-    "g": 61,
-    "gs": 45,
-    "pts": 675.9,
-    "best": 27.7,
-    "wins": 31,
-    "vor": 228.24,
-    "war": 2.7
    },
    {
     "player": "4881",
@@ -142,26 +142,26 @@
     "name": "Christian McCaffrey",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 24,
-    "pts": 615.95,
+    "g": 28,
+    "gs": 25,
+    "pts": 631.35,
     "best": 47.6,
     "wins": 16,
-    "vor": 410.87,
-    "war": 4.86
+    "vor": 417.8,
+    "war": 4.94
    },
    {
     "player": "6801",
     "name": "Tee Higgins",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 61,
-    "gs": 35,
-    "pts": 583.2,
+    "g": 62,
+    "gs": 36,
+    "pts": 595.5,
     "best": 40.1,
     "wins": 24,
-    "vor": 201.01,
-    "war": 2.38
+    "vor": 204.05,
+    "war": 2.41
    },
    {
     "player": "4035",
@@ -181,7 +181,7 @@
     "name": "Drake Maye",
     "pos": "QB",
     "years": "2024-2026",
-    "g": 44,
+    "g": 45,
     "gs": 26,
     "pts": 500.62,
     "best": 40.16,
@@ -194,13 +194,13 @@
     "name": "Breece Hall",
     "pos": "RB",
     "years": "2023-2024, 2026",
-    "g": 39,
-    "gs": 29,
-    "pts": 450.25,
+    "g": 40,
+    "gs": 30,
+    "pts": 471.25,
     "best": 43.1,
     "wins": 20,
-    "vor": 165.0,
-    "war": 1.95
+    "vor": 177.53,
+    "war": 2.1
    },
    {
     "player": "9756",
@@ -216,17 +216,30 @@
     "war": 0.53
    },
    {
+    "player": "10229",
+    "name": "Rashee Rice",
+    "pos": "WR",
+    "years": "2023-2024, 2026",
+    "g": 45,
+    "gs": 15,
+    "pts": 209.6,
+    "best": 29.1,
+    "wins": 9,
+    "vor": 51.67,
+    "war": 0.61
+   },
+   {
     "player": "12518",
     "name": "Tyler Warren",
     "pos": "TE",
     "years": "2025-2026",
-    "g": 27,
+    "g": 28,
     "gs": 18,
     "pts": 207.2,
     "best": 21.5,
     "wins": 12,
-    "vor": 39.63,
-    "war": 0.47
+    "vor": 38.18,
+    "war": 0.45
    },
    {
     "player": "421",
@@ -255,24 +268,11 @@
     "war": 0.37
    },
    {
-    "player": "10229",
-    "name": "Rashee Rice",
-    "pos": "WR",
-    "years": "2023-2024, 2026",
-    "g": 44,
-    "gs": 14,
-    "pts": 198.3,
-    "best": 29.1,
-    "wins": 9,
-    "vor": 49.63,
-    "war": 0.59
-   },
-   {
     "player": "5870",
     "name": "Daniel Jones",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 27,
+    "g": 28,
     "gs": 13,
     "pts": 193.08,
     "best": 23.18,
@@ -316,8 +316,8 @@
     "pts": 150.4,
     "best": 25.0,
     "wins": 9,
-    "vor": 15.82,
-    "war": 0.19
+    "vor": 20.68,
+    "war": 0.24
    },
    {
     "player": "1426",
@@ -350,13 +350,13 @@
     "name": "Nico Collins",
     "pos": "WR",
     "years": "2026",
-    "g": 10,
-    "gs": 7,
-    "pts": 116.2,
+    "g": 11,
+    "gs": 8,
+    "pts": 131.0,
     "best": 30.8,
     "wins": 3,
-    "vor": 51.38,
-    "war": 0.61
+    "vor": 56.92,
+    "war": 0.67
    },
    {
     "player": "4144",
@@ -376,7 +376,7 @@
     "name": "Malik Willis",
     "pos": "QB",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 6,
     "pts": 76.8,
     "best": 26.82,
@@ -398,6 +398,19 @@
     "war": 0.32
    },
    {
+    "player": "5892",
+    "name": "David Montgomery",
+    "pos": "RB",
+    "years": "2026",
+    "g": 11,
+    "gs": 5,
+    "pts": 67.1,
+    "best": 30.9,
+    "wins": 2,
+    "vor": 24.75,
+    "war": 0.29
+   },
+   {
     "player": "NO",
     "name": "New Orleans Saints",
     "pos": "DEF",
@@ -409,19 +422,6 @@
     "wins": 7,
     "vor": -4.62,
     "war": -0.05
-   },
-   {
-    "player": "3199",
-    "name": "Michael Thomas",
-    "pos": "WR",
-    "years": "2023",
-    "g": 17,
-    "gs": 5,
-    "pts": 58.0,
-    "best": 13.2,
-    "wins": 4,
-    "vor": -3.75,
-    "war": -0.04
    }
   ],
   "by_pos": {
@@ -444,7 +444,7 @@
      "name": "Drake Maye",
      "pos": "QB",
      "years": "2024-2026",
-     "g": 44,
+     "g": 45,
      "gs": 26,
      "pts": 500.62,
      "best": 40.16,
@@ -472,7 +472,7 @@
      "name": "Josh Jacobs",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 61,
+     "g": 62,
      "gs": 45,
      "pts": 685.5,
      "best": 32.0,
@@ -485,13 +485,13 @@
      "name": "Christian McCaffrey",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 27,
-     "gs": 24,
-     "pts": 615.95,
+     "g": 28,
+     "gs": 25,
+     "pts": 631.35,
      "best": 47.6,
      "wins": 16,
-     "vor": 410.87,
-     "war": 4.86
+     "vor": 417.8,
+     "war": 4.94
     },
     {
      "player": "4035",
@@ -513,13 +513,13 @@
      "name": "Tee Higgins",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 61,
-     "gs": 35,
-     "pts": 583.2,
+     "g": 62,
+     "gs": 36,
+     "pts": 595.5,
      "best": 40.1,
      "wins": 24,
-     "vor": 201.01,
-     "war": 2.38
+     "vor": 204.05,
+     "war": 2.41
     },
     {
      "player": "9756",
@@ -539,13 +539,13 @@
      "name": "Rashee Rice",
      "pos": "WR",
      "years": "2023-2024, 2026",
-     "g": 44,
-     "gs": 14,
-     "pts": 198.3,
+     "g": 45,
+     "gs": 15,
+     "pts": 209.6,
      "best": 29.1,
      "wins": 9,
-     "vor": 49.63,
-     "war": 0.59
+     "vor": 51.67,
+     "war": 0.61
     }
    ],
    "TE": [
@@ -554,26 +554,26 @@
      "name": "George Kittle",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 61,
-     "gs": 45,
-     "pts": 675.9,
+     "g": 62,
+     "gs": 46,
+     "pts": 694.3,
      "best": 27.7,
      "wins": 31,
-     "vor": 228.24,
-     "war": 2.7
+     "vor": 234.02,
+     "war": 2.77
     },
     {
      "player": "12518",
      "name": "Tyler Warren",
      "pos": "TE",
      "years": "2025-2026",
-     "g": 27,
+     "g": 28,
      "gs": 18,
      "pts": 207.2,
      "best": 21.5,
      "wins": 12,
-     "vor": 39.63,
-     "war": 0.47
+     "vor": 38.18,
+     "war": 0.45
     },
     {
      "player": "4144",
@@ -600,8 +600,8 @@
      "pts": 150.4,
      "best": 25.0,
      "wins": 9,
-     "vor": 15.82,
-     "war": 0.19
+     "vor": 20.68,
+     "war": 0.24
     },
     {
      "player": "2020",
@@ -694,7 +694,7 @@
    "name": "Josh Jacobs",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 61,
+   "g": 62,
    "gs": 45,
    "pts": 685.5,
    "best": 32.0,
@@ -708,13 +708,13 @@
    "name": "Christian McCaffrey",
    "pos": "RB",
    "years": "2025-2026",
-   "g": 27,
-   "gs": 24,
-   "pts": 615.95,
+   "g": 28,
+   "gs": 25,
+   "pts": 631.35,
    "best": 47.6,
    "wins": 16,
-   "vor": 410.87,
-   "war": 4.86
+   "vor": 417.8,
+   "war": 4.94
   },
   {
    "slot": "WR",
@@ -722,13 +722,13 @@
    "name": "Tee Higgins",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 61,
-   "gs": 35,
-   "pts": 583.2,
+   "g": 62,
+   "gs": 36,
+   "pts": 595.5,
    "best": 40.1,
    "wins": 24,
-   "vor": 201.01,
-   "war": 2.38
+   "vor": 204.05,
+   "war": 2.41
   },
   {
    "slot": "WR",
@@ -750,13 +750,13 @@
    "name": "George Kittle",
    "pos": "TE",
    "years": "2023-2026",
-   "g": 61,
-   "gs": 45,
-   "pts": 675.9,
+   "g": 62,
+   "gs": 46,
+   "pts": 694.3,
    "best": 27.7,
    "wins": 31,
-   "vor": 228.24,
-   "war": 2.7
+   "vor": 234.02,
+   "war": 2.77
   },
   {
    "slot": "FLEX",
@@ -778,7 +778,7 @@
    "name": "Drake Maye",
    "pos": "QB",
    "years": "2024-2026",
-   "g": 44,
+   "g": 45,
    "gs": 26,
    "pts": 500.62,
    "best": 40.16,
@@ -797,8 +797,8 @@
    "pts": 150.4,
    "best": 25.0,
    "wins": 9,
-   "vor": 15.82,
-   "war": 0.19
+   "vor": 20.68,
+   "war": 0.24
   },
   {
    "slot": "DEF",
@@ -1263,10 +1263,10 @@
    "season": "2026",
    "franchise": 8,
    "team": "BBL KIZZY",
-   "games": 34,
+   "games": 36,
    "players": 12,
    "lost": 77.46,
-   "rank": 3,
+   "rank": 4,
    "of": 12
   }
  ],
@@ -1402,7 +1402,7 @@
    "player": "12484",
    "name": "Jayden Higgins",
    "pos": "WR",
-   "missed": 9,
+   "missed": 10,
    "lost": 0.0,
    "injuries": [
     "Knee - ACL"

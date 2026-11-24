@@ -65,14 +65,14 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "w": 6,
+   "w": 7,
    "l": 4,
    "t": 0,
-   "pf": 1421.96,
-   "pa": 1310.32,
+   "pf": 1546.42,
+   "pa": 1430.62,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.6,
+   "pct": 0.636,
    "transactions": 31,
    "trades": 7,
    "partial_season": false,
@@ -80,14 +80,14 @@
   }
  ],
  "totals": {
-  "w": 25,
+  "w": 26,
   "l": 27,
   "t": 0,
-  "pf": 6463.01,
-  "pa": 6491.92,
+  "pf": 6587.47,
+  "pa": 6612.22,
   "playoff_w": 1,
   "playoff_l": 1,
-  "pct": 0.481,
+  "pct": 0.491,
   "transactions": 170,
   "trades": 31
  },
@@ -96,6 +96,19 @@
  "ultimate_loser": [],
  "leaders": {
   "overall": [
+   {
+    "player": "11566",
+    "name": "Jayden Daniels",
+    "pos": "QB",
+    "years": "2024-2026",
+    "g": 42,
+    "gs": 31,
+    "pts": 523.76,
+    "best": 34.42,
+    "wins": 15,
+    "vor": 142.21,
+    "war": 1.68
+   },
    {
     "player": "8112",
     "name": "Drake London",
@@ -121,19 +134,6 @@
     "wins": 16,
     "vor": 120.2,
     "war": 1.42
-   },
-   {
-    "player": "11566",
-    "name": "Jayden Daniels",
-    "pos": "QB",
-    "years": "2024-2026",
-    "g": 41,
-    "gs": 30,
-    "pts": 506.1,
-    "best": 34.42,
-    "wins": 14,
-    "vor": 138.16,
-    "war": 1.63
    },
    {
     "player": "8150",
@@ -192,7 +192,7 @@
     "name": "Christian Watson",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 58,
+    "g": 59,
     "gs": 24,
     "pts": 281.4,
     "best": 32.7,
@@ -210,21 +210,34 @@
     "pts": 251.2,
     "best": 24.0,
     "wins": 12,
-    "vor": 55.16,
-    "war": 0.65
+    "vor": 56.78,
+    "war": 0.67
    },
    {
     "player": "8151",
     "name": "Kenneth Walker III",
     "pos": "RB",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 8,
     "pts": 212.3,
     "best": 38.1,
     "wins": 5,
     "vor": 144.54,
     "war": 1.71
+   },
+   {
+    "player": "12507",
+    "name": "Omarion Hampton",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 28,
+    "gs": 16,
+    "pts": 209.3,
+    "best": 27.5,
+    "wins": 7,
+    "vor": 72.7,
+    "war": 0.86
    },
    {
     "player": "7591",
@@ -249,34 +262,47 @@
     "pts": 205.5,
     "best": 23.9,
     "wins": 7,
-    "vor": 38.9,
-    "war": 0.46
+    "vor": 37.74,
+    "war": 0.45
    },
    {
-    "player": "12507",
-    "name": "Omarion Hampton",
-    "pos": "RB",
+    "player": "4983",
+    "name": "DJ Moore",
+    "pos": "WR",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 15,
-    "pts": 197.6,
-    "best": 27.5,
-    "wins": 6,
-    "vor": 69.47,
-    "war": 0.82
+    "g": 28,
+    "gs": 17,
+    "pts": 189.68,
+    "best": 23.1,
+    "wins": 8,
+    "vor": 18.86,
+    "war": 0.22
    },
    {
     "player": "KC",
     "name": "Kansas City Chiefs",
     "pos": "DEF",
     "years": "2023-2026",
-    "g": 34,
-    "gs": 26,
-    "pts": 172.0,
+    "g": 35,
+    "gs": 27,
+    "pts": 184.0,
     "best": 16.0,
-    "wins": 8,
-    "vor": -7.28,
-    "war": -0.09
+    "wins": 9,
+    "vor": -2.78,
+    "war": -0.03
+   },
+   {
+    "player": "1166",
+    "name": "Kirk Cousins",
+    "pos": "QB",
+    "years": "2026",
+    "g": 11,
+    "gs": 10,
+    "pts": 177.06,
+    "best": 28.68,
+    "wins": 7,
+    "vor": 40.99,
+    "war": 0.48
    },
    {
     "player": "9224",
@@ -290,32 +316,6 @@
     "wins": 6,
     "vor": 86.6,
     "war": 1.02
-   },
-   {
-    "player": "1166",
-    "name": "Kirk Cousins",
-    "pos": "QB",
-    "years": "2026",
-    "g": 10,
-    "gs": 9,
-    "pts": 169.56,
-    "best": 28.68,
-    "wins": 6,
-    "vor": 47.1,
-    "war": 0.56
-   },
-   {
-    "player": "4983",
-    "name": "DJ Moore",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 27,
-    "gs": 16,
-    "pts": 166.58,
-    "best": 22.98,
-    "wins": 7,
-    "vor": 5.02,
-    "war": 0.06
    },
    {
     "player": "8162",
@@ -383,30 +383,30 @@
     "war": 0.49
    },
    {
+    "player": "11584",
+    "name": "Bucky Irving",
+    "pos": "RB",
+    "years": "2026",
+    "g": 9,
+    "gs": 5,
+    "pts": 110.2,
+    "best": 30.5,
+    "wins": 5,
+    "vor": 67.85,
+    "war": 0.8
+   },
+   {
     "player": "8132",
     "name": "Tyler Allgeier",
     "pos": "RB",
     "years": "2024-2026",
-    "g": 41,
+    "g": 42,
     "gs": 10,
     "pts": 101.85,
     "best": 19.8,
     "wins": 4,
     "vor": 15.23,
     "war": 0.18
-   },
-   {
-    "player": "11584",
-    "name": "Bucky Irving",
-    "pos": "RB",
-    "years": "2026",
-    "g": 8,
-    "gs": 4,
-    "pts": 89.4,
-    "best": 30.5,
-    "wins": 4,
-    "vor": 55.52,
-    "war": 0.66
    },
    {
     "player": "9754",
@@ -425,6 +425,19 @@
   "by_pos": {
    "QB": [
     {
+     "player": "11566",
+     "name": "Jayden Daniels",
+     "pos": "QB",
+     "years": "2024-2026",
+     "g": 42,
+     "gs": 31,
+     "pts": 523.76,
+     "best": 34.42,
+     "wins": 15,
+     "vor": 142.21,
+     "war": 1.68
+    },
+    {
      "player": "4046",
      "name": "Patrick Mahomes",
      "pos": "QB",
@@ -436,19 +449,6 @@
      "wins": 16,
      "vor": 120.2,
      "war": 1.42
-    },
-    {
-     "player": "11566",
-     "name": "Jayden Daniels",
-     "pos": "QB",
-     "years": "2024-2026",
-     "g": 41,
-     "gs": 30,
-     "pts": 506.1,
-     "best": 34.42,
-     "wins": 14,
-     "vor": 138.16,
-     "war": 1.63
     },
     {
      "player": "7591",
@@ -496,7 +496,7 @@
      "name": "Kenneth Walker III",
      "pos": "RB",
      "years": "2026",
-     "g": 10,
+     "g": 11,
      "gs": 8,
      "pts": 212.3,
      "best": 38.1,
@@ -537,7 +537,7 @@
      "name": "Christian Watson",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 58,
+     "g": 59,
      "gs": 24,
      "pts": 281.4,
      "best": 32.7,
@@ -570,21 +570,21 @@
      "pts": 205.5,
      "best": 23.9,
      "wins": 7,
-     "vor": 38.9,
-     "war": 0.46
+     "vor": 37.74,
+     "war": 0.45
     },
     {
      "player": "7600",
      "name": "Pat Freiermuth",
      "pos": "TE",
      "years": "2026",
-     "g": 9,
-     "gs": 5,
-     "pts": 59.5,
+     "g": 10,
+     "gs": 6,
+     "pts": 68.6,
      "best": 21.6,
-     "wins": 3,
-     "vor": 9.45,
-     "war": 0.11
+     "wins": 4,
+     "vor": 6.8,
+     "war": 0.08
     }
    ],
    "K": [
@@ -598,8 +598,8 @@
      "pts": 251.2,
      "best": 24.0,
      "wins": 12,
-     "vor": 55.16,
-     "war": 0.65
+     "vor": 56.78,
+     "war": 0.67
     },
     {
      "player": "8259",
@@ -634,13 +634,13 @@
      "name": "Kansas City Chiefs",
      "pos": "DEF",
      "years": "2023-2026",
-     "g": 34,
-     "gs": 26,
-     "pts": 172.0,
+     "g": 35,
+     "gs": 27,
+     "pts": 184.0,
      "best": 16.0,
-     "wins": 8,
-     "vor": -7.28,
-     "war": -0.09
+     "wins": 9,
+     "vor": -2.78,
+     "war": -0.03
     },
     {
      "player": "LAR",
@@ -674,17 +674,17 @@
  "all_time_team": [
   {
    "slot": "QB",
-   "player": "4046",
-   "name": "Patrick Mahomes",
+   "player": "11566",
+   "name": "Jayden Daniels",
    "pos": "QB",
-   "years": "2023-2024",
-   "g": 34,
-   "gs": 29,
-   "pts": 511.8,
-   "best": 33.86,
-   "wins": 16,
-   "vor": 120.2,
-   "war": 1.42
+   "years": "2024-2026",
+   "g": 42,
+   "gs": 31,
+   "pts": 523.76,
+   "best": 34.42,
+   "wins": 15,
+   "vor": 142.21,
+   "war": 1.68
   },
   {
    "slot": "RB",
@@ -762,7 +762,7 @@
    "name": "Christian Watson",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 58,
+   "g": 59,
    "gs": 24,
    "pts": 281.4,
    "best": 32.7,
@@ -772,17 +772,17 @@
   },
   {
    "slot": "SUPER_FLEX",
-   "player": "11566",
-   "name": "Jayden Daniels",
+   "player": "4046",
+   "name": "Patrick Mahomes",
    "pos": "QB",
-   "years": "2024-2026",
-   "g": 41,
-   "gs": 30,
-   "pts": 506.1,
-   "best": 34.42,
-   "wins": 14,
-   "vor": 138.16,
-   "war": 1.63
+   "years": "2023-2024",
+   "g": 34,
+   "gs": 29,
+   "pts": 511.8,
+   "best": 33.86,
+   "wins": 16,
+   "vor": 120.2,
+   "war": 1.42
   },
   {
    "slot": "K",
@@ -795,8 +795,8 @@
    "pts": 251.2,
    "best": 24.0,
    "wins": 12,
-   "vor": 55.16,
-   "war": 0.65
+   "vor": 56.78,
+   "war": 0.67
   },
   {
    "slot": "DEF",
@@ -804,13 +804,13 @@
    "name": "Kansas City Chiefs",
    "pos": "DEF",
    "years": "2023-2026",
-   "g": 34,
-   "gs": 26,
-   "pts": 172.0,
+   "g": 35,
+   "gs": 27,
+   "pts": 184.0,
    "best": 16.0,
-   "wins": 8,
-   "vor": -7.28,
-   "war": -0.09
+   "wins": 9,
+   "vor": -2.78,
+   "war": -0.03
   }
  ],
  "best_games": [
@@ -1250,10 +1250,10 @@
    "season": "2026",
    "franchise": 2,
    "team": "Storm FC",
-   "games": 41,
+   "games": 44,
    "players": 13,
-   "lost": 76.35,
-   "rank": 4,
+   "lost": 95.01,
+   "rank": 3,
    "of": 12
   }
  ],
@@ -1353,7 +1353,7 @@
    "name": "Jayden Daniels",
    "pos": "QB",
    "missed": 11,
-   "lost": 58.36,
+   "lost": 57.78,
    "injuries": [
     "Elbow",
     "Knee",

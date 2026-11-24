@@ -724,6 +724,15 @@
    "war": -0.02
   },
   {
+   "player": "8408",
+   "name": "Jordan Mason",
+   "score": 967,
+   "gs": 12,
+   "pts": 128.3,
+   "ppg": 10.69,
+   "war": 0.26
+  },
+  {
    "player": "5248",
    "name": "Gus Edwards",
    "score": 959,
@@ -742,22 +751,13 @@
    "war": 0.04
   },
   {
-   "player": "8132",
-   "name": "Tyler Allgeier",
+   "player": "11586",
+   "name": "Blake Corum",
    "score": 952,
-   "gs": 12,
-   "pts": 117.65,
-   "ppg": 9.8,
-   "war": 0.12
-  },
-  {
-   "player": "8408",
-   "name": "Jordan Mason",
-   "score": 947,
-   "gs": 11,
-   "pts": 122.5,
-   "ppg": 11.14,
-   "war": 0.29
+   "gs": 10,
+   "pts": 105.8,
+   "ppg": 10.58,
+   "war": 0.25
   }
  ],
  "status": {
@@ -772,8 +772,8 @@
    "stat": "Points",
    "value": 126.6,
    "digits": 2,
-   "rank": 206,
-   "of": 424
+   "rank": 208,
+   "of": 426
   },
   {
    "group": "Career",
@@ -781,8 +781,8 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 201,
-   "of": 424
+   "rank": 204,
+   "of": 426
   },
   {
    "group": "Career",
@@ -790,8 +790,8 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 217,
-   "of": 424
+   "rank": 219,
+   "of": 426
   },
   {
    "group": "Career",
@@ -799,8 +799,8 @@
    "stat": "VOR",
    "value": 1.0,
    "digits": 1,
-   "rank": 218,
-   "of": 424
+   "rank": 220,
+   "of": 426
   },
   {
    "group": "Career",
@@ -808,8 +808,8 @@
    "stat": "PAA",
    "value": -30.4,
    "digits": 1,
-   "rank": 324,
-   "of": 424
+   "rank": 323,
+   "of": 426
   },
   {
    "group": "Career",
@@ -817,8 +817,8 @@
    "stat": "Best Game",
    "value": 17.5,
    "digits": 2,
-   "rank": 261,
-   "of": 424
+   "rank": 263,
+   "of": 426
   },
   {
    "group": "Career",
@@ -826,8 +826,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.55,
    "digits": 2,
-   "rank": 154,
-   "of": 256
+   "rank": 155,
+   "of": 258
   },
   {
    "group": "Career",
@@ -835,7 +835,7 @@
    "stat": "Bench Points",
    "value": 130.6,
    "digits": 2,
-   "rank": 124,
+   "rank": 126,
    "of": 515
   },
   {
@@ -844,7 +844,7 @@
    "stat": "Points",
    "value": 126.6,
    "digits": 2,
-   "rank": 48,
+   "rank": 49,
    "of": 100
   },
   {
@@ -853,7 +853,7 @@
    "stat": "Games Started",
    "value": 12,
    "digits": 0,
-   "rank": 47,
+   "rank": 49,
    "of": 100
   },
   {
@@ -872,7 +872,7 @@
    "value": 108.3,
    "digits": 2,
    "rank": 18,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -882,7 +882,7 @@
    "value": 10,
    "digits": 0,
    "rank": 23,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -892,7 +892,7 @@
    "value": 0.05,
    "digits": 2,
    "rank": 26,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -911,8 +911,8 @@
    "stat": "Points",
    "value": 18.3,
    "digits": 2,
-   "rank": 35,
-   "of": 60,
+   "rank": 36,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -921,8 +921,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 31,
-   "of": 60,
+   "rank": 32,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -932,7 +932,7 @@
    "value": -0.03,
    "digits": 2,
    "rank": 39,
-   "of": 60,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -941,7 +941,7 @@
    "stat": "Points, RBs",
    "value": 18.3,
    "digits": 2,
-   "rank": 8,
+   "rank": 9,
    "of": 13,
    "franchise": 5
   },
@@ -991,8 +991,8 @@
    "stat": "Points, 2023",
    "value": 109.1,
    "digits": 2,
-   "rank": 341,
-   "of": 1019,
+   "rank": 344,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1001,15 +1001,15 @@
    "stat": "Points, 2024",
    "value": 17.5,
    "digits": 2,
-   "rank": 774,
-   "of": 1019,
+   "rank": 780,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 3.1,
-  "rank": 231,
-  "of": 424,
+  "rank": 233,
+  "of": 426,
   "war": 0.1,
   "starts": 3.0,
   "black_ink": 0.0,
@@ -1318,6 +1318,11 @@
    [
     "2026",
     10,
+    3.1
+   ],
+   [
+    "2026",
+    11,
     3.1
    ]
   ],

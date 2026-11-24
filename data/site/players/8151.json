@@ -72,7 +72,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "KC",
-   "g": 10,
+   "g": 11,
    "gs": 8,
    "pts": 212.3,
    "bench_pts": 0.0,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 45,
   "pts": 714.45,
   "bench_pts": 22.0,
@@ -1277,13 +1277,29 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 933,
+   "score": 934,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
@@ -1292,38 +1308,38 @@
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 911,
-   "gs": 49,
-   "pts": 771.7,
-   "ppg": 15.75,
-   "war": 3.78
+   "score": 895,
+   "gs": 50,
+   "pts": 779.5,
+   "ppg": 15.59,
+   "war": 3.77
   },
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 881,
-   "gs": 47,
-   "pts": 684.61,
-   "ppg": 14.57,
-   "war": 2.9
+   "score": 895,
+   "gs": 48,
+   "pts": 705.61,
+   "ppg": 14.7,
+   "war": 3.04
   },
   {
    "player": "6790",
    "name": "D'Andre Swift",
-   "score": 829,
-   "gs": 51,
-   "pts": 718.2,
-   "ppg": 14.08,
-   "war": 2.84
+   "score": 823,
+   "gs": 52,
+   "pts": 731.4,
+   "ppg": 14.07,
+   "war": 2.9
   },
   {
    "player": "4866",
    "name": "Saquon Barkley",
-   "score": 813,
-   "gs": 50,
-   "pts": 838.2,
-   "ppg": 16.76,
-   "war": 4.44
+   "score": 795,
+   "gs": 51,
+   "pts": 853.4,
+   "ppg": 16.73,
+   "war": 4.52
   }
  ],
  "status": {
@@ -1348,8 +1364,8 @@
    "stat": "Points",
    "value": 714.45,
    "digits": 2,
-   "rank": 30,
-   "of": 424
+   "rank": 31,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1357,8 +1373,8 @@
    "stat": "Games Started",
    "value": 45,
    "digits": 0,
-   "rank": 31,
-   "of": 424
+   "rank": 34,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1366,8 +1382,8 @@
    "stat": "WAR",
    "value": 3.51,
    "digits": 2,
-   "rank": 21,
-   "of": 424
+   "rank": 22,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1375,8 +1391,8 @@
    "stat": "VOR",
    "value": 297.0,
    "digits": 1,
-   "rank": 21,
-   "of": 424
+   "rank": 22,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1385,7 +1401,7 @@
    "value": 74.2,
    "digits": 1,
    "rank": 39,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1394,7 +1410,7 @@
    "value": 38.1,
    "digits": 2,
    "rank": 41,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1402,8 +1418,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 15.88,
    "digits": 2,
-   "rank": 51,
-   "of": 256
+   "rank": 50,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1411,7 +1427,7 @@
    "stat": "Bench Points",
    "value": 22.0,
    "digits": 2,
-   "rank": 390,
+   "rank": 392,
    "of": 515
   },
   {
@@ -1429,7 +1445,7 @@
    "stat": "Games Started",
    "value": 45,
    "digits": 0,
-   "rank": 10,
+   "rank": 11,
    "of": 100
   },
   {
@@ -1448,7 +1464,7 @@
    "value": 212.3,
    "digits": 2,
    "rank": 10,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1458,7 +1474,7 @@
    "value": 8,
    "digits": 0,
    "rank": 23,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1468,7 +1484,7 @@
    "value": 1.71,
    "digits": 2,
    "rank": 3,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1497,7 +1513,7 @@
    "stat": "Games Started",
    "value": 37,
    "digits": 0,
-   "rank": 1,
+   "rank": 2,
    "of": 74,
    "franchise": 10
   },
@@ -1587,8 +1603,8 @@
    "stat": "Points",
    "value": 212.3,
    "digits": 2,
-   "rank": 7,
-   "of": 242,
+   "rank": 11,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1597,8 +1613,8 @@
    "stat": "Points",
    "value": 212.3,
    "digits": 2,
-   "rank": 4,
-   "of": 58,
+   "rank": 5,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1607,8 +1623,8 @@
    "stat": "Points, 2026",
    "value": 212.3,
    "digits": 2,
-   "rank": 104,
-   "of": 1019,
+   "rank": 108,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1617,8 +1633,8 @@
    "stat": "Points, 2023",
    "value": 173.8,
    "digits": 2,
-   "rank": 182,
-   "of": 1019,
+   "rank": 188,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1627,8 +1643,8 @@
    "stat": "Points, 2024",
    "value": 167.3,
    "digits": 2,
-   "rank": 196,
-   "of": 1019,
+   "rank": 202,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1637,15 +1653,15 @@
    "stat": "Points, 2025",
    "value": 161.05,
    "digits": 2,
-   "rank": 211,
-   "of": 1019,
+   "rank": 216,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 46.35,
-  "rank": 23,
-  "of": 424,
+  "rank": 24,
+  "of": 426,
   "war": 35.1,
   "starts": 11.25,
   "black_ink": 0.0,
@@ -1955,22 +1971,17 @@
     "2026",
     10,
     46.35
+   ],
+   [
+    "2026",
+    11,
+    46.35
    ]
   ],
   "benchmark": 100
  },
  "black_ink": null,
- "records_held": [
-  {
-   "list": "Career Starts",
-   "scope": 10,
-   "rank": 1,
-   "value": "37",
-   "href": "franchise.html?id=10#all-time-leaders",
-   "player": "8151",
-   "franchise": 10
-  }
- ],
+ "records_held": [],
  "injuries": {
   "seasons": [
    {
@@ -2062,7 +2073,7 @@
     "season": "2026",
     "nfl": "KC",
     "missed": 2,
-    "lost": 18.07,
+    "lost": 36.14,
     "injuries": [
      "Groin"
     ],
@@ -2074,7 +2085,7 @@
      "Out",
      "Questionable"
     ],
-    "rostered": 1,
+    "rostered": 2,
     "games": [
      {
       "week": 10,
@@ -2087,8 +2098,8 @@
       "week": 11,
       "kind": "Out",
       "injury": "Groin",
-      "franchise": null,
-      "team": null
+      "franchise": 2,
+      "team": "Storm FC"
      }
     ]
    }
@@ -2185,8 +2196,8 @@
       "team": "Storm FC"
      }
     ],
-    "rostered": 1,
-    "lost": 18.07
+    "rostered": 2,
+    "lost": 36.14
    }
   ],
   "now": {

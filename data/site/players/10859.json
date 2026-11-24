@@ -86,37 +86,37 @@
    "best": 9.8,
    "wins": 1,
    "paa": 1.13,
-   "vor": -0.21,
-   "war": -0.0
+   "vor": -0.5,
+   "war": -0.01
   },
   {
    "season": "2026",
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "DET",
-   "g": 7,
-   "gs": 6,
-   "pts": 61.4,
+   "g": 8,
+   "gs": 7,
+   "pts": 70.6,
    "bench_pts": 0.0,
-   "ppg": 10.23,
+   "ppg": 10.09,
    "best": 22.4,
-   "wins": 2,
-   "paa": -5.72,
-   "vor": 1.34,
-   "war": 0.02
+   "wins": 3,
+   "paa": -3.95,
+   "vor": -1.5,
+   "war": -0.02
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 44,
-  "pts": 524.1,
+  "g": 62,
+  "gs": 45,
+  "pts": 533.3,
   "bench_pts": 33.0,
-  "ppg": 11.91,
+  "ppg": 11.85,
   "best": 29.0,
-  "wins": 24,
-  "paa": 47.48,
-  "vor": 85.45,
-  "war": 1.01
+  "wins": 25,
+  "paa": 49.25,
+  "vor": 82.32,
+  "war": 0.97
  },
  "nfl": [
   {
@@ -1127,8 +1127,8 @@
    "proj": 13.77,
    "won": true,
    "paa": 1.13,
-   "vor": -0.21,
-   "war": -0.0024819444712014293
+   "vor": -0.5,
+   "war": -0.005909391598098642
   },
   {
    "season": "2026",
@@ -1178,8 +1178,8 @@
    "proj": 11.67,
    "won": true,
    "paa": 11.28,
-   "vor": 12.39,
-   "war": 0.14643472380088435
+   "vor": 12.1,
+   "war": 0.14300727667398713
   },
   {
    "season": "2026",
@@ -1197,8 +1197,8 @@
    "proj": 13.06,
    "won": false,
    "paa": 6.97,
-   "vor": 9.79,
-   "war": 0.11570588749077139
+   "vor": 9.5,
+   "war": 0.11227844036387419
   },
   {
    "season": "2026",
@@ -1232,8 +1232,8 @@
    "proj": 13.49,
    "won": false,
    "paa": -8.41,
-   "vor": -7.21,
-   "war": -0.08521342684458241
+   "vor": -7.5,
+   "war": -0.08864087397147963
   },
   {
    "season": "2026",
@@ -1251,8 +1251,8 @@
    "proj": 10.71,
    "won": false,
    "paa": -6.25,
-   "vor": -3.41,
-   "war": -0.04030205069903274
+   "vor": -3.7,
+   "war": -0.04372949782592995
   },
   {
    "season": "2026",
@@ -1270,8 +1270,8 @@
    "proj": 13.46,
    "won": false,
    "paa": -4.39,
-   "vor": -2.81,
-   "war": -0.03321078078131437
+   "vor": -3.1,
+   "war": -0.03663822790821158
   },
   {
    "season": "2026",
@@ -1289,55 +1289,74 @@
    "proj": 12.11,
    "won": true,
    "paa": -4.92,
-   "vor": -7.41,
-   "war": -0.08757718348382187
+   "vor": -7.7,
+   "war": -0.09100463061071909
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": "TE",
+   "started": true,
+   "pts": 9.2,
+   "proj": 12.36,
+   "won": true,
+   "paa": 1.77,
+   "vor": -1.1,
+   "war": -0.013000661515817013
   }
  ],
  "similar": [
   {
    "player": "1466",
    "name": "Travis Kelce",
-   "score": 693,
+   "score": 711,
    "gs": 55,
    "pts": 674.25,
    "ppg": 12.26,
-   "war": 1.57
+   "war": 1.55
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 635,
+   "score": 626,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.23
+   "war": 0.22
   },
   {
    "player": "5012",
    "name": "Mark Andrews",
-   "score": 610,
+   "score": 618,
    "gs": 47,
    "pts": 437.9,
    "ppg": 9.32,
-   "war": -0.28
+   "war": -0.29
+  },
+  {
+   "player": "11604",
+   "name": "Brock Bowers",
+   "score": 519,
+   "gs": 34,
+   "pts": 528.7,
+   "ppg": 15.55,
+   "war": 2.32
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 504,
+   "score": 492,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
    "war": 0.3
-  },
-  {
-   "player": "4217",
-   "name": "George Kittle",
-   "score": 489,
-   "gs": 45,
-   "pts": 675.9,
-   "ppg": 15.02,
-   "war": 2.7
   }
  ],
  "status": {
@@ -1350,46 +1369,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 524.1,
+   "value": 533.3,
    "digits": 2,
-   "rank": 61,
-   "of": 424
+   "rank": 59,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 44,
+   "value": 45,
    "digits": 0,
-   "rank": 36,
-   "of": 424
+   "rank": 34,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.01,
+   "value": 0.97,
    "digits": 2,
-   "rank": 79,
-   "of": 424
+   "rank": 81,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 85.5,
+   "value": 82.3,
    "digits": 1,
-   "rank": 79,
-   "of": 424
+   "rank": 82,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 47.5,
+   "value": 49.2,
    "digits": 1,
    "rank": 52,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1397,17 +1416,17 @@
    "stat": "Best Game",
    "value": 29.0,
    "digits": 2,
-   "rank": 117,
-   "of": 424
+   "rank": 118,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 11.91,
+   "value": 11.85,
    "digits": 2,
-   "rank": 129,
-   "of": 256
+   "rank": 127,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1415,23 +1434,23 @@
    "stat": "Bench Points",
    "value": 33.0,
    "digits": 2,
-   "rank": 348,
+   "rank": 352,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Points",
-   "value": 524.1,
+   "value": 533.3,
    "digits": 2,
-   "rank": 5,
+   "rank": 4,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 44,
+   "value": 45,
    "digits": 0,
    "rank": 4,
    "of": 52
@@ -1440,7 +1459,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 1.01,
+   "value": 0.97,
    "digits": 2,
    "rank": 5,
    "of": 52
@@ -1449,37 +1468,37 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points",
-   "value": 61.4,
+   "value": 70.6,
    "digits": 2,
-   "rank": 21,
-   "of": 49,
+   "rank": 22,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Games Started",
-   "value": 6,
+   "value": 7,
    "digits": 0,
-   "rank": 25,
-   "of": 49,
+   "rank": 23,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.02,
+   "value": -0.02,
    "digits": 2,
-   "rank": 22,
-   "of": 49,
+   "rank": 25,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points, TEs",
-   "value": 61.4,
+   "value": 70.6,
    "digits": 2,
    "rank": 2,
    "of": 4,
@@ -1492,7 +1511,7 @@
    "value": 352.9,
    "digits": 2,
    "rank": 7,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1502,7 +1521,7 @@
    "value": 29,
    "digits": 0,
    "rank": 4,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1511,8 +1530,8 @@
    "stat": "WAR",
    "value": 0.67,
    "digits": 2,
-   "rank": 9,
-   "of": 76,
+   "rank": 10,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1531,8 +1550,8 @@
    "stat": "Points",
    "value": 109.8,
    "digits": 2,
-   "rank": 17,
-   "of": 67,
+   "rank": 18,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1541,18 +1560,18 @@
    "stat": "Games Started",
    "value": 9,
    "digits": 0,
-   "rank": 21,
-   "of": 67,
+   "rank": 22,
+   "of": 68,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 0.33,
+   "value": 0.32,
    "digits": 2,
    "rank": 14,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1629,20 +1648,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 71.2,
+   "value": 80.4,
    "digits": 2,
-   "rank": 85,
-   "of": 242,
+   "rank": 82,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 TEs",
    "stat": "Points",
-   "value": 71.2,
+   "value": 80.4,
    "digits": 2,
-   "rank": 9,
-   "of": 29,
+   "rank": 8,
+   "of": 30,
    "season": "2026"
   },
   {
@@ -1651,8 +1670,8 @@
    "stat": "Points, 2023",
    "value": 210.0,
    "digits": 2,
-   "rank": 106,
-   "of": 1019,
+   "rank": 110,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1661,8 +1680,8 @@
    "stat": "Points, 2024",
    "value": 142.9,
    "digits": 2,
-   "rank": 249,
-   "of": 1019,
+   "rank": 254,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1671,27 +1690,27 @@
    "stat": "Points, 2025",
    "value": 100.0,
    "digits": 2,
-   "rank": 364,
-   "of": 1019,
+   "rank": 366,
+   "of": 1025,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 71.2,
+   "value": 80.4,
    "digits": 2,
-   "rank": 466,
-   "of": 1019,
+   "rank": 426,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 27.1,
-  "rank": 62,
-  "of": 424,
-  "war": 10.1,
-  "starts": 11.0,
+  "score": 26.95,
+  "rank": 63,
+  "of": 426,
+  "war": 9.7,
+  "starts": 11.25,
   "black_ink": 0.0,
   "awards": 6.0,
   "history": [
@@ -1968,37 +1987,42 @@
    [
     "2026",
     4,
-    27.15
+    27.05
    ],
    [
     "2026",
     5,
-    28.6
+    28.5
    ],
    [
     "2026",
     6,
-    28.6
+    28.5
    ],
    [
     "2026",
     7,
-    27.95
+    27.85
    ],
    [
     "2026",
     8,
-    27.8
+    27.6
    ],
    [
     "2026",
     9,
-    27.75
+    27.55
    ],
    [
     "2026",
     10,
-    27.1
+    26.9
+   ],
+   [
+    "2026",
+    11,
+    26.95
    ]
   ],
   "benchmark": 100
@@ -2158,6 +2182,11 @@
     "lost": 21.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 0
+  }
  }
 }

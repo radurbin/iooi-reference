@@ -72,10 +72,10 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "nfl": "IND",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 0.92,
+   "bench_pts": 1.22,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -85,10 +85,10 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 14,
   "pts": 221.66,
-  "bench_pts": 3.08,
+  "bench_pts": 3.38,
   "ppg": 15.83,
   "best": 29.6,
   "wins": 5,
@@ -1193,13 +1193,29 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "opp": 1,
+   "opp_team": "Mojo Dojo Casa Team 💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.3,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "3257",
    "name": "Jacoby Brissett",
-   "score": 923,
+   "score": 924,
    "gs": 15,
    "pts": 251.56,
    "ppg": 16.77,
@@ -1208,7 +1224,7 @@
   {
    "player": "2028",
    "name": "Derek Carr",
-   "score": 884,
+   "score": 885,
    "gs": 14,
    "pts": 201.28,
    "ppg": 14.38,
@@ -1217,7 +1233,7 @@
   {
    "player": "8162",
    "name": "Sam Howell",
-   "score": 869,
+   "score": 870,
    "gs": 9,
    "pts": 154.44,
    "ppg": 17.16,
@@ -1226,7 +1242,7 @@
   {
    "player": "11559",
    "name": "Michael Penix Jr.",
-   "score": 864,
+   "score": 865,
    "gs": 10,
    "pts": 142.98,
    "ppg": 14.3,
@@ -1235,7 +1251,7 @@
   {
    "player": "5870",
    "name": "Daniel Jones",
-   "score": 823,
+   "score": 825,
    "gs": 22,
    "pts": 314.82,
    "ppg": 14.31,
@@ -1254,8 +1270,8 @@
    "stat": "Points",
    "value": 221.66,
    "digits": 2,
-   "rank": 141,
-   "of": 424
+   "rank": 143,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1263,8 +1279,8 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 184,
-   "of": 424
+   "rank": 186,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1272,8 +1288,8 @@
    "stat": "WAR",
    "value": 0.48,
    "digits": 2,
-   "rank": 116,
-   "of": 424
+   "rank": 121,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1281,8 +1297,8 @@
    "stat": "VOR",
    "value": 40.8,
    "digits": 1,
-   "rank": 116,
-   "of": 424
+   "rank": 121,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1290,8 +1306,8 @@
    "stat": "PAA",
    "value": -10.6,
    "digits": 1,
-   "rank": 219,
-   "of": 424
+   "rank": 217,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1299,8 +1315,8 @@
    "stat": "Best Game",
    "value": 29.6,
    "digits": 2,
-   "rank": 111,
-   "of": 424
+   "rank": 112,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1309,15 +1325,15 @@
    "value": 15.83,
    "digits": 2,
    "rank": 53,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 3.08,
+   "value": 3.38,
    "digits": 2,
-   "rank": 494,
+   "rank": 491,
    "of": 515
   },
   {
@@ -1354,7 +1370,7 @@
    "value": 221.66,
    "digits": 2,
    "rank": 13,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1364,7 +1380,7 @@
    "value": 14,
    "digits": 0,
    "rank": 13,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1374,7 +1390,7 @@
    "value": 0.48,
    "digits": 2,
    "rank": 11,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1433,8 +1449,8 @@
    "stat": "Points, 2024",
    "value": 148.98,
    "digits": 2,
-   "rank": 240,
-   "of": 1019,
+   "rank": 246,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1443,15 +1459,15 @@
    "stat": "Points, 2023",
    "value": 72.68,
    "digits": 2,
-   "rank": 456,
-   "of": 1019,
+   "rank": 469,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 8.3,
-  "rank": 150,
-  "of": 424,
+  "rank": 154,
+  "of": 426,
   "war": 4.8,
   "starts": 3.5,
   "black_ink": 0.0,
@@ -1760,6 +1776,11 @@
    [
     "2026",
     10,
+    8.3
+   ],
+   [
+    "2026",
+    11,
     8.3
    ]
   ],

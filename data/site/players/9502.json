@@ -120,10 +120,10 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "HOU",
-   "g": 5,
+   "g": 6,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 31.3,
+   "bench_pts": 38.5,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -133,10 +133,10 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 19,
   "pts": 232.3,
-  "bench_pts": 97.9,
+  "bench_pts": 105.1,
   "ppg": 12.23,
   "best": 29.6,
   "wins": 6,
@@ -1235,26 +1235,33 @@
    "pts": 5.2,
    "proj": 7.69,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 7.2,
+   "proj": 7.48,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "10222",
    "name": "Jayden Reed",
-   "score": 969,
+   "score": 970,
    "gs": 18,
    "pts": 222.6,
    "ppg": 12.37,
    "war": 0.17
-  },
-  {
-   "player": "8148",
-   "name": "Jameson Williams",
-   "score": 953,
-   "gs": 19,
-   "pts": 233.1,
-   "ppg": 12.27,
-   "war": 0.33
   },
   {
    "player": "2309",
@@ -1264,6 +1271,15 @@
    "pts": 217.2,
    "ppg": 11.43,
    "war": -0.14
+  },
+  {
+   "player": "8148",
+   "name": "Jameson Williams",
+   "score": 922,
+   "gs": 20,
+   "pts": 252.4,
+   "ppg": 12.62,
+   "war": 0.45
   },
   {
    "player": "4037",
@@ -1277,7 +1293,7 @@
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 879,
+   "score": 881,
    "gs": 24,
    "pts": 281.4,
    "ppg": 11.72,
@@ -1297,7 +1313,7 @@
    "value": 232.3,
    "digits": 2,
    "rank": 137,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1305,8 +1321,8 @@
    "stat": "Games Started",
    "value": 19,
    "digits": 0,
-   "rank": 151,
-   "of": 424
+   "rank": 154,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1314,8 +1330,8 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 196,
-   "of": 424
+   "rank": 198,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1323,8 +1339,8 @@
    "stat": "VOR",
    "value": 4.8,
    "digits": 1,
-   "rank": 199,
-   "of": 424
+   "rank": 201,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1332,8 +1348,8 @@
    "stat": "PAA",
    "value": -21.2,
    "digits": 1,
-   "rank": 289,
-   "of": 424
+   "rank": 292,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1341,8 +1357,8 @@
    "stat": "Best Game",
    "value": 29.6,
    "digits": 2,
-   "rank": 111,
-   "of": 424
+   "rank": 112,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1350,16 +1366,16 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 12.23,
    "digits": 2,
-   "rank": 124,
-   "of": 256
+   "rank": 122,
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 97.9,
+   "value": 105.1,
    "digits": 2,
-   "rank": 175,
+   "rank": 169,
    "of": 515
   },
   {
@@ -1369,7 +1385,7 @@
    "value": 232.3,
    "digits": 2,
    "rank": 43,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1377,8 +1393,8 @@
    "stat": "Games Started",
    "value": 19,
    "digits": 0,
-   "rank": 43,
-   "of": 127
+   "rank": 45,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1387,7 +1403,7 @@
    "value": 0.06,
    "digits": 2,
    "rank": 52,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1396,7 +1412,7 @@
    "value": 232.3,
    "digits": 2,
    "rank": 11,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1406,7 +1422,7 @@
    "value": 19,
    "digits": 0,
    "rank": 10,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1415,8 +1431,8 @@
    "stat": "WAR",
    "value": 0.06,
    "digits": 2,
-   "rank": 22,
-   "of": 67,
+   "rank": 21,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1475,8 +1491,8 @@
    "stat": "Points, 2024",
    "value": 119.4,
    "digits": 2,
-   "rank": 313,
-   "of": 1019,
+   "rank": 316,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1485,15 +1501,15 @@
    "stat": "Points, 2023",
    "value": 112.9,
    "digits": 2,
-   "rank": 332,
-   "of": 1019,
+   "rank": 336,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 5.35,
-  "rank": 192,
-  "of": 424,
+  "rank": 194,
+  "of": 426,
   "war": 0.6,
   "starts": 4.75,
   "black_ink": 0.0,
@@ -1802,6 +1818,11 @@
    [
     "2026",
     10,
+    5.35
+   ],
+   [
+    "2026",
+    11,
     5.35
    ]
   ],

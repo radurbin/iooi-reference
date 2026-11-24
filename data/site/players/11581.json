@@ -93,7 +93,7 @@
    "team": "GB",
    "g": 9,
    "pts": 64.8,
-   "rank": 42
+   "rank": 44
   }
  ],
  "history": [
@@ -546,8 +546,8 @@
    "stat": "Points",
    "value": 11.0,
    "digits": 2,
-   "rank": 356,
-   "of": 424
+   "rank": 357,
+   "of": 426
   },
   {
    "group": "Career",
@@ -555,8 +555,8 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 333,
-   "of": 424
+   "rank": 335,
+   "of": 426
   },
   {
    "group": "Career",
@@ -564,8 +564,8 @@
    "stat": "WAR",
    "value": -0.07,
    "digits": 2,
-   "rank": 263,
-   "of": 424
+   "rank": 261,
+   "of": 426
   },
   {
    "group": "Career",
@@ -574,7 +574,7 @@
    "value": -5.9,
    "digits": 1,
    "rank": 267,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -583,7 +583,7 @@
    "value": -15.8,
    "digits": 1,
    "rank": 271,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -591,8 +591,8 @@
    "stat": "Best Game",
    "value": 9.2,
    "digits": 2,
-   "rank": 341,
-   "of": 424
+   "rank": 342,
+   "of": 426
   },
   {
    "group": "Career",
@@ -600,7 +600,7 @@
    "stat": "Bench Points",
    "value": 40.3,
    "digits": 2,
-   "rank": 323,
+   "rank": 327,
    "of": 515
   },
   {
@@ -618,7 +618,7 @@
    "stat": "Games Started",
    "value": 2,
    "digits": 0,
-   "rank": 79,
+   "rank": 80,
    "of": 100
   },
   {
@@ -676,8 +676,8 @@
    "stat": "Points",
    "value": 11.0,
    "digits": 2,
-   "rank": 193,
-   "of": 242,
+   "rank": 198,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -686,8 +686,8 @@
    "stat": "Points",
    "value": 11.0,
    "digits": 2,
-   "rank": 45,
-   "of": 58,
+   "rank": 46,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -696,16 +696,16 @@
    "stat": "Points, 2026",
    "value": 11.0,
    "digits": 2,
-   "rank": 855,
-   "of": 1019,
+   "rank": 860,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.5,
-  "rank": 346,
-  "of": 424,
+  "rank": 347,
+  "of": 426,
   "war": 0.0,
   "starts": 0.5,
   "black_ink": 0.0,
@@ -929,6 +929,11 @@
    [
     "2026",
     10,
+    0.5
+   ],
+   [
+    "2026",
+    11,
     0.5
    ]
   ],

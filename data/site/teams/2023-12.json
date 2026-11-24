@@ -801,9 +801,9 @@
    "pos": "WR",
    "starts_team": 40,
    "pts_team": 799.82,
-   "starts_league": 49,
-   "pts_league": 998.62,
-   "nfl_pts": 1130.52
+   "starts_league": 50,
+   "pts_league": 1006.72,
+   "nfl_pts": 1138.62
   },
   {
    "round": 2,
@@ -839,8 +839,8 @@
    "pos": "RB",
    "starts_team": 24,
    "pts_team": 243.3,
-   "starts_league": 49,
-   "pts_league": 771.7,
+   "starts_league": 50,
+   "pts_league": 779.5,
    "nfl_pts": 897.8
   },
   {
@@ -877,8 +877,8 @@
    "pos": "WR",
    "starts_team": 25,
    "pts_team": 387.7,
-   "starts_league": 43,
-   "pts_league": 588.88,
+   "starts_league": 44,
+   "pts_league": 611.98,
    "nfl_pts": 765.68
   },
   {
@@ -1010,9 +1010,9 @@
    "pos": "TE",
    "starts_team": 3,
    "pts_team": 34.3,
-   "starts_league": 3,
-   "pts_league": 34.3,
-   "nfl_pts": 397.5
+   "starts_league": 4,
+   "pts_league": 44.9,
+   "nfl_pts": 408.1
   },
   {
    "round": 14,
@@ -1086,8 +1086,8 @@
    "pos": "RB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 21,
-   "pts_league": 312.1,
+   "starts_league": 22,
+   "pts_league": 317.9,
    "nfl_pts": 680.9
   },
   {
@@ -1200,7 +1200,7 @@
    "season": "2023",
    "franchise": 3,
    "team": "dantasy football",
-   "score": 844,
+   "score": 847,
    "w": 4,
    "l": 10,
    "ppg": 107.09,
@@ -1210,7 +1210,7 @@
    "season": "2025",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 808,
+   "score": 809,
    "w": 4,
    "l": 10,
    "ppg": 100.72,
@@ -1220,31 +1220,31 @@
    "season": "2025",
    "franchise": 4,
    "team": "Win one game",
-   "score": 733,
+   "score": 734,
    "w": 3,
    "l": 11,
    "ppg": 100.87,
    "result": "10th"
   },
   {
+   "season": "2026",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "score": 596,
+   "w": 3,
+   "l": 8,
+   "ppg": 111.17,
+   "result": null
+  },
+  {
    "season": "2024",
    "franchise": 4,
    "team": "Win one game",
-   "score": 574,
+   "score": 586,
    "w": 6,
    "l": 8,
    "ppg": 116.19,
    "result": "10th"
-  },
-  {
-   "season": "2024",
-   "franchise": 7,
-   "team": "young sexy central",
-   "score": 573,
-   "w": 2,
-   "l": 12,
-   "ppg": 114.52,
-   "result": "Ultimate Loser"
   }
  ],
  "pickups": [
@@ -1259,10 +1259,10 @@
     "colin"
    ],
    "until": null,
-   "g": 61,
-   "gs": 47,
-   "pts": 731.28,
-   "wins": 12,
+   "g": 62,
+   "gs": 48,
+   "pts": 750.96,
+   "wins": 13,
    "best": 28.02
   }
  ],
@@ -1408,7 +1408,7 @@
   {
    "list": "Lowest Team Scores",
    "scope": "league",
-   "rank": 9,
+   "rank": 10,
    "value": "64.24",
    "href": "records.html",
    "season": "2023",

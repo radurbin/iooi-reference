@@ -42,7 +42,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "KC",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 21.8,
@@ -55,7 +55,7 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 21.8,
@@ -525,6 +525,22 @@
    "pts": 0.0,
    "proj": 0.08,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": 0.15,
+   "won": false
   }
  ],
  "status": {
@@ -539,7 +555,7 @@
    "stat": "Bench Points",
    "value": 21.8,
    "digits": 2,
-   "rank": 392,
+   "rank": 394,
    "of": 515
   }
  ],

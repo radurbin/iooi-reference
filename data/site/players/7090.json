@@ -898,22 +898,22 @@
    "war": -0.39
   },
   {
+   "player": "11646",
+   "name": "Jalen Coker",
+   "score": 925,
+   "gs": 11,
+   "pts": 83.9,
+   "ppg": 7.63,
+   "war": -0.27
+  },
+  {
    "player": "2374",
    "name": "Tyler Lockett",
-   "score": 915,
+   "score": 914,
    "gs": 15,
    "pts": 132.1,
    "ppg": 8.81,
    "war": -0.57
-  },
-  {
-   "player": "11646",
-   "name": "Jalen Coker",
-   "score": 904,
-   "gs": 10,
-   "pts": 75.2,
-   "ppg": 7.52,
-   "war": -0.27
   },
   {
    "player": "8119",
@@ -925,13 +925,13 @@
    "war": -0.74
   },
   {
-   "player": "11624",
-   "name": "Xavier Worthy",
-   "score": 868,
-   "gs": 18,
-   "pts": 160.8,
-   "ppg": 8.93,
-   "war": -0.36
+   "player": "11637",
+   "name": "Keon Coleman",
+   "score": 867,
+   "gs": 8,
+   "pts": 65.4,
+   "ppg": 8.18,
+   "war": -0.27
   }
  ],
  "status": {
@@ -946,7 +946,7 @@
    "value": 107.8,
    "digits": 2,
    "rank": 219,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -954,8 +954,8 @@
    "stat": "Games Started",
    "value": 14,
    "digits": 0,
-   "rank": 184,
-   "of": 424
+   "rank": 186,
+   "of": 426
   },
   {
    "group": "Career",
@@ -963,8 +963,8 @@
    "stat": "WAR",
    "value": -0.52,
    "digits": 2,
-   "rank": 406,
-   "of": 424
+   "rank": 409,
+   "of": 426
   },
   {
    "group": "Career",
@@ -972,8 +972,8 @@
    "stat": "VOR",
    "value": -43.9,
    "digits": 1,
-   "rank": 406,
-   "of": 424
+   "rank": 409,
+   "of": 426
   },
   {
    "group": "Career",
@@ -981,8 +981,8 @@
    "stat": "PAA",
    "value": -68.9,
    "digits": 1,
-   "rank": 394,
-   "of": 424
+   "rank": 396,
+   "of": 426
   },
   {
    "group": "Career",
@@ -990,8 +990,8 @@
    "stat": "Best Game",
    "value": 31.5,
    "digits": 2,
-   "rank": 90,
-   "of": 424
+   "rank": 91,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1000,7 +1000,7 @@
    "value": 7.7,
    "digits": 2,
    "rank": 214,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
@@ -1008,7 +1008,7 @@
    "stat": "Bench Points",
    "value": 186.4,
    "digits": 2,
-   "rank": 56,
+   "rank": 57,
    "of": 515
   },
   {
@@ -1018,7 +1018,7 @@
    "value": 107.8,
    "digits": 2,
    "rank": 64,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1027,7 +1027,7 @@
    "value": 14,
    "digits": 0,
    "rank": 52,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1035,8 +1035,8 @@
    "stat": "WAR",
    "value": -0.52,
    "digits": 2,
-   "rank": 123,
-   "of": 127
+   "rank": 125,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1044,8 +1044,8 @@
    "stat": "Points",
    "value": 76.3,
    "digits": 2,
-   "rank": 17,
-   "of": 49,
+   "rank": 18,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1055,7 +1055,7 @@
    "value": 13,
    "digits": 0,
    "rank": 15,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1064,8 +1064,8 @@
    "stat": "WAR",
    "value": -0.75,
    "digits": 2,
-   "rank": 44,
-   "of": 49,
+   "rank": 45,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1074,7 +1074,7 @@
    "stat": "Points, WRs",
    "value": 76.3,
    "digits": 2,
-   "rank": 5,
+   "rank": 6,
    "of": 17,
    "franchise": 12
   },
@@ -1084,8 +1084,8 @@
    "stat": "Points",
    "value": 31.5,
    "digits": 2,
-   "rank": 28,
-   "of": 60,
+   "rank": 29,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1094,8 +1094,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 40,
-   "of": 60,
+   "rank": 42,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1105,7 +1105,7 @@
    "value": 0.23,
    "digits": 2,
    "rank": 19,
-   "of": 60,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -1164,8 +1164,8 @@
    "stat": "Points, 2025",
    "value": 57.0,
    "digits": 2,
-   "rank": 536,
-   "of": 1019,
+   "rank": 543,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1174,15 +1174,15 @@
    "stat": "Points, 2024",
    "value": 50.8,
    "digits": 2,
-   "rank": 566,
-   "of": 1019,
+   "rank": 575,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 3.5,
-  "rank": 220,
-  "of": 424,
+  "rank": 222,
+  "of": 426,
   "war": 0.0,
   "starts": 3.5,
   "black_ink": 0.0,
@@ -1491,6 +1491,11 @@
    [
     "2026",
     10,
+    3.5
+   ],
+   [
+    "2026",
+    11,
     3.5
    ]
   ],

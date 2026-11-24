@@ -924,11 +924,11 @@
    "original": 6,
    "player": "6770",
    "pos": "QB",
-   "starts_team": 38,
-   "pts_team": 765.46,
-   "starts_league": 38,
-   "pts_league": 765.46,
-   "nfl_pts": 855.02
+   "starts_team": 39,
+   "pts_team": 785.56,
+   "starts_league": 39,
+   "pts_league": 785.56,
+   "nfl_pts": 875.12
   },
   {
    "round": 2,
@@ -1038,10 +1038,10 @@
    "original": 6,
    "player": "8137",
    "pos": "WR",
-   "starts_team": 42,
-   "pts_team": 649.2,
-   "starts_league": 42,
-   "pts_league": 649.2,
+   "starts_team": 43,
+   "pts_team": 673.1,
+   "starts_league": 43,
+   "pts_league": 673.1,
    "nfl_pts": 838.1
   },
   {
@@ -1194,7 +1194,7 @@
    "pts_team": 9.8,
    "starts_league": 4,
    "pts_league": 16.5,
-   "nfl_pts": 329.0
+   "nfl_pts": 343.3
   },
   {
    "round": 16,
@@ -1230,8 +1230,8 @@
    "pos": "WR",
    "starts_team": 16,
    "pts_team": 281.5,
-   "starts_league": 43,
-   "pts_league": 704.3,
+   "starts_league": 44,
+   "pts_league": 719.1,
    "nfl_pts": 778.9
   },
   {
@@ -1299,7 +1299,7 @@
    "season": "2023",
    "franchise": 10,
    "team": "You Like That?",
-   "score": 866,
+   "score": 868,
    "w": 7,
    "l": 7,
    "ppg": 128.33,
@@ -1307,43 +1307,43 @@
   },
   {
    "season": "2026",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "score": 747,
-   "w": 6,
-   "l": 4,
-   "ppg": 149.16,
-   "result": null
-  },
-  {
-   "season": "2026",
    "franchise": 7,
    "team": "the dart side 🛸💍",
-   "score": 731,
+   "score": 732,
    "w": 4,
-   "l": 6,
-   "ppg": 147.9,
-   "result": null
-  },
-  {
-   "season": "2026",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
-   "score": 688,
-   "w": 6,
-   "l": 4,
-   "ppg": 143.5,
+   "l": 7,
+   "ppg": 145.39,
    "result": null
   },
   {
    "season": "2023",
    "franchise": 8,
    "team": "Breece is the Word",
-   "score": 684,
+   "score": 695,
    "w": 7,
    "l": 7,
    "ppg": 128.19,
    "result": "5th"
+  },
+  {
+   "season": "2024",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "score": 674,
+   "w": 5,
+   "l": 9,
+   "ppg": 124.17,
+   "result": "7th"
+  },
+  {
+   "season": "2025",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "score": 669,
+   "w": 6,
+   "l": 8,
+   "ppg": 121.85,
+   "result": "7th"
   }
  ],
  "pickups": [
@@ -1392,10 +1392,10 @@
     "makenzy"
    ],
    "until": null,
-   "g": 57,
-   "gs": 34,
-   "pts": 578.4,
-   "wins": 20,
+   "g": 58,
+   "gs": 35,
+   "pts": 607.1,
+   "wins": 21,
    "best": 36.9
   },
   {
@@ -1736,7 +1736,7 @@
   {
    "list": "Biggest Blowouts",
    "scope": "league",
-   "rank": 6,
+   "rank": 7,
    "value": "93.70",
    "href": "records.html",
    "season": "2023",
@@ -1869,21 +1869,6 @@
    "season": "2023",
    "week": 11,
    "game": "2023-11-4-6",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "managers": [
-    "makenzy"
-   ]
-  },
-  {
-   "list": "Biggest Win",
-   "scope": 6,
-   "rank": 1,
-   "value": "93.70",
-   "href": "franchise.html?id=6#franchise-records",
-   "season": "2023",
-   "week": 13,
-   "game": "2023-13-6-10",
    "franchise": 6,
    "team": "got that DAWG",
    "managers": [

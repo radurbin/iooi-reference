@@ -608,7 +608,7 @@
   {
    "player": "8132",
    "name": "Tyler Allgeier",
-   "score": 972,
+   "score": 973,
    "gs": 12,
    "pts": 117.65,
    "ppg": 9.8,
@@ -633,13 +633,13 @@
    "war": 0.01
   },
   {
-   "player": "7567",
-   "name": "Kenny Gainwell",
-   "score": 936,
-   "gs": 14,
-   "pts": 148.5,
-   "ppg": 10.61,
-   "war": 0.32
+   "player": "8408",
+   "name": "Jordan Mason",
+   "score": 940,
+   "gs": 12,
+   "pts": 128.3,
+   "ppg": 10.69,
+   "war": 0.26
   }
  ],
  "status": {
@@ -655,7 +655,7 @@
    "value": 129.2,
    "digits": 2,
    "rank": 202,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -664,7 +664,7 @@
    "value": 13,
    "digits": 0,
    "rank": 194,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -672,8 +672,8 @@
    "stat": "WAR",
    "value": -0.02,
    "digits": 2,
-   "rank": 234,
-   "of": 424
+   "rank": 233,
+   "of": 426
   },
   {
    "group": "Career",
@@ -681,8 +681,8 @@
    "stat": "VOR",
    "value": -1.4,
    "digits": 1,
-   "rank": 234,
-   "of": 424
+   "rank": 233,
+   "of": 426
   },
   {
    "group": "Career",
@@ -691,7 +691,7 @@
    "value": -40.8,
    "digits": 1,
    "rank": 356,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -699,8 +699,8 @@
    "stat": "Best Game",
    "value": 29.4,
    "digits": 2,
-   "rank": 113,
-   "of": 424
+   "rank": 114,
+   "of": 426
   },
   {
    "group": "Career",
@@ -709,7 +709,7 @@
    "value": 9.94,
    "digits": 2,
    "rank": 169,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
@@ -754,7 +754,7 @@
    "value": 129.2,
    "digits": 2,
    "rank": 19,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -764,7 +764,7 @@
    "value": 13,
    "digits": 0,
    "rank": 10,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -774,7 +774,7 @@
    "value": -0.01,
    "digits": 2,
    "rank": 40,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -784,7 +784,7 @@
    "value": 129.2,
    "digits": 2,
    "rank": 6,
-   "of": 15,
+   "of": 16,
    "franchise": 4
   },
   {
@@ -833,8 +833,8 @@
    "stat": "Points, 2023",
    "value": 92.9,
    "digits": 2,
-   "rank": 380,
-   "of": 1019,
+   "rank": 382,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -843,15 +843,15 @@
    "stat": "Points, 2024",
    "value": 36.3,
    "digits": 2,
-   "rank": 653,
-   "of": 1019,
+   "rank": 656,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 3.25,
-  "rank": 227,
-  "of": 424,
+  "rank": 229,
+  "of": 426,
   "war": 0.0,
   "starts": 3.25,
   "black_ink": 0.0,
@@ -1160,6 +1160,11 @@
    [
     "2026",
     10,
+    3.25
+   ],
+   [
+    "2026",
+    11,
     3.25
    ]
   ],

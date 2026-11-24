@@ -91,15 +91,15 @@
    "best": 5.6,
    "wins": 0,
    "paa": -3.07,
-   "vor": -4.41,
-   "war": -0.05
+   "vor": -4.7,
+   "war": -0.06
   },
   {
    "season": "2026",
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "NE",
-   "g": 9,
+   "g": 10,
    "gs": 1,
    "pts": 8.5,
    "bench_pts": 74.7,
@@ -107,12 +107,12 @@
    "best": 8.5,
    "wins": 0,
    "paa": -4.09,
-   "vor": -1.51,
+   "vor": -1.8,
    "war": -0.02
   }
  ],
  "totals": {
-  "g": 60,
+  "g": 61,
   "gs": 11,
   "pts": 95.1,
   "bench_pts": 407.8,
@@ -120,8 +120,8 @@
   "best": 14.5,
   "wins": 8,
   "paa": -30.38,
-  "vor": -9.62,
-  "war": -0.11
+  "vor": -10.2,
+  "war": -0.12
  },
  "nfl": [
   {
@@ -150,7 +150,7 @@
    "team": "NE",
    "g": 10,
    "pts": 88.8,
-   "rank": 14
+   "rank": 15
   }
  ],
  "history": [
@@ -1054,8 +1054,8 @@
    "proj": 9.4,
    "won": false,
    "paa": -3.07,
-   "vor": -4.41,
-   "war": -0.05212083389523002
+   "vor": -4.7,
+   "war": -0.055548281022127236
   },
   {
    "season": "2026",
@@ -1073,8 +1073,8 @@
    "proj": 10.23,
    "won": false,
    "paa": -4.09,
-   "vor": -1.51,
-   "war": -0.017846362626257897
+   "vor": -1.8,
+   "war": -0.021273809753155112
   },
   {
    "season": "2026",
@@ -1203,26 +1203,42 @@
    "pts": 4.2,
    "proj": 10.08,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
-   "player": "7002",
-   "name": "Juwan Johnson",
-   "score": 938,
-   "gs": 9,
-   "pts": 73.3,
-   "ppg": 8.14,
-   "war": -0.13
-  },
-  {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 928,
+   "score": 929,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
    "war": -0.11
+  },
+  {
+   "player": "7002",
+   "name": "Juwan Johnson",
+   "score": 882,
+   "gs": 10,
+   "pts": 73.3,
+   "ppg": 7.33,
+   "war": -0.26
   },
   {
    "player": "12493",
@@ -1236,20 +1252,20 @@
   {
    "player": "7600",
    "name": "Pat Freiermuth",
-   "score": 808,
-   "gs": 19,
-   "pts": 179.3,
-   "ppg": 9.44,
-   "war": -0.16
+   "score": 790,
+   "gs": 20,
+   "pts": 188.4,
+   "ppg": 9.42,
+   "war": -0.19
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 792,
-   "gs": 12,
-   "pts": 131.4,
-   "ppg": 10.95,
-   "war": 0.18
+   "score": 780,
+   "gs": 13,
+   "pts": 143.3,
+   "ppg": 11.02,
+   "war": 0.17
   }
  ],
  "status": {
@@ -1264,8 +1280,8 @@
    "stat": "Points",
    "value": 95.1,
    "digits": 2,
-   "rank": 225,
-   "of": 424
+   "rank": 226,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1273,26 +1289,26 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 212,
-   "of": 424
+   "rank": 215,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.12,
    "digits": 2,
-   "rank": 298,
-   "of": 424
+   "rank": 310,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -9.6,
+   "value": -10.2,
    "digits": 1,
-   "rank": 307,
-   "of": 424
+   "rank": 315,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1300,8 +1316,8 @@
    "stat": "PAA",
    "value": -30.4,
    "digits": 1,
-   "rank": 323,
-   "of": 424
+   "rank": 322,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1309,8 +1325,8 @@
    "stat": "Best Game",
    "value": 14.5,
    "digits": 2,
-   "rank": 289,
-   "of": 424
+   "rank": 290,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1318,8 +1334,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 8.65,
    "digits": 2,
-   "rank": 195,
-   "of": 256
+   "rank": 196,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1352,9 +1368,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.12,
    "digits": 2,
-   "rank": 31,
+   "rank": 33,
    "of": 52
   },
   {
@@ -1363,8 +1379,8 @@
    "stat": "Points",
    "value": 5.6,
    "digits": 2,
-   "rank": 69,
-   "of": 82,
+   "rank": 70,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1374,17 +1390,17 @@
    "value": 1,
    "digits": 0,
    "rank": 61,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.05,
+   "value": -0.06,
    "digits": 2,
-   "rank": 46,
-   "of": 82,
+   "rank": 48,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1423,7 +1439,7 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 28,
+   "rank": 27,
    "of": 40,
    "franchise": 6
   },
@@ -1443,8 +1459,8 @@
    "stat": "Points",
    "value": 58.2,
    "digits": 2,
-   "rank": 25,
-   "of": 54,
+   "rank": 26,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1454,7 +1470,7 @@
    "value": 7,
    "digits": 0,
    "rank": 24,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1464,7 +1480,7 @@
    "value": -0.07,
    "digits": 2,
    "rank": 39,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1543,8 +1559,8 @@
    "stat": "Points",
    "value": 14.1,
    "digits": 2,
-   "rank": 184,
-   "of": 242,
+   "rank": 190,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1554,7 +1570,7 @@
    "value": 14.1,
    "digits": 2,
    "rank": 22,
-   "of": 29,
+   "of": 30,
    "season": "2026"
   },
   {
@@ -1563,8 +1579,8 @@
    "stat": "Points, 2025",
    "value": 49.7,
    "digits": 2,
-   "rank": 573,
-   "of": 1019,
+   "rank": 582,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1573,8 +1589,8 @@
    "stat": "Points, 2024",
    "value": 17.4,
    "digits": 2,
-   "rank": 776,
-   "of": 1019,
+   "rank": 782,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1583,8 +1599,8 @@
    "stat": "Points, 2026",
    "value": 14.1,
    "digits": 2,
-   "rank": 813,
-   "of": 1019,
+   "rank": 819,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1593,15 +1609,15 @@
    "stat": "Points, 2023",
    "value": 13.9,
    "digits": 2,
-   "rank": 816,
-   "of": 1019,
+   "rank": 822,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 6.75,
   "rank": 170,
-  "of": 424,
+  "of": 426,
   "war": 0.0,
   "starts": 2.75,
   "black_ink": 0.0,
@@ -1905,6 +1921,11 @@
    [
     "2026",
     10,
+    6.75
+   ],
+   [
+    "2026",
+    11,
     6.75
    ]
   ],

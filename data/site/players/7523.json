@@ -72,29 +72,29 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "JAX",
-   "g": 10,
-   "gs": 9,
-   "pts": 176.46,
+   "g": 11,
+   "gs": 10,
+   "pts": 189.5,
    "bench_pts": 0.0,
-   "ppg": 19.61,
+   "ppg": 18.95,
    "best": 27.64,
    "wins": 4,
-   "paa": 21.13,
-   "vor": 54.0,
-   "war": 0.64
+   "paa": 17.54,
+   "vor": 53.43,
+   "war": 0.63
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 39,
-  "pts": 714.74,
+  "g": 62,
+  "gs": 40,
+  "pts": 727.78,
   "bench_pts": 130.36,
-  "ppg": 18.33,
+  "ppg": 18.19,
   "best": 44.3,
   "wins": 20,
-  "paa": 59.74,
-  "vor": 215.48,
-  "war": 2.55
+  "paa": 56.15,
+  "vor": 214.91,
+  "war": 2.54
  },
  "nfl": [
   {
@@ -1245,53 +1245,72 @@
    "paa": 9.53,
    "vor": 13.57,
    "war": 0.16038088797239713
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": "SUPER_FLEX",
+   "started": true,
+   "pts": 13.04,
+   "proj": 19.86,
+   "won": false,
+   "paa": -3.59,
+   "vor": -0.57,
+   "war": -0.006736706421832451
   }
  ],
  "similar": [
   {
-   "player": "6770",
-   "name": "Joe Burrow",
-   "score": 844,
-   "gs": 38,
-   "pts": 765.46,
-   "ppg": 20.14,
-   "war": 3.22
+   "player": "11566",
+   "name": "Jayden Daniels",
+   "score": 837,
+   "gs": 34,
+   "pts": 593.42,
+   "ppg": 17.45,
+   "war": 2.07
   },
   {
    "player": "11560",
    "name": "Caleb Williams",
-   "score": 829,
-   "gs": 37,
-   "pts": 611.02,
-   "ppg": 16.51,
-   "war": 1.9
-  },
-  {
-   "player": "11566",
-   "name": "Jayden Daniels",
-   "score": 826,
-   "gs": 33,
-   "pts": 575.76,
-   "ppg": 17.45,
-   "war": 2.02
+   "score": 836,
+   "gs": 38,
+   "pts": 625.76,
+   "ppg": 16.47,
+   "war": 1.91
   },
   {
    "player": "9758",
    "name": "C.J. Stroud",
-   "score": 812,
-   "gs": 41,
-   "pts": 676.52,
-   "ppg": 16.5,
-   "war": 1.58
+   "score": 835,
+   "gs": 42,
+   "pts": 697.58,
+   "ppg": 16.61,
+   "war": 1.67
   },
   {
-   "player": "3294",
-   "name": "Dak Prescott",
-   "score": 772,
-   "gs": 45,
-   "pts": 883.02,
-   "ppg": 19.62,
-   "war": 3.49
+   "player": "6770",
+   "name": "Joe Burrow",
+   "score": 831,
+   "gs": 39,
+   "pts": 785.56,
+   "ppg": 20.14,
+   "war": 3.29
+  },
+  {
+   "player": "6804",
+   "name": "Jordan Love",
+   "score": 781,
+   "gs": 51,
+   "pts": 882.34,
+   "ppg": 17.3,
+   "war": 2.58
   }
  ],
  "status": {
@@ -1314,46 +1333,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 714.74,
+   "value": 727.78,
    "digits": 2,
    "rank": 29,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 39,
+   "value": 40,
    "digits": 0,
-   "rank": 53,
-   "of": 424
+   "rank": 51,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.55,
+   "value": 2.54,
    "digits": 2,
    "rank": 34,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 215.5,
+   "value": 214.9,
    "digits": 1,
    "rank": 34,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 59.7,
+   "value": 56.1,
    "digits": 1,
-   "rank": 45,
-   "of": 424
+   "rank": 48,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1362,16 +1381,16 @@
    "value": 44.3,
    "digits": 2,
    "rank": 15,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 18.33,
+   "value": 18.19,
    "digits": 2,
-   "rank": 19,
-   "of": 256
+   "rank": 20,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1379,14 +1398,14 @@
    "stat": "Bench Points",
    "value": 130.36,
    "digits": 2,
-   "rank": 125,
+   "rank": 127,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 714.74,
+   "value": 727.78,
    "digits": 2,
    "rank": 13,
    "of": 68
@@ -1395,7 +1414,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 39,
+   "value": 40,
    "digits": 0,
    "rank": 13,
    "of": 68
@@ -1404,7 +1423,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 2.55,
+   "value": 2.54,
    "digits": 2,
    "rank": 10,
    "of": 68
@@ -1453,37 +1472,37 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points",
-   "value": 448.78,
+   "value": 461.82,
    "digits": 2,
    "rank": 4,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Games Started",
-   "value": 22,
+   "value": 23,
    "digits": 0,
    "rank": 8,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": 2.09,
+   "value": 2.08,
    "digits": 2,
    "rank": 3,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "Points, QBs",
-   "value": 448.78,
+   "value": 461.82,
    "digits": 2,
    "rank": 2,
    "of": 11,
@@ -1553,19 +1572,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 176.46,
+   "value": 189.5,
    "digits": 2,
-   "rank": 24,
-   "of": 242,
+   "rank": 23,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 176.46,
+   "value": 189.5,
    "digits": 2,
-   "rank": 8,
+   "rank": 9,
    "of": 39,
    "season": "2026"
   },
@@ -1576,17 +1595,17 @@
    "value": 272.32,
    "digits": 2,
    "rank": 44,
-   "of": 1019,
+   "of": 1025,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 176.46,
+   "value": 189.5,
    "digits": 2,
-   "rank": 177,
-   "of": 1019,
+   "rank": 156,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1595,8 +1614,8 @@
    "stat": "Points, 2024",
    "value": 144.96,
    "digits": 2,
-   "rank": 243,
-   "of": 1019,
+   "rank": 249,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1605,17 +1624,17 @@
    "stat": "Points, 2023",
    "value": 121.0,
    "digits": 2,
-   "rank": 308,
-   "of": 1019,
+   "rank": 311,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 35.25,
-  "rank": 42,
-  "of": 424,
-  "war": 25.5,
-  "starts": 9.75,
+  "score": 35.4,
+  "rank": 43,
+  "of": 426,
+  "war": 25.4,
+  "starts": 10.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1923,6 +1942,11 @@
     "2026",
     10,
     35.25
+   ],
+   [
+    "2026",
+    11,
+    35.4
    ]
   ],
   "benchmark": 100

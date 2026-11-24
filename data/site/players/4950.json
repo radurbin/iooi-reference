@@ -923,7 +923,7 @@
   {
    "player": "10213",
    "name": "Tre Tucker",
-   "score": 894,
+   "score": 895,
    "gs": 17,
    "pts": 168.8,
    "ppg": 9.93,
@@ -932,7 +932,7 @@
   {
    "player": "1426",
    "name": "DeAndre Hopkins",
-   "score": 889,
+   "score": 892,
    "gs": 25,
    "pts": 267.1,
    "ppg": 10.68,
@@ -941,7 +941,7 @@
   {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 877,
+   "score": 876,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
@@ -950,7 +950,7 @@
   {
    "player": "8121",
    "name": "Romeo Doubs",
-   "score": 873,
+   "score": 876,
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
@@ -968,8 +968,8 @@
    "stat": "Points",
    "value": 215.66,
    "digits": 2,
-   "rank": 148,
-   "of": 424
+   "rank": 149,
+   "of": 426
   },
   {
    "group": "Career",
@@ -978,7 +978,7 @@
    "value": 20,
    "digits": 0,
    "rank": 146,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -986,8 +986,8 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 382,
-   "of": 424
+   "rank": 383,
+   "of": 426
   },
   {
    "group": "Career",
@@ -995,8 +995,8 @@
    "stat": "VOR",
    "value": -25.0,
    "digits": 1,
-   "rank": 382,
-   "of": 424
+   "rank": 383,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1004,8 +1004,8 @@
    "stat": "PAA",
    "value": -59.9,
    "digits": 1,
-   "rank": 386,
-   "of": 424
+   "rank": 384,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1013,8 +1013,8 @@
    "stat": "Best Game",
    "value": 21.96,
    "digits": 2,
-   "rank": 203,
-   "of": 424
+   "rank": 204,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1022,8 +1022,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 10.78,
    "digits": 2,
-   "rank": 150,
-   "of": 256
+   "rank": 149,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1031,7 +1031,7 @@
    "stat": "Bench Points",
    "value": 48.8,
    "digits": 2,
-   "rank": 298,
+   "rank": 301,
    "of": 515
   },
   {
@@ -1041,7 +1041,7 @@
    "value": 215.66,
    "digits": 2,
    "rank": 47,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1050,7 +1050,7 @@
    "value": 20,
    "digits": 0,
    "rank": 42,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1058,8 +1058,8 @@
    "stat": "WAR",
    "value": -0.3,
    "digits": 2,
-   "rank": 113,
-   "of": 127
+   "rank": 115,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1077,7 +1077,7 @@
    "stat": "Games Started",
    "value": 19,
    "digits": 0,
-   "rank": 12,
+   "rank": 14,
    "of": 45,
    "franchise": 11
   },
@@ -1108,7 +1108,7 @@
    "value": 10.4,
    "digits": 2,
    "rank": 61,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1118,7 +1118,7 @@
    "value": 1,
    "digits": 0,
    "rank": 61,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1127,8 +1127,8 @@
    "stat": "WAR",
    "value": 0.0,
    "digits": 2,
-   "rank": 37,
-   "of": 82,
+   "rank": 36,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1207,8 +1207,8 @@
    "stat": "Points, 2023",
    "value": 150.26,
    "digits": 2,
-   "rank": 234,
-   "of": 1019,
+   "rank": 241,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1217,8 +1217,8 @@
    "stat": "Points, 2024",
    "value": 55.0,
    "digits": 2,
-   "rank": 545,
-   "of": 1019,
+   "rank": 555,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1227,15 +1227,15 @@
    "stat": "Points, 2025",
    "value": 10.4,
    "digits": 2,
-   "rank": 863,
-   "of": 1019,
+   "rank": 868,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 5.0,
-  "rank": 198,
-  "of": 424,
+  "rank": 200,
+  "of": 426,
   "war": 0.0,
   "starts": 5.0,
   "black_ink": 0.0,
@@ -1544,6 +1544,11 @@
    [
     "2026",
     10,
+    5.0
+   ],
+   [
+    "2026",
+    11,
     5.0
    ]
   ],

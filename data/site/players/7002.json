@@ -49,29 +49,29 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NO",
-   "g": 10,
-   "gs": 2,
+   "g": 11,
+   "gs": 3,
    "pts": 31.6,
    "bench_pts": 55.6,
-   "ppg": 15.8,
+   "ppg": 10.53,
    "best": 26.8,
    "wins": 2,
-   "paa": 11.42,
-   "vor": 11.58,
-   "war": 0.14
+   "paa": 3.99,
+   "vor": 0.7,
+   "war": 0.01
   }
  ],
  "totals": {
-  "g": 29,
-  "gs": 9,
+  "g": 30,
+  "gs": 10,
   "pts": 73.3,
   "bench_pts": 176.3,
-  "ppg": 8.14,
+  "ppg": 7.33,
   "best": 26.8,
   "wins": 4,
-  "paa": -21.74,
-  "vor": -11.0,
-  "war": -0.13
+  "paa": -29.17,
+  "vor": -21.88,
+  "war": -0.26
  },
  "nfl": [
   {
@@ -100,7 +100,7 @@
    "team": "NO",
    "g": 10,
    "pts": 87.2,
-   "rank": 17
+   "rank": 18
   }
  ],
  "history": [
@@ -516,8 +516,8 @@
    "proj": 10.28,
    "won": true,
    "paa": 14.14,
-   "vor": 16.79,
-   "war": 0.1984373698641524
+   "vor": 16.5,
+   "war": 0.19500992273725518
   },
   {
    "season": "2026",
@@ -631,15 +631,43 @@
    "proj": 8.34,
    "won": true,
    "paa": -2.72,
-   "vor": -5.21,
-   "war": -0.061575860452187846
+   "vor": -5.5,
+   "war": -0.06500330757908505
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": "TE",
+   "started": true,
+   "pts": 0.0,
+   "proj": 8.56,
+   "won": false,
+   "paa": -7.43,
+   "vor": -10.3,
+   "war": -0.12173346692083203
   }
  ],
  "similar": [
   {
+   "player": "12493",
+   "name": "Oronde Gadsden",
+   "score": 953,
+   "gs": 8,
+   "pts": 57.15,
+   "ppg": 7.14,
+   "war": -0.19
+  },
+  {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 976,
+   "score": 906,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -648,38 +676,29 @@
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 938,
+   "score": 882,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.11
+   "war": -0.12
   },
   {
-   "player": "12493",
-   "name": "Oronde Gadsden",
-   "score": 912,
-   "gs": 8,
-   "pts": 57.15,
-   "ppg": 7.14,
-   "war": -0.19
+   "player": "6826",
+   "name": "Cole Kmet",
+   "score": 734,
+   "gs": 22,
+   "pts": 161.0,
+   "ppg": 7.32,
+   "war": -0.74
   },
   {
-   "player": "7600",
-   "name": "Pat Freiermuth",
-   "score": 750,
-   "gs": 19,
-   "pts": 179.3,
-   "ppg": 9.44,
-   "war": -0.16
-  },
-  {
-   "player": "12517",
-   "name": "Colston Loveland",
-   "score": 740,
-   "gs": 12,
-   "pts": 131.4,
-   "ppg": 10.95,
-   "war": 0.18
+   "player": "2505",
+   "name": "Darren Waller",
+   "score": 719,
+   "gs": 23,
+   "pts": 171.1,
+   "ppg": 7.44,
+   "war": -0.68
   }
  ],
  "status": {
@@ -694,44 +713,44 @@
    "stat": "Points",
    "value": 73.3,
    "digits": 2,
-   "rank": 242,
-   "of": 424
+   "rank": 245,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 9,
+   "value": 10,
    "digits": 0,
-   "rank": 235,
-   "of": 424
+   "rank": 226,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.26,
    "digits": 2,
-   "rank": 319,
-   "of": 424
+   "rank": 369,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -11.0,
+   "value": -21.9,
    "digits": 1,
-   "rank": 323,
-   "of": 424
+   "rank": 369,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -21.7,
+   "value": -29.2,
    "digits": 1,
-   "rank": 291,
-   "of": 424
+   "rank": 318,
+   "of": 426
   },
   {
    "group": "Career",
@@ -739,17 +758,17 @@
    "stat": "Best Game",
    "value": 26.8,
    "digits": 2,
-   "rank": 139,
-   "of": 424
+   "rank": 140,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 8.14,
+   "value": 7.33,
    "digits": 2,
-   "rank": 208,
-   "of": 256
+   "rank": 223,
+   "of": 258
   },
   {
    "group": "Career",
@@ -773,18 +792,18 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 9,
+   "value": 10,
    "digits": 0,
-   "rank": 25,
+   "rank": 24,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.13,
+   "value": -0.26,
    "digits": 2,
-   "rank": 34,
+   "rank": 41,
    "of": 52
   },
   {
@@ -793,8 +812,8 @@
    "stat": "Points",
    "value": 4.8,
    "digits": 2,
-   "rank": 71,
-   "of": 82,
+   "rank": 72,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -804,7 +823,7 @@
    "value": 1,
    "digits": 0,
    "rank": 61,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -814,7 +833,7 @@
    "value": -0.06,
    "digits": 2,
    "rank": 48,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -841,9 +860,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Games Started",
-   "value": 8,
+   "value": 9,
    "digits": 0,
-   "rank": 25,
+   "rank": 23,
    "of": 68,
    "franchise": 3
   },
@@ -851,9 +870,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": -0.06,
+   "value": -0.19,
    "digits": 2,
-   "rank": 53,
+   "rank": 61,
    "of": 68,
    "franchise": 3
   },
@@ -913,8 +932,8 @@
    "stat": "Points",
    "value": 31.6,
    "digits": 2,
-   "rank": 147,
-   "of": 242,
+   "rank": 151,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -923,8 +942,8 @@
    "stat": "Points",
    "value": 31.6,
    "digits": 2,
-   "rank": 17,
-   "of": 29,
+   "rank": 18,
+   "of": 30,
    "season": "2026"
   },
   {
@@ -933,8 +952,8 @@
    "stat": "Points, 2025",
    "value": 36.9,
    "digits": 2,
-   "rank": 652,
-   "of": 1019,
+   "rank": 654,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -943,8 +962,8 @@
    "stat": "Points, 2026",
    "value": 31.6,
    "digits": 2,
-   "rank": 676,
-   "of": 1019,
+   "rank": 680,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -953,17 +972,17 @@
    "stat": "Points, 2024",
    "value": 4.8,
    "digits": 2,
-   "rank": 940,
-   "of": 1019,
+   "rank": 945,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 2.25,
-  "rank": 254,
-  "of": 424,
+  "score": 2.5,
+  "rank": 247,
+  "of": 426,
   "war": 0.0,
-  "starts": 2.25,
+  "starts": 2.5,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1156,6 +1175,11 @@
     "2026",
     10,
     2.25
+   ],
+   [
+    "2026",
+    11,
+    2.5
    ]
   ],
   "benchmark": 100

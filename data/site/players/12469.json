@@ -40,7 +40,7 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "CLE",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 41.0,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 8,
   "pts": 45.15,
   "bench_pts": 79.3,
@@ -562,6 +562,22 @@
    "pts": 8.1,
    "proj": 8.41,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
@@ -577,7 +593,7 @@
   {
    "player": "8154",
    "name": "Brian Robinson Jr.",
-   "score": 882,
+   "score": 883,
    "gs": 14,
    "pts": 90.1,
    "ppg": 6.44,
@@ -586,16 +602,16 @@
   {
    "player": "12495",
    "name": "Ollie Gordon II",
-   "score": 875,
-   "gs": 15,
-   "pts": 83.9,
-   "ppg": 5.59,
-   "war": -0.53
+   "score": 860,
+   "gs": 16,
+   "pts": 93.7,
+   "ppg": 5.86,
+   "war": -0.51
   },
   {
    "player": "5284",
    "name": "Jeff Wilson",
-   "score": 849,
+   "score": 850,
    "gs": 10,
    "pts": 35.2,
    "ppg": 3.52,
@@ -604,7 +620,7 @@
   {
    "player": "6151",
    "name": "Miles Sanders",
-   "score": 831,
+   "score": 833,
    "gs": 16,
    "pts": 82.5,
    "ppg": 5.16,
@@ -623,8 +639,8 @@
    "stat": "Points",
    "value": 45.15,
    "digits": 2,
-   "rank": 276,
-   "of": 424
+   "rank": 278,
+   "of": 426
   },
   {
    "group": "Career",
@@ -633,7 +649,7 @@
    "value": 8,
    "digits": 0,
    "rank": 242,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -642,7 +658,7 @@
    "value": -0.28,
    "digits": 2,
    "rank": 377,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -650,8 +666,8 @@
    "stat": "VOR",
    "value": -23.6,
    "digits": 1,
-   "rank": 379,
-   "of": 424
+   "rank": 378,
+   "of": 426
   },
   {
    "group": "Career",
@@ -659,8 +675,8 @@
    "stat": "PAA",
    "value": -69.6,
    "digits": 1,
-   "rank": 396,
-   "of": 424
+   "rank": 398,
+   "of": 426
   },
   {
    "group": "Career",
@@ -668,8 +684,8 @@
    "stat": "Best Game",
    "value": 17.3,
    "digits": 2,
-   "rank": 263,
-   "of": 424
+   "rank": 265,
+   "of": 426
   },
   {
    "group": "Career",
@@ -677,8 +693,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 5.64,
    "digits": 2,
-   "rank": 243,
-   "of": 256
+   "rank": 245,
+   "of": 258
   },
   {
    "group": "Career",
@@ -686,7 +702,7 @@
    "stat": "Bench Points",
    "value": 79.3,
    "digits": 2,
-   "rank": 220,
+   "rank": 222,
    "of": 515
   },
   {
@@ -695,7 +711,7 @@
    "stat": "Points",
    "value": 45.15,
    "digits": 2,
-   "rank": 66,
+   "rank": 67,
    "of": 100
   },
   {
@@ -723,7 +739,7 @@
    "value": 45.15,
    "digits": 2,
    "rank": 28,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -733,7 +749,7 @@
    "value": 8,
    "digits": 0,
    "rank": 20,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -742,8 +758,8 @@
    "stat": "WAR",
    "value": -0.28,
    "digits": 2,
-   "rank": 39,
-   "of": 49,
+   "rank": 40,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -782,15 +798,15 @@
    "stat": "Points, 2025",
    "value": 45.15,
    "digits": 2,
-   "rank": 598,
-   "of": 1019,
+   "rank": 606,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 2.0,
   "rank": 260,
-  "of": 424,
+  "of": 426,
   "war": 0.0,
   "starts": 2.0,
   "black_ink": 0.0,
@@ -929,6 +945,11 @@
    [
     "2026",
     10,
+    2.0
+   ],
+   [
+    "2026",
+    11,
     2.0
    ]
   ],

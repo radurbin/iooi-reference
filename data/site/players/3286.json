@@ -433,8 +433,8 @@
    "stat": "Points",
    "value": 33.3,
    "digits": 2,
-   "rank": 294,
-   "of": 424
+   "rank": 295,
+   "of": 426
   },
   {
    "group": "Career",
@@ -443,7 +443,7 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -451,8 +451,8 @@
    "stat": "WAR",
    "value": -0.17,
    "digits": 2,
-   "rank": 345,
-   "of": 424
+   "rank": 346,
+   "of": 426
   },
   {
    "group": "Career",
@@ -460,8 +460,8 @@
    "stat": "VOR",
    "value": -14.2,
    "digits": 1,
-   "rank": 345,
-   "of": 424
+   "rank": 346,
+   "of": 426
   },
   {
    "group": "Career",
@@ -469,8 +469,8 @@
    "stat": "PAA",
    "value": -24.5,
    "digits": 1,
-   "rank": 299,
-   "of": 424
+   "rank": 301,
+   "of": 426
   },
   {
    "group": "Career",
@@ -478,8 +478,8 @@
    "stat": "Best Game",
    "value": 13.2,
    "digits": 2,
-   "rank": 301,
-   "of": 424
+   "rank": 302,
+   "of": 426
   },
   {
    "group": "Career",
@@ -497,7 +497,7 @@
    "value": 33.3,
    "digits": 2,
    "rank": 81,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -506,7 +506,7 @@
    "value": 4,
    "digits": 0,
    "rank": 77,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -514,8 +514,8 @@
    "stat": "WAR",
    "value": -0.17,
    "digits": 2,
-   "rank": 101,
-   "of": 127
+   "rank": 103,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -603,8 +603,8 @@
    "stat": "Points, 2024",
    "value": 20.1,
    "digits": 2,
-   "rank": 763,
-   "of": 1019,
+   "rank": 770,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -613,16 +613,16 @@
    "stat": "Points, 2023",
    "value": 13.2,
    "digits": 2,
-   "rank": 823,
-   "of": 1019,
+   "rank": 829,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.0,
-  "rank": 306,
-  "of": 424,
+  "rank": 308,
+  "of": 426,
   "war": 0.0,
   "starts": 1.0,
   "black_ink": 0.0,
@@ -851,6 +851,11 @@
    [
     "2026",
     10,
+    1.0
+   ],
+   [
+    "2026",
+    11,
     1.0
    ]
   ],

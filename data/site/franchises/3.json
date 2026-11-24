@@ -117,14 +117,14 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "w": 8,
-   "l": 2,
+   "l": 3,
    "t": 0,
-   "pf": 1643.94,
-   "pa": 1261.16,
-   "max_pf": 1789.96,
-   "all_play_w": 92,
-   "all_play_l": 18,
-   "expected_w": 8.36,
+   "pf": 1755.0,
+   "pa": 1404.74,
+   "max_pf": 1904.42,
+   "all_play_w": 95,
+   "all_play_l": 26,
+   "expected_w": 8.64,
    "playoff_w": 0,
    "playoff_l": 0,
    "toilet_w": 0,
@@ -133,20 +133,20 @@
    "transactions": 66,
    "trades": 5,
    "seed": 2,
-   "efficiency": 0.9184,
-   "luck": -0.36,
-   "ppg": 164.39,
-   "pct": 0.8,
+   "efficiency": 0.9215,
+   "luck": -0.64,
+   "ppg": 159.55,
+   "pct": 0.727,
    "result": null
   }
  ],
  "totals": {
   "w": 24,
-  "l": 28,
+  "l": 29,
   "t": 0,
-  "pct": 0.462,
-  "pf": 6711.7,
-  "pa": 6670.83,
+  "pct": 0.453,
+  "pf": 6822.76,
+  "pa": 6814.41,
   "transactions": 155,
   "trades": 16,
   "toilet_w": 3,
@@ -179,7 +179,7 @@
     "player": "9488",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 44,
+    "g": 45,
     "gs": 34,
     "pts": 739.36,
     "best": 42.5,
@@ -189,10 +189,23 @@
     "war": 4.52
    },
    {
+    "player": "7588",
+    "pos": "RB",
+    "years": "2025-2026",
+    "g": 28,
+    "gs": 24,
+    "pts": 397.7,
+    "best": 33.2,
+    "wins": 13,
+    "paa": 38.52,
+    "vor": 192.86,
+    "war": 2.28
+   },
+   {
     "player": "5927",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 61,
+    "g": 62,
     "gs": 32,
     "pts": 375.2,
     "best": 27.3,
@@ -202,43 +215,30 @@
     "war": 0.0
    },
    {
-    "player": "7588",
-    "pos": "RB",
-    "years": "2025-2026",
-    "g": 27,
-    "gs": 23,
-    "pts": 371.8,
-    "best": 33.2,
-    "wins": 13,
-    "paa": 26.8,
-    "vor": 175.43,
-    "war": 2.07
-   },
-   {
     "player": "12527",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 22,
-    "pts": 341.7,
+    "g": 28,
+    "gs": 23,
+    "pts": 370.7,
     "best": 35.0,
     "wins": 14,
-    "paa": 8.07,
-    "vor": 153.8,
-    "war": 1.82
+    "paa": 22.89,
+    "vor": 174.33,
+    "war": 2.06
    },
    {
     "player": "3163",
     "pos": "QB",
     "years": "2023, 2026",
-    "g": 27,
-    "gs": 19,
-    "pts": 333.16,
+    "g": 28,
+    "gs": 20,
+    "pts": 354.02,
     "best": 30.08,
     "wins": 11,
-    "paa": 10.47,
-    "vor": 63.5,
-    "war": 0.75
+    "paa": 14.7,
+    "vor": 70.75,
+    "war": 0.84
    },
    {
     "player": "7553",
@@ -257,7 +257,7 @@
     "player": "4881",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 27,
+    "g": 28,
     "gs": 17,
     "pts": 278.42,
     "best": 29.36,
@@ -293,6 +293,19 @@
     "war": 0.99
    },
    {
+    "player": "7564",
+    "pos": "WR",
+    "years": "2026",
+    "g": 11,
+    "gs": 10,
+    "pts": 206.9,
+    "best": 34.1,
+    "wins": 7,
+    "paa": 68.12,
+    "vor": 114.3,
+    "war": 1.35
+   },
+   {
     "player": "5859",
     "pos": "WR",
     "years": "2024",
@@ -309,7 +322,7 @@
     "player": "7611",
     "pos": "RB",
     "years": "2024-2026",
-    "g": 44,
+    "g": 45,
     "gs": 16,
     "pts": 199.0,
     "best": 23.5,
@@ -317,19 +330,6 @@
     "paa": -38.36,
     "vor": 54.84,
     "war": 0.65
-   },
-   {
-    "player": "7564",
-    "pos": "WR",
-    "years": "2026",
-    "g": 10,
-    "gs": 9,
-    "pts": 198.8,
-    "best": 34.1,
-    "wins": 7,
-    "paa": 73.18,
-    "vor": 115.46,
-    "war": 1.36
    },
    {
     "player": "8155",
@@ -426,7 +426,7 @@
     "player": "11559",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 27,
+    "g": 28,
     "gs": 10,
     "pts": 142.98,
     "best": 24.02,
@@ -434,6 +434,19 @@
     "paa": -32.11,
     "vor": 19.66,
     "war": 0.23
+   },
+   {
+    "player": "11576",
+    "pos": "RB",
+    "years": "2024-2026",
+    "g": 45,
+    "gs": 6,
+    "pts": 102.7,
+    "best": 25.4,
+    "wins": 4,
+    "paa": 7.9,
+    "vor": 51.88,
+    "war": 0.61
    },
    {
     "player": "3164",
@@ -452,27 +465,14 @@
     "player": "9484",
     "pos": "TE",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 9,
     "pts": 92.3,
     "best": 18.1,
     "wins": 7,
     "paa": -12.08,
-    "vor": 2.21,
-    "war": 0.03
-   },
-   {
-    "player": "11576",
-    "pos": "RB",
-    "years": "2024-2026",
-    "g": 44,
-    "gs": 5,
-    "pts": 91.7,
-    "best": 25.4,
-    "wins": 4,
-    "paa": 11.08,
-    "vor": 49.35,
-    "war": 0.58
+    "vor": -0.4,
+    "war": -0.0
    },
    {
     "player": "5119",
@@ -494,20 +494,20 @@
      "player": "3163",
      "pos": "QB",
      "years": "2023, 2026",
-     "g": 27,
-     "gs": 19,
-     "pts": 333.16,
+     "g": 28,
+     "gs": 20,
+     "pts": 354.02,
      "best": 30.08,
      "wins": 11,
-     "paa": 10.47,
-     "vor": 63.5,
-     "war": 0.75
+     "paa": 14.7,
+     "vor": 70.75,
+     "war": 0.84
     },
     {
      "player": "4881",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 27,
+     "g": 28,
      "gs": 17,
      "pts": 278.42,
      "best": 29.36,
@@ -535,27 +535,27 @@
      "player": "7588",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 27,
-     "gs": 23,
-     "pts": 371.8,
+     "g": 28,
+     "gs": 24,
+     "pts": 397.7,
      "best": 33.2,
      "wins": 13,
-     "paa": 26.8,
-     "vor": 175.43,
-     "war": 2.07
+     "paa": 38.52,
+     "vor": 192.86,
+     "war": 2.28
     },
     {
      "player": "12527",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 27,
-     "gs": 22,
-     "pts": 341.7,
+     "g": 28,
+     "gs": 23,
+     "pts": 370.7,
      "best": 35.0,
      "wins": 14,
-     "paa": 8.07,
-     "vor": 153.8,
-     "war": 1.82
+     "paa": 22.89,
+     "vor": 174.33,
+     "war": 2.06
     },
     {
      "player": "7543",
@@ -589,7 +589,7 @@
      "player": "9488",
      "pos": "WR",
      "years": "2024-2026",
-     "g": 44,
+     "g": 45,
      "gs": 34,
      "pts": 739.36,
      "best": 42.5,
@@ -602,7 +602,7 @@
      "player": "5927",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 61,
+     "g": 62,
      "gs": 32,
      "pts": 375.2,
      "best": 27.3,
@@ -630,27 +630,27 @@
      "player": "9484",
      "pos": "TE",
      "years": "2026",
-     "g": 10,
+     "g": 11,
      "gs": 9,
      "pts": 92.3,
      "best": 18.1,
      "wins": 7,
      "paa": -12.08,
-     "vor": 2.21,
-     "war": 0.03
+     "vor": -0.4,
+     "war": -0.0
     },
     {
      "player": "7002",
      "pos": "TE",
      "years": "2025-2026",
-     "g": 26,
-     "gs": 8,
+     "g": 27,
+     "gs": 9,
      "pts": 68.5,
      "best": 26.8,
      "wins": 4,
-     "paa": -14.0,
-     "vor": -5.76,
-     "war": -0.07
+     "paa": -21.43,
+     "vor": -16.64,
+     "war": -0.2
     }
    ],
    "K": [
@@ -684,14 +684,14 @@
      "player": "12185",
      "pos": "K",
      "years": "2026",
-     "g": 6,
-     "gs": 6,
-     "pts": 62.0,
+     "g": 7,
+     "gs": 7,
+     "pts": 63.4,
      "best": 22.3,
      "wins": 5,
-     "paa": 4.02,
-     "vor": 4.76,
-     "war": 0.06
+     "paa": -3.34,
+     "vor": 0.4,
+     "war": 0.0
     }
    ],
    "DEF": [
@@ -722,17 +722,17 @@
      "war": -0.06
     },
     {
-     "player": "IND",
+     "player": "JAX",
      "pos": "DEF",
-     "years": "2025",
-     "g": 10,
-     "gs": 8,
-     "pts": 46.0,
-     "best": 16.0,
-     "wins": 5,
-     "paa": -12.75,
-     "vor": -9.04,
-     "war": -0.11
+     "years": "2026",
+     "g": 4,
+     "gs": 4,
+     "pts": 49.0,
+     "best": 25.0,
+     "wins": 3,
+     "paa": 11.64,
+     "vor": 19.0,
+     "war": 0.22
     }
    ]
   }
@@ -765,7 +765,7 @@
    "signings": 32,
    "adds": 40,
    "releases": 40,
-   "gs": 57,
+   "gs": 58,
    "pts": 532.92
   },
   {
@@ -775,8 +775,8 @@
    "signings": 37,
    "adds": 40,
    "releases": 40,
-   "gs": 23,
-   "pts": 264.7
+   "gs": 26,
+   "pts": 280.9
   }
  ],
  "best_games": [
@@ -1045,13 +1045,13 @@
    "team": "Kolkata Kommies"
   },
   {
-   "player": "1166",
-   "name": "Kirk Cousins",
-   "pos": "QB",
-   "pts": 28.64,
-   "game": "2024-08-3-12",
-   "season": "2024",
-   "week": 8,
+   "player": "12527",
+   "name": "Ashton Jeanty",
+   "pos": "RB",
+   "pts": 29.0,
+   "game": "2026-11-3-5",
+   "season": "2026",
+   "week": 11,
    "franchise": 3,
    "team": "Kolkata Kommies"
   }
@@ -1405,9 +1405,9 @@
    {
     "season": "2026",
     "team": "Kolkata Kommies",
-    "games": 27,
+    "games": 31,
     "players": 10,
-    "lost": 17.95,
+    "lost": 21.29,
     "rank": 9,
     "games_rank": 9,
     "of": 12,
@@ -1415,11 +1415,11 @@
      "player": "4881",
      "name": "Lamar Jackson",
      "pos": "QB",
-     "missed": 4,
-     "lost": 10.36
+     "missed": 5,
+     "lost": 12.95
     },
     "w": 8,
-    "l": 2
+    "l": 3
    }
   ],
   "players": [
@@ -1458,6 +1458,27 @@
     ]
    },
    {
+    "player": "5927",
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "missed": 12,
+    "lost": 8.26,
+    "injuries": [
+     "Quadricep",
+     "Knee",
+     "Hamstring"
+    ],
+    "kinds": [
+     "IR",
+     "Out",
+     "Questionable"
+    ],
+    "seasons": [
+     "2025",
+     "2026"
+    ]
+   },
+   {
     "player": "11576",
     "name": "Braelon Allen",
     "pos": "RB",
@@ -1474,20 +1495,21 @@
     ]
    },
    {
-    "player": "5927",
-    "name": "Terry McLaurin",
-    "pos": "WR",
-    "missed": 11,
-    "lost": 8.26,
+    "player": "4881",
+    "name": "Lamar Jackson",
+    "pos": "QB",
+    "missed": 9,
+    "lost": 32.83,
     "injuries": [
-     "Quadricep",
      "Hamstring",
-     "Knee"
+     "Ankle",
+     "Thumb",
+     "Back"
     ],
     "kinds": [
+     "Doubtful",
      "IR",
-     "Out",
-     "Questionable"
+     "Out"
     ],
     "seasons": [
      "2025",
@@ -1514,32 +1536,10 @@
     ]
    },
    {
-    "player": "4881",
-    "name": "Lamar Jackson",
-    "pos": "QB",
-    "missed": 8,
-    "lost": 30.24,
-    "injuries": [
-     "Hamstring",
-     "Ankle",
-     "Back",
-     "Thumb"
-    ],
-    "kinds": [
-     "Doubtful",
-     "IR",
-     "Out"
-    ],
-    "seasons": [
-     "2025",
-     "2026"
-    ]
-   },
-   {
     "player": "13417",
     "name": "De'Zhaun Stribling",
     "pos": "WR",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -1696,10 +1696,10 @@
   "total": {
    "franchise": 3,
    "name": "Kolkata Kommies",
-   "games": 173,
-   "lost": 200.05,
+   "games": 177,
+   "lost": 203.39,
    "seasons": 4,
-   "per_season": 50.01,
+   "per_season": 50.85,
    "worst": "2024"
   }
  }

@@ -43,13 +43,29 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "season": "2026",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "nfl": "HOU",
+   "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "bench_pts": 3.3,
+   "ppg": null,
+   "best": null,
+   "wins": 0,
+   "paa": 0.0,
+   "vor": 0.0,
+   "war": 0.0
   }
  ],
  "totals": {
-  "g": 6,
+  "g": 7,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 31.8,
+  "bench_pts": 35.1,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -84,7 +100,7 @@
    "team": "HOU",
    "g": 10,
    "pts": 85.8,
-   "rank": 45
+   "rank": 46
   }
  ],
  "history": [
@@ -240,6 +256,22 @@
    "pts": 7.6,
    "proj": 5.67,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 3.3,
+   "proj": 7.69,
+   "won": false
   }
  ],
  "status": {
@@ -252,9 +284,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 31.8,
+   "value": 35.1,
    "digits": 2,
-   "rank": 354,
+   "rank": 343,
    "of": 515
   }
  ],

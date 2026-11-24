@@ -63,29 +63,29 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "LV",
-   "g": 10,
-   "gs": 8,
+   "g": 11,
+   "gs": 9,
    "pts": 149.9,
    "bench_pts": 0.0,
-   "ppg": 18.74,
+   "ppg": 16.66,
    "best": 28.2,
    "wins": 4,
-   "paa": 59.26,
-   "vor": 69.82,
-   "war": 0.83
+   "paa": 51.83,
+   "vor": 57.2,
+   "war": 0.68
   }
  ],
  "totals": {
-  "g": 44,
-  "gs": 33,
+  "g": 45,
+  "gs": 34,
   "pts": 528.7,
   "bench_pts": 31.3,
-  "ppg": 16.02,
+  "ppg": 15.55,
   "best": 43.3,
   "wins": 13,
-  "paa": 171.84,
-  "vor": 208.62,
-  "war": 2.47
+  "paa": 164.41,
+  "vor": 196.0,
+  "war": 2.32
  },
  "nfl": [
   {
@@ -786,8 +786,8 @@
    "proj": 13.08,
    "won": false,
    "paa": 14.94,
-   "vor": 17.59,
-   "war": 0.2078923964211102
+   "vor": 17.3,
+   "war": 0.20446494929421302
   },
   {
    "season": "2026",
@@ -805,8 +805,8 @@
    "proj": 15.21,
    "won": true,
    "paa": 9.48,
-   "vor": 10.59,
-   "war": 0.12516091404772922
+   "vor": 10.3,
+   "war": 0.12173346692083203
   },
   {
    "season": "2026",
@@ -824,8 +824,8 @@
    "proj": 15.9,
    "won": true,
    "paa": 10.17,
-   "vor": 12.99,
-   "war": 0.1535259937186027
+   "vor": 12.7,
+   "war": 0.1500985465917055
   },
   {
    "season": "2026",
@@ -843,8 +843,8 @@
    "proj": 16.86,
    "won": false,
    "paa": 0.14,
-   "vor": 0.99,
-   "war": 0.01170059536423531
+   "vor": 0.7,
+   "war": 0.008273148237338098
   },
   {
    "season": "2026",
@@ -862,8 +862,8 @@
    "proj": 17.24,
    "won": false,
    "paa": 2.09,
-   "vor": 3.29,
-   "war": 0.03888379671548906
+   "vor": 3.0,
+   "war": 0.035456349588591854
   },
   {
    "season": "2026",
@@ -881,8 +881,8 @@
    "proj": 17.21,
    "won": true,
    "paa": 15.35,
-   "vor": 18.19,
-   "war": 0.2149836663388286
+   "vor": 17.9,
+   "war": 0.21155621921193135
   },
   {
    "season": "2026",
@@ -900,8 +900,8 @@
    "proj": 18.67,
    "won": true,
    "paa": 10.81,
-   "vor": 12.39,
-   "war": 0.14643472380088435
+   "vor": 12.1,
+   "war": 0.14300727667398713
   },
   {
    "season": "2026",
@@ -919,51 +919,70 @@
    "proj": 15.2,
    "won": false,
    "paa": -3.72,
-   "vor": -6.21,
-   "war": -0.07339464364838513
+   "vor": -6.5,
+   "war": -0.07682209077528235
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "TE",
+   "started": true,
+   "pts": 0.0,
+   "proj": null,
+   "won": false,
+   "paa": -7.43,
+   "vor": -10.3,
+   "war": -0.12173346692083203
   }
  ],
  "similar": [
   {
    "player": "4217",
    "name": "George Kittle",
-   "score": 697,
-   "gs": 45,
-   "pts": 675.9,
-   "ppg": 15.02,
-   "war": 2.7
-  },
-  {
-   "player": "8130",
-   "name": "Trey McBride",
-   "score": 527,
-   "gs": 44,
-   "pts": 748.5,
-   "ppg": 17.01,
-   "war": 3.81
+   "score": 680,
+   "gs": 46,
+   "pts": 694.3,
+   "ppg": 15.09,
+   "war": 2.77
   },
   {
    "player": "10859",
    "name": "Sam LaPorta",
-   "score": 479,
-   "gs": 44,
-   "pts": 524.1,
-   "ppg": 11.91,
-   "war": 1.01
+   "score": 519,
+   "gs": 45,
+   "pts": 533.3,
+   "ppg": 11.85,
+   "war": 0.97
+  },
+  {
+   "player": "8130",
+   "name": "Trey McBride",
+   "score": 486,
+   "gs": 45,
+   "pts": 763.4,
+   "ppg": 16.96,
+   "war": 3.83
   },
   {
    "player": "1466",
    "name": "Travis Kelce",
-   "score": 424,
+   "score": 470,
    "gs": 55,
    "pts": 674.25,
    "ppg": 12.26,
-   "war": 1.57
+   "war": 1.55
   },
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 374,
+   "score": 407,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
@@ -982,44 +1001,44 @@
    "stat": "Points",
    "value": 528.7,
    "digits": 2,
-   "rank": 58,
-   "of": 424
+   "rank": 61,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
-   "rank": 77,
-   "of": 424
+   "rank": 74,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.47,
+   "value": 2.32,
    "digits": 2,
-   "rank": 36,
-   "of": 424
+   "rank": 40,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 208.6,
+   "value": 196.0,
    "digits": 1,
-   "rank": 36,
-   "of": 424
+   "rank": 40,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 171.8,
+   "value": 164.4,
    "digits": 1,
-   "rank": 12,
-   "of": 424
+   "rank": 14,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1028,16 +1047,16 @@
    "value": 43.3,
    "digits": 2,
    "rank": 18,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 16.02,
+   "value": 15.55,
    "digits": 2,
-   "rank": 47,
-   "of": 256
+   "rank": 58,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1045,7 +1064,7 @@
    "stat": "Bench Points",
    "value": 31.3,
    "digits": 2,
-   "rank": 357,
+   "rank": 361,
    "of": 515
   },
   {
@@ -1054,23 +1073,23 @@
    "stat": "Points",
    "value": 528.7,
    "digits": 2,
-   "rank": 4,
+   "rank": 5,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
-   "rank": 9,
+   "rank": 8,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": 2.47,
+   "value": 2.32,
    "digits": 2,
    "rank": 3,
    "of": 52
@@ -1081,28 +1100,28 @@
    "stat": "Points",
    "value": 528.7,
    "digits": 2,
-   "rank": 3,
-   "of": 54,
+   "rank": 4,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
    "rank": 3,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 2.47,
+   "value": 2.32,
    "digits": 2,
    "rank": 4,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1161,8 +1180,8 @@
    "stat": "Points",
    "value": 149.9,
    "digits": 2,
-   "rank": 37,
-   "of": 242,
+   "rank": 45,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1172,7 +1191,7 @@
    "value": 149.9,
    "digits": 2,
    "rank": 2,
-   "of": 29,
+   "of": 30,
    "season": "2026"
   },
   {
@@ -1181,8 +1200,8 @@
    "stat": "Points, 2024",
    "value": 209.9,
    "digits": 2,
-   "rank": 107,
-   "of": 1019,
+   "rank": 111,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1191,8 +1210,8 @@
    "stat": "Points, 2025",
    "value": 168.9,
    "digits": 2,
-   "rank": 193,
-   "of": 1019,
+   "rank": 198,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1201,17 +1220,17 @@
    "stat": "Points, 2026",
    "value": 149.9,
    "digits": 2,
-   "rank": 236,
-   "of": 1019,
+   "rank": 244,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 42.95,
-  "rank": 29,
-  "of": 424,
-  "war": 24.7,
-  "starts": 8.25,
+  "score": 41.7,
+  "rank": 33,
+  "of": 426,
+  "war": 23.2,
+  "starts": 8.5,
   "black_ink": 0.0,
   "awards": 10.0,
   "history": [
@@ -1398,7 +1417,7 @@
    [
     "2026",
     3,
-    35.0
+    34.9
    ],
    [
     "2026",
@@ -1408,32 +1427,37 @@
    [
     "2026",
     5,
-    38.3
+    38.2
    ],
    [
     "2026",
     6,
-    38.65
+    38.55
    ],
    [
     "2026",
     7,
-    39.3
+    39.1
    ],
    [
     "2026",
     8,
-    41.65
+    41.45
    ],
    [
     "2026",
     9,
-    43.4
+    43.2
    ],
    [
     "2026",
     10,
-    42.95
+    42.65
+   ],
+   [
+    "2026",
+    11,
+    41.7
    ]
   ],
   "benchmark": 100
@@ -1516,7 +1540,7 @@
     "season": "2026",
     "nfl": "LV",
     "missed": 3,
-    "lost": 17.46,
+    "lost": 25.32,
     "injuries": [
      "Knee",
      "Ankle"
@@ -1531,7 +1555,7 @@
      "Out",
      "Questionable"
     ],
-    "rostered": 2,
+    "rostered": 3,
     "games": [
      {
       "week": 1,
@@ -1551,8 +1575,8 @@
       "week": 11,
       "kind": "Questionable",
       "injury": "Ankle",
-      "franchise": null,
-      "team": null
+      "franchise": 7,
+      "team": "the dart side 🛸💍"
      }
     ]
    }
@@ -1628,7 +1652,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 17.46
+    "lost": 16.88
    },
    {
     "season": "2026",
@@ -1643,9 +1667,14 @@
     "kinds": [
      "Questionable"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 7,
+      "team": "the dart side 🛸💍"
+     }
+    ],
+    "rostered": 1,
+    "lost": 8.44
    }
   ],
   "now": {

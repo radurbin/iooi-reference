@@ -1259,11 +1259,11 @@
   {
    "player": "11563",
    "name": "Bo Nix",
-   "score": 926,
-   "gs": 25,
-   "pts": 430.42,
-   "ppg": 17.22,
-   "war": 1.46
+   "score": 925,
+   "gs": 26,
+   "pts": 442.52,
+   "ppg": 17.02,
+   "war": 1.44
   },
   {
    "player": "4943",
@@ -1286,7 +1286,7 @@
   {
    "player": "5849",
    "name": "Kyler Murray",
-   "score": 883,
+   "score": 884,
    "gs": 27,
    "pts": 407.58,
    "ppg": 15.1,
@@ -1295,11 +1295,11 @@
   {
    "player": "1166",
    "name": "Kirk Cousins",
-   "score": 834,
-   "gs": 32,
-   "pts": 502.74,
-   "ppg": 15.71,
-   "war": 0.95
+   "score": 814,
+   "gs": 33,
+   "pts": 510.24,
+   "ppg": 15.46,
+   "war": 0.88
   }
  ],
  "status": {
@@ -1323,8 +1323,8 @@
    "stat": "Points",
    "value": 401.96,
    "digits": 2,
-   "rank": 78,
-   "of": 424
+   "rank": 79,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1332,8 +1332,8 @@
    "stat": "Games Started",
    "value": 24,
    "digits": 0,
-   "rank": 117,
-   "of": 424
+   "rank": 118,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1341,8 +1341,8 @@
    "stat": "WAR",
    "value": 1.04,
    "digits": 2,
-   "rank": 78,
-   "of": 424
+   "rank": 77,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1350,8 +1350,8 @@
    "stat": "VOR",
    "value": 87.9,
    "digits": 1,
-   "rank": 78,
-   "of": 424
+   "rank": 77,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1360,7 +1360,7 @@
    "value": 5.9,
    "digits": 1,
    "rank": 107,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1368,8 +1368,8 @@
    "stat": "Best Game",
    "value": 32.98,
    "digits": 2,
-   "rank": 76,
-   "of": 424
+   "rank": 77,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1377,8 +1377,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 16.75,
    "digits": 2,
-   "rank": 37,
-   "of": 256
+   "rank": 36,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1386,7 +1386,7 @@
    "stat": "Bench Points",
    "value": 56.18,
    "digits": 2,
-   "rank": 272,
+   "rank": 276,
    "of": 515
   },
   {
@@ -1422,8 +1422,8 @@
    "stat": "Points",
    "value": 205.62,
    "digits": 2,
-   "rank": 11,
-   "of": 76,
+   "rank": 12,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1433,7 +1433,7 @@
    "value": 13,
    "digits": 0,
    "rank": 16,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1443,7 +1443,7 @@
    "value": 0.63,
    "digits": 2,
    "rank": 12,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1482,7 +1482,7 @@
    "stat": "WAR",
    "value": 0.41,
    "digits": 2,
-   "rank": 13,
+   "rank": 12,
    "of": 74,
    "franchise": 10
   },
@@ -1562,8 +1562,8 @@
    "stat": "Points, 2023",
    "value": 196.34,
    "digits": 2,
-   "rank": 136,
-   "of": 1019,
+   "rank": 143,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1572,8 +1572,8 @@
    "stat": "Points, 2025",
    "value": 142.66,
    "digits": 2,
-   "rank": 252,
-   "of": 1019,
+   "rank": 258,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1582,15 +1582,15 @@
    "stat": "Points, 2024",
    "value": 62.96,
    "digits": 2,
-   "rank": 502,
-   "of": 1019,
+   "rank": 511,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 16.4,
-  "rank": 90,
-  "of": 424,
+  "rank": 94,
+  "of": 426,
   "war": 10.4,
   "starts": 6.0,
   "black_ink": 0.0,
@@ -1899,6 +1899,11 @@
    [
     "2026",
     10,
+    16.4
+   ],
+   [
+    "2026",
+    11,
     16.4
    ]
   ],

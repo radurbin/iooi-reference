@@ -1218,8 +1218,8 @@
    "pos": "QB",
    "starts_team": 8,
    "pts_team": 149.74,
-   "starts_league": 32,
-   "pts_league": 502.74,
+   "starts_league": 33,
+   "pts_league": 510.24,
    "nfl_pts": 618.08
   },
   {
@@ -1238,8 +1238,8 @@
    "pos": "TE",
    "starts_team": 18,
    "pts_team": 173.3,
-   "starts_league": 33,
-   "pts_league": 301.5,
+   "starts_league": 34,
+   "pts_league": 306.3,
    "nfl_pts": 497.5
   },
   {
@@ -1438,8 +1438,8 @@
    "pos": "RB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 34,
-   "pts_league": 578.4,
+   "starts_league": 35,
+   "pts_league": 607.1,
    "nfl_pts": 763.2
   },
   {
@@ -1510,7 +1510,7 @@
    "season": "2023",
    "franchise": 6,
    "team": "got that DAWG",
-   "score": 866,
+   "score": 868,
    "w": 7,
    "l": 7,
    "ppg": 128.17,
@@ -1520,40 +1520,40 @@
    "season": "2026",
    "franchise": 7,
    "team": "the dart side 🛸💍",
-   "score": 799,
+   "score": 787,
    "w": 4,
-   "l": 6,
-   "ppg": 147.9,
+   "l": 7,
+   "ppg": 145.39,
    "result": null
   },
   {
    "season": "2023",
    "franchise": 8,
    "team": "Breece is the Word",
-   "score": 754,
+   "score": 761,
    "w": 7,
    "l": 7,
    "ppg": 128.19,
    "result": "5th"
   },
   {
-   "season": "2026",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "score": 754,
-   "w": 6,
-   "l": 4,
-   "ppg": 149.16,
-   "result": null
-  },
-  {
    "season": "2023",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 734,
+   "score": 741,
    "w": 6,
    "l": 8,
    "ppg": 127.61,
+   "result": "8th"
+  },
+  {
+   "season": "2025",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "score": 718,
+   "w": 7,
+   "l": 7,
+   "ppg": 130.72,
    "result": "8th"
   }
  ],
@@ -1924,8 +1924,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 34,
-   "pts": 578.4,
+   "gs": 35,
+   "pts": 607.1,
    "next": 6,
    "next_team": "got that DAWG"
   },
@@ -1954,8 +1954,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 35,
-   "pts": 198.0,
+   "gs": 36,
+   "pts": 208.0,
    "next": 1,
    "next_team": "Mojo Dojo Casa Team"
   },
@@ -2014,8 +2014,8 @@
     "elis",
     "ritesh"
    ],
-   "gs": 5,
-   "pts": 50.5,
+   "gs": 6,
+   "pts": 56.3,
    "next": 8,
    "next_team": "BBL KIZZY"
   },
@@ -2044,10 +2044,10 @@
     "elis",
     "ritesh"
    ],
-   "gs": 0,
-   "pts": 0.0,
-   "next": null,
-   "next_team": null
+   "gs": 1,
+   "pts": 5.4,
+   "next": 9,
+   "next_team": "Clandestine Ball Busters"
   },
   {
    "date": "2023-11-15",
@@ -2304,7 +2304,7 @@
   {
    "list": "Biggest Blowouts",
    "scope": "league",
-   "rank": 4,
+   "rank": 5,
    "value": "98.42",
    "href": "records.html",
    "season": "2023",
@@ -2320,7 +2320,7 @@
   {
    "list": "Biggest Blowouts",
    "scope": "league",
-   "rank": 9,
+   "rank": 10,
    "value": "88.66",
    "href": "records.html",
    "season": "2023",
@@ -2431,22 +2431,6 @@
    "season": "2023",
    "week": 5,
    "game": "2023-05-4-10",
-   "franchise": 10,
-   "team": "You Like That?",
-   "managers": [
-    "elis",
-    "ritesh"
-   ]
-  },
-  {
-   "list": "Worst Loss",
-   "scope": 10,
-   "rank": 1,
-   "value": "101.88",
-   "href": "franchise.html?id=10#franchise-records",
-   "season": "2023",
-   "week": 12,
-   "game": "2023-12-5-10",
    "franchise": 10,
    "team": "You Like That?",
    "managers": [

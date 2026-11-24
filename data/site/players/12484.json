@@ -40,7 +40,7 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": null,
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.0,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 119.3,
@@ -516,6 +516,22 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -530,7 +546,7 @@
    "stat": "Bench Points",
    "value": 119.3,
    "digits": 2,
-   "rank": 143,
+   "rank": 144,
    "of": 515
   }
  ],
@@ -563,7 +579,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 9,
+    "rostered": 10,
     "games": [
      {
       "week": 1,
@@ -632,8 +648,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Knee - ACL",
-      "franchise": null,
-      "team": null
+      "franchise": 8,
+      "team": "BBL KIZZY"
      }
     ]
    }
@@ -667,7 +683,7 @@
       "team": "BBL KIZZY"
      }
     ],
-    "rostered": 9,
+    "rostered": 10,
     "lost": 0.0
    }
   ],

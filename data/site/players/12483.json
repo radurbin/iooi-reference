@@ -40,10 +40,10 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "LV",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 22.2,
+   "bench_pts": 45.0,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -53,10 +53,10 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 64.6,
+  "bench_pts": 87.4,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -526,6 +526,22 @@
    "pts": 3.0,
    "proj": 3.85,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": null,
+   "started": false,
+   "pts": 22.8,
+   "proj": 5.42,
+   "won": true
   }
  ],
  "status": {
@@ -538,9 +554,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 64.6,
+   "value": 87.4,
    "digits": 2,
-   "rank": 252,
+   "rank": 210,
    "of": 515
   }
  ],

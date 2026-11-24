@@ -40,29 +40,29 @@
    "franchise": 10,
    "team": "Maddison Beer’s Boys",
    "nfl": "JAX",
-   "g": 10,
-   "gs": 9,
-   "pts": 162.3,
+   "g": 11,
+   "gs": 10,
+   "pts": 171.6,
    "bench_pts": 0.0,
-   "ppg": 18.03,
+   "ppg": 17.16,
    "best": 31.5,
    "wins": 2,
-   "paa": 17.38,
-   "vor": 86.07,
-   "war": 1.02
+   "paa": 12.5,
+   "vor": 86.9,
+   "war": 1.03
   }
  ],
  "totals": {
-  "g": 27,
-  "gs": 12,
-  "pts": 177.8,
+  "g": 28,
+  "gs": 13,
+  "pts": 187.1,
   "bench_pts": 66.3,
-  "ppg": 14.82,
+  "ppg": 14.39,
   "best": 31.5,
   "wins": 5,
-  "paa": -5.89,
-  "vor": 75.8,
-  "war": 0.9
+  "paa": -10.77,
+  "vor": 76.63,
+  "war": 0.91
  },
  "nfl": [
   {
@@ -580,53 +580,72 @@
    "paa": 4.11,
    "vor": 14.43,
    "war": 0.1705450415211268
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-6-10",
+   "kind": "regular",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "opp": 6,
+   "opp_team": "got that DAWG",
+   "slot": "RB",
+   "started": true,
+   "pts": 9.3,
+   "proj": 17.04,
+   "won": false,
+   "paa": -4.88,
+   "vor": 0.83,
+   "war": 0.009809590052843745
   }
  ],
  "similar": [
   {
    "player": "12481",
    "name": "Cam Skattebo",
-   "score": 918,
-   "gs": 14,
-   "pts": 220.1,
-   "ppg": 15.72,
-   "war": 1.19
+   "score": 926,
+   "gs": 15,
+   "pts": 227.3,
+   "ppg": 15.15,
+   "war": 1.18
+  },
+  {
+   "player": "12507",
+   "name": "Omarion Hampton",
+   "score": 904,
+   "gs": 16,
+   "pts": 209.3,
+   "ppg": 13.08,
+   "war": 0.86
   },
   {
    "player": "2749",
    "name": "Raheem Mostert",
-   "score": 903,
+   "score": 894,
    "gs": 15,
    "pts": 238.3,
    "ppg": 15.89,
    "war": 0.97
   },
   {
-   "player": "12507",
-   "name": "Omarion Hampton",
-   "score": 887,
-   "gs": 15,
-   "pts": 197.6,
-   "ppg": 13.17,
-   "war": 0.82
-  },
-  {
-   "player": "7021",
-   "name": "Rico Dowdle",
-   "score": 870,
-   "gs": 17,
-   "pts": 263.2,
-   "ppg": 15.48,
-   "war": 1.34
-  },
-  {
    "player": "8205",
    "name": "Isiah Pacheco",
-   "score": 849,
+   "score": 877,
    "gs": 15,
    "pts": 189.5,
    "ppg": 12.63,
    "war": 0.5
+  },
+  {
+   "player": "7021",
+   "name": "Rico Dowdle",
+   "score": 873,
+   "gs": 18,
+   "pts": 271.1,
+   "ppg": 15.06,
+   "war": 1.34
   }
  ],
  "status": {
@@ -639,46 +658,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 177.8,
+   "value": 187.1,
    "digits": 2,
-   "rank": 168,
-   "of": 424
+   "rank": 166,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
-   "rank": 201,
-   "of": 424
+   "rank": 194,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.91,
    "digits": 2,
-   "rank": 87,
-   "of": 424
+   "rank": 85,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 75.8,
+   "value": 76.6,
    "digits": 1,
    "rank": 87,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -5.9,
+   "value": -10.8,
    "digits": 1,
-   "rank": 174,
-   "of": 424
+   "rank": 221,
+   "of": 426
   },
   {
    "group": "Career",
@@ -686,17 +705,17 @@
    "stat": "Best Game",
    "value": 31.5,
    "digits": 2,
-   "rank": 90,
-   "of": 424
+   "rank": 91,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 14.82,
+   "value": 14.39,
    "digits": 2,
-   "rank": 72,
-   "of": 256
+   "rank": 76,
+   "of": 258
   },
   {
    "group": "Career",
@@ -704,14 +723,14 @@
    "stat": "Bench Points",
    "value": 66.3,
    "digits": 2,
-   "rank": 246,
+   "rank": 248,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 177.8,
+   "value": 187.1,
    "digits": 2,
    "rank": 39,
    "of": 100
@@ -720,16 +739,16 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
-   "rank": 47,
+   "rank": 46,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.91,
    "digits": 2,
    "rank": 32,
    "of": 100
@@ -738,7 +757,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points",
-   "value": 177.8,
+   "value": 187.1,
    "digits": 2,
    "rank": 14,
    "of": 74,
@@ -748,9 +767,9 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Games Started",
-   "value": 12,
+   "value": 13,
    "digits": 0,
-   "rank": 18,
+   "rank": 17,
    "of": 74,
    "franchise": 10
   },
@@ -758,7 +777,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": 0.9,
+   "value": 0.91,
    "digits": 2,
    "rank": 9,
    "of": 74,
@@ -768,7 +787,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "Points, RBs",
-   "value": 177.8,
+   "value": 187.1,
    "digits": 2,
    "rank": 5,
    "of": 15,
@@ -798,30 +817,30 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 162.3,
+   "value": 171.6,
    "digits": 2,
-   "rank": 32,
-   "of": 242,
+   "rank": 34,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 162.3,
+   "value": 171.6,
    "digits": 2,
    "rank": 14,
-   "of": 58,
+   "of": 60,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 162.3,
+   "value": 171.6,
    "digits": 2,
-   "rank": 209,
-   "of": 1019,
+   "rank": 192,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -830,17 +849,17 @@
    "stat": "Points, 2025",
    "value": 15.5,
    "digits": 2,
-   "rank": 803,
-   "of": 1019,
+   "rank": 809,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 12.0,
-  "rank": 113,
-  "of": 424,
-  "war": 9.0,
-  "starts": 3.0,
+  "score": 12.35,
+  "rank": 114,
+  "of": 426,
+  "war": 9.1,
+  "starts": 3.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -978,6 +997,11 @@
     "2026",
     10,
     12.0
+   ],
+   [
+    "2026",
+    11,
+    12.35
    ]
   ],
   "benchmark": 100

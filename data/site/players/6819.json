@@ -74,7 +74,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "PIT",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 17.4,
@@ -87,7 +87,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 33,
   "pts": 445.1,
   "bench_pts": 141.3,
@@ -1208,53 +1208,69 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 933,
+   "score": 934,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
    "war": 0.53
   },
   {
-   "player": "5872",
-   "name": "Deebo Samuel Sr.",
-   "score": 894,
-   "gs": 36,
-   "pts": 503.25,
-   "ppg": 13.98,
-   "war": 1.05
-  },
-  {
-   "player": "9997",
-   "name": "Zay Flowers",
-   "score": 868,
-   "gs": 38,
-   "pts": 505.1,
-   "ppg": 13.29,
-   "war": 1.09
-  },
-  {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 858,
-   "gs": 32,
-   "pts": 380.4,
-   "ppg": 11.89,
-   "war": 0.44
+   "score": 891,
+   "gs": 33,
+   "pts": 401.1,
+   "ppg": 12.15,
+   "war": 0.57
   },
   {
    "player": "5045",
    "name": "Courtland Sutton",
-   "score": 854,
-   "gs": 27,
+   "score": 885,
+   "gs": 28,
    "pts": 383.4,
-   "ppg": 14.2,
-   "war": 0.93
+   "ppg": 13.69,
+   "war": 0.82
+  },
+  {
+   "player": "5872",
+   "name": "Deebo Samuel Sr.",
+   "score": 883,
+   "gs": 37,
+   "pts": 511.15,
+   "ppg": 13.81,
+   "war": 1.04
+  },
+  {
+   "player": "9997",
+   "name": "Zay Flowers",
+   "score": 842,
+   "gs": 39,
+   "pts": 521.6,
+   "ppg": 13.37,
+   "war": 1.18
   }
  ],
  "status": {
@@ -1269,8 +1285,8 @@
    "stat": "Points",
    "value": 445.1,
    "digits": 2,
-   "rank": 70,
-   "of": 424
+   "rank": 71,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1278,8 +1294,8 @@
    "stat": "Games Started",
    "value": 33,
    "digits": 0,
-   "rank": 77,
-   "of": 424
+   "rank": 81,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1288,7 +1304,7 @@
    "value": 0.72,
    "digits": 2,
    "rank": 101,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1296,8 +1312,8 @@
    "stat": "VOR",
    "value": 61.1,
    "digits": 1,
-   "rank": 101,
-   "of": 424
+   "rank": 102,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1305,8 +1321,8 @@
    "stat": "PAA",
    "value": -1.4,
    "digits": 1,
-   "rank": 143,
-   "of": 424
+   "rank": 142,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1314,8 +1330,8 @@
    "stat": "Best Game",
    "value": 27.5,
    "digits": 2,
-   "rank": 129,
-   "of": 424
+   "rank": 130,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1324,7 +1340,7 @@
    "value": 13.49,
    "digits": 2,
    "rank": 96,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
@@ -1332,7 +1348,7 @@
    "stat": "Bench Points",
    "value": 141.3,
    "digits": 2,
-   "rank": 106,
+   "rank": 110,
    "of": 515
   },
   {
@@ -1341,8 +1357,8 @@
    "stat": "Points",
    "value": 445.1,
    "digits": 2,
-   "rank": 23,
-   "of": 127
+   "rank": 24,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1351,7 +1367,7 @@
    "value": 33,
    "digits": 0,
    "rank": 23,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1360,7 +1376,7 @@
    "value": 0.72,
    "digits": 2,
    "rank": 28,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1369,7 +1385,7 @@
    "value": 445.1,
    "digits": 2,
    "rank": 6,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1378,8 +1394,8 @@
    "stat": "Games Started",
    "value": 33,
    "digits": 0,
-   "rank": 3,
-   "of": 54,
+   "rank": 4,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1389,7 +1405,7 @@
    "value": 0.73,
    "digits": 2,
    "rank": 10,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1399,7 +1415,7 @@
    "value": 445.1,
    "digits": 2,
    "rank": 3,
-   "of": 13,
+   "of": 14,
    "franchise": 7
   },
   {
@@ -1468,8 +1484,8 @@
    "stat": "Points, 2023",
    "value": 209.8,
    "digits": 2,
-   "rank": 108,
-   "of": 1019,
+   "rank": 112,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1478,8 +1494,8 @@
    "stat": "Points, 2025",
    "value": 134.8,
    "digits": 2,
-   "rank": 269,
-   "of": 1019,
+   "rank": 274,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1488,15 +1504,15 @@
    "stat": "Points, 2024",
    "value": 100.5,
    "digits": 2,
-   "rank": 363,
-   "of": 1019,
+   "rank": 365,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 17.45,
   "rank": 85,
-  "of": 424,
+  "of": 426,
   "war": 7.2,
   "starts": 8.25,
   "black_ink": 0.0,
@@ -1806,6 +1822,11 @@
     "2026",
     10,
     17.45
+   ],
+   [
+    "2026",
+    11,
+    17.45
    ]
   ],
   "benchmark": 100
@@ -1868,7 +1889,7 @@
     "season": "2026",
     "nfl": "PIT",
     "missed": 7,
-    "lost": 13.32,
+    "lost": 15.54,
     "injuries": [
      "Foot"
     ],
@@ -1885,7 +1906,7 @@
      "IR",
      "Questionable"
     ],
-    "rostered": 6,
+    "rostered": 7,
     "games": [
      {
       "week": 2,
@@ -1933,8 +1954,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Foot",
-      "franchise": null,
-      "team": null
+      "franchise": 7,
+      "team": "the dart side 🛸💍"
      }
     ]
    }
@@ -2030,8 +2051,8 @@
       "team": "the dart side 🛸💍"
      }
     ],
-    "rostered": 5,
-    "lost": 11.1
+    "rostered": 6,
+    "lost": 13.32
    }
   ],
   "now": {

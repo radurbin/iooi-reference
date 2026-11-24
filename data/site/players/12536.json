@@ -40,7 +40,7 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "HOU",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 67.1,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 133.2,
@@ -526,6 +526,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -540,7 +556,7 @@
    "stat": "Bench Points",
    "value": 133.2,
    "digits": 2,
-   "rank": 118,
+   "rank": 121,
    "of": 515
   }
  ],
@@ -554,7 +570,7 @@
     "season": "2026",
     "nfl": "HOU",
     "missed": 3,
-    "lost": 0.66,
+    "lost": 0.99,
     "injuries": [
      "Toe"
     ],
@@ -566,7 +582,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 2,
+    "rostered": 3,
     "games": [
      {
       "week": 9,
@@ -586,8 +602,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Toe",
-      "franchise": null,
-      "team": null
+      "franchise": 1,
+      "team": "Mojo Dojo Casa Team 💍"
      }
     ]
    }
@@ -614,8 +630,8 @@
       "team": "Mojo Dojo Casa Team 💍"
      }
     ],
-    "rostered": 2,
-    "lost": 0.66
+    "rostered": 3,
+    "lost": 0.99
    }
   ],
   "now": {

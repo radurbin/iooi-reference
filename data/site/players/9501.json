@@ -81,7 +81,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NE",
-   "g": 4,
+   "g": 5,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 38.5,
@@ -94,7 +94,7 @@
   }
  ],
  "totals": {
-  "g": 53,
+  "g": 54,
   "gs": 3,
   "pts": 26.6,
   "bench_pts": 299.9,
@@ -1025,6 +1025,22 @@
    "pts": 1.4,
    "proj": 8.62,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -1039,8 +1055,8 @@
    "stat": "Points",
    "value": 26.6,
    "digits": 2,
-   "rank": 305,
-   "of": 424
+   "rank": 307,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1048,8 +1064,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 301,
-   "of": 424
+   "rank": 307,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1057,8 +1073,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 287,
-   "of": 424
+   "rank": 288,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1066,8 +1082,8 @@
    "stat": "VOR",
    "value": -8.5,
    "digits": 1,
-   "rank": 291,
-   "of": 424
+   "rank": 292,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1075,8 +1091,8 @@
    "stat": "PAA",
    "value": -10.1,
    "digits": 1,
-   "rank": 212,
-   "of": 424
+   "rank": 210,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1084,8 +1100,8 @@
    "stat": "Best Game",
    "value": 11.9,
    "digits": 2,
-   "rank": 321,
-   "of": 424
+   "rank": 322,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1102,8 +1118,8 @@
    "stat": "Points",
    "value": 26.6,
    "digits": 2,
-   "rank": 87,
-   "of": 127
+   "rank": 88,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1111,8 +1127,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 84,
-   "of": 127
+   "rank": 85,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1120,8 +1136,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 75,
-   "of": 127
+   "rank": 77,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1129,8 +1145,8 @@
    "stat": "Points",
    "value": 26.6,
    "digits": 2,
-   "rank": 43,
-   "of": 76,
+   "rank": 44,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1140,7 +1156,7 @@
    "value": 3,
    "digits": 0,
    "rank": 41,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1149,8 +1165,8 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 64,
-   "of": 76,
+   "rank": 65,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1160,7 +1176,7 @@
    "value": 26.6,
    "digits": 2,
    "rank": 13,
-   "of": 19,
+   "of": 20,
    "franchise": 2
   },
   {
@@ -1189,16 +1205,16 @@
    "stat": "Points, 2024",
    "value": 26.6,
    "digits": 2,
-   "rank": 701,
-   "of": 1019,
+   "rank": 704,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.75,
-  "rank": 320,
-  "of": 424,
+  "rank": 324,
+  "of": 426,
   "war": 0.0,
   "starts": 0.75,
   "black_ink": 0.0,
@@ -1507,6 +1523,11 @@
    [
     "2026",
     10,
+    0.75
+   ],
+   [
+    "2026",
+    11,
     0.75
    ]
   ],

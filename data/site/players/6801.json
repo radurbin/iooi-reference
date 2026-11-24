@@ -72,29 +72,29 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "CIN",
-   "g": 10,
-   "gs": 9,
-   "pts": 171.4,
+   "g": 11,
+   "gs": 10,
+   "pts": 183.7,
    "bench_pts": 0.0,
-   "ppg": 19.04,
+   "ppg": 18.37,
    "best": 37.5,
    "wins": 5,
-   "paa": 45.78,
-   "vor": 88.06,
-   "war": 1.04
+   "paa": 44.92,
+   "vor": 91.1,
+   "war": 1.08
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 35,
-  "pts": 583.2,
+  "g": 62,
+  "gs": 36,
+  "pts": 595.5,
   "bench_pts": 108.8,
-  "ppg": 16.66,
+  "ppg": 16.54,
   "best": 40.1,
   "wins": 24,
-  "paa": 106.57,
-  "vor": 201.01,
-  "war": 2.38
+  "paa": 105.71,
+  "vor": 204.05,
+  "war": 2.41
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "CIN",
-   "g": 9,
-   "pts": 171.4,
-   "rank": 9
+   "g": 10,
+   "pts": 183.7,
+   "rank": 6
   }
  ],
  "history": [
@@ -1244,13 +1244,32 @@
    "paa": -1.62,
    "vor": 2.34,
    "war": 0.02765595267910164
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": "WR",
+   "started": true,
+   "pts": 12.3,
+   "proj": 19.02,
+   "won": false,
+   "paa": -0.86,
+   "vor": 3.04,
+   "war": 0.03592910091643974
   }
  ],
  "similar": [
   {
    "player": "5859",
    "name": "A.J. Brown",
-   "score": 876,
+   "score": 901,
    "gs": 40,
    "pts": 653.7,
    "ppg": 16.34,
@@ -1259,16 +1278,16 @@
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 871,
-   "gs": 40,
-   "pts": 640.7,
-   "ppg": 16.02,
-   "war": 2.14
+   "score": 880,
+   "gs": 41,
+   "pts": 663.6,
+   "ppg": 16.19,
+   "war": 2.3
   },
   {
    "player": "3321",
    "name": "Tyreek Hill",
-   "score": 871,
+   "score": 850,
    "gs": 31,
    "pts": 557.9,
    "ppg": 18.0,
@@ -1277,7 +1296,7 @@
   {
    "player": "1479",
    "name": "Keenan Allen",
-   "score": 852,
+   "score": 848,
    "gs": 35,
    "pts": 547.16,
    "ppg": 15.63,
@@ -1286,11 +1305,11 @@
   {
    "player": "8137",
    "name": "George Pickens",
-   "score": 824,
-   "gs": 42,
-   "pts": 649.2,
-   "ppg": 15.46,
-   "war": 2.24
+   "score": 834,
+   "gs": 43,
+   "pts": 673.1,
+   "ppg": 15.65,
+   "war": 2.41
   }
  ],
  "status": {
@@ -1303,46 +1322,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 583.2,
+   "value": 595.5,
    "digits": 2,
-   "rank": 48,
-   "of": 424
+   "rank": 49,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 35,
+   "value": 36,
    "digits": 0,
    "rank": 67,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.38,
+   "value": 2.41,
    "digits": 2,
    "rank": 37,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 201.0,
+   "value": 204.1,
    "digits": 1,
    "rank": 37,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 106.6,
+   "value": 105.7,
    "digits": 1,
    "rank": 29,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1351,16 +1370,16 @@
    "value": 40.1,
    "digits": 2,
    "rank": 29,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 16.66,
+   "value": 16.54,
    "digits": 2,
-   "rank": 38,
-   "of": 256
+   "rank": 40,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1368,41 +1387,41 @@
    "stat": "Bench Points",
    "value": 108.8,
    "digits": 2,
-   "rank": 161,
+   "rank": 162,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 583.2,
+   "value": 595.5,
    "digits": 2,
    "rank": 16,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 35,
+   "value": 36,
    "digits": 0,
    "rank": 20,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 2.38,
+   "value": 2.41,
    "digits": 2,
    "rank": 8,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points",
-   "value": 583.2,
+   "value": 595.5,
    "digits": 2,
    "rank": 5,
    "of": 69,
@@ -1412,7 +1431,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Games Started",
-   "value": 35,
+   "value": 36,
    "digits": 0,
    "rank": 3,
    "of": 69,
@@ -1422,7 +1441,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": 2.37,
+   "value": 2.41,
    "digits": 2,
    "rank": 6,
    "of": 69,
@@ -1432,7 +1451,7 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "Points, WRs",
-   "value": 583.2,
+   "value": 595.5,
    "digits": 2,
    "rank": 1,
    "of": 15,
@@ -1502,20 +1521,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 171.4,
+   "value": 183.7,
    "digits": 2,
    "rank": 27,
-   "of": 242,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 171.4,
+   "value": 183.7,
    "digits": 2,
-   "rank": 7,
-   "of": 63,
+   "rank": 6,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -1524,18 +1543,18 @@
    "stat": "Points, 2024",
    "value": 193.0,
    "digits": 2,
-   "rank": 143,
-   "of": 1019,
+   "rank": 150,
+   "of": 1025,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 171.4,
+   "value": 183.7,
    "digits": 2,
-   "rank": 185,
-   "of": 1019,
+   "rank": 173,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1544,8 +1563,8 @@
    "stat": "Points, 2025",
    "value": 131.3,
    "digits": 2,
-   "rank": 278,
-   "of": 1019,
+   "rank": 282,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1554,17 +1573,17 @@
    "stat": "Points, 2023",
    "value": 87.5,
    "digits": 2,
-   "rank": 393,
-   "of": 1019,
+   "rank": 400,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 32.55,
-  "rank": 48,
-  "of": 424,
-  "war": 23.8,
-  "starts": 8.75,
+  "score": 33.1,
+  "rank": 49,
+  "of": 426,
+  "war": 24.1,
+  "starts": 9.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1872,6 +1891,11 @@
     "2026",
     10,
     32.55
+   ],
+   [
+    "2026",
+    11,
+    33.1
    ]
   ],
   "benchmark": 100

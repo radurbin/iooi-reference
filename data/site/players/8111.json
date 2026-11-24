@@ -805,47 +805,47 @@
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 930,
-   "gs": 12,
-   "pts": 131.4,
-   "ppg": 10.95,
-   "war": 0.18
+   "score": 926,
+   "gs": 13,
+   "pts": 143.3,
+   "ppg": 11.02,
+   "war": 0.17
   },
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 877,
+   "score": 878,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.25
-  },
-  {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 869,
-   "gs": 16,
-   "pts": 191.95,
-   "ppg": 12.0,
-   "war": 0.44
+   "war": 0.23
   },
   {
    "player": "4144",
    "name": "Jonnu Smith",
-   "score": 865,
+   "score": 864,
    "gs": 10,
    "pts": 133.2,
    "ppg": 13.32,
    "war": 0.38
   },
   {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 861,
+   "gs": 17,
+   "pts": 191.95,
+   "ppg": 11.29,
+   "war": 0.29
+  },
+  {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 829,
+   "score": 832,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.47
+   "war": 0.45
   }
  ],
  "status": {
@@ -870,7 +870,7 @@
    "value": 129.2,
    "digits": 2,
    "rank": 202,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -878,8 +878,8 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 212,
-   "of": 424
+   "rank": 215,
+   "of": 426
   },
   {
    "group": "Career",
@@ -887,8 +887,8 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 157,
-   "of": 424
+   "rank": 155,
+   "of": 426
   },
   {
    "group": "Career",
@@ -896,8 +896,8 @@
    "stat": "VOR",
    "value": 20.4,
    "digits": 1,
-   "rank": 157,
-   "of": 424
+   "rank": 155,
+   "of": 426
   },
   {
    "group": "Career",
@@ -905,8 +905,8 @@
    "stat": "PAA",
    "value": 3.8,
    "digits": 1,
-   "rank": 115,
-   "of": 424
+   "rank": 118,
+   "of": 426
   },
   {
    "group": "Career",
@@ -914,8 +914,8 @@
    "stat": "Best Game",
    "value": 29.1,
    "digits": 2,
-   "rank": 116,
-   "of": 424
+   "rank": 117,
+   "of": 426
   },
   {
    "group": "Career",
@@ -923,8 +923,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.75,
    "digits": 2,
-   "rank": 133,
-   "of": 256
+   "rank": 130,
+   "of": 258
   },
   {
    "group": "Career",
@@ -932,7 +932,7 @@
    "stat": "Bench Points",
    "value": 121.9,
    "digits": 2,
-   "rank": 141,
+   "rank": 143,
    "of": 515
   },
   {
@@ -959,7 +959,7 @@
    "stat": "WAR",
    "value": 0.24,
    "digits": 2,
-   "rank": 15,
+   "rank": 14,
    "of": 52
   },
   {
@@ -1068,8 +1068,8 @@
    "stat": "Points, 2024",
    "value": 105.1,
    "digits": 2,
-   "rank": 346,
-   "of": 1019,
+   "rank": 350,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1078,8 +1078,8 @@
    "stat": "Points, 2025",
    "value": 15.6,
    "digits": 2,
-   "rank": 801,
-   "of": 1019,
+   "rank": 808,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1088,15 +1088,15 @@
    "stat": "Points, 2023",
    "value": 8.5,
    "digits": 2,
-   "rank": 887,
-   "of": 1019,
+   "rank": 891,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 5.15,
-  "rank": 196,
-  "of": 424,
+  "rank": 198,
+  "of": 426,
   "war": 2.4,
   "starts": 2.75,
   "black_ink": 0.0,
@@ -1350,6 +1350,11 @@
    [
     "2026",
     10,
+    5.15
+   ],
+   [
+    "2026",
+    11,
     5.15
    ]
   ],

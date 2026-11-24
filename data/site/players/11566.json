@@ -79,29 +79,29 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "WAS",
-   "g": 10,
-   "gs": 7,
-   "pts": 140.16,
+   "g": 11,
+   "gs": 8,
+   "pts": 157.82,
    "bench_pts": 0.0,
-   "ppg": 20.02,
+   "ppg": 19.73,
    "best": 33.16,
-   "wins": 4,
-   "paa": 17.37,
-   "vor": 44.9,
-   "war": 0.53
+   "wins": 5,
+   "paa": 18.4,
+   "vor": 48.95,
+   "war": 0.58
   }
  ],
  "totals": {
-  "g": 44,
-  "gs": 33,
-  "pts": 575.76,
+  "g": 45,
+  "gs": 34,
+  "pts": 593.42,
   "bench_pts": 0.0,
   "ppg": 17.45,
   "best": 34.42,
-  "wins": 15,
-  "paa": 15.75,
-  "vor": 171.22,
-  "war": 2.02
+  "wins": 16,
+  "paa": 16.78,
+  "vor": 175.27,
+  "war": 2.07
  },
  "nfl": [
   {
@@ -121,9 +121,9 @@
   {
    "season": "2026",
    "team": "WAS",
-   "g": 7,
-   "pts": 140.16,
-   "rank": 20
+   "g": 8,
+   "pts": 157.82,
+   "rank": 16
   }
  ],
  "history": [
@@ -961,53 +961,72 @@
    "paa": 4.21,
    "vor": 8.25,
    "war": 0.09750496136862759
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": "QB",
+   "started": true,
+   "pts": 17.66,
+   "proj": 22.21,
+   "won": true,
+   "paa": 1.03,
+   "vor": 4.05,
+   "war": 0.047866071944599
   }
  ],
  "similar": [
   {
    "player": "11560",
    "name": "Caleb Williams",
-   "score": 907,
-   "gs": 37,
-   "pts": 611.02,
-   "ppg": 16.51,
-   "war": 1.9
+   "score": 905,
+   "gs": 38,
+   "pts": 625.76,
+   "ppg": 16.47,
+   "war": 1.91
+  },
+  {
+   "player": "7523",
+   "name": "Trevor Lawrence",
+   "score": 837,
+   "gs": 40,
+   "pts": 727.78,
+   "ppg": 18.19,
+   "war": 2.54
+  },
+  {
+   "player": "9758",
+   "name": "C.J. Stroud",
+   "score": 830,
+   "gs": 42,
+   "pts": 697.58,
+   "ppg": 16.61,
+   "war": 1.67
   },
   {
    "player": "11564",
    "name": "Drake Maye",
-   "score": 828,
+   "score": 815,
    "gs": 26,
    "pts": 500.62,
    "ppg": 19.25,
    "war": 2.15
   },
   {
-   "player": "7523",
-   "name": "Trevor Lawrence",
-   "score": 826,
-   "gs": 39,
-   "pts": 714.74,
-   "ppg": 18.33,
-   "war": 2.55
-  },
-  {
-   "player": "9758",
-   "name": "C.J. Stroud",
-   "score": 824,
-   "gs": 41,
-   "pts": 676.52,
-   "ppg": 16.5,
-   "war": 1.58
-  },
-  {
    "player": "11563",
    "name": "Bo Nix",
-   "score": 808,
-   "gs": 25,
-   "pts": 430.42,
-   "ppg": 17.22,
-   "war": 1.46
+   "score": 803,
+   "gs": 26,
+   "pts": 442.52,
+   "ppg": 17.02,
+   "war": 1.44
   }
  ],
  "status": {
@@ -1020,46 +1039,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 575.76,
+   "value": 593.42,
    "digits": 2,
    "rank": 50,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
-   "rank": 77,
-   "of": 424
+   "rank": 74,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.02,
+   "value": 2.07,
    "digits": 2,
-   "rank": 49,
-   "of": 424
+   "rank": 50,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 171.2,
+   "value": 175.3,
    "digits": 1,
-   "rank": 49,
-   "of": 424
+   "rank": 50,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 15.8,
+   "value": 16.8,
    "digits": 1,
-   "rank": 81,
-   "of": 424
+   "rank": 79,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1067,8 +1086,8 @@
    "stat": "Best Game",
    "value": 34.42,
    "digits": 2,
-   "rank": 66,
-   "of": 424
+   "rank": 67,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1077,13 +1096,13 @@
    "value": 17.45,
    "digits": 2,
    "rank": 24,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 575.76,
+   "value": 593.42,
    "digits": 2,
    "rank": 16,
    "of": 68
@@ -1092,57 +1111,57 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 33,
+   "value": 34,
    "digits": 0,
-   "rank": 17,
+   "rank": 16,
    "of": 68
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 2.02,
+   "value": 2.07,
    "digits": 2,
-   "rank": 13,
+   "rank": 14,
    "of": 68
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points",
-   "value": 506.1,
+   "value": 523.76,
    "digits": 2,
-   "rank": 3,
-   "of": 76,
+   "rank": 1,
+   "of": 77,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Games Started",
-   "value": 30,
+   "value": 31,
    "digits": 0,
    "rank": 3,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 1.64,
+   "value": 1.69,
    "digits": 2,
    "rank": 4,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "Points, QBs",
-   "value": 506.1,
+   "value": 523.76,
    "digits": 2,
-   "rank": 2,
+   "rank": 1,
    "of": 11,
    "franchise": 2
   },
@@ -1152,8 +1171,8 @@
    "stat": "Points",
    "value": 69.66,
    "digits": 2,
-   "rank": 26,
-   "of": 67,
+   "rank": 27,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1162,8 +1181,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 40,
-   "of": 67,
+   "rank": 41,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1173,7 +1192,7 @@
    "value": 0.39,
    "digits": 2,
    "rank": 12,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1230,17 +1249,17 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 140.16,
+   "value": 157.82,
    "digits": 2,
-   "rank": 44,
-   "of": 242,
+   "rank": 40,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 140.16,
+   "value": 157.82,
    "digits": 2,
    "rank": 13,
    "of": 39,
@@ -1253,17 +1272,17 @@
    "value": 319.82,
    "digits": 2,
    "rank": 17,
-   "of": 1019,
+   "of": 1025,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 140.16,
+   "value": 157.82,
    "digits": 2,
-   "rank": 258,
-   "of": 1019,
+   "rank": 226,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1272,17 +1291,17 @@
    "stat": "Points, 2025",
    "value": 115.78,
    "digits": 2,
-   "rank": 325,
-   "of": 1019,
+   "rank": 330,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 34.45,
+  "score": 35.2,
   "rank": 44,
-  "of": 424,
-  "war": 20.2,
-  "starts": 8.25,
+  "of": 426,
+  "war": 20.7,
+  "starts": 8.5,
   "black_ink": 0.0,
   "awards": 6.0,
   "history": [
@@ -1505,12 +1524,27 @@
     "2026",
     10,
     34.45
+   ],
+   [
+    "2026",
+    11,
+    35.2
    ]
   ],
   "benchmark": 100
  },
  "black_ink": null,
- "records_held": [],
+ "records_held": [
+  {
+   "list": "Career Points",
+   "scope": 2,
+   "rank": 1,
+   "value": "523.76",
+   "href": "franchise.html?id=2#all-time-leaders",
+   "player": "11566",
+   "franchise": 2
+  }
+ ],
  "injuries": {
   "seasons": [
    {
@@ -1608,7 +1642,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 2,
-    "lost": 12.82,
+    "lost": 12.24,
     "injuries": [
      "Elbow"
     ],
@@ -1753,7 +1787,7 @@
      }
     ],
     "rostered": 2,
-    "lost": 12.82
+    "lost": 12.24
    }
   ],
   "now": null

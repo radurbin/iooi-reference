@@ -24,29 +24,29 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "DEN",
-   "g": 10,
-   "gs": 2,
-   "pts": 42.0,
+   "g": 11,
+   "gs": 3,
+   "pts": 79.3,
    "bench_pts": 25.6,
-   "ppg": 21.0,
-   "best": 21.5,
+   "ppg": 26.43,
+   "best": 37.3,
    "wins": 2,
-   "paa": 11.77,
-   "vor": 25.06,
-   "war": 0.3
+   "paa": 34.89,
+   "vor": 53.89,
+   "war": 0.64
   }
  ],
  "totals": {
-  "g": 10,
-  "gs": 2,
-  "pts": 42.0,
+  "g": 11,
+  "gs": 3,
+  "pts": 79.3,
   "bench_pts": 25.6,
-  "ppg": 21.0,
-  "best": 21.5,
+  "ppg": 26.43,
+  "best": 37.3,
   "wins": 2,
-  "paa": 11.77,
-  "vor": 25.06,
-  "war": 0.3
+  "paa": 34.89,
+  "vor": 53.89,
+  "war": 0.64
  },
  "nfl": [
   {
@@ -237,6 +237,25 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "RB",
+   "started": true,
+   "pts": 37.3,
+   "proj": 18.93,
+   "won": false,
+   "paa": 23.12,
+   "vor": 28.83,
+   "war": 0.34073551954636766
   }
  ],
  "status": {
@@ -249,55 +268,55 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 42.0,
+   "value": 79.3,
    "digits": 2,
-   "rank": 279,
-   "of": 424
+   "rank": 238,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 333,
-   "of": 424
+   "rank": 307,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.3,
+   "value": 0.64,
    "digits": 2,
-   "rank": 147,
-   "of": 424
+   "rank": 104,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 25.1,
+   "value": 53.9,
    "digits": 1,
-   "rank": 148,
-   "of": 424
+   "rank": 104,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 11.8,
+   "value": 34.9,
    "digits": 1,
-   "rank": 92,
-   "of": 424
+   "rank": 61,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Best Game",
-   "value": 21.5,
+   "value": 37.3,
    "digits": 2,
-   "rank": 206,
-   "of": 424
+   "rank": 46,
+   "of": 426
   },
   {
    "group": "Career",
@@ -305,71 +324,71 @@
    "stat": "Bench Points",
    "value": 25.6,
    "digits": 2,
-   "rank": 376,
+   "rank": 379,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 42.0,
+   "value": 79.3,
    "digits": 2,
-   "rank": 67,
+   "rank": 58,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 79,
+   "rank": 73,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 0.3,
+   "value": 0.64,
    "digits": 2,
-   "rank": 47,
+   "rank": 36,
    "of": 100
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points",
-   "value": 42.0,
+   "value": 79.3,
    "digits": 2,
-   "rank": 29,
-   "of": 54,
+   "rank": 23,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Games Started",
-   "value": 2,
+   "value": 3,
    "digits": 0,
-   "rank": 36,
-   "of": 54,
+   "rank": 31,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 0.3,
+   "value": 0.64,
    "digits": 2,
-   "rank": 17,
-   "of": 54,
+   "rank": 12,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points, RBs",
-   "value": 42.0,
+   "value": 79.3,
    "digits": 2,
    "rank": 8,
    "of": 9,
@@ -379,40 +398,40 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 42.0,
+   "value": 79.3,
    "digits": 2,
-   "rank": 129,
-   "of": 242,
+   "rank": 85,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 42.0,
+   "value": 79.3,
    "digits": 2,
-   "rank": 34,
-   "of": 58,
+   "rank": 24,
+   "of": 60,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 42.0,
+   "value": 79.3,
    "digits": 2,
-   "rank": 616,
-   "of": 1019,
+   "rank": 430,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 3.5,
-  "rank": 220,
-  "of": 424,
-  "war": 3.0,
-  "starts": 0.5,
+  "score": 7.15,
+  "rank": 167,
+  "of": 426,
+  "war": 6.4,
+  "starts": 0.75,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -465,6 +484,11 @@
     "2026",
     10,
     3.5
+   ],
+   [
+    "2026",
+    11,
+    7.15
    ]
   ],
   "benchmark": 100

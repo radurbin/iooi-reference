@@ -72,7 +72,7 @@
    "franchise": 8,
    "team": "BBL KIZZY",
    "nfl": "GB",
-   "g": 10,
+   "g": 11,
    "gs": 3,
    "pts": 47.4,
    "bench_pts": 0.0,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 45,
   "pts": 685.5,
   "bench_pts": 16.8,
@@ -1263,53 +1263,69 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "opp": 12,
+   "opp_team": "Team Win One Game",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 940,
-   "gs": 47,
-   "pts": 684.61,
-   "ppg": 14.57,
-   "war": 2.9
+   "score": 938,
+   "gs": 48,
+   "pts": 705.61,
+   "ppg": 14.7,
+   "war": 3.04
   },
   {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 933,
+   "score": 934,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
    "war": 3.51
   },
   {
-   "player": "6790",
-   "name": "D'Andre Swift",
-   "score": 870,
-   "gs": 51,
-   "pts": 718.2,
-   "ppg": 14.08,
-   "war": 2.84
-  },
-  {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 867,
-   "gs": 49,
-   "pts": 771.7,
-   "ppg": 15.75,
-   "war": 3.78
+   "score": 859,
+   "gs": 50,
+   "pts": 779.5,
+   "ppg": 15.59,
+   "war": 3.77
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 820,
-   "gs": 44,
-   "pts": 594.7,
-   "ppg": 13.52,
-   "war": 2.16
+   "score": 859,
+   "gs": 45,
+   "pts": 620.6,
+   "ppg": 13.79,
+   "war": 2.37
+  },
+  {
+   "player": "6790",
+   "name": "D'Andre Swift",
+   "score": 857,
+   "gs": 52,
+   "pts": 731.4,
+   "ppg": 14.07,
+   "war": 2.9
   }
  ],
  "status": {
@@ -1324,8 +1340,8 @@
    "stat": "Points",
    "value": 685.5,
    "digits": 2,
-   "rank": 33,
-   "of": 424
+   "rank": 36,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1333,8 +1349,8 @@
    "stat": "Games Started",
    "value": 45,
    "digits": 0,
-   "rank": 31,
-   "of": 424
+   "rank": 34,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1343,7 +1359,7 @@
    "value": 3.13,
    "digits": 2,
    "rank": 26,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1352,7 +1368,7 @@
    "value": 264.4,
    "digits": 1,
    "rank": 26,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1361,7 +1377,7 @@
    "value": 59.9,
    "digits": 1,
    "rank": 44,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1369,8 +1385,8 @@
    "stat": "Best Game",
    "value": 32.0,
    "digits": 2,
-   "rank": 86,
-   "of": 424
+   "rank": 87,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1378,8 +1394,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 15.23,
    "digits": 2,
-   "rank": 64,
-   "of": 256
+   "rank": 62,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1387,7 +1403,7 @@
    "stat": "Bench Points",
    "value": 16.8,
    "digits": 2,
-   "rank": 407,
+   "rank": 410,
    "of": 515
   },
   {
@@ -1396,7 +1412,7 @@
    "stat": "Points",
    "value": 685.5,
    "digits": 2,
-   "rank": 11,
+   "rank": 12,
    "of": 100
   },
   {
@@ -1405,7 +1421,7 @@
    "stat": "Games Started",
    "value": 45,
    "digits": 0,
-   "rank": 10,
+   "rank": 11,
    "of": 100
   },
   {
@@ -1423,7 +1439,7 @@
    "stat": "Points",
    "value": 685.5,
    "digits": 2,
-   "rank": 1,
+   "rank": 2,
    "of": 69,
    "franchise": 8
   },
@@ -1433,7 +1449,7 @@
    "stat": "Games Started",
    "value": 45,
    "digits": 0,
-   "rank": 1,
+   "rank": 2,
    "of": 69,
    "franchise": 8
   },
@@ -1523,8 +1539,8 @@
    "stat": "Points",
    "value": 47.4,
    "digits": 2,
-   "rank": 122,
-   "of": 242,
+   "rank": 130,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1533,8 +1549,8 @@
    "stat": "Points",
    "value": 47.4,
    "digits": 2,
-   "rank": 30,
-   "of": 58,
+   "rank": 33,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1544,7 +1560,7 @@
    "value": 259.9,
    "digits": 2,
    "rank": 53,
-   "of": 1019,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1553,8 +1569,8 @@
    "stat": "Points, 2025",
    "value": 213.9,
    "digits": 2,
-   "rank": 102,
-   "of": 1019,
+   "rank": 106,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1563,8 +1579,8 @@
    "stat": "Points, 2023",
    "value": 164.3,
    "digits": 2,
-   "rank": 202,
-   "of": 1019,
+   "rank": 208,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1573,15 +1589,15 @@
    "stat": "Points, 2026",
    "value": 47.4,
    "digits": 2,
-   "rank": 587,
-   "of": 1019,
+   "rank": 595,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 42.55,
   "rank": 30,
-  "of": 424,
+  "of": 426,
   "war": 31.3,
   "starts": 11.25,
   "black_ink": 0.0,
@@ -1891,31 +1907,17 @@
     "2026",
     10,
     42.55
+   ],
+   [
+    "2026",
+    11,
+    42.55
    ]
   ],
   "benchmark": 100
  },
  "black_ink": null,
- "records_held": [
-  {
-   "list": "Career Points",
-   "scope": 8,
-   "rank": 1,
-   "value": "685.50",
-   "href": "franchise.html?id=8#all-time-leaders",
-   "player": "5850",
-   "franchise": 8
-  },
-  {
-   "list": "Career Starts",
-   "scope": 8,
-   "rank": 1,
-   "value": "45",
-   "href": "franchise.html?id=8#all-time-leaders",
-   "player": "5850",
-   "franchise": 8
-  }
- ],
+ "records_held": [],
  "injuries": {
   "seasons": [
    {

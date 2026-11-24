@@ -72,29 +72,29 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "BAL",
-   "g": 10,
+   "g": 11,
    "gs": 3,
    "pts": 17.1,
-   "bench_pts": 58.0,
+   "bench_pts": 61.4,
    "ppg": 5.7,
    "best": 10.9,
    "wins": 0,
    "paa": -19.18,
-   "vor": -12.93,
-   "war": -0.15
+   "vor": -13.8,
+   "war": -0.16
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 47,
   "pts": 437.9,
-  "bench_pts": 58.0,
+  "bench_pts": 61.4,
   "ppg": 9.32,
   "best": 27.1,
   "wins": 13,
   "paa": -68.43,
-  "vor": -23.31,
-  "war": -0.28
+  "vor": -24.18,
+  "war": -0.29
  },
  "nfl": [
   {
@@ -1112,8 +1112,8 @@
    "proj": 10.51,
    "won": false,
    "paa": -1.69,
-   "vor": 0.89,
-   "war": 0.010518717044615582
+   "vor": 0.6,
+   "war": 0.00709126991771837
   },
   {
    "season": "2026",
@@ -1163,8 +1163,8 @@
    "proj": 10.4,
    "won": false,
    "paa": -8.03,
-   "vor": -5.21,
-   "war": -0.061575860452187846
+   "vor": -5.5,
+   "war": -0.06500330757908505
   },
   {
    "season": "2026",
@@ -1182,8 +1182,8 @@
    "proj": 9.59,
    "won": false,
    "paa": -9.46,
-   "vor": -8.61,
-   "war": -0.1017597233192586
+   "vor": -8.9,
+   "war": -0.10518717044615583
   },
   {
    "season": "2026",
@@ -1248,6 +1248,22 @@
    "pts": 16.2,
    "proj": 6.99,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": null,
+   "started": false,
+   "pts": 3.4,
+   "proj": 7.53,
+   "won": true
   }
  ],
  "similar": [
@@ -1258,7 +1274,7 @@
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.66
+   "war": -0.68
   },
   {
    "player": "10236",
@@ -1267,34 +1283,34 @@
    "gs": 39,
    "pts": 318.1,
    "ppg": 8.16,
-   "war": -0.86
-  },
-  {
-   "player": "8110",
-   "name": "Jake Ferguson",
-   "score": 703,
-   "gs": 34,
-   "pts": 350.0,
-   "ppg": 10.29,
-   "war": 0.23
+   "war": -0.88
   },
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 693,
-   "gs": 33,
-   "pts": 301.5,
-   "ppg": 9.14,
-   "war": -0.33
+   "score": 711,
+   "gs": 34,
+   "pts": 306.3,
+   "ppg": 9.01,
+   "war": -0.42
+  },
+  {
+   "player": "8110",
+   "name": "Jake Ferguson",
+   "score": 705,
+   "gs": 34,
+   "pts": 350.0,
+   "ppg": 10.29,
+   "war": 0.22
   },
   {
    "player": "10859",
    "name": "Sam LaPorta",
-   "score": 610,
-   "gs": 44,
-   "pts": 524.1,
-   "ppg": 11.91,
-   "war": 1.01
+   "score": 618,
+   "gs": 45,
+   "pts": 533.3,
+   "ppg": 11.85,
+   "war": 0.97
   }
  ],
  "status": {
@@ -1309,8 +1325,8 @@
    "stat": "Points",
    "value": 437.9,
    "digits": 2,
-   "rank": 71,
-   "of": 424
+   "rank": 74,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1318,26 +1334,26 @@
    "stat": "Games Started",
    "value": 47,
    "digits": 0,
-   "rank": 25,
-   "of": 424
+   "rank": 28,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.28,
+   "value": -0.29,
    "digits": 2,
-   "rank": 377,
-   "of": 424
+   "rank": 380,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -23.3,
+   "value": -24.2,
    "digits": 1,
-   "rank": 377,
-   "of": 424
+   "rank": 381,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1345,8 +1361,8 @@
    "stat": "PAA",
    "value": -68.4,
    "digits": 1,
-   "rank": 393,
-   "of": 424
+   "rank": 395,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1354,8 +1370,8 @@
    "stat": "Best Game",
    "value": 27.1,
    "digits": 2,
-   "rank": 132,
-   "of": 424
+   "rank": 133,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1363,16 +1379,16 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 9.32,
    "digits": 2,
-   "rank": 176,
-   "of": 256
+   "rank": 177,
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 58.0,
+   "value": 61.4,
    "digits": 2,
-   "rank": 267,
+   "rank": 264,
    "of": 515
   },
   {
@@ -1397,7 +1413,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.28,
+   "value": -0.29,
    "digits": 2,
    "rank": 42,
    "of": 52
@@ -1409,7 +1425,7 @@
    "value": 437.9,
    "digits": 2,
    "rank": 3,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1418,18 +1434,18 @@
    "stat": "Games Started",
    "value": 47,
    "digits": 0,
-   "rank": 1,
-   "of": 49,
+   "rank": 2,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.26,
+   "value": -0.27,
    "digits": 2,
-   "rank": 38,
-   "of": 49,
+   "rank": 39,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1508,8 +1524,8 @@
    "stat": "Points",
    "value": 17.1,
    "digits": 2,
-   "rank": 176,
-   "of": 242,
+   "rank": 182,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1519,7 +1535,7 @@
    "value": 17.1,
    "digits": 2,
    "rank": 21,
-   "of": 29,
+   "of": 30,
    "season": "2026"
   },
   {
@@ -1528,8 +1544,8 @@
    "stat": "Points, 2024",
    "value": 158.6,
    "digits": 2,
-   "rank": 216,
-   "of": 1019,
+   "rank": 222,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1538,8 +1554,8 @@
    "stat": "Points, 2023",
    "value": 135.4,
    "digits": 2,
-   "rank": 267,
-   "of": 1019,
+   "rank": 272,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1548,8 +1564,8 @@
    "stat": "Points, 2025",
    "value": 126.8,
    "digits": 2,
-   "rank": 289,
-   "of": 1019,
+   "rank": 293,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1558,15 +1574,15 @@
    "stat": "Points, 2026",
    "value": 17.1,
    "digits": 2,
-   "rank": 780,
-   "of": 1019,
+   "rank": 786,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 11.75,
-  "rank": 116,
-  "of": 424,
+  "rank": 118,
+  "of": 426,
   "war": 0.0,
   "starts": 11.75,
   "black_ink": 0.0,
@@ -1876,22 +1892,17 @@
     "2026",
     10,
     11.75
+   ],
+   [
+    "2026",
+    11,
+    11.75
    ]
   ],
   "benchmark": 100
  },
  "black_ink": null,
- "records_held": [
-  {
-   "list": "Career Starts",
-   "scope": 12,
-   "rank": 1,
-   "value": "47",
-   "href": "franchise.html?id=12#all-time-leaders",
-   "player": "5012",
-   "franchise": 12
-  }
- ],
+ "records_held": [],
  "injuries": {
   "seasons": [
    {

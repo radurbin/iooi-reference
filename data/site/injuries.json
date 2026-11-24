@@ -192,16 +192,16 @@
    "season_missed": 4
   },
   {
-   "player": "12533",
-   "name": "Jacory Croskey-Merritt",
-   "pos": "RB",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
+   "player": "5927",
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
    "status": "IR",
-   "injury": "Groin",
+   "injury": "Knee",
    "since": null,
-   "streak": 3,
-   "season_missed": 3
+   "streak": 4,
+   "season_missed": 5
   },
   {
    "player": "12536",
@@ -233,18 +233,6 @@
    "pos": "RB",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "status": "IR",
-   "injury": "Knee",
-   "since": null,
-   "streak": 3,
-   "season_missed": 4
-  },
-  {
-   "player": "5927",
-   "name": "Terry McLaurin",
-   "pos": "WR",
-   "franchise": 3,
-   "team": "Kolkata Kommies",
    "status": "IR",
    "injury": "Knee",
    "since": null,
@@ -564,6 +552,18 @@
    "season_missed": 2
   },
   {
+   "player": "5022",
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "Questionable",
+   "injury": "Shin",
+   "since": null,
+   "streak": 0,
+   "season_missed": 2
+  },
+  {
    "player": "3198",
    "name": "Derrick Henry",
    "pos": "RB",
@@ -648,16 +648,16 @@
    "season_missed": 0
   },
   {
-   "player": "8136",
-   "name": "Rachaad White",
-   "pos": "RB",
+   "player": "10859",
+   "name": "Sam LaPorta",
+   "pos": "TE",
    "franchise": 12,
    "team": "Team Win One Game",
    "status": "Questionable",
-   "injury": "Heel",
+   "injury": "Ankle",
    "since": null,
    "streak": 0,
-   "season_missed": 1
+   "season_missed": 0
   },
   {
    "player": "4866",
@@ -1760,8 +1760,8 @@
    "name": "De'Von Achane",
    "pos": "RB",
    "season": "2026",
-   "missed": 6,
-   "lost": 61.38,
+   "missed": 7,
+   "lost": 71.61,
    "injuries": [
     "Knee - ACL"
    ],
@@ -1771,7 +1771,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "kinds": [
     "IR"
@@ -2352,6 +2353,31 @@
    ]
   },
   {
+   "player": "8151",
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "season": "2026",
+   "missed": 2,
+   "lost": 36.14,
+   "injuries": [
+    "Groin"
+   ],
+   "weeks": [
+    10,
+    11
+   ],
+   "kinds": [
+    "Out",
+    "Questionable"
+   ],
+   "teams": [
+    {
+     "franchise": 2,
+     "team": "Storm FC"
+    }
+   ]
+  },
+  {
    "player": "13345",
    "name": "Jonah Coleman",
    "pos": "RB",
@@ -2376,36 +2402,30 @@
      "team": "the dart side 🛸💍"
     }
    ]
-  },
-  {
-   "player": "9493",
-   "name": "Puka Nacua",
-   "pos": "WR",
-   "season": "2024",
-   "missed": 5,
-   "lost": 35.4,
-   "injuries": [
-    "Knee"
-   ],
-   "weeks": [
-    2,
-    3,
-    4,
-    5,
-    7
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "teams": [
-    {
-     "franchise": 7,
-     "team": "young sexy central"
-    }
-   ]
   }
  ],
  "player_careers": [
+  {
+   "player": "11583",
+   "name": "Jonathon Brooks",
+   "pos": "RB",
+   "missed": 30,
+   "lost": 0.0,
+   "injuries": [
+    "Knee",
+    "Knee - ACL",
+    "Groin",
+    "Abdomen"
+   ],
+   "kinds": [
+    "IR",
+    "NFI",
+    "PUP",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 3
+  },
   {
    "player": "9502",
    "name": "Tank Dell",
@@ -2425,27 +2445,6 @@
     "Questionable"
    ],
    "seasons": 4,
-   "franchises": 3
-  },
-  {
-   "player": "11583",
-   "name": "Jonathon Brooks",
-   "pos": "RB",
-   "missed": 29,
-   "lost": 0.0,
-   "injuries": [
-    "Knee",
-    "Knee - ACL",
-    "Groin",
-    "Abdomen"
-   ],
-   "kinds": [
-    "IR",
-    "NFI",
-    "PUP",
-    "Questionable"
-   ],
-   "seasons": 3,
    "franchises": 3
   },
   {
@@ -2489,7 +2488,7 @@
    "player": "5849",
    "name": "Kyler Murray",
    "pos": "QB",
-   "missed": 23,
+   "missed": 24,
    "lost": 77.73,
    "injuries": [
     "Foot",
@@ -2505,6 +2504,25 @@
    ],
    "seasons": 3,
    "franchises": 1
+  },
+  {
+   "player": "8205",
+   "name": "Isiah Pacheco",
+   "pos": "RB",
+   "missed": 24,
+   "lost": 9.4,
+   "injuries": [
+    "Back",
+    "Ankle",
+    "Knee",
+    "Shoulder"
+   ],
+   "kinds": [
+    "IR",
+    "Out"
+   ],
+   "seasons": 4,
+   "franchises": 2
   },
   {
    "player": "11565",
@@ -2524,25 +2542,6 @@
     "Questionable"
    ],
    "seasons": 2,
-   "franchises": 2
-  },
-  {
-   "player": "8205",
-   "name": "Isiah Pacheco",
-   "pos": "RB",
-   "missed": 23,
-   "lost": 9.4,
-   "injuries": [
-    "Ankle",
-    "Back",
-    "Knee",
-    "Shoulder"
-   ],
-   "kinds": [
-    "IR",
-    "Out"
-   ],
-   "seasons": 4,
    "franchises": 2
   },
   {
@@ -2602,8 +2601,8 @@
    "player": "11638",
    "name": "Ricky Pearsall",
    "pos": "WR",
-   "missed": 21,
-   "lost": 6.0,
+   "missed": 22,
+   "lost": 6.75,
    "injuries": [
     "Knee - PCL",
     "Knee",
@@ -2889,8 +2888,8 @@
    "player": "9226",
    "name": "De'Von Achane",
    "pos": "RB",
-   "missed": 12,
-   "lost": 104.46,
+   "missed": 13,
+   "lost": 114.69,
    "injuries": [
     "Knee - ACL",
     "Shoulder",
@@ -2962,7 +2961,7 @@
    "player": "5849",
    "name": "Kyler Murray",
    "pos": "QB",
-   "missed": 23,
+   "missed": 24,
    "lost": 77.73,
    "injuries": [
     "Foot",
@@ -3014,6 +3013,26 @@
    ],
    "seasons": 2,
    "franchises": 1
+  },
+  {
+   "player": "8151",
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "missed": 8,
+   "lost": 71.28,
+   "injuries": [
+    "Oblique",
+    "Groin",
+    "Ankle",
+    "Calf"
+   ],
+   "kinds": [
+    "Doubtful",
+    "Out",
+    "Questionable"
+   ],
+   "seasons": 3,
+   "franchises": 2
   },
   {
    "player": "11632",
@@ -3109,7 +3128,7 @@
    "name": "Jayden Daniels",
    "pos": "QB",
    "missed": 11,
-   "lost": 58.36,
+   "lost": 57.78,
    "injuries": [
     "Elbow",
     "Knee",
@@ -3154,25 +3173,6 @@
    ],
    "seasons": 4,
    "franchises": 3
-  },
-  {
-   "player": "8151",
-   "name": "Kenneth Walker III",
-   "pos": "RB",
-   "missed": 7,
-   "lost": 53.21,
-   "injuries": [
-    "Oblique",
-    "Ankle",
-    "Calf",
-    "Groin"
-   ],
-   "kinds": [
-    "Doubtful",
-    "Questionable"
-   ],
-   "seasons": 3,
-   "franchises": 2
   },
   {
    "player": "4217",
@@ -3224,6 +3224,26 @@
    "kinds": [
     "Out",
     "PUP"
+   ],
+   "seasons": 2,
+   "franchises": 1
+  },
+  {
+   "player": "11604",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "missed": 7,
+   "lost": 48.88,
+   "injuries": [
+    "Knee",
+    "Toe",
+    "Ankle"
+   ],
+   "kinds": [
+    "Doubtful",
+    "IR",
+    "Out",
+    "Questionable"
    ],
    "seasons": 2,
    "franchises": 1
@@ -3296,21 +3316,6 @@
    ],
    "seasons": 3,
    "franchises": 4
-  },
-  {
-   "player": "9484",
-   "name": "Tucker Kraft",
-   "pos": "TE",
-   "missed": 8,
-   "lost": 44.88,
-   "injuries": [
-    "Elbow"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": 1,
-   "franchises": 1
   }
  ],
  "stints": [
@@ -5175,12 +5180,12 @@
     "riley",
     "emily"
    ],
-   "w": 9,
+   "w": 10,
    "l": 1,
    "finish": null,
-   "games": 31,
+   "games": 34,
    "players": 13,
-   "lost": 66.04,
+   "lost": 69.24,
    "worst": {
     "player": "2133",
     "name": "Davante Adams",
@@ -5189,7 +5194,7 @@
     "lost": 31.96
    },
    "rank": 5,
-   "games_rank": 5,
+   "games_rank": 6,
    "of": 12
   },
   {
@@ -5199,20 +5204,20 @@
    "managers": [
     "alex"
    ],
-   "w": 6,
+   "w": 7,
    "l": 4,
    "finish": null,
-   "games": 41,
+   "games": 44,
    "players": 13,
-   "lost": 76.35,
+   "lost": 95.01,
    "worst": {
-    "player": "7525",
-    "name": "DeVonta Smith",
-    "pos": "WR",
-    "missed": 5,
-    "lost": 33.3
+    "player": "8151",
+    "name": "Kenneth Walker III",
+    "pos": "RB",
+    "missed": 2,
+    "lost": 36.14
    },
-   "rank": 4,
+   "rank": 3,
    "games_rank": 1,
    "of": 12
   },
@@ -5224,17 +5229,17 @@
     "ritesh"
    ],
    "w": 8,
-   "l": 2,
+   "l": 3,
    "finish": null,
-   "games": 27,
+   "games": 31,
    "players": 10,
-   "lost": 17.95,
+   "lost": 21.29,
    "worst": {
     "player": "4881",
     "name": "Lamar Jackson",
     "pos": "QB",
-    "missed": 4,
-    "lost": 10.36
+    "missed": 5,
+    "lost": 12.95
    },
    "rank": 9,
    "games_rank": 9,
@@ -5248,11 +5253,11 @@
     "tony"
    ],
    "w": 3,
-   "l": 7,
+   "l": 8,
    "finish": null,
-   "games": 31,
+   "games": 32,
    "players": 6,
-   "lost": 51.2,
+   "lost": 52.71,
    "worst": {
     "player": "12534",
     "name": "Kyle Monangai",
@@ -5261,7 +5266,7 @@
     "lost": 25.55
    },
    "rank": 6,
-   "games_rank": 5,
+   "games_rank": 8,
    "of": 12
   },
   {
@@ -5271,21 +5276,21 @@
    "managers": [
     "sam"
    ],
-   "w": 6,
+   "w": 7,
    "l": 4,
    "finish": null,
-   "games": 30,
-   "players": 8,
-   "lost": 78.33,
+   "games": 36,
+   "players": 10,
+   "lost": 99.13,
    "worst": {
     "player": "9226",
     "name": "De'Von Achane",
     "pos": "RB",
-    "missed": 6,
-    "lost": 61.38
+    "missed": 7,
+    "lost": 71.61
    },
    "rank": 2,
-   "games_rank": 8,
+   "games_rank": 3,
    "of": 12
   },
   {
@@ -5295,12 +5300,12 @@
    "managers": [
     "makenzy"
    ],
-   "w": 6,
+   "w": 7,
    "l": 4,
    "finish": null,
-   "games": 37,
+   "games": 38,
    "players": 11,
-   "lost": 36.67,
+   "lost": 36.59,
    "worst": {
     "player": "2216",
     "name": "Mike Evans",
@@ -5320,11 +5325,11 @@
     "anargha"
    ],
    "w": 4,
-   "l": 6,
+   "l": 7,
    "finish": null,
-   "games": 31,
+   "games": 36,
    "players": 11,
-   "lost": 147.75,
+   "lost": 165.22,
    "worst": {
     "player": "9493",
     "name": "Puka Nacua",
@@ -5333,7 +5338,7 @@
     "lost": 48.21
    },
    "rank": 1,
-   "games_rank": 5,
+   "games_rank": 3,
    "of": 12
   },
   {
@@ -5344,9 +5349,9 @@
     "evan"
    ],
    "w": 5,
-   "l": 5,
+   "l": 6,
    "finish": null,
-   "games": 34,
+   "games": 36,
    "players": 12,
    "lost": 77.46,
    "worst": {
@@ -5356,7 +5361,7 @@
     "missed": 3,
     "lost": 23.82
    },
-   "rank": 3,
+   "rank": 4,
    "games_rank": 3,
    "of": 12
   },
@@ -5369,17 +5374,17 @@
     "joe"
    ],
    "w": 4,
-   "l": 6,
+   "l": 7,
    "finish": null,
-   "games": 15,
-   "players": 6,
-   "lost": 13.32,
+   "games": 17,
+   "players": 7,
+   "lost": 15.02,
    "worst": {
     "player": "13287",
     "name": "Jeremiyah Love",
     "pos": "RB",
-    "missed": 4,
-    "lost": 6.8
+    "missed": 5,
+    "lost": 8.5
    },
    "rank": 11,
    "games_rank": 11,
@@ -5393,9 +5398,9 @@
     "elis"
    ],
    "w": 2,
-   "l": 8,
+   "l": 9,
    "finish": null,
-   "games": 24,
+   "games": 25,
    "players": 10,
    "lost": 17.37,
    "worst": {
@@ -5416,7 +5421,7 @@
    "managers": [
     "brandon"
    ],
-   "w": 5,
+   "w": 6,
    "l": 5,
    "finish": null,
    "games": 12,
@@ -5440,12 +5445,12 @@
    "managers": [
     "charlie"
    ],
-   "w": 2,
+   "w": 3,
    "l": 8,
    "finish": null,
-   "games": 32,
+   "games": 34,
    "players": 14,
-   "lost": 34.45,
+   "lost": 32.69,
    "worst": {
     "player": "8155",
     "name": "Breece Hall",
@@ -5454,7 +5459,7 @@
     "lost": 15.88
    },
    "rank": 8,
-   "games_rank": 4,
+   "games_rank": 6,
    "of": 12
   }
  ],
@@ -5462,70 +5467,70 @@
   {
    "franchise": 1,
    "name": "Mojo Dojo Casa Team 💍",
-   "games": 206,
-   "lost": 296.07,
+   "games": 209,
+   "lost": 299.27,
    "seasons": 4,
-   "per_season": 74.02,
+   "per_season": 74.82,
    "worst": "2025"
   },
   {
    "franchise": 2,
    "name": "Storm FC",
-   "games": 201,
-   "lost": 329.01,
+   "games": 204,
+   "lost": 347.67,
    "seasons": 4,
-   "per_season": 82.25,
+   "per_season": 86.92,
    "worst": "2025"
   },
   {
    "franchise": 3,
    "name": "Kolkata Kommies",
-   "games": 173,
-   "lost": 200.05,
+   "games": 177,
+   "lost": 203.39,
    "seasons": 4,
-   "per_season": 50.01,
+   "per_season": 50.85,
    "worst": "2024"
   },
   {
    "franchise": 4,
    "name": "Im Stroud Of You",
-   "games": 138,
-   "lost": 243.69,
+   "games": 139,
+   "lost": 245.2,
    "seasons": 4,
-   "per_season": 60.92,
+   "per_season": 61.3,
    "worst": "2024"
   },
   {
    "franchise": 5,
    "name": "St. Brown VS Board💍",
-   "games": 90,
-   "lost": 182.48,
+   "games": 96,
+   "lost": 203.28,
    "seasons": 4,
-   "per_season": 45.62,
+   "per_season": 50.82,
    "worst": "2026"
   },
   {
    "franchise": 6,
    "name": "got that DAWG",
-   "games": 192,
-   "lost": 240.81,
+   "games": 193,
+   "lost": 240.73,
    "seasons": 4,
-   "per_season": 60.2,
+   "per_season": 60.18,
    "worst": "2025"
   },
   {
    "franchise": 7,
    "name": "the dart side 🛸💍",
-   "games": 126,
-   "lost": 371.16,
+   "games": 131,
+   "lost": 388.63,
    "seasons": 4,
-   "per_season": 92.79,
-   "worst": "2024"
+   "per_season": 97.16,
+   "worst": "2026"
   },
   {
    "franchise": 8,
    "name": "BBL KIZZY",
-   "games": 152,
+   "games": 154,
    "lost": 325.49,
    "seasons": 4,
    "per_season": 81.37,
@@ -5534,16 +5539,16 @@
   {
    "franchise": 9,
    "name": "Clandestine Ball Busters",
-   "games": 193,
-   "lost": 287.55,
+   "games": 195,
+   "lost": 289.25,
    "seasons": 4,
-   "per_season": 71.89,
+   "per_season": 72.31,
    "worst": "2025"
   },
   {
    "franchise": 10,
    "name": "Maddison Beer’s Boys",
-   "games": 120,
+   "games": 121,
    "lost": 308.19,
    "seasons": 4,
    "per_season": 77.05,
@@ -5561,10 +5566,10 @@
   {
    "franchise": 12,
    "name": "Team Win One Game",
-   "games": 206,
-   "lost": 406.17,
+   "games": 208,
+   "lost": 404.41,
    "seasons": 4,
-   "per_season": 101.54,
+   "per_season": 101.1,
    "worst": "2025"
   }
  ],
@@ -5572,20 +5577,20 @@
   {
    "key": "alex",
    "name": "Alex",
-   "games": 201,
-   "lost": 329.01,
+   "games": 204,
+   "lost": 347.67,
    "seasons": 4,
-   "per_season": 82.25,
+   "per_season": 86.92,
    "worst": "2025"
   },
   {
    "key": "anargha",
    "name": "Anargha",
-   "games": 126,
-   "lost": 371.16,
+   "games": 131,
+   "lost": 388.63,
    "seasons": 4,
-   "per_season": 92.79,
-   "worst": "2024"
+   "per_season": 97.16,
+   "worst": "2026"
   },
   {
    "key": "brandon",
@@ -5599,10 +5604,10 @@
   {
    "key": "charlie",
    "name": "Charlie",
-   "games": 32,
-   "lost": 34.45,
+   "games": 34,
+   "lost": 32.69,
    "seasons": 1,
-   "per_season": 34.45,
+   "per_season": 32.69,
    "worst": "2026"
   },
   {
@@ -5626,7 +5631,7 @@
   {
    "key": "elis",
    "name": "Elis",
-   "games": 120,
+   "games": 121,
    "lost": 308.19,
    "seasons": 4,
    "per_season": 77.05,
@@ -5635,16 +5640,16 @@
   {
    "key": "emily",
    "name": "Emily",
-   "games": 206,
-   "lost": 296.07,
+   "games": 209,
+   "lost": 299.27,
    "seasons": 4,
-   "per_season": 74.02,
+   "per_season": 74.82,
    "worst": "2025"
   },
   {
    "key": "evan",
    "name": "Evan",
-   "games": 152,
+   "games": 154,
    "lost": 325.49,
    "seasons": 4,
    "per_season": 81.37,
@@ -5653,85 +5658,85 @@
   {
    "key": "joe",
    "name": "Joe",
-   "games": 193,
-   "lost": 287.55,
+   "games": 195,
+   "lost": 289.25,
    "seasons": 4,
-   "per_season": 71.89,
+   "per_season": 72.31,
    "worst": "2025"
   },
   {
    "key": "makenzy",
    "name": "Makenzy",
-   "games": 192,
-   "lost": 240.81,
+   "games": 193,
+   "lost": 240.73,
    "seasons": 4,
-   "per_season": 60.2,
+   "per_season": 60.18,
    "worst": "2025"
   },
   {
    "key": "riley",
    "name": "Riley",
-   "games": 206,
-   "lost": 296.07,
+   "games": 209,
+   "lost": 299.27,
    "seasons": 4,
-   "per_season": 74.02,
+   "per_season": 74.82,
    "worst": "2025"
   },
   {
    "key": "ritesh",
    "name": "Ritesh",
-   "games": 162,
-   "lost": 230.6,
+   "games": 166,
+   "lost": 233.94,
    "seasons": 4,
-   "per_season": 57.65,
+   "per_season": 58.48,
    "worst": "2024"
   },
   {
    "key": "sam",
    "name": "Sam",
-   "games": 90,
-   "lost": 182.48,
+   "games": 96,
+   "lost": 203.28,
    "seasons": 4,
-   "per_season": 45.62,
+   "per_season": 50.82,
    "worst": "2026"
   },
   {
    "key": "tanner",
    "name": "Tanner",
-   "games": 193,
-   "lost": 287.55,
+   "games": 195,
+   "lost": 289.25,
    "seasons": 4,
-   "per_season": 71.89,
+   "per_season": 72.31,
    "worst": "2025"
   },
   {
    "key": "tony",
    "name": "Tony",
-   "games": 138,
-   "lost": 243.69,
+   "games": 139,
+   "lost": 245.2,
    "seasons": 4,
-   "per_season": 60.92,
+   "per_season": 61.3,
    "worst": "2024"
   }
  ],
  "injuries": [
   {
    "injury": "Knee",
-   "games": 434,
+   "games": 441,
    "players": 78,
-   "stints": 104
+   "stints": 105
   },
   {
    "injury": "Hamstring",
-   "games": 268,
+   "games": 270,
    "players": 81,
    "stints": 106
   },
   {
    "injury": "Ankle",
-   "games": 238,
-   "players": 71,
-   "stints": 78
+   "games": 243,
+   "players": 73,
+   "stints": 81
   },
   {
    "injury": "Shoulder",
@@ -5741,19 +5746,19 @@
   },
   {
    "injury": "Concussion",
-   "games": 108,
-   "players": 56,
-   "stints": 65
+   "games": 109,
+   "players": 57,
+   "stints": 66
   },
   {
    "injury": "Foot",
-   "games": 69,
+   "games": 70,
    "players": 18,
    "stints": 19
   },
   {
    "injury": "Neck",
-   "games": 61,
+   "games": 62,
    "players": 11,
    "stints": 12
   },
@@ -5764,22 +5769,22 @@
    "stints": 6
   },
   {
+   "injury": "Groin",
+   "games": 43,
+   "players": 20,
+   "stints": 19
+  },
+  {
    "injury": "Quadricep",
    "games": 41,
    "players": 13,
    "stints": 15
   },
   {
-   "injury": "Groin",
-   "games": 39,
-   "players": 20,
-   "stints": 19
-  },
-  {
    "injury": "Back",
-   "games": 36,
+   "games": 38,
    "players": 14,
-   "stints": 14
+   "stints": 15
   },
   {
    "injury": "Hip",
@@ -5789,13 +5794,13 @@
   },
   {
    "injury": "Toe",
-   "games": 31,
+   "games": 32,
    "players": 12,
    "stints": 12
   },
   {
    "injury": "Calf",
-   "games": 29,
+   "games": 30,
    "players": 10,
    "stints": 10
   },
@@ -5818,34 +5823,34 @@
    "stints": 2
   },
   {
+   "injury": "Thumb",
+   "games": 23,
+   "players": 9,
+   "stints": 9
+  },
+  {
+   "injury": "Heel",
+   "games": 21,
+   "players": 7,
+   "stints": 8
+  },
+  {
    "injury": "Illness",
    "games": 21,
    "players": 11,
    "stints": 11
   },
   {
-   "injury": "Heel",
+   "injury": "Elbow",
    "games": 20,
-   "players": 7,
-   "stints": 8
+   "players": 5,
+   "stints": 7
   },
   {
    "injury": "Ribs",
    "games": 20,
    "players": 11,
    "stints": 10
-  },
-  {
-   "injury": "Thumb",
-   "games": 20,
-   "players": 8,
-   "stints": 8
-  },
-  {
-   "injury": "Elbow",
-   "games": 19,
-   "players": 5,
-   "stints": 7
   },
   {
    "injury": "Leg",
@@ -5957,20 +5962,20 @@
   {
    "season": "2026",
    "QB": {
-    "games": 41,
-    "lost": 73.03
+    "games": 48,
+    "lost": 80.93
    },
    "RB": {
-    "games": 113,
-    "lost": 275.44
+    "games": 122,
+    "lost": 315.15
    },
    "WR": {
-    "games": 165,
-    "lost": 262.18
+    "games": 177,
+    "lost": 271.92
    },
    "TE": {
-    "games": 26,
-    "lost": 18.67
+    "games": 28,
+    "lost": 26.16
    }
   }
  ],
@@ -6043,7 +6048,7 @@
    27,
    38,
    39,
-   0,
+   30,
    0,
    0,
    0,
@@ -6053,8 +6058,8 @@
   ]
  },
  "totals": {
-  "games": 1896,
-  "lost": 3396.96,
-  "players": 320
+  "games": 1926,
+  "lost": 3461.8,
+  "players": 321
  }
 }

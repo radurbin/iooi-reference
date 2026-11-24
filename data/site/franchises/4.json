@@ -141,14 +141,14 @@
    "franchise": 4,
    "team": "Im Stroud Of You",
    "w": 3,
-   "l": 7,
+   "l": 8,
    "t": 0,
-   "pf": 1128.83,
-   "pa": 1284.3,
-   "max_pf": 1344.02,
-   "all_play_w": 27,
-   "all_play_l": 83,
-   "expected_w": 2.45,
+   "pf": 1222.83,
+   "pa": 1432.12,
+   "max_pf": 1458.62,
+   "all_play_w": 28,
+   "all_play_l": 93,
+   "expected_w": 2.55,
    "playoff_w": 0,
    "playoff_l": 0,
    "toilet_w": 0,
@@ -157,20 +157,20 @@
    "transactions": 26,
    "trades": 3,
    "seed": 10,
-   "efficiency": 0.8399,
-   "luck": 0.55,
-   "ppg": 112.88,
-   "pct": 0.3,
+   "efficiency": 0.8383,
+   "luck": 0.45,
+   "ppg": 111.17,
+   "pct": 0.273,
    "result": null
   }
  ],
  "totals": {
   "w": 18,
-  "l": 34,
+  "l": 35,
   "t": 0,
-  "pct": 0.346,
-  "pf": 5880.41,
-  "pa": 6681.74,
+  "pct": 0.34,
+  "pf": 5974.41,
+  "pa": 6829.56,
   "transactions": 158,
   "trades": 16,
   "toilet_w": 4,
@@ -188,14 +188,14 @@
     "player": "6797",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 61,
-    "gs": 52,
-    "pts": 844.2,
+    "g": 62,
+    "gs": 53,
+    "pts": 867.44,
     "best": 30.2,
     "wins": 18,
-    "paa": -31.71,
-    "vor": 171.21,
-    "war": 2.02
+    "paa": -25.1,
+    "vor": 180.84,
+    "war": 2.14
    },
    {
     "player": "5892",
@@ -214,14 +214,27 @@
     "player": "5872",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 61,
-    "gs": 36,
-    "pts": 503.25,
+    "g": 62,
+    "gs": 37,
+    "pts": 511.15,
     "best": 35.8,
     "wins": 13,
-    "paa": 25.52,
-    "vor": 89.24,
-    "war": 1.05
+    "paa": 20.26,
+    "vor": 87.88,
+    "war": 1.04
+   },
+   {
+    "player": "9758",
+    "pos": "QB",
+    "years": "2025-2026",
+    "g": 15,
+    "gs": 13,
+    "pts": 245.7,
+    "best": 35.56,
+    "wins": 4,
+    "paa": 22.25,
+    "vor": 75.19,
+    "war": 0.89
    },
    {
     "player": "5967",
@@ -235,19 +248,6 @@
     "paa": 7.87,
     "vor": 83.09,
     "war": 0.98
-   },
-   {
-    "player": "9758",
-    "pos": "QB",
-    "years": "2025-2026",
-    "g": 14,
-    "gs": 12,
-    "pts": 224.64,
-    "best": 35.56,
-    "wins": 4,
-    "paa": 17.82,
-    "vor": 67.74,
-    "war": 0.8
    },
    {
     "player": "421",
@@ -331,7 +331,7 @@
     "player": "10213",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 16,
     "pts": 166.1,
     "best": 40.9,
@@ -354,10 +354,23 @@
     "war": -0.74
    },
    {
+    "player": "9487",
+    "pos": "WR",
+    "years": "2025-2026",
+    "g": 13,
+    "gs": 10,
+    "pts": 157.8,
+    "best": 30.4,
+    "wins": 2,
+    "paa": 20.21,
+    "vor": 65.2,
+    "war": 0.77
+   },
+   {
     "player": "12501",
     "pos": "WR",
     "years": "2026",
-    "g": 10,
+    "g": 11,
     "gs": 9,
     "pts": 156.5,
     "best": 32.4,
@@ -370,20 +383,20 @@
     "player": "12534",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 12,
-    "pts": 144.7,
+    "g": 28,
+    "gs": 13,
+    "pts": 147.3,
     "best": 31.0,
     "wins": 4,
-    "paa": -25.27,
-    "vor": 42.1,
-    "war": 0.5
+    "paa": -36.85,
+    "vor": 36.23,
+    "war": 0.43
    },
    {
     "player": "7567",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 26,
+    "g": 27,
     "gs": 13,
     "pts": 142.7,
     "best": 31.4,
@@ -391,19 +404,6 @@
     "paa": -46.67,
     "vor": 31.63,
     "war": 0.37
-   },
-   {
-    "player": "9487",
-    "pos": "WR",
-    "years": "2025-2026",
-    "g": 12,
-    "gs": 9,
-    "pts": 139.5,
-    "best": 30.4,
-    "wins": 2,
-    "paa": 15.07,
-    "vor": 56.16,
-    "war": 0.66
    },
    {
     "player": "2309",
@@ -448,7 +448,7 @@
     "player": "8142",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 27,
+    "g": 28,
     "gs": 10,
     "pts": 124.6,
     "best": 24.6,
@@ -516,27 +516,27 @@
      "player": "6797",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 61,
-     "gs": 52,
-     "pts": 844.2,
+     "g": 62,
+     "gs": 53,
+     "pts": 867.44,
      "best": 30.2,
      "wins": 18,
-     "paa": -31.71,
-     "vor": 171.21,
-     "war": 2.02
+     "paa": -25.1,
+     "vor": 180.84,
+     "war": 2.14
     },
     {
      "player": "9758",
      "pos": "QB",
      "years": "2025-2026",
-     "g": 14,
-     "gs": 12,
-     "pts": 224.64,
+     "g": 15,
+     "gs": 13,
+     "pts": 245.7,
      "best": 35.56,
      "wins": 4,
-     "paa": 17.82,
-     "vor": 67.74,
-     "war": 0.8
+     "paa": 22.25,
+     "vor": 75.19,
+     "war": 0.89
     },
     {
      "player": "421",
@@ -598,14 +598,14 @@
      "player": "5872",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 61,
-     "gs": 36,
-     "pts": 503.25,
+     "g": 62,
+     "gs": 37,
+     "pts": 511.15,
      "best": 35.8,
      "wins": 13,
-     "paa": 25.52,
-     "vor": 89.24,
-     "war": 1.05
+     "paa": 20.26,
+     "vor": 87.88,
+     "war": 1.04
     },
     {
      "player": "2449",
@@ -652,27 +652,27 @@
      "player": "2505",
      "pos": "TE",
      "years": "2025-2026",
-     "g": 27,
-     "gs": 10,
-     "pts": 68.2,
+     "g": 28,
+     "gs": 11,
+     "pts": 75.4,
      "best": 23.0,
      "wins": 1,
-     "paa": -36.28,
-     "vor": -25.11,
-     "war": -0.3
+     "paa": -36.51,
+     "vor": -29.08,
+     "war": -0.34
     },
     {
      "player": "5001",
      "pos": "TE",
      "years": "2026",
-     "g": 10,
+     "g": 11,
      "gs": 6,
      "pts": 57.7,
      "best": 26.0,
      "wins": 3,
      "paa": -13.57,
-     "vor": -2.36,
-     "war": -0.03
+     "vor": -4.1,
+     "war": -0.05
     }
    ],
    "K": [
@@ -787,8 +787,8 @@
    "signings": 33,
    "adds": 38,
    "releases": 36,
-   "gs": 100,
-   "pts": 952.56
+   "gs": 102,
+   "pts": 978.06
   },
   {
    "season": "2026",
@@ -1287,7 +1287,7 @@
    "list": "Career Points",
    "scope": 4,
    "rank": 1,
-   "value": "844.20",
+   "value": "867.44",
    "href": "franchise.html?id=4#all-time-leaders",
    "player": "6797",
    "franchise": 4
@@ -1296,7 +1296,7 @@
    "list": "Career Starts",
    "scope": 4,
    "rank": 1,
-   "value": "52",
+   "value": "53",
    "href": "franchise.html?id=4#all-time-leaders",
    "player": "6797",
    "franchise": 4
@@ -1305,7 +1305,7 @@
    "list": "Career WAR",
    "scope": 4,
    "rank": 1,
-   "value": "2.01",
+   "value": "2.13",
    "href": "franchise.html?id=4#all-time-leaders",
    "player": "6797",
    "franchise": 4
@@ -1374,11 +1374,11 @@
    {
     "season": "2026",
     "team": "Im Stroud Of You",
-    "games": 31,
+    "games": 32,
     "players": 6,
-    "lost": 51.2,
+    "lost": 52.71,
     "rank": 6,
-    "games_rank": 5,
+    "games_rank": 8,
     "of": 12,
     "worst": {
      "player": "12534",
@@ -1388,7 +1388,7 @@
      "lost": 25.55
     },
     "w": 3,
-    "l": 7
+    "l": 8
    }
   ],
   "players": [
@@ -1414,8 +1414,8 @@
     "player": "8142",
     "name": "Alec Pierce",
     "pos": "WR",
-    "missed": 10,
-    "lost": 13.76,
+    "missed": 11,
+    "lost": 15.27,
     "injuries": [
      "Heel",
      "Concussion"
@@ -1665,10 +1665,10 @@
   "total": {
    "franchise": 4,
    "name": "Im Stroud Of You",
-   "games": 138,
-   "lost": 243.69,
+   "games": 139,
+   "lost": 245.2,
    "seasons": 4,
-   "per_season": 60.92,
+   "per_season": 61.3,
    "worst": "2024"
   }
  }

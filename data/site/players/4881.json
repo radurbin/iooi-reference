@@ -76,7 +76,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "BAL",
-   "g": 10,
+   "g": 11,
    "gs": 5,
    "pts": 80.98,
    "bench_pts": 0.0,
@@ -89,7 +89,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 47,
   "pts": 944.6,
   "bench_pts": 0.0,
@@ -1284,53 +1284,69 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
+   "player": "3294",
+   "name": "Dak Prescott",
+   "score": 961,
+   "gs": 46,
+   "pts": 919.32,
+   "ppg": 19.99,
+   "war": 3.76
+  },
+  {
    "player": "8183",
    "name": "Brock Purdy",
-   "score": 943,
-   "gs": 47,
-   "pts": 924.92,
-   "ppg": 19.68,
-   "war": 3.63
+   "score": 956,
+   "gs": 48,
+   "pts": 947.12,
+   "ppg": 19.73,
+   "war": 3.73
   },
   {
    "player": "6904",
    "name": "Jalen Hurts",
-   "score": 919,
+   "score": 920,
    "gs": 50,
    "pts": 1004.6,
    "ppg": 20.09,
    "war": 4.27
   },
   {
-   "player": "3294",
-   "name": "Dak Prescott",
-   "score": 905,
-   "gs": 45,
-   "pts": 883.02,
-   "ppg": 19.62,
+   "player": "3163",
+   "name": "Jared Goff",
+   "score": 878,
+   "gs": 50,
+   "pts": 933.48,
+   "ppg": 18.67,
    "war": 3.49
   },
   {
    "player": "4046",
    "name": "Patrick Mahomes",
-   "score": 871,
-   "gs": 52,
-   "pts": 978.88,
-   "ppg": 18.82,
-   "war": 3.59
-  },
-  {
-   "player": "3163",
-   "name": "Jared Goff",
-   "score": 870,
-   "gs": 49,
-   "pts": 912.62,
-   "ppg": 18.62,
-   "war": 3.4
+   "score": 867,
+   "gs": 53,
+   "pts": 1003.84,
+   "ppg": 18.94,
+   "war": 3.73
   }
  ],
  "status": {
@@ -1345,8 +1361,8 @@
    "stat": "Points",
    "value": 944.6,
    "digits": 2,
-   "rank": 11,
-   "of": 424
+   "rank": 12,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1354,8 +1370,8 @@
    "stat": "Games Started",
    "value": 47,
    "digits": 0,
-   "rank": 25,
-   "of": 424
+   "rank": 28,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1364,7 +1380,7 @@
    "value": 3.96,
    "digits": 2,
    "rank": 16,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1373,7 +1389,7 @@
    "value": 335.0,
    "digits": 1,
    "rank": 16,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1381,8 +1397,8 @@
    "stat": "PAA",
    "value": 166.6,
    "digits": 1,
-   "rank": 14,
-   "of": 424
+   "rank": 13,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1390,8 +1406,8 @@
    "stat": "Best Game",
    "value": 34.44,
    "digits": 2,
-   "rank": 65,
-   "of": 424
+   "rank": 66,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1400,7 +1416,7 @@
    "value": 20.1,
    "digits": 2,
    "rank": 8,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
@@ -1408,7 +1424,7 @@
    "stat": "Points",
    "value": 944.6,
    "digits": 2,
-   "rank": 4,
+   "rank": 5,
    "of": 68
   },
   {
@@ -1417,7 +1433,7 @@
    "stat": "Games Started",
    "value": 47,
    "digits": 0,
-   "rank": 8,
+   "rank": 10,
    "of": 68
   },
   {
@@ -1575,8 +1591,8 @@
    "stat": "Points",
    "value": 80.98,
    "digits": 2,
-   "rank": 71,
-   "of": 242,
+   "rank": 81,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1596,7 +1612,7 @@
    "value": 371.3,
    "digits": 2,
    "rank": 4,
-   "of": 1019,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1605,8 +1621,8 @@
    "stat": "Points, 2023",
    "value": 294.88,
    "digits": 2,
-   "rank": 30,
-   "of": 1019,
+   "rank": 31,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1615,8 +1631,8 @@
    "stat": "Points, 2025",
    "value": 197.44,
    "digits": 2,
-   "rank": 134,
-   "of": 1019,
+   "rank": 140,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1625,15 +1641,15 @@
    "stat": "Points, 2026",
    "value": 80.98,
    "digits": 2,
-   "rank": 413,
-   "of": 1019,
+   "rank": 423,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 59.35,
   "rank": 17,
-  "of": 424,
+  "of": 426,
   "war": 39.6,
   "starts": 11.75,
   "black_ink": 2.0,
@@ -1943,6 +1959,11 @@
     "2026",
     10,
     59.35
+   ],
+   [
+    "2026",
+    11,
+    59.35
    ]
   ],
   "benchmark": 100
@@ -2014,7 +2035,7 @@
     "season": "2026",
     "nfl": "BAL",
     "missed": 5,
-    "lost": 10.36,
+    "lost": 12.95,
     "injuries": [
      "Ankle",
      "Thumb"
@@ -2030,7 +2051,7 @@
      "IR",
      "Out"
     ],
-    "rostered": 4,
+    "rostered": 5,
     "games": [
      {
       "week": 5,
@@ -2064,8 +2085,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Thumb",
-      "franchise": null,
-      "team": null
+      "franchise": 3,
+      "team": "Kolkata Kommies"
      }
     ]
    }
@@ -2161,8 +2182,8 @@
       "team": "Kolkata Kommies"
      }
     ],
-    "rostered": 1,
-    "lost": 2.59
+    "rostered": 2,
+    "lost": 5.18
    }
   ],
   "now": {

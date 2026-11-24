@@ -1503,7 +1503,7 @@
    "season": "2025",
    "franchise": 4,
    "team": "Win one game",
-   "score": 835,
+   "score": 836,
    "w": 3,
    "l": 11,
    "ppg": 100.87,
@@ -1513,7 +1513,7 @@
    "season": "2023",
    "franchise": 12,
    "team": "Happy Feet",
-   "score": 808,
+   "score": 809,
    "w": 4,
    "l": 10,
    "ppg": 111.81,
@@ -1523,7 +1523,7 @@
    "season": "2023",
    "franchise": 3,
    "team": "dantasy football",
-   "score": 806,
+   "score": 809,
    "w": 4,
    "l": 10,
    "ppg": 107.09,
@@ -1533,21 +1533,21 @@
    "season": "2026",
    "franchise": 4,
    "team": "Im Stroud Of You",
-   "score": 588,
+   "score": 621,
    "w": 3,
-   "l": 7,
-   "ppg": 112.88,
+   "l": 8,
+   "ppg": 111.17,
    "result": null
   },
   {
-   "season": "2026",
-   "franchise": 10,
-   "team": "Maddison Beer’s Boys",
-   "score": 577,
-   "w": 2,
+   "season": "2024",
+   "franchise": 4,
+   "team": "Win one game",
+   "score": 515,
+   "w": 6,
    "l": 8,
-   "ppg": 99.26,
-   "result": null
+   "ppg": 116.19,
+   "result": "10th"
   }
  ],
  "pickups": [
@@ -1719,7 +1719,7 @@
     "alex"
    ],
    "until": null,
-   "g": 27,
+   "g": 28,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1991,7 +1991,7 @@
     "alex"
    ],
    "until": null,
-   "g": 16,
+   "g": 17,
    "gs": 4,
    "pts": 53.8,
    "wins": 0,
@@ -2404,8 +2404,8 @@
    "managers": [
     "alex"
    ],
-   "gs": 2,
-   "pts": 11.0,
+   "gs": 3,
+   "pts": 25.0,
    "next": 7,
    "next_team": "the dart side 🛸"
   },
@@ -2656,7 +2656,7 @@
   {
    "list": "Lowest Team Scores",
    "scope": "league",
-   "rank": 3,
+   "rank": 4,
    "value": "49.22",
    "href": "records.html",
    "season": "2025",

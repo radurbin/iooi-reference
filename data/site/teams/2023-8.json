@@ -1083,10 +1083,10 @@
    "original": 8,
    "player": "8155",
    "pos": "RB",
-   "starts_team": 29,
-   "pts_team": 450.25,
-   "starts_league": 47,
-   "pts_league": 684.61,
+   "starts_team": 30,
+   "pts_team": 471.25,
+   "starts_league": 48,
+   "pts_league": 705.61,
    "nfl_pts": 790.31
   },
   {
@@ -1121,11 +1121,11 @@
    "original": 8,
    "player": "6801",
    "pos": "WR",
-   "starts_team": 35,
-   "pts_team": 583.2,
-   "starts_league": 35,
-   "pts_league": 583.2,
-   "nfl_pts": 714.7
+   "starts_team": 36,
+   "pts_team": 595.5,
+   "starts_league": 36,
+   "pts_league": 595.5,
+   "nfl_pts": 727.0
   },
   {
    "round": 5,
@@ -1161,7 +1161,7 @@
    "pos": "WR",
    "starts_team": 23,
    "pts_team": 312.5,
-   "starts_league": 27,
+   "starts_league": 28,
    "pts_league": 334.8,
    "nfl_pts": 607.5
   },
@@ -1197,10 +1197,10 @@
    "original": 8,
    "player": "4217",
    "pos": "TE",
-   "starts_team": 45,
-   "pts_team": 675.9,
-   "starts_league": 45,
-   "pts_league": 675.9,
+   "starts_team": 46,
+   "pts_team": 694.3,
+   "starts_league": 46,
+   "pts_league": 694.3,
    "nfl_pts": 737.8
   },
   {
@@ -1254,10 +1254,10 @@
    "original": 8,
    "player": "10229",
    "pos": "WR",
-   "starts_team": 14,
-   "pts_team": 198.3,
-   "starts_league": 22,
-   "pts_league": 324.3,
+   "starts_team": 15,
+   "pts_team": 209.6,
+   "starts_league": 23,
+   "pts_league": 335.6,
    "nfl_pts": 518.2
   },
   {
@@ -1439,7 +1439,7 @@
    "season": "2025",
    "franchise": 3,
    "team": "Kolkata Kommies",
-   "score": 893,
+   "score": 894,
    "w": 7,
    "l": 7,
    "ppg": 130.72,
@@ -1449,21 +1449,11 @@
    "season": "2023",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 871,
+   "score": 872,
    "w": 6,
    "l": 8,
    "ppg": 127.61,
    "result": "8th"
-  },
-  {
-   "season": "2026",
-   "franchise": 9,
-   "team": "Clandestine Ball Busters",
-   "score": 846,
-   "w": 4,
-   "l": 6,
-   "ppg": 135.23,
-   "result": null
   },
   {
    "season": "2025",
@@ -1474,6 +1464,16 @@
    "l": 8,
    "ppg": 121.85,
    "result": "7th"
+  },
+  {
+   "season": "2026",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "score": 828,
+   "w": 4,
+   "l": 7,
+   "ppg": 132.79,
+   "result": null
   },
   {
    "season": "2024",
@@ -1787,7 +1787,7 @@
    "managers": [
     "evan"
    ],
-   "gs": 9,
+   "gs": 10,
    "pts": 73.3,
    "next": 4,
    "next_team": "Cooper Scoopers"
@@ -1815,8 +1815,8 @@
    "managers": [
     "evan"
    ],
-   "gs": 11,
-   "pts": 94.0,
+   "gs": 12,
+   "pts": 99.0,
    "next": 5,
    "next_team": "your diggs small"
   },
@@ -1871,8 +1871,8 @@
    "managers": [
     "evan"
    ],
-   "gs": 28,
-   "pts": 160.0,
+   "gs": 29,
+   "pts": 164.0,
    "next": 7,
    "next_team": "young sexy central"
   },

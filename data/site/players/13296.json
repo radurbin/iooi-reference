@@ -24,10 +24,10 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "MIA",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 72.2,
+   "bench_pts": 77.2,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -37,10 +37,10 @@
   }
  ],
  "totals": {
-  "g": 10,
+  "g": 11,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 72.2,
+  "bench_pts": 77.2,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -54,7 +54,7 @@
    "team": "MIA",
    "g": 7,
    "pts": 77.2,
-   "rank": 54
+   "rank": 55
   }
  ],
  "history": [
@@ -231,6 +231,22 @@
    "pts": 10.1,
    "proj": 9.26,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 5.0,
+   "proj": 8.87,
+   "won": true
   }
  ],
  "status": {
@@ -243,9 +259,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 72.2,
+   "value": 77.2,
    "digits": 2,
-   "rank": 234,
+   "rank": 229,
    "of": 515
   }
  ],

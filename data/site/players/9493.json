@@ -88,7 +88,7 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "LAR",
-   "g": 10,
+   "g": 11,
    "gs": 7,
    "pts": 177.3,
    "bench_pts": 0.0,
@@ -101,7 +101,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 43,
   "pts": 893.6,
   "bench_pts": 67.7,
@@ -139,7 +139,7 @@
    "team": "LAR",
    "g": 7,
    "pts": 177.3,
-   "rank": 7
+   "rank": 8
   }
  ],
  "history": [
@@ -1259,53 +1259,69 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
   {
-   "player": "7564",
-   "name": "Ja'Marr Chase",
-   "score": 827,
-   "gs": 49,
-   "pts": 998.62,
-   "ppg": 20.38,
-   "war": 5.28
-  },
-  {
    "player": "9488",
    "name": "Jaxon Smith-Njigba",
-   "score": 824,
+   "score": 827,
    "gs": 37,
    "pts": 778.16,
    "ppg": 21.03,
    "war": 4.54
   },
   {
+   "player": "7564",
+   "name": "Ja'Marr Chase",
+   "score": 809,
+   "gs": 50,
+   "pts": 1006.72,
+   "ppg": 20.13,
+   "war": 5.27
+  },
+  {
    "player": "6786",
    "name": "CeeDee Lamb",
-   "score": 791,
-   "gs": 51,
-   "pts": 985.1,
-   "ppg": 19.32,
-   "war": 4.93
+   "score": 768,
+   "gs": 52,
+   "pts": 1015.3,
+   "ppg": 19.52,
+   "war": 5.17
   },
   {
    "player": "7547",
    "name": "Amon-Ra St. Brown",
-   "score": 716,
-   "gs": 54,
-   "pts": 1035.43,
-   "ppg": 19.17,
-   "war": 5.13
+   "score": 695,
+   "gs": 55,
+   "pts": 1050.13,
+   "ppg": 19.09,
+   "war": 5.19
   },
   {
    "player": "7569",
    "name": "Nico Collins",
-   "score": 469,
-   "gs": 43,
-   "pts": 704.3,
-   "ppg": 16.38,
-   "war": 2.68
+   "score": 481,
+   "gs": 44,
+   "pts": 719.1,
+   "ppg": 16.34,
+   "war": 2.74
   }
  ],
  "status": {
@@ -1320,8 +1336,8 @@
    "stat": "Points",
    "value": 893.6,
    "digits": 2,
-   "rank": 14,
-   "of": 424
+   "rank": 15,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1329,8 +1345,8 @@
    "stat": "Games Started",
    "value": 43,
    "digits": 0,
-   "rank": 40,
-   "of": 424
+   "rank": 44,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1339,7 +1355,7 @@
    "value": 4.89,
    "digits": 2,
    "rank": 9,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1348,7 +1364,7 @@
    "value": 413.4,
    "digits": 1,
    "rank": 9,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1357,7 +1373,7 @@
    "value": 305.4,
    "digits": 1,
    "rank": 5,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1366,7 +1382,7 @@
    "value": 46.5,
    "digits": 2,
    "rank": 7,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1375,7 +1391,7 @@
    "value": 20.78,
    "digits": 2,
    "rank": 5,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
@@ -1383,7 +1399,7 @@
    "stat": "Bench Points",
    "value": 67.7,
    "digits": 2,
-   "rank": 242,
+   "rank": 245,
    "of": 515
   },
   {
@@ -1393,7 +1409,7 @@
    "value": 893.6,
    "digits": 2,
    "rank": 4,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1401,8 +1417,8 @@
    "stat": "Games Started",
    "value": 43,
    "digits": 0,
-   "rank": 7,
-   "of": 127
+   "rank": 10,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1411,7 +1427,7 @@
    "value": 4.89,
    "digits": 2,
    "rank": 4,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1419,8 +1435,8 @@
    "stat": "Points",
    "value": 893.6,
    "digits": 2,
-   "rank": 1,
-   "of": 54,
+   "rank": 2,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1430,7 +1446,7 @@
    "value": 43,
    "digits": 0,
    "rank": 2,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1440,7 +1456,7 @@
    "value": 4.89,
    "digits": 2,
    "rank": 1,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -1450,7 +1466,7 @@
    "value": 893.6,
    "digits": 2,
    "rank": 1,
-   "of": 13,
+   "of": 14,
    "franchise": 7
   },
   {
@@ -1519,8 +1535,8 @@
    "stat": "Points",
    "value": 177.3,
    "digits": 2,
-   "rank": 23,
-   "of": 242,
+   "rank": 30,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1529,8 +1545,8 @@
    "stat": "Points",
    "value": 177.3,
    "digits": 2,
-   "rank": 6,
-   "of": 63,
+   "rank": 7,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -1540,7 +1556,7 @@
    "value": 305.4,
    "digits": 2,
    "rank": 24,
-   "of": 1019,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1549,8 +1565,8 @@
    "stat": "Points, 2023",
    "value": 222.1,
    "digits": 2,
-   "rank": 93,
-   "of": 1019,
+   "rank": 97,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1559,8 +1575,8 @@
    "stat": "Points, 2024",
    "value": 188.8,
    "digits": 2,
-   "rank": 148,
-   "of": 1019,
+   "rank": 158,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1569,15 +1585,15 @@
    "stat": "Points, 2026",
    "value": 177.3,
    "digits": 2,
-   "rank": 176,
-   "of": 1019,
+   "rank": 183,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 69.65,
-  "rank": 9,
-  "of": 424,
+  "rank": 10,
+  "of": 426,
   "war": 48.9,
   "starts": 10.75,
   "black_ink": 0.0,
@@ -1887,21 +1903,17 @@
     "2026",
     10,
     69.65
+   ],
+   [
+    "2026",
+    11,
+    69.65
    ]
   ],
   "benchmark": 100
  },
  "black_ink": null,
  "records_held": [
-  {
-   "list": "Career Points",
-   "scope": 7,
-   "rank": 1,
-   "value": "893.60",
-   "href": "franchise.html?id=7#all-time-leaders",
-   "player": "9493",
-   "franchise": 7
-  },
   {
    "list": "Career WAR",
    "scope": 7,

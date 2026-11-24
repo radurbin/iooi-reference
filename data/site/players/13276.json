@@ -24,7 +24,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "NYJ",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 62.6,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 10,
+  "g": 11,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 62.6,
@@ -231,6 +231,22 @@
    "pts": 0.0,
    "proj": 8.57,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -245,7 +261,7 @@
    "stat": "Bench Points",
    "value": 62.6,
    "digits": 2,
-   "rank": 257,
+   "rank": 259,
    "of": 515
   }
  ],
@@ -259,7 +275,7 @@
     "season": "2026",
     "nfl": "NYJ",
     "missed": 5,
-    "lost": 4.68,
+    "lost": 5.85,
     "injuries": [
      "Ankle"
     ],
@@ -274,7 +290,7 @@
      "IR",
      "Out"
     ],
-    "rostered": 4,
+    "rostered": 5,
     "games": [
      {
       "week": 2,
@@ -308,8 +324,8 @@
       "week": 11,
       "kind": "Out",
       "injury": "Ankle",
-      "franchise": null,
-      "team": null
+      "franchise": 2,
+      "team": "Storm FC"
      }
     ]
    }
@@ -353,9 +369,14 @@
     "kinds": [
      "Out"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 2,
+      "team": "Storm FC"
+     }
+    ],
+    "rostered": 1,
+    "lost": 1.17
    }
   ],
   "now": {

@@ -75,10 +75,10 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "MIN",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 88.8,
+   "bench_pts": 100.3,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -88,10 +88,10 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 17,
   "pts": 226.9,
-  "bench_pts": 278.8,
+  "bench_pts": 290.3,
   "ppg": 13.35,
   "best": 30.4,
   "wins": 9,
@@ -1193,6 +1193,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 11.5,
+   "proj": 8.93,
+   "won": true
   }
  ],
  "similar": [
@@ -1206,40 +1222,40 @@
    "war": 0.76
   },
   {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 871,
-   "gs": 16,
-   "pts": 191.95,
-   "ppg": 12.0,
-   "war": 0.44
-  },
-  {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 852,
+   "score": 851,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.54
+   "war": 0.51
   },
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 841,
+   "score": 840,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.47
+   "war": 0.45
   },
   {
    "player": "4144",
    "name": "Jonnu Smith",
-   "score": 817,
+   "score": 819,
    "gs": 10,
    "pts": 133.2,
    "ppg": 13.32,
    "war": 0.38
+  },
+  {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 808,
+   "gs": 17,
+   "pts": 191.95,
+   "ppg": 11.29,
+   "war": 0.29
   }
  ],
  "status": {
@@ -1254,8 +1270,8 @@
    "stat": "Points",
    "value": 226.9,
    "digits": 2,
-   "rank": 139,
-   "of": 424
+   "rank": 140,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1263,8 +1279,8 @@
    "stat": "Games Started",
    "value": 17,
    "digits": 0,
-   "rank": 165,
-   "of": 424
+   "rank": 166,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1272,8 +1288,8 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 104,
-   "of": 424
+   "rank": 105,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1282,7 +1298,7 @@
    "value": 52.1,
    "digits": 1,
    "rank": 105,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1290,8 +1306,8 @@
    "stat": "PAA",
    "value": 43.6,
    "digits": 1,
-   "rank": 54,
-   "of": 424
+   "rank": 55,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1299,8 +1315,8 @@
    "stat": "Best Game",
    "value": 30.4,
    "digits": 2,
-   "rank": 103,
-   "of": 424
+   "rank": 104,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1308,16 +1324,16 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 13.35,
    "digits": 2,
-   "rank": 99,
-   "of": 256
+   "rank": 100,
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 278.8,
+   "value": 290.3,
    "digits": 2,
-   "rank": 19,
+   "rank": 18,
    "of": 515
   },
   {
@@ -1354,7 +1370,7 @@
    "value": 226.9,
    "digits": 2,
    "rank": 10,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
@@ -1364,7 +1380,7 @@
    "value": 17,
    "digits": 0,
    "rank": 11,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
@@ -1374,7 +1390,7 @@
    "value": 0.62,
    "digits": 2,
    "rank": 11,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
@@ -1453,8 +1469,8 @@
    "stat": "Points, 2023",
    "value": 219.0,
    "digits": 2,
-   "rank": 96,
-   "of": 1019,
+   "rank": 100,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1463,8 +1479,8 @@
    "stat": "Points, 2025",
    "value": 4.6,
    "digits": 2,
-   "rank": 942,
-   "of": 1019,
+   "rank": 947,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1473,15 +1489,15 @@
    "stat": "Points, 2024",
    "value": 3.3,
    "digits": 2,
-   "rank": 955,
-   "of": 1019,
+   "rank": 960,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 17.45,
   "rank": 85,
-  "of": 424,
+  "of": 426,
   "war": 6.2,
   "starts": 4.25,
   "black_ink": 1.0,
@@ -1791,6 +1807,11 @@
     "2026",
     10,
     17.45
+   ],
+   [
+    "2026",
+    11,
+    17.45
    ]
   ],
   "benchmark": 100
@@ -1934,7 +1955,7 @@
     "season": "2026",
     "nfl": "MIN",
     "missed": 1,
-    "lost": 1.13,
+    "lost": 0.84,
     "injuries": [
      "Wrist"
     ],
@@ -2049,7 +2070,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 1.13
+    "lost": 0.84
    }
   ],
   "now": null

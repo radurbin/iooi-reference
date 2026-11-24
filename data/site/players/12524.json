@@ -72,7 +72,7 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "CLE",
-   "g": 2,
+   "g": 3,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 23.68,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 22,
+  "g": 23,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 100.81,
@@ -505,6 +505,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -519,7 +535,7 @@
    "stat": "Bench Points",
    "value": 100.81,
    "digits": 2,
-   "rank": 171,
+   "rank": 173,
    "of": 515
   }
  ],

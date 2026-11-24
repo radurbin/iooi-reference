@@ -40,10 +40,10 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "DEN",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 47.6,
+   "bench_pts": 53.8,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -53,10 +53,10 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 119.8,
+  "bench_pts": 126.0,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -77,7 +77,7 @@
    "team": "DEN",
    "g": 6,
    "pts": 53.8,
-   "rank": 76
+   "rank": 78
   }
  ],
  "history": [
@@ -541,6 +541,22 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 6.2,
+   "proj": 8.45,
+   "won": true
   }
  ],
  "status": {
@@ -553,9 +569,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 119.8,
+   "value": 126.0,
    "digits": 2,
-   "rank": 142,
+   "rank": 136,
    "of": 515
   }
  ],

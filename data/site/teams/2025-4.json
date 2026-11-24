@@ -1363,10 +1363,10 @@
    "original": 4,
    "player": "12534",
    "pos": "RB",
-   "starts_team": 12,
-   "pts_team": 144.7,
-   "starts_league": 12,
-   "pts_league": 144.7,
+   "starts_team": 13,
+   "pts_team": 147.3,
+   "starts_league": 13,
+   "pts_league": 147.3,
    "nfl_pts": 208.7
   }
  ],
@@ -1466,7 +1466,7 @@
    "season": "2025",
    "franchise": 2,
    "team": "Storm FC",
-   "score": 835,
+   "score": 836,
    "w": 4,
    "l": 10,
    "ppg": 100.72,
@@ -1476,7 +1476,7 @@
    "season": "2023",
    "franchise": 3,
    "team": "dantasy football",
-   "score": 804,
+   "score": 805,
    "w": 4,
    "l": 10,
    "ppg": 107.09,
@@ -1486,7 +1486,7 @@
    "season": "2023",
    "franchise": 12,
    "team": "Happy Feet",
-   "score": 733,
+   "score": 734,
    "w": 4,
    "l": 10,
    "ppg": 111.81,
@@ -1494,22 +1494,22 @@
   },
   {
    "season": "2026",
-   "franchise": 10,
-   "team": "Maddison Beer’s Boys",
-   "score": 595,
-   "w": 2,
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "score": 547,
+   "w": 3,
    "l": 8,
-   "ppg": 99.26,
+   "ppg": 111.17,
    "result": null
   },
   {
    "season": "2026",
-   "franchise": 4,
-   "team": "Im Stroud Of You",
-   "score": 501,
-   "w": 3,
-   "l": 7,
-   "ppg": 112.88,
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "score": 518,
+   "w": 2,
+   "l": 9,
+   "ppg": 93.5,
    "result": null
   }
  ],
@@ -1525,9 +1525,9 @@
     "tony"
    ],
    "until": null,
-   "g": 27,
-   "gs": 10,
-   "pts": 68.2,
+   "g": 28,
+   "gs": 11,
+   "pts": 75.4,
    "wins": 1,
    "best": 23.0
   },
@@ -1576,7 +1576,7 @@
     "tony"
    ],
    "until": null,
-   "g": 27,
+   "g": 28,
    "gs": 10,
    "pts": 124.6,
    "wins": 3,
@@ -1644,7 +1644,7 @@
     "tony"
    ],
    "until": null,
-   "g": 26,
+   "g": 27,
    "gs": 13,
    "pts": 142.7,
    "wins": 3,
@@ -1678,7 +1678,7 @@
     "tony"
    ],
    "until": null,
-   "g": 26,
+   "g": 27,
    "gs": 16,
    "pts": 166.1,
    "wins": 4,
@@ -2158,9 +2158,9 @@
     "tony"
    ],
    "until": null,
-   "g": 12,
-   "gs": 9,
-   "pts": 139.5,
+   "g": 13,
+   "gs": 10,
+   "pts": 157.8,
    "wins": 2,
    "best": 30.4
   }
@@ -2401,8 +2401,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 9,
-   "pts": 116.7,
+   "gs": 10,
+   "pts": 122.7,
    "next": 10,
    "next_team": "Maddison Beer’s Boys"
   },
@@ -2499,8 +2499,8 @@
    "managers": [
     "tony"
    ],
-   "gs": 12,
-   "pts": 80.0,
+   "gs": 13,
+   "pts": 92.0,
    "next": 2,
    "next_team": "Storm FC"
   },
@@ -2527,10 +2527,10 @@
    "managers": [
     "tony"
    ],
-   "gs": 0,
-   "pts": 0.0,
-   "next": null,
-   "next_team": null
+   "gs": 1,
+   "pts": 5.4,
+   "next": 9,
+   "next_team": "Clandestine Ball Busters"
   },
   {
    "date": "2025-11-29",
@@ -2849,7 +2849,7 @@
   {
    "list": "Lowest Team Scores",
    "scope": "league",
-   "rank": 6,
+   "rank": 7,
    "value": "58.84",
    "href": "records.html",
    "season": "2025",

@@ -75,29 +75,29 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "DAL",
-   "g": 10,
-   "gs": 10,
-   "pts": 204.76,
+   "g": 11,
+   "gs": 11,
+   "pts": 241.06,
    "bench_pts": 0.0,
-   "ppg": 20.48,
-   "best": 34.82,
+   "ppg": 21.91,
+   "best": 36.3,
    "wins": 4,
-   "paa": 31.14,
-   "vor": 68.7,
-   "war": 0.81
+   "paa": 50.81,
+   "vor": 91.39,
+   "war": 1.08
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 45,
-  "pts": 883.02,
+  "g": 62,
+  "gs": 46,
+  "pts": 919.32,
   "bench_pts": 54.0,
-  "ppg": 19.62,
+  "ppg": 19.99,
   "best": 37.86,
   "wins": 25,
-  "paa": 136.08,
-  "vor": 295.48,
-  "war": 3.49
+  "paa": 155.75,
+  "vor": 318.17,
+  "war": 3.76
  },
  "nfl": [
   {
@@ -126,7 +126,7 @@
    "team": "DAL",
    "g": 11,
    "pts": 241.06,
-   "rank": 2
+   "rank": 3
   }
  ],
  "history": [
@@ -1245,53 +1245,72 @@
    "paa": 17.17,
    "vor": 21.21,
    "war": 0.2506763915913444
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "QB",
+   "started": true,
+   "pts": 36.3,
+   "proj": 20.45,
+   "won": false,
+   "paa": 19.67,
+   "vor": 22.69,
+   "war": 0.2681681907217164
   }
  ],
  "similar": [
   {
-   "player": "8183",
-   "name": "Brock Purdy",
-   "score": 949,
-   "gs": 47,
-   "pts": 924.92,
-   "ppg": 19.68,
-   "war": 3.63
-  },
-  {
-   "player": "3163",
-   "name": "Jared Goff",
-   "score": 906,
-   "gs": 49,
-   "pts": 912.62,
-   "ppg": 18.62,
-   "war": 3.4
-  },
-  {
    "player": "4881",
    "name": "Lamar Jackson",
-   "score": 905,
+   "score": 961,
    "gs": 47,
    "pts": 944.6,
    "ppg": 20.1,
    "war": 3.96
   },
   {
-   "player": "4046",
-   "name": "Patrick Mahomes",
-   "score": 854,
-   "gs": 52,
-   "pts": 978.88,
-   "ppg": 18.82,
-   "war": 3.59
+   "player": "8183",
+   "name": "Brock Purdy",
+   "score": 958,
+   "gs": 48,
+   "pts": 947.12,
+   "ppg": 19.73,
+   "war": 3.73
   },
   {
-   "player": "6770",
-   "name": "Joe Burrow",
-   "score": 845,
-   "gs": 38,
-   "pts": 765.46,
-   "ppg": 20.14,
-   "war": 3.22
+   "player": "3163",
+   "name": "Jared Goff",
+   "score": 888,
+   "gs": 50,
+   "pts": 933.48,
+   "ppg": 18.67,
+   "war": 3.49
+  },
+  {
+   "player": "6904",
+   "name": "Jalen Hurts",
+   "score": 882,
+   "gs": 50,
+   "pts": 1004.6,
+   "ppg": 20.09,
+   "war": 4.27
+  },
+  {
+   "player": "4046",
+   "name": "Patrick Mahomes",
+   "score": 855,
+   "gs": 53,
+   "pts": 1003.84,
+   "ppg": 18.94,
+   "war": 3.73
   }
  ],
  "status": {
@@ -1304,46 +1323,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 883.02,
+   "value": 919.32,
    "digits": 2,
-   "rank": 15,
-   "of": 424
+   "rank": 14,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 45,
+   "value": 46,
    "digits": 0,
-   "rank": 31,
-   "of": 424
+   "rank": 30,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.49,
+   "value": 3.76,
    "digits": 2,
-   "rank": 22,
-   "of": 424
+   "rank": 19,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 295.5,
+   "value": 318.2,
    "digits": 1,
-   "rank": 22,
-   "of": 424
+   "rank": 19,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 136.1,
+   "value": 155.8,
    "digits": 1,
-   "rank": 20,
-   "of": 424
+   "rank": 16,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1352,16 +1371,16 @@
    "value": 37.86,
    "digits": 2,
    "rank": 43,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 19.62,
+   "value": 19.99,
    "digits": 2,
-   "rank": 11,
-   "of": 256
+   "rank": 10,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1369,14 +1388,14 @@
    "stat": "Bench Points",
    "value": 54.0,
    "digits": 2,
-   "rank": 278,
+   "rank": 282,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All QBs",
    "stat": "Points",
-   "value": 883.02,
+   "value": 919.32,
    "digits": 2,
    "rank": 7,
    "of": 68
@@ -1385,7 +1404,7 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "Games Started",
-   "value": 45,
+   "value": 46,
    "digits": 0,
    "rank": 11,
    "of": 68
@@ -1394,46 +1413,46 @@
    "group": "Career",
    "scope": "All QBs",
    "stat": "WAR",
-   "value": 3.49,
+   "value": 3.76,
    "digits": 2,
-   "rank": 6,
+   "rank": 4,
    "of": 68
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points",
-   "value": 883.02,
+   "value": 919.32,
    "digits": 2,
-   "rank": 2,
-   "of": 54,
+   "rank": 1,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Games Started",
-   "value": 45,
+   "value": 46,
    "digits": 0,
    "rank": 1,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 3.5,
+   "value": 3.77,
    "digits": 2,
-   "rank": 3,
-   "of": 54,
+   "rank": 2,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points, QBs",
-   "value": 883.02,
+   "value": 919.32,
    "digits": 2,
    "rank": 1,
    "of": 5,
@@ -1503,19 +1522,19 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 204.76,
+   "value": 241.06,
    "digits": 2,
-   "rank": 10,
-   "of": 242,
+   "rank": 5,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 QBs",
    "stat": "Points",
-   "value": 204.76,
+   "value": 241.06,
    "digits": 2,
-   "rank": 4,
+   "rank": 2,
    "of": 39,
    "season": "2026"
   },
@@ -1526,7 +1545,7 @@
    "value": 304.12,
    "digits": 2,
    "rank": 25,
-   "of": 1019,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1535,18 +1554,18 @@
    "stat": "Points, 2023",
    "value": 283.56,
    "digits": 2,
-   "rank": 34,
-   "of": 1019,
+   "rank": 35,
+   "of": 1025,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 204.76,
+   "value": 241.06,
    "digits": 2,
-   "rank": 119,
-   "of": 1019,
+   "rank": 72,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1555,17 +1574,17 @@
    "stat": "Points, 2024",
    "value": 90.58,
    "digits": 2,
-   "rank": 386,
-   "of": 1019,
+   "rank": 389,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 53.15,
+  "score": 56.1,
   "rank": 19,
-  "of": 424,
-  "war": 34.9,
-  "starts": 11.25,
+  "of": 426,
+  "war": 37.6,
+  "starts": 11.5,
   "black_ink": 0.0,
   "awards": 7.0,
   "history": [
@@ -1873,6 +1892,11 @@
     "2026",
     10,
     53.15
+   ],
+   [
+    "2026",
+    11,
+    56.1
    ]
   ],
   "benchmark": 100
@@ -1880,10 +1904,19 @@
  "black_ink": null,
  "records_held": [
   {
+   "list": "Career Points",
+   "scope": 7,
+   "rank": 1,
+   "value": "919.32",
+   "href": "franchise.html?id=7#all-time-leaders",
+   "player": "3294",
+   "franchise": 7
+  },
+  {
    "list": "Career Starts",
    "scope": 7,
    "rank": 1,
-   "value": "45",
+   "value": "46",
    "href": "franchise.html?id=7#all-time-leaders",
    "player": "3294",
    "franchise": 7

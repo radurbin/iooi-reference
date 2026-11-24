@@ -24,7 +24,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "SF",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 0.0,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 10,
+  "g": 11,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 0.0,
@@ -231,6 +231,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -267,7 +283,7 @@
     "kinds": [
      "IR"
     ],
-    "rostered": 8,
+    "rostered": 9,
     "games": [
      {
       "week": 2,
@@ -329,8 +345,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Ankle",
-      "franchise": null,
-      "team": null
+      "franchise": 3,
+      "team": "Kolkata Kommies"
      }
     ]
    }
@@ -363,7 +379,7 @@
       "team": "Kolkata Kommies"
      }
     ],
-    "rostered": 8,
+    "rostered": 9,
     "lost": 0.0
    }
   ],

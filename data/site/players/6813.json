@@ -77,29 +77,29 @@
    "franchise": 7,
    "team": "the dart side 🛸💍",
    "nfl": "IND",
-   "g": 10,
-   "gs": 10,
-   "pts": 183.6,
+   "g": 11,
+   "gs": 11,
+   "pts": 191.4,
    "bench_pts": 0.0,
-   "ppg": 18.36,
+   "ppg": 17.4,
    "best": 31.6,
    "wins": 4,
-   "paa": 21.11,
-   "vor": 98.9,
-   "war": 1.17
+   "paa": 14.73,
+   "vor": 98.23,
+   "war": 1.16
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 49,
-  "pts": 771.7,
+  "g": 62,
+  "gs": 50,
+  "pts": 779.5,
   "bench_pts": 77.6,
-  "ppg": 15.75,
+  "ppg": 15.59,
   "best": 51.1,
   "wins": 22,
-  "paa": 72.61,
-  "vor": 319.52,
-  "war": 3.78
+  "paa": 66.23,
+  "vor": 318.85,
+  "war": 3.77
  },
  "nfl": [
   {
@@ -1280,52 +1280,71 @@
    "paa": -4.89,
    "vor": 5.43,
    "war": 0.06417599275535124
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "RB",
+   "started": true,
+   "pts": 7.8,
+   "proj": 16.07,
+   "won": false,
+   "paa": -6.38,
+   "vor": -0.67,
+   "war": -0.00791858474145218
   }
  ],
  "similar": [
   {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 911,
+   "score": 895,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
    "war": 3.51
   },
   {
+   "player": "8155",
+   "name": "Breece Hall",
+   "score": 873,
+   "gs": 48,
+   "pts": 705.61,
+   "ppg": 14.7,
+   "war": 3.04
+  },
+  {
    "player": "4866",
    "name": "Saquon Barkley",
-   "score": 880,
-   "gs": 50,
-   "pts": 838.2,
-   "ppg": 16.76,
-   "war": 4.44
+   "score": 866,
+   "gs": 51,
+   "pts": 853.4,
+   "ppg": 16.73,
+   "war": 4.52
   },
   {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 867,
+   "score": 859,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
    "war": 3.13
   },
   {
-   "player": "8138",
-   "name": "James Cook III",
-   "score": 845,
-   "gs": 49,
-   "pts": 845.5,
-   "ppg": 17.26,
-   "war": 4.62
-  },
-  {
-   "player": "8155",
-   "name": "Breece Hall",
-   "score": 844,
-   "gs": 47,
-   "pts": 684.61,
-   "ppg": 14.57,
+   "player": "6790",
+   "name": "D'Andre Swift",
+   "score": 847,
+   "gs": 52,
+   "pts": 731.4,
+   "ppg": 14.07,
    "war": 2.9
   }
  ],
@@ -1339,46 +1358,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 771.7,
+   "value": 779.5,
    "digits": 2,
    "rank": 23,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 49,
+   "value": 50,
    "digits": 0,
-   "rank": 18,
-   "of": 424
+   "rank": 17,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 3.78,
+   "value": 3.77,
    "digits": 2,
    "rank": 18,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 319.5,
+   "value": 318.9,
    "digits": 1,
    "rank": 18,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 72.6,
+   "value": 66.2,
    "digits": 1,
-   "rank": 40,
-   "of": 424
+   "rank": 41,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1387,16 +1406,16 @@
    "value": 51.1,
    "digits": 2,
    "rank": 4,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 15.75,
+   "value": 15.59,
    "digits": 2,
-   "rank": 54,
-   "of": 256
+   "rank": 57,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1404,14 +1423,14 @@
    "stat": "Bench Points",
    "value": 77.6,
    "digits": 2,
-   "rank": 225,
+   "rank": 228,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 771.7,
+   "value": 779.5,
    "digits": 2,
    "rank": 8,
    "of": 100
@@ -1420,7 +1439,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 49,
+   "value": 50,
    "digits": 0,
    "rank": 6,
    "of": 100
@@ -1429,7 +1448,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 3.78,
+   "value": 3.77,
    "digits": 2,
    "rank": 9,
    "of": 100
@@ -1441,7 +1460,7 @@
    "value": 243.3,
    "digits": 2,
    "rank": 10,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1451,7 +1470,7 @@
    "value": 24,
    "digits": 0,
    "rank": 11,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1461,7 +1480,7 @@
    "value": 0.06,
    "digits": 2,
    "rank": 19,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1478,37 +1497,37 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points",
-   "value": 528.4,
+   "value": 536.2,
    "digits": 2,
-   "rank": 4,
-   "of": 54,
+   "rank": 3,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Games Started",
-   "value": 25,
+   "value": 26,
    "digits": 0,
    "rank": 8,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": 3.72,
+   "value": 3.71,
    "digits": 2,
-   "rank": 2,
-   "of": 54,
+   "rank": 3,
+   "of": 55,
    "franchise": 7
   },
   {
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "Points, RBs",
-   "value": 528.4,
+   "value": 536.2,
    "digits": 2,
    "rank": 1,
    "of": 9,
@@ -1578,20 +1597,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 183.6,
+   "value": 191.4,
    "digits": 2,
-   "rank": 19,
-   "of": 242,
+   "rank": 21,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 183.6,
+   "value": 191.4,
    "digits": 2,
-   "rank": 8,
-   "of": 58,
+   "rank": 10,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1601,17 +1620,17 @@
    "value": 344.8,
    "digits": 2,
    "rank": 11,
-   "of": 1019,
+   "of": 1025,
    "season": "2025"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 183.6,
+   "value": 191.4,
    "digits": 2,
-   "rank": 165,
-   "of": 1019,
+   "rank": 153,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1620,8 +1639,8 @@
    "stat": "Points, 2024",
    "value": 142.2,
    "digits": 2,
-   "rank": 253,
-   "of": 1019,
+   "rank": 259,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1630,17 +1649,17 @@
    "stat": "Points, 2023",
    "value": 101.1,
    "digits": 2,
-   "rank": 359,
-   "of": 1019,
+   "rank": 361,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
-  "score": 60.05,
+  "score": 60.2,
   "rank": 16,
-  "of": 424,
-  "war": 37.8,
-  "starts": 12.25,
+  "of": 426,
+  "war": 37.7,
+  "starts": 12.5,
   "black_ink": 0.0,
   "awards": 10.0,
   "history": [
@@ -1948,6 +1967,11 @@
     "2026",
     10,
     60.05
+   ],
+   [
+    "2026",
+    11,
+    60.2
    ]
   ],
   "benchmark": 100

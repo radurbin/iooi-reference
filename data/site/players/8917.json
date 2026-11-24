@@ -121,8 +121,8 @@
    "stat": "Points",
    "value": 6.4,
    "digits": 2,
-   "rank": 373,
-   "of": 424
+   "rank": 375,
+   "of": 426
   },
   {
    "group": "Career",
@@ -130,8 +130,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 362,
-   "of": 424
+   "rank": 365,
+   "of": 426
   },
   {
    "group": "Career",
@@ -139,8 +139,8 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 250,
-   "of": 424
+   "rank": 249,
+   "of": 426
   },
   {
    "group": "Career",
@@ -148,8 +148,8 @@
    "stat": "VOR",
    "value": -4.2,
    "digits": 1,
-   "rank": 254,
-   "of": 424
+   "rank": 253,
+   "of": 426
   },
   {
    "group": "Career",
@@ -157,8 +157,8 @@
    "stat": "PAA",
    "value": -7.8,
    "digits": 1,
-   "rank": 193,
-   "of": 424
+   "rank": 191,
+   "of": 426
   },
   {
    "group": "Career",
@@ -166,8 +166,8 @@
    "stat": "Best Game",
    "value": 6.4,
    "digits": 2,
-   "rank": 366,
-   "of": 424
+   "rank": 367,
+   "of": 426
   },
   {
    "group": "Career",
@@ -176,7 +176,7 @@
    "value": 6.4,
    "digits": 2,
    "rank": 104,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -185,7 +185,7 @@
    "value": 1,
    "digits": 0,
    "rank": 104,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -193,8 +193,8 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 62,
-   "of": 127
+   "rank": 63,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -222,7 +222,7 @@
    "stat": "WAR",
    "value": -0.05,
    "digits": 2,
-   "rank": 48,
+   "rank": 47,
    "of": 68,
    "franchise": 3
   },
@@ -262,16 +262,16 @@
    "stat": "Points, 2025",
    "value": 6.4,
    "digits": 2,
-   "rank": 919,
-   "of": 1019,
+   "rank": 923,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 370,
-  "of": 424,
+  "rank": 374,
+  "of": 426,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -395,6 +395,11 @@
    [
     "2026",
     10,
+    0.25
+   ],
+   [
+    "2026",
+    11,
     0.25
    ]
   ],

@@ -40,7 +40,7 @@
    "franchise": 5,
    "team": "St. Brown VS Board💍",
    "nfl": "HOU",
-   "g": 10,
+   "g": 11,
    "gs": 4,
    "pts": 41.5,
    "bench_pts": 47.6,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 4,
   "pts": 41.5,
   "bench_pts": 191.9,
@@ -561,6 +561,22 @@
    "paa": -10.09,
    "vor": 0.23,
    "war": 0.0027183201351253755
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -575,8 +591,8 @@
    "stat": "Points",
    "value": 41.5,
    "digits": 2,
-   "rank": 281,
-   "of": 424
+   "rank": 282,
+   "of": 426
   },
   {
    "group": "Career",
@@ -585,7 +601,7 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -593,8 +609,8 @@
    "stat": "WAR",
    "value": 0.09,
    "digits": 2,
-   "rank": 190,
-   "of": 424
+   "rank": 192,
+   "of": 426
   },
   {
    "group": "Career",
@@ -602,8 +618,8 @@
    "stat": "VOR",
    "value": 7.6,
    "digits": 1,
-   "rank": 191,
-   "of": 424
+   "rank": 192,
+   "of": 426
   },
   {
    "group": "Career",
@@ -611,8 +627,8 @@
    "stat": "PAA",
    "value": -21.8,
    "digits": 1,
-   "rank": 292,
-   "of": 424
+   "rank": 294,
+   "of": 426
   },
   {
    "group": "Career",
@@ -620,8 +636,8 @@
    "stat": "Best Game",
    "value": 11.6,
    "digits": 2,
-   "rank": 323,
-   "of": 424
+   "rank": 324,
+   "of": 426
   },
   {
    "group": "Career",
@@ -656,7 +672,7 @@
    "stat": "WAR",
    "value": 0.09,
    "digits": 2,
-   "rank": 56,
+   "rank": 57,
    "of": 100
   },
   {
@@ -666,7 +682,7 @@
    "value": 41.5,
    "digits": 2,
    "rank": 27,
-   "of": 60,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -676,7 +692,7 @@
    "value": 4,
    "digits": 0,
    "rank": 28,
-   "of": 60,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -686,7 +702,7 @@
    "value": 0.09,
    "digits": 2,
    "rank": 27,
-   "of": 60,
+   "of": 61,
    "franchise": 5
   },
   {
@@ -705,8 +721,8 @@
    "stat": "Points",
    "value": 41.5,
    "digits": 2,
-   "rank": 130,
-   "of": 242,
+   "rank": 136,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -715,8 +731,8 @@
    "stat": "Points",
    "value": 41.5,
    "digits": 2,
-   "rank": 35,
-   "of": 58,
+   "rank": 36,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -725,16 +741,16 @@
    "stat": "Points, 2026",
    "value": 41.5,
    "digits": 2,
-   "rank": 622,
-   "of": 1019,
+   "rank": 628,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
   "score": 1.9,
-  "rank": 276,
-  "of": 424,
+  "rank": 277,
+  "of": 426,
   "war": 0.9,
   "starts": 1.0,
   "black_ink": 0.0,
@@ -874,6 +890,11 @@
     "2026",
     10,
     1.9
+   ],
+   [
+    "2026",
+    11,
+    1.9
    ]
   ],
   "benchmark": 100
@@ -911,7 +932,7 @@
     "season": "2026",
     "nfl": "HOU",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 1.43,
     "injuries": [
      "Concussion"
     ],
@@ -921,14 +942,14 @@
     "kinds": [
      "Out"
     ],
-    "rostered": 0,
+    "rostered": 1,
     "games": [
      {
       "week": 11,
       "kind": "Out",
       "injury": "Concussion",
-      "franchise": null,
-      "team": null
+      "franchise": 5,
+      "team": "St. Brown VS Board💍"
      }
     ]
    }
@@ -969,9 +990,14 @@
     "kinds": [
      "Out"
     ],
-    "teams": [],
-    "rostered": 0,
-    "lost": 0.0
+    "teams": [
+     {
+      "franchise": 5,
+      "team": "St. Brown VS Board💍"
+     }
+    ],
+    "rostered": 1,
+    "lost": 1.43
    }
   ],
   "now": {

@@ -1075,34 +1075,34 @@
   {
    "player": "11584",
    "name": "Bucky Irving",
-   "score": 886,
+   "score": 896,
+   "gs": 24,
+   "pts": 418.5,
+   "ppg": 17.44,
+   "war": 2.48
+  },
+  {
+   "player": "12527",
+   "name": "Ashton Jeanty",
+   "score": 887,
    "gs": 23,
-   "pts": 397.7,
-   "ppg": 17.29,
-   "war": 2.34
+   "pts": 370.7,
+   "ppg": 16.12,
+   "war": 2.06
   },
   {
    "player": "4035",
    "name": "Alvin Kamara",
-   "score": 858,
+   "score": 860,
    "gs": 30,
    "pts": 532.8,
    "ppg": 17.76,
    "war": 2.88
   },
   {
-   "player": "12527",
-   "name": "Ashton Jeanty",
-   "score": 843,
-   "gs": 22,
-   "pts": 341.7,
-   "ppg": 15.53,
-   "war": 1.82
-  },
-  {
    "player": "4137",
    "name": "James Conner",
-   "score": 842,
+   "score": 843,
    "gs": 24,
    "pts": 360.2,
    "ppg": 15.01,
@@ -1111,11 +1111,11 @@
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 839,
-   "gs": 35,
-   "pts": 527.1,
-   "ppg": 15.06,
-   "war": 2.51
+   "score": 821,
+   "gs": 36,
+   "pts": 536.3,
+   "ppg": 14.9,
+   "war": 2.52
   }
  ],
  "status": {
@@ -1141,7 +1141,7 @@
    "value": 460.3,
    "digits": 2,
    "rank": 68,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1149,8 +1149,8 @@
    "stat": "Games Started",
    "value": 28,
    "digits": 0,
-   "rank": 98,
-   "of": 424
+   "rank": 99,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1158,8 +1158,8 @@
    "stat": "WAR",
    "value": 2.15,
    "digits": 2,
-   "rank": 46,
-   "of": 424
+   "rank": 47,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1167,8 +1167,8 @@
    "stat": "VOR",
    "value": 182.1,
    "digits": 1,
-   "rank": 46,
-   "of": 424
+   "rank": 47,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1176,8 +1176,8 @@
    "stat": "PAA",
    "value": 78.1,
    "digits": 1,
-   "rank": 36,
-   "of": 424
+   "rank": 38,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1185,8 +1185,8 @@
    "stat": "Best Game",
    "value": 35.3,
    "digits": 2,
-   "rank": 61,
-   "of": 424
+   "rank": 62,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1195,7 +1195,7 @@
    "value": 16.44,
    "digits": 2,
    "rank": 43,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
@@ -1310,8 +1310,8 @@
    "stat": "Points, 2024",
    "value": 236.7,
    "digits": 2,
-   "rank": 72,
-   "of": 1019,
+   "rank": 76,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1320,15 +1320,15 @@
    "stat": "Points, 2023",
    "value": 223.6,
    "digits": 2,
-   "rank": 87,
-   "of": 1019,
+   "rank": 92,
+   "of": 1025,
    "season": "2023"
   }
  ],
  "hof": {
   "score": 28.5,
-  "rank": 56,
-  "of": 424,
+  "rank": 59,
+  "of": 426,
   "war": 21.5,
   "starts": 7.0,
   "black_ink": 0.0,
@@ -1637,6 +1637,11 @@
    [
     "2026",
     10,
+    28.5
+   ],
+   [
+    "2026",
+    11,
     28.5
    ]
   ],

@@ -24,7 +24,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "NE",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 52.1,
@@ -37,7 +37,7 @@
   }
  ],
  "totals": {
-  "g": 10,
+  "g": 11,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 52.1,
@@ -231,6 +231,22 @@
    "pts": 1.6,
    "proj": 5.98,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "status": {
@@ -245,7 +261,7 @@
    "stat": "Bench Points",
    "value": 52.1,
    "digits": 2,
-   "rank": 283,
+   "rank": 287,
    "of": 515
   }
  ],

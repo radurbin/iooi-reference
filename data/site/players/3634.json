@@ -27,19 +27,35 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "season": "2026",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "nfl": "CHI",
+   "g": 1,
+   "gs": 1,
+   "pts": 2.4,
+   "bench_pts": 0.0,
+   "ppg": 2.4,
+   "best": 2.4,
+   "wins": 0,
+   "paa": -10.76,
+   "vor": -6.86,
+   "war": -0.08
   }
  ],
  "totals": {
-  "g": 3,
-  "gs": 0,
-  "pts": 0.0,
+  "g": 4,
+  "gs": 1,
+  "pts": 2.4,
   "bench_pts": 27.1,
-  "ppg": null,
-  "best": null,
+  "ppg": 2.4,
+  "best": 2.4,
   "wins": 0,
-  "paa": 0.0,
-  "vor": 0.0,
-  "war": 0.0
+  "paa": -10.76,
+  "vor": -6.86,
+  "war": -0.08
  },
  "nfl": [
   {
@@ -68,7 +84,7 @@
    "team": "CHI",
    "g": 10,
    "pts": 73.3,
-   "rank": 56
+   "rank": 57
   }
  ],
  "history": [
@@ -146,6 +162,25 @@
    "pts": 3.5,
    "proj": 7.61,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "opp": 2,
+   "opp_team": "Storm FC",
+   "slot": "WR",
+   "started": true,
+   "pts": 2.4,
+   "proj": 7.07,
+   "won": false,
+   "paa": -10.76,
+   "vor": -6.86,
+   "war": -0.08107685272591336
   }
  ],
  "status": {
@@ -157,15 +192,222 @@
   {
    "group": "Career",
    "scope": "League",
+   "stat": "Points",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 398,
+   "of": 426
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 365,
+   "of": 426
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "WAR",
+   "value": -0.08,
+   "digits": 2,
+   "rank": 272,
+   "of": 426
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "VOR",
+   "value": -6.9,
+   "digits": 1,
+   "rank": 276,
+   "of": 426
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "PAA",
+   "value": -10.8,
+   "digits": 1,
+   "rank": 219,
+   "of": 426
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Best Game",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 397,
+   "of": 426
+  },
+  {
+   "group": "Career",
+   "scope": "League",
    "stat": "Bench Points",
    "value": 27.1,
    "digits": 2,
-   "rank": 370,
+   "rank": 373,
    "of": 515
+  },
+  {
+   "group": "Career",
+   "scope": "All WRs",
+   "stat": "Points",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 112,
+   "of": 129
+  },
+  {
+   "group": "Career",
+   "scope": "All WRs",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 104,
+   "of": 129
+  },
+  {
+   "group": "Career",
+   "scope": "All WRs",
+   "stat": "WAR",
+   "value": -0.08,
+   "digits": 2,
+   "rank": 71,
+   "of": 129
+  },
+  {
+   "group": "Franchise",
+   "scope": "the dart side 🛸💍",
+   "stat": "Points",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 49,
+   "of": 55,
+   "franchise": 7
+  },
+  {
+   "group": "Franchise",
+   "scope": "the dart side 🛸💍",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 43,
+   "of": 55,
+   "franchise": 7
+  },
+  {
+   "group": "Franchise",
+   "scope": "the dart side 🛸💍",
+   "stat": "WAR",
+   "value": -0.08,
+   "digits": 2,
+   "rank": 40,
+   "of": 55,
+   "franchise": 7
+  },
+  {
+   "group": "Franchise",
+   "scope": "the dart side 🛸💍",
+   "stat": "Points, WRs",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 10,
+   "of": 14,
+   "franchise": 7
+  },
+  {
+   "group": "Season",
+   "scope": "2026 League",
+   "stat": "Points",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 230,
+   "of": 248,
+   "season": "2026"
+  },
+  {
+   "group": "Season",
+   "scope": "2026 WRs",
+   "stat": "Points",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 60,
+   "of": 66,
+   "season": "2026"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 2.4,
+   "digits": 2,
+   "rank": 977,
+   "of": 1025,
+   "season": "2026"
   }
  ],
  "similar": [],
- "hof": null,
+ "hof": {
+  "score": 0.25,
+  "rank": 374,
+  "of": 426,
+  "war": 0.0,
+  "starts": 0.25,
+  "black_ink": 0.0,
+  "awards": 0.0,
+  "history": [
+   [
+    "2026",
+    3,
+    0.0
+   ],
+   [
+    "2026",
+    4,
+    0.0
+   ],
+   [
+    "2026",
+    5,
+    0.0
+   ],
+   [
+    "2026",
+    6,
+    0.0
+   ],
+   [
+    "2026",
+    7,
+    0.0
+   ],
+   [
+    "2026",
+    8,
+    0.0
+   ],
+   [
+    "2026",
+    9,
+    0.0
+   ],
+   [
+    "2026",
+    10,
+    0.0
+   ],
+   [
+    "2026",
+    11,
+    0.25
+   ]
+  ],
+  "benchmark": 100
+ },
  "black_ink": null,
  "records_held": [],
  "injuries": {

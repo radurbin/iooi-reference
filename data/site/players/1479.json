@@ -76,10 +76,10 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "IND/SF",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 95.2,
+   "bench_pts": 102.0,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -89,10 +89,10 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 35,
   "pts": 547.16,
-  "bench_pts": 184.4,
+  "bench_pts": 191.2,
   "ppg": 15.63,
   "best": 45.46,
   "wins": 18,
@@ -1225,53 +1225,69 @@
    "pts": 11.1,
    "proj": 7.01,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": null,
+   "started": false,
+   "pts": 6.8,
+   "proj": 5.61,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 926,
-   "gs": 34,
-   "pts": 510.82,
-   "ppg": 15.02,
-   "war": 1.42
-  },
-  {
-   "player": "8146",
-   "name": "Garrett Wilson",
-   "score": 865,
-   "gs": 39,
-   "pts": 555.1,
-   "ppg": 14.23,
+   "score": 922,
+   "gs": 35,
+   "pts": 519.32,
+   "ppg": 14.84,
    "war": 1.41
-  },
-  {
-   "player": "8144",
-   "name": "Chris Olave",
-   "score": 853,
-   "gs": 41,
-   "pts": 598.8,
-   "ppg": 14.6,
-   "war": 1.72
   },
   {
    "player": "6801",
    "name": "Tee Higgins",
-   "score": 852,
-   "gs": 35,
-   "pts": 583.2,
-   "ppg": 16.66,
-   "war": 2.38
+   "score": 848,
+   "gs": 36,
+   "pts": 595.5,
+   "ppg": 16.54,
+   "war": 2.41
   },
   {
-   "player": "2216",
-   "name": "Mike Evans",
-   "score": 840,
+   "player": "8146",
+   "name": "Garrett Wilson",
+   "score": 843,
    "gs": 40,
-   "pts": 640.7,
-   "ppg": 16.02,
-   "war": 2.14
+   "pts": 562.0,
+   "ppg": 14.05,
+   "war": 1.38
+  },
+  {
+   "player": "8144",
+   "name": "Chris Olave",
+   "score": 833,
+   "gs": 42,
+   "pts": 619.5,
+   "ppg": 14.75,
+   "war": 1.86
+  },
+  {
+   "player": "5872",
+   "name": "Deebo Samuel Sr.",
+   "score": 822,
+   "gs": 37,
+   "pts": 511.15,
+   "ppg": 13.81,
+   "war": 1.04
   }
  ],
  "status": {
@@ -1287,7 +1303,7 @@
    "value": 547.16,
    "digits": 2,
    "rank": 55,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1295,8 +1311,8 @@
    "stat": "Games Started",
    "value": 35,
    "digits": 0,
-   "rank": 67,
-   "of": 424
+   "rank": 70,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1305,7 +1321,7 @@
    "value": 1.67,
    "digits": 2,
    "rank": 57,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1314,7 +1330,7 @@
    "value": 141.3,
    "digits": 1,
    "rank": 57,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1322,8 +1338,8 @@
    "stat": "PAA",
    "value": 60.9,
    "digits": 1,
-   "rank": 42,
-   "of": 424
+   "rank": 43,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1332,7 +1348,7 @@
    "value": 45.46,
    "digits": 2,
    "rank": 11,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1340,16 +1356,16 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 15.63,
    "digits": 2,
-   "rank": 57,
-   "of": 256
+   "rank": 56,
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 184.4,
+   "value": 191.2,
    "digits": 2,
-   "rank": 58,
+   "rank": 55,
    "of": 515
   },
   {
@@ -1359,7 +1375,7 @@
    "value": 547.16,
    "digits": 2,
    "rank": 19,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1367,8 +1383,8 @@
    "stat": "Games Started",
    "value": 35,
    "digits": 0,
-   "rank": 20,
-   "of": 127
+   "rank": 21,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1377,7 +1393,7 @@
    "value": 1.67,
    "digits": 2,
    "rank": 16,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1485,8 +1501,8 @@
    "stat": "Points, 2023",
    "value": 278.86,
    "digits": 2,
-   "rank": 39,
-   "of": 1019,
+   "rank": 40,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1495,8 +1511,8 @@
    "stat": "Points, 2024",
    "value": 139.2,
    "digits": 2,
-   "rank": 260,
-   "of": 1019,
+   "rank": 264,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1505,15 +1521,15 @@
    "stat": "Points, 2025",
    "value": 129.1,
    "digits": 2,
-   "rank": 285,
-   "of": 1019,
+   "rank": 288,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
   "score": 31.45,
-  "rank": 50,
-  "of": 424,
+  "rank": 51,
+  "of": 426,
   "war": 16.7,
   "starts": 8.75,
   "black_ink": 0.0,
@@ -1822,6 +1838,11 @@
    [
     "2026",
     10,
+    31.45
+   ],
+   [
+    "2026",
+    11,
     31.45
    ]
   ],

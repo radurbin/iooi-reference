@@ -88,7 +88,7 @@
    "franchise": 2,
    "team": "Storm FC",
    "nfl": "GB",
-   "g": 10,
+   "g": 11,
    "gs": 10,
    "pts": 185.1,
    "bench_pts": 0.0,
@@ -101,7 +101,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 24,
   "pts": 281.4,
   "bench_pts": 244.2,
@@ -1216,6 +1216,22 @@
    "paa": -6.52,
    "vor": -2.56,
    "war": -0.030256084982265046
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-2-7",
+   "kind": "regular",
+   "franchise": 2,
+   "team": "Storm FC",
+   "opp": 7,
+   "opp_team": "the dart side 🛸💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "similar": [
@@ -1232,24 +1248,24 @@
    "player": "9756",
    "name": "Jordan Addison",
    "score": 906,
-   "gs": 27,
+   "gs": 28,
    "pts": 334.8,
-   "ppg": 12.4,
-   "war": 0.36
+   "ppg": 11.96,
+   "war": 0.25
   },
   {
    "player": "8148",
    "name": "Jameson Williams",
-   "score": 885,
-   "gs": 19,
-   "pts": 233.1,
-   "ppg": 12.27,
-   "war": 0.33
+   "score": 893,
+   "gs": 20,
+   "pts": 252.4,
+   "ppg": 12.62,
+   "war": 0.45
   },
   {
    "player": "9502",
    "name": "Tank Dell",
-   "score": 879,
+   "score": 881,
    "gs": 19,
    "pts": 232.3,
    "ppg": 12.23,
@@ -1277,8 +1293,8 @@
    "stat": "Points",
    "value": 281.4,
    "digits": 2,
-   "rank": 112,
-   "of": 424
+   "rank": 113,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1286,8 +1302,8 @@
    "stat": "Games Started",
    "value": 24,
    "digits": 0,
-   "rank": 117,
-   "of": 424
+   "rank": 118,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1295,8 +1311,8 @@
    "stat": "WAR",
    "value": 0.29,
    "digits": 2,
-   "rank": 149,
-   "of": 424
+   "rank": 147,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1304,8 +1320,8 @@
    "stat": "VOR",
    "value": 24.4,
    "digits": 1,
-   "rank": 150,
-   "of": 424
+   "rank": 148,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1314,7 +1330,7 @@
    "value": -37.1,
    "digits": 1,
    "rank": 346,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1322,8 +1338,8 @@
    "stat": "Best Game",
    "value": 32.7,
    "digits": 2,
-   "rank": 79,
-   "of": 424
+   "rank": 80,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1331,8 +1347,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.72,
    "digits": 2,
-   "rank": 134,
-   "of": 256
+   "rank": 131,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1340,7 +1356,7 @@
    "stat": "Bench Points",
    "value": 244.2,
    "digits": 2,
-   "rank": 30,
+   "rank": 31,
    "of": 515
   },
   {
@@ -1350,7 +1366,7 @@
    "value": 281.4,
    "digits": 2,
    "rank": 37,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1359,7 +1375,7 @@
    "value": 24,
    "digits": 0,
    "rank": 36,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1367,8 +1383,8 @@
    "stat": "WAR",
    "value": 0.29,
    "digits": 2,
-   "rank": 42,
-   "of": 127
+   "rank": 41,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1377,7 +1393,7 @@
    "value": 281.4,
    "digits": 2,
    "rank": 8,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1387,7 +1403,7 @@
    "value": 24,
    "digits": 0,
    "rank": 8,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1397,7 +1413,7 @@
    "value": 0.29,
    "digits": 2,
    "rank": 19,
-   "of": 76,
+   "of": 77,
    "franchise": 2
   },
   {
@@ -1407,7 +1423,7 @@
    "value": 281.4,
    "digits": 2,
    "rank": 3,
-   "of": 19,
+   "of": 20,
    "franchise": 2
   },
   {
@@ -1476,8 +1492,8 @@
    "stat": "Points",
    "value": 185.1,
    "digits": 2,
-   "rank": 16,
-   "of": 242,
+   "rank": 25,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1486,8 +1502,8 @@
    "stat": "Points",
    "value": 185.1,
    "digits": 2,
-   "rank": 4,
-   "of": 63,
+   "rank": 5,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -1496,8 +1512,8 @@
    "stat": "Points, 2026",
    "value": 185.1,
    "digits": 2,
-   "rank": 162,
-   "of": 1019,
+   "rank": 171,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1506,8 +1522,8 @@
    "stat": "Points, 2023",
    "value": 42.8,
    "digits": 2,
-   "rank": 611,
-   "of": 1019,
+   "rank": 618,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1516,8 +1532,8 @@
    "stat": "Points, 2025",
    "value": 33.4,
    "digits": 2,
-   "rank": 668,
-   "of": 1019,
+   "rank": 672,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1526,15 +1542,15 @@
    "stat": "Points, 2024",
    "value": 20.1,
    "digits": 2,
-   "rank": 763,
-   "of": 1019,
+   "rank": 770,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 8.9,
-  "rank": 145,
-  "of": 424,
+  "rank": 147,
+  "of": 426,
   "war": 2.9,
   "starts": 6.0,
   "black_ink": 0.0,
@@ -1843,6 +1859,11 @@
    [
     "2026",
     10,
+    8.9
+   ],
+   [
+    "2026",
+    11,
     8.9
    ]
   ],

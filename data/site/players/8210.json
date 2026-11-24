@@ -82,18 +82,34 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "season": "2026",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "nfl": "WAS",
+   "g": 1,
+   "gs": 1,
+   "pts": 10.6,
+   "bench_pts": 0.0,
+   "ppg": 10.6,
+   "best": 10.6,
+   "wins": 1,
+   "paa": 3.17,
+   "vor": 0.3,
+   "war": 0.0
   }
  ],
  "totals": {
-  "g": 26,
-  "gs": 3,
-  "pts": 34.3,
+  "g": 27,
+  "gs": 4,
+  "pts": 44.9,
   "bench_pts": 107.9,
-  "ppg": 11.43,
+  "ppg": 11.23,
   "best": 18.3,
-  "wins": 1,
-  "paa": 2.28,
-  "vor": 3.16,
+  "wins": 2,
+  "paa": 5.45,
+  "vor": 3.46,
   "war": 0.04
  },
  "nfl": [
@@ -121,9 +137,9 @@
   {
    "season": "2026",
    "team": "WAS",
-   "g": 7,
-   "pts": 52.8,
-   "rank": 33
+   "g": 8,
+   "pts": 63.4,
+   "rank": 28
   }
  ],
  "history": [
@@ -622,6 +638,25 @@
    "pts": 3.2,
    "proj": 7.82,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "opp": 3,
+   "opp_team": "Kolkata Kommies",
+   "slot": "FLEX",
+   "started": true,
+   "pts": 10.6,
+   "proj": 10.39,
+   "won": true,
+   "paa": 3.17,
+   "vor": 0.3,
+   "war": 0.003545634958859185
   }
  ],
  "status": {
@@ -634,19 +669,19 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 34.3,
+   "value": 44.9,
    "digits": 2,
-   "rank": 293,
-   "of": 424
+   "rank": 279,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 3,
+   "value": 4,
    "digits": 0,
-   "rank": 301,
-   "of": 424
+   "rank": 285,
+   "of": 426
   },
   {
    "group": "Career",
@@ -654,26 +689,26 @@
    "stat": "WAR",
    "value": 0.04,
    "digits": 2,
-   "rank": 204,
-   "of": 424
+   "rank": 206,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 3.2,
+   "value": 3.5,
    "digits": 1,
-   "rank": 205,
-   "of": 424
+   "rank": 207,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 2.3,
+   "value": 5.5,
    "digits": 1,
-   "rank": 121,
-   "of": 424
+   "rank": 111,
+   "of": 426
   },
   {
    "group": "Career",
@@ -681,8 +716,8 @@
    "stat": "Best Game",
    "value": 18.3,
    "digits": 2,
-   "rank": 244,
-   "of": 424
+   "rank": 245,
+   "of": 426
   },
   {
    "group": "Career",
@@ -690,25 +725,25 @@
    "stat": "Bench Points",
    "value": 107.9,
    "digits": 2,
-   "rank": 164,
+   "rank": 165,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Points",
-   "value": 34.3,
+   "value": 44.9,
    "digits": 2,
-   "rank": 31,
+   "rank": 30,
    "of": 52
   },
   {
    "group": "Career",
    "scope": "All TEs",
    "stat": "Games Started",
-   "value": 3,
+   "value": 4,
    "digits": 0,
-   "rank": 34,
+   "rank": 33,
    "of": 52
   },
   {
@@ -727,7 +762,7 @@
    "value": 34.3,
    "digits": 2,
    "rank": 33,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -736,8 +771,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 30,
-   "of": 49,
+   "rank": 31,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -746,8 +781,8 @@
    "stat": "WAR",
    "value": 0.04,
    "digits": 2,
-   "rank": 21,
-   "of": 49,
+   "rank": 22,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -759,6 +794,46 @@
    "rank": 4,
    "of": 4,
    "franchise": 12
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "Points",
+   "value": 10.6,
+   "digits": 2,
+   "rank": 45,
+   "of": 61,
+   "franchise": 5
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "Games Started",
+   "value": 1,
+   "digits": 0,
+   "rank": 42,
+   "of": 61,
+   "franchise": 5
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "WAR",
+   "value": 0.0,
+   "digits": 2,
+   "rank": 33,
+   "of": 61,
+   "franchise": 5
+  },
+  {
+   "group": "Franchise",
+   "scope": "St. Brown VS Board💍",
+   "stat": "Points, TEs",
+   "value": 10.6,
+   "digits": 2,
+   "rank": 6,
+   "of": 8,
+   "franchise": 5
   },
   {
    "group": "Season",
@@ -782,22 +857,52 @@
   },
   {
    "group": "Season",
+   "scope": "2026 League",
+   "stat": "Points",
+   "value": 10.6,
+   "digits": 2,
+   "rank": 201,
+   "of": 248,
+   "season": "2026"
+  },
+  {
+   "group": "Season",
+   "scope": "2026 TEs",
+   "stat": "Points",
+   "value": 10.6,
+   "digits": 2,
+   "rank": 24,
+   "of": 30,
+   "season": "2026"
+  },
+  {
+   "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2023",
    "value": 34.3,
    "digits": 2,
-   "rank": 662,
-   "of": 1019,
+   "rank": 664,
+   "of": 1025,
    "season": "2023"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 10.6,
+   "digits": 2,
+   "rank": 866,
+   "of": 1025,
+   "season": "2026"
   }
  ],
  "similar": [],
  "hof": {
-  "score": 1.15,
-  "rank": 303,
-  "of": 424,
+  "score": 1.4,
+  "rank": 294,
+  "of": 426,
   "war": 0.4,
-  "starts": 0.75,
+  "starts": 1.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1105,6 +1210,11 @@
     "2026",
     10,
     1.15
+   ],
+   [
+    "2026",
+    11,
+    1.4
    ]
   ],
   "benchmark": 100

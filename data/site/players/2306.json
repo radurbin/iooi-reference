@@ -462,8 +462,8 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 256,
-   "of": 424
+   "rank": 258,
+   "of": 426
   },
   {
    "group": "Career",
@@ -472,7 +472,7 @@
    "value": 4,
    "digits": 0,
    "rank": 285,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -480,8 +480,8 @@
    "stat": "WAR",
    "value": 0.05,
    "digits": 2,
-   "rank": 201,
-   "of": 424
+   "rank": 202,
+   "of": 426
   },
   {
    "group": "Career",
@@ -489,8 +489,8 @@
    "stat": "VOR",
    "value": 4.4,
    "digits": 1,
-   "rank": 202,
-   "of": 424
+   "rank": 203,
+   "of": 426
   },
   {
    "group": "Career",
@@ -498,8 +498,8 @@
    "stat": "PAA",
    "value": -9.4,
    "digits": 1,
-   "rank": 205,
-   "of": 424
+   "rank": 203,
+   "of": 426
   },
   {
    "group": "Career",
@@ -507,8 +507,8 @@
    "stat": "Best Game",
    "value": 26.24,
    "digits": 2,
-   "rank": 146,
-   "of": 424
+   "rank": 147,
+   "of": 426
   },
   {
    "group": "Career",
@@ -516,7 +516,7 @@
    "stat": "Bench Points",
    "value": 164.9,
    "digits": 2,
-   "rank": 77,
+   "rank": 78,
    "of": 515
   },
   {
@@ -552,8 +552,8 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 24,
-   "of": 54,
+   "rank": 25,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -562,8 +562,8 @@
    "stat": "Games Started",
    "value": 4,
    "digits": 0,
-   "rank": 27,
-   "of": 54,
+   "rank": 28,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -573,7 +573,7 @@
    "value": 0.05,
    "digits": 2,
    "rank": 26,
-   "of": 54,
+   "of": 55,
    "franchise": 7
   },
   {
@@ -592,8 +592,8 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 104,
-   "of": 242,
+   "rank": 113,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -602,7 +602,7 @@
    "stat": "Points",
    "value": 58.84,
    "digits": 2,
-   "rank": 25,
+   "rank": 26,
    "of": 39,
    "season": "2026"
   },
@@ -612,8 +612,8 @@
    "stat": "Points, 2026",
    "value": 58.84,
    "digits": 2,
-   "rank": 523,
-   "of": 1019,
+   "rank": 532,
+   "of": 1025,
    "season": "2026"
   }
  ],
@@ -621,7 +621,7 @@
  "hof": {
   "score": 1.5,
   "rank": 287,
-  "of": 424,
+  "of": 426,
   "war": 0.5,
   "starts": 1.0,
   "black_ink": 0.0,
@@ -810,6 +810,11 @@
    [
     "2026",
     10,
+    1.5
+   ],
+   [
+    "2026",
+    11,
     1.5
    ]
   ],

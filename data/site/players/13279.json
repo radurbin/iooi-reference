@@ -24,29 +24,29 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "TEN",
-   "g": 10,
-   "gs": 7,
-   "pts": 73.1,
+   "g": 11,
+   "gs": 8,
+   "pts": 88.4,
    "bench_pts": 5.7,
-   "ppg": 10.44,
+   "ppg": 11.05,
    "best": 21.5,
-   "wins": 1,
-   "paa": -22.78,
-   "vor": 8.28,
-   "war": 0.1
+   "wins": 2,
+   "paa": -20.64,
+   "vor": 14.32,
+   "war": 0.17
   }
  ],
  "totals": {
-  "g": 10,
-  "gs": 7,
-  "pts": 73.1,
+  "g": 11,
+  "gs": 8,
+  "pts": 88.4,
   "bench_pts": 5.7,
-  "ppg": 10.44,
+  "ppg": 11.05,
   "best": 21.5,
-  "wins": 1,
-  "paa": -22.78,
-  "vor": 8.28,
-  "war": 0.1
+  "wins": 2,
+  "paa": -20.64,
+  "vor": 14.32,
+  "war": 0.17
  },
  "nfl": [
   {
@@ -252,6 +252,72 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": "WR",
+   "started": true,
+   "pts": 15.3,
+   "proj": 12.98,
+   "won": true,
+   "paa": 2.14,
+   "vor": 6.04,
+   "war": 0.07138545050503159
+  }
+ ],
+ "similar": [
+  {
+   "player": "6943",
+   "name": "Gabe Davis",
+   "score": 888,
+   "gs": 12,
+   "pts": 129.1,
+   "ppg": 10.76,
+   "war": -0.23
+  },
+  {
+   "player": "8142",
+   "name": "Alec Pierce",
+   "score": 886,
+   "gs": 10,
+   "pts": 124.6,
+   "ppg": 12.46,
+   "war": 0.22
+  },
+  {
+   "player": "12514",
+   "name": "Emeka Egbuka",
+   "score": 865,
+   "gs": 8,
+   "pts": 74.3,
+   "ppg": 9.29,
+   "war": -0.09
+  },
+  {
+   "player": "8676",
+   "name": "Rashid Shaheed",
+   "score": 855,
+   "gs": 14,
+   "pts": 146.6,
+   "ppg": 10.47,
+   "war": -0.15
+  },
+  {
+   "player": "5947",
+   "name": "Jakobi Meyers",
+   "score": 834,
+   "gs": 13,
+   "pts": 164.3,
+   "ppg": 12.64,
+   "war": 0.14
   }
  ],
  "status": {
@@ -264,46 +330,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 73.1,
+   "value": 88.4,
    "digits": 2,
-   "rank": 243,
-   "of": 424
+   "rank": 232,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 257,
-   "of": 424
+   "rank": 242,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.17,
    "digits": 2,
-   "rank": 187,
-   "of": 424
+   "rank": 171,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 8.3,
+   "value": 14.3,
    "digits": 1,
-   "rank": 187,
-   "of": 424
+   "rank": 173,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -22.8,
+   "value": -20.6,
    "digits": 1,
-   "rank": 295,
-   "of": 424
+   "rank": 291,
+   "of": 426
   },
   {
    "group": "Career",
@@ -311,8 +377,17 @@
    "stat": "Best Game",
    "value": 21.5,
    "digits": 2,
-   "rank": 206,
-   "of": 424
+   "rank": 207,
+   "of": 426
+  },
+  {
+   "group": "Career",
+   "scope": "League",
+   "stat": "Points per Start (min. 8 GS)",
+   "value": 11.05,
+   "digits": 2,
+   "rank": 144,
+   "of": 258
   },
   {
    "group": "Career",
@@ -320,73 +395,73 @@
    "stat": "Bench Points",
    "value": 5.7,
    "digits": 2,
-   "rank": 470,
+   "rank": 472,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Points",
-   "value": 73.1,
+   "value": 88.4,
    "digits": 2,
-   "rank": 68,
-   "of": 127
+   "rank": 65,
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 71,
-   "of": 127
+   "rank": 67,
+   "of": 129
   },
   {
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.17,
    "digits": 2,
-   "rank": 49,
-   "of": 127
+   "rank": 44,
+   "of": 129
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points",
-   "value": 73.1,
+   "value": 88.4,
    "digits": 2,
-   "rank": 18,
-   "of": 49,
+   "rank": 15,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Games Started",
-   "value": 7,
+   "value": 8,
    "digits": 0,
-   "rank": 22,
-   "of": 49,
+   "rank": 20,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.1,
+   "value": 0.17,
    "digits": 2,
-   "rank": 15,
-   "of": 49,
+   "rank": 11,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Points, WRs",
-   "value": 73.1,
+   "value": 88.4,
    "digits": 2,
-   "rank": 6,
+   "rank": 5,
    "of": 17,
    "franchise": 12
   },
@@ -394,40 +469,39 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 73.1,
+   "value": 88.4,
    "digits": 2,
-   "rank": 83,
-   "of": 242,
+   "rank": 71,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 WRs",
    "stat": "Points",
-   "value": 73.1,
+   "value": 88.4,
    "digits": 2,
    "rank": 23,
-   "of": 63,
+   "of": 66,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 73.1,
+   "value": 88.4,
    "digits": 2,
-   "rank": 452,
-   "of": 1019,
+   "rank": 393,
+   "of": 1025,
    "season": "2026"
   }
  ],
- "similar": [],
  "hof": {
-  "score": 2.75,
-  "rank": 237,
-  "of": 424,
-  "war": 1.0,
-  "starts": 1.75,
+  "score": 3.7,
+  "rank": 221,
+  "of": 426,
+  "war": 1.7,
+  "starts": 2.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -480,6 +554,11 @@
     "2026",
     10,
     2.75
+   ],
+   [
+    "2026",
+    11,
+    3.7
    ]
   ],
   "benchmark": 100

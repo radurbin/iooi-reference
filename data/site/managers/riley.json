@@ -65,14 +65,14 @@
    "season": "2026",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "w": 9,
+   "w": 10,
    "l": 1,
    "t": 0,
-   "pf": 1560.58,
-   "pa": 1263.0,
+   "pf": 1708.4,
+   "pa": 1357.0,
    "playoff_w": 0,
    "playoff_l": 0,
-   "pct": 0.9,
+   "pct": 0.909,
    "transactions": 36,
    "trades": 4,
    "partial_season": false,
@@ -80,14 +80,14 @@
   }
  ],
  "totals": {
-  "w": 34,
+  "w": 35,
   "l": 18,
   "t": 0,
-  "pf": 7396.52,
-  "pa": 6556.12,
+  "pf": 7544.34,
+  "pa": 6650.12,
   "playoff_w": 7,
   "playoff_l": 2,
-  "pct": 0.654,
+  "pct": 0.66,
   "transactions": 165,
   "trades": 31
  },
@@ -103,46 +103,46 @@
     "name": "Josh Allen",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 61,
-    "gs": 57,
-    "pts": 1342.86,
+    "g": 62,
+    "gs": 58,
+    "pts": 1355.02,
     "best": 51.88,
-    "wins": 39,
-    "vor": 606.01,
-    "war": 7.16
+    "wins": 40,
+    "vor": 604.56,
+    "war": 7.15
    },
    {
     "player": "8130",
     "name": "Trey McBride",
     "pos": "TE",
     "years": "2023-2026",
-    "g": 54,
-    "gs": 44,
-    "pts": 748.5,
+    "g": 55,
+    "gs": 45,
+    "pts": 763.4,
     "best": 37.4,
-    "wins": 32,
-    "vor": 322.02,
-    "war": 3.81
+    "wins": 33,
+    "vor": 323.72,
+    "war": 3.83
    },
    {
     "player": "4866",
     "name": "Saquon Barkley",
     "pos": "RB",
     "years": "2023-2026",
-    "g": 50,
-    "gs": 43,
-    "pts": 715.7,
+    "g": 51,
+    "gs": 44,
+    "pts": 730.9,
     "best": 46.2,
-    "wins": 31,
-    "vor": 327.5,
-    "war": 3.87
+    "wins": 32,
+    "vor": 334.23,
+    "war": 3.95
    },
    {
     "player": "2133",
     "name": "Davante Adams",
     "pos": "WR",
     "years": "2023-2026",
-    "g": 55,
+    "g": 56,
     "gs": 40,
     "pts": 604.6,
     "best": 42.8,
@@ -155,13 +155,13 @@
     "name": "James Cook III",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 23,
-    "pts": 441.8,
+    "g": 28,
+    "gs": 24,
+    "pts": 461.2,
     "best": 33.6,
-    "wins": 19,
-    "vor": 245.31,
-    "war": 2.9
+    "wins": 20,
+    "vor": 256.24,
+    "war": 3.03
    },
    {
     "player": "1373",
@@ -181,7 +181,7 @@
     "name": "Kyren Williams",
     "pos": "RB",
     "years": "2025-2026",
-    "g": 27,
+    "g": 28,
     "gs": 24,
     "pts": 406.9,
     "best": 39.8,
@@ -207,20 +207,20 @@
     "name": "Bryce Young",
     "pos": "QB",
     "years": "2023-2026",
-    "g": 61,
-    "gs": 21,
-    "pts": 293.02,
+    "g": 62,
+    "gs": 22,
+    "pts": 309.18,
     "best": 31.64,
-    "wins": 16,
-    "vor": 15.9,
-    "war": 0.19
+    "wins": 17,
+    "vor": 18.45,
+    "war": 0.22
    },
    {
     "player": "5844",
     "name": "T.J. Hockenson",
     "pos": "TE",
     "years": "2023-2025",
-    "g": 61,
+    "g": 62,
     "gs": 17,
     "pts": 226.9,
     "best": 30.4,
@@ -246,13 +246,13 @@
     "name": "Garrett Wilson",
     "pos": "WR",
     "years": "2025-2026",
-    "g": 27,
-    "gs": 14,
-    "pts": 206.3,
+    "g": 28,
+    "gs": 15,
+    "pts": 213.2,
     "best": 26.7,
-    "wins": 11,
-    "vor": 69.96,
-    "war": 0.83
+    "wins": 12,
+    "vor": 67.6,
+    "war": 0.8
    },
    {
     "player": "10937",
@@ -281,30 +281,30 @@
     "war": 0.16
    },
    {
+    "player": "6786",
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "years": "2026",
+    "g": 8,
+    "gs": 8,
+    "pts": 181.4,
+    "best": 41.4,
+    "wins": 7,
+    "vor": 107.32,
+    "war": 1.27
+   },
+   {
     "player": "5947",
     "name": "Jakobi Meyers",
     "pos": "WR",
     "years": "2023-2025",
-    "g": 61,
+    "g": 62,
     "gs": 13,
     "pts": 164.3,
     "best": 20.5,
     "wins": 7,
     "vor": 12.25,
     "war": 0.14
-   },
-   {
-    "player": "6786",
-    "name": "CeeDee Lamb",
-    "pos": "WR",
-    "years": "2026",
-    "g": 7,
-    "gs": 7,
-    "pts": 151.2,
-    "best": 41.4,
-    "wins": 6,
-    "vor": 86.38,
-    "war": 1.02
    },
    {
     "player": "2216",
@@ -324,7 +324,7 @@
     "name": "Aaron Rodgers",
     "pos": "QB",
     "years": "2025-2026",
-    "g": 20,
+    "g": 21,
     "gs": 9,
     "pts": 121.34,
     "best": 22.1,
@@ -333,24 +333,37 @@
     "war": 0.16
    },
    {
+    "player": "5967",
+    "name": "Tony Pollard",
+    "pos": "RB",
+    "years": "2023, 2026",
+    "g": 8,
+    "gs": 8,
+    "pts": 113.0,
+    "best": 24.8,
+    "wins": 6,
+    "vor": 32.58,
+    "war": 0.39
+   },
+   {
     "player": "11792",
     "name": "Will Reichard",
     "pos": "K",
     "years": "2024-2026",
-    "g": 11,
-    "gs": 10,
-    "pts": 104.1,
+    "g": 12,
+    "gs": 11,
+    "pts": 107.9,
     "best": 20.1,
-    "wins": 7,
-    "vor": 15.31,
-    "war": 0.18
+    "wins": 8,
+    "vor": 13.35,
+    "war": 0.16
    },
    {
     "player": "3321",
     "name": "Tyreek Hill",
     "pos": "WR",
     "years": "2024-2025",
-    "g": 34,
+    "g": 35,
     "gs": 7,
     "pts": 102.8,
     "best": 28.1,
@@ -359,24 +372,11 @@
     "war": 0.26
    },
    {
-    "player": "5967",
-    "name": "Tony Pollard",
-    "pos": "RB",
-    "years": "2023, 2026",
-    "g": 7,
-    "gs": 7,
-    "pts": 99.9,
-    "best": 24.8,
-    "wins": 5,
-    "vor": 27.95,
-    "war": 0.33
-   },
-   {
     "player": "5846",
     "name": "DK Metcalf",
     "pos": "WR",
     "years": "2024-2026",
-    "g": 35,
+    "g": 36,
     "gs": 9,
     "pts": 94.5,
     "best": 16.5,
@@ -431,13 +431,13 @@
      "name": "Josh Allen",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 61,
-     "gs": 57,
-     "pts": 1342.86,
+     "g": 62,
+     "gs": 58,
+     "pts": 1355.02,
      "best": 51.88,
-     "wins": 39,
-     "vor": 606.01,
-     "war": 7.16
+     "wins": 40,
+     "vor": 604.56,
+     "war": 7.15
     },
     {
      "player": "1373",
@@ -457,13 +457,13 @@
      "name": "Bryce Young",
      "pos": "QB",
      "years": "2023-2026",
-     "g": 61,
-     "gs": 21,
-     "pts": 293.02,
+     "g": 62,
+     "gs": 22,
+     "pts": 309.18,
      "best": 31.64,
-     "wins": 16,
-     "vor": 15.9,
-     "war": 0.19
+     "wins": 17,
+     "vor": 18.45,
+     "war": 0.22
     }
    ],
    "RB": [
@@ -472,33 +472,33 @@
      "name": "Saquon Barkley",
      "pos": "RB",
      "years": "2023-2026",
-     "g": 50,
-     "gs": 43,
-     "pts": 715.7,
+     "g": 51,
+     "gs": 44,
+     "pts": 730.9,
      "best": 46.2,
-     "wins": 31,
-     "vor": 327.5,
-     "war": 3.87
+     "wins": 32,
+     "vor": 334.23,
+     "war": 3.95
     },
     {
      "player": "8138",
      "name": "James Cook III",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 27,
-     "gs": 23,
-     "pts": 441.8,
+     "g": 28,
+     "gs": 24,
+     "pts": 461.2,
      "best": 33.6,
-     "wins": 19,
-     "vor": 245.31,
-     "war": 2.9
+     "wins": 20,
+     "vor": 256.24,
+     "war": 3.03
     },
     {
      "player": "8150",
      "name": "Kyren Williams",
      "pos": "RB",
      "years": "2025-2026",
-     "g": 27,
+     "g": 28,
      "gs": 24,
      "pts": 406.9,
      "best": 39.8,
@@ -513,7 +513,7 @@
      "name": "Davante Adams",
      "pos": "WR",
      "years": "2023-2026",
-     "g": 55,
+     "g": 56,
      "gs": 40,
      "pts": 604.6,
      "best": 42.8,
@@ -539,13 +539,13 @@
      "name": "Garrett Wilson",
      "pos": "WR",
      "years": "2025-2026",
-     "g": 27,
-     "gs": 14,
-     "pts": 206.3,
+     "g": 28,
+     "gs": 15,
+     "pts": 213.2,
      "best": 26.7,
-     "wins": 11,
-     "vor": 69.96,
-     "war": 0.83
+     "wins": 12,
+     "vor": 67.6,
+     "war": 0.8
     }
    ],
    "TE": [
@@ -554,20 +554,20 @@
      "name": "Trey McBride",
      "pos": "TE",
      "years": "2023-2026",
-     "g": 54,
-     "gs": 44,
-     "pts": 748.5,
+     "g": 55,
+     "gs": 45,
+     "pts": 763.4,
      "best": 37.4,
-     "wins": 32,
-     "vor": 322.02,
-     "war": 3.81
+     "wins": 33,
+     "vor": 323.72,
+     "war": 3.83
     },
     {
      "player": "5844",
      "name": "T.J. Hockenson",
      "pos": "TE",
      "years": "2023-2025",
-     "g": 61,
+     "g": 62,
      "gs": 17,
      "pts": 226.9,
      "best": 30.4,
@@ -608,13 +608,13 @@
      "name": "Will Reichard",
      "pos": "K",
      "years": "2024-2026",
-     "g": 11,
-     "gs": 10,
-     "pts": 104.1,
+     "g": 12,
+     "gs": 11,
+     "pts": 107.9,
      "best": 20.1,
-     "wins": 7,
-     "vor": 15.31,
-     "war": 0.18
+     "wins": 8,
+     "vor": 13.35,
+     "war": 0.16
     },
     {
      "player": "7042",
@@ -680,13 +680,13 @@
    "name": "Josh Allen",
    "pos": "QB",
    "years": "2023-2026",
-   "g": 61,
-   "gs": 57,
-   "pts": 1342.86,
+   "g": 62,
+   "gs": 58,
+   "pts": 1355.02,
    "best": 51.88,
-   "wins": 39,
-   "vor": 606.01,
-   "war": 7.16
+   "wins": 40,
+   "vor": 604.56,
+   "war": 7.15
   },
   {
    "slot": "RB",
@@ -694,13 +694,13 @@
    "name": "Saquon Barkley",
    "pos": "RB",
    "years": "2023-2026",
-   "g": 50,
-   "gs": 43,
-   "pts": 715.7,
+   "g": 51,
+   "gs": 44,
+   "pts": 730.9,
    "best": 46.2,
-   "wins": 31,
-   "vor": 327.5,
-   "war": 3.87
+   "wins": 32,
+   "vor": 334.23,
+   "war": 3.95
   },
   {
    "slot": "RB",
@@ -708,13 +708,13 @@
    "name": "James Cook III",
    "pos": "RB",
    "years": "2025-2026",
-   "g": 27,
-   "gs": 23,
-   "pts": 441.8,
+   "g": 28,
+   "gs": 24,
+   "pts": 461.2,
    "best": 33.6,
-   "wins": 19,
-   "vor": 245.31,
-   "war": 2.9
+   "wins": 20,
+   "vor": 256.24,
+   "war": 3.03
   },
   {
    "slot": "WR",
@@ -722,7 +722,7 @@
    "name": "Davante Adams",
    "pos": "WR",
    "years": "2023-2026",
-   "g": 55,
+   "g": 56,
    "gs": 40,
    "pts": 604.6,
    "best": 42.8,
@@ -750,13 +750,13 @@
    "name": "Trey McBride",
    "pos": "TE",
    "years": "2023-2026",
-   "g": 54,
-   "gs": 44,
-   "pts": 748.5,
+   "g": 55,
+   "gs": 45,
+   "pts": 763.4,
    "best": 37.4,
-   "wins": 32,
-   "vor": 322.02,
-   "war": 3.81
+   "wins": 33,
+   "vor": 323.72,
+   "war": 3.83
   },
   {
    "slot": "FLEX",
@@ -764,7 +764,7 @@
    "name": "Kyren Williams",
    "pos": "RB",
    "years": "2025-2026",
-   "g": 27,
+   "g": 28,
    "gs": 24,
    "pts": 406.9,
    "best": 39.8,
@@ -1261,9 +1261,9 @@
    "season": "2026",
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
-   "games": 31,
+   "games": 34,
    "players": 13,
-   "lost": 66.04,
+   "lost": 69.24,
    "rank": 5,
    "of": 12
   }
@@ -1273,7 +1273,7 @@
    "player": "11583",
    "name": "Jonathon Brooks",
    "pos": "RB",
-   "missed": 23,
+   "missed": 24,
    "lost": 0.0,
    "injuries": [
     "Knee",
@@ -1475,7 +1475,7 @@
    "name": "T.J. Hockenson",
    "pos": "TE",
    "missed": 10,
-   "lost": 5.35,
+   "lost": 5.06,
    "injuries": [
     "Knee",
     "Ribs",
@@ -1661,6 +1661,31 @@
    ]
   },
   {
+   "player": "12489",
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "missed": 4,
+   "lost": 12.64,
+   "injuries": [
+    "Knee",
+    "Hamstring"
+   ],
+   "kinds": [
+    "IR",
+    "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 1,
+     "team": "Mojo Dojo Casa Team 💍"
+    }
+   ]
+  },
+  {
    "player": "5947",
    "name": "Jakobi Meyers",
    "pos": "WR",
@@ -1707,29 +1732,6 @@
    "lost": 0.0,
    "injuries": [
     "Ankle"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2024"
-   ],
-   "teams": [
-    {
-     "season": "2024",
-     "franchise": 1,
-     "team": "Mojo Dojo Casa Team"
-    }
-   ]
-  },
-  {
-   "player": "9757",
-   "name": "Kendre Miller",
-   "pos": "RB",
-   "missed": 4,
-   "lost": 0.0,
-   "injuries": [
-    "Hamstring"
    ],
    "kinds": [
     "IR"

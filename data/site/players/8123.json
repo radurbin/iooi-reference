@@ -139,8 +139,8 @@
    "stat": "Points",
    "value": 3.3,
    "digits": 2,
-   "rank": 389,
-   "of": 424
+   "rank": 391,
+   "of": 426
   },
   {
    "group": "Career",
@@ -148,8 +148,8 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 362,
-   "of": 424
+   "rank": 365,
+   "of": 426
   },
   {
    "group": "Career",
@@ -157,8 +157,8 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 258,
-   "of": 424
+   "rank": 257,
+   "of": 426
   },
   {
    "group": "Career",
@@ -166,8 +166,8 @@
    "stat": "VOR",
    "value": -5.3,
    "digits": 1,
-   "rank": 260,
-   "of": 424
+   "rank": 259,
+   "of": 426
   },
   {
    "group": "Career",
@@ -175,8 +175,8 @@
    "stat": "PAA",
    "value": -10.2,
    "digits": 1,
-   "rank": 214,
-   "of": 424
+   "rank": 212,
+   "of": 426
   },
   {
    "group": "Career",
@@ -184,8 +184,8 @@
    "stat": "Best Game",
    "value": 3.3,
    "digits": 2,
-   "rank": 386,
-   "of": 424
+   "rank": 388,
+   "of": 426
   },
   {
    "group": "Career",
@@ -193,7 +193,7 @@
    "stat": "Bench Points",
    "value": 2.5,
    "digits": 2,
-   "rank": 498,
+   "rank": 499,
    "of": 515
   },
   {
@@ -202,7 +202,7 @@
    "stat": "Points",
    "value": 3.3,
    "digits": 2,
-   "rank": 94,
+   "rank": 95,
    "of": 100
   },
   {
@@ -211,7 +211,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 86,
+   "rank": 87,
    "of": 100
   },
   {
@@ -239,7 +239,7 @@
    "stat": "Games Started",
    "value": 1,
    "digits": 0,
-   "rank": 51,
+   "rank": 52,
    "of": 74,
    "franchise": 10
   },
@@ -289,16 +289,16 @@
    "stat": "Points, 2025",
    "value": 3.3,
    "digits": 2,
-   "rank": 955,
-   "of": 1019,
+   "rank": 960,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 370,
-  "of": 424,
+  "rank": 374,
+  "of": 426,
   "war": 0.0,
   "starts": 0.25,
   "black_ink": 0.0,
@@ -412,6 +412,11 @@
    [
     "2026",
     10,
+    0.25
+   ],
+   [
+    "2026",
+    11,
     0.25
    ]
   ],

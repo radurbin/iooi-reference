@@ -24,10 +24,10 @@
    "franchise": 9,
    "team": "Clandestine Ball Busters",
    "nfl": "MIA",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
-   "bench_pts": 30.9,
+   "bench_pts": 34.2,
    "ppg": null,
    "best": null,
    "wins": 0,
@@ -37,10 +37,10 @@
   }
  ],
  "totals": {
-  "g": 10,
+  "g": 11,
   "gs": 0,
   "pts": 0.0,
-  "bench_pts": 30.9,
+  "bench_pts": 34.2,
   "ppg": null,
   "best": null,
   "wins": 0,
@@ -243,6 +243,22 @@
    "pts": 0.0,
    "proj": null,
    "won": false
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "opp": 11,
+   "opp_team": "BubbaNASTIES",
+   "slot": null,
+   "started": false,
+   "pts": 3.3,
+   "proj": 3.83,
+   "won": false
   }
  ],
  "status": {
@@ -255,9 +271,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 30.9,
+   "value": 34.2,
    "digits": 2,
-   "rank": 359,
+   "rank": 347,
    "of": 515
   }
  ],

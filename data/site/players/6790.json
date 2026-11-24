@@ -72,29 +72,29 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "CHI",
-   "g": 10,
-   "gs": 9,
-   "pts": 169.3,
+   "g": 11,
+   "gs": 10,
+   "pts": 182.5,
    "bench_pts": 0.0,
-   "ppg": 18.81,
+   "ppg": 18.25,
    "best": 34.2,
-   "wins": 4,
-   "paa": 25.6,
-   "vor": 93.07,
-   "war": 1.1
+   "wins": 5,
+   "paa": 24.62,
+   "vor": 97.8,
+   "war": 1.16
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 51,
-  "pts": 718.2,
+  "g": 62,
+  "gs": 52,
+  "pts": 731.4,
   "bench_pts": 75.2,
-  "ppg": 14.08,
+  "ppg": 14.07,
   "best": 34.2,
-  "wins": 25,
-  "paa": 2.37,
-  "vor": 240.35,
-  "war": 2.84
+  "wins": 26,
+  "paa": 1.39,
+  "vor": 245.08,
+  "war": 2.9
  },
  "nfl": [
   {
@@ -1269,22 +1269,41 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": "RB",
+   "started": true,
+   "pts": 13.2,
+   "proj": 20.77,
+   "won": true,
+   "paa": -0.98,
+   "vor": 4.73,
+   "war": 0.05590284451801315
   }
  ],
  "similar": [
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 922,
-   "gs": 47,
-   "pts": 684.61,
-   "ppg": 14.57,
-   "war": 2.9
+   "score": 919,
+   "gs": 48,
+   "pts": 705.61,
+   "ppg": 14.7,
+   "war": 3.04
   },
   {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 870,
+   "score": 857,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
@@ -1293,29 +1312,29 @@
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 833,
-   "gs": 49,
-   "pts": 771.7,
-   "ppg": 15.75,
-   "war": 3.78
-  },
-  {
-   "player": "8151",
-   "name": "Kenneth Walker III",
-   "score": 829,
-   "gs": 45,
-   "pts": 714.45,
-   "ppg": 15.88,
-   "war": 3.51
+   "score": 847,
+   "gs": 50,
+   "pts": 779.5,
+   "ppg": 15.59,
+   "war": 3.77
   },
   {
    "player": "7588",
    "name": "Javonte Williams",
-   "score": 818,
-   "gs": 44,
-   "pts": 594.7,
-   "ppg": 13.52,
-   "war": 2.16
+   "score": 838,
+   "gs": 45,
+   "pts": 620.6,
+   "ppg": 13.79,
+   "war": 2.37
+  },
+  {
+   "player": "8151",
+   "name": "Kenneth Walker III",
+   "score": 823,
+   "gs": 45,
+   "pts": 714.45,
+   "ppg": 15.88,
+   "war": 3.51
   }
  ],
  "status": {
@@ -1328,46 +1347,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 718.2,
+   "value": 731.4,
    "digits": 2,
    "rank": 28,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 51,
+   "value": 52,
    "digits": 0,
    "rank": 9,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.84,
+   "value": 2.9,
    "digits": 2,
-   "rank": 29,
-   "of": 424
+   "rank": 28,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 240.3,
+   "value": 245.1,
    "digits": 1,
-   "rank": 29,
-   "of": 424
+   "rank": 28,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 2.4,
+   "value": 1.4,
    "digits": 1,
-   "rank": 120,
-   "of": 424
+   "rank": 128,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1375,17 +1394,17 @@
    "stat": "Best Game",
    "value": 34.2,
    "digits": 2,
-   "rank": 68,
-   "of": 424
+   "rank": 69,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 14.08,
+   "value": 14.07,
    "digits": 2,
-   "rank": 83,
-   "of": 256
+   "rank": 81,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1393,14 +1412,14 @@
    "stat": "Bench Points",
    "value": 75.2,
    "digits": 2,
-   "rank": 230,
+   "rank": 234,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 718.2,
+   "value": 731.4,
    "digits": 2,
    "rank": 9,
    "of": 100
@@ -1409,7 +1428,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 51,
+   "value": 52,
    "digits": 0,
    "rank": 4,
    "of": 100
@@ -1418,16 +1437,16 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 2.84,
+   "value": 2.9,
    "digits": 2,
-   "rank": 15,
+   "rank": 14,
    "of": 100
   },
   {
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points",
-   "value": 718.2,
+   "value": 731.4,
    "digits": 2,
    "rank": 4,
    "of": 45,
@@ -1437,7 +1456,7 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Games Started",
-   "value": 51,
+   "value": 52,
    "digits": 0,
    "rank": 3,
    "of": 45,
@@ -1447,7 +1466,7 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": 2.83,
+   "value": 2.89,
    "digits": 2,
    "rank": 3,
    "of": 45,
@@ -1457,7 +1476,7 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "Points, RBs",
-   "value": 718.2,
+   "value": 731.4,
    "digits": 2,
    "rank": 2,
    "of": 7,
@@ -1527,20 +1546,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 169.3,
+   "value": 182.5,
    "digits": 2,
-   "rank": 30,
-   "of": 242,
+   "rank": 28,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 169.3,
+   "value": 182.5,
    "digits": 2,
    "rank": 12,
-   "of": 58,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1549,8 +1568,8 @@
    "stat": "Points, 2023",
    "value": 199.3,
    "digits": 2,
-   "rank": 130,
-   "of": 1019,
+   "rank": 138,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1559,18 +1578,18 @@
    "stat": "Points, 2024",
    "value": 192.1,
    "digits": 2,
-   "rank": 145,
-   "of": 1019,
+   "rank": 152,
+   "of": 1025,
    "season": "2024"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 169.3,
+   "value": 182.5,
    "digits": 2,
-   "rank": 192,
-   "of": 1019,
+   "rank": 174,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1579,17 +1598,17 @@
    "stat": "Points, 2025",
    "value": 157.5,
    "digits": 2,
-   "rank": 220,
-   "of": 1019,
+   "rank": 228,
+   "of": 1025,
    "season": "2025"
   }
  ],
  "hof": {
-  "score": 41.15,
-  "rank": 31,
-  "of": 424,
-  "war": 28.4,
-  "starts": 12.75,
+  "score": 42.0,
+  "rank": 32,
+  "of": 426,
+  "war": 29.0,
+  "starts": 13.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1897,6 +1916,11 @@
     "2026",
     10,
     41.15
+   ],
+   [
+    "2026",
+    11,
+    42.0
    ]
   ],
   "benchmark": 100

@@ -40,10 +40,10 @@
    "franchise": 11,
    "team": "BubbaNASTIES",
    "nfl": "CHI",
-   "g": 10,
+   "g": 11,
    "gs": 8,
    "pts": 120.2,
-   "bench_pts": 19.9,
+   "bench_pts": 24.8,
    "ppg": 15.03,
    "best": 23.8,
    "wins": 3,
@@ -53,10 +53,10 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 8,
   "pts": 120.2,
-  "bench_pts": 140.3,
+  "bench_pts": 145.2,
   "ppg": 15.03,
   "best": 23.8,
   "wins": 3,
@@ -550,13 +550,29 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-9-11",
+   "kind": "regular",
+   "franchise": 11,
+   "team": "BubbaNASTIES",
+   "opp": 9,
+   "opp_team": "Clandestine Ball Busters",
+   "slot": null,
+   "started": false,
+   "pts": 4.9,
+   "proj": 15.17,
+   "won": true
   }
  ],
  "similar": [
   {
    "player": "7049",
    "name": "Jauan Jennings",
-   "score": 877,
+   "score": 878,
    "gs": 12,
    "pts": 167.3,
    "ppg": 13.94,
@@ -565,29 +581,29 @@
   {
    "player": "10232",
    "name": "Michael Wilson",
-   "score": 872,
+   "score": 875,
    "gs": 13,
    "pts": 187.18,
    "ppg": 14.4,
    "war": 0.66
   },
   {
+   "player": "9487",
+   "name": "Parker Washington",
+   "score": 874,
+   "gs": 12,
+   "pts": 165.4,
+   "ppg": 13.78,
+   "war": 0.61
+  },
+  {
    "player": "1689",
    "name": "Adam Thielen",
-   "score": 871,
+   "score": 874,
    "gs": 13,
    "pts": 200.0,
    "ppg": 15.38,
    "war": 0.48
-  },
-  {
-   "player": "9487",
-   "name": "Parker Washington",
-   "score": 865,
-   "gs": 11,
-   "pts": 147.1,
-   "ppg": 13.37,
-   "war": 0.5
   },
   {
    "player": "8126",
@@ -611,8 +627,8 @@
    "stat": "Points",
    "value": 120.2,
    "digits": 2,
-   "rank": 211,
-   "of": 424
+   "rank": 212,
+   "of": 426
   },
   {
    "group": "Career",
@@ -621,7 +637,7 @@
    "value": 8,
    "digits": 0,
    "rank": 242,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -629,8 +645,8 @@
    "stat": "WAR",
    "value": 0.55,
    "digits": 2,
-   "rank": 108,
-   "of": 424
+   "rank": 112,
+   "of": 426
   },
   {
    "group": "Career",
@@ -638,8 +654,8 @@
    "stat": "VOR",
    "value": 46.1,
    "digits": 1,
-   "rank": 109,
-   "of": 424
+   "rank": 112,
+   "of": 426
   },
   {
    "group": "Career",
@@ -647,8 +663,8 @@
    "stat": "PAA",
    "value": 9.0,
    "digits": 1,
-   "rank": 100,
-   "of": 424
+   "rank": 98,
+   "of": 426
   },
   {
    "group": "Career",
@@ -656,8 +672,8 @@
    "stat": "Best Game",
    "value": 23.8,
    "digits": 2,
-   "rank": 184,
-   "of": 424
+   "rank": 185,
+   "of": 426
   },
   {
    "group": "Career",
@@ -666,15 +682,15 @@
    "value": 15.03,
    "digits": 2,
    "rank": 67,
-   "of": 256
+   "of": 258
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Bench Points",
-   "value": 140.3,
+   "value": 145.2,
    "digits": 2,
-   "rank": 109,
+   "rank": 103,
    "of": 515
   },
   {
@@ -684,7 +700,7 @@
    "value": 120.2,
    "digits": 2,
    "rank": 62,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -693,7 +709,7 @@
    "value": 8,
    "digits": 0,
    "rank": 67,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -701,8 +717,8 @@
    "stat": "WAR",
    "value": 0.55,
    "digits": 2,
-   "rank": 31,
-   "of": 127
+   "rank": 33,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -750,8 +766,8 @@
    "stat": "Points",
    "value": 120.2,
    "digits": 2,
-   "rank": 51,
-   "of": 242,
+   "rank": 54,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -760,8 +776,8 @@
    "stat": "Points",
    "value": 120.2,
    "digits": 2,
-   "rank": 17,
-   "of": 63,
+   "rank": 18,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -770,15 +786,15 @@
    "stat": "Points, 2026",
    "value": 120.2,
    "digits": 2,
-   "rank": 311,
-   "of": 1019,
+   "rank": 314,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 7.5,
-  "rank": 161,
-  "of": 424,
+  "rank": 165,
+  "of": 426,
   "war": 5.5,
   "starts": 2.0,
   "black_ink": 0.0,
@@ -917,6 +933,11 @@
    [
     "2026",
     10,
+    7.5
+   ],
+   [
+    "2026",
+    11,
     7.5
    ]
   ],

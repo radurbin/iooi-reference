@@ -909,9 +909,9 @@
    "original": 2,
    "player": "11604",
    "pos": "TE",
-   "starts_team": 33,
+   "starts_team": 34,
    "pts_team": 528.7,
-   "starts_league": 33,
+   "starts_league": 34,
    "pts_league": 528.7,
    "nfl_pts": 576.8
   },
@@ -928,10 +928,10 @@
    "original": 7,
    "player": "11635",
    "pos": "WR",
-   "starts_team": 32,
-   "pts_team": 380.4,
-   "starts_league": 32,
-   "pts_league": 380.4,
+   "starts_team": 33,
+   "pts_team": 401.1,
+   "starts_league": 33,
+   "pts_league": 401.1,
    "nfl_pts": 479.1
   },
   {
@@ -949,8 +949,8 @@
    "pos": "RB",
    "starts_team": 0,
    "pts_team": 0.0,
-   "starts_league": 23,
-   "pts_league": 397.7,
+   "starts_league": 24,
+   "pts_league": 418.5,
    "nfl_pts": 552.3
   },
   {
@@ -1014,7 +1014,7 @@
    "season": "2025",
    "franchise": 11,
    "team": "BubbaNASTIES",
-   "score": 724,
+   "score": 723,
    "w": 4,
    "l": 10,
    "ppg": 118.09,
@@ -1024,17 +1024,17 @@
    "season": "2026",
    "franchise": 12,
    "team": "Team Win One Game",
-   "score": 669,
-   "w": 2,
+   "score": 658,
+   "w": 3,
    "l": 8,
-   "ppg": 102.12,
+   "ppg": 104.95,
    "result": null
   },
   {
    "season": "2024",
    "franchise": 12,
    "team": "Happy Feet",
-   "score": 628,
+   "score": 629,
    "w": 5,
    "l": 9,
    "ppg": 125.46,
@@ -1044,21 +1044,21 @@
    "season": "2024",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "score": 605,
+   "score": 607,
    "w": 5,
    "l": 9,
    "ppg": 121.37,
    "result": "11th"
   },
   {
-   "season": "2026",
-   "franchise": 10,
-   "team": "Maddison Beer’s Boys",
-   "score": 603,
-   "w": 2,
-   "l": 8,
-   "ppg": 99.26,
-   "result": null
+   "season": "2023",
+   "franchise": 12,
+   "team": "Happy Feet",
+   "score": 580,
+   "w": 4,
+   "l": 10,
+   "ppg": 111.81,
+   "result": "11th"
   }
  ],
  "pickups": [
@@ -1141,8 +1141,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 10,
-   "pts": 68.2,
+   "gs": 11,
+   "pts": 75.4,
    "next": 4,
    "next_team": "Win one game"
   },
@@ -1183,8 +1183,8 @@
    "managers": [
     "anargha"
    ],
-   "gs": 23,
-   "pts": 397.7,
+   "gs": 24,
+   "pts": 418.5,
    "next": 9,
    "next_team": "Football?"
   },

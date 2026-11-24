@@ -72,7 +72,7 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "WAS",
-   "g": 10,
+   "g": 11,
    "gs": 1,
    "pts": 3.7,
    "bench_pts": 42.3,
@@ -85,7 +85,7 @@
   }
  ],
  "totals": {
-  "g": 61,
+  "g": 62,
   "gs": 32,
   "pts": 375.2,
   "bench_pts": 183.1,
@@ -1226,6 +1226,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": false
   }
  ],
  "similar": [
@@ -1239,22 +1255,22 @@
    "war": -0.1
   },
   {
-   "player": "11635",
-   "name": "Ladd McConkey",
-   "score": 923,
-   "gs": 32,
-   "pts": 380.4,
-   "ppg": 11.89,
-   "war": 0.44
-  },
-  {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 868,
-   "gs": 27,
+   "score": 903,
+   "gs": 28,
    "pts": 334.8,
-   "ppg": 12.4,
-   "war": 0.36
+   "ppg": 11.96,
+   "war": 0.25
+  },
+  {
+   "player": "11635",
+   "name": "Ladd McConkey",
+   "score": 892,
+   "gs": 33,
+   "pts": 401.1,
+   "ppg": 12.15,
+   "war": 0.57
   },
   {
    "player": "5846",
@@ -1268,7 +1284,7 @@
   {
    "player": "8134",
    "name": "Khalil Shakir",
-   "score": 841,
+   "score": 843,
    "gs": 27,
    "pts": 284.5,
    "ppg": 10.54,
@@ -1298,7 +1314,7 @@
    "value": 375.2,
    "digits": 2,
    "rank": 85,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1306,8 +1322,8 @@
    "stat": "Games Started",
    "value": 32,
    "digits": 0,
-   "rank": 84,
-   "of": 424
+   "rank": 86,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1315,8 +1331,8 @@
    "stat": "WAR",
    "value": 0.0,
    "digits": 2,
-   "rank": 223,
-   "of": 424
+   "rank": 224,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1325,7 +1341,7 @@
    "value": 0.3,
    "digits": 1,
    "rank": 224,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
@@ -1333,8 +1349,8 @@
    "stat": "PAA",
    "value": -55.4,
    "digits": 1,
-   "rank": 375,
-   "of": 424
+   "rank": 376,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1342,8 +1358,8 @@
    "stat": "Best Game",
    "value": 27.3,
    "digits": 2,
-   "rank": 131,
-   "of": 424
+   "rank": 132,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1351,8 +1367,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 11.72,
    "digits": 2,
-   "rank": 134,
-   "of": 256
+   "rank": 131,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1360,7 +1376,7 @@
    "stat": "Bench Points",
    "value": 183.1,
    "digits": 2,
-   "rank": 61,
+   "rank": 62,
    "of": 515
   },
   {
@@ -1370,7 +1386,7 @@
    "value": 375.2,
    "digits": 2,
    "rank": 30,
-   "of": 127
+   "of": 129
   },
   {
    "group": "Career",
@@ -1378,8 +1394,8 @@
    "stat": "Games Started",
    "value": 32,
    "digits": 0,
-   "rank": 25,
-   "of": 127
+   "rank": 26,
+   "of": 129
   },
   {
    "group": "Career",
@@ -1387,8 +1403,8 @@
    "stat": "WAR",
    "value": 0.0,
    "digits": 2,
-   "rank": 56,
-   "of": 127
+   "rank": 57,
+   "of": 129
   },
   {
    "group": "Franchise",
@@ -1396,7 +1412,7 @@
    "stat": "Points",
    "value": 375.2,
    "digits": 2,
-   "rank": 3,
+   "rank": 4,
    "of": 68,
    "franchise": 3
   },
@@ -1496,8 +1512,8 @@
    "stat": "Points",
    "value": 3.7,
    "digits": 2,
-   "rank": 220,
-   "of": 242,
+   "rank": 225,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1507,7 +1523,7 @@
    "value": 3.7,
    "digits": 2,
    "rank": 58,
-   "of": 63,
+   "of": 66,
    "season": "2026"
   },
   {
@@ -1516,8 +1532,8 @@
    "stat": "Points, 2024",
    "value": 199.8,
    "digits": 2,
-   "rank": 128,
-   "of": 1019,
+   "rank": 135,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1526,8 +1542,8 @@
    "stat": "Points, 2023",
    "value": 125.9,
    "digits": 2,
-   "rank": 292,
-   "of": 1019,
+   "rank": 297,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1536,8 +1552,8 @@
    "stat": "Points, 2025",
    "value": 45.8,
    "digits": 2,
-   "rank": 597,
-   "of": 1019,
+   "rank": 605,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1546,15 +1562,15 @@
    "stat": "Points, 2026",
    "value": 3.7,
    "digits": 2,
-   "rank": 951,
-   "of": 1019,
+   "rank": 956,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
   "score": 8.0,
-  "rank": 156,
-  "of": 424,
+  "rank": 158,
+  "of": 426,
   "war": 0.0,
   "starts": 8.0,
   "black_ink": 0.0,
@@ -1864,6 +1880,11 @@
     "2026",
     10,
     8.0
+   ],
+   [
+    "2026",
+    11,
+    8.0
    ]
   ],
   "benchmark": 100
@@ -1948,23 +1969,24 @@
    {
     "season": "2026",
     "nfl": "WAS",
-    "missed": 4,
+    "missed": 5,
     "lost": 0.0,
     "injuries": [
-     "Hamstring",
-     "Knee"
+     "Knee",
+     "Hamstring"
     ],
     "weeks": [
      4,
      8,
      9,
-     10
+     10,
+     11
     ],
     "kinds": [
      "IR",
      "Questionable"
     ],
-    "rostered": 4,
+    "rostered": 5,
     "games": [
      {
       "week": 4,
@@ -1989,6 +2011,13 @@
      },
      {
       "week": 10,
+      "kind": "IR",
+      "injury": "Knee",
+      "franchise": 3,
+      "team": "Kolkata Kommies"
+     },
+     {
+      "week": 11,
       "kind": "IR",
       "injury": "Knee",
       "franchise": 3,
@@ -2072,13 +2101,14 @@
    {
     "season": "2026",
     "from": 8,
-    "to": 10,
+    "to": 11,
     "weeks": [
      8,
      9,
-     10
+     10,
+     11
     ],
-    "missed": 3,
+    "missed": 4,
     "nfl": "WAS",
     "injury": "Knee",
     "kinds": [
@@ -2090,7 +2120,7 @@
       "team": "Kolkata Kommies"
      }
     ],
-    "rostered": 3,
+    "rostered": 4,
     "lost": 0.0
    }
   ],
@@ -2098,7 +2128,7 @@
    "status": "IR",
    "injury": "Knee",
    "since": null,
-   "streak": 3
+   "streak": 4
   }
  }
 }

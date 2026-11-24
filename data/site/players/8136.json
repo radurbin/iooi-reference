@@ -88,29 +88,29 @@
    "franchise": 12,
    "team": "Team Win One Game",
    "nfl": "WAS",
-   "g": 7,
-   "gs": 5,
+   "g": 8,
+   "gs": 6,
    "pts": 51.6,
    "bench_pts": 0.0,
-   "ppg": 10.32,
+   "ppg": 8.6,
    "best": 16.4,
-   "wins": 1,
-   "paa": -26.27,
-   "vor": 9.25,
-   "war": 0.11
+   "wins": 2,
+   "paa": -40.45,
+   "vor": 0.78,
+   "war": 0.01
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 31,
+  "g": 62,
+  "gs": 32,
   "pts": 429.4,
   "bench_pts": 227.8,
-  "ppg": 13.85,
+  "ppg": 13.42,
   "best": 27.9,
-  "wins": 13,
-  "paa": -3.44,
-  "vor": 135.63,
-  "war": 1.6
+  "wins": 14,
+  "paa": -17.62,
+  "vor": 127.16,
+  "war": 1.5
  },
  "nfl": [
   {
@@ -137,7 +137,7 @@
   {
    "season": "2026",
    "team": "WAS",
-   "g": 8,
+   "g": 9,
    "pts": 83.9,
    "rank": 34
   }
@@ -1262,13 +1262,32 @@
    "paa": -11.49,
    "vor": -1.17,
    "war": -0.01382797633955082
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-8-12",
+   "kind": "regular",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "opp": 8,
+   "opp_team": "BBL KIZZY",
+   "slot": "RB",
+   "started": true,
+   "pts": 0.0,
+   "proj": 9.19,
+   "won": true,
+   "paa": -14.18,
+   "vor": -8.47,
+   "war": -0.100105093671791
   }
  ],
  "similar": [
   {
    "player": "4199",
    "name": "Aaron Jones Sr.",
-   "score": 888,
+   "score": 917,
    "gs": 32,
    "pts": 396.55,
    "ppg": 12.39,
@@ -1277,7 +1296,7 @@
   {
    "player": "7611",
    "name": "Rhamondre Stevenson",
-   "score": 854,
+   "score": 864,
    "gs": 27,
    "pts": 342.3,
    "ppg": 12.68,
@@ -1286,7 +1305,7 @@
   {
    "player": "4137",
    "name": "James Conner",
-   "score": 852,
+   "score": 827,
    "gs": 24,
    "pts": 360.2,
    "ppg": 15.01,
@@ -1295,20 +1314,20 @@
   {
    "player": "7543",
    "name": "Travis Etienne Jr.",
-   "score": 837,
-   "gs": 37,
-   "pts": 533.1,
-   "ppg": 14.41,
-   "war": 2.29
+   "score": 823,
+   "gs": 38,
+   "pts": 542.1,
+   "ppg": 14.27,
+   "war": 2.3
   },
   {
    "player": "9224",
    "name": "Chase Brown",
-   "score": 826,
-   "gs": 35,
-   "pts": 527.1,
-   "ppg": 15.06,
-   "war": 2.51
+   "score": 808,
+   "gs": 36,
+   "pts": 536.3,
+   "ppg": 14.9,
+   "war": 2.52
   }
  ],
  "status": {
@@ -1324,43 +1343,43 @@
    "value": 429.4,
    "digits": 2,
    "rank": 75,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 31,
+   "value": 32,
    "digits": 0,
-   "rank": 88,
-   "of": 424
+   "rank": 86,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.6,
+   "value": 1.5,
    "digits": 2,
-   "rank": 58,
-   "of": 424
+   "rank": 62,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 135.6,
+   "value": 127.2,
    "digits": 1,
-   "rank": 58,
-   "of": 424
+   "rank": 62,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -3.4,
+   "value": -17.6,
    "digits": 1,
-   "rank": 154,
-   "of": 424
+   "rank": 277,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1368,17 +1387,17 @@
    "stat": "Best Game",
    "value": 27.9,
    "digits": 2,
-   "rank": 126,
-   "of": 424
+   "rank": 127,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 13.85,
+   "value": 13.42,
    "digits": 2,
-   "rank": 90,
-   "of": 256
+   "rank": 98,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1386,7 +1405,7 @@
    "stat": "Bench Points",
    "value": 227.8,
    "digits": 2,
-   "rank": 37,
+   "rank": 38,
    "of": 515
   },
   {
@@ -1402,18 +1421,18 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 31,
+   "value": 32,
    "digits": 0,
-   "rank": 21,
+   "rank": 20,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 1.6,
+   "value": 1.5,
    "digits": 2,
-   "rank": 24,
+   "rank": 26,
    "of": 100
   },
   {
@@ -1422,28 +1441,28 @@
    "stat": "Points",
    "value": 51.6,
    "digits": 2,
-   "rank": 23,
-   "of": 49,
+   "rank": 24,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "Games Started",
-   "value": 5,
+   "value": 6,
    "digits": 0,
    "rank": 26,
-   "of": 49,
+   "of": 50,
    "franchise": 12
   },
   {
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": 0.11,
+   "value": 0.01,
    "digits": 2,
-   "rank": 14,
-   "of": 49,
+   "rank": 23,
+   "of": 50,
    "franchise": 12
   },
   {
@@ -1452,7 +1471,7 @@
    "stat": "Points, RBs",
    "value": 51.6,
    "digits": 2,
-   "rank": 6,
+   "rank": 7,
    "of": 14,
    "franchise": 12
   },
@@ -1463,7 +1482,7 @@
    "value": 377.8,
    "digits": 2,
    "rank": 6,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1472,8 +1491,8 @@
    "stat": "Games Started",
    "value": 26,
    "digits": 0,
-   "rank": 5,
-   "of": 67,
+   "rank": 6,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1483,7 +1502,7 @@
    "value": 1.49,
    "digits": 2,
    "rank": 7,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1493,7 +1512,7 @@
    "value": 377.8,
    "digits": 2,
    "rank": 2,
-   "of": 11,
+   "of": 12,
    "franchise": 9
   },
   {
@@ -1562,8 +1581,8 @@
    "stat": "Points",
    "value": 51.6,
    "digits": 2,
-   "rank": 115,
-   "of": 242,
+   "rank": 124,
+   "of": 248,
    "season": "2026"
   },
   {
@@ -1572,8 +1591,8 @@
    "stat": "Points",
    "value": 51.6,
    "digits": 2,
-   "rank": 27,
-   "of": 58,
+   "rank": 31,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1582,8 +1601,8 @@
    "stat": "Points, 2023",
    "value": 208.4,
    "digits": 2,
-   "rank": 111,
-   "of": 1019,
+   "rank": 115,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1592,8 +1611,8 @@
    "stat": "Points, 2024",
    "value": 88.4,
    "digits": 2,
-   "rank": 389,
-   "of": 1019,
+   "rank": 393,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1602,8 +1621,8 @@
    "stat": "Points, 2025",
    "value": 81.0,
    "digits": 2,
-   "rank": 412,
-   "of": 1019,
+   "rank": 422,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1612,17 +1631,17 @@
    "stat": "Points, 2026",
    "value": 51.6,
    "digits": 2,
-   "rank": 561,
-   "of": 1019,
+   "rank": 570,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 23.75,
-  "rank": 69,
-  "of": 424,
-  "war": 16.0,
-  "starts": 7.75,
+  "score": 23.0,
+  "rank": 70,
+  "of": 426,
+  "war": 15.0,
+  "starts": 8.0,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1930,6 +1949,11 @@
     "2026",
     10,
     23.75
+   ],
+   [
+    "2026",
+    11,
+    23.0
    ]
   ],
   "benchmark": 100
@@ -1967,7 +1991,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 1,
-    "lost": 2.02,
+    "lost": 0.85,
     "injuries": [
      "Shoulder"
     ],
@@ -2032,14 +2056,9 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.02
+    "lost": 0.85
    }
   ],
-  "now": {
-   "status": "Questionable",
-   "injury": "Heel",
-   "since": null,
-   "streak": 0
-  }
+  "now": null
  }
 }

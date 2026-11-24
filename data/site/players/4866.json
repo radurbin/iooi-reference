@@ -93,29 +93,29 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "PHI",
-   "g": 10,
-   "gs": 6,
-   "pts": 63.4,
+   "g": 11,
+   "gs": 7,
+   "pts": 78.6,
    "bench_pts": 2.2,
-   "ppg": 10.57,
+   "ppg": 11.23,
    "best": 15.8,
-   "wins": 5,
-   "paa": -33.95,
-   "vor": 12.58,
-   "war": 0.15
+   "wins": 6,
+   "paa": -32.93,
+   "vor": 19.31,
+   "war": 0.23
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 50,
-  "pts": 838.2,
+  "g": 62,
+  "gs": 51,
+  "pts": 853.4,
   "bench_pts": 16.0,
-  "ppg": 16.76,
+  "ppg": 16.73,
   "best": 46.2,
-  "wins": 35,
-  "paa": 128.23,
-  "vor": 375.94,
-  "war": 4.44
+  "wins": 36,
+  "paa": 129.25,
+  "vor": 382.67,
+  "war": 4.52
  },
  "nfl": [
   {
@@ -1328,22 +1328,41 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": "FLEX",
+   "started": true,
+   "pts": 15.2,
+   "proj": 14.36,
+   "won": true,
+   "paa": 1.02,
+   "vor": 6.73,
+   "war": 0.07954041091040773
   }
  ],
  "similar": [
   {
    "player": "8138",
    "name": "James Cook III",
-   "score": 958,
-   "gs": 49,
-   "pts": 845.5,
-   "ppg": 17.26,
-   "war": 4.62
+   "score": 951,
+   "gs": 50,
+   "pts": 864.9,
+   "ppg": 17.3,
+   "war": 4.75
   },
   {
    "player": "8150",
    "name": "Kyren Williams",
-   "score": 927,
+   "score": 922,
    "gs": 48,
    "pts": 842.3,
    "ppg": 17.55,
@@ -1352,16 +1371,16 @@
   {
    "player": "6813",
    "name": "Jonathan Taylor",
-   "score": 880,
-   "gs": 49,
-   "pts": 771.7,
-   "ppg": 15.75,
-   "war": 3.78
+   "score": 866,
+   "gs": 50,
+   "pts": 779.5,
+   "ppg": 15.59,
+   "war": 3.77
   },
   {
    "player": "8151",
    "name": "Kenneth Walker III",
-   "score": 813,
+   "score": 795,
    "gs": 45,
    "pts": 714.45,
    "ppg": 15.88,
@@ -1370,11 +1389,11 @@
   {
    "player": "3198",
    "name": "Derrick Henry",
-   "score": 795,
-   "gs": 58,
-   "pts": 979.84,
-   "ppg": 16.89,
-   "war": 5.22
+   "score": 792,
+   "gs": 59,
+   "pts": 1000.24,
+   "ppg": 16.95,
+   "war": 5.36
   }
  ],
  "status": {
@@ -1387,46 +1406,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 838.2,
+   "value": 853.4,
    "digits": 2,
-   "rank": 21,
-   "of": 424
+   "rank": 19,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 50,
+   "value": 51,
    "digits": 0,
-   "rank": 15,
-   "of": 424
+   "rank": 11,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 4.44,
+   "value": 4.52,
    "digits": 2,
    "rank": 13,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 375.9,
+   "value": 382.7,
    "digits": 1,
    "rank": 13,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": 128.2,
+   "value": 129.2,
    "digits": 1,
-   "rank": 22,
-   "of": 424
+   "rank": 21,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1435,16 +1454,16 @@
    "value": 46.2,
    "digits": 2,
    "rank": 9,
-   "of": 424
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 16.76,
+   "value": 16.73,
    "digits": 2,
-   "rank": 36,
-   "of": 256
+   "rank": 37,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1452,23 +1471,23 @@
    "stat": "Bench Points",
    "value": 16.0,
    "digits": 2,
-   "rank": 411,
+   "rank": 414,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 838.2,
+   "value": 853.4,
    "digits": 2,
-   "rank": 7,
+   "rank": 6,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 50,
+   "value": 51,
    "digits": 0,
    "rank": 5,
    "of": 100
@@ -1477,7 +1496,7 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 4.44,
+   "value": 4.52,
    "digits": 2,
    "rank": 7,
    "of": 100
@@ -1489,7 +1508,7 @@
    "value": 122.5,
    "digits": 2,
    "rank": 23,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1499,7 +1518,7 @@
    "value": 7,
    "digits": 0,
    "rank": 32,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1509,7 +1528,7 @@
    "value": 0.57,
    "digits": 2,
    "rank": 9,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1519,44 +1538,44 @@
    "value": 122.5,
    "digits": 2,
    "rank": 8,
-   "of": 15,
+   "of": 16,
    "franchise": 4
   },
   {
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points",
-   "value": 715.7,
+   "value": 730.9,
    "digits": 2,
    "rank": 3,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Games Started",
-   "value": 43,
+   "value": 44,
    "digits": 0,
    "rank": 3,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "WAR",
-   "value": 3.87,
+   "value": 3.95,
    "digits": 2,
    "rank": 2,
-   "of": 77,
+   "of": 78,
    "franchise": 1
   },
   {
    "group": "Franchise",
    "scope": "Mojo Dojo Casa Team 💍",
    "stat": "Points, RBs",
-   "value": 715.7,
+   "value": 730.9,
    "digits": 2,
    "rank": 1,
    "of": 16,
@@ -1626,20 +1645,20 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 63.4,
+   "value": 78.6,
    "digits": 2,
-   "rank": 96,
-   "of": 242,
+   "rank": 88,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 63.4,
+   "value": 78.6,
    "digits": 2,
-   "rank": 24,
-   "of": 58,
+   "rank": 25,
+   "of": 60,
    "season": "2026"
   },
   {
@@ -1649,7 +1668,7 @@
    "value": 355.3,
    "digits": 2,
    "rank": 8,
-   "of": 1019,
+   "of": 1025,
    "season": "2024"
   },
   {
@@ -1658,8 +1677,8 @@
    "stat": "Points, 2025",
    "value": 233.8,
    "digits": 2,
-   "rank": 74,
-   "of": 1019,
+   "rank": 78,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1668,27 +1687,27 @@
    "stat": "Points, 2023",
    "value": 185.7,
    "digits": 2,
-   "rank": 159,
-   "of": 1019,
+   "rank": 168,
+   "of": 1025,
    "season": "2023"
   },
   {
    "group": "Season",
    "scope": "All single seasons",
    "stat": "Points, 2026",
-   "value": 63.4,
+   "value": 78.6,
    "digits": 2,
-   "rank": 498,
-   "of": 1019,
+   "rank": 436,
+   "of": 1025,
    "season": "2026"
   }
  ],
  "hof": {
-  "score": 70.9,
+  "score": 71.95,
   "rank": 8,
-  "of": 424,
-  "war": 44.4,
-  "starts": 12.5,
+  "of": 426,
+  "war": 45.2,
+  "starts": 12.75,
   "black_ink": 4.0,
   "awards": 10.0,
   "history": [
@@ -1996,6 +2015,11 @@
     "2026",
     10,
     70.9
+   ],
+   [
+    "2026",
+    11,
+    71.95
    ]
   ],
   "benchmark": 100

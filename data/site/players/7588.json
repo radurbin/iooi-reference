@@ -72,29 +72,29 @@
    "franchise": 3,
    "team": "Kolkata Kommies",
    "nfl": "DAL",
-   "g": 10,
-   "gs": 10,
-   "pts": 184.3,
+   "g": 11,
+   "gs": 11,
+   "pts": 210.2,
    "bench_pts": 0.0,
-   "ppg": 18.43,
+   "ppg": 19.11,
    "best": 33.2,
    "wins": 8,
-   "paa": 21.81,
-   "vor": 99.6,
-   "war": 1.18
+   "paa": 33.53,
+   "vor": 117.03,
+   "war": 1.38
   }
  ],
  "totals": {
-  "g": 61,
-  "gs": 44,
-  "pts": 594.7,
+  "g": 62,
+  "gs": 45,
+  "pts": 620.6,
   "bench_pts": 124.0,
-  "ppg": 13.52,
+  "ppg": 13.79,
   "best": 33.2,
   "wins": 20,
-  "paa": -26.37,
-  "vor": 183.1,
-  "war": 2.16
+  "paa": -14.65,
+  "vor": 200.53,
+  "war": 2.37
  },
  "nfl": [
   {
@@ -1251,49 +1251,68 @@
    "paa": -9.49,
    "vor": 0.83,
    "war": 0.009809590052843745
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-3-5",
+   "kind": "regular",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "opp": 5,
+   "opp_team": "St. Brown VS Board💍",
+   "slot": "RB",
+   "started": true,
+   "pts": 25.9,
+   "proj": 23.39,
+   "won": false,
+   "paa": 11.72,
+   "vor": 17.43,
+   "war": 0.20600139110971866
   }
  ],
  "similar": [
   {
-   "player": "5967",
-   "name": "Tony Pollard",
-   "score": 946,
-   "gs": 43,
-   "pts": 565.1,
-   "ppg": 13.14,
-   "war": 1.86
-  },
-  {
    "player": "5892",
    "name": "David Montgomery",
-   "score": 946,
-   "gs": 44,
-   "pts": 568.84,
-   "ppg": 12.93,
-   "war": 1.89
+   "score": 929,
+   "gs": 45,
+   "pts": 586.84,
+   "ppg": 13.04,
+   "war": 2.0
   },
   {
-   "player": "7543",
-   "name": "Travis Etienne Jr.",
-   "score": 861,
-   "gs": 37,
-   "pts": 533.1,
-   "ppg": 14.41,
-   "war": 2.29
+   "player": "5967",
+   "name": "Tony Pollard",
+   "score": 920,
+   "gs": 44,
+   "pts": 578.2,
+   "ppg": 13.14,
+   "war": 1.91
   },
   {
    "player": "8155",
    "name": "Breece Hall",
-   "score": 854,
-   "gs": 47,
-   "pts": 684.61,
-   "ppg": 14.57,
-   "war": 2.9
+   "score": 867,
+   "gs": 48,
+   "pts": 705.61,
+   "ppg": 14.7,
+   "war": 3.04
+  },
+  {
+   "player": "7543",
+   "name": "Travis Etienne Jr.",
+   "score": 865,
+   "gs": 38,
+   "pts": 542.1,
+   "ppg": 14.27,
+   "war": 2.3
   },
   {
    "player": "5850",
    "name": "Josh Jacobs",
-   "score": 820,
+   "score": 859,
    "gs": 45,
    "pts": 685.5,
    "ppg": 15.23,
@@ -1310,46 +1329,46 @@
    "group": "Career",
    "scope": "League",
    "stat": "Points",
-   "value": 594.7,
+   "value": 620.6,
    "digits": 2,
-   "rank": 46,
-   "of": 424
+   "rank": 44,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Games Started",
-   "value": 44,
+   "value": 45,
    "digits": 0,
-   "rank": 36,
-   "of": 424
+   "rank": 34,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.16,
+   "value": 2.37,
    "digits": 2,
-   "rank": 45,
-   "of": 424
+   "rank": 39,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 183.1,
+   "value": 200.5,
    "digits": 1,
-   "rank": 45,
-   "of": 424
+   "rank": 39,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "PAA",
-   "value": -26.4,
+   "value": -14.7,
    "digits": 1,
-   "rank": 311,
-   "of": 424
+   "rank": 261,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1357,17 +1376,17 @@
    "stat": "Best Game",
    "value": 33.2,
    "digits": 2,
-   "rank": 74,
-   "of": 424
+   "rank": 75,
+   "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "Points per Start (min. 8 GS)",
-   "value": 13.52,
+   "value": 13.79,
    "digits": 2,
-   "rank": 94,
-   "of": 256
+   "rank": 90,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1375,14 +1394,14 @@
    "stat": "Bench Points",
    "value": 124.0,
    "digits": 2,
-   "rank": 138,
+   "rank": 140,
    "of": 515
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "Points",
-   "value": 594.7,
+   "value": 620.6,
    "digits": 2,
    "rank": 14,
    "of": 100
@@ -1391,27 +1410,27 @@
    "group": "Career",
    "scope": "All RBs",
    "stat": "Games Started",
-   "value": 44,
+   "value": 45,
    "digits": 0,
-   "rank": 13,
+   "rank": 11,
    "of": 100
   },
   {
    "group": "Career",
    "scope": "All RBs",
    "stat": "WAR",
-   "value": 2.16,
+   "value": 2.37,
    "digits": 2,
-   "rank": 19,
+   "rank": 18,
    "of": 100
   },
   {
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Points",
-   "value": 371.8,
+   "value": 397.7,
    "digits": 2,
-   "rank": 4,
+   "rank": 3,
    "of": 68,
    "franchise": 3
   },
@@ -1419,7 +1438,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Games Started",
-   "value": 23,
+   "value": 24,
    "digits": 0,
    "rank": 5,
    "of": 68,
@@ -1429,7 +1448,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": 2.08,
+   "value": 2.28,
    "digits": 2,
    "rank": 3,
    "of": 68,
@@ -1439,7 +1458,7 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "Points, RBs",
-   "value": 371.8,
+   "value": 397.7,
    "digits": 2,
    "rank": 1,
    "of": 15,
@@ -1452,7 +1471,7 @@
    "value": 222.9,
    "digits": 2,
    "rank": 12,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1462,7 +1481,7 @@
    "value": 21,
    "digits": 0,
    "rank": 9,
-   "of": 67,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1471,8 +1490,8 @@
    "stat": "WAR",
    "value": 0.09,
    "digits": 2,
-   "rank": 20,
-   "of": 67,
+   "rank": 19,
+   "of": 68,
    "franchise": 9
   },
   {
@@ -1482,7 +1501,7 @@
    "value": 222.9,
    "digits": 2,
    "rank": 4,
-   "of": 11,
+   "of": 12,
    "franchise": 9
   },
   {
@@ -1549,20 +1568,30 @@
    "group": "Season",
    "scope": "2026 League",
    "stat": "Points",
-   "value": 184.3,
+   "value": 210.2,
    "digits": 2,
-   "rank": 18,
-   "of": 242,
+   "rank": 12,
+   "of": 248,
    "season": "2026"
   },
   {
    "group": "Season",
    "scope": "2026 RBs",
    "stat": "Points",
-   "value": 184.3,
+   "value": 210.2,
    "digits": 2,
-   "rank": 7,
-   "of": 58,
+   "rank": 6,
+   "of": 60,
+   "season": "2026"
+  },
+  {
+   "group": "Season",
+   "scope": "All single seasons",
+   "stat": "Points, 2026",
+   "value": 210.2,
+   "digits": 2,
+   "rank": 109,
+   "of": 1025,
    "season": "2026"
   },
   {
@@ -1571,19 +1600,9 @@
    "stat": "Points, 2025",
    "value": 187.5,
    "digits": 2,
-   "rank": 152,
-   "of": 1019,
+   "rank": 162,
+   "of": 1025,
    "season": "2025"
-  },
-  {
-   "group": "Season",
-   "scope": "All single seasons",
-   "stat": "Points, 2026",
-   "value": 184.3,
-   "digits": 2,
-   "rank": 164,
-   "of": 1019,
-   "season": "2026"
   },
   {
    "group": "Season",
@@ -1591,8 +1610,8 @@
    "stat": "Points, 2023",
    "value": 158.7,
    "digits": 2,
-   "rank": 215,
-   "of": 1019,
+   "rank": 220,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1601,17 +1620,17 @@
    "stat": "Points, 2024",
    "value": 64.2,
    "digits": 2,
-   "rank": 495,
-   "of": 1019,
+   "rank": 505,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
-  "score": 32.6,
-  "rank": 47,
-  "of": 424,
-  "war": 21.6,
-  "starts": 11.0,
+  "score": 34.95,
+  "rank": 45,
+  "of": 426,
+  "war": 23.7,
+  "starts": 11.25,
   "black_ink": 0.0,
   "awards": 0.0,
   "history": [
@@ -1919,6 +1938,11 @@
     "2026",
     10,
     32.6
+   ],
+   [
+    "2026",
+    11,
+    34.95
    ]
   ],
   "benchmark": 100

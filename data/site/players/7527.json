@@ -923,7 +923,7 @@
   {
    "player": "4017",
    "name": "Deshaun Watson",
-   "score": 521,
+   "score": 522,
    "gs": 13,
    "pts": 162.48,
    "ppg": 12.5,
@@ -932,7 +932,7 @@
   {
    "player": "6011",
    "name": "Gardner Minshew II",
-   "score": 509,
+   "score": 510,
    "gs": 13,
    "pts": 164.56,
    "ppg": 12.66,
@@ -960,8 +960,8 @@
    "stat": "Points",
    "value": 57.14,
    "digits": 2,
-   "rank": 261,
-   "of": 424
+   "rank": 263,
+   "of": 426
   },
   {
    "group": "Career",
@@ -969,8 +969,8 @@
    "stat": "Games Started",
    "value": 11,
    "digits": 0,
-   "rank": 212,
-   "of": 424
+   "rank": 215,
+   "of": 426
   },
   {
    "group": "Career",
@@ -978,8 +978,8 @@
    "stat": "WAR",
    "value": -1.06,
    "digits": 2,
-   "rank": 423,
-   "of": 424
+   "rank": 425,
+   "of": 426
   },
   {
    "group": "Career",
@@ -987,8 +987,8 @@
    "stat": "VOR",
    "value": -89.3,
    "digits": 1,
-   "rank": 423,
-   "of": 424
+   "rank": 425,
+   "of": 426
   },
   {
    "group": "Career",
@@ -996,8 +996,8 @@
    "stat": "PAA",
    "value": -108.8,
    "digits": 1,
-   "rank": 419,
-   "of": 424
+   "rank": 421,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1005,8 +1005,8 @@
    "stat": "Best Game",
    "value": 23.06,
    "digits": 2,
-   "rank": 192,
-   "of": 424
+   "rank": 193,
+   "of": 426
   },
   {
    "group": "Career",
@@ -1014,8 +1014,8 @@
    "stat": "Points per Start (min. 8 GS)",
    "value": 5.19,
    "digits": 2,
-   "rank": 247,
-   "of": 256
+   "rank": 248,
+   "of": 258
   },
   {
    "group": "Career",
@@ -1023,7 +1023,7 @@
    "stat": "Bench Points",
    "value": 133.06,
    "digits": 2,
-   "rank": 120,
+   "rank": 123,
    "of": 515
   },
   {
@@ -1060,7 +1060,7 @@
    "value": 22.76,
    "digits": 2,
    "rank": 46,
-   "of": 82,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1069,8 +1069,8 @@
    "stat": "Games Started",
    "value": 3,
    "digits": 0,
-   "rank": 44,
-   "of": 82,
+   "rank": 45,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1079,8 +1079,8 @@
    "stat": "WAR",
    "value": -0.14,
    "digits": 2,
-   "rank": 61,
-   "of": 82,
+   "rank": 62,
+   "of": 83,
    "franchise": 4
   },
   {
@@ -1109,7 +1109,7 @@
    "stat": "Games Started",
    "value": 8,
    "digits": 0,
-   "rank": 25,
+   "rank": 26,
    "of": 68,
    "franchise": 3
   },
@@ -1199,8 +1199,8 @@
    "stat": "Points, 2025",
    "value": 33.94,
    "digits": 2,
-   "rank": 666,
-   "of": 1019,
+   "rank": 669,
+   "of": 1025,
    "season": "2025"
   },
   {
@@ -1209,8 +1209,8 @@
    "stat": "Points, 2023",
    "value": 17.96,
    "digits": 2,
-   "rank": 770,
-   "of": 1019,
+   "rank": 777,
+   "of": 1025,
    "season": "2023"
   },
   {
@@ -1219,15 +1219,15 @@
    "stat": "Points, 2024",
    "value": 5.24,
    "digits": 2,
-   "rank": 933,
-   "of": 1019,
+   "rank": 937,
+   "of": 1025,
    "season": "2024"
   }
  ],
  "hof": {
   "score": 2.75,
-  "rank": 237,
-  "of": 424,
+  "rank": 238,
+  "of": 426,
   "war": 0.0,
   "starts": 2.75,
   "black_ink": 0.0,
@@ -1536,6 +1536,11 @@
    [
     "2026",
     10,
+    2.75
+   ],
+   [
+    "2026",
+    11,
     2.75
    ]
   ],

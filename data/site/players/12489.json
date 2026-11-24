@@ -40,7 +40,7 @@
    "franchise": 1,
    "team": "Mojo Dojo Casa Team 💍",
    "nfl": "DEN",
-   "g": 10,
+   "g": 11,
    "gs": 0,
    "pts": 0.0,
    "bench_pts": 69.8,
@@ -53,7 +53,7 @@
   }
  ],
  "totals": {
-  "g": 27,
+  "g": 28,
   "gs": 0,
   "pts": 0.0,
   "bench_pts": 272.1,
@@ -77,7 +77,7 @@
    "team": "DEN",
    "g": 6,
    "pts": 69.8,
-   "rank": 38
+   "rank": 39
   }
  ],
  "history": [
@@ -526,6 +526,22 @@
    "pts": 0.0,
    "proj": null,
    "won": true
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "date": "2026-11-19",
+   "game": "2026-11-1-4",
+   "kind": "regular",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "opp": 4,
+   "opp_team": "Im Stroud Of You",
+   "slot": null,
+   "started": false,
+   "pts": 0.0,
+   "proj": null,
+   "won": true
   }
  ],
  "status": {
@@ -540,7 +556,7 @@
    "stat": "Bench Points",
    "value": 272.1,
    "digits": 2,
-   "rank": 21,
+   "rank": 22,
    "of": 515
   }
  ],
@@ -554,7 +570,7 @@
     "season": "2026",
     "nfl": "DEN",
     "missed": 4,
-    "lost": 9.48,
+    "lost": 12.64,
     "injuries": [
      "Knee",
      "Hamstring"
@@ -569,7 +585,7 @@
      "IR",
      "Questionable"
     ],
-    "rostered": 3,
+    "rostered": 4,
     "games": [
      {
       "week": 2,
@@ -596,8 +612,8 @@
       "week": 11,
       "kind": "IR",
       "injury": "Knee",
-      "franchise": null,
-      "team": null
+      "franchise": 1,
+      "team": "Mojo Dojo Casa Team 💍"
      }
     ]
    }
@@ -646,8 +662,8 @@
       "team": "Mojo Dojo Casa Team 💍"
      }
     ],
-    "rostered": 2,
-    "lost": 6.32
+    "rostered": 3,
+    "lost": 9.48
    }
   ],
   "now": {
