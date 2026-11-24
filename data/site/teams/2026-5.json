@@ -2073,8 +2073,8 @@
    "opp_record": "7-4",
    "opp_seed": 3,
    "chance": 0.54,
-   "proj": 141.03,
-   "opp_proj": 143.5
+   "proj": 140.61,
+   "opp_proj": 143.0
   },
   {
    "week": 13,
@@ -2094,11 +2094,11 @@
   }
  ],
  "injuries": {
-  "games": 36,
+  "games": 35,
   "players": 10,
-  "lost": 99.13,
+  "lost": 96.17,
   "rank": 2,
-  "games_rank": 3,
+  "games_rank": 5,
   "of": 12,
   "rows": [
    {
@@ -2149,16 +2149,15 @@
     "player": "12533",
     "name": "Jacory Croskey-Merritt",
     "pos": "RB",
-    "missed": 4,
-    "lost": 11.84,
+    "missed": 3,
+    "lost": 8.88,
     "injuries": [
      "Groin"
     ],
     "weeks": [
      8,
      9,
-     10,
-     11
+     10
     ],
     "kinds": [
      "IR"
@@ -2313,7 +2312,7 @@
    4,
    4,
    4,
-   6,
+   5,
    0,
    0,
    0,

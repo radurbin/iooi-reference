@@ -1265,9 +1265,9 @@
    "season": "2026",
    "franchise": 5,
    "team": "St. Brown VS Board💍",
-   "games": 36,
+   "games": 35,
    "players": 10,
-   "lost": 99.13,
+   "lost": 96.17,
    "rank": 2,
    "of": 12
   }
@@ -1543,29 +1543,6 @@
    ]
   },
   {
-   "player": "12533",
-   "name": "Jacory Croskey-Merritt",
-   "pos": "RB",
-   "missed": 4,
-   "lost": 11.84,
-   "injuries": [
-    "Groin"
-   ],
-   "kinds": [
-    "IR"
-   ],
-   "seasons": [
-    "2026"
-   ],
-   "teams": [
-    {
-     "season": "2026",
-     "franchise": 5,
-     "team": "St. Brown VS Board💍"
-    }
-   ]
-  },
-  {
    "player": "10444",
    "name": "Cedric Tillman",
    "pos": "WR",
@@ -1602,6 +1579,29 @@
     "IR",
     "Out",
     "Questionable"
+   ],
+   "seasons": [
+    "2026"
+   ],
+   "teams": [
+    {
+     "season": "2026",
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ]
+  },
+  {
+   "player": "12533",
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "missed": 3,
+   "lost": 8.88,
+   "injuries": [
+    "Groin"
+   ],
+   "kinds": [
+    "IR"
    ],
    "seasons": [
     "2026"
