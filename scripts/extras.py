@@ -23,6 +23,7 @@ PLAYER_STARTS = (25, 50, 75, 100)
 BIG_GAME = 20          # points for a player's "big game" streak
 SIMILAR_MIN_STARTS = 8  # career starts before a player is compared with others
 LEADER_ROWS = 5
+HOME_LIST_MOVES = 20    # franchise and manager list climbs the home page writes out before it says "and N more"
 
 
 def load(path):
@@ -1267,8 +1268,9 @@ def last_week_honors(games, players, records, reached, logs, stints, team_runs=(
     other = sorted((m for m in moves if m["list"] != "league"), key=lambda m: m["to"])
     if other:
         text = "; ".join(f"{p(m['player'])} became {where(m)} career points leader{passing(m)}" if m["to"] == 1 else
-                         f"{p(m['player'])} climbed to {ordinal(m['to'])} on {where(m)} list{passing(m)}" for m in other[:6])
-        lines.append({"label": "Franchise and Manager Lists", "text": text + (f"; and {len(other) - 6} more moves near the top." if len(other) > 6 else ".")})
+                         f"{p(m['player'])} climbed to {ordinal(m['to'])} on {where(m)} list{passing(m)}" for m in other[:HOME_LIST_MOVES])
+        rest = len(other) - HOME_LIST_MOVES
+        lines.append({"label": "Franchise and Manager Lists", "text": text + (f"; and {rest} more move{'s' if rest > 1 else ''} near the top." if rest > 0 else ".")})
     streaks = streak_lines(season, week, mine, team_runs, player_runs, stretch or {}, f, p, ordinal, joined)
     if streaks:
         lines.append({"label": "Streaks", "text": streaks})
