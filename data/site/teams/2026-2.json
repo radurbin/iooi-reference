@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 31,
+  "transactions": 32,
   "trades": 7,
   "seed": 5,
   "efficiency": 0.8699,
@@ -1615,12 +1615,29 @@
    "managers": [
     "alex"
    ],
-   "until": null,
+   "until": "2026-11-25",
    "g": 2,
    "gs": 2,
    "pts": 25.0,
    "wins": 1,
    "best": 13.0
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "type": "signing",
+   "player": "NYG",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -1933,6 +1950,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "player": "KC",
+   "franchise": 2,
+   "team": "Storm FC",
+   "managers": [
+    "alex"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2113,8 +2144,8 @@
    "opp_record": "4-7",
    "opp_seed": 9,
    "chance": 0.588,
-   "proj": 147.23,
-   "opp_proj": 112.45
+   "proj": 139.23,
+   "opp_proj": 125.5
   },
   {
    "week": 13,

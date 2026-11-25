@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 26,
+  "transactions": 28,
   "trades": 3,
   "seed": 10,
   "efficiency": 0.8383,
@@ -753,6 +753,22 @@
    "paa": -4.08,
    "vor": -7.5,
    "war": -0.09
+  },
+  {
+   "player": "13200",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1342,6 +1358,23 @@
    "pts": 0.0,
    "wins": 0,
    "best": null
+  },
+  {
+   "date": "2026-11-23",
+   "season": "2026",
+   "type": "claim",
+   "player": "13200",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "managers": [
+    "tony"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -1654,6 +1687,34 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-23",
+   "season": "2026",
+   "player": "13268",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "managers": [
+    "tony"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "player": "2505",
+   "franchise": 4,
+   "team": "Im Stroud Of You",
+   "managers": [
+    "tony"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1665,6 +1726,7 @@
   "12501": "Matthew Golden",
   "12534": "Kyle Monangai",
   "12542": "Efton Chism III",
+  "13200": "Max Hurleman",
   "13268": "Elijah Sarratt",
   "13302": "Adam Randall",
   "13414": "Kaelon Black",
@@ -1814,8 +1876,8 @@
    "opp_record": "5-6",
    "opp_seed": 8,
    "chance": 0.295,
-   "proj": 97.17,
-   "opp_proj": 136.33
+   "proj": 97.68,
+   "opp_proj": 137.34
   },
   {
    "week": 13,

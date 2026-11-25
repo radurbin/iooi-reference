@@ -2,7 +2,7 @@
  "id": "6659",
  "name": "Craig Reynolds",
  "pos": "RB",
- "nfl_team": "WAS",
+ "nfl_team": null,
  "birth_date": "1996-06-15",
  "honors": [],
  "votes": [],
@@ -108,7 +108,8 @@
   }
  ],
  "status": {
-  "code": "free_agent"
+  "code": "out",
+  "last_nfl": "2026"
  },
  "split_draft": null,
  "ranks": [

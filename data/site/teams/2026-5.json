@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 33,
+  "transactions": 34,
   "trades": 1,
   "seed": 4,
   "efficiency": 0.9093,
@@ -743,7 +743,7 @@
    "player": "12524",
    "pos": "QB",
    "nfl": "CLE",
-   "g": 3,
+   "g": 2,
    "gs": 0,
    "pts": 0.0,
    "ppg": null,
@@ -798,6 +798,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "4972",
+   "pos": "QB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1371,8 +1387,8 @@
    "managers": [
     "sam"
    ],
-   "until": null,
-   "g": 3,
+   "until": "2026-11-24",
+   "g": 2,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1475,6 +1491,23 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-24",
+   "season": "2026",
+   "type": "claim",
+   "player": "4972",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -1821,6 +1854,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-24",
+   "season": "2026",
+   "player": "12524",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -1847,6 +1894,7 @@
   "3161": "Carson Wentz",
   "3271": "Tyler Higbee",
   "4147": "Samaje Perine",
+  "4972": "Mason Rudolph",
   "5854": "Drew Lock",
   "5995": "Justice Hill",
   "6904": "Jalen Hurts",
@@ -2073,8 +2121,8 @@
    "opp_record": "7-4",
    "opp_seed": 3,
    "chance": 0.54,
-   "proj": 140.7,
-   "opp_proj": 142.88
+   "proj": 141.26,
+   "opp_proj": 145.51
   },
   {
    "week": 13,

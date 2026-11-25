@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 39,
+  "transactions": 40,
   "trades": 7,
   "seed": 8,
   "efficiency": 0.8735,
@@ -1720,7 +1720,7 @@
    "managers": [
     "evan"
    ],
-   "until": null,
+   "until": "2026-11-25",
    "g": 2,
    "gs": 1,
    "pts": 18.0,
@@ -1790,6 +1790,23 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "type": "signing",
+   "player": "12718",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -2232,6 +2249,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "player": "LAR",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "managers": [
+    "evan"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2483,8 +2514,8 @@
    "opp_record": "3-8",
    "opp_seed": 10,
    "chance": 0.705,
-   "proj": 136.33,
-   "opp_proj": 97.17
+   "proj": 137.34,
+   "opp_proj": 97.68
   },
   {
    "week": 13,

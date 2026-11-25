@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 32,
+  "transactions": 34,
   "trades": 1,
   "seed": 6,
   "efficiency": 0.8854,
@@ -828,6 +828,38 @@
    "paa": -6.42,
    "vor": -8.5,
    "war": -0.1
+  },
+  {
+   "player": "NYJ",
+   "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "4147",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1598,7 +1630,7 @@
    "managers": [
     "anargha"
    ],
-   "until": null,
+   "until": "2026-11-25",
    "g": 2,
    "gs": 2,
    "pts": 22.0,
@@ -1655,6 +1687,40 @@
    "pts": 2.4,
    "wins": 0,
    "best": 2.4
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "type": "signing",
+   "player": "NYJ",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "type": "signing",
+   "player": "4147",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -2007,6 +2073,34 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "player": "IND",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "player": "13411",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "managers": [
+    "anargha"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2034,6 +2128,7 @@
   "3294": "Dak Prescott",
   "3451": "Ka'imi Fairbairn",
   "3634": "Kalif Raymond",
+  "4147": "Samaje Perine",
   "4454": "Kendrick Bourne",
   "6783": "Jerry Jeudy",
   "6813": "Jonathan Taylor",
@@ -2048,6 +2143,7 @@
   "LAR": "Los Angeles Rams",
   "NO": "New Orleans Saints",
   "NYG": "New York Giants",
+  "NYJ": "New York Jets",
   "PIT": "Pittsburgh Steelers"
  },
  "best_games": [
@@ -2203,8 +2299,8 @@
    "opp_record": "10-1",
    "opp_seed": 1,
    "chance": 0.284,
-   "proj": 139.43,
-   "opp_proj": 153.08
+   "proj": 113.73,
+   "opp_proj": 156.74
   },
   {
    "week": 13,
