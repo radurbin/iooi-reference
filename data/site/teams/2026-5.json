@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 35,
+  "transactions": 36,
   "trades": 2,
   "seed": 4,
   "efficiency": 0.9093,
@@ -1482,7 +1482,7 @@
    "managers": [
     "sam"
    ],
-   "until": null,
+   "until": "2026-11-25",
    "g": 2,
    "gs": 1,
    "pts": 14.0,
@@ -1895,6 +1895,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "player": "BUF",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "managers": [
+    "sam"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2149,8 +2163,8 @@
    "opp_record": "7-4",
    "opp_seed": 3,
    "chance": 0.54,
-   "proj": 140.01,
-   "opp_proj": 144.62
+   "proj": 148.57,
+   "opp_proj": 144.41
   },
   {
    "week": 13,
