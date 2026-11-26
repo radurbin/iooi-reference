@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 40,
+  "transactions": 41,
   "trades": 4,
   "seed": 11,
   "efficiency": 0.8599,
@@ -859,6 +859,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "WAS",
+   "pos": "DEF",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1616,12 +1632,29 @@
    "managers": [
     "charlie"
    ],
-   "until": null,
+   "until": "2026-11-25",
    "g": 1,
    "gs": 1,
    "pts": 17.0,
    "wins": 1,
    "best": 17.0
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "type": "signing",
+   "player": "WAS",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "managers": [
+    "charlie"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -2016,6 +2049,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-25",
+   "season": "2026",
+   "player": "CHI",
+   "franchise": 12,
+   "team": "Team Win One Game",
+   "managers": [
+    "charlie"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2060,7 +2107,8 @@
   "BAL": "Baltimore Ravens",
   "CHI": "Chicago Bears",
   "GB": "Green Bay Packers",
-  "NE": "New England Patriots"
+  "NE": "New England Patriots",
+  "WAS": "Washington Commanders"
  },
  "best_games": [
   {
@@ -2184,8 +2232,8 @@
    "opp_record": "2-9",
    "opp_seed": 12,
    "chance": 0.512,
-   "proj": 132.39,
-   "opp_proj": 85.77
+   "proj": 139.71,
+   "opp_proj": 81.85
   },
   {
    "week": 13,

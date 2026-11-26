@@ -27,8 +27,8 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 34,
-  "trades": 4,
+  "transactions": 35,
+  "trades": 5,
   "seed": 9,
   "efficiency": 0.849,
   "luck": -1.36,
@@ -859,6 +859,22 @@
    "paa": 0.0,
    "vor": 0.0,
    "war": 0.0
+  },
+  {
+   "player": "10232",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
   }
  ],
  "depth": [
@@ -1155,6 +1171,17 @@
  ],
  "draft_kind": "rookie",
  "trades": [
+  {
+   "id": "1431092658536730624",
+   "date": "2026-11-24",
+   "with": [
+    {
+     "franchise": 7,
+     "team": "the dart side 🛸💍"
+    }
+   ],
+   "got": 4
+  },
   {
    "id": "1414784288653611008",
    "date": "2026-10-10",
@@ -2115,6 +2142,7 @@
   }
  ],
  "players": {
+  "10232": "Michael Wilson",
   "10236": "Dalton Kincaid",
   "10859": "Sam LaPorta",
   "11157": "Brycen Tremayne",
@@ -2279,8 +2307,8 @@
    "opp_record": "7-4",
    "opp_seed": 5,
    "chance": 0.412,
-   "proj": 125.5,
-   "opp_proj": 139.23
+   "proj": 107.4,
+   "opp_proj": 138.52
   },
   {
    "week": 13,

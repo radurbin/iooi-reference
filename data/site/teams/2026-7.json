@@ -26,8 +26,8 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 34,
-  "trades": 1,
+  "transactions": 36,
+  "trades": 3,
   "seed": 6,
   "efficiency": 0.8854,
   "luck": -2.18,
@@ -830,6 +830,38 @@
    "war": -0.1
   },
   {
+   "player": "8144",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "1373",
+   "pos": "QB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
    "player": "NYJ",
    "pos": "DEF",
    "nfl": null,
@@ -1215,6 +1247,28 @@
  ],
  "draft_kind": "rookie",
  "trades": [
+  {
+   "id": "1431093082647953408",
+   "date": "2026-11-24",
+   "with": [
+    {
+     "franchise": 5,
+     "team": "St. Brown VS Board💍"
+    }
+   ],
+   "got": 4
+  },
+  {
+   "id": "1431092658536730624",
+   "date": "2026-11-24",
+   "with": [
+    {
+     "franchise": 9,
+     "team": "Clandestine Ball Busters"
+    }
+   ],
+   "got": 3
+  },
   {
    "id": "1392568421903798272",
    "date": "2026-08-10",
@@ -2123,6 +2177,7 @@
   "13345": "Jonah Coleman",
   "13346": "Denzel Boston",
   "13411": "Zavion Thomas",
+  "1373": "Geno Smith",
   "2306": "Jameis Winston",
   "3214": "Hunter Henry",
   "3294": "Dak Prescott",
@@ -2133,6 +2188,7 @@
   "6783": "Jerry Jeudy",
   "6813": "Jonathan Taylor",
   "6819": "Michael Pittman Jr.",
+  "8144": "Chris Olave",
   "8210": "Chig Okonkwo",
   "8228": "Jaylen Warren",
   "9493": "Puka Nacua",
@@ -2299,8 +2355,8 @@
    "opp_record": "10-1",
    "opp_seed": 1,
    "chance": 0.284,
-   "proj": 113.73,
-   "opp_proj": 156.74
+   "proj": 145.83,
+   "opp_proj": 156.5
   },
   {
    "week": 13,

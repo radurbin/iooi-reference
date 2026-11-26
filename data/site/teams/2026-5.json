@@ -26,8 +26,8 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 34,
-  "trades": 1,
+  "transactions": 35,
+  "trades": 2,
   "seed": 4,
   "efficiency": 0.9093,
   "luck": 0.45,
@@ -800,6 +800,22 @@
    "war": 0.0
   },
   {
+   "player": "6813",
+   "pos": "RB",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
    "player": "4972",
    "pos": "QB",
    "nfl": null,
@@ -1053,6 +1069,17 @@
  ],
  "draft_kind": "rookie",
  "trades": [
+  {
+   "id": "1431093082647953408",
+   "date": "2026-11-24",
+   "with": [
+    {
+     "franchise": 7,
+     "team": "the dart side 🛸💍"
+    }
+   ],
+   "got": 2
+  },
   {
    "id": "1347472651362258944",
    "date": "2026-04-08",
@@ -1897,6 +1924,7 @@
   "4972": "Mason Rudolph",
   "5854": "Drew Lock",
   "5995": "Justice Hill",
+  "6813": "Jonathan Taylor",
   "6904": "Jalen Hurts",
   "7083": "Tyler Huntley",
   "7527": "Mac Jones",
@@ -2121,8 +2149,8 @@
    "opp_record": "7-4",
    "opp_seed": 3,
    "chance": 0.54,
-   "proj": 141.26,
-   "opp_proj": 145.51
+   "proj": 140.01,
+   "opp_proj": 144.62
   },
   {
    "week": 13,
