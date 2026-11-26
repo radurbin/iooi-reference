@@ -361,8 +361,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 8.75,
-   "vor": 6.0,
-   "war": 0.07
+   "vor": 5.4,
+   "war": 0.06
   },
   {
    "player": "11624",
@@ -766,8 +766,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -32.46,
-   "vor": -30.0,
-   "war": -0.35
+   "vor": -30.2,
+   "war": -0.36
   }
  ],
  "depth": [
@@ -2178,8 +2178,8 @@
    "opp_record": "3-8",
    "opp_seed": 11,
    "chance": 0.488,
-   "proj": 81.41,
-   "opp_proj": 139.49
+   "proj": 82.46,
+   "opp_proj": 139.69
   },
   {
    "week": 13,
@@ -2201,8 +2201,8 @@
  "injuries": {
   "games": 25,
   "players": 10,
-  "lost": 17.37,
-  "rank": 10,
+  "lost": 11.16,
+  "rank": 12,
   "games_rank": 10,
   "of": 12,
   "rows": [
@@ -2211,7 +2211,7 @@
     "name": "Caleb Williams",
     "pos": "QB",
     "missed": 3,
-    "lost": 14.1,
+    "lost": 7.89,
     "injuries": [
      "Hamstring"
     ],

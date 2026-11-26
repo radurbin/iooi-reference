@@ -75,14 +75,15 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Hand"
     ],
     "weeks": [
      9,
-     10
+     10,
+     12
     ],
     "kinds": [
      "IR"
@@ -102,6 +103,13 @@
       "injury": "Hand",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Hand",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -110,12 +118,13 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 10,
+    "to": 12,
     "weeks": [
      9,
-     10
+     10,
+     12
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "LAR",
     "injury": "Hand",
     "kinds": [

@@ -418,14 +418,15 @@
    {
     "season": "2026",
     "nfl": "CHI",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Wrist"
     ],
     "weeks": [
      9,
-     11
+     11,
+     12
     ],
     "kinds": [
      "IR"
@@ -441,6 +442,13 @@
      },
      {
       "week": 11,
+      "kind": "IR",
+      "injury": "Wrist",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
       "kind": "IR",
       "injury": "Wrist",
       "franchise": null,
@@ -470,12 +478,13 @@
    {
     "season": "2026",
     "from": 9,
-    "to": 11,
+    "to": 12,
     "weeks": [
      9,
-     11
+     11,
+     12
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "CHI",
     "injury": "Wrist",
     "kinds": [

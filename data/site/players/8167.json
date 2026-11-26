@@ -137,8 +137,8 @@
   {
    "season": "2026",
    "team": "GB",
-   "g": 10,
-   "pts": 185.1,
+   "g": 11,
+   "pts": 201.6,
    "rank": 5
   }
  ],
@@ -2173,6 +2173,11 @@
     "lost": 16.74
    }
   ],
-  "now": null
+  "now": {
+   "status": "Out",
+   "injury": "Concussion",
+   "since": null,
+   "streak": 0
+  }
  }
 }

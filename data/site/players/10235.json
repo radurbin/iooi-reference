@@ -139,7 +139,7 @@
    "team": "CHI",
    "g": 10,
    "pts": 36.3,
-   "rank": 67
+   "rank": 68
   }
  ],
  "history": [
@@ -1002,6 +1002,31 @@
       "team": null
      }
     ]
+   },
+   {
+    "season": "2026",
+    "nfl": "CHI",
+    "missed": 1,
+    "lost": 0.0,
+    "injuries": [
+     "Ankle"
+    ],
+    "weeks": [
+     12
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "rostered": 0,
+    "games": [
+     {
+      "week": 12,
+      "kind": "Out",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     }
+    ]
    }
   ],
   "stints": [
@@ -1130,6 +1155,23 @@
     "injury": "Thumb",
     "kinds": [
      "IR"
+    ],
+    "teams": [],
+    "rostered": 0,
+    "lost": 0.0
+   },
+   {
+    "season": "2026",
+    "from": 12,
+    "to": 12,
+    "weeks": [
+     12
+    ],
+    "missed": 1,
+    "nfl": "CHI",
+    "injury": "Ankle",
+    "kinds": [
+     "Out"
     ],
     "teams": [],
     "rostered": 0,

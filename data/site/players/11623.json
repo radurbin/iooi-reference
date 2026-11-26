@@ -461,15 +461,16 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
-     "Quadricep",
-     "Back"
+     "Back",
+     "Quadricep"
     ],
     "weeks": [
      2,
-     10
+     10,
+     12
     ],
     "kinds": [
      "Doubtful",
@@ -486,6 +487,13 @@
      },
      {
       "week": 10,
+      "kind": "IR",
+      "injury": "Back",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
       "kind": "IR",
       "injury": "Back",
       "franchise": null,
@@ -539,11 +547,12 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 12,
     "weeks": [
-     10
+     10,
+     12
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "LAR",
     "injury": "Back",
     "kinds": [

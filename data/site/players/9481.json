@@ -898,7 +898,7 @@
    {
     "season": "2026",
     "nfl": "GB",
-    "missed": 10,
+    "missed": 11,
     "lost": 0.0,
     "injuries": [
      "Neck"
@@ -913,7 +913,8 @@
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
     "kinds": [
      "PUP"
@@ -989,6 +990,13 @@
       "injury": "Neck",
       "franchise": null,
       "team": null
+     },
+     {
+      "week": 12,
+      "kind": "PUP",
+      "injury": "Neck",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -1056,7 +1064,7 @@
    {
     "season": "2026",
     "from": 1,
-    "to": 10,
+    "to": 12,
     "weeks": [
      1,
      2,
@@ -1067,9 +1075,10 @@
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
-    "missed": 10,
+    "missed": 11,
     "nfl": "GB",
     "injury": "Neck",
     "kinds": [

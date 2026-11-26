@@ -3069,13 +3069,13 @@
     "finish": null,
     "games": 32,
     "players": 6,
-    "lost": 52.71,
+    "lost": 41.66,
     "worst": {
      "player": "12534",
      "name": "Kyle Monangai",
      "pos": "RB",
      "missed": 5,
-     "lost": 25.55
+     "lost": 14.5
     },
     "rank": 6,
     "games_rank": 8,
@@ -3155,30 +3155,6 @@
    },
    {
     "season": "2026",
-    "franchise": 10,
-    "team": "Maddison Beer’s Boys",
-    "managers": [
-     "elis"
-    ],
-    "w": 2,
-    "l": 9,
-    "finish": null,
-    "games": 25,
-    "players": 10,
-    "lost": 17.37,
-    "worst": {
-     "player": "11560",
-     "name": "Caleb Williams",
-     "pos": "QB",
-     "missed": 3,
-     "lost": 14.1
-    },
-    "rank": 10,
-    "games_rank": 10,
-    "of": 12
-   },
-   {
-    "season": "2026",
     "franchise": 9,
     "team": "Clandestine Ball Busters",
     "managers": [
@@ -3198,7 +3174,7 @@
      "missed": 5,
      "lost": 8.5
     },
-    "rank": 11,
+    "rank": 10,
     "games_rank": 11,
     "of": 12
    },
@@ -3222,8 +3198,32 @@
      "missed": 5,
      "lost": 7.75
     },
-    "rank": 12,
+    "rank": 11,
     "games_rank": 12,
+    "of": 12
+   },
+   {
+    "season": "2026",
+    "franchise": 10,
+    "team": "Maddison Beer’s Boys",
+    "managers": [
+     "elis"
+    ],
+    "w": 2,
+    "l": 9,
+    "finish": null,
+    "games": 25,
+    "players": 10,
+    "lost": 11.16,
+    "worst": {
+     "player": "11560",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "missed": 3,
+     "lost": 7.89
+    },
+    "rank": 12,
+    "games_rank": 10,
     "of": 12
    }
   ],

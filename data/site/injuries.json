@@ -8,7 +8,7 @@
  "current": "2026",
  "latest": {
   "season": "2026",
-  "week": 11
+  "week": 12
  },
  "out_now": [
   {
@@ -20,8 +20,8 @@
    "status": "IR",
    "injury": "Back",
    "since": null,
-   "streak": 10,
-   "season_missed": 10
+   "streak": 11,
+   "season_missed": 11
   },
   {
    "player": "12484",
@@ -72,18 +72,6 @@
    "season_missed": 9
   },
   {
-   "player": "12508",
-   "name": "Jaxson Dart",
-   "pos": "QB",
-   "franchise": 7,
-   "team": "the dart side 🛸💍",
-   "status": "IR",
-   "injury": "Knee - Meniscus",
-   "since": null,
-   "streak": 8,
-   "season_missed": 8
-  },
-  {
    "player": "10222",
    "name": "Jayden Reed",
    "pos": "WR",
@@ -91,6 +79,18 @@
    "team": "Team Win One Game",
    "status": "IR",
    "injury": "Neck",
+   "since": null,
+   "streak": 9,
+   "season_missed": 9
+  },
+  {
+   "player": "12508",
+   "name": "Jaxson Dart",
+   "pos": "QB",
+   "franchise": 7,
+   "team": "the dart side 🛸💍",
+   "status": "IR",
+   "injury": "Knee - Meniscus",
    "since": null,
    "streak": 8,
    "season_missed": 8
@@ -108,18 +108,6 @@
    "season_missed": 8
   },
   {
-   "player": "9226",
-   "name": "De'Von Achane",
-   "pos": "RB",
-   "franchise": 5,
-   "team": "St. Brown VS Board💍",
-   "status": "IR",
-   "injury": "Knee - ACL",
-   "since": null,
-   "streak": 7,
-   "season_missed": 7
-  },
-  {
    "player": "12487",
    "name": "Terrance Ferguson",
    "pos": "TE",
@@ -127,6 +115,18 @@
    "team": "Storm FC",
    "status": "IR",
    "injury": "Ankle",
+   "since": null,
+   "streak": 8,
+   "season_missed": 8
+  },
+  {
+   "player": "9226",
+   "name": "De'Von Achane",
+   "pos": "RB",
+   "franchise": 5,
+   "team": "St. Brown VS Board💍",
+   "status": "IR",
+   "injury": "Knee - ACL",
    "since": null,
    "streak": 7,
    "season_missed": 7
@@ -142,6 +142,18 @@
    "since": null,
    "streak": 6,
    "season_missed": 7
+  },
+  {
+   "player": "2133",
+   "name": "Davante Adams",
+   "pos": "WR",
+   "franchise": 1,
+   "team": "Mojo Dojo Casa Team 💍",
+   "status": "IR",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 5,
+   "season_missed": 5
   },
   {
    "player": "6904",
@@ -161,18 +173,6 @@
    "pos": "RB",
    "franchise": 9,
    "team": "Clandestine Ball Busters",
-   "status": "IR",
-   "injury": "Hamstring",
-   "since": null,
-   "streak": 4,
-   "season_missed": 4
-  },
-  {
-   "player": "2133",
-   "name": "Davante Adams",
-   "pos": "WR",
-   "franchise": 1,
-   "team": "Mojo Dojo Casa Team 💍",
    "status": "IR",
    "injury": "Hamstring",
    "since": null,
@@ -324,6 +324,18 @@
    "season_missed": 1
   },
   {
+   "player": "5850",
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "franchise": 8,
+   "team": "BBL KIZZY",
+   "status": "Out",
+   "injury": "Finger",
+   "since": null,
+   "streak": 2,
+   "season_missed": 2
+  },
+  {
    "player": "8151",
    "name": "Kenneth Walker III",
    "pos": "RB",
@@ -336,16 +348,16 @@
    "season_missed": 2
   },
   {
-   "player": "5850",
-   "name": "Josh Jacobs",
-   "pos": "RB",
-   "franchise": 8,
-   "team": "BBL KIZZY",
+   "player": "8167",
+   "name": "Christian Watson",
+   "pos": "WR",
+   "franchise": 2,
+   "team": "Storm FC",
    "status": "Out",
-   "injury": "Finger",
+   "injury": "Concussion",
    "since": null,
-   "streak": 1,
-   "season_missed": 1
+   "streak": 0,
+   "season_missed": 0
   },
   {
    "player": "11564",
@@ -372,18 +384,6 @@
    "season_missed": 0
   },
   {
-   "player": "5859",
-   "name": "A.J. Brown",
-   "pos": "WR",
-   "franchise": 6,
-   "team": "got that DAWG",
-   "status": "Doubtful",
-   "injury": "Hamstring",
-   "since": null,
-   "streak": 2,
-   "season_missed": 6
-  },
-  {
    "player": "9756",
    "name": "Jordan Addison",
    "pos": "WR",
@@ -394,6 +394,18 @@
    "since": null,
    "streak": 2,
    "season_missed": 3
+  },
+  {
+   "player": "5859",
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "franchise": 6,
+   "team": "got that DAWG",
+   "status": "Doubtful",
+   "injury": "Hamstring",
+   "since": null,
+   "streak": 0,
+   "season_missed": 6
   },
   {
    "player": "5849",
@@ -490,18 +502,6 @@
    "since": null,
    "streak": 1,
    "season_missed": 5
-  },
-  {
-   "player": "8135",
-   "name": "Treylon Burks",
-   "pos": "WR",
-   "franchise": 9,
-   "team": "Clandestine Ball Busters",
-   "status": "Questionable",
-   "injury": "Foot",
-   "since": null,
-   "streak": 1,
-   "season_missed": 1
   },
   {
    "player": "12474",
@@ -624,6 +624,18 @@
    "season_missed": 0
   },
   {
+   "player": "12634",
+   "name": "Jordan Watkins",
+   "pos": "WR",
+   "franchise": 10,
+   "team": "Maddison Beer’s Boys",
+   "status": "Questionable",
+   "injury": "Groin",
+   "since": null,
+   "streak": 0,
+   "season_missed": 0
+  },
+  {
    "player": "6797",
    "name": "Justin Herbert",
    "pos": "QB",
@@ -670,6 +682,18 @@
    "since": null,
    "streak": 0,
    "season_missed": 0
+  },
+  {
+   "player": "8135",
+   "name": "Treylon Burks",
+   "pos": "WR",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "status": "Questionable",
+   "injury": "Foot",
+   "since": null,
+   "streak": 0,
+   "season_missed": 1
   },
   {
    "player": "3321",
@@ -5269,13 +5293,13 @@
    "finish": null,
    "games": 32,
    "players": 6,
-   "lost": 52.71,
+   "lost": 41.66,
    "worst": {
     "player": "12534",
     "name": "Kyle Monangai",
     "pos": "RB",
     "missed": 5,
-    "lost": 25.55
+    "lost": 14.5
    },
    "rank": 6,
    "games_rank": 8,
@@ -5398,7 +5422,7 @@
     "missed": 5,
     "lost": 8.5
    },
-   "rank": 11,
+   "rank": 10,
    "games_rank": 11,
    "of": 12
   },
@@ -5414,15 +5438,15 @@
    "finish": null,
    "games": 25,
    "players": 10,
-   "lost": 17.37,
+   "lost": 11.16,
    "worst": {
     "player": "11560",
     "name": "Caleb Williams",
     "pos": "QB",
     "missed": 3,
-    "lost": 14.1
+    "lost": 7.89
    },
-   "rank": 10,
+   "rank": 12,
    "games_rank": 10,
    "of": 12
   },
@@ -5446,7 +5470,7 @@
     "missed": 5,
     "lost": 7.75
    },
-   "rank": 12,
+   "rank": 11,
    "games_rank": 12,
    "of": 12
   },
@@ -5507,9 +5531,9 @@
    "franchise": 4,
    "name": "Im Stroud Of You",
    "games": 139,
-   "lost": 245.2,
+   "lost": 234.15,
    "seasons": 4,
-   "per_season": 61.3,
+   "per_season": 58.54,
    "worst": "2024"
   },
   {
@@ -5561,9 +5585,9 @@
    "franchise": 10,
    "name": "Maddison Beer’s Boys",
    "games": 121,
-   "lost": 308.19,
+   "lost": 301.98,
    "seasons": 4,
-   "per_season": 77.05,
+   "per_season": 75.49,
    "worst": "2025"
   },
   {
@@ -5644,9 +5668,9 @@
    "key": "elis",
    "name": "Elis",
    "games": 121,
-   "lost": 308.19,
+   "lost": 301.98,
    "seasons": 4,
-   "per_season": 77.05,
+   "per_season": 75.49,
    "worst": "2025"
   },
   {
@@ -5725,9 +5749,9 @@
    "key": "tony",
    "name": "Tony",
    "games": 139,
-   "lost": 245.2,
+   "lost": 234.15,
    "seasons": 4,
-   "per_season": 61.3,
+   "per_season": 58.54,
    "worst": "2024"
   }
  ],
@@ -5975,11 +5999,11 @@
    "season": "2026",
    "QB": {
     "games": 48,
-    "lost": 80.93
+    "lost": 74.72
    },
    "RB": {
     "games": 121,
-    "lost": 312.19
+    "lost": 301.14
    },
    "WR": {
     "games": 177,
@@ -6071,7 +6095,7 @@
  },
  "totals": {
   "games": 1925,
-  "lost": 3458.84,
+  "lost": 3441.58,
   "players": 321
  }
 }

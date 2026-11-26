@@ -54,7 +54,7 @@
    "team": "SF",
    "g": 8,
    "pts": 48.2,
-   "rank": 88
+   "rank": 89
   }
  ],
  "history": [
@@ -229,6 +229,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Groin",
+   "since": null,
+   "streak": 0
+  }
  }
 }

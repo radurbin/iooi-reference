@@ -874,7 +874,7 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 7,
+    "missed": 8,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -886,7 +886,8 @@
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
     "kinds": [
      "IR"
@@ -941,6 +942,13 @@
       "injury": "Ankle",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -949,7 +957,7 @@
    {
     "season": "2026",
     "from": 4,
-    "to": 10,
+    "to": 12,
     "weeks": [
      4,
      5,
@@ -957,9 +965,10 @@
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
-    "missed": 7,
+    "missed": 8,
     "nfl": "LAR",
     "injury": "Ankle",
     "kinds": [
@@ -979,7 +988,7 @@
    "status": "IR",
    "injury": "Ankle",
    "since": null,
-   "streak": 7
+   "streak": 8
   }
  }
 }

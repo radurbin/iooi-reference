@@ -466,8 +466,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 1.08,
-   "vor": 4.0,
-   "war": 0.05
+   "vor": 3.8,
+   "war": 0.04
   },
   {
    "player": "4037",
@@ -526,7 +526,7 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -3.4,
-   "vor": -9.0,
+   "vor": -9.2,
    "war": -0.11
   },
   {
@@ -571,7 +571,7 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -12.67,
-   "vor": -14.0,
+   "vor": -14.2,
    "war": -0.17
   },
   {
@@ -751,7 +751,7 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -4.08,
-   "vor": -7.5,
+   "vor": -7.6,
    "war": -0.09
   },
   {
@@ -1876,8 +1876,8 @@
    "opp_record": "5-6",
    "opp_seed": 8,
    "chance": 0.295,
-   "proj": 96.73,
-   "opp_proj": 135.96
+   "proj": 97.15,
+   "opp_proj": 135.58
   },
   {
    "week": 13,
@@ -1899,7 +1899,7 @@
  "injuries": {
   "games": 32,
   "players": 6,
-  "lost": 52.71,
+  "lost": 41.66,
   "rank": 6,
   "games_rank": 8,
   "of": 12,
@@ -1909,7 +1909,7 @@
     "name": "Kyle Monangai",
     "pos": "RB",
     "missed": 5,
-    "lost": 25.55,
+    "lost": 14.5,
     "injuries": [
      "Thumb"
     ],

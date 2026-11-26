@@ -1256,7 +1256,7 @@
    "stat": "WAR",
    "value": 0.17,
    "digits": 2,
-   "rank": 171,
+   "rank": 170,
    "of": 426
   },
   {
@@ -1265,7 +1265,7 @@
    "stat": "VOR",
    "value": 14.7,
    "digits": 1,
-   "rank": 171,
+   "rank": 170,
    "of": 426
   },
   {
@@ -1943,7 +1943,7 @@
    {
     "season": "2026",
     "nfl": "GB",
-    "missed": 8,
+    "missed": 9,
     "lost": 0.0,
     "injuries": [
      "Neck"
@@ -1956,7 +1956,8 @@
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
     "kinds": [
      "IR",
@@ -2019,6 +2020,13 @@
       "injury": "Neck",
       "franchise": 12,
       "team": "Team Win One Game"
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Neck",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2080,7 +2088,7 @@
    {
     "season": "2026",
     "from": 3,
-    "to": 10,
+    "to": 12,
     "weeks": [
      3,
      4,
@@ -2089,9 +2097,10 @@
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
-    "missed": 8,
+    "missed": 9,
     "nfl": "GB",
     "injury": "Neck",
     "kinds": [
@@ -2116,7 +2125,7 @@
    "status": "IR",
    "injury": "Neck",
    "since": null,
-   "streak": 8
+   "streak": 9
   }
  }
 }

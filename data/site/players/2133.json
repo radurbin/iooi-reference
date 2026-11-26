@@ -2056,7 +2056,7 @@
    {
     "season": "2026",
     "nfl": "LAR",
-    "missed": 4,
+    "missed": 5,
     "lost": 31.96,
     "injuries": [
      "Hamstring"
@@ -2065,7 +2065,8 @@
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
     "kinds": [
      "IR"
@@ -2099,6 +2100,13 @@
       "injury": "Hamstring",
       "franchise": 1,
       "team": "Mojo Dojo Casa Team 💍"
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Hamstring",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2154,14 +2162,15 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 10,
+    "to": 12,
     "weeks": [
      7,
      8,
      9,
-     10
+     10,
+     12
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "LAR",
     "injury": "Hamstring",
     "kinds": [
@@ -2181,7 +2190,7 @@
    "status": "IR",
    "injury": "Hamstring",
    "since": null,
-   "streak": 4
+   "streak": 5
   }
  }
 }

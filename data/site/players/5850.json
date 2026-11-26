@@ -1990,16 +1990,18 @@
    {
     "season": "2026",
     "nfl": "GB",
-    "missed": 1,
+    "missed": 2,
     "lost": 7.34,
     "injuries": [
      "Finger"
     ],
     "weeks": [
-     10
+     10,
+     12
     ],
     "kinds": [
-     "Out"
+     "Out",
+     "Questionable"
     ],
     "rostered": 1,
     "games": [
@@ -2009,6 +2011,13 @@
       "injury": "Finger",
       "franchise": 8,
       "team": "BBL KIZZY"
+     },
+     {
+      "week": 12,
+      "kind": "Questionable",
+      "injury": "Finger",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2064,15 +2073,17 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 10,
+    "to": 12,
     "weeks": [
-     10
+     10,
+     12
     ],
-    "missed": 1,
+    "missed": 2,
     "nfl": "GB",
     "injury": "Finger",
     "kinds": [
-     "Out"
+     "Out",
+     "Questionable"
     ],
     "teams": [
      {
@@ -2088,7 +2099,7 @@
    "status": "Out",
    "injury": "Finger",
    "since": null,
-   "streak": 1
+   "streak": 2
   }
  }
 }
