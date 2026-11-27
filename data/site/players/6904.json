@@ -1997,7 +1997,7 @@
    {
     "season": "2026",
     "nfl": "PHI",
-    "missed": 5,
+    "missed": 6,
     "lost": 14.25,
     "injuries": [
      "Calf"
@@ -2007,7 +2007,8 @@
      7,
      8,
      9,
-     11
+     11,
+     12
     ],
     "kinds": [
      "IR"
@@ -2048,6 +2049,13 @@
       "injury": "Calf",
       "franchise": 5,
       "team": "St. Brown VS Board💍"
+     },
+     {
+      "week": 12,
+      "kind": "IR",
+      "injury": "Calf",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2078,15 +2086,16 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 11,
+    "to": 12,
     "weeks": [
      6,
      7,
      8,
      9,
-     11
+     11,
+     12
     ],
-    "missed": 5,
+    "missed": 6,
     "nfl": "PHI",
     "injury": "Calf",
     "kinds": [
@@ -2106,7 +2115,7 @@
    "status": "IR",
    "injury": "Calf",
    "since": null,
-   "streak": 5
+   "streak": 6
   }
  }
 }

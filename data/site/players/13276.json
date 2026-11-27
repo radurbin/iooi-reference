@@ -275,7 +275,7 @@
     "season": "2026",
     "nfl": "NYJ",
     "missed": 5,
-    "lost": 5.85,
+    "lost": 8.35,
     "injuries": [
      "Ankle"
     ],
@@ -354,7 +354,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 4.68
+    "lost": 6.68
    },
    {
     "season": "2026",
@@ -376,11 +376,11 @@
      }
     ],
     "rostered": 1,
-    "lost": 1.17
+    "lost": 1.67
    }
   ],
   "now": {
-   "status": "Questionable",
+   "status": "Out",
    "injury": "Ankle",
    "since": null,
    "streak": 1

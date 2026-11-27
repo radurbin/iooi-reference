@@ -844,7 +844,7 @@
    "stat": "WAR",
    "value": 0.13,
    "digits": 2,
-   "rank": 182,
+   "rank": 178,
    "of": 426
   },
   {
@@ -853,7 +853,7 @@
    "stat": "VOR",
    "value": 11.4,
    "digits": 1,
-   "rank": 182,
+   "rank": 178,
    "of": 426
   },
   {
@@ -936,7 +936,7 @@
    "stat": "WAR",
    "value": 0.13,
    "digits": 2,
-   "rank": 29,
+   "rank": 30,
    "of": 77,
    "franchise": 2
   },
@@ -1227,7 +1227,7 @@
     "season": "2026",
     "nfl": "NYJ",
     "missed": 4,
-    "lost": 0.0,
+    "lost": 0.6,
     "injuries": [
      "Finger"
     ],
@@ -1299,7 +1299,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 0.0
+    "lost": 0.6
    }
   ],
   "now": null

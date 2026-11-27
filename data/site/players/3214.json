@@ -91,8 +91,8 @@
    "best": 5.6,
    "wins": 0,
    "paa": -3.07,
-   "vor": -4.7,
-   "war": -0.06
+   "vor": -3.01,
+   "war": -0.04
   },
   {
    "season": "2026",
@@ -107,8 +107,8 @@
    "best": 8.5,
    "wins": 0,
    "paa": -4.09,
-   "vor": -1.8,
-   "war": -0.02
+   "vor": -0.11,
+   "war": -0.0
   }
  ],
  "totals": {
@@ -120,8 +120,8 @@
   "best": 14.5,
   "wins": 8,
   "paa": -30.38,
-  "vor": -10.2,
-  "war": -0.12
+  "vor": -6.82,
+  "war": -0.08
  },
  "nfl": [
   {
@@ -1054,8 +1054,8 @@
    "proj": 9.4,
    "won": false,
    "paa": -3.07,
-   "vor": -4.7,
-   "war": -0.055548281022127236
+   "vor": -3.01,
+   "war": -0.035574537420553824
   },
   {
    "season": "2026",
@@ -1073,8 +1073,8 @@
    "proj": 10.23,
    "won": false,
    "paa": -4.09,
-   "vor": -1.8,
-   "war": -0.021273809753155112
+   "vor": -0.11,
+   "war": -0.0013000661515817013
   },
   {
    "season": "2026",
@@ -1225,7 +1225,7 @@
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 929,
+   "score": 928,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -1234,11 +1234,11 @@
   {
    "player": "7002",
    "name": "Juwan Johnson",
-   "score": 882,
+   "score": 883,
    "gs": 10,
    "pts": 73.3,
    "ppg": 7.33,
-   "war": -0.26
+   "war": -0.2
   },
   {
    "player": "12493",
@@ -1247,7 +1247,7 @@
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.19
+   "war": -0.17
   },
   {
    "player": "7600",
@@ -1256,16 +1256,16 @@
    "gs": 20,
    "pts": 188.4,
    "ppg": 9.42,
-   "war": -0.19
+   "war": -0.07
   },
   {
    "player": "12517",
    "name": "Colston Loveland",
-   "score": 780,
+   "score": 770,
    "gs": 13,
    "pts": 143.3,
    "ppg": 11.02,
-   "war": 0.17
+   "war": 0.35
   }
  ],
  "status": {
@@ -1296,18 +1296,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.08,
    "digits": 2,
-   "rank": 310,
+   "rank": 271,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -10.2,
+   "value": -6.8,
    "digits": 1,
-   "rank": 315,
+   "rank": 277,
    "of": 426
   },
   {
@@ -1368,9 +1368,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.12,
+   "value": -0.08,
    "digits": 2,
-   "rank": 33,
+   "rank": 29,
    "of": 52
   },
   {
@@ -1397,9 +1397,9 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": -0.06,
+   "value": -0.04,
    "digits": 2,
-   "rank": 48,
+   "rank": 44,
    "of": 83,
    "franchise": 4
   },
@@ -1439,7 +1439,7 @@
    "stat": "WAR",
    "value": 0.01,
    "digits": 2,
-   "rank": 27,
+   "rank": 28,
    "of": 40,
    "franchise": 6
   },
@@ -1477,9 +1477,9 @@
    "group": "Franchise",
    "scope": "the dart side 🛸💍",
    "stat": "WAR",
-   "value": -0.07,
+   "value": -0.05,
    "digits": 2,
-   "rank": 39,
+   "rank": 36,
    "of": 55,
    "franchise": 7
   },
@@ -1616,7 +1616,7 @@
  ],
  "hof": {
   "score": 6.75,
-  "rank": 170,
+  "rank": 171,
   "of": 426,
   "war": 0.0,
   "starts": 2.75,

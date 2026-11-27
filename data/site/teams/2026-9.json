@@ -27,7 +27,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 35,
+  "transactions": 36,
   "trades": 5,
   "seed": 9,
   "efficiency": 0.849,
@@ -302,8 +302,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 31.56,
-   "vor": 77.0,
-   "war": 0.91
+   "vor": 82.0,
+   "war": 0.97
   },
   {
    "player": "11632",
@@ -317,8 +317,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 20.66,
-   "vor": 66.1,
-   "war": 0.78
+   "vor": 71.1,
+   "war": 0.84
   },
   {
    "player": "11584",
@@ -347,8 +347,8 @@
    "bench_pts": 27.5,
    "wins": 2,
    "paa": -2.4,
-   "vor": 3.4,
-   "war": 0.04
+   "vor": 13.54,
+   "war": 0.16
   },
   {
    "player": "11646",
@@ -362,8 +362,8 @@
    "bench_pts": 33.8,
    "wins": 3,
    "paa": -45.15,
-   "vor": -11.18,
-   "war": -0.13
+   "vor": -7.18,
+   "war": -0.08
   },
   {
    "player": "6650",
@@ -377,8 +377,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 13.55,
-   "vor": 16.8,
-   "war": 0.2
+   "vor": 12.2,
+   "war": 0.14
   },
   {
    "player": "MIN",
@@ -422,8 +422,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": 7.42,
-   "vor": 7.9,
-   "war": 0.09
+   "vor": 6.06,
+   "war": 0.07
   },
   {
    "player": "13286",
@@ -452,8 +452,8 @@
    "bench_pts": 73.9,
    "wins": 1,
    "paa": -16.72,
-   "vor": -2.88,
-   "war": -0.03
+   "vor": -1.38,
+   "war": -0.02
   },
   {
    "player": "GB",
@@ -482,8 +482,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -5.92,
-   "vor": -6.6,
-   "war": -0.08
+   "vor": -8.44,
+   "war": -0.1
   },
   {
    "player": "10859",
@@ -497,8 +497,8 @@
    "bench_pts": 24.6,
    "wins": 1,
    "paa": 1.13,
-   "vor": -0.5,
-   "war": -0.01
+   "vor": 1.19,
+   "war": 0.01
   },
   {
    "player": "6806",
@@ -527,8 +527,8 @@
    "bench_pts": 54.3,
    "wins": 0,
    "paa": -34.69,
-   "vor": -33.3,
-   "war": -0.39
+   "vor": -26.54,
+   "war": -0.31
   },
   {
    "player": "12530",
@@ -542,8 +542,8 @@
    "bench_pts": 91.95,
    "wins": 0,
    "paa": -7.29,
-   "vor": -3.41,
-   "war": -0.04
+   "vor": -2.91,
+   "war": -0.03
   },
   {
    "player": "11199",
@@ -587,8 +587,8 @@
    "bench_pts": 1.9,
    "wins": 1,
    "paa": -8.49,
-   "vor": -7.2,
-   "war": -0.09
+   "vor": -5.51,
+   "war": -0.07
   },
   {
    "player": "8259",
@@ -602,8 +602,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -15.08,
-   "vor": -15.0,
-   "war": -0.18
+   "vor": -16.84,
+   "war": -0.2
   },
   {
    "player": "DAL",
@@ -862,6 +862,22 @@
   },
   {
    "player": "10232",
+   "pos": "WR",
+   "nfl": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "ppg": null,
+   "best": null,
+   "bench_pts": 0.0,
+   "wins": 0,
+   "paa": null,
+   "vor": null,
+   "war": null,
+   "joined": true
+  },
+  {
+   "player": "7571",
    "pos": "WR",
    "nfl": null,
    "g": 0,
@@ -1747,6 +1763,24 @@
    "pts": 5.4,
    "wins": 0,
    "best": 5.4
+  },
+  {
+   "date": "2026-11-26",
+   "season": "2026",
+   "type": "signing",
+   "player": "7571",
+   "franchise": 9,
+   "team": "Clandestine Ball Busters",
+   "managers": [
+    "tanner",
+    "joe"
+   ],
+   "until": null,
+   "g": 0,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
   }
  ],
  "drops": [
@@ -2172,6 +2206,7 @@
   "6650": "Chase McLaughlin",
   "6806": "J.K. Dobbins",
   "7523": "Trevor Lawrence",
+  "7571": "Rashod Bateman",
   "7591": "Justin Fields",
   "8135": "Treylon Burks",
   "8136": "Rachaad White",
@@ -2307,8 +2342,8 @@
    "opp_record": "7-4",
    "opp_seed": 5,
    "chance": 0.412,
-   "proj": 107.77,
-   "opp_proj": 138.67
+   "proj": 129.23,
+   "opp_proj": 136.82
   },
   {
    "week": 13,
@@ -2330,8 +2365,8 @@
  "injuries": {
   "games": 17,
   "players": 7,
-  "lost": 15.02,
-  "rank": 10,
+  "lost": 16.66,
+  "rank": 11,
   "games_rank": 11,
   "of": 12,
   "rows": [
@@ -2383,7 +2418,7 @@
     "name": "Jalen Coker",
     "pos": "WR",
     "missed": 1,
-    "lost": 1.48,
+    "lost": 1.98,
     "injuries": [
      "Quadricep"
     ],
@@ -2394,6 +2429,23 @@
      "Questionable"
     ],
     "gs": 8
+   },
+   {
+    "player": "10236",
+    "name": "Dalton Kincaid",
+    "pos": "TE",
+    "missed": 1,
+    "lost": 1.14,
+    "injuries": [
+     "Thumb"
+    ],
+    "weeks": [
+     11
+    ],
+    "kinds": [
+     "Doubtful"
+    ],
+    "gs": 6
    },
    {
     "player": "13286",
@@ -2431,23 +2483,6 @@
      "Doubtful"
     ],
     "gs": 0
-   },
-   {
-    "player": "10236",
-    "name": "Dalton Kincaid",
-    "pos": "TE",
-    "missed": 1,
-    "lost": 0.0,
-    "injuries": [
-     "Thumb"
-    ],
-    "weeks": [
-     11
-    ],
-    "kinds": [
-     "Doubtful"
-    ],
-    "gs": 6
    },
    {
     "player": "8135",

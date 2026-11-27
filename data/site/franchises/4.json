@@ -220,8 +220,8 @@
     "best": 35.8,
     "wins": 13,
     "paa": 20.26,
-    "vor": 87.88,
-    "war": 1.04
+    "vor": 88.88,
+    "war": 1.05
    },
    {
     "player": "9758",
@@ -337,8 +337,8 @@
     "best": 40.9,
     "wins": 4,
     "paa": -48.5,
-    "vor": 4.54,
-    "war": 0.05
+    "vor": 7.54,
+    "war": 0.09
    },
    {
     "player": "6826",
@@ -363,8 +363,8 @@
     "best": 30.4,
     "wins": 2,
     "paa": 20.21,
-    "vor": 65.2,
-    "war": 0.77
+    "vor": 70.2,
+    "war": 0.83
    },
    {
     "player": "12501",
@@ -376,8 +376,8 @@
     "best": 32.4,
     "wins": 3,
     "paa": 32.1,
-    "vor": 73.16,
-    "war": 0.86
+    "vor": 77.66,
+    "war": 0.92
    },
    {
     "player": "12534",
@@ -604,8 +604,8 @@
      "best": 35.8,
      "wins": 13,
      "paa": 20.26,
-     "vor": 87.88,
-     "war": 1.04
+     "vor": 88.88,
+     "war": 1.05
     },
     {
      "player": "2449",
@@ -658,8 +658,8 @@
      "best": 23.0,
      "wins": 1,
      "paa": -36.51,
-     "vor": -29.08,
-     "war": -0.34
+     "vor": -22.32,
+     "war": -0.26
     },
     {
      "player": "5001",
@@ -671,8 +671,8 @@
      "best": 26.0,
      "wins": 3,
      "paa": -13.57,
-     "vor": -4.1,
-     "war": -0.05
+     "vor": 6.04,
+     "war": 0.07
     }
    ],
    "K": [
@@ -1376,7 +1376,7 @@
     "team": "Im Stroud Of You",
     "games": 32,
     "players": 6,
-    "lost": 41.66,
+    "lost": 61.81,
     "rank": 6,
     "games_rank": 8,
     "of": 12,
@@ -1385,7 +1385,7 @@
      "name": "Kyle Monangai",
      "pos": "RB",
      "missed": 5,
-     "lost": 14.5
+     "lost": 28.15
     },
     "w": 3,
     "l": 8
@@ -1415,7 +1415,7 @@
     "name": "Alec Pierce",
     "pos": "WR",
     "missed": 11,
-    "lost": 15.27,
+    "lost": 19.77,
     "injuries": [
      "Heel",
      "Concussion"
@@ -1499,7 +1499,7 @@
     "name": "Deebo Samuel Sr.",
     "pos": "WR",
     "missed": 7,
-    "lost": 24.51,
+    "lost": 26.01,
     "injuries": [
      "Hamstring",
      "Shoulder",
@@ -1534,6 +1534,23 @@
     ]
    },
    {
+    "player": "12534",
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "missed": 5,
+    "lost": 28.15,
+    "injuries": [
+     "Thumb"
+    ],
+    "kinds": [
+     "Out",
+     "Questionable"
+    ],
+    "seasons": [
+     "2026"
+    ]
+   },
+   {
     "player": "5892",
     "name": "David Montgomery",
     "pos": "RB",
@@ -1551,23 +1568,6 @@
     "seasons": [
      "2023",
      "2024"
-    ]
-   },
-   {
-    "player": "12534",
-    "name": "Kyle Monangai",
-    "pos": "RB",
-    "missed": 5,
-    "lost": 14.5,
-    "injuries": [
-     "Thumb"
-    ],
-    "kinds": [
-     "Out",
-     "Questionable"
-    ],
-    "seasons": [
-     "2026"
     ]
    },
    {
@@ -1666,9 +1666,9 @@
    "franchise": 4,
    "name": "Im Stroud Of You",
    "games": 139,
-   "lost": 234.15,
+   "lost": 254.3,
    "seasons": 4,
-   "per_season": 58.54,
+   "per_season": 63.58,
    "worst": "2024"
   }
  }

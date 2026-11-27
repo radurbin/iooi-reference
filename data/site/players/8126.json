@@ -82,8 +82,8 @@
    "best": 15.7,
    "wins": 0,
    "paa": -4.64,
-   "vor": 2.38,
-   "war": 0.03
+   "vor": 3.38,
+   "war": 0.04
   }
  ],
  "totals": {
@@ -95,8 +95,8 @@
   "best": 32.1,
   "wins": 8,
   "paa": 1.13,
-  "vor": 33.18,
-  "war": 0.39
+  "vor": 34.18,
+  "war": 0.4
  },
  "nfl": [
   {
@@ -125,7 +125,7 @@
    "team": "TEN",
    "g": 9,
    "pts": 81.4,
-   "rank": 48
+   "rank": 50
   }
  ],
  "history": [
@@ -1086,8 +1086,8 @@
    "proj": 11.04,
    "won": false,
    "paa": -7.2,
-   "vor": -4.06,
-   "war": -0.04798425977656097
+   "vor": -3.56,
+   "war": -0.04207486817846233
   },
   {
    "season": "2026",
@@ -1121,8 +1121,8 @@
    "proj": 10.83,
    "won": false,
    "paa": 2.56,
-   "vor": 6.44,
-   "war": 0.07611296378351051
+   "vor": 6.94,
+   "war": 0.08202235538160915
   },
   {
    "season": "2026",
@@ -1186,16 +1186,16 @@
   {
    "player": "9487",
    "name": "Parker Washington",
-   "score": 945,
+   "score": 939,
    "gs": 12,
    "pts": 165.4,
    "ppg": 13.78,
-   "war": 0.61
+   "war": 0.67
   },
   {
    "player": "5947",
    "name": "Jakobi Meyers",
-   "score": 936,
+   "score": 935,
    "gs": 13,
    "pts": 164.3,
    "ppg": 12.64,
@@ -1213,11 +1213,11 @@
   {
    "player": "10232",
    "name": "Michael Wilson",
-   "score": 898,
+   "score": 896,
    "gs": 13,
    "pts": 187.18,
    "ppg": 14.4,
-   "war": 0.66
+   "war": 0.7
   }
  ],
  "status": {
@@ -1248,18 +1248,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.39,
+   "value": 0.4,
    "digits": 2,
-   "rank": 134,
+   "rank": 132,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 33.2,
+   "value": 34.2,
    "digits": 1,
-   "rank": 134,
+   "rank": 133,
    "of": 426
   },
   {
@@ -1320,7 +1320,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.39,
+   "value": 0.4,
    "digits": 2,
    "rank": 39,
    "of": 129
@@ -1349,7 +1349,7 @@
    "group": "Franchise",
    "scope": "St. Brown VS Board💍",
    "stat": "WAR",
-   "value": 0.39,
+   "value": 0.4,
    "digits": 2,
    "rank": 15,
    "of": 61,
@@ -1457,10 +1457,10 @@
   }
  ],
  "hof": {
-  "score": 6.9,
+  "score": 7.0,
   "rank": 169,
   "of": 426,
-  "war": 3.9,
+  "war": 4.0,
   "starts": 3.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1738,22 +1738,22 @@
    [
     "2026",
     8,
-    6.9
+    7.0
    ],
    [
     "2026",
     9,
-    6.9
+    7.0
    ],
    [
     "2026",
     10,
-    6.9
+    7.0
    ],
    [
     "2026",
     11,
-    6.9
+    7.0
    ]
   ],
   "benchmark": 100
@@ -1799,7 +1799,7 @@
     "season": "2026",
     "nfl": "TEN",
     "missed": 1,
-    "lost": 0.0,
+    "lost": 0.28,
     "injuries": [
      "Ankle"
     ],
@@ -1860,7 +1860,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 0.28
    }
   ],
   "now": {

@@ -82,9 +82,9 @@
   {
    "season": "2026",
    "team": "KC",
-   "g": 10,
-   "pts": 46.1,
-   "rank": 37
+   "g": 11,
+   "pts": 51.4,
+   "rank": 35
   }
  ],
  "history": [
@@ -518,21 +518,21 @@
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.19
+   "war": -0.17
   },
   {
    "player": "7002",
    "name": "Juwan Johnson",
-   "score": 551,
+   "score": 549,
    "gs": 10,
    "pts": 73.3,
    "ppg": 7.33,
-   "war": -0.26
+   "war": -0.2
   },
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 470,
+   "score": 471,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -554,7 +554,7 @@
    "gs": 23,
    "pts": 171.1,
    "ppg": 7.44,
-   "war": -0.68
+   "war": -0.6
   }
  ],
  "status": {
@@ -586,7 +586,7 @@
    "stat": "WAR",
    "value": -0.65,
    "digits": 2,
-   "rank": 414,
+   "rank": 415,
    "of": 426
   },
   {
@@ -595,7 +595,7 @@
    "stat": "VOR",
    "value": -55.4,
    "digits": 1,
-   "rank": 414,
+   "rank": 416,
    "of": 426
   },
   {
@@ -658,7 +658,7 @@
    "stat": "WAR",
    "value": -0.65,
    "digits": 2,
-   "rank": 48,
+   "rank": 50,
    "of": 52
   },
   {
@@ -734,7 +734,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 260,
+  "rank": 261,
   "of": 426,
   "war": 0.0,
   "starts": 2.0,

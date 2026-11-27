@@ -73,8 +73,8 @@
    "best": 15.7,
    "wins": 3,
    "paa": -45.15,
-   "vor": -11.18,
-   "war": -0.13
+   "vor": -7.18,
+   "war": -0.08
   }
  ],
  "totals": {
@@ -86,8 +86,8 @@
   "best": 15.7,
   "wins": 3,
   "paa": -62.73,
-  "vor": -23.08,
-  "war": -0.27
+  "vor": -19.08,
+  "war": -0.23
  },
  "nfl": [
   {
@@ -109,7 +109,7 @@
    "team": "CAR",
    "g": 9,
    "pts": 96.7,
-   "rank": 39
+   "rank": 40
   }
  ],
  "history": [
@@ -601,8 +601,8 @@
    "proj": 12.9,
    "won": true,
    "paa": -0.68,
-   "vor": 5.34,
-   "war": 0.06311230226769349
+   "vor": 5.84,
+   "war": 0.06902169386579213
   },
   {
    "season": "2026",
@@ -620,8 +620,8 @@
    "proj": 14.7,
    "won": false,
    "paa": -9.82,
-   "vor": -5.46,
-   "war": -0.06453055625123717
+   "vor": -4.96,
+   "war": -0.058621164653138526
   },
   {
    "season": "2026",
@@ -671,8 +671,8 @@
    "proj": 12.88,
    "won": true,
    "paa": 3.3,
-   "vor": 6.44,
-   "war": 0.07611296378351051
+   "vor": 6.94,
+   "war": 0.08202235538160915
   },
   {
    "season": "2026",
@@ -690,8 +690,8 @@
    "proj": 15.66,
    "won": false,
    "paa": -11.69,
-   "vor": -7.36,
-   "war": -0.08698624432401202
+   "vor": -6.86,
+   "war": -0.08107685272591336
   },
   {
    "season": "2026",
@@ -709,8 +709,8 @@
    "proj": 15.94,
    "won": false,
    "paa": -2.04,
-   "vor": 1.84,
-   "war": 0.021746561081003004
+   "vor": 2.34,
+   "war": 0.02765595267910164
   },
   {
    "season": "2026",
@@ -728,8 +728,8 @@
    "proj": 13.77,
    "won": true,
    "paa": -6.94,
-   "vor": -2.56,
-   "war": -0.030256084982265046
+   "vor": -2.06,
+   "war": -0.024346693384166406
   },
   {
    "season": "2026",
@@ -747,8 +747,8 @@
    "proj": 13.2,
    "won": false,
    "paa": -12.82,
-   "vor": -8.86,
-   "war": -0.10471441911830792
+   "vor": -8.36,
+   "war": -0.09880502752020928
   },
   {
    "season": "2026",
@@ -766,8 +766,8 @@
    "proj": 12.93,
    "won": false,
    "paa": -4.46,
-   "vor": -0.56,
-   "war": -0.006618518589870479
+   "vor": -0.06,
+   "war": -0.000709126991771837
   }
  ],
  "similar": [
@@ -778,12 +778,12 @@
    "gs": 8,
    "pts": 65.4,
    "ppg": 8.18,
-   "war": -0.27
+   "war": -0.26
   },
   {
    "player": "7090",
    "name": "Darnell Mooney",
-   "score": 925,
+   "score": 921,
    "gs": 14,
    "pts": 107.8,
    "ppg": 7.7,
@@ -792,29 +792,29 @@
   {
    "player": "9754",
    "name": "Quentin Johnston",
-   "score": 916,
+   "score": 915,
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.39
+   "war": -0.37
   },
   {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 894,
+   "score": 889,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
    "war": -0.74
   },
   {
-   "player": "2374",
-   "name": "Tyler Lockett",
-   "score": 866,
-   "gs": 15,
-   "pts": 132.1,
-   "ppg": 8.81,
-   "war": -0.57
+   "player": "12514",
+   "name": "Emeka Egbuka",
+   "score": 865,
+   "gs": 8,
+   "pts": 74.3,
+   "ppg": 9.29,
+   "war": -0.08
   }
  ],
  "status": {
@@ -845,18 +845,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.23,
    "digits": 2,
-   "rank": 373,
+   "rank": 362,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -23.1,
+   "value": -19.1,
    "digits": 1,
-   "rank": 375,
+   "rank": 362,
    "of": 426
   },
   {
@@ -917,9 +917,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.23,
    "digits": 2,
-   "rank": 110,
+   "rank": 106,
    "of": 129
   },
   {
@@ -946,9 +946,9 @@
    "group": "Franchise",
    "scope": "Clandestine Ball Busters",
    "stat": "WAR",
-   "value": -0.22,
+   "value": -0.17,
    "digits": 2,
-   "rank": 61,
+   "rank": 57,
    "of": 68,
    "franchise": 9
   },
@@ -1406,7 +1406,7 @@
     "season": "2026",
     "nfl": "CAR",
     "missed": 1,
-    "lost": 1.48,
+    "lost": 1.98,
     "injuries": [
      "Quadricep"
     ],
@@ -1502,7 +1502,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 1.48
+    "lost": 1.98
    }
   ],
   "now": null

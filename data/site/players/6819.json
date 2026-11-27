@@ -1239,11 +1239,11 @@
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 891,
+   "score": 893,
    "gs": 33,
    "pts": 401.1,
    "ppg": 12.15,
-   "war": 0.57
+   "war": 0.62
   },
   {
    "player": "5045",
@@ -1261,16 +1261,16 @@
    "gs": 37,
    "pts": 511.15,
    "ppg": 13.81,
-   "war": 1.04
+   "war": 1.05
   },
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 842,
+   "score": 838,
    "gs": 39,
    "pts": 521.6,
    "ppg": 13.37,
-   "war": 1.18
+   "war": 1.23
   }
  ],
  "status": {
@@ -1511,7 +1511,7 @@
  ],
  "hof": {
   "score": 17.45,
-  "rank": 85,
+  "rank": 86,
   "of": 426,
   "war": 7.2,
   "starts": 8.25,
@@ -1889,7 +1889,7 @@
     "season": "2026",
     "nfl": "PIT",
     "missed": 7,
-    "lost": 15.54,
+    "lost": 19.04,
     "injuries": [
      "Foot"
     ],
@@ -2025,7 +2025,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 2.22
+    "lost": 2.72
    },
    {
     "season": "2026",
@@ -2052,14 +2052,9 @@
      }
     ],
     "rostered": 6,
-    "lost": 13.32
+    "lost": 16.32
    }
   ],
-  "now": {
-   "status": "IR",
-   "injury": "Foot",
-   "since": null,
-   "streak": 6
-  }
+  "now": null
  }
 }

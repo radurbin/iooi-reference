@@ -26,7 +26,7 @@
   "toilet_w": 0,
   "toilet_l": 0,
   "finish": null,
-  "transactions": 66,
+  "transactions": 67,
   "trades": 5,
   "seed": 2,
   "efficiency": 0.9215,
@@ -256,8 +256,8 @@
    "bench_pts": 0.0,
    "wins": 8,
    "paa": 126.94,
-   "vor": 172.36,
-   "war": 2.04
+   "vor": 177.36,
+   "war": 2.1
   },
   {
    "player": "7588",
@@ -286,8 +286,8 @@
    "bench_pts": 0.0,
    "wins": 7,
    "paa": 68.12,
-   "vor": 114.3,
-   "war": 1.35
+   "vor": 119.3,
+   "war": 1.41
   },
   {
    "player": "3163",
@@ -346,8 +346,8 @@
    "bench_pts": 2.9,
    "wins": 7,
    "paa": -12.08,
-   "vor": -0.4,
-   "war": -0.0
+   "vor": 14.81,
+   "war": 0.18
   },
   {
    "player": "4881",
@@ -391,8 +391,8 @@
    "bench_pts": 0.0,
    "wins": 5,
    "paa": -3.34,
-   "vor": 0.4,
-   "war": 0.0
+   "vor": -6.04,
+   "war": -0.07
   },
   {
    "player": "12495",
@@ -466,8 +466,8 @@
    "bench_pts": 55.6,
    "wins": 2,
    "paa": 3.99,
-   "vor": 0.7,
-   "war": 0.01
+   "vor": 5.77,
+   "war": 0.07
   },
   {
    "player": "KC",
@@ -496,8 +496,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 8.78,
-   "vor": 8.6,
-   "war": 0.1
+   "vor": 7.68,
+   "war": 0.09
   },
   {
    "player": "SF",
@@ -541,8 +541,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -1.45,
-   "vor": -1.2,
-   "war": -0.01
+   "vor": -2.12,
+   "war": -0.03
   },
   {
    "player": "5095",
@@ -556,8 +556,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": -10.32,
-   "vor": -11.0,
-   "war": -0.13
+   "vor": -12.84,
+   "war": -0.15
   },
   {
    "player": "5927",
@@ -571,8 +571,8 @@
    "bench_pts": 42.3,
    "wins": 1,
    "paa": -8.7,
-   "vor": -5.56,
-   "war": -0.07
+   "vor": -5.06,
+   "war": -0.06
   },
   {
    "player": "12502",
@@ -661,8 +661,8 @@
    "bench_pts": 65.1,
    "wins": 0,
    "paa": -13.16,
-   "vor": -9.26,
-   "war": -0.11
+   "vor": -8.76,
+   "war": -0.1
   },
   {
    "player": "7571",
@@ -1465,7 +1465,7 @@
    "managers": [
     "ritesh"
    ],
-   "until": null,
+   "until": "2026-11-27",
    "g": 11,
    "gs": 0,
    "pts": 0.0,
@@ -1979,6 +1979,23 @@
    ],
    "until": null,
    "g": 1,
+   "gs": 0,
+   "pts": 0.0,
+   "wins": 0,
+   "best": null
+  },
+  {
+   "date": "2026-11-27",
+   "season": "2026",
+   "type": "signing",
+   "player": "13394",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "until": null,
+   "g": 0,
    "gs": 0,
    "pts": 0.0,
    "wins": 0,
@@ -2549,6 +2566,20 @@
    "pts": 0.0,
    "next": null,
    "next_team": null
+  },
+  {
+   "date": "2026-11-27",
+   "season": "2026",
+   "player": "4035",
+   "franchise": 3,
+   "team": "Kolkata Kommies",
+   "managers": [
+    "ritesh"
+   ],
+   "gs": 0,
+   "pts": 0.0,
+   "next": null,
+   "next_team": null
   }
  ],
  "players": {
@@ -2811,8 +2842,8 @@
    "opp_record": "6-5",
    "opp_seed": 7,
    "chance": 0.609,
-   "proj": 158.05,
-   "opp_proj": 134.56
+   "proj": 157.85,
+   "opp_proj": 134.64
   },
   {
    "week": 13,
@@ -2834,7 +2865,7 @@
  "injuries": {
   "games": 31,
   "players": 10,
-  "lost": 21.29,
+  "lost": 24.49,
   "rank": 9,
   "games_rank": 9,
   "of": 12,
@@ -2904,7 +2935,7 @@
     "name": "Ricky Pearsall",
     "pos": "WR",
     "missed": 2,
-    "lost": 1.5,
+    "lost": 2.5,
     "injuries": [
      "Knee - PCL"
     ],
@@ -2916,6 +2947,29 @@
      "IR"
     ],
     "gs": 0
+   },
+   {
+    "player": "5927",
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "missed": 5,
+    "lost": 2.2,
+    "injuries": [
+     "Knee",
+     "Hamstring"
+    ],
+    "weeks": [
+     4,
+     8,
+     9,
+     10,
+     11
+    ],
+    "kinds": [
+     "IR",
+     "Questionable"
+    ],
+    "gs": 1
    },
    {
     "player": "11559",
@@ -2959,29 +3013,6 @@
      "IR"
     ],
     "gs": 0
-   },
-   {
-    "player": "5927",
-    "name": "Terry McLaurin",
-    "pos": "WR",
-    "missed": 5,
-    "lost": 0.0,
-    "injuries": [
-     "Knee",
-     "Hamstring"
-    ],
-    "weeks": [
-     4,
-     8,
-     9,
-     10,
-     11
-    ],
-    "kinds": [
-     "IR",
-     "Questionable"
-    ],
-    "gs": 1
    },
    {
     "player": "13421",

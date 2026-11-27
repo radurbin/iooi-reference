@@ -130,7 +130,7 @@
    "toilet_w": 0,
    "toilet_l": 0,
    "finish": null,
-   "transactions": 66,
+   "transactions": 67,
    "trades": 5,
    "seed": 2,
    "efficiency": 0.9215,
@@ -147,7 +147,7 @@
   "pct": 0.453,
   "pf": 6822.76,
   "pa": 6814.41,
-  "transactions": 155,
+  "transactions": 156,
   "trades": 16,
   "toilet_w": 3,
   "toilet_l": 3,
@@ -185,8 +185,8 @@
     "best": 42.5,
     "wins": 18,
     "paa": 276.41,
-    "vor": 382.46,
-    "war": 4.52
+    "vor": 387.46,
+    "war": 4.58
    },
    {
     "player": "7588",
@@ -211,8 +211,8 @@
     "best": 27.3,
     "wins": 12,
     "paa": -55.37,
-    "vor": 0.29,
-    "war": 0.0
+    "vor": 0.79,
+    "war": 0.01
    },
    {
     "player": "12527",
@@ -302,8 +302,8 @@
     "best": 34.1,
     "wins": 7,
     "paa": 68.12,
-    "vor": 114.3,
-    "war": 1.35
+    "vor": 119.3,
+    "war": 1.41
    },
    {
     "player": "5859",
@@ -471,8 +471,8 @@
     "best": 18.1,
     "wins": 7,
     "paa": -12.08,
-    "vor": -0.4,
-    "war": -0.0
+    "vor": 14.81,
+    "war": 0.18
    },
    {
     "player": "5119",
@@ -595,8 +595,8 @@
      "best": 42.5,
      "wins": 18,
      "paa": 276.41,
-     "vor": 382.46,
-     "war": 4.52
+     "vor": 387.46,
+     "war": 4.58
     },
     {
      "player": "5927",
@@ -608,8 +608,8 @@
      "best": 27.3,
      "wins": 12,
      "paa": -55.37,
-     "vor": 0.29,
-     "war": 0.0
+     "vor": 0.79,
+     "war": 0.01
     }
    ],
    "TE": [
@@ -636,8 +636,8 @@
      "best": 18.1,
      "wins": 7,
      "paa": -12.08,
-     "vor": -0.4,
-     "war": -0.0
+     "vor": 14.81,
+     "war": 0.18
     },
     {
      "player": "7002",
@@ -649,8 +649,8 @@
      "best": 26.8,
      "wins": 4,
      "paa": -21.43,
-     "vor": -16.64,
-     "war": -0.2
+     "vor": -11.57,
+     "war": -0.14
     }
    ],
    "K": [
@@ -690,8 +690,8 @@
      "best": 22.3,
      "wins": 5,
      "paa": -3.34,
-     "vor": 0.4,
-     "war": 0.0
+     "vor": -6.04,
+     "war": -0.07
     }
    ],
    "DEF": [
@@ -772,9 +772,9 @@
    "season": "2026",
    "trades": 5,
    "claims": 3,
-   "signings": 37,
-   "adds": 40,
-   "releases": 40,
+   "signings": 38,
+   "adds": 41,
+   "releases": 41,
    "gs": 26,
    "pts": 280.9
   }
@@ -1270,7 +1270,7 @@
    "list": "Career WAR",
    "scope": 3,
    "rank": 1,
-   "value": "4.53",
+   "value": "4.59",
    "href": "franchise.html?id=3#all-time-leaders",
    "player": "9488",
    "franchise": 3
@@ -1407,7 +1407,7 @@
     "team": "Kolkata Kommies",
     "games": 31,
     "players": 10,
-    "lost": 21.29,
+    "lost": 24.49,
     "rank": 9,
     "games_rank": 9,
     "of": 12,
@@ -1462,7 +1462,7 @@
     "name": "Terry McLaurin",
     "pos": "WR",
     "missed": 12,
-    "lost": 8.26,
+    "lost": 10.46,
     "injuries": [
      "Quadricep",
      "Knee",
@@ -1697,9 +1697,9 @@
    "franchise": 3,
    "name": "Kolkata Kommies",
    "games": 177,
-   "lost": 203.39,
+   "lost": 206.59,
    "seasons": 4,
-   "per_season": 50.85,
+   "per_season": 51.65,
    "worst": "2024"
   }
  }

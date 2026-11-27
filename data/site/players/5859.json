@@ -84,8 +84,8 @@
    "best": 7.8,
    "wins": 2,
    "paa": -13.88,
-   "vor": -5.12,
-   "war": -0.06
+   "vor": -4.12,
+   "war": -0.05
   }
  ],
  "totals": {
@@ -97,8 +97,8 @@
   "best": 38.5,
   "wins": 19,
   "paa": 108.19,
-  "vor": 192.93,
-  "war": 2.28
+  "vor": 193.93,
+  "war": 2.29
  },
  "nfl": [
   {
@@ -1112,8 +1112,8 @@
    "proj": 16.86,
    "won": true,
    "paa": -8.09,
-   "vor": -3.66,
-   "war": -0.04325674649808206
+   "vor": -3.16,
+   "war": -0.03734735489998342
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": 14.92,
    "won": true,
    "paa": -5.79,
-   "vor": -1.46,
-   "war": -0.017255423466448032
+   "vor": -0.96,
+   "war": -0.011346031868349392
   },
   {
    "season": "2026",
@@ -1283,47 +1283,47 @@
   {
    "player": "2216",
    "name": "Mike Evans",
-   "score": 976,
+   "score": 974,
    "gs": 41,
    "pts": 663.6,
    "ppg": 16.19,
-   "war": 2.3
+   "war": 2.34
   },
   {
    "player": "8137",
    "name": "George Pickens",
-   "score": 919,
+   "score": 916,
    "gs": 43,
    "pts": 673.1,
    "ppg": 15.65,
-   "war": 2.41
+   "war": 2.47
   },
   {
    "player": "6801",
    "name": "Tee Higgins",
-   "score": 901,
+   "score": 899,
    "gs": 36,
    "pts": 595.5,
    "ppg": 16.54,
-   "war": 2.41
+   "war": 2.47
   },
   {
    "player": "7569",
    "name": "Nico Collins",
-   "score": 873,
+   "score": 869,
    "gs": 44,
    "pts": 719.1,
    "ppg": 16.34,
-   "war": 2.74
+   "war": 2.79
   },
   {
-   "player": "2133",
-   "name": "Davante Adams",
-   "score": 857,
-   "gs": 46,
-   "pts": 708.7,
-   "ppg": 15.41,
-   "war": 2.21
+   "player": "8144",
+   "name": "Chris Olave",
+   "score": 860,
+   "gs": 42,
+   "pts": 619.5,
+   "ppg": 14.75,
+   "war": 1.92
   }
  ],
  "status": {
@@ -1364,7 +1364,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 2.28,
+   "value": 2.29,
    "digits": 2,
    "rank": 43,
    "of": 426
@@ -1373,7 +1373,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 192.9,
+   "value": 193.9,
    "digits": 1,
    "rank": 43,
    "of": 426
@@ -1436,7 +1436,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 2.28,
+   "value": 2.29,
    "digits": 2,
    "rank": 11,
    "of": 129
@@ -1505,7 +1505,7 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": 0.4,
+   "value": 0.41,
    "digits": 2,
    "rank": 17,
    "of": 40,
@@ -1683,10 +1683,10 @@
   }
  ],
  "hof": {
-  "score": 35.8,
+  "score": 35.9,
   "rank": 41,
   "of": 426,
-  "war": 22.8,
+  "war": 22.9,
   "starts": 10.0,
   "black_ink": 0.0,
   "awards": 3.0,
@@ -1979,27 +1979,27 @@
    [
     "2026",
     7,
-    35.8
+    35.9
    ],
    [
     "2026",
     8,
-    35.8
+    35.9
    ],
    [
     "2026",
     9,
-    35.8
+    35.9
    ],
    [
     "2026",
     10,
-    35.8
+    35.9
    ],
    [
     "2026",
     11,
-    35.8
+    35.9
    ]
   ],
   "benchmark": 100
@@ -2243,7 +2243,7 @@
    }
   ],
   "now": {
-   "status": "Doubtful",
+   "status": "Out",
    "injury": "Hamstring",
    "since": null,
    "streak": 0

@@ -107,7 +107,7 @@
    "team": "TEN",
    "g": 9,
    "pts": 32.9,
-   "rank": 107
+   "rank": 108
   }
  ],
  "history": [
@@ -961,29 +961,29 @@
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 971,
+   "score": 970,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
-   "war": 0.0
-  },
-  {
-   "player": "11635",
-   "name": "Ladd McConkey",
-   "score": 876,
-   "gs": 33,
-   "pts": 401.1,
-   "ppg": 12.15,
-   "war": 0.57
+   "war": 0.01
   },
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 875,
+   "score": 873,
    "gs": 28,
    "pts": 334.8,
    "ppg": 11.96,
-   "war": 0.25
+   "war": 0.28
+  },
+  {
+   "player": "11635",
+   "name": "Ladd McConkey",
+   "score": 869,
+   "gs": 33,
+   "pts": 401.1,
+   "ppg": 12.15,
+   "war": 0.62
   },
   {
    "player": "5846",
@@ -1001,7 +1001,7 @@
    "gs": 27,
    "pts": 284.5,
    "ppg": 10.54,
-   "war": -0.12
+   "war": -0.1
   }
  ],
  "status": {
@@ -1033,7 +1033,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 288,
+   "rank": 287,
    "of": 426
   },
   {
@@ -1042,7 +1042,7 @@
    "stat": "VOR",
    "value": -8.6,
    "digits": 1,
-   "rank": 294,
+   "rank": 296,
    "of": 426
   },
   {
@@ -1134,7 +1134,7 @@
    "stat": "WAR",
    "value": -0.1,
    "digits": 2,
-   "rank": 64,
+   "rank": 65,
    "of": 77,
    "franchise": 2
   },

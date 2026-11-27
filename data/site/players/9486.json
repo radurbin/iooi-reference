@@ -89,8 +89,8 @@
    "best": 5.2,
    "wins": 1,
    "paa": -16.42,
-   "vor": -8.92,
-   "war": -0.11
+   "vor": -7.92,
+   "war": -0.09
   }
  ],
  "totals": {
@@ -102,8 +102,8 @@
   "best": 5.2,
   "wins": 2,
   "paa": -38.06,
-  "vor": -26.42,
-  "war": -0.31
+  "vor": -25.42,
+  "war": -0.3
  },
  "nfl": [
   {
@@ -593,8 +593,8 @@
    "proj": 9.35,
    "won": true,
    "paa": -8.42,
-   "vor": -4.06,
-   "war": -0.04798425977656097
+   "vor": -3.56,
+   "war": -0.04207486817846233
   },
   {
    "season": "2026",
@@ -644,8 +644,8 @@
    "proj": 4.8,
    "won": false,
    "paa": -8.0,
-   "vor": -4.86,
-   "war": -0.0574392863335188
+   "vor": -4.36,
+   "war": -0.05152989473542016
   }
  ],
  "status": {
@@ -675,7 +675,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.3,
    "digits": 2,
    "rank": 386,
    "of": 426
@@ -684,9 +684,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -26.4,
+   "value": -25.4,
    "digits": 1,
-   "rank": 387,
+   "rank": 388,
    "of": 426
   },
   {
@@ -738,9 +738,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.31,
+   "value": -0.3,
    "digits": 2,
-   "rank": 117,
+   "rank": 116,
    "of": 129
   },
   {
@@ -767,9 +767,9 @@
    "group": "Franchise",
    "scope": "BBL KIZZY",
    "stat": "WAR",
-   "value": -0.11,
+   "value": -0.09,
    "digits": 2,
-   "rank": 62,
+   "rank": 58,
    "of": 69,
    "franchise": 8
   },
@@ -1196,7 +1196,7 @@
    {
     "season": "2026",
     "nfl": "PHI",
-    "missed": 4,
+    "missed": 5,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -1205,7 +1205,8 @@
      7,
      8,
      9,
-     11
+     11,
+     12
     ],
     "kinds": [
      "IR",
@@ -1236,6 +1237,13 @@
      },
      {
       "week": 11,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
       "kind": "IR",
       "injury": "Ankle",
       "franchise": null,
@@ -1300,14 +1308,15 @@
    {
     "season": "2026",
     "from": 7,
-    "to": 11,
+    "to": 12,
     "weeks": [
      7,
      8,
      9,
-     11
+     11,
+     12
     ],
-    "missed": 4,
+    "missed": 5,
     "nfl": "PHI",
     "injury": "Ankle",
     "kinds": [

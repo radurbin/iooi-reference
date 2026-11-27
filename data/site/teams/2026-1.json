@@ -287,8 +287,8 @@
    "bench_pts": 0.0,
    "wins": 10,
    "paa": 68.56,
-   "vor": 74.6,
-   "war": 0.88
+   "vor": 93.19,
+   "war": 1.1
   },
   {
    "player": "6786",
@@ -302,8 +302,8 @@
    "bench_pts": 0.0,
    "wins": 7,
    "paa": 72.81,
-   "vor": 107.32,
-   "war": 1.27
+   "vor": 111.32,
+   "war": 1.32
   },
   {
    "player": "8150",
@@ -347,8 +347,8 @@
    "bench_pts": 0.0,
    "wins": 9,
    "paa": -1.34,
-   "vor": 43.6,
-   "war": 0.52
+   "vor": 48.6,
+   "war": 0.57
   },
   {
    "player": "4866",
@@ -377,8 +377,8 @@
    "bench_pts": 0.0,
    "wins": 6,
    "paa": 6.9,
-   "vor": 12.9,
-   "war": 0.15
+   "vor": 6.46,
+   "war": 0.08
   },
   {
    "player": "2133",
@@ -392,8 +392,8 @@
    "bench_pts": 41.0,
    "wins": 5,
    "paa": -6.65,
-   "vor": 16.2,
-   "war": 0.19
+   "vor": 18.7,
+   "war": 0.22
   },
   {
    "player": "5967",
@@ -452,8 +452,8 @@
    "bench_pts": 64.7,
    "wins": 2,
    "paa": -11.52,
-   "vor": -1.12,
-   "war": -0.01
+   "vor": -0.12,
+   "war": -0.0
   },
   {
    "player": "5189",
@@ -467,8 +467,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -7.89,
-   "vor": -11.0,
-   "war": -0.13
+   "vor": -13.76,
+   "war": -0.16
   },
   {
    "player": "DEN",
@@ -497,8 +497,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": -0.95,
-   "vor": -0.7,
-   "war": -0.01
+   "vor": -1.62,
+   "war": -0.02
   },
   {
    "player": "NO",
@@ -527,8 +527,8 @@
    "bench_pts": 88.5,
    "wins": 0,
    "paa": -5.99,
-   "vor": -1.66,
-   "war": -0.02
+   "vor": -1.16,
+   "war": -0.01
   },
   {
    "player": "TB",
@@ -2339,8 +2339,8 @@
    "opp_record": "4-7",
    "opp_seed": 6,
    "chance": 0.716,
-   "proj": 157.08,
-   "opp_proj": 146.31
+   "proj": 167.94,
+   "opp_proj": 146.59
   },
   {
    "week": 13,
@@ -2362,7 +2362,7 @@
  "injuries": {
   "games": 34,
   "players": 13,
-  "lost": 69.24,
+  "lost": 78.95,
   "rank": 5,
   "games_rank": 6,
   "of": 12,
@@ -2372,7 +2372,7 @@
     "name": "Davante Adams",
     "pos": "WR",
     "missed": 4,
-    "lost": 31.96,
+    "lost": 33.96,
     "injuries": [
      "Hamstring"
     ],
@@ -2410,30 +2410,11 @@
     "gs": 0
    },
    {
-    "player": "13296",
-    "name": "Caleb Douglas",
-    "pos": "WR",
-    "missed": 3,
-    "lost": 5.31,
-    "injuries": [
-     "Ankle"
-    ],
-    "weeks": [
-     3,
-     4,
-     5
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 0
-   },
-   {
     "player": "11638",
     "name": "Ricky Pearsall",
     "pos": "WR",
     "missed": 7,
-    "lost": 5.25,
+    "lost": 8.75,
     "injuries": [
      "Knee - PCL"
     ],
@@ -2452,11 +2433,30 @@
     "gs": 0
    },
    {
+    "player": "13296",
+    "name": "Caleb Douglas",
+    "pos": "WR",
+    "missed": 3,
+    "lost": 6.81,
+    "injuries": [
+     "Ankle"
+    ],
+    "weeks": [
+     3,
+     4,
+     5
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 0
+   },
+   {
     "player": "8146",
     "name": "Garrett Wilson",
     "pos": "WR",
     "missed": 1,
-    "lost": 4.36,
+    "lost": 4.86,
     "injuries": [
      "Concussion"
     ],
@@ -2469,22 +2469,23 @@
     "gs": 10
    },
    {
-    "player": "4866",
-    "name": "Saquon Barkley",
-    "pos": "RB",
+    "player": "12514",
+    "name": "Emeka Egbuka",
+    "pos": "WR",
     "missed": 2,
-    "lost": 3.26,
+    "lost": 3.0,
     "injuries": [
-     "Hamstring"
+     "Concussion",
+     "Foot"
     ],
     "weeks": [
-     5,
-     6
+     7,
+     8
     ],
     "kinds": [
      "Out"
     ],
-    "gs": 7
+    "gs": 2
    },
    {
     "player": "4137",
@@ -2504,30 +2505,28 @@
     "gs": 0
    },
    {
-    "player": "12514",
-    "name": "Emeka Egbuka",
-    "pos": "WR",
-    "missed": 2,
-    "lost": 2.0,
+    "player": "5844",
+    "name": "T.J. Hockenson",
+    "pos": "TE",
+    "missed": 1,
+    "lost": 2.53,
     "injuries": [
-     "Concussion",
-     "Foot"
+     "Wrist"
     ],
     "weeks": [
-     7,
-     8
+     10
     ],
     "kinds": [
      "Out"
     ],
-    "gs": 2
+    "gs": 0
    },
    {
     "player": "12536",
     "name": "Jaylin Noel",
     "pos": "WR",
     "missed": 3,
-    "lost": 0.99,
+    "lost": 2.49,
     "injuries": [
      "Toe"
     ],
@@ -2542,21 +2541,22 @@
     "gs": 0
    },
    {
-    "player": "5844",
-    "name": "T.J. Hockenson",
-    "pos": "TE",
-    "missed": 1,
-    "lost": 0.84,
+    "player": "4866",
+    "name": "Saquon Barkley",
+    "pos": "RB",
+    "missed": 2,
+    "lost": 1.28,
     "injuries": [
-     "Wrist"
+     "Hamstring"
     ],
     "weeks": [
-     10
+     5,
+     6
     ],
     "kinds": [
      "Out"
     ],
-    "gs": 0
+    "gs": 7
    },
    {
     "player": "11583",

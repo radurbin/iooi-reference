@@ -77,9 +77,9 @@
   {
    "season": "2026",
    "team": "KC",
-   "g": 10,
-   "pts": 21.8,
-   "rank": 123
+   "g": 11,
+   "pts": 23.3,
+   "rank": 122
   }
  ],
  "history": [
@@ -635,6 +635,11 @@
     "lost": 0.0
    }
   ],
-  "now": null
+  "now": {
+   "status": "Out",
+   "injury": "Ankle",
+   "since": null,
+   "streak": 0
+  }
  }
 }

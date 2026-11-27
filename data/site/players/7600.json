@@ -96,8 +96,8 @@
    "best": 21.6,
    "wins": 4,
    "paa": 5.64,
-   "vor": 6.8,
-   "war": 0.08
+   "vor": 16.94,
+   "war": 0.2
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 21.6,
   "wins": 9,
   "paa": -19.26,
-  "vor": -16.34,
-  "war": -0.19
+  "vor": -6.2,
+  "war": -0.07
  },
  "nfl": [
   {
@@ -1002,8 +1002,8 @@
    "proj": 7.89,
    "won": false,
    "paa": -0.42,
-   "vor": 0.4,
-   "war": 0.004727513278478914
+   "vor": 2.09,
+   "war": 0.02470125688005232
   },
   {
    "season": "2026",
@@ -1021,8 +1021,8 @@
    "proj": 8.0,
    "won": true,
    "paa": 8.77,
-   "vor": 11.3,
-   "war": 0.13355225011702931
+   "vor": 12.99,
+   "war": 0.1535259937186027
   },
   {
    "season": "2026",
@@ -1056,8 +1056,8 @@
    "proj": 9.59,
    "won": true,
    "paa": -7.21,
-   "vor": -6.3,
-   "war": -0.07445833413604289
+   "vor": -4.61,
+   "war": -0.05448459053446948
   },
   {
    "season": "2026",
@@ -1075,8 +1075,8 @@
    "proj": 9.25,
    "won": true,
    "paa": -1.15,
-   "vor": 1.4,
-   "war": 0.016546296474676196
+   "vor": 3.09,
+   "war": 0.03652004007624961
   },
   {
    "season": "2026",
@@ -1110,8 +1110,8 @@
    "proj": 8.88,
    "won": false,
    "paa": 3.98,
-   "vor": 1.2,
-   "war": 0.01418253983543674
+   "vor": 2.89,
+   "war": 0.03415628343701015
   },
   {
    "season": "2026",
@@ -1129,46 +1129,28 @@
    "proj": 8.65,
    "won": true,
    "paa": 1.67,
-   "vor": -1.2,
-   "war": -0.01418253983543674
+   "vor": 0.49,
+   "war": 0.005791203766136669
   }
  ],
  "similar": [
   {
    "player": "5001",
    "name": "Dalton Schultz",
-   "score": 818,
+   "score": 820,
    "gs": 16,
    "pts": 176.7,
    "ppg": 11.04,
-   "war": 0.23
+   "war": 0.35
   },
   {
    "player": "12506",
    "name": "Harold Fannin Jr.",
-   "score": 802,
+   "score": 791,
    "gs": 17,
    "pts": 191.95,
    "ppg": 11.29,
-   "war": 0.29
-  },
-  {
-   "player": "2505",
-   "name": "Darren Waller",
-   "score": 792,
-   "gs": 23,
-   "pts": 171.1,
-   "ppg": 7.44,
-   "war": -0.68
-  },
-  {
-   "player": "12517",
-   "name": "Colston Loveland",
-   "score": 791,
-   "gs": 13,
-   "pts": 143.3,
-   "ppg": 11.02,
-   "war": 0.17
+   "war": 0.51
   },
   {
    "player": "3214",
@@ -1177,7 +1159,25 @@
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.12
+   "war": -0.08
+  },
+  {
+   "player": "2505",
+   "name": "Darren Waller",
+   "score": 789,
+   "gs": 23,
+   "pts": 171.1,
+   "ppg": 7.44,
+   "war": -0.6
+  },
+  {
+   "player": "12517",
+   "name": "Colston Loveland",
+   "score": 787,
+   "gs": 13,
+   "pts": 143.3,
+   "ppg": 11.02,
+   "war": 0.35
   }
  ],
  "status": {
@@ -1208,18 +1208,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.19,
+   "value": -0.07,
    "digits": 2,
-   "rank": 350,
+   "rank": 262,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -16.3,
+   "value": -6.2,
    "digits": 1,
-   "rank": 353,
+   "rank": 269,
    "of": 426
   },
   {
@@ -1280,9 +1280,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.19,
+   "value": -0.07,
    "digits": 2,
-   "rank": 37,
+   "rank": 28,
    "of": 52
   },
   {
@@ -1349,9 +1349,9 @@
    "group": "Franchise",
    "scope": "Storm FC",
    "stat": "WAR",
-   "value": 0.08,
+   "value": 0.2,
    "digits": 2,
-   "rank": 32,
+   "rank": 25,
    "of": 77,
    "franchise": 2
   },
@@ -1498,7 +1498,7 @@
  ],
  "hof": {
   "score": 5.0,
-  "rank": 200,
+  "rank": 202,
   "of": 426,
   "war": 0.0,
   "starts": 5.0,

@@ -99,8 +99,8 @@
    "season": "2026",
    "team": "CHI",
    "g": 8,
-   "pts": 129.94,
-   "rank": 22
+   "pts": 153.78,
+   "rank": 17
   }
  ],
  "history": [
@@ -1050,7 +1050,7 @@
    "stat": "WAR",
    "value": 1.91,
    "digits": 2,
-   "rank": 54,
+   "rank": 55,
    "of": 426
   },
   {
@@ -1059,7 +1059,7 @@
    "stat": "VOR",
    "value": 161.7,
    "digits": 1,
-   "rank": 55,
+   "rank": 56,
    "of": 426
   },
   {
@@ -1520,7 +1520,7 @@
     "season": "2026",
     "nfl": "CHI",
     "missed": 3,
-    "lost": 7.89,
+    "lost": 16.83,
     "injuries": [
      "Hamstring"
     ],
@@ -1583,9 +1583,14 @@
      }
     ],
     "rostered": 3,
-    "lost": 7.89
+    "lost": 16.83
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "",
+   "since": null,
+   "streak": 0
+  }
  }
 }

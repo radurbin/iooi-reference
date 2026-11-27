@@ -80,8 +80,8 @@
    "best": 15.6,
    "wins": 0,
    "paa": -3.28,
-   "vor": 4.98,
-   "war": 0.06
+   "vor": 5.98,
+   "war": 0.07
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 35.8,
   "wins": 13,
   "paa": 20.26,
-  "vor": 87.88,
-  "war": 1.04
+  "vor": 88.88,
+  "war": 1.05
  },
  "nfl": [
   {
@@ -123,7 +123,7 @@
    "team": "SF",
    "g": 7,
    "pts": 95.4,
-   "rank": 41
+   "rank": 43
   }
  ],
  "history": [
@@ -1107,8 +1107,8 @@
    "proj": 11.44,
    "won": false,
    "paa": 1.98,
-   "vor": 6.34,
-   "war": 0.07493108546389078
+   "vor": 6.84,
+   "war": 0.08084047706198942
   },
   {
    "season": "2026",
@@ -1238,37 +1238,37 @@
    "proj": 9.13,
    "won": false,
    "paa": -5.26,
-   "vor": -1.36,
-   "war": -0.016073545146828308
+   "vor": -0.86,
+   "war": -0.010164153548729663
   }
  ],
  "similar": [
   {
    "player": "9997",
    "name": "Zay Flowers",
-   "score": 944,
+   "score": 941,
    "gs": 39,
    "pts": 521.6,
    "ppg": 13.37,
-   "war": 1.18
+   "war": 1.23
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 903,
+   "score": 898,
    "gs": 40,
    "pts": 562.0,
    "ppg": 14.05,
-   "war": 1.38
+   "war": 1.44
   },
   {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 895,
+   "score": 892,
    "gs": 35,
    "pts": 519.32,
    "ppg": 14.84,
-   "war": 1.41
+   "war": 1.45
   },
   {
    "player": "6819",
@@ -1282,11 +1282,11 @@
   {
    "player": "7525",
    "name": "DeVonta Smith",
-   "score": 830,
+   "score": 829,
    "gs": 44,
    "pts": 607.9,
    "ppg": 13.82,
-   "war": 1.31
+   "war": 1.34
   }
  ],
  "status": {
@@ -1317,16 +1317,16 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 1.04,
+   "value": 1.05,
    "digits": 2,
-   "rank": 77,
+   "rank": 78,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 87.9,
+   "value": 88.9,
    "digits": 1,
    "rank": 78,
    "of": 426
@@ -1389,7 +1389,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 1.04,
+   "value": 1.05,
    "digits": 2,
    "rank": 24,
    "of": 129
@@ -1418,7 +1418,7 @@
    "group": "Franchise",
    "scope": "Im Stroud Of You",
    "stat": "WAR",
-   "value": 1.04,
+   "value": 1.05,
    "digits": 2,
    "rank": 3,
    "of": 83,
@@ -1556,10 +1556,10 @@
   }
  ],
  "hof": {
-  "score": 19.65,
+  "score": 19.75,
   "rank": 79,
   "of": 426,
-  "war": 10.4,
+  "war": 10.5,
   "starts": 9.25,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1832,47 +1832,47 @@
    [
     "2026",
     3,
-    19.5
+    19.6
    ],
    [
     "2026",
     4,
-    19.5
+    19.6
    ],
    [
     "2026",
     5,
-    19.5
+    19.6
    ],
    [
     "2026",
     6,
-    19.5
+    19.6
    ],
    [
     "2026",
     7,
-    19.5
+    19.6
    ],
    [
     "2026",
     8,
-    19.5
+    19.6
    ],
    [
     "2026",
     9,
-    19.5
+    19.6
    ],
    [
     "2026",
     10,
-    19.5
+    19.6
    ],
    [
     "2026",
     11,
-    19.65
+    19.75
    ]
   ],
   "benchmark": 100
@@ -1968,7 +1968,7 @@
     "season": "2026",
     "nfl": "SF",
     "missed": 3,
-    "lost": 13.11,
+    "lost": 14.61,
     "injuries": [
      "Hamstring"
     ],
@@ -2096,7 +2096,7 @@
      }
     ],
     "rostered": 3,
-    "lost": 13.11
+    "lost": 14.61
    }
   ],
   "now": null

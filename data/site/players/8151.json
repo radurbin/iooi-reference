@@ -123,7 +123,7 @@
    "team": "KC",
    "g": 8,
    "pts": 212.3,
-   "rank": 5
+   "rank": 8
   }
  ],
  "history": [
@@ -1660,7 +1660,7 @@
  ],
  "hof": {
   "score": 46.35,
-  "rank": 24,
+  "rank": 26,
   "of": 426,
   "war": 35.1,
   "starts": 11.25,
@@ -2072,14 +2072,15 @@
    {
     "season": "2026",
     "nfl": "KC",
-    "missed": 2,
+    "missed": 3,
     "lost": 36.14,
     "injuries": [
      "Groin"
     ],
     "weeks": [
      10,
-     11
+     11,
+     12
     ],
     "kinds": [
      "Out",
@@ -2100,6 +2101,13 @@
       "injury": "Groin",
       "franchise": 2,
       "team": "Storm FC"
+     },
+     {
+      "week": 12,
+      "kind": "Out",
+      "injury": "Groin",
+      "franchise": null,
+      "team": null
      }
     ]
    }
@@ -2178,12 +2186,13 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 11,
+    "to": 12,
     "weeks": [
      10,
-     11
+     11,
+     12
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "KC",
     "injury": "Groin",
     "kinds": [
@@ -2204,7 +2213,7 @@
    "status": "Out",
    "injury": "Groin",
    "since": null,
-   "streak": 2
+   "streak": 3
   }
  }
 }

@@ -1215,7 +1215,7 @@
   {
    "player": "4033",
    "name": "David Njoku",
-   "score": 920,
+   "score": 921,
    "gs": 20,
    "pts": 261.4,
    "ppg": 13.07,
@@ -1224,20 +1224,29 @@
   {
    "player": "9484",
    "name": "Tucker Kraft",
-   "score": 851,
+   "score": 852,
    "gs": 21,
    "pts": 248.4,
    "ppg": 11.83,
-   "war": 0.51
+   "war": 0.69
   },
   {
    "player": "12518",
    "name": "Tyler Warren",
-   "score": 840,
+   "score": 844,
    "gs": 18,
    "pts": 207.2,
    "ppg": 11.51,
-   "war": 0.45
+   "war": 0.55
+  },
+  {
+   "player": "12506",
+   "name": "Harold Fannin Jr.",
+   "score": 822,
+   "gs": 17,
+   "pts": 191.95,
+   "ppg": 11.29,
+   "war": 0.51
   },
   {
    "player": "4144",
@@ -1247,15 +1256,6 @@
    "pts": 133.2,
    "ppg": 13.32,
    "war": 0.38
-  },
-  {
-   "player": "12506",
-   "name": "Harold Fannin Jr.",
-   "score": 808,
-   "gs": 17,
-   "pts": 191.95,
-   "ppg": 11.29,
-   "war": 0.29
   }
  ],
  "status": {
@@ -1288,7 +1288,7 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 105,
+   "rank": 107,
    "of": 426
   },
   {
@@ -1297,7 +1297,7 @@
    "stat": "VOR",
    "value": 52.1,
    "digits": 1,
-   "rank": 105,
+   "rank": 107,
    "of": 426
   },
   {
@@ -1360,7 +1360,7 @@
    "stat": "WAR",
    "value": 0.62,
    "digits": 2,
-   "rank": 7,
+   "rank": 8,
    "of": 52
   },
   {
@@ -1496,7 +1496,7 @@
  ],
  "hof": {
   "score": 17.45,
-  "rank": 85,
+  "rank": 86,
   "of": 426,
   "war": 6.2,
   "starts": 4.25,
@@ -1955,7 +1955,7 @@
     "season": "2026",
     "nfl": "MIN",
     "missed": 1,
-    "lost": 0.84,
+    "lost": 2.53,
     "injuries": [
      "Wrist"
     ],
@@ -2070,7 +2070,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.84
+    "lost": 2.53
    }
   ],
   "now": null

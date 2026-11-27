@@ -272,8 +272,8 @@
    "bench_pts": 5.7,
    "wins": 2,
    "paa": -20.64,
-   "vor": 14.32,
-   "war": 0.17
+   "vor": 18.32,
+   "war": 0.22
   },
   {
    "player": "11539",
@@ -287,8 +287,8 @@
    "bench_pts": 15.7,
    "wins": 3,
    "paa": 2.28,
-   "vor": 7.7,
-   "war": 0.09
+   "vor": 0.34,
+   "war": 0.0
   },
   {
    "player": "5849",
@@ -332,8 +332,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -5.61,
-   "vor": 19.04,
-   "war": 0.23
+   "vor": 22.04,
+   "war": 0.26
   },
   {
    "player": "4892",
@@ -362,8 +362,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": 28.41,
-   "vor": 43.22,
-   "war": 0.51
+   "vor": 44.72,
+   "war": 0.53
   },
   {
    "player": "10859",
@@ -377,8 +377,8 @@
    "bench_pts": 0.0,
    "wins": 3,
    "paa": -3.95,
-   "vor": -1.5,
-   "war": -0.02
+   "vor": 10.33,
+   "war": 0.12
   },
   {
    "player": "4017",
@@ -452,8 +452,8 @@
    "bench_pts": 38.45,
    "wins": 0,
    "paa": -15.95,
-   "vor": -11.2,
-   "war": -0.13
+   "vor": -2.75,
+   "war": -0.03
   },
   {
    "player": "2020",
@@ -467,8 +467,8 @@
    "bench_pts": 17.4,
    "wins": 0,
    "paa": 10.68,
-   "vor": 8.4,
-   "war": 0.1
+   "vor": 5.64,
+   "war": 0.07
   },
   {
    "player": "13301",
@@ -482,8 +482,8 @@
    "bench_pts": 61.7,
    "wins": 1,
    "paa": -9.98,
-   "vor": 4.32,
-   "war": 0.05
+   "vor": 5.82,
+   "war": 0.07
   },
   {
    "player": "6130",
@@ -527,8 +527,8 @@
    "bench_pts": 32.5,
    "wins": 2,
    "paa": -24.09,
-   "vor": -10.38,
-   "war": -0.12
+   "vor": -8.88,
+   "war": -0.1
   },
   {
    "player": "5012",
@@ -542,8 +542,8 @@
    "bench_pts": 61.4,
    "wins": 0,
    "paa": -19.18,
-   "vor": -13.8,
-   "war": -0.16
+   "vor": -8.73,
+   "war": -0.1
   },
   {
    "player": "CHI",
@@ -602,8 +602,8 @@
    "bench_pts": 1.4,
    "wins": 0,
    "paa": -8.69,
-   "vor": -4.26,
-   "war": -0.05
+   "vor": -3.76,
+   "war": -0.04
   },
   {
    "player": "GB",
@@ -632,8 +632,8 @@
    "bench_pts": 6.6,
    "wins": 0,
    "paa": -10.5,
-   "vor": -7.36,
-   "war": -0.09
+   "vor": -6.86,
+   "war": -0.08
   },
   {
    "player": "8122",
@@ -692,8 +692,8 @@
    "bench_pts": 7.3,
    "wins": 0,
    "paa": -14.79,
-   "vor": -9.26,
-   "war": -0.11
+   "vor": -8.76,
+   "war": -0.1
   },
   {
    "player": "10218",
@@ -722,8 +722,8 @@
    "bench_pts": 3.2,
    "wins": 0,
    "paa": -13.59,
-   "vor": -9.26,
-   "war": -0.11
+   "vor": -8.76,
+   "war": -0.1
   },
   {
    "player": "6768",
@@ -1139,7 +1139,7 @@
    "pts_team": 75.9,
    "starts_league": 4,
    "pts_league": 75.9,
-   "nfl_pts": 127.3
+   "nfl_pts": 148.6
   },
   {
    "round": 2,
@@ -2232,8 +2232,8 @@
    "opp_record": "2-9",
    "opp_seed": 12,
    "chance": 0.512,
-   "proj": 139.69,
-   "opp_proj": 82.46
+   "proj": 135.85,
+   "opp_proj": 82.02
   },
   {
    "week": 13,
@@ -2255,7 +2255,7 @@
  "injuries": {
   "games": 34,
   "players": 14,
-  "lost": 32.69,
+  "lost": 34.87,
   "rank": 8,
   "games_rank": 6,
   "of": 12,
@@ -2283,7 +2283,7 @@
     "name": "Carnell Tate",
     "pos": "WR",
     "missed": 2,
-    "lost": 5.0,
+    "lost": 6.0,
     "injuries": [
      "Shoulder"
     ],
@@ -2295,6 +2295,23 @@
      "Out"
     ],
     "gs": 8
+   },
+   {
+    "player": "2449",
+    "name": "Stefon Diggs",
+    "pos": "WR",
+    "missed": 1,
+    "lost": 4.47,
+    "injuries": [
+     "Hamstring"
+    ],
+    "weeks": [
+     5
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 6
    },
    {
     "player": "12481",
@@ -2312,23 +2329,6 @@
      "Doubtful"
     ],
     "gs": 9
-   },
-   {
-    "player": "2449",
-    "name": "Stefon Diggs",
-    "pos": "WR",
-    "missed": 1,
-    "lost": 3.97,
-    "injuries": [
-     "Hamstring"
-    ],
-    "weeks": [
-     5
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 6
    },
    {
     "player": "4017",
@@ -2363,6 +2363,26 @@
      "Out"
     ],
     "gs": 6
+   },
+   {
+    "player": "11630",
+    "name": "Roman Wilson",
+    "pos": "WR",
+    "missed": 4,
+    "lost": 0.68,
+    "injuries": [
+     "Finger"
+    ],
+    "weeks": [
+     6,
+     7,
+     8,
+     10
+    ],
+    "kinds": [
+     "IR"
+    ],
+    "gs": 1
    },
    {
     "player": "10222",
@@ -2409,26 +2429,6 @@
      "Out"
     ],
     "gs": 6
-   },
-   {
-    "player": "11630",
-    "name": "Roman Wilson",
-    "pos": "WR",
-    "missed": 4,
-    "lost": 0.0,
-    "injuries": [
-     "Finger"
-    ],
-    "weeks": [
-     6,
-     7,
-     8,
-     10
-    ],
-    "kinds": [
-     "IR"
-    ],
-    "gs": 1
    },
    {
     "player": "4892",

@@ -96,8 +96,8 @@
    "best": 23.7,
    "wins": 5,
    "paa": -4.6,
-   "vor": -1.5,
-   "war": -0.02
+   "vor": 10.33,
+   "war": 0.12
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 27.0,
   "wins": 18,
   "paa": -60.98,
-  "vor": -35.3,
-  "war": -0.42
+  "vor": -23.47,
+  "war": -0.28
  },
  "nfl": [
   {
@@ -137,8 +137,8 @@
   {
    "season": "2026",
    "team": "PHI",
-   "g": 8,
-   "pts": 80.4,
+   "g": 9,
+   "pts": 82.3,
    "rank": 21
   }
  ],
@@ -1091,8 +1091,8 @@
    "proj": 9.96,
    "won": true,
    "paa": 15.03,
-   "vor": 13.4,
-   "war": 0.1583716948290436
+   "vor": 15.09,
+   "war": 0.178345438430617
   },
   {
    "season": "2026",
@@ -1110,8 +1110,8 @@
    "proj": 10.17,
    "won": false,
    "paa": -11.19,
-   "vor": -8.9,
-   "war": -0.10518717044615583
+   "vor": -7.21,
+   "war": -0.08521342684458241
   },
   {
    "season": "2026",
@@ -1177,8 +1177,8 @@
    "proj": 10.51,
    "won": false,
    "paa": 1.24,
-   "vor": 1.8,
-   "war": 0.021273809753155112
+   "vor": 3.49,
+   "war": 0.041247553354728524
   },
   {
    "season": "2026",
@@ -1196,8 +1196,8 @@
    "proj": 11.52,
    "won": true,
    "paa": 0.09,
-   "vor": 1.0,
-   "war": 0.011818783196197283
+   "vor": 2.69,
+   "war": 0.03179252679777069
   },
   {
    "season": "2026",
@@ -1215,8 +1215,8 @@
    "proj": 10.27,
    "won": true,
    "paa": -5.55,
-   "vor": -3.0,
-   "war": -0.035456349588591854
+   "vor": -1.31,
+   "war": -0.015482605987018443
   },
   {
    "season": "2026",
@@ -1234,8 +1234,8 @@
    "proj": 9.74,
    "won": true,
    "paa": -1.59,
-   "vor": -0.3,
-   "war": -0.003545634958859185
+   "vor": 1.39,
+   "war": 0.016428108642714222
   },
   {
    "season": "2026",
@@ -1269,55 +1269,55 @@
    "proj": 9.89,
    "won": true,
    "paa": -2.63,
-   "vor": -5.5,
-   "war": -0.06500330757908505
+   "vor": -3.81,
+   "war": -0.04502956397751165
   }
  ],
  "similar": [
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 864,
+   "score": 861,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.68
+   "war": -0.58
   },
   {
    "player": "10236",
    "name": "Dalton Kincaid",
-   "score": 843,
+   "score": 842,
    "gs": 39,
    "pts": 318.1,
    "ppg": 8.16,
-   "war": -0.88
+   "war": -0.76
   },
   {
    "player": "8110",
    "name": "Jake Ferguson",
-   "score": 809,
+   "score": 823,
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.22
-  },
-  {
-   "player": "5012",
-   "name": "Mark Andrews",
-   "score": 711,
-   "gs": 47,
-   "pts": 437.9,
-   "ppg": 9.32,
-   "war": -0.29
+   "war": 0.3
   },
   {
    "player": "4066",
    "name": "Evan Engram",
-   "score": 703,
+   "score": 722,
    "gs": 25,
    "pts": 280.4,
    "ppg": 11.22,
    "war": 0.3
+  },
+  {
+   "player": "5012",
+   "name": "Mark Andrews",
+   "score": 713,
+   "gs": 47,
+   "pts": 437.9,
+   "ppg": 9.32,
+   "war": -0.23
   }
  ],
  "status": {
@@ -1358,18 +1358,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.42,
+   "value": -0.28,
    "digits": 2,
-   "rank": 399,
+   "rank": 380,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -35.3,
+   "value": -23.5,
    "digits": 1,
-   "rank": 400,
+   "rank": 381,
    "of": 426
   },
   {
@@ -1430,9 +1430,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.42,
+   "value": -0.28,
    "digits": 2,
-   "rank": 46,
+   "rank": 44,
    "of": 52
   },
   {
@@ -1499,9 +1499,9 @@
    "group": "Franchise",
    "scope": "got that DAWG",
    "stat": "WAR",
-   "value": -0.02,
+   "value": 0.12,
    "digits": 2,
-   "rank": 31,
+   "rank": 23,
    "of": 40,
    "franchise": 6
   },
@@ -2148,7 +2148,7 @@
     "season": "2026",
     "nfl": "PHI",
     "missed": 2,
-    "lost": 0.0,
+    "lost": 1.06,
     "injuries": [
      "Knee"
     ],
@@ -2300,9 +2300,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 0.0
+    "lost": 1.06
    }
   ],
-  "now": null
+  "now": {
+   "status": "Out",
+   "injury": "Shoulder",
+   "since": null,
+   "streak": 0
+  }
  }
 }

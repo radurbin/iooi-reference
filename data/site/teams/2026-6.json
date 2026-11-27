@@ -301,8 +301,8 @@
    "bench_pts": 0.0,
    "wins": 6,
    "paa": 35.66,
-   "vor": 80.6,
-   "war": 0.95
+   "vor": 85.6,
+   "war": 1.01
   },
   {
    "player": "9224",
@@ -331,8 +331,8 @@
    "bench_pts": 15.5,
    "wins": 7,
    "paa": 19.72,
-   "vor": 58.66,
-   "war": 0.69
+   "vor": 63.16,
+   "war": 0.75
   },
   {
    "player": "11786",
@@ -346,8 +346,8 @@
    "bench_pts": 0.0,
    "wins": 6,
    "paa": 25.43,
-   "vor": 28.0,
-   "war": 0.33
+   "vor": 18.8,
+   "war": 0.22
   },
   {
    "player": "2216",
@@ -361,8 +361,8 @@
    "bench_pts": 16.9,
    "wins": 2,
    "paa": 11.1,
-   "vor": 39.44,
-   "war": 0.47
+   "vor": 42.44,
+   "war": 0.5
   },
   {
    "player": "5022",
@@ -376,8 +376,8 @@
    "bench_pts": 9.8,
    "wins": 5,
    "paa": -4.6,
-   "vor": -1.5,
-   "war": -0.02
+   "vor": 10.33,
+   "war": 0.12
   },
   {
    "player": "HOU",
@@ -421,8 +421,8 @@
    "bench_pts": 83.7,
    "wins": 4,
    "paa": -1.26,
-   "vor": 14.86,
-   "war": 0.18
+   "vor": 16.86,
+   "war": 0.2
   },
   {
    "player": "9479",
@@ -436,8 +436,8 @@
    "bench_pts": 43.0,
    "wins": 2,
    "paa": -18.03,
-   "vor": -15.1,
-   "war": -0.18
+   "vor": -8.34,
+   "war": -0.1
   },
   {
    "player": "4943",
@@ -466,8 +466,8 @@
    "bench_pts": 10.4,
    "wins": 2,
    "paa": -13.88,
-   "vor": -5.12,
-   "war": -0.06
+   "vor": -4.12,
+   "war": -0.05
   },
   {
    "player": "PHI",
@@ -511,8 +511,8 @@
    "bench_pts": 32.0,
    "wins": 1,
    "paa": -0.97,
-   "vor": -0.4,
-   "war": -0.0
+   "vor": -1.32,
+   "war": -0.02
   },
   {
    "player": "12498",
@@ -1434,8 +1434,8 @@
    "opp_record": "7-4",
    "opp_seed": 4,
    "chance": 0.46,
-   "proj": 145.11,
-   "opp_proj": 149.2
+   "proj": 144.96,
+   "opp_proj": 148.95
   },
   {
    "week": 13,
@@ -1457,7 +1457,7 @@
  "injuries": {
   "games": 38,
   "players": 11,
-  "lost": 36.59,
+  "lost": 42.14,
   "rank": 7,
   "games_rank": 2,
   "of": 12,
@@ -1467,7 +1467,7 @@
     "name": "Mike Evans",
     "pos": "WR",
     "missed": 3,
-    "lost": 20.19,
+    "lost": 21.69,
     "injuries": [
      "Ribs",
      "Achilles"
@@ -1487,7 +1487,7 @@
     "name": "George Pickens",
     "pos": "WR",
     "missed": 1,
-    "lost": 8.06,
+    "lost": 8.05,
     "injuries": [
      "Hamstring"
     ],
@@ -1504,7 +1504,7 @@
     "name": "Zay Flowers",
     "pos": "WR",
     "missed": 1,
-    "lost": 6.49,
+    "lost": 6.99,
     "injuries": [
      "Hamstring"
     ],
@@ -1521,7 +1521,7 @@
     "name": "Tank Dell",
     "pos": "WR",
     "missed": 5,
-    "lost": 1.85,
+    "lost": 4.35,
     "injuries": [
      "Knee"
     ],
@@ -1536,6 +1536,24 @@
      "IR"
     ],
     "gs": 0
+   },
+   {
+    "player": "5022",
+    "name": "Dallas Goedert",
+    "pos": "TE",
+    "missed": 2,
+    "lost": 1.06,
+    "injuries": [
+     "Knee"
+    ],
+    "weeks": [
+     3,
+     4
+    ],
+    "kinds": [
+     "Out"
+    ],
+    "gs": 7
    },
    {
     "player": "8205",
@@ -1628,24 +1646,6 @@
      "Questionable"
     ],
     "gs": 0
-   },
-   {
-    "player": "5022",
-    "name": "Dallas Goedert",
-    "pos": "TE",
-    "missed": 2,
-    "lost": 0.0,
-    "injuries": [
-     "Knee"
-    ],
-    "weeks": [
-     3,
-     4
-    ],
-    "kinds": [
-     "Out"
-    ],
-    "gs": 7
    },
    {
     "player": "12498",

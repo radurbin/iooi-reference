@@ -80,8 +80,8 @@
    "best": 0.0,
    "wins": 0,
    "paa": -13.16,
-   "vor": -9.26,
-   "war": -0.11
+   "vor": -8.76,
+   "war": -0.1
   }
  ],
  "totals": {
@@ -93,7 +93,7 @@
   "best": 29.7,
   "wins": 14,
   "paa": -3.01,
-  "vor": 69.29,
+  "vor": 69.79,
   "war": 0.82
  },
  "nfl": [
@@ -1249,8 +1249,8 @@
    "proj": 8.03,
    "won": false,
    "paa": -13.16,
-   "vor": -9.26,
-   "war": -0.10944193239678685
+   "vor": -8.76,
+   "war": -0.1035325407986882
   }
  ],
  "similar": [
@@ -1275,11 +1275,11 @@
   {
    "player": "12526",
    "name": "Tetairoa McMillan",
-   "score": 894,
+   "score": 892,
    "gs": 24,
    "pts": 318.0,
    "ppg": 13.25,
-   "war": 0.91
+   "war": 0.97
   },
   {
    "player": "6819",
@@ -1293,11 +1293,11 @@
   {
    "player": "10229",
    "name": "Rashee Rice",
-   "score": 867,
+   "score": 865,
    "gs": 23,
    "pts": 335.6,
    "ppg": 14.59,
-   "war": 1.1
+   "war": 1.14
   }
  ],
  "status": {
@@ -1347,9 +1347,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 69.3,
+   "value": 69.8,
    "digits": 1,
-   "rank": 94,
+   "rank": 93,
    "of": 426
   },
   {
@@ -1439,9 +1439,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": -0.14,
+   "value": -0.13,
    "digits": 2,
-   "rank": 58,
+   "rank": 57,
    "of": 68,
    "franchise": 3
   },

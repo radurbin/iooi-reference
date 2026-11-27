@@ -80,8 +80,8 @@
    "best": 10.9,
    "wins": 0,
    "paa": -19.18,
-   "vor": -13.8,
-   "war": -0.16
+   "vor": -8.73,
+   "war": -0.1
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 27.1,
   "wins": 13,
   "paa": -68.43,
-  "vor": -24.18,
-  "war": -0.29
+  "vor": -19.11,
+  "war": -0.23
  },
  "nfl": [
   {
@@ -1112,8 +1112,8 @@
    "proj": 10.51,
    "won": false,
    "paa": -1.69,
-   "vor": 0.6,
-   "war": 0.00709126991771837
+   "vor": 2.29,
+   "war": 0.02706501351929178
   },
   {
    "season": "2026",
@@ -1163,8 +1163,8 @@
    "proj": 10.4,
    "won": false,
    "paa": -8.03,
-   "vor": -5.5,
-   "war": -0.06500330757908505
+   "vor": -3.81,
+   "war": -0.04502956397751165
   },
   {
    "season": "2026",
@@ -1182,8 +1182,8 @@
    "proj": 9.59,
    "won": false,
    "paa": -9.46,
-   "vor": -8.9,
-   "war": -0.10518717044615583
+   "vor": -7.21,
+   "war": -0.08521342684458241
   },
   {
    "season": "2026",
@@ -1270,29 +1270,29 @@
   {
    "player": "7553",
    "name": "Kyle Pitts Sr.",
-   "score": 797,
+   "score": 802,
    "gs": 40,
    "pts": 344.9,
    "ppg": 8.62,
-   "war": -0.68
+   "war": -0.58
   },
   {
    "player": "10236",
    "name": "Dalton Kincaid",
-   "score": 732,
+   "score": 741,
    "gs": 39,
    "pts": 318.1,
    "ppg": 8.16,
-   "war": -0.88
+   "war": -0.76
   },
   {
    "player": "5022",
    "name": "Dallas Goedert",
-   "score": 711,
+   "score": 713,
    "gs": 34,
    "pts": 306.3,
    "ppg": 9.01,
-   "war": -0.42
+   "war": -0.28
   },
   {
    "player": "8110",
@@ -1301,16 +1301,16 @@
    "gs": 34,
    "pts": 350.0,
    "ppg": 10.29,
-   "war": 0.22
+   "war": 0.3
   },
   {
    "player": "10859",
    "name": "Sam LaPorta",
-   "score": 618,
+   "score": 609,
    "gs": 45,
    "pts": 533.3,
    "ppg": 11.85,
-   "war": 0.97
+   "war": 1.13
   }
  ],
  "status": {
@@ -1341,18 +1341,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.29,
+   "value": -0.23,
    "digits": 2,
-   "rank": 380,
+   "rank": 362,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -24.2,
+   "value": -19.1,
    "digits": 1,
-   "rank": 381,
+   "rank": 364,
    "of": 426
   },
   {
@@ -1413,7 +1413,7 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.29,
+   "value": -0.23,
    "digits": 2,
    "rank": 42,
    "of": 52
@@ -1442,9 +1442,9 @@
    "group": "Franchise",
    "scope": "Team Win One Game",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.21,
    "digits": 2,
-   "rank": 39,
+   "rank": 38,
    "of": 50,
    "franchise": 12
   },
@@ -1581,7 +1581,7 @@
  ],
  "hof": {
   "score": 11.75,
-  "rank": 118,
+  "rank": 117,
   "of": 426,
   "war": 0.0,
   "starts": 11.75,

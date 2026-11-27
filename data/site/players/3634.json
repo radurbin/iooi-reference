@@ -41,7 +41,7 @@
    "best": 2.4,
    "wins": 0,
    "paa": -10.76,
-   "vor": -6.86,
+   "vor": -6.36,
    "war": -0.08
   }
  ],
@@ -54,7 +54,7 @@
   "best": 2.4,
   "wins": 0,
   "paa": -10.76,
-  "vor": -6.86,
+  "vor": -6.36,
   "war": -0.08
  },
  "nfl": [
@@ -83,8 +83,8 @@
    "season": "2026",
    "team": "CHI",
    "g": 11,
-   "pts": 75.5,
-   "rank": 56
+   "pts": 78.3,
+   "rank": 53
   }
  ],
  "history": [
@@ -179,8 +179,8 @@
    "proj": 7.07,
    "won": false,
    "paa": -10.76,
-   "vor": -6.86,
-   "war": -0.08107685272591336
+   "vor": -6.36,
+   "war": -0.07516746112781472
   }
  ],
  "status": {
@@ -213,16 +213,16 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 272,
+   "rank": 271,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -6.9,
+   "value": -6.4,
    "digits": 1,
-   "rank": 276,
+   "rank": 271,
    "of": 426
   },
   {
@@ -305,7 +305,7 @@
    "stat": "WAR",
    "value": -0.08,
    "digits": 2,
-   "rank": 40,
+   "rank": 41,
    "of": 55,
    "franchise": 7
   },
@@ -353,7 +353,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 374,
+  "rank": 373,
   "of": 426,
   "war": 0.0,
   "starts": 0.25,

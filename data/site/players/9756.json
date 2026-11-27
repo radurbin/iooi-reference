@@ -96,8 +96,8 @@
    "best": 13.1,
    "wins": 0,
    "paa": -44.45,
-   "vor": -24.0,
-   "war": -0.28
+   "vor": -21.5,
+   "war": -0.25
   }
  ],
  "totals": {
@@ -109,8 +109,8 @@
   "best": 39.3,
   "wins": 16,
   "paa": -44.25,
-  "vor": 20.8,
-  "war": 0.25
+  "vor": 23.3,
+  "war": 0.28
  },
  "nfl": [
   {
@@ -1154,8 +1154,8 @@
    "proj": 8.42,
    "won": false,
    "paa": -9.19,
-   "vor": -4.86,
-   "war": -0.0574392863335188
+   "vor": -4.36,
+   "war": -0.05152989473542016
   },
   {
    "season": "2026",
@@ -1173,8 +1173,8 @@
    "proj": 9.64,
    "won": false,
    "paa": -0.04,
-   "vor": 3.84,
-   "war": 0.04538412747339757
+   "vor": 4.34,
+   "war": 0.05129351907149621
   },
   {
    "season": "2026",
@@ -1192,8 +1192,8 @@
    "proj": 9.51,
    "won": false,
    "paa": -8.84,
-   "vor": -4.46,
-   "war": -0.052711773055039886
+   "vor": -3.96,
+   "war": -0.04680238145694124
   },
   {
    "season": "2026",
@@ -1211,8 +1211,8 @@
    "proj": null,
    "won": false,
    "paa": -13.22,
-   "vor": -9.26,
-   "war": -0.10944193239678685
+   "vor": -8.76,
+   "war": -0.1035325407986882
   },
   {
    "season": "2026",
@@ -1230,28 +1230,28 @@
    "proj": null,
    "won": false,
    "paa": -13.16,
-   "vor": -9.26,
-   "war": -0.10944193239678685
+   "vor": -8.76,
+   "war": -0.1035325407986882
   }
  ],
  "similar": [
   {
    "player": "8167",
    "name": "Christian Watson",
-   "score": 906,
+   "score": 905,
    "gs": 24,
    "pts": 281.4,
    "ppg": 11.72,
-   "war": 0.29
+   "war": 0.35
   },
   {
    "player": "5927",
    "name": "Terry McLaurin",
-   "score": 903,
+   "score": 901,
    "gs": 32,
    "pts": 375.2,
    "ppg": 11.72,
-   "war": 0.0
+   "war": 0.01
   },
   {
    "player": "8121",
@@ -1260,12 +1260,12 @@
    "gs": 25,
    "pts": 274.8,
    "ppg": 10.99,
-   "war": 0.01
+   "war": 0.04
   },
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 875,
+   "score": 873,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -1274,11 +1274,11 @@
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 872,
+   "score": 870,
    "gs": 33,
    "pts": 401.1,
    "ppg": 12.15,
-   "war": 0.57
+   "war": 0.62
   }
  ],
  "status": {
@@ -1309,7 +1309,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.25,
+   "value": 0.28,
    "digits": 2,
    "rank": 152,
    "of": 426
@@ -1318,9 +1318,9 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 20.8,
+   "value": 23.3,
    "digits": 1,
-   "rank": 153,
+   "rank": 152,
    "of": 426
   },
   {
@@ -1381,7 +1381,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.25,
+   "value": 0.28,
    "digits": 2,
    "rank": 42,
    "of": 129
@@ -1412,7 +1412,7 @@
    "stat": "WAR",
    "value": 0.53,
    "digits": 2,
-   "rank": 11,
+   "rank": 12,
    "of": 69,
    "franchise": 8
   },
@@ -1450,7 +1450,7 @@
    "group": "Franchise",
    "scope": "Maddison Beer’s Boys",
    "stat": "WAR",
-   "value": -0.28,
+   "value": -0.25,
    "digits": 2,
    "rank": 70,
    "of": 74,
@@ -1588,10 +1588,10 @@
   }
  ],
  "hof": {
-  "score": 9.5,
+  "score": 9.8,
   "rank": 137,
   "of": 426,
-  "war": 2.5,
+  "war": 2.8,
   "starts": 7.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1884,27 +1884,27 @@
    [
     "2026",
     7,
-    10.7
+    10.8
    ],
    [
     "2026",
     8,
-    11.45
+    11.55
    ],
    [
     "2026",
     9,
-    11.1
+    11.3
    ],
    [
     "2026",
     10,
-    10.35
+    10.55
    ],
    [
     "2026",
     11,
-    9.5
+    9.8
    ]
   ],
   "benchmark": 100

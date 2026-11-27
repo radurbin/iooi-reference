@@ -326,7 +326,7 @@
    {
     "season": "2026",
     "nfl": "KC",
-    "missed": 6,
+    "missed": 7,
     "lost": 0.0,
     "injuries": [
      "Ankle"
@@ -337,7 +337,8 @@
      8,
      9,
      10,
-     11
+     11,
+     12
     ],
     "kinds": [
      "IR"
@@ -381,6 +382,13 @@
      },
      {
       "week": 11,
+      "kind": "IR",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
       "kind": "IR",
       "injury": "Ankle",
       "franchise": null,
@@ -450,16 +458,17 @@
    {
     "season": "2026",
     "from": 6,
-    "to": 11,
+    "to": 12,
     "weeks": [
      6,
      7,
      8,
      9,
      10,
-     11
+     11,
+     12
     ],
-    "missed": 6,
+    "missed": 7,
     "nfl": "KC",
     "injury": "Ankle",
     "kinds": [

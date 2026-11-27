@@ -80,8 +80,8 @@
    "best": 3.7,
    "wins": 1,
    "paa": -8.7,
-   "vor": -5.56,
-   "war": -0.07
+   "vor": -5.06,
+   "war": -0.06
   }
  ],
  "totals": {
@@ -93,8 +93,8 @@
   "best": 27.3,
   "wins": 12,
   "paa": -55.37,
-  "vor": 0.29,
-  "war": 0.0
+  "vor": 0.79,
+  "war": 0.01
  },
  "nfl": [
   {
@@ -1160,8 +1160,8 @@
    "proj": 11.61,
    "won": true,
    "paa": -8.7,
-   "vor": -5.56,
-   "war": -0.06571243457085689
+   "vor": -5.06,
+   "war": -0.05980304297275825
   },
   {
    "season": "2026",
@@ -1248,7 +1248,7 @@
   {
    "player": "4981",
    "name": "Calvin Ridley",
-   "score": 971,
+   "score": 970,
    "gs": 33,
    "pts": 381.8,
    "ppg": 11.57,
@@ -1257,25 +1257,25 @@
   {
    "player": "9756",
    "name": "Jordan Addison",
-   "score": 903,
+   "score": 901,
    "gs": 28,
    "pts": 334.8,
    "ppg": 11.96,
-   "war": 0.25
+   "war": 0.28
   },
   {
    "player": "11635",
    "name": "Ladd McConkey",
-   "score": 892,
+   "score": 887,
    "gs": 33,
    "pts": 401.1,
    "ppg": 12.15,
-   "war": 0.57
+   "war": 0.62
   },
   {
    "player": "5846",
    "name": "DK Metcalf",
-   "score": 857,
+   "score": 859,
    "gs": 31,
    "pts": 408.1,
    "ppg": 13.16,
@@ -1288,7 +1288,7 @@
    "gs": 27,
    "pts": 284.5,
    "ppg": 10.54,
-   "war": -0.12
+   "war": -0.1
   }
  ],
  "status": {
@@ -1329,18 +1329,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": 0.0,
+   "value": 0.01,
    "digits": 2,
-   "rank": 224,
+   "rank": 220,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": 0.3,
+   "value": 0.8,
    "digits": 1,
-   "rank": 224,
+   "rank": 222,
    "of": 426
   },
   {
@@ -1401,9 +1401,9 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": 0.0,
+   "value": 0.01,
    "digits": 2,
-   "rank": 57,
+   "rank": 56,
    "of": 129
   },
   {
@@ -1430,9 +1430,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": -0.01,
+   "value": 0.0,
    "digits": 2,
-   "rank": 43,
+   "rank": 42,
    "of": 68,
    "franchise": 3
   },
@@ -1568,10 +1568,10 @@
   }
  ],
  "hof": {
-  "score": 8.0,
-  "rank": 158,
+  "score": 8.1,
+  "rank": 157,
   "of": 426,
-  "war": 0.0,
+  "war": 0.1,
   "starts": 8.0,
   "black_ink": 0.0,
   "awards": 0.0,
@@ -1859,32 +1859,32 @@
    [
     "2026",
     6,
-    8.0
+    8.1
    ],
    [
     "2026",
     7,
-    8.0
+    8.1
    ],
    [
     "2026",
     8,
-    8.0
+    8.1
    ],
    [
     "2026",
     9,
-    8.0
+    8.1
    ],
    [
     "2026",
     10,
-    8.0
+    8.1
    ],
    [
     "2026",
     11,
-    8.0
+    8.1
    ]
   ],
   "benchmark": 100
@@ -1970,7 +1970,7 @@
     "season": "2026",
     "nfl": "WAS",
     "missed": 5,
-    "lost": 0.0,
+    "lost": 2.2,
     "injuries": [
      "Knee",
      "Hamstring"
@@ -2096,7 +2096,7 @@
      }
     ],
     "rostered": 1,
-    "lost": 0.0
+    "lost": 0.44
    },
    {
     "season": "2026",
@@ -2121,7 +2121,7 @@
      }
     ],
     "rostered": 4,
-    "lost": 0.0
+    "lost": 1.76
    }
   ],
   "now": {

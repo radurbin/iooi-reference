@@ -127,7 +127,7 @@
    "team": "IND/SF",
    "g": 10,
    "pts": 102.0,
-   "rank": 30
+   "rank": 34
   }
  ],
  "history": [
@@ -1247,47 +1247,47 @@
   {
    "player": "2449",
    "name": "Stefon Diggs",
-   "score": 922,
+   "score": 926,
    "gs": 35,
    "pts": 519.32,
    "ppg": 14.84,
-   "war": 1.41
-  },
-  {
-   "player": "6801",
-   "name": "Tee Higgins",
-   "score": 848,
-   "gs": 36,
-   "pts": 595.5,
-   "ppg": 16.54,
-   "war": 2.41
+   "war": 1.45
   },
   {
    "player": "8146",
    "name": "Garrett Wilson",
-   "score": 843,
+   "score": 846,
    "gs": 40,
    "pts": 562.0,
    "ppg": 14.05,
-   "war": 1.38
+   "war": 1.44
+  },
+  {
+   "player": "6801",
+   "name": "Tee Higgins",
+   "score": 840,
+   "gs": 36,
+   "pts": 595.5,
+   "ppg": 16.54,
+   "war": 2.47
   },
   {
    "player": "8144",
    "name": "Chris Olave",
-   "score": 833,
+   "score": 831,
    "gs": 42,
    "pts": 619.5,
    "ppg": 14.75,
-   "war": 1.86
+   "war": 1.92
   },
   {
    "player": "5872",
    "name": "Deebo Samuel Sr.",
-   "score": 822,
+   "score": 824,
    "gs": 37,
    "pts": 511.15,
    "ppg": 13.81,
-   "war": 1.04
+   "war": 1.05
   }
  ],
  "status": {
@@ -1320,7 +1320,7 @@
    "stat": "WAR",
    "value": 1.67,
    "digits": 2,
-   "rank": 57,
+   "rank": 58,
    "of": 426
   },
   {
@@ -1329,7 +1329,7 @@
    "stat": "VOR",
    "value": 141.3,
    "digits": 1,
-   "rank": 57,
+   "rank": 58,
    "of": 426
   },
   {
@@ -1421,7 +1421,7 @@
    "stat": "WAR",
    "value": 1.67,
    "digits": 2,
-   "rank": 6,
+   "rank": 7,
    "of": 45,
    "franchise": 11
   },

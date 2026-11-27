@@ -79,7 +79,7 @@
    "playoff_w": 0,
    "playoff_l": 0,
    "pct": 0.727,
-   "transactions": 66,
+   "transactions": 67,
    "trades": 5,
    "partial_season": false,
    "result": null
@@ -94,7 +94,7 @@
   "playoff_w": 0,
   "playoff_l": 2,
   "pct": 0.509,
-  "transactions": 170,
+  "transactions": 171,
   "trades": 16
  },
  "championships": [],
@@ -112,8 +112,8 @@
     "pts": 778.16,
     "best": 42.5,
     "wins": 18,
-    "vor": 384.21,
-    "war": 4.54
+    "vor": 389.21,
+    "war": 4.6
    },
    {
     "player": "5859",
@@ -203,8 +203,8 @@
     "pts": 249.3,
     "best": 27.3,
     "wins": 10,
-    "vor": 34.94,
-    "war": 0.41
+    "vor": 35.44,
+    "war": 0.42
    },
    {
     "player": "4018",
@@ -229,8 +229,8 @@
     "pts": 206.9,
     "best": 34.1,
     "wins": 7,
-    "vor": 114.3,
-    "war": 1.35
+    "vor": 119.3,
+    "war": 1.41
    },
    {
     "player": "1689",
@@ -522,8 +522,8 @@
      "pts": 778.16,
      "best": 42.5,
      "wins": 18,
-     "vor": 384.21,
-     "war": 4.54
+     "vor": 389.21,
+     "war": 4.6
     },
     {
      "player": "5859",
@@ -589,8 +589,8 @@
      "pts": 92.3,
      "best": 18.1,
      "wins": 7,
-     "vor": -0.4,
-     "war": -0.0
+     "vor": 14.81,
+     "war": 0.18
     }
    ],
    "K": [
@@ -630,8 +630,8 @@
      "pts": 63.4,
      "best": 22.3,
      "wins": 5,
-     "vor": 0.4,
-     "war": 0.0
+     "vor": -6.04,
+     "war": -0.07
     }
    ],
    "DEF": [
@@ -731,8 +731,8 @@
    "pts": 778.16,
    "best": 42.5,
    "wins": 18,
-   "vor": 384.21,
-   "war": 4.54
+   "vor": 389.21,
+   "war": 4.6
   },
   {
    "slot": "WR",
@@ -1318,7 +1318,7 @@
    "team": "Kolkata Kommies",
    "games": 31,
    "players": 10,
-   "lost": 21.29,
+   "lost": 24.49,
    "rank": 9,
    "of": 12
   }
@@ -1352,7 +1352,7 @@
    "name": "Terry McLaurin",
    "pos": "WR",
    "missed": 12,
-   "lost": 8.26,
+   "lost": 10.46,
    "injuries": [
     "Quadricep",
     "Knee",

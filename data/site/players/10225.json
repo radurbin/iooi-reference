@@ -91,7 +91,7 @@
    "team": "DAL",
    "g": 9,
    "pts": 9.3,
-   "rank": 160
+   "rank": 161
   }
  ],
  "history": [
@@ -642,7 +642,7 @@
    "stat": "WAR",
    "value": -0.09,
    "digits": 2,
-   "rank": 73,
+   "rank": 75,
    "of": 129
   },
   {
@@ -719,7 +719,7 @@
  "similar": [],
  "hof": {
   "score": 0.25,
-  "rank": 374,
+  "rank": 373,
   "of": 426,
   "war": 0.0,
   "starts": 0.25,
@@ -1153,14 +1153,15 @@
    {
     "season": "2026",
     "nfl": "DAL",
-    "missed": 2,
+    "missed": 3,
     "lost": 0.0,
     "injuries": [
      "Ankle"
     ],
     "weeks": [
      10,
-     11
+     11,
+     12
     ],
     "kinds": [
      "Out"
@@ -1176,6 +1177,13 @@
      },
      {
       "week": 11,
+      "kind": "Out",
+      "injury": "Ankle",
+      "franchise": null,
+      "team": null
+     },
+     {
+      "week": 12,
       "kind": "Out",
       "injury": "Ankle",
       "franchise": null,
@@ -1235,12 +1243,13 @@
    {
     "season": "2026",
     "from": 10,
-    "to": 11,
+    "to": 12,
     "weeks": [
      10,
-     11
+     11,
+     12
     ],
-    "missed": 2,
+    "missed": 3,
     "nfl": "DAL",
     "injury": "Ankle",
     "kinds": [

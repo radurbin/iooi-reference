@@ -142,8 +142,8 @@
   {
    "season": "2026",
    "team": "PHI",
-   "g": 8,
-   "pts": 80.8,
+   "g": 9,
+   "pts": 82.0,
    "rank": 36
   }
  ],
@@ -1567,7 +1567,7 @@
    "stat": "WAR",
    "value": 3.95,
    "digits": 2,
-   "rank": 2,
+   "rank": 3,
    "of": 78,
    "franchise": 1
   },
@@ -2084,7 +2084,7 @@
     "season": "2026",
     "nfl": "PHI",
     "missed": 2,
-    "lost": 3.26,
+    "lost": 1.28,
     "injuries": [
      "Hamstring"
     ],
@@ -2162,9 +2162,14 @@
      }
     ],
     "rostered": 2,
-    "lost": 3.26
+    "lost": 1.28
    }
   ],
-  "now": null
+  "now": {
+   "status": "Questionable",
+   "injury": "Neck",
+   "since": null,
+   "streak": 0
+  }
  }
 }

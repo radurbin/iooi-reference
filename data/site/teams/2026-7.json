@@ -286,8 +286,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 81.4,
-   "vor": 112.48,
-   "war": 1.33
+   "vor": 115.98,
+   "war": 1.37
   },
   {
    "player": "8228",
@@ -316,8 +316,8 @@
    "bench_pts": 0.0,
    "wins": 4,
    "paa": 51.83,
-   "vor": 57.2,
-   "war": 0.68
+   "vor": 72.41,
+   "war": 0.86
   },
   {
    "player": "12512",
@@ -346,8 +346,8 @@
    "bench_pts": 36.5,
    "wins": 4,
    "paa": -11.51,
-   "vor": 21.16,
-   "war": 0.25
+   "vor": 24.66,
+   "war": 0.29
   },
   {
    "player": "13345",
@@ -376,8 +376,8 @@
    "bench_pts": 12.6,
    "wins": 2,
    "paa": -36.74,
-   "vor": -5.12,
-   "war": -0.06
+   "vor": -1.62,
+   "war": -0.02
   },
   {
    "player": "2306",
@@ -406,8 +406,8 @@
    "bench_pts": 0.0,
    "wins": 2,
    "paa": 9.83,
-   "vor": 11.3,
-   "war": 0.13
+   "vor": 6.7,
+   "war": 0.08
   },
   {
    "player": "3451",
@@ -421,8 +421,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 6.9,
-   "vor": 10.7,
-   "war": 0.13
+   "vor": 6.1,
+   "war": 0.07
   },
   {
    "player": "PIT",
@@ -481,8 +481,8 @@
    "bench_pts": 90.4,
    "wins": 0,
    "paa": -22.53,
-   "vor": -9.88,
-   "war": -0.12
+   "vor": -8.38,
+   "war": -0.1
   },
   {
    "player": "KC",
@@ -526,8 +526,8 @@
    "bench_pts": 0.0,
    "wins": 1,
    "paa": 3.03,
-   "vor": 0.9,
-   "war": 0.01
+   "vor": -0.02,
+   "war": -0.0
   },
   {
    "player": "CHI",
@@ -556,8 +556,8 @@
    "bench_pts": 74.7,
    "wins": 0,
    "paa": -4.09,
-   "vor": -1.8,
-   "war": -0.02
+   "vor": -0.11,
+   "war": -0.0
   },
   {
    "player": "CLE",
@@ -586,8 +586,8 @@
    "bench_pts": 65.1,
    "wins": 0,
    "paa": -5.37,
-   "vor": -7.0,
-   "war": -0.08
+   "vor": -5.31,
+   "war": -0.06
   },
   {
    "player": "LAR",
@@ -616,7 +616,7 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -10.76,
-   "vor": -6.86,
+   "vor": -6.36,
    "war": -0.08
   },
   {
@@ -811,8 +811,8 @@
    "bench_pts": 0.0,
    "wins": 0,
    "paa": -13.22,
-   "vor": -9.26,
-   "war": -0.11
+   "vor": -8.76,
+   "war": -0.1
   },
   {
    "player": "NYG",
@@ -2355,8 +2355,8 @@
    "opp_record": "10-1",
    "opp_seed": 1,
    "chance": 0.284,
-   "proj": 146.31,
-   "opp_proj": 157.08
+   "proj": 146.59,
+   "opp_proj": 167.94
   },
   {
    "week": 13,
@@ -2378,7 +2378,7 @@
  "injuries": {
   "games": 36,
   "players": 11,
-  "lost": 165.22,
+  "lost": 177.29,
   "rank": 1,
   "games_rank": 3,
   "of": 12,
@@ -2388,7 +2388,7 @@
     "name": "Puka Nacua",
     "pos": "WR",
     "missed": 3,
-    "lost": 48.21,
+    "lost": 49.71,
     "injuries": [
      "Hip",
      "Knee"
@@ -2430,7 +2430,7 @@
     "name": "Brock Bowers",
     "pos": "TE",
     "missed": 3,
-    "lost": 25.32,
+    "lost": 30.39,
     "injuries": [
      "Knee",
      "Ankle"
@@ -2477,7 +2477,7 @@
     "name": "Michael Pittman Jr.",
     "pos": "WR",
     "missed": 7,
-    "lost": 15.54,
+    "lost": 19.04,
     "injuries": [
      "Foot"
     ],
@@ -2501,7 +2501,7 @@
     "name": "Michael Wilson",
     "pos": "WR",
     "missed": 2,
-    "lost": 8.7,
+    "lost": 9.7,
     "injuries": [
      "Neck"
     ],
@@ -2536,7 +2536,7 @@
     "name": "Ladd McConkey",
     "pos": "WR",
     "missed": 2,
-    "lost": 2.14,
+    "lost": 3.14,
     "injuries": [
      "Foot",
      "Back"

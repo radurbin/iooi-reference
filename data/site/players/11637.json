@@ -64,8 +64,8 @@
    "best": 7.7,
    "wins": 0,
    "paa": -7.09,
-   "vor": -1.56,
-   "war": -0.02
+   "vor": -1.06,
+   "war": -0.01
   }
  ],
  "totals": {
@@ -77,8 +77,8 @@
   "best": 18.0,
   "wins": 3,
   "paa": -44.06,
-  "vor": -22.46,
-  "war": -0.27
+  "vor": -21.96,
+  "war": -0.26
  },
  "nfl": [
   {
@@ -98,9 +98,9 @@
   {
    "season": "2026",
    "team": "BUF",
-   "g": 10,
+   "g": 11,
    "pts": 77.2,
-   "rank": 54
+   "rank": 55
   }
  ],
  "history": [
@@ -763,8 +763,8 @@
    "proj": 11.16,
    "won": false,
    "paa": -7.09,
-   "vor": -1.56,
-   "war": -0.018437301786067763
+   "vor": -1.06,
+   "war": -0.012527910187969121
   },
   {
    "season": "2026",
@@ -871,7 +871,7 @@
    "gs": 11,
    "pts": 83.9,
    "ppg": 7.63,
-   "war": -0.27
+   "war": -0.23
   },
   {
    "player": "12514",
@@ -880,7 +880,7 @@
    "gs": 8,
    "pts": 74.3,
    "ppg": 9.29,
-   "war": -0.09
+   "war": -0.08
   },
   {
    "player": "9754",
@@ -889,7 +889,7 @@
    "gs": 14,
    "pts": 116.2,
    "ppg": 8.3,
-   "war": -0.39
+   "war": -0.37
   },
   {
    "player": "7090",
@@ -903,7 +903,7 @@
   {
    "player": "8119",
    "name": "Jahan Dotson",
-   "score": 854,
+   "score": 853,
    "gs": 11,
    "pts": 73.5,
    "ppg": 6.68,
@@ -938,7 +938,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.26,
    "digits": 2,
    "rank": 373,
    "of": 426
@@ -947,7 +947,7 @@
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -22.5,
+   "value": -22.0,
    "digits": 1,
    "rank": 373,
    "of": 426
@@ -1010,7 +1010,7 @@
    "group": "Career",
    "scope": "All WRs",
    "stat": "WAR",
-   "value": -0.27,
+   "value": -0.26,
    "digits": 2,
    "rank": 110,
    "of": 129
@@ -1039,7 +1039,7 @@
    "group": "Franchise",
    "scope": "BubbaNASTIES",
    "stat": "WAR",
-   "value": -0.26,
+   "value": -0.25,
    "digits": 2,
    "rank": 40,
    "of": 45,
@@ -1148,7 +1148,7 @@
  ],
  "hof": {
   "score": 2.0,
-  "rank": 260,
+  "rank": 261,
   "of": 426,
   "war": 0.0,
   "starts": 2.0,

@@ -57,8 +57,8 @@
    "best": 26.8,
    "wins": 2,
    "paa": 3.99,
-   "vor": 0.7,
-   "war": 0.01
+   "vor": 5.77,
+   "war": 0.07
   }
  ],
  "totals": {
@@ -70,8 +70,8 @@
   "best": 26.8,
   "wins": 4,
   "paa": -29.17,
-  "vor": -21.88,
-  "war": -0.26
+  "vor": -16.81,
+  "war": -0.2
  },
  "nfl": [
   {
@@ -516,8 +516,8 @@
    "proj": 10.28,
    "won": true,
    "paa": 14.14,
-   "vor": 16.5,
-   "war": 0.19500992273725518
+   "vor": 18.19,
+   "war": 0.2149836663388286
   },
   {
    "season": "2026",
@@ -631,8 +631,8 @@
    "proj": 8.34,
    "won": true,
    "paa": -2.72,
-   "vor": -5.5,
-   "war": -0.06500330757908505
+   "vor": -3.81,
+   "war": -0.04502956397751165
   },
   {
    "season": "2026",
@@ -650,24 +650,24 @@
    "proj": 8.56,
    "won": false,
    "paa": -7.43,
-   "vor": -10.3,
-   "war": -0.12173346692083203
+   "vor": -8.61,
+   "war": -0.1017597233192586
   }
  ],
  "similar": [
   {
    "player": "12493",
    "name": "Oronde Gadsden",
-   "score": 953,
+   "score": 956,
    "gs": 8,
    "pts": 57.15,
    "ppg": 7.14,
-   "war": -0.19
+   "war": -0.17
   },
   {
    "player": "1339",
    "name": "Zach Ertz",
-   "score": 906,
+   "score": 910,
    "gs": 8,
    "pts": 66.3,
    "ppg": 8.29,
@@ -676,16 +676,16 @@
   {
    "player": "3214",
    "name": "Hunter Henry",
-   "score": 882,
+   "score": 883,
    "gs": 11,
    "pts": 95.1,
    "ppg": 8.65,
-   "war": -0.12
+   "war": -0.08
   },
   {
    "player": "6826",
    "name": "Cole Kmet",
-   "score": 734,
+   "score": 730,
    "gs": 22,
    "pts": 161.0,
    "ppg": 7.32,
@@ -694,11 +694,11 @@
   {
    "player": "2505",
    "name": "Darren Waller",
-   "score": 719,
+   "score": 722,
    "gs": 23,
    "pts": 171.1,
    "ppg": 7.44,
-   "war": -0.68
+   "war": -0.6
   }
  ],
  "status": {
@@ -729,18 +729,18 @@
    "group": "Career",
    "scope": "League",
    "stat": "WAR",
-   "value": -0.26,
+   "value": -0.2,
    "digits": 2,
-   "rank": 369,
+   "rank": 354,
    "of": 426
   },
   {
    "group": "Career",
    "scope": "League",
    "stat": "VOR",
-   "value": -21.9,
+   "value": -16.8,
    "digits": 1,
-   "rank": 369,
+   "rank": 355,
    "of": 426
   },
   {
@@ -801,9 +801,9 @@
    "group": "Career",
    "scope": "All TEs",
    "stat": "WAR",
-   "value": -0.26,
+   "value": -0.2,
    "digits": 2,
-   "rank": 41,
+   "rank": 39,
    "of": 52
   },
   {
@@ -832,7 +832,7 @@
    "stat": "WAR",
    "value": -0.06,
    "digits": 2,
-   "rank": 48,
+   "rank": 49,
    "of": 83,
    "franchise": 4
   },
@@ -870,9 +870,9 @@
    "group": "Franchise",
    "scope": "Kolkata Kommies",
    "stat": "WAR",
-   "value": -0.19,
+   "value": -0.13,
    "digits": 2,
-   "rank": 61,
+   "rank": 57,
    "of": 68,
    "franchise": 3
   },
